@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "verified_at_utc": "2026-10-14T18:34:50.185656+00:00",
+  "repository": "cozycactus/x0xb0x-hardware",
+  "source_download_commit": "f398e9ba25425744a577997a9fcf8875be100429",
+  "fresh_clone_directory": "/private/tmp/x0xb0x-fresh-clone-20261014",
+  "native_app_versions": {
+    "KiCad": "10.0.7",
+    "Blender": "5.0.0"
+  },
+  "project_files_byte_identical": 250,
+  "original_Eagle_files_byte_identical": 4,
+  "scene_sha256": "7b26f1a99d5350754413d7af2879317fc7ba6f8e99102761d7143859e068f136",
+  "fitted_component_models": 491,
+  "portable_local_KiCad_dependencies_passed": true,
+  "native_KiCad_checks": {
+    "mainboard_ERC_violations": 0,
+    "ioboard_ERC_violations": 0,
+    "both_native_GLB_exports_passed": true,
+    "configuration_isolated": true,
+    "global_model_lookup_disabled": true
+  },
+  "native_export_geometry_comparison": [
+    {
+      "board": "mainboard",
+      "geometry_and_materials_identical": true,
+      "binary_geometry_sha256": "54d981a2c3f00ae20bd3cc5b0143476708fac26339ccf52f6fa053fd06d1944f",
+      "only_ignored_metadata": "asset.extras.generated_at",
+      "original_generated_at": "2026-10-14T20:33:40",
+      "fresh_generated_at": "2026-10-14T21:31:02",
+      "mesh_count": 581
+    },
+    {
+      "board": "ioboard",
+      "geometry_and_materials_identical": true,
+      "binary_geometry_sha256": "172299f55519e5c43002f55fba2904c81819278c596dc6ee5985e728d9423c9a",
+      "only_ignored_metadata": "asset.extras.generated_at",
+      "original_generated_at": "2026-10-14T20:33:15",
+      "fresh_generated_at": "2026-10-14T21:30:38",
+      "mesh_count": 101
+    }
+  ],
+  "Blender_checks_passed": 106,
+  "native_LED_assemblies": 40,
+  "PCB_attached_button_caps": 23,
+  "unpacked_external_Blender_dependencies": 0,
+  "read_only_check_left_fresh_clone_clean": true,
+  "helper_sha256": {
+    "verify_project.py": "e41aab1256e0b3031d80c0312c804a7a7ab5f27ad5f3059b2315ec6274d25fb1",
+    "verify_kicad_dependencies.py": "733b81462611789b4d22f333b86fd24a34d6e7d8f229422efb91466570391116",
+    "verify_blender_scene.py": "398e616003e0de584c077edd2b432e83858d8457852ba708c7472ffbef268439"
+  },
+  "reports": [
+    "verification/fresh-clone-kicad-dependencies.json",
+    "verification/fresh-clone-native-kicad.json",
+    "verification/fresh-clone-blender.json"
+  ],
+  "limits": [
+    "No new DRC run; existing connection gaps and board/parity warnings remain documented.",
+    "No physical assembly, switch travel, installed tolerance or enclosure fabrication certification.",
+    "Native applications tested on macOS; cross-platform native opening was not tested."
+  ]
+}

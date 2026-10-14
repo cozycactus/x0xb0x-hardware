@@ -1,32 +1,55 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: CC0-1.0
 """Check snapshot integrity without requiring KiCad or Blender."""
+import argparse
 import hashlib
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1],
+                    help="Repository checkout to verify")
+ROOT = parser.parse_args().root.resolve()
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
-manifest = json.loads((ROOT / "docs/repository-content.json").read_text())
+def matches(path, expected):
+    return path.is_file() and sha(path) == expected
+
+def metadata(name):
+    try:
+        return json.loads((ROOT / name).read_text())
+    except (OSError, ValueError) as error:
+        print(json.dumps({"passed": False, "failures": [name],
+                          "error": str(error)}, indent=2))
+        raise SystemExit(1)
+
+required = ["docs/repository-content.json", "PROJECT.json",
+            "kicad-working/validation/working-validation-summary-revision-10.json"]
+missing = [name for name in required if not (ROOT / name).is_file()]
+if missing:
+    print(json.dumps({"passed": False, "failures": missing,
+                      "scope": "Required repository metadata is missing."}, indent=2))
+    raise SystemExit(1)
+
+manifest = metadata("docs/repository-content.json")
 failures = []
 for name, record in manifest["files"].items():
     path = ROOT / name
     if not path.is_file() or path.stat().st_size != record["bytes"] or sha(path) != record["sha256"]:
         failures.append(name)
-summary = json.loads((ROOT / "kicad-working/validation/working-validation-summary-revision-10.json").read_text())
+summary = metadata("kicad-working/validation/working-validation-summary-revision-10.json")
 for name, expected in summary["outputs"].items():
     path = ROOT / "kicad-working" / name
-    if not path.is_file() or sha(path) != expected:
+    if not matches(path, expected):
         failures.append("KiCad: " + name)
-project = json.loads((ROOT / "PROJECT.json").read_text())
+project = metadata("PROJECT.json")
 for name, expected in project["original_Eagle_files"].items():
     path = ROOT / "original-eagle" / name
-    if not path.is_file() or sha(path) != expected:
+    if not matches(path, expected):
         failures.append("Eagle: " + name)
-if sha(ROOT / "kicad-working" / project["blender_scene"]) != project["blender_sha256"]:
+if not matches(ROOT / "kicad-working" / project["blender_scene"], project["blender_sha256"]):
     failures.append("Blender scene")
 result = {"passed": not failures, "repository_files_checked": len(manifest["files"]),
           "KiCad_project_files_checked": len(summary["outputs"]),

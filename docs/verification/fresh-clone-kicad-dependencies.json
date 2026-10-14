@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "repository_root": "/private/tmp/x0xb0x-fresh-clone-20261014",
+  "boards": {
+    "mainboard": {
+      "passed": true,
+      "footprints": 417,
+      "fitted_model_references": 409,
+      "unique_board_model_assets": 44,
+      "mechanical_only_unmodeled": [
+        "U$2",
+        "U$23",
+        "U$24",
+        "U$25",
+        "U$27",
+        "U$28",
+        "U$29"
+      ],
+      "optional_component_unmodeled": [
+        "IC15A0"
+      ],
+      "schematic_symbol_instances": 610,
+      "schematic_footprint_ids": 44,
+      "local_symbol_libraries": 1,
+      "local_footprint_libraries": 1,
+      "library_footprints_checked": 45,
+      "cached_footprint_models_checked": 41
+    },
+    "ioboard": {
+      "passed": true,
+      "footprints": 82,
+      "fitted_model_references": 82,
+      "unique_board_model_assets": 22,
+      "mechanical_only_unmodeled": [],
+      "optional_component_unmodeled": [],
+      "schematic_symbol_instances": 158,
+      "schematic_footprint_ids": 23,
+      "local_symbol_libraries": 1,
+      "local_footprint_libraries": 2,
+      "library_footprints_checked": 28,
+      "cached_footprint_models_checked": 23
+    }
+  },
+  "fitted_model_references_expected": 491,
+  "failures": [],
+  "scope": "Read-only library and model resolution within this checkout. No global KiCad libraries or original workspace required. Does not validate ERC, DRC, model geometry or physical fit. IC15A0 remains documented optional/unmodeled; this does not set a DNP flag."
+}

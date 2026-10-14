@@ -12,7 +12,7 @@ Bundled KiCad library assets and their derivatives retain the KiCad library CC-B
 
 ## Newly authored models and generators
 
-Newly authored model generators and independent illustration geometry are identified as CC0-1.0 in their respective source/provenance directories where applicable. Preserve those notices and the limitations recorded with each model. The hash-check helper in `scripts/verify_project.py` is CC0-1.0.
+Newly authored model generators and independent illustration geometry are identified as CC0-1.0 in their respective source/provenance directories where applicable. Preserve those notices and the limitations recorded with each model. The verification helpers under `scripts/` are CC0-1.0, as marked in each file.
 
 ## Reference material
 

@@ -12,16 +12,36 @@
       "sha256": "fde2470caecc1e60afa325fbc7b01e9fa162dca58b33726d673191e7ca848b9d"
     },
     "LICENSE.md": {
-      "bytes": 1924,
-      "sha256": "69c52df8602cb43cf7bac2fe7bafd77f6452cd3c3d621327f6b2b81d20d99e95"
+      "bytes": 1938,
+      "sha256": "73cc95f62a104053a2602ccc733fc88336b0f3f6329ac3e9bbab827aa26af6f6"
     },
     "PROJECT.json": {
       "bytes": 858,
       "sha256": "dff74c741fe510fad4ebe0d2aadb2759f21996f0370558bfd4dc8555ff376c99"
     },
     "README.md": {
-      "bytes": 4694,
-      "sha256": "cc79b4df16cf98e23af6b6861779974345a710f718ca787e2c5cf72288b6577a"
+      "bytes": 5706,
+      "sha256": "665227d2bdd79738b981d2fdd5fc00d4f2e8027d5c0b538c8e127efa626f642e"
+    },
+    "docs/OPENING.md": {
+      "bytes": 3618,
+      "sha256": "e532d052e6e777fe7d6f9c7598d2cfc61156de8ca54b03076fbda75cc759377c"
+    },
+    "docs/fresh-clone-verification.json": {
+      "bytes": 2610,
+      "sha256": "63524f5a058daffc5e21ada17db5a5c03c4a7ead8fd0d11ec8986c50353d21bd"
+    },
+    "docs/verification/fresh-clone-blender.json": {
+      "bytes": 12492,
+      "sha256": "1cc0620ec1053b8db911da65470f8de501d7d4b5fa5e05b87489a53fe1204ea0"
+    },
+    "docs/verification/fresh-clone-kicad-dependencies.json": {
+      "bytes": 1503,
+      "sha256": "9091cd917139500c042a545f7f48d33c2d5154ab58493ebaf4ee3b9902c65f71"
+    },
+    "docs/verification/fresh-clone-native-kicad.json": {
+      "bytes": 4675,
+      "sha256": "69b7410c0b1e44e2a5c753bb30444ab35a1c53783378e15b00530f457a071af6"
     },
     "kicad-import/validation/adapt_grounded_mounting_pins.py": {
       "bytes": 2840,
@@ -4615,9 +4635,18 @@
       "bytes": 384017,
       "sha256": "6e01dc049bef800bd11d1b8551e736ac7615fa9b6e65b04d35b3d8191a946e3b"
     },
+    "scripts/verify_blender_scene.py": {
+      "bytes": 10195,
+      "sha256": "398e616003e0de584c077edd2b432e83858d8457852ba708c7472ffbef268439"
+    },
+    "scripts/verify_kicad_dependencies.py": {
+      "bytes": 12156,
+      "sha256": "733b81462611789b4d22f333b86fd24a34d6e7d8f229422efb91466570391116"
+    },
     "scripts/verify_project.py": {
-      "bytes": 1727,
-      "sha256": "812524e71e7f84f14460b7a8633c8a31a51a997aadb6d144dd210749ea342ba5"
+      "bytes": 2600,
+      "sha256": "e41aab1256e0b3031d80c0312c804a7a7ab5f27ad5f3059b2315ec6274d25fb1"
     }
-  }
+  },
+  "verification_note": "Fresh GitHub snapshot portability verified; see docs/fresh-clone-verification.json. Design and scene bytes retain original revision hashes."
 }

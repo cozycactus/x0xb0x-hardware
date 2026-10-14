@@ -11,6 +11,8 @@ Private working repository for the x0xb0x Eagle-to-KiCad conversion and reconstr
 
 Keep each complete project folder together: symbols, footprints and STEP models use project-relative paths. The Blender file embeds the populated boards and can be opened without the original workspace or external board exports. It was saved with Blender 5.0.0. The current KiCad projects were checked using KiCad 10.0.7.
 
+See [opening and verification instructions](docs/OPENING.md) for a fresh download.
+
 ![Assembled x0xb0x](kicad-working/visualization/blender-case-revision-7/assembled.png)
 
 ## What is included
@@ -30,7 +32,15 @@ The current saved scene passed 1,856 scene checks and 694 independent front-cont
 
 The LED height uses the BOM's named STD240B 0.24-inch spacer. An older assembly table says 0.22 inch; the discrepancy is documented. Exact spacer molding, button retention/travel, historical vendor variations, omitted terminals, reconstructed enclosure tolerances and the wiring study remain qualified. These files do not establish fabrication or physical assembly readiness.
 
-Run `python3 scripts/verify_project.py` to verify the checked-in file hashes, 250 current KiCad project files, original Eagle sources and saved Blender scene. This is an integrity check; it does not rerun electrical or physical validation. The native audit/model-generation scripts retain historical source paths and may require macOS applications, source baselines or other tools; their recorded results are preserved as evidence.
+Three reusable checks are included:
+
+- `python3 scripts/verify_project.py` checks file hashes, the 250 current KiCad project files, original Eagle sources and saved Blender scene.
+- `python3 scripts/verify_kicad_dependencies.py` checks that symbols, footprints and all 491 placed models resolve inside the checkout, without global KiCad libraries. Both Python checks accept `--root PATH` and require Python 3.9 or later.
+- `scripts/verify_blender_scene.py` runs inside native Blender and checks embedded components, complete LED assemblies, cap attachment across views and external file dependencies. See the opening instructions for the command, including the required failure exit-code option.
+
+A fresh download from GitHub passed native KiCad ERC and model exports with isolated configuration and global model lookup disabled. Exported geometry matched the original exports; only generation timestamps differed. Native Blender passed 106 portability checks and found zero unpacked external dependencies. [Fresh-download verification](docs/fresh-clone-verification.json) records the source commit and scene hash.
+
+These checks do not establish physical fit. The historical native audit/model-generation scripts retain source paths and may require macOS applications, earlier source baselines or other tools; their recorded results are preserved as evidence.
 
 Key reports: [working validation](kicad-working/validation/working-validation-summary-revision-10.json), [front controls](kicad-working/validation/models-review-10/front-controls-review/final-front-control-assembly-review.md), [saved-scene verification](kicad-working/visualization/blender-case-revision-7/verification/final-saved-scene-audit.json).
 
