@@ -6,14 +6,14 @@ Private working repository for the x0xb0x Eagle-to-KiCad conversion and reconstr
 
 - [Mainboard — KiCad working revision 11](kicad-working/mainboard/mainboard.kicad_pro)
 - [I/O board — KiCad working revision 11](kicad-working/ioboard/ioboard.kicad_pro)
-- [Complete assembly — Blender revision 10](kicad-working/visualization/blender-case-revision-10/x0xb0x-populated-with-case.blend)
-- [KiCad notes](kicad-working/README.md) and [Blender views and limitations](kicad-working/visualization/blender-case-revision-10/README.md)
+- [Complete assembly — Blender revision 11](kicad-working/visualization/blender-case-revision-11/x0xb0x-populated-with-case.blend)
+- [KiCad notes](kicad-working/README.md) and [Blender views and limitations](kicad-working/visualization/blender-case-revision-11/README.md)
 
 Keep each complete project folder together: symbols, footprints and STEP models use project-relative paths. The Blender file embeds the populated boards and can be opened without the original workspace or external board exports. It was saved with Blender 5.0.0. The current KiCad projects were checked using KiCad 10.0.7.
 
 See [opening and verification instructions](docs/OPENING.md) for a fresh download.
 
-![Assembled x0xb0x](kicad-working/visualization/blender-case-revision-10/assembled.png)
+![Assembled x0xb0x](kicad-working/visualization/blender-case-revision-11/assembled.png)
 
 ## What is included
 
@@ -29,7 +29,11 @@ Blender views: **frame 1** assembled, **frame 80** exploded, **frame 120** contr
 
 ## Validation and known limits
 
-Blender revision 10 refines the three NYS216 mounting nuts from the retained official DXF, PDF and product photograph: 15 mm wrench flats, a circular rear flange and a rounded front treatment. Only these three presentation meshes change. The washer geometry, native connectors, all other components, case, materials, positions and animation remain as in revision 9. The source dimensions and illustrative details are separated in the [hardware refinement review](kicad-working/validation/nys216-hardware-quality/README.md). The front rounding and small rear-face features are not fully dimensioned by the manufacturer; they remain visual reconstructions. See the [current assembly report](docs/nys216-hardware-refinement.json).
+Blender revision 11 places the eleven existing rear legends on the plate. Their glyphs previously floated more than 1.24 mm above it and cast detached shadows; they now retain a 0.01 mm rendering gap. Their typography, ink material and in-plane positions are preserved, along with all connector, nut, washer, PCB and enclosure geometry. The text remains presentation artwork; the original rear DXF contains manufacturing annotations rather than these control legends. See the [rear seating and legend review](docs/rear-seating-and-legends.json).
+
+The measured seating review also records unresolved nominal intersections: the three audio body shoulders extend 0.508 mm into the panel from its inner plane, and the power/USB bodies overlap the rectangular lower edges by approximately 0.081 mm. The case setback, historical body/terminal registration and fitted variants remain uncertain. These findings do not justify a universal board translation or modifying original cutouts. The legend correction preserves these positions and does not establish mechanical clearance. Detailed [scene measurements](kicad-working/validation/rear-seating-review/scene-audit/README.md) and [source limits](kicad-working/validation/rear-seating-review/source-audit/README.md) remain explicit.
+
+Blender revision 10 refines the three NYS216 mounting nuts from the retained official DXF, PDF and product photograph: 15 mm wrench flats, a circular rear flange and a rounded front treatment. Only these three presentation meshes change. The washer geometry, native connectors, all other components, case, materials, positions and animation remain as in revision 9. The source dimensions and illustrative details are separated in the [hardware refinement review](kicad-working/validation/nys216-hardware-quality/README.md). The front rounding remains a visual reconstruction; undimensioned rear-face features are omitted. See the [nut refinement report](docs/nys216-hardware-refinement.json).
 
 Blender revision 9 corrects rear socket occlusion in the presentation geometry. The installed native connector models already had open entrances; five separate display disks and six solid audio hardware pieces covered them. The correction preserves all 491 native component assemblies, the case and panel cutouts, component positions, materials and animation. Independent checks inspect all 11 rear ports using the evaluated assembly geometry, including the DIN contact mouths and the passages around the power pin and USB tongue. See the [rear opening review](kicad-working/validation/rear-openings-review/scene-audit/README.md) and [source model review](kicad-working/validation/rear-openings-review/source-audit/README.md). Earlier preservation checks did not test these openings.
 
@@ -50,9 +54,9 @@ The initial revision-10 fresh download passed native KiCad ERC, model exports an
 
 These checks do not establish physical fit. The historical native audit/model-generation scripts retain source paths and may require macOS applications, earlier source baselines or other tools; their recorded results are preserved as evidence.
 
-Key reports: [working validation](kicad-working/validation/working-validation-summary-revision-11.json), [front controls](kicad-working/validation/models-review-10/front-controls-review/final-front-control-assembly-review.md), [saved-scene verification](kicad-working/visualization/blender-case-revision-10/verification/final-saved-scene-audit.json), [rear opening correction](docs/rear-opening-correction.json), [hardware refinement](docs/nys216-hardware-refinement.json).
+Key reports: [working validation](kicad-working/validation/working-validation-summary-revision-11.json), [front controls](kicad-working/validation/models-review-10/front-controls-review/final-front-control-assembly-review.md), [saved-scene verification](kicad-working/visualization/blender-case-revision-11/verification/final-saved-scene-audit.json), [rear opening correction](docs/rear-opening-correction.json), [hardware refinement](docs/nys216-hardware-refinement.json), [rear seating and legends](docs/rear-seating-and-legends.json).
 
-Delivery ZIPs, earlier experimental Blender scenes, temporary native probes, local application state and redundant board GLB exports are excluded. The revision-7, revision-8 and revision-9 scenes are retained as comparison baselines for the subsequent updates. The native GLB exports can be regenerated from the KiCad projects with `kicad-working/validation/models-review-11/export_quality_boards.py`; they are already embedded in the saved Blender scene.
+Delivery ZIPs, earlier experimental Blender scenes, temporary native probes, local application state and redundant board GLB exports are excluded. The revision-7 through revision-10 scenes are retained as comparison baselines for the subsequent updates. The native GLB exports can be regenerated from the KiCad projects with `kicad-working/validation/models-review-11/export_quality_boards.py`; they are already embedded in the saved Blender scene.
 
 ## Sources and licensing
 

@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "stable_scene_sha256": "fc02d403f1bcac0aa98937fd29e5f8d77e01f69400104278ea512d36eea01ff9",
+  "stable_scene_bytes": 42928643,
+  "baseline_scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+  "saved_preservation_checks": 14820,
+  "actual_glyph_plane_checks": 185,
+  "glyph_pose_count": 44,
+  "rear_opening_checks": 44,
+  "rear_opening_rays": 974,
+  "changed_objects": [
+    "CV0 label",
+    "DIN1 label",
+    "DIN2 label",
+    "DIN3 label",
+    "DIN4 label",
+    "GATE0 label",
+    "HEADPHONE0 label",
+    "MIXIN0 label",
+    "MIXOUT0 label",
+    "POWER0 label",
+    "USB0 label"
+  ],
+  "changed_geometry": [],
+  "glyph_back_gap_min_mm": 0.010008130688220263,
+  "glyph_back_gap_max_mm": 0.010039835702627897,
+  "max_in_plane_glyph_error_mm": 1.9073486328125e-06,
+  "native_reference_count": 491,
+  "native_LED_count": 40,
+  "button_cap_count": 23,
+  "all_six_audio_hardware_meshes_unchanged": true,
+  "seating_baseline_scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+  "unchanged_nominal_housing_panel_conflicts": [
+    "POWER0",
+    "HEADPHONE0",
+    "MIXIN0",
+    "MIXOUT0",
+    "USB0"
+  ],
+  "physical_fit_qualified": false,
+  "read_only": true,
+  "inputs": [
+    {
+      "path": "kicad-working/visualization/blender-case-revision-11/verification/audit_saved_scene.py",
+      "sha256": "cdb3b7e35e205ca4a89b8988b31754416c168fd4a08bd3329b16752e63be1051",
+      "bytes": 7368
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-11/verification/scene_snapshot.py",
+      "sha256": "ef7cee37331a1cb440ddac51977e7b8ae9eb528c7b5caaf751f7382811b88003",
+      "bytes": 10145
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-11/verification/before-scene.json.gz",
+      "sha256": "4968a172c4950d1821f3eea96be1914a80a8d4b86c6484c4a48362bd7801b9aa",
+      "bytes": 884059
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-11/verification/after-scene.json.gz",
+      "sha256": "2da7614422484a486be1d0f5c199d17c4688834f2f29efcca45cd897c6a9ff19",
+      "bytes": 885349
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-11/verification/final-saved-scene-audit.json",
+      "sha256": "0b27b3011a071cf772309f2ef6f15986781d600bdcd0f0392dedae8b24aa6f7d",
+      "bytes": 2175939
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-11/verification/audit_legend_planes.py",
+      "sha256": "ea481ab9594fb2d4568da05bb5d048b64d1fcf28c52bab9732d7ff0bd8223a39",
+      "bytes": 4033
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-11/verification/rear-legend-plane-audit.json",
+      "sha256": "07cb0d26b56b86dc16a838062ec364f49122d0f3bcad711539015acdc34a035d",
+      "bytes": 51496
+    },
+    {
+      "path": "scripts/verify_rear_openings.py",
+      "sha256": "beb85811b0a54009e0c0cd5c746ea8718d4da01023794b2c99d33d765300b8d4",
+      "bytes": 13473
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-11/verification/rear-openings-audit.json",
+      "sha256": "fd17a352ada08c88c9fa3c15943f8738b14f3e7f273c57df56784e64b1d19740",
+      "bytes": 119565
+    },
+    {
+      "path": "kicad-working/validation/rear-seating-review/scene-audit/audit_rear_seating.py",
+      "sha256": "b182c83a8cea2f27ae70b438e4a54db37e98651dd35f5e2cbaf425259cccfbce",
+      "bytes": 12768
+    },
+    {
+      "path": "kicad-working/validation/rear-seating-review/scene-audit/rear-seating-audit.json",
+      "sha256": "c1d84e14674c1831749c154b7a3ec31c346f2113a8045cd5d1c1f341df64430b",
+      "bytes": 43212
+    },
+    {
+      "path": "kicad-working/validation/rear-seating-review/scene-audit/README.md",
+      "sha256": "a60e6c3d2015d61f639caf6ea537c3ec5bda7f16e6e80f9cdc94ce926b2dc4a8",
+      "bytes": 6381
+    }
+  ]
+}

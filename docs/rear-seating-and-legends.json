@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-15",
+  "Blender_revision": 11,
+  "KiCad_revision": 11,
+  "scene": "kicad-working/visualization/blender-case-revision-11/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "fc02d403f1bcac0aa98937fd29e5f8d77e01f69400104278ea512d36eea01ff9",
+  "scene_bytes": 42928643,
+  "baseline_scene": "kicad-working/visualization/blender-case-revision-10/x0xb0x-populated-with-case.blend",
+  "baseline_scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+  "change": "Only eleven retained rear legend objects translated along panel normal; detached shadows removed.",
+  "reseated_objects": [
+    "POWER0 label",
+    "HEADPHONE0 label",
+    "GATE0 label",
+    "CV0 label",
+    "USB0 label",
+    "MIXOUT0 label",
+    "DIN1 label",
+    "DIN2 label",
+    "DIN3 label",
+    "MIXIN0 label",
+    "DIN4 label"
+  ],
+  "reseated_legend_count": 11,
+  "original_glyph_back_gap_mm": [
+    1.2439854830046393,
+    1.2439980735425848
+  ],
+  "target_glyph_back_gap_mm": 0.01,
+  "glyph_geometry_fonts_materials_and_in_plane_layout_unchanged": true,
+  "native_geometry_component_poses_hardware_case_and_wiring_unchanged": true,
+  "native_components_preserved": 491,
+  "PCB_LED_assemblies_preserved": 40,
+  "PCB_attached_button_caps_preserved": 23,
+  "verification": {
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-11/verification/final-saved-scene-audit.json",
+      "passed": true,
+      "check_count": 14820,
+      "native_reference_count": 491
+    },
+    "actual_glyph_planes": {
+      "report": "kicad-working/visualization/blender-case-revision-11/verification/rear-legend-plane-audit.json",
+      "passed": true,
+      "check_count": 185,
+      "evaluated_glyph_pose_count": 44
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-11/verification/rear-openings-audit.json",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974,
+      "rear_port_count": 11
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-11/verification/portable-scene-audit.json",
+      "passed": true,
+      "check_count": 106
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-11/verification/final-render-review.json",
+      "passed": true,
+      "view_count": 7,
+      "native_reference_count": 491,
+      "rear_port_count": 11
+    },
+    "source_consistency": {
+      "report": "kicad-working/validation/rear-seating-review/source-audit/seating-source-audit.json",
+      "passed": true,
+      "checks_count": 35,
+      "meaning": "Retained source, geometry mapping and assignment checks pass. Known assembly intersections remain; this is not a panel-fit result."
+    },
+    "KiCad_core_preservation": {
+      "passed": true,
+      "core_file_count": 257,
+      "changed_files": [],
+      "scope": "KiCad revision11 bytes preserved; this Blender-only presentation update does not rerun ERC/DRC."
+    }
+  },
+  "seating_review": {
+    "report": "kicad-working/validation/rear-seating-review/scene-audit/rear-seating-audit.json",
+    "source_scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+    "reviewed_geometry_unchanged_in_revision11": true,
+    "native_port_count": 11,
+    "case_intersections": [],
+    "remaining_nominal_panel_intersections": [
+      {
+        "reference": "POWER0",
+        "saved_triangle_mesh_overlap_mm3": 1.148014708072022,
+        "rectangle_body_edge_clearance_mm": {
+          "left": 0.32599449157714844,
+          "right": 0.32599449157714844,
+          "bottom": -0.08099794387817383,
+          "top": 0.7649974822998047
+        },
+        "confidence": {
+          "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+          "historical_installed_fit": "unqualified",
+          "key_uncertainty": "Historical body-seat/terminal identity and canonical-to-footprint registration; omitted terminals/locators"
+        }
+      },
+      {
+        "reference": "HEADPHONE0",
+        "saved_triangle_mesh_overlap_mm3": 101.91510414108015,
+        "rectangle_body_edge_clearance_mm": null,
+        "confidence": {
+          "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+          "historical_installed_fit": "unqualified",
+          "key_uncertainty": "Historical body-seat/terminal identity and canonical-to-footprint registration; omitted terminals/locators"
+        }
+      },
+      {
+        "reference": "MIXIN0",
+        "saved_triangle_mesh_overlap_mm3": 101.91207800113683,
+        "rectangle_body_edge_clearance_mm": null,
+        "confidence": {
+          "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+          "historical_installed_fit": "unqualified",
+          "key_uncertainty": "Historical body-seat/terminal identity and canonical-to-footprint registration; omitted terminals/locators"
+        }
+      },
+      {
+        "reference": "MIXOUT0",
+        "saved_triangle_mesh_overlap_mm3": 101.91207459825067,
+        "rectangle_body_edge_clearance_mm": null,
+        "confidence": {
+          "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+          "historical_installed_fit": "unqualified",
+          "key_uncertainty": "Historical body-seat/terminal identity and canonical-to-footprint registration; omitted terminals/locators"
+        }
+      },
+      {
+        "reference": "USB0",
+        "saved_triangle_mesh_overlap_mm3": 1.5357886832897032,
+        "rectangle_body_edge_clearance_mm": {
+          "left": 0.329986572265625,
+          "right": 0.33000946044921875,
+          "bottom": -0.08099794387817383,
+          "top": 1.144998550415039
+        },
+        "confidence": {
+          "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+          "historical_installed_fit": "unqualified",
+          "key_uncertainty": "Generic USB envelope center, omitted locators and body seat, historical part identity"
+        }
+      }
+    ],
+    "nominal_audio_shoulder_penetration_mm": 0.508,
+    "nominal_POWER_USB_lower_edge_penetration_mm": 0.081,
+    "mechanical_clearance_established": false
+  },
+  "root_visual_review": [
+    "rear-label-detail.png",
+    "rear-openings-closeup.png"
+  ],
+  "qualifications": [
+    "Existing legend wording/font/layout are presentation artwork; no original control legend artwork occurs in the retained rear DXF.",
+    "The 0.01 mm glyph gap is a rendering offset, not physical ink thickness.",
+    "Audio shoulder/terminal registration, generic USB axis and reconstructed assembly datums remain uncertain; no universal board translation or altered source cutout is inferred.",
+    "Five nominal housing/panel overlaps remain documented; open mating apertures do not establish mechanical clearance."
+  ],
+  "physical_fit_qualified": false
+}

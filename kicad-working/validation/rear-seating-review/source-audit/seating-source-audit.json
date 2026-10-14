@@ -1,0 +1,1301 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-15",
+  "passed": true,
+  "checks_count": 35,
+  "checks": [
+    {
+      "check": "original author specifies.062inchsheet",
+      "passed": true
+    },
+    {
+      "check": "original rearplate usesquarterinchjacks",
+      "passed": true
+    },
+    {
+      "check": "original DINfaceflushPCB instruction",
+      "passed": true
+    },
+    {
+      "check": "parsedpanelthicknessmatchesauthor",
+      "passed": true,
+      "thickness_mm": 1.5748
+    },
+    {
+      "check": "originalrearpanelninecirclestworectangles",
+      "passed": true
+    },
+    {
+      "check": "originalrearDXFcontainsnocontrolsilkscreenart",
+      "passed": true
+    },
+    {
+      "check": "originalDXFhashmatchesparsedpanel",
+      "passed": true
+    },
+    {
+      "check": "DIN4:originalDXFcircleunchanged",
+      "passed": true,
+      "handle": "126",
+      "actual_center_radius_mm": [
+        203.19999999999982,
+        16.332199999999972,
+        8.5725
+      ]
+    },
+    {
+      "check": "MIXIN0:originalDXFcircleunchanged",
+      "passed": true,
+      "handle": "127",
+      "actual_center_radius_mm": [
+        181.10199999999986,
+        14.350999999999987,
+        5.9055
+      ]
+    },
+    {
+      "check": "DIN3:originalDXFcircleunchanged",
+      "passed": true,
+      "handle": "128",
+      "actual_center_radius_mm": [
+        159.00399999999982,
+        16.332199999999972,
+        8.5725
+      ]
+    },
+    {
+      "check": "DIN2:originalDXFcircleunchanged",
+      "passed": true,
+      "handle": "129",
+      "actual_center_radius_mm": [
+        137.41399999999985,
+        16.332199999999972,
+        8.5725
+      ]
+    },
+    {
+      "check": "DIN1:originalDXFcircleunchanged",
+      "passed": true,
+      "handle": "12A",
+      "actual_center_radius_mm": [
+        115.82399999999984,
+        16.332199999999972,
+        8.5725
+      ]
+    },
+    {
+      "check": "MIXOUT0:originalDXFcircleunchanged",
+      "passed": true,
+      "handle": "12B",
+      "actual_center_radius_mm": [
+        93.72599999999983,
+        14.350999999999964,
+        5.9055
+      ]
+    },
+    {
+      "check": "GATE0:originalDXFcircleunchanged",
+      "passed": true,
+      "handle": "130",
+      "actual_center_radius_mm": [
+        47.498,
+        11.683999999999976,
+        3.175
+      ]
+    },
+    {
+      "check": "CV0:originalDXFcircleunchanged",
+      "passed": true,
+      "handle": "131",
+      "actual_center_radius_mm": [
+        60.198,
+        11.683999999999976,
+        3.175
+      ]
+    },
+    {
+      "check": "HEADPHONE0:originalDXFcircleunchanged",
+      "passed": true,
+      "handle": "132",
+      "actual_center_radius_mm": [
+        28.956000000000014,
+        14.350999999999964,
+        5.9055
+      ]
+    },
+    {
+      "check": "USB0:originalDXFrectangleline:12C",
+      "passed": true
+    },
+    {
+      "check": "USB0:originalDXFrectangleline:12F",
+      "passed": true
+    },
+    {
+      "check": "USB0:originalDXFrectangleline:12E",
+      "passed": true
+    },
+    {
+      "check": "USB0:originalDXFrectangleline:12D",
+      "passed": true
+    },
+    {
+      "check": "POWER0:originalDXFrectangleline:133",
+      "passed": true
+    },
+    {
+      "check": "POWER0:originalDXFrectangleline:136",
+      "passed": true
+    },
+    {
+      "check": "POWER0:originalDXFrectangleline:135",
+      "passed": true
+    },
+    {
+      "check": "POWER0:originalDXFrectangleline:134",
+      "passed": true
+    },
+    {
+      "check": "HEADPHONE0:existingnativecanonicaltransform",
+      "passed": true,
+      "transform": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "MIXIN0:existingnativecanonicaltransform",
+      "passed": true,
+      "transform": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "MIXOUT0:existingnativecanonicaltransform",
+      "passed": true,
+      "transform": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "DIN1:existingnativecanonicaltransform",
+      "passed": true,
+      "transform": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "DIN2:existingnativecanonicaltransform",
+      "passed": true,
+      "transform": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "DIN3:existingnativecanonicaltransform",
+      "passed": true,
+      "transform": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "DIN4:existingnativecanonicaltransform",
+      "passed": true,
+      "transform": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "CV0:existingnativecanonicaltransform",
+      "passed": true,
+      "transform": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "GATE0:existingnativecanonicaltransform",
+      "passed": true,
+      "transform": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "POWER0:existingnativecanonicaltransform",
+      "passed": true,
+      "transform": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "USB0:existingnativecanonicaltransform",
+      "passed": true,
+      "transform": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "scope": "Read-onlysourceauditforBlender10rearconnector/panelseating; no correctionorphysicalfitcertification.",
+  "passed_meaning": "Onlyretainedsource/geometrymapping/assignmentchecks pass. Knownassemblyintersectionsremain; passedisnotapanel-fitresult.",
+  "sources": [
+    {
+      "id": "original-download",
+      "path": "kicad-working/visualization/blender-case-revision-7/source/original-download-page-mirror.html",
+      "url": "https://www.ladyada.net/make/x0xb0x/download.html",
+      "evidence": "Original author instruction: PT10 panels use0.062inch material.",
+      "sha256": "f976ccbdd90d6dc764aafc30ace8a4ad9a8a4fa113f6b539726da96a8a26a9d0",
+      "bytes": 8689
+    },
+    {
+      "id": "original-rear-panel",
+      "path": "kicad-working/visualization/blender-case-revision-7/source/x0xb0x_iopanel_march2.dxf",
+      "url": "https://www.ladyada.net/media/x0xb0x/x0xb0x_iopanel_march2.dxf",
+      "evidence": "Original author geometry, inches; retained pinned mirror with source notice.",
+      "sha256": "6354e6a79fc85b96a25020ec5f7b76196ee3fa224a9da60db6426e86c6b3f598",
+      "bytes": 189949
+    },
+    {
+      "id": "original-finishing",
+      "path": "kicad-working/validation/models-review-10/front-controls-review/sources/original-finishing.html",
+      "url": "https://www.ladyada.net/make/x0xb0x/fab/finish/index.html",
+      "evidence": "Original step5 attaches rearplate through3quarterinchjacks. No explicit numericalsetback or washer-side sequence.",
+      "sha256": "c4863d6e1b73eb0f18c24ecf4926d6940ca1656757db525b3da3437f2c35ff41",
+      "bytes": 9622
+    },
+    {
+      "id": "original-io-manual",
+      "path": "kicad-working/visualization/blender-case-revision-7/source-review/original-ioboard-manual.md",
+      "url": "https://www.ladyada.net/make/x0xb0x/fab/ioboard/",
+      "evidence": "Original step9: DINfacesflushPCBedge; strongsoldermechanicalbond. No paneloffsetdimension.",
+      "sha256": "c44798d3a9140b315dc2f31bc79fa222a781fd30174c38c93085f90a2491732a",
+      "bytes": 13646
+    },
+    {
+      "id": "original-io-photo",
+      "path": "kicad-working/validation/models-review-10/heatsink-fit-research/sources/ioboard_done.jpg",
+      "url": "https://ladyada.net/make/x0xb0x/fab/images/ioboard_done.jpg",
+      "evidence": "Visuallyreviewed: connectorfronts atPCBedge, no DINflangemountscrews, audio nuts/washerssuppliedonbareboard; photographnot dimensionalcalibration.",
+      "sha256": "cebc229db578cae5703682754e7bd16ab94391f0d5add38fab34f8f5270f35e3",
+      "bytes": 190023
+    },
+    {
+      "id": "pactec-pt10",
+      "path": "kicad-working/visualization/blender-case-revision-7/source/pactec-pt10-manufacturer-drawing.pdf",
+      "url": "https://www.farnell.com/datasheets/1483254.pdf",
+      "evidence": "PacTec82232revC: rearplate8.580x2.070x.062inch. SectionC-C/detailDusedwithqualifiedtracedsetback.",
+      "sha256": "bc763ac06161166e58c34a4274821632c2e86a09521e6776b953714de2b94734",
+      "bytes": 92619
+    },
+    {
+      "id": "nys-older",
+      "path": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/nys-216-manufacturer.dxf",
+      "url": "https://www.rean-connectors.com/media/12224/download/nys-216-1.dxf?v=1",
+      "evidence": "2007revC: nose8.5, axis8, 3/8-32UNEF; existingnativebodyusescanonicalshoulderY0 as registrationassumption.",
+      "sha256": "4e853c5f53bb89195fa5e80d00454ed65ce3a57d98c5dee52b2e8d3b7414f438",
+      "bytes": 420273
+    },
+    {
+      "id": "nys-newer",
+      "path": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/nys216.pdf",
+      "url": "https://www.rean-connectors.com/media/9014/download/nys-216.pdf?v=1",
+      "evidence": "2015: M11x1.25, suppliednut/washerdimensions. Not proofofoldernosecompatibility orhistoricalfittedpart.",
+      "sha256": "3b41beb12880dae7b02c99e7c3296d22b3ac7eb45e87a7b5b2d194b44ad5fec7",
+      "bytes": 138690
+    },
+    {
+      "id": "sds50j",
+      "path": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/sds50j.pdf",
+      "url": "https://www.sameskydevices.com/product/resource/sds-j.pdf",
+      "evidence": "Page3: SDS50J20x15.8maxx21.1, flange1.8, axis10; doesnotgiveinstallationdepthfororiginalx0xb0xpanel.",
+      "sha256": "bf4a7032ee22b320bc5627c5d6eb331b59e6dc4c7fc618250d52e182ccea1e65",
+      "bytes": 458320
+    },
+    {
+      "id": "mj3536n",
+      "path": "kicad-working/validation/models-review-10/rear-connector-quality/sources/mj-3536n-current.pdf",
+      "url": "https://www.sameskydevices.com/product/resource/mj-3536n.pdf",
+      "evidence": "Page2: nonthreaded\u00d86bushingprojection3, axis5.5, body10x15.8x10.",
+      "sha256": "aa1de851ef2fba7c4f66b9e4413351ce9349e1b34502bc7b67b3788e9d5d6e79",
+      "bytes": 279558
+    },
+    {
+      "id": "pj202ah",
+      "path": "kicad-working/validation/models-review-10/rear-connector-quality/sources/pj-202ah-current.pdf",
+      "url": "https://www.sameskydevices.com/product/resource/pj-202ah.pdf",
+      "evidence": "Page2: body9x14.4x11, axis6.5, frontbore6.5, pin2, insertion9; no panelclampingnut.",
+      "sha256": "a35968324973cf6df2cf8891203d949ee850aa51a70b5f88d71b940d40559ead",
+      "bytes": 285891
+    },
+    {
+      "id": "usb-retained-extract",
+      "path": "kicad-working/ioboard/3dmodels/Revision6/rear-body-illustrations/provenance/source/kc-301021-web-extract.json",
+      "url": "https://www.mouser.com/catalog/specsheets/KC-301021.pdf",
+      "evidence": "PreviousretainedBOMfamilyenvelopeextract; refreshedprimaryindexedtextbelowaddsPCB/panelrecommendation. No binaryPDFvisualreviewobtained.",
+      "sha256": "fa3a5d92160d619f95c41bed935a054dd9d54e919432557842b75003633b12ca",
+      "bytes": 744
+    }
+  ],
+  "derived_evidence": [
+    {
+      "path": "kicad-working/visualization/blender-case-revision-7/panels/original-panels.json",
+      "sha256": "944c0428b8f169a6cdfa1d3b32bee064f6792a8e91d0eb16c0bfc8592d405eac",
+      "classification": "previous reconstruction/evidence, not independent manufacturer dimension"
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-7/panels/board-panel-alignment.json",
+      "sha256": "5af86dea19117cdc25142fa7099369e1cf35e585acad84412b98c3ce00698a23",
+      "classification": "previous reconstruction/evidence, not independent manufacturer dimension"
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-7/case-model/pt10-datums.json",
+      "sha256": "371244880c0ebb45e66038f64914a0c597c5fea47f3f1c3f2f6084b710463dd7",
+      "classification": "previous reconstruction/evidence, not independent manufacturer dimension"
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-7/source-review/io-depth-and-detached-outline-evidence.json",
+      "sha256": "1b8288ba9d445d3e3695c96504bfe083bda1efd54f6976d756bc6be47c2c54e2",
+      "classification": "previous reconstruction/evidence, not independent manufacturer dimension"
+    },
+    {
+      "path": "kicad-working/validation/nys216-hardware-quality/hardware-parameters.json",
+      "sha256": "544d45622c9410b5a7dac18d0b863b8f320f6577d183c4527b22b58e5fb2c1fd",
+      "classification": "previous reconstruction/evidence, not independent manufacturer dimension"
+    }
+  ],
+  "rear_panel": {
+    "thickness_mm": 1.5748,
+    "width_mm": 217.932,
+    "height_mm": 52.578,
+    "circles": [
+      {
+        "source_handle": "126",
+        "center_source_in": [
+          14.58180796195561,
+          7.352842289316917
+        ],
+        "radius_in": 0.3375,
+        "center_mm": [
+          203.2,
+          16.3322
+        ],
+        "radius_mm": 8.5725,
+        "board_reference": "DIN4",
+        "function": "CP-2350"
+      },
+      {
+        "source_handle": "127",
+        "center_source_in": [
+          13.71180796195561,
+          7.274842289316918
+        ],
+        "radius_in": 0.2325,
+        "center_mm": [
+          181.102,
+          14.351
+        ],
+        "radius_mm": 5.9055,
+        "board_reference": "MIXIN0",
+        "function": "REAN_1_4STERO"
+      },
+      {
+        "source_handle": "128",
+        "center_source_in": [
+          12.84180796195561,
+          7.352842289316917
+        ],
+        "radius_in": 0.3375,
+        "center_mm": [
+          159.004,
+          16.3322
+        ],
+        "radius_mm": 8.5725,
+        "board_reference": "DIN3",
+        "function": "CP-2350"
+      },
+      {
+        "source_handle": "129",
+        "center_source_in": [
+          11.99180796195561,
+          7.352842289316917
+        ],
+        "radius_in": 0.3375,
+        "center_mm": [
+          137.414,
+          16.3322
+        ],
+        "radius_mm": 8.5725,
+        "board_reference": "DIN2",
+        "function": "CP-2350"
+      },
+      {
+        "source_handle": "12A",
+        "center_source_in": [
+          11.14180796195561,
+          7.352842289316917
+        ],
+        "radius_in": 0.3375,
+        "center_mm": [
+          115.824,
+          16.3322
+        ],
+        "radius_mm": 8.5725,
+        "board_reference": "DIN1",
+        "function": "CP-2350"
+      },
+      {
+        "source_handle": "12B",
+        "center_source_in": [
+          10.27180796195561,
+          7.274842289316917
+        ],
+        "radius_in": 0.2325,
+        "center_mm": [
+          93.726,
+          14.351
+        ],
+        "radius_mm": 5.9055,
+        "board_reference": "MIXOUT0",
+        "function": "REAN_1_4STERO"
+      },
+      {
+        "source_handle": "130",
+        "center_source_in": [
+          8.451807961955616,
+          7.169842289316917
+        ],
+        "radius_in": 0.125,
+        "center_mm": [
+          47.498,
+          11.684
+        ],
+        "radius_mm": 3.175,
+        "board_reference": "GATE0",
+        "function": "MJ-3536N"
+      },
+      {
+        "source_handle": "131",
+        "center_source_in": [
+          8.951807961955616,
+          7.169842289316917
+        ],
+        "radius_in": 0.125,
+        "center_mm": [
+          60.198,
+          11.684
+        ],
+        "radius_mm": 3.175,
+        "board_reference": "CV0",
+        "function": "MJ-3536N"
+      },
+      {
+        "source_handle": "132",
+        "center_source_in": [
+          7.721807961955617,
+          7.274842289316917
+        ],
+        "radius_in": 0.2325,
+        "center_mm": [
+          28.956,
+          14.351
+        ],
+        "radius_mm": 5.9055,
+        "board_reference": "HEADPHONE0",
+        "function": "REAN_1_4STERO"
+      }
+    ],
+    "rectangular_cutouts": [
+      {
+        "source_handles": [
+          "12C",
+          "12F",
+          "12E",
+          "12D"
+        ],
+        "points_source_in": [
+          [
+            9.241807961955617,
+            6.959842289316917
+          ],
+          [
+            9.241807961955617,
+            7.419842289316916
+          ],
+          [
+            9.741807961955617,
+            7.419842289316918
+          ],
+          [
+            9.741807961955617,
+            6.959842289316917
+          ]
+        ],
+        "points_mm": [
+          [
+            67.564,
+            6.35
+          ],
+          [
+            67.564,
+            18.034
+          ],
+          [
+            80.264,
+            18.034
+          ],
+          [
+            80.264,
+            6.35
+          ]
+        ],
+        "bounds_mm": [
+          [
+            67.564,
+            6.35
+          ],
+          [
+            80.264,
+            18.034
+          ]
+        ],
+        "board_reference": "USB0",
+        "function": "PN61729"
+      },
+      {
+        "source_handles": [
+          "133",
+          "136",
+          "135",
+          "134"
+        ],
+        "points_source_in": [
+          [
+            6.821807961955617,
+            6.959842289316917
+          ],
+          [
+            6.821807961955617,
+            7.419842289316916
+          ],
+          [
+            7.201807961955617,
+            7.419842289316918
+          ],
+          [
+            7.201807961955617,
+            6.959842289316917
+          ]
+        ],
+        "points_mm": [
+          [
+            6.096,
+            6.35
+          ],
+          [
+            6.096,
+            18.034
+          ],
+          [
+            15.748,
+            18.034
+          ],
+          [
+            15.748,
+            6.35
+          ]
+        ],
+        "bounds_mm": [
+          [
+            6.096,
+            6.35
+          ],
+          [
+            15.748,
+            18.034
+          ]
+        ],
+        "board_reference": "POWER0",
+        "function": "PJ-202AH"
+      }
+    ],
+    "original_cutout_counts": {
+      "circles": 9,
+      "rectangular_cutouts": 2
+    },
+    "no_DIN_flange_screw_pattern": true,
+    "source_extent_basis": "OriginalDXFinches; manufacturerPacTecagreesnominalsize. Sourceannotations/centerlinesare notcuts.",
+    "case_placement_limit": "ExistingouterfaceY198.4947wastracedfromPacTecC-Cnotprintedsetback;approximately\u00b10.5mm. RearloweredgeZ6.2992usesdetailDandretainsconflictingundimensionedrear-silhouetteinterpretation."
+  },
+  "families": [
+    {
+      "family": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "source_ids": [
+        "nys-older",
+        "nys-newer"
+      ],
+      "canonical_front_direction": [
+        0,
+        -1,
+        0
+      ],
+      "canonical_body_shoulder_y_mm": 0,
+      "canonical_mating_face_y_mm": -8.5,
+      "canonical_socket_axis_z_mm": 8,
+      "nose_projection_from_body_shoulder_mm": 8.5,
+      "mounting": "ShoulderedthreadedPCBjack; originalrearplateisretainedbythesethreejacks.",
+      "source_registration_limit": "CanonicalbodyshoulderY0 atoriginalfootprintorigin is currentmodelregistration, not historicalleadfitproof. OriginalfpKiCadY+.508anddetachedconstructionstripinnerY+.508suggestintendedpaneldatum, butstripidentity/historicalvariantunconfirmed.",
+      "current_native_assignments": [
+        {
+          "reference": "HEADPHONE0",
+          "footprint_at": [
+            26.67,
+            0.508
+          ],
+          "model_path": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/NYS216_DrawingDerived_DetailedBody.step",
+          "model_sha256": "9f397ef5f43bf615023e40b04554d182468b351faf732539918b42c040ebb390",
+          "transform": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "reference": "MIXIN0",
+          "footprint_at": [
+            178.816,
+            0.508
+          ],
+          "model_path": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/NYS216_DrawingDerived_DetailedBody.step",
+          "model_sha256": "9f397ef5f43bf615023e40b04554d182468b351faf732539918b42c040ebb390",
+          "transform": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "reference": "MIXOUT0",
+          "footprint_at": [
+            91.44,
+            0.508
+          ],
+          "model_path": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/NYS216_DrawingDerived_DetailedBody.step",
+          "model_sha256": "9f397ef5f43bf615023e40b04554d182468b351faf732539918b42c040ebb390",
+          "transform": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "family": "SDS50J",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "source_ids": [
+        "sds50j",
+        "original-io-manual"
+      ],
+      "canonical_front_direction": [
+        0,
+        -1,
+        0
+      ],
+      "canonical_flange_front_y_mm": 0,
+      "canonical_flange_back_y_mm": 1.8,
+      "canonical_mating_face_y_mm": 0,
+      "canonical_socket_axis_z_mm": 10,
+      "mounting": "PCBsolderedDINjack. Manufacturerflangehas3holesbutoriginalpanelcontainsnocompanionflangemountingpattern; noaddedflangescrewsimplied.",
+      "source_registration_limit": "DINfaceflushPCBedgeisoriginalinstruction. Itdoesnotrequirefaceflushpanelouterface; nominalrecesscanremain.",
+      "current_native_assignments": [
+        {
+          "reference": "DIN1",
+          "footprint_at": [
+            113.538,
+            0.0
+          ],
+          "model_path": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+          "model_sha256": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+          "transform": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "reference": "DIN2",
+          "footprint_at": [
+            135.128,
+            0.0
+          ],
+          "model_path": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+          "model_sha256": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+          "transform": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "reference": "DIN3",
+          "footprint_at": [
+            156.718,
+            0.0
+          ],
+          "model_path": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+          "model_sha256": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+          "transform": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "reference": "DIN4",
+          "footprint_at": [
+            200.914,
+            0.0
+          ],
+          "model_path": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+          "model_sha256": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+          "transform": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "family": "MJ3536N",
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "source_ids": [
+        "mj3536n"
+      ],
+      "canonical_front_direction": [
+        0,
+        -1,
+        0
+      ],
+      "canonical_body_shoulder_y_mm": 0,
+      "canonical_mating_face_y_mm": -3,
+      "canonical_socket_axis_z_mm": 5.5,
+      "bushing_projection_from_body_shoulder_mm": 3,
+      "bushing_diameter_mm": 6,
+      "mounting": "PCBsolderednonthreadedbushingjack. NoMJnut/washersorpanelclampareestablished.",
+      "source_registration_limit": "Bodyseat againstPCBtop is nominalassumption; historicalcurrentmold/tailgauge notqualified.",
+      "current_native_assignments": [
+        {
+          "reference": "CV0",
+          "footprint_at": [
+            57.912,
+            0.0
+          ],
+          "model_path": "kicad-working/ioboard/3dmodels/Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+          "model_sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+          "transform": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "reference": "GATE0",
+          "footprint_at": [
+            45.212,
+            0.0
+          ],
+          "model_path": "kicad-working/ioboard/3dmodels/Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+          "model_sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+          "transform": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "family": "PJ202AH",
+      "references": [
+        "POWER0"
+      ],
+      "source_ids": [
+        "pj202ah"
+      ],
+      "canonical_front_direction": [
+        0,
+        1,
+        0
+      ],
+      "canonical_mating_face_y_mm": 0,
+      "canonical_body_rear_y_mm": -14.4,
+      "canonical_socket_axis_z_mm": 6.5,
+      "canonical_body_width_height_mm": [
+        9,
+        11
+      ],
+      "mounting": "PCBsolderedrectangularpowerjackwithoutpanelnut. Frontmaypass throughoriginalrectangle; innerbodyneednotclampplate.",
+      "source_registration_limit": "ActualPOWERfootprintrotation180isexternalmodelplacement. Exactterminalseatandhistoricalvariantnotqualified.",
+      "current_native_assignments": [
+        {
+          "reference": "POWER0",
+          "footprint_at": [
+            8.636,
+            2.794,
+            180.0
+          ],
+          "model_path": "kicad-working/ioboard/3dmodels/Revision10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+          "model_sha256": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+          "transform": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "family": "USB_TypeB",
+      "references": [
+        "USB0"
+      ],
+      "source_ids": [
+        "usb-retained-extract"
+      ],
+      "canonical_front_direction": [
+        0,
+        -1,
+        0
+      ],
+      "canonical_mating_face_y_mm": 0,
+      "canonical_body_rear_y_mm": 16,
+      "canonical_socket_axis_z_mm": 5.31,
+      "canonical_body_width_height_mm": [
+        12.04,
+        10.62
+      ],
+      "mounting": "GenericBOM-familyPCBUSB-Bjackwithshell/insulator; noexternalnutorwasher.",
+      "source_registration_limit": "5.31iscurrentillustrationhalf-height, notaprintedPCB-to-portaxis. OriginalBOMallowsdifferentthroughholeUSB-Bparts; PN61729footprintdoesnotprove154-2442-Eidentity. Frontlip/PCB-to-bodyseatingrequirebinarydrawingorrealpart.",
+      "current_native_assignments": [
+        {
+          "reference": "USB0",
+          "footprint_at": [
+            71.628,
+            2.794
+          ],
+          "model_path": "kicad-working/ioboard/3dmodels/Revision6/rear-body-illustrations/USB_TypeB-body-illustration.step",
+          "model_sha256": "5d7b59c38b09bdaca1159baf92438a00587a3cefd0af5855a874abdc8029fb90",
+          "transform": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "seating_interpretation": {
+    "axial_coordinate": "qpositiveoutwardalongrearportaxis; q0isplateinnerface, plateoccupies0..1.5748mm.",
+    "audio_conventional_order": [
+      "bodyshoulder",
+      "panel",
+      "suppliedwasher",
+      "suppliednut"
+    ],
+    "audio_order_status": "Assemblyinterpretation; originalfinishingtextdoesnotexplicitlystatewasher-sideorder. Notanextractedmanufacturerinstallationstack.",
+    "conditional_audio_stack_mm": {
+      "nose_from_shoulder": 8.5,
+      "panel": 1.5748,
+      "washer": 1.2,
+      "nut": 5,
+      "tip_after_nut": 0.7252000000000001
+    },
+    "conditional_audio_stack_limit": "Onlyifbodyshoulderseatsatinnerplate;combinesoldernoseandnewerhardware, sodoesnotcertifythreadsorfit.",
+    "conditional_MJ_projection_past_outerface_mm": 1.4252,
+    "conditional_DIN_recess_from_outerface_mm": 1.5748,
+    "conditional_limits": "Thesearearithmeticfromhypotheticalshoulder/frontseatatinnerplate, notmeasurementsorrequiredpositions."
+  },
+  "unresolved_datums": [
+    "OriginaldocumentationdoesnotdimensionrearPCB-to-plate setbackorbodyseatinggaps.",
+    "ThreeaudiofootprintsKiCadY+.508/body-frontconstructionstrip+.508differfromearlierPCBY0=plateinnerassumption; stripidentityandcurrentmodelregistrationarenotfactoryfitproof.",
+    "EarlierMJheight5.5givesPCBtop6.184aboverearpanelbottom; audio8.0gives6.351;0.167disagreementremainswithhistoricalseatingunknown.",
+    "NativeUSB5.31isgenericenvelope-centerchoice; actualPCB-to-aperturecenter/frontlipdatumunverified."
+  ],
+  "independent_scene_observations": {
+    "scene": "kicad-working/visualization/blender-case-revision-10/x0xb0x-populated-with-case.blend",
+    "evidence_scope": "Measurementscommunicatedbyindependentsceneauditor; exactsolidvolumes/finalchecksbelongtosibling scene-auditreport, notthissourcechecker.",
+    "audio": {
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "body_shoulder_penetration_past_panel_inner_mm": 0.508,
+      "classification": "Actualcurrentmodel/panelintersection; nativebodyregistration/historicaldatumuncertaintypreventscertifyinguniversalphysicalcorrection.",
+      "exterior_washer_nut_order": "Washer0..1.2andnut1.2..6.2outwardofpanelouterface; exteriorstackalreadycorrectunderchosenillustration."
+    },
+    "rectangular_ports": {
+      "references": [
+        "POWER0",
+        "USB0"
+      ],
+      "body_bottom_overlap_below_original_rectangular_edge_mm": 0.081,
+      "classification": "Nominalcurrentmodel/cutoutintersection; exacthistoricalpackage/seatnotqualified, especiallygenericUSB. Quantifyindependentmeshintersectionseparatelyfromopenmatingpaths."
+    },
+    "MJ_DIN": {
+      "references": [
+        "CV0",
+        "GATE0",
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "front_or_shoulder": "CanonicalY0mapsnominallytopanelinnerface inexistingdisplay.",
+      "classification": "Currentnominalposition; nohardware/PCBtranslationrecommendedfromthisalone."
+    },
+    "action": "DocumentperportconflictswithoutmovingPCB,nativeconnector,case,panel,nutorwashergeometryinBlender11."
+  },
+  "rear_legends": {
+    "original_DXF_control_art_present": false,
+    "current_text": "Existingeditablepresentationlegends; not originalDXFart/font/layout.",
+    "presentation_fix": "Placeexistingglyphgeometryatpanelouterfaceplus.01mmalongoutwardnormal; keepx/z,textgeometry,fontandmaterial.",
+    "offset_classification": ".01mmisasmallrenderingoffset, notamanufacturingdimension.",
+    "seating_effect": "Nochange tonativeconnector/panel/case/hardwarepositionsorphysicalfit."
+  },
+  "source_supported_actions": [
+    {
+      "action": "Keeporiginalrearcutoutgeometryand1.5748panelthickness.",
+      "basis": "OriginalauthorDXF/download+PacTecprintednominal.",
+      "ready": true
+    },
+    {
+      "action": "PreserveoriginalDINfrontflushPCBedgeandPCB-solderretentiondepiction; do notinventDINscrewpattern.",
+      "basis": "OriginalIOmanualandoriginalpanelholes.",
+      "ready": true
+    },
+    {
+      "action": "Keepaudiohardwarecoaxialwithnativeportsandwashers/nutsonchosenexteriorstack.",
+      "basis": "Existingqualifiedillustration; originalmountingmethodsupportsjackclampbutexactwasherorderisinterpretation.",
+      "ready": true
+    },
+    {
+      "action": "Reportactualsceneaxialoverlap/gapsandapertureclearancebeforechoosingdisplayplacementcorrection.",
+      "basis": "Incompletehistoricalsetback/bodyseatdata; requiresindependentcurrentgeometryaudit.",
+      "ready": true
+    },
+    {
+      "action": "TranslatewholePCB,panelorindividualnativeconnectorstosuppressamismatch.",
+      "basis": "No exactsource-supportedcorrection recovered; newchosenvisualseatwouldneedexplicitassumptionandendpoint/casechecks.",
+      "ready": false
+    }
+  ],
+  "current_PCB_sha256": "63ce57799bb03ee442863c9e59f13fef5f39fbb268d4bacc70b980e6c21c8487",
+  "current_PCB_unchanged": true,
+  "native_model_bytes_unchanged": true,
+  "geometry_changes_made": false,
+  "physical_fit_qualified": false,
+  "web_primary_sources_refreshed": [
+    "https://www.ladyada.net/make/x0xb0x/download.html",
+    "https://www.ladyada.net/make/x0xb0x/fab/finish/index.html",
+    "https://www.ladyada.net/make/x0xb0x/fab/ioboard/",
+    "https://www.mouser.com/catalog/specsheets/KC-301021.pdf"
+  ]
+}
