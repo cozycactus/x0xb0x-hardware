@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-15",
+  "scope": "Bounded internet and retained-source research; no downloaded CAD integrated; current source files unchanged.",
+  "references": [
+    "DIN1",
+    "DIN2",
+    "DIN3",
+    "DIN4"
+  ],
+  "original_BOM": {
+    "manufacturer": "CUI",
+    "part": "SDS-50J",
+    "quantity": 4,
+    "historical_distributor_identifier": "CP-2350-ND",
+    "Eagle_package": "CP-2350",
+    "Eagle_value": "CP2350",
+    "identity_limit": "BOM permits alternate jacks with matching front pins; does not establish same body/mold/terminals or historical installed part."
+  },
+  "official_current_family": {
+    "name": "Same Sky SDS-50J",
+    "mounting": "right-angle through-hole receptacle",
+    "contacts": 5,
+    "contact_arrangement_deg": 180,
+    "shielded": false,
+    "product_url": "https://www.sameskydevices.com/product/interconnect/connectors/din-connectors/sds-50j",
+    "drawing_url": "https://www.sameskydevices.com/product/resource/sds-j.pdf",
+    "drawing_page": 3,
+    "drawing_date": "2024-09-12",
+    "dimensions_mm": {
+      "width": 20,
+      "depth_max": 15.8,
+      "overall_height": 21.1,
+      "flange_thickness": 1.8,
+      "contact_circle_diameter": 7,
+      "mount_circle_diameter": 19,
+      "mount_hole_diameter": 1.6
+    },
+    "mount_holes": 3,
+    "dimension_authority": "Primary manufacturer mechanical PDF; not an obtained mechanical DXF/STEP/IGES."
+  },
+  "retained_inputs": [
+    {
+      "id": "original-BOM-extract",
+      "path": "kicad-working/visualization/blender-case-revision-7/bom-parts/original-control-parts.json",
+      "url": "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+      "sha256": "59318a37943bbf8acfc9e5ea222c600a6b5add692233d7c2e28f608e1ce1f189",
+      "bytes": 12067
+    },
+    {
+      "id": "official-family-PDF",
+      "path": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/sds50j.pdf",
+      "url": "https://www.sameskydevices.com/product/resource/sds-j.pdf",
+      "sha256": "bf4a7032ee22b320bc5627c5d6eb331b59e6dc4c7fc618250d52e182ccea1e65",
+      "bytes": 458320
+    },
+    {
+      "id": "installed-source-model",
+      "path": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+      "url": null,
+      "sha256": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+      "bytes": 120179
+    },
+    {
+      "id": "retained-CAD-terms",
+      "path": "kicad-working/validation/models-review-10/rear-connector-quality/sources/samesky-cad-model-terms.html",
+      "url": "https://www.sameskydevices.com/cad-model-terms",
+      "sha256": "50e5aac24205b80cffac9f6424fb84edf9598712f3dda157c00de91251eb97a6",
+      "bytes": 215680
+    }
+  ],
+  "CAD_availability": [
+    {
+      "provider": "Same Sky",
+      "url": "https://www.sameskydevices.com/product/resource/digikey3dmodel/sds-50j",
+      "live_result": "HTTP302 to /error/oops, then HTTP404; checked2026-10-15.",
+      "asset_retrieved": false
+    },
+    {
+      "provider": "historical CUI route",
+      "url": "https://www.cui.com/product/resource/digikey3dmodel/sds-50j",
+      "live_result": "HTTP302 to Bel Fuse redirect preserving sourcepath, then HTTP403.",
+      "asset_retrieved": false
+    },
+    {
+      "provider": "Same Sky current product/footprint",
+      "url": "https://www.sameskydevices.com/product/resource/pcbfootprint/sds-50j",
+      "result": "Indexed exact product lists datasheet/PCB footprint, no verified3Dasset; footprint entry reports requested footprint absent. Direct web access403.",
+      "asset_retrieved": false
+    },
+    {
+      "provider": "DigiKey",
+      "url": "https://www.digikey.com/en/models/97033",
+      "result": "Root live browser review found no models currently available; hidden indexed download template is not availability proof.",
+      "asset_retrieved": false
+    },
+    {
+      "provider": "Ultra Librarian",
+      "url": "https://app.ultralibrarian.com/details/a50fd83e-bc57-11ed-b159-0a34d6323d74/Same-Sky/SDS-50J",
+      "result": "Exact entry reports No3DModelAvailable. DXF-2D choices export ECADsymbol/footprint, not manufacturer mechanicalbody drawing.",
+      "asset_retrieved": false
+    }
+  ],
+  "Warehouse_lead": {
+    "url": "https://embed-3dwarehouse-classic.sketchup.com/model/ud381698a-9942-4e9b-b609-bd38fc2b6597/MIDI-SMD-female-plug-5-pin-DIN-part-number-SDS-50J",
+    "uploader": "Filipe D.",
+    "modified_date": "2015-03-22",
+    "provenance_status": "UploaderclaimofmodifiedCUIorigin remainsunverified; filetimestamps2019/SKPheader21.0.0 areexportmetadata, notfactoryreleaseproof.",
+    "claimed_original_route": "http://www.cui.com/product/resource/digikey3dmodel/sds-50j",
+    "displayed_metadata": {
+      "polygons": 725,
+      "materials": 17,
+      "tags": 1,
+      "units": "millimeters",
+      "bounds_mm": [
+        16,
+        21,
+        25
+      ],
+      "current_displayed_size": "216KB",
+      "earlier_classic_displayed_size": "293KB",
+      "size_limit": "Page metadata only; no downloaded file bytecount/hash/format verified."
+    },
+    "title_limit": "SMD in the listing title conflicts with actual through-hole SDS-50J; use exact part drawing as authority.",
+    "current_download_status": "GuestDownloadrequiredsign-in; user subsequently provided ZIP/DAEtexture and nativeSKP through ownChrome. Originalassets/examinedconversions remain outside repository.",
+    "file_obtained": true,
+    "file_format_verified": true,
+    "file_hash": "1a313324dbc9377bfdadfb9dadbc36d05292e350baf0067a728dfca6a967cfe4",
+    "geometry_inspected": true,
+    "model_integrated": false,
+    "account_created_by_source_review": false,
+    "credentials_handled_by_source_review": false,
+    "provided_formats": [
+      "ZIP",
+      "COLLADA DAE",
+      "SketchUp SKP"
+    ]
+  },
+  "excluded_variants": [
+    {
+      "part": "SDS-51J",
+      "reason": "5-contact240degree arrangement; not180degreeSDS50J."
+    },
+    {
+      "part": "SD-50J",
+      "reason": "Cablemount inline receptacle, differentmountingbody."
+    },
+    {
+      "part": "SDF-50J",
+      "reason": "Different frontshield arrangement, not exact unshieldedSDS50J."
+    }
+  ],
+  "redistribution_status": "User-providedCADfiles are localresearchinputs only, outsidepublishedrepository. No thirdpartyCADassetintegratedorredistributed. Uploaderclaimdoesnotestablishfactoryprovenanceorredistributionlicense; retainqualifiedstatus.",
+  "search_limit": "Boundedsourceavailabilityrecord, nowwithactualuser-suppliedDAE/SKP. Exacthistoricalgeometry/provenance/pinfitstillrequirescandidatevalidation; originaldownloadnotblindlysubstituted.",
+  "user_supplied_assets": {
+    "received_date": "2026-10-15",
+    "receipts": [
+      {
+        "id": "user-ZIP",
+        "filename": "MIDI+SMD.zip",
+        "local_path": "/Users/ruslanmigirov/Downloads/MIDI+SMD.zip",
+        "bytes": 68135,
+        "sha256": "6afdbd0dfb088de62050c8f28243da80507351c431d66ee1e5cdeef608a2c7f9",
+        "bundled_in_repository": false
+      },
+      {
+        "id": "native-SKP",
+        "filename": "MIDI+SMD.skp",
+        "local_path": "/Users/ruslanmigirov/Downloads/hardware/din-model-download/MIDI+SMD.skp",
+        "bytes": 221212,
+        "sha256": "38ec4c8d3225d492a4ba796d71dd51ec8a2dd6f272a0dd25ba33d154335c0421",
+        "bundled_in_repository": false
+      },
+      {
+        "id": "COLLADA-export",
+        "filename": "model.dae",
+        "local_path": "/Users/ruslanmigirov/Downloads/hardware/din-model-download/model.dae",
+        "bytes": 562290,
+        "sha256": "1a313324dbc9377bfdadfb9dadbc36d05292e350baf0067a728dfca6a967cfe4",
+        "bundled_in_repository": false
+      },
+      {
+        "id": "texture",
+        "filename": "Metal_Aluminum_Anodized.jpg",
+        "local_path": "/Users/ruslanmigirov/Downloads/hardware/din-model-download/model/Metal_Aluminum_Anodized.jpg",
+        "bytes": 2508,
+        "sha256": "499a7bb6e1d7bc1c2c47a9a769c34cda69b4809695149fa017f4161cdb581c45",
+        "bundled_in_repository": false
+      }
+    ],
+    "archive_members": [
+      {
+        "name": "model.dae",
+        "uncompressed_bytes": 562290,
+        "compressed_bytes": 65446
+      },
+      {
+        "name": "model/Metal_Aluminum_Anodized.jpg",
+        "uncompressed_bytes": 2508,
+        "compressed_bytes": 2431
+      }
+    ],
+    "native_SKP_geometry_parsed": false,
+    "native_SKP_header_version": "21.0.0",
+    "local_inspection_report": "user-model-inspection.json",
+    "local_inspection_report_sha256": "afe4cbe5af3194a87a7a0d11154631a365d175f344ab680ac71de63e4b5c4ac0",
+    "read_only_inspection_script": "inspect_downloaded_dae.py",
+    "read_only_inspection_script_sha256": "30f6689b0c987e27221dc2bd5b6302f52a2f42dc91b7d6ad036938f47d5984a8",
+    "source_asset_distribution": "OriginalZIP,DAE,texture,SKPandstandaloneconversions are intentionally outsidepublishedrepository; reports/scripts only."
+  },
+  "measured_export": {
+    "declared_unit": {
+      "name": "inch",
+      "meters_per_unit": 0.0254,
+      "mm_per_unit": 25.4
+    },
+    "up_axis": "Z_UP",
+    "authoring_tool": "SketchUp 15.3.331",
+    "created": "2019-12-13T21:20:14Z",
+    "modified": "2019-12-13T21:20:14Z",
+    "geometry_definitions": 44,
+    "geometry_instances": 44,
+    "triangle_count": 4122,
+    "line_segment_count": 2362,
+    "material_count": 10,
+    "world_bounds_mm": [
+      0.04431665,
+      0.20494091600000172,
+      0.04557013997038876,
+      20.74431589,
+      15.90494152005299,
+      24.94557113996914
+    ],
+    "world_size_mm": [
+      20.69999924,
+      15.700000604052988,
+      24.90000099999875
+    ]
+  },
+  "drawing_comparison": {
+    "front_flange_like_group": "SketchUp/instance_0/MIDI/group_1",
+    "group_identification": "Geometry-based interpretation fromwide/thinfrontcluster; CADnodeshavegenericIDs, notmanufacturersemanticpartnames.",
+    "measured_group_size_mm": [
+      20.69999924,
+      2.0000000640481725,
+      21.400000380004503
+    ],
+    "current_PDF_nominals_mm": {
+      "width": 20,
+      "flange_depth": 1.8,
+      "overall_above_board_height": 21.1
+    },
+    "differences_mm": {
+      "width": 0.7,
+      "flange_depth": 0.2,
+      "above_board_height": 0.3
+    },
+    "lead_projection_below_body_approx_mm": 3.5,
+    "pin_number_mapping_verified": false,
+    "material_limit": "Flange-likegroupbindsMetal_Aluminum_Anodizedmaterial/texture; currentdrawingblackPBT. Uploaderpaintchanges and genericnodeIDs preventfactorymaterial/variantassertion.",
+    "action": "Do notscale,trimorsubstituteactivefamilybeforeseparatecandidatevalidation; original sourceandactiveBlender12remainunchanged."
+  }
+}

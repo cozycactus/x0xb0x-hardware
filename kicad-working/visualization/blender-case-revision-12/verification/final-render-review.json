@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "stable_scene_sha256": "517da1343de66a3e3b5c4848c182bcd263cccca419d3601e5805e0d3402228e1",
+  "view_count": 7,
+  "all_five_standard_images_and_two_diagnostics_visually_reviewed": true,
+  "native_reference_count": 491,
+  "rear_port_count": 11,
+  "corrected_midi_legend_count": 3,
+  "source_scene_unchanged_after_render": true,
+  "preserved_revision11_scene_unchanged": true,
+  "FONT_styles_materials_and_poses_preserved": true,
+  "corrected_mapping": {
+    "DIN1": "MIDI OUT",
+    "DIN2": "THRU",
+    "DIN3": "MIDI IN",
+    "DIN4": "SYNC"
+  },
+  "geometry_scope": "Only three FONT body strings changed; no connector, PCB, case or hardware mesh changes.",
+  "typography_status": "Editable presentation reconstruction; not recovered original DXF silkscreen artwork",
+  "display_offset_status": "Preserved nominal actual rear-most glyph surface gap of 0.01 mm; a display choice, not physical ink thickness.",
+  "physical_fit_qualified": false,
+  "views": [
+    {
+      "view": "rear-openings-closeup",
+      "frame": 1,
+      "image": "rear-openings-closeup.png",
+      "sha256": "b9109a2fa000fc7495f982ab4f99e5a08eddfcadfc660b830e8c9acbd4c8296e",
+      "source_scene_sha256": "517da1343de66a3e3b5c4848c182bcd263cccca419d3601e5805e0d3402228e1",
+      "width": 1800,
+      "height": 750,
+      "visually_reviewed": true,
+      "finding": "All eleven ports remain visible with power pin, audio/mini bores, USB tongue and DIN contacts retained. Corrected three MIDI labels read clearly and seated typography remains shadow-free."
+    },
+    {
+      "view": "rear-midi-detail",
+      "frame": 1,
+      "image": "rear-midi-detail.png",
+      "sha256": "897cfb73f82b509ceff0623dc7c303ce5f2afbaada5ac1636bd2cf29d2a5bbcf",
+      "source_scene_sha256": "517da1343de66a3e3b5c4848c182bcd263cccca419d3601e5805e0d3402228e1",
+      "width": 1600,
+      "height": 900,
+      "visually_reviewed": true,
+      "finding": "All three corrected display strings are readable together: MIDI OUT, THRU and MIDI IN. Font style, scale, alignment and existing panel seating are retained; native DIN body/contact geometry is unchanged."
+    },
+    {
+      "view": "assembled",
+      "frame": 1,
+      "image": "assembled.png",
+      "sha256": "3b3f86ed713ffe6f12ca456aad46591f8dbf1debcc7bf8f6ee870c49d6ce50f4",
+      "source_scene_sha256": "517da1343de66a3e3b5c4848c182bcd263cccca419d3601e5805e0d3402228e1",
+      "width": 1800,
+      "height": 1400,
+      "visually_reviewed": true,
+      "finding": "Complete enclosure, front panel and original controls retained. No blank output or framing/clipping regression."
+    },
+    {
+      "view": "rear",
+      "frame": 1,
+      "image": "rear.png",
+      "sha256": "7c9a373b293533fcc4a7143a8dddfaf7b3f1298b02dc30ad291d202d76d794e0",
+      "source_scene_sha256": "517da1343de66a3e3b5c4848c182bcd263cccca419d3601e5805e0d3402228e1",
+      "width": 1800,
+      "height": 1400,
+      "visually_reviewed": true,
+      "finding": "All eleven rear ports remain visible. DIN1 reads MIDI OUT, DIN2 THRU and DIN3 MIDI IN; DIN4 remains SYNC. Seated typography and native socket openings retained."
+    },
+    {
+      "view": "exploded",
+      "frame": 80,
+      "image": "exploded.png",
+      "sha256": "9f01770bc9c67e61833cdcca91231594589e137c61e76abe121d62a4e535855e",
+      "source_scene_sha256": "517da1343de66a3e3b5c4848c182bcd263cccca419d3601e5805e0d3402228e1",
+      "width": 1800,
+      "height": 1400,
+      "visually_reviewed": true,
+      "finding": "Original case, panels and populated boards retain their separation and component ownership. Rear legend ownership and all native component geometry unchanged."
+    },
+    {
+      "view": "control-side",
+      "frame": 120,
+      "image": "control-side.png",
+      "sha256": "28e50b75689aabfa07d9bfe7693c3e3499f697ef13cd3eccfb4e86ebcc8fe878",
+      "source_scene_sha256": "517da1343de66a3e3b5c4848c182bcd263cccca419d3601e5805e0d3402228e1",
+      "width": 1800,
+      "height": 1400,
+      "visually_reviewed": true,
+      "finding": "Original native controls retained with forty LED heads and twenty-three bare switches visible; caps remain hidden for the inspection view."
+    },
+    {
+      "view": "wiring-study",
+      "frame": 160,
+      "image": "wiring-study.png",
+      "sha256": "468f8ebfa2171c731bf0f922639408b96a3c69e8edcaa780dd0efd0fbc756d29",
+      "source_scene_sha256": "517da1343de66a3e3b5c4848c182bcd263cccca419d3601e5805e0d3402228e1",
+      "width": 1800,
+      "height": 1400,
+      "visually_reviewed": true,
+      "finding": "Original twenty-four illustrative wires, endpoint labels and explicit length/physical-fit qualification retained; I/O board geometry and placement unchanged."
+    }
+  ]
+}

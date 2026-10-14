@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-15",
+  "Blender_revision": 12,
+  "KiCad_revision": 11,
+  "scene": "kicad-working/visualization/blender-case-revision-12/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "517da1343de66a3e3b5c4848c182bcd263cccca419d3601e5805e0d3402228e1",
+  "scene_bytes": 42930111,
+  "baseline_scene_sha256": "fc02d403f1bcac0aa98937fd29e5f8d77e01f69400104278ea512d36eea01ff9",
+  "correction": [
+    {
+      "reference": "DIN1",
+      "previous": "MIDI IN",
+      "saved": "MIDI OUT",
+      "electrical_function": "MIDI OUT"
+    },
+    {
+      "reference": "DIN2",
+      "previous": "MIDI OUT",
+      "saved": "THRU",
+      "electrical_function": "MIDI THRU"
+    },
+    {
+      "reference": "DIN3",
+      "previous": "THRU",
+      "saved": "MIDI IN",
+      "electrical_function": "MIDI IN"
+    }
+  ],
+  "unchanged_DIN4_display": "SYNC",
+  "scope": "Only three retained FONT body strings change; automatic glyph and texture-space caches follow the changed strings. Fonts, styles, materials, all object poses, collections, animation and all other geometry are preserved. Revision metadata and embedded guide are updated.",
+  "native_components_preserved": 491,
+  "PCB_LED_assemblies_preserved": 40,
+  "PCB_attached_button_caps_preserved": 23,
+  "verification": {
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-12/verification/final-saved-scene-audit.json",
+      "report_sha256": "d88af07bb93674185e5808f61de3e4fadbe16ba6f78de17720d451330c1ec82a",
+      "passed": true,
+      "check_count": 41,
+      "frame_count": 4
+    },
+    "MIDI_legends": {
+      "report": "kicad-working/visualization/blender-case-revision-12/verification/midi-legends-audit.json",
+      "report_sha256": "b6fed36b0a4d980fad44a3566edfa00b86df4a80bb19b55a95828d88222e2a41",
+      "passed": true,
+      "check_count": 4
+    },
+    "glyph_planes": {
+      "report": "kicad-working/visualization/blender-case-revision-12/verification/rear-legend-plane-audit.json",
+      "report_sha256": "64f6d784b66b55a032b228d1c99e07dade559a09f498a725552e5407bdb20ca7",
+      "passed": true,
+      "check_count": 13,
+      "evaluated_glyph_pose_count": 44,
+      "frame_count": 4
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-12/verification/rear-openings-audit.json",
+      "report_sha256": "bf1c4ca2f70614fcafec13204587f91a3fba175a3a8cae8a32169543f8774f67",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-12/verification/portable-scene-audit.json",
+      "report_sha256": "35e303947f71c3716e7ff093f152dbe14ad3a6e24f5b741b2a338c412dac09c9",
+      "passed": true,
+      "check_count": 106
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-12/verification/final-render-review.json",
+      "report_sha256": "da8ab3240c0bc554492f427d33fed95f83d76a6cc92888aee17a93daffb8f384",
+      "passed": true,
+      "view_count": 7
+    },
+    "original_Eagle_and_PCB_functions": {
+      "report": "kicad-working/validation/din-midi-review/function-verification.json",
+      "report_sha256": "952974df240741b3fb4391740d4af4e1b06f8b16fb06ae16da6714039cbb4773",
+      "passed": true,
+      "checks_count": 214,
+      "full_binary_decode_passed": true
+    },
+    "baseline_regression": {
+      "report": "kicad-working/visualization/blender-case-revision-12/verification/baseline-midi-legends-audit.json",
+      "baseline_revision": 11,
+      "baseline_expected_failure_count": 3,
+      "corrected_revision12_passed": true
+    },
+    "KiCad_core_preservation": {
+      "passed": true,
+      "KiCad_core_file_count": 257,
+      "changed_core_files": [],
+      "scope": "Byte preservation against recorded KiCad revision 11. No ERC/DRC rerun for presentation-only text correction."
+    }
+  },
+  "user_supplied_model_review": {
+    "report": "kicad-working/validation/din-midi-review/user-model-inspection.json",
+    "receipt_and_sources": "kicad-working/validation/din-midi-review/cad-source-evidence.json",
+    "ZIP_SKP_DAE_and_texture_received": true,
+    "actual_DAE_unit": "inch (0.0254 meter)",
+    "dimensions_including_leads_mm": [
+      20.7,
+      15.7,
+      24.9
+    ],
+    "flange_like_cluster_mm": [
+      20.7,
+      2.0,
+      21.4
+    ],
+    "current_drawing_flange_and_height_mm": [
+      20.0,
+      1.8,
+      21.1
+    ],
+    "uploader_manufacturer_origin_claim_independently_verified": false,
+    "standalone_assets_and_conversions_published": false,
+    "active_connector_models_replaced": false,
+    "inspection_scope": "Source XML geometry/unit checks and independent local native Blender import agree. Export colors and dimensions differ from current drawing; no exact mechanical or electrical pin-number qualification."
+  },
+  "known_mechanical_limits": {
+    "previous_seating_review": "docs/rear-seating-and-legends.json",
+    "connector_panel_and_case_geometry_preserved": true,
+    "DIN_saved_mesh_panel_intersections": 0,
+    "DIN_mating_face_recess_mm": 1.5748,
+    "remaining_nominal_audio_shoulder_penetration_mm": 0.508,
+    "remaining_nominal_POWER_USB_lower_edge_penetration_mm": 0.081,
+    "physical_clearance_not_established": true
+  },
+  "physical_fit_qualified": false
+}

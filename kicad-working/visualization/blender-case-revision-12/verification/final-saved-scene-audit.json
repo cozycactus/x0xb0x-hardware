@@ -1,0 +1,256 @@
+{
+  "passed": true,
+  "check_count": 41,
+  "baseline_scene_sha256": "fc02d403f1bcac0aa98937fd29e5f8d77e01f69400104278ea512d36eea01ff9",
+  "stable_scene_sha256": "517da1343de66a3e3b5c4848c182bcd263cccca419d3601e5805e0d3402228e1",
+  "stable_scene_bytes": 42930111,
+  "changed_objects": [
+    "DIN1 label",
+    "DIN2 label",
+    "DIN3 label"
+  ],
+  "corrected_midi_legend_count": 3,
+  "native_reference_count": 491,
+  "native_LED_count": 40,
+  "button_cap_count": 23,
+  "stored_object_count": 1661,
+  "frame_count": 4,
+  "failures": [],
+  "checks": [
+    {
+      "check": "Baseline11 and final12 are the frozen saved files",
+      "passed": true
+    },
+    {
+      "check": "Every stored object identity retained with none added",
+      "passed": true,
+      "object_count": 1661
+    },
+    {
+      "check": "Only the three specified editable FONT objects/data change",
+      "passed": true,
+      "changed_objects": [
+        "DIN1 label",
+        "DIN2 label",
+        "DIN3 label"
+      ],
+      "changed_data": [
+        "DIN1 label",
+        "DIN2 label",
+        "DIN3 label"
+      ]
+    },
+    {
+      "check": "Every stored object pose, hierarchy, links, properties and visibility preserved",
+      "passed": true
+    },
+    {
+      "check": "Every other mesh, curve, FONT, camera and light data remains exact",
+      "passed": true
+    },
+    {
+      "check": "Every FONT datablock identity, user count and local ownership preserved",
+      "passed": true,
+      "font_object_count": 123,
+      "corrected_font_ownership": {
+        "DIN1 label": {
+          "data_name": "DIN1 label",
+          "users": 1,
+          "linked_library": null
+        },
+        "DIN2 label": {
+          "data_name": "DIN2 label",
+          "users": 1,
+          "linked_library": null
+        },
+        "DIN3 label": {
+          "data_name": "DIN3 label",
+          "users": 1,
+          "linked_library": null
+        }
+      }
+    },
+    {
+      "check": "FONT style/material/textbox fields preserved; only body and automatic glyph bounds change: DIN1 label",
+      "passed": true
+    },
+    {
+      "check": "Uniform per-character formatting preserved for new text length: DIN1 label",
+      "passed": true
+    },
+    {
+      "check": "FONT style/material/textbox fields preserved; only body and automatic glyph bounds change: DIN2 label",
+      "passed": true
+    },
+    {
+      "check": "Uniform per-character formatting preserved for new text length: DIN2 label",
+      "passed": true
+    },
+    {
+      "check": "FONT style/material/textbox fields preserved; only body and automatic glyph bounds change: DIN3 label",
+      "passed": true
+    },
+    {
+      "check": "Uniform per-character formatting preserved for new text length: DIN3 label",
+      "passed": true
+    },
+    {
+      "check": "Electrical graph regression catches exactly three incorrect baseline11 legends",
+      "passed": true
+    },
+    {
+      "check": "Final editable legends match independent PCB and original Eagle functions",
+      "passed": true,
+      "expected": {
+        "DIN1": "MIDI OUT",
+        "DIN2": "THRU",
+        "DIN3": "MIDI IN",
+        "DIN4": "SYNC"
+      },
+      "original_connected_pad_memberships": 62
+    },
+    {
+      "check": "491 fitted native roots retain identity and every native child remains exact",
+      "passed": true
+    },
+    {
+      "check": "Native split remains409 mainboard/82 IO",
+      "passed": true
+    },
+    {
+      "check": "All40 native LEDs remain exact with no duplicate lens proxies",
+      "passed": true
+    },
+    {
+      "check": "All23 board-parented button caps remain exact",
+      "passed": true
+    },
+    {
+      "check": "All6 rear audio hardware meshes remain exact",
+      "passed": true
+    },
+    {
+      "check": "Every evaluated object pose/visibility remains exact frame1",
+      "passed": true,
+      "object_count": 1661
+    },
+    {
+      "check": "Every actual displayed instance matrix/identity remains exact frame1",
+      "passed": true,
+      "instance_object_count": 1564
+    },
+    {
+      "check": "Generated glyph geometry differs only for corrected text frame1",
+      "passed": true,
+      "changed_objects": [
+        "DIN1 label",
+        "DIN2 label",
+        "DIN3 label"
+      ]
+    },
+    {
+      "check": "Every evaluated object pose/visibility remains exact frame80",
+      "passed": true,
+      "object_count": 1661
+    },
+    {
+      "check": "Every actual displayed instance matrix/identity remains exact frame80",
+      "passed": true,
+      "instance_object_count": 1564
+    },
+    {
+      "check": "Generated glyph geometry differs only for corrected text frame80",
+      "passed": true,
+      "changed_objects": [
+        "DIN1 label",
+        "DIN2 label",
+        "DIN3 label"
+      ]
+    },
+    {
+      "check": "Every evaluated object pose/visibility remains exact frame120",
+      "passed": true,
+      "object_count": 1661
+    },
+    {
+      "check": "Every actual displayed instance matrix/identity remains exact frame120",
+      "passed": true,
+      "instance_object_count": 1385
+    },
+    {
+      "check": "Generated glyph geometry differs only for corrected text frame120",
+      "passed": true,
+      "changed_objects": [
+        "DIN1 label",
+        "DIN2 label",
+        "DIN3 label"
+      ]
+    },
+    {
+      "check": "Every evaluated object pose/visibility remains exact frame160",
+      "passed": true,
+      "object_count": 1661
+    },
+    {
+      "check": "Every actual displayed instance matrix/identity remains exact frame160",
+      "passed": true,
+      "instance_object_count": 318
+    },
+    {
+      "check": "Generated glyph geometry differs only for corrected text frame160",
+      "passed": true,
+      "changed_objects": [
+        "DIN1 label",
+        "DIN2 label",
+        "DIN3 label"
+      ]
+    },
+    {
+      "check": "All materials retained exactly",
+      "passed": true
+    },
+    {
+      "check": "All actions retained exactly",
+      "passed": true
+    },
+    {
+      "check": "All collections retained exactly",
+      "passed": true
+    },
+    {
+      "check": "All fonts retained exactly",
+      "passed": true
+    },
+    {
+      "check": "All historical embedded guides retained unchanged",
+      "passed": true
+    },
+    {
+      "check": "Exactly one current revision12 guide added with declared content",
+      "passed": true
+    },
+    {
+      "check": "Camera bindings, timeline markers and render settings retained exactly",
+      "passed": true
+    },
+    {
+      "check": "Only declared revision12 metadata changes",
+      "passed": true
+    },
+    {
+      "check": "Revision12 metadata declares actual baseline and three corrected legends",
+      "passed": true
+    },
+    {
+      "check": "Read-only inspection preserves both saved files",
+      "passed": true
+    }
+  ],
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "snapshot_hashes": {
+    "before-scene.json.gz": "4db9face0be250d928230ade890c0ebc1293cc3e944d9f0e395937ebb8642521",
+    "after-scene.json.gz": "bffe0cf86f92f6612a2b8fe462eb8ed760ebcaea842200b055d7bc752dd79a31"
+  },
+  "method": "Freshly reopen both saved files; compare complete compressed snapshots with aggregate exhaustive equality checks. Only three FONT bodies, their generated glyph meshes and automatic texture-space XY caches may differ, plus declared revision metadata/guide. Automatic caches are separately checked against actual local glyph bounds."
+}

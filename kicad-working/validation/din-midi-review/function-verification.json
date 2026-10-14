@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "review_date": "2026-10-15",
+  "source_extract": "function-source-evidence.json",
+  "source_extract_sha256": "7dacc3ae8aa60888f0130501c11f34d7631fba5bdda91ab3accb808b2d7878d6",
+  "inspector": "inspect_din_functions.py",
+  "inspector_sha256": "8d572ee143b4b664604508d95c5cc7b0b8f312685d925b1375e1c53c7719d5d7",
+  "full_original_binary_decode": {
+    "passed": true,
+    "checks_count": 214,
+    "method": "Fresh originalEagleSCH andBRD interpretation through existing inspector and hash-pinned fork record table; no conversion/mutation."
+  },
+  "portable_replay": {
+    "passed": true,
+    "checks_count": 214,
+    "same_check_results_as_full_decode": true,
+    "external_parser_source_required": false
+  },
+  "raw_schematic_record_count": 68,
+  "source_input_hashes": [
+    {
+      "path": "original-eagle/ioboard.sch",
+      "sha256": "cd1ca93a4e3075efdd6db1f53a00a766cca7b02b01297d65b6a795f65ed18d5b",
+      "bytes": 240189
+    },
+    {
+      "path": "original-eagle/ioboard.brd",
+      "sha256": "76b6d3c1b71adafd8b84ae0141f78a480a07d13c3eb908694f8cd212c833270e",
+      "bytes": 46298
+    },
+    {
+      "path": "kicad-working/ioboard/ioboard.kicad_pcb",
+      "sha256": "63ce57799bb03ee442863c9e59f13fef5f39fbb268d4bacc70b980e6c21c8487",
+      "bytes": 959351
+    },
+    {
+      "path": "kicad-working/ioboard/ioboard.kicad_sch",
+      "sha256": "c4dc4a4032fe068738e498adc2683d8d34d5bfca9320a3b016926c462a98d81d",
+      "bytes": 412160
+    }
+  ],
+  "functions": {
+    "DIN1": "MIDI OUT",
+    "DIN2": "MIDI THRU",
+    "DIN3": "MIDI IN",
+    "DIN4": "DIN SYNC"
+  },
+  "revision12_display_text": {
+    "DIN1": "MIDI OUT",
+    "DIN2": "THRU",
+    "DIN3": "MIDI IN",
+    "DIN4": "SYNC"
+  },
+  "scope": "Source function/connectivity checks only. SavedBlender12 string/preservation/opening checks belong to independent scene verifier. No physical/electrical hardware test.",
+  "source_designs_modified": false
+}

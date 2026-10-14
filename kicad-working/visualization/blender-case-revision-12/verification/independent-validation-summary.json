@@ -1,0 +1,209 @@
+{
+  "passed": true,
+  "scene_sha256": "517da1343de66a3e3b5c4848c182bcd263cccca419d3601e5805e0d3402228e1",
+  "scene_bytes": 42930111,
+  "baseline_scene_sha256": "fc02d403f1bcac0aa98937fd29e5f8d77e01f69400104278ea512d36eea01ff9",
+  "blender_version": "5.0.0",
+  "corrected_font_objects": [
+    "DIN1 label",
+    "DIN2 label",
+    "DIN3 label"
+  ],
+  "derived_display_mapping": {
+    "DIN1": "MIDI OUT",
+    "DIN2": "THRU",
+    "DIN3": "MIDI IN",
+    "DIN4": "SYNC"
+  },
+  "independent_original_connected_pad_memberships": 62,
+  "baseline_regression": {
+    "passed": true,
+    "baseline_mapping_passed": false,
+    "expected_failure_references": [
+      "DIN1",
+      "DIN2",
+      "DIN3"
+    ]
+  },
+  "native_reference_count": 491,
+  "native_LED_count": 40,
+  "button_cap_count": 23,
+  "rear_port_count": 11,
+  "rear_opening_check_count": 44,
+  "rear_opening_ray_count": 974,
+  "evaluated_rear_glyph_pose_count": 44,
+  "inspection_frame_count": 4,
+  "reports": {
+    "final-saved-scene-audit.json": {
+      "passed": true,
+      "sha256": "d88af07bb93674185e5808f61de3e4fadbe16ba6f78de17720d451330c1ec82a",
+      "check_count": 41,
+      "view_count": null
+    },
+    "midi-legends-audit.json": {
+      "passed": true,
+      "sha256": "b6fed36b0a4d980fad44a3566edfa00b86df4a80bb19b55a95828d88222e2a41",
+      "check_count": 4,
+      "view_count": null
+    },
+    "rear-legend-plane-audit.json": {
+      "passed": true,
+      "sha256": "64f6d784b66b55a032b228d1c99e07dade559a09f498a725552e5407bdb20ca7",
+      "check_count": 13,
+      "view_count": null
+    },
+    "rear-openings-audit.json": {
+      "passed": true,
+      "sha256": "bf1c4ca2f70614fcafec13204587f91a3fba175a3a8cae8a32169543f8774f67",
+      "check_count": 44,
+      "view_count": null
+    },
+    "portable-scene-audit.json": {
+      "passed": true,
+      "sha256": "35e303947f71c3716e7ff093f152dbe14ad3a6e24f5b741b2a338c412dac09c9",
+      "check_count": 106,
+      "view_count": null
+    },
+    "final-render-review.json": {
+      "passed": true,
+      "sha256": "da8ab3240c0bc554492f427d33fed95f83d76a6cc92888aee17a93daffb8f384",
+      "check_count": null,
+      "view_count": 7
+    },
+    "render-readonly-verification.json": {
+      "passed": true,
+      "sha256": "878674a5dfafd834981528819ecf441284a85e2d0a347e99eb3c9fac3db0ed1b",
+      "check_count": null,
+      "view_count": 7
+    }
+  },
+  "evidence_files": [
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/README.md",
+      "sha256": "1dcbd9721edd9bfb9dcaa9dc139ff30f54ffd115e174e1c318b860ed398fdefb",
+      "bytes": 7230
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/after-scene.json.gz",
+      "sha256": "bffe0cf86f92f6612a2b8fe462eb8ed760ebcaea842200b055d7bc752dd79a31",
+      "bytes": 945530
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/audit_legend_planes.py",
+      "sha256": "4feb480d92cb86b776e8d1bb38ed572fe11cf656a9e11b0564eaa16ad01f6b7e",
+      "bytes": 9297
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/audit_saved_scene.py",
+      "sha256": "8971141f05b4a2036a2aef8cb24682592a3c7cfcc387cba1ef414cbd6900b30b",
+      "bytes": 9964
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/baseline-midi-legends-audit.json",
+      "sha256": "d35eefdb071f00a361970afe1cce1bdd435a8f100818322c777318426b98c0a5",
+      "bytes": 4287
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/before-scene.json.gz",
+      "sha256": "4db9face0be250d928230ade890c0ebc1293cc3e944d9f0e395937ebb8642521",
+      "bytes": 944803
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/derive_midi_functions.py",
+      "sha256": "2ff2bed64c4af2ff0d68ae96fd214d95a8684c7b591d37e909693c7ffaa7b36d",
+      "bytes": 8587
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/final-render-review.json",
+      "sha256": "da8ab3240c0bc554492f427d33fed95f83d76a6cc92888aee17a93daffb8f384",
+      "bytes": 4703
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/final-saved-scene-audit.json",
+      "sha256": "d88af07bb93674185e5808f61de3e4fadbe16ba6f78de17720d451330c1ec82a",
+      "bytes": 7423
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/midi-connectivity-evidence.json",
+      "sha256": "9c66b2e892b2c85ff913206f022f3fb26d5ee1f74b6cad3b1dc6c009ced113ad",
+      "bytes": 35597
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/midi-legends-audit.json",
+      "sha256": "b6fed36b0a4d980fad44a3566edfa00b86df4a80bb19b55a95828d88222e2a41",
+      "bytes": 2896
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/portable-scene-audit.json",
+      "sha256": "35e303947f71c3716e7ff093f152dbe14ad3a6e24f5b741b2a338c412dac09c9",
+      "bytes": 12523
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/rear-legend-plane-audit.json",
+      "sha256": "64f6d784b66b55a032b228d1c99e07dade559a09f498a725552e5407bdb20ca7",
+      "bytes": 173438
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/rear-openings-audit.json",
+      "sha256": "bf1c4ca2f70614fcafec13204587f91a3fba175a3a8cae8a32169543f8774f67",
+      "bytes": 119465
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/render-readonly-verification.json",
+      "sha256": "878674a5dfafd834981528819ecf441284a85e2d0a347e99eb3c9fac3db0ed1b",
+      "bytes": 321
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/scene_snapshot.py",
+      "sha256": "9c6576a9a05cba01736055f45d35e751edb1df57933c9b16b9c9e7faa1c8d642",
+      "bytes": 11397
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/summarize_validation.py",
+      "sha256": "131525eecb284f9e10613739cf38f201babf69961c5190aa4f93290851a744a2",
+      "bytes": 5042
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-12/verification/verify_midi_legends.py",
+      "sha256": "87170d04035f5ede7bab79a08708b72a8e7de59fb2260ffe506c8aa50c88a004",
+      "bytes": 1853
+    }
+  ],
+  "unchanged_repository_verifiers": [
+    {
+      "path": "scripts/verify_blender_scene.py",
+      "sha256": "398e616003e0de584c077edd2b432e83858d8457852ba708c7472ffbef268439"
+    },
+    {
+      "path": "scripts/verify_rear_openings.py",
+      "sha256": "beb85811b0a54009e0c0cd5c746ea8718d4da01023794b2c99d33d765300b8d4"
+    }
+  ],
+  "source_inputs": [
+    {
+      "path": "kicad-working/ioboard/ioboard.kicad_pcb",
+      "sha256": "63ce57799bb03ee442863c9e59f13fef5f39fbb268d4bacc70b980e6c21c8487"
+    },
+    {
+      "path": "original-eagle/ioboard.sch",
+      "sha256": "cd1ca93a4e3075efdd6db1f53a00a766cca7b02b01297d65b6a795f65ed18d5b"
+    }
+  ],
+  "source_review": {
+    "path": "kicad-working/validation/din-midi-review/function-verification.json",
+    "sha256": "952974df240741b3fb4391740d4af4e1b06f8b16fb06ae16da6714039cbb4773",
+    "ownership": "Separate source reviewer; broader original schematic/board checks."
+  },
+  "snapshot_scope": "All 1661 stored objects, geometry/data signatures, font resources/settings, materials, hierarchy, collections, animation, cameras and actual instance matrices in frames1/80/120/160.",
+  "automatic_font_cache_qualification": "The three regenerated glyphs update automatic texture-space XY bounds with use_auto_texspace retained true; native glyph measurements confirm those caches. All editable font/style/material fields and normal cache components remain exact.",
+  "render_review_ownership": "Delegated scene renderer owns only final-render-review.json and render-readonly-verification.json.",
+  "read_only": true,
+  "source_designs_modified": false,
+  "physical_fit_qualified": false,
+  "qualifications": [
+    "Three editable presentation legend strings are corrected; original printed typography is not recovered.",
+    "The preserved .01mm rear glyph display offset is a rendering choice, not physical ink thickness.",
+    "Previously measured three audio .508mm panel intersections and nominal power/USB .081mm lower clipping remain unchanged model/datum conflicts; seating is not certified.",
+    "Rear rays qualify sampled visual apertures only; no physical insertion/thread, hardware electrical, ERC, DRC or fabrication certification."
+  ]
+}

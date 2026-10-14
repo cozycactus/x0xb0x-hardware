@@ -1,0 +1,185 @@
+{
+  "passed": false,
+  "check_count": 4,
+  "failures": [
+    {
+      "reference": "DIN1",
+      "object": "DIN1 label",
+      "expected": "MIDI OUT",
+      "actual": "MIDI IN",
+      "passed": false,
+      "electrical_function": "processor MIDI output",
+      "connectivity_evidence": {
+        "pin4_supply_series": [
+          [
+            "R14",
+            "+5V"
+          ]
+        ],
+        "pin5_driver_series": [
+          [
+            "R13",
+            "MIDI_OUT"
+          ]
+        ],
+        "driver_net": "MIDI_OUT"
+      }
+    },
+    {
+      "reference": "DIN2",
+      "object": "DIN2 label",
+      "expected": "THRU",
+      "actual": "MIDI OUT",
+      "passed": false,
+      "electrical_function": "buffered MIDI thru",
+      "connectivity_evidence": {
+        "pin4_supply_series": [
+          [
+            "R18",
+            "+5V"
+          ]
+        ],
+        "pin5_driver_series": [
+          [
+            "R15",
+            "MIDI_IN"
+          ]
+        ],
+        "driver_net": "MIDI_IN"
+      }
+    },
+    {
+      "reference": "DIN3",
+      "object": "DIN3 label",
+      "expected": "MIDI IN",
+      "actual": "THRU",
+      "passed": false,
+      "electrical_function": "optoisolated MIDI input",
+      "connectivity_evidence": {
+        "pin4_series": [
+          [
+            "R19",
+            "N$90"
+          ]
+        ],
+        "pin5_opto_cathode": "IC24.2",
+        "opto_anode": "IC24.1"
+      }
+    }
+  ],
+  "scene_sha256": "fc02d403f1bcac0aa98937fd29e5f8d77e01f69400104278ea512d36eea01ff9",
+  "pcb_sha256": "63ce57799bb03ee442863c9e59f13fef5f39fbb268d4bacc70b980e6c21c8487",
+  "original_eagle_sha256": "cd1ca93a4e3075efdd6db1f53a00a766cca7b02b01297d65b6a795f65ed18d5b",
+  "original_connected_pad_comparison": {
+    "passed": true,
+    "connected_pad_memberships_checked": 62,
+    "original_binary_record_count": 62,
+    "original_raw_records_replayed": 62,
+    "source_sha256": "cd1ca93a4e3075efdd6db1f53a00a766cca7b02b01297d65b6a795f65ed18d5b"
+  },
+  "checks": [
+    {
+      "reference": "DIN1",
+      "object": "DIN1 label",
+      "expected": "MIDI OUT",
+      "actual": "MIDI IN",
+      "passed": false,
+      "electrical_function": "processor MIDI output",
+      "connectivity_evidence": {
+        "pin4_supply_series": [
+          [
+            "R14",
+            "+5V"
+          ]
+        ],
+        "pin5_driver_series": [
+          [
+            "R13",
+            "MIDI_OUT"
+          ]
+        ],
+        "driver_net": "MIDI_OUT"
+      }
+    },
+    {
+      "reference": "DIN2",
+      "object": "DIN2 label",
+      "expected": "THRU",
+      "actual": "MIDI OUT",
+      "passed": false,
+      "electrical_function": "buffered MIDI thru",
+      "connectivity_evidence": {
+        "pin4_supply_series": [
+          [
+            "R18",
+            "+5V"
+          ]
+        ],
+        "pin5_driver_series": [
+          [
+            "R15",
+            "MIDI_IN"
+          ]
+        ],
+        "driver_net": "MIDI_IN"
+      }
+    },
+    {
+      "reference": "DIN3",
+      "object": "DIN3 label",
+      "expected": "MIDI IN",
+      "actual": "THRU",
+      "passed": false,
+      "electrical_function": "optoisolated MIDI input",
+      "connectivity_evidence": {
+        "pin4_series": [
+          [
+            "R19",
+            "N$90"
+          ]
+        ],
+        "pin5_opto_cathode": "IC24.2",
+        "opto_anode": "IC24.1"
+      }
+    },
+    {
+      "reference": "DIN4",
+      "object": "DIN4 label",
+      "expected": "SYNC",
+      "actual": "SYNC",
+      "passed": true,
+      "electrical_function": "four-line DIN synchronization",
+      "connectivity_evidence": {
+        "pin_series_nets": {
+          "1": [
+            [
+              "R24",
+              "DINSYNC1"
+            ]
+          ],
+          "3": [
+            [
+              "R21",
+              "DINSYNC4"
+            ]
+          ],
+          "4": [
+            [
+              "R23",
+              "DINSYNC2"
+            ]
+          ],
+          "5": [
+            [
+              "R22",
+              "DINSYNC3"
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "method": "Classify DIN pins using resistor, optocoupler, transistor and header connectivity; no scene or generator mapping is read."
+}

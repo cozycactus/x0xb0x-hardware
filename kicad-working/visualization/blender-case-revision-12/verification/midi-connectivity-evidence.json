@@ -1,0 +1,1554 @@
+{
+  "pcb": "kicad-working/ioboard/ioboard.kicad_pcb",
+  "pcb_sha256": "63ce57799bb03ee442863c9e59f13fef5f39fbb268d4bacc70b980e6c21c8487",
+  "original_eagle": "original-eagle/ioboard.sch",
+  "eagle_sha256": "cd1ca93a4e3075efdd6db1f53a00a766cca7b02b01297d65b6a795f65ed18d5b",
+  "functions": {
+    "DIN1": {
+      "expected_legend": "MIDI OUT",
+      "function": "processor MIDI output",
+      "connector_pad_nets": {
+        "1": null,
+        "2": "GND",
+        "3": null,
+        "4": "N$296",
+        "5": "N$295",
+        "PE": "GND",
+        "PE@": "GND"
+      },
+      "evidence": {
+        "pin4_supply_series": [
+          [
+            "R14",
+            "+5V"
+          ]
+        ],
+        "pin5_driver_series": [
+          [
+            "R13",
+            "MIDI_OUT"
+          ]
+        ],
+        "driver_net": "MIDI_OUT"
+      }
+    },
+    "DIN2": {
+      "expected_legend": "THRU",
+      "function": "buffered MIDI thru",
+      "connector_pad_nets": {
+        "1": null,
+        "2": "GND",
+        "3": null,
+        "4": "N$294",
+        "5": "N$293",
+        "PE": "GND",
+        "PE@": "GND"
+      },
+      "evidence": {
+        "pin4_supply_series": [
+          [
+            "R18",
+            "+5V"
+          ]
+        ],
+        "pin5_driver_series": [
+          [
+            "R15",
+            "MIDI_IN"
+          ]
+        ],
+        "driver_net": "MIDI_IN"
+      }
+    },
+    "DIN3": {
+      "expected_legend": "MIDI IN",
+      "function": "optoisolated MIDI input",
+      "connector_pad_nets": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": "N$234",
+        "5": "N$87",
+        "PE": null,
+        "PE@": null
+      },
+      "evidence": {
+        "pin4_series": [
+          [
+            "R19",
+            "N$90"
+          ]
+        ],
+        "pin5_opto_cathode": "IC24.2",
+        "opto_anode": "IC24.1"
+      }
+    },
+    "DIN4": {
+      "expected_legend": "SYNC",
+      "function": "four-line DIN synchronization",
+      "connector_pad_nets": {
+        "1": "N$24",
+        "2": "N$78",
+        "3": "N$22",
+        "4": "N$25",
+        "5": "N$23",
+        "PE": null,
+        "PE@": null
+      },
+      "evidence": {
+        "pin_series_nets": {
+          "1": [
+            [
+              "R24",
+              "DINSYNC1"
+            ]
+          ],
+          "3": [
+            [
+              "R21",
+              "DINSYNC4"
+            ]
+          ],
+          "4": [
+            [
+              "R23",
+              "DINSYNC2"
+            ]
+          ],
+          "5": [
+            [
+              "R22",
+              "DINSYNC3"
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "buffered_receiver": {
+    "opto": "IC24",
+    "transistor": "Q50",
+    "processor_header": "J3"
+  },
+  "selected_parts": {
+    "D48": {
+      "value": "1N4148",
+      "position": [
+        "149.86",
+        "-18.034"
+      ],
+      "pads": {
+        "A": "N$87",
+        "C": "N$90"
+      }
+    },
+    "DIN1": {
+      "value": "CP2350",
+      "position": [
+        "113.538",
+        "0"
+      ],
+      "pads": {
+        "1": null,
+        "2": "GND",
+        "3": null,
+        "4": "N$296",
+        "5": "N$295",
+        "PE": "GND",
+        "PE@": "GND"
+      }
+    },
+    "DIN2": {
+      "value": "CP2350",
+      "position": [
+        "135.128",
+        "0"
+      ],
+      "pads": {
+        "1": null,
+        "2": "GND",
+        "3": null,
+        "4": "N$294",
+        "5": "N$293",
+        "PE": "GND",
+        "PE@": "GND"
+      }
+    },
+    "DIN3": {
+      "value": "CP2350",
+      "position": [
+        "156.718",
+        "0"
+      ],
+      "pads": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": "N$234",
+        "5": "N$87",
+        "PE": null,
+        "PE@": null
+      }
+    },
+    "DIN4": {
+      "value": "CP2350",
+      "position": [
+        "200.914",
+        "0"
+      ],
+      "pads": {
+        "1": "N$24",
+        "2": "N$78",
+        "3": "N$22",
+        "4": "N$25",
+        "5": "N$23",
+        "PE": null,
+        "PE@": null
+      }
+    },
+    "IC24": {
+      "value": "4N37",
+      "position": [
+        "142.494",
+        "-23.749",
+        "90"
+      ],
+      "pads": {
+        "1": "N$90",
+        "2": "N$87",
+        "3": null,
+        "4": "N$18",
+        "5": "+5V",
+        "6": null
+      }
+    },
+    "J3": {
+      "value": "",
+      "position": [
+        "184.531",
+        "-38.1"
+      ],
+      "pads": {
+        "1": "USB_TX",
+        "2": "USB_RX",
+        "3": "+5V",
+        "4": "+5V",
+        "5": "MIDI_IN",
+        "6": "MIDI_OUT",
+        "7": "GND",
+        "8": "GND",
+        "9": "DINSYNC4",
+        "10": "DINSYNC3",
+        "11": "DINSYNC2",
+        "12": "DINSYNC1"
+      }
+    },
+    "Q50": {
+      "value": "2SC536F",
+      "position": [
+        "131.826",
+        "-20.701",
+        "90"
+      ],
+      "pads": {
+        "1": "N$18",
+        "2": "MIDI_IN",
+        "3": "GND"
+      }
+    },
+    "R13": {
+      "value": "220",
+      "position": [
+        "112.776",
+        "-20.828",
+        "-90"
+      ],
+      "pads": {
+        "1": "MIDI_OUT",
+        "2": "N$295"
+      }
+    },
+    "R14": {
+      "value": "220",
+      "position": [
+        "116.459",
+        "-20.828",
+        "90"
+      ],
+      "pads": {
+        "1": "N$296",
+        "2": "+5V"
+      }
+    },
+    "R15": {
+      "value": "220",
+      "position": [
+        "125.095",
+        "-18.288",
+        "90"
+      ],
+      "pads": {
+        "1": "N$293",
+        "2": "MIDI_IN"
+      }
+    },
+    "R16": {
+      "value": "100",
+      "position": [
+        "127.889",
+        "-20.701",
+        "90"
+      ],
+      "pads": {
+        "1": "GND",
+        "2": "N$18"
+      }
+    },
+    "R17": {
+      "value": "1k",
+      "position": [
+        "135.382",
+        "-21.209",
+        "90"
+      ],
+      "pads": {
+        "1": "MIDI_IN",
+        "2": "+5V"
+      }
+    },
+    "R18": {
+      "value": "220",
+      "position": [
+        "140.843",
+        "-18.034",
+        "180"
+      ],
+      "pads": {
+        "1": "N$294",
+        "2": "+5V"
+      }
+    },
+    "R19": {
+      "value": "220",
+      "position": [
+        "153.416",
+        "-21.209",
+        "180"
+      ],
+      "pads": {
+        "1": "N$234",
+        "2": "N$90"
+      }
+    },
+    "R20": {
+      "value": "22",
+      "position": [
+        "189.865",
+        "-16.51",
+        "90"
+      ],
+      "pads": {
+        "1": "N$78",
+        "2": "GND"
+      }
+    },
+    "R21": {
+      "value": "2.2K",
+      "position": [
+        "193.421",
+        "-21.209",
+        "90"
+      ],
+      "pads": {
+        "1": "N$22",
+        "2": "DINSYNC4"
+      }
+    },
+    "R22": {
+      "value": "2.2K",
+      "position": [
+        "197.993",
+        "-21.082",
+        "-90"
+      ],
+      "pads": {
+        "1": "DINSYNC3",
+        "2": "N$23"
+      }
+    },
+    "R23": {
+      "value": "2.2K",
+      "position": [
+        "203.454",
+        "-21.209",
+        "90"
+      ],
+      "pads": {
+        "1": "N$25",
+        "2": "DINSYNC2"
+      }
+    },
+    "R24": {
+      "value": "2.2K",
+      "position": [
+        "208.534",
+        "-21.082",
+        "-90"
+      ],
+      "pads": {
+        "1": "DINSYNC1",
+        "2": "N$24"
+      }
+    }
+  },
+  "method": "Classify DIN pins using resistor, optocoupler, transistor and header connectivity; no scene or generator mapping is read.",
+  "physical_fit_qualified": false,
+  "original_binary_evidence": {
+    "decoder_sha256": "53245890d9123b2363cb082d8c97bf702badf1a3a8bd040fe45f5643764a6833",
+    "parser_spec_sha256": "972b3474b6fbc273e042cd71b2021cc03e14dff73725eb9881efb082dd84ef9b",
+    "source_sha256": "cd1ca93a4e3075efdd6db1f53a00a766cca7b02b01297d65b6a795f65ed18d5b",
+    "all_records_match_fork_parser": true,
+    "selected_parts": [
+      {
+        "record_index": 8077,
+        "lib": 1,
+        "device": 11,
+        "variant": 1,
+        "technology": 1,
+        "name": "DIN4",
+        "value": "CP2350",
+        "placed_gate_instances": 3
+      },
+      {
+        "record_index": 8081,
+        "lib": 2,
+        "device": 1,
+        "variant": 38,
+        "technology": 1,
+        "name": "R20",
+        "value": "22",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8085,
+        "lib": 1,
+        "device": 11,
+        "variant": 1,
+        "technology": 1,
+        "name": "DIN2",
+        "value": "CP2350",
+        "placed_gate_instances": 3
+      },
+      {
+        "record_index": 8089,
+        "lib": 1,
+        "device": 11,
+        "variant": 1,
+        "technology": 1,
+        "name": "DIN3",
+        "value": "CP2350",
+        "placed_gate_instances": 3
+      },
+      {
+        "record_index": 8093,
+        "lib": 4,
+        "device": 1,
+        "variant": 1,
+        "technology": 1,
+        "name": "D48",
+        "value": "1N4148",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8095,
+        "lib": 2,
+        "device": 1,
+        "variant": 38,
+        "technology": 1,
+        "name": "R19",
+        "value": "220",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8099,
+        "lib": 2,
+        "device": 1,
+        "variant": 38,
+        "technology": 1,
+        "name": "R17",
+        "value": "1k",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8101,
+        "lib": 2,
+        "device": 1,
+        "variant": 38,
+        "technology": 1,
+        "name": "R15",
+        "value": "220",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8107,
+        "lib": 2,
+        "device": 1,
+        "variant": 38,
+        "technology": 1,
+        "name": "R18",
+        "value": "220",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8111,
+        "lib": 1,
+        "device": 11,
+        "variant": 1,
+        "technology": 1,
+        "name": "DIN1",
+        "value": "CP2350",
+        "placed_gate_instances": 3
+      },
+      {
+        "record_index": 8115,
+        "lib": 2,
+        "device": 1,
+        "variant": 38,
+        "technology": 1,
+        "name": "R13",
+        "value": "220",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8119,
+        "lib": 2,
+        "device": 1,
+        "variant": 38,
+        "technology": 1,
+        "name": "R14",
+        "value": "220",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8181,
+        "lib": 8,
+        "device": 2,
+        "variant": 1,
+        "technology": 1,
+        "name": "J3",
+        "value": "",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8265,
+        "lib": 6,
+        "device": 1,
+        "variant": 1,
+        "technology": 1,
+        "name": "IC24",
+        "value": "4N37",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8267,
+        "lib": 1,
+        "device": 5,
+        "variant": 1,
+        "technology": 1,
+        "name": "Q50",
+        "value": "2SC536F",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8269,
+        "lib": 2,
+        "device": 1,
+        "variant": 38,
+        "technology": 1,
+        "name": "R16",
+        "value": "100",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8287,
+        "lib": 2,
+        "device": 1,
+        "variant": 38,
+        "technology": 1,
+        "name": "R24",
+        "value": "2.2K",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8289,
+        "lib": 2,
+        "device": 1,
+        "variant": 38,
+        "technology": 1,
+        "name": "R23",
+        "value": "2.2K",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8295,
+        "lib": 2,
+        "device": 1,
+        "variant": 38,
+        "technology": 1,
+        "name": "R22",
+        "value": "2.2K",
+        "placed_gate_instances": 1
+      },
+      {
+        "record_index": 8297,
+        "lib": 2,
+        "device": 1,
+        "variant": 38,
+        "technology": 1,
+        "name": "R21",
+        "value": "2.2K",
+        "placed_gate_instances": 1
+      }
+    ],
+    "selected_pin_net_memberships": [
+      {
+        "record_index": 8375,
+        "reference": "R20",
+        "net": "GND",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 2,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000000200010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8451,
+        "reference": "DIN2",
+        "net": "GND",
+        "gate": "G$3",
+        "pin": "GND",
+        "pads": [
+          "PE@"
+        ],
+        "part_ordinal": 4,
+        "gate_ordinal": 3,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000000400030001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8452,
+        "reference": "DIN2",
+        "net": "GND",
+        "gate": "G$2",
+        "pin": "GND",
+        "pads": [
+          "PE"
+        ],
+        "part_ordinal": 4,
+        "gate_ordinal": 2,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000000400020001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8454,
+        "reference": "DIN2",
+        "net": "GND",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 4,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000000400010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8461,
+        "reference": "J3",
+        "net": "GND",
+        "gate": "1",
+        "pin": "8",
+        "pads": [
+          "8"
+        ],
+        "part_ordinal": 49,
+        "gate_ordinal": 1,
+        "pin_ordinal": 8,
+        "has_package": true,
+        "raw_record_hex": "3d0000003100010008000000000000000000000000000000"
+      },
+      {
+        "record_index": 8464,
+        "reference": "J3",
+        "net": "GND",
+        "gate": "1",
+        "pin": "7",
+        "pads": [
+          "7"
+        ],
+        "part_ordinal": 49,
+        "gate_ordinal": 1,
+        "pin_ordinal": 7,
+        "has_package": true,
+        "raw_record_hex": "3d0000003100010007000000000000000000000000000000"
+      },
+      {
+        "record_index": 8522,
+        "reference": "Q50",
+        "net": "GND",
+        "gate": "G$1",
+        "pin": "E",
+        "pads": [
+          "3"
+        ],
+        "part_ordinal": 91,
+        "gate_ordinal": 1,
+        "pin_ordinal": 3,
+        "has_package": true,
+        "raw_record_hex": "3d0000005b00010003000000000000000000000000000000"
+      },
+      {
+        "record_index": 8526,
+        "reference": "R16",
+        "net": "GND",
+        "gate": "G$1",
+        "pin": "1",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 92,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000005c00010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8530,
+        "reference": "DIN1",
+        "net": "GND",
+        "gate": "G$2",
+        "pin": "GND",
+        "pads": [
+          "PE"
+        ],
+        "part_ordinal": 15,
+        "gate_ordinal": 2,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000000f00020001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8533,
+        "reference": "DIN1",
+        "net": "GND",
+        "gate": "G$3",
+        "pin": "GND",
+        "pads": [
+          "PE@"
+        ],
+        "part_ordinal": 15,
+        "gate_ordinal": 3,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000000f00030001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8536,
+        "reference": "DIN1",
+        "net": "GND",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 15,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000000f00010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8574,
+        "reference": "R17",
+        "net": "+5V",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 9,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000000900010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8576,
+        "reference": "IC24",
+        "net": "+5V",
+        "gate": "1",
+        "pin": "COL",
+        "pads": [
+          "5"
+        ],
+        "part_ordinal": 90,
+        "gate_ordinal": 1,
+        "pin_ordinal": 5,
+        "has_package": true,
+        "raw_record_hex": "3d0000005a00010005000000000000000000000000000000"
+      },
+      {
+        "record_index": 8584,
+        "reference": "R18",
+        "net": "+5V",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 13,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000000d00010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8587,
+        "reference": "R14",
+        "net": "+5V",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 18,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000001200010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8606,
+        "reference": "J3",
+        "net": "+5V",
+        "gate": "1",
+        "pin": "4",
+        "pads": [
+          "4"
+        ],
+        "part_ordinal": 49,
+        "gate_ordinal": 1,
+        "pin_ordinal": 4,
+        "has_package": true,
+        "raw_record_hex": "3d0000003100010004000000000000000000000000000000"
+      },
+      {
+        "record_index": 8609,
+        "reference": "J3",
+        "net": "+5V",
+        "gate": "1",
+        "pin": "3",
+        "pads": [
+          "3"
+        ],
+        "part_ordinal": 49,
+        "gate_ordinal": 1,
+        "pin_ordinal": 3,
+        "has_package": true,
+        "raw_record_hex": "3d0000003100010003000000000000000000000000000000"
+      },
+      {
+        "record_index": 8633,
+        "reference": "R13",
+        "net": "MIDI_OUT",
+        "gate": "G$1",
+        "pin": "1",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 16,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000001000010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8637,
+        "reference": "J3",
+        "net": "MIDI_OUT",
+        "gate": "1",
+        "pin": "6",
+        "pads": [
+          "6"
+        ],
+        "part_ordinal": 49,
+        "gate_ordinal": 1,
+        "pin_ordinal": 6,
+        "has_package": true,
+        "raw_record_hex": "3d0000003100010006000000000000000000000000000000"
+      },
+      {
+        "record_index": 8646,
+        "reference": "J3",
+        "net": "USB_TX",
+        "gate": "1",
+        "pin": "1",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 49,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000003100010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8655,
+        "reference": "J3",
+        "net": "USB_RX",
+        "gate": "1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 49,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000003100010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8660,
+        "reference": "DIN4",
+        "net": "N$78",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 1,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000000100010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8661,
+        "reference": "R20",
+        "net": "N$78",
+        "gate": "G$1",
+        "pin": "1",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 2,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000000200010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8664,
+        "reference": "DIN3",
+        "net": "N$87",
+        "gate": "G$1",
+        "pin": "5",
+        "pads": [
+          "5"
+        ],
+        "part_ordinal": 5,
+        "gate_ordinal": 1,
+        "pin_ordinal": 5,
+        "has_package": true,
+        "raw_record_hex": "3d0000000500010005000000000000000000000000000000"
+      },
+      {
+        "record_index": 8666,
+        "reference": "D48",
+        "net": "N$87",
+        "gate": "G$1",
+        "pin": "A",
+        "pads": [
+          "A"
+        ],
+        "part_ordinal": 6,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000000600010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8668,
+        "reference": "IC24",
+        "net": "N$87",
+        "gate": "1",
+        "pin": "C",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 90,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000005a00010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8674,
+        "reference": "D48",
+        "net": "N$90",
+        "gate": "G$1",
+        "pin": "C",
+        "pads": [
+          "C"
+        ],
+        "part_ordinal": 6,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000000600010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8675,
+        "reference": "R19",
+        "net": "N$90",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 7,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000000700010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8678,
+        "reference": "IC24",
+        "net": "N$90",
+        "gate": "1",
+        "pin": "A",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 90,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000005a00010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8683,
+        "reference": "R19",
+        "net": "N$234",
+        "gate": "G$1",
+        "pin": "1",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 7,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000000700010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8685,
+        "reference": "DIN3",
+        "net": "N$234",
+        "gate": "G$1",
+        "pin": "4",
+        "pads": [
+          "4"
+        ],
+        "part_ordinal": 5,
+        "gate_ordinal": 1,
+        "pin_ordinal": 4,
+        "has_package": true,
+        "raw_record_hex": "3d0000000500010004000000000000000000000000000000"
+      },
+      {
+        "record_index": 8689,
+        "reference": "DIN2",
+        "net": "N$293",
+        "gate": "G$1",
+        "pin": "5",
+        "pads": [
+          "5"
+        ],
+        "part_ordinal": 4,
+        "gate_ordinal": 1,
+        "pin_ordinal": 5,
+        "has_package": true,
+        "raw_record_hex": "3d0000000400010005000000000000000000000000000000"
+      },
+      {
+        "record_index": 8690,
+        "reference": "R15",
+        "net": "N$293",
+        "gate": "G$1",
+        "pin": "1",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 10,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000000a00010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8695,
+        "reference": "DIN2",
+        "net": "N$294",
+        "gate": "G$1",
+        "pin": "4",
+        "pads": [
+          "4"
+        ],
+        "part_ordinal": 4,
+        "gate_ordinal": 1,
+        "pin_ordinal": 4,
+        "has_package": true,
+        "raw_record_hex": "3d0000000400010004000000000000000000000000000000"
+      },
+      {
+        "record_index": 8696,
+        "reference": "R18",
+        "net": "N$294",
+        "gate": "G$1",
+        "pin": "1",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 13,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000000d00010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8699,
+        "reference": "DIN1",
+        "net": "N$295",
+        "gate": "G$1",
+        "pin": "5",
+        "pads": [
+          "5"
+        ],
+        "part_ordinal": 15,
+        "gate_ordinal": 1,
+        "pin_ordinal": 5,
+        "has_package": true,
+        "raw_record_hex": "3d0000000f00010005000000000000000000000000000000"
+      },
+      {
+        "record_index": 8700,
+        "reference": "R13",
+        "net": "N$295",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 16,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000001000010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8703,
+        "reference": "DIN1",
+        "net": "N$296",
+        "gate": "G$1",
+        "pin": "4",
+        "pads": [
+          "4"
+        ],
+        "part_ordinal": 15,
+        "gate_ordinal": 1,
+        "pin_ordinal": 4,
+        "has_package": true,
+        "raw_record_hex": "3d0000000f00010004000000000000000000000000000000"
+      },
+      {
+        "record_index": 8704,
+        "reference": "R14",
+        "net": "N$296",
+        "gate": "G$1",
+        "pin": "1",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 18,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000001200010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8707,
+        "reference": "J3",
+        "net": "MIDI_IN",
+        "gate": "1",
+        "pin": "5",
+        "pads": [
+          "5"
+        ],
+        "part_ordinal": 49,
+        "gate_ordinal": 1,
+        "pin_ordinal": 5,
+        "has_package": true,
+        "raw_record_hex": "3d0000003100010005000000000000000000000000000000"
+      },
+      {
+        "record_index": 8711,
+        "reference": "R17",
+        "net": "MIDI_IN",
+        "gate": "G$1",
+        "pin": "1",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 9,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000000900010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8712,
+        "reference": "Q50",
+        "net": "MIDI_IN",
+        "gate": "G$1",
+        "pin": "C",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 91,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000005b00010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8714,
+        "reference": "R15",
+        "net": "MIDI_IN",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 10,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000000a00010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8784,
+        "reference": "J3",
+        "net": "DINSYNC1",
+        "gate": "1",
+        "pin": "12",
+        "pads": [
+          "12"
+        ],
+        "part_ordinal": 49,
+        "gate_ordinal": 1,
+        "pin_ordinal": 12,
+        "has_package": true,
+        "raw_record_hex": "3d000000310001000c000000000000000000000000000000"
+      },
+      {
+        "record_index": 8788,
+        "reference": "R24",
+        "net": "DINSYNC1",
+        "gate": "G$1",
+        "pin": "1",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 100,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000006400010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8796,
+        "reference": "J3",
+        "net": "DINSYNC2",
+        "gate": "1",
+        "pin": "11",
+        "pads": [
+          "11"
+        ],
+        "part_ordinal": 49,
+        "gate_ordinal": 1,
+        "pin_ordinal": 11,
+        "has_package": true,
+        "raw_record_hex": "3d000000310001000b000000000000000000000000000000"
+      },
+      {
+        "record_index": 8800,
+        "reference": "R23",
+        "net": "DINSYNC2",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 101,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000006500010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 8808,
+        "reference": "J3",
+        "net": "DINSYNC3",
+        "gate": "1",
+        "pin": "10",
+        "pads": [
+          "10"
+        ],
+        "part_ordinal": 49,
+        "gate_ordinal": 1,
+        "pin_ordinal": 10,
+        "has_package": true,
+        "raw_record_hex": "3d000000310001000a000000000000000000000000000000"
+      },
+      {
+        "record_index": 8813,
+        "reference": "R22",
+        "net": "DINSYNC3",
+        "gate": "G$1",
+        "pin": "1",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 104,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000006800010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 8820,
+        "reference": "J3",
+        "net": "DINSYNC4",
+        "gate": "1",
+        "pin": "9",
+        "pads": [
+          "9"
+        ],
+        "part_ordinal": 49,
+        "gate_ordinal": 1,
+        "pin_ordinal": 9,
+        "has_package": true,
+        "raw_record_hex": "3d0000003100010009000000000000000000000000000000"
+      },
+      {
+        "record_index": 8824,
+        "reference": "R21",
+        "net": "DINSYNC4",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 105,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000006900010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 9002,
+        "reference": "IC24",
+        "net": "N$18",
+        "gate": "1",
+        "pin": "EMI",
+        "pads": [
+          "4"
+        ],
+        "part_ordinal": 90,
+        "gate_ordinal": 1,
+        "pin_ordinal": 4,
+        "has_package": true,
+        "raw_record_hex": "3d0000005a00010004000000000000000000000000000000"
+      },
+      {
+        "record_index": 9003,
+        "reference": "Q50",
+        "net": "N$18",
+        "gate": "G$1",
+        "pin": "B",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 91,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000005b00010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 9006,
+        "reference": "R16",
+        "net": "N$18",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 92,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000005c00010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 9051,
+        "reference": "DIN4",
+        "net": "N$22",
+        "gate": "G$1",
+        "pin": "3",
+        "pads": [
+          "3"
+        ],
+        "part_ordinal": 1,
+        "gate_ordinal": 1,
+        "pin_ordinal": 3,
+        "has_package": true,
+        "raw_record_hex": "3d0000000100010003000000000000000000000000000000"
+      },
+      {
+        "record_index": 9052,
+        "reference": "R21",
+        "net": "N$22",
+        "gate": "G$1",
+        "pin": "1",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 105,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000006900010002000000000000000000000000000000"
+      },
+      {
+        "record_index": 9055,
+        "reference": "DIN4",
+        "net": "N$23",
+        "gate": "G$1",
+        "pin": "5",
+        "pads": [
+          "5"
+        ],
+        "part_ordinal": 1,
+        "gate_ordinal": 1,
+        "pin_ordinal": 5,
+        "has_package": true,
+        "raw_record_hex": "3d0000000100010005000000000000000000000000000000"
+      },
+      {
+        "record_index": 9056,
+        "reference": "R22",
+        "net": "N$23",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 104,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000006800010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 9061,
+        "reference": "DIN4",
+        "net": "N$24",
+        "gate": "G$1",
+        "pin": "1",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 1,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000000100010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 9062,
+        "reference": "R24",
+        "net": "N$24",
+        "gate": "G$1",
+        "pin": "2",
+        "pads": [
+          "2"
+        ],
+        "part_ordinal": 100,
+        "gate_ordinal": 1,
+        "pin_ordinal": 1,
+        "has_package": true,
+        "raw_record_hex": "3d0000006400010001000000000000000000000000000000"
+      },
+      {
+        "record_index": 9066,
+        "reference": "DIN4",
+        "net": "N$25",
+        "gate": "G$1",
+        "pin": "4",
+        "pads": [
+          "4"
+        ],
+        "part_ordinal": 1,
+        "gate_ordinal": 1,
+        "pin_ordinal": 4,
+        "has_package": true,
+        "raw_record_hex": "3d0000000100010004000000000000000000000000000000"
+      },
+      {
+        "record_index": 9067,
+        "reference": "R23",
+        "net": "N$25",
+        "gate": "G$1",
+        "pin": "1",
+        "pads": [
+          "1"
+        ],
+        "part_ordinal": 101,
+        "gate_ordinal": 1,
+        "pin_ordinal": 2,
+        "has_package": true,
+        "raw_record_hex": "3d0000006500010002000000000000000000000000000000"
+      }
+    ],
+    "qualification": "Direct selected IO binary record memberships; the legacy decoder is not a physical or complete-design certification."
+  },
+  "original_comparison": {
+    "passed": true,
+    "connected_pad_memberships_checked": 62,
+    "original_binary_record_count": 62,
+    "original_raw_records_replayed": 62,
+    "source_sha256": "cd1ca93a4e3075efdd6db1f53a00a766cca7b02b01297d65b6a795f65ed18d5b"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source_snapshot_date": "2026-10-15",
-  "scope": "Current private GitHub snapshot: KiCad working revision11 and Blender revision11 rear legend seating correction and connector seating review, with revision7 through revision10 baselines retained. No delivery archives, probes, caches or redundant board GLBs.",
+  "scope": "Current private GitHub snapshot: KiCad working revision11 and Blender revision12 corrected MIDI functions, with Blender revision7 through revision11 baselines retained. DIN/MIDI original-source connectivity proof and user-supplied model measurements are included; standalone third-party CAD files, delivery archives, probes, caches and redundant board GLBs are excluded.",
   "files": {
     ".gitattributes": {
       "bytes": 190,
@@ -16,16 +16,20 @@
       "sha256": "73cc95f62a104053a2602ccc733fc88336b0f3f6329ac3e9bbab827aa26af6f6"
     },
     "PROJECT.json": {
-      "bytes": 1139,
-      "sha256": "f05e6e5baec2d169e8b742cef9a832dd11eaf2e30e5d66fb4bbd61944866e23b"
+      "bytes": 1193,
+      "sha256": "9f5f2e0e2037ea9a451c70af0e53afada1b091fa9e7367635fd01afa1c5fd369"
     },
     "README.md": {
-      "bytes": 10217,
-      "sha256": "fc65f562ef789930c90f9e267cc828d694cf9a59dbc886bf8e546a5f89a52cb4"
+      "bytes": 11137,
+      "sha256": "bbd81e2dbdda67dd9dafeabbae73237b0bebe0ebd1e087de9c0082c2fb8d0bb6"
     },
     "docs/OPENING.md": {
-      "bytes": 4463,
-      "sha256": "aaa3e93d12c902d8d9a2589de4321d79686e2020b5822517526cfee61d2edf37"
+      "bytes": 4575,
+      "sha256": "424f1e8d111b6c2f5035136eb9c504207d9af51c570653d63b54df3b88c2cda4"
+    },
+    "docs/din-midi-correction.json": {
+      "bytes": 5350,
+      "sha256": "1765ba837f541441d00a1ea9c03b5ba249f99c24948266f73c05d3ec63b49443"
     },
     "docs/fresh-clone-verification.json": {
       "bytes": 2610,
@@ -120,8 +124,8 @@
       "sha256": "282b88df6e2fed1d85d2057c10ecfbaee7be45a2e85a9614167fe06266b4cc6a"
     },
     "kicad-working/README.md": {
-      "bytes": 3437,
-      "sha256": "1663c577e6cadf64ce5ef6b25b6487302543b8ba25e9625590263fd7bd224ba3"
+      "bytes": 3709,
+      "sha256": "a7f54e335022fbf67dd933434f372d2c929aba55f5e3e354496d8affae99eaa0"
     },
     "kicad-working/ioboard/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step": {
       "bytes": 140022,
@@ -1158,6 +1162,34 @@
     "kicad-working/validation/README-revision-9.md": {
       "bytes": 1349,
       "sha256": "fd6a5ec5d08d94170d22fd512118730025138ef43c6665327c5bb68505bed63a"
+    },
+    "kicad-working/validation/din-midi-review/README.md": {
+      "bytes": 8440,
+      "sha256": "e78793d2f511a742b3cfb66bda305f58e1e20e0fa9d6f865e414a3d04cd6a706"
+    },
+    "kicad-working/validation/din-midi-review/cad-source-evidence.json": {
+      "bytes": 10634,
+      "sha256": "7511eeff5392c9b18a044164bce33d235a72731bd59c8cb3afeb4839deb7cf58"
+    },
+    "kicad-working/validation/din-midi-review/function-source-evidence.json": {
+      "bytes": 41493,
+      "sha256": "7dacc3ae8aa60888f0130501c11f34d7631fba5bdda91ab3accb808b2d7878d6"
+    },
+    "kicad-working/validation/din-midi-review/function-verification.json": {
+      "bytes": 1931,
+      "sha256": "952974df240741b3fb4391740d4af4e1b06f8b16fb06ae16da6714039cbb4773"
+    },
+    "kicad-working/validation/din-midi-review/inspect_din_functions.py": {
+      "bytes": 8805,
+      "sha256": "8d572ee143b4b664604508d95c5cc7b0b8f312685d925b1375e1c53c7719d5d7"
+    },
+    "kicad-working/validation/din-midi-review/inspect_downloaded_dae.py": {
+      "bytes": 7944,
+      "sha256": "30f6689b0c987e27221dc2bd5b6302f52a2f42dc91b7d6ad036938f47d5984a8"
+    },
+    "kicad-working/validation/din-midi-review/user-model-inspection.json": {
+      "bytes": 47090,
+      "sha256": "afe4cbe5af3194a87a7a0d11154631a365d175f344ab680ac71de63e4b5c4ac0"
     },
     "kicad-working/validation/models-review-10/application-record.json": {
       "bytes": 166,
@@ -2586,6 +2618,134 @@
     "kicad-working/visualization/blender-case-revision-11/x0xb0x-populated-with-case.blend": {
       "bytes": 42928643,
       "sha256": "fc02d403f1bcac0aa98937fd29e5f8d77e01f69400104278ea512d36eea01ff9"
+    },
+    "kicad-working/visualization/blender-case-revision-12/README.md": {
+      "bytes": 2889,
+      "sha256": "92e85ac0114eae659b62007cba21aa56614db2f1414265c84873f170ba0ab1f7"
+    },
+    "kicad-working/visualization/blender-case-revision-12/assembled.png": {
+      "bytes": 2586435,
+      "sha256": "3b3f86ed713ffe6f12ca456aad46591f8dbf1debcc7bf8f6ee870c49d6ce50f4"
+    },
+    "kicad-working/visualization/blender-case-revision-12/control-side.png": {
+      "bytes": 3709572,
+      "sha256": "28e50b75689aabfa07d9bfe7693c3e3499f697ef13cd3eccfb4e86ebcc8fe878"
+    },
+    "kicad-working/visualization/blender-case-revision-12/exploded.png": {
+      "bytes": 2958048,
+      "sha256": "9f01770bc9c67e61833cdcca91231594589e137c61e76abe121d62a4e535855e"
+    },
+    "kicad-working/visualization/blender-case-revision-12/rear-midi-detail.png": {
+      "bytes": 1362353,
+      "sha256": "897cfb73f82b509ceff0623dc7c303ce5f2afbaada5ac1636bd2cf29d2a5bbcf"
+    },
+    "kicad-working/visualization/blender-case-revision-12/rear-openings-closeup.png": {
+      "bytes": 1467712,
+      "sha256": "b9109a2fa000fc7495f982ab4f99e5a08eddfcadfc660b830e8c9acbd4c8296e"
+    },
+    "kicad-working/visualization/blender-case-revision-12/rear.png": {
+      "bytes": 2732042,
+      "sha256": "7c9a373b293533fcc4a7143a8dddfaf7b3f1298b02dc30ad291d202d76d794e0"
+    },
+    "kicad-working/visualization/blender-case-revision-12/render-records.json": {
+      "bytes": 3003,
+      "sha256": "44aa1783d93b89c6be355c2aac973ad4f48197ad96324e974c3b84edd4950aa7"
+    },
+    "kicad-working/visualization/blender-case-revision-12/render_scene.py": {
+      "bytes": 4111,
+      "sha256": "5f494c0592b2c02d1178196fa5de9cf11c0078a66f876c0036ae867ec66f309c"
+    },
+    "kicad-working/visualization/blender-case-revision-12/revision-12-change-record.json": {
+      "bytes": 8058,
+      "sha256": "d261445e2bb5978df3493d9799d7d80be5adfdb37b0e5e777a9b8b1cc8636ccf"
+    },
+    "kicad-working/visualization/blender-case-revision-12/update_midi_legends.py": {
+      "bytes": 6586,
+      "sha256": "1e152275754773c2ad70d2bdf6c03883e344edeccd97eaec99f5d3904737beb4"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/README.md": {
+      "bytes": 7230,
+      "sha256": "1dcbd9721edd9bfb9dcaa9dc139ff30f54ffd115e174e1c318b860ed398fdefb"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/after-scene.json.gz": {
+      "bytes": 945530,
+      "sha256": "bffe0cf86f92f6612a2b8fe462eb8ed760ebcaea842200b055d7bc752dd79a31"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/audit_legend_planes.py": {
+      "bytes": 9297,
+      "sha256": "4feb480d92cb86b776e8d1bb38ed572fe11cf656a9e11b0564eaa16ad01f6b7e"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/audit_saved_scene.py": {
+      "bytes": 9964,
+      "sha256": "8971141f05b4a2036a2aef8cb24682592a3c7cfcc387cba1ef414cbd6900b30b"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/baseline-midi-legends-audit.json": {
+      "bytes": 4287,
+      "sha256": "d35eefdb071f00a361970afe1cce1bdd435a8f100818322c777318426b98c0a5"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/before-scene.json.gz": {
+      "bytes": 944803,
+      "sha256": "4db9face0be250d928230ade890c0ebc1293cc3e944d9f0e395937ebb8642521"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/derive_midi_functions.py": {
+      "bytes": 8587,
+      "sha256": "2ff2bed64c4af2ff0d68ae96fd214d95a8684c7b591d37e909693c7ffaa7b36d"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/final-render-review.json": {
+      "bytes": 4703,
+      "sha256": "da8ab3240c0bc554492f427d33fed95f83d76a6cc92888aee17a93daffb8f384"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/final-saved-scene-audit.json": {
+      "bytes": 7423,
+      "sha256": "d88af07bb93674185e5808f61de3e4fadbe16ba6f78de17720d451330c1ec82a"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/independent-validation-summary.json": {
+      "bytes": 8638,
+      "sha256": "9d405b13b83b77beadfadc82d2f2d2d45eb13b773bffa9ab65ff35d799135d86"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/midi-connectivity-evidence.json": {
+      "bytes": 35597,
+      "sha256": "9c66b2e892b2c85ff913206f022f3fb26d5ee1f74b6cad3b1dc6c009ced113ad"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/midi-legends-audit.json": {
+      "bytes": 2896,
+      "sha256": "b6fed36b0a4d980fad44a3566edfa00b86df4a80bb19b55a95828d88222e2a41"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/portable-scene-audit.json": {
+      "bytes": 12523,
+      "sha256": "35e303947f71c3716e7ff093f152dbe14ad3a6e24f5b741b2a338c412dac09c9"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/rear-legend-plane-audit.json": {
+      "bytes": 173438,
+      "sha256": "64f6d784b66b55a032b228d1c99e07dade559a09f498a725552e5407bdb20ca7"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/rear-openings-audit.json": {
+      "bytes": 119465,
+      "sha256": "bf1c4ca2f70614fcafec13204587f91a3fba175a3a8cae8a32169543f8774f67"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/render-readonly-verification.json": {
+      "bytes": 321,
+      "sha256": "878674a5dfafd834981528819ecf441284a85e2d0a347e99eb3c9fac3db0ed1b"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/scene_snapshot.py": {
+      "bytes": 11397,
+      "sha256": "9c6576a9a05cba01736055f45d35e751edb1df57933c9b16b9c9e7faa1c8d642"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/summarize_validation.py": {
+      "bytes": 5042,
+      "sha256": "131525eecb284f9e10613739cf38f201babf69961c5190aa4f93290851a744a2"
+    },
+    "kicad-working/visualization/blender-case-revision-12/verification/verify_midi_legends.py": {
+      "bytes": 1853,
+      "sha256": "87170d04035f5ede7bab79a08708b72a8e7de59fb2260ffe506c8aa50c88a004"
+    },
+    "kicad-working/visualization/blender-case-revision-12/wiring-study.png": {
+      "bytes": 3097078,
+      "sha256": "468f8ebfa2171c731bf0f922639408b96a3c69e8edcaa780dd0efd0fbc756d29"
+    },
+    "kicad-working/visualization/blender-case-revision-12/x0xb0x-populated-with-case.blend": {
+      "bytes": 42930111,
+      "sha256": "517da1343de66a3e3b5c4848c182bcd263cccca419d3601e5805e0d3402228e1"
     },
     "kicad-working/visualization/blender-case-revision-7/README.md": {
       "bytes": 4279,
@@ -5556,5 +5716,5 @@
       "sha256": "beb85811b0a54009e0c0cd5c746ea8718d4da01023794b2c99d33d765300b8d4"
     }
   },
-  "verification_note": "Current source/native model audits remain under models-review11. Current saved Blender revision11 scene has independent preservation, glyph-plane, rear-opening, portability and render checks in its verification folder. Rear seating/source review records remaining nominal panel overlaps and does not qualify physical fit. Historical fresh-download verification remains pinned to its recorded revisions."
+  "verification_note": "Current Blender revision12 verification covers saved-file preservation, source-derived MIDI legend function regression, actual glyph planes, rear openings, portability and seven rendered views. DIN function source checks replay from repository files. The supplied DAE is inspected separately and is not incorporated. Existing nominal seating conflicts remain; no physical-fit qualification."
 }
