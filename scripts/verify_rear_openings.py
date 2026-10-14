@@ -226,7 +226,9 @@ def verify():
         check(reference + " retains its intended recessed socket insert",
               depth is not None and 5.65 < depth < 5.95, first_hit_depth_mm=depth)
         contact_results = []
-        for angle in (25, 155, 225, 270, 315):
+        # The drawing's 25-degree leaders describe the outer slot tilts.
+        # Their contact centers lie on the horizontal DIN-180 diameter.
+        for angle in (0, 180, 225, 270, 315):
             a = math.radians(angle)
             cx, cz = 3.5 * math.cos(a), 10 + 3.5 * math.sin(a)
             for label, dx, dz in circle_samples(.30, (1.,), range(0, 360, 90)):

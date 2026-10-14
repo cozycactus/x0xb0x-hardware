@@ -1,0 +1,221 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-15",
+  "Blender_revision": 13,
+  "KiCad_revision": 12,
+  "scene": "kicad-working/visualization/blender-case-revision-13/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "f4bbf1d0f73dbc641ed494c0fc12cf2f4e76689e7b762f45592d0ea4d5ede2d2",
+  "scene_bytes": 42905120,
+  "baseline_scene_sha256": "517da1343de66a3e3b5c4848c182bcd263cccca419d3601e5805e0d3402228e1",
+  "correction": "Two outer SDS-50J contact centers moved to horizontal DIN-180 diameter; independent outer slot tilts follow primary drawing. Three lower contact centers and orientations, housing, rear cover and printed nominal envelope retained.",
+  "source_PDF": {
+    "path": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/sds50j.pdf",
+    "sha256": "bf4a7032ee22b320bc5627c5d6eb331b59e6dc4c7fc618250d52e182ccea1e65",
+    "page": 3,
+    "url": "https://www.sameskydevices.com/product/resource/sds-j.pdf"
+  },
+  "contact_centers_and_slot_tilts": [
+    {
+      "pin": "1",
+      "center_mm": [
+        3.5,
+        10.0
+      ],
+      "slot_tilt_from_vertical_deg": -25.0
+    },
+    {
+      "pin": "3",
+      "center_mm": [
+        -3.5,
+        10.0
+      ],
+      "slot_tilt_from_vertical_deg": 25.0
+    },
+    {
+      "pin": "5",
+      "center_mm": [
+        -2.4748737341529163,
+        7.525126265847083
+      ],
+      "slot_tilt_from_vertical_deg": 45.0
+    },
+    {
+      "pin": "2",
+      "center_mm": [
+        0.0,
+        6.5
+      ],
+      "slot_tilt_from_vertical_deg": 0.0
+    },
+    {
+      "pin": "4",
+      "center_mm": [
+        2.4748737341529163,
+        7.525126265847083
+      ],
+      "slot_tilt_from_vertical_deg": -45.0
+    }
+  ],
+  "corrected_references": [
+    "DIN1",
+    "DIN2",
+    "DIN3",
+    "DIN4"
+  ],
+  "native_reference_count": 491,
+  "PCB_LED_count": 40,
+  "PCB_attached_button_cap_count": 23,
+  "scope": "Only four native DIN mesh datablocks and declared source/revision metadata change in Blender. Four STEP model paths in I/O PCB and one matching library-cache path change in KiCad. Every other original project file, scene object, material, pose, collection and animation is preserved.",
+  "verification": {
+    "solid_geometry": {
+      "report": "kicad-working/validation/models-review-12/din-contact-quality/corrected-model-audit.json",
+      "sha256": "9acd256a3873868bef94c27d5c6ffa463bc37ec0843952d10f7c544f3bdc36b2",
+      "passed": true,
+      "check_count": 29
+    },
+    "native_KiCad_geometry": {
+      "report": "kicad-working/validation/models-review-12/din-contact-quality/native-final-geometry-audit.json",
+      "sha256": "163ddb4a59a169b136b59e21fb26ad997213d98e417d56ca1e293b9cf5934d8c",
+      "passed": true,
+      "check_count": 32
+    },
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-13/verification/final-saved-scene-audit.json",
+      "sha256": "152649d2de8f531b1c346e1ce46c6d24908920c153051cc74ec31e63050d8ea4",
+      "passed": true,
+      "check_count": 44
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-13/verification/rear-openings-audit.json",
+      "sha256": "d17fb063bd5547ce3b3d2efcd23d4a8a47310f64441c62bbaa15b4797a74a7da",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-13/verification/portable-scene-audit.json",
+      "sha256": "2f52da8db6677b1c4b09b6c610e291cc3437d63225cc9e6bdc0f3685e141f9b6",
+      "passed": true,
+      "check_count": 106
+    },
+    "MIDI_functions": {
+      "report": "kicad-working/validation/models-review-12/current-function-verification.json",
+      "sha256": "ceaa2644645835c9a5999ae132fc5f64e92094d4af810b042c24f1c9b1e47879",
+      "passed": true,
+      "checks_count": 214
+    },
+    "MIDI_legends": {
+      "report": "kicad-working/visualization/blender-case-revision-13/verification/midi-legends-audit.json",
+      "sha256": "4699cfc9d50867fdb846c31a20164c5b7ed2581ba9e072e8ab76786aa1b1f0af",
+      "passed": true,
+      "check_count": 4
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-13/verification/final-render-review.json",
+      "sha256": "4d59ab8a398414836bcf15a795c79fad526067190f3ea6188e0e7d0650f31cba",
+      "passed": true,
+      "view_count": 7
+    },
+    "KiCad_installation": {
+      "report": "kicad-working/validation/models-review-12/installation-audit.json",
+      "sha256": "c26f09d44ea5cf74cc9e1f02fa9df9743c57024bf38959a5bdd92f05dc8b5dbc",
+      "passed": true
+    },
+    "local_dependencies": {
+      "report": "kicad-working/validation/models-review-12/local-dependencies.json",
+      "sha256": "c22a49b5e2c84faf200356daeaaa5f86440db3c6ea0321469d80924e11400f7c",
+      "passed": true
+    },
+    "downloaded_model_fit_measurements": {
+      "report": "kicad-working/validation/models-review-12/downloaded-fit-review.json",
+      "sha256": "0811d08bd159895a6ab94ebb40ee089e4690bfa2614c71114d5dacac7e9ccefc",
+      "passed": true,
+      "check_count": 32
+    }
+  },
+  "baseline_contact_regression": {
+    "report": "kicad-working/visualization/blender-case-revision-13/verification/baseline-corrected-contact-regression.json",
+    "sha256": "f0925868723dc488601e6f18f8b26c5f7a2d00cbbfc34554b44b75b86f36f944",
+    "expected_failure_count": 4,
+    "expected_blocked_ray_count": 40,
+    "corrected_scene_passed": true,
+    "scope": "Historical aperture reports tested the earlier erroneous center positions and remain historical evidence."
+  },
+  "KiCad_core": {
+    "previous_file_count": 257,
+    "current_file_count": 259,
+    "changed_previous_files": [
+      "ioboard/ioboard.kicad_pcb",
+      "ioboard/ioboard-import-fps.pretty/CP-2350.kicad_mod"
+    ],
+    "non_model_nodes_identical": true,
+    "all_original_Eagle_files_preserved": true
+  },
+  "electrical_evidence": {
+    "fresh_ioboard_ERC_errors": 0,
+    "fresh_ioboard_ERC_warnings": 0,
+    "fresh_ioboard_DRC_findings_exactly_equal_revision11": true,
+    "ioboard_violation_warnings": 348,
+    "ioboard_separate_unconnected_errors": 1,
+    "ioboard_separate_schematic_parity_warnings": 45,
+    "mainboard_files_byte_identical": true,
+    "mainboard_electrical_rerun_this_revision": false,
+    "mainboard_evidence_basis": "Retained revision11 native reports; known IC9.8/GND and S22.1/+5V gaps remain."
+  },
+  "downloaded_model_trial": {
+    "received_DAE_sha256": "1a313324dbc9377bfdadfb9dadbc36d05292e350baf0067a728dfca6a967cfe4",
+    "source_unit": "inch, applied once as0.0254meter",
+    "full_envelope_mm": [
+      20.7,
+      15.7,
+      24.9
+    ],
+    "flange_cluster_mm": [
+      20.7,
+      2.0,
+      21.4
+    ],
+    "primary_drawing_flange_and_height_mm": [
+      20.0,
+      1.8,
+      21.1
+    ],
+    "case_variants": [
+      {
+        "variant": "front-datum",
+        "scene": "x0xb0x-downloaded-din-front-datum.blend",
+        "sha256": "eb399d35c4f8ae80a8d01755cf2bb3e4042203f93ac391ad02859b5483342f54",
+        "nominal_pin_section_minimum_margin_mm": -0.0954438992278761,
+        "flange_penetrates_existing_nominal_panel": false
+      },
+      {
+        "variant": "pin-fitted",
+        "scene": "x0xb0x-downloaded-din-pin-fitted.blend",
+        "sha256": "4e25f56cf6f03dadc5201c2bf5bb755df3c216243f2e6f6eb58222162fdb31df",
+        "nominal_pin_section_minimum_margin_mm": 0.010399999999999854,
+        "flange_penetrates_existing_nominal_panel": true
+      }
+    ],
+    "source_geometry_scaled": false,
+    "source_geometry_reshaped": false,
+    "rigid_pin_fit_shift_xy_mm": [
+      0.0,
+      -0.12
+    ],
+    "minimum_nominal_pin_corner_margin_mm": 0.0104,
+    "corresponding_flange_penetration_mm": 0.12,
+    "source_geometry_incorporated_in_active_model": false,
+    "standalone_received_CAD_or_trial_scenes_published": false,
+    "electrical_pin_identity_verified": false,
+    "uploader_factory_origin_claim_independently_verified": false,
+    "interpretation": "Local comparison scenes are usable but nominal pin/panel registration conflicts remain. Active model remains our independent primary-drawing reconstruction."
+  },
+  "limitations": [
+    "Only two contact positions and their independent slot tilts are corrected from the primary drawing.",
+    "Existing unsized slot widths, sleeve dimensions, cavity depth, keys and minor molding details remain illustrations.",
+    "Solder terminals and locators remain omitted; the supplied mesh has a separately documented registration uncertainty.",
+    "Printed nominal body envelope is preserved. No placement, routing, copper, pad, enclosure or historical physical-fit qualification.",
+    "Prior audio-housing and power/USB panel-edge nominal intersections remain; case and PCB placement are preserved."
+  ],
+  "physical_fit_qualified": false
+}

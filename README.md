@@ -4,16 +4,16 @@ Private working repository for the x0xb0x Eagle-to-KiCad conversion and reconstr
 
 ## Open the current projects
 
-- [Mainboard — KiCad working revision 11](kicad-working/mainboard/mainboard.kicad_pro)
-- [I/O board — KiCad working revision 11](kicad-working/ioboard/ioboard.kicad_pro)
-- [Complete assembly — Blender revision 12](kicad-working/visualization/blender-case-revision-12/x0xb0x-populated-with-case.blend)
-- [KiCad notes](kicad-working/README.md) and [Blender views and limitations](kicad-working/visualization/blender-case-revision-12/README.md)
+- [Mainboard — KiCad working revision 12](kicad-working/mainboard/mainboard.kicad_pro)
+- [I/O board — KiCad working revision 12](kicad-working/ioboard/ioboard.kicad_pro)
+- [Complete assembly — Blender revision 13](kicad-working/visualization/blender-case-revision-13/x0xb0x-populated-with-case.blend)
+- [KiCad notes](kicad-working/README.md) and [Blender views and limitations](kicad-working/visualization/blender-case-revision-13/README.md)
 
 Keep each complete project folder together: symbols, footprints and STEP models use project-relative paths. The Blender file embeds the populated boards and can be opened without the original workspace or external board exports. It was saved with Blender 5.0.0. The current KiCad projects were checked using KiCad 10.0.7.
 
 See [opening and verification instructions](docs/OPENING.md) for a fresh download.
 
-![Assembled x0xb0x](kicad-working/visualization/blender-case-revision-12/assembled.png)
+![Assembled x0xb0x](kicad-working/visualization/blender-case-revision-13/assembled.png)
 
 ## What is included
 
@@ -29,7 +29,11 @@ Blender views: **frame 1** assembled, **frame 80** exploded, **frame 120** contr
 
 ## Validation and known limits
 
-Blender revision 12 corrects three rear MIDI legends against the original Eagle schematic and current PCB wiring: DIN1 is MIDI OUT, DIN2 is MIDI THRU (displayed as THRU), DIN3 is MIDI IN, and DIN4 remains DIN SYNC (displayed as SYNC). Only the three existing text bodies change; their fonts, materials, style, positions and 0.01 mm panel offset are preserved. Every connector, component, PCB, enclosure, hardware mesh and animation remains unchanged. See the [DIN/MIDI source review](kicad-working/validation/din-midi-review/README.md) and [correction report](docs/din-midi-correction.json). The user-supplied Warehouse DAE and SKP are recorded separately: the inspected DAE has different body dimensions and appearance from the current drawing. It has not been substituted into the complete assembly, and the standalone source files remain outside this repository.
+Blender revision 13 and KiCad working revision 12 correct the contact pattern of all four SDS-50J DIN models. The primary drawing's 25-degree leaders describe elongated slot tilts; our previous reconstruction used them incorrectly for the outer contact center positions. The two outer centers now lie on the horizontal diameter. The three lower contacts, nominal body envelope, all component poses, materials, case geometry and animation are preserved. See the [contact correction report](docs/din-contact-correction.json) and [model source review](kicad-working/validation/models-review-12/README.md).
+
+The downloaded Warehouse model was placed unchanged into two separate local full-case comparison scenes. Its flange dimensions and body-to-pin datum differ from the current drawing and PCB. A nominal pin-fitting shift moves its flange 0.12 mm into the existing panel material; it has not replaced the active drawing-derived model. The received CAD and comparison scenes remain outside this published repository.
+
+Blender revision 12 corrected three rear MIDI legends against the original Eagle schematic and PCB wiring: DIN1 is MIDI OUT, DIN2 is MIDI THRU (displayed as THRU), DIN3 is MIDI IN, and DIN4 remains DIN SYNC (displayed as SYNC). In that revision only the three existing text bodies changed; their fonts, materials, style, positions and 0.01 mm panel offset are preserved. Every connector, component, PCB, enclosure, hardware mesh and animation was preserved in revision 12. See the [DIN/MIDI source review](kicad-working/validation/din-midi-review/README.md) and [correction report](docs/din-midi-correction.json). The [original receipt and source inspection](kicad-working/validation/din-midi-review/user-model-inspection.json) is preserved separately.
 
 Blender revision 11 places the eleven existing rear legends on the plate. Their glyphs previously floated more than 1.24 mm above it and cast detached shadows; they now retain a 0.01 mm rendering gap. Their typography, ink material and in-plane positions are preserved, along with all connector, nut, washer, PCB and enclosure geometry. The text remains presentation artwork; the original rear DXF contains manufacturing annotations rather than these control legends. See the [rear seating and legend review](docs/rear-seating-and-legends.json).
 
@@ -39,26 +43,27 @@ Blender revision 10 refines the three NYS216 mounting nuts from the retained off
 
 Blender revision 9 corrects rear socket occlusion in the presentation geometry. The installed native connector models already had open entrances; five separate display disks and six solid audio hardware pieces covered them. The correction preserves all 491 native component assemblies, the case and panel cutouts, component positions, materials and animation. Independent checks inspect all 11 rear ports using the evaluated assembly geometry, including the DIN contact mouths and the passages around the power pin and USB tongue. See the [rear opening review](kicad-working/validation/rear-openings-review/scene-audit/README.md) and [source model review](kicad-working/validation/rear-openings-review/source-audit/README.md). Earlier preservation checks did not test these openings.
 
-The audio nut bores use an illustrative 9.6 mm clearance around the installed 9.525 mm nose; washer bores use the retained 11.3 mm drawing dimension. The manufacturer's DXF and product photo confirm the six-flat SW15 nut, as recorded in the [hardware source review](kicad-working/validation/rear-openings-review/source-audit/NYS216-HARDWARE.md). The older 3/8-32 UNEF source and later M11 drawing describe different threads, so the exterior hardware depiction does not establish interchangeability or physical fit. These updates change only Blender; the KiCad revision-11 projects and their electrical findings remain unchanged.
+The audio nut bores use an illustrative 9.6 mm clearance around the installed 9.525 mm nose; washer bores use the retained 11.3 mm drawing dimension. The manufacturer's DXF and product photo confirm the six-flat SW15 nut, as recorded in the [hardware source review](kicad-working/validation/rear-openings-review/source-audit/NYS216-HARDWARE.md). The older 3/8-32 UNEF source and later M11 drawing describe different threads, so the exterior hardware depiction does not establish interchangeability or physical fit. Those revision-9 and revision-10 updates changed only Blender and preserved the KiCad revision-11 projects and electrical findings.
 
 KiCad revision 11 updates 24 historical 2SC536F transistor illustrations and both ceramic resonators. Its saved model integration passed 5,200 checks and source/native integration review passed 4,041 checks; the companion Blender revision 8 passed 12,819 preservation checks. The transistor dimensions are typical values, and the historical NP package choice remains a documented inference from the BOM and original photo. Resonator maximum envelopes and complete leads are preserved. Both schematics passed ERC with zero errors and warnings under the recorded project rules. Existing PCB connection gaps remain at mainboard IC9.8/GND, mainboard S22.1/+5V and I/O MIXOUT0/GND; recorded DRC and schematic-parity warnings also remain. The 3D updates did not alter the circuit, copper routing or footprint placement.
 
 The LED height uses the BOM's named STD240B 0.24-inch spacer. An older assembly table says 0.22 inch; the discrepancy is documented. Exact spacer molding, button retention/travel, historical vendor variations, omitted terminals, reconstructed enclosure tolerances and the wiring study remain qualified. These files do not establish fabrication or physical assembly readiness.
 
-Four reusable checks are included:
+Five reusable checks are included:
 
-- `python3 scripts/verify_project.py` checks file hashes, the 257 current KiCad project files, original Eagle sources and saved Blender scene.
+- `python3 scripts/verify_project.py` checks file hashes, the 259 current KiCad project files, original Eagle sources and saved Blender scene.
 - `python3 scripts/verify_kicad_dependencies.py` checks that symbols, footprints and all 491 placed models resolve inside the checkout, without global KiCad libraries. Both Python checks accept `--root PATH` and require Python 3.9 or later.
 - `scripts/verify_blender_scene.py` runs inside native Blender and checks embedded components, complete LED assemblies, cap attachment across views and external file dependencies. See the opening instructions for the command, including the required failure exit-code option.
 - `scripts/verify_rear_openings.py` runs inside native Blender and checks the actual rear mating passages for scene geometry that covers them. It accounts for intentional contacts and recessed inserts.
+- `python3 kicad-working/validation/models-review-12/verify_current_functions.py` replays 214 original-source and current-PCB MIDI function checks. It does not modify the project.
 
-The initial revision-10 fresh download passed native KiCad ERC, model exports and 106 Blender portability checks; [historical fresh-download verification](docs/fresh-clone-verification.json) pins that source commit and scene hash. Current revision-11 ERC/DRC, geometry and assembly-preservation checks are recorded in [working validation](kicad-working/validation/working-validation-summary-revision-11.json). Both schematics remain ERC-clean, and DRC findings retain their previous types, severities and descriptions.
+The initial revision-10 fresh download passed native KiCad ERC, model exports and 106 Blender portability checks; [historical fresh-download verification](docs/fresh-clone-verification.json) pins that source commit and scene hash. Current model integration and electrical evidence are recorded in [working validation](kicad-working/validation/working-validation-summary-revision-12.json). Fresh I/O ERC reports zero errors and warnings under the recorded rules, and its full DRC finding lists are exactly equal to revision 11. All mainboard project files remain byte-identical; its revision-11 native electrical evidence is retained without rerunning it for this model-only update. The saved Blender13 audit passes 44 preservation checks, 106 portability checks, four circuit-function checks and 44 rear-opening checks using 974 rays.
 
 These checks do not establish physical fit. The historical native audit/model-generation scripts retain source paths and may require macOS applications, earlier source baselines or other tools; their recorded results are preserved as evidence.
 
-Key reports: [working validation](kicad-working/validation/working-validation-summary-revision-11.json), [front controls](kicad-working/validation/models-review-10/front-controls-review/final-front-control-assembly-review.md), [saved-scene verification](kicad-working/visualization/blender-case-revision-12/verification/final-saved-scene-audit.json), [rear opening correction](docs/rear-opening-correction.json), [hardware refinement](docs/nys216-hardware-refinement.json), [rear seating and legends](docs/rear-seating-and-legends.json), [DIN/MIDI functions](docs/din-midi-correction.json).
+Key reports: [working validation](kicad-working/validation/working-validation-summary-revision-12.json), [front controls](kicad-working/validation/models-review-10/front-controls-review/final-front-control-assembly-review.md), [saved-scene verification](kicad-working/visualization/blender-case-revision-13/verification/final-saved-scene-audit.json), [rear opening correction](docs/rear-opening-correction.json), [hardware refinement](docs/nys216-hardware-refinement.json), [rear seating and legends](docs/rear-seating-and-legends.json), [DIN/MIDI functions](docs/din-midi-correction.json), [DIN contact correction](docs/din-contact-correction.json).
 
-Delivery ZIPs, earlier experimental Blender scenes, temporary native probes, local application state and redundant board GLB exports are excluded. The revision-7 through revision-11 scenes are retained as comparison baselines for the subsequent updates. The native GLB exports can be regenerated from the KiCad projects with `kicad-working/validation/models-review-11/export_quality_boards.py`; they are already embedded in the saved Blender scene.
+Delivery ZIPs, earlier experimental Blender scenes, temporary native probes, local application state and redundant board GLB exports are excluded. The revision-7 through revision-12 scenes are retained as comparison baselines for the subsequent updates. Native meshes are already embedded in the saved Blender scene. Historical whole-board exports can be regenerated with the recorded scripts; the current DIN export and its source hashes are recorded under `validation/models-review-12/din-contact-quality/`.
 
 ## Sources and licensing
 

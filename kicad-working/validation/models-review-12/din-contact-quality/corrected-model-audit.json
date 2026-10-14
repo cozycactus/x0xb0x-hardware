@@ -1,0 +1,561 @@
+{
+  "passed": true,
+  "check_count": 29,
+  "checks": [
+    {
+      "check": "Saved valid positive solids",
+      "passed": true
+    },
+    {
+      "check": "STEP color injection preserves exact geometry",
+      "passed": true
+    },
+    {
+      "check": "Unchanged housing/cover/lower sleeve 0",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "check": "Unchanged housing/cover/lower sleeve 1",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "check": "Unchanged housing/cover/lower sleeve 5",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "check": "Unchanged housing/cover/lower sleeve 6",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "check": "Unchanged housing/cover/lower sleeve 7",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "check": "Contact 1 bore at printed center",
+      "passed": true,
+      "center_mm": [
+        3.5,
+        10.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 1 elongated slot end -1",
+      "passed": true,
+      "point_mm": [
+        4.007141914088839,
+        8.91243065555602
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 1 elongated slot end 1",
+      "passed": true,
+      "point_mm": [
+        2.992858085911161,
+        11.08756934444398
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 1 retains material beside slot",
+      "passed": true,
+      "point_mm": [
+        4.451623176388482,
+        10.443749174827735
+      ],
+      "intersection_mm3": 0.04838052686528286
+    },
+    {
+      "check": "Contact 3 bore at printed center",
+      "passed": true,
+      "center_mm": [
+        -3.5,
+        10.0
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 3 elongated slot end -1",
+      "passed": true,
+      "point_mm": [
+        -4.007141914088839,
+        8.91243065555602
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 3 elongated slot end 1",
+      "passed": true,
+      "point_mm": [
+        -2.992858085911161,
+        11.08756934444398
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 3 retains material beside slot",
+      "passed": true,
+      "point_mm": [
+        -2.5483768236115174,
+        9.556250825172265
+      ],
+      "intersection_mm3": 0.048380526865282845
+    },
+    {
+      "check": "Contact 5 bore at printed center",
+      "passed": true,
+      "center_mm": [
+        -2.4748737341529163,
+        7.525126265847083
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 5 elongated slot end -1",
+      "passed": true,
+      "point_mm": [
+        -3.323401871576773,
+        6.676598128423226
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 5 elongated slot end 1",
+      "passed": true,
+      "point_mm": [
+        -1.6263455967290594,
+        8.37365440327094
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 5 retains material beside slot",
+      "passed": true,
+      "point_mm": [
+        -1.7324116139070413,
+        6.782664145601208
+      ],
+      "intersection_mm3": 0.04838052686528281
+    },
+    {
+      "check": "Contact 2 bore at printed center",
+      "passed": true,
+      "center_mm": [
+        0.0,
+        6.5
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 2 elongated slot end -1",
+      "passed": true,
+      "point_mm": [
+        0.0,
+        5.3
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 2 elongated slot end 1",
+      "passed": true,
+      "point_mm": [
+        0.0,
+        7.7
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 2 retains material beside slot",
+      "passed": true,
+      "point_mm": [
+        1.05,
+        6.5
+      ],
+      "intersection_mm3": 0.04838052686528281
+    },
+    {
+      "check": "Contact 4 bore at printed center",
+      "passed": true,
+      "center_mm": [
+        2.4748737341529163,
+        7.525126265847083
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 4 elongated slot end -1",
+      "passed": true,
+      "point_mm": [
+        3.323401871576773,
+        6.676598128423226
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 4 elongated slot end 1",
+      "passed": true,
+      "point_mm": [
+        1.6263455967290594,
+        8.37365440327094
+      ],
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Contact 4 retains material beside slot",
+      "passed": true,
+      "point_mm": [
+        3.217335854398791,
+        8.267588386092958
+      ],
+      "intersection_mm3": 0.048380526865282845
+    },
+    {
+      "check": "Regression catches both original misplaced outer contacts",
+      "passed": true,
+      "baseline_failures": [
+        "1",
+        "3"
+      ]
+    },
+    {
+      "check": "Source boards, old STEP and PDF unchanged",
+      "passed": true
+    }
+  ],
+  "model": "SDS50J_CorrectedContactPattern.step",
+  "model_sha256": "9a8bd2dd10aa384f377796fe8aa7234217d0bfdb9d8d8c7e16dc7f6ee3657c01",
+  "model_bytes": 119266,
+  "old_model": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+  "old_model_sha256": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+  "source_PDF": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/sds50j.pdf",
+  "source_PDF_sha256": "bf4a7032ee22b320bc5627c5d6eb331b59e6dc4c7fc618250d52e182ccea1e65",
+  "source_page": 3,
+  "source_url": "https://www.sameskydevices.com/product/resource/sds-j.pdf",
+  "retained_helper_generator": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/build_rear_quality.py",
+  "helper_sha256": "4d2d7673301a778d2fa62e66fb39ad412f722a092ff829e5c1e31cd5d816ad6d",
+  "contact_centers_and_slot_tilts": [
+    {
+      "pin": "1",
+      "center_mm": [
+        3.5,
+        10.0
+      ],
+      "slot_tilt_from_vertical_deg": -25.0
+    },
+    {
+      "pin": "3",
+      "center_mm": [
+        -3.5,
+        10.0
+      ],
+      "slot_tilt_from_vertical_deg": 25.0
+    },
+    {
+      "pin": "5",
+      "center_mm": [
+        -2.4748737341529163,
+        7.525126265847083
+      ],
+      "slot_tilt_from_vertical_deg": 45.0
+    },
+    {
+      "pin": "2",
+      "center_mm": [
+        0.0,
+        6.5
+      ],
+      "slot_tilt_from_vertical_deg": 0.0
+    },
+    {
+      "pin": "4",
+      "center_mm": [
+        2.4748737341529163,
+        7.525126265847083
+      ],
+      "slot_tilt_from_vertical_deg": -45.0
+    }
+  ],
+  "parts": [
+    {
+      "name": "Housing",
+      "role": "housing",
+      "bounds": {
+        "min_mm": [
+          -10.0,
+          0.0,
+          0.0
+        ],
+        "max_mm": [
+          10.0,
+          12.1,
+          21.1
+        ],
+        "size_mm": [
+          20.0,
+          12.1,
+          21.1
+        ]
+      },
+      "stl": "Housing.stl",
+      "stl_sha256": "6a755605bc3ec51929c7c6a09373b7293a78cc602074236d9a0641682adc631e",
+      "triangles": 3982,
+      "color": [
+        0.025,
+        0.027,
+        0.03
+      ]
+    },
+    {
+      "name": "RearCover",
+      "role": "cover",
+      "bounds": {
+        "min_mm": [
+          -7.5,
+          12.1,
+          0.0
+        ],
+        "max_mm": [
+          7.5,
+          15.8,
+          13.6
+        ],
+        "size_mm": [
+          15.0,
+          3.700000000000001,
+          13.6
+        ]
+      },
+      "stl": "RearCover.stl",
+      "stl_sha256": "443f853985d048a6bfcf4581410b0ecab1d5e97c6102896431fb88105b1e049e",
+      "triangles": 28,
+      "color": [
+        0.045,
+        0.047,
+        0.05
+      ]
+    },
+    {
+      "name": "SocketInsert",
+      "role": "housing",
+      "bounds": {
+        "min_mm": [
+          -6.649139016809675,
+          5.8,
+          3.3499999999999996
+        ],
+        "max_mm": [
+          6.649139016809676,
+          7.4,
+          16.55839157110949
+        ],
+        "size_mm": [
+          13.29827803361935,
+          1.6000000000000005,
+          13.20839157110949
+        ]
+      },
+      "stl": "SocketInsert.stl",
+      "stl_sha256": "0a0f1b89c4a277dda037b5f0ee8114cb77a4416b5bb1ff039d990b6e86e936d4",
+      "triangles": 608,
+      "color": [
+        0.025,
+        0.027,
+        0.03
+      ]
+    },
+    {
+      "name": "MatingSocket1",
+      "role": "contact",
+      "bounds": {
+        "min_mm": [
+          2.780223788959412,
+          5.95,
+          9.28
+        ],
+        "max_mm": [
+          4.219776211040587,
+          7.25,
+          10.72
+        ],
+        "size_mm": [
+          1.4395524220811753,
+          1.2999999999999998,
+          1.4400000000000013
+        ]
+      },
+      "stl": "MatingSocket1.stl",
+      "stl_sha256": "34f0b473a7deffa2d267a01e85a5970351a991d8ec433b4f6b2b22aed95af266",
+      "triangles": 1008,
+      "color": [
+        0.6,
+        0.61,
+        0.63
+      ]
+    },
+    {
+      "name": "MatingSocket2",
+      "role": "contact",
+      "bounds": {
+        "min_mm": [
+          -4.219776211040588,
+          5.95,
+          9.28
+        ],
+        "max_mm": [
+          -2.7802237889594124,
+          7.25,
+          10.72
+        ],
+        "size_mm": [
+          1.4395524220811757,
+          1.2999999999999998,
+          1.4400000000000013
+        ]
+      },
+      "stl": "MatingSocket2.stl",
+      "stl_sha256": "25fd1ba07cfc35f62f7d85f2ee84db66e22cc32501e7fce5c9c79fe5ca919793",
+      "triangles": 1008,
+      "color": [
+        0.6,
+        0.61,
+        0.63
+      ]
+    },
+    {
+      "name": "MatingSocket3",
+      "role": "contact",
+      "bounds": {
+        "min_mm": [
+          -3.1946499451935875,
+          5.95,
+          6.805126265847
+        ],
+        "max_mm": [
+          -1.7550975231124122,
+          7.25,
+          8.245126265847
+        ],
+        "size_mm": [
+          1.4395524220811753,
+          1.2999999999999998,
+          1.4400000000000004
+        ]
+      },
+      "stl": "MatingSocket3.stl",
+      "stl_sha256": "f47785a901aba6f3d034ae6af1028fb8cc7be9522dc30cfa10056cebf8d31ec1",
+      "triangles": 1008,
+      "color": [
+        0.6,
+        0.61,
+        0.63
+      ]
+    },
+    {
+      "name": "MatingSocket4",
+      "role": "contact",
+      "bounds": {
+        "min_mm": [
+          -0.7197762110405885,
+          5.95,
+          5.78
+        ],
+        "max_mm": [
+          0.719776211040587,
+          7.25,
+          7.22
+        ],
+        "size_mm": [
+          1.4395524220811755,
+          1.2999999999999998,
+          1.4399999999999995
+        ]
+      },
+      "stl": "MatingSocket4.stl",
+      "stl_sha256": "c1aeea18241ad9fd4e0e867ecebd7b05781f4ac5ccb4f02a9d48e0ae487cae6f",
+      "triangles": 1008,
+      "color": [
+        0.6,
+        0.61,
+        0.63
+      ]
+    },
+    {
+      "name": "MatingSocket5",
+      "role": "contact",
+      "bounds": {
+        "min_mm": [
+          1.755097523112412,
+          5.95,
+          6.805126265847
+        ],
+        "max_mm": [
+          3.1946499451935875,
+          7.25,
+          8.245126265847
+        ],
+        "size_mm": [
+          1.4395524220811755,
+          1.2999999999999998,
+          1.4400000000000004
+        ]
+      },
+      "stl": "MatingSocket5.stl",
+      "stl_sha256": "dc9d027c8fd2de63d433dcc98427300ca83f6ae7befd28c4db98ae225fad0ae1",
+      "triangles": 1008,
+      "color": [
+        0.6,
+        0.61,
+        0.63
+      ]
+    }
+  ],
+  "bounds": {
+    "min_mm": [
+      -10.0,
+      0.0,
+      0.0
+    ],
+    "max_mm": [
+      10.0,
+      15.8,
+      21.1
+    ],
+    "size_mm": [
+      20.0,
+      15.8,
+      21.1
+    ]
+  },
+  "corrected_references": [
+    "DIN1",
+    "DIN2",
+    "DIN3",
+    "DIN4"
+  ],
+  "unchanged_source_solids": [
+    0,
+    1,
+    5,
+    6,
+    7
+  ],
+  "changed_source_solids": [
+    2,
+    3,
+    4
+  ],
+  "downloaded_CAD_geometry_incorporated": false,
+  "limitations": [
+    "Only two contact positions and their independent slot tilts are corrected from the primary drawing.",
+    "Existing unsized slot widths, sleeve dimensions, cavity depth, keys and minor molding details remain illustrations.",
+    "Solder terminals and locators remain omitted; the supplied mesh has a separately documented registration uncertainty.",
+    "Printed nominal body envelope is preserved. No placement, routing, copper, pad, enclosure or historical physical-fit qualification."
+  ],
+  "physical_fit_qualified": false
+}

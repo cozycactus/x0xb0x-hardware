@@ -1,0 +1,4308 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-15",
+  "method": "Intersect original indexed triangles with horizontal planes below an interpreted body seat. Weld 2D segment vertices at 0.00001 mm. Compare unnumbered terminal sections to original and current PCB drill positions, without rescaling or fitting a translation.",
+  "input_DAE": {
+    "path": "/Users/ruslanmigirov/Downloads/hardware/din-model-download/model.dae",
+    "sha256": "1a313324dbc9377bfdadfb9dadbc36d05292e350baf0067a728dfca6a967cfe4",
+    "bytes": 562290,
+    "declared_mm_per_unit": 25.4
+  },
+  "triangle_count": 4122,
+  "frame": {
+    "origin_world_mm": [
+      10.39431627,
+      0.20494091600000172,
+      3.5455707599691517
+    ],
+    "mating_axis_world_xz_mm": [
+      10.39431627,
+      13.545571079966887
+    ],
+    "mating_axis_height_above_body_mm": 10.000000319997735,
+    "basis": "Keep original XYZ directions; subtract observed mouth-axis X, front-face Y and housing-bottom Z only. Positive Y points rearward into the housing.",
+    "evidence": "Axis from circular front sleeve ID178 bounding-box center; front from minimum Y; body seat from group_3 housing lowest shared plane. Generic node names do not independently verify these physical roles."
+  },
+  "sections": [
+    {
+      "z_relative_to_body_mm": -3.3,
+      "world_z_mm": 0.2455707599691519,
+      "components": [
+        {
+          "center_xy_mm": [
+            -7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -7.75,
+            12.2,
+            -7.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -7.75,
+              12.2
+            ],
+            [
+              -7.75,
+              12.69048
+            ],
+            [
+              -7.75,
+              12.69355
+            ],
+            [
+              -7.75,
+              12.72381
+            ],
+            [
+              -7.75,
+              13.2
+            ],
+            [
+              -7.25,
+              12.2
+            ],
+            [
+              -7.25,
+              12.69048
+            ],
+            [
+              -7.25,
+              12.6934
+            ],
+            [
+              -7.25,
+              12.72381
+            ],
+            [
+              -7.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID46"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            -5.25,
+            14.7,
+            -4.75,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -5.25,
+              14.7
+            ],
+            [
+              -5.25,
+              15.17619
+            ],
+            [
+              -5.25,
+              15.21528
+            ],
+            [
+              -5.25,
+              15.7
+            ],
+            [
+              -4.75,
+              14.7
+            ],
+            [
+              -4.75,
+              15.17619
+            ],
+            [
+              -4.75,
+              15.21563
+            ],
+            [
+              -4.75,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 8,
+          "geometry_ids": [
+            "ID38"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            -2.7,
+            2.55,
+            -2.3,
+            2.85
+          ],
+          "size_xy_mm": [
+            0.40000000000000036,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.25000000000000033,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -2.7,
+              2.55
+            ],
+            [
+              -2.7,
+              2.73
+            ],
+            [
+              -2.7,
+              2.85
+            ],
+            [
+              -2.3,
+              2.55
+            ],
+            [
+              -2.3,
+              2.67
+            ],
+            [
+              -2.3,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 6,
+          "geometry_ids": [
+            "ID189",
+            "ID197"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            0.0,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -0.25,
+            12.2,
+            0.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -0.25,
+              12.2
+            ],
+            [
+              -0.25,
+              12.69048
+            ],
+            [
+              -0.25,
+              12.6962
+            ],
+            [
+              -0.25,
+              12.72381
+            ],
+            [
+              -0.25,
+              13.2
+            ],
+            [
+              0.25,
+              12.2
+            ],
+            [
+              0.25,
+              12.69048
+            ],
+            [
+              0.25,
+              12.6962
+            ],
+            [
+              0.25,
+              12.72381
+            ],
+            [
+              0.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID22"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            2.3,
+            2.55,
+            2.7,
+            2.85
+          ],
+          "size_xy_mm": [
+            0.40000000000000036,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.25000000000000033,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              2.3,
+              2.55
+            ],
+            [
+              2.3,
+              2.73
+            ],
+            [
+              2.3,
+              2.85
+            ],
+            [
+              2.7,
+              2.55
+            ],
+            [
+              2.7,
+              2.67
+            ],
+            [
+              2.7,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 6,
+          "geometry_ids": [
+            "ID189",
+            "ID197"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            4.75,
+            14.7,
+            5.25,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              4.75,
+              14.7
+            ],
+            [
+              4.75,
+              15.17619
+            ],
+            [
+              4.75,
+              15.21563
+            ],
+            [
+              4.75,
+              15.7
+            ],
+            [
+              5.25,
+              14.7
+            ],
+            [
+              5.25,
+              15.17619
+            ],
+            [
+              5.25,
+              15.21528
+            ],
+            [
+              5.25,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 8,
+          "geometry_ids": [
+            "ID6"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            7.25,
+            12.2,
+            7.75,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              7.25,
+              12.2
+            ],
+            [
+              7.25,
+              12.69048
+            ],
+            [
+              7.25,
+              12.6934
+            ],
+            [
+              7.25,
+              12.72381
+            ],
+            [
+              7.25,
+              13.2
+            ],
+            [
+              7.75,
+              12.2
+            ],
+            [
+              7.75,
+              12.69048
+            ],
+            [
+              7.75,
+              12.69355
+            ],
+            [
+              7.75,
+              12.72381
+            ],
+            [
+              7.75,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID30"
+          ]
+        }
+      ],
+      "count": 7
+    },
+    {
+      "z_relative_to_body_mm": -3.0,
+      "world_z_mm": 0.5455707599691517,
+      "components": [
+        {
+          "center_xy_mm": [
+            -7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -7.75,
+            12.2,
+            -7.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -7.75,
+              12.2
+            ],
+            [
+              -7.75,
+              12.2225
+            ],
+            [
+              -7.75,
+              12.67619
+            ],
+            [
+              -7.75,
+              12.68387
+            ],
+            [
+              -7.75,
+              12.75953
+            ],
+            [
+              -7.75,
+              13.2
+            ],
+            [
+              -7.7125,
+              12.2
+            ],
+            [
+              -7.2875,
+              13.2
+            ],
+            [
+              -7.25,
+              12.2
+            ],
+            [
+              -7.25,
+              12.2225
+            ],
+            [
+              -7.25,
+              12.67619
+            ],
+            [
+              -7.25,
+              12.68349
+            ],
+            [
+              -7.25,
+              12.75953
+            ],
+            [
+              -7.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID46",
+            "ID54"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            -5.25,
+            14.7,
+            -4.75,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -5.25,
+              14.7
+            ],
+            [
+              -5.25,
+              15.14048
+            ],
+            [
+              -5.25,
+              15.23821
+            ],
+            [
+              -5.25,
+              15.7
+            ],
+            [
+              -5.22581,
+              15.7
+            ],
+            [
+              -5.2125,
+              14.7
+            ],
+            [
+              -4.75,
+              14.7
+            ],
+            [
+              -4.75,
+              15.14048
+            ],
+            [
+              -4.75,
+              15.23906
+            ],
+            [
+              -4.75,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID38",
+            "ID68"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            -3.0,
+            2.55,
+            -2.0,
+            2.85
+          ],
+          "size_xy_mm": [
+            1.0,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5220153254455276,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -3.0,
+              2.55
+            ],
+            [
+              -3.0,
+              2.85
+            ],
+            [
+              -2.0,
+              2.55
+            ],
+            [
+              -2.0,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 4,
+          "geometry_ids": [
+            "ID189",
+            "ID197",
+            "ID205"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            0.0,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -0.25,
+            12.2,
+            0.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -0.25,
+              12.2
+            ],
+            [
+              -0.25,
+              12.2225
+            ],
+            [
+              -0.25,
+              12.67619
+            ],
+            [
+              -0.25,
+              12.69049
+            ],
+            [
+              -0.25,
+              12.75953
+            ],
+            [
+              -0.25,
+              13.2
+            ],
+            [
+              -0.2125,
+              12.2
+            ],
+            [
+              0.2125,
+              13.2
+            ],
+            [
+              0.25,
+              12.2
+            ],
+            [
+              0.25,
+              12.2225
+            ],
+            [
+              0.25,
+              12.67619
+            ],
+            [
+              0.25,
+              12.69049
+            ],
+            [
+              0.25,
+              12.75953
+            ],
+            [
+              0.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID22",
+            "ID76"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            2.0,
+            2.55,
+            3.0,
+            2.85
+          ],
+          "size_xy_mm": [
+            1.0,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5220153254455276,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              2.0,
+              2.55
+            ],
+            [
+              2.0,
+              2.85
+            ],
+            [
+              3.0,
+              2.55
+            ],
+            [
+              3.0,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 4,
+          "geometry_ids": [
+            "ID189",
+            "ID197",
+            "ID213"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            4.75,
+            14.7,
+            5.25,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              4.75,
+              14.7
+            ],
+            [
+              4.75,
+              15.14048
+            ],
+            [
+              4.75,
+              15.23906
+            ],
+            [
+              4.75,
+              15.7
+            ],
+            [
+              4.7875,
+              14.7
+            ],
+            [
+              5.22581,
+              15.7
+            ],
+            [
+              5.25,
+              14.7
+            ],
+            [
+              5.25,
+              15.14048
+            ],
+            [
+              5.25,
+              15.23821
+            ],
+            [
+              5.25,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID6",
+            "ID84"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            7.25,
+            12.2,
+            7.75,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              7.25,
+              12.2
+            ],
+            [
+              7.25,
+              12.2225
+            ],
+            [
+              7.25,
+              12.67619
+            ],
+            [
+              7.25,
+              12.68349
+            ],
+            [
+              7.25,
+              12.75953
+            ],
+            [
+              7.25,
+              13.2
+            ],
+            [
+              7.2875,
+              12.2
+            ],
+            [
+              7.7125,
+              13.2
+            ],
+            [
+              7.75,
+              12.2
+            ],
+            [
+              7.75,
+              12.2225
+            ],
+            [
+              7.75,
+              12.67619
+            ],
+            [
+              7.75,
+              12.68387
+            ],
+            [
+              7.75,
+              12.75953
+            ],
+            [
+              7.75,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID30",
+            "ID92"
+          ]
+        }
+      ],
+      "count": 7
+    },
+    {
+      "z_relative_to_body_mm": -2.5,
+      "world_z_mm": 1.0455707599691517,
+      "components": [
+        {
+          "center_xy_mm": [
+            -7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -7.75,
+            12.2,
+            -7.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -7.75,
+              12.2
+            ],
+            [
+              -7.75,
+              12.26
+            ],
+            [
+              -7.75,
+              12.65238
+            ],
+            [
+              -7.75,
+              12.66774
+            ],
+            [
+              -7.75,
+              12.81905
+            ],
+            [
+              -7.75,
+              13.2
+            ],
+            [
+              -7.65,
+              12.2
+            ],
+            [
+              -7.35,
+              13.2
+            ],
+            [
+              -7.25,
+              12.2
+            ],
+            [
+              -7.25,
+              12.26
+            ],
+            [
+              -7.25,
+              12.65238
+            ],
+            [
+              -7.25,
+              12.66698
+            ],
+            [
+              -7.25,
+              12.81905
+            ],
+            [
+              -7.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID46",
+            "ID54"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            -5.25,
+            14.7,
+            -4.75,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -5.25,
+              14.7
+            ],
+            [
+              -5.25,
+              15.08095
+            ],
+            [
+              -5.25,
+              15.27641
+            ],
+            [
+              -5.25,
+              15.7
+            ],
+            [
+              -5.18548,
+              15.7
+            ],
+            [
+              -5.15,
+              14.7
+            ],
+            [
+              -4.75,
+              14.7
+            ],
+            [
+              -4.75,
+              15.08095
+            ],
+            [
+              -4.75,
+              15.27813
+            ],
+            [
+              -4.75,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID38",
+            "ID68"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            -3.0,
+            2.55,
+            -2.0,
+            2.85
+          ],
+          "size_xy_mm": [
+            1.0,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5220153254455276,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -3.0,
+              2.55
+            ],
+            [
+              -3.0,
+              2.81512
+            ],
+            [
+              -3.0,
+              2.81667
+            ],
+            [
+              -3.0,
+              2.85
+            ],
+            [
+              -2.85714,
+              2.55
+            ],
+            [
+              -2.85714,
+              2.85
+            ],
+            [
+              -2.0,
+              2.55
+            ],
+            [
+              -2.0,
+              2.59286
+            ],
+            [
+              -2.0,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 9,
+          "geometry_ids": [
+            "ID189",
+            "ID197",
+            "ID205"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            0.0,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -0.25,
+            12.2,
+            0.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -0.25,
+              12.2
+            ],
+            [
+              -0.25,
+              12.26
+            ],
+            [
+              -0.25,
+              12.65238
+            ],
+            [
+              -0.25,
+              12.68097
+            ],
+            [
+              -0.25,
+              12.81905
+            ],
+            [
+              -0.25,
+              13.2
+            ],
+            [
+              -0.15,
+              12.2
+            ],
+            [
+              0.15,
+              13.2
+            ],
+            [
+              0.25,
+              12.2
+            ],
+            [
+              0.25,
+              12.26
+            ],
+            [
+              0.25,
+              12.65238
+            ],
+            [
+              0.25,
+              12.68097
+            ],
+            [
+              0.25,
+              12.81905
+            ],
+            [
+              0.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID22",
+            "ID76"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            2.0,
+            2.55,
+            3.0,
+            2.85
+          ],
+          "size_xy_mm": [
+            1.0,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5220153254455276,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              2.0,
+              2.55
+            ],
+            [
+              2.0,
+              2.59286
+            ],
+            [
+              2.0,
+              2.85
+            ],
+            [
+              2.85714,
+              2.55
+            ],
+            [
+              2.85714,
+              2.85
+            ],
+            [
+              3.0,
+              2.55
+            ],
+            [
+              3.0,
+              2.81512
+            ],
+            [
+              3.0,
+              2.81667
+            ],
+            [
+              3.0,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 9,
+          "geometry_ids": [
+            "ID189",
+            "ID197",
+            "ID213"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            4.75,
+            14.7,
+            5.25,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              4.75,
+              14.7
+            ],
+            [
+              4.75,
+              15.08095
+            ],
+            [
+              4.75,
+              15.27813
+            ],
+            [
+              4.75,
+              15.7
+            ],
+            [
+              4.85,
+              14.7
+            ],
+            [
+              5.18548,
+              15.7
+            ],
+            [
+              5.25,
+              14.7
+            ],
+            [
+              5.25,
+              15.08095
+            ],
+            [
+              5.25,
+              15.27641
+            ],
+            [
+              5.25,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID6",
+            "ID84"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            7.25,
+            12.2,
+            7.75,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              7.25,
+              12.2
+            ],
+            [
+              7.25,
+              12.26
+            ],
+            [
+              7.25,
+              12.65238
+            ],
+            [
+              7.25,
+              12.66698
+            ],
+            [
+              7.25,
+              12.81905
+            ],
+            [
+              7.25,
+              13.2
+            ],
+            [
+              7.35,
+              12.2
+            ],
+            [
+              7.65,
+              13.2
+            ],
+            [
+              7.75,
+              12.2
+            ],
+            [
+              7.75,
+              12.26
+            ],
+            [
+              7.75,
+              12.65238
+            ],
+            [
+              7.75,
+              12.66774
+            ],
+            [
+              7.75,
+              12.81905
+            ],
+            [
+              7.75,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID30",
+            "ID92"
+          ]
+        }
+      ],
+      "count": 7
+    },
+    {
+      "z_relative_to_body_mm": -1.599,
+      "world_z_mm": 1.9465707599691517,
+      "components": [
+        {
+          "center_xy_mm": [
+            -7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -7.75,
+            12.2,
+            -7.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -7.75,
+              12.2
+            ],
+            [
+              -7.75,
+              12.32757
+            ],
+            [
+              -7.75,
+              12.60948
+            ],
+            [
+              -7.75,
+              12.63868
+            ],
+            [
+              -7.75,
+              12.92631
+            ],
+            [
+              -7.75,
+              13.2
+            ],
+            [
+              -7.53737,
+              12.2
+            ],
+            [
+              -7.46262,
+              13.2
+            ],
+            [
+              -7.25,
+              12.2
+            ],
+            [
+              -7.25,
+              12.32757
+            ],
+            [
+              -7.25,
+              12.60948
+            ],
+            [
+              -7.25,
+              12.63723
+            ],
+            [
+              -7.25,
+              12.92631
+            ],
+            [
+              -7.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID46",
+            "ID54"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            -5.25,
+            14.7,
+            -4.75,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -5.25,
+              14.7
+            ],
+            [
+              -5.25,
+              14.97369
+            ],
+            [
+              -5.25,
+              15.34526
+            ],
+            [
+              -5.25,
+              15.7
+            ],
+            [
+              -5.11282,
+              15.7
+            ],
+            [
+              -5.03738,
+              14.7
+            ],
+            [
+              -4.75,
+              14.7
+            ],
+            [
+              -4.75,
+              14.97369
+            ],
+            [
+              -4.75,
+              15.34852
+            ],
+            [
+              -4.75,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID38",
+            "ID68"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            -3.0,
+            2.55,
+            -2.0,
+            2.85
+          ],
+          "size_xy_mm": [
+            1.0,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5220153254455276,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -3.0,
+              2.55
+            ],
+            [
+              -3.0,
+              2.75226
+            ],
+            [
+              -3.0,
+              2.7566
+            ],
+            [
+              -3.0,
+              2.85
+            ],
+            [
+              -2.59971,
+              2.55
+            ],
+            [
+              -2.59971,
+              2.85
+            ],
+            [
+              -2.0,
+              2.55
+            ],
+            [
+              -2.0,
+              2.67009
+            ],
+            [
+              -2.0,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 9,
+          "geometry_ids": [
+            "ID189",
+            "ID197",
+            "ID205"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            0.0,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -0.25,
+            12.2,
+            0.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -0.25,
+              12.2
+            ],
+            [
+              -0.25,
+              12.32757
+            ],
+            [
+              -0.25,
+              12.60948
+            ],
+            [
+              -0.25,
+              12.66383
+            ],
+            [
+              -0.25,
+              12.92631
+            ],
+            [
+              -0.25,
+              13.2
+            ],
+            [
+              -0.03738,
+              12.2
+            ],
+            [
+              0.03738,
+              13.2
+            ],
+            [
+              0.25,
+              12.2
+            ],
+            [
+              0.25,
+              12.32757
+            ],
+            [
+              0.25,
+              12.60948
+            ],
+            [
+              0.25,
+              12.66383
+            ],
+            [
+              0.25,
+              12.92631
+            ],
+            [
+              0.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID22",
+            "ID76"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            2.0,
+            2.55,
+            3.0,
+            2.85
+          ],
+          "size_xy_mm": [
+            1.0,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5220153254455276,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              2.0,
+              2.55
+            ],
+            [
+              2.0,
+              2.67009
+            ],
+            [
+              2.0,
+              2.85
+            ],
+            [
+              2.59972,
+              2.55
+            ],
+            [
+              2.59972,
+              2.85
+            ],
+            [
+              3.0,
+              2.55
+            ],
+            [
+              3.0,
+              2.75226
+            ],
+            [
+              3.0,
+              2.7566
+            ],
+            [
+              3.0,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 9,
+          "geometry_ids": [
+            "ID189",
+            "ID197",
+            "ID213"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            4.75,
+            14.7,
+            5.25,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              4.75,
+              14.7
+            ],
+            [
+              4.75,
+              14.97369
+            ],
+            [
+              4.75,
+              15.34852
+            ],
+            [
+              4.75,
+              15.7
+            ],
+            [
+              4.96263,
+              14.7
+            ],
+            [
+              5.11282,
+              15.7
+            ],
+            [
+              5.25,
+              14.7
+            ],
+            [
+              5.25,
+              14.97369
+            ],
+            [
+              5.25,
+              15.34526
+            ],
+            [
+              5.25,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID6",
+            "ID84"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            7.25,
+            12.2,
+            7.75,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              7.25,
+              12.2
+            ],
+            [
+              7.25,
+              12.32757
+            ],
+            [
+              7.25,
+              12.60948
+            ],
+            [
+              7.25,
+              12.63723
+            ],
+            [
+              7.25,
+              12.92631
+            ],
+            [
+              7.25,
+              13.2
+            ],
+            [
+              7.46263,
+              12.2
+            ],
+            [
+              7.53738,
+              13.2
+            ],
+            [
+              7.75,
+              12.2
+            ],
+            [
+              7.75,
+              12.32757
+            ],
+            [
+              7.75,
+              12.60948
+            ],
+            [
+              7.75,
+              12.63868
+            ],
+            [
+              7.75,
+              12.92631
+            ],
+            [
+              7.75,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID30",
+            "ID92"
+          ]
+        }
+      ],
+      "count": 7
+    },
+    {
+      "z_relative_to_body_mm": -1.5,
+      "world_z_mm": 2.0455707599691517,
+      "components": [
+        {
+          "center_xy_mm": [
+            -7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -7.75,
+            12.2,
+            -7.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -7.75,
+              12.2
+            ],
+            [
+              -7.75,
+              12.335
+            ],
+            [
+              -7.75,
+              12.60476
+            ],
+            [
+              -7.75,
+              12.63548
+            ],
+            [
+              -7.75,
+              12.9381
+            ],
+            [
+              -7.75,
+              13.2
+            ],
+            [
+              -7.525,
+              12.2
+            ],
+            [
+              -7.475,
+              13.2
+            ],
+            [
+              -7.25,
+              12.2
+            ],
+            [
+              -7.25,
+              12.335
+            ],
+            [
+              -7.25,
+              12.60476
+            ],
+            [
+              -7.25,
+              12.63396
+            ],
+            [
+              -7.25,
+              12.9381
+            ],
+            [
+              -7.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID46",
+            "ID54"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            -5.25,
+            14.7,
+            -4.75,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -5.25,
+              14.7
+            ],
+            [
+              -5.25,
+              14.96191
+            ],
+            [
+              -5.25,
+              15.35283
+            ],
+            [
+              -5.25,
+              15.7
+            ],
+            [
+              -5.10484,
+              15.7
+            ],
+            [
+              -5.025,
+              14.7
+            ],
+            [
+              -4.75,
+              14.7
+            ],
+            [
+              -4.75,
+              14.96191
+            ],
+            [
+              -4.75,
+              15.35625
+            ],
+            [
+              -4.75,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID38",
+            "ID68"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            -3.0,
+            2.55,
+            -2.0,
+            2.85
+          ],
+          "size_xy_mm": [
+            1.0,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5220153254455276,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -3.0,
+              2.55
+            ],
+            [
+              -3.0,
+              2.74535
+            ],
+            [
+              -3.0,
+              2.75
+            ],
+            [
+              -3.0,
+              2.85
+            ],
+            [
+              -2.57143,
+              2.55
+            ],
+            [
+              -2.57143,
+              2.85
+            ],
+            [
+              -2.0,
+              2.55
+            ],
+            [
+              -2.0,
+              2.67857
+            ],
+            [
+              -2.0,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 9,
+          "geometry_ids": [
+            "ID189",
+            "ID197",
+            "ID205"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            0.0,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -0.25,
+            12.2,
+            0.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -0.25,
+              12.2
+            ],
+            [
+              -0.25,
+              12.335
+            ],
+            [
+              -0.25,
+              12.60476
+            ],
+            [
+              -0.25,
+              12.66194
+            ],
+            [
+              -0.25,
+              12.9381
+            ],
+            [
+              -0.25,
+              13.2
+            ],
+            [
+              -0.025,
+              12.2
+            ],
+            [
+              0.025,
+              13.2
+            ],
+            [
+              0.25,
+              12.2
+            ],
+            [
+              0.25,
+              12.335
+            ],
+            [
+              0.25,
+              12.60476
+            ],
+            [
+              0.25,
+              12.66194
+            ],
+            [
+              0.25,
+              12.9381
+            ],
+            [
+              0.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID22",
+            "ID76"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            2.0,
+            2.55,
+            3.0,
+            2.85
+          ],
+          "size_xy_mm": [
+            1.0,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5220153254455276,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              2.0,
+              2.55
+            ],
+            [
+              2.0,
+              2.67857
+            ],
+            [
+              2.0,
+              2.85
+            ],
+            [
+              2.57143,
+              2.55
+            ],
+            [
+              2.57143,
+              2.85
+            ],
+            [
+              3.0,
+              2.55
+            ],
+            [
+              3.0,
+              2.74535
+            ],
+            [
+              3.0,
+              2.75
+            ],
+            [
+              3.0,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 9,
+          "geometry_ids": [
+            "ID189",
+            "ID197",
+            "ID213"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            4.75,
+            14.7,
+            5.25,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              4.75,
+              14.7
+            ],
+            [
+              4.75,
+              14.96191
+            ],
+            [
+              4.75,
+              15.35625
+            ],
+            [
+              4.75,
+              15.7
+            ],
+            [
+              4.975,
+              14.7
+            ],
+            [
+              5.10484,
+              15.7
+            ],
+            [
+              5.25,
+              14.7
+            ],
+            [
+              5.25,
+              14.96191
+            ],
+            [
+              5.25,
+              15.35283
+            ],
+            [
+              5.25,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID6",
+            "ID84"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            7.25,
+            12.2,
+            7.75,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              7.25,
+              12.2
+            ],
+            [
+              7.25,
+              12.335
+            ],
+            [
+              7.25,
+              12.60476
+            ],
+            [
+              7.25,
+              12.63396
+            ],
+            [
+              7.25,
+              12.9381
+            ],
+            [
+              7.25,
+              13.2
+            ],
+            [
+              7.475,
+              12.2
+            ],
+            [
+              7.525,
+              13.2
+            ],
+            [
+              7.75,
+              12.2
+            ],
+            [
+              7.75,
+              12.335
+            ],
+            [
+              7.75,
+              12.60476
+            ],
+            [
+              7.75,
+              12.63548
+            ],
+            [
+              7.75,
+              12.9381
+            ],
+            [
+              7.75,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID30",
+            "ID92"
+          ]
+        }
+      ],
+      "count": 7
+    },
+    {
+      "z_relative_to_body_mm": -0.8,
+      "world_z_mm": 2.7455707599691515,
+      "components": [
+        {
+          "center_xy_mm": [
+            -7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -7.75,
+            12.2,
+            -7.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -7.75,
+              12.2
+            ],
+            [
+              -7.75,
+              12.3875
+            ],
+            [
+              -7.75,
+              12.57143
+            ],
+            [
+              -7.75,
+              12.6129
+            ],
+            [
+              -7.75,
+              13.02143
+            ],
+            [
+              -7.75,
+              13.2
+            ],
+            [
+              -7.5625,
+              13.2
+            ],
+            [
+              -7.4375,
+              12.2
+            ],
+            [
+              -7.25,
+              12.2
+            ],
+            [
+              -7.25,
+              12.3875
+            ],
+            [
+              -7.25,
+              12.57143
+            ],
+            [
+              -7.25,
+              12.61084
+            ],
+            [
+              -7.25,
+              13.02143
+            ],
+            [
+              -7.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID46",
+            "ID54"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            -5.25,
+            14.7,
+            -4.75,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -5.25,
+              14.7
+            ],
+            [
+              -5.25,
+              14.87857
+            ],
+            [
+              -5.25,
+              15.40632
+            ],
+            [
+              -5.25,
+              15.7
+            ],
+            [
+              -5.04839,
+              15.7
+            ],
+            [
+              -4.9375,
+              14.7
+            ],
+            [
+              -4.75,
+              14.7
+            ],
+            [
+              -4.75,
+              14.87857
+            ],
+            [
+              -4.75,
+              15.41094
+            ],
+            [
+              -4.75,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID38",
+            "ID68"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            -3.0,
+            2.55,
+            -2.0,
+            2.85
+          ],
+          "size_xy_mm": [
+            1.0,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5220153254455276,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -3.0,
+              2.55
+            ],
+            [
+              -3.0,
+              2.69651
+            ],
+            [
+              -3.0,
+              2.70333
+            ],
+            [
+              -3.0,
+              2.85
+            ],
+            [
+              -2.37143,
+              2.55
+            ],
+            [
+              -2.37143,
+              2.85
+            ],
+            [
+              -2.0,
+              2.55
+            ],
+            [
+              -2.0,
+              2.73857
+            ],
+            [
+              -2.0,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 9,
+          "geometry_ids": [
+            "ID189",
+            "ID197",
+            "ID205"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            0.0,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -0.25,
+            12.2,
+            0.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -0.25,
+              12.2
+            ],
+            [
+              -0.25,
+              12.3875
+            ],
+            [
+              -0.25,
+              12.57143
+            ],
+            [
+              -0.25,
+              12.64862
+            ],
+            [
+              -0.25,
+              13.02143
+            ],
+            [
+              -0.25,
+              13.2
+            ],
+            [
+              -0.0625,
+              13.2
+            ],
+            [
+              0.0625,
+              12.2
+            ],
+            [
+              0.25,
+              12.2
+            ],
+            [
+              0.25,
+              12.3875
+            ],
+            [
+              0.25,
+              12.57143
+            ],
+            [
+              0.25,
+              12.64862
+            ],
+            [
+              0.25,
+              13.02143
+            ],
+            [
+              0.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID22",
+            "ID76"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            2.0,
+            2.55,
+            3.0,
+            2.85
+          ],
+          "size_xy_mm": [
+            1.0,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5220153254455276,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              2.0,
+              2.55
+            ],
+            [
+              2.0,
+              2.73857
+            ],
+            [
+              2.0,
+              2.85
+            ],
+            [
+              2.37143,
+              2.55
+            ],
+            [
+              2.37143,
+              2.85
+            ],
+            [
+              3.0,
+              2.55
+            ],
+            [
+              3.0,
+              2.69651
+            ],
+            [
+              3.0,
+              2.70333
+            ],
+            [
+              3.0,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 9,
+          "geometry_ids": [
+            "ID189",
+            "ID197",
+            "ID213"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            4.75,
+            14.7,
+            5.25,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              4.75,
+              14.7
+            ],
+            [
+              4.75,
+              14.87857
+            ],
+            [
+              4.75,
+              15.41094
+            ],
+            [
+              4.75,
+              15.7
+            ],
+            [
+              5.04839,
+              15.7
+            ],
+            [
+              5.0625,
+              14.7
+            ],
+            [
+              5.25,
+              14.7
+            ],
+            [
+              5.25,
+              14.87857
+            ],
+            [
+              5.25,
+              15.40632
+            ],
+            [
+              5.25,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID6",
+            "ID84"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            7.25,
+            12.2,
+            7.75,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              7.25,
+              12.2
+            ],
+            [
+              7.25,
+              12.3875
+            ],
+            [
+              7.25,
+              12.57143
+            ],
+            [
+              7.25,
+              12.61084
+            ],
+            [
+              7.25,
+              13.02143
+            ],
+            [
+              7.25,
+              13.2
+            ],
+            [
+              7.4375,
+              13.2
+            ],
+            [
+              7.5625,
+              12.2
+            ],
+            [
+              7.75,
+              12.2
+            ],
+            [
+              7.75,
+              12.3875
+            ],
+            [
+              7.75,
+              12.57143
+            ],
+            [
+              7.75,
+              12.6129
+            ],
+            [
+              7.75,
+              13.02143
+            ],
+            [
+              7.75,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID30",
+            "ID92"
+          ]
+        }
+      ],
+      "count": 7
+    },
+    {
+      "z_relative_to_body_mm": -0.2,
+      "world_z_mm": 3.3455707599691515,
+      "components": [
+        {
+          "center_xy_mm": [
+            -7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -7.75,
+            12.2,
+            -7.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -7.75,
+              12.2
+            ],
+            [
+              -7.75,
+              12.4325
+            ],
+            [
+              -7.75,
+              12.54286
+            ],
+            [
+              -7.75,
+              12.59355
+            ],
+            [
+              -7.75,
+              13.09286
+            ],
+            [
+              -7.75,
+              13.2
+            ],
+            [
+              -7.6375,
+              13.2
+            ],
+            [
+              -7.3625,
+              12.2
+            ],
+            [
+              -7.25,
+              12.2
+            ],
+            [
+              -7.25,
+              12.4325
+            ],
+            [
+              -7.25,
+              12.54286
+            ],
+            [
+              -7.25,
+              12.59103
+            ],
+            [
+              -7.25,
+              13.09286
+            ],
+            [
+              -7.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID46",
+            "ID54"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            -5.25,
+            14.7,
+            -4.75,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -5.25,
+              14.7
+            ],
+            [
+              -5.25,
+              14.80714
+            ],
+            [
+              -5.25,
+              15.45216
+            ],
+            [
+              -5.25,
+              15.7
+            ],
+            [
+              -5.0,
+              15.7
+            ],
+            [
+              -4.8625,
+              14.7
+            ],
+            [
+              -4.75,
+              14.7
+            ],
+            [
+              -4.75,
+              14.80714
+            ],
+            [
+              -4.75,
+              15.45781
+            ],
+            [
+              -4.75,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID38",
+            "ID68"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            -3.0,
+            2.55,
+            -2.0,
+            2.85
+          ],
+          "size_xy_mm": [
+            1.0,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5220153254455276,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -3.0,
+              2.55
+            ],
+            [
+              -3.0,
+              2.65465
+            ],
+            [
+              -3.0,
+              2.66333
+            ],
+            [
+              -3.0,
+              2.85
+            ],
+            [
+              -2.2,
+              2.55
+            ],
+            [
+              -2.2,
+              2.85
+            ],
+            [
+              -2.0,
+              2.55
+            ],
+            [
+              -2.0,
+              2.79
+            ],
+            [
+              -2.0,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 9,
+          "geometry_ids": [
+            "ID189",
+            "ID197",
+            "ID205"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            0.0,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -0.25,
+            12.2,
+            0.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -0.25,
+              12.2
+            ],
+            [
+              -0.25,
+              12.4325
+            ],
+            [
+              -0.25,
+              12.54286
+            ],
+            [
+              -0.25,
+              12.63721
+            ],
+            [
+              -0.25,
+              13.09286
+            ],
+            [
+              -0.25,
+              13.2
+            ],
+            [
+              -0.1375,
+              13.2
+            ],
+            [
+              0.1375,
+              12.2
+            ],
+            [
+              0.25,
+              12.2
+            ],
+            [
+              0.25,
+              12.4325
+            ],
+            [
+              0.25,
+              12.54286
+            ],
+            [
+              0.25,
+              12.63721
+            ],
+            [
+              0.25,
+              13.09286
+            ],
+            [
+              0.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID22",
+            "ID76"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            2.0,
+            2.55,
+            3.0,
+            2.85
+          ],
+          "size_xy_mm": [
+            1.0,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5220153254455276,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              2.0,
+              2.55
+            ],
+            [
+              2.0,
+              2.79
+            ],
+            [
+              2.0,
+              2.85
+            ],
+            [
+              2.2,
+              2.55
+            ],
+            [
+              2.2,
+              2.85
+            ],
+            [
+              3.0,
+              2.55
+            ],
+            [
+              3.0,
+              2.65465
+            ],
+            [
+              3.0,
+              2.66333
+            ],
+            [
+              3.0,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 9,
+          "geometry_ids": [
+            "ID189",
+            "ID197",
+            "ID213"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            4.75,
+            14.7,
+            5.25,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              4.75,
+              14.7
+            ],
+            [
+              4.75,
+              14.80714
+            ],
+            [
+              4.75,
+              15.45781
+            ],
+            [
+              4.75,
+              15.7
+            ],
+            [
+              5.0,
+              15.7
+            ],
+            [
+              5.1375,
+              14.7
+            ],
+            [
+              5.25,
+              14.7
+            ],
+            [
+              5.25,
+              14.80714
+            ],
+            [
+              5.25,
+              15.45216
+            ],
+            [
+              5.25,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID6",
+            "ID84"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            7.25,
+            12.2,
+            7.75,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              7.25,
+              12.2
+            ],
+            [
+              7.25,
+              12.4325
+            ],
+            [
+              7.25,
+              12.54286
+            ],
+            [
+              7.25,
+              12.59103
+            ],
+            [
+              7.25,
+              13.09286
+            ],
+            [
+              7.25,
+              13.2
+            ],
+            [
+              7.3625,
+              13.2
+            ],
+            [
+              7.6375,
+              12.2
+            ],
+            [
+              7.75,
+              12.2
+            ],
+            [
+              7.75,
+              12.4325
+            ],
+            [
+              7.75,
+              12.54286
+            ],
+            [
+              7.75,
+              12.59355
+            ],
+            [
+              7.75,
+              13.09286
+            ],
+            [
+              7.75,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID30",
+            "ID92"
+          ]
+        }
+      ],
+      "count": 7
+    },
+    {
+      "z_relative_to_body_mm": -0.001,
+      "world_z_mm": 3.544570759969152,
+      "components": [
+        {
+          "center_xy_mm": [
+            -7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -7.75,
+            12.2,
+            -7.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -7.75,
+              12.2
+            ],
+            [
+              -7.75,
+              12.44742
+            ],
+            [
+              -7.75,
+              12.53338
+            ],
+            [
+              -7.75,
+              12.58713
+            ],
+            [
+              -7.75,
+              13.11655
+            ],
+            [
+              -7.75,
+              13.2
+            ],
+            [
+              -7.66237,
+              13.2
+            ],
+            [
+              -7.33762,
+              12.2
+            ],
+            [
+              -7.25,
+              12.2
+            ],
+            [
+              -7.25,
+              12.44742
+            ],
+            [
+              -7.25,
+              12.53338
+            ],
+            [
+              -7.25,
+              12.58446
+            ],
+            [
+              -7.25,
+              13.11655
+            ],
+            [
+              -7.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID46",
+            "ID54"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            -5.25,
+            14.7,
+            -4.75,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -5.25,
+              14.7
+            ],
+            [
+              -5.25,
+              14.78345
+            ],
+            [
+              -5.25,
+              15.46737
+            ],
+            [
+              -5.25,
+              15.7
+            ],
+            [
+              -4.98395,
+              15.7
+            ],
+            [
+              -4.83763,
+              14.7
+            ],
+            [
+              -4.75,
+              14.7
+            ],
+            [
+              -4.75,
+              14.78345
+            ],
+            [
+              -4.75,
+              15.47336
+            ],
+            [
+              -4.75,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID38",
+            "ID68"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            -2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            -3.0,
+            2.55,
+            -2.0,
+            2.85
+          ],
+          "size_xy_mm": [
+            1.0,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5220153254455276,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -3.0,
+              2.55
+            ],
+            [
+              -3.0,
+              2.64077
+            ],
+            [
+              -3.0,
+              2.65007
+            ],
+            [
+              -3.0,
+              2.85
+            ],
+            [
+              -2.14314,
+              2.55
+            ],
+            [
+              -2.14314,
+              2.85
+            ],
+            [
+              -2.0,
+              2.55
+            ],
+            [
+              -2.0,
+              2.80706
+            ],
+            [
+              -2.0,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 9,
+          "geometry_ids": [
+            "ID189",
+            "ID197",
+            "ID205"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            0.0,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            -0.25,
+            12.2,
+            0.25,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              -0.25,
+              12.2
+            ],
+            [
+              -0.25,
+              12.44742
+            ],
+            [
+              -0.25,
+              12.53338
+            ],
+            [
+              -0.25,
+              12.63342
+            ],
+            [
+              -0.25,
+              13.11655
+            ],
+            [
+              -0.25,
+              13.2
+            ],
+            [
+              -0.16237,
+              13.2
+            ],
+            [
+              0.16237,
+              12.2
+            ],
+            [
+              0.25,
+              12.2
+            ],
+            [
+              0.25,
+              12.44742
+            ],
+            [
+              0.25,
+              12.53338
+            ],
+            [
+              0.25,
+              12.63342
+            ],
+            [
+              0.25,
+              13.11655
+            ],
+            [
+              0.25,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID22",
+            "ID76"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            2.5,
+            2.7
+          ],
+          "bounds_xy_mm": [
+            2.0,
+            2.55,
+            3.0,
+            2.85
+          ],
+          "size_xy_mm": [
+            1.0,
+            0.30000000000000027
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5220153254455276,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              2.0,
+              2.55
+            ],
+            [
+              2.0,
+              2.80706
+            ],
+            [
+              2.0,
+              2.85
+            ],
+            [
+              2.14314,
+              2.55
+            ],
+            [
+              2.14314,
+              2.85
+            ],
+            [
+              3.0,
+              2.55
+            ],
+            [
+              3.0,
+              2.64077
+            ],
+            [
+              3.0,
+              2.65007
+            ],
+            [
+              3.0,
+              2.85
+            ]
+          ],
+          "boundary_vertex_count": 9,
+          "geometry_ids": [
+            "ID189",
+            "ID197",
+            "ID213"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            5.0,
+            15.2
+          ],
+          "bounds_xy_mm": [
+            4.75,
+            14.7,
+            5.25,
+            15.7
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              4.75,
+              14.7
+            ],
+            [
+              4.75,
+              14.78345
+            ],
+            [
+              4.75,
+              15.47336
+            ],
+            [
+              4.75,
+              15.7
+            ],
+            [
+              4.98395,
+              15.7
+            ],
+            [
+              5.16237,
+              14.7
+            ],
+            [
+              5.25,
+              14.7
+            ],
+            [
+              5.25,
+              14.78345
+            ],
+            [
+              5.25,
+              15.46737
+            ],
+            [
+              5.25,
+              15.7
+            ]
+          ],
+          "boundary_vertex_count": 10,
+          "geometry_ids": [
+            "ID6",
+            "ID84"
+          ]
+        },
+        {
+          "center_xy_mm": [
+            7.5,
+            12.7
+          ],
+          "bounds_xy_mm": [
+            7.25,
+            12.2,
+            7.75,
+            13.2
+          ],
+          "size_xy_mm": [
+            0.5,
+            1.0
+          ],
+          "geometric_radius_from_bbox_center_mm": 0.5590169943749475,
+          "closed_loop": true,
+          "boundary_vertices_xy_mm": [
+            [
+              7.25,
+              12.2
+            ],
+            [
+              7.25,
+              12.44742
+            ],
+            [
+              7.25,
+              12.53338
+            ],
+            [
+              7.25,
+              12.58446
+            ],
+            [
+              7.25,
+              13.11655
+            ],
+            [
+              7.25,
+              13.2
+            ],
+            [
+              7.33763,
+              13.2
+            ],
+            [
+              7.66237,
+              12.2
+            ],
+            [
+              7.75,
+              12.2
+            ],
+            [
+              7.75,
+              12.44742
+            ],
+            [
+              7.75,
+              12.53338
+            ],
+            [
+              7.75,
+              12.58713
+            ],
+            [
+              7.75,
+              13.11655
+            ],
+            [
+              7.75,
+              13.2
+            ]
+          ],
+          "boundary_vertex_count": 14,
+          "geometry_ids": [
+            "ID30",
+            "ID92"
+          ]
+        }
+      ],
+      "count": 7
+    }
+  ],
+  "original_Eagle_package_description": "Female <b>CONNECTOR</b><p>\n5 pins 90 deg. with shield, horizontal (DIN 41524)",
+  "original_Eagle_pads": [
+    {
+      "pad": "1",
+      "canonical_xy_mm": [
+        7.62,
+        12.58
+      ],
+      "record_index": 238,
+      "original_24bytes_hex": "2a000100a829010068eb0100cc19aa2a0000003100000000"
+    },
+    {
+      "pad": "2",
+      "canonical_xy_mm": [
+        0.0,
+        12.68
+      ],
+      "record_index": 239,
+      "original_24bytes_hex": "2a0003000000000050ef0100cc1900000004003200000000"
+    },
+    {
+      "pad": "3",
+      "canonical_xy_mm": [
+        -7.52,
+        12.58
+      ],
+      "record_index": 240,
+      "original_24bytes_hex": "2a00010040dafeff68eb0100cc19aa2a0000003300000000"
+    },
+    {
+      "pad": "4",
+      "canonical_xy_mm": [
+        5.08,
+        15.02
+      ],
+      "record_index": 241,
+      "original_24bytes_hex": "2a00010070c60000b84a0200cc19aa2a0000003400000000"
+    },
+    {
+      "pad": "5",
+      "canonical_xy_mm": [
+        -5.08,
+        15.02
+      ],
+      "record_index": 242,
+      "original_24bytes_hex": "2a0001009039ffffb84a0200cc19aa2a0000003500000000"
+    },
+    {
+      "pad": "PE",
+      "canonical_xy_mm": [
+        -2.54,
+        2.62
+      ],
+      "record_index": 243,
+      "original_24bytes_hex": "2a000100c89cffff58660000cc19aa2a0000005045000000"
+    },
+    {
+      "pad": "PE@",
+      "canonical_xy_mm": [
+        2.54,
+        2.62
+      ],
+      "record_index": 244,
+      "original_24bytes_hex": "2a0001003863000058660000cc19aa2a0000005045400000"
+    }
+  ],
+  "current_PCB_reference": "DIN1",
+  "current_PCB_pads": [
+    {
+      "pad": "1",
+      "canonical_xy_mm": [
+        7.62,
+        12.58
+      ],
+      "drill_mm": 1.3208
+    },
+    {
+      "pad": "2",
+      "canonical_xy_mm": [
+        0.0,
+        12.68
+      ],
+      "drill_mm": 1.3208
+    },
+    {
+      "pad": "3",
+      "canonical_xy_mm": [
+        -7.52,
+        12.58
+      ],
+      "drill_mm": 1.3208
+    },
+    {
+      "pad": "4",
+      "canonical_xy_mm": [
+        5.08,
+        15.02
+      ],
+      "drill_mm": 1.3208
+    },
+    {
+      "pad": "5",
+      "canonical_xy_mm": [
+        -5.08,
+        15.02
+      ],
+      "drill_mm": 1.3208
+    },
+    {
+      "pad": "PE",
+      "canonical_xy_mm": [
+        -2.54,
+        2.62
+      ],
+      "drill_mm": 1.3208
+    },
+    {
+      "pad": "PE@",
+      "canonical_xy_mm": [
+        2.54,
+        2.62
+      ],
+      "drill_mm": 1.3208
+    }
+  ],
+  "original_current_pad_centers_match": true,
+  "unnumbered_terminal_centers_stable_across_sections": true,
+  "actual_board_thickness_mm": 1.6,
+  "geometric_nearest_drill_comparison": [
+    {
+      "unnumbered_terminal_center_xy_mm": [
+        -7.5,
+        12.7
+      ],
+      "closest_existing_drill_label": "3",
+      "label_meaning": "Nearest geometric drill association only; not a recovered electrical pin number.",
+      "existing_drill_center_xy_mm": [
+        -7.52,
+        12.58
+      ],
+      "drill_diameter_mm": 1.3208,
+      "center_delta_xy_mm": [
+        0.019999999999999574,
+        0.11999999999999922
+      ],
+      "center_offset_mm": 0.12165525060596355,
+      "terminal_section_size_xy_mm": [
+        0.5,
+        1.0
+      ],
+      "farthest_actual_section_vertex_from_drill_center_mm": 0.6762396025078676,
+      "nominal_radial_clearance_mm": -0.015839602507867645,
+      "full_actual_section_inside_drill_under_selected_frame": false,
+      "geometry_ids": [
+        "ID46",
+        "ID54"
+      ]
+    },
+    {
+      "unnumbered_terminal_center_xy_mm": [
+        -5.0,
+        15.2
+      ],
+      "closest_existing_drill_label": "5",
+      "label_meaning": "Nearest geometric drill association only; not a recovered electrical pin number.",
+      "existing_drill_center_xy_mm": [
+        -5.08,
+        15.02
+      ],
+      "drill_diameter_mm": 1.3208,
+      "center_delta_xy_mm": [
+        0.08000000000000007,
+        0.17999999999999972
+      ],
+      "center_offset_mm": 0.19697715603592186,
+      "terminal_section_size_xy_mm": [
+        0.5,
+        1.0
+      ],
+      "farthest_actual_section_vertex_from_drill_center_mm": 0.7558438992278761,
+      "nominal_radial_clearance_mm": -0.0954438992278761,
+      "full_actual_section_inside_drill_under_selected_frame": false,
+      "geometry_ids": [
+        "ID38",
+        "ID68"
+      ]
+    },
+    {
+      "unnumbered_terminal_center_xy_mm": [
+        -2.5,
+        2.7
+      ],
+      "closest_existing_drill_label": "PE",
+      "label_meaning": "Nearest geometric drill association only; not a recovered electrical pin number.",
+      "existing_drill_center_xy_mm": [
+        -2.54,
+        2.62
+      ],
+      "drill_diameter_mm": 1.3208,
+      "center_delta_xy_mm": [
+        0.040000000000000036,
+        0.08000000000000007
+      ],
+      "center_offset_mm": 0.08944271909999167,
+      "terminal_section_size_xy_mm": [
+        1.0,
+        0.30000000000000027
+      ],
+      "farthest_actual_section_vertex_from_drill_center_mm": 0.5869412236331676,
+      "nominal_radial_clearance_mm": 0.0734587763668324,
+      "full_actual_section_inside_drill_under_selected_frame": true,
+      "geometry_ids": [
+        "ID189",
+        "ID197",
+        "ID205"
+      ]
+    },
+    {
+      "unnumbered_terminal_center_xy_mm": [
+        0.0,
+        12.7
+      ],
+      "closest_existing_drill_label": "2",
+      "label_meaning": "Nearest geometric drill association only; not a recovered electrical pin number.",
+      "existing_drill_center_xy_mm": [
+        0.0,
+        12.68
+      ],
+      "drill_diameter_mm": 1.3208,
+      "center_delta_xy_mm": [
+        0.0,
+        0.019999999999999574
+      ],
+      "center_offset_mm": 0.019999999999999574,
+      "terminal_section_size_xy_mm": [
+        0.5,
+        1.0
+      ],
+      "farthest_actual_section_vertex_from_drill_center_mm": 0.5769748694700659,
+      "nominal_radial_clearance_mm": 0.08342513052993406,
+      "full_actual_section_inside_drill_under_selected_frame": true,
+      "geometry_ids": [
+        "ID22",
+        "ID76"
+      ]
+    },
+    {
+      "unnumbered_terminal_center_xy_mm": [
+        2.5,
+        2.7
+      ],
+      "closest_existing_drill_label": "PE@",
+      "label_meaning": "Nearest geometric drill association only; not a recovered electrical pin number.",
+      "existing_drill_center_xy_mm": [
+        2.54,
+        2.62
+      ],
+      "drill_diameter_mm": 1.3208,
+      "center_delta_xy_mm": [
+        -0.040000000000000036,
+        0.08000000000000007
+      ],
+      "center_offset_mm": 0.08944271909999167,
+      "terminal_section_size_xy_mm": [
+        1.0,
+        0.30000000000000027
+      ],
+      "farthest_actual_section_vertex_from_drill_center_mm": 0.5869412236331676,
+      "nominal_radial_clearance_mm": 0.0734587763668324,
+      "full_actual_section_inside_drill_under_selected_frame": true,
+      "geometry_ids": [
+        "ID189",
+        "ID197",
+        "ID213"
+      ]
+    },
+    {
+      "unnumbered_terminal_center_xy_mm": [
+        5.0,
+        15.2
+      ],
+      "closest_existing_drill_label": "4",
+      "label_meaning": "Nearest geometric drill association only; not a recovered electrical pin number.",
+      "existing_drill_center_xy_mm": [
+        5.08,
+        15.02
+      ],
+      "drill_diameter_mm": 1.3208,
+      "center_delta_xy_mm": [
+        -0.08000000000000007,
+        0.17999999999999972
+      ],
+      "center_offset_mm": 0.19697715603592186,
+      "terminal_section_size_xy_mm": [
+        0.5,
+        1.0
+      ],
+      "farthest_actual_section_vertex_from_drill_center_mm": 0.7558438992278761,
+      "nominal_radial_clearance_mm": -0.0954438992278761,
+      "full_actual_section_inside_drill_under_selected_frame": false,
+      "geometry_ids": [
+        "ID6",
+        "ID84"
+      ]
+    },
+    {
+      "unnumbered_terminal_center_xy_mm": [
+        7.5,
+        12.7
+      ],
+      "closest_existing_drill_label": "1",
+      "label_meaning": "Nearest geometric drill association only; not a recovered electrical pin number.",
+      "existing_drill_center_xy_mm": [
+        7.62,
+        12.58
+      ],
+      "drill_diameter_mm": 1.3208,
+      "center_delta_xy_mm": [
+        -0.1200000000000001,
+        0.11999999999999922
+      ],
+      "center_offset_mm": 0.16970562748477092,
+      "terminal_section_size_xy_mm": [
+        0.5,
+        1.0
+      ],
+      "farthest_actual_section_vertex_from_drill_center_mm": 0.7220110802473872,
+      "nominal_radial_clearance_mm": -0.06161108024738726,
+      "full_actual_section_inside_drill_under_selected_frame": false,
+      "geometry_ids": [
+        "ID30",
+        "ID92"
+      ]
+    }
+  ],
+  "selected_rigid_front_anchor_screen": {
+    "full_width_sections_inside_all_drills": false,
+    "nominal_interfering_section_count": 4,
+    "worst_nominal_radial_clearance_mm": -0.0954438992278761,
+    "meaning": "Nominal mesh-section corner intersections with drill boundaries under one interpreted rigid front registration. This is not a claim that the historical physical part cannot fit."
+  },
+  "possible_common_axial_datum_difference": {
+    "measured_terminal_rows_y_mm": [
+      2.7,
+      12.7,
+      15.2
+    ],
+    "current_PDF_rows_y_mm": [
+      2.5,
+      12.5,
+      15.0
+    ],
+    "common_row_difference_mm": 0.2,
+    "measured_front_flange_thickness_mm": 2.0,
+    "current_PDF_flange_thickness_mm": 1.8,
+    "interpretation": "The common 0.2 mm row offset could follow a different flange or front-seat datum in this older export. The same 0.2 mm difference exists between its 2.0 mm flange depth and the current drawing's 1.8 mm depth. This does not establish a required translation or historical part pose. No alternate registration was applied or tested.",
+    "fitted_transform_applied": false,
+    "alternative_pose_tested": false
+  },
+  "locator_review": {
+    "geometry_groups_projecting_below_body": [
+      "SketchUp/instance_0/MIDI/group_0",
+      "SketchUp/instance_0/MIDI/group_2"
+    ],
+    "observed_below_body_section_count": 7,
+    "additional_separate_locator_sections_observed": false,
+    "interpretation": "Only seven terminal-like sections were observed below the selected body plane. No additional distinct plastic locator projection was identified. Generic CAD names and materials do not prove the absence of a locator on the actual part.",
+    "original_Eagle_package_mechanical_hole_records": 0
+  },
+  "input_PCB_sha256": "63ce57799bb03ee442863c9e59f13fef5f39fbb268d4bacc70b980e6c21c8487",
+  "input_Eagle_board_sha256": "76b6d3c1b71adafd8b84ae0141f78a480a07d13c3eb908694f8cd212c833270e",
+  "parser_source_sha256": "972b3474b6fbc273e042cd71b2021cc03e14dff73725eb9881efb082dd84ef9b",
+  "source_unchanged": true,
+  "electrical_pin_number_identity_verified": false,
+  "physical_fit_qualified": false,
+  "model_integrated": false,
+  "limits": [
+    "Low-Z section clusters identify terminal geometry, not electrical pin numbers. Nearest-pad associations are geometric hypotheses only.",
+    "Body and front datums require interpretation. No optimized rigid fit, mirrored fit or nominal scaling was performed. This single registration cannot establish physical misfit.",
+    "A closed 2D section loop does not prove 3D mesh manifoldness, actual pin forming, plating clearance or physical seating.",
+    "Two front terminal tips taper from 0.4 x 0.3 to 1.0 x 0.3 mm around Z = -3.3 to -3.0 mm. The nominal 1.6 mm PCB engagement region lies above that tip chamfer. Five other terminal sections measure 0.5 x 1.0 mm. No assumed bowing, elastic deflection or extra narrowing was credited.",
+    "Original imperial-grid pad positions, current family drawing revision, front-seat datum, mesh precision and real forming and manufacturing tolerances remain unqualified for fit. The lateral differences also remain: model X = +/-7.5 and +/-5.0 mm versus original/PCB outer centers -7.52/+7.62 and +/-5.08 mm. Nominal section screening cannot certify physical fit."
+  ]
+}

@@ -1,13 +1,11 @@
 {
-  "revision": "Working revision 11: historical Sanyo NP transistor illustrations and refined Abracon resonators",
-  "created_utc": "2026-10-14T20:07:36.768748+00:00",
+  "revision": "Working revision12: corrected SDS-50J outer contact centers and independent slot tilts",
+  "created_utc": "2026-10-14T22:57:50.121327+00:00",
   "native_kicad_version": "10.0.7",
   "projects": {
     "mainboard": {
       "erc_errors": 0,
       "erc_warnings": 0,
-      "baseline_erc_errors": 49,
-      "baseline_erc_warnings": 67,
       "drc_violation_errors": 0,
       "drc_violation_warnings": 448,
       "separate_unconnected_errors": 2,
@@ -60,7 +58,6 @@
           "type": "unconnected_items"
         }
       ],
-      "copper_layers": 2,
       "erc_ignored_checks": [
         "footprint_filter",
         "four_way_junction",
@@ -76,38 +73,14 @@
       ],
       "erc_exclusions": [],
       "drc_exclusions": [],
-      "rules_severities_and_pin_matrix_unchanged": true,
       "model_instances": 409,
-      "unassigned_footprints": 8,
-      "mechanical_hole_footprints": 7,
-      "board_geometry_and_routing_identical_to_revision_3": true,
-      "board_geometry_and_routing_identical_to_revision_4": true,
-      "board_geometry_and_routing_identical_to_revision_5": true,
-      "drc_findings_raw_identical_to_revision_5": false,
-      "drc_findings_electrically_equivalent_revision_5": true,
-      "board_geometry_and_routing_identical_to_revision_6": true,
-      "drc_warnings_and_parity_identical_to_revision_6": true,
-      "unconnected_net_counts_identical_to_revision_6": true,
-      "raw_unconnected_report_identical_to_revision_6": false,
-      "board_geometry_and_routing_identical_to_revision_7": true,
-      "drc_warnings_and_parity_identical_to_revision_7": true,
-      "unconnected_net_counts_identical_to_revision_7": true,
-      "raw_unconnected_report_identical_to_revision_7": false,
-      "board_geometry_and_routing_identical_to_revision_8": true,
-      "drc_warnings_and_parity_identical_to_revision_8": true,
-      "unconnected_net_counts_identical_to_revision_8": true,
-      "board_geometry_and_routing_identical_to_revision_9": true,
-      "drc_warnings_and_parity_identical_to_revision_9": true,
-      "unconnected_net_counts_identical_to_revision_9": true,
-      "board_geometry_and_routing_identical_to_revision_10": true,
-      "drc_warnings_and_parity_identical_to_revision_10": true,
-      "unconnected_net_counts_identical_to_revision_10": true
+      "electrical_inputs_and_rules_preserved": true,
+      "fresh_native_ERC_DRC_this_revision": false,
+      "electrical_evidence_basis": "Revision11 native reports retained; every mainboard project file byte-identical. No mainboard electrical rerun this revision."
     },
     "ioboard": {
       "erc_errors": 0,
       "erc_warnings": 0,
-      "baseline_erc_errors": 48,
-      "baseline_erc_warnings": 13,
       "drc_violation_errors": 0,
       "drc_violation_warnings": 348,
       "separate_unconnected_errors": 1,
@@ -137,7 +110,6 @@
           "type": "unconnected_items"
         }
       ],
-      "copper_layers": 2,
       "erc_ignored_checks": [
         "footprint_filter",
         "four_way_junction",
@@ -153,32 +125,10 @@
       ],
       "erc_exclusions": [],
       "drc_exclusions": [],
-      "rules_severities_and_pin_matrix_unchanged": true,
       "model_instances": 82,
-      "unassigned_footprints": 0,
-      "mechanical_hole_footprints": 0,
-      "board_geometry_and_routing_identical_to_revision_3": true,
-      "board_geometry_and_routing_identical_to_revision_4": true,
-      "board_geometry_and_routing_identical_to_revision_5": true,
-      "drc_findings_raw_identical_to_revision_5": true,
-      "drc_findings_electrically_equivalent_revision_5": true,
-      "board_geometry_and_routing_identical_to_revision_6": true,
-      "drc_warnings_and_parity_identical_to_revision_6": true,
-      "unconnected_net_counts_identical_to_revision_6": true,
-      "raw_unconnected_report_identical_to_revision_6": false,
-      "board_geometry_and_routing_identical_to_revision_7": true,
-      "drc_warnings_and_parity_identical_to_revision_7": true,
-      "unconnected_net_counts_identical_to_revision_7": true,
-      "raw_unconnected_report_identical_to_revision_7": false,
-      "board_geometry_and_routing_identical_to_revision_8": true,
-      "drc_warnings_and_parity_identical_to_revision_8": true,
-      "unconnected_net_counts_identical_to_revision_8": true,
-      "board_geometry_and_routing_identical_to_revision_9": true,
-      "drc_warnings_and_parity_identical_to_revision_9": true,
-      "unconnected_net_counts_identical_to_revision_9": true,
-      "board_geometry_and_routing_identical_to_revision_10": true,
-      "drc_warnings_and_parity_identical_to_revision_10": true,
-      "unconnected_net_counts_identical_to_revision_10": true
+      "electrical_inputs_and_rules_preserved": true,
+      "fresh_native_ERC_DRC_this_revision": true,
+      "electrical_evidence_basis": "Fresh KiCad10.0.7 I/O reports; all DRC findings exactly equal revision11. ERC0 under retained project rules."
     }
   },
   "outputs": {
@@ -198,6 +148,7 @@
     "ioboard/3dmodels/README.md": "fdeb52db0734c779a67a1f9fa339947c4f774e5ba1ae7fa8f9762dec59dde4c9",
     "ioboard/3dmodels/REVISION-10-SOURCES.json": "dc9587580922b6ab28fa1336211fdf2e31548a247855329c79943420d3e9c1cb",
     "ioboard/3dmodels/REVISION-11-SOURCES.json": "4c62e555ccc374e7ad91386ada740b473a45a5b3896fe2d83977410a51ea75d8",
+    "ioboard/3dmodels/REVISION-12-SOURCES.json": "dda84b9064fa505bc6e04aeb6871da22b63e1fa894f5feee318b26a484baa848",
     "ioboard/3dmodels/REVISION-5-INTERSECTIONS.json": "d960e5c5d3cdeb71a1d14ce8411350f3454524ae79894582c0c31e4b28df55ea",
     "ioboard/3dmodels/REVISION-5-SOURCES.json": "fc2142623b0a51e2b6e30c8d2c18e1c6733d1a4f2c27e9ed3875112173a9f815",
     "ioboard/3dmodels/REVISION-6-SOURCES.json": "0f6f9170a1dabe24032c1d366085afa49201889d39559af0f2c9bfd9c1e34952",
@@ -209,6 +160,7 @@
     "ioboard/3dmodels/Revision10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
     "ioboard/3dmodels/Revision11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration.step": "692666df2d45e3cf6cca90f48de88b0ea76ce9650dfcb0c57ade849135b8009a",
     "ioboard/3dmodels/Revision11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration.step": "e1836f981186b13cb2ceb9ec33df48d0d16d8597b27581334d941cbb152aa439",
+    "ioboard/3dmodels/Revision12/din-contact-quality/SDS50J_CorrectedContactPattern.step": "9a8bd2dd10aa384f377796fe8aa7234217d0bfdb9d8d8c7e16dc7f6ee3657c01",
     "ioboard/3dmodels/Revision5/integrated-models/Resonator_AWCR6MD_MaxBody_P2.54_Illustration.step": "78f33aa8eb4dd7053e1fb5a9b03b43a1ae36eda4c313cbbf4c5e60b23c1c1bab",
     "ioboard/3dmodels/Revision5/integrated-models/provenance/LICENSE-CC0.md": "c3683b871f3d82dc03413ecfe590e7914e5115e814daef8aad682736de5e9a68",
     "ioboard/3dmodels/Revision5/integrated-models/provenance/README.md": "003941362fcef14715c9da0124a13f5ad6e7f78f9fdf2eb664ebbbce7dea8cb3",
@@ -260,7 +212,7 @@
     "ioboard/ioboard-import-fps.pretty/C050-025X075.kicad_mod": "b38c39616d2c7c6f85991cc609a0da3b8be4872231cd3ed1199f06943d73bfb2",
     "ioboard/ioboard-import-fps.pretty/C050H075X075.kicad_mod": "23e15d2a515d130bcd66c763c3044c8508d63e3c56d4218ef12a992390cd1045",
     "ioboard/ioboard-import-fps.pretty/CERM_OSC.kicad_mod": "652291d45c9b9fb339a7fb5d8708de864ef547a0ffc27c40c0da5afd540030c4",
-    "ioboard/ioboard-import-fps.pretty/CP-2350.kicad_mod": "257c783376662f8a88681f562dae5ee3852ca6c71f1602e21aaef82bf752304e",
+    "ioboard/ioboard-import-fps.pretty/CP-2350.kicad_mod": "162b114a74b94321ffc9c03a6aecfaa3c886fb5eda1b18e39283ef364da26efc",
     "ioboard/ioboard-import-fps.pretty/CP-3502.kicad_mod": "01c9922a9c9ae21a9eedb64c904935d2f34f12949825d975e6fe42a2542b124f",
     "ioboard/ioboard-import-fps.pretty/D03S.kicad_mod": "5879e38ef29d8886564b74f4c5ccfd9cfe3a47b1dfc287d5d7a117d6283266c1",
     "ioboard/ioboard-import-fps.pretty/DIL06.kicad_mod": "6552dbcac7ccdd74f8a0578d667fc8de38b3ac2a4c42d861b04497a94bf84949",
@@ -281,7 +233,7 @@
     "ioboard/ioboard-import-fps.pretty/TO-92_x0x.kicad_mod": "80157f7d3a299227f8501ba096c7bad2842d2896d8452efe6bcc22fe58b86632",
     "ioboard/ioboard-schema-extra-footprints-import-fps.pretty/TO92.kicad_mod": "8738e5204d890c1abf686f2e1c8c476d54c4cb0046f58d0f07009dfbd866721c",
     "ioboard/ioboard-schema-extra-footprints-import-fps.pretty/ZTT_XTAL.kicad_mod": "20ca4b7f1a0df706c927f685b10f76f7e7cd00d1488b0f2546c7ba3952980b8c",
-    "ioboard/ioboard.kicad_pcb": "63ce57799bb03ee442863c9e59f13fef5f39fbb268d4bacc70b980e6c21c8487",
+    "ioboard/ioboard.kicad_pcb": "a7e46f4f02947a0ac724a3f00c7d23d2157b06fdeada69d80c62a8a7c3ccdb1f",
     "ioboard/ioboard.kicad_pro": "4d79e6a44b983c4dfbf1aebbea329beef15dfba20c0df313a9aa4d0393d5971e",
     "ioboard/ioboard.kicad_sch": "c4dc4a4032fe068738e498adc2683d8d34d5bfca9320a3b016926c462a98d81d",
     "ioboard/sym-lib-table": "8bfa007448fb4843bbddd26cce02bcf5705821ac97c923abbdb75dcbe647c5db",
@@ -440,875 +392,46 @@
     "mainboard/mainboard.kicad_sch": "048af535f76cfa6b3acc6b1bd9a9c603b213b7dd0de759cf7f848d8f7856e190",
     "mainboard/sym-lib-table": "ab580635180f3beb7cc7aa3941e515c3e1461bef4ee63ec6679fad3c76336702"
   },
-  "models": {
-    "assigned_instances": 491,
-    "added_visual_instances": 66,
-    "previous_assignments_preserved": 425,
-    "unique_asset_hashes": 57,
-    "asset_copies": 68,
-    "unmodeled_fitted_component_positions": 0,
-    "intentionally_unfitted_optional_positions": [
-      "mainboard/IC15A0"
-    ],
-    "mounting_hole_footprints": 7,
-    "all_paths_project_relative": true,
-    "all_scales_unity": true,
-    "cache_policies": [
-      {
-        "board": "mainboard",
-        "footprint": "E3,5-8",
-        "references": [
-          "C17"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "2SC2021",
-        "references": [
-          "XTL1"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "C050-025X075",
-        "references": [
-          "C19",
-          "C24",
-          "C18",
-          "C36"
-        ],
-        "cache_model_added": false,
-        "reason": "Part-specific model overrides; shared physical footprint cache remains without model because bodies/population differ."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "C050-050X075",
-        "references": [
-          "C45"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "C075-032X103",
-        "references": [
-          "C26"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "E2,5-7",
-        "references": [
-          "C62",
-          "C42"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "C050-024X044",
-        "references": [
-          "C33",
-          "C10",
-          "C21",
-          "C46",
-          "C20"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "C050-055X075",
-        "references": [
-          "C54"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "SIP9",
-        "references": [
-          "IC14",
-          "IC15B0",
-          "IC15A0"
-        ],
-        "cache_model_added": false,
-        "reason": "Part-specific model overrides; shared physical footprint cache remains without model because bodies/population differ."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "C050-035X075",
-        "references": [
-          "C34",
-          "C101",
-          "C100"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "2SC536_UNEVEN",
-        "references": [
-          "Q19",
-          "Q17",
-          "Q23"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "SSIP5",
-        "references": [
-          "Q21",
-          "Q12",
-          "Q26",
-          "Q22"
-        ],
-        "cache_model_added": false,
-        "reason": "Part-specific model overrides; shared physical footprint cache remains without model because bodies/population differ."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "C050-030X075",
-        "references": [
-          "C27",
-          "C25",
-          "C41"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "C050H075X075",
-        "references": [
-          "C108",
-          "C106",
-          "C111",
-          "C107",
-          "C104",
-          "C110",
-          "C103",
-          "C112",
-          "C113",
-          "C109"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "C050-075X075",
-        "references": [
-          "C47"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "C050-045X075",
-        "references": [
-          "C35"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "ioboard",
-        "footprint": "E5-13",
-        "references": [
-          "C5",
-          "C3"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "ioboard",
-        "footprint": "Resonator_6MHz_x0x",
-        "references": [
-          "XTL2"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "ioboard",
-        "footprint": "C050H075X075",
-        "references": [
-          "C4",
-          "C202",
-          "C6",
-          "C2",
-          "C1",
-          "C204"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "ioboard",
-        "footprint": "C050-025X075",
-        "references": [
-          "C201"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "306",
-        "references": [
-          "TM3",
-          "TM4",
-          "TM5"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "MA12-1",
-        "references": [
-          "J3"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "PEC11-S",
-        "references": [
-          "S2"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "GH3074",
-        "references": [
-          "S4",
-          "S3"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "12",
-        "references": [
-          "J1"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "15",
-        "references": [
-          "J2"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "ALPHADUAL",
-        "references": [
-          "VR4",
-          "VR6"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "B3F-40XX",
-        "references": [
-          "S14",
-          "S18",
-          "S21",
-          "S10",
-          "S13",
-          "S25",
-          "S6",
-          "S9",
-          "S26",
-          "S27",
-          "S15",
-          "S24",
-          "S20",
-          "S12",
-          "S17",
-          "S7",
-          "S16",
-          "S23",
-          "S5",
-          "S22",
-          "S8",
-          "S19",
-          "S11"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "NKKTOGGLE",
-        "references": [
-          "S1"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "R-7,5",
-        "references": [
-          "R100A0",
-          "R100B0"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "EVU",
-        "references": [
-          "VR7",
-          "VR5",
-          "VR2",
-          "VR8",
-          "VR3"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "mainboard",
-        "footprint": "MA03-1",
-        "references": [
-          "J6",
-          "J5",
-          "J7",
-          "J4"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "ioboard",
-        "footprint": "CP-2350",
-        "references": [
-          "DIN2",
-          "DIN4",
-          "DIN3",
-          "DIN1"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "ioboard",
-        "footprint": "306",
-        "references": [
-          "TM6"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "ioboard",
-        "footprint": "PJ-202AH",
-        "references": [
-          "POWER0"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "ioboard",
-        "footprint": "MA12-1",
-        "references": [
-          "J3"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "ioboard",
-        "footprint": "78XXS",
-        "references": [
-          "IC20"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "ioboard",
-        "footprint": "D03S",
-        "references": [
-          "KK1"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "ioboard",
-        "footprint": "MJ-3536N",
-        "references": [
-          "CV0",
-          "GATE0"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "ioboard",
-        "footprint": "REAN_1_4STERO",
-        "references": [
-          "MIXOUT0",
-          "HEADPHONE0",
-          "MIXIN0"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "ioboard",
-        "footprint": "PN61729",
-        "references": [
-          "USB0"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      },
-      {
-        "board": "ioboard",
-        "footprint": "MA03-1",
-        "references": [
-          "J5",
-          "J7",
-          "J6",
-          "J4"
-        ],
-        "cache_model_added": true,
-        "reason": "All placed instances use identical model and transform."
-      }
-    ],
-    "new_body_only_classification": true,
-    "original_nominal_model_intersection_pairs": 6,
-    "newly_documented_approximate_heatsink_regulator_overlap_mm3": 1.729422,
-    "color_corrected_instances": 34,
-    "newly_added_references": 0,
-    "all_native_model_geometry_unchanged_from_revision_6": false,
-    "previous_assets_retained": true,
-    "detailed_replaced_instances": 45,
-    "selected_model_geometry_replaced": true,
-    "all_PCB_geometry_unchanged_from_revision_7": true,
-    "unchanged_reference_model_count": 446,
-    "cumulative_detailed_instances": 91,
-    "model_only_seating_exceptions": [],
-    "all_PCB_geometry_unchanged_from_revision_8": true,
-    "historical_coarse_heatsink_regulator_overlap_revision_8_mm3": 40.92,
-    "heatsink_regulator_overlap_scope": "Revision10 photo-qualified bent pair; nominal overlap is restricted to reconstructed free-state spring fingers and is not elastic-contact certification.",
-    "all_PCB_geometry_unchanged_from_revision_9": true,
-    "historical_revision_9_zero_pose_heatsink_regulator_overlap_mm3": 48.642693,
-    "current_model_plan": "validation/models-review-11/combined-model-plan.json"
+  "model_references": 491,
+  "updated_model_references": [
+    "DIN1",
+    "DIN2",
+    "DIN3",
+    "DIN4"
+  ],
+  "previous_core_files": 257,
+  "changed_previous_core_files": [
+    "ioboard/ioboard-import-fps.pretty/CP-2350.kicad_mod",
+    "ioboard/ioboard.kicad_pcb"
+  ],
+  "new_core_files": [
+    "ioboard/3dmodels/Revision12/din-contact-quality/SDS50J_CorrectedContactPattern.step",
+    "ioboard/3dmodels/REVISION-12-SOURCES.json"
+  ],
+  "fresh_ioboard_DRC_findings_identical_to_revision11": {
+    "violations": true,
+    "unconnected_items": true,
+    "schematic_parity": true,
+    "ignored_checks": true
   },
-  "scope": "45 source-qualified model replacements. Every non-model PCB/library node, schematic, project setting, copper, pad, net, outline and footprint placement unchanged. All native model offsets, rotations and scales preserved; installation illustration is encoded only in replacement STEP geometry.",
-  "independent_model_audit": "models-review-5/saved-model-audit.json",
-  "independent_added_lead_audit": "models-review-5/independent-additional-lead-audit.json",
-  "independent_native_assembly_audit": "models-review-5/independent-native-assembly-audit.json",
-  "native_intersections_audit": "models-review-5/independent-native-intersections.json",
-  "candidate_to_final_geometry_invariance": "models-review-5/connector-models/candidate-to-final-geometry-invariance.json",
-  "connectivity": {
-    "mainboard_connected_memberships": 1160,
-    "mainboard_source_connected_groups": 324,
-    "ioboard_connected_memberships": 222,
-    "ioboard_source_connected_groups": 59,
-    "source_schematic_memberships_exact": true,
-    "complete_native_physical_pin_net_memberships_preserved": true
+  "fresh_ioboard_ERC_errors": 0,
+  "fresh_ioboard_ERC_warnings": 0,
+  "reports": {
+    "installation-audit.json": "c26f09d44ea5cf74cc9e1f02fa9df9743c57024bf38959a5bdd92f05dc8b5dbc",
+    "din-contact-quality/corrected-model-audit.json": "9acd256a3873868bef94c27d5c6ffa463bc37ec0843952d10f7c544f3bdc36b2",
+    "din-contact-quality/native-final-geometry-audit.json": "163ddb4a59a169b136b59e21fb26ad997213d98e417d56ca1e293b9cf5934d8c",
+    "din-contact-quality/native-final-export-record.json": "e6b1d6c3333053d71ec545e577bbb84d81f69785d0af397e829f18ae0b1e028b",
+    "current-function-verification.json": "ceaa2644645835c9a5999ae132fc5f64e92094d4af810b042c24f1c9b1e47879",
+    "ioboard-drc.json": "9474ad0bfb063b3a9f07aa71ddbb11f5d64d59acd38b499cf89aefb8b12413ba",
+    "ioboard-erc.json": "f92bb6d213b7c8856c1ead5e70fea9ff551620d715d0cfec769a2eb141be666c"
   },
-  "preservation": {
-    "original_eagle_hashes_unchanged": true,
-    "kicad_import_design_hashes_unchanged": true,
-    "prior_archives": [
-      {
-        "file": "x0xb0x-working-revision-1.zip",
-        "bytes": 10558575,
-        "sha256": "a3638e1dfb03f35fa8d5695e1e518cd5294e7d579fe19f0bb9b869485cf61d17"
-      },
-      {
-        "file": "x0xb0x-working-revision-2.zip",
-        "bytes": 23953791,
-        "sha256": "52b0dcd43f9df3d6ab23aeca9a46a1f0760fefc11fc05872e546b8d685cdac7e"
-      },
-      {
-        "file": "x0xb0x-working-revision-3.zip",
-        "bytes": 59939546,
-        "sha256": "df77c87a39dc12a82fcb67dc8121c3acfd103b5c1e26b9cda11646d58626a227"
-      },
-      {
-        "file": "x0xb0x-working-revision-4.zip",
-        "bytes": 76483052,
-        "sha256": "d4dbffb9d6d1f1d9b777bbb806809ceb3138182047991367a4f1de63d7912eeb"
-      }
-    ]
-  },
-  "drc_comparison_to_revision_4": {
-    "mainboard": {
-      "violations": true,
-      "unconnected_items": true,
-      "schematic_parity": true
-    },
-    "ioboard": {
-      "violations": true,
-      "unconnected_items": true,
-      "schematic_parity": true
-    }
-  },
-  "limitations": "All 491 fitted references retain visual bodies. PCB-mounted LED bodies use the original BOM STD240B0.24inch mounting length, with the conflicting older0.22inch entry documented. LED heads retain the stock generic shape; full-width leads extend to the PCB. Stand-off/LED historical variants and tolerance remain unqualified. Original author photos support the outward bent regulator orientation; the exact 90 degree angle and 2 mm datum remain illustration assumptions. IC20 and rear-jack below-seat terminals remain omitted because full nominal terminal fit is unqualified. Reconstructed free-state heatsink fingers retain approximately 1.729422 mm3 nominal regulator intersection; elastic clamping, thermal performance and installed tolerances are not simulated. Current source-body/case screens do not certify physical fit. Original three PCB connection gaps, board/parity warnings and rule exclusions remain unchanged.",
-  "saved_model_audit_revision_6": {
-    "report": "validation/models-review-6/saved-model-audit.json",
-    "passed": true,
-    "checks": 5023
-  },
-  "body_asset_audit_revision_6": {
-    "report": "validation/models-review-6/body-asset-audit.json",
-    "passed": true,
-    "added_reference_count": 66,
-    "distinct_new_model_assets": 20
-  },
-  "native_glb_audit_revision_6": {
-    "report": "visualization/blender-case-revision-3/case-model/revision-3-independent-native-glb-audit.json",
-    "passed": true,
-    "scope": "Previous425 geometry/topology/native transforms/material values; all board layers; new66 native poses and source bounds"
-  },
-  "drc_comparison_to_revision_5": {
-    "mainboard": {
-      "raw_finding_lists_identical": false,
-      "findings_electrically_equivalent": true,
-      "representative_endpoint_witness": {
-        "current_representative_segment_uuid": "1abde9c4-d830-4cca-95fd-855c37dfd5b8",
-        "segment_end_mm": [
-          104.7242,
-          -31.8516
-        ],
-        "prior_representative_pad": {
-          "description": "PTH pad 1 [+5V] of S22",
-          "pos": {
-            "x": 104.7242,
-            "y": -31.8516
-          },
-          "uuid": "f28f01e2-da6a-4a39-95a9-b8e48f2793b0"
-        },
-        "reason": "Current representative track ends exactly at the prior representative S22 pad centre on the same +5V island; all non-model PCB nodes are unchanged."
-      },
-      "native_drc_report": "validation/models-review-6/mainboard-drc-final.json",
-      "native_erc_report": "validation/models-review-6/mainboard-erc-final.json"
-    },
-    "ioboard": {
-      "raw_finding_lists_identical": true,
-      "findings_electrically_equivalent": true,
-      "representative_endpoint_witness": null,
-      "native_drc_report": "validation/models-review-6/ioboard-drc-final.json",
-      "native_erc_report": "validation/models-review-6/ioboard-erc-final.json"
-    }
-  },
-  "drc_comparison_to_revision_6": {
-    "mainboard": {
-      "board_warnings_and_parity_identical": true,
-      "unconnected_net_counts_identical": true,
-      "raw_unconnected_report_identical": false,
-      "geometry_basis": "All non-model PCB/library nodes are identical; KiCad may select different items within a connected island to represent an existing gap."
-    },
-    "ioboard": {
-      "board_warnings_and_parity_identical": true,
-      "unconnected_net_counts_identical": true,
-      "raw_unconnected_report_identical": false,
-      "geometry_basis": "All non-model PCB/library nodes are identical; KiCad may select different items within a connected island to represent an existing gap."
-    }
-  },
-  "saved_model_audit_revision_7": {
-    "report": "validation/models-review-7/saved-model-audit.json",
-    "passed": true,
-    "checks": 5110
-  },
-  "independent_color_candidate_audit_revision_7": {
-    "report": "validation/models-review-7/misc-color-review/independent-color-candidate-audit.json",
-    "passed": true,
-    "checks": 463
-  },
-  "native_control_color_audit_revision_7": {
-    "report": "validation/models-review-7/control-colors/native-control-color-audit.json",
-    "scope": "Six original/corrected native probe pairs; byte-identical binary geometry and all intended surface palettes",
-    "passed": true
-  },
-  "blender_revision_4": {
-    "stable_scene": "visualization/blender-case-revision-4/x0xb0x-populated-with-case.blend",
-    "sha256": "2a124a12efc0e32250c9363ecbbd35c18d8f4ff1c5d9f7e46eafb3632b097a67",
-    "native_and_color_audits_passed": true,
-    "seating_comparison_checks": 5600,
-    "physical_bore_and_fit_qualified": false
-  },
-  "drc_comparison_to_revision_7": {
-    "mainboard": {
-      "board_warnings_and_parity_identical": true,
-      "unconnected_net_counts_identical": true,
-      "raw_unconnected_report_identical": false,
-      "geometry_basis": "All non-model PCB/library nodes are identical; KiCad may select different items within a connected island to represent an existing gap."
-    },
-    "ioboard": {
-      "board_warnings_and_parity_identical": true,
-      "unconnected_net_counts_identical": true,
-      "raw_unconnected_report_identical": false,
-      "geometry_basis": "All non-model PCB/library nodes are identical; KiCad may select different items within a connected island to represent an existing gap."
-    }
-  },
-  "saved_model_audit_revision_8": {
-    "report": "validation/models-review-8/saved-model-audit.json",
-    "passed": true,
-    "checks": 5140
-  },
-  "detailed_model_review_revision_8": {
-    "manifests": [
-      "control-quality/control-quality-manifest.json",
-      "rotary-quality/rotary-quality-manifest.json",
-      "rear-quality/rear-quality-manifest.json",
-      "misc-quality/misc-quality-manifest.json"
-    ],
-    "updated_references": 38,
-    "historical_and_unsized_details_qualified": true
-  },
-  "historical_evidence_note": "Earlier revision reports refer to their saved snapshots. Current model sources, native checks and invariants are under models-review-10. Earlier stable scenes and archives are unchanged.",
-  "native_intersections_audit_scope": "Historical revision5 nominal intersections; superseded component bodies changed in revisions8 and9, so this is not a current global mechanical-fit audit.",
-  "independent_quality_review_revision_8": {
-    "report": "validation/models-review-8/independent-quality-review.json",
-    "passed": true,
-    "checks": 682
-  },
-  "blender_revision_5": {
-    "scene": "visualization/blender-case-revision-5/x0xb0x-populated-with-case.blend",
-    "sha256": "85a7ab314de72262931b63e61a1dfe1dd4c855d579d525f79c4d7ca8abc9ff61",
-    "bytes": 42319539,
-    "native_reference_count": 491,
-    "detailed_replaced_references": 38,
-    "saved_scene_checks": 933,
-    "unchanged_geometry_checks": 985,
-    "full_native_bounds_checks": 138,
-    "harness_routing_study_only": true
-  },
-  "drc_comparison_to_revision_8": {
-    "mainboard": {
-      "board_warnings_and_parity_identical": true,
-      "unconnected_net_counts_identical": true,
-      "raw_unconnected_report_identical": false
-    },
-    "ioboard": {
-      "board_warnings_and_parity_identical": true,
-      "unconnected_net_counts_identical": true,
-      "raw_unconnected_report_identical": false
-    }
-  },
-  "saved_model_audit_revision_9": {
-    "report": "validation/models-review-9/saved-model-audit.json",
-    "passed": true,
-    "checks": 5158
-  },
-  "detailed_model_review_revision_9": {
-    "manifests": [
-      "potentiometer-quality/potentiometer-quality-manifest.json",
-      "heatsink-quality/heatsink-quality-manifest.json",
-      "legacy-quality/legacy-quality-manifest.json"
-    ],
-    "updated_references": 9,
-    "historical_and_unsized_details_qualified": true
-  },
-  "independent_quality_review_revision_9": {
-    "report": "validation/models-review-9/independent-quality-review.json",
-    "passed": true,
-    "checks": 607,
-    "linked_final_family_checks": 235
-  },
-  "blender_revision_6": {
-    "scene": "visualization/blender-case-revision-6/x0xb0x-populated-with-case.blend",
-    "sha256": "c1e20cbd5971b7f8ddc372cb96c406328d7d49110bdb507f252b142cd18f2ac9",
-    "bytes": 42588728,
-    "native_reference_count": 491,
-    "detailed_replaced_references_this_revision": 9,
-    "cumulative_detailed_references": 47,
-    "saved_scene_checks": 1573,
-    "unchanged_geometry_checks": 985,
-    "full_native_bounds_checks": 52,
-    "harness_routing_study_only": true,
-    "all_model_transforms_preserved": true,
-    "heatsink_installed_seating_qualified": false,
-    "heatsink_seating_decision": "validation/models-review-9/heatsink-quality/independent-seating-decision.json"
-  },
-  "drc_comparison_to_revision_9": {
-    "mainboard": {
-      "board_warnings_and_parity_identical": true,
-      "unconnected_net_counts_identical": true,
-      "raw_unconnected_report_identical": true
-    },
-    "ioboard": {
-      "board_warnings_and_parity_identical": true,
-      "unconnected_net_counts_identical": true,
-      "raw_unconnected_report_identical": true
-    }
-  },
-  "saved_model_audit_revision_10": {
-    "report": "validation/models-review-10/saved-model-audit.json",
-    "passed": true,
-    "checks": 5179
-  },
-  "detailed_model_review_revision_10": {
-    "manifests": [
-      "heatsink-fit-research/bent-pair-manifest.json",
-      "rear-connector-quality/rear-connector-quality-corrected-manifest.json",
-      "led-assembly-quality/led-assembly-manifest.json"
-    ],
-    "updated_references": 45,
-    "historical_and_unsized_details_qualified": true
-  },
-  "independent_quality_review_revision_10": {
-    "report": "validation/models-review-10/independent-quality-review.json",
-    "passed": true,
-    "checks": 746
-  },
-  "LED_panel_fit_review_revision_10": {
-    "report": "validation/models-review-10/led-assembly-quality/led-assembly-final-review.json",
-    "native_LED_count": 40,
-    "nominal_tip_projection_mm": 1.3,
-    "actual_physical_fit_qualified": false,
-    "standalone_LED_proxy_count_removed": 40,
-    "independent_front_control_report": "validation/models-review-10/front-controls-review/final-front-control-assembly-audit.json"
-  },
-  "blender_revision_7": {
-    "scene": "visualization/blender-case-revision-7/x0xb0x-populated-with-case.blend",
-    "sha256": "7b26f1a99d5350754413d7af2879317fc7ba6f8e99102761d7143859e068f136",
-    "bytes": 42587292,
-    "native_reference_count": 491,
-    "detailed_replaced_references_this_revision": 45,
-    "cumulative_detailed_references": 91,
-    "saved_scene_checks": 1856,
-    "unchanged_geometry_checks": 1032,
-    "full_native_bounds_checks": 198,
-    "independent_front_control_checks": 694,
-    "single_PCB_mounted_LED_assemblies": 40,
-    "redundant_LED_lenses_removed": 40,
-    "switch_caps_attached_to_PCB": 23,
-    "nominal_LED_tip_projection_mm": 1.3,
-    "cap_assembled_geometry_and_pose_preserved": true,
-    "cap_exploded_ownership_corrected": true,
-    "all_model_transforms_preserved": true,
-    "harness_routing_study_only": true,
-    "physical_fit_qualified": false,
-    "native_gui_inspection_status": "unavailable_desktop_locked"
-  },
-  "saved_model_audit_revision_11": {
-    "report": "validation/models-review-11/saved-model-audit.json",
-    "passed": true,
-    "checks": 5200
-  },
-  "independent_quality_review_revision_11": {
-    "report": "validation/models-review-11/independent-quality-review.json",
-    "passed": true,
-    "checks": 4041,
-    "independence_note": "Reviewer authored the resonator candidates and independently checked Sanyo geometry, source interpretation and combined native integration; see report scope."
-  },
-  "detailed_model_review_revision_11": {
-    "manifests": [
-      "resonator-quality/resonator-quality-manifest.json",
-      "transistor-quality/transistor-quality-manifest.json"
-    ],
-    "updated_references": 26,
-    "transistor_dimensions_are_typical": true,
-    "historical_vendor_and_unsized_profiles_qualified": true,
-    "all_model_transforms_preserved": true
-  },
-  "drc_comparison_to_revision_10": {
-    "passed": true,
-    "boards": {
-      "mainboard": {
-        "violations": {
-          "same_types_severities_descriptions": true,
-          "total": 448,
-          "severity_counts": {
-            "warning": 448
-          }
-        },
-        "unconnected_items": {
-          "same_types_severities_descriptions": true,
-          "total": 2,
-          "severity_counts": {
-            "error": 2
-          }
-        },
-        "schematic_parity": {
-          "same_types_severities_descriptions": true,
-          "total": 120,
-          "severity_counts": {
-            "warning": 120
-          }
-        },
-        "ERC_violations": 0
-      },
-      "ioboard": {
-        "violations": {
-          "same_types_severities_descriptions": true,
-          "total": 348,
-          "severity_counts": {
-            "warning": 348
-          }
-        },
-        "unconnected_items": {
-          "same_types_severities_descriptions": true,
-          "total": 1,
-          "severity_counts": {
-            "error": 1
-          }
-        },
-        "schematic_parity": {
-          "same_types_severities_descriptions": true,
-          "total": 45,
-          "severity_counts": {
-            "warning": 45
-          }
-        },
-        "ERC_violations": 0
-      }
-    }
-  },
-  "blender_revision_8": {
-    "scene": "visualization/blender-case-revision-8/x0xb0x-populated-with-case.blend",
-    "sha256": "69aee3594bd9d836f5216a61f8a9bf1cd7e41c4287eb4cb1f5e1a0f6fa23bf27",
-    "bytes": 42611347,
-    "native_reference_count": 491,
-    "detailed_replaced_references_this_revision": 26,
-    "saved_scene_checks": 12819,
-    "preserved_reference_geometry_count": 465,
-    "PCB_mounted_LED_assemblies_preserved": 40,
-    "PCB_attached_button_caps_preserved": 23,
-    "source_basis": "Preserved revision7 assembly plus selected revision11 native component subtrees",
-    "physical_fit_qualified": false,
-    "all_five_rendered_views_reviewed": true,
-    "portable_scene_checks": 106,
-    "unpacked_external_dependencies": 0
-  }
+  "baseline_summary": "validation/working-validation-summary-revision-11.json",
+  "baseline_summary_sha256": "7abe5b66a0cb5838cc382aa5d561b373e534accdcff03d0bedd96f8e62572806",
+  "scope": "Four PCB STEP paths and one corresponding footprint cache path only. Original Eagle files, schematics, copper, pads, drills, nets, footprint poses and rules are preserved. Two original outer contact positions and their slot directions are corrected from the primary drawing.",
+  "limitations": [
+    "Drawing-derived model retains unsized illustrative details and omits solder terminals/locators.",
+    "Existing three PCB connection gaps and recorded DRC/parity warnings remain.",
+    "Nominal model checks and sampled rear passages do not establish physical assembly or fabrication readiness."
+  ],
+  "physical_fit_qualified": false
 }

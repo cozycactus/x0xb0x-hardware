@@ -1,0 +1,215 @@
+{
+  "passed": true,
+  "check_count": 44,
+  "failures": [],
+  "checks": [
+    {
+      "check": "Both saved files match the frozen build record",
+      "passed": true
+    },
+    {
+      "check": "All1661 object identities retained",
+      "passed": true
+    },
+    {
+      "check": "Exactly four mesh data and four source metadata roots change",
+      "passed": true,
+      "changed_objects": [
+        "IOBOARD/DIN1",
+        "IOBOARD/DIN1/mesh",
+        "IOBOARD/DIN2",
+        "IOBOARD/DIN2/mesh",
+        "IOBOARD/DIN3",
+        "IOBOARD/DIN3/mesh",
+        "IOBOARD/DIN4",
+        "IOBOARD/DIN4/mesh"
+      ]
+    },
+    {
+      "check": "Only declared source metadata changed: IOBOARD/DIN1",
+      "passed": true
+    },
+    {
+      "check": "Only native mesh data changed: IOBOARD/DIN1/mesh",
+      "passed": true
+    },
+    {
+      "check": "Saved mesh matches the native KiCad export record: IOBOARD/DIN1/mesh",
+      "passed": true
+    },
+    {
+      "check": "Only declared source metadata changed: IOBOARD/DIN2",
+      "passed": true
+    },
+    {
+      "check": "Only native mesh data changed: IOBOARD/DIN2/mesh",
+      "passed": true
+    },
+    {
+      "check": "Saved mesh matches the native KiCad export record: IOBOARD/DIN2/mesh",
+      "passed": true
+    },
+    {
+      "check": "Only declared source metadata changed: IOBOARD/DIN3",
+      "passed": true
+    },
+    {
+      "check": "Only native mesh data changed: IOBOARD/DIN3/mesh",
+      "passed": true
+    },
+    {
+      "check": "Saved mesh matches the native KiCad export record: IOBOARD/DIN3/mesh",
+      "passed": true
+    },
+    {
+      "check": "Only declared source metadata changed: IOBOARD/DIN4",
+      "passed": true
+    },
+    {
+      "check": "Only native mesh data changed: IOBOARD/DIN4/mesh",
+      "passed": true
+    },
+    {
+      "check": "Saved mesh matches the native KiCad export record: IOBOARD/DIN4/mesh",
+      "passed": true
+    },
+    {
+      "check": "All other object data, poses, hierarchy, links and visibility retained",
+      "passed": true
+    },
+    {
+      "check": "All491 fitted references retained with native409/82 split",
+      "passed": true
+    },
+    {
+      "check": "All40 native LEDs and23 button caps retained exactly",
+      "passed": true
+    },
+    {
+      "check": "All evaluated object poses and visibility retained frame1",
+      "passed": true
+    },
+    {
+      "check": "Every actual displayed instance matrix retained frame1",
+      "passed": true
+    },
+    {
+      "check": "All evaluated legend glyph geometry retained frame1",
+      "passed": true
+    },
+    {
+      "check": "All evaluated object poses and visibility retained frame80",
+      "passed": true
+    },
+    {
+      "check": "Every actual displayed instance matrix retained frame80",
+      "passed": true
+    },
+    {
+      "check": "All evaluated legend glyph geometry retained frame80",
+      "passed": true
+    },
+    {
+      "check": "All evaluated object poses and visibility retained frame120",
+      "passed": true
+    },
+    {
+      "check": "Every actual displayed instance matrix retained frame120",
+      "passed": true
+    },
+    {
+      "check": "All evaluated legend glyph geometry retained frame120",
+      "passed": true
+    },
+    {
+      "check": "All evaluated object poses and visibility retained frame160",
+      "passed": true
+    },
+    {
+      "check": "Every actual displayed instance matrix retained frame160",
+      "passed": true
+    },
+    {
+      "check": "All evaluated legend glyph geometry retained frame160",
+      "passed": true
+    },
+    {
+      "check": "All materials retained exactly",
+      "passed": true
+    },
+    {
+      "check": "All actions retained exactly",
+      "passed": true
+    },
+    {
+      "check": "All collections retained exactly",
+      "passed": true
+    },
+    {
+      "check": "All fonts retained exactly",
+      "passed": true
+    },
+    {
+      "check": "All scene_camera retained exactly",
+      "passed": true
+    },
+    {
+      "check": "All markers retained exactly",
+      "passed": true
+    },
+    {
+      "check": "All render retained exactly",
+      "passed": true
+    },
+    {
+      "check": "Every historical embedded guide retained",
+      "passed": true
+    },
+    {
+      "check": "Exactly one declared current guide added",
+      "passed": true
+    },
+    {
+      "check": "Only declared scene revision metadata changed",
+      "passed": true
+    },
+    {
+      "check": "Primary-drawing contact regression catches exactly four old DIN patterns",
+      "passed": true,
+      "failed_sample_count": 40
+    },
+    {
+      "check": "All current eleven rear connector checks pass",
+      "passed": true
+    },
+    {
+      "check": "Four MIDI legends retain independent original circuit functions",
+      "passed": true
+    },
+    {
+      "check": "Read-only audit preserves both saved files",
+      "passed": true
+    }
+  ],
+  "stable_scene_sha256": "f4bbf1d0f73dbc641ed494c0fc12cf2f4e76689e7b762f45592d0ea4d5ede2d2",
+  "baseline_sha256": "517da1343de66a3e3b5c4848c182bcd263cccca419d3601e5805e0d3402228e1",
+  "native_reference_count": 491,
+  "changed_objects": [
+    "IOBOARD/DIN1",
+    "IOBOARD/DIN1/mesh",
+    "IOBOARD/DIN2",
+    "IOBOARD/DIN2/mesh",
+    "IOBOARD/DIN3",
+    "IOBOARD/DIN3/mesh",
+    "IOBOARD/DIN4",
+    "IOBOARD/DIN4/mesh"
+  ],
+  "frames": 4,
+  "snapshot_sha256": {
+    "before-scene.json.gz": "bffe0cf86f92f6612a2b8fe462eb8ed760ebcaea842200b055d7bc752dd79a31",
+    "after-scene.json.gz": "7bf717a29b1a41a0241247a7fbca56864852c4cf1cc95c524425b6119d736d8a"
+  },
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "method": "Fresh saved-file snapshots compare all stored data and evaluated poses; four native mesh datums are preserved. Primary-pattern BVH regression, current974 rear rays and original circuit-function checks are replayed."
+}

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "source_board": "kicad-working/ioboard/ioboard.kicad_pcb",
+  "source_sha256": "a7e46f4f02947a0ac724a3f00c7d23d2157b06fdeada69d80c62a8a7c3ccdb1f",
+  "references": [
+    "DIN1",
+    "DIN2",
+    "DIN3",
+    "DIN4"
+  ],
+  "command": [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "glb",
+    "--force",
+    "--no-board-body",
+    "--component-filter",
+    "DIN1,DIN2,DIN3,DIN4",
+    "--user-origin",
+    "0x0mm",
+    "-o",
+    "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-12/din-contact-quality/native-probes/final-din.glb",
+    "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/ioboard/ioboard.kicad_pcb"
+  ],
+  "exit_code": 0,
+  "output_sha256": "acbf7c6c8b9c42b7062f4196e4e9a3d2a1438ab9cb71402ef617d72db07baf77",
+  "output_bytes": 129744,
+  "output": "kicad-working/validation/models-review-12/din-contact-quality/native-probes/final-din.glb",
+  "stderr": "2026-10-15 01:42:55.727 kicad-cli[63914:8560743] Error retrieving source file attributes: Error Domain=NSCocoaErrorDomain Code=260 \"The file \u201cfinal-din.glb\u201d couldn\u2019t be opened because there is no such file.\" UserInfo={NSFilePath=/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-12/din-contact-quality/native-probes/final-din.glb, NSURL=file:///Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-12/din-contact-quality/native-probes/final-din.glb, NSUnderlyingError=0x7b26c0c390 {Error Domain=NSPOSIXErrorDomain Code=2 \"No such file or directory\"}}\n",
+  "source_board_read_only": true
+}
