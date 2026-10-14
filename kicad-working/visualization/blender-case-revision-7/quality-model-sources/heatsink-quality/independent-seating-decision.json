@@ -1,0 +1,223 @@
+{
+  "passed": true,
+  "decision": "Reject proposed installed KK1 model offset; retain zero/unity assignment and explicitly unresolved seating.",
+  "timestamp_utc": "2026-10-14T05:49:52.617902+00:00",
+  "scope": "Independent bounded mechanical source/pose evaluation. No PCB, original model, candidate geometry, footprint or saved Blender scene was edited.",
+  "rejected_offset_mm": [
+    0,
+    -8.78,
+    3.9
+  ],
+  "retained_assignment": {
+    "offset_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_deg": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "source_datum_correction": {
+    "through_hole_center_z_mm": 11.81,
+    "upper_lance_bottom_z_mm": 14.99,
+    "neither_is_published_holding_catch_datum": true,
+    "rejected_initial_offset_Z_mm": 0.72,
+    "reason": "+0.72 was based on an incorrect feature identification. Current frozen STEP and primary drawing both put throughholecentre at11.81, so15.71 regulatorhole would instead require+3.90."
+  },
+  "isolated_regulator_alignment": {
+    "label": "hole_and_back_plane_aligned",
+    "offset_mm": [
+      0,
+      -8.78,
+      3.9
+    ],
+    "bounds_in_KK1_frame_mm": [
+      -10.920000000000002,
+      -10.05,
+      3.8999999999999986,
+      10.920000000000002,
+      -0.019999999999999574,
+      22.95
+    ],
+    "intersection_volume_mm3": 1.7294223413446805,
+    "intersection_bounds_mm": [
+      -3.85,
+      -5.869999999999999,
+      3.9,
+      3.85,
+      -4.84,
+      13.700000000000001
+    ],
+    "intersection_in_reconstructed_spring_fingers_mm3": 1.7294223413446805,
+    "intersection_outside_finger_mask_mm3": 0.0,
+    "rear_contact_plane_y_mm": -0.6499999999999986,
+    "heatsink_hole_axis_z_mm": 15.71,
+    "regulator_hole_axis_z_mm": 15.71,
+    "hole_axis_residual_mm": 0.0,
+    "coplanar_back_contact_faces": [
+      {
+        "area_mm2": 85.99999999999999,
+        "bounds_mm": [
+          -5.0,
+          -0.65,
+          3.9,
+          5.0,
+          -0.6499999999999986,
+          12.5
+        ]
+      },
+      {
+        "area_mm2": 48.5990817203063,
+        "bounds_mm": [
+          -5.0,
+          -0.65,
+          12.5,
+          5.0,
+          -0.6499999999999986,
+          18.5
+        ]
+      }
+    ],
+    "total_coplanar_back_contact_area_mm2": 134.5990817203063
+  },
+  "nominal_gap_and_spring_limit": {
+    "checking_gap_mm": 4.19,
+    "checking_gap_plus_minus_mm": 0.13,
+    "nominal_IC20_plastic_depth_mm": 4.455,
+    "nominal_excess_mm": 0.265,
+    "finding": "The corrected isolated alignment leaves1.729422mm3 inside the reconstructed free finger volumes and zero outside them. This is geometric overlap only; alloy/tempering, spring force/deformation and actual regulator seat are unknown."
+  },
+  "decisive_neighbor_clashes": [
+    {
+      "reference": "C3",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step",
+      "source_sha256": "baedb7170ada384a9ddecc4f7c192ac3cdd29ed68d497d8384e2c4b352464243",
+      "source_assignment_sha_matches": true,
+      "native_FCu_position_xy_mm": [
+        6.477,
+        33.147
+      ],
+      "native_angle_deg": 180.0,
+      "neighbor_bounds_in_KK1_frame_mm": [
+        -8.786000000000001,
+        -19.454,
+        -2.5,
+        4.214000000000001,
+        -6.454,
+        20.8
+      ],
+      "exact_intersection_volume_mm3": 125.41738204136425,
+      "intersection_with_spring_finger_mask_mm3": 0.0,
+      "rigid_intersection_outside_finger_mask_mm3": 125.41738204136425,
+      "exact_intersection_bounds_mm": [
+        -8.101220030231017,
+        -10.05,
+        3.8999999999999986,
+        3.529220030231017,
+        -6.454,
+        20.8
+      ]
+    },
+    {
+      "reference": "C4",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/C_AVX_SR205_P2.54_Illustration.step",
+      "source_sha256": "2893fab1c5613ec442c8a4d4e07ea5ca238553affe5d3f5eb39d1a715f9120c2",
+      "source_assignment_sha_matches": true,
+      "native_FCu_position_xy_mm": [
+        1.778,
+        41.656
+      ],
+      "native_angle_deg": -90.0,
+      "neighbor_bounds_in_KK1_frame_mm": [
+        -8.5725,
+        -6.985,
+        -2.5,
+        -5.397499999999999,
+        -1.9049999999999998,
+        5.58
+      ],
+      "exact_intersection_volume_mm3": 1.0518875394515845,
+      "intersection_with_spring_finger_mask_mm3": 0.0,
+      "rigid_intersection_outside_finger_mask_mm3": 1.0518875394515845,
+      "exact_intersection_bounds_mm": [
+        -6.0,
+        -6.004207953128341,
+        3.8999999999999995,
+        -5.397499999999997,
+        -1.9049999999999998,
+        5.58
+      ]
+    },
+    {
+      "reference": "C5",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step",
+      "source_sha256": "baedb7170ada384a9ddecc4f7c192ac3cdd29ed68d497d8384e2c4b352464243",
+      "source_assignment_sha_matches": true,
+      "native_FCu_position_xy_mm": [
+        18.923,
+        36.068
+      ],
+      "native_angle_deg": 180.0,
+      "neighbor_bounds_in_KK1_frame_mm": [
+        3.6599999999999975,
+        -16.533,
+        -2.5,
+        16.66,
+        -3.5330000000000004,
+        20.8
+      ],
+      "exact_intersection_volume_mm3": 142.15313800988991,
+      "intersection_with_spring_finger_mask_mm3": 0.0,
+      "rigid_intersection_outside_finger_mask_mm3": 142.15313800988991,
+      "exact_intersection_bounds_mm": [
+        3.6599999999999975,
+        -10.05,
+        3.8999999999999986,
+        10.920000000000005,
+        -3.5343001300260077,
+        20.800000000000004
+      ]
+    }
+  ],
+  "saved_scene_screen": {
+    "scene_sha256": "85a7ab314de72262931b63e61a1dfe1dd4c855d579d525f79c4d7ca8abc9ff61",
+    "candidate_world_bounds_mm": [
+      86.99699491262436,
+      150.8389115333557,
+      16.468200832605362,
+      108.83700102567673,
+      160.86891293525696,
+      35.51819920539856
+    ],
+    "scanned_mesh_instances": 572,
+    "screened_meshes": 15,
+    "case_shell_top_panel_main_PCB_surface_pairs": 0,
+    "scene_hash_unchanged": true,
+    "candidate_mesh_hash_unchanged": true
+  },
+  "current_zero_pose_limit": {
+    "IC20_intersection_mm3": 48.64269307624872,
+    "rigid_outside_fingers_mm3": 48.64269307624872,
+    "finding": "Retained zero assignment is a qualified visualization datum, not a supported installed or clamped seat. Full-size detailed geometry remains useful as a source illustration; known interference must not be hidden or called fitted."
+  },
+  "recommendation": "Preserve complete sourcedimensions and all assignmenttransforms. Verify actual fitted heatsinkidentity, regulatororientation/bodyseat, capacitor package sizes and mounted assembly/photo/measurements before asserting installedfit. Do not trim/shrink bodies, move footprints or apply the rejected offset to conceal interference.",
+  "limitations": [
+    "All neighboring bodies are nominal source-qualified models, not physical measurements; the clashes conclusively reject this modeled installation, not prove the original hardware cannot be assembled.",
+    "IC20 bodybottomZ3.0 and generic vendor/body segmentation are earlier illustration assumptions; exact hole/contact alignment inherits those assumptions.",
+    "Case and other neighbor surfaces received a bounded savedscene mesh screen; no factory tolerance, complete containment or exact case-BRep clearance claim.",
+    "No exact mounted manufacturer assemblyphoto was recovered during the bounded local review."
+  ],
+  "evidence": {
+    "independent-nominal-seating-audit.json": "8309d33d69586b71dcd7b53daeac5fc4cc50a04dd4d288e7a81b4252c87ee631",
+    "independent-seating-neighbor-breps.json": "73653f51d03699b1c12b59694b0e16ede692cbd405d4604db5cd618d205bbb05",
+    "independent-seating-scene-screen.json": "9b395ccd61f4b23ec791d0d9e7a4ee1a69b51370979f76a033f7bbb44ad19e75"
+  }
+}

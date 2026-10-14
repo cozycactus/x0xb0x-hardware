@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "decision": "Remove unsupported plastic recess; preserve superseded frozen candidate outside active portable assets.",
+  "unchanged_family": "MJ3536N_DrawingDerived_DetailedBody",
+  "unchanged_MJ_sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+  "superseded_PJ_sha256": "fe87485b36022962413cb03c78af75e7dc1f3084ab6f2944d9b45e54fc34fef5",
+  "final_PJ_sha256": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+  "final_PJ_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+  "correction": "Removed rear plastic recess: manufacturer \u00d81.5 callout is a terminal eye, not a molded cover hole. Below-seat terminal geometry remains omitted.",
+  "exact_bounds_mm": [
+    -4.5,
+    -14.400000000000004,
+    0.0,
+    4.5,
+    0.0,
+    11.0
+  ],
+  "valid_positive_solids": true,
+  "closed_corrected_cover_STL": true,
+  "closed_combined_exterior_STL": true,
+  "colored_STEP_roundtrip_geometry_identical": true,
+  "cover_filled_volume_mm3": 1.2370021073509807,
+  "native_audit_pending": false,
+  "unchanged_frozen_original_files": true,
+  "native_audit": {
+    "file": "native-quality-audit.json",
+    "checks": 124,
+    "passed": true
+  },
+  "final_saved_geometry_audit": {
+    "file": "final-geometry-audit.json",
+    "checks": 43,
+    "passed": true
+  }
+}

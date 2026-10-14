@@ -1,0 +1,295 @@
+{
+  "date": "2026-10-14",
+  "parts": [
+    {
+      "id": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly",
+      "board": "ioboard",
+      "references": [
+        "IC20"
+      ],
+      "footprint": "78XXS",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.stl",
+      "units": "mm",
+      "source_sha256": "57572d2c7c441f7c83c0bf4c281866def4e4d5b5639d05f805596d090a09f555",
+      "stl_sha256": "33fe955a588f594c6f47cfea25ec83593a25967f684f2cc607a87c78bc61afda",
+      "canonical_frame": "Original footprint X, minus footprint Y, outward Z. The installation illustration is baked into geometry; native model transform stays zero/unity.",
+      "classification": "Original assembly photo-qualified bent-back nominal MC78M05 TO220 body-only illustration",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/powersupply.html",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.onsemi.com/download/data-sheet/pdf/mc78m00-d.pdf",
+        "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf"
+      ],
+      "limitations": [
+        "Original author assembly instruction explicitly says to bend IC20 back before fitting the heatsink; the original place/soldered/measure photos show the body and tab approximately parallel to the PCB and extending beyond its edge.",
+        "The exact 90 degree angle, bend datum and 2.0 mm vertical placement are illustration assumptions, not measurements from the photograph or a manufacturer formed-lead specification.",
+        "All IC20 leads remain omitted. The prior nominal published lead width/hole fit was unresolved; no terminals were thinned, displaced or invented to conceal it.",
+        "The paired seat uses source-consistent through-hole and contact-plane alignment, inherited from the nominal generic TO220 body. Actual original regulator vendor/suffix, lead forming, cut lengths and installed seat require physical confirmation.",
+        "The complete revision 9 heatsink is only rigidly rotated and translated. No fold, spring finger, wall, source envelope or neighboring component is trimmed or shrunk.",
+        "Free-state reconstructed spring fingers retain a nominal 1.729422 mm3 regulator intersection. This is a documented geometric overlap, not a simulation or certification of elastic clamping, contact force or thermal performance.",
+        "Case placement, board seat and neighboring package models remain qualified visual geometry. A clear surface screen does not establish tolerance or physical fit."
+      ],
+      "segments": [
+        {
+          "name": "PlasticBody",
+          "stl": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly--PlasticBody.stl",
+          "color_rgb": [
+            0.06,
+            0.06,
+            0.065
+          ]
+        },
+        {
+          "name": "MetalTab",
+          "stl": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly--MetalTab.stl",
+          "color_rgb": [
+            0.7,
+            0.72,
+            0.74
+          ]
+        }
+      ],
+      "geometry": {
+        "valid": true,
+        "solids": 2,
+        "faces": 13,
+        "volume_mm3": 486.0634828602392,
+        "exact_bounds_mm": [
+          -5.0,
+          3.0,
+          1.3799999999999997,
+          5.0,
+          18.5,
+          5.835000000000001
+        ],
+        "STL_closed": true,
+        "STL_facets": 528,
+        "AP214_styled_faces": 13
+      },
+      "rigid_source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.step",
+      "rigid_source_sha256": "f65e974128af6b8e5f9f74b815aada33c296f1ae113dac9fc6f7a341599e65a8",
+      "source_volume_preserved": true
+    },
+    {
+      "id": "Aavid_574502B00000G_BentBack_PhotoQualified",
+      "board": "ioboard",
+      "references": [
+        "KK1"
+      ],
+      "footprint": "D03S",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/heatsink-fit-research/Aavid_574502B00000G_BentBack_PhotoQualified.step",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/heatsink-fit-research/Aavid_574502B00000G_BentBack_PhotoQualified.stl",
+      "units": "mm",
+      "source_sha256": "c52b9aed6d3145861dde7c39389c46e2efe0853e84373eb84f299e2691d7fea9",
+      "stl_sha256": "353d7d82ee2063ccbebe3e347bb549bfff7335d4d018154ea2d074a87128c7ca",
+      "canonical_frame": "Original footprint X, minus footprint Y, outward Z. The installation illustration is baked into geometry; native model transform stays zero/unity.",
+      "classification": "Original assembly photo-qualified bent-back full-size drawing-derived folded spring illustration",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/powersupply.html",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.onsemi.com/download/data-sheet/pdf/mc78m00-d.pdf",
+        "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf"
+      ],
+      "limitations": [
+        "Original author assembly instruction explicitly says to bend IC20 back before fitting the heatsink; the original place/soldered/measure photos show the body and tab approximately parallel to the PCB and extending beyond its edge.",
+        "The exact 90 degree angle, bend datum and 2.0 mm vertical placement are illustration assumptions, not measurements from the photograph or a manufacturer formed-lead specification.",
+        "All IC20 leads remain omitted. The prior nominal published lead width/hole fit was unresolved; no terminals were thinned, displaced or invented to conceal it.",
+        "The paired seat uses source-consistent through-hole and contact-plane alignment, inherited from the nominal generic TO220 body. Actual original regulator vendor/suffix, lead forming, cut lengths and installed seat require physical confirmation.",
+        "The complete revision 9 heatsink is only rigidly rotated and translated. No fold, spring finger, wall, source envelope or neighboring component is trimmed or shrunk.",
+        "Free-state reconstructed spring fingers retain a nominal 1.729422 mm3 regulator intersection. This is a documented geometric overlap, not a simulation or certification of elastic clamping, contact force or thermal performance.",
+        "Case placement, board seat and neighboring package models remain qualified visual geometry. A clear surface screen does not establish tolerance or physical fit."
+      ],
+      "segments": [
+        {
+          "name": "BlackAnodizedSpring",
+          "stl": "Aavid_574502B00000G_BentBack_PhotoQualified--BlackAnodizedSpring.stl",
+          "color_rgb": [
+            0.055,
+            0.06,
+            0.065
+          ]
+        }
+      ],
+      "geometry": {
+        "valid": true,
+        "solids": 1,
+        "faces": 86,
+        "volume_mm3": 797.0774096350162,
+        "exact_bounds_mm": [
+          -10.920000000000002,
+          2.6299999999999955,
+          0.7499999999999996,
+          10.920000000000002,
+          21.68,
+          10.780000000000001
+        ],
+        "STL_closed": true,
+        "STL_facets": 3504,
+        "AP214_styled_faces": 86
+      },
+      "rigid_source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/heatsink-quality/Aavid_574502B00000G_DrawingDerived_FoldedSpring.step",
+      "rigid_source_sha256": "36ea5130eb331e8c740748c697559dfd79671284869be83e8251dd4c944e4336",
+      "source_volume_preserved": true
+    }
+  ],
+  "assignments": [
+    {
+      "board": "ioboard",
+      "references": [
+        "IC20"
+      ],
+      "footprint": "78XXS",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step",
+      "source_sha256": "57572d2c7c441f7c83c0bf4c281866def4e4d5b5639d05f805596d090a09f555",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "source_kind": "Primary original-author assembly-photo qualified rigid installation of source-dimensional reconstruction",
+      "classification": "Original assembly photo-qualified bent-back nominal MC78M05 TO220 body-only illustration",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/powersupply.html",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.onsemi.com/download/data-sheet/pdf/mc78m00-d.pdf",
+        "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf"
+      ],
+      "limitations": [
+        "Original author assembly instruction explicitly says to bend IC20 back before fitting the heatsink; the original place/soldered/measure photos show the body and tab approximately parallel to the PCB and extending beyond its edge.",
+        "The exact 90 degree angle, bend datum and 2.0 mm vertical placement are illustration assumptions, not measurements from the photograph or a manufacturer formed-lead specification.",
+        "All IC20 leads remain omitted. The prior nominal published lead width/hole fit was unresolved; no terminals were thinned, displaced or invented to conceal it.",
+        "The paired seat uses source-consistent through-hole and contact-plane alignment, inherited from the nominal generic TO220 body. Actual original regulator vendor/suffix, lead forming, cut lengths and installed seat require physical confirmation.",
+        "The complete revision 9 heatsink is only rigidly rotated and translated. No fold, spring finger, wall, source envelope or neighboring component is trimmed or shrunk.",
+        "Free-state reconstructed spring fingers retain a nominal 1.729422 mm3 regulator intersection. This is a documented geometric overlap, not a simulation or certification of elastic clamping, contact force or thermal performance.",
+        "Case placement, board seat and neighboring package models remain qualified visual geometry. A clear surface screen does not establish tolerance or physical fit."
+      ],
+      "replaces_source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.step",
+      "replaces_source_sha256": "f65e974128af6b8e5f9f74b815aada33c296f1ae113dac9fc6f7a341599e65a8"
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "KK1"
+      ],
+      "footprint": "D03S",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/heatsink-fit-research/Aavid_574502B00000G_BentBack_PhotoQualified.step",
+      "source_sha256": "c52b9aed6d3145861dde7c39389c46e2efe0853e84373eb84f299e2691d7fea9",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "source_kind": "Primary original-author assembly-photo qualified rigid installation of source-dimensional reconstruction",
+      "classification": "Original assembly photo-qualified bent-back full-size drawing-derived folded spring illustration",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/powersupply.html",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.onsemi.com/download/data-sheet/pdf/mc78m00-d.pdf",
+        "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf"
+      ],
+      "limitations": [
+        "Original author assembly instruction explicitly says to bend IC20 back before fitting the heatsink; the original place/soldered/measure photos show the body and tab approximately parallel to the PCB and extending beyond its edge.",
+        "The exact 90 degree angle, bend datum and 2.0 mm vertical placement are illustration assumptions, not measurements from the photograph or a manufacturer formed-lead specification.",
+        "All IC20 leads remain omitted. The prior nominal published lead width/hole fit was unresolved; no terminals were thinned, displaced or invented to conceal it.",
+        "The paired seat uses source-consistent through-hole and contact-plane alignment, inherited from the nominal generic TO220 body. Actual original regulator vendor/suffix, lead forming, cut lengths and installed seat require physical confirmation.",
+        "The complete revision 9 heatsink is only rigidly rotated and translated. No fold, spring finger, wall, source envelope or neighboring component is trimmed or shrunk.",
+        "Free-state reconstructed spring fingers retain a nominal 1.729422 mm3 regulator intersection. This is a documented geometric overlap, not a simulation or certification of elastic clamping, contact force or thermal performance.",
+        "Case placement, board seat and neighboring package models remain qualified visual geometry. A clear surface screen does not establish tolerance or physical fit."
+      ],
+      "replaces_source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/heatsink-quality/Aavid_574502B00000G_DrawingDerived_FoldedSpring.step",
+      "replaces_source_sha256": "36ea5130eb331e8c740748c697559dfd79671284869be83e8251dd4c944e4336"
+    }
+  ],
+  "installation_assumptions": {
+    "IC20_rotation_about_footprint_X_deg": -90,
+    "post_rotation_vertical_translation_mm": 2.0,
+    "KK1_pre_rotation_translation_in_IC20_frame_mm": [
+      0,
+      -7.51,
+      3.9
+    ],
+    "KK1_post_rotation_origin_translation_from_IC20_to_KK1_frame_mm": [
+      0,
+      -1.27,
+      0
+    ]
+  },
+  "published_dimensions_preserved": {
+    "IC20_body_width_mm": 10,
+    "IC20_plastic_depth_mm": 4.455,
+    "IC20_body_and_tab_total_height_mm": 15.5,
+    "IC20_tab_thickness_mm": 1.27,
+    "IC20_hole_diameter_mm": 3.66,
+    "KK1_full_shape_source_dimensions_mm": [
+      21.84,
+      10.03,
+      19.05
+    ],
+    "KK1_thickness_mm": 0.63,
+    "KK1_hole_diameter_mm": 3.81,
+    "KK1_hole_height_mm": 11.81
+  },
+  "source_document_hashes": {
+    "sources/boyd-574502B00000G-exact-drawing.png": "2a4023ed6bd026dac86033d98f85bd15515388bf8e0cad1745cf973d6104f6ec",
+    "sources/onsemi-mc78m00.pdf": "49937c840e71bcd14cd36a0d198e336ebe5ac1809451b0d23990b92588dea037",
+    "sources/retrieved-source-manifest.json": "a4e758104c45ac9f91372d588c1b124f825f8407adff0cbbda4c604aeb216660",
+    "sources/7805.jpg": "0afa7a6f2f580f048bc8e9b8f5c905db9d686fecb30a1329423a55ab947cb8c4",
+    "sources/x0xb0x-mirror-tree.json": "d5d7f08212f5985ca61b9fb854c7efbc1f5a4481aeef77de408fbab45c59e952",
+    "sources/boyd-5740-manufacturer.pdf": "dd353265a5a8fdb57d77b1abe8a6c40b036684f2c6df460ee070fad60bae2f5f",
+    "sources/7805measure.jpg": "15682cca2f83061da33c44a69e1029d0038be1f3e05ee4cbeaaa614b0b7917e6",
+    "sources/7805place.jpg": "15076da97c81304aa3feddba43345295e209ccd33dca7d07d721d0c06fee9717",
+    "sources/powersupply.html": "66a0c6b3bd02027d0a93e180263e0f9656df0956f568d3cee9796ca6543616b7",
+    "sources/to220-heatsink.jpg": "f71f0f7f5717f94e1173ef61d500f7f0ae9ac0f3fbfa31d2ba7c93636e173671",
+    "sources/7805soldered.jpg": "99c96e7e4749292c44e85c0e021772ed1ccf84cf6754ca63e9f7640035129a40",
+    "sources/ioboard_done.jpg": "cebc229db578cae5703682754e7bd16ab94391f0d5add38fab34f8f5270f35e3"
+  },
+  "generator": "build_bent_pair.py",
+  "license": "Original rigid installation reconstruction CC0-1.0; source photos and manufacturer drawings retain publisher rights.",
+  "rigid_canonical_mappings": {
+    "IC20_old_to_new": [
+      "x",
+      "z",
+      "2-y"
+    ],
+    "KK1_old_to_new": [
+      "x",
+      "z+2.63",
+      "9.51-y"
+    ]
+  },
+  "geometry_audit": "bent-pair-geometry-audit.json",
+  "native_export_audit": "native-probes/native-export-audit.json",
+  "native_scene_screen": "bent-pair-native-scene-screen.json",
+  "documentation": "README.md",
+  "visually_reviewed_source_photos": [
+    "sources/7805place.jpg",
+    "sources/7805soldered.jpg",
+    "sources/7805measure.jpg"
+  ],
+  "visually_reviewed_native_preview": "bent-pair-native-review.png",
+  "visual_review": {
+    "viewed": true,
+    "result": "Complete paired full-size folded heatsink and nominal bent regulator visible on the left; same unhidden body/tab shown on the right. No clipping, missing source faces or unintended disconnected heatsink solids observed. Omitted leads explicitly documented."
+  }
+}

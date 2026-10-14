@@ -1,0 +1,1090 @@
+{
+  "generator": "generate_integrated_illustrations.py",
+  "generator_sha256": "d03a61923a3c855dde03bd274bf52b826d415e338f21cb57d81205a3a3185e56",
+  "color_helper": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/step_colors.py",
+  "color_helper_sha256": "b946f7511c7e6a4f69fd8c52086cfbc14bdc41cfc11cc1181b8cfd3f25488c44",
+  "freecad_version": [
+    "1",
+    "0",
+    "1",
+    "39285 (Git)",
+    "https://github.com/FreeCAD/FreeCAD",
+    "2025/05/14 02:58:13",
+    "(HEAD detached at 1.0.1)",
+    "878f0b8c9c72c6f215833a99f2762bc3a3cf2abd"
+  ],
+  "models": [
+    {
+      "specification": {
+        "name": "SIP9_LA4140_3017C_MaxBody_P2.54_Illustration",
+        "board": "mainboard",
+        "footprint": "SIP9",
+        "refs": [
+          "IC14"
+        ],
+        "kind": "LA4140",
+        "body_mm": [
+          22.3,
+          3.0,
+          5.7
+        ],
+        "body_dimension_basis": [
+          "printed22.3",
+          "printed3.0",
+          "maximum5.7"
+        ],
+        "standoff": 0.7,
+        "pitch": 2.54,
+        "lead_section_mm": [
+          0.5,
+          0.25
+        ],
+        "tail": -2.5,
+        "body_y_bounds": [
+          -1.65,
+          1.35
+        ],
+        "front_pin_order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "source": "../mainboard-review-2/reference-documents/LA4140-SANYO-alternative.pdf",
+        "source_url": "https://static.chipdip.ru/lib/301/DOC000301904.pdf",
+        "document": "Sanyo ENN528D page1,3017C-SIP9; retained alternative has legible dimension font",
+        "assumptions": [
+          "Body uses printed22.3\u00d73.0 and maximum5.7mm envelope.",
+          "0.7mm mounting standoff and2.5mm cut tail are illustration choices.",
+          "Lead section0.50\u00d70.25mm has no printed tolerance/maxima.",
+          "Front face points toward negative modelY; pin1 is negativeX.",
+          "Drafts, exact shoulders and printed markings are simplified."
+        ]
+      },
+      "source_pdf": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/mainboard-review-2/reference-documents/LA4140-SANYO-alternative.pdf",
+      "source_pdf_sha256": "22fd5e0f365d47c9651daca06b0a9e05d126b8d471c1b836430685b5ff2e731a",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/SIP9_LA4140_3017C_MaxBody_P2.54_Illustration.step",
+      "sha256": "75aa32f403890c20388e09bd30915dd194f7ede3de01e86291f05a7f5e390045",
+      "original_parametric_geometry": true,
+      "license": "CC0-1.0",
+      "shape_valid": true,
+      "fully_joined": true,
+      "lead_sections_z_minus_1_mm": [
+        {
+          "center_mm": [
+            -10.16,
+            0.0
+          ],
+          "max_radius_mm": 0.2795084971874753
+        },
+        {
+          "center_mm": [
+            -7.62,
+            0.0
+          ],
+          "max_radius_mm": 0.2795084971874745
+        },
+        {
+          "center_mm": [
+            -5.079999999999998,
+            0.0
+          ],
+          "max_radius_mm": 0.2795084971874753
+        },
+        {
+          "center_mm": [
+            -2.539999999999999,
+            0.0
+          ],
+          "max_radius_mm": 0.2795084971874745
+        },
+        {
+          "center_mm": [
+            0.0,
+            0.0
+          ],
+          "max_radius_mm": 0.2795084971874737
+        },
+        {
+          "center_mm": [
+            2.539999999999999,
+            0.0
+          ],
+          "max_radius_mm": 0.2795084971874745
+        },
+        {
+          "center_mm": [
+            5.079999999999998,
+            0.0
+          ],
+          "max_radius_mm": 0.2795084971874753
+        },
+        {
+          "center_mm": [
+            7.62,
+            0.0
+          ],
+          "max_radius_mm": 0.2795084971874745
+        },
+        {
+          "center_mm": [
+            10.16,
+            0.0
+          ],
+          "max_radius_mm": 0.2795084971874753
+        }
+      ],
+      "actual_board_pad_checks": [
+        {
+          "reference": "IC14",
+          "pin": "1",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473
+        },
+        {
+          "reference": "IC14",
+          "pin": "2",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255
+        },
+        {
+          "reference": "IC14",
+          "pin": "3",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 1.7763568394002505e-15,
+          "lead_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473
+        },
+        {
+          "reference": "IC14",
+          "pin": "4",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 8.881784197001252e-16,
+          "lead_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255
+        },
+        {
+          "reference": "IC14",
+          "pin": "5",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629
+        },
+        {
+          "reference": "IC14",
+          "pin": "6",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 8.881784197001252e-16,
+          "lead_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255
+        },
+        {
+          "reference": "IC14",
+          "pin": "7",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 1.7763568394002505e-15,
+          "lead_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473
+        },
+        {
+          "reference": "IC14",
+          "pin": "8",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255
+        },
+        {
+          "reference": "IC14",
+          "pin": "9",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473
+        }
+      ],
+      "presentation": {
+        "styled_solids": [
+          "Body",
+          "Lead1",
+          "Lead2",
+          "Lead3",
+          "Lead4",
+          "Lead5",
+          "Lead6",
+          "Lead7",
+          "Lead8",
+          "Lead9"
+        ],
+        "color_by_solid": {
+          "Body": [
+            0.07,
+            0.075,
+            0.08
+          ],
+          "Lead1": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead2": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead3": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead4": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead5": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead6": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead7": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead8": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead9": [
+            0.72,
+            0.73,
+            0.75
+          ]
+        }
+      },
+      "formed_lead_path_lengths_mm": []
+    },
+    {
+      "specification": {
+        "name": "SIP9_BA6110_NominalBody_P2.54_Illustration",
+        "board": "mainboard",
+        "footprint": "SIP9",
+        "refs": [
+          "IC15B0"
+        ],
+        "kind": "BA6110",
+        "body_mm": [
+          21.8,
+          2.8,
+          5.8
+        ],
+        "body_dimension_basis": [
+          "nominal\u00b10.2",
+          "nominal\u00b10.2",
+          "nominal\u00b10.2"
+        ],
+        "standoff": 1.2,
+        "pitch": 2.54,
+        "lead_section_mm": [
+          0.6,
+          0.4
+        ],
+        "tail": -3.5,
+        "body_y_bounds": [
+          -1.4,
+          1.4
+        ],
+        "front_pin_order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "source": "../mainboard-review-2/reference-documents/BA6110-ROHM-DSA003839.pdf",
+        "source_url": "https://datasheet.datasheetarchive.com/originals/library/Datasheet-0103/DSA003839.pdf",
+        "document": "ROHM BA6110/BA6110FS page7,SIP9",
+        "assumptions": [
+          "Body uses nominal21.8\u00d72.8\u00d75.8mm; each drawing tolerance\u00b10.2mm.",
+          "1.2mm shoulder-to-board mounting interpretation and3.5mm tail give nominal10.5mm total from tip to top.",
+          "Lead lower width0.6mm has no tolerance;0.4mm thickness is printed0.3\u00b10.1 maximum.",
+          "Front face points toward negative modelY; pin1 is negativeX.",
+          "Body drafts, shoulder flare, top groove and printed markings are simplified."
+        ]
+      },
+      "source_pdf": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/mainboard-review-2/reference-documents/BA6110-ROHM-DSA003839.pdf",
+      "source_pdf_sha256": "1399bf7ae30ef83ec9d5944d6fca2aee3274a6ad163ce66478a4a2197236fd4f",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/SIP9_BA6110_NominalBody_P2.54_Illustration.step",
+      "sha256": "622e8623379f94e50032a7580650d2bc80fccb2a417783c2abe0e08656dd3e1e",
+      "original_parametric_geometry": true,
+      "license": "CC0-1.0",
+      "shape_valid": true,
+      "fully_joined": true,
+      "lead_sections_z_minus_1_mm": [
+        {
+          "center_mm": [
+            -10.16,
+            0.0
+          ],
+          "max_radius_mm": 0.3605551275464003
+        },
+        {
+          "center_mm": [
+            -7.620000000000001,
+            0.0
+          ],
+          "max_radius_mm": 0.3605551275464003
+        },
+        {
+          "center_mm": [
+            -5.079999999999999,
+            0.0
+          ],
+          "max_radius_mm": 0.36055512754640107
+        },
+        {
+          "center_mm": [
+            -2.5400000000000014,
+            0.0
+          ],
+          "max_radius_mm": 0.3605551275463999
+        },
+        {
+          "center_mm": [
+            0.0,
+            0.0
+          ],
+          "max_radius_mm": 0.3605551275464003
+        },
+        {
+          "center_mm": [
+            2.54,
+            0.0
+          ],
+          "max_radius_mm": 0.36055512754639985
+        },
+        {
+          "center_mm": [
+            5.080000000000002,
+            0.0
+          ],
+          "max_radius_mm": 0.3605551275464003
+        },
+        {
+          "center_mm": [
+            7.620000000000001,
+            0.0
+          ],
+          "max_radius_mm": 0.3605551275463995
+        },
+        {
+          "center_mm": [
+            10.16,
+            0.0
+          ],
+          "max_radius_mm": 0.3605551275464003
+        }
+      ],
+      "actual_board_pad_checks": [
+        {
+          "reference": "IC15B0",
+          "pin": "1",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "2",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 8.881784197001252e-16,
+          "lead_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "3",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 8.881784197001252e-16,
+          "lead_radius_mm": 0.36055512754640107,
+          "radial_margin_mm": 0.08944487245359894
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "4",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 1.3322676295501878e-15,
+          "lead_radius_mm": 0.3605551275463999,
+          "radial_margin_mm": 0.08944487245360011
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "5",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "6",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.36055512754639985,
+          "radial_margin_mm": 0.08944487245360017
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "7",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 1.7763568394002505e-15,
+          "lead_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "8",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 8.881784197001252e-16,
+          "lead_radius_mm": 0.3605551275463995,
+          "radial_margin_mm": 0.0894448724536005
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "9",
+          "board_drill_mm": 0.9,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972
+        }
+      ],
+      "presentation": {
+        "styled_solids": [
+          "Body",
+          "Lead1",
+          "Lead2",
+          "Lead3",
+          "Lead4",
+          "Lead5",
+          "Lead6",
+          "Lead7",
+          "Lead8",
+          "Lead9"
+        ],
+        "color_by_solid": {
+          "Body": [
+            0.07,
+            0.075,
+            0.08
+          ],
+          "Lead1": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead2": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead3": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead4": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead5": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead6": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead7": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead8": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead9": [
+            0.72,
+            0.73,
+            0.75
+          ]
+        }
+      },
+      "formed_lead_path_lengths_mm": []
+    },
+    {
+      "specification": {
+        "name": "SSIP5_2SC1583_MaxBody_FannedP2.286_Illustration",
+        "board": "mainboard",
+        "footprint": "SSIP5",
+        "refs": [
+          "Q12",
+          "Q21",
+          "Q26"
+        ],
+        "kind": "2SC1583",
+        "body_mm": [
+          8.1,
+          3.6,
+          5.6
+        ],
+        "body_dimension_basis": [
+          "maximum",
+          "maximum",
+          "maximum"
+        ],
+        "standoff": 2.8,
+        "pitch": 2.286,
+        "native_pitch": 1.25,
+        "lead_diameter": 0.45,
+        "tail": -2.5,
+        "body_y_bounds": [
+          -2.2,
+          1.4
+        ],
+        "front_pin_order": [
+          "1/B1",
+          "2/C1",
+          "3/E",
+          "4/C2",
+          "5/B2"
+        ],
+        "source": "reference/2SC1583-Mitsubishi.pdf",
+        "source_url": "https://www.radioradar.net/en/files.html?fid=502807",
+        "document": "Original Japanese Mitsubishi Semiconductor2SC1583 datasheet,page1",
+        "assumptions": [
+          "Body uses maximum8.1\u00d73.6\u00d75.6mm envelope,not exact selected part.",
+          "Native lead pitch is1.25mm. Five0.45mm round leads are explicitly fanned to existing2.286mm PCB pitch above the board.",
+          "2.8mm body standoff,Bezier lead bends and2.5mm cut tails are mounting illustrations.",
+          "Drawing supplies10.5mm minimum uncut lead length; illustration shows trimmed formed leads.",
+          "Front flat face is negativeY; sloped rear top is positiveY. Lead row is1.4mm from rear edge.",
+          "No dimensions or model are borrowed for2SC2291."
+        ]
+      },
+      "source_pdf": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/reference/2SC1583-Mitsubishi.pdf",
+      "source_pdf_sha256": "78dc3990fa5b2210453a0972f5a351e9fcef93f4bff40b6d42852999f63faefd",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/SSIP5_2SC1583_MaxBody_FannedP2.286_Illustration.step",
+      "sha256": "9a485b529d902a5b33a3beafe7bdca2cf4983aebc15ef889787b22e8e0af3c9d",
+      "original_parametric_geometry": true,
+      "license": "CC0-1.0",
+      "shape_valid": true,
+      "fully_joined": true,
+      "lead_sections_z_minus_1_mm": [
+        {
+          "center_mm": [
+            -4.572,
+            0.0
+          ],
+          "max_radius_mm": 0.22500000000000042
+        },
+        {
+          "center_mm": [
+            -2.286,
+            0.0
+          ],
+          "max_radius_mm": 0.22500000000000023
+        },
+        {
+          "center_mm": [
+            0.0,
+            0.0
+          ],
+          "max_radius_mm": 0.22500000000000003
+        },
+        {
+          "center_mm": [
+            2.286,
+            0.0
+          ],
+          "max_radius_mm": 0.22500000000000023
+        },
+        {
+          "center_mm": [
+            4.572,
+            0.0
+          ],
+          "max_radius_mm": 0.22500000000000042
+        }
+      ],
+      "actual_board_pad_checks": [
+        {
+          "reference": "Q12",
+          "pin": "1",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000042,
+          "radial_margin_mm": 0.2749999999999996
+        },
+        {
+          "reference": "Q12",
+          "pin": "2",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998
+        },
+        {
+          "reference": "Q12",
+          "pin": "3",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997
+        },
+        {
+          "reference": "Q12",
+          "pin": "4",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998
+        },
+        {
+          "reference": "Q12",
+          "pin": "5",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000042,
+          "radial_margin_mm": 0.2749999999999996
+        },
+        {
+          "reference": "Q21",
+          "pin": "1",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000042,
+          "radial_margin_mm": 0.2749999999999996
+        },
+        {
+          "reference": "Q21",
+          "pin": "2",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998
+        },
+        {
+          "reference": "Q21",
+          "pin": "3",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997
+        },
+        {
+          "reference": "Q21",
+          "pin": "4",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998
+        },
+        {
+          "reference": "Q21",
+          "pin": "5",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000042,
+          "radial_margin_mm": 0.2749999999999996
+        },
+        {
+          "reference": "Q26",
+          "pin": "1",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000042,
+          "radial_margin_mm": 0.2749999999999996
+        },
+        {
+          "reference": "Q26",
+          "pin": "2",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998
+        },
+        {
+          "reference": "Q26",
+          "pin": "3",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997
+        },
+        {
+          "reference": "Q26",
+          "pin": "4",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998
+        },
+        {
+          "reference": "Q26",
+          "pin": "5",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.22500000000000042,
+          "radial_margin_mm": 0.2749999999999996
+        }
+      ],
+      "presentation": {
+        "styled_solids": [
+          "Body",
+          "Lead1",
+          "Lead2",
+          "Lead3",
+          "Lead4",
+          "Lead5"
+        ],
+        "color_by_solid": {
+          "Body": [
+            0.07,
+            0.075,
+            0.08
+          ],
+          "Lead1": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead2": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead3": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead4": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead5": [
+            0.72,
+            0.73,
+            0.75
+          ]
+        }
+      },
+      "formed_lead_path_lengths_mm": [
+        6.412336173293369,
+        5.721541857938844,
+        5.42,
+        5.721541857938844,
+        6.412336173293369
+      ]
+    },
+    {
+      "specification": {
+        "name": "Resonator_AWCR6MD_MaxBody_P2.54_Illustration",
+        "board": "ioboard",
+        "footprint": "Resonator_6MHz_x0x",
+        "refs": [
+          "XTL2"
+        ],
+        "kind": "AWCR6",
+        "body_mm": [
+          9.5,
+          4,
+          6.5
+        ],
+        "body_dimension_basis": [
+          "maximum",
+          "maximum",
+          "maximum"
+        ],
+        "standoff": 0.35,
+        "pitch": 2.54,
+        "lead_section_mm": [
+          0.6,
+          0.35
+        ],
+        "tail": -2.5,
+        "front_pin_order": [
+          "3",
+          "2/GND",
+          "1"
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          0
+        ],
+        "source": "../reference-pdfs/awcr-md.pdf",
+        "source_url": "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf",
+        "document": "Abracon AWCR-MD,revised2013-05-07,page3,1.79\u20136MHz low-profile bulk",
+        "assumptions": [
+          "Body uses maximum9.5\u00d74\u00d76.5mm envelope.",
+          "Exact PCB pitch2.54mm lies within manufacturer2.5\u00b10.3mm range.",
+          "Lead section uses printed maxima0.5\u00b10.1 by0.25\u00b10.1mm.",
+          "0.35mm body standoff,2.5mm cut tails,rounded corners and blue color are illustration choices.",
+          "Manufacturer front view has pin3 negativeX,pin2 center,pin1 positiveX; matchesXTL2P$3/P$2/P$1."
+        ]
+      },
+      "source_pdf": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/reference-pdfs/awcr-md.pdf",
+      "source_pdf_sha256": "ef48f7b242efe5cfc1f1514721edb274fb13dd2caea086bebe3f40e30fa01a7a",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/Resonator_AWCR6MD_MaxBody_P2.54_Illustration.step",
+      "sha256": "78f33aa8eb4dd7053e1fb5a9b03b43a1ae36eda4c313cbbf4c5e60b23c1c1bab",
+      "original_parametric_geometry": true,
+      "license": "CC0-1.0",
+      "shape_valid": true,
+      "fully_joined": true,
+      "lead_sections_z_minus_1_mm": [
+        {
+          "center_mm": [
+            -2.5400000000000014,
+            0.0
+          ],
+          "max_radius_mm": 0.34731109973624613
+        },
+        {
+          "center_mm": [
+            0.0,
+            0.0
+          ],
+          "max_radius_mm": 0.3473110997362451
+        },
+        {
+          "center_mm": [
+            2.54,
+            0.0
+          ],
+          "max_radius_mm": 0.34731109973624685
+        }
+      ],
+      "actual_board_pad_checks": [
+        {
+          "reference": "XTL2",
+          "pin": "P$3",
+          "board_drill_mm": 0.8128,
+          "lead_center_error_mm": 1.3322676295501878e-15,
+          "lead_radius_mm": 0.34731109973624613,
+          "radial_margin_mm": 0.05908890026375385
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$2",
+          "board_drill_mm": 0.8128,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.3473110997362451,
+          "radial_margin_mm": 0.05908890026375491
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$1",
+          "board_drill_mm": 0.8128,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.34731109973624685,
+          "radial_margin_mm": 0.05908890026375313
+        }
+      ],
+      "presentation": {
+        "styled_solids": [
+          "Body",
+          "Lead1",
+          "Lead2",
+          "Lead3"
+        ],
+        "color_by_solid": {
+          "Body": [
+            0.1,
+            0.25,
+            0.65
+          ],
+          "Lead1": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead2": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead3": [
+            0.72,
+            0.73,
+            0.75
+          ]
+        }
+      },
+      "formed_lead_path_lengths_mm": []
+    },
+    {
+      "specification": {
+        "name": "Resonator_AWCR16MD_MaxBody_P2.54_Illustration",
+        "board": "mainboard",
+        "footprint": "2SC2021",
+        "refs": [
+          "XTL1"
+        ],
+        "kind": "AWCR16",
+        "body_mm": [
+          10,
+          5,
+          10
+        ],
+        "body_dimension_basis": [
+          "maximum",
+          "maximum",
+          "maximum"
+        ],
+        "standoff": 0.35,
+        "pitch": 2.54,
+        "lead_section_mm": [
+          0.6,
+          0.35
+        ],
+        "tail": -2.5,
+        "front_pin_order": [
+          "3",
+          "2/GND",
+          "1"
+        ],
+        "rotation_deg": [
+          0,
+          0,
+          180
+        ],
+        "source": "../reference-pdfs/awcr-md.pdf",
+        "source_url": "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf",
+        "document": "Abracon AWCR-MD,revised2013-05-07,page3,13.01\u201360MHz bulk; original BOM815-AWCR-16.00MD",
+        "assumptions": [
+          "Body uses maximum10\u00d75\u00d710mm envelope for16MHz.",
+          "Exact PCB pitch2.54mm lies within manufacturer2.5\u00b10.3mm range.",
+          "Lead section uses printed maxima0.5\u00b10.1 by0.25\u00b10.1mm.",
+          "0.35mm body standoff,2.5mm cut tails,rounded corners and blue color are illustration choices.",
+          "Manufacturer front has pin1 positiveX; serializedZ180places it on sourceXTL1pad1 negativeX. Middle pin2 remainsGND."
+        ]
+      },
+      "source_pdf": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/reference-pdfs/awcr-md.pdf",
+      "source_pdf_sha256": "ef48f7b242efe5cfc1f1514721edb274fb13dd2caea086bebe3f40e30fa01a7a",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/Resonator_AWCR16MD_MaxBody_P2.54_Illustration.step",
+      "sha256": "a9cab63f2cba58e776998905e5234d17f380e69914a32637e3c28c6bba854b08",
+      "original_parametric_geometry": true,
+      "license": "CC0-1.0",
+      "shape_valid": true,
+      "fully_joined": true,
+      "lead_sections_z_minus_1_mm": [
+        {
+          "center_mm": [
+            -2.5400000000000014,
+            0.0
+          ],
+          "max_radius_mm": 0.34731109973624613
+        },
+        {
+          "center_mm": [
+            0.0,
+            0.0
+          ],
+          "max_radius_mm": 0.3473110997362451
+        },
+        {
+          "center_mm": [
+            2.54,
+            0.0
+          ],
+          "max_radius_mm": 0.34731109973624685
+        }
+      ],
+      "actual_board_pad_checks": [
+        {
+          "reference": "XTL1",
+          "pin": "1",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 3.110602869834277e-16,
+          "lead_radius_mm": 0.34731109973624685,
+          "radial_margin_mm": 0.15268890026375315
+        },
+        {
+          "reference": "XTL1",
+          "pin": "2",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 0.0,
+          "lead_radius_mm": 0.3473110997362451,
+          "radial_margin_mm": 0.15268890026375492
+        },
+        {
+          "reference": "XTL1",
+          "pin": "3",
+          "board_drill_mm": 1.0,
+          "lead_center_error_mm": 1.368099243068824e-15,
+          "lead_radius_mm": 0.34731109973624613,
+          "radial_margin_mm": 0.15268890026375387
+        }
+      ],
+      "presentation": {
+        "styled_solids": [
+          "Body",
+          "Lead1",
+          "Lead2",
+          "Lead3"
+        ],
+        "color_by_solid": {
+          "Body": [
+            0.1,
+            0.25,
+            0.65
+          ],
+          "Lead1": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead2": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "Lead3": [
+            0.72,
+            0.73,
+            0.75
+          ]
+        }
+      },
+      "formed_lead_path_lengths_mm": []
+    }
+  ]
+}

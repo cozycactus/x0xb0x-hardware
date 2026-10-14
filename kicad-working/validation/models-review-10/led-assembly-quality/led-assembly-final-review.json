@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "assigned_reference_count": 40,
+  "geometry_checks_passed": 233,
+  "original_pad_drill_polarity_checks": 80,
+  "native_export_maximum_bounds_error_mm": 3.2091140746981495e-05,
+  "native_export_material_colors": 2,
+  "original_panel_holes_checked": 40,
+  "minimum_nominal_drill_square_corner_margin_mm": 0.21715728752538094,
+  "minimum_nominal_panel_radial_margin_less_export_residual_mm": 0.03996153085504341,
+  "new_tip_projection_above_panel_range_mm": [
+    1.2999454038858413,
+    1.2999770688533783
+  ],
+  "frozen_assets_unchanged": true,
+  "source_STEP_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+  "preview_sha256": "68f3048f6eccaee9b4b1bf2f6fd034cb454a99296e788293a0cb06e4755e2d0d",
+  "model_transform_retained": {
+    "offset_mm": [
+      1.27,
+      0,
+      0
+    ],
+    "rotation_deg": [
+      0,
+      0,
+      180
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "limitations": [
+    "The complete official generic KiCad LED body above its Z3mm lower-flange plane is preserved by a rigid +3.096mm translation. Exact original fitted LED manufacturer and package tolerances are unknown.",
+    "The selected 6.096mm lower-body height follows the original BOM VCC STD240B 0.24in. The original sequencer table instead says0.22in/5.588mm; that conflict is preserved, not silently resolved as a measured installed height.",
+    "Full stock 0.4x0.4mm lead cross-sections at sourceX0 andX2.54mm are retained and extended continuously from trimmedZ-2.5mm to the new body undersideZ6.096mm. Lead material, cut length and exact fitted original lead specification remain generic illustration data.",
+    "Existing native model offset[1.27,0,0] and rotation[0,0,180] with unity scale are preserved for all40LED references; original footprint axes, polarity, pad and drill geometry are unchanged.",
+    "Clear/unlit lens appearance follows original author PCB/panel photos. STEP light-gray color is an appearance role, not an optical simulation; Blender transmission/refraction settings are presentation choices.",
+    "Spacer height is represented by body seating. No black spacer shape is added because an exact primary outline was not recovered in the bounded search. This avoids inventing unverified outer profile or lead holes.",
+    "Current scene panel seat yields a nominal1.300mm lens-tip projection above the top panel; alternative0.22in spacing yields0.792mm. Native exported assembly measurements must independently confirm this after integration.",
+    "No lead thinning, scaled body, moved PCB footprint, altered panel hole or fitted tolerance/physical assembly claim is made."
+  ]
+}

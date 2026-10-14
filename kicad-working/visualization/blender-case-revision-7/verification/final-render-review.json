@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "reviewed_at_utc": "2026-10-14T17:51:31.249471+00:00",
+  "method": "All five completed views visually inspected at full resolution; hashes verified against render records. LED native panel-mount and corrected rear connector closeups also inspected.",
+  "stable_scene_sha256": "7b26f1a99d5350754413d7af2879317fc7ba6f8e99102761d7143859e068f136",
+  "stable_scene_unchanged": true,
+  "views": [
+    {
+      "image": "assembled.png",
+      "sha256": "27d9e0ff3ca09c09c1e7d0b94ee49013e441b8b623e03cf493ef33431332ed2a",
+      "frame": 1,
+      "visually_reviewed": true
+    },
+    {
+      "image": "rear.png",
+      "sha256": "88f63777990c0d3cffcf403a28bbef781d1d2e4c7930277ddeff2f6642b5d54a",
+      "frame": 1,
+      "visually_reviewed": true
+    },
+    {
+      "image": "exploded.png",
+      "sha256": "917749b2283516e8faada746320a57544cde32119e784ad0957f54128f393258",
+      "frame": 80,
+      "visually_reviewed": true
+    },
+    {
+      "image": "control-side.png",
+      "sha256": "09655a7c980d4337c8dbaaf799890284127fc5e9935748a3ecb879bce9a6fbf7",
+      "frame": 120,
+      "visually_reviewed": true
+    },
+    {
+      "image": "wiring-study.png",
+      "sha256": "6f4f01ac5c419b9fe3256867c6a0d6c7589f97c8f51471003b2fcc8bcffead05",
+      "frame": 160,
+      "visually_reviewed": true
+    }
+  ],
+  "findings": [
+    "Assembled view shows40clear unlit PCB LED lenses through panel holes, with original23caps in place.",
+    "Exploded top plate now has empty LED/button cutouts; caps and complete LEDs follow the PCB.",
+    "Control-side view shows native LED/switch bodies on the PCB with caps hidden.",
+    "Rear and qualified wiring views are complete; bent-back full-size heatsink visible."
+  ],
+  "limits": [
+    "Optical lens shader is a visual approximation; no electrical LED states or light output simulated.",
+    "LED spacer0.24inch/0.22inch source conflict and omitted unspecified plastic spacer outline remain documented.",
+    "Switch-cap socket engagement and travel remain unqualified.",
+    "Wiring routes and physical installed fit remain qualified."
+  ]
+}

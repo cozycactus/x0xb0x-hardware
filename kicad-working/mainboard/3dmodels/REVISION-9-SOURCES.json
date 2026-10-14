@@ -1,0 +1,164 @@
+{
+  "updates": [
+    {
+      "board": "mainboard",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ],
+      "footprint": "EVU",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate.step",
+      "source_sha256": "37621a5fac69b737fdee4b5f0d6a4dffa83e97dc64cc3a66021d9ff02af8b381",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Own primary-drawing reconstruction with published versus unsized features recorded",
+      "classification": "Detailed source-grounded original-BOM family body illustration; historical variant/physical fit unqualified",
+      "limitations": [
+        "Detailed own reconstruction from primary manufacturer drawings; not recovered manufacturer CAD.",
+        "Canonical original F.Cu footprint frame: X=footprint X,Y=-footprint Y,Z outward, with housing rear atZ0 as existing seating assumption. No footprint placement or side flip is baked into geometry.",
+        "All nominal exterior dimensions and full shaft heights are retained. No resizing or relocation was performed to make the enclosure fit.",
+        "Colors/material roles and unsized molding, wafer split, metal stock, crimp folds, rivet diameters and small radii are qualified visual interpretations.",
+        "Electrical solder leads, below-seat mounting legs and internal wipers are omitted. Exact lead-form/trim, historical seating gap, tolerances, terminal insertion and complete assembly fit are unqualified.",
+        "No exact EVUF2LFL3 manufacturer3DCAD was recovered from the bounded official CAD-index and product searches; no unrelated EVU variant CAD was substituted.",
+        "Sleeve groove detail is a visual indication, not an exact crossed-knurl/tooling model. Body/wafer internal splits and colors are reconstructed.",
+        "Manufacturer mounting-leg pattern differs from actual original footprint; all below-seat legs omitted and no mounting-hole fit is claimed.",
+        "Shaft flat remains on canonical negativeY as prior inspection pose. The source drawing states fullCCW30degrees, but actual fitted rotary state is unmeasured."
+      ],
+      "source_urls": [
+        "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf"
+      ],
+      "units": "mm",
+      "previous_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "local_model": "Revision9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate.step",
+      "review_manifest": "potentiometer-quality/potentiometer-quality-manifest.json",
+      "previous_source_sha256": "1dd40c49ccabcb25023c3cf2e0859ceedfc062b3583fe4f099f35c73239ab42a",
+      "previous_local_model": "Revision7/control-colors/Panasonic_EVUF2LFL3_BodyIllustration_Colors.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "footprint": "ALPHADUAL",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate.step",
+      "source_sha256": "15f4f15e36793c0c3e746684357c8dd8269d002d1df7509125e7b2691a253443",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Own primary-drawing reconstruction with published versus unsized features recorded",
+      "classification": "Detailed source-grounded original-BOM family body illustration; historical variant/physical fit unqualified",
+      "limitations": [
+        "Detailed own reconstruction from primary manufacturer drawings; not recovered manufacturer CAD.",
+        "Canonical original F.Cu footprint frame: X=footprint X,Y=-footprint Y,Z outward, with housing rear atZ0 as existing seating assumption. No footprint placement or side flip is baked into geometry.",
+        "All nominal exterior dimensions and full shaft heights are retained. No resizing or relocation was performed to make the enclosure fit.",
+        "Colors/material roles and unsized molding, wafer split, metal stock, crimp folds, rivet diameters and small radii are qualified visual interpretations.",
+        "Electrical solder leads, below-seat mounting legs and internal wipers are omitted. Exact lead-form/trim, historical seating gap, tolerances, terminal insertion and complete assembly fit are unqualified.",
+        "No exact historicalRV112BCF40-25F manufacturer3DCAD was recovered. Currentinsulated25A family supports this nominalillustration; no transparent25AL orwrongbushingvariant CAD substituted.",
+        "Historical originalBOM25F versuscurrent25A remains unresolved; current25A lists both7and12mm flats.7mm retained as priornominalinspection choice, not proof of historical25F geometry.",
+        "Tipcallout2-0.5 specifies two0.5mm radial reductions; it does not specify2mm axial bevel. Axial taper length is a1mm visual assumption.",
+        "Dualwafer axialstation, internalcore and metalfold details are unsized reconstructions. No below-seat solderleads ormountlegs modeled; no actualpad/leadfit claim.",
+        "Shaft flat remains canonicalnegativeY inspection pose. FullCCWsourceangle and actualinstalledcontrolsetting are not inferred."
+      ],
+      "source_urls": [
+        "https://www.taiwanalpha.com/downloads?target=products&id=77"
+      ],
+      "units": "mm",
+      "previous_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "local_model": "Revision9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate.step",
+      "review_manifest": "potentiometer-quality/potentiometer-quality-manifest.json",
+      "previous_source_sha256": "732aaa2de27c49de746d0df4b8188882270bc78704570b4d146cccd1a899a170",
+      "previous_local_model": "Revision7/control-colors/Alpha_RV112BCF40_25_BodyIllustration_Colors.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "Q22"
+      ],
+      "footprint": "SSIP5",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286.step",
+      "source_sha256": "e77a4406c0eec3750b4db057ca88ac00c49cc46bdb9f72ee2ebd5b268029909b",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Specific Mitsubishi primary package drawing-derived body and explicitly illustrated formed leads",
+      "classification": "Maximum package body with nominal full-diameter leads; installed forming/stand-off illustration",
+      "limitations": [
+        "Specific Mitsubishi 2SC2291 four-page primary scan is the package authority; no 2SC1583 body identity is borrowed from a shared footprint.",
+        "Body uses the published 8.1 x3.6 x5.6 mm maxima. The 2 x2 mm YZ bevel, 1.4 mm flat-face-to-lead-row datum, 1.25 mm row pitch and 0.45 mm round leads follow the drawing. Untoleranced dimensions are representative per the manufacturer note; actual supplied part tolerances are unknown.",
+        "Canonical flat face is -Y, opposite bevel is +Y. Pin1 is -X and pin5 +X before the unchanged Q22 footprint angle180 is applied.",
+        "Body bottom Z3.0 mm, tangent circular lead fanout bends of radius0.65mm, 0.12 mm internal model embed and 2.5 mm cut tails are installed illustration choices. They are not a published lead forming or stand-off specification.",
+        "The 10.5 mm factory lead length is a minimum before trimming. This candidate depicts explicitly trimmed formed leads; no claim is made that its shortened installed tails are supplied that way.",
+        "Nominal 1.25 mm package pitch fans above the board to original 2.286 mm PCB pitch. Full 0.45 mm lead diameter is retained, and straight tails are checked through nominal full 1.6 mm lamination.",
+        "Bend stress, springback, forming process, material temper, drill plating, body/lead tolerance, installed clearance and physical hardware fit remain unqualified. No package scaling or PCB pad movement was used.",
+        "Assignment is Q22-specific. Heterogeneous SSIP5 footprint cache remains unassigned; this candidate must not replace other SSIP5 devices.",
+        "Black epoxy and silver lead colors are presentation choices; no embossed manufacturer text or unverified mold details are added."
+      ],
+      "source_urls": [
+        "https://www.diyaudio.com/community/attachments/2sc2291-pdf.1587249/",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://github.com/x0xb0x/x0xb0x.github.io/blob/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/2SC2291.jpg"
+      ],
+      "per_instance_override": true,
+      "replaces_source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/2SC2291_SSIP5_ApproxBody.step",
+      "replaces_source_sha256": "19c85906d54361aa9937eb1868bddb3249b0c0b7ad878e7067d447b56bdc95de",
+      "previous_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "local_model": "Revision9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286.step",
+      "review_manifest": "legacy-quality/legacy-quality-manifest.json",
+      "previous_source_sha256": "19c85906d54361aa9937eb1868bddb3249b0c0b7ad878e7067d447b56bdc95de",
+      "previous_local_model": "Revision6/misc-body-illustrations/2SC2291_SSIP5_ApproxBody.step"
+    }
+  ]
+}

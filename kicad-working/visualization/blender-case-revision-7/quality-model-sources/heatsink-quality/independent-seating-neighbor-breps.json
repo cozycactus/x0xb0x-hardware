@@ -1,0 +1,106 @@
+{
+  "scope": "Independent fresh exact-BRep refinements of three nearby native I/O component surfaces. Actual source native footprint poses/modelzero transforms retained; common board seat cancels in KK1frame.",
+  "proposed_KK1_model_offset_mm": [
+    0,
+    -8.78,
+    3.9
+  ],
+  "neighbor_records": [
+    {
+      "reference": "C3",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step",
+      "source_sha256": "baedb7170ada384a9ddecc4f7c192ac3cdd29ed68d497d8384e2c4b352464243",
+      "source_assignment_sha_matches": true,
+      "native_FCu_position_xy_mm": [
+        6.477,
+        33.147
+      ],
+      "native_angle_deg": 180.0,
+      "neighbor_bounds_in_KK1_frame_mm": [
+        -8.786000000000001,
+        -19.454,
+        -2.5,
+        4.214000000000001,
+        -6.454,
+        20.8
+      ],
+      "exact_intersection_volume_mm3": 125.41738204136425,
+      "intersection_with_spring_finger_mask_mm3": 0.0,
+      "rigid_intersection_outside_finger_mask_mm3": 125.41738204136425,
+      "exact_intersection_bounds_mm": [
+        -8.101220030231017,
+        -10.05,
+        3.8999999999999986,
+        3.529220030231017,
+        -6.454,
+        20.8
+      ]
+    },
+    {
+      "reference": "C4",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/C_AVX_SR205_P2.54_Illustration.step",
+      "source_sha256": "2893fab1c5613ec442c8a4d4e07ea5ca238553affe5d3f5eb39d1a715f9120c2",
+      "source_assignment_sha_matches": true,
+      "native_FCu_position_xy_mm": [
+        1.778,
+        41.656
+      ],
+      "native_angle_deg": -90.0,
+      "neighbor_bounds_in_KK1_frame_mm": [
+        -8.5725,
+        -6.985,
+        -2.5,
+        -5.397499999999999,
+        -1.9049999999999998,
+        5.58
+      ],
+      "exact_intersection_volume_mm3": 1.0518875394515845,
+      "intersection_with_spring_finger_mask_mm3": 0.0,
+      "rigid_intersection_outside_finger_mask_mm3": 1.0518875394515845,
+      "exact_intersection_bounds_mm": [
+        -6.0,
+        -6.004207953128341,
+        3.8999999999999995,
+        -5.397499999999997,
+        -1.9049999999999998,
+        5.58
+      ]
+    },
+    {
+      "reference": "C5",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step",
+      "source_sha256": "baedb7170ada384a9ddecc4f7c192ac3cdd29ed68d497d8384e2c4b352464243",
+      "source_assignment_sha_matches": true,
+      "native_FCu_position_xy_mm": [
+        18.923,
+        36.068
+      ],
+      "native_angle_deg": 180.0,
+      "neighbor_bounds_in_KK1_frame_mm": [
+        3.6599999999999975,
+        -16.533,
+        -2.5,
+        16.66,
+        -3.5330000000000004,
+        20.8
+      ],
+      "exact_intersection_volume_mm3": 142.15313800988991,
+      "intersection_with_spring_finger_mask_mm3": 0.0,
+      "rigid_intersection_outside_finger_mask_mm3": 142.15313800988991,
+      "exact_intersection_bounds_mm": [
+        3.6599999999999975,
+        -10.05,
+        3.8999999999999986,
+        10.920000000000005,
+        -3.5343001300260077,
+        20.800000000000004
+      ]
+    }
+  ],
+  "passed_clear_of_neighbors": false,
+  "finding": "Reject proposed pose as an installed model placement if any exact nearby component overlap is present. No shrink/trim/footprint move is proposed.",
+  "limitations": [
+    "Neighbor models are source-qualified package/body illustrations, not measured actual fitted vendor/tolerance geometry. Nevertheless their unchanged modeled bodies materially overlap this pose.",
+    "Only the three possible native mesh contacts were refined; saved-scene full-case and other AABB/surface screen is a separate bounded report."
+  ]
+}

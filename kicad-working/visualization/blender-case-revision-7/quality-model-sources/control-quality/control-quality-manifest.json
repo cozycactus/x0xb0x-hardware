@@ -1,0 +1,854 @@
+{
+  "date": "2026-10-14",
+  "scope": "Publisher TL1100Fxxxx exactfamilyCAD candidates for23referenceinstances; realprojects/scenes untouched.",
+  "parts": [
+    {
+      "id": "TL1100F_ManufacturerCAD_FullNominalFreeState",
+      "variant": "FullNominalFreeState",
+      "board": "mainboard",
+      "references": [
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "footprint": "B3F-40XX",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState.step",
+      "source_sha256": "680228325b4efa78f35174d54935fff4315874657fadddc9357cae1aedb37b8f",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState.step",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState.stl",
+      "stl_sha256": "aeb3d9cd01265ea9ccbf9d688072b789b157c853ab0d3d052a2d32420580a754",
+      "units": "mm",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "canonical_frame": "Original F.Cu footprint X,-Y,Z outward; seatingdatumZ0, actuator tipZ7.3. No placedboardpose baked in.",
+      "source_kind": "PublisherCAD with localizedhiddenvalidityrepair andrigidcanonicalorigin translation",
+      "classification": "Manufacturer nominal/free-state familyCAD; locally repaired; installedterminalfit unqualified",
+      "limitations": [
+        "Publisher TL1100Fxxxx familyCAD aligns to publishedTL1100F160Q7.3mmactuator height; force/plating options and exacthistoricmold revision are not established.",
+        "The originalpublisherCAD has one invalidzeroarea internalcylindricalface. A localizedinternalunion repair adds0.035684mm3 while preservingexactexternalbounds; repairedsourceisvalid. Sourcefile remains byteunchanged.",
+        "Housing/cover/actuator/terminalfacecolors are inferredpresentation roles; originalpublisherSTEP is singlegrey. Geometry is not resized tofit.",
+        "Manufacturerrecommendeddrill1.30mm differs from originalB3F-40XX1.1938mmdrill; existingPCBgeometryis unchanged.",
+        "Nominalterminalaxes residual0.010918mm; straightterminalshoulders/tips fit sampledactualdrillsections, butfree-state retentionkinks exceedthehole. Thefullvariantis nominalfree-stateCAD, not deformedinstalledpins orfitqualification.",
+        "Elasticcompression, materialstress, insertionforce, tolerances, capsocket and fullassemblyfit are unqualified."
+      ],
+      "source_urls": [
+        "https://configured-product-images.s3.amazonaws.com/stp3dmodels/TL1100Fxxxx.stp",
+        "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1100F160Q.pdf"
+      ],
+      "publisher_source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/sources/TL1100Fxxxx-manufacturer.stp",
+      "publisher_source_sha256": "c8d75086238d6ab7716c6dc38c2d587c8d39ba9cc365655c49a244b4ca88d430",
+      "publisher_to_canonical_translation_mm": [
+        0,
+        0,
+        3.8825
+      ],
+      "publisher_to_canonical_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "bounds_mm": [
+        -7.05,
+        -6.0,
+        -3.5,
+        7.05,
+        6.0,
+        7.3
+      ],
+      "source_actuator_height_mm": 7.3,
+      "valid": true,
+      "solid_count": 1,
+      "faces": 249,
+      "triangles": 35250,
+      "mesh_parts": [
+        {
+          "role": "housing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState_housing.stl",
+          "units": "mm",
+          "rgba": [
+            0.035,
+            0.035,
+            0.04,
+            1
+          ],
+          "surface_subset": true,
+          "not_standalone_closed_solid": true,
+          "faces": 162,
+          "triangles": 19348,
+          "sha256": "09c0db8d01fa68c172d619123f3f376a8392e43b4d7253ee70b3a0a688b04735"
+        },
+        {
+          "role": "cover",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState_cover.stl",
+          "units": "mm",
+          "rgba": [
+            0.57,
+            0.59,
+            0.61,
+            1
+          ],
+          "surface_subset": true,
+          "not_standalone_closed_solid": true,
+          "faces": 6,
+          "triangles": 14676,
+          "sha256": "a4c6a52069ddbd8785a9c87c4611b100b09235bfec8bf8088008d209d1e3254b"
+        },
+        {
+          "role": "actuator",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState_actuator.stl",
+          "units": "mm",
+          "rgba": [
+            0.018,
+            0.018,
+            0.022,
+            1
+          ],
+          "surface_subset": true,
+          "not_standalone_closed_solid": true,
+          "faces": 17,
+          "triangles": 668,
+          "sha256": "cd0f98fa1c6d87160d0aedb60a393b77a9a46edacb84d246652e189cb9e9120d"
+        },
+        {
+          "role": "terminals",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState_terminals.stl",
+          "units": "mm",
+          "rgba": [
+            0.6,
+            0.61,
+            0.63,
+            1
+          ],
+          "surface_subset": true,
+          "not_standalone_closed_solid": true,
+          "faces": 64,
+          "triangles": 820,
+          "sha256": "b384ada6be207d55dba9ce652778fc5cff377a9ae4db30e8462b1baa551d7a43"
+        }
+      ],
+      "color_roles": {
+        "housing": 162,
+        "cover": 6,
+        "actuator": 17,
+        "terminals": 64
+      },
+      "replaces_source_sha256": "d6876b2e5f3fb2d25ff6071936dfe32e81bfda5252abe706dda4845fa081a348",
+      "replaces_source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/ESwitch_TL1100F160Q_BodyIllustration_Colors.step",
+      "mesh_bounds_mm": [
+        -7.04994819296765,
+        -6.0000000000000036,
+        -3.500000000000011,
+        7.04994819296765,
+        6.0000000000000036,
+        7.299999999999995
+      ],
+      "exact_external_bounds_from_reimported_CAD": true
+    },
+    {
+      "id": "TL1100F_ManufacturerCAD_BodyOnly",
+      "variant": "BodyOnly",
+      "board": "mainboard",
+      "references": [
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "footprint": "B3F-40XX",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_BodyOnly.step",
+      "source_sha256": "fb3e2ad5f52de6168f7dfcf25d70543fb9cca64f295175b9b262276c35f193b7",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_BodyOnly.step",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_BodyOnly.stl",
+      "stl_sha256": "9cb8e1700f4eede8a9ab346a4a01b47bb5cd211ef50624ece024822a3d5dc20d",
+      "units": "mm",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "canonical_frame": "Original F.Cu footprint X,-Y,Z outward; seatingdatumZ0, actuator tipZ7.3. No placedboardpose baked in.",
+      "source_kind": "PublisherCAD with localizedhiddenvalidityrepair andrigidcanonicalorigin translation",
+      "classification": "Manufacturer body-only familyCAD; locally repaired; terminals omitted",
+      "limitations": [
+        "Publisher TL1100Fxxxx familyCAD aligns to publishedTL1100F160Q7.3mmactuator height; force/plating options and exacthistoricmold revision are not established.",
+        "The originalpublisherCAD has one invalidzeroarea internalcylindricalface. A localizedinternalunion repair adds0.035684mm3 while preservingexactexternalbounds; repairedsourceisvalid. Sourcefile remains byteunchanged.",
+        "Housing/cover/actuator/terminalfacecolors are inferredpresentation roles; originalpublisherSTEP is singlegrey. Geometry is not resized tofit.",
+        "Manufacturerrecommendeddrill1.30mm differs from originalB3F-40XX1.1938mmdrill; existingPCBgeometryis unchanged.",
+        "Nominalterminalaxes residual0.010918mm; straightterminalshoulders/tips fit sampledactualdrillsections, butfree-state retentionkinks exceedthehole. Thefullvariantis nominalfree-stateCAD, not deformedinstalledpins orfitqualification.",
+        "Elasticcompression, materialstress, insertionforce, tolerances, capsocket and fullassemblyfit are unqualified.",
+        "Only manufacturergeometry at canonicalZ>=0 is retained; solderterminal free-stategeometry omitted below the seatingdatum."
+      ],
+      "source_urls": [
+        "https://configured-product-images.s3.amazonaws.com/stp3dmodels/TL1100Fxxxx.stp",
+        "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1100F160Q.pdf"
+      ],
+      "publisher_source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/sources/TL1100Fxxxx-manufacturer.stp",
+      "publisher_source_sha256": "c8d75086238d6ab7716c6dc38c2d587c8d39ba9cc365655c49a244b4ca88d430",
+      "publisher_to_canonical_translation_mm": [
+        0,
+        0,
+        3.8825
+      ],
+      "publisher_to_canonical_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "bounds_mm": [
+        -6.4,
+        -6.0,
+        -1.239518248437522e-14,
+        6.4,
+        6.0,
+        7.3
+      ],
+      "source_actuator_height_mm": 7.3,
+      "valid": true,
+      "solid_count": 1,
+      "faces": 193,
+      "triangles": 33938,
+      "mesh_parts": [
+        {
+          "role": "housing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_BodyOnly_housing.stl",
+          "units": "mm",
+          "rgba": [
+            0.035,
+            0.035,
+            0.04,
+            1
+          ],
+          "surface_subset": true,
+          "not_standalone_closed_solid": true,
+          "faces": 162,
+          "triangles": 18836,
+          "sha256": "c86ff4af44289afca7a6c7d3b3c461b8e851a378cb04097ecc282010ec87d08f"
+        },
+        {
+          "role": "cover",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_BodyOnly_cover.stl",
+          "units": "mm",
+          "rgba": [
+            0.57,
+            0.59,
+            0.61,
+            1
+          ],
+          "surface_subset": true,
+          "not_standalone_closed_solid": true,
+          "faces": 6,
+          "triangles": 14680,
+          "sha256": "3e7e6f55a7d8de81bd305c79e2151350ad15d8c39e566504f489d278bca49fb2"
+        },
+        {
+          "role": "actuator",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_BodyOnly_actuator.stl",
+          "units": "mm",
+          "rgba": [
+            0.018,
+            0.018,
+            0.022,
+            1
+          ],
+          "surface_subset": true,
+          "not_standalone_closed_solid": true,
+          "faces": 17,
+          "triangles": 668,
+          "sha256": "cd0f98fa1c6d87160d0aedb60a393b77a9a46edacb84d246652e189cb9e9120d"
+        },
+        {
+          "role": "terminals",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_BodyOnly_terminals.stl",
+          "units": "mm",
+          "rgba": [
+            0.6,
+            0.61,
+            0.63,
+            1
+          ],
+          "surface_subset": true,
+          "not_standalone_closed_solid": true,
+          "faces": 8,
+          "triangles": 20,
+          "sha256": "695b67f8fcd8c3b1f5ffbf6b4e8b0f34c7481b1b2174798878e2bd04008dd46b"
+        }
+      ],
+      "color_roles": {
+        "housing": 162,
+        "cover": 6,
+        "actuator": 17,
+        "terminals": 8
+      },
+      "replaces_source_sha256": "d6876b2e5f3fb2d25ff6071936dfe32e81bfda5252abe706dda4845fa081a348",
+      "replaces_source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/ESwitch_TL1100F160Q_BodyIllustration_Colors.step",
+      "mesh_bounds_mm": [
+        -6.400000000000003,
+        -6.0000000000000036,
+        0.0,
+        6.400000000000003,
+        6.0000000000000036,
+        7.299999999999995
+      ],
+      "exact_external_bounds_from_reimported_CAD": true
+    }
+  ],
+  "assignments": [
+    {
+      "board": "mainboard",
+      "references": [
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "footprint": "B3F-40XX",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState.step",
+      "source_sha256": "680228325b4efa78f35174d54935fff4315874657fadddc9357cae1aedb37b8f",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "PublisherCAD with localizedhiddenvalidityrepair andrigidcanonicalorigin translation",
+      "classification": "Manufacturer nominal/free-state familyCAD; locally repaired; installedterminalfit unqualified",
+      "limitations": [
+        "Publisher TL1100Fxxxx familyCAD aligns to publishedTL1100F160Q7.3mmactuator height; force/plating options and exacthistoricmold revision are not established.",
+        "The originalpublisherCAD has one invalidzeroarea internalcylindricalface. A localizedinternalunion repair adds0.035684mm3 while preservingexactexternalbounds; repairedsourceisvalid. Sourcefile remains byteunchanged.",
+        "Housing/cover/actuator/terminalfacecolors are inferredpresentation roles; originalpublisherSTEP is singlegrey. Geometry is not resized tofit.",
+        "Manufacturerrecommendeddrill1.30mm differs from originalB3F-40XX1.1938mmdrill; existingPCBgeometryis unchanged.",
+        "Nominalterminalaxes residual0.010918mm; straightterminalshoulders/tips fit sampledactualdrillsections, butfree-state retentionkinks exceedthehole. Thefullvariantis nominalfree-stateCAD, not deformedinstalledpins orfitqualification.",
+        "Elasticcompression, materialstress, insertionforce, tolerances, capsocket and fullassemblyfit are unqualified."
+      ],
+      "source_urls": [
+        "https://configured-product-images.s3.amazonaws.com/stp3dmodels/TL1100Fxxxx.stp",
+        "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1100F160Q.pdf"
+      ],
+      "replaces_source_sha256": "d6876b2e5f3fb2d25ff6071936dfe32e81bfda5252abe706dda4845fa081a348",
+      "replaces_source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/ESwitch_TL1100F160Q_BodyIllustration_Colors.step"
+    }
+  ],
+  "default_variant": "FullNominalFreeState",
+  "alternate_models": [
+    {
+      "id": "TL1100F_ManufacturerCAD_BodyOnly",
+      "variant": "BodyOnly",
+      "board": "mainboard",
+      "references": [
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "footprint": "B3F-40XX",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_BodyOnly.step",
+      "source_sha256": "fb3e2ad5f52de6168f7dfcf25d70543fb9cca64f295175b9b262276c35f193b7",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_BodyOnly.step",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_BodyOnly.stl",
+      "stl_sha256": "9cb8e1700f4eede8a9ab346a4a01b47bb5cd211ef50624ece024822a3d5dc20d",
+      "units": "mm",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "canonical_frame": "Original F.Cu footprint X,-Y,Z outward; seatingdatumZ0, actuator tipZ7.3. No placedboardpose baked in.",
+      "source_kind": "PublisherCAD with localizedhiddenvalidityrepair andrigidcanonicalorigin translation",
+      "classification": "Manufacturer body-only familyCAD; locally repaired; terminals omitted",
+      "limitations": [
+        "Publisher TL1100Fxxxx familyCAD aligns to publishedTL1100F160Q7.3mmactuator height; force/plating options and exacthistoricmold revision are not established.",
+        "The originalpublisherCAD has one invalidzeroarea internalcylindricalface. A localizedinternalunion repair adds0.035684mm3 while preservingexactexternalbounds; repairedsourceisvalid. Sourcefile remains byteunchanged.",
+        "Housing/cover/actuator/terminalfacecolors are inferredpresentation roles; originalpublisherSTEP is singlegrey. Geometry is not resized tofit.",
+        "Manufacturerrecommendeddrill1.30mm differs from originalB3F-40XX1.1938mmdrill; existingPCBgeometryis unchanged.",
+        "Nominalterminalaxes residual0.010918mm; straightterminalshoulders/tips fit sampledactualdrillsections, butfree-state retentionkinks exceedthehole. Thefullvariantis nominalfree-stateCAD, not deformedinstalledpins orfitqualification.",
+        "Elasticcompression, materialstress, insertionforce, tolerances, capsocket and fullassemblyfit are unqualified.",
+        "Only manufacturergeometry at canonicalZ>=0 is retained; solderterminal free-stategeometry omitted below the seatingdatum."
+      ],
+      "source_urls": [
+        "https://configured-product-images.s3.amazonaws.com/stp3dmodels/TL1100Fxxxx.stp",
+        "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1100F160Q.pdf"
+      ],
+      "publisher_source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/sources/TL1100Fxxxx-manufacturer.stp",
+      "publisher_source_sha256": "c8d75086238d6ab7716c6dc38c2d587c8d39ba9cc365655c49a244b4ca88d430",
+      "publisher_to_canonical_translation_mm": [
+        0,
+        0,
+        3.8825
+      ],
+      "publisher_to_canonical_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "bounds_mm": [
+        -6.4,
+        -6.0,
+        -1.239518248437522e-14,
+        6.4,
+        6.0,
+        7.3
+      ],
+      "source_actuator_height_mm": 7.3,
+      "valid": true,
+      "solid_count": 1,
+      "faces": 193,
+      "triangles": 33938,
+      "mesh_parts": [
+        {
+          "role": "housing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_BodyOnly_housing.stl",
+          "units": "mm",
+          "rgba": [
+            0.035,
+            0.035,
+            0.04,
+            1
+          ],
+          "surface_subset": true,
+          "not_standalone_closed_solid": true,
+          "faces": 162,
+          "triangles": 18836,
+          "sha256": "c86ff4af44289afca7a6c7d3b3c461b8e851a378cb04097ecc282010ec87d08f"
+        },
+        {
+          "role": "cover",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_BodyOnly_cover.stl",
+          "units": "mm",
+          "rgba": [
+            0.57,
+            0.59,
+            0.61,
+            1
+          ],
+          "surface_subset": true,
+          "not_standalone_closed_solid": true,
+          "faces": 6,
+          "triangles": 14680,
+          "sha256": "3e7e6f55a7d8de81bd305c79e2151350ad15d8c39e566504f489d278bca49fb2"
+        },
+        {
+          "role": "actuator",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_BodyOnly_actuator.stl",
+          "units": "mm",
+          "rgba": [
+            0.018,
+            0.018,
+            0.022,
+            1
+          ],
+          "surface_subset": true,
+          "not_standalone_closed_solid": true,
+          "faces": 17,
+          "triangles": 668,
+          "sha256": "cd0f98fa1c6d87160d0aedb60a393b77a9a46edacb84d246652e189cb9e9120d"
+        },
+        {
+          "role": "terminals",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_BodyOnly_terminals.stl",
+          "units": "mm",
+          "rgba": [
+            0.6,
+            0.61,
+            0.63,
+            1
+          ],
+          "surface_subset": true,
+          "not_standalone_closed_solid": true,
+          "faces": 8,
+          "triangles": 20,
+          "sha256": "695b67f8fcd8c3b1f5ffbf6b4e8b0f34c7481b1b2174798878e2bd04008dd46b"
+        }
+      ],
+      "color_roles": {
+        "housing": 162,
+        "cover": 6,
+        "actuator": 17,
+        "terminals": 8
+      },
+      "replaces_source_sha256": "d6876b2e5f3fb2d25ff6071936dfe32e81bfda5252abe706dda4845fa081a348",
+      "replaces_source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/ESwitch_TL1100F160Q_BodyIllustration_Colors.step",
+      "mesh_bounds_mm": [
+        -6.400000000000003,
+        -6.0000000000000036,
+        0.0,
+        6.400000000000003,
+        6.0000000000000036,
+        7.299999999999995
+      ],
+      "exact_external_bounds_from_reimported_CAD": true
+    }
+  ],
+  "repair": {
+    "source_valid": false,
+    "source_faces": 248,
+    "invalid_face_index": 160,
+    "invalid_face_area": 0.0,
+    "repair_tool_publisher_frame": {
+      "kind": "cylinder union",
+      "radius_mm": 1.5001,
+      "height_mm": 0.035,
+      "start_mm": [
+        0,
+        0,
+        -2.1925
+      ]
+    },
+    "source_volume_mm3": 478.9054651718932,
+    "repaired_volume_mm3": 478.9411491595858,
+    "added_volume_mm3": 0.03568398769260739,
+    "added_volume_percent": 0.007451154828604714,
+    "external_bounds_exactly_preserved": true,
+    "publisher_bounds_mm": [
+      -7.04999999999997,
+      -6.000000000000016,
+      -7.382500000000014,
+      7.04999999999997,
+      6.000000000000005,
+      3.417499999999996
+    ],
+    "geometry_outside_local_3p2x3p2x0p1mm_ROI_valid": true,
+    "outside_ROI_symmetric_difference_volume_mm3": 0.0,
+    "full_valid": true,
+    "body_only_valid": true,
+    "canonical_translation_mm": [
+      0,
+      0,
+      3.8825
+    ]
+  },
+  "pin_section_audit": "tl1100-pin-section-audit.json",
+  "actual_footprint_library": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod",
+  "actual_footprint_sha256": "9ae104db9b135c2044cd747eba60ae3d5b077917c4ba232fb306f6986d62c98a",
+  "reference_poses": [
+    {
+      "reference": "S14",
+      "at_mm_deg": [
+        15.24,
+        -65.786,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S18",
+      "at_mm_deg": [
+        166.243,
+        -38.1,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S21",
+      "at_mm_deg": [
+        118.237,
+        -38.1,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S10",
+      "at_mm_deg": [
+        110.236,
+        -64.262,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S13",
+      "at_mm_deg": [
+        39.243,
+        -64.262,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S25",
+      "at_mm_deg": [
+        47.244,
+        -38.1,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S6",
+      "at_mm_deg": [
+        203.2,
+        -65.786,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S9",
+      "at_mm_deg": [
+        126.238,
+        -64.262,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S26",
+      "at_mm_deg": [
+        31.242,
+        -38.1,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S27",
+      "at_mm_deg": [
+        15.24,
+        -38.1,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S15",
+      "at_mm_deg": [
+        222.25,
+        -39.624,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S24",
+      "at_mm_deg": [
+        70.231,
+        -38.1,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S20",
+      "at_mm_deg": [
+        134.239,
+        -38.1,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S12",
+      "at_mm_deg": [
+        55.1688,
+        -64.3128,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S17",
+      "at_mm_deg": [
+        182.245,
+        -38.1,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S7",
+      "at_mm_deg": [
+        174.244,
+        -64.262,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S16",
+      "at_mm_deg": [
+        203.2,
+        -39.624,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S23",
+      "at_mm_deg": [
+        86.233,
+        -38.1,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S5",
+      "at_mm_deg": [
+        222.25,
+        -65.786,
+        -90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S22",
+      "at_mm_deg": [
+        102.235,
+        -38.1,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S8",
+      "at_mm_deg": [
+        158.242,
+        -64.262,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S19",
+      "at_mm_deg": [
+        150.241,
+        -38.1,
+        90.0
+      ],
+      "side": "B.Cu"
+    },
+    {
+      "reference": "S11",
+      "at_mm_deg": [
+        94.234,
+        -64.262,
+        90.0
+      ],
+      "side": "B.Cu"
+    }
+  ],
+  "source_board_sha256": "b259d30eb19ece610a23ace3da7085f4bb56339a8158c024aa95c92d5b5eeb7d",
+  "source_board_unchanged": true,
+  "source_manufacturer_CAD_unchanged": true,
+  "license": "ManufacturerCAD retainsitsoriginalrights; alignment/repair/reviewcode isCC0-1.0."
+}

@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-14",
+  "units": "mm",
+  "requested_original_bom_url": "https://ladyada.net/make/x0xb0x/fab/parts.html",
+  "original_bom_mirror_url": "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+  "original_bom_mirror_commit": "1910f746d2d8758f2651596b00c08f76c847c926",
+  "scope": "BOM-grounded dimensions for separate Blender presentation controls and connector faces; actual KiCad boards and 425 native model instances untouched.",
+  "parts": {
+    "soft_touch_knob": {
+      "references": [
+        "VR2",
+        "VR3",
+        "VR4",
+        "VR5",
+        "VR6",
+        "VR7",
+        "VR8",
+        "S2"
+      ],
+      "manufacturer": "Eagle Plastic Devices",
+      "manufacturer_part": "450-4760",
+      "dimensions_mm": {
+        "diameter_mm": 13.2,
+        "height_mm": 15.4,
+        "top_diameter_mm": 10.0,
+        "bottom_collar_height_mm": 3.3,
+        "shaft_hole_diameter_mm": 6.0,
+        "pointer_line_width_mm": 1.3,
+        "pointer_radial_projection_mm": 0.8
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.mouser.com/catalog/specsheets/EPD-200220.pdf",
+        "https://eecs.engineering.oregonstate.edu/education/inventory_datasheets/P192-1418768894.pdf"
+      ],
+      "source_kind": "Manufacturer dimension drawing EPD-200220, revised 2008-07-23; public university mirror visually inspected",
+      "limitations": [
+        "Nominal dimensions only. Pointer outline, small radii, bore depth and D-flat geometry may be simplified in a separate presentation model.",
+        "13.2 mm is the circular rubber body diameter; the 0.8 mm pointer protrusion extends outside the body. Current Mouser product metadata rounds overall diameter/height to14/16 mm.",
+        "Original BOM links EPD-200219, which describes450-XX18 T18-shaft knobs; use EPD-200220 because it explicitly lists450-4760 with 6.0 mm D-shaft.",
+        "Height above panel and shaft insertion are not established by the parts list or knob drawing. Full knob height must be retained even when part extends below the panel."
+      ],
+      "body_color": "black",
+      "pointer_color": "white",
+      "local_drawing": "eagle-drawing-university-mirror.pdf",
+      "local_drawing_sha256": "3510fa163e16be6ceb5c1463b57e927a39d4b23c0d23fccbe54712a1411662d6",
+      "diameter_mm": 13.2,
+      "height_mm": 15.4,
+      "top_diameter_mm": 10.0,
+      "bottom_collar_height_mm": 3.3,
+      "shaft_hole_diameter_mm": 6.0,
+      "pointer_line_width_mm": 1.3,
+      "pointer_radial_projection_mm": 0.8
+    },
+    "rotary_knob": {
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "manufacturer": "Davies Molding",
+      "manufacturer_part": "1510AH",
+      "dimensions_mm": {
+        "diameter_mm": 19.05,
+        "height_mm": 14.224,
+        "shaft_hole_diameter_mm": 6.35
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://daviesmolding.com/catalog/series/knobs/control/1510/"
+      ],
+      "source_kind": "Manufacturer product catalog table for 1510AH, current web retrieval",
+      "limitations": [
+        "Manufacturer table dimensions are0.75 in diameter,0.56 in height and0.25 in plain molded shaft hole. Values converted with25.4 mm/in.",
+        "Catalog height is rounded to0.56 in; another distributor description gives9/16 in. Use14.224 mm for traceability to the primary table rather than claiming an exact historical molded-part tolerance.",
+        "Shape detailing, knob seating height and angular pointer position remain a presentation interpretation. No manufacturer CAD downloaded."
+      ],
+      "body_color": "black",
+      "pointer_color": "white",
+      "source_dimensions_in": {
+        "diameter": 0.75,
+        "height": 0.56,
+        "shaft_hole_diameter": 0.25
+      },
+      "diameter_mm": 19.05,
+      "height_mm": 14.224,
+      "shaft_hole_diameter_mm": 6.35
+    },
+    "switch_cap": {
+      "references": [
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "manufacturer": "ITT / C&K",
+      "manufacturer_part": "PE/WHT and PE/BLK (current PE WH and PE BK)",
+      "dimensions_mm": {
+        "width_mm": 5.9,
+        "length_mm": 12.1,
+        "height_mm": 11.0
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.ckswitches.com/media/1343/pva.pdf",
+        "https://www.ckswitches.com/media/1413/pn.pdf"
+      ],
+      "source_kind": "Manufacturer PVA and PN cap drawings; PE rectangular cap callouts",
+      "limitations": [
+        "BOM specifies8 white and15 black caps but gives no per-reference color map. Color placement requires an original assembly photograph/manual; a sorted first-eight assignment is a presentation choice.",
+        "Published11 mm cap height includes the hidden portion. Height above the panel and mounting to the actual TL1100/B3F footprint must remain illustrative.",
+        "The extracted PDF also has a13.7 mm callout with inconsistent inch conversion(.59); it is not used as the cap outer height. PrimaryPE length/width/height are independently corroborated by current distributor part records.",
+        "Concave top and internal snap-fit socket are not fully specified for parametric replication. No manufacturer CAD retrieved.",
+        "Current C&K PVA compatibility documentation is not proof of a verified fit on the historical E-Switch TL1100F160Q switch or actual B3F-40XX board footprint."
+      ],
+      "quantities": {
+        "white": 8,
+        "black": 15
+      },
+      "width_mm": 5.9,
+      "length_mm": 12.1,
+      "height_mm": 11.0
+    },
+    "toggle_lever": {
+      "references": [
+        "S1"
+      ],
+      "manufacturer": "NKK Switches",
+      "manufacturer_part": "B12AB-RO, lever optionA",
+      "dimensions_mm": {
+        "diameter_mm": 2.6,
+        "length_mm": 10.0,
+        "throw_degrees": 26.0
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.nkkswitches.com/pdf/Btoggles.pdf"
+      ],
+      "source_kind": "Manufacturer B-series drawing and ordering table, pagesA14-A15",
+      "limitations": [
+        "Original BOM referenceSW1 corresponds to actual scene S1.",
+        "26 degrees is the manufacturer nominal angle-of-throw callout; use the state orientation only as a visual pose.",
+        "The round10 mm lever is nickel plated brass. B12AB has an unthreaded polymer bushing; no mounting nut or washer is established by this BOM.",
+        "Installed bushing height relative to panel and exact historical package variant remain unverified. No nativeCAD downloaded."
+      ],
+      "material": "nickel plated brass",
+      "original_bom_reference": "SW1",
+      "diameter_mm": 2.6,
+      "length_mm": 10.0,
+      "throw_degrees": 26.0
+    },
+    "audio_jack_hardware": {
+      "references": [
+        "MIXOUT0",
+        "MIXIN0",
+        "HEADPHONE0"
+      ],
+      "manufacturer": "REAN / Neutrik",
+      "manufacturer_part": "NYS216",
+      "dimensions_mm": {
+        "nut_outer_diameter_mm": 17.5,
+        "nut_across_flats_mm": 15.0,
+        "nut_height_mm": 5.0,
+        "washer_outer_diameter_mm": 15.3,
+        "washer_inner_diameter_mm": 11.3,
+        "washer_thickness_mm": 1.2,
+        "bushing_thread_major_diameter_mm": 11.0,
+        "bushing_thread_pitch_mm": 1.25,
+        "nominal_panel_hole_diameter_mm": 11.4
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.rean-connectors.com/media/9014/download/nys-216.pdf?v=1"
+      ],
+      "source_kind": "Manufacturer NYS216 mechanical drawing dated 2015-05-27, visually inspected localPDF/PNG",
+      "limitations": [
+        "Separate exterior hardware illustration only. Existing actual PCB and native models remain unchanged.",
+        "Manufacturer drawing givesPA6+30%GF black nut andABS black washer, not chromed metal hardware.",
+        "Nut scallops, thread form and surface detail may be simplified; nut overall17.5 mm envelope should be preserved.",
+        "The current official drawing does not establish exact historical terminal sections and source pad asymmetries. This exterior illustration does not qualify a full PCB componentCAD model.",
+        "Axial seating order and projection above the original rear panel are scene assumptions unless independently resolved."
+      ],
+      "local_drawing": "../../../validation/models-review-5/connector-models/nys216.pdf",
+      "local_drawing_sha256": "3b41beb12880dae7b02c99e7c3296d22b3ac7eb45e87a7b5b2d194b44ad5fec7",
+      "nut_color": "black",
+      "washer_color": "black",
+      "nut_outer_diameter_mm": 17.5,
+      "nut_across_flats_mm": 15.0,
+      "nut_height_mm": 5.0,
+      "washer_outer_diameter_mm": 15.3,
+      "washer_inner_diameter_mm": 11.3,
+      "washer_thickness_mm": 1.2,
+      "bushing_thread_major_diameter_mm": 11.0,
+      "bushing_thread_pitch_mm": 1.25,
+      "nominal_panel_hole_diameter_mm": 11.4
+    },
+    "mini_audio_jack_face": {
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "manufacturer": "CUI / Same Sky",
+      "manufacturer_part": "MJ-CP3536N / current MJ-3536N",
+      "dimensions_mm": {
+        "bushing_outer_diameter_mm": 6.0,
+        "aperture_diameter_mm": 3.6,
+        "bushing_projection_from_body_mm": 3.0,
+        "body_face_width_mm": 10.0,
+        "body_face_height_mm": 10.0
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.sameskydevices.com/product/resource/mj-3536n.pdf"
+      ],
+      "source_kind": "Official Same Sky MJ-3536N mechanical drawing 2024-09-12, page2, visually inspected localPDF",
+      "limitations": [
+        "Current manufacturer drawing is a close family reference to historical MJ-CP3536N; historical assembly tolerances and installed panel depth remain unverified.",
+        "Current MJ-3536N has documented 2023/2024 reengineering. Do not treat exterior dimensions as proof of exact original connector-body/lead identity.",
+        "Bushing material is nickel plated brass; black housing isPBT. No guessed mounting nut is established by this drawing."
+      ],
+      "local_drawing": "../../../validation/reference-pdfs/mj-3536n.pdf",
+      "local_drawing_sha256": "a4c77489ba69ade644597a2d26770e1144687b1dcbccb4239cdbe685640c6e82",
+      "bushing_outer_diameter_mm": 6.0,
+      "aperture_diameter_mm": 3.6,
+      "bushing_projection_from_body_mm": 3.0,
+      "body_face_width_mm": 10.0,
+      "body_face_height_mm": 10.0
+    },
+    "power_jack_face": {
+      "references": [
+        "POWER0"
+      ],
+      "manufacturer": "CUI / Same Sky",
+      "manufacturer_part": "PJ-202AH",
+      "dimensions_mm": {
+        "body_face_width_mm": 9.0,
+        "body_face_height_mm": 11.0,
+        "aperture_diameter_mm": 6.5,
+        "center_pin_diameter_mm": 2.0,
+        "insertion_depth_mm": 9.0
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.sameskydevices.com/product/resource/pj-202ah.pdf"
+      ],
+      "source_kind": "Official Same Sky PJ-202AH mechanical drawing 2025-07-24, page2, visually inspected localPDF",
+      "limitations": [
+        "BOM describes2.1 mm barrel input; current manufacturerPJ-202AH drawing specifies2.0 mm pin. Use source drawing 2.0 mm for visible pin and record the terminology difference.",
+        "Face rectangle and aperture supported; panel projection, small molded details and body seating remain presentation assumptions.",
+        "This exterior supplement is not a new full thickness qualified PCB model."
+      ],
+      "local_drawing": "../../../validation/reference-pdfs/pj-202ah.pdf",
+      "local_drawing_sha256": "e53de504155bdb8c45b492b5701e69f7f9d36a7947736710bbc55ccaa1efee5f",
+      "body_face_width_mm": 9.0,
+      "body_face_height_mm": 11.0,
+      "aperture_diameter_mm": 6.5,
+      "center_pin_diameter_mm": 2.0,
+      "insertion_depth_mm": 9.0
+    },
+    "din_jack_face": {
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "manufacturer": "CUI / Same Sky",
+      "manufacturer_part": "SDS-50J",
+      "dimensions_mm": {
+        "body_face_width_mm": 20.0,
+        "body_face_height_mm": 21.1,
+        "front_flange_thickness_mm": 1.8,
+        "contact_pitch_circle_diameter_mm": 7.0,
+        "contact_angle_spacing_degrees": 45.0
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.sameskydevices.com/product/resource/sds-j.pdf"
+      ],
+      "source_kind": "Official Same Sky SDS-J mechanical drawing dated 2024-09-12, page 3 SDS-50J lower drawing, visually inspected local PDF",
+      "limitations": [
+        "Original BOM identifies SDS-50J and distributor CP-2350; actual footprint name CP-2350 is an order code, not a different proven geometry.",
+        "The current 2024/2025 manufacturer drawing and PCN show reengineering. Its full body and leads are not qualified as an exact historical component model.",
+        "Body face rectangle is 20x21.1mm and sits behind the panel. Circular mating recess outer diameter is not dimensioned; retain original panel cutout and label any added round face an approximation.",
+        "Diameter 19 mm denotes the mounting circle of three 1.6 mm mounting holes, not the circular mating recess outer diameter.",
+        "Five contacts occupy a 180 degree arc on 7 mm pitch circle. Contact cavity outline, hole diameters and insertion depth remain illustrative.",
+        "The flange is 1.8 mm thick; mounting position relative to rear panel remains an explicit scene assumption."
+      ],
+      "body_face_width_mm": 20.0,
+      "body_face_height_mm": 21.1,
+      "front_flange_thickness_mm": 1.8,
+      "contact_pitch_circle_diameter_mm": 7.0,
+      "contact_angle_spacing_degrees": 45.0,
+      "local_drawing": "sds-j.pdf",
+      "local_drawing_sha256": "bf4a7032ee22b320bc5627c5d6eb331b59e6dc4c7fc618250d52e182ccea1e65"
+    },
+    "usb_face": {
+      "references": [
+        "USB0"
+      ],
+      "manufacturer": "Kobiconn (BOM)",
+      "manufacturer_part": "154-2442-E (BOM); actualboardPN61729",
+      "dimensions_mm": {},
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.mouser.com/catalog/specsheets/KC-301021.pdf"
+      ],
+      "source_kind": "BOM identity only",
+      "limitations": [
+        "Original BOM permits any USB Type B through-hole jack. Actual board footprint PN61729 does not prove Kobiconn part identity.",
+        "No manufacturer drawing downloaded for this increment. Supplemental face geometry remains a presentation proxy sized against exact original DXF cutout."
+      ]
+    }
+  },
+  "identity_mismatches": [
+    {
+      "reference": "S2",
+      "original_bom_part": "CTS 290VAA5F201B2",
+      "actual_footprint_family": "PEC11",
+      "impact": "Do not substitute a CTS body or claim verified mounting fit from the originalBOM. Eagle450-4760 exterior knob is independently specified by BOM."
+    },
+    {
+      "references": [
+        "S5-S27"
+      ],
+      "original_bom_part": "E-Switch TL1100F160Q",
+      "actual_footprint_family": "B3F-40XX",
+      "impact": "Cap identity and exterior dimensions do not qualify native tact-switch body/lead geometry."
+    },
+    {
+      "reference": "USB0",
+      "original_bom_part": "Kobiconn 154-2442-E",
+      "actual_footprint": "PN61729",
+      "impact": "Only generic USB Type B identity supported for separate face proxy."
+    }
+  ],
+  "licensing": {
+    "original_design_credit": "Copyright(c)Limor Fried and Adafruit Industries; original design file MIT license retained at../source/LICENSE-original-design.txt.",
+    "original_parts_page": "Mirrored original HTML retained with source attribution. Do not infer MIT licensing of manufacturer datasheets.",
+    "manufacturer_documents": "Manufacturer drawings remain copyrighted by their respective owners; local copies are source references, not independently licensed CAD."
+  },
+  "common_limitations": [
+    "Published nominal dimensions are not physical measurement or fit certification.",
+    "No changed PCB geometry, narrowed terminals or guessed component body shrinkage.",
+    "Panel projection, knob insertion, switch cap exposure and seating remain explicit presentation assumptions.",
+    "No exact manufacturer 3D CAD assets were recovered in this bounded increment."
+  ]
+}

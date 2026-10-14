@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "family_count": 2,
+  "reference_count": 7,
+  "scope": "Frozen candidate model quality/native appearance review; no actual KiCad/Blender/original asset changes.",
+  "geometry_audit": "geometry-quality-audit.json",
+  "geometry_check_count": 23,
+  "native_audit": "native-quality-audit.json",
+  "native_named_feature_count": 14,
+  "native_maximum_bounds_residual_mm": 0.0003386999934580359,
+  "native_maximum_linear_color_error": 1.4828858085902397e-08,
+  "valid_solids": 21,
+  "faces": 324,
+  "source_availability": "sources/source-availability.json",
+  "correct_Alpha_insulated_primary": "sources/alpha-insulated-rv112b-primary.pdf",
+  "visual_review": {
+    "contact_sheet": "potentiometer-quality-contact-sheet.png",
+    "inspected": true,
+    "finding": "Full shafts and detailed housings inspected in two views per family. Separate molded/wafer/metal parts, flatted shaft tips and source-shaped flanges are clear; no disconnected or clipping artifact remains. Closeup shafts intentionally crop at image top and are labeled.",
+    "renderer": "Standalone Blender factory scene; no delivered scene loaded or saved."
+  },
+  "published_datums": {
+    "Panasonic_EVUF2LFL3_DetailedCandidate": {
+      "housing_width_depth_height_mm": [
+        9.7,
+        12.5,
+        8.5
+      ],
+      "housing_y_min_max_mm": [
+        -6.5,
+        6
+      ],
+      "main_molded_body_width_depth_mm": [
+        8,
+        8
+      ],
+      "sleeve_diameter_projection_mm": [
+        9,
+        5
+      ],
+      "shaft_diameter_mm": 6,
+      "shaft_length_from_front_mm": 21.5,
+      "shaft_tip_z_mm": 30,
+      "flat_length_across_mm": [
+        12,
+        4.5
+      ],
+      "published_tip_chamfer_mm": 1
+    },
+    "Alpha_RV112BCF40_25_DetailedCandidate": {
+      "housing_overall_width_depth_height_mm": [
+        13.6,
+        15.4,
+        6.9
+      ],
+      "main_body_width_mm": 11,
+      "upper_flange_width_mm": 12,
+      "lower_carrier_width_mm": 13,
+      "housing_y_min_max_mm": [
+        -8.7,
+        6.7
+      ],
+      "sleeve_diameter_projection_mm": [
+        7.2,
+        5
+      ],
+      "shaft_diameter_mm": 6,
+      "shaft_tip_z_mm": 25,
+      "selected_current_family_flat_length_mm": 7,
+      "current25A_available_flat_lengths_mm": [
+        7,
+        12
+      ],
+      "shaft_across_flat_mm": 4.5,
+      "published_tip_radial_reduction_mm": 0.5,
+      "unsized_selected_tip_axial_taper_mm": 1.0
+    }
+  },
+  "physical_fit_qualified": false,
+  "limitations": [
+    "Historical Alpha25F mapping to current25A remains unresolved; current25A lists7and12mm flats,7chosen as qualified prior detail.",
+    "Alpha printed2-0.5 tipcallout is two0.5mm radial reductions; axialtaperlength1mm is unsized.",
+    "No recovered manufacturer3DCAD for either family; source-grounded reconstruction with unsized material/molding/wafer/fold/knurl detail explicit.",
+    "All below-seat leads and mounting legs omitted; bodyrearZ0 is existing seating assumption. Full installed fit, actualleadtrim, knobseating and factorytolerances unqualified."
+  ],
+  "original_inputs_unchanged": {
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb": true,
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/ioboard.kicad_pcb": true,
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/EVU.kicad_mod": true,
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/ALPHADUAL.kicad_mod": true,
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision7/control-colors/Panasonic_EVUF2LFL3_BodyIllustration_Colors.step": true,
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision7/control-colors/Alpha_RV112BCF40_25_BodyIllustration_Colors.step": true
+  },
+  "assets": [
+    {
+      "id": "Panasonic_EVUF2LFL3_DetailedCandidate",
+      "step_sha256": "37621a5fac69b737fdee4b5f0d6a4dffa83e97dc64cc3a66021d9ff02af8b381",
+      "stl_sha256": "40fa28229940e0a5641744fc4162cdaf7fe0c4da115e262d1cfddc42cbd6080b",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ]
+    },
+    {
+      "id": "Alpha_RV112BCF40_25_DetailedCandidate",
+      "step_sha256": "15f4f15e36793c0c3e746684357c8dd8269d002d1df7509125e7b2691a253443",
+      "stl_sha256": "68c9a184140f965f23f70d91e928d979dcd6beb02bc68f4c54c1b7a406baa4c4",
+      "references": [
+        "VR4",
+        "VR6"
+      ]
+    }
+  ]
+}

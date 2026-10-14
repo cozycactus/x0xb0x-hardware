@@ -1,0 +1,83 @@
+{
+  "review_complete": true,
+  "source_role_supported": true,
+  "current_scene_is_complete_physical_front_construction": false,
+  "read_only": true,
+  "scene_hash_unchanged": true,
+  "scene": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/visualization/blender-case-revision-6/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "c1e20cbd5971b7f8ddc372cb96c406328d7d49110bdb507f252b142cd18f2ac9",
+  "population": {
+    "native_LED_references": 40,
+    "separate_LED_lens_proxies": 40,
+    "native_tactile_switch_references": 23,
+    "separate_switch_caps": 23
+  },
+  "assembled_results": {
+    "maximum_native_LED_lens_axis_to_DXF_hole_center_error_mm": 3.846914495662026e-05,
+    "maximum_LED_proxy_center_to_DXF_hole_center_error_mm": 2.323219660954526e-05,
+    "native_LED_tip_below_panel_underside_range_mm": [
+      0.22122244536876678,
+      0.2212541103363037
+    ],
+    "native_tip_to_proxy_bottom_normal_gap_range_mm": [
+      1.3180202692747116,
+      1.3180513381958008
+    ],
+    "proxy_LED_tip_above_panel_top_range_mm": [
+      1.7779953624725342,
+      1.7779977466583252
+    ],
+    "minimum_switch_cap_to_DXF_edge_clearance_mm": 0.2249805297851566,
+    "switch_cap_projection_above_panel_range_mm": [
+      2.499997630310059,
+      2.4999985839843752
+    ],
+    "nominal_actuator_tip_into_solid_cap_range_mm": [
+      2.403951644897461,
+      2.403982639312744
+    ]
+  },
+  "attachment_semantics": {
+    "frame_1": "Proxies visually align with original panel holes; native LED body and separate proxy are disconnected.",
+    "frame_80": "All 40 LED lens proxies and 23 caps remain with lifted front panel, while native references move with PCB. This is a presentation error for the physical source construction.",
+    "frame_120": "Panel and front proxies hidden; native board remains visible."
+  },
+  "original_sources": {
+    "sequencer": "https://www.ladyada.net/make/x0xb0x/fab/seq/index.html",
+    "finish": "https://www.ladyada.net/make/x0xb0x/fab/finish/index.html",
+    "parts": "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+    "mirror_commit": "1910f746d2d8758f2651596b00c08f76c847c926",
+    "original_photos_visually_reviewed": [
+      {
+        "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/visualization/blender-case/next-review/ladyada-switchcaps-388601923.jpg",
+        "sha256": "1b2f9df89ddc7e6acc09d0283da9ec6a85fea1a27ba346491437c8995818b692"
+      },
+      {
+        "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/visualization/blender-case/next-review/ladyada-panel-original-388576688.jpg",
+        "sha256": "bc0f1d466cead6971cdcff884b41b282cea4d193691b1c309888be730bc7272e"
+      }
+    ]
+  },
+  "standoff_source_conflict": {
+    "BOM_STD240B_mm": 6.096,
+    "sequencer_table_mm": 5.588,
+    "current_generic_LED_lens_lower_datum_mm": 3.0,
+    "qualified_BOM_body_only_lift_mm": 3.096,
+    "qualified_BOM_tip_above_current_panel_mm": 1.3,
+    "qualified_seq_body_only_lift_mm": 2.588,
+    "qualified_seq_tip_above_current_panel_mm": 0.792,
+    "source_dimensions_applied": false,
+    "whole_LED_translation_rejected_reason": "Whole-model lift also raises cut lead ends above PCB; full-width leads need a continuous installed reconstruction."
+  },
+  "recommendations": [
+    "Use one continuous PCB-mounted LED model per reference, with source-qualified spacer height and unthinned leads, rather than a separate red panel lens proxy.",
+    "Use clear lens appearance with red emitted light as supported by original source photos.",
+    "Keep PCB LEDs and switch caps associated with their PCB references in exploded views.",
+    "Keep original panel holes, board placement, LED polarity and cap opening geometry unchanged. Actual historical LED identity, fitted standoff and cap socket/travel remain qualified."
+  ],
+  "limitations": [
+    "This review measured stable Blender6; later scene7 LED and cap invariance must be independently checked before applying these statements to the delivered later revision.",
+    "Generic LED dimensions are official installed library geometry, not a datasheet for the exact original supplied vendor.",
+    "Cap envelope overlap is not proof of hollow socket snap compatibility, actuator travel or physical tolerance clearance."
+  ]
+}

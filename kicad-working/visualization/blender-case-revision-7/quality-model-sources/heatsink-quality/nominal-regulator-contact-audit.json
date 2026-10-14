@@ -1,0 +1,61 @@
+{
+  "scope": "Exact BRep intersections with unchanged review8 nominal IC20 body-only illustration. Native source placement is retained.",
+  "IC20_source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.step",
+  "IC20_source_sha256": "f65e974128af6b8e5f9f74b815aada33c296f1ae113dac9fc6f7a341599e65a8",
+  "IC20_to_KK1_canonical_translation_mm": [
+    0,
+    -1.27,
+    0
+  ],
+  "coarse_KK1_source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/Aavid_574502B00000G_EnvelopeIllustration.step",
+  "coarse_KK1_solid_count": 3,
+  "coarse_intersection_volume_mm3": 40.92,
+  "new_KK1_solid_count": 1,
+  "new_intersection_volume_mm3": 48.64269307624872,
+  "new_intersection_bounds_mm": [
+    -5.0,
+    -1.27,
+    3.0,
+    5.0,
+    -0.65,
+    18.5
+  ],
+  "minimum_shape_distance_mm": 0.0,
+  "closest_witness_pairs_mm": [
+    [
+      [
+        -5.0,
+        -0.65,
+        12.5
+      ],
+      [
+        -5.0,
+        -0.65,
+        12.5
+      ]
+    ],
+    [
+      [
+        5.0,
+        -0.65,
+        3.0
+      ],
+      [
+        5.0,
+        -0.65,
+        3.0
+      ]
+    ]
+  ],
+  "interpretation": "Published full-size geometry and original native pose are preserved. A nonzero overlap identifies nominal interference; it is not certified elastic spring contact or a fitted regulator seat. No solid was trimmed or shifted around IC20. The nominal regulator is outside the modeled checking channel. This identifies incompatible illustration seating/body mapping; the overlap is not represented as verified elastic spring compression.",
+  "checking_channel_y_interval_mm": [
+    3.94,
+    8.13
+  ],
+  "unchanged_IC20_y_bounds_in_KK1_frame_mm": [
+    -5.105,
+    -0.65
+  ],
+  "interference_regions": "Two front cooling return strips, including their rounded inner ends, at X approximately +/-3.5..5mm. Not restricted to the slender reconstructed spring fingers.",
+  "delta_intersection_volume_mm3": 7.722693076248717
+}

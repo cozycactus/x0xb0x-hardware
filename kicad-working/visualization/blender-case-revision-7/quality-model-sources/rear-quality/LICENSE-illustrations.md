@@ -1,0 +1,1 @@
+Original generated reconstruction geometry and generation/review code are dedicated to the public domain under CC0-1.0. Manufacturer PDF/DXF source documents retain their original rights and are excluded from this dedication.

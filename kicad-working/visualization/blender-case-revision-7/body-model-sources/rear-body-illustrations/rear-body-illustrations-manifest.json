@@ -1,0 +1,1278 @@
+{
+  "schema_version": 1,
+  "units": "mm",
+  "scope": "Separate full body illustrations for all11 rear connector instances. No PCB/GLB/scene edits by generator; body-only STEP assignment recommendations included.",
+  "board_mount_z_mm": 1.595,
+  "footprint_pose_rule": "Root applies T(pcbX,-pcbY,1.595)*Rz(actual angle). STL geometry already uses original footprint(X,-Y,Z-outward).",
+  "parts": [
+    {
+      "id": "sds50j-body",
+      "board": "ioboard",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "filename": "sds50j-body.stl",
+      "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/sds50j-body.stl",
+      "format": "stl",
+      "units": "mm",
+      "classification": "current-family body illustration",
+      "identity": "CUI/Same Sky SDS-50J; historical distributor CP-2350",
+      "role": "housing",
+      "canonical_frame": {
+        "x": "original footprintX",
+        "y": "negative original footprintY",
+        "z": "outward from F.Cu body seating plane",
+        "origin": "original footprintXY origin at nominal body seating plane",
+        "unit": "mm"
+      },
+      "instance_poses": [
+        {
+          "reference": "DIN1",
+          "footprint": "ioboard-import-fps:CP-2350",
+          "pcb_xy_mm": [
+            113.538,
+            0.0
+          ],
+          "angle_degrees": 0,
+          "native_translation_mm": [
+            113.538,
+            -0.0,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 0
+        },
+        {
+          "reference": "DIN2",
+          "footprint": "ioboard-import-fps:CP-2350",
+          "pcb_xy_mm": [
+            135.128,
+            0.0
+          ],
+          "angle_degrees": 0,
+          "native_translation_mm": [
+            135.128,
+            -0.0,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 0
+        },
+        {
+          "reference": "DIN3",
+          "footprint": "ioboard-import-fps:CP-2350",
+          "pcb_xy_mm": [
+            156.718,
+            0.0
+          ],
+          "angle_degrees": 0,
+          "native_translation_mm": [
+            156.718,
+            -0.0,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 0
+        },
+        {
+          "reference": "DIN4",
+          "footprint": "ioboard-import-fps:CP-2350",
+          "pcb_xy_mm": [
+            200.914,
+            0.0
+          ],
+          "angle_degrees": 0,
+          "native_translation_mm": [
+            200.914,
+            -0.0,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 0
+        }
+      ],
+      "body_orientation_offset_override": {
+        "translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions_mm": {
+        "width": 20,
+        "depth_max": 15.8,
+        "height": 21.1,
+        "flange_thickness": 1.8,
+        "body_rear_height": 18,
+        "socket_axis_height": 10,
+        "contact_pcd": 7
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.sameskydevices.com/product/resource/sds-j.pdf"
+      ],
+      "source_ids": [
+        "sds50j"
+      ],
+      "material_suggestion": "black PBT/PE",
+      "color_srgb": [
+        0.035,
+        0.035,
+        0.04,
+        1
+      ],
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Rear cylinder and face recess diameter14.2mm are unsized exterior approximations; printed20x15.8x21.1mm envelope preserved.",
+        "Three1.6mm flange holes use printed19mm mounting circle; this diameter is not mistaken for the mating aperture.",
+        "Five front socket holes are illustrative1.3mm openings on printed7mmPCD; no contact/lead-fit claim."
+      ],
+      "mesh_validation": {
+        "shape_valid": true,
+        "solid_count": 2,
+        "triangles": 4600,
+        "volume_mm3": 3293.419199599818,
+        "bounds_mm": {
+          "min": [
+            -10.0,
+            0.0,
+            0.0
+          ],
+          "max": [
+            10.0,
+            15.8,
+            21.1
+          ]
+        }
+      },
+      "sha256": "50032349e430b98287641da940dbc3f53884466539b2a10a00123f6bd0668349",
+      "step_filename": "sds50j-body.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/sds50j-body.step",
+      "step_sha256": "1d9613baadfe9b8d67ba533b866b92a38be20766893c747852cd6fb6f3a50dc0"
+    },
+    {
+      "id": "mj3536n-housing",
+      "board": "ioboard",
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "filename": "mj3536n-housing.stl",
+      "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/mj3536n-housing.stl",
+      "format": "stl",
+      "units": "mm",
+      "classification": "current-family body illustration",
+      "identity": "Historical MJ-CP3536N; current MJ-3536N reference",
+      "role": "housing",
+      "canonical_frame": {
+        "x": "original footprintX",
+        "y": "negative original footprintY",
+        "z": "outward from F.Cu body seating plane",
+        "origin": "original footprintXY origin at nominal body seating plane",
+        "unit": "mm"
+      },
+      "instance_poses": [
+        {
+          "reference": "CV0",
+          "footprint": "ioboard-import-fps:MJ-3536N",
+          "pcb_xy_mm": [
+            57.912,
+            0.0
+          ],
+          "angle_degrees": 0,
+          "native_translation_mm": [
+            57.912,
+            -0.0,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 0
+        },
+        {
+          "reference": "GATE0",
+          "footprint": "ioboard-import-fps:MJ-3536N",
+          "pcb_xy_mm": [
+            45.212,
+            0.0
+          ],
+          "angle_degrees": 0,
+          "native_translation_mm": [
+            45.212,
+            -0.0,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 0
+        }
+      ],
+      "body_orientation_offset_override": {
+        "translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions_mm": {
+        "body_width": 10,
+        "body_depth": 15.8,
+        "body_height": 10,
+        "socket_axis_height": 5.5
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.sameskydevices.com/product/resource/mj-3536n.pdf"
+      ],
+      "source_ids": [
+        "mj3536n"
+      ],
+      "material_suggestion": "black PBT",
+      "color_srgb": [
+        0.025,
+        0.027,
+        0.03,
+        1
+      ],
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Housing front nominally at canonicalY0, matching historical outline; current family terminal/body offsets not qualified.",
+        "Shallow top recess is generalized; current-family full10x15.8x10mm housing envelope retained."
+      ],
+      "mesh_validation": {
+        "shape_valid": true,
+        "solid_count": 1,
+        "triangles": 448,
+        "volume_mm3": 1391.1428352292394,
+        "bounds_mm": {
+          "min": [
+            -5.0,
+            0.0,
+            0.0
+          ],
+          "max": [
+            5.0,
+            15.8,
+            10.0
+          ]
+        }
+      },
+      "sha256": "da004581c214e4baea9318db63306975759115a1ea066fe9d14575c1ed66679c",
+      "step_filename": "mj3536n-housing.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/mj3536n-housing.step",
+      "step_sha256": "62aaacf9e1be2f51f9a010b4e4e4036231bf87052e292f9e7492d248981e40a0"
+    },
+    {
+      "id": "mj3536n-bushing",
+      "board": "ioboard",
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "filename": "mj3536n-bushing.stl",
+      "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/mj3536n-bushing.stl",
+      "format": "stl",
+      "units": "mm",
+      "classification": "current-family body illustration",
+      "identity": "MJ-3536N nickel plated brass bushing",
+      "role": "bushing",
+      "canonical_frame": {
+        "x": "original footprintX",
+        "y": "negative original footprintY",
+        "z": "outward from F.Cu body seating plane",
+        "origin": "original footprintXY origin at nominal body seating plane",
+        "unit": "mm"
+      },
+      "instance_poses": [
+        {
+          "reference": "CV0",
+          "footprint": "ioboard-import-fps:MJ-3536N",
+          "pcb_xy_mm": [
+            57.912,
+            0.0
+          ],
+          "angle_degrees": 0,
+          "native_translation_mm": [
+            57.912,
+            -0.0,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 0
+        },
+        {
+          "reference": "GATE0",
+          "footprint": "ioboard-import-fps:MJ-3536N",
+          "pcb_xy_mm": [
+            45.212,
+            0.0
+          ],
+          "angle_degrees": 0,
+          "native_translation_mm": [
+            45.212,
+            -0.0,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 0
+        }
+      ],
+      "body_orientation_offset_override": {
+        "translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions_mm": {
+        "outer_diameter": 6,
+        "bore_diameter": 3.6,
+        "projection": 3,
+        "socket_axis_height": 5.5
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.sameskydevices.com/product/resource/mj-3536n.pdf"
+      ],
+      "source_ids": [
+        "mj3536n"
+      ],
+      "material_suggestion": "nickel plated brass",
+      "color_srgb": [
+        0.48,
+        0.5,
+        0.52,
+        1
+      ],
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "No mounting nut implied. Full3mm bushing projection is retained even if scene seating requires review."
+      ],
+      "mesh_validation": {
+        "shape_valid": true,
+        "solid_count": 1,
+        "triangles": 840,
+        "volume_mm3": 54.28672105403163,
+        "bounds_mm": {
+          "min": [
+            -2.9996643054308203,
+            -3.0,
+            2.50134270314949
+          ],
+          "max": [
+            2.9996643054308203,
+            0.0,
+            8.5
+          ]
+        }
+      },
+      "sha256": "37ade03f50163441af98e2daa15eb3b7bf7ed2527530bfb3a49f178e5e7fd546",
+      "step_filename": "mj3536n-bushing.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/mj3536n-bushing.step",
+      "step_sha256": "d3a598d0079b66d56ab46c6de57c2b7616a53170f143f08b37c54bf040613cd7"
+    },
+    {
+      "id": "pj202ah-housing",
+      "board": "ioboard",
+      "references": [
+        "POWER0"
+      ],
+      "filename": "pj202ah-housing.stl",
+      "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/pj202ah-housing.stl",
+      "format": "stl",
+      "units": "mm",
+      "classification": "current-family body illustration",
+      "identity": "CUI/Same Sky PJ-202AH",
+      "role": "housing",
+      "canonical_frame": {
+        "x": "original footprintX",
+        "y": "negative original footprintY",
+        "z": "outward from F.Cu body seating plane",
+        "origin": "original footprintXY origin at nominal body seating plane",
+        "unit": "mm"
+      },
+      "instance_poses": [
+        {
+          "reference": "POWER0",
+          "footprint": "ioboard-import-fps:PJ-202AH",
+          "pcb_xy_mm": [
+            8.636,
+            2.794
+          ],
+          "angle_degrees": 180.0,
+          "native_translation_mm": [
+            8.636,
+            -2.794,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 180.0
+        }
+      ],
+      "body_orientation_offset_override": {
+        "translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions_mm": {
+        "width": 9,
+        "depth": 14.4,
+        "height": 11,
+        "socket_axis_height": 6.5,
+        "bore_diameter": 6.5,
+        "insertion_depth": 9
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.sameskydevices.com/product/resource/pj-202ah.pdf"
+      ],
+      "source_ids": [
+        "pj202ah"
+      ],
+      "material_suggestion": "black PBT",
+      "color_srgb": [
+        0.025,
+        0.027,
+        0.03,
+        1
+      ],
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Canonical body extends toward negativeY because the original footprint body is drawn in positiveKiCadY; actualPOWER0 angle180 must be applied.",
+        "Rounded rear cover geometry generalized within full9x14.4x11mm envelope."
+      ],
+      "mesh_validation": {
+        "shape_valid": true,
+        "solid_count": 1,
+        "triangles": 652,
+        "volume_mm3": 1032.2163675999238,
+        "bounds_mm": {
+          "min": [
+            -4.5,
+            -14.4,
+            0.0
+          ],
+          "max": [
+            4.5,
+            0.0,
+            11.0
+          ]
+        }
+      },
+      "sha256": "c4f901195d3259d0c42241426e1399f5ed70684d0d6565ee30660aea859ba6b0",
+      "step_filename": "pj202ah-housing.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/pj202ah-housing.step",
+      "step_sha256": "a4218a96347e9bde6c02e8d90a6c61b2d102a7525e415ea04120c2680ba5f843"
+    },
+    {
+      "id": "pj202ah-center-pin",
+      "board": "ioboard",
+      "references": [
+        "POWER0"
+      ],
+      "filename": "pj202ah-center-pin.stl",
+      "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/pj202ah-center-pin.stl",
+      "format": "stl",
+      "units": "mm",
+      "classification": "current-family body illustration",
+      "identity": "PJ-202AH center pin",
+      "role": "center pin",
+      "canonical_frame": {
+        "x": "original footprintX",
+        "y": "negative original footprintY",
+        "z": "outward from F.Cu body seating plane",
+        "origin": "original footprintXY origin at nominal body seating plane",
+        "unit": "mm"
+      },
+      "instance_poses": [
+        {
+          "reference": "POWER0",
+          "footprint": "ioboard-import-fps:PJ-202AH",
+          "pcb_xy_mm": [
+            8.636,
+            2.794
+          ],
+          "angle_degrees": 180.0,
+          "native_translation_mm": [
+            8.636,
+            -2.794,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 180.0
+        }
+      ],
+      "body_orientation_offset_override": {
+        "translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions_mm": {
+        "pin_diameter": 2,
+        "illustrative_visible_length": 7.8,
+        "socket_axis_height": 6.5
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.sameskydevices.com/product/resource/pj-202ah.pdf"
+      ],
+      "source_ids": [
+        "pj202ah"
+      ],
+      "material_suggestion": "nickel plated copper",
+      "color_srgb": [
+        0.52,
+        0.54,
+        0.56,
+        1
+      ],
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "2mm pin diameter is printed; axial start/end are an illustration of the9mm insertion cavity, not mechanical tolerances."
+      ],
+      "mesh_validation": {
+        "shape_valid": true,
+        "solid_count": 1,
+        "triangles": 416,
+        "volume_mm3": 24.504422698000383,
+        "bounds_mm": {
+          "min": [
+            -0.9998881018102734,
+            -8.9,
+            5.5
+          ],
+          "max": [
+            0.9998881018102734,
+            -1.1,
+            7.499552432283504
+          ]
+        }
+      },
+      "sha256": "1ec2edb441fb71dd38ab2cadcc174bc19d6a63b9d66998041c7faa661a81ec08",
+      "step_filename": "pj202ah-center-pin.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/pj202ah-center-pin.step",
+      "step_sha256": "0b50b31cd6be24421eca2ea11a9e0eed012cd84f28af95995728f24c2febb458"
+    },
+    {
+      "id": "nys216-body",
+      "board": "ioboard",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "filename": "nys216-body.stl",
+      "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/nys216-body.stl",
+      "format": "stl",
+      "units": "mm",
+      "classification": "current-family body illustration",
+      "identity": "REAN/Neutrik NYS216 current family",
+      "role": "housing",
+      "canonical_frame": {
+        "x": "original footprintX",
+        "y": "negative original footprintY",
+        "z": "outward from F.Cu body seating plane",
+        "origin": "original footprintXY origin at nominal body seating plane",
+        "unit": "mm"
+      },
+      "instance_poses": [
+        {
+          "reference": "HEADPHONE0",
+          "footprint": "ioboard-import-fps:REAN_1_4STERO",
+          "pcb_xy_mm": [
+            26.67,
+            0.508
+          ],
+          "angle_degrees": 0,
+          "native_translation_mm": [
+            26.67,
+            -0.508,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 0
+        },
+        {
+          "reference": "MIXIN0",
+          "footprint": "ioboard-import-fps:REAN_1_4STERO",
+          "pcb_xy_mm": [
+            178.816,
+            0.508
+          ],
+          "angle_degrees": 0,
+          "native_translation_mm": [
+            178.816,
+            -0.508,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 0
+        },
+        {
+          "reference": "MIXOUT0",
+          "footprint": "ioboard-import-fps:REAN_1_4STERO",
+          "pcb_xy_mm": [
+            91.44,
+            0.508
+          ],
+          "angle_degrees": 0,
+          "native_translation_mm": [
+            91.44,
+            -0.508,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 0
+        }
+      ],
+      "body_orientation_offset_override": {
+        "translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions_mm": {
+        "body_width": 20,
+        "body_height_max": 16.5,
+        "body_depth_to_shoulder": 24.5,
+        "front_bushing_projection": 8.5,
+        "overall_depth": 33,
+        "bushing_major_diameter": 11,
+        "socket_axis_height": 8
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.rean-connectors.com/media/9014/download/nys-216.pdf?v=1"
+      ],
+      "source_ids": [
+        "nys216"
+      ],
+      "material_suggestion": "black PA6 +30percentGF",
+      "color_srgb": [
+        0.035,
+        0.035,
+        0.037,
+        1
+      ],
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Full33mm overall axial length retained:24.5mm rear housing plus8.5mm bushing.",
+        "Current drawing also shows15.5mm side height; this illustration conservatively preserves16.5mm maximum front housing envelope.",
+        "Top slots and6.4mm bore are generalized. Nut/washer are omitted because exterior hardware is a separate existing scene illustration.",
+        "Historical asymmetric pad rows and current lead offsets are intentionally not represented."
+      ],
+      "mesh_validation": {
+        "shape_valid": true,
+        "solid_count": 1,
+        "triangles": 900,
+        "volume_mm3": 7792.360096658437,
+        "bounds_mm": {
+          "min": [
+            -10.0,
+            -8.5,
+            0.0
+          ],
+          "max": [
+            10.0,
+            24.5,
+            16.5
+          ]
+        }
+      },
+      "sha256": "25cd1fe1c0c2a720d70d95861f3b589918bb72537720d0ba923ca3d1fcfccf76",
+      "step_filename": "nys216-body.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/nys216-body.step",
+      "step_sha256": "9f698cb30fc2178876307c4269650ad7ddcaf63a33daf012004236a247ff25b4"
+    },
+    {
+      "id": "usb-typeb-shell",
+      "board": "ioboard",
+      "references": [
+        "USB0"
+      ],
+      "filename": "usb-typeb-shell.stl",
+      "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/usb-typeb-shell.stl",
+      "format": "stl",
+      "units": "mm",
+      "classification": "generic BOM-family body illustration; PN61729 fit unqualified",
+      "identity": "Generic USB-B / original BOM Kobiconn154-2442-E",
+      "role": "metal shell",
+      "canonical_frame": {
+        "x": "original footprintX",
+        "y": "negative original footprintY",
+        "z": "outward from F.Cu body seating plane",
+        "origin": "original footprintXY origin at nominal body seating plane",
+        "unit": "mm"
+      },
+      "instance_poses": [
+        {
+          "reference": "USB0",
+          "footprint": "ioboard-import-fps:PN61729",
+          "pcb_xy_mm": [
+            71.628,
+            2.794
+          ],
+          "angle_degrees": 0,
+          "native_translation_mm": [
+            71.628,
+            -2.794,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 0
+        }
+      ],
+      "body_orientation_offset_override": {
+        "translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions_mm": {
+        "width": 12.04,
+        "depth": 16,
+        "height": 10.62,
+        "aperture_width": 8.45,
+        "aperture_height": 7.78
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.mouser.com/catalog/specsheets/KC-301021.pdf"
+      ],
+      "source_ids": [
+        "usb-bom-web-text"
+      ],
+      "material_suggestion": "tin plated copper alloy",
+      "color_srgb": [
+        0.55,
+        0.57,
+        0.6,
+        1
+      ],
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Generic TypeB body using originalBOM Kobiconn154-2442-E dimensions, not an exactPN61729 asset.",
+        "BOM drawing envelope12.04x16.00x10.62mm and aperture7.78x8.45mm were recovered as primaryPDF text viaweb/Firecrawl; localdownload returnedHTML access page.",
+        "Nominal0.38mm shell gauge, chamfer outline, tongue and internal seating are illustrative; no lead compatibility asserted."
+      ],
+      "mesh_validation": {
+        "shape_valid": true,
+        "solid_count": 1,
+        "triangles": 52,
+        "volume_mm3": 330.58424000000065,
+        "bounds_mm": {
+          "min": [
+            -6.02,
+            0.0,
+            0.0
+          ],
+          "max": [
+            6.02,
+            16.0,
+            10.62
+          ]
+        }
+      },
+      "sha256": "2ed0d8b29eca1cee52997090b1b3ff896725e45dc0a010c44258a1ed582fadd2",
+      "step_filename": "usb-typeb-shell.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/usb-typeb-shell.step",
+      "step_sha256": "b6d2b3f8956785033a50ff7262ec21ee0e709d1f8ba1cbb37bca01f3f8caa8f8"
+    },
+    {
+      "id": "usb-typeb-insulator",
+      "board": "ioboard",
+      "references": [
+        "USB0"
+      ],
+      "filename": "usb-typeb-insulator.stl",
+      "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/usb-typeb-insulator.stl",
+      "format": "stl",
+      "units": "mm",
+      "classification": "generic BOM-family body illustration; internal shape approximate",
+      "identity": "Generic USB-B white insulator",
+      "role": "insulator",
+      "canonical_frame": {
+        "x": "original footprintX",
+        "y": "negative original footprintY",
+        "z": "outward from F.Cu body seating plane",
+        "origin": "original footprintXY origin at nominal body seating plane",
+        "unit": "mm"
+      },
+      "instance_poses": [
+        {
+          "reference": "USB0",
+          "footprint": "ioboard-import-fps:PN61729",
+          "pcb_xy_mm": [
+            71.628,
+            2.794
+          ],
+          "angle_degrees": 0,
+          "native_translation_mm": [
+            71.628,
+            -2.794,
+            1.595
+          ],
+          "native_rotation_about_z_degrees": 0
+        }
+      ],
+      "body_orientation_offset_override": {
+        "translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "dimensions_mm": {
+        "body_envelope_width": 12.04,
+        "body_envelope_depth": 16,
+        "body_envelope_height": 10.62,
+        "internal_shape": "generalized"
+      },
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.mouser.com/catalog/specsheets/KC-301021.pdf"
+      ],
+      "source_ids": [
+        "usb-bom-web-text"
+      ],
+      "material_suggestion": "white glass-filled PBT",
+      "color_srgb": [
+        0.82,
+        0.82,
+        0.76,
+        1
+      ],
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Generic TypeB body using originalBOM Kobiconn154-2442-E dimensions, not an exactPN61729 asset.",
+        "BOM drawing envelope12.04x16.00x10.62mm and aperture7.78x8.45mm were recovered as primaryPDF text viaweb/Firecrawl; localdownload returnedHTML access page.",
+        "Nominal0.38mm shell gauge, chamfer outline, tongue and internal seating are illustrative; no lead compatibility asserted."
+      ],
+      "mesh_validation": {
+        "shape_valid": true,
+        "solid_count": 1,
+        "triangles": 52,
+        "volume_mm3": 1100.2043299999996,
+        "bounds_mm": {
+          "min": [
+            -5.569999999999999,
+            1.2,
+            0.45
+          ],
+          "max": [
+            5.569999999999999,
+            15.6,
+            10.169999999999998
+          ]
+        }
+      },
+      "sha256": "9c228875abc2a26d2c3c13e0d6b23fefe006f21805cad17e2ea176b8f0416b44",
+      "step_filename": "usb-typeb-insulator.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/usb-typeb-insulator.step",
+      "step_sha256": "f8acc31cc70a77d416377bffa84a603273e81440576340a85b31b84c8a95b19b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "mj3536n",
+      "filename": "source/mj3536n.pdf",
+      "sha256": "a4c77489ba69ade644597a2d26770e1144687b1dcbccb4239cdbe685640c6e82",
+      "bytes": 279558
+    },
+    {
+      "id": "pj202ah",
+      "filename": "source/pj202ah.pdf",
+      "sha256": "e53de504155bdb8c45b492b5701e69f7f9d36a7947736710bbc55ccaa1efee5f",
+      "bytes": 285891
+    },
+    {
+      "id": "sds50j",
+      "filename": "source/sds50j.pdf",
+      "sha256": "bf4a7032ee22b320bc5627c5d6eb331b59e6dc4c7fc618250d52e182ccea1e65",
+      "bytes": 458320
+    },
+    {
+      "id": "nys216",
+      "filename": "source/nys216.pdf",
+      "sha256": "3b41beb12880dae7b02c99e7c3296d22b3ac7eb45e87a7b5b2d194b44ad5fec7",
+      "bytes": 138690
+    },
+    {
+      "id": "usb-bom-web-text",
+      "filename": "source/kc-301021-web-extract.json",
+      "url": "https://www.mouser.com/catalog/specsheets/KC-301021.pdf",
+      "sha256": "fa3a5d92160d619f95c41bed935a054dd9d54e919432557842b75003633b12ca",
+      "bytes": 744,
+      "retrieval": "indexed primaryPDFtext; localPDFbinary not recovered"
+    }
+  ],
+  "PCB_source_sha256": "33165521e8ba18bda663e633594cbefefea4a9e43fee5a7ac4a513d1486c7974",
+  "unique_reference_count": 11,
+  "body_only": true,
+  "physical_fit_qualified": false,
+  "replace_or_dedupe_existing_face_proxies": "These assets include the housing front/bushing. Existing rearface presentation proxies can overlap; root should hide corresponding duplicate face disks/bushings while retaining separately illustratedNYS nuts/washers if desired.",
+  "assignments": [
+    {
+      "board": "ioboard",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "footprint": "CP-2350",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/SDS50J-body-illustration.step",
+      "source_sha256": "05a7bb977ace0cfe47f532cc3bf7573f88b5a9db197a855eb672071956a81c31",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Parametric nominal body illustration reconstructed from originalBOM/current manufacturer drawings; no terminals or locators",
+      "classification": "body-only visual illustration; terminals and locators omitted, not fit qualified",
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Rear cylinder and face recess diameter14.2mm are unsized exterior approximations; printed20x15.8x21.1mm envelope preserved.",
+        "Three1.6mm flange holes use printed19mm mounting circle; this diameter is not mistaken for the mating aperture.",
+        "Five front socket holes are illustrative1.3mm openings on printed7mmPCD; no contact/lead-fit claim."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.sameskydevices.com/product/resource/sds-j.pdf"
+      ],
+      "canonical_frame": {
+        "x": "original footprintX",
+        "y": "negative original footprintY",
+        "z": "outward from F.Cu body seating plane",
+        "origin": "original footprintXY origin at nominal body seating plane",
+        "unit": "mm"
+      },
+      "part_ids": [
+        "sds50j-body"
+      ],
+      "color_entities": "AP214 styled solid colors; BRep geometry round-trip valid",
+      "solid_count": 2
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "footprint": "MJ-3536N",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/MJ3536N-body-illustration.step",
+      "source_sha256": "d82b0f5a71eae36fc7b1a3ceb3772a899549606cc427f84e57e080b66def1d6a",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Parametric nominal body illustration reconstructed from originalBOM/current manufacturer drawings; no terminals or locators",
+      "classification": "body-only visual illustration; terminals and locators omitted, not fit qualified",
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Housing front nominally at canonicalY0, matching historical outline; current family terminal/body offsets not qualified.",
+        "Shallow top recess is generalized; current-family full10x15.8x10mm housing envelope retained.",
+        "No mounting nut implied. Full3mm bushing projection is retained even if scene seating requires review."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.sameskydevices.com/product/resource/mj-3536n.pdf"
+      ],
+      "canonical_frame": {
+        "x": "original footprintX",
+        "y": "negative original footprintY",
+        "z": "outward from F.Cu body seating plane",
+        "origin": "original footprintXY origin at nominal body seating plane",
+        "unit": "mm"
+      },
+      "part_ids": [
+        "mj3536n-housing",
+        "mj3536n-bushing"
+      ],
+      "color_entities": "AP214 styled solid colors; BRep geometry round-trip valid",
+      "solid_count": 2
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "POWER0"
+      ],
+      "footprint": "PJ-202AH",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/PJ202AH-body-illustration.step",
+      "source_sha256": "7baa377ffaf50a4f81eb2de4fe964d550d0d6cf4478abe60a6261dc1d76a717b",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Parametric nominal body illustration reconstructed from originalBOM/current manufacturer drawings; no terminals or locators",
+      "classification": "body-only visual illustration; terminals and locators omitted, not fit qualified",
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Canonical body extends toward negativeY because the original footprint body is drawn in positiveKiCadY; actualPOWER0 angle180 must be applied.",
+        "Rounded rear cover geometry generalized within full9x14.4x11mm envelope.",
+        "2mm pin diameter is printed; axial start/end are an illustration of the9mm insertion cavity, not mechanical tolerances."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.sameskydevices.com/product/resource/pj-202ah.pdf"
+      ],
+      "canonical_frame": {
+        "x": "original footprintX",
+        "y": "negative original footprintY",
+        "z": "outward from F.Cu body seating plane",
+        "origin": "original footprintXY origin at nominal body seating plane",
+        "unit": "mm"
+      },
+      "part_ids": [
+        "pj202ah-housing",
+        "pj202ah-center-pin"
+      ],
+      "color_entities": "AP214 styled solid colors; BRep geometry round-trip valid",
+      "solid_count": 2
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "footprint": "REAN_1_4STERO",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/NYS216-body-illustration.step",
+      "source_sha256": "1354dbc753aa549bbb87d0524ebddedab9d305db2d015c415bd4c3ae5b36c619",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Parametric nominal body illustration reconstructed from originalBOM/current manufacturer drawings; no terminals or locators",
+      "classification": "body-only visual illustration; terminals and locators omitted, not fit qualified",
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Full33mm overall axial length retained:24.5mm rear housing plus8.5mm bushing.",
+        "Current drawing also shows15.5mm side height; this illustration conservatively preserves16.5mm maximum front housing envelope.",
+        "Top slots and6.4mm bore are generalized. Nut/washer are omitted because exterior hardware is a separate existing scene illustration.",
+        "Historical asymmetric pad rows and current lead offsets are intentionally not represented."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.rean-connectors.com/media/9014/download/nys-216.pdf?v=1"
+      ],
+      "canonical_frame": {
+        "x": "original footprintX",
+        "y": "negative original footprintY",
+        "z": "outward from F.Cu body seating plane",
+        "origin": "original footprintXY origin at nominal body seating plane",
+        "unit": "mm"
+      },
+      "part_ids": [
+        "nys216-body"
+      ],
+      "color_entities": "AP214 styled solid colors; BRep geometry round-trip valid",
+      "solid_count": 1
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "USB0"
+      ],
+      "footprint": "PN61729",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/USB_TypeB-body-illustration.step",
+      "source_sha256": "5d7b59c38b09bdaca1159baf92438a00587a3cefd0af5855a874abdc8029fb90",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Parametric nominal body illustration reconstructed from originalBOM/current manufacturer drawings; no terminals or locators",
+      "classification": "body-only visual illustration; terminals and locators omitted, not fit qualified",
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Generic TypeB body using originalBOM Kobiconn154-2442-E dimensions, not an exactPN61729 asset.",
+        "BOM drawing envelope12.04x16.00x10.62mm and aperture7.78x8.45mm were recovered as primaryPDF text viaweb/Firecrawl; localdownload returnedHTML access page.",
+        "Nominal0.38mm shell gauge, chamfer outline, tongue and internal seating are illustrative; no lead compatibility asserted."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.mouser.com/catalog/specsheets/KC-301021.pdf"
+      ],
+      "canonical_frame": {
+        "x": "original footprintX",
+        "y": "negative original footprintY",
+        "z": "outward from F.Cu body seating plane",
+        "origin": "original footprintXY origin at nominal body seating plane",
+        "unit": "mm"
+      },
+      "part_ids": [
+        "usb-typeb-shell",
+        "usb-typeb-insulator"
+      ],
+      "color_entities": "AP214 styled solid colors; BRep geometry round-trip valid",
+      "solid_count": 2
+    }
+  ]
+}

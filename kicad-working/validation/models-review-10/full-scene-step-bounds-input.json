@@ -1,0 +1,1261 @@
+{
+  "method": "Fresh read-only FreeCAD Part.Shape.read of frozen source STEP. Exact trimmed BRep bounds taken with optimalBoundingBox before tessellation; mm.",
+  "records": [
+    {
+      "family": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step",
+      "source_sha256": "57572d2c7c441f7c83c0bf4c281866def4e4d5b5639d05f805596d090a09f555",
+      "expected_sha256": "57572d2c7c441f7c83c0bf4c281866def4e4d5b5639d05f805596d090a09f555",
+      "source_hash_unchanged": true,
+      "board": "ioboard",
+      "references": [
+        "IC20"
+      ],
+      "exact_STEP_bounds_mm": [
+        -5.0,
+        3.0,
+        1.3799999999999997,
+        5.0,
+        18.5,
+        5.835000000000001
+      ],
+      "valid": true,
+      "solid_count": 2,
+      "face_count": 13,
+      "volume_mm3": 486.0634828602392,
+      "all_solids_valid_positive_volume": true,
+      "assignment_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "assignment_scale": [
+        1,
+        1,
+        1
+      ],
+      "assignment_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "actual_native_assignments": [
+        {
+          "reference": "IC20",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/3dmodels/Revision10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step",
+          "actual_model_sha256": "57572d2c7c441f7c83c0bf4c281866def4e4d5b5639d05f805596d090a09f555",
+          "offset_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "passed": true
+        }
+      ],
+      "actual_PCB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/ioboard.kicad_pcb",
+      "actual_PCB_sha256": "fae5554526eb936a04c0d7de76ef50d5a69ef82ee9a48d6918db0844276dc351",
+      "limitations": [
+        "Original author assembly instruction explicitly says to bend IC20 back before fitting the heatsink; the original place/soldered/measure photos show the body and tab approximately parallel to the PCB and extending beyond its edge.",
+        "The exact 90 degree angle, bend datum and 2.0 mm vertical placement are illustration assumptions, not measurements from the photograph or a manufacturer formed-lead specification.",
+        "All IC20 leads remain omitted. The prior nominal published lead width/hole fit was unresolved; no terminals were thinned, displaced or invented to conceal it.",
+        "The paired seat uses source-consistent through-hole and contact-plane alignment, inherited from the nominal generic TO220 body. Actual original regulator vendor/suffix, lead forming, cut lengths and installed seat require physical confirmation.",
+        "The complete revision 9 heatsink is only rigidly rotated and translated. No fold, spring finger, wall, source envelope or neighboring component is trimmed or shrunk.",
+        "Free-state reconstructed spring fingers retain a nominal 1.729422 mm3 regulator intersection. This is a documented geometric overlap, not a simulation or certification of elastic clamping, contact force or thermal performance.",
+        "Case placement, board seat and neighboring package models remain qualified visual geometry. A clear surface screen does not establish tolerance or physical fit."
+      ]
+    },
+    {
+      "family": "Aavid_574502B00000G_BentBack_PhotoQualified",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/heatsink-fit-research/Aavid_574502B00000G_BentBack_PhotoQualified.step",
+      "source_sha256": "c52b9aed6d3145861dde7c39389c46e2efe0853e84373eb84f299e2691d7fea9",
+      "expected_sha256": "c52b9aed6d3145861dde7c39389c46e2efe0853e84373eb84f299e2691d7fea9",
+      "source_hash_unchanged": true,
+      "board": "ioboard",
+      "references": [
+        "KK1"
+      ],
+      "exact_STEP_bounds_mm": [
+        -10.920000100000001,
+        2.629999899999999,
+        0.7499999,
+        10.920000100000001,
+        21.6800001,
+        10.7800001
+      ],
+      "valid": true,
+      "solid_count": 1,
+      "face_count": 86,
+      "volume_mm3": 797.0774096350162,
+      "all_solids_valid_positive_volume": true,
+      "assignment_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "assignment_scale": [
+        1,
+        1,
+        1
+      ],
+      "assignment_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "actual_native_assignments": [
+        {
+          "reference": "KK1",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/3dmodels/Revision10/heatsink-fit-research/Aavid_574502B00000G_BentBack_PhotoQualified.step",
+          "actual_model_sha256": "c52b9aed6d3145861dde7c39389c46e2efe0853e84373eb84f299e2691d7fea9",
+          "offset_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "passed": true
+        }
+      ],
+      "actual_PCB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/ioboard.kicad_pcb",
+      "actual_PCB_sha256": "fae5554526eb936a04c0d7de76ef50d5a69ef82ee9a48d6918db0844276dc351",
+      "limitations": [
+        "Original author assembly instruction explicitly says to bend IC20 back before fitting the heatsink; the original place/soldered/measure photos show the body and tab approximately parallel to the PCB and extending beyond its edge.",
+        "The exact 90 degree angle, bend datum and 2.0 mm vertical placement are illustration assumptions, not measurements from the photograph or a manufacturer formed-lead specification.",
+        "All IC20 leads remain omitted. The prior nominal published lead width/hole fit was unresolved; no terminals were thinned, displaced or invented to conceal it.",
+        "The paired seat uses source-consistent through-hole and contact-plane alignment, inherited from the nominal generic TO220 body. Actual original regulator vendor/suffix, lead forming, cut lengths and installed seat require physical confirmation.",
+        "The complete revision 9 heatsink is only rigidly rotated and translated. No fold, spring finger, wall, source envelope or neighboring component is trimmed or shrunk.",
+        "Free-state reconstructed spring fingers retain a nominal 1.729422 mm3 regulator intersection. This is a documented geometric overlap, not a simulation or certification of elastic clamping, contact force or thermal performance.",
+        "Case placement, board seat and neighboring package models remain qualified visual geometry. A clear surface screen does not establish tolerance or physical fit."
+      ]
+    },
+    {
+      "family": "MJ3536N_DrawingDerived_DetailedBody",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+      "source_sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+      "expected_sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+      "source_hash_unchanged": true,
+      "board": "ioboard",
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "exact_STEP_bounds_mm": [
+        -5.0,
+        -3.0,
+        0.0,
+        5.0,
+        15.8,
+        10.0
+      ],
+      "valid": true,
+      "solid_count": 5,
+      "face_count": 57,
+      "volume_mm3": 1133.1234613429533,
+      "all_solids_valid_positive_volume": true,
+      "assignment_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "assignment_scale": [
+        1,
+        1,
+        1
+      ],
+      "assignment_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "actual_native_assignments": [
+        {
+          "reference": "CV0",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/3dmodels/Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+          "actual_model_sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+          "offset_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "GATE0",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/3dmodels/Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+          "actual_model_sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+          "offset_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "passed": true
+        }
+      ],
+      "actual_PCB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/ioboard.kicad_pcb",
+      "actual_PCB_sha256": "fae5554526eb936a04c0d7de76ef50d5a69ef82ee9a48d6918db0844276dc351",
+      "limitations": [
+        "Original independent parameterized reconstruction from primary manufacturer drawings, not redistributed manufacturer CAD.",
+        "Published nominal envelopes/apertures retained at unity scale. Original canonical front/body-seat datum, offset0, rotation0 and native footprint pose are preserved.",
+        "Below-seat terminals, solder lugs and locators are omitted. These candidates do not demonstrate PCB lead fit or installed seating.",
+        "Roof slopes, recess/slot positions, cover seams, contact-arch/leaf/ring shapes and stock gauges are unsized visual interpretations within the printed envelopes; no tolerance or electrical-contact qualification.",
+        "Exact historical supplied revision, mold, plating and physical fit remain unverified. Contemporary datasheets are references for a family illustration.",
+        "2010 revisionB and2020 revision1.02 dimension-lines imply nominal terminal positions(0,2.3),(0,16),(5.2,13.5), consistent with the current drawing; 11.2 is terminal1-to-terminal3, not terminal1-to-terminal2.",
+        "The source records reengineering in2023 and2024. Equal printed nominal dimensions do not prove unchanged mold or terminal tolerances.",
+        "Original PCB rounddrills2.54 and slightly displaced center positions differ from manufacturer slotted-hole recommendations; no leads were narrowed or shifted to fit.",
+        "No nut or thread is added: MJ-3536N is the nonthreaded6mm-bushing family, distinct from threaded sibling variants.",
+        "Roof height7.5, slope breakpoints2.3/10.0, recessed window7.1wide, contactstock0.27/0.30 and14.1mm internal bore depth are visual assumptions, not manufacturer callouts."
+      ]
+    },
+    {
+      "family": "PJ202AH_DrawingDerived_DetailedBody_Corrected",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+      "source_sha256": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+      "expected_sha256": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+      "source_hash_unchanged": true,
+      "board": "ioboard",
+      "references": [
+        "POWER0"
+      ],
+      "exact_STEP_bounds_mm": [
+        -4.5,
+        -14.4,
+        0.0,
+        4.5,
+        0.0,
+        11.0
+      ],
+      "valid": true,
+      "solid_count": 5,
+      "face_count": 50,
+      "volume_mm3": 1048.6355538087932,
+      "all_solids_valid_positive_volume": true,
+      "assignment_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "assignment_scale": [
+        1,
+        1,
+        1
+      ],
+      "assignment_rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "actual_native_assignments": [
+        {
+          "reference": "POWER0",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/3dmodels/Revision10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+          "actual_model_sha256": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+          "offset_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "passed": true
+        }
+      ],
+      "actual_PCB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/ioboard.kicad_pcb",
+      "actual_PCB_sha256": "fae5554526eb936a04c0d7de76ef50d5a69ef82ee9a48d6918db0844276dc351",
+      "limitations": [
+        "Original independent parameterized reconstruction from primary manufacturer drawings, not redistributed manufacturer CAD.",
+        "Published nominal envelopes/apertures retained at unity scale. Original canonical front/body-seat datum, offset0, rotation0 and native footprint pose are preserved.",
+        "Below-seat terminals, solder lugs and locators are omitted. These candidates do not demonstrate PCB lead fit or installed seating.",
+        "Roof slopes, recess/slot positions, cover seams, contact-arch/leaf/ring shapes and stock gauges are unsized visual interpretations within the printed envelopes; no tolerance or electrical-contact qualification.",
+        "Exact historical supplied revision, mold, plating and physical fit remain unverified. Contemporary datasheets are references for a family illustration.",
+        "The recovered2015 revision1.01 and current2025 revision1.05 retain printed9x14.4x11mm, axis6.5, bore6.5, pin2.0 and terminalspacing nominal dimensions; the current drawing adds finer views/tolerances.",
+        "Nominal terminal3 width3.0 exceeds original P$3 rounddrill2.8 before considering gauge, forming or offset; manufacturer recommends a3.0x1.0 slot. Terminals are omitted rather than thinned.",
+        "Rearcover thickness0.7, retention cutout dimensions, cavity ring0.32stock, rounded pin nose and spring dimensions are unsized illustration choices.",
+        "OriginalPOWER0 placementangle180 is external to this canonical asset; no mirror, scale or boardtranslation is baked into the model.",
+        "Removed rear plastic recess: manufacturer \u00d81.5 callout is a terminal eye, not a molded cover hole. Below-seat terminal geometry remains omitted."
+      ]
+    },
+    {
+      "family": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+      "source_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+      "expected_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+      "source_hash_unchanged": true,
+      "board": "mainboard",
+      "references": [
+        "LED1",
+        "LED2",
+        "LED3",
+        "LED4",
+        "LED5",
+        "LED6",
+        "LED7",
+        "LED8",
+        "LED9",
+        "LED10",
+        "LED11",
+        "LED12",
+        "LED13",
+        "LED14",
+        "LED15",
+        "LED16",
+        "LED17",
+        "LED18",
+        "LED19",
+        "LED20",
+        "LED21",
+        "LED22",
+        "LED23",
+        "LED24",
+        "LED25",
+        "LED26",
+        "LED27",
+        "LED28",
+        "LED29",
+        "LED30",
+        "LED31",
+        "LED32",
+        "LED33",
+        "LED34",
+        "LED35",
+        "LED36",
+        "LED37",
+        "LED38",
+        "LED39",
+        "LED40"
+      ],
+      "exact_STEP_bounds_mm": [
+        -1.2300000000003952,
+        -2.9,
+        -2.5,
+        4.17,
+        2.9,
+        14.696000000000002
+      ],
+      "valid": true,
+      "solid_count": 3,
+      "face_count": 20,
+      "volume_mm3": 156.2922822263168,
+      "all_solids_valid_positive_volume": true,
+      "assignment_offset_mm": [
+        1.27,
+        0,
+        0
+      ],
+      "assignment_scale": [
+        1,
+        1,
+        1
+      ],
+      "assignment_rotation_deg": [
+        0,
+        0,
+        180
+      ],
+      "actual_native_assignments": [
+        {
+          "reference": "LED1",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED2",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED3",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED4",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED5",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED6",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED7",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED8",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED9",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED10",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED11",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED12",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED13",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED14",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED15",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED16",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED17",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED18",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED19",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED20",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED21",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED22",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED23",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED24",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED25",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED26",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED27",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED28",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED29",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED30",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED31",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED32",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED33",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED34",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED35",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED36",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED37",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED38",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED39",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        },
+        {
+          "reference": "LED40",
+          "actual_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+          "actual_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+          "offset_mm": [
+            1.27,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            180.0
+          ],
+          "passed": true
+        }
+      ],
+      "actual_PCB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb",
+      "actual_PCB_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+      "limitations": [
+        "The complete official generic KiCad LED body above its Z3mm lower-flange plane is preserved by a rigid +3.096mm translation. Exact original fitted LED manufacturer and package tolerances are unknown.",
+        "The selected 6.096mm lower-body height follows the original BOM VCC STD240B 0.24in. The original sequencer table instead says0.22in/5.588mm; that conflict is preserved, not silently resolved as a measured installed height.",
+        "Full stock 0.4x0.4mm lead cross-sections at sourceX0 andX2.54mm are retained and extended continuously from trimmedZ-2.5mm to the new body undersideZ6.096mm. Lead material, cut length and exact fitted original lead specification remain generic illustration data.",
+        "Existing native model offset[1.27,0,0] and rotation[0,0,180] with unity scale are preserved for all40LED references; original footprint axes, polarity, pad and drill geometry are unchanged.",
+        "Clear/unlit lens appearance follows original author PCB/panel photos. STEP light-gray color is an appearance role, not an optical simulation; Blender transmission/refraction settings are presentation choices.",
+        "Spacer height is represented by body seating. No black spacer shape is added because an exact primary outline was not recovered in the bounded search. This avoids inventing unverified outer profile or lead holes.",
+        "Current scene panel seat yields a nominal1.300mm lens-tip projection above the top panel; alternative0.22in spacing yields0.792mm. Native exported assembly measurements must independently confirm this after integration.",
+        "No lead thinning, scaled body, moved PCB footprint, altered panel hole or fitted tolerance/physical assembly claim is made."
+      ]
+    }
+  ],
+  "family_count": 5,
+  "assignment_row_count": 5,
+  "reference_count": 45,
+  "passed": true
+}

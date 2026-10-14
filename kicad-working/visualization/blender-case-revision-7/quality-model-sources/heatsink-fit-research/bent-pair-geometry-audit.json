@@ -1,0 +1,365 @@
+{
+  "passed": true,
+  "checks_passed": 33,
+  "checks": [
+    {
+      "check": "IC20 final STEP SHA equals manifest",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IC20 STEP valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IC20 source solid/face counts unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IC20 positive unchanged volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IC20 full STL closed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IC20/PlasticBody STL closed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IC20/MetalTab STL closed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IC20 rigid source symmetry preserved",
+      "passed": true,
+      "detail": {
+        "candidate_minus_source_mm3": 0.0,
+        "source_minus_candidate_mm3": 0.0
+      }
+    },
+    {
+      "check": "KK1 final STEP SHA equals manifest",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KK1 STEP valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KK1 source solid/face counts unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KK1 positive unchanged volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KK1 full STL closed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KK1/BlackAnodizedSpring STL closed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KK1 rigid source symmetry preserved",
+      "passed": true,
+      "detail": {
+        "candidate_minus_source_mm3": 0.0,
+        "source_minus_candidate_mm3": 0.0
+      }
+    },
+    {
+      "check": "Existing nominal spring-finger overlap retained",
+      "passed": true,
+      "detail": {
+        "volume_mm3": 1.7294223413446748
+      }
+    },
+    {
+      "check": "No IC20 overlap outside reconstructed spring fingers",
+      "passed": true,
+      "detail": {
+        "volume_mm3": 0.0
+      }
+    },
+    {
+      "check": "IC20/C4 source hash retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IC20/C4 no exact neighbor volume intersection",
+      "passed": true,
+      "detail": {
+        "volume_mm3": 0.0,
+        "distance_mm": 3.7125103136752706
+      }
+    },
+    {
+      "check": "KK1/C4 source hash retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KK1/C4 no exact neighbor volume intersection",
+      "passed": true,
+      "detail": {
+        "volume_mm3": 0.0,
+        "distance_mm": 4.535
+      }
+    },
+    {
+      "check": "IC20/C3 source hash retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IC20/C3 no exact neighbor volume intersection",
+      "passed": true,
+      "detail": {
+        "volume_mm3": 0.0,
+        "distance_mm": 8.184
+      }
+    },
+    {
+      "check": "KK1/C3 source hash retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KK1/C3 no exact neighbor volume intersection",
+      "passed": true,
+      "detail": {
+        "volume_mm3": 0.0,
+        "distance_mm": 9.084
+      }
+    },
+    {
+      "check": "IC20/C5 source hash retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IC20/C5 no exact neighbor volume intersection",
+      "passed": true,
+      "detail": {
+        "volume_mm3": 0.0,
+        "distance_mm": 6.344990035029221
+      }
+    },
+    {
+      "check": "KK1/C5 source hash retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KK1/C5 no exact neighbor volume intersection",
+      "passed": true,
+      "detail": {
+        "volume_mm3": 0.0,
+        "distance_mm": 6.163
+      }
+    },
+    {
+      "check": "IC20 above PCB seat plane",
+      "passed": true,
+      "detail": {
+        "minimum_z_mm": 1.3799999999999997
+      }
+    },
+    {
+      "check": "IC20 beyond original main rectangular PCB backedge",
+      "passed": true,
+      "detail": {
+        "candidate_min_native_y_mm": 47.831,
+        "source_main_rectangular_outline_ymax_mm": 44.45
+      }
+    },
+    {
+      "check": "KK1 above PCB seat plane",
+      "passed": true,
+      "detail": {
+        "minimum_z_mm": 0.7499999999999996
+      }
+    },
+    {
+      "check": "KK1 beyond original main rectangular PCB backedge",
+      "passed": true,
+      "detail": {
+        "candidate_min_native_y_mm": 48.730999999999995,
+        "source_main_rectangular_outline_ymax_mm": 44.45
+      }
+    }
+  ],
+  "neighbor_models_loaded": 80,
+  "exact_neighbor_scope": "All current zero/unity F.Cu source models screened by AABB; C3/C4/C5 always refined. Existing library-pose exceptions and B.Cu placement are covered by the native saved-scene screen.",
+  "neighbors": [
+    {
+      "candidate": "IC20",
+      "reference": "C4",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/C_AVX_SR205_P2.54_Illustration.step",
+      "source_sha256": "2893fab1c5613ec442c8a4d4e07ea5ca238553affe5d3f5eb39d1a715f9120c2",
+      "source_assignment_hash_matches": true,
+      "AABB_overlaps": false,
+      "exact_intersection_volume_mm3": 0.0,
+      "exact_distance_mm": 3.7125103136752706,
+      "neighbor_bounds_in_KK1_frame_mm": [
+        -8.5725,
+        -6.985,
+        -2.5,
+        -5.397499999999999,
+        -1.9049999999999998,
+        5.58
+      ]
+    },
+    {
+      "candidate": "KK1",
+      "reference": "C4",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/C_AVX_SR205_P2.54_Illustration.step",
+      "source_sha256": "2893fab1c5613ec442c8a4d4e07ea5ca238553affe5d3f5eb39d1a715f9120c2",
+      "source_assignment_hash_matches": true,
+      "AABB_overlaps": false,
+      "exact_intersection_volume_mm3": 0.0,
+      "exact_distance_mm": 4.535,
+      "neighbor_bounds_in_KK1_frame_mm": [
+        -8.5725,
+        -6.985,
+        -2.5,
+        -5.397499999999999,
+        -1.9049999999999998,
+        5.58
+      ]
+    },
+    {
+      "candidate": "IC20",
+      "reference": "C3",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step",
+      "source_sha256": "baedb7170ada384a9ddecc4f7c192ac3cdd29ed68d497d8384e2c4b352464243",
+      "source_assignment_hash_matches": true,
+      "AABB_overlaps": false,
+      "exact_intersection_volume_mm3": 0.0,
+      "exact_distance_mm": 8.184,
+      "neighbor_bounds_in_KK1_frame_mm": [
+        -8.786000000000001,
+        -19.454,
+        -2.5,
+        4.214000000000001,
+        -6.454,
+        20.8
+      ]
+    },
+    {
+      "candidate": "KK1",
+      "reference": "C3",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step",
+      "source_sha256": "baedb7170ada384a9ddecc4f7c192ac3cdd29ed68d497d8384e2c4b352464243",
+      "source_assignment_hash_matches": true,
+      "AABB_overlaps": false,
+      "exact_intersection_volume_mm3": 0.0,
+      "exact_distance_mm": 9.084,
+      "neighbor_bounds_in_KK1_frame_mm": [
+        -8.786000000000001,
+        -19.454,
+        -2.5,
+        4.214000000000001,
+        -6.454,
+        20.8
+      ]
+    },
+    {
+      "candidate": "IC20",
+      "reference": "C5",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step",
+      "source_sha256": "baedb7170ada384a9ddecc4f7c192ac3cdd29ed68d497d8384e2c4b352464243",
+      "source_assignment_hash_matches": true,
+      "AABB_overlaps": false,
+      "exact_intersection_volume_mm3": 0.0,
+      "exact_distance_mm": 6.344990035029221,
+      "neighbor_bounds_in_KK1_frame_mm": [
+        3.6599999999999975,
+        -16.533,
+        -2.5,
+        16.66,
+        -3.5330000000000004,
+        20.8
+      ]
+    },
+    {
+      "candidate": "KK1",
+      "reference": "C5",
+      "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step",
+      "source_sha256": "baedb7170ada384a9ddecc4f7c192ac3cdd29ed68d497d8384e2c4b352464243",
+      "source_assignment_hash_matches": true,
+      "AABB_overlaps": false,
+      "exact_intersection_volume_mm3": 0.0,
+      "exact_distance_mm": 6.163,
+      "neighbor_bounds_in_KK1_frame_mm": [
+        3.6599999999999975,
+        -16.533,
+        -2.5,
+        16.66,
+        -3.5330000000000004,
+        20.8
+      ]
+    }
+  ],
+  "paired_contact": {
+    "intersection_mm3": 1.7294223413446748,
+    "spring_finger_intersection_mm3": 1.7294223413446748,
+    "outside_spring_finger_mask_mm3": 0.0,
+    "aligned_hole_axis_y_in_KK1_frame_mm": 14.44,
+    "nominal_contact_plane_z_mm": 1.38,
+    "IC20_tab_z_extent_mm": [
+      1.38,
+      2.65
+    ],
+    "KK1_rear_sheet_z_extent_mm": [
+      0.75,
+      1.38
+    ],
+    "contact_area_preserved_from_revision_9_mm2": 134.5990817203063
+  },
+  "installation_assumptions": {
+    "IC20_rotation_about_footprint_X_deg": -90,
+    "post_rotation_vertical_translation_mm": 2.0,
+    "KK1_pre_rotation_translation_in_IC20_frame_mm": [
+      0,
+      -7.51,
+      3.9
+    ],
+    "KK1_post_rotation_origin_translation_from_IC20_to_KK1_frame_mm": [
+      0,
+      -1.27,
+      0
+    ]
+  },
+  "limitations": [
+    "Original author assembly instruction explicitly says to bend IC20 back before fitting the heatsink; the original place/soldered/measure photos show the body and tab approximately parallel to the PCB and extending beyond its edge.",
+    "The exact 90 degree angle, bend datum and 2.0 mm vertical placement are illustration assumptions, not measurements from the photograph or a manufacturer formed-lead specification.",
+    "All IC20 leads remain omitted. The prior nominal published lead width/hole fit was unresolved; no terminals were thinned, displaced or invented to conceal it.",
+    "The paired seat uses source-consistent through-hole and contact-plane alignment, inherited from the nominal generic TO220 body. Actual original regulator vendor/suffix, lead forming, cut lengths and installed seat require physical confirmation.",
+    "The complete revision 9 heatsink is only rigidly rotated and translated. No fold, spring finger, wall, source envelope or neighboring component is trimmed or shrunk.",
+    "Free-state reconstructed spring fingers retain a nominal 1.729422 mm3 regulator intersection. This is a documented geometric overlap, not a simulation or certification of elastic clamping, contact force or thermal performance.",
+    "Case placement, board seat and neighboring package models remain qualified visual geometry. A clear surface screen does not establish tolerance or physical fit."
+  ],
+  "scope": "Isolated read-only exact STEP audit. Main rectangular PCB outline is only a source-datum check; the saved native full board and case mesh screen is separate.",
+  "hashes": {
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step": "57572d2c7c441f7c83c0bf4c281866def4e4d5b5639d05f805596d090a09f555",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/heatsink-fit-research/Aavid_574502B00000G_BentBack_PhotoQualified.step": "c52b9aed6d3145861dde7c39389c46e2efe0853e84373eb84f299e2691d7fea9"
+  }
+}

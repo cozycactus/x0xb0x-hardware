@@ -1,0 +1,60 @@
+{
+  "board": "ioboard",
+  "model_intersections": [
+    {
+      "reference_a": "C204",
+      "reference_b": "XTL2",
+      "new_a": true,
+      "new_b": true,
+      "intersection_volume_mm3": 0.6361694972499026,
+      "intersection_bounds_mm": [
+        85.7885,
+        30.21392057121531,
+        2.336920571215276,
+        85.84899984251969,
+        34.81007942878472,
+        6.9330794287847235
+      ],
+      "common_valid": true
+    },
+    {
+      "reference_a": "C201",
+      "reference_b": "R8",
+      "new_a": true,
+      "new_b": false,
+      "intersection_volume_mm3": 0.3842572659015724,
+      "intersection_bounds_mm": [
+        73.95800974963451,
+        18.932402261053106,
+        2.7762499999999997,
+        74.39786,
+        20.1340351899589,
+        8.71375
+      ],
+      "common_valid": true
+    },
+    {
+      "reference_a": "C3",
+      "reference_b": "C5",
+      "new_a": true,
+      "new_b": true,
+      "intersection_volume_mm3": 0.001342613371783763,
+      "intersection_bounds_mm": [
+        12.627310423893862,
+        34.29777919746063,
+        22.195,
+        12.772689576106186,
+        34.91722080253919,
+        22.395
+      ],
+      "common_valid": true
+    }
+  ],
+  "source_step_sha256": "0a8c991a46f7ca26a52a6be47a037d6fbfad4ac46b245933c1d9088c95f17f1b",
+  "limits": [
+    "Intersections concern these nominal visualization assets and their modeled lead tails, body choices and stand-offs. They do not establish physical component collisions.",
+    "Same-footprint compound contacts are intentional internal geometry and are not compared against themselves.",
+    "Bounding-box broad phase ignores pairs with <=0.000001 mm overlap. Exact common volumes <=0.000001 mm3 are treated as numerical/touching contact.",
+    "Enclosure, connectors lacking models, socket options, fabrication and fitted-part tolerance limits remain outside this check."
+  ]
+}

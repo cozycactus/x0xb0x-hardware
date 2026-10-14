@@ -1,0 +1,179 @@
+{
+  "passed": true,
+  "instance_count": 34,
+  "family_count": 6,
+  "audits": [
+    {
+      "id": "ESwitch_TL1100F160Q_BodyIllustration",
+      "instances": 23,
+      "shape_valid": true,
+      "step_roundtrip_bounds_passed": true,
+      "canonical_library_is_front": true,
+      "all_geometry_z_nonnegative": true,
+      "stl_roundtrip_facets": 524,
+      "bounds": {
+        "min_mm": [
+          -6.0,
+          -6.0,
+          0.0
+        ],
+        "max_mm": [
+          6.0,
+          6.0,
+          7.3
+        ],
+        "size_mm": [
+          12.0,
+          12.0,
+          7.3
+        ]
+      },
+      "solids": 4
+    },
+    {
+      "id": "Panasonic_EVUF2LFL3_BodyIllustration",
+      "instances": 5,
+      "shape_valid": true,
+      "step_roundtrip_bounds_passed": true,
+      "canonical_library_is_front": true,
+      "all_geometry_z_nonnegative": true,
+      "stl_roundtrip_facets": 1018,
+      "bounds": {
+        "min_mm": [
+          -4.85,
+          -6.5,
+          0.0
+        ],
+        "max_mm": [
+          4.85,
+          6.0,
+          30.0
+        ],
+        "size_mm": [
+          9.7,
+          12.5,
+          30.0
+        ]
+      },
+      "solids": 3
+    },
+    {
+      "id": "Alpha_RV112BCF40_25_BodyIllustration",
+      "instances": 2,
+      "shape_valid": true,
+      "step_roundtrip_bounds_passed": true,
+      "canonical_library_is_front": true,
+      "all_geometry_z_nonnegative": true,
+      "stl_roundtrip_facets": 1018,
+      "bounds": {
+        "min_mm": [
+          -6.8,
+          -8.7,
+          0.0
+        ],
+        "max_mm": [
+          6.8,
+          6.700000000000001,
+          25.0
+        ],
+        "size_mm": [
+          13.6,
+          15.4,
+          25.0
+        ]
+      },
+      "solids": 3
+    },
+    {
+      "id": "CTS_290VAA5F201B2_BodyIllustration",
+      "instances": 1,
+      "shape_valid": true,
+      "step_roundtrip_bounds_passed": true,
+      "canonical_library_is_front": true,
+      "all_geometry_z_nonnegative": true,
+      "stl_roundtrip_facets": 1018,
+      "bounds": {
+        "min_mm": [
+          -4.9,
+          -5.1,
+          0.0
+        ],
+        "max_mm": [
+          4.9,
+          5.5,
+          21.2
+        ],
+        "size_mm": [
+          9.8,
+          10.6,
+          21.2
+        ]
+      },
+      "solids": 3
+    },
+    {
+      "id": "NKK_B12AB_BodyIllustration",
+      "instances": 1,
+      "shape_valid": true,
+      "step_roundtrip_bounds_passed": true,
+      "canonical_library_is_front": true,
+      "all_geometry_z_nonnegative": true,
+      "stl_roundtrip_facets": 1012,
+      "bounds": {
+        "min_mm": [
+          -4.0,
+          -4.4,
+          0.0
+        ],
+        "max_mm": [
+          4.0,
+          4.4,
+          23.1
+        ],
+        "size_mm": [
+          8.0,
+          8.8,
+          23.1
+        ]
+      },
+      "solids": 3
+    },
+    {
+      "id": "Grayhill_25LB22H_BodyIllustration",
+      "instances": 2,
+      "shape_valid": true,
+      "step_roundtrip_bounds_passed": true,
+      "canonical_library_is_front": true,
+      "all_geometry_z_nonnegative": true,
+      "stl_roundtrip_facets": 1348,
+      "bounds": {
+        "min_mm": [
+          -11.75,
+          -14.925,
+          0.0
+        ],
+        "max_mm": [
+          11.75,
+          10.985,
+          27.760000000000005
+        ],
+        "size_mm": [
+          23.5,
+          25.91,
+          27.760000000000005
+        ]
+      },
+      "solids": 4
+    }
+  ],
+  "input_board_and_libraries_unchanged_during_generation": true,
+  "limitations": [
+    "Checks establish artifact integrity, canonical frame and nominal envelopes; they do not qualify seating or terminal fit."
+  ],
+  "visual_review": {
+    "all_six_families_rendered": true,
+    "renderer": "Blender5.0 EEVEE",
+    "contact_sheet": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/control-body-review-contact-sheet.png",
+    "inspection": "Six source-envelope bodies, actuators and shaft flats visible. Shared orthographic scale42mm. No delivered scene changed."
+  }
+}

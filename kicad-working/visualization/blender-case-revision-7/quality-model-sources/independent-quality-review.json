@@ -1,0 +1,4447 @@
+{
+  "scope": "Independent read-only candidate10 versus immutable243-file revision9 snapshot. Only this JSON and companion Markdown written in review workspace. Fresh FreeCAD BRep checks used temporary files. Native session .prl/lock artifacts excluded explicitly; no other file ignored.",
+  "excluded_native_session_files": [
+    "ioboard/ioboard.kicad_prl",
+    "mainboard/mainboard.kicad_prl"
+  ],
+  "timestamp_utc": "2026-10-14T17:36:14.130284+00:00",
+  "input_file_count": 243,
+  "prior_files_byte_identical": 232,
+  "existing_files_changed": [
+    "mainboard/3dmodels/MODEL-PROVENANCE.json",
+    "mainboard/3dmodels/README.md",
+    "mainboard/mainboard-import-fps.pretty/LED5MM.kicad_mod",
+    "mainboard/mainboard.kicad_pcb",
+    "ioboard/3dmodels/MODEL-PROVENANCE.json",
+    "ioboard/3dmodels/README.md",
+    "ioboard/ioboard-import-fps.pretty/78XXS.kicad_mod",
+    "ioboard/ioboard-import-fps.pretty/D03S.kicad_mod",
+    "ioboard/ioboard-import-fps.pretty/MJ-3536N.kicad_mod",
+    "ioboard/ioboard-import-fps.pretty/PJ-202AH.kicad_mod",
+    "ioboard/ioboard.kicad_pcb"
+  ],
+  "new_files": {
+    "mainboard/3dmodels/REVISION-10-SOURCES.json": "dc23ece427b5d3aac38eaf0cfe6329b760fbae1079e13c3652988d19ae5ac0f9",
+    "mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+    "ioboard/3dmodels/REVISION-10-SOURCES.json": "dc9587580922b6ab28fa1336211fdf2e31548a247855329c79943420d3e9c1cb",
+    "ioboard/3dmodels/Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+    "ioboard/3dmodels/Revision10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+    "ioboard/3dmodels/Revision10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step": "57572d2c7c441f7c83c0bf4c281866def4e4d5b5639d05f805596d090a09f555",
+    "ioboard/3dmodels/Revision10/heatsink-fit-research/Aavid_574502B00000G_BentBack_PhotoQualified.step": "c52b9aed6d3145861dde7c39389c46e2efe0853e84373eb84f299e2691d7fea9"
+  },
+  "AST_files_checked": 75,
+  "previous_STEP_files_retained": 84,
+  "updated_references": [
+    {
+      "board": "ioboard",
+      "reference": "CV0"
+    },
+    {
+      "board": "ioboard",
+      "reference": "GATE0"
+    },
+    {
+      "board": "ioboard",
+      "reference": "IC20"
+    },
+    {
+      "board": "ioboard",
+      "reference": "KK1"
+    },
+    {
+      "board": "ioboard",
+      "reference": "POWER0"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED1"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED10"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED11"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED12"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED13"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED14"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED15"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED16"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED17"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED18"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED19"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED2"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED20"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED21"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED22"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED23"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED24"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED25"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED26"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED27"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED28"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED29"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED3"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED30"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED31"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED32"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED33"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED34"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED35"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED36"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED37"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED38"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED39"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED4"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED40"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED5"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED6"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED7"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED8"
+    },
+    {
+      "board": "mainboard",
+      "reference": "LED9"
+    }
+  ],
+  "updated_reference_count": 45,
+  "model_counts": {
+    "mainboard": 409,
+    "ioboard": 82
+  },
+  "absent_models": {
+    "mainboard": [
+      {
+        "reference": "U$2",
+        "footprint": "\"mainboard-import-fps:1,3\""
+      },
+      {
+        "reference": "U$27",
+        "footprint": "\"mainboard-import-fps:1,3\""
+      },
+      {
+        "reference": "U$28",
+        "footprint": "\"mainboard-import-fps:1,3\""
+      },
+      {
+        "reference": "U$24",
+        "footprint": "\"mainboard-import-fps:1,3\""
+      },
+      {
+        "reference": "IC15A0",
+        "footprint": "\"mainboard-import-fps:SIP9\""
+      },
+      {
+        "reference": "U$23",
+        "footprint": "\"mainboard-import-fps:1,3\""
+      },
+      {
+        "reference": "U$25",
+        "footprint": "\"mainboard-import-fps:1,3\""
+      },
+      {
+        "reference": "U$29",
+        "footprint": "\"mainboard-import-fps:1,3\""
+      }
+    ],
+    "ioboard": []
+  },
+  "candidate_board_sha256": {
+    "mainboard": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+    "ioboard": "fae5554526eb936a04c0d7de76ef50d5a69ef82ee9a48d6918db0844276dc351"
+  },
+  "plan_sha256": "0721e53820ea75814e34b8b113cc5e16d0751eb63a13c3c01861e8a1b4353dc7",
+  "review_classification": "PASS for qualified local visual model update; physical fit/lead forming/tolerances not certified",
+  "unchanged_reference_count": 446,
+  "candidate_project_file_count": 250,
+  "source_checks": [
+    {
+      "board": "ioboard",
+      "references": [
+        "IC20"
+      ],
+      "candidate_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/candidate/ioboard/3dmodels/Revision10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step",
+      "sha256": "57572d2c7c441f7c83c0bf4c281866def4e4d5b5639d05f805596d090a09f555",
+      "classification": "Original assembly photo-qualified bent-back nominal MC78M05 TO220 body-only illustration",
+      "limitations": [
+        "Original author assembly instruction explicitly says to bend IC20 back before fitting the heatsink; the original place/soldered/measure photos show the body and tab approximately parallel to the PCB and extending beyond its edge.",
+        "The exact 90 degree angle, bend datum and 2.0 mm vertical placement are illustration assumptions, not measurements from the photograph or a manufacturer formed-lead specification.",
+        "All IC20 leads remain omitted. The prior nominal published lead width/hole fit was unresolved; no terminals were thinned, displaced or invented to conceal it.",
+        "The paired seat uses source-consistent through-hole and contact-plane alignment, inherited from the nominal generic TO220 body. Actual original regulator vendor/suffix, lead forming, cut lengths and installed seat require physical confirmation.",
+        "The complete revision 9 heatsink is only rigidly rotated and translated. No fold, spring finger, wall, source envelope or neighboring component is trimmed or shrunk.",
+        "Free-state reconstructed spring fingers retain a nominal 1.729422 mm3 regulator intersection. This is a documented geometric overlap, not a simulation or certification of elastic clamping, contact force or thermal performance.",
+        "Case placement, board seat and neighboring package models remain qualified visual geometry. A clear surface screen does not establish tolerance or physical fit."
+      ]
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "KK1"
+      ],
+      "candidate_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/candidate/ioboard/3dmodels/Revision10/heatsink-fit-research/Aavid_574502B00000G_BentBack_PhotoQualified.step",
+      "sha256": "c52b9aed6d3145861dde7c39389c46e2efe0853e84373eb84f299e2691d7fea9",
+      "classification": "Original assembly photo-qualified bent-back full-size drawing-derived folded spring illustration",
+      "limitations": [
+        "Original author assembly instruction explicitly says to bend IC20 back before fitting the heatsink; the original place/soldered/measure photos show the body and tab approximately parallel to the PCB and extending beyond its edge.",
+        "The exact 90 degree angle, bend datum and 2.0 mm vertical placement are illustration assumptions, not measurements from the photograph or a manufacturer formed-lead specification.",
+        "All IC20 leads remain omitted. The prior nominal published lead width/hole fit was unresolved; no terminals were thinned, displaced or invented to conceal it.",
+        "The paired seat uses source-consistent through-hole and contact-plane alignment, inherited from the nominal generic TO220 body. Actual original regulator vendor/suffix, lead forming, cut lengths and installed seat require physical confirmation.",
+        "The complete revision 9 heatsink is only rigidly rotated and translated. No fold, spring finger, wall, source envelope or neighboring component is trimmed or shrunk.",
+        "Free-state reconstructed spring fingers retain a nominal 1.729422 mm3 regulator intersection. This is a documented geometric overlap, not a simulation or certification of elastic clamping, contact force or thermal performance.",
+        "Case placement, board seat and neighboring package models remain qualified visual geometry. A clear surface screen does not establish tolerance or physical fit."
+      ]
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "candidate_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/candidate/ioboard/3dmodels/Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+      "sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+      "classification": "Detailed exact-family drawing-derived body/contact illustration; below-seat terminals omitted, installed fit unqualified",
+      "limitations": [
+        "Original independent parameterized reconstruction from primary manufacturer drawings, not redistributed manufacturer CAD.",
+        "Published nominal envelopes/apertures retained at unity scale. Original canonical front/body-seat datum, offset0, rotation0 and native footprint pose are preserved.",
+        "Below-seat terminals, solder lugs and locators are omitted. These candidates do not demonstrate PCB lead fit or installed seating.",
+        "Roof slopes, recess/slot positions, cover seams, contact-arch/leaf/ring shapes and stock gauges are unsized visual interpretations within the printed envelopes; no tolerance or electrical-contact qualification.",
+        "Exact historical supplied revision, mold, plating and physical fit remain unverified. Contemporary datasheets are references for a family illustration.",
+        "2010 revisionB and2020 revision1.02 dimension-lines imply nominal terminal positions(0,2.3),(0,16),(5.2,13.5), consistent with the current drawing; 11.2 is terminal1-to-terminal3, not terminal1-to-terminal2.",
+        "The source records reengineering in2023 and2024. Equal printed nominal dimensions do not prove unchanged mold or terminal tolerances.",
+        "Original PCB rounddrills2.54 and slightly displaced center positions differ from manufacturer slotted-hole recommendations; no leads were narrowed or shifted to fit.",
+        "No nut or thread is added: MJ-3536N is the nonthreaded6mm-bushing family, distinct from threaded sibling variants.",
+        "Roof height7.5, slope breakpoints2.3/10.0, recessed window7.1wide, contactstock0.27/0.30 and14.1mm internal bore depth are visual assumptions, not manufacturer callouts."
+      ]
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "POWER0"
+      ],
+      "candidate_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/candidate/ioboard/3dmodels/Revision10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+      "sha256": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+      "classification": "Detailed exact-family drawing-derived body/contact illustration; below-seat terminals omitted, installed fit unqualified",
+      "limitations": [
+        "Original independent parameterized reconstruction from primary manufacturer drawings, not redistributed manufacturer CAD.",
+        "Published nominal envelopes/apertures retained at unity scale. Original canonical front/body-seat datum, offset0, rotation0 and native footprint pose are preserved.",
+        "Below-seat terminals, solder lugs and locators are omitted. These candidates do not demonstrate PCB lead fit or installed seating.",
+        "Roof slopes, recess/slot positions, cover seams, contact-arch/leaf/ring shapes and stock gauges are unsized visual interpretations within the printed envelopes; no tolerance or electrical-contact qualification.",
+        "Exact historical supplied revision, mold, plating and physical fit remain unverified. Contemporary datasheets are references for a family illustration.",
+        "The recovered2015 revision1.01 and current2025 revision1.05 retain printed9x14.4x11mm, axis6.5, bore6.5, pin2.0 and terminalspacing nominal dimensions; the current drawing adds finer views/tolerances.",
+        "Nominal terminal3 width3.0 exceeds original P$3 rounddrill2.8 before considering gauge, forming or offset; manufacturer recommends a3.0x1.0 slot. Terminals are omitted rather than thinned.",
+        "Rearcover thickness0.7, retention cutout dimensions, cavity ring0.32stock, rounded pin nose and spring dimensions are unsized illustration choices.",
+        "OriginalPOWER0 placementangle180 is external to this canonical asset; no mirror, scale or boardtranslation is baked into the model.",
+        "Removed rear plastic recess: manufacturer \u00d81.5 callout is a terminal eye, not a molded cover hole. Below-seat terminal geometry remains omitted."
+      ]
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "LED1",
+        "LED2",
+        "LED3",
+        "LED4",
+        "LED5",
+        "LED6",
+        "LED7",
+        "LED8",
+        "LED9",
+        "LED10",
+        "LED11",
+        "LED12",
+        "LED13",
+        "LED14",
+        "LED15",
+        "LED16",
+        "LED17",
+        "LED18",
+        "LED19",
+        "LED20",
+        "LED21",
+        "LED22",
+        "LED23",
+        "LED24",
+        "LED25",
+        "LED26",
+        "LED27",
+        "LED28",
+        "LED29",
+        "LED30",
+        "LED31",
+        "LED32",
+        "LED33",
+        "LED34",
+        "LED35",
+        "LED36",
+        "LED37",
+        "LED38",
+        "LED39",
+        "LED40"
+      ],
+      "candidate_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/candidate/mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+      "sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+      "classification": "Original-photo clear-body generic 5mm LED with source-BOM spacer seat and full-width extended leads",
+      "limitations": [
+        "The complete official generic KiCad LED body above its Z3mm lower-flange plane is preserved by a rigid +3.096mm translation. Exact original fitted LED manufacturer and package tolerances are unknown.",
+        "The selected 6.096mm lower-body height follows the original BOM VCC STD240B 0.24in. The original sequencer table instead says0.22in/5.588mm; that conflict is preserved, not silently resolved as a measured installed height.",
+        "Full stock 0.4x0.4mm lead cross-sections at sourceX0 andX2.54mm are retained and extended continuously from trimmedZ-2.5mm to the new body undersideZ6.096mm. Lead material, cut length and exact fitted original lead specification remain generic illustration data.",
+        "Existing native model offset[1.27,0,0] and rotation[0,0,180] with unity scale are preserved for all40LED references; original footprint axes, polarity, pad and drill geometry are unchanged.",
+        "Clear/unlit lens appearance follows original author PCB/panel photos. STEP light-gray color is an appearance role, not an optical simulation; Blender transmission/refraction settings are presentation choices.",
+        "Spacer height is represented by body seating. No black spacer shape is added because an exact primary outline was not recovered in the bounded search. This avoids inventing unverified outer profile or lead holes.",
+        "Current scene panel seat yields a nominal1.300mm lens-tip projection above the top panel; alternative0.22in spacing yields0.792mm. Native exported assembly measurements must independently confirm this after integration.",
+        "No lead thinning, scaled body, moved PCB footprint, altered panel hole or fitted tolerance/physical assembly claim is made."
+      ]
+    }
+  ],
+  "fresh_geometry": {
+    "passed": true,
+    "check_count": 35,
+    "checks": [
+      {
+        "check": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly frozen source/candidate hash",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly valid BRep",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly positive valid individual solids",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly unchanged intended solid count",
+        "passed": true,
+        "detail": {
+          "actual": 2,
+          "expected": 2
+        }
+      },
+      {
+        "check": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly exact surface bounds",
+        "passed": true,
+        "detail": {
+          "numerical_tolerance_mm": 1e-06,
+          "actual_mm": [
+            -5.0,
+            3.0,
+            1.3799999999999997,
+            5.0,
+            18.5,
+            5.835000000000001
+          ],
+          "expected_mm": [
+            -5.0,
+            3.0,
+            1.3799999999999997,
+            5.0,
+            18.5,
+            5.835000000000001
+          ]
+        }
+      },
+      {
+        "check": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly manifest volume",
+        "passed": true,
+        "detail": {
+          "actual_mm3": 486.0634828602392,
+          "expected_mm3": 486.0634828602392
+        }
+      },
+      {
+        "check": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly declared canonical Z extent",
+        "passed": true,
+        "detail": {
+          "minimum_z_mm": 1.3799999999999997
+        }
+      },
+      {
+        "check": "Aavid_574502B00000G_BentBack_PhotoQualified frozen source/candidate hash",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Aavid_574502B00000G_BentBack_PhotoQualified valid BRep",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Aavid_574502B00000G_BentBack_PhotoQualified positive valid individual solids",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Aavid_574502B00000G_BentBack_PhotoQualified unchanged intended solid count",
+        "passed": true,
+        "detail": {
+          "actual": 1,
+          "expected": 1
+        }
+      },
+      {
+        "check": "Aavid_574502B00000G_BentBack_PhotoQualified exact surface bounds",
+        "passed": true,
+        "detail": {
+          "numerical_tolerance_mm": 1e-06,
+          "actual_mm": [
+            -10.920000100000001,
+            2.629999899999999,
+            0.7499999,
+            10.920000100000001,
+            21.6800001,
+            10.7800001
+          ],
+          "expected_mm": [
+            -10.920000000000002,
+            2.6299999999999955,
+            0.7499999999999996,
+            10.920000000000002,
+            21.68,
+            10.780000000000001
+          ]
+        }
+      },
+      {
+        "check": "Aavid_574502B00000G_BentBack_PhotoQualified manifest volume",
+        "passed": true,
+        "detail": {
+          "actual_mm3": 797.0774096350162,
+          "expected_mm3": 797.0774096350162
+        }
+      },
+      {
+        "check": "Aavid_574502B00000G_BentBack_PhotoQualified declared canonical Z extent",
+        "passed": true,
+        "detail": {
+          "minimum_z_mm": 0.7499999
+        }
+      },
+      {
+        "check": "MJ3536N_DrawingDerived_DetailedBody frozen source/candidate hash",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "MJ3536N_DrawingDerived_DetailedBody valid BRep",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "MJ3536N_DrawingDerived_DetailedBody positive valid individual solids",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "MJ3536N_DrawingDerived_DetailedBody unchanged intended solid count",
+        "passed": true,
+        "detail": {
+          "actual": 5,
+          "expected": 5
+        }
+      },
+      {
+        "check": "MJ3536N_DrawingDerived_DetailedBody exact surface bounds",
+        "passed": true,
+        "detail": {
+          "numerical_tolerance_mm": 1e-06,
+          "actual_mm": [
+            -5.0,
+            -3.0,
+            0.0,
+            5.0,
+            15.8,
+            10.0
+          ],
+          "expected_mm": [
+            -5.0,
+            -3.0,
+            0.0,
+            5.0,
+            15.8,
+            10.0
+          ]
+        }
+      },
+      {
+        "check": "MJ3536N_DrawingDerived_DetailedBody manifest volume",
+        "passed": true,
+        "detail": {
+          "actual_mm3": 1133.1234613429533,
+          "expected_mm3": 1133.1234613429533
+        }
+      },
+      {
+        "check": "MJ3536N_DrawingDerived_DetailedBody declared canonical Z extent",
+        "passed": true,
+        "detail": {
+          "minimum_z_mm": 0.0
+        }
+      },
+      {
+        "check": "PJ202AH_DrawingDerived_DetailedBody_Corrected frozen source/candidate hash",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "PJ202AH_DrawingDerived_DetailedBody_Corrected valid BRep",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "PJ202AH_DrawingDerived_DetailedBody_Corrected positive valid individual solids",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "PJ202AH_DrawingDerived_DetailedBody_Corrected unchanged intended solid count",
+        "passed": true,
+        "detail": {
+          "actual": 5,
+          "expected": 5
+        }
+      },
+      {
+        "check": "PJ202AH_DrawingDerived_DetailedBody_Corrected exact surface bounds",
+        "passed": true,
+        "detail": {
+          "numerical_tolerance_mm": 1e-06,
+          "actual_mm": [
+            -4.5,
+            -14.4,
+            0.0,
+            4.5,
+            0.0,
+            11.0
+          ],
+          "expected_mm": [
+            -4.5,
+            -14.400000000000004,
+            0.0,
+            4.5,
+            0.0,
+            11.0
+          ]
+        }
+      },
+      {
+        "check": "PJ202AH_DrawingDerived_DetailedBody_Corrected manifest volume",
+        "passed": true,
+        "detail": {
+          "actual_mm3": 1048.6355538087932,
+          "expected_mm3": 1048.6355538087932
+        }
+      },
+      {
+        "check": "PJ202AH_DrawingDerived_DetailedBody_Corrected declared canonical Z extent",
+        "passed": true,
+        "detail": {
+          "minimum_z_mm": 0.0
+        }
+      },
+      {
+        "check": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads frozen source/candidate hash",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads valid BRep",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads positive valid individual solids",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads unchanged intended solid count",
+        "passed": true,
+        "detail": {
+          "actual": 3,
+          "expected": 3
+        }
+      },
+      {
+        "check": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads exact surface bounds",
+        "passed": true,
+        "detail": {
+          "numerical_tolerance_mm": 1e-06,
+          "actual_mm": [
+            -1.2300000000003952,
+            -2.9,
+            -2.5,
+            4.17,
+            2.9,
+            14.696000000000002
+          ],
+          "expected_mm": [
+            -1.2300000000003966,
+            -2.9,
+            -2.5,
+            4.17,
+            2.9,
+            14.696000000000002
+          ]
+        }
+      },
+      {
+        "check": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads manifest volume",
+        "passed": true,
+        "detail": {
+          "actual_mm3": 156.2922822263168,
+          "expected_mm3": 156.2922822263168
+        }
+      },
+      {
+        "check": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads declared canonical Z extent",
+        "passed": true,
+        "detail": {
+          "minimum_z_mm": -2.5
+        }
+      }
+    ],
+    "records": [
+      {
+        "model": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step",
+        "references": [
+          "IC20"
+        ],
+        "sha256": "57572d2c7c441f7c83c0bf4c281866def4e4d5b5639d05f805596d090a09f555",
+        "valid": true,
+        "solid_count": 2,
+        "face_count": 13,
+        "volume_mm3": 486.0634828602392,
+        "optimal_bounds_mm": [
+          -5.0,
+          3.0,
+          1.3799999999999997,
+          5.0,
+          18.5,
+          5.835000000000001
+        ]
+      },
+      {
+        "model": "Aavid_574502B00000G_BentBack_PhotoQualified.step",
+        "references": [
+          "KK1"
+        ],
+        "sha256": "c52b9aed6d3145861dde7c39389c46e2efe0853e84373eb84f299e2691d7fea9",
+        "valid": true,
+        "solid_count": 1,
+        "face_count": 86,
+        "volume_mm3": 797.0774096350162,
+        "optimal_bounds_mm": [
+          -10.920000100000001,
+          2.629999899999999,
+          0.7499999,
+          10.920000100000001,
+          21.6800001,
+          10.7800001
+        ]
+      },
+      {
+        "model": "MJ3536N_DrawingDerived_DetailedBody.step",
+        "references": [
+          "CV0",
+          "GATE0"
+        ],
+        "sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+        "valid": true,
+        "solid_count": 5,
+        "face_count": 57,
+        "volume_mm3": 1133.1234613429533,
+        "optimal_bounds_mm": [
+          -5.0,
+          -3.0,
+          0.0,
+          5.0,
+          15.8,
+          10.0
+        ]
+      },
+      {
+        "model": "PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+        "references": [
+          "POWER0"
+        ],
+        "sha256": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+        "valid": true,
+        "solid_count": 5,
+        "face_count": 50,
+        "volume_mm3": 1048.6355538087932,
+        "optimal_bounds_mm": [
+          -4.5,
+          -14.4,
+          0.0,
+          4.5,
+          0.0,
+          11.0
+        ]
+      },
+      {
+        "model": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+        "references": [
+          "LED1",
+          "LED2",
+          "LED3",
+          "LED4",
+          "LED5",
+          "LED6",
+          "LED7",
+          "LED8",
+          "LED9",
+          "LED10",
+          "LED11",
+          "LED12",
+          "LED13",
+          "LED14",
+          "LED15",
+          "LED16",
+          "LED17",
+          "LED18",
+          "LED19",
+          "LED20",
+          "LED21",
+          "LED22",
+          "LED23",
+          "LED24",
+          "LED25",
+          "LED26",
+          "LED27",
+          "LED28",
+          "LED29",
+          "LED30",
+          "LED31",
+          "LED32",
+          "LED33",
+          "LED34",
+          "LED35",
+          "LED36",
+          "LED37",
+          "LED38",
+          "LED39",
+          "LED40"
+        ],
+        "sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+        "valid": true,
+        "solid_count": 3,
+        "face_count": 20,
+        "volume_mm3": 156.2922822263168,
+        "optimal_bounds_mm": [
+          -1.2300000000003952,
+          -2.9,
+          -2.5,
+          4.17,
+          2.9,
+          14.696000000000002
+        ]
+      }
+    ],
+    "failures": []
+  },
+  "fresh_LED_body_and_lead_review": {
+    "passed": true,
+    "check_count": 23,
+    "checks": [
+      {
+        "check": "Official source stock hash frozen",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "LED head full exact source geometry retained by3.096mm rigid lift",
+        "passed": true,
+        "detail": {
+          "original_body_mm3": 153.54156222631704,
+          "candidate_body_mm3": 153.541562226317,
+          "common_mm3": 153.541562226317
+        }
+      },
+      {
+        "check": "LED lowerhead6.096/top14.696mm canonical extent",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "LED full square lead1.3744762072997224e-18",
+        "passed": true,
+        "detail": {
+          "x": 1.3744762072997224e-18,
+          "width": 0.4,
+          "thickness": 0.4,
+          "zmin": -2.5,
+          "zmax": 6.096
+        }
+      },
+      {
+        "check": "LED square section X1.3744762072997224e-18Z-2.5",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000003
+        }
+      },
+      {
+        "check": "LED square section X1.3744762072997224e-18Z-1.6",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000003
+        }
+      },
+      {
+        "check": "LED square section X1.3744762072997224e-18Z-0.8",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000003
+        }
+      },
+      {
+        "check": "LED square section X1.3744762072997224e-18Z0",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000003
+        }
+      },
+      {
+        "check": "LED square section X1.3744762072997224e-18Z1",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000003
+        }
+      },
+      {
+        "check": "LED square section X1.3744762072997224e-18Z3",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000003
+        }
+      },
+      {
+        "check": "LED square section X1.3744762072997224e-18Z5",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000003
+        }
+      },
+      {
+        "check": "LED square section X1.3744762072997224e-18Z6.095",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000003
+        }
+      },
+      {
+        "check": "LED full square lead2.5399999999999996",
+        "passed": true,
+        "detail": {
+          "x": 2.5399999999999996,
+          "width": 0.40000000000000036,
+          "thickness": 0.4,
+          "zmin": -2.5,
+          "zmax": 6.096
+        }
+      },
+      {
+        "check": "LED square section X2.5399999999999996Z-2.5",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000014
+        }
+      },
+      {
+        "check": "LED square section X2.5399999999999996Z-1.6",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000017
+        }
+      },
+      {
+        "check": "LED square section X2.5399999999999996Z-0.8",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000017
+        }
+      },
+      {
+        "check": "LED square section X2.5399999999999996Z0",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000017
+        }
+      },
+      {
+        "check": "LED square section X2.5399999999999996Z1",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000017
+        }
+      },
+      {
+        "check": "LED square section X2.5399999999999996Z3",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000017
+        }
+      },
+      {
+        "check": "LED square section X2.5399999999999996Z5",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000017
+        }
+      },
+      {
+        "check": "LED square section X2.5399999999999996Z6.095",
+        "passed": true,
+        "detail": {
+          "area_mm2": 0.16000000000000017
+        }
+      },
+      {
+        "check": "Two LED leads maintain2.54mm source pitch",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Only lensbody and two full leads: no invented spacer solid",
+        "passed": true,
+        "detail": null
+      }
+    ],
+    "lead_records": [
+      {
+        "source_axis_X_mm": 1.3744762072997224e-18,
+        "square_diagonal_radius_mm": 0.28284271247461906,
+        "nominal_1mm_drill_corner_margin_mm": 0.21715728752538094
+      },
+      {
+        "source_axis_X_mm": 2.5399999999999996,
+        "square_diagonal_radius_mm": 0.28284271247461906,
+        "nominal_1mm_drill_corner_margin_mm": 0.21715728752538094
+      }
+    ],
+    "failures": []
+  },
+  "linked_family_audits": [
+    {
+      "path": "heatsink-fit-research/bent-pair-geometry-audit.json",
+      "sha256": "be8cf179c59637fff4e71d9d6ff89192c8528b68cb7ada9baeee4fe22ba67051",
+      "passed": true,
+      "check_count": 33,
+      "count_scope": "Separate family audit, not added to this independent check count"
+    },
+    {
+      "path": "independent-rigid-pair-audit.json",
+      "sha256": "de3bc5922440b7f653bba5ea4c6d7cbe3b1c75aca7159dd1112220524b92ef15",
+      "passed": true,
+      "check_count": 15,
+      "count_scope": "Separate family audit, not added to this independent check count"
+    },
+    {
+      "path": "heatsink-fit-research/native-probes/native-export-audit.json",
+      "sha256": "282c4259a35587f16b4ec46299664499f328a444bfbfc1446e8e3a77de21ec2e",
+      "passed": true,
+      "check_count": 0,
+      "count_scope": "Separate family audit, not added to this independent check count"
+    },
+    {
+      "path": "heatsink-fit-research/bent-pair-native-scene-screen.json",
+      "sha256": "4fc0b4d9d4e9b220185aa9d329eeeff06dc8ebb8512a9ce3f3ef02c4e2c1eb10",
+      "passed": true,
+      "check_count": 0,
+      "count_scope": "Separate family audit, not added to this independent check count"
+    },
+    {
+      "path": "rear-connector-quality/final-geometry-audit.json",
+      "sha256": "a3d426968a826ae2e3f83ae8e6efd6415a284595d746152ada9c541fab559a9f",
+      "passed": true,
+      "check_count": 43,
+      "count_scope": "Separate family audit, not added to this independent check count"
+    },
+    {
+      "path": "rear-connector-quality/native-quality-audit.json",
+      "sha256": "bdd0dbeed9f0bfd1cd86412b00a3b0c9c76c82e15ab9db3d2b9619c3f8add374",
+      "passed": true,
+      "check_count": 124,
+      "count_scope": "Separate family audit, not added to this independent check count"
+    },
+    {
+      "path": "led-assembly-quality/led-assembly-geometry-audit.json",
+      "sha256": "533951b2d273463549f14fa5840deb5541ae629f040b1dc86f8a27f23962fae4",
+      "passed": true,
+      "check_count": 233,
+      "count_scope": "Separate family audit, not added to this independent check count"
+    },
+    {
+      "path": "led-assembly-quality/native-probes/native-export-audit.json",
+      "sha256": "c975490b6d2b754a34f4acc6b4e6f90bcad1dad0d1586ec1e7eb0ca10471497b",
+      "passed": true,
+      "check_count": 0,
+      "count_scope": "Separate family audit, not added to this independent check count"
+    }
+  ],
+  "visual_source_review": {
+    "viewed": [
+      "heatsink-fit-research/sources/7805place.jpg",
+      "heatsink-fit-research/sources/7805soldered.jpg",
+      "heatsink-fit-research/sources/boyd-574502B00000G-exact-drawing.png",
+      "rear-connector-quality/sources/mj3536n-2020-page2.png",
+      "rear-connector-quality/sources/mj3536n-current-page2.png",
+      "rear-connector-quality/sources/pj202ah-2015-page2.png",
+      "led-assembly-quality/LED-native-panel-mount-review.png"
+    ],
+    "findings": [
+      "Original photos qualitatively support IC20 approximately parallel to PCB and beyond edge; exact90-degree/2mm datum is illustrative.",
+      "Heatsink full size,11.81mm hole datum and0.63mm sheet preserved by rigid transforms.",
+      "MJ2020 drawing11.2mm runs terminal1toterminal3. Currentnominalterminalcentresfrontdatum2.3,13.5,16mm agree. Equal dimensions do not establish unchanged mold/tolerances.",
+      "MJ nonthreaded6mm bushing,3.6mm aperture,10x15.8x10mm body; PJ9x14.4x11mm,6.5mm aperture/axis and2mm matingpin. Minor recess/contactdetails unsized.",
+      "LED native preview visibly connects full-width tails through nominal PCB holes to raised clear generic head; no black spacer mesh added. This is a visual export/illustrative assembly, not a measured original installation."
+    ]
+  },
+  "pair_geometry_limit": {
+    "free_state_spring_intersection_mm3": 1.7294223413446748,
+    "outside_finger_mask_mm3": 0.0,
+    "C3_C4_C5_exact_intersections_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "physical_clamping_or_thermal_certification": false
+  },
+  "checks": [
+    {
+      "check": "243 exact immutable revision-8 baseline files",
+      "passed": true
+    },
+    {
+      "check": "No baseline file removed",
+      "passed": true
+    },
+    {
+      "check": "Only the seven planned new files",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/KiCad/LED_THT.3dshapes/LED_D5.0mm.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/KiCad/Package_DIP.3dshapes/DIP-14_W7.62mm.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/KiCad/Package_DIP.3dshapes/DIP-16_W7.62mm.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/KiCad/Package_DIP.3dshapes/DIP-40_W15.24mm.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/KiCad/Package_DIP.3dshapes/DIP-8_W7.62mm.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/KiCad/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/LICENSE-KICAD-3D.md",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/MODEL-PROVENANCE.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Project/D_DO35_P7.112_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Project/axial-diode-dimensional-record.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Project/axial-diode-recommendations.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Project/generate_axial_diodes.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/README.md",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/REVISION-5-INTERSECTIONS.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/REVISION-5-SOURCES.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/REVISION-6-SOURCES.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/REVISION-7-SOURCES.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/REVISION-8-SOURCES.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/REVISION-9-SOURCES.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/integrated-models/Resonator_AWCR16MD_MaxBody_P2.54_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/integrated-models/SIP9_BA6110_NominalBody_P2.54_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/integrated-models/SIP9_LA4140_3017C_MaxBody_P2.54_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/integrated-models/SSIP5_2SC1583_MaxBody_FannedP2.286_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/integrated-models/provenance/LICENSE-CC0.md",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/integrated-models/provenance/README.md",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/integrated-models/provenance/audit_integrated_full_thickness.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/integrated-models/provenance/generate_integrated_illustrations.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/integrated-models/provenance/integrated-full-thickness-audit.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/integrated-models/provenance/integrated-model-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/integrated-models/provenance/integrated-model-records.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/integrated-models/provenance/step_colors.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/CP_Kemet_T350A105_P2.54_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/CP_Xicon_XRL1u50_P3.556_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/C_AVX_SR205_P2.54_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/C_Xicon_PF183_P4.064_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/C_Xicon_PF682_P3.81_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/C_Xicon_PF683_P7.62_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/C_Xicon_PM102_P3.556_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/C_Xicon_PM103_P4.064_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/C_Xicon_PM104_P5.08_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/C_Xicon_PM224_P7.62_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/C_Xicon_PM333_P4.064_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/C_Xicon_PM333_P5.08_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/C_Xicon_PM473_P5.08_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/TO92_Asymmetric_x0x_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/provenance/LICENSE.md",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/provenance/README.md",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/provenance/generate_passive_illustrations.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/provenance/passive-assignments.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/provenance/passive-dimensional-records.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/provenance/reference-documents/additional-downloads.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/provenance/reference-documents/downloads.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision5/passive-models/provenance/reference-documents/xicon-author-documents.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/control-body-illustrations/Alpha_RV112BCF40_25_BodyIllustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/control-body-illustrations/CTS_290VAA5F201B2_BodyIllustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/control-body-illustrations/ESwitch_TL1100F160Q_BodyIllustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/control-body-illustrations/Grayhill_25LB22H_BodyIllustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/control-body-illustrations/NKK_B12AB_BodyIllustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/control-body-illustrations/Panasonic_EVUF2LFL3_BodyIllustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/control-body-illustrations/provenance/README.md",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/control-body-illustrations/provenance/control-body-audit.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/control-body-illustrations/provenance/control-body-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/control-body-illustrations/provenance/generate_control_bodies.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/control-body-illustrations/provenance/render_body_review.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/control-body-illustrations/provenance/sources/downloads.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/control-body-illustrations/provenance/sources/nkk-downloads.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/misc-body-illustrations/2SC2291_SSIP5_ApproxBody.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/misc-body-illustrations/Microohm_LPTC12T21001_ApproxBody.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/misc-body-illustrations/WireJumper_P12p7.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/misc-body-illustrations/WireJumper_P15p24.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/misc-body-illustrations/provenance/actual-source-positions.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/misc-body-illustrations/provenance/generate_misc_bodies.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/misc-body-illustrations/provenance/misc-body-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision6/misc-body-illustrations/provenance/reference/ribbon-jumper-source-map.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision7/control-colors/Alpha_RV112BCF40_25_BodyIllustration_Colors.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision7/control-colors/CTS_290VAA5F201B2_BodyIllustration_Colors.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision7/control-colors/ESwitch_TL1100F160Q_BodyIllustration_Colors.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision7/control-colors/Grayhill_25LB22H_BodyIllustration_Colors.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision7/control-colors/NKK_B12AB_BodyIllustration_Colors.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision7/control-colors/Panasonic_EVUF2LFL3_BodyIllustration_Colors.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision8/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision8/misc-quality/CT6EP_DatasheetDetailed.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision8/rotary-quality/Grayhill_25LB22H_DetailedCandidate.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision8/rotary-quality/NKK_B12AB_DetailedCandidate.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/3dmodels/Revision9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/fp-lib-table",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-eagle-import.kicad_sym",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/0207_10.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/0207_10.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/0207_10.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/0207_15.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/0207_15.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/0207_15.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/0207_2V.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/0207_2V.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/0207_2V.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/0207_5V.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/0207_5V.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/0207_5V.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/1,3.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/1,3.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/1,3.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/12.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/12.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/12.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/15.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/15.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/15.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/2SC2021.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/2SC2021.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/2SC2021.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/2SC536F.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/2SC536F.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/2SC536F.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/2SC536_UNEVEN.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/2SC536_UNEVEN.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/2SC536_UNEVEN.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/2SK30.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/2SK30.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/2SK30.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/306.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/306.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/306.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/ALPHADUAL.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/ALPHADUAL.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/ALPHADUAL.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/C050-024X044.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/C050-024X044.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/C050-024X044.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/C050-025X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/C050-025X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/C050-025X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/C050-030X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/C050-030X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/C050-030X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/C050-035X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/C050-035X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/C050-035X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/C050-045X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/C050-045X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/C050-045X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/C050-050X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/C050-050X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/C050-050X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/C050-055X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/C050-055X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/C050-055X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/C050-075X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/C050-075X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/C050-075X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/C050H075X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/C050H075X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/C050H075X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/C075-032X103.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/C075-032X103.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/C075-032X103.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/DIL08.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/DIL08.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/DIL08.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/DIL08_AT25.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/DIL08_AT25.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/DIL08_AT25.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/DIL14.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/DIL14.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/DIL14.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/DIL16.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/DIL16.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/DIL16.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/DIL40.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/DIL40.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/DIL40.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/DO35-10.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/DO35-10.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/DO35-10.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/E2,5-7.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/E2,5-7.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/E2,5-7.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/E3,5-8.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/E3,5-8.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/E3,5-8.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/E5-5.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/E5-5.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/E5-5.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/E5-6.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/E5-6.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/E5-6.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/EVU.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/EVU.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/EVU.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/GH3074.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/GH3074.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/GH3074.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/LED5MM.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/LED5MM.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/LED5MM.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/MA03-1.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/MA03-1.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/MA03-1.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/MA12-1.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/MA12-1.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/MA12-1.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/NKKTOGGLE.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/NKKTOGGLE.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/NKKTOGGLE.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/PEC11-S.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/PEC11-S.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/PEC11-S.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/R-7,5.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/R-7,5.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/R-7,5.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/SIP9.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/SIP9.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/SIP9.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard-import-fps.pretty/TO92.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard-import-fps.pretty/TO92.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard-import-fps.pretty/TO92.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard.kicad_pcb",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical mainboard/mainboard.kicad_pcb",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical mainboard/mainboard.kicad_pcb",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard.kicad_pro",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/mainboard.kicad_sch",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA mainboard/sym-lib-table",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/KiCad/Package_DIP.3dshapes/DIP-6_W7.62mm.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/KiCad/Package_DIP.3dshapes/DIP-8_W7.62mm.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/KiCad/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/KiCad/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/LICENSE-KICAD-3D.md",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/MODEL-PROVENANCE.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Project/D_DO35_P7.112_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Project/D_DO41_P11.176_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Project/axial-diode-dimensional-record.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Project/axial-diode-recommendations.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Project/generate_axial_diodes.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/README.md",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/REVISION-5-INTERSECTIONS.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/REVISION-5-SOURCES.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/REVISION-6-SOURCES.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/REVISION-8-SOURCES.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/REVISION-9-SOURCES.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/integrated-models/Resonator_AWCR6MD_MaxBody_P2.54_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/integrated-models/provenance/LICENSE-CC0.md",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/integrated-models/provenance/README.md",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/integrated-models/provenance/audit_integrated_full_thickness.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/integrated-models/provenance/generate_integrated_illustrations.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/integrated-models/provenance/integrated-full-thickness-audit.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/integrated-models/provenance/integrated-model-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/integrated-models/provenance/integrated-model-records.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/integrated-models/provenance/step_colors.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/passive-models/C_AVX_SR205_P2.54_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/passive-models/C_Xicon_PM333_P4.064_Illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/passive-models/provenance/LICENSE.md",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/passive-models/provenance/README.md",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/passive-models/provenance/generate_passive_illustrations.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/passive-models/provenance/passive-assignments.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/passive-models/provenance/passive-dimensional-records.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/passive-models/provenance/reference-documents/additional-downloads.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/passive-models/provenance/reference-documents/downloads.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision5/passive-models/provenance/reference-documents/xicon-author-documents.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/misc-body-illustrations/Aavid_574502B00000G_EnvelopeIllustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/misc-body-illustrations/provenance/actual-source-positions.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/misc-body-illustrations/provenance/generate_misc_bodies.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/misc-body-illustrations/provenance/misc-body-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/misc-body-illustrations/provenance/reference/ribbon-jumper-source-map.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/rear-body-illustrations/MJ3536N-body-illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/rear-body-illustrations/NYS216-body-illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/rear-body-illustrations/PJ202AH-body-illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/rear-body-illustrations/SDS50J-body-illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/rear-body-illustrations/USB_TypeB-body-illustration.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/rear-body-illustrations/provenance/build_rear_bodies.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/rear-body-illustrations/provenance/rear-body-illustrations-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/rear-body-illustrations/provenance/render_body_review.py",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision6/rear-body-illustrations/provenance/source/kc-301021-web-extract.json",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision8/misc-quality/CT6EP_DatasheetDetailed.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision8/rear-quality/NYS216_DrawingDerived_DetailedBody.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/3dmodels/Revision9/heatsink-quality/Aavid_574502B00000G_DrawingDerived_FoldedSpring.step",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/fp-lib-table",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-eagle-import.kicad_sym",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/0207_5V.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/0207_5V.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/0207_5V.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/2SC536F.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/2SC536F.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/2SC536F.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/306.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/306.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/306.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/78XXS.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/78XXS.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/78XXS.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/C050-025X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/C050-025X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/C050-025X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/C050H075X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/C050H075X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/C050H075X075.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/CERM_OSC.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/CERM_OSC.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/CERM_OSC.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/CP-2350.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/CP-2350.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/CP-2350.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/CP-3502.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/CP-3502.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/CP-3502.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/D03S.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/D03S.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/D03S.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/DIL06.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/DIL06.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/DIL06.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/DIL08.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/DIL08.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/DIL08.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/DO35-10.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/DO35-10.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/DO35-10.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/DO41-10.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/DO41-10.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/DO41-10.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/E5-13.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/E5-13.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/E5-13.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/E5-6.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/E5-6.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/E5-6.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/MA03-1.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/MA03-1.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/MA03-1.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/MA12-1.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/MA12-1.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/MA12-1.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/MJ-3536N.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/MJ-3536N.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/MJ-3536N.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/PJ-102A.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/PJ-102A.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/PJ-102A.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/PJ-202AH.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/PJ-202AH.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/PJ-202AH.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/PN61729.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/PN61729.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/PN61729.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/REAN_1_4STERO.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/REAN_1_4STERO.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/REAN_1_4STERO.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/Resonator_6MHz_x0x.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/Resonator_6MHz_x0x.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/Resonator_6MHz_x0x.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/SQFP-S-7X7-32.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/SQFP-S-7X7-32.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/SQFP-S-7X7-32.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-import-fps.pretty/TO-92_x0x.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-import-fps.pretty/TO-92_x0x.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-import-fps.pretty/TO-92_x0x.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-schema-extra-footprints-import-fps.pretty/TO92.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-schema-extra-footprints-import-fps.pretty/TO92.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-schema-extra-footprints-import-fps.pretty/TO92.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard-schema-extra-footprints-import-fps.pretty/ZTT_XTAL.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard-schema-extra-footprints-import-fps.pretty/ZTT_XTAL.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard-schema-extra-footprints-import-fps.pretty/ZTT_XTAL.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard.kicad_pcb",
+      "passed": true
+    },
+    {
+      "check": "Every non-model node identical ioboard/ioboard.kicad_pcb",
+      "passed": true
+    },
+    {
+      "check": "All model transforms and ordering identical ioboard/ioboard.kicad_pcb",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard.kicad_pro",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/ioboard.kicad_sch",
+      "passed": true
+    },
+    {
+      "check": "Snapshot SHA ioboard/sym-lib-table",
+      "passed": true
+    },
+    {
+      "check": "Only eleven planned existing files changed",
+      "passed": true
+    },
+    {
+      "check": "232 prior files byte-identical",
+      "passed": true
+    },
+    {
+      "check": "Planned before/after SHAs mainboard/3dmodels/MODEL-PROVENANCE.json",
+      "passed": true
+    },
+    {
+      "check": "Planned before/after SHAs mainboard/3dmodels/README.md",
+      "passed": true
+    },
+    {
+      "check": "Planned before/after SHAs mainboard/mainboard-import-fps.pretty/LED5MM.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Planned before/after SHAs mainboard/mainboard.kicad_pcb",
+      "passed": true
+    },
+    {
+      "check": "Planned before/after SHAs ioboard/3dmodels/MODEL-PROVENANCE.json",
+      "passed": true
+    },
+    {
+      "check": "Planned before/after SHAs ioboard/3dmodels/README.md",
+      "passed": true
+    },
+    {
+      "check": "Planned before/after SHAs ioboard/ioboard-import-fps.pretty/78XXS.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Planned before/after SHAs ioboard/ioboard-import-fps.pretty/D03S.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Planned before/after SHAs ioboard/ioboard-import-fps.pretty/MJ-3536N.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Planned before/after SHAs ioboard/ioboard-import-fps.pretty/PJ-202AH.kicad_mod",
+      "passed": true
+    },
+    {
+      "check": "Planned before/after SHAs ioboard/ioboard.kicad_pcb",
+      "passed": true
+    },
+    {
+      "check": "New asset/metadata SHA mainboard/3dmodels/REVISION-10-SOURCES.json",
+      "passed": true
+    },
+    {
+      "check": "New asset/metadata SHA mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+      "passed": true
+    },
+    {
+      "check": "New asset/metadata SHA ioboard/3dmodels/REVISION-10-SOURCES.json",
+      "passed": true
+    },
+    {
+      "check": "New asset/metadata SHA ioboard/3dmodels/Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+      "passed": true
+    },
+    {
+      "check": "New asset/metadata SHA ioboard/3dmodels/Revision10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+      "passed": true
+    },
+    {
+      "check": "New asset/metadata SHA ioboard/3dmodels/Revision10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step",
+      "passed": true
+    },
+    {
+      "check": "New asset/metadata SHA ioboard/3dmodels/Revision10/heatsink-fit-research/Aavid_574502B00000G_BentBack_PhotoQualified.step",
+      "passed": true
+    },
+    {
+      "check": "All prior STEP assets retained byte-for-byte",
+      "passed": true
+    },
+    {
+      "check": "All inherited footprint cache policies retained",
+      "passed": true
+    },
+    {
+      "check": "Combined assignment plan covers 491 unique references",
+      "passed": true
+    },
+    {
+      "check": "Update plan is exactly intended45 reference positions",
+      "passed": true
+    },
+    {
+      "check": "Footprint reference set unchanged mainboard",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/0207_5V",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/0207_5V",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/0207_2V",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/0207_2V",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/0207_10",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/0207_10",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/0207_15",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/0207_15",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/LED5MM",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/LED5MM",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/2SC536F",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/2SC536F",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/TO92",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/TO92",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/2SK30",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/2SK30",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/E5-6",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/E5-6",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/E5-5",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/E5-5",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/DIL08",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/DIL08",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/DIL08_AT25",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/DIL08_AT25",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/DIL14",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/DIL14",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/DIL16",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/DIL16",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/DIL40",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/DIL40",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/DO35-10",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/DO35-10",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/C050H075X075",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/C050H075X075",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/C050-035X075",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/C050-035X075",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/C050-024X044",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/C050-024X044",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/C050-025X075",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/C050-025X075",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/C075-032X103",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/C075-032X103",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/C050-025X075",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/C050-025X075",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/C050-030X075",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/C050-030X075",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/C050-045X075",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/C050-045X075",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/C050-050X075",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/C050-050X075",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/C050-055X075",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/C050-055X075",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/C050-075X075",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/C050-075X075",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/E2,5-7",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/E2,5-7",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/E3,5-8",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/E3,5-8",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/2SC536_UNEVEN",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/2SC536_UNEVEN",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/SIP9",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/SIP9",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/SIP9",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/SIP9",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/SSIP5",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/SSIP5",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/2SC2021",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/2SC2021",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/B3F-40XX",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/B3F-40XX",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/EVU",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/EVU",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/ALPHADUAL",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/ALPHADUAL",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/PEC11-S",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/PEC11-S",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/NKKTOGGLE",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/NKKTOGGLE",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/GH3074",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/GH3074",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/306",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/306",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/R-7,5",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/R-7,5",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/SSIP5",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/SSIP5",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/12",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/12",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/15",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/15",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/MA03-1",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/MA03-1",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA mainboard/MA12-1",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment mainboard/MA12-1",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED6",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED18",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED5",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED30",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED4",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED12",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED29",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED19",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED25",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED27",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED2",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED13",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED3",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED36",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED10",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED22",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED17",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED31",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED35",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED32",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED8",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED39",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED33",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED7",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED37",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED23",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED14",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED9",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED11",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED26",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED38",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED40",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED34",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED24",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED1",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED28",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED20",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED16",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED21",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at mainboard/LED15",
+      "passed": true
+    },
+    {
+      "check": "Earlier provenance model entries retained mainboard",
+      "passed": true
+    },
+    {
+      "check": "Only intended provenance model entries added mainboard",
+      "passed": true
+    },
+    {
+      "check": "Earlier README preserved mainboard",
+      "passed": true
+    },
+    {
+      "check": "Footprint reference set unchanged ioboard",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/0207_5V",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/0207_5V",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/2SC536F",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/2SC536F",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/TO-92_x0x",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/TO-92_x0x",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/E5-6",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/E5-6",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/DIL06",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/DIL06",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/DIL08",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/DIL08",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/SQFP-S-7X7-32",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/SQFP-S-7X7-32",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/DO35-10",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/DO35-10",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/DO41-10",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/DO41-10",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/C050H075X075",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/C050H075X075",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/C050-025X075",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/C050-025X075",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/E5-13",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/E5-13",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/Resonator_6MHz_x0x",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/Resonator_6MHz_x0x",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/CP-2350",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/CP-2350",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/MJ-3536N",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/MJ-3536N",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/PJ-202AH",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/PJ-202AH",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/REAN_1_4STERO",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/REAN_1_4STERO",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/PN61729",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/PN61729",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/306",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/306",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/78XXS",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/78XXS",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/D03S",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/D03S",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/MA03-1",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/MA03-1",
+      "passed": true
+    },
+    {
+      "check": "Local assigned STEP SHA ioboard/MA12-1",
+      "passed": true
+    },
+    {
+      "check": "All placed paths match combined assignment ioboard/MA12-1",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at ioboard/CV0",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at ioboard/IC20",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at ioboard/GATE0",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at ioboard/KK1",
+      "passed": true
+    },
+    {
+      "check": "Only model path changed at ioboard/POWER0",
+      "passed": true
+    },
+    {
+      "check": "Earlier provenance model entries retained ioboard",
+      "passed": true
+    },
+    {
+      "check": "Only intended provenance model entries added ioboard",
+      "passed": true
+    },
+    {
+      "check": "Earlier README preserved ioboard",
+      "passed": true
+    },
+    {
+      "check": "Exactly45 placed paths updated",
+      "passed": true
+    },
+    {
+      "check": "491 fitted reference models retained",
+      "passed": true
+    },
+    {
+      "check": "Only optional IC15A0 and seven NPTHs lack bodies",
+      "passed": true,
+      "detail": {
+        "mainboard": [
+          {
+            "reference": "U$2",
+            "footprint": "\"mainboard-import-fps:1,3\""
+          },
+          {
+            "reference": "U$27",
+            "footprint": "\"mainboard-import-fps:1,3\""
+          },
+          {
+            "reference": "U$28",
+            "footprint": "\"mainboard-import-fps:1,3\""
+          },
+          {
+            "reference": "U$24",
+            "footprint": "\"mainboard-import-fps:1,3\""
+          },
+          {
+            "reference": "IC15A0",
+            "footprint": "\"mainboard-import-fps:SIP9\""
+          },
+          {
+            "reference": "U$23",
+            "footprint": "\"mainboard-import-fps:1,3\""
+          },
+          {
+            "reference": "U$25",
+            "footprint": "\"mainboard-import-fps:1,3\""
+          },
+          {
+            "reference": "U$29",
+            "footprint": "\"mainboard-import-fps:1,3\""
+          }
+        ],
+        "ioboard": []
+      }
+    },
+    {
+      "check": "All seven missing mounting models are actually non-plated holes",
+      "passed": true
+    },
+    {
+      "check": "No model-transform exceptions declared",
+      "passed": true
+    },
+    {
+      "check": "Heterogeneous SSIP5 cache byte-identical and model-free",
+      "passed": true
+    },
+    {
+      "check": "Frozen source and candidate SHA match ioboard/78XXS",
+      "passed": true
+    },
+    {
+      "check": "Canonical assignment unchanged ioboard/78XXS",
+      "passed": true
+    },
+    {
+      "check": "Source qualification and limitations retained ioboard/78XXS",
+      "passed": true
+    },
+    {
+      "check": "Frozen source and candidate SHA match ioboard/D03S",
+      "passed": true
+    },
+    {
+      "check": "Canonical assignment unchanged ioboard/D03S",
+      "passed": true
+    },
+    {
+      "check": "Source qualification and limitations retained ioboard/D03S",
+      "passed": true
+    },
+    {
+      "check": "Frozen source and candidate SHA match ioboard/MJ-3536N",
+      "passed": true
+    },
+    {
+      "check": "Canonical assignment unchanged ioboard/MJ-3536N",
+      "passed": true
+    },
+    {
+      "check": "Source qualification and limitations retained ioboard/MJ-3536N",
+      "passed": true
+    },
+    {
+      "check": "Frozen source and candidate SHA match ioboard/PJ-202AH",
+      "passed": true
+    },
+    {
+      "check": "Canonical assignment unchanged ioboard/PJ-202AH",
+      "passed": true
+    },
+    {
+      "check": "Source qualification and limitations retained ioboard/PJ-202AH",
+      "passed": true
+    },
+    {
+      "check": "Frozen source and candidate SHA match mainboard/LED5MM",
+      "passed": true
+    },
+    {
+      "check": "Canonical assignment unchanged mainboard/LED5MM",
+      "passed": true
+    },
+    {
+      "check": "Source qualification and limitations retained mainboard/LED5MM",
+      "passed": true
+    },
+    {
+      "check": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly frozen source/candidate hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly valid BRep",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly positive valid individual solids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly unchanged intended solid count",
+      "passed": true,
+      "detail": {
+        "actual": 2,
+        "expected": 2
+      }
+    },
+    {
+      "check": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly exact surface bounds",
+      "passed": true,
+      "detail": {
+        "numerical_tolerance_mm": 1e-06,
+        "actual_mm": [
+          -5.0,
+          3.0,
+          1.3799999999999997,
+          5.0,
+          18.5,
+          5.835000000000001
+        ],
+        "expected_mm": [
+          -5.0,
+          3.0,
+          1.3799999999999997,
+          5.0,
+          18.5,
+          5.835000000000001
+        ]
+      }
+    },
+    {
+      "check": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly manifest volume",
+      "passed": true,
+      "detail": {
+        "actual_mm3": 486.0634828602392,
+        "expected_mm3": 486.0634828602392
+      }
+    },
+    {
+      "check": "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly declared canonical Z extent",
+      "passed": true,
+      "detail": {
+        "minimum_z_mm": 1.3799999999999997
+      }
+    },
+    {
+      "check": "Aavid_574502B00000G_BentBack_PhotoQualified frozen source/candidate hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Aavid_574502B00000G_BentBack_PhotoQualified valid BRep",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Aavid_574502B00000G_BentBack_PhotoQualified positive valid individual solids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Aavid_574502B00000G_BentBack_PhotoQualified unchanged intended solid count",
+      "passed": true,
+      "detail": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "check": "Aavid_574502B00000G_BentBack_PhotoQualified exact surface bounds",
+      "passed": true,
+      "detail": {
+        "numerical_tolerance_mm": 1e-06,
+        "actual_mm": [
+          -10.920000100000001,
+          2.629999899999999,
+          0.7499999,
+          10.920000100000001,
+          21.6800001,
+          10.7800001
+        ],
+        "expected_mm": [
+          -10.920000000000002,
+          2.6299999999999955,
+          0.7499999999999996,
+          10.920000000000002,
+          21.68,
+          10.780000000000001
+        ]
+      }
+    },
+    {
+      "check": "Aavid_574502B00000G_BentBack_PhotoQualified manifest volume",
+      "passed": true,
+      "detail": {
+        "actual_mm3": 797.0774096350162,
+        "expected_mm3": 797.0774096350162
+      }
+    },
+    {
+      "check": "Aavid_574502B00000G_BentBack_PhotoQualified declared canonical Z extent",
+      "passed": true,
+      "detail": {
+        "minimum_z_mm": 0.7499999
+      }
+    },
+    {
+      "check": "MJ3536N_DrawingDerived_DetailedBody frozen source/candidate hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MJ3536N_DrawingDerived_DetailedBody valid BRep",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MJ3536N_DrawingDerived_DetailedBody positive valid individual solids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MJ3536N_DrawingDerived_DetailedBody unchanged intended solid count",
+      "passed": true,
+      "detail": {
+        "actual": 5,
+        "expected": 5
+      }
+    },
+    {
+      "check": "MJ3536N_DrawingDerived_DetailedBody exact surface bounds",
+      "passed": true,
+      "detail": {
+        "numerical_tolerance_mm": 1e-06,
+        "actual_mm": [
+          -5.0,
+          -3.0,
+          0.0,
+          5.0,
+          15.8,
+          10.0
+        ],
+        "expected_mm": [
+          -5.0,
+          -3.0,
+          0.0,
+          5.0,
+          15.8,
+          10.0
+        ]
+      }
+    },
+    {
+      "check": "MJ3536N_DrawingDerived_DetailedBody manifest volume",
+      "passed": true,
+      "detail": {
+        "actual_mm3": 1133.1234613429533,
+        "expected_mm3": 1133.1234613429533
+      }
+    },
+    {
+      "check": "MJ3536N_DrawingDerived_DetailedBody declared canonical Z extent",
+      "passed": true,
+      "detail": {
+        "minimum_z_mm": 0.0
+      }
+    },
+    {
+      "check": "PJ202AH_DrawingDerived_DetailedBody_Corrected frozen source/candidate hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PJ202AH_DrawingDerived_DetailedBody_Corrected valid BRep",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PJ202AH_DrawingDerived_DetailedBody_Corrected positive valid individual solids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PJ202AH_DrawingDerived_DetailedBody_Corrected unchanged intended solid count",
+      "passed": true,
+      "detail": {
+        "actual": 5,
+        "expected": 5
+      }
+    },
+    {
+      "check": "PJ202AH_DrawingDerived_DetailedBody_Corrected exact surface bounds",
+      "passed": true,
+      "detail": {
+        "numerical_tolerance_mm": 1e-06,
+        "actual_mm": [
+          -4.5,
+          -14.4,
+          0.0,
+          4.5,
+          0.0,
+          11.0
+        ],
+        "expected_mm": [
+          -4.5,
+          -14.400000000000004,
+          0.0,
+          4.5,
+          0.0,
+          11.0
+        ]
+      }
+    },
+    {
+      "check": "PJ202AH_DrawingDerived_DetailedBody_Corrected manifest volume",
+      "passed": true,
+      "detail": {
+        "actual_mm3": 1048.6355538087932,
+        "expected_mm3": 1048.6355538087932
+      }
+    },
+    {
+      "check": "PJ202AH_DrawingDerived_DetailedBody_Corrected declared canonical Z extent",
+      "passed": true,
+      "detail": {
+        "minimum_z_mm": 0.0
+      }
+    },
+    {
+      "check": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads frozen source/candidate hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads valid BRep",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads positive valid individual solids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads unchanged intended solid count",
+      "passed": true,
+      "detail": {
+        "actual": 3,
+        "expected": 3
+      }
+    },
+    {
+      "check": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads exact surface bounds",
+      "passed": true,
+      "detail": {
+        "numerical_tolerance_mm": 1e-06,
+        "actual_mm": [
+          -1.2300000000003952,
+          -2.9,
+          -2.5,
+          4.17,
+          2.9,
+          14.696000000000002
+        ],
+        "expected_mm": [
+          -1.2300000000003966,
+          -2.9,
+          -2.5,
+          4.17,
+          2.9,
+          14.696000000000002
+        ]
+      }
+    },
+    {
+      "check": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads manifest volume",
+      "passed": true,
+      "detail": {
+        "actual_mm3": 156.2922822263168,
+        "expected_mm3": 156.2922822263168
+      }
+    },
+    {
+      "check": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads declared canonical Z extent",
+      "passed": true,
+      "detail": {
+        "minimum_z_mm": -2.5
+      }
+    },
+    {
+      "check": "Official source stock hash frozen",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED head full exact source geometry retained by3.096mm rigid lift",
+      "passed": true,
+      "detail": {
+        "original_body_mm3": 153.54156222631704,
+        "candidate_body_mm3": 153.541562226317,
+        "common_mm3": 153.541562226317
+      }
+    },
+    {
+      "check": "LED lowerhead6.096/top14.696mm canonical extent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED full square lead1.3744762072997224e-18",
+      "passed": true,
+      "detail": {
+        "x": 1.3744762072997224e-18,
+        "width": 0.4,
+        "thickness": 0.4,
+        "zmin": -2.5,
+        "zmax": 6.096
+      }
+    },
+    {
+      "check": "LED square section X1.3744762072997224e-18Z-2.5",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000003
+      }
+    },
+    {
+      "check": "LED square section X1.3744762072997224e-18Z-1.6",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000003
+      }
+    },
+    {
+      "check": "LED square section X1.3744762072997224e-18Z-0.8",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000003
+      }
+    },
+    {
+      "check": "LED square section X1.3744762072997224e-18Z0",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000003
+      }
+    },
+    {
+      "check": "LED square section X1.3744762072997224e-18Z1",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000003
+      }
+    },
+    {
+      "check": "LED square section X1.3744762072997224e-18Z3",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000003
+      }
+    },
+    {
+      "check": "LED square section X1.3744762072997224e-18Z5",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000003
+      }
+    },
+    {
+      "check": "LED square section X1.3744762072997224e-18Z6.095",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000003
+      }
+    },
+    {
+      "check": "LED full square lead2.5399999999999996",
+      "passed": true,
+      "detail": {
+        "x": 2.5399999999999996,
+        "width": 0.40000000000000036,
+        "thickness": 0.4,
+        "zmin": -2.5,
+        "zmax": 6.096
+      }
+    },
+    {
+      "check": "LED square section X2.5399999999999996Z-2.5",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000014
+      }
+    },
+    {
+      "check": "LED square section X2.5399999999999996Z-1.6",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000017
+      }
+    },
+    {
+      "check": "LED square section X2.5399999999999996Z-0.8",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000017
+      }
+    },
+    {
+      "check": "LED square section X2.5399999999999996Z0",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000017
+      }
+    },
+    {
+      "check": "LED square section X2.5399999999999996Z1",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000017
+      }
+    },
+    {
+      "check": "LED square section X2.5399999999999996Z3",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000017
+      }
+    },
+    {
+      "check": "LED square section X2.5399999999999996Z5",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000017
+      }
+    },
+    {
+      "check": "LED square section X2.5399999999999996Z6.095",
+      "passed": true,
+      "detail": {
+        "area_mm2": 0.16000000000000017
+      }
+    },
+    {
+      "check": "Two LED leads maintain2.54mm source pitch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Only lensbody and two full leads: no invented spacer solid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "446 unmodified reference geometry assets and paths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All schematic/project settings byte-preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Five replacement STEP families;45references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pair primary source hash sources/boyd-574502B00000G-exact-drawing.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pair primary source hash sources/onsemi-mc78m00.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pair primary source hash sources/retrieved-source-manifest.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pair primary source hash sources/7805.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pair primary source hash sources/x0xb0x-mirror-tree.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pair primary source hash sources/boyd-5740-manufacturer.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pair primary source hash sources/7805measure.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pair primary source hash sources/7805place.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pair primary source hash sources/powersupply.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pair primary source hash sources/to220-heatsink.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pair primary source hash sources/7805soldered.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pair primary source hash sources/ioboard_done.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rear primary source hash sources/mj-3536n-current.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rear primary source hash sources/mj3536n-2020.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rear primary source hash sources/mj3536n-official-cad-page.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rear primary source hash sources/pj-202ah-current.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rear primary source hash sources/pj202ah-2015.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rear primary source hash sources/pj202ah-official-cad-page.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rear primary source hash sources/samesky-cad-model-terms.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original author bend instruction retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Exact bend and standoff remain explicit assumptions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "IC20 leads remain omitted in declared scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MJ current/historical dimension relation corrected in final plan",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Both rear model terminal/locator omission and physical-fit limit retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rear reconstruction source CAD not incorporated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Original maker CAD ZIP absent from candidate project",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Delivery script excludes original CAD ZIP package_revision_10.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Delivery script excludes original CAD ZIP package_blender_scene.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No original CAD read/import in original rear reconstruction generator",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked current family audit passed heatsink-fit-research/bent-pair-geometry-audit.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked current family audit passed independent-rigid-pair-audit.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked current family audit passed heatsink-fit-research/native-probes/native-export-audit.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked current family audit passed heatsink-fit-research/bent-pair-native-scene-screen.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked current family audit passed rear-connector-quality/final-geometry-audit.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked current family audit passed rear-connector-quality/native-quality-audit.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked current family audit passed led-assembly-quality/led-assembly-geometry-audit.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Linked current family audit passed led-assembly-quality/native-probes/native-export-audit.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pair overlap solely retained free-state spring mask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All six exact C3/C4/C5 pair comparisons clear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Native pair footprint datum retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Native rear source hashes match frozen candidate STEP assets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Corrected PJ asset frozen hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Superseded PJ source absent from active candidate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED native and source audits pinned to active frozen STEP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All80 original LED holes and poles checked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Both LED source height choices documented",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Primary BOM actually names0.24inch STD240B",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Primary sequencer table retains0.22inch conflict",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED nonzero prior transforms preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No invented black spacer body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Plan unchanged during independent read-only review",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "check_count": 746,
+  "failures": [],
+  "failure_count": 0,
+  "passed": true,
+  "review_state": "FINAL for the authoritative45-reference candidate10; currenthashes and correctedsourceledger reviewed.",
+  "final_source_corrections": [
+    "Active PJ corrected STEP5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e removes unsupported plastic rear recess; manufacturer diameter1.5mm describes a terminal eye.",
+    "LED head above oldZ3 retains full source geometry under rigid+3.096mm lift; full0.4mm square leads extend\u22122.5..6.096mm. Source0.24inch choice remains qualified against0.22inch table conflict."
+  ]
+}

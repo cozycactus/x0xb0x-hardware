@@ -1,0 +1,3998 @@
+{
+  "scope": "Canonical complete body/wire models for the authorized KiCad and Blender visual assignments. No source board, library or scene edited by this generator.",
+  "license": "CC0-1.0 for original parametric illustrations; source documents retain their respective copyrights.",
+  "canonical_frame": "X=original F.Cu footprintX,Y=-footprintY,Z=outward from F.Cu seat",
+  "models": {
+    "CT6EP_TopAdjust_BodyIllustration": {
+      "stl": "CT6EP_TopAdjust_BodyIllustration.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.stl",
+      "step": "CT6EP_TopAdjust_BodyIllustration.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step",
+      "step_sha256": "4e804dd88e09680a8147bb4a013c877e9011c7bb70c5fd7d114618000e3eef1e",
+      "stl_sha256": "d87fc3889d5e85a18995578b28355fcd8b4519174fb05eaa31606fd4f749982b",
+      "units": "mm",
+      "classification": "Original CT6EP-family nominal body illustration; no electrical terminals",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.nidec-components.com/e/catalog/trimmer/ct-6.pdf"
+      ],
+      "dimensions": {
+        "published_body_width_mm": 7,
+        "published_body_depth_mm": 7,
+        "published_total_height_mm": 5.8,
+        "published_slot_length_width_depth_mm": [
+          2.6,
+          0.6,
+          1.6
+        ],
+        "nominal_lead_grid_mm": [
+          5.0,
+          2.5
+        ],
+        "actual_board_grid_mm": [
+          5.08,
+          2.54
+        ]
+      },
+      "material_color_suggestions": {
+        "Housing": "blue polymer",
+        "Rotor": "off-white plastic"
+      },
+      "limitations": [
+        "Original BOM calls these VishayCT6EP202/502/503/504; current primary CT-6EP catalog is Nidec/Copal. This is not the earlier CTS306 substitution.",
+        "7x7x5.8mm and slot dimensions follow the current manufacturer CT-6EP drawing. Historical vendor/revision is not confirmed.",
+        "Rotor diameter, housing/rotor split and colors are presentation approximations. No unverified terminals, clips or printed markings are modeled.",
+        "Body seated at canonicalZ0 is an installed-height assumption. Body-only assignment does not establish pin fit."
+      ],
+      "segments": [
+        {
+          "name": "Housing",
+          "stl": "CT6EP_TopAdjust_BodyIllustration--Housing.stl",
+          "color_rgb": [
+            0.04,
+            0.28,
+            0.55
+          ]
+        },
+        {
+          "name": "Rotor",
+          "stl": "CT6EP_TopAdjust_BodyIllustration--Rotor.stl",
+          "color_rgb": [
+            0.84,
+            0.85,
+            0.82
+          ]
+        }
+      ],
+      "geometry_audit": {
+        "valid_STEP": true,
+        "solids": 2,
+        "colored_solids": 2,
+        "volume_mm3": 271.59837013204935,
+        "bbox_mm": [
+          -3.5,
+          -3.5,
+          0.0,
+          3.5,
+          3.5,
+          5.8
+        ],
+        "AP214_face_styles": 38
+      }
+    },
+    "MC78M05_TO220_BodyOnlyIllustration": {
+      "stl": "MC78M05_TO220_BodyOnlyIllustration.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.stl",
+      "step": "MC78M05_TO220_BodyOnlyIllustration.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.step",
+      "step_sha256": "f65e974128af6b8e5f9f74b815aada33c296f1ae113dac9fc6f7a341599e65a8",
+      "stl_sha256": "46ca08f52d7d948c4e17cfad65584e09b75ea06bb437990dbc6962cc05dddc03",
+      "units": "mm",
+      "classification": "Generic MC78M05/7805 TO220 nominal body and tab; all leads omitted",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.onsemi.com/download/data-sheet/pdf/mc78m00-d.pdf"
+      ],
+      "dimensions": {
+        "nominal_body_width_depth_total_height_mm": [
+          10.0,
+          4.455,
+          15.5
+        ],
+        "body_bottom_height_mm": 3.0,
+        "body_top_height_mm": 18.5,
+        "nominal_tab_thickness_mm": 1.27,
+        "nominal_mount_hole_diameter_mm": 3.66
+      },
+      "material_color_suggestions": {
+        "PlasticBody": "black epoxy",
+        "MetalTab": "silver metal"
+      },
+      "limitations": [
+        "Original BOM identifies7805 TO220 and links FairchildMC78M05CT; exact supplied regulator vendor/suffix is unconfirmed.",
+        "Nominal exterior dimensions lie within current onsemi case221AB published limits; body/tab segmentation and mounting-hole pose are simplified.",
+        "No terminals are modeled. The prior nominal pin-clearance concern is not hidden by thinning or moving leads.",
+        "Body bottomZ3.0mm and canonicalY placement are illustration assumptions informed by the installed standard TO220 package and source footprint; real seat/heatsink contact is not certified."
+      ],
+      "segments": [
+        {
+          "name": "PlasticBody",
+          "stl": "MC78M05_TO220_BodyOnlyIllustration--PlasticBody.stl",
+          "color_rgb": [
+            0.06,
+            0.06,
+            0.065
+          ]
+        },
+        {
+          "name": "MetalTab",
+          "stl": "MC78M05_TO220_BodyOnlyIllustration--MetalTab.stl",
+          "color_rgb": [
+            0.7,
+            0.72,
+            0.74
+          ]
+        }
+      ],
+      "geometry_audit": {
+        "valid_STEP": true,
+        "solids": 2,
+        "colored_solids": 2,
+        "volume_mm3": 486.0634828602393,
+        "bbox_mm": [
+          -5.0,
+          -3.835,
+          3.0,
+          5.0,
+          0.6200000000000001,
+          18.5
+        ],
+        "AP214_face_styles": 13
+      }
+    },
+    "Microohm_LPTC12T21001_ApproxBody": {
+      "stl": "Microohm_LPTC12T21001_ApproxBody.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/Microohm_LPTC12T21001_ApproxBody.stl",
+      "step": "Microohm_LPTC12T21001_ApproxBody.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/Microohm_LPTC12T21001_ApproxBody.step",
+      "step_sha256": "907fbd52f9bc38814d3986e9841976ae001ca6fd73bd8d28d4e35a586b6bb450",
+      "stl_sha256": "ae1f74161c52bdaa22cb7284dba2f70c94a0313a771a7a30a188ea02a2130fe5",
+      "units": "mm",
+      "classification": "Approximate Microohm LPTC12T21001 axial PTC body; no leads",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "http://www.micro-ohm.com/temperature/temprecflm.html",
+        "https://github.com/x0xb0x/x0xb0x.github.io/blob/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/posistor.jpg"
+      ],
+      "dimensions": {
+        "footprint_outline_nominal_length_mm": 7.62,
+        "footprint_outline_nominal_diameter_mm": 2.54,
+        "assumed_body_standoff_mm": 0.4,
+        "actual_pad_pitch_mm": 10.16,
+        "paint_band_radial_thickness_mm": 0.01
+      },
+      "material_color_suggestions": {
+        "Body": "blue/teal coating",
+        "Bands": "brown black red brown green"
+      },
+      "limitations": [
+        "Original BOM identifies1kOhm PTC LPTC12T21001, not a generic NTC. Both R100A/R100B are fitted.",
+        "Primary Microohm mechanical data was not recovered.7.62x2.54mm envelope follows the sourceR-7,5 outline; actual body dimensions remain approximate.",
+        "Body standoff0.4mm, tapered ends, band locations and colors are illustration choices. Band sequence follows the original BOM.",
+        "Unknown leads omitted; no pin fit or thermal coupling claim follows."
+      ],
+      "segments": [
+        {
+          "name": "Body",
+          "stl": "Microohm_LPTC12T21001_ApproxBody--Body.stl",
+          "color_rgb": [
+            0.25,
+            0.57,
+            0.68
+          ]
+        },
+        {
+          "name": "Band1",
+          "stl": "Microohm_LPTC12T21001_ApproxBody--Band1.stl",
+          "color_rgb": [
+            0.25,
+            0.12,
+            0.04
+          ]
+        },
+        {
+          "name": "Band2",
+          "stl": "Microohm_LPTC12T21001_ApproxBody--Band2.stl",
+          "color_rgb": [
+            0.06,
+            0.06,
+            0.065
+          ]
+        },
+        {
+          "name": "Band3",
+          "stl": "Microohm_LPTC12T21001_ApproxBody--Band3.stl",
+          "color_rgb": [
+            0.7,
+            0.015,
+            0.01
+          ]
+        },
+        {
+          "name": "Band4",
+          "stl": "Microohm_LPTC12T21001_ApproxBody--Band4.stl",
+          "color_rgb": [
+            0.25,
+            0.12,
+            0.04
+          ]
+        },
+        {
+          "name": "Band5",
+          "stl": "Microohm_LPTC12T21001_ApproxBody--Band5.stl",
+          "color_rgb": [
+            0.05,
+            0.35,
+            0.08
+          ]
+        }
+      ],
+      "geometry_audit": {
+        "valid_STEP": true,
+        "solids": 6,
+        "colored_solids": 6,
+        "volume_mm3": 36.03088886378753,
+        "bbox_mm": [
+          -3.81,
+          -1.28,
+          0.3899999999999999,
+          3.810000000000028,
+          1.28,
+          2.95
+        ],
+        "AP214_face_styles": 25
+      }
+    },
+    "2SC2291_SSIP5_ApproxBody": {
+      "stl": "2SC2291_SSIP5_ApproxBody.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/2SC2291_SSIP5_ApproxBody.stl",
+      "step": "2SC2291_SSIP5_ApproxBody.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/2SC2291_SSIP5_ApproxBody.step",
+      "step_sha256": "19c85906d54361aa9937eb1868bddb3249b0c0b7ad878e7067d447b56bdc95de",
+      "stl_sha256": "58c7a0668b0f61b13a57c74e8ae7f3fc0aa2cbd046008f5efce41a29ac80084c",
+      "units": "mm",
+      "classification": "Approximate original-footprint2SC2291 SIP5 body; no leads",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://github.com/x0xb0x/x0xb0x.github.io/blob/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/2SC2291.jpg"
+      ],
+      "dimensions": {
+        "footprint_outline_width_mm": 7.62,
+        "footprint_outline_depth_mm": 3.302,
+        "assumed_body_height_mm": 5.0,
+        "actual_board_pin_pitch_mm": 2.286
+      },
+      "material_color_suggestions": {
+        "Body": "black epoxy"
+      },
+      "limitations": [
+        "Original BOM and primary project photo establish2SC2291 SIP5 matched pair with common base.",
+        "No manufacturer package drawing was recovered. SourceSSIP5 outline supplies XY;5mm height and flat seating are explicit approximations.",
+        "No2SC1583 package identity is assumed from the shared SSIP5 footprint. Unknown leads omitted."
+      ],
+      "segments": [
+        {
+          "name": "Body",
+          "stl": "2SC2291_SSIP5_ApproxBody--Body.stl",
+          "color_rgb": [
+            0.06,
+            0.06,
+            0.065
+          ]
+        }
+      ],
+      "geometry_audit": {
+        "valid_STEP": true,
+        "solids": 1,
+        "colored_solids": 1,
+        "volume_mm3": 119.35459999999944,
+        "bbox_mm": [
+          -3.8100000000001213,
+          -1.27,
+          0.0,
+          3.81,
+          2.032,
+          5.0
+        ],
+        "AP214_face_styles": 8
+      }
+    },
+    "Aavid_574502B00000G_EnvelopeIllustration": {
+      "stl": "Aavid_574502B00000G_EnvelopeIllustration.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/Aavid_574502B00000G_EnvelopeIllustration.stl",
+      "step": "Aavid_574502B00000G_EnvelopeIllustration.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/Aavid_574502B00000G_EnvelopeIllustration.step",
+      "step_sha256": "b66e739c934beceb105612459bedeab0864eab3289a5ea23b2f414d3769bf068",
+      "stl_sha256": "561d06d5305fe94d17033d747ceea8c28c9d922d53fd69e7b2f02298b07031cf",
+      "units": "mm",
+      "classification": "Published-envelope Aavid/Boyd574502B00000G heatsink illustration; folds approximate",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf"
+      ],
+      "dimensions": {
+        "published_width_mm": 21.84,
+        "specific_part_drawing_depth_mm": 10.03,
+        "published_height_mm": 19.05,
+        "family_table_depth_mm": 9.02,
+        "assumed_fold_wall_thickness_mm": 0.6
+      },
+      "material_color_suggestions": {
+        "BlackAnodizedShell": "black anodized aluminium"
+      },
+      "limitations": [
+        "KK1 is a fitted padless heatsink, included separately from the electrical-pad inventory.",
+        "Specific574502B00000G drawing gives21.84mm width,10.03mm side depth and19.05mm height; family summary table reports9.02mm depth. This model uses the specific part drawing.",
+        "SourceD03S footprint artwork is13.716mm wide and conflicts with the BOM part; the board artwork is not altered.",
+        "Fold wall0.6mm, simplified spring outline and installed seat are approximations; no real regulator contact/clamping or mechanical clearance is certified."
+      ],
+      "segments": [
+        {
+          "name": "BlackAnodizedShell",
+          "stl": "Aavid_574502B00000G_EnvelopeIllustration--BlackAnodizedShell.stl",
+          "color_rgb": [
+            0.035,
+            0.038,
+            0.042
+          ]
+        }
+      ],
+      "geometry_audit": {
+        "valid_STEP": true,
+        "solids": 3,
+        "colored_solids": 3,
+        "volume_mm3": 812.4443999999996,
+        "bbox_mm": [
+          -10.92,
+          -1.27,
+          0.0,
+          10.92,
+          8.76,
+          19.05
+        ],
+        "AP214_face_styles": 34
+      }
+    },
+    "WireJumper_P12p7": {
+      "stl": "WireJumper_P12p7.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/WireJumper_P12p7.stl",
+      "step": "WireJumper_P12p7.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/WireJumper_P12p7.step",
+      "step_sha256": "cab0cbc52fcb9b04f69394062fc0e924242e85a6cfe2b50df2784feb94557202",
+      "stl_sha256": "b0fe5992fdda8de2c942ee36f4d45bacb57a22b897c3197b8f771cfe4cdbc526",
+      "units": "mm",
+      "classification": "Bare wire jumper illustration at actual source pad spacing",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "dimensions": {
+        "actual_pad_pitch_mm": 12.7,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_bridge_center_height_mm": 0.8,
+        "assumed_below_seat_projection_mm": 1.8
+      },
+      "material_color_suggestions": {
+        "Wire": "tinned silver wire"
+      },
+      "limitations": [
+        "J1/J2 are soldered wire jumpers, not plastic connector bodies.",
+        "Actual pad pitch and conductor axes are preserved. Wire diameter, bridge height, forming radius and trimmed projection are illustrative."
+      ],
+      "segments": [
+        {
+          "name": "Wire",
+          "stl": "WireJumper_P12p7--Wire.stl",
+          "color_rgb": [
+            0.7,
+            0.72,
+            0.74
+          ]
+        }
+      ],
+      "geometry_audit": {
+        "valid_STEP": true,
+        "solids": 1,
+        "colored_solids": 1,
+        "volume_mm3": 2.2448020371943103,
+        "bbox_mm": [
+          -6.55,
+          -0.2,
+          -1.8,
+          6.55,
+          0.2,
+          1.0
+        ],
+        "AP214_face_styles": 8
+      }
+    },
+    "WireJumper_P15p24": {
+      "stl": "WireJumper_P15p24.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/WireJumper_P15p24.stl",
+      "step": "WireJumper_P15p24.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/WireJumper_P15p24.step",
+      "step_sha256": "bcb2a95f62d50668559ed08bf43bedc2014e84d10c67c95805f9b2763c8a0d9a",
+      "stl_sha256": "6b08f776d2c736dff26f31cd82e44cd3f369bdfee657e97a8c7e641ae28d6e26",
+      "units": "mm",
+      "classification": "Bare wire jumper illustration at actual source pad spacing",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "dimensions": {
+        "actual_pad_pitch_mm": 15.24,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_bridge_center_height_mm": 0.8,
+        "assumed_below_seat_projection_mm": 1.8
+      },
+      "material_color_suggestions": {
+        "Wire": "tinned silver wire"
+      },
+      "limitations": [
+        "J1/J2 are soldered wire jumpers, not plastic connector bodies.",
+        "Actual pad pitch and conductor axes are preserved. Wire diameter, bridge height, forming radius and trimmed projection are illustrative."
+      ],
+      "segments": [
+        {
+          "name": "Wire",
+          "stl": "WireJumper_P15p24--Wire.stl",
+          "color_rgb": [
+            0.7,
+            0.72,
+            0.74
+          ]
+        }
+      ],
+      "geometry_audit": {
+        "valid_STEP": true,
+        "solids": 1,
+        "colored_solids": 1,
+        "volume_mm3": 2.5639878244610643,
+        "bbox_mm": [
+          -7.82,
+          -0.2,
+          -1.8,
+          7.82,
+          0.2,
+          1.0
+        ],
+        "AP214_face_styles": 8
+      }
+    },
+    "SolderedRibbon_3Way_Termination": {
+      "stl": "SolderedRibbon_3Way_Termination.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.stl",
+      "step": "SolderedRibbon_3Way_Termination.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "step_sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "stl_sha256": "43c98299f2b90265718b9d39149627b72c4943b4f66e2ce26383f34367353474",
+      "units": "mm",
+      "classification": "Soldered ribbon termination illustration; no invented header housing",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://wiki.ladyada.net/x0x/jumpers",
+        "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf"
+      ],
+      "dimensions": {
+        "actual_conductor_count": 3,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "material_color_suggestions": {
+        "InsulatedRibbonStub": "off-white insulation",
+        "BareConductorEnds": "tinned silver wire"
+      },
+      "limitations": [
+        "MA03-1/MA12-1 are footprint names; original assembly uses soldered ribbon jumpers, not fitted plastic headers.",
+        "Conductor counts and2.54mm pad axes are exact. Wire sections,7.5mm stub height and forming/trim lengths are inferred presentation choices.",
+        "152.4mm is original stock length, not validated installed board separation. Only terminations are modeled; board-to-board ribbon paths are assembly dependent."
+      ],
+      "segments": [
+        {
+          "name": "InsulatedRibbonStub",
+          "stl": "SolderedRibbon_3Way_Termination--InsulatedRibbonStub.stl",
+          "color_rgb": [
+            0.84,
+            0.85,
+            0.82
+          ]
+        },
+        {
+          "name": "BareConductorEnds",
+          "stl": "SolderedRibbon_3Way_Termination--BareConductorEnds.stl",
+          "color_rgb": [
+            0.7,
+            0.72,
+            0.74
+          ]
+        }
+      ],
+      "geometry_audit": {
+        "valid_STEP": true,
+        "solids": 4,
+        "colored_solids": 4,
+        "volume_mm3": 22.904052082099078,
+        "bbox_mm": [
+          -3.04,
+          -0.5,
+          -1.8,
+          3.04,
+          0.5,
+          7.5
+        ],
+        "AP214_face_styles": 27
+      }
+    },
+    "SolderedRibbon_12Way_Termination": {
+      "stl": "SolderedRibbon_12Way_Termination.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_12Way_Termination.stl",
+      "step": "SolderedRibbon_12Way_Termination.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step",
+      "step_sha256": "01941f699d9d68c823228d7d566d2f682a9b98dd1d03bc189c73b2ae18eaa6e3",
+      "stl_sha256": "f587f157e169e461db83007a45da10d501a63c9d57551cb63ab10925140cf019",
+      "units": "mm",
+      "classification": "Soldered ribbon termination illustration; no invented header housing",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://wiki.ladyada.net/x0x/jumpers",
+        "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf"
+      ],
+      "dimensions": {
+        "actual_conductor_count": 12,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "material_color_suggestions": {
+        "InsulatedRibbonStub": "off-white insulation",
+        "BareConductorEnds": "tinned silver wire"
+      },
+      "limitations": [
+        "MA03-1/MA12-1 are footprint names; original assembly uses soldered ribbon jumpers, not fitted plastic headers.",
+        "Conductor counts and2.54mm pad axes are exact. Wire sections,7.5mm stub height and forming/trim lengths are inferred presentation choices.",
+        "152.4mm is original stock length, not validated installed board separation. Only terminations are modeled; board-to-board ribbon paths are assembly dependent."
+      ],
+      "segments": [
+        {
+          "name": "InsulatedRibbonStub",
+          "stl": "SolderedRibbon_12Way_Termination--InsulatedRibbonStub.stl",
+          "color_rgb": [
+            0.84,
+            0.85,
+            0.82
+          ]
+        },
+        {
+          "name": "BareConductorEnds",
+          "stl": "SolderedRibbon_12Way_Termination--BareConductorEnds.stl",
+          "color_rgb": [
+            0.7,
+            0.72,
+            0.74
+          ]
+        }
+      ],
+      "geometry_audit": {
+        "valid_STEP": true,
+        "solids": 13,
+        "colored_solids": 13,
+        "volume_mm3": 101.80330832839637,
+        "bbox_mm": [
+          -14.47,
+          -0.5,
+          -1.8,
+          14.47,
+          0.5,
+          7.5
+        ],
+        "AP214_face_styles": 90
+      }
+    }
+  },
+  "parts": [
+    {
+      "board": "mainboard",
+      "references": [
+        "TM3",
+        "TM4",
+        "TM5"
+      ],
+      "footprint": "306",
+      "identity": "CT6EP504/503/502, original BOM calls Vishay",
+      "stl": "CT6EP_TopAdjust_BodyIllustration.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.stl",
+      "step": "CT6EP_TopAdjust_BodyIllustration.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step",
+      "units": "mm",
+      "canonical_frame": "X=original F.Cu footprintX,Y=-footprintY,Z=outward from F.Cu seat",
+      "classification": "Original CT6EP-family nominal body illustration; no electrical terminals",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.nidec-components.com/e/catalog/trimmer/ct-6.pdf"
+      ],
+      "dimensions": {
+        "published_body_width_mm": 7,
+        "published_body_depth_mm": 7,
+        "published_total_height_mm": 5.8,
+        "published_slot_length_width_depth_mm": [
+          2.6,
+          0.6,
+          1.6
+        ],
+        "nominal_lead_grid_mm": [
+          5.0,
+          2.5
+        ],
+        "actual_board_grid_mm": [
+          5.08,
+          2.54
+        ]
+      },
+      "material_color_suggestions": {
+        "Housing": "blue polymer",
+        "Rotor": "off-white plastic"
+      },
+      "limitations": [
+        "Original BOM calls these VishayCT6EP202/502/503/504; current primary CT-6EP catalog is Nidec/Copal. This is not the earlier CTS306 substitution.",
+        "7x7x5.8mm and slot dimensions follow the current manufacturer CT-6EP drawing. Historical vendor/revision is not confirmed.",
+        "Rotor diameter, housing/rotor split and colors are presentation approximations. No unverified terminals, clips or printed markings are modeled.",
+        "Body seated at canonicalZ0 is an installed-height assumption. Body-only assignment does not establish pin fit."
+      ],
+      "segments": [
+        {
+          "name": "Housing",
+          "stl": "CT6EP_TopAdjust_BodyIllustration--Housing.stl",
+          "color_rgb": [
+            0.04,
+            0.28,
+            0.55
+          ]
+        },
+        {
+          "name": "Rotor",
+          "stl": "CT6EP_TopAdjust_BodyIllustration--Rotor.stl",
+          "color_rgb": [
+            0.84,
+            0.85,
+            0.82
+          ]
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "instances": [
+        {
+          "board": "mainboard",
+          "reference": "TM3",
+          "value": "500K(B)",
+          "footprint": "306",
+          "position_pcb_mm": [
+            100.584,
+            -113.03
+          ],
+          "rotation_deg": 180.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            100.584,
+            113.03
+          ],
+          "local_footprint_sha256": "f76513abb4d8f6b15812b2c681e62a7b783a781369b59353f8a7f574867d37f8",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                103.124,
+                -113.03
+              ],
+              "native_xy_mm": [
+                103.124,
+                113.03
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$154"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                100.584,
+                -115.57
+              ],
+              "native_xy_mm": [
+                100.584,
+                115.57
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$151"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                98.044,
+                -113.03
+              ],
+              "native_xy_mm": [
+                98.044,
+                113.03
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$151"
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "TM4",
+          "value": "50K(B)",
+          "footprint": "306",
+          "position_pcb_mm": [
+            143.002,
+            -135.636
+          ],
+          "rotation_deg": 0.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            143.002,
+            135.636
+          ],
+          "local_footprint_sha256": "f76513abb4d8f6b15812b2c681e62a7b783a781369b59353f8a7f574867d37f8",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                140.462,
+                -135.636
+              ],
+              "native_xy_mm": [
+                140.462,
+                135.636
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "+12V"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                143.002,
+                -133.096
+              ],
+              "native_xy_mm": [
+                143.002,
+                133.096
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$114"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                145.542,
+                -135.636
+              ],
+              "native_xy_mm": [
+                145.542,
+                135.636
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "+5.333V"
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "TM5",
+          "value": "5K(B)",
+          "footprint": "306",
+          "position_pcb_mm": [
+            170.434,
+            -152.273
+          ],
+          "rotation_deg": 0.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            170.434,
+            152.273
+          ],
+          "local_footprint_sha256": "f76513abb4d8f6b15812b2c681e62a7b783a781369b59353f8a7f574867d37f8",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                167.894,
+                -152.273
+              ],
+              "native_xy_mm": [
+                167.894,
+                152.273
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$157"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                170.434,
+                -149.733
+              ],
+              "native_xy_mm": [
+                170.434,
+                149.733
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$625"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                172.974,
+                -152.273
+              ],
+              "native_xy_mm": [
+                172.974,
+                152.273
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$625"
+            }
+          ]
+        }
+      ],
+      "source_sha256": "4e804dd88e09680a8147bb4a013c877e9011c7bb70c5fd7d114618000e3eef1e",
+      "stl_sha256": "d87fc3889d5e85a18995578b28355fcd8b4519174fb05eaa31606fd4f749982b"
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "TM6"
+      ],
+      "footprint": "306",
+      "identity": "CT6EP202, original BOM calls Vishay",
+      "stl": "CT6EP_TopAdjust_BodyIllustration.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.stl",
+      "step": "CT6EP_TopAdjust_BodyIllustration.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step",
+      "units": "mm",
+      "canonical_frame": "X=original F.Cu footprintX,Y=-footprintY,Z=outward from F.Cu seat",
+      "classification": "Original CT6EP-family nominal body illustration; no electrical terminals",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.nidec-components.com/e/catalog/trimmer/ct-6.pdf"
+      ],
+      "dimensions": {
+        "published_body_width_mm": 7,
+        "published_body_depth_mm": 7,
+        "published_total_height_mm": 5.8,
+        "published_slot_length_width_depth_mm": [
+          2.6,
+          0.6,
+          1.6
+        ],
+        "nominal_lead_grid_mm": [
+          5.0,
+          2.5
+        ],
+        "actual_board_grid_mm": [
+          5.08,
+          2.54
+        ]
+      },
+      "material_color_suggestions": {
+        "Housing": "blue polymer",
+        "Rotor": "off-white plastic"
+      },
+      "limitations": [
+        "Original BOM calls these VishayCT6EP202/502/503/504; current primary CT-6EP catalog is Nidec/Copal. This is not the earlier CTS306 substitution.",
+        "7x7x5.8mm and slot dimensions follow the current manufacturer CT-6EP drawing. Historical vendor/revision is not confirmed.",
+        "Rotor diameter, housing/rotor split and colors are presentation approximations. No unverified terminals, clips or printed markings are modeled.",
+        "Body seated at canonicalZ0 is an installed-height assumption. Body-only assignment does not establish pin fit."
+      ],
+      "segments": [
+        {
+          "name": "Housing",
+          "stl": "CT6EP_TopAdjust_BodyIllustration--Housing.stl",
+          "color_rgb": [
+            0.04,
+            0.28,
+            0.55
+          ]
+        },
+        {
+          "name": "Rotor",
+          "stl": "CT6EP_TopAdjust_BodyIllustration--Rotor.stl",
+          "color_rgb": [
+            0.84,
+            0.85,
+            0.82
+          ]
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "instances": [
+        {
+          "board": "ioboard",
+          "reference": "TM6",
+          "value": "2k",
+          "footprint": "306",
+          "position_pcb_mm": [
+            47.752,
+            -26.797
+          ],
+          "rotation_deg": 180.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            47.752,
+            26.797
+          ],
+          "local_footprint_sha256": "7e40073f60aac115da6e69ab7f36bc001586a94f6e95bb0ac513b081e585be55",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                50.292,
+                -26.797
+              ],
+              "native_xy_mm": [
+                50.292,
+                26.797
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$8"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                47.752,
+                -29.337
+              ],
+              "native_xy_mm": [
+                47.752,
+                29.337
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$13"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                45.212,
+                -26.797
+              ],
+              "native_xy_mm": [
+                45.212,
+                26.797
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$7"
+            }
+          ]
+        }
+      ],
+      "source_sha256": "4e804dd88e09680a8147bb4a013c877e9011c7bb70c5fd7d114618000e3eef1e",
+      "stl_sha256": "d87fc3889d5e85a18995578b28355fcd8b4519174fb05eaa31606fd4f749982b"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "R100A0",
+        "R100B0"
+      ],
+      "footprint": "R-7,5",
+      "identity": "Microohm LPTC12T21001 PTC1kOhm",
+      "stl": "Microohm_LPTC12T21001_ApproxBody.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/Microohm_LPTC12T21001_ApproxBody.stl",
+      "step": "Microohm_LPTC12T21001_ApproxBody.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/Microohm_LPTC12T21001_ApproxBody.step",
+      "units": "mm",
+      "canonical_frame": "X=original F.Cu footprintX,Y=-footprintY,Z=outward from F.Cu seat",
+      "classification": "Approximate Microohm LPTC12T21001 axial PTC body; no leads",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "http://www.micro-ohm.com/temperature/temprecflm.html",
+        "https://github.com/x0xb0x/x0xb0x.github.io/blob/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/posistor.jpg"
+      ],
+      "dimensions": {
+        "footprint_outline_nominal_length_mm": 7.62,
+        "footprint_outline_nominal_diameter_mm": 2.54,
+        "assumed_body_standoff_mm": 0.4,
+        "actual_pad_pitch_mm": 10.16,
+        "paint_band_radial_thickness_mm": 0.01
+      },
+      "material_color_suggestions": {
+        "Body": "blue/teal coating",
+        "Bands": "brown black red brown green"
+      },
+      "limitations": [
+        "Original BOM identifies1kOhm PTC LPTC12T21001, not a generic NTC. Both R100A/R100B are fitted.",
+        "Primary Microohm mechanical data was not recovered.7.62x2.54mm envelope follows the sourceR-7,5 outline; actual body dimensions remain approximate.",
+        "Body standoff0.4mm, tapered ends, band locations and colors are illustration choices. Band sequence follows the original BOM.",
+        "Unknown leads omitted; no pin fit or thermal coupling claim follows."
+      ],
+      "segments": [
+        {
+          "name": "Body",
+          "stl": "Microohm_LPTC12T21001_ApproxBody--Body.stl",
+          "color_rgb": [
+            0.25,
+            0.57,
+            0.68
+          ]
+        },
+        {
+          "name": "Band1",
+          "stl": "Microohm_LPTC12T21001_ApproxBody--Band1.stl",
+          "color_rgb": [
+            0.25,
+            0.12,
+            0.04
+          ]
+        },
+        {
+          "name": "Band2",
+          "stl": "Microohm_LPTC12T21001_ApproxBody--Band2.stl",
+          "color_rgb": [
+            0.06,
+            0.06,
+            0.065
+          ]
+        },
+        {
+          "name": "Band3",
+          "stl": "Microohm_LPTC12T21001_ApproxBody--Band3.stl",
+          "color_rgb": [
+            0.7,
+            0.015,
+            0.01
+          ]
+        },
+        {
+          "name": "Band4",
+          "stl": "Microohm_LPTC12T21001_ApproxBody--Band4.stl",
+          "color_rgb": [
+            0.25,
+            0.12,
+            0.04
+          ]
+        },
+        {
+          "name": "Band5",
+          "stl": "Microohm_LPTC12T21001_ApproxBody--Band5.stl",
+          "color_rgb": [
+            0.05,
+            0.35,
+            0.08
+          ]
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "instances": [
+        {
+          "board": "mainboard",
+          "reference": "R100A0",
+          "value": "THERMISTOR-7,5",
+          "footprint": "R-7,5",
+          "position_pcb_mm": [
+            154.686,
+            -144.272
+          ],
+          "rotation_deg": -90.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            154.686,
+            144.272
+          ],
+          "local_footprint_sha256": "14ce9f106759ce8c0dd7d0dbe96da64a1357c7af8be6925adac9164a3dbb34a7",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                154.686,
+                -149.352
+              ],
+              "native_xy_mm": [
+                154.686,
+                149.352
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$99"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                154.686,
+                -139.192
+              ],
+              "native_xy_mm": [
+                154.686,
+                139.192
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "+5.333V"
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "R100B0",
+          "value": "THERMISTOR-7,5",
+          "footprint": "R-7,5",
+          "position_pcb_mm": [
+            151.384,
+            -144.272
+          ],
+          "rotation_deg": 90.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            151.384,
+            144.272
+          ],
+          "local_footprint_sha256": "14ce9f106759ce8c0dd7d0dbe96da64a1357c7af8be6925adac9164a3dbb34a7",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                151.384,
+                -139.192
+              ],
+              "native_xy_mm": [
+                151.384,
+                139.192
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "+5.333V"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                151.384,
+                -149.352
+              ],
+              "native_xy_mm": [
+                151.384,
+                149.352
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$99"
+            }
+          ]
+        }
+      ],
+      "source_sha256": "907fbd52f9bc38814d3986e9841976ae001ca6fd73bd8d28d4e35a586b6bb450",
+      "stl_sha256": "ae1f74161c52bdaa22cb7284dba2f70c94a0313a771a7a30a188ea02a2130fe5"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "Q22"
+      ],
+      "footprint": "SSIP5",
+      "identity": "2SC2291 matched NPN pair with common base",
+      "stl": "2SC2291_SSIP5_ApproxBody.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/2SC2291_SSIP5_ApproxBody.stl",
+      "step": "2SC2291_SSIP5_ApproxBody.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/2SC2291_SSIP5_ApproxBody.step",
+      "units": "mm",
+      "canonical_frame": "X=original F.Cu footprintX,Y=-footprintY,Z=outward from F.Cu seat",
+      "classification": "Approximate original-footprint2SC2291 SIP5 body; no leads",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://github.com/x0xb0x/x0xb0x.github.io/blob/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/2SC2291.jpg"
+      ],
+      "dimensions": {
+        "footprint_outline_width_mm": 7.62,
+        "footprint_outline_depth_mm": 3.302,
+        "assumed_body_height_mm": 5.0,
+        "actual_board_pin_pitch_mm": 2.286
+      },
+      "material_color_suggestions": {
+        "Body": "black epoxy"
+      },
+      "limitations": [
+        "Original BOM and primary project photo establish2SC2291 SIP5 matched pair with common base.",
+        "No manufacturer package drawing was recovered. SourceSSIP5 outline supplies XY;5mm height and flat seating are explicit approximations.",
+        "No2SC1583 package identity is assumed from the shared SSIP5 footprint. Unknown leads omitted."
+      ],
+      "segments": [
+        {
+          "name": "Body",
+          "stl": "2SC2291_SSIP5_ApproxBody--Body.stl",
+          "color_rgb": [
+            0.06,
+            0.06,
+            0.065
+          ]
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "instances": [
+        {
+          "board": "mainboard",
+          "reference": "Q22",
+          "value": "2SC2291",
+          "footprint": "SSIP5",
+          "position_pcb_mm": [
+            61.7728,
+            -107.5182
+          ],
+          "rotation_deg": 180.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            61.7728,
+            107.5182
+          ],
+          "local_footprint_sha256": "04c416963cb00adb9fcc994e45f410e4e98879390fdac0d3ed0579db6d9e15c5",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                66.3448,
+                -107.5182
+              ],
+              "native_xy_mm": [
+                66.3448,
+                107.5182
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$143"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                64.0588,
+                -107.5182
+              ],
+              "native_xy_mm": [
+                64.0588,
+                107.5182
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$122"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                61.7728,
+                -107.5182
+              ],
+              "native_xy_mm": [
+                61.7728,
+                107.5182
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$115"
+            },
+            {
+              "number": "4",
+              "pcb_xy_mm": [
+                59.4868,
+                -107.5182
+              ],
+              "native_xy_mm": [
+                59.4868,
+                107.5182
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$122"
+            },
+            {
+              "number": "5",
+              "pcb_xy_mm": [
+                57.2008,
+                -107.5182
+              ],
+              "native_xy_mm": [
+                57.2008,
+                107.5182
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$120"
+            }
+          ]
+        }
+      ],
+      "source_sha256": "19c85906d54361aa9937eb1868bddb3249b0c0b7ad878e7067d447b56bdc95de",
+      "stl_sha256": "58c7a0668b0f61b13a57c74e8ae7f3fc0aa2cbd046008f5efce41a29ac80084c"
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "IC20"
+      ],
+      "footprint": "78XXS",
+      "identity": "7805/MC78M05 TO220 regulator",
+      "stl": "MC78M05_TO220_BodyOnlyIllustration.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.stl",
+      "step": "MC78M05_TO220_BodyOnlyIllustration.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.step",
+      "units": "mm",
+      "canonical_frame": "X=original F.Cu footprintX,Y=-footprintY,Z=outward from F.Cu seat",
+      "classification": "Generic MC78M05/7805 TO220 nominal body and tab; all leads omitted",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.onsemi.com/download/data-sheet/pdf/mc78m00-d.pdf"
+      ],
+      "dimensions": {
+        "nominal_body_width_depth_total_height_mm": [
+          10.0,
+          4.455,
+          15.5
+        ],
+        "body_bottom_height_mm": 3.0,
+        "body_top_height_mm": 18.5,
+        "nominal_tab_thickness_mm": 1.27,
+        "nominal_mount_hole_diameter_mm": 3.66
+      },
+      "material_color_suggestions": {
+        "PlasticBody": "black epoxy",
+        "MetalTab": "silver metal"
+      },
+      "limitations": [
+        "Original BOM identifies7805 TO220 and links FairchildMC78M05CT; exact supplied regulator vendor/suffix is unconfirmed.",
+        "Nominal exterior dimensions lie within current onsemi case221AB published limits; body/tab segmentation and mounting-hole pose are simplified.",
+        "No terminals are modeled. The prior nominal pin-clearance concern is not hidden by thinning or moving leads.",
+        "Body bottomZ3.0mm and canonicalY placement are illustration assumptions informed by the installed standard TO220 package and source footprint; real seat/heatsink contact is not certified."
+      ],
+      "segments": [
+        {
+          "name": "PlasticBody",
+          "stl": "MC78M05_TO220_BodyOnlyIllustration--PlasticBody.stl",
+          "color_rgb": [
+            0.06,
+            0.06,
+            0.065
+          ]
+        },
+        {
+          "name": "MetalTab",
+          "stl": "MC78M05_TO220_BodyOnlyIllustration--MetalTab.stl",
+          "color_rgb": [
+            0.7,
+            0.72,
+            0.74
+          ]
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "instances": [
+        {
+          "board": "ioboard",
+          "reference": "IC20",
+          "value": "7805",
+          "footprint": "78XXS",
+          "position_pcb_mm": [
+            8.763,
+            -44.831
+          ],
+          "rotation_deg": 0.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            8.763,
+            44.831
+          ],
+          "local_footprint_sha256": "679fe2c8928e7e509763fa5819f49d62b5ff40fa08464bef29556798d2b00078",
+          "actual_pads": [
+            {
+              "number": "GND",
+              "pcb_xy_mm": [
+                8.763,
+                -42.291
+              ],
+              "native_xy_mm": [
+                8.763,
+                42.291
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "GND"
+            },
+            {
+              "number": "IN",
+              "pcb_xy_mm": [
+                6.223,
+                -42.291
+              ],
+              "native_xy_mm": [
+                6.223,
+                42.291
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "N$17"
+            },
+            {
+              "number": "OUT",
+              "pcb_xy_mm": [
+                11.303,
+                -42.291
+              ],
+              "native_xy_mm": [
+                11.303,
+                42.291
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "+5V"
+            }
+          ]
+        }
+      ],
+      "source_sha256": "f65e974128af6b8e5f9f74b815aada33c296f1ae113dac9fc6f7a341599e65a8",
+      "stl_sha256": "46ca08f52d7d948c4e17cfad65584e09b75ea06bb437990dbc6962cc05dddc03"
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "KK1"
+      ],
+      "footprint": "D03S",
+      "identity": "Aavid574502B00000G spring heatsink",
+      "stl": "Aavid_574502B00000G_EnvelopeIllustration.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/Aavid_574502B00000G_EnvelopeIllustration.stl",
+      "step": "Aavid_574502B00000G_EnvelopeIllustration.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/Aavid_574502B00000G_EnvelopeIllustration.step",
+      "units": "mm",
+      "canonical_frame": "X=original F.Cu footprintX,Y=-footprintY,Z=outward from F.Cu seat",
+      "classification": "Published-envelope Aavid/Boyd574502B00000G heatsink illustration; folds approximate",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf"
+      ],
+      "dimensions": {
+        "published_width_mm": 21.84,
+        "specific_part_drawing_depth_mm": 10.03,
+        "published_height_mm": 19.05,
+        "family_table_depth_mm": 9.02,
+        "assumed_fold_wall_thickness_mm": 0.6
+      },
+      "material_color_suggestions": {
+        "BlackAnodizedShell": "black anodized aluminium"
+      },
+      "limitations": [
+        "KK1 is a fitted padless heatsink, included separately from the electrical-pad inventory.",
+        "Specific574502B00000G drawing gives21.84mm width,10.03mm side depth and19.05mm height; family summary table reports9.02mm depth. This model uses the specific part drawing.",
+        "SourceD03S footprint artwork is13.716mm wide and conflicts with the BOM part; the board artwork is not altered.",
+        "Fold wall0.6mm, simplified spring outline and installed seat are approximations; no real regulator contact/clamping or mechanical clearance is certified."
+      ],
+      "segments": [
+        {
+          "name": "BlackAnodizedShell",
+          "stl": "Aavid_574502B00000G_EnvelopeIllustration--BlackAnodizedShell.stl",
+          "color_rgb": [
+            0.035,
+            0.038,
+            0.042
+          ]
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "instances": [
+        {
+          "board": "ioboard",
+          "reference": "KK1",
+          "value": "D03S",
+          "footprint": "D03S",
+          "position_pcb_mm": [
+            8.763,
+            -46.101
+          ],
+          "rotation_deg": 0.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            8.763,
+            46.101
+          ],
+          "local_footprint_sha256": "59f10192a2160749af4b8c7660112cdcc4f44d2f19d380a18daf1390651f6c1f",
+          "actual_pads": []
+        }
+      ],
+      "source_sha256": "b66e739c934beceb105612459bedeab0864eab3289a5ea23b2f414d3769bf068",
+      "stl_sha256": "561d06d5305fe94d17033d747ceea8c28c9d922d53fd69e7b2f02298b07031cf"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "J1"
+      ],
+      "footprint": "12",
+      "identity": "Bare wire jumper12.70mm pitch",
+      "stl": "WireJumper_P12p7.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/WireJumper_P12p7.stl",
+      "step": "WireJumper_P12p7.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/WireJumper_P12p7.step",
+      "units": "mm",
+      "canonical_frame": "X=original F.Cu footprintX,Y=-footprintY,Z=outward from F.Cu seat",
+      "classification": "Bare wire jumper illustration at actual source pad spacing",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "dimensions": {
+        "actual_pad_pitch_mm": 12.7,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_bridge_center_height_mm": 0.8,
+        "assumed_below_seat_projection_mm": 1.8
+      },
+      "material_color_suggestions": {
+        "Wire": "tinned silver wire"
+      },
+      "limitations": [
+        "J1/J2 are soldered wire jumpers, not plastic connector bodies.",
+        "Actual pad pitch and conductor axes are preserved. Wire diameter, bridge height, forming radius and trimmed projection are illustrative."
+      ],
+      "segments": [
+        {
+          "name": "Wire",
+          "stl": "WireJumper_P12p7--Wire.stl",
+          "color_rgb": [
+            0.7,
+            0.72,
+            0.74
+          ]
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "instances": [
+        {
+          "board": "mainboard",
+          "reference": "J1",
+          "value": "J12MM",
+          "footprint": "12",
+          "position_pcb_mm": [
+            225.298,
+            -102.108
+          ],
+          "rotation_deg": -90.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            225.298,
+            102.108
+          ],
+          "local_footprint_sha256": "888c4b833fbd6e13c6ca03d22310313a9ca64caab58bc3d51fced6918cd75679",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                225.298,
+                -108.458
+              ],
+              "native_xy_mm": [
+                225.298,
+                108.458
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$305"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                225.298,
+                -95.758
+              ],
+              "native_xy_mm": [
+                225.298,
+                95.758
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "TEMPO_SW"
+            }
+          ]
+        }
+      ],
+      "source_sha256": "cab0cbc52fcb9b04f69394062fc0e924242e85a6cfe2b50df2784feb94557202",
+      "stl_sha256": "b0fe5992fdda8de2c942ee36f4d45bacb57a22b897c3197b8f771cfe4cdbc526"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "J2"
+      ],
+      "footprint": "15",
+      "identity": "Bare wire jumper15.24mm pitch",
+      "stl": "WireJumper_P15p24.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/WireJumper_P15p24.stl",
+      "step": "WireJumper_P15p24.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/WireJumper_P15p24.step",
+      "units": "mm",
+      "canonical_frame": "X=original F.Cu footprintX,Y=-footprintY,Z=outward from F.Cu seat",
+      "classification": "Bare wire jumper illustration at actual source pad spacing",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "dimensions": {
+        "actual_pad_pitch_mm": 15.24,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_bridge_center_height_mm": 0.8,
+        "assumed_below_seat_projection_mm": 1.8
+      },
+      "material_color_suggestions": {
+        "Wire": "tinned silver wire"
+      },
+      "limitations": [
+        "J1/J2 are soldered wire jumpers, not plastic connector bodies.",
+        "Actual pad pitch and conductor axes are preserved. Wire diameter, bridge height, forming radius and trimmed projection are illustrative."
+      ],
+      "segments": [
+        {
+          "name": "Wire",
+          "stl": "WireJumper_P15p24--Wire.stl",
+          "color_rgb": [
+            0.7,
+            0.72,
+            0.74
+          ]
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "instances": [
+        {
+          "board": "mainboard",
+          "reference": "J2",
+          "value": "J15MM",
+          "footprint": "15",
+          "position_pcb_mm": [
+            223.012,
+            -104.902
+          ],
+          "rotation_deg": -90.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            223.012,
+            104.902
+          ],
+          "local_footprint_sha256": "0eaaf71e1a18e31c90f58e795d30cda4f1ca4735f7e99f7efe7a2b83c107801d",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                223.012,
+                -112.522
+              ],
+              "native_xy_mm": [
+                223.012,
+                112.522
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "N$306"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                223.012,
+                -97.282
+              ],
+              "native_xy_mm": [
+                223.012,
+                97.282
+              ],
+              "drill_mm": [
+                1.0,
+                1.0
+              ],
+              "net": "+5V"
+            }
+          ]
+        }
+      ],
+      "source_sha256": "bcb2a95f62d50668559ed08bf43bedc2014e84d10c67c95805f9b2763c8a0d9a",
+      "stl_sha256": "6b08f776d2c736dff26f31cd82e44cd3f369bdfee657e97a8c7e641ae28d6e26"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "J4",
+        "J5",
+        "J6",
+        "J7"
+      ],
+      "footprint": "MA03-1",
+      "identity": "Soldered3conductor ribbon ends",
+      "stl": "SolderedRibbon_3Way_Termination.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.stl",
+      "step": "SolderedRibbon_3Way_Termination.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "units": "mm",
+      "canonical_frame": "X=original F.Cu footprintX,Y=-footprintY,Z=outward from F.Cu seat",
+      "classification": "Soldered ribbon termination illustration; no invented header housing",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://wiki.ladyada.net/x0x/jumpers",
+        "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf"
+      ],
+      "dimensions": {
+        "actual_conductor_count": 3,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "material_color_suggestions": {
+        "InsulatedRibbonStub": "off-white insulation",
+        "BareConductorEnds": "tinned silver wire"
+      },
+      "limitations": [
+        "MA03-1/MA12-1 are footprint names; original assembly uses soldered ribbon jumpers, not fitted plastic headers.",
+        "Conductor counts and2.54mm pad axes are exact. Wire sections,7.5mm stub height and forming/trim lengths are inferred presentation choices.",
+        "152.4mm is original stock length, not validated installed board separation. Only terminations are modeled; board-to-board ribbon paths are assembly dependent."
+      ],
+      "segments": [
+        {
+          "name": "InsulatedRibbonStub",
+          "stl": "SolderedRibbon_3Way_Termination--InsulatedRibbonStub.stl",
+          "color_rgb": [
+            0.84,
+            0.85,
+            0.82
+          ]
+        },
+        {
+          "name": "BareConductorEnds",
+          "stl": "SolderedRibbon_3Way_Termination--BareConductorEnds.stl",
+          "color_rgb": [
+            0.7,
+            0.72,
+            0.74
+          ]
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "instances": [
+        {
+          "board": "mainboard",
+          "reference": "J6",
+          "value": "",
+          "footprint": "MA03-1",
+          "position_pcb_mm": [
+            156.21,
+            -167.894
+          ],
+          "rotation_deg": 90.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            156.21,
+            167.894
+          ],
+          "local_footprint_sha256": "6521769b98151b83556e347e93e5cc41b7fb6b7f195e93cd3fcdfba0e3b20536",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                156.21,
+                -165.354
+              ],
+              "native_xy_mm": [
+                156.21,
+                165.354
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "N$625"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                156.21,
+                -167.894
+              ],
+              "native_xy_mm": [
+                156.21,
+                167.894
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "GND"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                156.21,
+                -170.434
+              ],
+              "native_xy_mm": [
+                156.21,
+                170.434
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "N$622"
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "J5",
+          "value": "",
+          "footprint": "MA03-1",
+          "position_pcb_mm": [
+            17.272,
+            -171.196
+          ],
+          "rotation_deg": 0.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            17.272,
+            171.196
+          ],
+          "local_footprint_sha256": "6521769b98151b83556e347e93e5cc41b7fb6b7f195e93cd3fcdfba0e3b20536",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                14.732,
+                -171.196
+              ],
+              "native_xy_mm": [
+                14.732,
+                171.196
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "N$10"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                17.272,
+                -171.196
+              ],
+              "native_xy_mm": [
+                17.272,
+                171.196
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "GND"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                19.812,
+                -171.196
+              ],
+              "native_xy_mm": [
+                19.812,
+                171.196
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "+6V"
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "J7",
+          "value": "",
+          "footprint": "MA03-1",
+          "position_pcb_mm": [
+            5.842,
+            -101.6
+          ],
+          "rotation_deg": 0.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            5.842,
+            101.6
+          ],
+          "local_footprint_sha256": "6521769b98151b83556e347e93e5cc41b7fb6b7f195e93cd3fcdfba0e3b20536",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                3.302,
+                -101.6
+              ],
+              "native_xy_mm": [
+                3.302,
+                101.6
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "N$7"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                5.842,
+                -101.6
+              ],
+              "native_xy_mm": [
+                5.842,
+                101.6
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "GND"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                8.382,
+                -101.6
+              ],
+              "native_xy_mm": [
+                8.382,
+                101.6
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "N$20"
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "J4",
+          "value": "",
+          "footprint": "MA03-1",
+          "position_pcb_mm": [
+            122.428,
+            -135.636
+          ],
+          "rotation_deg": 0.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            122.428,
+            135.636
+          ],
+          "local_footprint_sha256": "6521769b98151b83556e347e93e5cc41b7fb6b7f195e93cd3fcdfba0e3b20536",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                119.888,
+                -135.636
+              ],
+              "native_xy_mm": [
+                119.888,
+                135.636
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "+5.333V"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                122.428,
+                -135.636
+              ],
+              "native_xy_mm": [
+                122.428,
+                135.636
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "GND"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                124.968,
+                -135.636
+              ],
+              "native_xy_mm": [
+                124.968,
+                135.636
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "+12V"
+            }
+          ]
+        }
+      ],
+      "source_sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "stl_sha256": "43c98299f2b90265718b9d39149627b72c4943b4f66e2ce26383f34367353474"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "J3"
+      ],
+      "footprint": "MA12-1",
+      "identity": "Soldered12conductor ribbon ends",
+      "stl": "SolderedRibbon_12Way_Termination.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_12Way_Termination.stl",
+      "step": "SolderedRibbon_12Way_Termination.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step",
+      "units": "mm",
+      "canonical_frame": "X=original F.Cu footprintX,Y=-footprintY,Z=outward from F.Cu seat",
+      "classification": "Soldered ribbon termination illustration; no invented header housing",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://wiki.ladyada.net/x0x/jumpers",
+        "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf"
+      ],
+      "dimensions": {
+        "actual_conductor_count": 12,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "material_color_suggestions": {
+        "InsulatedRibbonStub": "off-white insulation",
+        "BareConductorEnds": "tinned silver wire"
+      },
+      "limitations": [
+        "MA03-1/MA12-1 are footprint names; original assembly uses soldered ribbon jumpers, not fitted plastic headers.",
+        "Conductor counts and2.54mm pad axes are exact. Wire sections,7.5mm stub height and forming/trim lengths are inferred presentation choices.",
+        "152.4mm is original stock length, not validated installed board separation. Only terminations are modeled; board-to-board ribbon paths are assembly dependent."
+      ],
+      "segments": [
+        {
+          "name": "InsulatedRibbonStub",
+          "stl": "SolderedRibbon_12Way_Termination--InsulatedRibbonStub.stl",
+          "color_rgb": [
+            0.84,
+            0.85,
+            0.82
+          ]
+        },
+        {
+          "name": "BareConductorEnds",
+          "stl": "SolderedRibbon_12Way_Termination--BareConductorEnds.stl",
+          "color_rgb": [
+            0.7,
+            0.72,
+            0.74
+          ]
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "instances": [
+        {
+          "board": "mainboard",
+          "reference": "J3",
+          "value": "",
+          "footprint": "MA12-1",
+          "position_pcb_mm": [
+            196.596,
+            -4.064
+          ],
+          "rotation_deg": 0.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            196.596,
+            4.064
+          ],
+          "local_footprint_sha256": "57dfe32e16ee4f74f5cf384d1a77a7e89d2fe3292d3b06e23f3cac6399988093",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                182.626,
+                -4.064
+              ],
+              "native_xy_mm": [
+                182.626,
+                4.064
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "USBRX"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                185.166,
+                -4.064
+              ],
+              "native_xy_mm": [
+                185.166,
+                4.064
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "USB_TX"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                187.706,
+                -4.064
+              ],
+              "native_xy_mm": [
+                187.706,
+                4.064
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "+5V"
+            },
+            {
+              "number": "4",
+              "pcb_xy_mm": [
+                190.246,
+                -4.064
+              ],
+              "native_xy_mm": [
+                190.246,
+                4.064
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "+5V"
+            },
+            {
+              "number": "5",
+              "pcb_xy_mm": [
+                192.786,
+                -4.064
+              ],
+              "native_xy_mm": [
+                192.786,
+                4.064
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "MIDI_IN"
+            },
+            {
+              "number": "6",
+              "pcb_xy_mm": [
+                195.326,
+                -4.064
+              ],
+              "native_xy_mm": [
+                195.326,
+                4.064
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "MIDI_OUT"
+            },
+            {
+              "number": "7",
+              "pcb_xy_mm": [
+                197.866,
+                -4.064
+              ],
+              "native_xy_mm": [
+                197.866,
+                4.064
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "GND"
+            },
+            {
+              "number": "8",
+              "pcb_xy_mm": [
+                200.406,
+                -4.064
+              ],
+              "native_xy_mm": [
+                200.406,
+                4.064
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "GND"
+            },
+            {
+              "number": "9",
+              "pcb_xy_mm": [
+                202.946,
+                -4.064
+              ],
+              "native_xy_mm": [
+                202.946,
+                4.064
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "DINSYNC4"
+            },
+            {
+              "number": "10",
+              "pcb_xy_mm": [
+                205.486,
+                -4.064
+              ],
+              "native_xy_mm": [
+                205.486,
+                4.064
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "DINSYNC3"
+            },
+            {
+              "number": "11",
+              "pcb_xy_mm": [
+                208.026,
+                -4.064
+              ],
+              "native_xy_mm": [
+                208.026,
+                4.064
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "DINSYNC2"
+            },
+            {
+              "number": "12",
+              "pcb_xy_mm": [
+                210.566,
+                -4.064
+              ],
+              "native_xy_mm": [
+                210.566,
+                4.064
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "DINSYNC1"
+            }
+          ]
+        }
+      ],
+      "source_sha256": "01941f699d9d68c823228d7d566d2f682a9b98dd1d03bc189c73b2ae18eaa6e3",
+      "stl_sha256": "f587f157e169e461db83007a45da10d501a63c9d57551cb63ab10925140cf019"
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "J4",
+        "J5",
+        "J6",
+        "J7"
+      ],
+      "footprint": "MA03-1",
+      "identity": "Soldered3conductor ribbon ends",
+      "stl": "SolderedRibbon_3Way_Termination.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.stl",
+      "step": "SolderedRibbon_3Way_Termination.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "units": "mm",
+      "canonical_frame": "X=original F.Cu footprintX,Y=-footprintY,Z=outward from F.Cu seat",
+      "classification": "Soldered ribbon termination illustration; no invented header housing",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://wiki.ladyada.net/x0x/jumpers",
+        "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf"
+      ],
+      "dimensions": {
+        "actual_conductor_count": 3,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "material_color_suggestions": {
+        "InsulatedRibbonStub": "off-white insulation",
+        "BareConductorEnds": "tinned silver wire"
+      },
+      "limitations": [
+        "MA03-1/MA12-1 are footprint names; original assembly uses soldered ribbon jumpers, not fitted plastic headers.",
+        "Conductor counts and2.54mm pad axes are exact. Wire sections,7.5mm stub height and forming/trim lengths are inferred presentation choices.",
+        "152.4mm is original stock length, not validated installed board separation. Only terminations are modeled; board-to-board ribbon paths are assembly dependent."
+      ],
+      "segments": [
+        {
+          "name": "InsulatedRibbonStub",
+          "stl": "SolderedRibbon_3Way_Termination--InsulatedRibbonStub.stl",
+          "color_rgb": [
+            0.84,
+            0.85,
+            0.82
+          ]
+        },
+        {
+          "name": "BareConductorEnds",
+          "stl": "SolderedRibbon_3Way_Termination--BareConductorEnds.stl",
+          "color_rgb": [
+            0.7,
+            0.72,
+            0.74
+          ]
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "instances": [
+        {
+          "board": "ioboard",
+          "reference": "J5",
+          "value": "",
+          "footprint": "MA03-1",
+          "position_pcb_mm": [
+            36.322,
+            -22.987
+          ],
+          "rotation_deg": 180.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            36.322,
+            22.987
+          ],
+          "local_footprint_sha256": "4d4980cd84b91c37351b81c550feebc703e5ce1ae05219fbcfe6b8205be4f274",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                38.862,
+                -22.987
+              ],
+              "native_xy_mm": [
+                38.862,
+                22.987
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "HP_OUT"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                36.322,
+                -22.987
+              ],
+              "native_xy_mm": [
+                36.322,
+                22.987
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "GND"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                33.782,
+                -22.987
+              ],
+              "native_xy_mm": [
+                33.782,
+                22.987
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "+6V"
+            }
+          ]
+        },
+        {
+          "board": "ioboard",
+          "reference": "J7",
+          "value": "",
+          "footprint": "MA03-1",
+          "position_pcb_mm": [
+            99.568,
+            -26.416
+          ],
+          "rotation_deg": 90.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            99.568,
+            26.416
+          ],
+          "local_footprint_sha256": "4d4980cd84b91c37351b81c550feebc703e5ce1ae05219fbcfe6b8205be4f274",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                99.568,
+                -23.876
+              ],
+              "native_xy_mm": [
+                99.568,
+                23.876
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "N$1"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                99.568,
+                -26.416
+              ],
+              "native_xy_mm": [
+                99.568,
+                26.416
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "GND"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                99.568,
+                -28.956
+              ],
+              "native_xy_mm": [
+                99.568,
+                28.956
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "N$2"
+            }
+          ]
+        },
+        {
+          "board": "ioboard",
+          "reference": "J6",
+          "value": "",
+          "footprint": "MA03-1",
+          "position_pcb_mm": [
+            50.419,
+            -18.542
+          ],
+          "rotation_deg": 180.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            50.419,
+            18.542
+          ],
+          "local_footprint_sha256": "4d4980cd84b91c37351b81c550feebc703e5ce1ae05219fbcfe6b8205be4f274",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                52.959,
+                -18.542
+              ],
+              "native_xy_mm": [
+                52.959,
+                18.542
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "N$27"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                50.419,
+                -18.542
+              ],
+              "native_xy_mm": [
+                50.419,
+                18.542
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "GND"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                47.879,
+                -18.542
+              ],
+              "native_xy_mm": [
+                47.879,
+                18.542
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "N$26"
+            }
+          ]
+        },
+        {
+          "board": "ioboard",
+          "reference": "J4",
+          "value": "",
+          "footprint": "MA03-1",
+          "position_pcb_mm": [
+            56.896,
+            -37.211
+          ],
+          "rotation_deg": 0.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            56.896,
+            37.211
+          ],
+          "local_footprint_sha256": "4d4980cd84b91c37351b81c550feebc703e5ce1ae05219fbcfe6b8205be4f274",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                54.356,
+                -37.211
+              ],
+              "native_xy_mm": [
+                54.356,
+                37.211
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "+5.333V"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                56.896,
+                -37.211
+              ],
+              "native_xy_mm": [
+                56.896,
+                37.211
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "GND"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                59.436,
+                -37.211
+              ],
+              "native_xy_mm": [
+                59.436,
+                37.211
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "+12V"
+            }
+          ]
+        }
+      ],
+      "source_sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "stl_sha256": "43c98299f2b90265718b9d39149627b72c4943b4f66e2ce26383f34367353474"
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "J3"
+      ],
+      "footprint": "MA12-1",
+      "identity": "Soldered12conductor ribbon ends",
+      "stl": "SolderedRibbon_12Way_Termination.stl",
+      "stl_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_12Way_Termination.stl",
+      "step": "SolderedRibbon_12Way_Termination.step",
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step",
+      "units": "mm",
+      "canonical_frame": "X=original F.Cu footprintX,Y=-footprintY,Z=outward from F.Cu seat",
+      "classification": "Soldered ribbon termination illustration; no invented header housing",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://wiki.ladyada.net/x0x/jumpers",
+        "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf"
+      ],
+      "dimensions": {
+        "actual_conductor_count": 12,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "material_color_suggestions": {
+        "InsulatedRibbonStub": "off-white insulation",
+        "BareConductorEnds": "tinned silver wire"
+      },
+      "limitations": [
+        "MA03-1/MA12-1 are footprint names; original assembly uses soldered ribbon jumpers, not fitted plastic headers.",
+        "Conductor counts and2.54mm pad axes are exact. Wire sections,7.5mm stub height and forming/trim lengths are inferred presentation choices.",
+        "152.4mm is original stock length, not validated installed board separation. Only terminations are modeled; board-to-board ribbon paths are assembly dependent."
+      ],
+      "segments": [
+        {
+          "name": "InsulatedRibbonStub",
+          "stl": "SolderedRibbon_12Way_Termination--InsulatedRibbonStub.stl",
+          "color_rgb": [
+            0.84,
+            0.85,
+            0.82
+          ]
+        },
+        {
+          "name": "BareConductorEnds",
+          "stl": "SolderedRibbon_12Way_Termination--BareConductorEnds.stl",
+          "color_rgb": [
+            0.7,
+            0.72,
+            0.74
+          ]
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "instances": [
+        {
+          "board": "ioboard",
+          "reference": "J3",
+          "value": "",
+          "footprint": "MA12-1",
+          "position_pcb_mm": [
+            184.531,
+            -38.1
+          ],
+          "rotation_deg": 0.0,
+          "layer": "F.Cu",
+          "native_position_xy_mm": [
+            184.531,
+            38.1
+          ],
+          "local_footprint_sha256": "4187065fa0fdf45e9f790799626e0718870df248a426608a3d204b65ed57065d",
+          "actual_pads": [
+            {
+              "number": "1",
+              "pcb_xy_mm": [
+                170.561,
+                -38.1
+              ],
+              "native_xy_mm": [
+                170.561,
+                38.1
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "USB_TX"
+            },
+            {
+              "number": "2",
+              "pcb_xy_mm": [
+                173.101,
+                -38.1
+              ],
+              "native_xy_mm": [
+                173.101,
+                38.1
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "USB_RX"
+            },
+            {
+              "number": "3",
+              "pcb_xy_mm": [
+                175.641,
+                -38.1
+              ],
+              "native_xy_mm": [
+                175.641,
+                38.1
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "+5V"
+            },
+            {
+              "number": "4",
+              "pcb_xy_mm": [
+                178.181,
+                -38.1
+              ],
+              "native_xy_mm": [
+                178.181,
+                38.1
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "+5V"
+            },
+            {
+              "number": "5",
+              "pcb_xy_mm": [
+                180.721,
+                -38.1
+              ],
+              "native_xy_mm": [
+                180.721,
+                38.1
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "MIDI_IN"
+            },
+            {
+              "number": "6",
+              "pcb_xy_mm": [
+                183.261,
+                -38.1
+              ],
+              "native_xy_mm": [
+                183.261,
+                38.1
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "MIDI_OUT"
+            },
+            {
+              "number": "7",
+              "pcb_xy_mm": [
+                185.801,
+                -38.1
+              ],
+              "native_xy_mm": [
+                185.801,
+                38.1
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "GND"
+            },
+            {
+              "number": "8",
+              "pcb_xy_mm": [
+                188.341,
+                -38.1
+              ],
+              "native_xy_mm": [
+                188.341,
+                38.1
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "GND"
+            },
+            {
+              "number": "9",
+              "pcb_xy_mm": [
+                190.881,
+                -38.1
+              ],
+              "native_xy_mm": [
+                190.881,
+                38.1
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "DINSYNC4"
+            },
+            {
+              "number": "10",
+              "pcb_xy_mm": [
+                193.421,
+                -38.1
+              ],
+              "native_xy_mm": [
+                193.421,
+                38.1
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "DINSYNC3"
+            },
+            {
+              "number": "11",
+              "pcb_xy_mm": [
+                195.961,
+                -38.1
+              ],
+              "native_xy_mm": [
+                195.961,
+                38.1
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "DINSYNC2"
+            },
+            {
+              "number": "12",
+              "pcb_xy_mm": [
+                198.501,
+                -38.1
+              ],
+              "native_xy_mm": [
+                198.501,
+                38.1
+              ],
+              "drill_mm": [
+                1.016,
+                1.016
+              ],
+              "net": "DINSYNC1"
+            }
+          ]
+        }
+      ],
+      "source_sha256": "01941f699d9d68c823228d7d566d2f682a9b98dd1d03bc189c73b2ae18eaa6e3",
+      "stl_sha256": "f587f157e169e461db83007a45da10d501a63c9d57551cb63ab10925140cf019"
+    }
+  ],
+  "assignments": [
+    {
+      "board": "mainboard",
+      "references": [
+        "TM3",
+        "TM4",
+        "TM5"
+      ],
+      "footprint": "306",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step",
+      "source_sha256": "4e804dd88e09680a8147bb4a013c877e9011c7bb70c5fd7d114618000e3eef1e",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Original CT6EP-family nominal body illustration; no electrical terminals",
+      "limitations": [
+        "Original BOM calls these VishayCT6EP202/502/503/504; current primary CT-6EP catalog is Nidec/Copal. This is not the earlier CTS306 substitution.",
+        "7x7x5.8mm and slot dimensions follow the current manufacturer CT-6EP drawing. Historical vendor/revision is not confirmed.",
+        "Rotor diameter, housing/rotor split and colors are presentation approximations. No unverified terminals, clips or printed markings are modeled.",
+        "Body seated at canonicalZ0 is an installed-height assumption. Body-only assignment does not establish pin fit."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.nidec-components.com/e/catalog/trimmer/ct-6.pdf"
+      ]
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "TM6"
+      ],
+      "footprint": "306",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step",
+      "source_sha256": "4e804dd88e09680a8147bb4a013c877e9011c7bb70c5fd7d114618000e3eef1e",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Original CT6EP-family nominal body illustration; no electrical terminals",
+      "limitations": [
+        "Original BOM calls these VishayCT6EP202/502/503/504; current primary CT-6EP catalog is Nidec/Copal. This is not the earlier CTS306 substitution.",
+        "7x7x5.8mm and slot dimensions follow the current manufacturer CT-6EP drawing. Historical vendor/revision is not confirmed.",
+        "Rotor diameter, housing/rotor split and colors are presentation approximations. No unverified terminals, clips or printed markings are modeled.",
+        "Body seated at canonicalZ0 is an installed-height assumption. Body-only assignment does not establish pin fit."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.nidec-components.com/e/catalog/trimmer/ct-6.pdf"
+      ]
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "R100A0",
+        "R100B0"
+      ],
+      "footprint": "R-7,5",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/Microohm_LPTC12T21001_ApproxBody.step",
+      "source_sha256": "907fbd52f9bc38814d3986e9841976ae001ca6fd73bd8d28d4e35a586b6bb450",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Approximate Microohm LPTC12T21001 axial PTC body; no leads",
+      "limitations": [
+        "Original BOM identifies1kOhm PTC LPTC12T21001, not a generic NTC. Both R100A/R100B are fitted.",
+        "Primary Microohm mechanical data was not recovered.7.62x2.54mm envelope follows the sourceR-7,5 outline; actual body dimensions remain approximate.",
+        "Body standoff0.4mm, tapered ends, band locations and colors are illustration choices. Band sequence follows the original BOM.",
+        "Unknown leads omitted; no pin fit or thermal coupling claim follows."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "http://www.micro-ohm.com/temperature/temprecflm.html",
+        "https://github.com/x0xb0x/x0xb0x.github.io/blob/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/posistor.jpg"
+      ]
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "Q22"
+      ],
+      "footprint": "SSIP5",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/2SC2291_SSIP5_ApproxBody.step",
+      "source_sha256": "19c85906d54361aa9937eb1868bddb3249b0c0b7ad878e7067d447b56bdc95de",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Approximate original-footprint2SC2291 SIP5 body; no leads",
+      "limitations": [
+        "Original BOM and primary project photo establish2SC2291 SIP5 matched pair with common base.",
+        "No manufacturer package drawing was recovered. SourceSSIP5 outline supplies XY;5mm height and flat seating are explicit approximations.",
+        "No2SC1583 package identity is assumed from the shared SSIP5 footprint. Unknown leads omitted."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://github.com/x0xb0x/x0xb0x.github.io/blob/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/2SC2291.jpg"
+      ]
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "IC20"
+      ],
+      "footprint": "78XXS",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.step",
+      "source_sha256": "f65e974128af6b8e5f9f74b815aada33c296f1ae113dac9fc6f7a341599e65a8",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Generic MC78M05/7805 TO220 nominal body and tab; all leads omitted",
+      "limitations": [
+        "Original BOM identifies7805 TO220 and links FairchildMC78M05CT; exact supplied regulator vendor/suffix is unconfirmed.",
+        "Nominal exterior dimensions lie within current onsemi case221AB published limits; body/tab segmentation and mounting-hole pose are simplified.",
+        "No terminals are modeled. The prior nominal pin-clearance concern is not hidden by thinning or moving leads.",
+        "Body bottomZ3.0mm and canonicalY placement are illustration assumptions informed by the installed standard TO220 package and source footprint; real seat/heatsink contact is not certified."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.onsemi.com/download/data-sheet/pdf/mc78m00-d.pdf"
+      ]
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "KK1"
+      ],
+      "footprint": "D03S",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/Aavid_574502B00000G_EnvelopeIllustration.step",
+      "source_sha256": "b66e739c934beceb105612459bedeab0864eab3289a5ea23b2f414d3769bf068",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Published-envelope Aavid/Boyd574502B00000G heatsink illustration; folds approximate",
+      "limitations": [
+        "KK1 is a fitted padless heatsink, included separately from the electrical-pad inventory.",
+        "Specific574502B00000G drawing gives21.84mm width,10.03mm side depth and19.05mm height; family summary table reports9.02mm depth. This model uses the specific part drawing.",
+        "SourceD03S footprint artwork is13.716mm wide and conflicts with the BOM part; the board artwork is not altered.",
+        "Fold wall0.6mm, simplified spring outline and installed seat are approximations; no real regulator contact/clamping or mechanical clearance is certified."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf"
+      ]
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "J1"
+      ],
+      "footprint": "12",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/WireJumper_P12p7.step",
+      "source_sha256": "cab0cbc52fcb9b04f69394062fc0e924242e85a6cfe2b50df2784feb94557202",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Bare wire jumper illustration at actual source pad spacing",
+      "limitations": [
+        "J1/J2 are soldered wire jumpers, not plastic connector bodies.",
+        "Actual pad pitch and conductor axes are preserved. Wire diameter, bridge height, forming radius and trimmed projection are illustrative."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ]
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "J2"
+      ],
+      "footprint": "15",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/WireJumper_P15p24.step",
+      "source_sha256": "bcb2a95f62d50668559ed08bf43bedc2014e84d10c67c95805f9b2763c8a0d9a",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Bare wire jumper illustration at actual source pad spacing",
+      "limitations": [
+        "J1/J2 are soldered wire jumpers, not plastic connector bodies.",
+        "Actual pad pitch and conductor axes are preserved. Wire diameter, bridge height, forming radius and trimmed projection are illustrative."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ]
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "J4",
+        "J5",
+        "J6",
+        "J7"
+      ],
+      "footprint": "MA03-1",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "source_sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Soldered ribbon termination illustration; no invented header housing",
+      "limitations": [
+        "MA03-1/MA12-1 are footprint names; original assembly uses soldered ribbon jumpers, not fitted plastic headers.",
+        "Conductor counts and2.54mm pad axes are exact. Wire sections,7.5mm stub height and forming/trim lengths are inferred presentation choices.",
+        "152.4mm is original stock length, not validated installed board separation. Only terminations are modeled; board-to-board ribbon paths are assembly dependent."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://wiki.ladyada.net/x0x/jumpers",
+        "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf"
+      ]
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "J3"
+      ],
+      "footprint": "MA12-1",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step",
+      "source_sha256": "01941f699d9d68c823228d7d566d2f682a9b98dd1d03bc189c73b2ae18eaa6e3",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Soldered ribbon termination illustration; no invented header housing",
+      "limitations": [
+        "MA03-1/MA12-1 are footprint names; original assembly uses soldered ribbon jumpers, not fitted plastic headers.",
+        "Conductor counts and2.54mm pad axes are exact. Wire sections,7.5mm stub height and forming/trim lengths are inferred presentation choices.",
+        "152.4mm is original stock length, not validated installed board separation. Only terminations are modeled; board-to-board ribbon paths are assembly dependent."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://wiki.ladyada.net/x0x/jumpers",
+        "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf"
+      ]
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "J4",
+        "J5",
+        "J6",
+        "J7"
+      ],
+      "footprint": "MA03-1",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "source_sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Soldered ribbon termination illustration; no invented header housing",
+      "limitations": [
+        "MA03-1/MA12-1 are footprint names; original assembly uses soldered ribbon jumpers, not fitted plastic headers.",
+        "Conductor counts and2.54mm pad axes are exact. Wire sections,7.5mm stub height and forming/trim lengths are inferred presentation choices.",
+        "152.4mm is original stock length, not validated installed board separation. Only terminations are modeled; board-to-board ribbon paths are assembly dependent."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://wiki.ladyada.net/x0x/jumpers",
+        "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf"
+      ]
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "J3"
+      ],
+      "footprint": "MA12-1",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step",
+      "source_sha256": "01941f699d9d68c823228d7d566d2f682a9b98dd1d03bc189c73b2ae18eaa6e3",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Soldered ribbon termination illustration; no invented header housing",
+      "limitations": [
+        "MA03-1/MA12-1 are footprint names; original assembly uses soldered ribbon jumpers, not fitted plastic headers.",
+        "Conductor counts and2.54mm pad axes are exact. Wire sections,7.5mm stub height and forming/trim lengths are inferred presentation choices.",
+        "152.4mm is original stock length, not validated installed board separation. Only terminations are modeled; board-to-board ribbon paths are assembly dependent."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://wiki.ladyada.net/x0x/jumpers",
+        "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf"
+      ]
+    }
+  ],
+  "fitted_reference_count": 21,
+  "intentionally_unpopulated": [
+    {
+      "board": "mainboard",
+      "reference": "IC15A0",
+      "identity": "BA662A optional alternate OTA",
+      "reason": "Original VCA manual specifies BA662 OR BA6110. Kit uses BA6110 atIC15B withQ1-Q4; BA662 usesIC15A and omitsQ1-Q4. Never populate both simultaneously.",
+      "sources": [
+        "https://ladyada.net/make/x0xb0x/fab/vca/index.html",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "model_created": false
+    }
+  ],
+  "wire_axis_checks": {
+    "count": 52,
+    "maximum_residual_mm": 2.842170943040401e-14,
+    "checks": [
+      {
+        "board": "mainboard",
+        "reference": "J1",
+        "pad": "1",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J1",
+        "pad": "2",
+        "world_axis_residual_mm": 1.4210854715202004e-14
+      },
+      {
+        "board": "mainboard",
+        "reference": "J2",
+        "pad": "1",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J2",
+        "pad": "2",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J6",
+        "pad": "1",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J6",
+        "pad": "2",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J6",
+        "pad": "3",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J5",
+        "pad": "1",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J5",
+        "pad": "2",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J5",
+        "pad": "3",
+        "world_axis_residual_mm": 3.552713678800501e-15
+      },
+      {
+        "board": "mainboard",
+        "reference": "J7",
+        "pad": "1",
+        "world_axis_residual_mm": 4.440892098500626e-16
+      },
+      {
+        "board": "mainboard",
+        "reference": "J7",
+        "pad": "2",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J7",
+        "pad": "3",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J4",
+        "pad": "1",
+        "world_axis_residual_mm": 1.4210854715202004e-14
+      },
+      {
+        "board": "mainboard",
+        "reference": "J4",
+        "pad": "2",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J4",
+        "pad": "3",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J3",
+        "pad": "1",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J3",
+        "pad": "2",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J3",
+        "pad": "3",
+        "world_axis_residual_mm": 2.842170943040401e-14
+      },
+      {
+        "board": "mainboard",
+        "reference": "J3",
+        "pad": "4",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J3",
+        "pad": "5",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J3",
+        "pad": "6",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J3",
+        "pad": "7",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J3",
+        "pad": "8",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J3",
+        "pad": "9",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J3",
+        "pad": "10",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J3",
+        "pad": "11",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "mainboard",
+        "reference": "J3",
+        "pad": "12",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J5",
+        "pad": "1",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J5",
+        "pad": "2",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J5",
+        "pad": "3",
+        "world_axis_residual_mm": 7.105427357601002e-15
+      },
+      {
+        "board": "ioboard",
+        "reference": "J7",
+        "pad": "1",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J7",
+        "pad": "2",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J7",
+        "pad": "3",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J6",
+        "pad": "1",
+        "world_axis_residual_mm": 7.105427357601002e-15
+      },
+      {
+        "board": "ioboard",
+        "reference": "J6",
+        "pad": "2",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J6",
+        "pad": "3",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J4",
+        "pad": "1",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J4",
+        "pad": "2",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J4",
+        "pad": "3",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J3",
+        "pad": "1",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J3",
+        "pad": "2",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J3",
+        "pad": "3",
+        "world_axis_residual_mm": 2.842170943040401e-14
+      },
+      {
+        "board": "ioboard",
+        "reference": "J3",
+        "pad": "4",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J3",
+        "pad": "5",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J3",
+        "pad": "6",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J3",
+        "pad": "7",
+        "world_axis_residual_mm": 2.842170943040401e-14
+      },
+      {
+        "board": "ioboard",
+        "reference": "J3",
+        "pad": "8",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J3",
+        "pad": "9",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J3",
+        "pad": "10",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J3",
+        "pad": "11",
+        "world_axis_residual_mm": 0.0
+      },
+      {
+        "board": "ioboard",
+        "reference": "J3",
+        "pad": "12",
+        "world_axis_residual_mm": 0.0
+      }
+    ]
+  },
+  "source_board_hashes": {
+    "mainboard": {
+      "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb",
+      "sha256": "c3ff1a14cbaf9298fb6a0377bc881d279b94245fbae3719be3b618ad913965dc"
+    },
+    "ioboard": {
+      "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/ioboard.kicad_pcb",
+      "sha256": "33165521e8ba18bda663e633594cbefefea4a9e43fee5a7ac4a513d1486c7974"
+    }
+  },
+  "source_board_files_unchanged_by_generation": {
+    "mainboard": true,
+    "ioboard": true
+  },
+  "source_documents": [
+    {
+      "file": "reference/boyd-5740-manufacturer.pdf",
+      "sha256": "dd353265a5a8fdb57d77b1abe8a6c40b036684f2c6df460ee070fad60bae2f5f",
+      "bytes": 434102
+    },
+    {
+      "file": "reference/boyd-5744.txt",
+      "sha256": "c91d561194f6b17d2ff9cd3b706c304241837d7f51d6050ba635cc6c98bffbc7",
+      "bytes": 8213
+    },
+    {
+      "file": "reference/boyd-5745-outline.png",
+      "sha256": "7b4bba1f54ddd1dae53fd78c514e00f97ade9d9943b37dc783b69b8e79957eef",
+      "bytes": 401789
+    },
+    {
+      "file": "reference/ct-6-manufacturer.pdf",
+      "sha256": "22bdf53707449f7320bea53d61f0bd87a992edd41ab660fce52b6dd411ca6f85",
+      "bytes": 1408569
+    },
+    {
+      "file": "reference/ct-6-manufacturer.txt",
+      "sha256": "f43ca2bf30813c069ab044494d70fa405589292b35f6bd9de1e62444a4c021db",
+      "bytes": 55152
+    },
+    {
+      "file": "reference/ct-6-outline.png",
+      "sha256": "4a914aa6050832f68356bc3a78695c9f41fe9fffebc02f4cb58ccc64a7e84f27",
+      "bytes": 158094
+    },
+    {
+      "file": "reference/onsemi-mc78m00.pdf",
+      "sha256": "49937c840e71bcd14cd36a0d198e336ebe5ac1809451b0d23990b92588dea037",
+      "bytes": 318774
+    },
+    {
+      "file": "reference/original-2SC2291-photo.jpg",
+      "sha256": "ca557b7650575feb39c681e84326cdf912e43e20cd717b05b9856dd83c7014f7",
+      "bytes": 50646
+    },
+    {
+      "file": "reference/original-PTC-photo.jpg",
+      "sha256": "536a0c5b4b5fc01a19ac85a8b4e77b5bd92343f4fbeb729f4946bae3dd5949aa",
+      "bytes": 48863
+    },
+    {
+      "file": "reference/original-parts-page-mirror.html",
+      "sha256": "e923c899b7685017bd232bff162a5756825ef70ef3de75e3a62ffaaada014002",
+      "bytes": 88001
+    },
+    {
+      "file": "reference/original-vca-manual.html",
+      "sha256": "c6008c46019131a6b6e63aac29997f04b5ba056832d231133431c4480fcebc9e",
+      "bytes": 15366
+    },
+    {
+      "file": "reference/ribbon-jumper-source-map.json",
+      "sha256": "e6d8dd014be09554df8bef8291407c6e74b9e73949941b36f38a434c9ebe2adb",
+      "bytes": 12490
+    }
+  ]
+}

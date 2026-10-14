@@ -1,0 +1,755 @@
+{
+  "scope": "Review-only detailed original-BOM family potentiometer candidates; no actual projects/scenes/original models modified.",
+  "units": "mm",
+  "canonical_frame": "Original F.Cu footprintX,-footprintY,+Zoutward; rearZ0, zeroassignmentoffset/rotation, unityscale.",
+  "parts": [
+    {
+      "id": "Panasonic_EVUF2LFL3_DetailedCandidate",
+      "board": "mainboard",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ],
+      "footprint": "EVU",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate.step",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate.step",
+      "source_sha256": "37621a5fac69b737fdee4b5f0d6a4dffa83e97dc64cc3a66021d9ff02af8b381",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate.stl",
+      "stl_sha256": "40fa28229940e0a5641744fc4162cdaf7fe0c4da115e262d1cfddc42cbd6080b",
+      "units": "mm",
+      "canonical_frame": "Original F.Cu footprintX,-footprintY,+Z outward; rearZ0, no placed transform baked in.",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "Detailed source-grounded original-BOM family body illustration; historical variant/physical fit unqualified",
+      "source_kind": "Own primary-drawing reconstruction with published versus unsized features recorded",
+      "dimensions": {
+        "housing_width_depth_height_mm": [
+          9.7,
+          12.5,
+          8.5
+        ],
+        "housing_y_min_max_mm": [
+          -6.5,
+          6
+        ],
+        "main_molded_body_width_depth_mm": [
+          8,
+          8
+        ],
+        "sleeve_diameter_projection_mm": [
+          9,
+          5
+        ],
+        "shaft_diameter_mm": 6,
+        "shaft_length_from_front_mm": 21.5,
+        "shaft_tip_z_mm": 30,
+        "flat_length_across_mm": [
+          12,
+          4.5
+        ],
+        "published_tip_chamfer_mm": 1
+      },
+      "source_urls": [
+        "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf"
+      ],
+      "sources": [
+        {
+          "url": "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf",
+          "local_file": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/sources/panasonic-evu-primary-mirror.pdf",
+          "sha256": "410c4120bb640dac4b4ae6be508fa183aa289f92005df9aab60af09f282c9e0b",
+          "pages": [
+            4,
+            5
+          ],
+          "publisher": "Panasonic",
+          "kind": "Primary 2005 manufacturer drawing preserved by public mirror"
+        }
+      ],
+      "segments": [
+        {
+          "name": "BlackMoldedCase",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate--BlackMoldedCase.stl",
+          "sha256": "230f842768c4d95c5d5d44ca4a4db3a8f9168a66429625938a3ef71a40d28bfa",
+          "units": "mm",
+          "color_srgb": [
+            0.028,
+            0.03,
+            0.035
+          ],
+          "evidence_basis": "Source No.8 case/photo; printed8mm nominal main body; small radii/side reliefs and axial split are unsized.",
+          "faces": 20,
+          "solid_count": 1,
+          "volume_mm3": 457.0397507145514,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -4.0,
+              -4.0,
+              0.85
+            ],
+            "max_mm": [
+              4.0,
+              4.0,
+              8.1
+            ]
+          },
+          "triangles": 556
+        },
+        {
+          "name": "RearWaferAndTerminalCarrier",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate--RearWaferAndTerminalCarrier.stl",
+          "sha256": "fad469da179e572ba6b586318610df1a0cfcf05378295d019af031997394320b",
+          "units": "mm",
+          "color_srgb": [
+            0.23,
+            0.12,
+            0.055
+          ],
+          "evidence_basis": "Rear wafer and terminal-side projection reconstructed from No.8 photo/outline. Material shade and local wafer thickness/carrier contours unsized; no solder leads.",
+          "faces": 20,
+          "solid_count": 1,
+          "volume_mm3": 110.3152377539299,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -4.0,
+              -6.199999999999999,
+              0.0
+            ],
+            "max_mm": [
+              4.0,
+              4.0,
+              3.4500000000000006
+            ]
+          },
+          "triangles": 1056
+        },
+        {
+          "name": "StampedFrontFrameAndCrimps",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate--StampedFrontFrameAndCrimps.stl",
+          "sha256": "4643cbd96e16dcf68328d96e5090c29d8c74fba94d6a6ff0bc6f26fa046605af",
+          "units": "mm",
+          "color_srgb": [
+            0.61,
+            0.63,
+            0.65
+          ],
+          "evidence_basis": "Printed9.7mm width, +6.0/-6.5mm outline and8.5mm front datum. Sheet stock, edge folds, side windows and chamfered outline divisions are source-shaped unsized interpretation.",
+          "faces": 45,
+          "solid_count": 3,
+          "volume_mm3": 64.20841255587582,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -4.85,
+              -6.5,
+              0.05
+            ],
+            "max_mm": [
+              4.85,
+              6.0,
+              8.5
+            ]
+          },
+          "triangles": 1656
+        },
+        {
+          "name": "FrontRivetHeads",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate--FrontRivetHeads.stl",
+          "sha256": "9073d6ffe9bc4dd96ff7694a127948753818b9db8bb240b439af086ebf461110",
+          "units": "mm",
+          "color_srgb": [
+            0.69,
+            0.7,
+            0.72
+          ],
+          "evidence_basis": "Two diagonal source-front rivet indications, contained withinZ8.5. Head dimensions/positions are traced visual detail, not fastener specification.",
+          "faces": 6,
+          "solid_count": 2,
+          "volume_mm3": 0.10178760197630932,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -2.9499576547708406,
+              -4.749989413568185,
+              8.42
+            ],
+            "max_mm": [
+              2.95,
+              4.749989413568185,
+              8.5
+            ]
+          },
+          "triangles": 1000
+        },
+        {
+          "name": "UnthreadedSleeve",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate--UnthreadedSleeve.stl",
+          "sha256": "a091d059c527ea8a758c0c483f60149895d655b385c71f2fbba1b73bec2be32f",
+          "units": "mm",
+          "color_srgb": [
+            0.028,
+            0.03,
+            0.035
+          ],
+          "evidence_basis": "PrintedD9 sleeve with5mm projection. No screw thread. Surface groove count/depth and collar lip are unsized visual knurl indications.",
+          "faces": 85,
+          "solid_count": 1,
+          "volume_mm3": 307.638537889024,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -4.4998505883476865,
+              -4.49989413568185,
+              8.5
+            ],
+            "max_mm": [
+              4.5,
+              4.49989413568185,
+              13.5
+            ]
+          },
+          "triangles": 1400
+        },
+        {
+          "name": "FL3_FlattedInsulatedShaft",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate--FL3_FlattedInsulatedShaft.stl",
+          "sha256": "aae98bb424bb59efccc43e20300a328a367daa91ca7b90fe5c3e0e7faa1f44a5",
+          "units": "mm",
+          "color_srgb": [
+            0.028,
+            0.03,
+            0.035
+          ],
+          "evidence_basis": "PrintedFL3 L21.5 from housingfrontZ8.5, D6 shaft,12mm flat,4.5mm across, C1 tip chamfer. Absolute rotary setting is not inferred.",
+          "faces": 7,
+          "solid_count": 1,
+          "volume_mm3": 535.7804971804951,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -2.9999770977392806,
+              -2.9999294237879,
+              8.5
+            ],
+            "max_mm": [
+              3.0,
+              2.9999294237879,
+              30.0
+            ]
+          },
+          "triangles": 976
+        }
+      ],
+      "improvements": [
+        "Replaced solid envelope with molded case, rear wafer/carrier, folded front sheet frame, diagonal rivet indications and grooved sleeve.",
+        "Black insulated shaft and sleeve follow original manufacturer photograph; fullFL3 height and printedC1 tip retained."
+      ],
+      "limitations": [
+        "Detailed own reconstruction from primary manufacturer drawings; not recovered manufacturer CAD.",
+        "Canonical original F.Cu footprint frame: X=footprint X,Y=-footprint Y,Z outward, with housing rear atZ0 as existing seating assumption. No footprint placement or side flip is baked into geometry.",
+        "All nominal exterior dimensions and full shaft heights are retained. No resizing or relocation was performed to make the enclosure fit.",
+        "Colors/material roles and unsized molding, wafer split, metal stock, crimp folds, rivet diameters and small radii are qualified visual interpretations.",
+        "Electrical solder leads, below-seat mounting legs and internal wipers are omitted. Exact lead-form/trim, historical seating gap, tolerances, terminal insertion and complete assembly fit are unqualified.",
+        "No exact EVUF2LFL3 manufacturer3DCAD was recovered from the bounded official CAD-index and product searches; no unrelated EVU variant CAD was substituted.",
+        "Sleeve groove detail is a visual indication, not an exact crossed-knurl/tooling model. Body/wafer internal splits and colors are reconstructed.",
+        "Manufacturer mounting-leg pattern differs from actual original footprint; all below-seat legs omitted and no mounting-hole fit is claimed.",
+        "Shaft flat remains on canonical negativeY as prior inspection pose. The source drawing states fullCCW30degrees, but actual fitted rotary state is unmeasured."
+      ],
+      "geometry_license": "CC0-1.0 own reconstruction only; manufacturer document/photo rights retained.",
+      "geometry_audit": {
+        "valid": true,
+        "all_solids_valid_positive_volume": true,
+        "solid_count": 9,
+        "faces": 183,
+        "volume_mm3": 1475.0842236945011,
+        "roundtrip_volume_difference_mm3": -6.350319381454028e-09,
+        "bounds_mm": [
+          -4.850000000000125,
+          -6.5,
+          0.0,
+          4.85,
+          6.0,
+          30.000000000000583
+        ],
+        "tight_mesh_bounds": {
+          "min_mm": [
+            -4.85,
+            -6.5,
+            0.0
+          ],
+          "max_mm": [
+            4.85,
+            6.0,
+            30.0
+          ]
+        },
+        "triangles": 6644,
+        "colored_solids": 9
+      }
+    },
+    {
+      "id": "Alpha_RV112BCF40_25_DetailedCandidate",
+      "board": "mainboard",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "footprint": "ALPHADUAL",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate.step",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate.step",
+      "source_sha256": "15f4f15e36793c0c3e746684357c8dd8269d002d1df7509125e7b2691a253443",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate.stl",
+      "stl_sha256": "68c9a184140f965f23f70d91e928d979dcd6beb02bc68f4c54c1b7a406baa4c4",
+      "units": "mm",
+      "canonical_frame": "Original F.Cu footprintX,-footprintY,+Z outward; rearZ0, no placed transform baked in.",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "Detailed source-grounded original-BOM family body illustration; historical variant/physical fit unqualified",
+      "source_kind": "Own primary-drawing reconstruction with published versus unsized features recorded",
+      "dimensions": {
+        "housing_overall_width_depth_height_mm": [
+          13.6,
+          15.4,
+          6.9
+        ],
+        "main_body_width_mm": 11,
+        "upper_flange_width_mm": 12,
+        "lower_carrier_width_mm": 13,
+        "housing_y_min_max_mm": [
+          -8.7,
+          6.7
+        ],
+        "sleeve_diameter_projection_mm": [
+          7.2,
+          5
+        ],
+        "shaft_diameter_mm": 6,
+        "shaft_tip_z_mm": 25,
+        "selected_current_family_flat_length_mm": 7,
+        "current25A_available_flat_lengths_mm": [
+          7,
+          12
+        ],
+        "shaft_across_flat_mm": 4.5,
+        "published_tip_radial_reduction_mm": 0.5,
+        "unsized_selected_tip_axial_taper_mm": 1.0
+      },
+      "source_urls": [
+        "https://www.taiwanalpha.com/downloads?target=products&id=77"
+      ],
+      "sources": [
+        {
+          "url": "https://www.taiwanalpha.com/downloads?target=products&id=77",
+          "local_file": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/sources/alpha-insulated-rv112b-primary.pdf",
+          "sha256": "7996dbeabb138b63046c41f3a3be0edd3009eeee0aed250087605a7c6d8b69d6",
+          "pages": [
+            4,
+            5
+          ],
+          "publisher": "Taiwan Alpha",
+          "kind": "Official primary insulated-shaft RV112B family drawing, exactBCF-40 housing row"
+        }
+      ],
+      "segments": [
+        {
+          "name": "RearWaferAndLowerCarrier",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate--RearWaferAndLowerCarrier.stl",
+          "sha256": "2f6983fdd49d47cc3b7bb2e42e3d9d078e9fe90ad4b34693b258d747ff0ec380",
+          "units": "mm",
+          "color_srgb": [
+            0.23,
+            0.12,
+            0.055
+          ],
+          "evidence_basis": "Source rear wafer/lower terminal carrier;13mm lower width within13.6mm outer frame. Exact wafer thickness/material and contour divisions are unsized.",
+          "faces": 10,
+          "solid_count": 1,
+          "volume_mm3": 131.28249999999997,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -6.5,
+              -8.45,
+              0.0
+            ],
+            "max_mm": [
+              6.5,
+              5.0,
+              0.85
+            ]
+          },
+          "triangles": 28
+        },
+        {
+          "name": "SecondGangWafer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate--SecondGangWafer.stl",
+          "sha256": "370a6139835d96344cd402768bc70d0f3165248ccb42decdd6bb11d85c4a63d4",
+          "units": "mm",
+          "color_srgb": [
+            0.23,
+            0.12,
+            0.055
+          ],
+          "evidence_basis": "Dual-gang source family supports separate wafer illustration. Individual internal wafer axial station/thickness is unsized; no internal circuit or contact geometry claim.",
+          "faces": 10,
+          "solid_count": 1,
+          "volume_mm3": 64.80672563597331,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -5.2,
+              -4.85,
+              3.0499999999999994
+            ],
+            "max_mm": [
+              5.2,
+              4.75,
+              3.6999999999999997
+            ]
+          },
+          "triangles": 524
+        },
+        {
+          "name": "MoldedDualGangCore",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate--MoldedDualGangCore.stl",
+          "sha256": "918538dd145929dc6a767cf3c494d0e10487ad72499ca324ab8c6fea7c05b851",
+          "units": "mm",
+          "color_srgb": [
+            0.028,
+            0.03,
+            0.035
+          ],
+          "evidence_basis": "Source11mm mainbody within folded frame; local corner radii and internal seam are unsized visual reconstruction.",
+          "faces": 20,
+          "solid_count": 2,
+          "volume_mm3": 498.46617118737726,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -5.15,
+              -4.85,
+              0.85
+            ],
+            "max_mm": [
+              5.15,
+              4.75,
+              6.55
+            ]
+          },
+          "triangles": 1048
+        },
+        {
+          "name": "FoldedMetalCanAndCrimps",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate--FoldedMetalCanAndCrimps.stl",
+          "sha256": "549b2f6eb250498a18da8fab0cbaa35dcf3775e725bb29dce4c02f94dbc01ea1",
+          "units": "mm",
+          "color_srgb": [
+            0.61,
+            0.63,
+            0.65
+          ],
+          "evidence_basis": "Source metal shield/photo with folded side tabs, within11mm mainbody and6.9mm axial datum. Stock, window and crimp locations are unsized.",
+          "faces": 50,
+          "solid_count": 1,
+          "volume_mm3": 52.01340000000006,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -5.5,
+              -5.0,
+              0.57
+            ],
+            "max_mm": [
+              5.5,
+              5.0,
+              6.55
+            ]
+          },
+          "triangles": 188
+        },
+        {
+          "name": "FrontPlate",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate--FrontPlate.stl",
+          "sha256": "2bcb62b774e07917c5a7ecc361ca7371ce242d9f6e367255ee0c131a94b9c913",
+          "units": "mm",
+          "color_srgb": [
+            0.61,
+            0.63,
+            0.65
+          ],
+          "evidence_basis": "Printed12mm upper flange,11mm mainwidth,13.6mm outerlower flange, shaftaxis+6.7/-8.7mm andfrontZ6.9 retained. Frontwindow and corner shape/rivet details traced but unsized.",
+          "faces": 27,
+          "solid_count": 1,
+          "volume_mm3": 49.68389670826232,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -6.8,
+              -8.7,
+              6.55
+            ],
+            "max_mm": [
+              6.8,
+              6.7,
+              6.8999999999999995
+            ]
+          },
+          "triangles": 2620
+        },
+        {
+          "name": "FrontRivetHeads",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate--FrontRivetHeads.stl",
+          "sha256": "5d5fa92770e22138b48c10bcaa3c4b294d1bd4dfc50b79340e866894a2884244",
+          "units": "mm",
+          "color_srgb": [
+            0.69,
+            0.7,
+            0.72
+          ],
+          "evidence_basis": "Four source front rivet indications, contained withinfrontZ6.9. Rivet diameters/positions are visual estimates.",
+          "faces": 12,
+          "solid_count": 4,
+          "volume_mm3": 0.16084954386379746,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -4.449962359796302,
+              -5.349990589838387,
+              6.82
+            ],
+            "max_mm": [
+              4.45,
+              5.349990589838387,
+              6.9
+            ]
+          },
+          "triangles": 2000
+        },
+        {
+          "name": "UnthreadedSleeve",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate--UnthreadedSleeve.stl",
+          "sha256": "68caabe4e9e27671d96c4f8dc0871acb17bf89bb91f3022e5f3335a15e571cc7",
+          "units": "mm",
+          "color_srgb": [
+            0.61,
+            0.63,
+            0.65
+          ],
+          "evidence_basis": "PrintedD7.2 unthreaded5mm sleeve. Collar lip unsized; metallic finish follows correct-family source photo, historical finish unconfirmed.",
+          "faces": 5,
+          "solid_count": 1,
+          "volume_mm3": 196.26903753761385,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -3.599661238166723,
+              -3.5999153085454805,
+              6.9
+            ],
+            "max_mm": [
+              3.6,
+              3.5999153085454805,
+              11.9
+            ]
+          },
+          "triangles": 1004
+        },
+        {
+          "name": "OpaqueFlattedShaft",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate--OpaqueFlattedShaft.stl",
+          "sha256": "36cf33ee6b3c27d9d94dfae5591151f9c7b618ea80df4c1fe010295bef1254ca",
+          "units": "mm",
+          "color_srgb": [
+            0.028,
+            0.03,
+            0.035
+          ],
+          "evidence_basis": "PrintedD6/4.5-across opaque shaft, fullL25 fromhousingrear. Flat7 selected fromcurrent25A options; exacthistorical25F option unconfirmed. Two0.5mm radial tipreductions printed;1mm axial taper length unsized.",
+          "faces": 7,
+          "solid_count": 1,
+          "volume_mm3": 470.05582073064824,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -2.9999770977392806,
+              -2.9999294237879,
+              6.9
+            ],
+            "max_mm": [
+              3.0,
+              2.9999294237879,
+              25.0
+            ]
+          },
+          "triangles": 866
+        }
+      ],
+      "improvements": [
+        "Replaced13.6x15.4 solid envelope with shaped flange, folded metalcan/crimps, separate rearandsecond wafer, molded core, unthreaded sleeve and opaque flatted shaft.",
+        "Correct official insulated-shaft family source replaces reliance ontransparent25AL sibling; full25mm shaft datum retained."
+      ],
+      "limitations": [
+        "Detailed own reconstruction from primary manufacturer drawings; not recovered manufacturer CAD.",
+        "Canonical original F.Cu footprint frame: X=footprint X,Y=-footprint Y,Z outward, with housing rear atZ0 as existing seating assumption. No footprint placement or side flip is baked into geometry.",
+        "All nominal exterior dimensions and full shaft heights are retained. No resizing or relocation was performed to make the enclosure fit.",
+        "Colors/material roles and unsized molding, wafer split, metal stock, crimp folds, rivet diameters and small radii are qualified visual interpretations.",
+        "Electrical solder leads, below-seat mounting legs and internal wipers are omitted. Exact lead-form/trim, historical seating gap, tolerances, terminal insertion and complete assembly fit are unqualified.",
+        "No exact historicalRV112BCF40-25F manufacturer3DCAD was recovered. Currentinsulated25A family supports this nominalillustration; no transparent25AL orwrongbushingvariant CAD substituted.",
+        "Historical originalBOM25F versuscurrent25A remains unresolved; current25A lists both7and12mm flats.7mm retained as priornominalinspection choice, not proof of historical25F geometry.",
+        "Tipcallout2-0.5 specifies two0.5mm radial reductions; it does not specify2mm axial bevel. Axial taper length is a1mm visual assumption.",
+        "Dualwafer axialstation, internalcore and metalfold details are unsized reconstructions. No below-seat solderleads ormountlegs modeled; no actualpad/leadfit claim.",
+        "Shaft flat remains canonicalnegativeY inspection pose. FullCCWsourceangle and actualinstalledcontrolsetting are not inferred."
+      ],
+      "geometry_license": "CC0-1.0 own reconstruction only; manufacturer document/photo rights retained.",
+      "geometry_audit": {
+        "valid": true,
+        "all_solids_valid_positive_volume": true,
+        "solid_count": 12,
+        "faces": 141,
+        "volume_mm3": 1462.7384013433948,
+        "roundtrip_volume_difference_mm3": -1.1684733181027696e-09,
+        "bounds_mm": [
+          -6.8,
+          -8.700000000000133,
+          0.0,
+          6.8,
+          6.7,
+          25.0
+        ],
+        "tight_mesh_bounds": {
+          "min_mm": [
+            -6.8,
+            -8.7,
+            0.0
+          ],
+          "max_mm": [
+            6.8,
+            6.7,
+            25.0
+          ]
+        },
+        "triangles": 8278,
+        "colored_solids": 12
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "board": "mainboard",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ],
+      "footprint": "EVU",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate.step",
+      "source_sha256": "37621a5fac69b737fdee4b5f0d6a4dffa83e97dc64cc3a66021d9ff02af8b381",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Own primary-drawing reconstruction with published versus unsized features recorded",
+      "classification": "Detailed source-grounded original-BOM family body illustration; historical variant/physical fit unqualified",
+      "limitations": [
+        "Detailed own reconstruction from primary manufacturer drawings; not recovered manufacturer CAD.",
+        "Canonical original F.Cu footprint frame: X=footprint X,Y=-footprint Y,Z outward, with housing rear atZ0 as existing seating assumption. No footprint placement or side flip is baked into geometry.",
+        "All nominal exterior dimensions and full shaft heights are retained. No resizing or relocation was performed to make the enclosure fit.",
+        "Colors/material roles and unsized molding, wafer split, metal stock, crimp folds, rivet diameters and small radii are qualified visual interpretations.",
+        "Electrical solder leads, below-seat mounting legs and internal wipers are omitted. Exact lead-form/trim, historical seating gap, tolerances, terminal insertion and complete assembly fit are unqualified.",
+        "No exact EVUF2LFL3 manufacturer3DCAD was recovered from the bounded official CAD-index and product searches; no unrelated EVU variant CAD was substituted.",
+        "Sleeve groove detail is a visual indication, not an exact crossed-knurl/tooling model. Body/wafer internal splits and colors are reconstructed.",
+        "Manufacturer mounting-leg pattern differs from actual original footprint; all below-seat legs omitted and no mounting-hole fit is claimed.",
+        "Shaft flat remains on canonical negativeY as prior inspection pose. The source drawing states fullCCW30degrees, but actual fitted rotary state is unmeasured."
+      ],
+      "source_urls": [
+        "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf"
+      ],
+      "units": "mm"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "footprint": "ALPHADUAL",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate.step",
+      "source_sha256": "15f4f15e36793c0c3e746684357c8dd8269d002d1df7509125e7b2691a253443",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Own primary-drawing reconstruction with published versus unsized features recorded",
+      "classification": "Detailed source-grounded original-BOM family body illustration; historical variant/physical fit unqualified",
+      "limitations": [
+        "Detailed own reconstruction from primary manufacturer drawings; not recovered manufacturer CAD.",
+        "Canonical original F.Cu footprint frame: X=footprint X,Y=-footprint Y,Z outward, with housing rear atZ0 as existing seating assumption. No footprint placement or side flip is baked into geometry.",
+        "All nominal exterior dimensions and full shaft heights are retained. No resizing or relocation was performed to make the enclosure fit.",
+        "Colors/material roles and unsized molding, wafer split, metal stock, crimp folds, rivet diameters and small radii are qualified visual interpretations.",
+        "Electrical solder leads, below-seat mounting legs and internal wipers are omitted. Exact lead-form/trim, historical seating gap, tolerances, terminal insertion and complete assembly fit are unqualified.",
+        "No exact historicalRV112BCF40-25F manufacturer3DCAD was recovered. Currentinsulated25A family supports this nominalillustration; no transparent25AL orwrongbushingvariant CAD substituted.",
+        "Historical originalBOM25F versuscurrent25A remains unresolved; current25A lists both7and12mm flats.7mm retained as priornominalinspection choice, not proof of historical25F geometry.",
+        "Tipcallout2-0.5 specifies two0.5mm radial reductions; it does not specify2mm axial bevel. Axial taper length is a1mm visual assumption.",
+        "Dualwafer axialstation, internalcore and metalfold details are unsized reconstructions. No below-seat solderleads ormountlegs modeled; no actualpad/leadfit claim.",
+        "Shaft flat remains canonicalnegativeY inspection pose. FullCCWsourceangle and actualinstalledcontrolsetting are not inferred."
+      ],
+      "source_urls": [
+        "https://www.taiwanalpha.com/downloads?target=products&id=77"
+      ],
+      "units": "mm"
+    }
+  ],
+  "reference_count": 7,
+  "family_count": 2,
+  "input_hashes": {
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb": "73fb873d67a2f5b2a8a583e85e423b30981fe31d58ba17b0e04a5e58202fb1e8",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/ioboard.kicad_pcb": "7d3444e11f234fbc98c9afa7c8d2719c721c652b92ade676aca1b61a6391fac5",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/EVU.kicad_mod": "bab768443ebbe76abeae233f923b8b763090f33ea91780c331a041e143a620be",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/ALPHADUAL.kicad_mod": "70e8cdc7ac236fa23491461d335c4f6c69ed3e2e1bbbf3a25fd9c8efb65e6918",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision7/control-colors/Panasonic_EVUF2LFL3_BodyIllustration_Colors.step": "1dd40c49ccabcb25023c3cf2e0859ceedfc062b3583fe4f099f35c73239ab42a",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/3dmodels/Revision7/control-colors/Alpha_RV112BCF40_25_BodyIllustration_Colors.step": "732aaa2de27c49de746d0df4b8188882270bc78704570b4d146cccd1a899a170"
+  },
+  "inputs_unchanged": true,
+  "physical_fit_qualified": false,
+  "source_availability": "sources/source-availability.json"
+}

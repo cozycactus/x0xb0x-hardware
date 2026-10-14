@@ -1,0 +1,178 @@
+{
+  "assignments": [
+    {
+      "board": "mainboard",
+      "references": [
+        "TM3",
+        "TM4",
+        "TM5"
+      ],
+      "footprint": "306",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/misc-quality/CT6EP_DatasheetDetailed.step",
+      "source_sha256": "21b0eceff6097b791b5c1174b74a85826ec8da8e5674869bf5a034b657d6df45",
+      "source_kind": "Original CC0 parametric reconstruction from manufacturer CT6EP drawing",
+      "classification": "Detailed datasheet-derived CT6EP family model with nominal untrimmed leads",
+      "limitations": [
+        "Manufacturer CT6EP drawing supplies7x7x5.8mm envelope,0.6x2.6x1.6mm crossslot,0.45mm leads,5x2.5mm lead grid and7+/-2mm untrimmed length. Current Nidec/Copal family is not proven identical to original Vishay-supplied historical stock.",
+        "Housing radii, seam/lug positions, label-panel relief and rotor/tooth dimensions are interpreted from the unsized outline; not factory CAD. Resistance and production date are not invented.",
+        "The canonical origin and native assignment transform are unchanged. Body seated atZ0 is an installed-height assumption. Leads are manufacturer nominal untrimmed length; actual soldered trim length is unknown.",
+        "Nominal lead grid differs from original board5.08x2.54 by0.04mm peraxis. Nominal drill1.0mm minus lead0.45mm permits this nominal centre mismatch; tolerance and real formed-lead seating are not qualified.",
+        "No part body was reduced or moved to fit the case. This visual model is not physical assembly or fabrication qualification."
+      ],
+      "source_urls": [
+        "https://www.nidec-components.com/e/catalog/trimmer/ct-6.pdf",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ]
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "TM6"
+      ],
+      "footprint": "306",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/misc-quality/CT6EP_DatasheetDetailed.step",
+      "source_sha256": "21b0eceff6097b791b5c1174b74a85826ec8da8e5674869bf5a034b657d6df45",
+      "source_kind": "Original CC0 parametric reconstruction from manufacturer CT6EP drawing",
+      "classification": "Detailed datasheet-derived CT6EP family model with nominal untrimmed leads",
+      "limitations": [
+        "Manufacturer CT6EP drawing supplies7x7x5.8mm envelope,0.6x2.6x1.6mm crossslot,0.45mm leads,5x2.5mm lead grid and7+/-2mm untrimmed length. Current Nidec/Copal family is not proven identical to original Vishay-supplied historical stock.",
+        "Housing radii, seam/lug positions, label-panel relief and rotor/tooth dimensions are interpreted from the unsized outline; not factory CAD. Resistance and production date are not invented.",
+        "The canonical origin and native assignment transform are unchanged. Body seated atZ0 is an installed-height assumption. Leads are manufacturer nominal untrimmed length; actual soldered trim length is unknown.",
+        "Nominal lead grid differs from original board5.08x2.54 by0.04mm peraxis. Nominal drill1.0mm minus lead0.45mm permits this nominal centre mismatch; tolerance and real formed-lead seating are not qualified.",
+        "No part body was reduced or moved to fit the case. This visual model is not physical assembly or fabrication qualification."
+      ],
+      "source_urls": [
+        "https://www.nidec-components.com/e/catalog/trimmer/ct-6.pdf",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "CT6EP_DatasheetDetailed",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/misc-quality/CT6EP_DatasheetDetailed.step",
+      "segments": [
+        {
+          "name": "MoldedHousing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/misc-quality/CT6EP_DatasheetDetailed_MoldedHousing.stl",
+          "color_rgb": [
+            0.035,
+            0.22,
+            0.51
+          ],
+          "sha256": "a4f736720571d61cf6729a2390e99a0294b5bf09f442ba995e1d1757d8a6a6db"
+        },
+        {
+          "name": "CornerLugs",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/misc-quality/CT6EP_DatasheetDetailed_CornerLugs.stl",
+          "color_rgb": [
+            0.035,
+            0.22,
+            0.51
+          ],
+          "sha256": "5ef781ae1d88b1e03b3f587616fa86252acf9742236eaae079e60859494470c1"
+        },
+        {
+          "name": "ResistanceLabelPanel",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/misc-quality/CT6EP_DatasheetDetailed_ResistanceLabelPanel.stl",
+          "color_rgb": [
+            0.035,
+            0.22,
+            0.51
+          ],
+          "sha256": "b93fedee494810e18e762e9741ec15fc8be7c19d11a62e7cf326818fd33d8370"
+        },
+        {
+          "name": "SlottedAdjustmentRotor",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/misc-quality/CT6EP_DatasheetDetailed_SlottedAdjustmentRotor.stl",
+          "color_rgb": [
+            0.84,
+            0.85,
+            0.8
+          ],
+          "sha256": "d670444102530f28fbeff207b9a51fd80fc2679db004f5da566649a55f0e4e0b"
+        },
+        {
+          "name": "NominalUntrimmedLeads",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/misc-quality/CT6EP_DatasheetDetailed_NominalUntrimmedLeads.stl",
+          "color_rgb": [
+            0.62,
+            0.64,
+            0.67
+          ],
+          "sha256": "1563ce03fa90e2f3b629c84968e0a7bb0249d234ef4658cf177a5787588d1087"
+        }
+      ],
+      "published_dimensions_mm": {
+        "body": [
+          7,
+          7,
+          5.8
+        ],
+        "slot": [
+          0.6,
+          2.6,
+          1.6
+        ],
+        "lead_diameter": 0.45,
+        "lead_length_nominal": 7,
+        "lead_grid": [
+          5,
+          2.5
+        ]
+      },
+      "geometry_audit": {
+        "valid": true,
+        "solids": 10,
+        "faces": 139,
+        "volume_mm3": 255.78040448676288,
+        "bounds_mm": [
+          -3.5,
+          -3.5,
+          -7.0,
+          3.5,
+          3.5,
+          5.8
+        ],
+        "roundtrip_volume_difference_mm3": 4.433786671143025e-12
+      },
+      "limitations": [
+        "Manufacturer CT6EP drawing supplies7x7x5.8mm envelope,0.6x2.6x1.6mm crossslot,0.45mm leads,5x2.5mm lead grid and7+/-2mm untrimmed length. Current Nidec/Copal family is not proven identical to original Vishay-supplied historical stock.",
+        "Housing radii, seam/lug positions, label-panel relief and rotor/tooth dimensions are interpreted from the unsized outline; not factory CAD. Resistance and production date are not invented.",
+        "The canonical origin and native assignment transform are unchanged. Body seated atZ0 is an installed-height assumption. Leads are manufacturer nominal untrimmed length; actual soldered trim length is unknown.",
+        "Nominal lead grid differs from original board5.08x2.54 by0.04mm peraxis. Nominal drill1.0mm minus lead0.45mm permits this nominal centre mismatch; tolerance and real formed-lead seating are not qualified.",
+        "No part body was reduced or moved to fit the case. This visual model is not physical assembly or fabrication qualification."
+      ]
+    }
+  ]
+}

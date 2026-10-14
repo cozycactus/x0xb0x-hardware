@@ -1,0 +1,857 @@
+{
+  "scope": "Review-only detailed control candidates. No actual PCB/library/scene or original model modified.",
+  "units": "mm",
+  "canonical_frame": "X=original F.Cu footprintX,Y=-footprintY,Z=outward; native footprint/board transforms applied later, exactly once.",
+  "parts": [
+    {
+      "id": "CTS_290VAA5F201B2_DetailedCandidate",
+      "board": "mainboard",
+      "references": [
+        "S2"
+      ],
+      "footprint": "PEC11-S",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate.step",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate.stl",
+      "source_sha256": "7466fde9d58888b5b1986111f5a9556ca272d17d02c4d40b80775104eb1f0272",
+      "stl_sha256": "e94f40e9e701a0047a20bb73baeb6d4f2e28ed0c51c81a4bae05828c06f348d3",
+      "units": "mm",
+      "canonical_frame": "Original F.Cu footprintX,-footprintY,+Z outward; no placement side flip baked in.",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "Detailed source-grounded body-only visualization candidate; physical fit unqualified",
+      "dimensions": {
+        "nominal_metal_housing_width_depth_height_mm": [
+          9.8,
+          10.6,
+          6.2
+        ],
+        "housing_rear_z_mm": 0,
+        "housing_front_z_mm": 6.2,
+        "bushing_diameter_length_mm": [
+          7,
+          5
+        ],
+        "shaft_diameter_mm": 6,
+        "shaft_tip_z_mm": 21.2,
+        "shaft_length_from_housing_front_mm": 15,
+        "flat_length_across_mm": [
+          7,
+          4.5
+        ]
+      },
+      "improvements": [
+        "Manufacturer shared-family stamped can with locking folds and molded rear/contact carrier replaces rectangular envelope.",
+        "ThreadedB/30mm C0 geometry removed completely; exactA unthreaded5mm bushing and A5/F15mm shaft regenerated.",
+        "Separated polymer and metal colors; full neutral shaft datum21.2mm preserved."
+      ],
+      "limitations": [
+        "This is a derived original-BOM visualization, not exact manufacturer290VAA5F201B2 CAD. Housing subset comes from290VBC0F201B2; equivalence of every small historical molding detail remains unverified.",
+        "The source family CAD includes a molding/terminal-guard overhang outside the nominal9.8x10.6mm metal can; it is preserved as source geometry, not mistaken for a published metal-can size.",
+        "Original shaft, threaded bushing and all source electrical-terminal solids are discarded. All below-seat mounting legs are omitted; previous incompatible tab/hole fit is not transferred to this candidate.",
+        "Bushing/shaft chamfers are illustration details. No pin fit, installed seating or enclosure clearance certification."
+      ],
+      "sources": [
+        "https://www.ctscorp.com/Files/CAD/Encoders/CTS-Encoders-290-CAD-Files.zip",
+        "https://www.ctscorp.com/Files/DataSheets/Encoders/encoders-290-datasheet.pdf"
+      ],
+      "license": "CTS manufacturer geometry rights retained for shared housing derivative; original new bushing/shaft parameterization CC0-1.0.",
+      "segments": [
+        {
+          "name": "SharedFamilyStator",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate--SharedFamilyStator.stl",
+          "sha256": "5a22b1fa55264b2bc860da948b4a86fde4988a51bd339871db27995322e75a34",
+          "color_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "evidence_basis": "Official wrong-variant CAD shared housing subset, rigidly transformed then intersected with0\u2264Z\u22646.2mm. Shared-family applicability is qualified; original CAD immutable.",
+          "solid_count": 1,
+          "faces": 175,
+          "volume_mm3": 86.17445559319017,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -4.400000000000005,
+              -5.5000000000000036,
+              1.4000000000000006
+            ],
+            "max_mm": [
+              4.3999999999999995,
+              6.32,
+              5.050000000000001
+            ]
+          }
+        },
+        {
+          "name": "SharedFamilyRearMolding",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate--SharedFamilyRearMolding.stl",
+          "sha256": "6c982adbb6b8647ca8742949fcf634b486d19906acfa9e3680c59d4b16e7abd5",
+          "color_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "evidence_basis": "Official wrong-variant CAD shared housing subset, rigidly transformed then intersected with0\u2264Z\u22646.2mm. Shared-family applicability is qualified; original CAD immutable.",
+          "solid_count": 1,
+          "faces": 92,
+          "volume_mm3": 166.9912693812113,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -4.400000000000004,
+              -5.500000000000002,
+              4.440892098500626e-16
+            ],
+            "max_mm": [
+              4.4,
+              6.319999999999999,
+              2.3500000000000005
+            ]
+          }
+        },
+        {
+          "name": "SharedFamilyMetalCan",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate--SharedFamilyMetalCan.stl",
+          "sha256": "cceedbcef56c95be1fe74371230c46c2d3c03637dc13b7d60d5d42753f35707d",
+          "color_srgb": [
+            0.62,
+            0.64,
+            0.66
+          ],
+          "evidence_basis": "Official wrong-variant CAD shared housing subset, rigidly transformed then intersected with0\u2264Z\u22646.2mm. Shared-family applicability is qualified; original CAD immutable.",
+          "solid_count": 1,
+          "faces": 151,
+          "volume_mm3": 61.402025113364296,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -4.880000000000004,
+              -5.28,
+              -1.9107139363078745e-16
+            ],
+            "max_mm": [
+              4.880000000000003,
+              5.28,
+              6.19
+            ]
+          }
+        },
+        {
+          "name": "SharedFamilyFrontHousing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate--SharedFamilyFrontHousing.stl",
+          "sha256": "dc2f2c32dc1baa9d960228ae209d90d5332575954cb562547ebdd91e9967d31b",
+          "color_srgb": [
+            0.62,
+            0.64,
+            0.66
+          ],
+          "evidence_basis": "Official wrong-variant CAD shared housing subset, rigidly transformed then intersected with0\u2264Z\u22646.2mm. Shared-family applicability is qualified; original CAD immutable.",
+          "solid_count": 1,
+          "faces": 96,
+          "volume_mm3": 150.15070963559418,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -4.780000000000007,
+              -5.500000000000004,
+              3.6500000000000004
+            ],
+            "max_mm": [
+              4.779999999999999,
+              6.3199999999999985,
+              6.2
+            ]
+          }
+        },
+        {
+          "name": "ExactA_UnthreadedBushing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate--ExactA_UnthreadedBushing.stl",
+          "sha256": "81c48c3bfc1bbeff873b0f5681f7766ab577295e5ac73428b44a9e9770d064bd",
+          "color_srgb": [
+            0.62,
+            0.59,
+            0.48
+          ],
+          "evidence_basis": "Exact BOM A code:7mm nonthreaded bushing,5mm projection from housing front; small top chamfer unsized.",
+          "solid_count": 1,
+          "faces": 4,
+          "volume_mm3": 191.4612226803764,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -3.5,
+              -3.49930815419523,
+              6.2
+            ],
+            "max_mm": [
+              3.5,
+              3.4993081541952296,
+              11.200000000000001
+            ]
+          }
+        },
+        {
+          "name": "ExactA5_FlattedShaft",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate--ExactA5_FlattedShaft.stl",
+          "sha256": "7b4acec9e8013e7d8900a920eb684342a47ccc9a43ab37977b0c8dbf70c84575",
+          "color_srgb": [
+            0.62,
+            0.59,
+            0.48
+          ],
+          "evidence_basis": "Exact BOM A5/F:6mm shaft,15mm from housing front,7mm-long4.5mm-across flat. Tip chamfer unsized.",
+          "solid_count": 1,
+          "faces": 7,
+          "volume_mm3": 384.8694812885427,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -3.0,
+              -2.999414424865473,
+              6.2
+            ],
+            "max_mm": [
+              3.0,
+              2.999562734907837,
+              21.2
+            ]
+          }
+        }
+      ],
+      "geometry_audit": {
+        "STEP_roundtrip_valid": true,
+        "colored_solids": 6,
+        "solid_count": 6,
+        "faces": 525,
+        "volume_mm3": 1041.0491778986675,
+        "compound_bbox_mm": [
+          -4.88,
+          -5.5,
+          -1.910713936308e-16,
+          4.88,
+          6.32,
+          21.2
+        ],
+        "tight_mesh_bounds": {
+          "min_mm": [
+            -4.88,
+            -5.5,
+            -1.910713936308e-16
+          ],
+          "max_mm": [
+            4.88,
+            6.32,
+            21.2
+          ]
+        },
+        "triangles": 27932,
+        "all_geometry_at_or_above_canonical_seat": true
+      }
+    },
+    {
+      "id": "NKK_B12AB_DetailedCandidate",
+      "board": "mainboard",
+      "references": [
+        "S1"
+      ],
+      "footprint": "NKKTOGGLE",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/NKK_B12AB_DetailedCandidate.step",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/NKK_B12AB_DetailedCandidate.stl",
+      "source_sha256": "d6fcc8f1de47e51094c5d8cf7874d7e273f42dccbadcc1caea180e1526c4730b",
+      "stl_sha256": "d5ef98c47103dbf1df90dc6facd7f0f3e193c0b6426416260f9f41815647186c",
+      "units": "mm",
+      "canonical_frame": "Original F.Cu footprintX,-footprintY,+Z outward; no placement side flip baked in.",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "Detailed source-grounded body-only visualization candidate; physical fit unqualified",
+      "dimensions": {
+        "overall_cage_width_depth_height_mm": [
+          8,
+          8.8,
+          10.4
+        ],
+        "bracket_stock_mm": 0.4,
+        "body_bushing_total_z_mm": 13.1,
+        "bushing_diameter_projection_mm": [
+          6,
+          2.7
+        ],
+        "lever_diameter_axial_length_mm": [
+          2.6,
+          10
+        ],
+        "neutral_lever_tip_z_mm": 23.1,
+        "total_throw_degrees": 26
+      },
+      "improvements": [
+        "Replaced solid metal box with folded0.4mm cage, visible windows, separate stepped polymer case and front plate.",
+        "Added rounded lever end and collar recess while retaining13.1mm bushing datum and10mm axial lever length.",
+        "No electrical terminals or bracket ground pins; no false pin-fit result."
+      ],
+      "limitations": [
+        "Exact officialB12AB CAD configuration and preview were inspected, but DownloadCAD requires login. This is own source-grounded parameterization, not a recovered manufacturerSTEP.",
+        "Bracket window sizes, molding radii, local steps and collar recess are unsized visual interpretations within the unchanged published envelope.",
+        "Lever remains upright in a neutral inspection pose. B12AB is ON-NONE-ON and an installed lever would occupy either\u00b113degree endpoint; no switch state is claimed.",
+        "Body rear atZ0 is the existing mounting assumption. Historical seat, terminals and full mechanical fit remain unqualified."
+      ],
+      "sources": [
+        "https://www.nkkswitches.eu/pdf/toggle_B.pdf",
+        "https://www.nkkswitches.com/wp-content/themes/impress-blank/search/inc/part.php?part_no=B12AB",
+        "https://nkkswitches-embedded.partcommunity.com/3d-cad-models/?info=nkkswitches%2Ftoggle%2Fb%2Fb_asmtab.prj"
+      ],
+      "license": "CC0-1.0 for own parametric candidate; manufacturer sources and preview retain their rights.",
+      "segments": [
+        {
+          "name": "PolymerCase",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/NKK_B12AB_DetailedCandidate--PolymerCase.stl",
+          "sha256": "0965ff3569c88ce2dc630fb44eeece21101636fc758fc3f4bf9a818696301154",
+          "color_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "evidence_basis": "Own rounded/stepped body reconstruction from primaryA17 drawing and exact publicB12AB CAD preview; corner radii and steps unsized.",
+          "solid_count": 1,
+          "faces": 14,
+          "volume_mm3": 476.45668739945836,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -3.0,
+              -4.4,
+              0.2
+            ],
+            "max_mm": [
+              3.0,
+              4.4,
+              10.0
+            ]
+          }
+        },
+        {
+          "name": "FoldedBracketCage",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/NKK_B12AB_DetailedCandidate--FoldedBracketCage.stl",
+          "sha256": "45e5080f06ccc68ca1999789a7fcf722c2c6b2738afeff5e6a02f9e0d8021959",
+          "color_srgb": [
+            0.62,
+            0.64,
+            0.66
+          ],
+          "evidence_basis": "Exact0.4mm bracket stock and8x8.8x10.4mm envelope. Cage/window/folding details visually reconstructed from exact publicB12AB preview andA17, with unsized dimensions qualified.",
+          "solid_count": 1,
+          "faces": 47,
+          "volume_mm3": 116.55909817957092,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -4.0,
+              -4.4,
+              0.0
+            ],
+            "max_mm": [
+              4.0,
+              4.4,
+              10.400000000000002
+            ]
+          }
+        },
+        {
+          "name": "UnthreadedBushing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/NKK_B12AB_DetailedCandidate--UnthreadedBushing.stl",
+          "sha256": "e35941f1ee63a59118a888f584d8a4af31c10ab55b3d6d63a83e899cd10fa4a1",
+          "color_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "evidence_basis": "Exact B12AB unthreaded6mm bushing,2.7mm projection; visible collar recess unsized.",
+          "solid_count": 1,
+          "faces": 5,
+          "volume_mm3": 71.05732803705735,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -3.0,
+              -2.999406989310197,
+              10.4
+            ],
+            "max_mm": [
+              3.0,
+              2.999406989310197,
+              13.100000000000001
+            ]
+          }
+        },
+        {
+          "name": "RoundedBatLeverNeutral",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/NKK_B12AB_DetailedCandidate--RoundedBatLeverNeutral.stl",
+          "sha256": "4655223533bfa75255b9f7dd47d89742b1040a50bd414d92381ff9abd841374c",
+          "color_srgb": [
+            0.62,
+            0.64,
+            0.66
+          ],
+          "evidence_basis": "Source10mm\u00d72.6mm bat lever. Rounded end reconstructed from exact publicCAD preview; neutral reference pose retained, not an ON position.",
+          "solid_count": 1,
+          "faces": 3,
+          "volume_mm3": 50.79222282568859,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -1.3,
+              -1.2997430287010854,
+              13.1
+            ],
+            "max_mm": [
+              1.3,
+              1.2997430287010852,
+              23.1
+            ]
+          }
+        }
+      ],
+      "geometry_audit": {
+        "STEP_roundtrip_valid": true,
+        "colored_solids": 4,
+        "solid_count": 4,
+        "faces": 69,
+        "volume_mm3": 714.8653364417756,
+        "compound_bbox_mm": [
+          -4.0,
+          -4.4,
+          0.0,
+          4.0,
+          4.4,
+          23.1
+        ],
+        "tight_mesh_bounds": {
+          "min_mm": [
+            -4.0,
+            -4.4,
+            0.0
+          ],
+          "max_mm": [
+            4.0,
+            4.4,
+            23.1
+          ]
+        },
+        "triangles": 5476,
+        "all_geometry_at_or_above_canonical_seat": true
+      }
+    },
+    {
+      "id": "Grayhill_25LB22H_DetailedCandidate",
+      "board": "mainboard",
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "footprint": "GH3074",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/Grayhill_25LB22H_DetailedCandidate.step",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/Grayhill_25LB22H_DetailedCandidate.stl",
+      "source_sha256": "2ae9410a3016bfd0deeb90c390fe4daefdb832912fa829bcb318a879e34e5caf",
+      "stl_sha256": "2855beadfe96b6b9f3ae5ffc9ebc90f16311f6387ea69a143184534f7e08dc5b",
+      "units": "mm",
+      "canonical_frame": "Original F.Cu footprintX,-footprintY,+Z outward; no placement side flip baked in.",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "Detailed source-grounded body-only visualization candidate; physical fit unqualified",
+      "dimensions": {
+        "main_polymer_body_square_mm": 21.97,
+        "body_front_z_mm": 8.71,
+        "overall_output_board_depth_mm": 25.91,
+        "output_tongue_width_mm": 14.97,
+        "output_tongue_y_min_mm": -14.925,
+        "output_board_thickness_mm": 1.14,
+        "bushing_major_diameter_pitch_across_flats_length_mm": [
+          9.525,
+          0.79375,
+          8.13,
+          6.35
+        ],
+        "shaft_diameter_exposed_length_mm": [
+          6.35,
+          12.7
+        ],
+        "shaft_tip_z_mm": 27.76,
+        "shaft_flat_length_across_mm": [
+          6.35,
+          5.56
+        ],
+        "integral_tab_center_x_width_height_mm": [
+          10.16,
+          3.05,
+          1.73
+        ],
+        "optional_bracket_width_mm": 23.5,
+        "optional_bracket_present": false
+      },
+      "improvements": [
+        "Replaced full23.5x25.91 box with21.97mm rounded polymer body and separate FR4 output tongue, retaining full25.91mm overall depth.",
+        "Added front-case step, integral lock ears, fine3/8-32 bushing thread indication and source flatted shaft with tip chamfer.",
+        "Separated black housing/FR4/plating/light shaft appearance using primary material list and current familyphoto.",
+        "Exact no-Z variant contains no optional25J5155 metal bracket."
+      ],
+      "limitations": [
+        "Official exact-part page says3D Model Available No; this is own source-grounded reconstruction, not manufacturerCAD.",
+        "Published21.97mm body and25.91mm output-board depth retained;23.50mm is associated with optional bracket outline and is not used as an oversized solid for no-Z part.",
+        "Corner radii, front-case step divisions, lock-ear details and thread root/flank profile and nonhelical ring representation are unprinted visual approximations. The full nominal exterior datums are unchanged.",
+        "Current photo shows a light reinforced-thermoplastic shaft; exact historical shaft finish is unverified.",
+        "Tongue lands are visual indications only. All terminals and optional mounting legs omitted; no physical fit or contact clearance certification."
+      ],
+      "sources": [
+        "https://grayhill.com/wp-content/uploads/media/25l-datasheet.pdf",
+        "https://grayhill.com/products/rotational-controls/mechanical-encoders/mechanical-encoder/25l/25lb22-h/",
+        "https://grayhill.com/wp-content/uploads/media/25l-mechanical-encoder-01.jpg"
+      ],
+      "license": "CC0-1.0 for own parametric candidate; manufacturer sources/photo retain their rights.",
+      "segments": [
+        {
+          "name": "FR4OutputBoard",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/Grayhill_25LB22H_DetailedCandidate--FR4OutputBoard.stl",
+          "sha256": "014a0c77edf1ed78844ae28284e4092df8eeae753d18f4a7013907be2206d391",
+          "color_srgb": [
+            0.51,
+            0.48,
+            0.25
+          ],
+          "evidence_basis": "Primary materialFR4;21.97mm main body projection,14.97mm tongue width,25.91mm total depth and1.14mm source thickness. Corner radii unsized.",
+          "solid_count": 1,
+          "faces": 16,
+          "volume_mm3": 614.4276159846647,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -10.985,
+              -14.925,
+              0.0
+            ],
+            "max_mm": [
+              10.985,
+              10.985,
+              1.14
+            ]
+          }
+        },
+        {
+          "name": "BlackMoldedHousing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/Grayhill_25LB22H_DetailedCandidate--BlackMoldedHousing.stl",
+          "sha256": "e896c9dd226e96539e755e7051ea4b2884067fb23eb36bc8720e553d02b1defa",
+          "color_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "evidence_basis": "ExactB black housing,21.97mm square main outline with source-visible rounded corners/front steps. Local radii and step heights unsized.",
+          "solid_count": 1,
+          "faces": 19,
+          "volume_mm3": 3535.6733620727546,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -10.985,
+              -10.985,
+              1.14
+            ],
+            "max_mm": [
+              10.985,
+              10.985,
+              8.709999999999999
+            ]
+          }
+        },
+        {
+          "name": "ThreadedDoubleDBushing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/Grayhill_25LB22H_DetailedCandidate--ThreadedDoubleDBushing.stl",
+          "sha256": "883ad0849552af55ace3ab020e3c4244e3c21b82c0a889662cdec2d0d260ac5f",
+          "color_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "evidence_basis": "Published3/8-32 major9.525mm,pitch0.79375mm,8.13mm across flats,6.35mm projection. Circumferential pitch rings indicate the thread, rather than a true helix; root depth and triangular profile are visual assumptions.",
+          "solid_count": 1,
+          "faces": 54,
+          "volume_mm3": 411.05969782925814,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -4.065000000000001,
+              -4.7625,
+              8.71
+            ],
+            "max_mm": [
+              4.0650000000001025,
+              4.7625,
+              15.06
+            ]
+          }
+        },
+        {
+          "name": "LightPolymerFlattedShaft",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/Grayhill_25LB22H_DetailedCandidate--LightPolymerFlattedShaft.stl",
+          "sha256": "27ea9a951fe06fc5e2c76a2c841bd825e9965c632e34901e93c32b149c34f53d",
+          "color_srgb": [
+            0.88,
+            0.86,
+            0.78
+          ],
+          "evidence_basis": "Published reinforced-thermoplastic shaft,6.35mm diameter,12.7mm exposed length,6.35mm-long5.56mm-across flat. Light finish follows current manufacturer familyphoto; historical exact color unconfirmed.",
+          "solid_count": 1,
+          "faces": 7,
+          "volume_mm3": 387.3164472819788,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -3.175,
+              -3.1743972975541626,
+              15.06
+            ],
+            "max_mm": [
+              3.175,
+              3.174682876429802,
+              27.760000000000005
+            ]
+          }
+        },
+        {
+          "name": "IntegralNonTurnTab",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/Grayhill_25LB22H_DetailedCandidate--IntegralNonTurnTab.stl",
+          "sha256": "e4381915cf7facc59ca3e7a20c0acea005ef7e4fdc133d50731a358f19735a79",
+          "color_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "evidence_basis": "Published3.05mm width,1.73mm height,10.16mm offset. Circular envelope retained from prior interpretation; small molded profile unmeasured.",
+          "solid_count": 1,
+          "faces": 3,
+          "volume_mm3": 12.639667897958242,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              8.635,
+              -1.52469855289935,
+              8.71
+            ],
+            "max_mm": [
+              11.685,
+              1.52469855289935,
+              10.440000000000001
+            ]
+          }
+        },
+        {
+          "name": "IllustratedTonguePlating",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/Grayhill_25LB22H_DetailedCandidate--IllustratedTonguePlating.stl",
+          "sha256": "e43fea6ec4938a7557610a4dc3237b668712eaabe33139eefded5ec22ac74ab9",
+          "color_srgb": [
+            0.72,
+            0.65,
+            0.36
+          ],
+          "evidence_basis": "Five visible output-board land indications at source rowY-12.7,pitch2.54. Annulus size, plating appearance and drill openings are presentation details; no below-seat leads.",
+          "solid_count": 5,
+          "faces": 20,
+          "volume_mm3": 0.11442269492996579,
+          "tight_mesh_bounds": {
+            "min_mm": [
+              -5.655,
+              -13.274886339617787,
+              1.14
+            ],
+            "max_mm": [
+              5.655,
+              -12.125113660382212,
+              1.1749999999999998
+            ]
+          }
+        }
+      ],
+      "geometry_audit": {
+        "STEP_roundtrip_valid": true,
+        "colored_solids": 10,
+        "solid_count": 10,
+        "faces": 119,
+        "volume_mm3": 4961.23121376486,
+        "compound_bbox_mm": [
+          -10.985,
+          -14.925,
+          0.0,
+          11.685,
+          10.985,
+          27.76
+        ],
+        "tight_mesh_bounds": {
+          "min_mm": [
+            -10.985,
+            -14.925,
+            0.0
+          ],
+          "max_mm": [
+            11.685,
+            10.985,
+            27.76
+          ]
+        },
+        "triangles": 11044,
+        "all_geometry_at_or_above_canonical_seat": true
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "board": "mainboard",
+      "references": [
+        "S2"
+      ],
+      "footprint": "PEC11-S",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate.step",
+      "source_sha256": "7466fde9d58888b5b1986111f5a9556ca272d17d02c4d40b80775104eb1f0272",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Detailed source-grounded body-only candidate; per-feature evidence qualified",
+      "classification": "Detailed source-grounded body-only visualization candidate; physical fit unqualified",
+      "limitations": [
+        "This is a derived original-BOM visualization, not exact manufacturer290VAA5F201B2 CAD. Housing subset comes from290VBC0F201B2; equivalence of every small historical molding detail remains unverified.",
+        "The source family CAD includes a molding/terminal-guard overhang outside the nominal9.8x10.6mm metal can; it is preserved as source geometry, not mistaken for a published metal-can size.",
+        "Original shaft, threaded bushing and all source electrical-terminal solids are discarded. All below-seat mounting legs are omitted; previous incompatible tab/hole fit is not transferred to this candidate.",
+        "Bushing/shaft chamfers are illustration details. No pin fit, installed seating or enclosure clearance certification."
+      ],
+      "source_urls": [
+        "https://www.ctscorp.com/Files/CAD/Encoders/CTS-Encoders-290-CAD-Files.zip",
+        "https://www.ctscorp.com/Files/DataSheets/Encoders/encoders-290-datasheet.pdf"
+      ],
+      "license": "CTS manufacturer geometry rights retained for shared housing derivative; original new bushing/shaft parameterization CC0-1.0."
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "S1"
+      ],
+      "footprint": "NKKTOGGLE",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/NKK_B12AB_DetailedCandidate.step",
+      "source_sha256": "d6fcc8f1de47e51094c5d8cf7874d7e273f42dccbadcc1caea180e1526c4730b",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Detailed source-grounded body-only candidate; per-feature evidence qualified",
+      "classification": "Detailed source-grounded body-only visualization candidate; physical fit unqualified",
+      "limitations": [
+        "Exact officialB12AB CAD configuration and preview were inspected, but DownloadCAD requires login. This is own source-grounded parameterization, not a recovered manufacturerSTEP.",
+        "Bracket window sizes, molding radii, local steps and collar recess are unsized visual interpretations within the unchanged published envelope.",
+        "Lever remains upright in a neutral inspection pose. B12AB is ON-NONE-ON and an installed lever would occupy either\u00b113degree endpoint; no switch state is claimed.",
+        "Body rear atZ0 is the existing mounting assumption. Historical seat, terminals and full mechanical fit remain unqualified."
+      ],
+      "source_urls": [
+        "https://www.nkkswitches.eu/pdf/toggle_B.pdf",
+        "https://www.nkkswitches.com/wp-content/themes/impress-blank/search/inc/part.php?part_no=B12AB",
+        "https://nkkswitches-embedded.partcommunity.com/3d-cad-models/?info=nkkswitches%2Ftoggle%2Fb%2Fb_asmtab.prj"
+      ],
+      "license": "CC0-1.0 for own parametric candidate; manufacturer sources and preview retain their rights."
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "footprint": "GH3074",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/Grayhill_25LB22H_DetailedCandidate.step",
+      "source_sha256": "2ae9410a3016bfd0deeb90c390fe4daefdb832912fa829bcb318a879e34e5caf",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Detailed source-grounded body-only candidate; per-feature evidence qualified",
+      "classification": "Detailed source-grounded body-only visualization candidate; physical fit unqualified",
+      "limitations": [
+        "Official exact-part page says3D Model Available No; this is own source-grounded reconstruction, not manufacturerCAD.",
+        "Published21.97mm body and25.91mm output-board depth retained;23.50mm is associated with optional bracket outline and is not used as an oversized solid for no-Z part.",
+        "Corner radii, front-case step divisions, lock-ear details and thread root/flank profile and nonhelical ring representation are unprinted visual approximations. The full nominal exterior datums are unchanged.",
+        "Current photo shows a light reinforced-thermoplastic shaft; exact historical shaft finish is unverified.",
+        "Tongue lands are visual indications only. All terminals and optional mounting legs omitted; no physical fit or contact clearance certification."
+      ],
+      "source_urls": [
+        "https://grayhill.com/wp-content/uploads/media/25l-datasheet.pdf",
+        "https://grayhill.com/products/rotational-controls/mechanical-encoders/mechanical-encoder/25l/25lb22-h/",
+        "https://grayhill.com/wp-content/uploads/media/25l-mechanical-encoder-01.jpg"
+      ],
+      "license": "CC0-1.0 for own parametric candidate; manufacturer sources/photo retain their rights."
+    }
+  ],
+  "reference_count": 4,
+  "input_hashes": {
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb": "b259d30eb19ece610a23ace3da7085f4bb56339a8158c024aa95c92d5b5eeb7d",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/ioboard.kicad_pcb": "52f1964f77cea0e203c3622dd4b3f22f875feaba0ebfcea233db0f56175f1cb4",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/sources/cts290-wrong-variant-reference.STEP": "d5507a99e91e25326149293a80976171f99dcda2126cbb4caaf68a06b78e0fa0",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/CTS_290VAA5F201B2_BodyIllustration.step": "90f6ff9576977d79187ba3b2f1afd90193bd1ddd128899629763d44920956709",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/NKK_B12AB_BodyIllustration.step": "d78fff34332c1d5ce83540f6e325317dbf10c6df685244215055bb1ec277f4a4",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Grayhill_25LB22H_BodyIllustration.step": "8247a603780d6111e8b8ba78e3739e57a487f68d0394bd40645c6f68b4c71ef4"
+  },
+  "inputs_unchanged": true,
+  "source_availability": "sources/source-availability.json",
+  "physical_fit_qualified": false
+}

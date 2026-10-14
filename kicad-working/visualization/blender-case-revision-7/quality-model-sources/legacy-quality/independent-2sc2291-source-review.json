@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "scope": "Independent read-only visual review of retained Mitsubishi primary scan, page1, rendered full page and500dpi outline crop. No project/model changes.",
+  "source_pdf": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/2SC2291-downloaded.pdf",
+  "sha256": "94490817af4574353e2d13ef7720efb3d358c5aa748e3b2b4b7d8fc0cb94f935",
+  "printed_geometry_mm": {
+    "body_width_max": 8.1,
+    "body_height_max": 5.6,
+    "body_depth_max": 3.6,
+    "lead_pitch": 1.25,
+    "lead_diameter": 0.45,
+    "lead_length_min": 10.5,
+    "lead_row_from_unchamfered_side": 1.4,
+    "opposite_side_distance_at_max_depth": 2.2,
+    "top_rear_chamfer_horizontal_vertical": [
+      2,
+      2
+    ]
+  },
+  "pinout": {
+    "1": "Emitter1",
+    "2": "Collector1",
+    "3": "Base common",
+    "4": "Collector2",
+    "5": "Emitter2"
+  },
+  "frame_confirmation": {
+    "X": "Choose pin1 negativeX, pin5positiveX as original footprint assignment convention. Retained bottom-view row labels1to5 run left-to-right; view up direction must be respected when mapping.",
+    "Y": "Canonical front\u2212Y is unchamfered vertical side; bodyY\u22121.4\u2026+2.2 with leadrowY0. Chamfer onrear+Y side.",
+    "Z": "Bodyrear/leadexit datumZ0; bodyheight envelopeZ0\u20265.6, top rear bevel2mm axial drop. Untrimmed source leads extend at least10.5mm below exit."
+  },
+  "source_note_translation": "Dimensions without tolerance indication are representative values. Body8.1,5.6,3.6 are MAX limits and leadlength10.5 is MIN, not all nominal toleranced dimensions.",
+  "actual_footprint_context": {
+    "name": "SSIP5",
+    "canonical_pad_X_mm": [
+      -4.572,
+      -2.286,
+      0,
+      2.286,
+      4.572
+    ],
+    "pitch_mm": 2.286,
+    "drills_mm": 1.0,
+    "finding": "Original padpitch is incompatible with unformed1.25mm nominalleadrow. Omit below-seat leads or show explicitlyqualified forming. Do not stretch manufacturer pitch or claimfit."
+  },
+  "uncertainties": [
+    "Source does not print molding radius, lettering, exact factorytolerances for representative dimensions, historical lead forming or actual soldered trim.",
+    "Lead drawing contains break marks, not physical diameter enlargements.",
+    "Broad elevation has no printed face lettering; front/back naming is the selected model frame convention, with printedleadrow/bevelrelation retained."
+  ]
+}

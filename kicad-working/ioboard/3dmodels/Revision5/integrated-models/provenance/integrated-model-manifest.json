@@ -1,0 +1,287 @@
+{
+  "assignments": [
+    {
+      "board": "mainboard",
+      "footprint": "SIP9",
+      "refs": [
+        "IC14"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/SIP9_LA4140_3017C_MaxBody_P2.54_Illustration.step",
+      "sha256": "75aa32f403890c20388e09bd30915dd194f7ede3de01e86291f05a7f5e390045",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "original_parametric_package_illustration_primary_dimensions_exact_board_pitch",
+      "source_kind": "original project-generated CC0 illustration",
+      "license": "CC0-1.0",
+      "sources": [
+        {
+          "url": "https://static.chipdip.ru/lib/301/DOC000301904.pdf",
+          "document": "Sanyo ENN528D page1,3017C-SIP9; retained alternative has legible dimension font",
+          "local_pdf": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/mainboard-review-2/reference-documents/LA4140-SANYO-alternative.pdf",
+          "sha256": "22fd5e0f365d47c9651daca06b0a9e05d126b8d471c1b836430685b5ff2e731a"
+        }
+      ],
+      "limits": [
+        "Body uses printed22.3\u00d73.0 and maximum5.7mm envelope.",
+        "0.7mm mounting standoff and2.5mm cut tail are illustration choices.",
+        "Lead section0.50\u00d70.25mm has no printed tolerance/maxima.",
+        "Front face points toward negative modelY; pin1 is negativeX.",
+        "Drafts, exact shoulders and printed markings are simplified.",
+        "Not manufacturer CAD,exact fitted-part geometry,tolerance analysis or fabrication/assembly approval."
+      ],
+      "source_face_and_pin_order": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "per_instance_override": true
+    },
+    {
+      "board": "mainboard",
+      "footprint": "SIP9",
+      "refs": [
+        "IC15B0"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/SIP9_BA6110_NominalBody_P2.54_Illustration.step",
+      "sha256": "622e8623379f94e50032a7580650d2bc80fccb2a417783c2abe0e08656dd3e1e",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "original_parametric_package_illustration_primary_dimensions_exact_board_pitch",
+      "source_kind": "original project-generated CC0 illustration",
+      "license": "CC0-1.0",
+      "sources": [
+        {
+          "url": "https://datasheet.datasheetarchive.com/originals/library/Datasheet-0103/DSA003839.pdf",
+          "document": "ROHM BA6110/BA6110FS page7,SIP9",
+          "local_pdf": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/mainboard-review-2/reference-documents/BA6110-ROHM-DSA003839.pdf",
+          "sha256": "1399bf7ae30ef83ec9d5944d6fca2aee3274a6ad163ce66478a4a2197236fd4f"
+        }
+      ],
+      "limits": [
+        "Body uses nominal21.8\u00d72.8\u00d75.8mm; each drawing tolerance\u00b10.2mm.",
+        "1.2mm shoulder-to-board mounting interpretation and3.5mm tail give nominal10.5mm total from tip to top.",
+        "Lead lower width0.6mm has no tolerance;0.4mm thickness is printed0.3\u00b10.1 maximum.",
+        "Front face points toward negative modelY; pin1 is negativeX.",
+        "Body drafts, shoulder flare, top groove and printed markings are simplified.",
+        "Not manufacturer CAD,exact fitted-part geometry,tolerance analysis or fabrication/assembly approval."
+      ],
+      "source_face_and_pin_order": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "per_instance_override": true
+    },
+    {
+      "board": "mainboard",
+      "footprint": "SSIP5",
+      "refs": [
+        "Q12",
+        "Q21",
+        "Q26"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/SSIP5_2SC1583_MaxBody_FannedP2.286_Illustration.step",
+      "sha256": "9a485b529d902a5b33a3beafe7bdca2cf4983aebc15ef889787b22e8e0af3c9d",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "original_parametric_package_illustration_primary_dimensions_exact_board_pitch",
+      "source_kind": "original project-generated CC0 illustration",
+      "license": "CC0-1.0",
+      "sources": [
+        {
+          "url": "https://www.radioradar.net/en/files.html?fid=502807",
+          "document": "Original Japanese Mitsubishi Semiconductor2SC1583 datasheet,page1",
+          "local_pdf": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/reference/2SC1583-Mitsubishi.pdf",
+          "sha256": "78dc3990fa5b2210453a0972f5a351e9fcef93f4bff40b6d42852999f63faefd"
+        }
+      ],
+      "limits": [
+        "Body uses maximum8.1\u00d73.6\u00d75.6mm envelope,not exact selected part.",
+        "Native lead pitch is1.25mm. Five0.45mm round leads are explicitly fanned to existing2.286mm PCB pitch above the board.",
+        "2.8mm body standoff,Bezier lead bends and2.5mm cut tails are mounting illustrations.",
+        "Drawing supplies10.5mm minimum uncut lead length; illustration shows trimmed formed leads.",
+        "Front flat face is negativeY; sloped rear top is positiveY. Lead row is1.4mm from rear edge.",
+        "No dimensions or model are borrowed for2SC2291.",
+        "Not manufacturer CAD,exact fitted-part geometry,tolerance analysis or fabrication/assembly approval."
+      ],
+      "source_face_and_pin_order": [
+        "1/B1",
+        "2/C1",
+        "3/E",
+        "4/C2",
+        "5/B2"
+      ],
+      "per_instance_override": true
+    },
+    {
+      "board": "ioboard",
+      "footprint": "Resonator_6MHz_x0x",
+      "refs": [
+        "XTL2"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/Resonator_AWCR6MD_MaxBody_P2.54_Illustration.step",
+      "sha256": "78f33aa8eb4dd7053e1fb5a9b03b43a1ae36eda4c313cbbf4c5e60b23c1c1bab",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "original_parametric_package_illustration_primary_dimensions_exact_board_pitch",
+      "source_kind": "original project-generated CC0 illustration",
+      "license": "CC0-1.0",
+      "sources": [
+        {
+          "url": "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf",
+          "document": "Abracon AWCR-MD,revised2013-05-07,page3,1.79\u20136MHz low-profile bulk",
+          "local_pdf": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/reference-pdfs/awcr-md.pdf",
+          "sha256": "ef48f7b242efe5cfc1f1514721edb274fb13dd2caea086bebe3f40e30fa01a7a"
+        }
+      ],
+      "limits": [
+        "Body uses maximum9.5\u00d74\u00d76.5mm envelope.",
+        "Exact PCB pitch2.54mm lies within manufacturer2.5\u00b10.3mm range.",
+        "Lead section uses printed maxima0.5\u00b10.1 by0.25\u00b10.1mm.",
+        "0.35mm body standoff,2.5mm cut tails,rounded corners and blue color are illustration choices.",
+        "Manufacturer front view has pin3 negativeX,pin2 center,pin1 positiveX; matchesXTL2P$3/P$2/P$1.",
+        "Not manufacturer CAD,exact fitted-part geometry,tolerance analysis or fabrication/assembly approval."
+      ],
+      "source_face_and_pin_order": [
+        "3",
+        "2/GND",
+        "1"
+      ],
+      "per_instance_override": false
+    },
+    {
+      "board": "mainboard",
+      "footprint": "2SC2021",
+      "refs": [
+        "XTL1"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/Resonator_AWCR16MD_MaxBody_P2.54_Illustration.step",
+      "sha256": "a9cab63f2cba58e776998905e5234d17f380e69914a32637e3c28c6bba854b08",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        180
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "original_parametric_package_illustration_primary_dimensions_exact_board_pitch",
+      "source_kind": "original project-generated CC0 illustration",
+      "license": "CC0-1.0",
+      "sources": [
+        {
+          "url": "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf",
+          "document": "Abracon AWCR-MD,revised2013-05-07,page3,13.01\u201360MHz bulk; original BOM815-AWCR-16.00MD",
+          "local_pdf": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/reference-pdfs/awcr-md.pdf",
+          "sha256": "ef48f7b242efe5cfc1f1514721edb274fb13dd2caea086bebe3f40e30fa01a7a"
+        }
+      ],
+      "limits": [
+        "Body uses maximum10\u00d75\u00d710mm envelope for16MHz.",
+        "Exact PCB pitch2.54mm lies within manufacturer2.5\u00b10.3mm range.",
+        "Lead section uses printed maxima0.5\u00b10.1 by0.25\u00b10.1mm.",
+        "0.35mm body standoff,2.5mm cut tails,rounded corners and blue color are illustration choices.",
+        "Manufacturer front has pin1 positiveX; serializedZ180places it on sourceXTL1pad1 negativeX. Middle pin2 remainsGND.",
+        "Not manufacturer CAD,exact fitted-part geometry,tolerance analysis or fabrication/assembly approval."
+      ],
+      "source_face_and_pin_order": [
+        "3",
+        "2/GND",
+        "1"
+      ],
+      "per_instance_override": false
+    }
+  ],
+  "assigned_instance_count": 7,
+  "unsupported": [
+    {
+      "board": "mainboard",
+      "footprint": "SIP9",
+      "refs": [
+        "IC15A0"
+      ],
+      "part": "BA662A optional VCA",
+      "reason": "No authoritative part-specific package drawing recovered; population choice remains unchanged."
+    },
+    {
+      "board": "mainboard",
+      "footprint": "SSIP5",
+      "refs": [
+        "Q22"
+      ],
+      "part": "2SC2291",
+      "reason": "No primary-authored package dimensions recovered; do not borrow2SC1583body dimensions merely because both useSSIP5."
+    }
+  ]
+}

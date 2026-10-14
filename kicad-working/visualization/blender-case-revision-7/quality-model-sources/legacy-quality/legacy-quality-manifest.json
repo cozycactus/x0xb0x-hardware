@@ -1,0 +1,569 @@
+{
+  "date": "2026-10-14",
+  "parts": [
+    {
+      "id": "Mitsubishi_2SC2291_MaxBody_FormedP2p286",
+      "board": "mainboard",
+      "references": [
+        "Q22"
+      ],
+      "footprint": "SSIP5",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286.step",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286.stl",
+      "units": "mm",
+      "source_sha256": "e77a4406c0eec3750b4db057ca88ac00c49cc46bdb9f72ee2ebd5b268029909b",
+      "stl_sha256": "72c292c1757bce53550d9c0a8f1185dc5fab160291a95402d47644924e5e0bf2",
+      "classification": "Maximum package body with nominal full-diameter leads; installed forming/stand-off illustration",
+      "canonical_frame": "Original F.Cu footprint X, -Y, outward Z. Flat side -Y, opposite rear-top YZ bevel +Y, pin1 -X before native pose.",
+      "dimensions": {
+        "body_width_MAX_mm": 8.1,
+        "body_depth_MAX_mm": 3.6,
+        "body_height_MAX_mm": 5.6,
+        "rear_top_bevel_yz_mm": [
+          2,
+          2
+        ],
+        "lead_row_from_flat_face_mm": 1.4,
+        "nominal_package_pitch_mm": 1.25,
+        "nominal_lead_diameter_mm": 0.45,
+        "factory_lead_length_MIN_mm": 10.5,
+        "actual_PCB_pitch_mm": 2.286,
+        "actual_PCB_drill_mm": 1,
+        "assumed_body_standoff_mm": 3,
+        "assumed_trimmed_tail_z_mm": -2.5,
+        "assumed_lead_embed_into_body_mm": 0.12,
+        "assumed_fanout_curve_z_limits_mm": [
+          0.4,
+          2.65
+        ],
+        "assumed_fanout_bend_center_radius_mm": 0.65
+      },
+      "source_urls": [
+        "https://www.diyaudio.com/community/attachments/2sc2291-pdf.1587249/",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://github.com/x0xb0x/x0xb0x.github.io/blob/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/2SC2291.jpg"
+      ],
+      "limitations": [
+        "Specific Mitsubishi 2SC2291 four-page primary scan is the package authority; no 2SC1583 body identity is borrowed from a shared footprint.",
+        "Body uses the published 8.1 x3.6 x5.6 mm maxima. The 2 x2 mm YZ bevel, 1.4 mm flat-face-to-lead-row datum, 1.25 mm row pitch and 0.45 mm round leads follow the drawing. Untoleranced dimensions are representative per the manufacturer note; actual supplied part tolerances are unknown.",
+        "Canonical flat face is -Y, opposite bevel is +Y. Pin1 is -X and pin5 +X before the unchanged Q22 footprint angle180 is applied.",
+        "Body bottom Z3.0 mm, tangent circular lead fanout bends of radius0.65mm, 0.12 mm internal model embed and 2.5 mm cut tails are installed illustration choices. They are not a published lead forming or stand-off specification.",
+        "The 10.5 mm factory lead length is a minimum before trimming. This candidate depicts explicitly trimmed formed leads; no claim is made that its shortened installed tails are supplied that way.",
+        "Nominal 1.25 mm package pitch fans above the board to original 2.286 mm PCB pitch. Full 0.45 mm lead diameter is retained, and straight tails are checked through nominal full 1.6 mm lamination.",
+        "Bend stress, springback, forming process, material temper, drill plating, body/lead tolerance, installed clearance and physical hardware fit remain unqualified. No package scaling or PCB pad movement was used.",
+        "Assignment is Q22-specific. Heterogeneous SSIP5 footprint cache remains unassigned; this candidate must not replace other SSIP5 devices.",
+        "Black epoxy and silver lead colors are presentation choices; no embossed manufacturer text or unverified mold details are added."
+      ],
+      "features": [
+        {
+          "name": "Mitsubishi2291_MaxBody_YZBevel",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286--Mitsubishi2291_MaxBody_YZBevel.stl",
+          "color_rgb": [
+            0.065,
+            0.068,
+            0.075
+          ],
+          "exact_bounds_mm": [
+            -4.05,
+            -1.4,
+            3.0,
+            4.05,
+            2.2,
+            8.6
+          ],
+          "volume_mm3": 147.09599999999998
+        },
+        {
+          "name": "Pin1_E1_IllustratedForming",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286--Pin1_E1_IllustratedForming.stl",
+          "color_rgb": [
+            0.72,
+            0.74,
+            0.77
+          ],
+          "exact_bounds_mm": [
+            -4.797,
+            -0.2250001,
+            -2.5,
+            -2.275,
+            0.2250001,
+            3.12
+          ],
+          "volume_mm3": 1.0406870164738586
+        },
+        {
+          "name": "Pin2_C1_IllustratedForming",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286--Pin2_C1_IllustratedForming.stl",
+          "color_rgb": [
+            0.72,
+            0.74,
+            0.77
+          ],
+          "exact_bounds_mm": [
+            -2.511,
+            -0.2250001,
+            -2.5,
+            -1.025,
+            0.2250001,
+            3.12
+          ],
+          "volume_mm3": 0.9332685089186478
+        },
+        {
+          "name": "Pin3_B_common_IllustratedForming",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286--Pin3_B_common_IllustratedForming.stl",
+          "color_rgb": [
+            0.72,
+            0.74,
+            0.77
+          ],
+          "exact_bounds_mm": [
+            -0.225,
+            -0.225,
+            -2.5,
+            0.225,
+            0.225,
+            3.12
+          ],
+          "volume_mm3": 0.8938223798544661
+        },
+        {
+          "name": "Pin4_C2_IllustratedForming",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286--Pin4_C2_IllustratedForming.stl",
+          "color_rgb": [
+            0.72,
+            0.74,
+            0.77
+          ],
+          "exact_bounds_mm": [
+            1.025,
+            -0.2250001,
+            -2.5,
+            2.5110001,
+            0.2250001,
+            3.12
+          ],
+          "volume_mm3": 0.9332685089186477
+        },
+        {
+          "name": "Pin5_E2_IllustratedForming",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286--Pin5_E2_IllustratedForming.stl",
+          "color_rgb": [
+            0.72,
+            0.74,
+            0.77
+          ],
+          "exact_bounds_mm": [
+            2.275,
+            -0.2250001,
+            -2.5,
+            4.797000000000001,
+            0.2250001,
+            3.12
+          ],
+          "volume_mm3": 1.0406870164738589
+        }
+      ],
+      "material_color_suggestions": {
+        "Mitsubishi2291_MaxBody_YZBevel": [
+          0.065,
+          0.068,
+          0.075
+        ],
+        "Pin1_E1_IllustratedForming": [
+          0.72,
+          0.74,
+          0.77
+        ],
+        "Pin2_C1_IllustratedForming": [
+          0.72,
+          0.74,
+          0.77
+        ],
+        "Pin3_B_common_IllustratedForming": [
+          0.72,
+          0.74,
+          0.77
+        ],
+        "Pin4_C2_IllustratedForming": [
+          0.72,
+          0.74,
+          0.77
+        ],
+        "Pin5_E2_IllustratedForming": [
+          0.72,
+          0.74,
+          0.77
+        ]
+      },
+      "exact_bounds_mm": [
+        -4.797,
+        -1.4,
+        -2.5,
+        4.797000000000001,
+        2.2,
+        8.6
+      ],
+      "body_exact_bounds_mm": [
+        -4.05,
+        -1.4,
+        3.0,
+        4.05,
+        2.2,
+        8.6
+      ],
+      "geometry": {
+        "valid": true,
+        "solids": 6,
+        "fully_joined_union_solids": 1,
+        "faces": 38,
+        "volume_mm3": 151.9377334306394,
+        "AP214_presentation": {
+          "styled_solids": [
+            "Mitsubishi2291_MaxBody_YZBevel",
+            "Pin1_E1_IllustratedForming",
+            "Pin2_C1_IllustratedForming",
+            "Pin3_B_common_IllustratedForming",
+            "Pin4_C2_IllustratedForming",
+            "Pin5_E2_IllustratedForming"
+          ],
+          "color_by_solid": {
+            "Mitsubishi2291_MaxBody_YZBevel": [
+              0.065,
+              0.068,
+              0.075
+            ],
+            "Pin1_E1_IllustratedForming": [
+              0.72,
+              0.74,
+              0.77
+            ],
+            "Pin2_C1_IllustratedForming": [
+              0.72,
+              0.74,
+              0.77
+            ],
+            "Pin3_B_common_IllustratedForming": [
+              0.72,
+              0.74,
+              0.77
+            ],
+            "Pin4_C2_IllustratedForming": [
+              0.72,
+              0.74,
+              0.77
+            ],
+            "Pin5_E2_IllustratedForming": [
+              0.72,
+              0.74,
+              0.77
+            ]
+          }
+        },
+        "roundtrip_geometry_unchanged_by_colors": true
+      },
+      "conservative_FreeCAD_BoundBox_mm": [
+        -4.869093175255845,
+        -1.4,
+        -2.5,
+        4.869093175255845,
+        2.2,
+        8.6
+      ],
+      "bounds_method": "FreeCAD optimalBoundingBox: exact trimmed analytic BRep extrema. Ordinary BoundBox includes conservative toroidal-trim overbounds; it is recorded separately."
+    }
+  ],
+  "assignments": [
+    {
+      "board": "mainboard",
+      "references": [
+        "Q22"
+      ],
+      "footprint": "SSIP5",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286.step",
+      "source_sha256": "e77a4406c0eec3750b4db057ca88ac00c49cc46bdb9f72ee2ebd5b268029909b",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Specific Mitsubishi primary package drawing-derived body and explicitly illustrated formed leads",
+      "classification": "Maximum package body with nominal full-diameter leads; installed forming/stand-off illustration",
+      "limitations": [
+        "Specific Mitsubishi 2SC2291 four-page primary scan is the package authority; no 2SC1583 body identity is borrowed from a shared footprint.",
+        "Body uses the published 8.1 x3.6 x5.6 mm maxima. The 2 x2 mm YZ bevel, 1.4 mm flat-face-to-lead-row datum, 1.25 mm row pitch and 0.45 mm round leads follow the drawing. Untoleranced dimensions are representative per the manufacturer note; actual supplied part tolerances are unknown.",
+        "Canonical flat face is -Y, opposite bevel is +Y. Pin1 is -X and pin5 +X before the unchanged Q22 footprint angle180 is applied.",
+        "Body bottom Z3.0 mm, tangent circular lead fanout bends of radius0.65mm, 0.12 mm internal model embed and 2.5 mm cut tails are installed illustration choices. They are not a published lead forming or stand-off specification.",
+        "The 10.5 mm factory lead length is a minimum before trimming. This candidate depicts explicitly trimmed formed leads; no claim is made that its shortened installed tails are supplied that way.",
+        "Nominal 1.25 mm package pitch fans above the board to original 2.286 mm PCB pitch. Full 0.45 mm lead diameter is retained, and straight tails are checked through nominal full 1.6 mm lamination.",
+        "Bend stress, springback, forming process, material temper, drill plating, body/lead tolerance, installed clearance and physical hardware fit remain unqualified. No package scaling or PCB pad movement was used.",
+        "Assignment is Q22-specific. Heterogeneous SSIP5 footprint cache remains unassigned; this candidate must not replace other SSIP5 devices.",
+        "Black epoxy and silver lead colors are presentation choices; no embossed manufacturer text or unverified mold details are added."
+      ],
+      "source_urls": [
+        "https://www.diyaudio.com/community/attachments/2sc2291-pdf.1587249/",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://github.com/x0xb0x/x0xb0x.github.io/blob/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/2SC2291.jpg"
+      ],
+      "per_instance_override": true,
+      "replaces_source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/2SC2291_SSIP5_ApproxBody.step",
+      "replaces_source_sha256": "19c85906d54361aa9937eb1868bddb3249b0c0b7ad878e7067d447b56bdc95de"
+    }
+  ],
+  "primary_pdf": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/2SC2291-downloaded.pdf",
+  "primary_pdf_sha256": "94490817af4574353e2d13ef7720efb3d358c5aa748e3b2b4b7d8fc0cb94f935",
+  "publisher": "Mitsubishi Semiconductor; header \u4e09\u83f1\u534a\u5c0e\u4f53\u3008\u30c8\u30e9\u30f3\u30b8\u30b9\u30bf\u3009",
+  "source_page": 1,
+  "source_pinout": [
+    "1:E1",
+    "2:C1",
+    "3:B common",
+    "4:C2",
+    "5:E2"
+  ],
+  "actual_source_Q22_at_mm_deg": [
+    61.7728,
+    -107.5182,
+    180.0
+  ],
+  "actual_source_pads": [
+    {
+      "pin": "1",
+      "canonical_xy_mm": [
+        -4.572,
+        -0.0
+      ],
+      "drill_mm": 1.0
+    },
+    {
+      "pin": "2",
+      "canonical_xy_mm": [
+        -2.286,
+        -0.0
+      ],
+      "drill_mm": 1.0
+    },
+    {
+      "pin": "3",
+      "canonical_xy_mm": [
+        0.0,
+        -0.0
+      ],
+      "drill_mm": 1.0
+    },
+    {
+      "pin": "4",
+      "canonical_xy_mm": [
+        2.286,
+        -0.0
+      ],
+      "drill_mm": 1.0
+    },
+    {
+      "pin": "5",
+      "canonical_xy_mm": [
+        4.572,
+        -0.0
+      ],
+      "drill_mm": 1.0
+    }
+  ],
+  "lead_forming_records": [
+    {
+      "package_root_x_mm": -2.5,
+      "board_tail_x_mm": -4.572,
+      "path_centerline_length_including_embed_mm": 6.543426484281342,
+      "formed_trimmed_length_from_body_mm": 6.423426484281342,
+      "minimum_factory_length_mm": 10.5,
+      "minimum_trimmed_remainder_mm": 4.076573515718658,
+      "bend_center_radius_mm": 0.65,
+      "bend_angle_deg": 52.06516253569492,
+      "between_bends_straight_length_mm": 1.9921054188973033,
+      "bend_endpoint_positions_mm": [
+        [
+          -2.5,
+          0.0,
+          2.65
+        ],
+        [
+          -2.750402833137408,
+          0.0,
+          2.1373382165253685
+        ],
+        [
+          -4.321597166862592,
+          0.0,
+          0.9126617834746313
+        ],
+        [
+          -4.572,
+          0.0,
+          0.4
+        ]
+      ],
+      "pin": "1",
+      "function": "E1"
+    },
+    {
+      "package_root_x_mm": -1.25,
+      "board_tail_x_mm": -2.286,
+      "path_centerline_length_including_embed_mm": 5.8680215872160115,
+      "formed_trimmed_length_from_body_mm": 5.748021587216011,
+      "minimum_factory_length_mm": 10.5,
+      "minimum_trimmed_remainder_mm": 4.751978412783989,
+      "bend_center_radius_mm": 0.65,
+      "bend_angle_deg": 28.326415506583473,
+      "between_bends_straight_length_mm": 1.8553156065747953,
+      "bend_endpoint_positions_mm": [
+        [
+          -1.25,
+          0.0,
+          2.65
+        ],
+        [
+          -1.327831853145196,
+          0.0,
+          2.3415788403420748
+        ],
+        [
+          -2.2081681468548044,
+          0.0,
+          0.7084211596579248
+        ],
+        [
+          -2.286,
+          0.0,
+          0.4
+        ]
+      ],
+      "pin": "2",
+      "function": "C1"
+    },
+    {
+      "package_root_x_mm": 0.0,
+      "board_tail_x_mm": 0.0,
+      "path_centerline_length_including_embed_mm": 5.62,
+      "formed_trimmed_length_from_body_mm": 5.5,
+      "minimum_factory_length_mm": 10.5,
+      "minimum_trimmed_remainder_mm": 5.0,
+      "bend_center_radius_mm": null,
+      "bend_angle_deg": 0.0,
+      "between_bends_straight_length_mm": 2.25,
+      "bend_endpoint_positions_mm": [
+        [
+          0.0,
+          0.0,
+          2.65
+        ],
+        [
+          0.0,
+          0.0,
+          0.4
+        ]
+      ],
+      "pin": "3",
+      "function": "B_common"
+    },
+    {
+      "package_root_x_mm": 1.25,
+      "board_tail_x_mm": 2.286,
+      "path_centerline_length_including_embed_mm": 5.8680215872160115,
+      "formed_trimmed_length_from_body_mm": 5.748021587216011,
+      "minimum_factory_length_mm": 10.5,
+      "minimum_trimmed_remainder_mm": 4.751978412783989,
+      "bend_center_radius_mm": 0.65,
+      "bend_angle_deg": 28.326415506583473,
+      "between_bends_straight_length_mm": 1.8553156065747953,
+      "bend_endpoint_positions_mm": [
+        [
+          1.25,
+          0.0,
+          2.65
+        ],
+        [
+          1.327831853145196,
+          0.0,
+          2.3415788403420748
+        ],
+        [
+          2.2081681468548044,
+          0.0,
+          0.7084211596579248
+        ],
+        [
+          2.286,
+          0.0,
+          0.4
+        ]
+      ],
+      "pin": "4",
+      "function": "C2"
+    },
+    {
+      "package_root_x_mm": 2.5,
+      "board_tail_x_mm": 4.572,
+      "path_centerline_length_including_embed_mm": 6.543426484281342,
+      "formed_trimmed_length_from_body_mm": 6.423426484281342,
+      "minimum_factory_length_mm": 10.5,
+      "minimum_trimmed_remainder_mm": 4.076573515718658,
+      "bend_center_radius_mm": 0.65,
+      "bend_angle_deg": 52.06516253569492,
+      "between_bends_straight_length_mm": 1.9921054188973033,
+      "bend_endpoint_positions_mm": [
+        [
+          2.5,
+          0.0,
+          2.65
+        ],
+        [
+          2.750402833137408,
+          0.0,
+          2.1373382165253685
+        ],
+        [
+          4.321597166862592,
+          0.0,
+          0.9126617834746313
+        ],
+        [
+          4.572,
+          0.0,
+          0.4
+        ]
+      ],
+      "pin": "5",
+      "function": "E2"
+    }
+  ],
+  "source_file_hashes": {
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/2SC2291-downloaded.pdf": "94490817af4574353e2d13ef7720efb3d358c5aa748e3b2b4b7d8fc0cb94f935",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb": "73fb873d67a2f5b2a8a583e85e423b30981fe31d58ba17b0e04a5e58202fb1e8",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod": "04c416963cb00adb9fcc994e45f410e4e98879390fdac0d3ed0579db6d9e15c5",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/2SC2291_SSIP5_ApproxBody.step": "19c85906d54361aa9937eb1868bddb3249b0c0b7ad878e7067d447b56bdc95de"
+  },
+  "source_files_unchanged": true,
+  "heterogeneous_cache_policy": {
+    "footprint": "SSIP5",
+    "model_nodes_in_cache": 0,
+    "per_instance_Q22_only": true
+  },
+  "generator": "build_2sc2291_candidate.py",
+  "license": "Original parametric model and code CC0-1.0; manufacturer scan retains publisher rights.",
+  "native_export_report": "native-probes/native-export-audit.json",
+  "independent_source_and_section_report": "independent-2sc2291-audit.json",
+  "visually_reviewed_preview": "2sc2291-native-package-review.png",
+  "visual_review": {
+    "viewed": true,
+    "result": "Native package and all five formed leads complete. Both flat face and opposite YZ-bevel side shown. No clipped or missing geometry observed."
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "date": "2026-10-14",
+  "geometry_authority": "Primary manufacturer mechanical PDFs; downloaded manufacturerCAD not read or incorporated.",
+  "pdf_sources": [
+    {
+      "file": "sources/mj-3536n-current.pdf",
+      "sha256": "aa1de851ef2fba7c4f66b9e4413351ce9349e1b34502bc7b67b3788e9d5d6e79",
+      "url": "https://www.sameskydevices.com/product/resource/mj-3536n.pdf",
+      "visually_reviewed_page": 2,
+      "date": "2024-09-12"
+    },
+    {
+      "file": "sources/mj3536n-2020.pdf",
+      "sha256": "09fc15106f9eec1ddfb0943d0964045e3960f6a6c144c5b7a5874bdda7f76166",
+      "url": "https://static.chipdip.ru/lib/247/DOC011247072.pdf",
+      "visually_reviewed_page": 2,
+      "date": "2020-02-10"
+    },
+    {
+      "file": "sources/pj-202ah-current.pdf",
+      "sha256": "a35968324973cf6df2cf8891203d949ee850aa51a70b5f88d71b940d40559ead",
+      "url": "https://www.sameskydevices.com/product/resource/pj-202ah.pdf",
+      "visually_reviewed_page": 2,
+      "date": "2025-07-24"
+    },
+    {
+      "file": "sources/pj202ah-2015.pdf",
+      "sha256": "bca6421dec884391e3d1f87ee5911d9dc52320e544c881a01073c06a6d4e92c8",
+      "url": "https://datasheet.octopart.com/PJ-202AH-CUI-datasheet-62089902.pdf",
+      "visually_reviewed_page": 2,
+      "date": "2015-01-08"
+    }
+  ],
+  "historical_2010_MJ_primary_web_source": {
+    "url": "https://www.mouser.com/datasheet/2/670/mj-3536n-1311426.pdf",
+    "binary_retrieved": false,
+    "method": "PrimaryPDF indexed webtext; visual source geometry crosschecked against locally saved2020 manufacturerPDF.",
+    "revision_history": {
+      "A": "2005-11-17 newdrawing",
+      "B": "2010-10-07 addedPCBslotdimensions"
+    },
+    "limitations": "No local2010 PDF binary or successfully rendered screenshot obtained; no claim of visual inspection of2010 drawing."
+  },
+  "revision_comparison": {
+    "MJ3536N": {
+      "initial_release": "2005-11-17",
+      "PCB_slots_added": "2010-10-07",
+      "brand_updates": [
+        "2020-02-10",
+        "2024-09-12"
+      ],
+      "documented_reengineering_dates": [
+        "2023-04-11",
+        "2024-08-14"
+      ],
+      "old_and_current_nominal_body_mm": [
+        10,
+        15.8,
+        10
+      ],
+      "old_and_current_bushing_diameter_projection_mm": [
+        6,
+        3
+      ],
+      "old_and_current_socket_axis_height_bore_mm": [
+        5.5,
+        3.6
+      ],
+      "old_and_current_tail_centers_canonical_xy_mm": [
+        [
+          0,
+          2.3
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          5.2,
+          13.5
+        ]
+      ],
+      "old_recommended_slots_mm": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "current_recommended_slots_mm": {
+        "terminal1": [
+          1,
+          2.7
+        ],
+        "terminal2": [
+          1,
+          2.8
+        ],
+        "terminal3": [
+          1,
+          2.5
+        ]
+      },
+      "note": "Both pre-reengineering and current dimension-line layouts imply the same nominal terminal centers. Historical11.2 is terminal1-to-terminal3; it must not be misread as terminal1-to-terminal2. Equal nominal centers do not prove historical/current mold or tolerance equivalence."
+    },
+    "PJ202AH": {
+      "initial_release": "2005-11-17",
+      "retained_older_revision": "1.01 2015-01-08 newtemplate",
+      "current_revision": "1.05 2025-07-24 updateddatasheet",
+      "documented_geometry_reengineering": false,
+      "old_and_current_body_mm": [
+        9,
+        14.4,
+        11
+      ],
+      "old_and_current_socket_axis_bore_pin_mm": [
+        6.5,
+        6.5,
+        2
+      ],
+      "old_and_current_spacing_callouts_mm": [
+        10.7,
+        3,
+        3,
+        4.7
+      ],
+      "old_and_current_recommended_slots_mm": {
+        "terminal1": [
+          1,
+          3.5
+        ],
+        "terminal2": [
+          1,
+          3
+        ],
+        "terminal3": [
+          1,
+          3
+        ]
+      },
+      "note": "CurrentPDF adds section/topview detail and revised tolerances; same published nominal envelopes are not proof of historical mold/physicalfit."
+    }
+  },
+  "PCB_comparison": {
+    "MJ3536N": {
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "original_drills_mm": [
+        2.54,
+        2.54,
+        2.54
+      ],
+      "original_centers_canonical_xy_mm": [
+        [
+          0,
+          2.54
+        ],
+        [
+          0,
+          15.8496
+        ],
+        [
+          5.08,
+          13.462
+        ]
+      ],
+      "nominal_center_residuals_mm": [
+        0.24,
+        0.1504,
+        0.1258729518204765
+      ],
+      "decision": "No belowseat tails. Historical/current recommendedslots are distinct from original roundholes; gauge, tolerance and plating uncertainty remain. No fit-driven lead movement or thinning."
+    },
+    "PJ202AH": {
+      "reference": "POWER0",
+      "original_drills_mm": {
+        "P$1": 3.2,
+        "P$2": 2.8,
+        "P$3": 2.8
+      },
+      "original_centers_canonical_xy_mm": {
+        "P$1": [
+          0,
+          -13.716
+        ],
+        "P$2": [
+          0,
+          -7.62
+        ],
+        "P$3": [
+          -4.6,
+          -10.862
+        ]
+      },
+      "printed_nominal_terminal3_width_mm": 3,
+      "original_P$3_drill_mm": 2.8,
+      "nominal_width_minus_drill_mm": 0.2,
+      "decision": "All belowseat terminals omitted. Terminal3 nominalwidth exceeds rounddrill before gauge/position/tolerance. No terminal was thinned or PCB changed."
+    }
+  },
+  "CAD_terms_review": {
+    "page": "sources/samesky-cad-model-terms.html",
+    "purpose_scope": "Engineeringreference/designassistance for integrating SameSkyproducts",
+    "ownership_reserved": true,
+    "express_redistribution_grant_found": false,
+    "new_agreement_or_form_submitted": false,
+    "official_zip": "sources/Same_Sky_MJ-3536N.zip",
+    "official_zip_geometry_read": false,
+    "official_zip_geometry_incorporated": false,
+    "delivery_exclusion": [
+      "sources/Same_Sky_MJ-3536N.zip"
+    ],
+    "decision": "Use original independently parameterized drawing-derived models. Retain downloadedZIP only as rawresearch outside deliveredassets."
+  },
+  "status": "Family/bodyvisualization improved; belowseatleadfit and actualinstalledfit remainunqualified."
+}

@@ -1,0 +1,5333 @@
+{
+  "actual_pads": [
+    {
+      "number": "1",
+      "canonical_xy_mm": [
+        -6.2484,
+        2.4892
+      ],
+      "drill_mm": 1.1938
+    },
+    {
+      "number": "2",
+      "canonical_xy_mm": [
+        6.2484,
+        2.4892
+      ],
+      "drill_mm": 1.1938
+    },
+    {
+      "number": "3",
+      "canonical_xy_mm": [
+        -6.2484,
+        -2.4892
+      ],
+      "drill_mm": 1.1938
+    },
+    {
+      "number": "4",
+      "canonical_xy_mm": [
+        6.2484,
+        -2.4892
+      ],
+      "drill_mm": 1.1938
+    }
+  ],
+  "manufacturer_nominal_pitch_xy_mm": [
+    12.5,
+    5
+  ],
+  "nominal_terminal_axes_to_actual_pad_centres_mm": 0.01091787525116506,
+  "manufacturer_recommended_drill_mm": 1.3,
+  "actual_drill_mm": 1.1938,
+  "conservative_lamination_interval_mm": [
+    -1.6,
+    0
+  ],
+  "native_graphical_lamination_interval_mm": [
+    -1.595,
+    -0.085
+  ],
+  "sampling_step_mm": 0.025,
+  "wire_discretization_deflection_mm": 0.0005,
+  "sections": [
+    {
+      "z_mm": -3.49,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.4999999999999973
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.3899999999999904,
+        -6.0999999999999845,
+        2.6100000000000048
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.19384323563127234,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.4030567643687276,
+      "clearance_to_hypothetical_1mm_drill_mm": 0.30615676436872763,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.45615676436872765
+    },
+    {
+      "z_mm": -3.49,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.5000000000000075
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.610000000000025,
+        -6.0999999999999845,
+        -2.38999999999999
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.19384323563127234,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.4030567643687276,
+      "clearance_to_hypothetical_1mm_drill_mm": 0.30615676436872763,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.45615676436872765
+    },
+    {
+      "z_mm": -3.49,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000006,
+        2.4999999999999973
+      ],
+      "section_bbox_xy_mm": [
+        6.100000000000009,
+        2.3899999999999904,
+        6.400000000000003,
+        2.6100000000000048
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.19384323563127234,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.4030567643687276,
+      "clearance_to_hypothetical_1mm_drill_mm": 0.30615676436872763,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.45615676436872765
+    },
+    {
+      "z_mm": -3.49,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000006,
+        -2.500000000000008
+      ],
+      "section_bbox_xy_mm": [
+        6.100000000000009,
+        -2.610000000000025,
+        6.400000000000003,
+        -2.3899999999999904
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.19384323563128786,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.40305676436871213,
+      "clearance_to_hypothetical_1mm_drill_mm": 0.30615676436871214,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.45615676436871216
+    },
+    {
+      "z_mm": -3.0,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.344761884021336,
+        2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        -6.508540151792637,
+        1.9999999999999991,
+        -6.1809836162500345,
+        2.999999999999992
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5732273009676774,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.02367269903232261,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.07322730096767738,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.07677269903232264
+    },
+    {
+      "z_mm": -3.0,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.344761884021331,
+        -2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        -6.508540151792638,
+        -2.9999999999999893,
+        -6.180983616250023,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5732273009676722,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.023672699032327826,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.07322730096767216,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.07677269903232786
+    },
+    {
+      "z_mm": -3.0,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.344761884021332,
+        2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        6.180983616250029,
+        1.9999999999999991,
+        6.5085401517926345,
+        2.999999999999992
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5732273009676734,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.023672699032326605,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.07322730096767338,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.07677269903232664
+    },
+    {
+      "z_mm": -3.0,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.344761884021331,
+        -2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        6.180983616250028,
+        -2.9999999999999902,
+        6.5085401517926345,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5732273009676729,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.02367269903232705,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.07322730096767294,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.07677269903232709
+    },
+    {
+      "z_mm": -2.5,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.563935103040456,
+        2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        -6.727713370811758,
+        1.9999999999999991,
+        -6.400156835269154,
+        2.999999999999992
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7004698048016926,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.10356980480169264,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.20046980480169263,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.05046980480169261
+    },
+    {
+      "z_mm": -2.5,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.563935103040448,
+        -2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        -6.727713370811755,
+        -2.9999999999999893,
+        -6.400156835269141,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7004698048016825,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.10356980480168254,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.20046980480168253,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.050469804801682505
+    },
+    {
+      "z_mm": -2.5,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.563935103040453,
+        2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        6.400156835269149,
+        1.9999999999999991,
+        6.727713370811759,
+        2.999999999999992
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.700469804801691,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.10356980480169098,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.20046980480169097,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.05046980480169094
+    },
+    {
+      "z_mm": -2.5,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.563935103040453,
+        -2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        6.400156835269147,
+        -2.9999999999999902,
+        6.727713370811759,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7004698048016865,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.10356980480168654,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.20046980480168652,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.0504698048016865
+    },
+    {
+      "z_mm": -2.0,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.783108322059575,
+        2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        -6.946886589830877,
+        1.9999999999999991,
+        -6.619330054288273,
+        2.999999999999992
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8653323963504193,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.26843239635041927,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.36533239635041925,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.21533239635041923
+    },
+    {
+      "z_mm": -2.0,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.783108322059565,
+        -2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        -6.946886589830872,
+        -2.9999999999999893,
+        -6.619330054288259,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8653323963504038,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.26843239635040383,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3653323963504038,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2153323963504038
+    },
+    {
+      "z_mm": -2.0,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.783108322059576,
+        2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        6.61933005428827,
+        1.9999999999999991,
+        6.946886589830883,
+        2.999999999999992
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8653323963504225,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2684323963504225,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3653323963504225,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.21533239635042245
+    },
+    {
+      "z_mm": -2.0,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.783108322059574,
+        -2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        6.619330054288266,
+        -2.9999999999999902,
+        6.946886589830883,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8653323963504133,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.26843239635041327,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.36533239635041326,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.21533239635041324
+    },
+    {
+      "z_mm": -1.9,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.826942965863399,
+        2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        -6.9907212336347015,
+        1.9999999999999991,
+        -6.663164698092097,
+        2.999999999999992
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9010868181839844,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.3041868181839844,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4010868181839844,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2510868181839844
+    },
+    {
+      "z_mm": -1.9,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.82694296586339,
+        -2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        -6.990721233634696,
+        -2.9999999999999893,
+        -6.663164698092083,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9010868181839672,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.3041868181839672,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4010868181839672,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.25108681818396716
+    },
+    {
+      "z_mm": -1.9,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.826942965863401,
+        2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        6.6631646980920936,
+        1.9999999999999991,
+        6.990721233634707,
+        2.999999999999992
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.901086818183987,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.30418681818398696,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.40108681818398695,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2510868181839869
+    },
+    {
+      "z_mm": -1.9,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.826942965863399,
+        -2.4999999999999956
+      ],
+      "section_bbox_xy_mm": [
+        6.663164698092091,
+        -2.9999999999999902,
+        6.990721233634707,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9010868181839775,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.3041868181839775,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4010868181839775,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2510868181839775
+    },
+    {
+      "z_mm": -1.6,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.852297197926909,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        -7.023317552103577,
+        1.9999999999999991,
+        -6.68127684375024,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9281238347107502,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.33122383471075023,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4281238347107502,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2781238347107502
+    },
+    {
+      "z_mm": -1.6,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.852297197926914,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -7.023317552103577,
+        -2.999999999999989,
+        -6.681276843750252,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9281238347107502,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.33122383471075023,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4281238347107502,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2781238347107502
+    },
+    {
+      "z_mm": -1.6,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.8522971979269105,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.681276843750243,
+        1.9999999999999991,
+        7.023317552103577,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9281238347107494,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.33122383471074945,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.42812383471074944,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2781238347107494
+    },
+    {
+      "z_mm": -1.6,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.852297197926923,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.681276843750269,
+        -2.999999999999989,
+        7.023317552103577,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9281238347107502,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.33122383471075023,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4281238347107502,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2781238347107502
+    },
+    {
+      "z_mm": -1.595,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.84963138123347,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -7.020730443725684,
+        1.9999999999999991,
+        -6.678532318741255,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9259648774686331,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.3290648774686331,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4259648774686331,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2759648774686331
+    },
+    {
+      "z_mm": -1.595,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.8496313812334755,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -7.020730443725684,
+        -2.999999999999989,
+        -6.678532318741267,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9259648774686331,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.3290648774686331,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4259648774686331,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2759648774686331
+    },
+    {
+      "z_mm": -1.595,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.849631381233471,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.678532318741258,
+        1.9999999999999991,
+        7.020730443725684,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9259648774686331,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.3290648774686331,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4259648774686331,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2759648774686331
+    },
+    {
+      "z_mm": -1.595,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.849631381233484,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.678532318741285,
+        -2.999999999999989,
+        7.020730443725684,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9259648774686331,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.3290648774686331,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4259648774686331,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2759648774686331
+    },
+    {
+      "z_mm": -1.575,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.838665807361526,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -7.0097773960177365,
+        1.9999999999999991,
+        -6.667554218705316,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9168490492805906,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.31994904928059065,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.41684904928059063,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2668490492805906
+    },
+    {
+      "z_mm": -1.575,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.838665807361533,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -7.0097773960177365,
+        -2.999999999999989,
+        -6.6675542187053285,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9168490492805987,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.31994904928059875,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.41684904928059874,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2668490492805987
+    },
+    {
+      "z_mm": -1.575,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.838665807361528,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.66755421870532,
+        1.9999999999999991,
+        7.009777396017736,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.916849049280598,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.319949049280598,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.41684904928059796,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.26684904928059794
+    },
+    {
+      "z_mm": -1.575,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.838665807361541,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.667554218705346,
+        -2.999999999999989,
+        7.009777396017736,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9168490492805935,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.31994904928059353,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4168490492805935,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2668490492805935
+    },
+    {
+      "z_mm": -1.55,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.824943182316603,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.996054770972813,
+        1.9999999999999991,
+        -6.653831593660393,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9054856688862526,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.3085856688862526,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4054856688862526,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.25548566888625257
+    },
+    {
+      "z_mm": -1.55,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.824943182316609,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.996054770972813,
+        -2.999999999999989,
+        -6.6538315936604056,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9054856688862599,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.30858566888625993,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4054856688862599,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2554856688862599
+    },
+    {
+      "z_mm": -1.55,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.824943182316606,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.653831593660397,
+        1.9999999999999991,
+        6.996054770972814,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9054856688862607,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.3085856688862607,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4054856688862607,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2554856688862607
+    },
+    {
+      "z_mm": -1.55,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.824943182316618,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.653831593660423,
+        -2.999999999999989,
+        6.996054770972814,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.9054856688862555,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.3085856688862555,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.4054856688862555,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.25548566888625546
+    },
+    {
+      "z_mm": -1.525,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.81122055727168,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.98233214592789,
+        1.9999999999999991,
+        -6.64010896861547,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8941884783569354,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2972884783569354,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3941884783569354,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.24418847835693536
+    },
+    {
+      "z_mm": -1.525,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.811220557271686,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.98233214592789,
+        -2.999999999999989,
+        -6.640108968615483,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8941884783569434,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2972884783569434,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3941884783569434,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.24418847835694335
+    },
+    {
+      "z_mm": -1.525,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.811220557271682,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.640108968615474,
+        1.9999999999999991,
+        6.98233214592789,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8941884783569434,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2972884783569434,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3941884783569434,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.24418847835694335
+    },
+    {
+      "z_mm": -1.525,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.811220557271694,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.6401089686154995,
+        -2.999999999999989,
+        6.98233214592789,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.894188478356939,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.29728847835693906,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.39418847835693904,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.24418847835693902
+    },
+    {
+      "z_mm": -1.5,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.797497932226756,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.968609520882966,
+        1.9999999999999991,
+        -6.626386343570547,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8829600183306416,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.28606001833064165,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.38296001833064164,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.23296001833064162
+    },
+    {
+      "z_mm": -1.5,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.797497932226762,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.968609520882966,
+        -2.999999999999989,
+        -6.626386343570559,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.882960018330649,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.286060018330649,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.38296001833064897,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.23296001833064894
+    },
+    {
+      "z_mm": -1.5,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.797497932226758,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.62638634357055,
+        1.9999999999999991,
+        6.968609520882967,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8829600183306496,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.28606001833064965,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.38296001833064963,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2329600183306496
+    },
+    {
+      "z_mm": -1.5,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.797497932226772,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.6263863435705765,
+        -2.999999999999989,
+        6.968609520882967,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8829600183306445,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.28606001833064454,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3829600183306445,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2329600183306445
+    },
+    {
+      "z_mm": -1.475,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.783775307181834,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.954886895838043,
+        1.9999999999999991,
+        -6.612663718525624,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8718029444724592,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2749029444724592,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3718029444724592,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.22180294447245918
+    },
+    {
+      "z_mm": -1.475,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.783775307181839,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.954886895838043,
+        -2.999999999999989,
+        -6.612663718525636,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8718029444724664,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.27490294447246644,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3718029444724664,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2218029444724664
+    },
+    {
+      "z_mm": -1.475,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.783775307181835,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.612663718525626,
+        1.9999999999999991,
+        6.954886895838044,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8718029444724671,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2749029444724671,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3718029444724671,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.22180294447246707
+    },
+    {
+      "z_mm": -1.475,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.783775307181848,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.612663718525654,
+        -2.999999999999989,
+        6.954886895838044,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8718029444724621,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2749029444724621,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3718029444724621,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.22180294447246207
+    },
+    {
+      "z_mm": -1.45,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.77005268213691,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.941164270793119,
+        1.9999999999999991,
+        -6.598941093480701,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8607200328140959,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.26382003281409594,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3607200328140959,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.2107200328140959
+    },
+    {
+      "z_mm": -1.45,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.770052682136916,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.941164270793119,
+        -2.999999999999989,
+        -6.598941093480713,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.860720032814103,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.26382003281410304,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.36072003281410303,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.210720032814103
+    },
+    {
+      "z_mm": -1.45,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.770052682136911,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.598941093480702,
+        1.9999999999999991,
+        6.94116427079312,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8607200328141038,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2638200328141038,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3607200328141038,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.21072003281410379
+    },
+    {
+      "z_mm": -1.45,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.7700526821369245,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.59894109348073,
+        -2.999999999999989,
+        6.94116427079312,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8607200328140995,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2638200328140995,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3607200328140995,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.21072003281409946
+    },
+    {
+      "z_mm": -1.425,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.756330057091987,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.927441645748196,
+        1.9999999999999991,
+        -6.585218468435778,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8497141852766701,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2528141852766701,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3497141852766701,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.19971418527667006
+    },
+    {
+      "z_mm": -1.425,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.756330057091993,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.927441645748196,
+        -2.999999999999989,
+        -6.585218468435789,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8497141852766772,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2528141852766772,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3497141852766772,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.19971418527667717
+    },
+    {
+      "z_mm": -1.425,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.756330057091988,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.58521846843578,
+        1.9999999999999991,
+        6.927441645748197,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.849714185276678,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.252814185276678,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.34971418527667797,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.19971418527667795
+    },
+    {
+      "z_mm": -1.425,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.7563300570920015,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.585218468435806,
+        -2.999999999999989,
+        6.927441645748197,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.849714185276673,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.252814185276673,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.349714185276673,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.19971418527667295
+    },
+    {
+      "z_mm": -1.4,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.7426074320470635,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.913719020703272,
+        1.9999999999999991,
+        -6.571495843390855,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8387884353694556,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2418884353694556,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3387884353694556,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.18878843536945555
+    },
+    {
+      "z_mm": -1.4,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.74260743204707,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.913719020703272,
+        -2.999999999999989,
+        -6.571495843390867,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8387884353694619,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.24188843536946192,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3387884353694619,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.18878843536946188
+    },
+    {
+      "z_mm": -1.4,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.742607432047065,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.571495843390856,
+        1.9999999999999991,
+        6.913719020703274,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8387884353694633,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.24188843536946336,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.33878843536946335,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.18878843536946333
+    },
+    {
+      "z_mm": -1.4,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.742607432047079,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.571495843390883,
+        -2.999999999999989,
+        6.913719020703274,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8387884353694577,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2418884353694577,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3387884353694577,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.18878843536945766
+    },
+    {
+      "z_mm": -1.375,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.7288848070021405,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.8999963956583485,
+        1.9999999999999991,
+        -6.557773218345932,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8279459540543267,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2310459540543267,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3279459540543267,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.17794595405432667
+    },
+    {
+      "z_mm": -1.375,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.728884807002146,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.8999963956583485,
+        -2.999999999999989,
+        -6.557773218345943,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.827945954054333,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.23104595405433304,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.327945954054333,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.177945954054333
+    },
+    {
+      "z_mm": -1.375,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.728884807002142,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.557773218345933,
+        1.9999999999999991,
+        6.899996395658351,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8279459540543351,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.23104595405433515,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.32794595405433513,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.1779459540543351
+    },
+    {
+      "z_mm": -1.375,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.728884807002155,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.557773218345959,
+        -2.999999999999989,
+        6.899996395658351,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8279459540543295,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.23104595405432948,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.32794595405432947,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.17794595405432945
+    },
+    {
+      "z_mm": -1.35,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.715162181957217,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.886273770613426,
+        1.9999999999999991,
+        -6.544050593301009,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8171900557621625,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.22029005576216254,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3171900557621625,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.1671900557621625
+    },
+    {
+      "z_mm": -1.35,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.715162181957222,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.886273770613426,
+        -2.999999999999989,
+        -6.544050593301019,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8171900557621695,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.22029005576216953,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3171900557621695,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.1671900557621695
+    },
+    {
+      "z_mm": -1.35,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.7151621819572185,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.5440505933010105,
+        1.9999999999999991,
+        6.886273770613427,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8171900557621709,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.22029005576217087,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.31719005576217085,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.16719005576217083
+    },
+    {
+      "z_mm": -1.35,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.715162181957231,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.544050593301035,
+        -2.999999999999989,
+        6.886273770613427,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8171900557621661,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2202900557621661,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3171900557621661,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.16719005576216606
+    },
+    {
+      "z_mm": -1.325,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.701439556912294,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.872551145568502,
+        1.9999999999999991,
+        -6.530327968256086,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8065242045434543,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.20962420454345432,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3065242045434543,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.15652420454345428
+    },
+    {
+      "z_mm": -1.325,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.7014395569123,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.872551145568502,
+        -2.999999999999989,
+        -6.530327968256097,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8065242045434605,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.20962420454346053,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3065242045434605,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.1565242045434605
+    },
+    {
+      "z_mm": -1.325,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.7014395569122955,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.530327968256087,
+        1.9999999999999991,
+        6.872551145568504,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8065242045434625,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.20962420454346253,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3065242045434625,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.1565242045434625
+    },
+    {
+      "z_mm": -1.325,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.701439556912309,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.530327968256112,
+        -2.999999999999989,
+        6.872551145568504,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.8065242045434571,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.2096242045434571,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.3065242045434571,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.15652420454345706
+    },
+    {
+      "z_mm": -1.3,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.687716931867371,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.858828520523579,
+        1.9999999999999991,
+        -6.516605343211163,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7959520203307383,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.19905202033073832,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2959520203307383,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.14595202033073829
+    },
+    {
+      "z_mm": -1.3,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.687716931867376,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.858828520523579,
+        -2.999999999999989,
+        -6.5166053432111735,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7959520203307445,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.19905202033074454,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2959520203307445,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.1459520203307445
+    },
+    {
+      "z_mm": -1.3,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.687716931867373,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.516605343211163,
+        1.9999999999999991,
+        6.8588285205235815,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7959520203307465,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.19905202033074654,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2959520203307465,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.1459520203307465
+    },
+    {
+      "z_mm": -1.3,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.687716931867385,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.516605343211189,
+        -2.999999999999989,
+        6.8588285205235815,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7959520203307404,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.19905202033074043,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2959520203307404,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.1459520203307404
+    },
+    {
+      "z_mm": -1.275,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.673994306822447,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.845105895478655,
+        1.9999999999999991,
+        -6.50288271816624,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7854772852851715,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.18857728528517148,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.28547728528517147,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.13547728528517144
+    },
+    {
+      "z_mm": -1.275,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.673994306822453,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.845105895478655,
+        -2.999999999999989,
+        -6.502882718166251,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7854772852851775,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.18857728528517748,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.28547728528517746,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.13547728528517744
+    },
+    {
+      "z_mm": -1.275,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.673994306822449,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.50288271816624,
+        1.9999999999999991,
+        6.845105895478658,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7854772852851796,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.18857728528517959,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.28547728528517957,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.13547728528517955
+    },
+    {
+      "z_mm": -1.275,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.673994306822461,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.502882718166265,
+        -2.999999999999989,
+        6.845105895478658,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7854772852851741,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.18857728528517415,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.28547728528517413,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.1354772852851741
+    },
+    {
+      "z_mm": -1.25,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.660271681777525,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.831383270433732,
+        1.9999999999999991,
+        -6.489160093121317,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7751039501935139,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.17820395019351387,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.27510395019351386,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.12510395019351384
+    },
+    {
+      "z_mm": -1.25,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.66027168177753,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.831383270433732,
+        -2.999999999999989,
+        -6.489160093121328,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7751039501935199,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.17820395019351987,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.27510395019351985,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.12510395019351983
+    },
+    {
+      "z_mm": -1.25,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.660271681777526,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.489160093121317,
+        1.9999999999999991,
+        6.831383270433735,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7751039501935219,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.17820395019352187,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.27510395019352185,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.12510395019352183
+    },
+    {
+      "z_mm": -1.25,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.660271681777538,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.489160093121342,
+        -2.999999999999989,
+        6.831383270433735,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7751039501935165,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.17820395019351654,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2751039501935165,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.1251039501935165
+    },
+    {
+      "z_mm": -1.225,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.646549056732601,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.817660645388808,
+        1.9999999999999991,
+        -6.475437468076393,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7648361408749347,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.1679361408749347,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2648361408749347,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.11483614087493466
+    },
+    {
+      "z_mm": -1.225,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.646549056732606,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.817660645388808,
+        -2.999999999999989,
+        -6.475437468076404,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.76483614087494,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.16793614087494002,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.26483614087494,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.11483614087493998
+    },
+    {
+      "z_mm": -1.225,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.646549056732603,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.475437468076393,
+        1.9999999999999991,
+        6.817660645388812,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7648361408749427,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.16793614087494269,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.26483614087494267,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.11483614087494265
+    },
+    {
+      "z_mm": -1.225,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.646549056732615,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.475437468076418,
+        -2.999999999999989,
+        6.817660645388812,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7648361408749367,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.1679361408749367,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2648361408749367,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.11483614087493665
+    },
+    {
+      "z_mm": -1.2,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.632826431687677,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.803938020343885,
+        1.9999999999999991,
+        -6.46171484303147,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7546781645493547,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.15777816454935467,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.25467816454935466,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.10467816454935464
+    },
+    {
+      "z_mm": -1.2,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.632826431687683,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.803938020343885,
+        -2.999999999999989,
+        -6.461714843031481,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7546781645493605,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.15777816454936056,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.25467816454936054,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.10467816454936052
+    },
+    {
+      "z_mm": -1.2,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.632826431687679,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.46171484303147,
+        1.9999999999999991,
+        6.803938020343888,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7546781645493625,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.15777816454936255,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.25467816454936254,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.10467816454936252
+    },
+    {
+      "z_mm": -1.2,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.6328264316876915,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.461714843031495,
+        -2.999999999999989,
+        6.803938020343888,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7546781645493579,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.1577781645493579,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2546781645493579,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.10467816454935785
+    },
+    {
+      "z_mm": -1.175,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.619103806642754,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.7902153952989615,
+        1.9999999999999991,
+        -6.447992217986547,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7446345161103868,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.1477345161103868,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.24463451611038678,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.09463451611038676
+    },
+    {
+      "z_mm": -1.175,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.61910380664276,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.7902153952989615,
+        -2.999999999999989,
+        -6.447992217986558,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7446345161103926,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.14773451611039257,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.24463451611039255,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.09463451611039253
+    },
+    {
+      "z_mm": -1.175,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.619103806642756,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.447992217986547,
+        1.9999999999999991,
+        6.790215395298965,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7446345161103951,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.14773451611039512,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2446345161103951,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.09463451611039508
+    },
+    {
+      "z_mm": -1.175,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.619103806642768,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.447992217986571,
+        -2.999999999999989,
+        6.790215395298965,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.74463451611039,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.14773451611039,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.24463451611039,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.09463451611038998
+    },
+    {
+      "z_mm": -1.15,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.605381181597831,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.776492770254038,
+        1.9999999999999991,
+        -6.434269592941624,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7347098842363323,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.13780988423633234,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.23470988423633232,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.0847098842363323
+    },
+    {
+      "z_mm": -1.15,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.605381181597837,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.776492770254038,
+        -2.999999999999989,
+        -6.434269592941635,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7347098842363374,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.13780988423633744,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.23470988423633743,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.08470988423633741
+    },
+    {
+      "z_mm": -1.15,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.605381181597833,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.434269592941623,
+        1.9999999999999991,
+        6.776492770254042,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7347098842363406,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.13780988423634066,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.23470988423634065,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.08470988423634063
+    },
+    {
+      "z_mm": -1.15,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.605381181597845,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.434269592941647,
+        -2.999999999999989,
+        6.776492770254042,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7347098842363349,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.1378098842363349,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.23470988423633488,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.08470988423633485
+    },
+    {
+      "z_mm": -1.125,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.5916585565529076,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.762770145209115,
+        1.9999999999999991,
+        -6.420546967896701,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7249091572620855,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.1280091572620855,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2249091572620855,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.07490915726208547
+    },
+    {
+      "z_mm": -1.125,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.591658556552913,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.762770145209115,
+        -2.999999999999989,
+        -6.420546967896712,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7249091572620906,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.1280091572620906,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2249091572620906,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.07490915726209058
+    },
+    {
+      "z_mm": -1.125,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.591658556552909,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.4205469678966995,
+        1.9999999999999991,
+        6.762770145209119,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7249091572620937,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.12800915726209372,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2249091572620937,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.07490915726209368
+    },
+    {
+      "z_mm": -1.125,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.591658556552922,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.420546967896724,
+        -2.999999999999989,
+        6.762770145209119,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7249091572620887,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.12800915726208872,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2249091572620887,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.07490915726208869
+    },
+    {
+      "z_mm": -1.1,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.577935931507985,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.749047520164191,
+        1.9999999999999991,
+        -6.406824342851778,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7152374287231732,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.11833742872317321,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2152374287231732,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.06523742872317317
+    },
+    {
+      "z_mm": -1.1,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.577935931507989,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.749047520164191,
+        -2.999999999999989,
+        -6.406824342851788,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7152374287231775,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.11833742872317754,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.21523742872317753,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.0652374287231775
+    },
+    {
+      "z_mm": -1.1,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.5779359315079855,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.406824342851777,
+        1.9999999999999991,
+        6.749047520164195,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7152374287231806,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.11833742872318065,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.21523742872318063,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.06523742872318061
+    },
+    {
+      "z_mm": -1.1,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.577935931507998,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.406824342851801,
+        -2.999999999999989,
+        6.749047520164195,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7152374287231757,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.11833742872317576,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.21523742872317575,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.06523742872317573
+    },
+    {
+      "z_mm": -1.075,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.564213306463062,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.735324895119268,
+        1.9999999999999991,
+        -6.393101717806855,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7057000024705199,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.10880000247051991,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2057000024705199,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.05570000247051987
+    },
+    {
+      "z_mm": -1.075,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.564213306463067,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.735324895119268,
+        -2.999999999999989,
+        -6.393101717806865,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7057000024705248,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.10880000247052479,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.20570000247052478,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.055700002470524757
+    },
+    {
+      "z_mm": -1.075,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.5642133064630634,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.393101717806854,
+        1.9999999999999991,
+        6.735324895119272,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7057000024705279,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.1088000024705279,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.2057000024705279,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.055700002470527865
+    },
+    {
+      "z_mm": -1.075,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.564213306463074,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.393101717806877,
+        -2.999999999999989,
+        6.735324895119272,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.7057000024705223,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.10880000247052235,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.20570000247052234,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.055700002470522314
+    },
+    {
+      "z_mm": -1.05,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.550490681418138,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.721602270074344,
+        1.9999999999999991,
+        -6.3793790927619325,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6963023972409511,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.09940239724095112,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1963023972409511,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.04630239724095109
+    },
+    {
+      "z_mm": -1.05,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.550490681418143,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.721602270074344,
+        -2.999999999999989,
+        -6.379379092761942,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6963023972409553,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.09940239724095534,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.19630239724095533,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.046302397240955306
+    },
+    {
+      "z_mm": -1.05,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.55049068141814,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.37937909276193,
+        1.9999999999999991,
+        6.721602270074349,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6963023972409589,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.0994023972409589,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.19630239724095888,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.04630239724095886
+    },
+    {
+      "z_mm": -1.05,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.550490681418152,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.379379092761954,
+        -2.999999999999989,
+        6.721602270074349,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6963023972409534,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.09940239724095346,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.19630239724095344,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.04630239724095342
+    },
+    {
+      "z_mm": -1.025,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.536768056373215,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.707879645029421,
+        1.9999999999999991,
+        -6.365656467717009,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6870503505539787,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.09015035055397869,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.18705035055397867,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.03705035055397865
+    },
+    {
+      "z_mm": -1.025,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.536768056373219,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.707879645029421,
+        -2.999999999999989,
+        -6.365656467717018,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6870503505539834,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.09015035055398346,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.18705035055398345,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.037050350553983424
+    },
+    {
+      "z_mm": -1.025,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.536768056373216,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.365656467717007,
+        1.9999999999999991,
+        6.707879645029426,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6870503505539863,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.09015035055398635,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.18705035055398633,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.03705035055398631
+    },
+    {
+      "z_mm": -1.025,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.536768056373228,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.36565646771703,
+        -2.999999999999989,
+        6.707879645029426,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6870503505539817,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.09015035055398168,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.18705035055398167,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.03705035055398165
+    },
+    {
+      "z_mm": -1.0,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.523045431328292,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.694157019984497,
+        1.9999999999999991,
+        -6.351933842672086,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6779498217902581,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.0810498217902581,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1779498217902581,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.027949821790258067
+    },
+    {
+      "z_mm": -1.0,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.523045431328297,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.694157019984497,
+        -2.999999999999989,
+        -6.351933842672096,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6779498217902621,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.0810498217902621,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.17794982179026209,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.027949821790262064
+    },
+    {
+      "z_mm": -1.0,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.523045431328294,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.351933842672084,
+        1.9999999999999991,
+        6.694157019984503,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6779498217902656,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.08104982179026565,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.17794982179026564,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.027949821790265617
+    },
+    {
+      "z_mm": -1.0,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.523045431328304,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.351933842672106,
+        -2.999999999999989,
+        6.694157019984503,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6779498217902604,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.08104982179026043,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.17794982179026042,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.0279498217902604
+    },
+    {
+      "z_mm": -0.975,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.509322806283368,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.680434394939574,
+        1.9999999999999991,
+        -6.338211217627163,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6690069942913807,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.07210699429138068,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.16900699429138066,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.01900699429138064
+    },
+    {
+      "z_mm": -0.975,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.5093228062833735,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.680434394939574,
+        -2.999999999999989,
+        -6.3382112176271725,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6690069942913847,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.07210699429138467,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.16900699429138466,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.019006994291384638
+    },
+    {
+      "z_mm": -0.975,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.50932280628337,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.33821121762716,
+        1.9999999999999991,
+        6.68043439493958,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6690069942913881,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.07210699429138812,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1690069942913881,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.01900699429138808
+    },
+    {
+      "z_mm": -0.975,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.5093228062833814,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.338211217627183,
+        -2.999999999999989,
+        6.68043439493958,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6690069942913829,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.0721069942913829,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.16900699429138288,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.01900699429138286
+    },
+    {
+      "z_mm": -0.95,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.495600181238445,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.6667117698946505,
+        1.9999999999999991,
+        -6.32448859258224,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6602282763047782,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.06332827630477822,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1602282763047782,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.010228276304778183
+    },
+    {
+      "z_mm": -0.95,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.4956001812384505,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.6667117698946505,
+        -2.999999999999989,
+        -6.3244885925822505,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6602282763047821,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.0633282763047821,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1602282763047821,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.010228276304782069
+    },
+    {
+      "z_mm": -0.95,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.495600181238446,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.324488592582236,
+        1.9999999999999991,
+        6.666711769894656,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6602282763047855,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.06332827630478555,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.16022827630478553,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.01022827630478551
+    },
+    {
+      "z_mm": -0.95,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.495600181238458,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.324488592582259,
+        -2.999999999999989,
+        6.666711769894656,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.660228276304781,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.063328276304781,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.16022827630478098,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.010228276304780959
+    },
+    {
+      "z_mm": -0.925,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.481877556193522,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.652989144849728,
+        1.9999999999999991,
+        -6.310765967537317,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6516203005817254,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.05472030058172539,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.15162030058172538,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.0016203005817253535
+    },
+    {
+      "z_mm": -0.925,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.481877556193528,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.652989144849728,
+        -2.999999999999989,
+        -6.310765967537327,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6516203005817287,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.05472030058172872,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1516203005817287,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.0016203005817286842
+    },
+    {
+      "z_mm": -0.925,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.481877556193524,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.310765967537314,
+        1.9999999999999991,
+        6.652989144849733,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.651620300581732,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.05472030058173205,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.15162030058173204,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.0016203005817320149
+    },
+    {
+      "z_mm": -0.925,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.481877556193535,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.310765967537336,
+        -2.999999999999989,
+        6.652989144849733,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.651620300581727,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.054720300581727055,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.15162030058172704,
+      "clearance_to_manufacturer_1p3mm_drill_mm": -0.0016203005817270189
+    },
+    {
+      "z_mm": -0.9,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.468154931148598,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.639266519804804,
+        1.9999999999999991,
+        -6.297043342492394,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6431899224212888,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.04628992242128882,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1431899224212888,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.0068100775787112156
+    },
+    {
+      "z_mm": -0.9,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.468154931148604,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.639266519804804,
+        -2.999999999999989,
+        -6.297043342492403,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.643189922421292,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.04628992242129204,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.14318992242129203,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.006810077578707996
+    },
+    {
+      "z_mm": -0.9,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.4681549311486,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.29704334249239,
+        1.9999999999999991,
+        6.63926651980481,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6431899224212958,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.046289922421295815,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1431899224212958,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.006810077578704221
+    },
+    {
+      "z_mm": -0.9,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.468154931148611,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.297043342492413,
+        -2.999999999999989,
+        6.63926651980481,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6431899224212905,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.046289922421290486,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.14318992242129047,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.00681007757870955
+    },
+    {
+      "z_mm": -0.875,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.454432306103675,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.62554389475988,
+        1.9999999999999991,
+        -6.28332071744747,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6349442159391926,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.038044215939192605,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1349442159391926,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.015055784060807431
+    },
+    {
+      "z_mm": -0.875,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.45443230610368,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.62554389475988,
+        -2.999999999999989,
+        -6.283320717447481,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6349442159391958,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.038044215939195825,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1349442159391958,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.015055784060804211
+    },
+    {
+      "z_mm": -0.875,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.454432306103676,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.283320717447467,
+        1.9999999999999991,
+        6.625543894759887,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6349442159392,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.03804421593920004,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.13494421593920003,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.015055784060799993
+    },
+    {
+      "z_mm": -0.875,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.454432306103688,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.283320717447489,
+        -2.999999999999989,
+        6.625543894759887,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6349442159391947,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.038044215939194714,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1349442159391947,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.015055784060805322
+    },
+    {
+      "z_mm": -0.85,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.4407096810587525,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.611821269714957,
+        1.9999999999999991,
+        -6.269598092402547,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.626890468328572,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.029990468328571995,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.12689046832857198,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.02310953167142804
+    },
+    {
+      "z_mm": -0.85,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.440709681058757,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.611821269714957,
+        -2.999999999999989,
+        -6.269598092402557,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6268904683285751,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.029990468328575104,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1268904683285751,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.023109531671424932
+    },
+    {
+      "z_mm": -0.85,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.440709681058753,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.269598092402544,
+        1.9999999999999991,
+        6.611821269714963,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6268904683285786,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.029990468328578657,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.12689046832857864,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.02310953167142138
+    },
+    {
+      "z_mm": -0.85,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.440709681058765,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.269598092402566,
+        -2.999999999999989,
+        6.611821269714963,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6268904683285741,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.029990468328574105,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1268904683285741,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.02310953167142593
+    },
+    {
+      "z_mm": -0.825,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.426987056013829,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.598098644670033,
+        1.9999999999999991,
+        -6.255875467357624,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6190361718704681,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.022136171870468124,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.11903617187046811,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.030963828129531912
+    },
+    {
+      "z_mm": -0.825,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.426987056013834,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.598098644670033,
+        -2.999999999999989,
+        -6.255875467357635,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6190361718704706,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.022136171870470567,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.11903617187047055,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.03096382812952947
+    },
+    {
+      "z_mm": -0.825,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.4269870560138305,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.255875467357621,
+        1.9999999999999991,
+        6.59809864467004,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6190361718704745,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.022136171870474564,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.11903617187047455,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.030963828129525472
+    },
+    {
+      "z_mm": -0.825,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.426987056013841,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.255875467357642,
+        -2.999999999999989,
+        6.59809864467004,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6190361718704696,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.022136171870469568,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.11903617187046955,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.03096382812953047
+    },
+    {
+      "z_mm": -0.8,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.413264430968906,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.58437601962511,
+        1.9999999999999991,
+        -6.242152842312701,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.611389013446527,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.014489013446526977,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.11138901344652696,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.03861098655347306
+    },
+    {
+      "z_mm": -0.8,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.41326443096891,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.58437601962511,
+        -2.999999999999989,
+        -6.242152842312711,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.61138901344653,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.014489013446529975,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.11138901344652996,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.03861098655347006
+    },
+    {
+      "z_mm": -0.8,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.4132644309689075,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.242152842312698,
+        1.9999999999999991,
+        6.584376019625117,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6113890134465338,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.01448901344653386,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.11138901344653385,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.038610986553466176
+    },
+    {
+      "z_mm": -0.8,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.413264430968917,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.242152842312718,
+        -2.999999999999989,
+        6.584376019625117,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6113890134465294,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.01448901344652942,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1113890134465294,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.038610986553470616
+    },
+    {
+      "z_mm": -0.775,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.399541805923983,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.570653394580186,
+        1.9999999999999991,
+        -6.228430217267778,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.603956861305871,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.0070568613058710206,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.103956861305871,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.046043138694129015
+    },
+    {
+      "z_mm": -0.775,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.399541805923986,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.570653394580186,
+        -2.999999999999989,
+        -6.228430217267787,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6039568613058733,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.007056861305873352,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.10395686130587334,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.046043138694126684
+    },
+    {
+      "z_mm": -0.775,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.399541805923984,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.228430217267774,
+        1.9999999999999991,
+        6.5706533945801935,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6039568613058772,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.007056861305877238,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.10395686130587722,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.0460431386941228
+    },
+    {
+      "z_mm": -0.775,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.399541805923994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.228430217267795,
+        -2.999999999999989,
+        6.5706533945801935,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.6039568613058729,
+      "clearance_to_actual_1p1938mm_drill_mm": -0.007056861305872908,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.1039568613058729,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.04604313869412713
+    },
+    {
+      "z_mm": -0.75,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.385819180879059,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.556930769535263,
+        1.9999999999999991,
+        -6.214707592222855,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5967477488436862,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.00015225115631378738,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0967477488436862,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.05325225115631382
+    },
+    {
+      "z_mm": -0.75,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.385819180879064,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.556930769535263,
+        -2.999999999999989,
+        -6.214707592222864,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.596747748843689,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.00015225115631101183,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.09674774884368897,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.05325225115631105
+    },
+    {
+      "z_mm": -0.75,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.385819180879061,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.214707592222851,
+        1.9999999999999991,
+        6.5569307695352705,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5967477488436926,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.0001522511563073481,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.09674774884369264,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.053252251156307384
+    },
+    {
+      "z_mm": -0.75,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.385819180879071,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.214707592222871,
+        -2.999999999999989,
+        6.5569307695352705,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5967477488436881,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.0001522511563119,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.09674774884368809,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.053252251156311936
+    },
+    {
+      "z_mm": -0.725,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.372096555834136,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.54320814449034,
+        1.9999999999999991,
+        -6.2009849671779325,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5897698551620141,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.007130144837985908,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.08976985516201408,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.060230144837985944
+    },
+    {
+      "z_mm": -0.725,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.3720965558341405,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.54320814449034,
+        -2.999999999999989,
+        -6.200984967177941,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5897698551620163,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.007130144837983687,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0897698551620163,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.06023014483798372
+    },
+    {
+      "z_mm": -0.725,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.372096555834137,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.200984967177927,
+        1.9999999999999991,
+        6.543208144490348,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5897698551620203,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.0071301448379796906,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0897698551620203,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.06023014483797973
+    },
+    {
+      "z_mm": -0.725,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.372096555834148,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.200984967177948,
+        -2.999999999999989,
+        6.543208144490348,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5897698551620159,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.0071301448379841315,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.08976985516201585,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.06023014483798417
+    },
+    {
+      "z_mm": -0.7,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.358373930789213,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.529485519445417,
+        1.9999999999999991,
+        -6.187262342133009,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5830314822047652,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.013868517795234792,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0830314822047652,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.06696851779523483
+    },
+    {
+      "z_mm": -0.7,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.3583739307892175,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.529485519445417,
+        -2.999999999999989,
+        -6.187262342133018,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5830314822047677,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.013868517795232238,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.08303148220476775,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.06696851779523227
+    },
+    {
+      "z_mm": -0.7,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.358373930789213,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.187262342133003,
+        1.9999999999999991,
+        6.529485519445424,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5830314822047712,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.013868517795228796,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.08303148220477119,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.06696851779522883
+    },
+    {
+      "z_mm": -0.7,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.358373930789224,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.187262342133025,
+        -2.999999999999989,
+        6.529485519445424,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5830314822047673,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.013868517795232682,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0830314822047673,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.06696851779523272
+    },
+    {
+      "z_mm": -0.675,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.344651305744289,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.515762894400493,
+        1.9999999999999991,
+        -6.173539717088086,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5765410282904379,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.020358971709562135,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.07654102829043785,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.07345897170956217
+    },
+    {
+      "z_mm": -0.675,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.344651305744295,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.515762894400493,
+        -2.999999999999989,
+        -6.1735397170880955,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5765410282904398,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.020358971709560136,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.07654102829043985,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.07345897170956017
+    },
+    {
+      "z_mm": -0.675,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.344651305744291,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.17353971708808,
+        1.9999999999999991,
+        6.515762894400501,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5765410282904436,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.02035897170955636,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.07654102829044362,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.0734589717095564
+    },
+    {
+      "z_mm": -0.675,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.344651305744301,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.173539717088101,
+        -2.999999999999989,
+        6.515762894400501,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5765410282904395,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.02035897170956047,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.07654102829043952,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.0734589717095605
+    },
+    {
+      "z_mm": -0.65,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.330928680699366,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.50204026935557,
+        1.9999999999999991,
+        -6.159817092043163,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5703069579084167,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.026593042091583308,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.07030695790841668,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.07969304209158334
+    },
+    {
+      "z_mm": -0.65,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.330928680699371,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.50204026935557,
+        -2.999999999999989,
+        -6.159817092043172,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5703069579084186,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.02659304209158142,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.07030695790841857,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.07969304209158146
+    },
+    {
+      "z_mm": -0.65,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.330928680699367,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        6.159817092043157,
+        1.9999999999999991,
+        6.502040269355578,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5703069579084221,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.026593042091577868,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.07030695790842212,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.0796930420915779
+    },
+    {
+      "z_mm": -0.65,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.330928680699378,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.159817092043178,
+        -2.999999999999989,
+        6.502040269355578,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5703069579084182,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.026593042091581753,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.07030695790841823,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.07969304209158179
+    },
+    {
+      "z_mm": -0.625,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.317206055654443,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.488317644310646,
+        1.9999999999999991,
+        -6.14609446699824,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5643377676990583,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.032562232300941685,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0643377676990583,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.08566223230094172
+    },
+    {
+      "z_mm": -0.625,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.317206055654447,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.488317644310646,
+        -2.999999999999989,
+        -6.146094466998249,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5643377676990602,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.0325622323009398,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.06433776769906019,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.08566223230093983
+    },
+    {
+      "z_mm": -0.625,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.317206055654444,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.146094466998234,
+        1.9999999999999991,
+        6.488317644310655,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.564337767699064,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.03256223230093602,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.06433776769906396,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.08566223230093606
+    },
+    {
+      "z_mm": -0.625,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.317206055654454,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.146094466998254,
+        -2.999999999999989,
+        6.488317644310655,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5643377676990602,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.0325622323009398,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.06433776769906019,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.08566223230093983
+    },
+    {
+      "z_mm": -0.6,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.3034834306095195,
+        2.499999999999994
+      ],
+      "section_bbox_xy_mm": [
+        -6.474595019265722,
+        1.9999999999999991,
+        -6.132371841953317,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5586419486044774,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.03825805139552263,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.058641948604477356,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.09135805139552267
+    },
+    {
+      "z_mm": -0.6,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.303483430609524,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.474595019265722,
+        -2.999999999999989,
+        -6.132371841953326,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5586419486044788,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.038258051395521186,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0586419486044788,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.09135805139552122
+    },
+    {
+      "z_mm": -0.6,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.30348343060952,
+        2.4999999999999942
+      ],
+      "section_bbox_xy_mm": [
+        6.13237184195331,
+        1.9999999999999991,
+        6.474595019265731,
+        2.9999999999999893
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5586419486044825,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.03825805139551752,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.05864194860448246,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.09135805139551756
+    },
+    {
+      "z_mm": -0.6,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.30348343060953,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.13237184195333,
+        -2.999999999999989,
+        6.474595019265731,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5586419486044788,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.038258051395521186,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0586419486044788,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.09135805139552122
+    },
+    {
+      "z_mm": -0.575,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.290457051674638,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.460872394220799,
+        2.0000000000000013,
+        -6.120041709128477,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5532279442561678,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.04367205574383215,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.053227944256167836,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.09677205574383219
+    },
+    {
+      "z_mm": -0.575,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.290457051674638,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.460872394220799,
+        -2.999999999999989,
+        -6.120041709128477,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5532279442561696,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.043672055743830374,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.05322794425616961,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.09677205574383041
+    },
+    {
+      "z_mm": -0.575,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.290457051674643,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.120041709128477,
+        2.0000000000000013,
+        6.460872394220808,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5532279442561729,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.04367205574382704,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.05322794425617294,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.09677205574382708
+    },
+    {
+      "z_mm": -0.575,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.290457051674656,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.120041709128502,
+        -2.999999999999989,
+        6.460872394220808,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5532279442561696,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.043672055743830374,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.05322794425616961,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.09677205574383041
+    },
+    {
+      "z_mm": -0.55,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.279034423239835,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.4471497691758755,
+        2.0000000000000013,
+        -6.110919077303796,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5481041057567901,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.04879589424320985,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.04810410575679014,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.10189589424320988
+    },
+    {
+      "z_mm": -0.55,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.279034423239835,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.4471497691758755,
+        -2.999999999999989,
+        -6.110919077303796,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5481041057567919,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.04879589424320807,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.048104105756791915,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.10189589424320811
+    },
+    {
+      "z_mm": -0.55,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.279034423239841,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.110919077303796,
+        2.0000000000000013,
+        6.447149769175885,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5481041057567955,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.04879589424320452,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.04810410575679547,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.10189589424320455
+    },
+    {
+      "z_mm": -0.55,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.279034423239853,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.110919077303821,
+        -2.999999999999989,
+        6.447149769175885,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5481041057567922,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.04879589424320774,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.04810410575679225,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.10189589424320777
+    },
+    {
+      "z_mm": -0.525,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.269046787997841,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.4334271441309525,
+        2.0000000000000013,
+        -6.104666431864728,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5432786431153385,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.05362135688466152,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.043278643115338467,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.10672135688466156
+    },
+    {
+      "z_mm": -0.525,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.269046787997841,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.4334271441309525,
+        -2.999999999999989,
+        -6.104666431864728,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.54327864311534,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.053621356884659965,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.04327864311534002,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.10672135688466
+    },
+    {
+      "z_mm": -0.525,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.269046787997844,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.104666431864728,
+        2.0000000000000013,
+        6.433427144130961,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.543278643115343,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.05362135688465697,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.04327864311534302,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.106721356884657
+    },
+    {
+      "z_mm": -0.525,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.269046787997857,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.104666431864753,
+        -2.999999999999989,
+        6.433427144130961,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.54327864311534,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.053621356884659965,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.04327864311534002,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.10672135688466
+    },
+    {
+      "z_mm": -0.5,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.2609693152908825,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.420871215252194,
+        2.0000000000000013,
+        -6.101067415329571,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5391316723125783,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.05776832768742168,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0391316723125783,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11086832768742172
+    },
+    {
+      "z_mm": -0.5,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.260969315290895,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.42087121525222,
+        -2.999999999999989,
+        -6.101067415329571,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5391316723125783,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.05776832768742168,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0391316723125783,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11086832768742172
+    },
+    {
+      "z_mm": -0.5,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.260969315290897,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.101067415329571,
+        2.0000000000000013,
+        6.420871215252221,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5391316723125783,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.05776832768742168,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0391316723125783,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11086832768742172
+    },
+    {
+      "z_mm": -0.5,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.260969315290895,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.101067415329596,
+        -2.999999999999989,
+        6.420871215252194,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5391316723125783,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.05776832768742168,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0391316723125783,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11086832768742172
+    },
+    {
+      "z_mm": -0.475,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.255757599822866,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.411515199645747,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5362119062044972,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06068809379550277,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03621190620449721,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11378809379550281
+    },
+    {
+      "z_mm": -0.475,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.2557575998228785,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.411515199645772,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5362119062044972,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06068809379550277,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03621190620449721,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11378809379550281
+    },
+    {
+      "z_mm": -0.475,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.255757599822892,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.411515199645773,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5362119062044972,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06068809379550277,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03621190620449721,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11378809379550281
+    },
+    {
+      "z_mm": -0.475,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.2557575998228785,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.411515199645747,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5362119062044972,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06068809379550277,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03621190620449721,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11378809379550281
+    },
+    {
+      "z_mm": -0.45,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.252525512860824,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.405051025721663,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5342809970976302,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06261900290236977,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03428099709763022,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.1157190029023698
+    },
+    {
+      "z_mm": -0.45,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.252525512860837,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.405051025721689,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5342809970976302,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06261900290236977,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03428099709763022,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.1157190029023698
+    },
+    {
+      "z_mm": -0.45,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.252525512860849,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.405051025721689,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5342809970976302,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06261900290236977,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03428099709763022,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.1157190029023698
+    },
+    {
+      "z_mm": -0.45,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.252525512860837,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.405051025721663,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5342809970976302,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06261900290236977,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03428099709763022,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.1157190029023698
+    },
+    {
+      "z_mm": -0.425,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.250626570361654,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.401253140723324,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5331798220384687,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06372017796153129,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0331798220384687,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11682017796153132
+    },
+    {
+      "z_mm": -0.425,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.250626570361668,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.40125314072335,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5331798220384687,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06372017796153129,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0331798220384687,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11682017796153132
+    },
+    {
+      "z_mm": -0.425,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.25062657036168,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.40125314072335,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5331798220384687,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06372017796153129,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0331798220384687,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11682017796153132
+    },
+    {
+      "z_mm": -0.425,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250626570361668,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.401253140723324,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5331798220384687,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06372017796153129,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.0331798220384687,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11682017796153132
+    },
+    {
+      "z_mm": -0.4,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.4,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.4,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.4,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.375,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.375,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.375,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.375,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.35,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.35,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.35,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.35,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.325,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.325,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.325,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.325,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.3,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.3,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.3,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.3,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.275,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.275,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.275,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.275,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.25,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.25,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.25,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.25,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.225,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.225,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.225,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.225,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.2,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.2,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.2,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.2,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.175,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.175,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.175,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.175,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.15,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.15,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.15,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.15,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.125,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.125,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.125,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.125,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.1,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.1,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.1,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.1,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.085,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.085,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.085,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.085,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.075,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.075,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.075,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.075,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.05,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.05,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.05,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.05,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.025,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.025,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.025,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.025,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.001,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.001,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.001,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": -0.001,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": 0.0,
+      "pad": "1",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        2.0000000000000013,
+        -6.0999999999999845,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": 0.0,
+      "pad": "3",
+      "section_center_xy_mm": [
+        -6.249999999999994,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        -6.400000000000003,
+        -2.999999999999989,
+        -6.0999999999999845,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": 0.0,
+      "pad": "2",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        2.0000000000000013,
+        6.400000000000003,
+        2.999999999999989
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    },
+    {
+      "z_mm": 0.0,
+      "pad": "4",
+      "section_center_xy_mm": [
+        6.250000000000007,
+        -2.499999999999995
+      ],
+      "section_bbox_xy_mm": [
+        6.10000000000001,
+        -2.999999999999989,
+        6.400000000000003,
+        -2.0000000000000013
+      ],
+      "maximum_radius_from_actual_drill_axis_mm": 0.5328219214709448,
+      "clearance_to_actual_1p1938mm_drill_mm": 0.06407807852905523,
+      "clearance_to_hypothetical_1mm_drill_mm": -0.03282192147094476,
+      "clearance_to_manufacturer_1p3mm_drill_mm": 0.11717807852905526
+    }
+  ],
+  "worst_free_state_section": {
+    "z_mm": -1.6,
+    "pad": "1",
+    "section_center_xy_mm": [
+      -6.852297197926909,
+      2.4999999999999942
+    ],
+    "section_bbox_xy_mm": [
+      -7.023317552103577,
+      1.9999999999999991,
+      -6.68127684375024,
+      2.9999999999999893
+    ],
+    "maximum_radius_from_actual_drill_axis_mm": 0.9281238347107502,
+    "clearance_to_actual_1p1938mm_drill_mm": -0.33122383471075023,
+    "clearance_to_hypothetical_1mm_drill_mm": -0.4281238347107502,
+    "clearance_to_manufacturer_1p3mm_drill_mm": -0.2781238347107502
+  },
+  "minimum_straight_shoulder_clearance_mm": 0.06407807852905523,
+  "minimum_solder_tip_clearance_mm": 0.40305676436871213,
+  "free_state_kink_exceeds_actual_drill_radius_mm": 0.33122383471075023,
+  "interpretation": "Four nominal electricalterminal axes align closely with pads. Straight shoulders and narrow soldertips fit the actualdrill crosssection. The outward bowed/kinked portion is manufacturerfree-state retention geometry, not an installed compressedshape; it intersects the drilledvolume as a rigidrender. Elasticformation/assemblyforce/material/tolerance are unqualified. Actualdrill is smaller than the manufacturerrecommended1.3mm. No PCB/drill modification made."
+}

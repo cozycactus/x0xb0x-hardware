@@ -1,0 +1,2906 @@
+{
+  "passed": true,
+  "checks_passed": 233,
+  "checks": [
+    {
+      "check": "Final STEP hash matches manifest",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "STEP valid positive volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Three separate color-role solids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Complete union is one connected valid solid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Exact generic source head preserved under inverse translation",
+      "passed": true,
+      "detail": {
+        "new_minus_source_mm3": 0.0,
+        "source_minus_new_mm3": 0.0
+      }
+    },
+    {
+      "check": "Head volume unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Lower body at selected BOM6.096mm datum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Complete source body height8.6mm retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Lead0 full0.4squarewidth unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Lead0 fullheight continuous toPCB tail",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Lead0 axis preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Lead0 section atZ-2.499",
+      "passed": true,
+      "detail": {
+        "slab_volume_mm3": 0.00015999999999998242
+      }
+    },
+    {
+      "check": "Lead0 section atZ-1.6",
+      "passed": true,
+      "detail": {
+        "slab_volume_mm3": 0.0001599999999999824
+      }
+    },
+    {
+      "check": "Lead0 section atZ-0.8",
+      "passed": true,
+      "detail": {
+        "slab_volume_mm3": 0.00016000000000001202
+      }
+    },
+    {
+      "check": "Lead0 section atZ0",
+      "passed": true,
+      "detail": {
+        "slab_volume_mm3": 0.00015999999999998828
+      }
+    },
+    {
+      "check": "Lead0 section atZ0.8",
+      "passed": true,
+      "detail": {
+        "slab_volume_mm3": 0.0001600000000000357
+      }
+    },
+    {
+      "check": "Lead0 section atZ3",
+      "passed": true,
+      "detail": {
+        "slab_volume_mm3": 0.00015999999999993504
+      }
+    },
+    {
+      "check": "Lead0 section atZ5.9",
+      "passed": true,
+      "detail": {
+        "slab_volume_mm3": 0.00015999999999995873
+      }
+    },
+    {
+      "check": "Lead1 full0.4squarewidth unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Lead1 fullheight continuous toPCB tail",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Lead1 axis preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Lead1 section atZ-2.499",
+      "passed": true,
+      "detail": {
+        "slab_volume_mm3": 0.00015999999999998253
+      }
+    },
+    {
+      "check": "Lead1 section atZ-1.6",
+      "passed": true,
+      "detail": {
+        "slab_volume_mm3": 0.00015999999999998256
+      }
+    },
+    {
+      "check": "Lead1 section atZ-0.8",
+      "passed": true,
+      "detail": {
+        "slab_volume_mm3": 0.00016000000000001213
+      }
+    },
+    {
+      "check": "Lead1 section atZ0",
+      "passed": true,
+      "detail": {
+        "slab_volume_mm3": 0.0001599999999999884
+      }
+    },
+    {
+      "check": "Lead1 section atZ0.8",
+      "passed": true,
+      "detail": {
+        "slab_volume_mm3": 0.00016000000000003585
+      }
+    },
+    {
+      "check": "Lead1 section atZ3",
+      "passed": true,
+      "detail": {
+        "slab_volume_mm3": 0.00015999999999993518
+      }
+    },
+    {
+      "check": "Lead1 section atZ5.9",
+      "passed": true,
+      "detail": {
+        "slab_volume_mm3": 0.00015999999999995887
+      }
+    },
+    {
+      "check": "Complete STL closed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ClearLensBody STL closed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "CathodeFullWidthLead STL closed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "AnodeFullWidthLead STL closed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED1 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED1.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED1.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED1.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED1.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED2 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED2.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED2.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED2.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED2.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED3 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED3.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED3.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED3.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED3.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED4 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED4.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED4.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED4.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED4.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED5 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED5.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED5.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED5.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED5.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED6 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED6.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED6.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED6.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED6.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED7 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED7.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED7.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED7.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED7.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED8 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED8.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED8.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED8.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED8.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED9 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED9.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED9.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED9.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED9.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED10 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED10.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED10.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED10.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED10.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED11 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED11.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED11.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED11.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED11.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED12 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED12.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED12.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED12.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED12.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED13 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED13.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED13.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED13.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED13.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED14 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED14.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED14.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED14.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED14.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED15 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED15.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED15.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED15.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED15.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED16 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED16.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED16.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED16.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED16.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED17 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED17.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED17.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED17.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED17.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED18 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED18.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED18.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED18.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED18.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED19 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED19.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED19.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED19.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED19.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED20 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED20.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED20.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED20.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED20.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED21 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED21.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED21.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED21.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED21.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED22 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED22.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED22.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED22.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED22.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED23 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED23.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED23.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED23.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED23.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED24 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED24.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED24.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED24.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED24.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED25 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED25.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED25.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED25.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED25.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED26 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED26.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED26.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED26.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED26.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED27 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED27.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED27.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED27.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED27.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED28 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED28.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED28.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED28.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED28.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED29 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED29.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED29.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED29.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED29.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED30 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED30.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED30.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED30.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED30.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED31 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED31.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED31.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED31.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED31.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED32 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED32.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED32.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED32.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED32.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED33 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED33.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED33.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED33.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED33.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED34 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED34.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED34.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED34.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED34.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED35 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED35.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED35.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED35.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED35.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED36 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED36.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED36.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED36.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED36.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED37 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED37.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED37.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED37.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED37.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED38 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED38.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED38.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED38.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED38.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED39 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED39.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED39.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED39.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED39.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED40 native model transforms retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED40.K polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED40.K unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "LED40.A polarity/axis matches originalpad",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "LED40.A unthinned square lead fits nominal actual drill",
+      "passed": true,
+      "detail": {
+        "drill_mm": 1.0,
+        "corner_radius_mm": 0.28284271247461906,
+        "radial_margin_mm": 0.21715728752538094
+      }
+    },
+    {
+      "check": "All40LED refs and80originalpad holes checked",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "pad_checks": [
+    {
+      "reference": "LED1",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED1",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED2",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED2",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED3",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED3",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED4",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED4",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED5",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED5",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED6",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED6",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED7",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED7",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED8",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED8",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED9",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED9",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED10",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED10",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED11",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED11",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED12",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED12",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED13",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED13",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED14",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED14",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED15",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED15",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED16",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED16",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED17",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED17",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED18",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED18",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED19",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED19",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED20",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED20",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED21",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED21",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED22",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED22",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED23",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED23",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED24",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED24",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED25",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED25",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED26",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED26",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED27",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED27",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED28",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED28",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED29",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED29",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED30",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED30",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED31",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED31",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED32",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED32",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED33",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED33",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED34",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED34",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED35",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED35",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED36",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED36",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED37",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED37",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED38",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED38",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED39",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED39",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED40",
+      "pin": "K",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 0,
+      "mapped_footprint_axis_mm": [
+        1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    },
+    {
+      "reference": "LED40",
+      "pin": "A",
+      "layer": "B.Cu",
+      "source_lead_axis_X_mm": 2.54,
+      "mapped_footprint_axis_mm": [
+        -1.27,
+        0
+      ],
+      "actual_footprint_pad_axis_mm": [
+        -1.27,
+        0.0
+      ],
+      "axis_residual_mm": 0.0,
+      "original_drill_mm": 1.0,
+      "nominal_square_lead_corner_margin_mm": 0.21715728752538094
+    }
+  ],
+  "source_head_symmetry_mm3": [
+    0.0,
+    0.0
+  ],
+  "board_input": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/input-snapshot/mainboard/mainboard.kicad_pcb",
+  "board_input_sha256": "a8b792afcb7d012740086c92916c7f05fa964142da6353c1a2298e6c9374e66e",
+  "geometry_step_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+  "source_conflict": {
+    "selected_BOM_STD240B_height_mm": 6.096,
+    "sequencer_table_alternative_mm": 5.588,
+    "source_height_choice_is_measured_fit": false
+  },
+  "limits": [
+    "The complete official generic KiCad LED body above its Z3mm lower-flange plane is preserved by a rigid +3.096mm translation. Exact original fitted LED manufacturer and package tolerances are unknown.",
+    "The selected 6.096mm lower-body height follows the original BOM VCC STD240B 0.24in. The original sequencer table instead says0.22in/5.588mm; that conflict is preserved, not silently resolved as a measured installed height.",
+    "Full stock 0.4x0.4mm lead cross-sections at sourceX0 andX2.54mm are retained and extended continuously from trimmedZ-2.5mm to the new body undersideZ6.096mm. Lead material, cut length and exact fitted original lead specification remain generic illustration data.",
+    "Existing native model offset[1.27,0,0] and rotation[0,0,180] with unity scale are preserved for all40LED references; original footprint axes, polarity, pad and drill geometry are unchanged.",
+    "Clear/unlit lens appearance follows original author PCB/panel photos. STEP light-gray color is an appearance role, not an optical simulation; Blender transmission/refraction settings are presentation choices.",
+    "Spacer height is represented by body seating. No black spacer shape is added because an exact primary outline was not recovered in the bounded search. This avoids inventing unverified outer profile or lead holes.",
+    "Current scene panel seat yields a nominal1.300mm lens-tip projection above the top panel; alternative0.22in spacing yields0.792mm. Native exported assembly measurements must independently confirm this after integration.",
+    "No lead thinning, scaled body, moved PCB footprint, altered panel hole or fitted tolerance/physical assembly claim is made."
+  ]
+}

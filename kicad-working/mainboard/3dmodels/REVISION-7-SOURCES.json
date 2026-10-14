@@ -1,0 +1,324 @@
+{
+  "updates": [
+    {
+      "board": "mainboard",
+      "references": [
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "footprint": "B3F-40XX",
+      "source_sha256": "d6876b2e5f3fb2d25ff6071936dfe32e81bfda5252abe706dda4845fa081a348",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Color-only AP214 face appearance on unchanged original body illustration",
+      "classification": "original-BOM nominal body illustration",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1100F160Q.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/ESwitch_TL1100F160Q_BodyIllustration_Colors.step",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "Cover uses the printed 0.50 mm maximum thickness. The 1.10 mm actuator-base height is an illustrative link between the printed lid and actuator-head levels.",
+        "The drawing preserves 7.30 mm total actuator height; cap color and installed cap seating remain separate assembly choices.",
+        "Colors are presentation suggestions from the original illustration manifest; exact historical resin or finish is not established.",
+        "STEP diffuse color does not encode the Blender metallic/roughness suggestions. Mixed-material housing envelopes retain their existing unsplit geometry."
+      ],
+      "replaces_source_sha256": "575df18465dffed5804b95c02adf9c4dd136ad7ad7bfa60d37911665c2d9c060",
+      "color_only": true,
+      "local_model": "Revision7/control-colors/ESwitch_TL1100F160Q_BodyIllustration_Colors.step",
+      "review_manifest": "control-colors/control-color-manifest.json",
+      "previous_source_sha256": "575df18465dffed5804b95c02adf9c4dd136ad7ad7bfa60d37911665c2d9c060",
+      "previous_local_model": "Revision6/control-body-illustrations/ESwitch_TL1100F160Q_BodyIllustration.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ],
+      "footprint": "EVU",
+      "source_sha256": "1dd40c49ccabcb25023c3cf2e0859ceedfc062b3583fe4f099f35c73239ab42a",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Color-only AP214 face appearance on unchanged original body illustration",
+      "classification": "original-BOM nominal body illustration",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/Panasonic_EVUF2LFL3_BodyIllustration_Colors.step",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "The canonical terminal side is negative Y, matching the original F.Cu library after Cartesian Y inversion.",
+        "Shaft flat is a nominal illustration; current rotation and historical assembly trim are unspecified. Shaft tip Z=30.0 mm follows the full FL3 drawing and is not shortened to fit the panel.",
+        "Colors are presentation suggestions from the original illustration manifest; exact historical resin or finish is not established.",
+        "STEP diffuse color does not encode the Blender metallic/roughness suggestions. Mixed-material housing envelopes retain their existing unsplit geometry."
+      ],
+      "replaces_source_sha256": "e0bc61ce82e62b7afda32545553915b5c375759a3ab95ce1c1ae4055721cbaf6",
+      "color_only": true,
+      "local_model": "Revision7/control-colors/Panasonic_EVUF2LFL3_BodyIllustration_Colors.step",
+      "review_manifest": "control-colors/control-color-manifest.json",
+      "previous_source_sha256": "e0bc61ce82e62b7afda32545553915b5c375759a3ab95ce1c1ae4055721cbaf6",
+      "previous_local_model": "Revision6/control-body-illustrations/Panasonic_EVUF2LFL3_BodyIllustration.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "footprint": "ALPHADUAL",
+      "source_sha256": "732aaa2de27c49de746d0df4b8188882270bc78704570b4d146cccd1a899a170",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Color-only AP214 face appearance on unchanged original body illustration",
+      "classification": "original-BOM nominal body illustration",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://static.chipdip.ru/lib/521/DOC013521571.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/Alpha_RV112BCF40_25_BodyIllustration_Colors.step",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "Housing is the complete rectangular 13.6 by 15.4 mm published envelope, including the output-board/flange extent; detailed molding steps are not reconstructed.",
+        "Original BOM uses historical 25F shaft suffix. Current drawing calls the 25 mm flatted option 25A; the 7 mm flat detail is explicitly a current-family nominal illustration, not verified historical 25F CAD.",
+        "Unlike Panasonic, Alpha L=25 mm is measured from housing rear. Model shaft tip is Z=25 mm.",
+        "Colors are presentation suggestions from the original illustration manifest; exact historical resin or finish is not established.",
+        "STEP diffuse color does not encode the Blender metallic/roughness suggestions. Mixed-material housing envelopes retain their existing unsplit geometry."
+      ],
+      "replaces_source_sha256": "2ec819805e6f82307a681066c92d46b17b34cdfcc5daa4c6362c4c1be6103adc",
+      "color_only": true,
+      "local_model": "Revision7/control-colors/Alpha_RV112BCF40_25_BodyIllustration_Colors.step",
+      "review_manifest": "control-colors/control-color-manifest.json",
+      "previous_source_sha256": "2ec819805e6f82307a681066c92d46b17b34cdfcc5daa4c6362c4c1be6103adc",
+      "previous_local_model": "Revision6/control-body-illustrations/Alpha_RV112BCF40_25_BodyIllustration.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "S2"
+      ],
+      "footprint": "PEC11-S",
+      "source_sha256": "b4b77d4a249fdf39653b3b4bfad7537b60570e70e66886385239a742ea38c1d3",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Color-only AP214 face appearance on unchanged original body illustration",
+      "classification": "original-BOM nominal body illustration",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.ctscorp.com/Files/DataSheets/Encoders/encoders-290-datasheet.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/CTS_290VAA5F201B2_BodyIllustration_Colors.step",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "The original footprint is named PEC11-S, but the original BOM identifies CTS290VAA5F201B2. This illustration follows CTS dimensions, without substituting Bourns PEC11.",
+        "Preserved manufacturer STEP290VBC0F201B2 has different bushing and shaft options and is not used to create this model.",
+        "The housing-only illustration does not transfer the previous wrong-variant mounting-tab fit result to the illustrated original variant.",
+        "Colors are presentation suggestions from the original illustration manifest; exact historical resin or finish is not established.",
+        "STEP diffuse color does not encode the Blender metallic/roughness suggestions. Mixed-material housing envelopes retain their existing unsplit geometry."
+      ],
+      "replaces_source_sha256": "90f6ff9576977d79187ba3b2f1afd90193bd1ddd128899629763d44920956709",
+      "color_only": true,
+      "local_model": "Revision7/control-colors/CTS_290VAA5F201B2_BodyIllustration_Colors.step",
+      "review_manifest": "control-colors/control-color-manifest.json",
+      "previous_source_sha256": "90f6ff9576977d79187ba3b2f1afd90193bd1ddd128899629763d44920956709",
+      "previous_local_model": "Revision6/control-body-illustrations/CTS_290VAA5F201B2_BodyIllustration.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "S1"
+      ],
+      "footprint": "NKKTOGGLE",
+      "source_sha256": "c3d98d35d7629316ddbc0090ef7d06b1da1d83a094d5890f1e08472b8632567f",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Color-only AP214 face appearance on unchanged original body illustration",
+      "classification": "original-BOM nominal body illustration",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.nkkswitches.eu/pdf/toggle_B.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/NKK_B12AB_BodyIllustration_Colors.step",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "The bracketed housing uses its complete rectangular envelope; bracket windows, folds and separate polymer-case molding are not reconstructed.",
+        "Lever is shown in a neutral reference pose to preserve its full 10 mm length. B12AB is ON-NONE-ON, so an installed lever should be posed to either end of the printed total26 degree throw. No switch-state claim is made.",
+        "Source terminal-row offset is nominal1.0 mm; original library is1.016 mm. The body axis uses the original library origin, without inventing an offset to force terminal fit.",
+        "Colors are presentation suggestions from the original illustration manifest; exact historical resin or finish is not established.",
+        "STEP diffuse color does not encode the Blender metallic/roughness suggestions. Mixed-material housing envelopes retain their existing unsplit geometry."
+      ],
+      "replaces_source_sha256": "d78fff34332c1d5ce83540f6e325317dbf10c6df685244215055bb1ec277f4a4",
+      "color_only": true,
+      "local_model": "Revision7/control-colors/NKK_B12AB_BodyIllustration_Colors.step",
+      "review_manifest": "control-colors/control-color-manifest.json",
+      "previous_source_sha256": "d78fff34332c1d5ce83540f6e325317dbf10c6df685244215055bb1ec277f4a4",
+      "previous_local_model": "Revision6/control-body-illustrations/NKK_B12AB_BodyIllustration.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "footprint": "GH3074",
+      "source_sha256": "017b1f29db1ea3b27a827fa7c5ef35a65a989c8d9d0e144a13084a090bb07fcd",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Color-only AP214 face appearance on unchanged original body illustration",
+      "classification": "original-BOM nominal body illustration",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://grayhill.com/wp-content/uploads/media/25l-datasheet.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/Grayhill_25LB22H_BodyIllustration_Colors.step",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "Full housing rectangular envelope retains the output-board tongue on canonical negative Y. Native B.Cu side flip remains a placement operation.",
+        "Bushing represents the source3/8-32 major-diameter double-D envelope; helical thread and mounting nut are omitted.",
+        "No optional bracket is added to original25LB22-H. This is the same corrected original-F.Cu orientation independently audited in grayhill-world-orientation-audit.json.",
+        "Colors are presentation suggestions from the original illustration manifest; exact historical resin or finish is not established.",
+        "STEP diffuse color does not encode the Blender metallic/roughness suggestions. Mixed-material housing envelopes retain their existing unsplit geometry."
+      ],
+      "replaces_source_sha256": "8247a603780d6111e8b8ba78e3739e57a487f68d0394bd40645c6f68b4c71ef4",
+      "color_only": true,
+      "local_model": "Revision7/control-colors/Grayhill_25LB22H_BodyIllustration_Colors.step",
+      "review_manifest": "control-colors/control-color-manifest.json",
+      "previous_source_sha256": "8247a603780d6111e8b8ba78e3739e57a487f68d0394bd40645c6f68b4c71ef4",
+      "previous_local_model": "Revision6/control-body-illustrations/Grayhill_25LB22H_BodyIllustration.step"
+    }
+  ]
+}

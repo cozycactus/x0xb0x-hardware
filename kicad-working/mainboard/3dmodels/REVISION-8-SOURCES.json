@@ -1,0 +1,240 @@
+{
+  "updates": [
+    {
+      "board": "mainboard",
+      "references": [
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "footprint": "B3F-40XX",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState.step",
+      "source_sha256": "680228325b4efa78f35174d54935fff4315874657fadddc9357cae1aedb37b8f",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "PublisherCAD with localizedhiddenvalidityrepair andrigidcanonicalorigin translation",
+      "classification": "Manufacturer nominal/free-state familyCAD; locally repaired; installedterminalfit unqualified",
+      "limitations": [
+        "Publisher TL1100Fxxxx familyCAD aligns to publishedTL1100F160Q7.3mmactuator height; force/plating options and exacthistoricmold revision are not established.",
+        "The originalpublisherCAD has one invalidzeroarea internalcylindricalface. A localizedinternalunion repair adds0.035684mm3 while preservingexactexternalbounds; repairedsourceisvalid. Sourcefile remains byteunchanged.",
+        "Housing/cover/actuator/terminalfacecolors are inferredpresentation roles; originalpublisherSTEP is singlegrey. Geometry is not resized tofit.",
+        "Manufacturerrecommendeddrill1.30mm differs from originalB3F-40XX1.1938mmdrill; existingPCBgeometryis unchanged.",
+        "Nominalterminalaxes residual0.010918mm; straightterminalshoulders/tips fit sampledactualdrillsections, butfree-state retentionkinks exceedthehole. Thefullvariantis nominalfree-stateCAD, not deformedinstalledpins orfitqualification.",
+        "Elasticcompression, materialstress, insertionforce, tolerances, capsocket and fullassemblyfit are unqualified."
+      ],
+      "source_urls": [
+        "https://configured-product-images.s3.amazonaws.com/stp3dmodels/TL1100Fxxxx.stp",
+        "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1100F160Q.pdf"
+      ],
+      "replaces_source_sha256": "d6876b2e5f3fb2d25ff6071936dfe32e81bfda5252abe706dda4845fa081a348",
+      "replaces_source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/ESwitch_TL1100F160Q_BodyIllustration_Colors.step",
+      "local_model": "Revision8/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState.step",
+      "review_manifest": "control-quality/control-quality-manifest.json",
+      "previous_source_sha256": "d6876b2e5f3fb2d25ff6071936dfe32e81bfda5252abe706dda4845fa081a348",
+      "previous_local_model": "Revision7/control-colors/ESwitch_TL1100F160Q_BodyIllustration_Colors.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "S2"
+      ],
+      "footprint": "PEC11-S",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate.step",
+      "source_sha256": "7466fde9d58888b5b1986111f5a9556ca272d17d02c4d40b80775104eb1f0272",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Detailed source-grounded body-only candidate; per-feature evidence qualified",
+      "classification": "Detailed source-grounded body-only visualization candidate; physical fit unqualified",
+      "limitations": [
+        "This is a derived original-BOM visualization, not exact manufacturer290VAA5F201B2 CAD. Housing subset comes from290VBC0F201B2; equivalence of every small historical molding detail remains unverified.",
+        "The source family CAD includes a molding/terminal-guard overhang outside the nominal9.8x10.6mm metal can; it is preserved as source geometry, not mistaken for a published metal-can size.",
+        "Original shaft, threaded bushing and all source electrical-terminal solids are discarded. All below-seat mounting legs are omitted; previous incompatible tab/hole fit is not transferred to this candidate.",
+        "Bushing/shaft chamfers are illustration details. No pin fit, installed seating or enclosure clearance certification."
+      ],
+      "source_urls": [
+        "https://www.ctscorp.com/Files/CAD/Encoders/CTS-Encoders-290-CAD-Files.zip",
+        "https://www.ctscorp.com/Files/DataSheets/Encoders/encoders-290-datasheet.pdf"
+      ],
+      "license": "CTS manufacturer geometry rights retained for shared housing derivative; original new bushing/shaft parameterization CC0-1.0.",
+      "local_model": "Revision8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate.step",
+      "review_manifest": "rotary-quality/rotary-quality-manifest.json",
+      "previous_source_sha256": "b4b77d4a249fdf39653b3b4bfad7537b60570e70e66886385239a742ea38c1d3",
+      "previous_local_model": "Revision7/control-colors/CTS_290VAA5F201B2_BodyIllustration_Colors.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "S1"
+      ],
+      "footprint": "NKKTOGGLE",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/NKK_B12AB_DetailedCandidate.step",
+      "source_sha256": "d6fcc8f1de47e51094c5d8cf7874d7e273f42dccbadcc1caea180e1526c4730b",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Detailed source-grounded body-only candidate; per-feature evidence qualified",
+      "classification": "Detailed source-grounded body-only visualization candidate; physical fit unqualified",
+      "limitations": [
+        "Exact officialB12AB CAD configuration and preview were inspected, but DownloadCAD requires login. This is own source-grounded parameterization, not a recovered manufacturerSTEP.",
+        "Bracket window sizes, molding radii, local steps and collar recess are unsized visual interpretations within the unchanged published envelope.",
+        "Lever remains upright in a neutral inspection pose. B12AB is ON-NONE-ON and an installed lever would occupy either\u00b113degree endpoint; no switch state is claimed.",
+        "Body rear atZ0 is the existing mounting assumption. Historical seat, terminals and full mechanical fit remain unqualified."
+      ],
+      "source_urls": [
+        "https://www.nkkswitches.eu/pdf/toggle_B.pdf",
+        "https://www.nkkswitches.com/wp-content/themes/impress-blank/search/inc/part.php?part_no=B12AB",
+        "https://nkkswitches-embedded.partcommunity.com/3d-cad-models/?info=nkkswitches%2Ftoggle%2Fb%2Fb_asmtab.prj"
+      ],
+      "license": "CC0-1.0 for own parametric candidate; manufacturer sources and preview retain their rights.",
+      "local_model": "Revision8/rotary-quality/NKK_B12AB_DetailedCandidate.step",
+      "review_manifest": "rotary-quality/rotary-quality-manifest.json",
+      "previous_source_sha256": "c3d98d35d7629316ddbc0090ef7d06b1da1d83a094d5890f1e08472b8632567f",
+      "previous_local_model": "Revision7/control-colors/NKK_B12AB_BodyIllustration_Colors.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "footprint": "GH3074",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rotary-quality/Grayhill_25LB22H_DetailedCandidate.step",
+      "source_sha256": "2ae9410a3016bfd0deeb90c390fe4daefdb832912fa829bcb318a879e34e5caf",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Detailed source-grounded body-only candidate; per-feature evidence qualified",
+      "classification": "Detailed source-grounded body-only visualization candidate; physical fit unqualified",
+      "limitations": [
+        "Official exact-part page says3D Model Available No; this is own source-grounded reconstruction, not manufacturerCAD.",
+        "Published21.97mm body and25.91mm output-board depth retained;23.50mm is associated with optional bracket outline and is not used as an oversized solid for no-Z part.",
+        "Corner radii, front-case step divisions, lock-ear details and thread root/flank profile and nonhelical ring representation are unprinted visual approximations. The full nominal exterior datums are unchanged.",
+        "Current photo shows a light reinforced-thermoplastic shaft; exact historical shaft finish is unverified.",
+        "Tongue lands are visual indications only. All terminals and optional mounting legs omitted; no physical fit or contact clearance certification."
+      ],
+      "source_urls": [
+        "https://grayhill.com/wp-content/uploads/media/25l-datasheet.pdf",
+        "https://grayhill.com/products/rotational-controls/mechanical-encoders/mechanical-encoder/25l/25lb22-h/",
+        "https://grayhill.com/wp-content/uploads/media/25l-mechanical-encoder-01.jpg"
+      ],
+      "license": "CC0-1.0 for own parametric candidate; manufacturer sources/photo retain their rights.",
+      "local_model": "Revision8/rotary-quality/Grayhill_25LB22H_DetailedCandidate.step",
+      "review_manifest": "rotary-quality/rotary-quality-manifest.json",
+      "previous_source_sha256": "017b1f29db1ea3b27a827fa7c5ef35a65a989c8d9d0e144a13084a090bb07fcd",
+      "previous_local_model": "Revision7/control-colors/Grayhill_25LB22H_BodyIllustration_Colors.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "TM3",
+        "TM4",
+        "TM5"
+      ],
+      "footprint": "306",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/misc-quality/CT6EP_DatasheetDetailed.step",
+      "source_sha256": "21b0eceff6097b791b5c1174b74a85826ec8da8e5674869bf5a034b657d6df45",
+      "source_kind": "Original CC0 parametric reconstruction from manufacturer CT6EP drawing",
+      "classification": "Detailed datasheet-derived CT6EP family model with nominal untrimmed leads",
+      "limitations": [
+        "Manufacturer CT6EP drawing supplies7x7x5.8mm envelope,0.6x2.6x1.6mm crossslot,0.45mm leads,5x2.5mm lead grid and7+/-2mm untrimmed length. Current Nidec/Copal family is not proven identical to original Vishay-supplied historical stock.",
+        "Housing radii, seam/lug positions, label-panel relief and rotor/tooth dimensions are interpreted from the unsized outline; not factory CAD. Resistance and production date are not invented.",
+        "The canonical origin and native assignment transform are unchanged. Body seated atZ0 is an installed-height assumption. Leads are manufacturer nominal untrimmed length; actual soldered trim length is unknown.",
+        "Nominal lead grid differs from original board5.08x2.54 by0.04mm peraxis. Nominal drill1.0mm minus lead0.45mm permits this nominal centre mismatch; tolerance and real formed-lead seating are not qualified.",
+        "No part body was reduced or moved to fit the case. This visual model is not physical assembly or fabrication qualification."
+      ],
+      "source_urls": [
+        "https://www.nidec-components.com/e/catalog/trimmer/ct-6.pdf",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "local_model": "Revision8/misc-quality/CT6EP_DatasheetDetailed.step",
+      "review_manifest": "misc-quality/misc-quality-manifest.json",
+      "previous_source_sha256": "4e804dd88e09680a8147bb4a013c877e9011c7bb70c5fd7d114618000e3eef1e",
+      "previous_local_model": "Revision6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step"
+    }
+  ]
+}

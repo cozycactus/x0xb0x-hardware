@@ -1,0 +1,132 @@
+(footprint "0207_2V"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.0508 -1.016 0)
+		(layer "F.SilkS")
+		(uuid "30efc201-902e-4df6-ab01-5032678cb8a9")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "0207_2V"
+		(at -0.0508 2.2352 0)
+		(layer "F.Fab")
+		(uuid "520e691a-991e-4104-bfd1-e80087a85c42")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70206b67-9cee-46a9-9dab-e01d7a200532")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58203c14-da6d-4595-ad24-2a91d9f861f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.254 0)
+		(end 0.254 0)
+		(stroke
+			(width 0.6096)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "063e6cf6-b1ca-4329-ad57-b9e71ec46b57")
+	)
+	(fp_circle
+		(center -1.27 0)
+		(end 0 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9d55699b-d048-4262-8d75-2fc186da24cd")
+	)
+	(fp_line
+		(start -1.27 0)
+		(end -0.381 0)
+		(stroke
+			(width 0.6096)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b62b63dc-3608-41ce-a1bb-6662e2150827")
+	)
+	(fp_line
+		(start 0.381 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.6096)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "32c5fca2-7088-459f-a37e-b77a3e4a858d")
+	)
+	(fp_circle
+		(center -1.27 0)
+		(end -0.254 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2dc24629-61d6-4ec2-812c-6841eea906ff")
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 0)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "5ac21e17-e1ef-40b6-bf49-9e4368c2b03a")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.778 1.778)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "ca9dfa6d-f5c2-453c-848a-2023e4fb2cfb")
+	)
+	(embedded_fonts no)
+
+	(model "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical.step"
+			(offset (xyz -1.27 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+)

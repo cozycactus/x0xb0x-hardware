@@ -1,0 +1,1930 @@
+{
+  "artifact": "Editable approximate text layout from original Ladyada panel photograph",
+  "source_photo_url": "https://www.flickr.com/photos/ladyada/388576688",
+  "source_photo_sha256": "bc0f1d466cead6971cdcff884b41b282cea4d193691b1c309888be730bc7272e",
+  "source_photograph_license": "All rights reserved; photograph is reference only and is not embedded or traced as a texture.",
+  "vector_derivation": "Original short functional text transcribed; new editable text placements and generic presentation font. No original glyph outlines or silkscreen vector file recovered.",
+  "units": "mm",
+  "frame": "Original DXF local panelXY: lower-left0,0;Xright;Yup",
+  "calibration": {
+    "method": "4-corner planar homography; manually read flat-sheet corners",
+    "source_metric_corners_mm": [
+      [
+        0.0,
+        163.2712
+      ],
+      [
+        232.41,
+        163.2712
+      ],
+      [
+        232.41,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "photo_corners_px": [
+      [
+        299.0,
+        133.0
+      ],
+      [
+        1315.0,
+        207.0
+      ],
+      [
+        1280.0,
+        934.0
+      ],
+      [
+        216.0,
+        846.0
+      ]
+    ],
+    "panel_to_photo_homography": [
+      [
+        4.498820005502629,
+        0.5957834872108636,
+        216.0
+      ],
+      [
+        0.32077970869523625,
+        -4.3280784910343595,
+        846.0
+      ],
+      [
+        -6.19501988711155e-05,
+        0.0002923974544677864,
+        1.0
+      ]
+    ],
+    "independent_screw_checks": [
+      {
+        "reference": "U$23",
+        "photo_anchor_px": [
+          326,
+          173
+        ],
+        "predicted_photo_px": [
+          324.81161064142685,
+          170.03069741518135
+        ],
+        "error_pixels": 3.1982850260382687,
+        "metric_error_mm": 0.7667776138635071
+      },
+      {
+        "reference": "U$24",
+        "photo_anchor_px": [
+          1286,
+          241
+        ],
+        "predicted_photo_px": [
+          1282.608586970141,
+          240.25304531360027
+        ],
+        "error_pixels": 3.4726968832064644,
+        "metric_error_mm": 0.7782514729226165
+      },
+      {
+        "reference": "U$2",
+        "photo_anchor_px": [
+          252,
+          808
+        ],
+        "predicted_photo_px": [
+          251.67231353515237,
+          809.3734339172947
+        ],
+        "error_pixels": 1.4119841162066564,
+        "metric_error_mm": 0.30689967416079034
+      },
+      {
+        "reference": "U$25",
+        "photo_anchor_px": [
+          1254,
+          894
+        ],
+        "predicted_photo_px": [
+          1249.9278453081697,
+          891.393764370678
+        ],
+        "error_pixels": 4.834760385969798,
+        "metric_error_mm": 1.0269748244236538
+      },
+      {
+        "reference": "U$27",
+        "photo_anchor_px": [
+          750,
+          854
+        ],
+        "predicted_photo_px": [
+          747.4046044539099,
+          850.1046144852122
+        ],
+        "error_pixels": 4.680823255527061,
+        "metric_error_mm": 1.0171296279236042
+      }
+    ],
+    "independent_max_error_mm": 1.0269748244236538,
+    "position_uncertainty_mm": 1.5,
+    "note": "Approximate photographic registration, not manufacturing artwork; lens distortion and manual corner/text readings are uncorrected."
+  },
+  "omit_presentation_additions": [
+    "x0xb0x title",
+    "SYNTHESIZER / SEQUENCER subtitle",
+    "WAVEFORM generic label",
+    "BANK generic label",
+    "MODE generic label"
+  ],
+  "cap_color_map": {
+    "white": [
+      "S17",
+      "S18",
+      "S19",
+      "S20",
+      "S21",
+      "S22",
+      "S23",
+      "S24"
+    ],
+    "black": [
+      "S5",
+      "S6",
+      "S7",
+      "S8",
+      "S9",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16",
+      "S25",
+      "S26",
+      "S27"
+    ]
+  },
+  "labels": [
+    {
+      "id": "S1-SAW",
+      "text": "SAW",
+      "anchor_mm": [
+        20.9259,
+        149.5704
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.2,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S1",
+      "manual_photo_anchor_px": [
+        383,
+        197
+      ]
+    },
+    {
+      "id": "S1-SQR",
+      "text": "SQR",
+      "anchor_mm": [
+        20.7904,
+        137.9511
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.2,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S1",
+      "manual_photo_anchor_px": [
+        377,
+        246
+      ]
+    },
+    {
+      "id": "S2-TEMPO",
+      "text": "TEMPO",
+      "anchor_mm": [
+        20.1599,
+        97.2821
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.2,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S2",
+      "manual_photo_anchor_px": [
+        355,
+        420
+      ]
+    },
+    {
+      "id": "VR2-TUNE",
+      "text": "TUNE",
+      "anchor_mm": [
+        54.4796,
+        133.4626
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.2,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "VR2",
+      "manual_photo_anchor_px": [
+        522,
+        276
+      ]
+    },
+    {
+      "id": "VR3-CUTOFF",
+      "text": "CUTOFF",
+      "anchor_mm": [
+        85.9557,
+        133.5302
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.2,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "VR3",
+      "manual_photo_anchor_px": [
+        660,
+        286
+      ]
+    },
+    {
+      "id": "VR4-RESONANCE",
+      "text": "RESONANCE",
+      "anchor_mm": [
+        116.8823,
+        133.3306
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.2,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "VR4",
+      "manual_photo_anchor_px": [
+        796,
+        297
+      ]
+    },
+    {
+      "id": "VR5-ENV-MOD",
+      "text": "ENV MOD",
+      "anchor_mm": [
+        148.8148,
+        133.2182
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.2,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "VR5",
+      "manual_photo_anchor_px": [
+        937,
+        308
+      ]
+    },
+    {
+      "id": "VR6-DECAY",
+      "text": "DECAY",
+      "anchor_mm": [
+        178.3968,
+        132.7023
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.2,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "VR6",
+      "manual_photo_anchor_px": [
+        1068,
+        320
+      ]
+    },
+    {
+      "id": "VR7-ACCENT",
+      "text": "ACCENT",
+      "anchor_mm": [
+        208.7463,
+        132.4882
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.2,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "VR7",
+      "manual_photo_anchor_px": [
+        1203,
+        331
+      ]
+    },
+    {
+      "id": "VR8-VOLUME",
+      "text": "VOLUME",
+      "anchor_mm": [
+        212.847,
+        97.241
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.2,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "VR8",
+      "manual_photo_anchor_px": [
+        1213,
+        486
+      ]
+    },
+    {
+      "id": "S3-position-1",
+      "text": "1",
+      "anchor_mm": [
+        60.325,
+        123.758
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Label occluded in source photo; inferred from visible sequence and16-position selector",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-2",
+      "text": "2",
+      "anchor_mm": [
+        66.1801,
+        122.5934
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Visible numeric sequence; regular16-position ring is an approximate layout",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-3",
+      "text": "3",
+      "anchor_mm": [
+        71.1437,
+        119.2767
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Visible numeric sequence; regular16-position ring is an approximate layout",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-4",
+      "text": "4",
+      "anchor_mm": [
+        74.4604,
+        114.3131
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Visible numeric sequence; regular16-position ring is an approximate layout",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-5",
+      "text": "5",
+      "anchor_mm": [
+        75.625,
+        108.458
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Visible numeric sequence; regular16-position ring is an approximate layout",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-6",
+      "text": "6",
+      "anchor_mm": [
+        74.4604,
+        102.6029
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Visible numeric sequence; regular16-position ring is an approximate layout",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-7",
+      "text": "7",
+      "anchor_mm": [
+        71.1437,
+        97.6393
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Visible numeric sequence; regular16-position ring is an approximate layout",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-8",
+      "text": "8",
+      "anchor_mm": [
+        66.1801,
+        94.3226
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Visible numeric sequence; regular16-position ring is an approximate layout",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-9",
+      "text": "9",
+      "anchor_mm": [
+        60.325,
+        93.158
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Visible numeric sequence; regular16-position ring is an approximate layout",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-10",
+      "text": "10",
+      "anchor_mm": [
+        54.4699,
+        94.3226
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Visible numeric sequence; regular16-position ring is an approximate layout",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-11",
+      "text": "11",
+      "anchor_mm": [
+        49.5063,
+        97.6393
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Visible numeric sequence; regular16-position ring is an approximate layout",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-12",
+      "text": "12",
+      "anchor_mm": [
+        46.1896,
+        102.6029
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Visible numeric sequence; regular16-position ring is an approximate layout",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-13",
+      "text": "13",
+      "anchor_mm": [
+        45.025,
+        108.458
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Visible numeric sequence; regular16-position ring is an approximate layout",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-14",
+      "text": "14",
+      "anchor_mm": [
+        46.1896,
+        114.3131
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Visible numeric sequence; regular16-position ring is an approximate layout",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-15",
+      "text": "15",
+      "anchor_mm": [
+        49.5063,
+        119.2767
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Visible numeric sequence; regular16-position ring is an approximate layout",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S3-position-16",
+      "text": "16",
+      "anchor_mm": [
+        54.4699,
+        122.5934
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.65,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "Label occluded in source photo; inferred from visible sequence and16-position selector",
+      "position_method": "regular16-position22.5degree ring around DXF centre;15.3mm radius approximated from visible photo labels",
+      "reference": "S3"
+    },
+    {
+      "id": "S4-mode-1",
+      "text": "PATTERN (SYNC OUT)",
+      "anchor_mm": [
+        117.5482,
+        124.989
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        796,
+        333
+      ]
+    },
+    {
+      "id": "S4-mode-2",
+      "text": "PATTERN (DINSYNC)",
+      "anchor_mm": [
+        144.3034,
+        120.5595
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        913,
+        361
+      ]
+    },
+    {
+      "id": "S4-mode-3",
+      "text": "PATTERN (MIDISYNC)",
+      "anchor_mm": [
+        144.138,
+        116.6159
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        911,
+        378
+      ]
+    },
+    {
+      "id": "S4-mode-4",
+      "text": "PATTERN EDIT",
+      "anchor_mm": [
+        141.9441,
+        112.7539
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        900,
+        394
+      ]
+    },
+    {
+      "id": "S4-mode-5",
+      "text": "TRACK (SYNC OUT)",
+      "anchor_mm": [
+        143.9984,
+        109.2296
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        908,
+        410
+      ]
+    },
+    {
+      "id": "S4-mode-6",
+      "text": "TRACK (DINSYNC)",
+      "anchor_mm": [
+        144.5031,
+        105.3634
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        909,
+        427
+      ]
+    },
+    {
+      "id": "S4-mode-7",
+      "text": "TRACK (MIDISYNC)",
+      "anchor_mm": [
+        145.2294,
+        101.5234
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        911,
+        444
+      ]
+    },
+    {
+      "id": "S4-mode-8",
+      "text": "TRACK EDIT",
+      "anchor_mm": [
+        140.8177,
+        97.5185
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        890,
+        460
+      ]
+    },
+    {
+      "id": "S4-mode-9",
+      "text": "COMPUTER CONTROL",
+      "anchor_mm": [
+        118.5111,
+        93.2586
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        789,
+        471
+      ]
+    },
+    {
+      "id": "S4-mode-10",
+      "text": "BOOTLOAD",
+      "anchor_mm": [
+        94.3497,
+        97.3189
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        683,
+        445
+      ]
+    },
+    {
+      "id": "S4-mode-11",
+      "text": "USER C",
+      "anchor_mm": [
+        98.7326,
+        101.3346
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        704,
+        429
+      ]
+    },
+    {
+      "id": "S4-mode-12",
+      "text": "USER B",
+      "anchor_mm": [
+        98.399,
+        105.22
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        704,
+        412
+      ]
+    },
+    {
+      "id": "S4-mode-13",
+      "text": "USER A",
+      "anchor_mm": [
+        97.6161,
+        109.0793
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        702,
+        395
+      ]
+    },
+    {
+      "id": "S4-mode-14",
+      "text": "KEYBOARD",
+      "anchor_mm": [
+        94.585,
+        112.7732
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        690,
+        378
+      ]
+    },
+    {
+      "id": "S4-mode-15",
+      "text": "RANDOM",
+      "anchor_mm": [
+        94.9602,
+        116.2768
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        693,
+        363
+      ]
+    },
+    {
+      "id": "S4-mode-16",
+      "text": "MIDI PLAY",
+      "anchor_mm": [
+        92.1443,
+        120.0053
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.55,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "reference": "S4",
+      "manual_photo_anchor_px": [
+        682,
+        346
+      ]
+    },
+    {
+      "id": "LED20-note",
+      "text": "C#",
+      "anchor_mm": [
+        60.706,
+        69.778
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED20"
+    },
+    {
+      "id": "LED21-note",
+      "text": "D#",
+      "anchor_mm": [
+        76.708,
+        69.778
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED21"
+    },
+    {
+      "id": "LED22-note",
+      "text": "F#",
+      "anchor_mm": [
+        108.712,
+        69.778
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED22"
+    },
+    {
+      "id": "LED23-note",
+      "text": "G#",
+      "anchor_mm": [
+        124.714,
+        69.778
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED23"
+    },
+    {
+      "id": "LED24-note",
+      "text": "A#",
+      "anchor_mm": [
+        140.716,
+        69.778
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED24"
+    },
+    {
+      "id": "LED30-note",
+      "text": "C",
+      "anchor_mm": [
+        52.705,
+        43.616
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED30"
+    },
+    {
+      "id": "LED31-note",
+      "text": "D",
+      "anchor_mm": [
+        68.707,
+        43.616
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED31"
+    },
+    {
+      "id": "LED32-note",
+      "text": "E",
+      "anchor_mm": [
+        84.709,
+        43.616
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED32"
+    },
+    {
+      "id": "LED33-note",
+      "text": "F",
+      "anchor_mm": [
+        100.711,
+        43.616
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED33"
+    },
+    {
+      "id": "LED34-note",
+      "text": "G",
+      "anchor_mm": [
+        116.713,
+        43.616
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED34"
+    },
+    {
+      "id": "LED35-note",
+      "text": "A",
+      "anchor_mm": [
+        132.715,
+        43.616
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED35"
+    },
+    {
+      "id": "LED36-note",
+      "text": "B",
+      "anchor_mm": [
+        148.717,
+        43.616
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED36"
+    },
+    {
+      "id": "LED37-note",
+      "text": "C'",
+      "anchor_mm": [
+        164.719,
+        43.616
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED37"
+    },
+    {
+      "id": "step-LED-1",
+      "text": "1",
+      "anchor_mm": [
+        20.955,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED2"
+    },
+    {
+      "id": "step-LED-2",
+      "text": "2",
+      "anchor_mm": [
+        33.655,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED3"
+    },
+    {
+      "id": "step-LED-3",
+      "text": "3",
+      "anchor_mm": [
+        46.355,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED4"
+    },
+    {
+      "id": "step-LED-4",
+      "text": "4",
+      "anchor_mm": [
+        59.055,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED5"
+    },
+    {
+      "id": "step-LED-5",
+      "text": "5",
+      "anchor_mm": [
+        71.755,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED6"
+    },
+    {
+      "id": "step-LED-6",
+      "text": "6",
+      "anchor_mm": [
+        84.455,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED7"
+    },
+    {
+      "id": "step-LED-7",
+      "text": "7",
+      "anchor_mm": [
+        97.155,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED8"
+    },
+    {
+      "id": "step-LED-8",
+      "text": "8",
+      "anchor_mm": [
+        109.855,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED9"
+    },
+    {
+      "id": "step-LED-9",
+      "text": "9",
+      "anchor_mm": [
+        122.555,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED10"
+    },
+    {
+      "id": "step-LED-10",
+      "text": "10",
+      "anchor_mm": [
+        135.255,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED11"
+    },
+    {
+      "id": "step-LED-11",
+      "text": "11",
+      "anchor_mm": [
+        147.955,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED12"
+    },
+    {
+      "id": "step-LED-12",
+      "text": "12",
+      "anchor_mm": [
+        160.655,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED13"
+    },
+    {
+      "id": "step-LED-13",
+      "text": "13",
+      "anchor_mm": [
+        173.355,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED14"
+    },
+    {
+      "id": "step-LED-14",
+      "text": "14",
+      "anchor_mm": [
+        186.055,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED15"
+    },
+    {
+      "id": "step-LED-15",
+      "text": "15",
+      "anchor_mm": [
+        198.755,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED16"
+    },
+    {
+      "id": "step-LED-16",
+      "text": "16",
+      "anchor_mm": [
+        211.455,
+        78.558
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 1.9,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.1,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "LED17"
+    },
+    {
+      "id": "S5-function",
+      "text": "PREV",
+      "anchor_mm": [
+        12.7,
+        45.586
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S5"
+    },
+    {
+      "id": "S6-function",
+      "text": "NEXT",
+      "anchor_mm": [
+        31.75,
+        45.586
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S6"
+    },
+    {
+      "id": "S12-function",
+      "text": "D",
+      "anchor_mm": [
+        179.70499999999998,
+        42.262
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S12"
+    },
+    {
+      "id": "S13-function",
+      "text": "U",
+      "anchor_mm": [
+        195.707,
+        42.262
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S13"
+    },
+    {
+      "id": "S14-function",
+      "text": "DONE",
+      "anchor_mm": [
+        219.71,
+        45.586
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S14"
+    },
+    {
+      "id": "S15-function",
+      "text": "R/S",
+      "anchor_mm": [
+        12.7,
+        19.424
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S15"
+    },
+    {
+      "id": "S16-function",
+      "text": "CHAIN",
+      "anchor_mm": [
+        31.75,
+        19.424
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S16"
+    },
+    {
+      "id": "S25-function",
+      "text": "R",
+      "anchor_mm": [
+        187.70600000000002,
+        16.099999999999998
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S25"
+    },
+    {
+      "id": "S26-function",
+      "text": "A",
+      "anchor_mm": [
+        203.708,
+        16.099999999999998
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S26"
+    },
+    {
+      "id": "S27-function",
+      "text": "S",
+      "anchor_mm": [
+        219.70999999999998,
+        16.099999999999998
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S27"
+    },
+    {
+      "id": "S17-step",
+      "text": "1",
+      "anchor_mm": [
+        52.705,
+        16.099999999999998
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S17"
+    },
+    {
+      "id": "S18-step",
+      "text": "2",
+      "anchor_mm": [
+        68.707,
+        16.099999999999998
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S18"
+    },
+    {
+      "id": "S19-step",
+      "text": "3",
+      "anchor_mm": [
+        84.709,
+        16.099999999999998
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S19"
+    },
+    {
+      "id": "S20-step",
+      "text": "4",
+      "anchor_mm": [
+        100.711,
+        16.099999999999998
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S20"
+    },
+    {
+      "id": "S21-step",
+      "text": "5",
+      "anchor_mm": [
+        116.713,
+        16.099999999999998
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S21"
+    },
+    {
+      "id": "S22-step",
+      "text": "6",
+      "anchor_mm": [
+        132.71499999999997,
+        16.099999999999998
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S22"
+    },
+    {
+      "id": "S23-step",
+      "text": "7",
+      "anchor_mm": [
+        148.71699999999998,
+        16.099999999999998
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S23"
+    },
+    {
+      "id": "S24-step",
+      "text": "8",
+      "anchor_mm": [
+        164.719,
+        16.099999999999998
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "relative to DXF feature",
+      "reference": "S24"
+    },
+    {
+      "id": "top-port-label-1",
+      "text": "DINSYNC",
+      "anchor_mm": [
+        21.3928,
+        160.3339
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "manual_photo_anchor_px": [
+        390,
+        152
+      ]
+    },
+    {
+      "id": "top-port-label-2",
+      "text": "MIX IN",
+      "anchor_mm": [
+        43.374,
+        159.8449
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "manual_photo_anchor_px": [
+        485,
+        161
+      ]
+    },
+    {
+      "id": "top-port-label-3",
+      "text": "MIDI IN",
+      "anchor_mm": [
+        65.4759,
+        159.8475
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "manual_photo_anchor_px": [
+        581,
+        168
+      ]
+    },
+    {
+      "id": "top-port-label-4",
+      "text": "MIDI THRU",
+      "anchor_mm": [
+        88.6795,
+        159.7002
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "manual_photo_anchor_px": [
+        682,
+        176
+      ]
+    },
+    {
+      "id": "top-port-label-5",
+      "text": "MIDI OUT",
+      "anchor_mm": [
+        112.0066,
+        160.0423
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "manual_photo_anchor_px": [
+        784,
+        182
+      ]
+    },
+    {
+      "id": "top-port-label-6",
+      "text": "MIX OUT",
+      "anchor_mm": [
+        133.0405,
+        159.7402
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "manual_photo_anchor_px": [
+        876,
+        190
+      ]
+    },
+    {
+      "id": "top-port-label-7",
+      "text": "USB",
+      "anchor_mm": [
+        152.4178,
+        159.5539
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "manual_photo_anchor_px": [
+        961,
+        197
+      ]
+    },
+    {
+      "id": "top-port-label-8",
+      "text": "CV",
+      "anchor_mm": [
+        165.3904,
+        159.3574
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "manual_photo_anchor_px": [
+        1018,
+        202
+      ]
+    },
+    {
+      "id": "top-port-label-9",
+      "text": "GATE",
+      "anchor_mm": [
+        178.3415,
+        159.1611
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "manual_photo_anchor_px": [
+        1075,
+        207
+      ]
+    },
+    {
+      "id": "top-port-label-10",
+      "text": "PHONE",
+      "anchor_mm": [
+        198.7221,
+        159.2964
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "manual_photo_anchor_px": [
+        1165,
+        213
+      ]
+    },
+    {
+      "id": "top-port-label-11",
+      "text": "9VAC",
+      "anchor_mm": [
+        218.1551,
+        159.3628
+      ],
+      "anchor_mode": "text center",
+      "font_height_mm": 2.0,
+      "font_family": "Arial, Helvetica, sans-serif (presentation approximation)",
+      "letter_spacing_mm": 0.25,
+      "alignment": "center",
+      "confidence": "photo text clear; position approximate",
+      "position_method": "inverse planar homography of manually read photo text centre",
+      "manual_photo_anchor_px": [
+        1251,
+        219
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "sequence-separator",
+      "start_mm": [
+        12.2342,
+        74.6414
+      ],
+      "end_mm": [
+        220.6401,
+        74.8474
+      ],
+      "width_mm": 0.18,
+      "status": "approximate manually read printed line"
+    }
+  ],
+  "total_editable_text_objects": 100,
+  "new_vector_license": "CC0-1.0 for the newly authored approximate text layout and factual mapping; no rights in the source photograph or trademarks are conveyed.",
+  "editable_vector_file": "original-photo-label-layout.svg",
+  "editable_vector_sha256": "afb54f9f9742cd681eb2b9004b2715ff36e5f801852150068ecaaa7ab1943137",
+  "diagnostic_preview_file": "original-photo-label-diagnostic.png"
+}

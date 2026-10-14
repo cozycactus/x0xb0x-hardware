@@ -1,0 +1,304 @@
+{
+  "generator": "generate_axial_diodes.py",
+  "generator_sha256": "4f20d10c5cea53317e5152d5c7f0fa58461cfbf91bbdf0a4201ab2d511c0df9d",
+  "freecad_version": [
+    "1",
+    "0",
+    "1",
+    "39285 (Git)",
+    "https://github.com/FreeCAD/FreeCAD",
+    "2025/05/14 02:58:13",
+    "(HEAD detached at 1.0.1)",
+    "878f0b8c9c72c6f215833a99f2762bc3a3cf2abd"
+  ],
+  "models": [
+    {
+      "specification": {
+        "name": "D_DO35_P7.112_Illustration",
+        "local_footprint": "DO35-10",
+        "part": "1N4148",
+        "pitch": 7.112,
+        "body_length": 3.4,
+        "body_diameter": 1.75,
+        "lead_diameter": 0.55,
+        "original_drill": 1.0,
+        "body_standoff": 0.35,
+        "bend_radius": 0.7,
+        "cut_end_z": -2.5,
+        "band_start": -1.4,
+        "band_width": 0.5,
+        "body_color": [
+          0.74,
+          0.28,
+          0.08
+        ],
+        "sources": [
+          {
+            "url": "https://www.vishay.com/docs/81857/1n4148.pdf",
+            "document": "Vishay 81857, Rev. 1.6, 07-Nov-2024, page 3",
+            "dimensions": "DO35 body length max 3.4 mm, diameter 1.50 to 1.75 mm, lead diameter max 0.55 mm; cathode band identifies cathode."
+          }
+        ]
+      },
+      "classification": "generic_parametric_package_illustration_exact_pitch",
+      "manufacturer_exact_cad": false,
+      "original_parametric_geometry": true,
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-4/generated-models/D_DO35_P7.112_Illustration.step",
+      "step_sha256": "8c3d100c84de93553e1723cd2f7060df093155b85c89edc537c22a68f50fa534",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotate_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "terminal_mapping": {
+        "negative_x": "C",
+        "positive_x": "A"
+      },
+      "cathode_band_negative_x": true,
+      "fully_joined_geometry": true,
+      "lead_c_record": {
+        "path_length_mm": 5.3305574287564275,
+        "volume_mm3": 1.2664495293650517,
+        "circular_sweep_volume_mm3": 1.2664495293650517,
+        "continuous_solid": true,
+        "start_xyz_mm": [
+          -1.65,
+          0.0,
+          1.225
+        ],
+        "hole_axis_xyz_mm": [
+          -3.556,
+          0,
+          0
+        ],
+        "lower_end_xyz_mm": [
+          -3.556,
+          0.0,
+          -2.5
+        ]
+      },
+      "presentation": {
+        "styled_solids": [
+          "AnodeBody",
+          "AnodeLead",
+          "CathodeBand",
+          "CathodeBodyEnd",
+          "CathodeLead"
+        ],
+        "color_by_solid": {
+          "CathodeBodyEnd": [
+            0.74,
+            0.28,
+            0.08
+          ],
+          "CathodeBand": [
+            0.025,
+            0.025,
+            0.025
+          ],
+          "AnodeBody": [
+            0.74,
+            0.28,
+            0.08
+          ],
+          "CathodeLead": [
+            0.68,
+            0.7,
+            0.73
+          ],
+          "AnodeLead": [
+            0.68,
+            0.7,
+            0.73
+          ]
+        }
+      },
+      "validation": {
+        "step_reimport_valid": true,
+        "step_reimport_solid_count": 5,
+        "step_reimport_volume_mm3": 10.710857435106032,
+        "lead_sections_at_z_minus_1_mm": [
+          {
+            "center_xyz_mm": [
+              -3.556,
+              0.0,
+              -0.9999999999999999
+            ],
+            "radius_mm": 0.275
+          },
+          {
+            "center_xyz_mm": [
+              3.556,
+              0.0,
+              -0.9999999999999999
+            ],
+            "radius_mm": 0.275
+          }
+        ],
+        "nominal_original_drill_radial_margin_mm": 0.22499999999999998
+      },
+      "illustration_choices": [
+        "0.35 mm body underside standoff",
+        "formed lead bend radius",
+        "2.5 mm lead tail below PCB top",
+        "body color and cathode band width",
+        "no printed text or exact internal construction"
+      ],
+      "limitations": "Body and lead maxima reflect one primary manufacturer's package drawing, not identification of historically fitted parts. Forming/standoff/tail/colors are explicit illustration choices. No fabrication, tolerance or assembly approval."
+    },
+    {
+      "specification": {
+        "name": "D_DO41_P11.176_Illustration",
+        "local_footprint": "DO41-10",
+        "part": "1N4001",
+        "pitch": 11.176,
+        "body_length": 5.2,
+        "body_diameter": 2.7,
+        "lead_diameter": 0.86,
+        "original_drill": 1.2,
+        "body_standoff": 0.35,
+        "bend_radius": 1.0,
+        "cut_end_z": -2.5,
+        "band_start": -2.25,
+        "band_width": 0.65,
+        "body_color": [
+          0.1,
+          0.1,
+          0.11
+        ],
+        "sources": [
+          {
+            "url": "https://www.vishay.com/docs/88503/1n4001.pdf",
+            "document": "Vishay 88503, Revision 29-Apr-2020, pages 1 and 4",
+            "dimensions": "DO41 body length 4.1 to 5.2 mm, body diameter 2.0 to 2.7 mm, standard lead diameter 0.71 to 0.86 mm; color band denotes cathode. The optional E lead suffix has smaller leads and is not assumed."
+          }
+        ]
+      },
+      "classification": "generic_parametric_package_illustration_exact_pitch",
+      "manufacturer_exact_cad": false,
+      "original_parametric_geometry": true,
+      "step_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-4/generated-models/D_DO41_P11.176_Illustration.step",
+      "step_sha256": "2f814b737ca58bd30ab405078670da7fb1a6d2a6f1cd3443746c7412df6b470b",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotate_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "terminal_mapping": {
+        "negative_x": "C",
+        "positive_x": "A"
+      },
+      "cathode_band_negative_x": true,
+      "fully_joined_geometry": true,
+      "lead_c_record": {
+        "path_length_mm": 6.808796326794896,
+        "volume_mm3": 3.955096889756877,
+        "circular_sweep_volume_mm3": 3.9550968897568772,
+        "continuous_solid": true,
+        "start_xyz_mm": [
+          -2.5500000000000003,
+          0.0,
+          1.7000000000000002
+        ],
+        "hole_axis_xyz_mm": [
+          -5.588,
+          0,
+          0
+        ],
+        "lower_end_xyz_mm": [
+          -5.588,
+          0.0,
+          -2.5
+        ]
+      },
+      "presentation": {
+        "styled_solids": [
+          "AnodeBody",
+          "AnodeLead",
+          "CathodeBand",
+          "CathodeBodyEnd",
+          "CathodeLead"
+        ],
+        "color_by_solid": {
+          "CathodeBodyEnd": [
+            0.1,
+            0.1,
+            0.11
+          ],
+          "CathodeBand": [
+            0.72,
+            0.72,
+            0.72
+          ],
+          "AnodeBody": [
+            0.1,
+            0.1,
+            0.11
+          ],
+          "CathodeLead": [
+            0.68,
+            0.7,
+            0.73
+          ],
+          "AnodeLead": [
+            0.68,
+            0.7,
+            0.73
+          ]
+        }
+      },
+      "validation": {
+        "step_reimport_valid": true,
+        "step_reimport_solid_count": 5,
+        "step_reimport_volume_mm3": 37.68306735758422,
+        "lead_sections_at_z_minus_1_mm": [
+          {
+            "center_xyz_mm": [
+              -5.588,
+              0.0,
+              -1.0
+            ],
+            "radius_mm": 0.43
+          },
+          {
+            "center_xyz_mm": [
+              5.588,
+              0.0,
+              -1.0
+            ],
+            "radius_mm": 0.43
+          }
+        ],
+        "nominal_original_drill_radial_margin_mm": 0.16999999999999998
+      },
+      "illustration_choices": [
+        "0.35 mm body underside standoff",
+        "formed lead bend radius",
+        "2.5 mm lead tail below PCB top",
+        "body color and cathode band width",
+        "no printed text or exact internal construction"
+      ],
+      "limitations": "Body and lead maxima reflect one primary manufacturer's package drawing, not identification of historically fitted parts. Forming/standoff/tail/colors are explicit illustration choices. No fabrication, tolerance or assembly approval."
+    }
+  ]
+}

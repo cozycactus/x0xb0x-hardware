@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "geometry_checks_passed": 33,
+  "native_export_passed": true,
+  "new_scene_surface_crossings": 0,
+  "source_shape_rigid_invariance": true,
+  "native_model_transforms": "Zero offsets/rotations and unity scale; internal model placement only.",
+  "nominal_pair_intersection_mm3": 1.7294223413446748,
+  "nominal_overlap_outside_spring_finger_mask_mm3": 0.0,
+  "known_limits": [
+    "Original author assembly instruction explicitly says to bend IC20 back before fitting the heatsink; the original place/soldered/measure photos show the body and tab approximately parallel to the PCB and extending beyond its edge.",
+    "The exact 90 degree angle, bend datum and 2.0 mm vertical placement are illustration assumptions, not measurements from the photograph or a manufacturer formed-lead specification.",
+    "All IC20 leads remain omitted. The prior nominal published lead width/hole fit was unresolved; no terminals were thinned, displaced or invented to conceal it.",
+    "The paired seat uses source-consistent through-hole and contact-plane alignment, inherited from the nominal generic TO220 body. Actual original regulator vendor/suffix, lead forming, cut lengths and installed seat require physical confirmation.",
+    "The complete revision 9 heatsink is only rigidly rotated and translated. No fold, spring finger, wall, source envelope or neighboring component is trimmed or shrunk.",
+    "Free-state reconstructed spring fingers retain a nominal 1.729422 mm3 regulator intersection. This is a documented geometric overlap, not a simulation or certification of elastic clamping, contact force or thermal performance.",
+    "Case placement, board seat and neighboring package models remain qualified visual geometry. A clear surface screen does not establish tolerance or physical fit."
+  ],
+  "stable_scene_sha256": "c1e20cbd5971b7f8ddc372cb96c406328d7d49110bdb507f252b142cd18f2ac9",
+  "preview_sha256": "3394ffb46378db53796977251064d6bfb78ae301acce3bcd47aeb145f166ee95",
+  "frozen_models": {
+    "Aavid_574502B00000G_BentBack_PhotoQualified--BlackAnodizedSpring.stl": {
+      "bytes": 175284,
+      "sha256": "353d7d82ee2063ccbebe3e347bb549bfff7335d4d018154ea2d074a87128c7ca"
+    },
+    "Aavid_574502B00000G_BentBack_PhotoQualified.step": {
+      "bytes": 142861,
+      "sha256": "c52b9aed6d3145861dde7c39389c46e2efe0853e84373eb84f299e2691d7fea9"
+    },
+    "Aavid_574502B00000G_BentBack_PhotoQualified.stl": {
+      "bytes": 175284,
+      "sha256": "353d7d82ee2063ccbebe3e347bb549bfff7335d4d018154ea2d074a87128c7ca"
+    },
+    "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly--MetalTab.stl": {
+      "bytes": 26084,
+      "sha256": "f00998af3558fb3591538e0c76c89e4275f142ab9b82aa6bb45200c2b6b34f15"
+    },
+    "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly--PlasticBody.stl": {
+      "bytes": 684,
+      "sha256": "bbeb6f6f7b65542572d0c6b4e126a900ee14a30ba7805733b230ad4fe3fedef6"
+    },
+    "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step": {
+      "bytes": 19229,
+      "sha256": "57572d2c7c441f7c83c0bf4c281866def4e4d5b5639d05f805596d090a09f555"
+    },
+    "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.stl": {
+      "bytes": 26484,
+      "sha256": "33fe955a588f594c6f47cfea25ec83593a25967f684f2cc607a87c78bc61afda"
+    }
+  }
+}

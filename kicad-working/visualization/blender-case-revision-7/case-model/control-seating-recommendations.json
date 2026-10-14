@@ -1,0 +1,2368 @@
+{
+  "schema_version": 1,
+  "read_only_scene_review": true,
+  "input_scene": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/visualization/blender-case-revision-3/x0xb0x-populated-with-case.blend",
+  "input_scene_sha256": "fea4edc23e4da7e4e157292348cc2c5c59e06aefd4bacc92a31610d5d6214f0b",
+  "scene_unchanged": true,
+  "measurement_frame": 1,
+  "units": "mm",
+  "height_frame": "Original top-panel local frame: Z outward normal; panel underside Z=0.",
+  "panel_top_z_mm": 1.5748,
+  "source_manifest": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/visualization/blender-case-revision-3/body-model-sources/control-body-illustrations/control-body-manifest.json",
+  "source_manifest_sha256": "26ac833a83addd4c662d7d1bd5df9d0eae795a9e58761e63ca0c5b92a03e0aa8",
+  "knob_source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/visualization/blender-case-revision-3/bom-parts/scene-part-dimensions.json",
+  "knob_source_sha256": "c4d6ba0a1d699d59eacb79f483241f8916f074be3289374af2bb93c0809904d9",
+  "assumptions": {
+    "knob_roof_thickness_mm": 0.5,
+    "minimum_internal_top_clearance_mm": 0.5,
+    "minimum_grayhill_bushing_gap_mm": 0.1,
+    "source_bore_depth_known": false,
+    "source_grip_length_known": false,
+    "installed_seat_known": false,
+    "roof_thickness_is_vendor_dimension": false
+  },
+  "groups": [
+    {
+      "name": "All eight soft knobs",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR4",
+        "VR5",
+        "VR6",
+        "VR7",
+        "VR8",
+        "S2"
+      ],
+      "elevation_mm": 1.7,
+      "objects": [
+        "VR2 / knob skirt proxy",
+        "VR2 / BOM dimension knob proxy",
+        "VR2 / pointer proxy",
+        "VR2 / pointer body projection proxy",
+        "VR3 / knob skirt proxy",
+        "VR3 / BOM dimension knob proxy",
+        "VR3 / pointer proxy",
+        "VR3 / pointer body projection proxy",
+        "VR4 / knob skirt proxy",
+        "VR4 / BOM dimension knob proxy",
+        "VR4 / pointer proxy",
+        "VR4 / pointer body projection proxy",
+        "VR5 / knob skirt proxy",
+        "VR5 / BOM dimension knob proxy",
+        "VR5 / pointer proxy",
+        "VR5 / pointer body projection proxy",
+        "VR6 / knob skirt proxy",
+        "VR6 / BOM dimension knob proxy",
+        "VR6 / pointer proxy",
+        "VR6 / pointer body projection proxy",
+        "VR7 / knob skirt proxy",
+        "VR7 / BOM dimension knob proxy",
+        "VR7 / pointer proxy",
+        "VR7 / pointer body projection proxy",
+        "VR8 / knob skirt proxy",
+        "VR8 / BOM dimension knob proxy",
+        "VR8 / pointer proxy",
+        "VR8 / pointer body projection proxy",
+        "S2 / knob skirt proxy",
+        "S2 / BOM dimension knob proxy",
+        "S2 / pointer proxy",
+        "S2 / pointer body projection proxy"
+      ],
+      "purpose": "Keep matching knob tops aligned while covering the longest full nominal EVU shafts with assumed 0.5 mm roof and at least 0.5 mm internal clearance."
+    },
+    {
+      "name": "Both Grayhill rotary knobs",
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "elevation_mm": 1.2,
+      "objects": [
+        "S3 / knob skirt proxy",
+        "S3 / BOM dimension knob proxy",
+        "S3 / pointer proxy",
+        "S4 / knob skirt proxy",
+        "S4 / BOM dimension knob proxy",
+        "S4 / pointer proxy"
+      ],
+      "purpose": "Retain full shaft and bushing envelope; clear published bushing above panel without assuming an underside counterbore."
+    }
+  ],
+  "knobs": [
+    {
+      "reference": "VR2",
+      "shaft_family": "Panasonic_EVUF2LFL3_BodyIllustration",
+      "knob_family": "Eagle 450-4760",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf"
+      ],
+      "nominal_shaft_tip_from_mounting_datum_mm": 30.0,
+      "nominal_shaft_flat_length_mm": 12,
+      "shaft_tip_panel_z_mm": 18.178768157958984,
+      "bushing_top_panel_z_mm": 1.6787681579589844,
+      "current": {
+        "knob_bottom_panel_z_mm": 2.1747946739196777,
+        "knob_body_top_panel_z_mm": 17.57479476928711,
+        "knob_pointer_top_panel_z_mm": 17.73479652404785,
+        "panel_gap_mm": 0.5999946739196778,
+        "nominal_insertion_mm": 16.003973484039307,
+        "exterior_top_margin_mm": -0.603973388671875,
+        "assumed_internal_top_clearance_mm": -1.103973388671875,
+        "bushing_to_knob_underside_clearance_mm": 0.49602651596069336
+      },
+      "minimum_elevation_mm": {
+        "for_0p5_exterior_top_margin": 1.103973388671875,
+        "for_assumed_0p5_roof_and_0p5_internal_clearance": 1.603973388671875,
+        "to_clear_published_bushing_by_0p1": 0
+      },
+      "proposed": {
+        "elevation_mm": 1.7,
+        "translation_in_front_source_frame_mm": [
+          0,
+          0,
+          1.7
+        ],
+        "world_translation_m": [
+          0.0,
+          -0.00043999237418174743,
+          0.001642073678970337
+        ],
+        "knob_bottom_panel_z_mm": 3.874794673919678,
+        "knob_body_top_panel_z_mm": 19.27479476928711,
+        "knob_pointer_top_panel_z_mm": 19.43479652404785,
+        "panel_gap_mm": 2.299994673919678,
+        "nominal_insertion_mm": 14.303973484039307,
+        "nominal_flat_engagement_mm": 12,
+        "nominal_round_section_below_flat_inside_envelope_mm": 2.3039734840393074,
+        "exterior_top_margin_mm": 1.0960266113281243,
+        "assumed_internal_top_clearance_mm": 0.5960266113281243,
+        "bushing_to_knob_underside_clearance_mm": 2.1960265159606935,
+        "exposed_shaft_between_knob_and_panel_or_bushing_mm": 2.1960265159606935,
+        "objects_to_translate_together": [
+          "VR2 / knob skirt proxy",
+          "VR2 / BOM dimension knob proxy",
+          "VR2 / pointer proxy",
+          "VR2 / pointer body projection proxy"
+        ]
+      },
+      "witness": {
+        "shaft_maximum_panel_mm": [
+          52.24504089355469,
+          144.22122192382812,
+          18.178768157958984
+        ],
+        "shaft_maximum_world_m": [
+          -0.06395996594429015,
+          0.15729487256780136,
+          0.08683973866845554
+        ],
+        "knob_body_maximum_panel_mm": [
+          55.24501419067383,
+          149.22119140625,
+          17.57479476928711
+        ],
+        "knob_body_maximum_world_m": [
+          -0.06095999264717102,
+          0.1622807913724862,
+          0.08755043257379111
+        ],
+        "native_bounds_panel_mm": {
+          "min_mm": [
+            50.39503479003906,
+            138.22122192382812,
+            -11.821236610412598
+          ],
+          "max_mm": [
+            60.095035552978516,
+            150.72122192382812,
+            18.178768157958984
+          ],
+          "size_mm": [
+            9.700000762939453,
+            12.5,
+            30.000004768371582
+          ],
+          "maximum_normal_witness_panel_mm": [
+            52.24504089355469,
+            144.22122192382812,
+            18.178768157958984
+          ]
+        },
+        "proxy_bounds_current_panel_mm": {
+          "min_mm": [
+            48.645015716552734,
+            137.62120056152344,
+            2.1747946739196777
+          ],
+          "max_mm": [
+            61.84501647949219,
+            151.62118530273438,
+            17.73479652404785
+          ],
+          "size_mm": [
+            13.200000762939453,
+            13.999984741210938,
+            15.560001850128174
+          ],
+          "maximum_normal_witness_panel_mm": [
+            54.675018310546875,
+            145.1011962890625,
+            17.73479652404785
+          ]
+        }
+      },
+      "status": "Presentation-only seating proposal. Full native nominal body/shaft retained; no vendor bore/grip or fitted-seat qualification."
+    },
+    {
+      "reference": "VR3",
+      "shaft_family": "Panasonic_EVUF2LFL3_BodyIllustration",
+      "knob_family": "Eagle 450-4760",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf"
+      ],
+      "nominal_shaft_tip_from_mounting_datum_mm": 30.0,
+      "nominal_shaft_flat_length_mm": 12,
+      "shaft_tip_panel_z_mm": 18.178762435913086,
+      "bushing_top_panel_z_mm": 1.678762435913086,
+      "current": {
+        "knob_bottom_panel_z_mm": 2.1747946739196777,
+        "knob_body_top_panel_z_mm": 17.57479476928711,
+        "knob_pointer_top_panel_z_mm": 17.73479652404785,
+        "panel_gap_mm": 0.5999946739196778,
+        "nominal_insertion_mm": 16.003967761993408,
+        "exterior_top_margin_mm": -0.6039676666259766,
+        "assumed_internal_top_clearance_mm": -1.1039676666259766,
+        "bushing_to_knob_underside_clearance_mm": 0.4960322380065918
+      },
+      "minimum_elevation_mm": {
+        "for_0p5_exterior_top_margin": 1.1039676666259766,
+        "for_assumed_0p5_roof_and_0p5_internal_clearance": 1.6039676666259766,
+        "to_clear_published_bushing_by_0p1": 0
+      },
+      "proposed": {
+        "elevation_mm": 1.7,
+        "translation_in_front_source_frame_mm": [
+          0,
+          0,
+          1.7
+        ],
+        "world_translation_m": [
+          0.0,
+          -0.00043999237418174743,
+          0.001642073678970337
+        ],
+        "knob_bottom_panel_z_mm": 3.874794673919678,
+        "knob_body_top_panel_z_mm": 19.27479476928711,
+        "knob_pointer_top_panel_z_mm": 19.43479652404785,
+        "panel_gap_mm": 2.299994673919678,
+        "nominal_insertion_mm": 14.303967761993409,
+        "nominal_flat_engagement_mm": 12,
+        "nominal_round_section_below_flat_inside_envelope_mm": 2.303967761993409,
+        "exterior_top_margin_mm": 1.0960323333740227,
+        "assumed_internal_top_clearance_mm": 0.5960323333740227,
+        "bushing_to_knob_underside_clearance_mm": 2.196032238006592,
+        "exposed_shaft_between_knob_and_panel_or_bushing_mm": 2.196032238006592,
+        "objects_to_translate_together": [
+          "VR3 / knob skirt proxy",
+          "VR3 / BOM dimension knob proxy",
+          "VR3 / pointer proxy",
+          "VR3 / pointer body projection proxy"
+        ]
+      },
+      "witness": {
+        "shaft_maximum_panel_mm": [
+          82.72503662109375,
+          144.22122192382812,
+          18.178762435913086
+        ],
+        "shaft_maximum_world_m": [
+          -0.0334799702167511,
+          0.15729487404877582,
+          0.08683973314138438
+        ],
+        "knob_body_maximum_panel_mm": [
+          85.72501373291016,
+          149.22119140625,
+          17.57479476928711
+        ],
+        "knob_body_maximum_world_m": [
+          -0.030479993104934697,
+          0.1622807913724862,
+          0.08755043257379111
+        ],
+        "native_bounds_panel_mm": {
+          "min_mm": [
+            80.87503051757812,
+            138.22122192382812,
+            -11.82124137878418
+          ],
+          "max_mm": [
+            90.57503509521484,
+            150.72122192382812,
+            18.178762435913086
+          ],
+          "size_mm": [
+            9.700004577636719,
+            12.5,
+            30.000003814697266
+          ],
+          "maximum_normal_witness_panel_mm": [
+            82.72503662109375,
+            144.22122192382812,
+            18.178762435913086
+          ]
+        },
+        "proxy_bounds_current_panel_mm": {
+          "min_mm": [
+            79.12501525878906,
+            137.62120056152344,
+            2.1747946739196777
+          ],
+          "max_mm": [
+            92.32501983642578,
+            151.62118530273438,
+            17.73479652404785
+          ],
+          "size_mm": [
+            13.200004577636719,
+            13.999984741210938,
+            15.560001850128174
+          ],
+          "maximum_normal_witness_panel_mm": [
+            85.15501403808594,
+            145.1011962890625,
+            17.73479652404785
+          ]
+        }
+      },
+      "status": "Presentation-only seating proposal. Full native nominal body/shaft retained; no vendor bore/grip or fitted-seat qualification."
+    },
+    {
+      "reference": "VR4",
+      "shaft_family": "Alpha_RV112BCF40_25_BodyIllustration",
+      "knob_family": "Eagle 450-4760",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://static.chipdip.ru/lib/521/DOC013521571.pdf"
+      ],
+      "nominal_shaft_tip_from_mounting_datum_mm": 25.0,
+      "nominal_shaft_flat_length_mm": 7,
+      "shaft_tip_panel_z_mm": 13.17876148223877,
+      "bushing_top_panel_z_mm": 0.07876148223876989,
+      "current": {
+        "knob_bottom_panel_z_mm": 2.1747946739196777,
+        "knob_body_top_panel_z_mm": 17.57479476928711,
+        "knob_pointer_top_panel_z_mm": 17.73479652404785,
+        "panel_gap_mm": 0.5999946739196778,
+        "nominal_insertion_mm": 11.003966808319092,
+        "exterior_top_margin_mm": 4.39603328704834,
+        "assumed_internal_top_clearance_mm": 3.89603328704834,
+        "bushing_to_knob_underside_clearance_mm": 2.096033191680908
+      },
+      "minimum_elevation_mm": {
+        "for_0p5_exterior_top_margin": 0,
+        "for_assumed_0p5_roof_and_0p5_internal_clearance": 0,
+        "to_clear_published_bushing_by_0p1": 0
+      },
+      "proposed": {
+        "elevation_mm": 1.7,
+        "translation_in_front_source_frame_mm": [
+          0,
+          0,
+          1.7
+        ],
+        "world_translation_m": [
+          0.0,
+          -0.00043999237418174743,
+          0.001642073678970337
+        ],
+        "knob_bottom_panel_z_mm": 3.874794673919678,
+        "knob_body_top_panel_z_mm": 19.27479476928711,
+        "knob_pointer_top_panel_z_mm": 19.43479652404785,
+        "panel_gap_mm": 2.299994673919678,
+        "nominal_insertion_mm": 9.303966808319093,
+        "nominal_flat_engagement_mm": 7,
+        "nominal_round_section_below_flat_inside_envelope_mm": 2.3039668083190925,
+        "exterior_top_margin_mm": 6.096033287048339,
+        "assumed_internal_top_clearance_mm": 5.596033287048339,
+        "bushing_to_knob_underside_clearance_mm": 3.796033191680908,
+        "exposed_shaft_between_knob_and_panel_or_bushing_mm": 2.299994673919678,
+        "objects_to_translate_together": [
+          "VR4 / knob skirt proxy",
+          "VR4 / BOM dimension knob proxy",
+          "VR4 / pointer proxy",
+          "VR4 / pointer body projection proxy"
+        ]
+      },
+      "witness": {
+        "shaft_maximum_panel_mm": [
+          113.29414367675781,
+          143.4954376220703,
+          13.17876148223877
+        ],
+        "shaft_maximum_world_m": [
+          -0.0029108631610870322,
+          0.15788791580877098,
+          0.08182225695377884
+        ],
+        "knob_body_maximum_panel_mm": [
+          116.20501708984375,
+          149.22119140625,
+          17.57479476928711
+        ],
+        "knob_body_maximum_world_m": [
+          1.0251998902588433e-08,
+          0.1622807913724862,
+          0.08755043257379111
+        ],
+        "native_bounds_panel_mm": {
+          "min_mm": [
+            109.405029296875,
+            137.52120971679688,
+            -11.821246147155762
+          ],
+          "max_mm": [
+            123.00503540039062,
+            152.92120361328125,
+            13.17876148223877
+          ],
+          "size_mm": [
+            13.600006103515625,
+            15.399993896484375,
+            25.00000762939453
+          ],
+          "maximum_normal_witness_panel_mm": [
+            113.29414367675781,
+            143.4954376220703,
+            13.17876148223877
+          ]
+        },
+        "proxy_bounds_current_panel_mm": {
+          "min_mm": [
+            109.60501098632812,
+            137.62120056152344,
+            2.1747946739196777
+          ],
+          "max_mm": [
+            122.80501556396484,
+            151.62118530273438,
+            17.73479652404785
+          ],
+          "size_mm": [
+            13.200004577636719,
+            13.999984741210938,
+            15.560001850128174
+          ],
+          "maximum_normal_witness_panel_mm": [
+            115.63501739501953,
+            145.1011962890625,
+            17.73479652404785
+          ]
+        }
+      },
+      "status": "Presentation-only seating proposal. Full native nominal body/shaft retained; no vendor bore/grip or fitted-seat qualification."
+    },
+    {
+      "reference": "VR5",
+      "shaft_family": "Panasonic_EVUF2LFL3_BodyIllustration",
+      "knob_family": "Eagle 450-4760",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf"
+      ],
+      "nominal_shaft_tip_from_mounting_datum_mm": 30.0,
+      "nominal_shaft_flat_length_mm": 12,
+      "shaft_tip_panel_z_mm": 18.178754806518555,
+      "bushing_top_panel_z_mm": 1.6787548065185547,
+      "current": {
+        "knob_bottom_panel_z_mm": 2.1747946739196777,
+        "knob_body_top_panel_z_mm": 17.57479476928711,
+        "knob_pointer_top_panel_z_mm": 17.73479652404785,
+        "panel_gap_mm": 0.5999946739196778,
+        "nominal_insertion_mm": 16.003960132598877,
+        "exterior_top_margin_mm": -0.6039600372314453,
+        "assumed_internal_top_clearance_mm": -1.1039600372314453,
+        "bushing_to_knob_underside_clearance_mm": 0.49603986740112305
+      },
+      "minimum_elevation_mm": {
+        "for_0p5_exterior_top_margin": 1.1039600372314453,
+        "for_assumed_0p5_roof_and_0p5_internal_clearance": 1.6039600372314453,
+        "to_clear_published_bushing_by_0p1": 0
+      },
+      "proposed": {
+        "elevation_mm": 1.7,
+        "translation_in_front_source_frame_mm": [
+          0,
+          0,
+          1.7
+        ],
+        "world_translation_m": [
+          0.0,
+          -0.00043999237418174743,
+          0.001642073678970337
+        ],
+        "knob_bottom_panel_z_mm": 3.874794673919678,
+        "knob_body_top_panel_z_mm": 19.27479476928711,
+        "knob_pointer_top_panel_z_mm": 19.43479652404785,
+        "panel_gap_mm": 2.299994673919678,
+        "nominal_insertion_mm": 14.303960132598878,
+        "nominal_flat_engagement_mm": 12,
+        "nominal_round_section_below_flat_inside_envelope_mm": 2.3039601325988777,
+        "exterior_top_margin_mm": 1.096039962768554,
+        "assumed_internal_top_clearance_mm": 0.596039962768554,
+        "bushing_to_knob_underside_clearance_mm": 2.1960398674011232,
+        "exposed_shaft_between_knob_and_panel_or_bushing_mm": 2.1960398674011232,
+        "objects_to_translate_together": [
+          "VR5 / knob skirt proxy",
+          "VR5 / BOM dimension knob proxy",
+          "VR5 / pointer proxy",
+          "VR5 / pointer body projection proxy"
+        ]
+      },
+      "witness": {
+        "shaft_maximum_panel_mm": [
+          143.68502807617188,
+          144.22120666503906,
+          18.178754806518555
+        ],
+        "shaft_maximum_world_m": [
+          0.027480021238327018,
+          0.157294861284552,
+          0.086839721822691
+        ],
+        "knob_body_maximum_panel_mm": [
+          146.6850128173828,
+          149.22119140625,
+          17.57479476928711
+        ],
+        "knob_body_maximum_world_m": [
+          0.030480005979537955,
+          0.1622807913724862,
+          0.08755043257379111
+        ],
+        "native_bounds_panel_mm": {
+          "min_mm": [
+            141.83502197265625,
+            138.22120666503906,
+            -11.821249961853027
+          ],
+          "max_mm": [
+            151.53501892089844,
+            150.72120666503906,
+            18.178754806518555
+          ],
+          "size_mm": [
+            9.699996948242188,
+            12.5,
+            30.000004768371582
+          ],
+          "maximum_normal_witness_panel_mm": [
+            143.68502807617188,
+            144.22120666503906,
+            18.178754806518555
+          ]
+        },
+        "proxy_bounds_current_panel_mm": {
+          "min_mm": [
+            140.0850067138672,
+            137.62120056152344,
+            2.1747946739196777
+          ],
+          "max_mm": [
+            153.2850341796875,
+            151.62118530273438,
+            17.73479652404785
+          ],
+          "size_mm": [
+            13.200027465820312,
+            13.999984741210938,
+            15.560001850128174
+          ],
+          "maximum_normal_witness_panel_mm": [
+            146.11502075195312,
+            145.1011962890625,
+            17.73479652404785
+          ]
+        }
+      },
+      "status": "Presentation-only seating proposal. Full native nominal body/shaft retained; no vendor bore/grip or fitted-seat qualification."
+    },
+    {
+      "reference": "VR6",
+      "shaft_family": "Alpha_RV112BCF40_25_BodyIllustration",
+      "knob_family": "Eagle 450-4760",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://static.chipdip.ru/lib/521/DOC013521571.pdf"
+      ],
+      "nominal_shaft_tip_from_mounting_datum_mm": 25.0,
+      "nominal_shaft_flat_length_mm": 7,
+      "shaft_tip_panel_z_mm": 13.178751945495605,
+      "bushing_top_panel_z_mm": 0.07875194549560582,
+      "current": {
+        "knob_bottom_panel_z_mm": 2.1747946739196777,
+        "knob_body_top_panel_z_mm": 17.57479476928711,
+        "knob_pointer_top_panel_z_mm": 17.73479652404785,
+        "panel_gap_mm": 0.5999946739196778,
+        "nominal_insertion_mm": 11.003957271575928,
+        "exterior_top_margin_mm": 4.396042823791504,
+        "assumed_internal_top_clearance_mm": 3.896042823791504,
+        "bushing_to_knob_underside_clearance_mm": 2.096042728424072
+      },
+      "minimum_elevation_mm": {
+        "for_0p5_exterior_top_margin": 0,
+        "for_assumed_0p5_roof_and_0p5_internal_clearance": 0,
+        "to_clear_published_bushing_by_0p1": 0
+      },
+      "proposed": {
+        "elevation_mm": 1.7,
+        "translation_in_front_source_frame_mm": [
+          0,
+          0,
+          1.7
+        ],
+        "world_translation_m": [
+          0.0,
+          -0.00043999237418174743,
+          0.001642073678970337
+        ],
+        "knob_bottom_panel_z_mm": 3.874794673919678,
+        "knob_body_top_panel_z_mm": 19.27479476928711,
+        "knob_pointer_top_panel_z_mm": 19.43479652404785,
+        "panel_gap_mm": 2.299994673919678,
+        "nominal_insertion_mm": 9.303957271575928,
+        "nominal_flat_engagement_mm": 7,
+        "nominal_round_section_below_flat_inside_envelope_mm": 2.3039572715759284,
+        "exterior_top_margin_mm": 6.096042823791503,
+        "assumed_internal_top_clearance_mm": 5.596042823791503,
+        "bushing_to_knob_underside_clearance_mm": 3.796042728424072,
+        "exposed_shaft_between_knob_and_panel_or_bushing_mm": 2.299994673919678,
+        "objects_to_translate_together": [
+          "VR6 / knob skirt proxy",
+          "VR6 / BOM dimension knob proxy",
+          "VR6 / pointer proxy",
+          "VR6 / pointer body projection proxy"
+        ]
+      },
+      "witness": {
+        "shaft_maximum_panel_mm": [
+          174.254150390625,
+          143.4954376220703,
+          13.178751945495605
+        ],
+        "shaft_maximum_world_m": [
+          0.05804914355278015,
+          0.15788791827706172,
+          0.08182224774199359
+        ],
+        "knob_body_maximum_panel_mm": [
+          177.16502380371094,
+          149.22119140625,
+          17.57479476928711
+        ],
+        "knob_body_maximum_world_m": [
+          0.06096001696586609,
+          0.1622807913724862,
+          0.08755043257379111
+        ],
+        "native_bounds_panel_mm": {
+          "min_mm": [
+            170.3650360107422,
+            137.52120971679688,
+            -11.82125473022461
+          ],
+          "max_mm": [
+            183.96502685546875,
+            152.92120361328125,
+            13.178751945495605
+          ],
+          "size_mm": [
+            13.599990844726562,
+            15.399993896484375,
+            25.000006675720215
+          ],
+          "maximum_normal_witness_panel_mm": [
+            174.254150390625,
+            143.4954376220703,
+            13.178751945495605
+          ]
+        },
+        "proxy_bounds_current_panel_mm": {
+          "min_mm": [
+            170.56500244140625,
+            137.62120056152344,
+            2.1747946739196777
+          ],
+          "max_mm": [
+            183.76502990722656,
+            151.62118530273438,
+            17.73479652404785
+          ],
+          "size_mm": [
+            13.200027465820312,
+            13.999984741210938,
+            15.560001850128174
+          ],
+          "maximum_normal_witness_panel_mm": [
+            176.5950164794922,
+            145.1011962890625,
+            17.73479652404785
+          ]
+        }
+      },
+      "status": "Presentation-only seating proposal. Full native nominal body/shaft retained; no vendor bore/grip or fitted-seat qualification."
+    },
+    {
+      "reference": "VR7",
+      "shaft_family": "Panasonic_EVUF2LFL3_BodyIllustration",
+      "knob_family": "Eagle 450-4760",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf"
+      ],
+      "nominal_shaft_tip_from_mounting_datum_mm": 30.0,
+      "nominal_shaft_flat_length_mm": 12,
+      "shaft_tip_panel_z_mm": 18.17874526977539,
+      "bushing_top_panel_z_mm": 1.6787452697753906,
+      "current": {
+        "knob_bottom_panel_z_mm": 2.1747946739196777,
+        "knob_body_top_panel_z_mm": 17.57479476928711,
+        "knob_pointer_top_panel_z_mm": 17.73479652404785,
+        "panel_gap_mm": 0.5999946739196778,
+        "nominal_insertion_mm": 16.003950595855713,
+        "exterior_top_margin_mm": -0.6039505004882812,
+        "assumed_internal_top_clearance_mm": -1.1039505004882812,
+        "bushing_to_knob_underside_clearance_mm": 0.4960494041442871
+      },
+      "minimum_elevation_mm": {
+        "for_0p5_exterior_top_margin": 1.1039505004882812,
+        "for_assumed_0p5_roof_and_0p5_internal_clearance": 1.6039505004882812,
+        "to_clear_published_bushing_by_0p1": 0
+      },
+      "proposed": {
+        "elevation_mm": 1.7,
+        "translation_in_front_source_frame_mm": [
+          0,
+          0,
+          1.7
+        ],
+        "world_translation_m": [
+          0.0,
+          -0.00043999237418174743,
+          0.001642073678970337
+        ],
+        "knob_bottom_panel_z_mm": 3.874794673919678,
+        "knob_body_top_panel_z_mm": 19.27479476928711,
+        "knob_pointer_top_panel_z_mm": 19.43479652404785,
+        "panel_gap_mm": 2.299994673919678,
+        "nominal_insertion_mm": 14.303950595855714,
+        "nominal_flat_engagement_mm": 12,
+        "nominal_round_section_below_flat_inside_envelope_mm": 2.3039505958557136,
+        "exterior_top_margin_mm": 1.096049499511718,
+        "assumed_internal_top_clearance_mm": 0.596049499511718,
+        "bushing_to_knob_underside_clearance_mm": 2.1960494041442873,
+        "exposed_shaft_between_knob_and_panel_or_bushing_mm": 2.1960494041442873,
+        "objects_to_translate_together": [
+          "VR7 / knob skirt proxy",
+          "VR7 / BOM dimension knob proxy",
+          "VR7 / pointer proxy",
+          "VR7 / pointer body projection proxy"
+        ]
+      },
+      "witness": {
+        "shaft_maximum_panel_mm": [
+          204.64503479003906,
+          144.22120666503906,
+          18.17874526977539
+        ],
+        "shaft_maximum_world_m": [
+          0.08844002795219422,
+          0.15729486375284274,
+          0.08683971261090573
+        ],
+        "knob_body_maximum_panel_mm": [
+          207.64501953125,
+          149.22119140625,
+          17.57479476928711
+        ],
+        "knob_body_maximum_world_m": [
+          0.09144001269340515,
+          0.1622807913724862,
+          0.08755043257379111
+        ],
+        "native_bounds_panel_mm": {
+          "min_mm": [
+            202.79502868652344,
+            138.22120666503906,
+            -11.821258544921875
+          ],
+          "max_mm": [
+            212.49502563476562,
+            150.72120666503906,
+            18.17874526977539
+          ],
+          "size_mm": [
+            9.699996948242188,
+            12.5,
+            30.000003814697266
+          ],
+          "maximum_normal_witness_panel_mm": [
+            204.64503479003906,
+            144.22120666503906,
+            18.17874526977539
+          ]
+        },
+        "proxy_bounds_current_panel_mm": {
+          "min_mm": [
+            201.04501342773438,
+            137.62120056152344,
+            2.1747946739196777
+          ],
+          "max_mm": [
+            214.24502563476562,
+            151.62118530273438,
+            17.73479652404785
+          ],
+          "size_mm": [
+            13.20001220703125,
+            13.999984741210938,
+            15.560001850128174
+          ],
+          "maximum_normal_witness_panel_mm": [
+            207.07501220703125,
+            145.1011962890625,
+            17.73479652404785
+          ]
+        }
+      },
+      "status": "Presentation-only seating proposal. Full native nominal body/shaft retained; no vendor bore/grip or fitted-seat qualification."
+    },
+    {
+      "reference": "VR8",
+      "shaft_family": "Panasonic_EVUF2LFL3_BodyIllustration",
+      "knob_family": "Eagle 450-4760",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf"
+      ],
+      "nominal_shaft_tip_from_mounting_datum_mm": 30.0,
+      "nominal_shaft_flat_length_mm": 12,
+      "shaft_tip_panel_z_mm": 18.178747177124023,
+      "bushing_top_panel_z_mm": 1.6787471771240234,
+      "current": {
+        "knob_bottom_panel_z_mm": 2.174795627593994,
+        "knob_body_top_panel_z_mm": 17.574796676635742,
+        "knob_pointer_top_panel_z_mm": 17.734798431396484,
+        "panel_gap_mm": 0.5999956275939942,
+        "nominal_insertion_mm": 16.00395154953003,
+        "exterior_top_margin_mm": -0.6039505004882812,
+        "assumed_internal_top_clearance_mm": -1.1039505004882812,
+        "bushing_to_knob_underside_clearance_mm": 0.4960484504699707
+      },
+      "minimum_elevation_mm": {
+        "for_0p5_exterior_top_margin": 1.1039505004882812,
+        "for_assumed_0p5_roof_and_0p5_internal_clearance": 1.6039505004882812,
+        "to_clear_published_bushing_by_0p1": 0
+      },
+      "proposed": {
+        "elevation_mm": 1.7,
+        "translation_in_front_source_frame_mm": [
+          0,
+          0,
+          1.7
+        ],
+        "world_translation_m": [
+          0.0,
+          -0.00043999237418174743,
+          0.001642073678970337
+        ],
+        "knob_bottom_panel_z_mm": 3.8747956275939943,
+        "knob_body_top_panel_z_mm": 19.27479667663574,
+        "knob_pointer_top_panel_z_mm": 19.434798431396484,
+        "panel_gap_mm": 2.2999956275939946,
+        "nominal_insertion_mm": 14.30395154953003,
+        "nominal_flat_engagement_mm": 12,
+        "nominal_round_section_below_flat_inside_envelope_mm": 2.30395154953003,
+        "exterior_top_margin_mm": 1.096049499511718,
+        "assumed_internal_top_clearance_mm": 0.596049499511718,
+        "bushing_to_knob_underside_clearance_mm": 2.196048450469971,
+        "exposed_shaft_between_knob_and_panel_or_bushing_mm": 2.196048450469971,
+        "objects_to_translate_together": [
+          "VR8 / knob skirt proxy",
+          "VR8 / BOM dimension knob proxy",
+          "VR8 / pointer proxy",
+          "VR8 / pointer body projection proxy"
+        ]
+      },
+      "witness": {
+        "shaft_maximum_panel_mm": [
+          208.45504760742188,
+          108.4580078125,
+          18.178747177124023
+        ],
+        "shaft_maximum_world_m": [
+          0.09225004076957702,
+          0.12275027060533955,
+          0.07758351752887302
+        ],
+        "knob_body_maximum_panel_mm": [
+          211.45501708984375,
+          113.45800018310547,
+          17.574796676635742
+        ],
+        "knob_body_maximum_world_m": [
+          0.09525001025199889,
+          0.12773620559441123,
+          0.078294239466391
+        ],
+        "native_bounds_panel_mm": {
+          "min_mm": [
+            206.6050262451172,
+            102.45800018310547,
+            -11.821256637573242
+          ],
+          "max_mm": [
+            216.30503845214844,
+            114.95800018310547,
+            18.178747177124023
+          ],
+          "size_mm": [
+            9.70001220703125,
+            12.5,
+            30.000003814697266
+          ],
+          "maximum_normal_witness_panel_mm": [
+            208.45504760742188,
+            108.4580078125,
+            18.178747177124023
+          ]
+        },
+        "proxy_bounds_current_panel_mm": {
+          "min_mm": [
+            204.8550262451172,
+            101.85799407958984,
+            2.174795627593994
+          ],
+          "max_mm": [
+            218.0550079345703,
+            115.85800170898438,
+            17.734798431396484
+          ],
+          "size_mm": [
+            13.199981689453125,
+            14.000007629394531,
+            15.56000280380249
+          ],
+          "maximum_normal_witness_panel_mm": [
+            210.88502502441406,
+            109.33799743652344,
+            17.734798431396484
+          ]
+        }
+      },
+      "status": "Presentation-only seating proposal. Full native nominal body/shaft retained; no vendor bore/grip or fitted-seat qualification."
+    },
+    {
+      "reference": "S2",
+      "shaft_family": "CTS_290VAA5F201B2_BodyIllustration",
+      "knob_family": "Eagle 450-4760",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.ctscorp.com/Files/DataSheets/Encoders/encoders-290-datasheet.pdf"
+      ],
+      "nominal_shaft_tip_from_mounting_datum_mm": 21.2,
+      "nominal_shaft_flat_length_mm": 7,
+      "shaft_tip_panel_z_mm": 9.37877368927002,
+      "bushing_top_panel_z_mm": -0.6212263107299805,
+      "current": {
+        "knob_bottom_panel_z_mm": 2.174795627593994,
+        "knob_body_top_panel_z_mm": 17.574796676635742,
+        "knob_pointer_top_panel_z_mm": 17.734798431396484,
+        "panel_gap_mm": 0.5999956275939942,
+        "nominal_insertion_mm": 7.203978061676025,
+        "exterior_top_margin_mm": 8.196022987365723,
+        "assumed_internal_top_clearance_mm": 7.696022987365723,
+        "bushing_to_knob_underside_clearance_mm": 2.7960219383239746
+      },
+      "minimum_elevation_mm": {
+        "for_0p5_exterior_top_margin": 0,
+        "for_assumed_0p5_roof_and_0p5_internal_clearance": 0,
+        "to_clear_published_bushing_by_0p1": 0
+      },
+      "proposed": {
+        "elevation_mm": 1.7,
+        "translation_in_front_source_frame_mm": [
+          0,
+          0,
+          1.7
+        ],
+        "world_translation_m": [
+          0.0,
+          -0.00043999237418174743,
+          0.001642073678970337
+        ],
+        "knob_bottom_panel_z_mm": 3.8747956275939943,
+        "knob_body_top_panel_z_mm": 19.27479667663574,
+        "knob_pointer_top_panel_z_mm": 19.434798431396484,
+        "panel_gap_mm": 2.2999956275939946,
+        "nominal_insertion_mm": 5.503978061676025,
+        "nominal_flat_engagement_mm": 5.503978061676025,
+        "nominal_round_section_below_flat_inside_envelope_mm": 0,
+        "exterior_top_margin_mm": 9.896022987365722,
+        "assumed_internal_top_clearance_mm": 9.396022987365722,
+        "bushing_to_knob_underside_clearance_mm": 4.496021938323975,
+        "exposed_shaft_between_knob_and_panel_or_bushing_mm": 2.2999956275939946,
+        "objects_to_translate_together": [
+          "S2 / knob skirt proxy",
+          "S2 / BOM dimension knob proxy",
+          "S2 / pointer proxy",
+          "S2 / pointer body projection proxy"
+        ]
+      },
+      "witness": {
+        "shaft_maximum_panel_mm": [
+          18.356958389282227,
+          106.95801544189453,
+          9.37877368927002
+        ],
+        "shaft_maximum_world_m": [
+          -0.09784804844856262,
+          0.12357899015665116,
+          0.06869517044390885
+        ],
+        "knob_body_maximum_panel_mm": [
+          20.955015182495117,
+          113.45800018310547,
+          17.574796676635742
+        ],
+        "knob_body_maximum_world_m": [
+          -0.09524999165534973,
+          0.12773620559441123,
+          0.078294239466391
+        ],
+        "native_bounds_panel_mm": {
+          "min_mm": [
+            16.055030822753906,
+            103.3580093383789,
+            -11.821228981018066
+          ],
+          "max_mm": [
+            25.855031967163086,
+            113.95801544189453,
+            9.37877368927002
+          ],
+          "size_mm": [
+            9.80000114440918,
+            10.600006103515625,
+            21.200002670288086
+          ],
+          "maximum_normal_witness_panel_mm": [
+            18.356958389282227,
+            106.95801544189453,
+            9.37877368927002
+          ]
+        },
+        "proxy_bounds_current_panel_mm": {
+          "min_mm": [
+            14.35501480102539,
+            101.85799407958984,
+            2.174795627593994
+          ],
+          "max_mm": [
+            27.555015563964844,
+            115.85800170898438,
+            17.734798431396484
+          ],
+          "size_mm": [
+            13.200000762939453,
+            14.000007629394531,
+            15.56000280380249
+          ],
+          "maximum_normal_witness_panel_mm": [
+            20.3850154876709,
+            109.33799743652344,
+            17.734798431396484
+          ]
+        }
+      },
+      "status": "Presentation-only seating proposal. Full native nominal body/shaft retained; no vendor bore/grip or fitted-seat qualification."
+    },
+    {
+      "reference": "S3",
+      "shaft_family": "Grayhill_25LB22H_BodyIllustration",
+      "knob_family": "Davies 1510AH",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://grayhill.com/wp-content/uploads/media/25l-datasheet.pdf"
+      ],
+      "nominal_shaft_tip_from_mounting_datum_mm": 27.760000000000005,
+      "nominal_shaft_flat_length_mm": 6.35,
+      "shaft_tip_panel_z_mm": 15.938772201538086,
+      "bushing_top_panel_z_mm": 3.2387722015380813,
+      "current": {
+        "knob_bottom_panel_z_mm": 2.174795389175415,
+        "knob_body_top_panel_z_mm": 16.39879608154297,
+        "knob_pointer_top_panel_z_mm": 16.558795928955078,
+        "panel_gap_mm": 0.5999953891754151,
+        "nominal_insertion_mm": 13.763976812362671,
+        "exterior_top_margin_mm": 0.4600238800048828,
+        "assumed_internal_top_clearance_mm": -0.03997611999511719,
+        "bushing_to_knob_underside_clearance_mm": -1.0639768123626663
+      },
+      "minimum_elevation_mm": {
+        "for_0p5_exterior_top_margin": 0.03997611999511719,
+        "for_assumed_0p5_roof_and_0p5_internal_clearance": 0.5399761199951172,
+        "to_clear_published_bushing_by_0p1": 1.1639768123626664
+      },
+      "proposed": {
+        "elevation_mm": 1.2,
+        "translation_in_front_source_frame_mm": [
+          0,
+          0,
+          1.2
+        ],
+        "world_translation_m": [
+          0.0,
+          -0.0003105828523635864,
+          0.0011591108322143555
+        ],
+        "knob_bottom_panel_z_mm": 3.374795389175415,
+        "knob_body_top_panel_z_mm": 17.598796081542968,
+        "knob_pointer_top_panel_z_mm": 17.758795928955077,
+        "panel_gap_mm": 1.7999953891754152,
+        "nominal_insertion_mm": 12.563976812362672,
+        "nominal_flat_engagement_mm": 6.35,
+        "nominal_round_section_below_flat_inside_envelope_mm": 6.213976812362672,
+        "exterior_top_margin_mm": 1.660023880004882,
+        "assumed_internal_top_clearance_mm": 1.160023880004882,
+        "bushing_to_knob_underside_clearance_mm": 0.1360231876373339,
+        "exposed_shaft_between_knob_and_panel_or_bushing_mm": 0.1360231876373339,
+        "objects_to_translate_together": [
+          "S3 / knob skirt proxy",
+          "S3 / BOM dimension knob proxy",
+          "S3 / pointer proxy"
+        ]
+      },
+      "witness": {
+        "shaft_maximum_panel_mm": [
+          58.22922897338867,
+          106.07301330566406,
+          15.938772201538086
+        ],
+        "shaft_maximum_world_m": [
+          -0.05797577786445618,
+          0.12102629131325228,
+          0.07480258614979357
+        ],
+        "knob_body_maximum_panel_mm": [
+          69.14060974121094,
+          107.58973693847656,
+          16.39879608154297
+        ],
+        "knob_body_maximum_world_m": [
+          -0.04706439709663392,
+          0.12237227069946995,
+          0.07563949199522449
+        ],
+        "native_bounds_panel_mm": {
+          "min_mm": [
+            48.57502746582031,
+            93.53301239013672,
+            -11.821236610412598
+          ],
+          "max_mm": [
+            72.07503509521484,
+            119.4430160522461,
+            15.938772201538086
+          ],
+          "size_mm": [
+            23.50000762939453,
+            25.910003662109375,
+            27.760008811950684
+          ],
+          "maximum_normal_witness_panel_mm": [
+            58.22922897338867,
+            106.07301330566406,
+            15.938772201538086
+          ]
+        },
+        "proxy_bounds_current_panel_mm": {
+          "min_mm": [
+            50.80001449584961,
+            98.93299865722656,
+            2.174795389175415
+          ],
+          "max_mm": [
+            69.85001373291016,
+            117.98300170898438,
+            16.558795928955078
+          ],
+          "size_mm": [
+            19.049999237060547,
+            19.050003051757812,
+            14.384000539779663
+          ],
+          "maximum_normal_witness_panel_mm": [
+            60.0050163269043,
+            111.30570983886719,
+            16.558795928955078
+          ]
+        }
+      },
+      "status": "Presentation-only seating proposal. Full native nominal body/shaft retained; no vendor bore/grip or fitted-seat qualification."
+    },
+    {
+      "reference": "S4",
+      "shaft_family": "Grayhill_25LB22H_BodyIllustration",
+      "knob_family": "Davies 1510AH",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://grayhill.com/wp-content/uploads/media/25l-datasheet.pdf"
+      ],
+      "nominal_shaft_tip_from_mounting_datum_mm": 27.760000000000005,
+      "nominal_shaft_flat_length_mm": 6.35,
+      "shaft_tip_panel_z_mm": 15.938762664794922,
+      "bushing_top_panel_z_mm": 3.2387626647949173,
+      "current": {
+        "knob_bottom_panel_z_mm": 2.174795389175415,
+        "knob_body_top_panel_z_mm": 16.39879608154297,
+        "knob_pointer_top_panel_z_mm": 16.558795928955078,
+        "panel_gap_mm": 0.5999953891754151,
+        "nominal_insertion_mm": 13.763967275619507,
+        "exterior_top_margin_mm": 0.4600334167480469,
+        "assumed_internal_top_clearance_mm": -0.039966583251953125,
+        "bushing_to_knob_underside_clearance_mm": -1.0639672756195022
+      },
+      "minimum_elevation_mm": {
+        "for_0p5_exterior_top_margin": 0.039966583251953125,
+        "for_assumed_0p5_roof_and_0p5_internal_clearance": 0.5399665832519531,
+        "to_clear_published_bushing_by_0p1": 1.1639672756195023
+      },
+      "proposed": {
+        "elevation_mm": 1.2,
+        "translation_in_front_source_frame_mm": [
+          0,
+          0,
+          1.2
+        ],
+        "world_translation_m": [
+          0.0,
+          -0.0003105828523635864,
+          0.0011591108322143555
+        ],
+        "knob_bottom_panel_z_mm": 3.374795389175415,
+        "knob_body_top_panel_z_mm": 17.598796081542968,
+        "knob_pointer_top_panel_z_mm": 17.758795928955077,
+        "panel_gap_mm": 1.7999953891754152,
+        "nominal_insertion_mm": 12.563967275619508,
+        "nominal_flat_engagement_mm": 6.35,
+        "nominal_round_section_below_flat_inside_envelope_mm": 6.213967275619508,
+        "exterior_top_margin_mm": 1.6600334167480462,
+        "assumed_internal_top_clearance_mm": 1.1600334167480462,
+        "bushing_to_knob_underside_clearance_mm": 0.13603272438049796,
+        "exposed_shaft_between_knob_and_panel_or_bushing_mm": 0.13603272438049796,
+        "objects_to_translate_together": [
+          "S4 / knob skirt proxy",
+          "S4 / BOM dimension knob proxy",
+          "S4 / pointer proxy"
+        ]
+      },
+      "witness": {
+        "shaft_maximum_panel_mm": [
+          119.38003540039062,
+          108.45801544189453,
+          15.938762664794922
+        ],
+        "shaft_maximum_world_m": [
+          0.0031750285625457703,
+          0.12333002862400894,
+          0.07541986090997807
+        ],
+        "knob_body_maximum_panel_mm": [
+          125.0206069946289,
+          107.58973693847656,
+          16.39879608154297
+        ],
+        "knob_body_maximum_world_m": [
+          0.008815600156784065,
+          0.12237227069946995,
+          0.07563949199522449
+        ],
+        "native_bounds_panel_mm": {
+          "min_mm": [
+            104.45503234863281,
+            93.53301239013672,
+            -11.821245193481445
+          ],
+          "max_mm": [
+            127.95503234863281,
+            119.4430160522461,
+            15.938762664794922
+          ],
+          "size_mm": [
+            23.5,
+            25.910003662109375,
+            27.760007858276367
+          ],
+          "maximum_normal_witness_panel_mm": [
+            119.38003540039062,
+            108.45801544189453,
+            15.938762664794922
+          ]
+        },
+        "proxy_bounds_current_panel_mm": {
+          "min_mm": [
+            106.68001556396484,
+            98.93299865722656,
+            2.174795389175415
+          ],
+          "max_mm": [
+            125.73001098632812,
+            117.98300170898438,
+            16.558795928955078
+          ],
+          "size_mm": [
+            19.04999542236328,
+            19.050003051757812,
+            14.384000539779663
+          ],
+          "maximum_normal_witness_panel_mm": [
+            115.885009765625,
+            111.30570983886719,
+            16.558795928955078
+          ]
+        }
+      },
+      "status": "Presentation-only seating proposal. Full native nominal body/shaft retained; no vendor bore/grip or fitted-seat qualification."
+    }
+  ],
+  "switch_caps": [
+    {
+      "reference": "S5",
+      "object": "S5 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          6.650014877319336,
+          50.13600158691406,
+          -6.925202369689941
+        ],
+        "max_mm": [
+          18.750015258789062,
+          56.03600311279297,
+          4.074797630310059
+        ],
+        "size_mm": [
+          12.100000381469727,
+          5.900001525878906,
+          11.0
+        ],
+        "maximum_normal_witness_panel_mm": [
+          18.200016021728516,
+          50.68600082397461,
+          4.074797630310059
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.499997630310059,
+      "actuator_tip_panel_z_mm": -4.5212202072143555,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403982162475586,
+      "actuator_tip_below_cap_top_mm": 8.596017837524414,
+      "cap_bottom_above_switch_cover_mm": 0.4960178375244144,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039821624755852,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.3000148773193363,
+        0.2999847412109382,
+        0.22500158691406114,
+        0.22499688720703404
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22499688720703404,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S6",
+      "object": "S6 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          25.700016021728516,
+          50.13600158691406,
+          -6.925202369689941
+        ],
+        "max_mm": [
+          37.800018310546875,
+          56.03600311279297,
+          4.074797630310059
+        ],
+        "size_mm": [
+          12.10000228881836,
+          5.900001525878906,
+          11.0
+        ],
+        "maximum_normal_witness_panel_mm": [
+          37.25001525878906,
+          50.68600082397461,
+          4.074797630310059
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.499997630310059,
+      "actuator_tip_panel_z_mm": -4.5212225914001465,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403979778289795,
+      "actuator_tip_below_cap_top_mm": 8.596020221710205,
+      "cap_bottom_above_switch_cover_mm": 0.49602022171020543,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039797782897942,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.30001602172851705,
+        0.2999816894531264,
+        0.22500158691406114,
+        0.22499688720703404
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22499688720703404,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S7",
+      "object": "S7 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          57.75601577758789,
+          45.51199722290039,
+          -6.925202369689941
+        ],
+        "max_mm": [
+          63.6560173034668,
+          57.612003326416016,
+          4.074797630310059
+        ],
+        "size_mm": [
+          5.900001525878906,
+          12.100006103515625,
+          11.0
+        ],
+        "maximum_normal_witness_panel_mm": [
+          58.30601501464844,
+          46.0620002746582,
+          4.074797630310059
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.499997630310059,
+      "actuator_tip_panel_z_mm": -4.5212273597717285,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403975009918213,
+      "actuator_tip_below_cap_top_mm": 8.596024990081787,
+      "cap_bottom_above_switch_cover_mm": 0.49602499008178746,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039750099182122,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.22501577758789182,
+        0.22498269653320335,
+        0.29999722290038733,
+        0.2999966735839834
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22498269653320335,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S8",
+      "object": "S8 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          73.75801086425781,
+          45.51199722290039,
+          -6.925202369689941
+        ],
+        "max_mm": [
+          79.65801239013672,
+          57.612003326416016,
+          4.074797630310059
+        ],
+        "size_mm": [
+          5.900001525878906,
+          12.100006103515625,
+          11.0
+        ],
+        "maximum_normal_witness_panel_mm": [
+          74.3080062866211,
+          46.0620002746582,
+          4.074797630310059
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.499997630310059,
+      "actuator_tip_panel_z_mm": -4.521229267120361,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.40397310256958,
+      "actuator_tip_below_cap_top_mm": 8.59602689743042,
+      "cap_bottom_above_switch_cover_mm": 0.4960268974304203,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039731025695794,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.22501086425781125,
+        0.22498760986327682,
+        0.29999722290038733,
+        0.2999966735839834
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22498760986327682,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S9",
+      "object": "S9 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          105.76201629638672,
+          45.51199722290039,
+          -6.925202369689941
+        ],
+        "max_mm": [
+          111.66201782226562,
+          57.612003326416016,
+          4.074797630310059
+        ],
+        "size_mm": [
+          5.900001525878906,
+          12.100006103515625,
+          11.0
+        ],
+        "maximum_normal_witness_panel_mm": [
+          106.31201171875,
+          46.0620002746582,
+          4.074797630310059
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.499997630310059,
+      "actuator_tip_panel_z_mm": -4.521234035491943,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403968334197998,
+      "actuator_tip_below_cap_top_mm": 8.596031665802002,
+      "cap_bottom_above_switch_cover_mm": 0.4960316658020023,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039683341979973,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.2250162963867126,
+        0.22498217773437545,
+        0.29999722290038733,
+        0.2999966735839834
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22498217773437545,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S10",
+      "object": "S10 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          121.76402282714844,
+          45.51199722290039,
+          -6.925202369689941
+        ],
+        "max_mm": [
+          127.66401672363281,
+          57.612003326416016,
+          4.074797630310059
+        ],
+        "size_mm": [
+          5.899993896484375,
+          12.100006103515625,
+          11.0
+        ],
+        "maximum_normal_witness_panel_mm": [
+          122.31401062011719,
+          46.0620002746582,
+          4.074797630310059
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.499997630310059,
+      "actuator_tip_panel_z_mm": -4.521236896514893,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403965473175049,
+      "actuator_tip_below_cap_top_mm": 8.596034526824951,
+      "cap_bottom_above_switch_cover_mm": 0.4960345268249515,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039654731750481,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.22502282714843602,
+        0.2249832763671833,
+        0.29999722290038733,
+        0.2999966735839834
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.2249832763671833,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S11",
+      "object": "S11 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          137.76602172851562,
+          45.51199722290039,
+          -6.925202369689941
+        ],
+        "max_mm": [
+          143.666015625,
+          57.612003326416016,
+          4.074797630310059
+        ],
+        "size_mm": [
+          5.899993896484375,
+          12.100006103515625,
+          11.0
+        ],
+        "maximum_normal_witness_panel_mm": [
+          138.31602478027344,
+          46.0620002746582,
+          4.074797630310059
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.499997630310059,
+      "actuator_tip_panel_z_mm": -4.521238803863525,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403963565826416,
+      "actuator_tip_below_cap_top_mm": 8.596036434173584,
+      "cap_bottom_above_switch_cover_mm": 0.49603643417358434,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039635658264153,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.22502172851562818,
+        0.22498437499999113,
+        0.29999722290038733,
+        0.2999966735839834
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22498437499999113,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S12",
+      "object": "S12 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          176.7550048828125,
+          45.51199722290039,
+          -6.925202369689941
+        ],
+        "max_mm": [
+          182.65501403808594,
+          57.612003326416016,
+          4.074797630310059
+        ],
+        "size_mm": [
+          5.9000091552734375,
+          12.100006103515625,
+          11.0
+        ],
+        "maximum_normal_witness_panel_mm": [
+          177.3050079345703,
+          46.0620002746582,
+          4.074797630310059
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.499997630310059,
+      "actuator_tip_panel_z_mm": -4.521244049072266,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403958320617676,
+      "actuator_tip_below_cap_top_mm": 8.596041679382324,
+      "cap_bottom_above_switch_cover_mm": 0.4960416793823246,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039583206176751,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.22500488281249886,
+        0.22498596191405795,
+        0.29999722290038733,
+        0.2999966735839834
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22498596191405795,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S13",
+      "object": "S13 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          192.7570037841797,
+          45.51199722290039,
+          -6.925202369689941
+        ],
+        "max_mm": [
+          198.65701293945312,
+          57.612003326416016,
+          4.074797630310059
+        ],
+        "size_mm": [
+          5.9000091552734375,
+          12.100006103515625,
+          11.0
+        ],
+        "maximum_normal_witness_panel_mm": [
+          193.3070068359375,
+          46.0620002746582,
+          4.074797630310059
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.499997630310059,
+      "actuator_tip_panel_z_mm": -4.521246910095215,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.4039554595947266,
+      "actuator_tip_below_cap_top_mm": 8.596044540405273,
+      "cap_bottom_above_switch_cover_mm": 0.4960445404052738,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039554595947259,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.2250037841796768,
+        0.22498706054688,
+        0.29999722290038733,
+        0.2999966735839834
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22498706054688,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S14",
+      "object": "S14 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          213.66001892089844,
+          50.13600158691406,
+          -6.925202369689941
+        ],
+        "max_mm": [
+          225.76002502441406,
+          56.03600311279297,
+          4.074797630310059
+        ],
+        "size_mm": [
+          12.100006103515625,
+          5.900001525878906,
+          11.0
+        ],
+        "maximum_normal_witness_panel_mm": [
+          225.21002197265625,
+          50.68600082397461,
+          4.074797630310059
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.499997630310059,
+      "actuator_tip_panel_z_mm": -4.5212507247924805,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403951644897461,
+      "actuator_tip_below_cap_top_mm": 8.596048355102539,
+      "cap_bottom_above_switch_cover_mm": 0.4960483551025394,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039516448974602,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.30001892089842386,
+        0.2999749755859398,
+        0.22500158691406114,
+        0.22499688720703404
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22499688720703404,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S15",
+      "object": "S15 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          6.650014877319336,
+          23.9739990234375,
+          -6.925201892852783
+        ],
+        "max_mm": [
+          18.750015258789062,
+          29.873998641967773,
+          4.074798583984375
+        ],
+        "size_mm": [
+          12.100000381469727,
+          5.899999618530273,
+          11.000000476837158
+        ],
+        "maximum_normal_witness_panel_mm": [
+          18.200016021728516,
+          24.52400016784668,
+          4.074798583984375
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.4999985839843752,
+      "actuator_tip_panel_z_mm": -4.521219253540039,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403982639312744,
+      "actuator_tip_below_cap_top_mm": 8.596017837524414,
+      "cap_bottom_above_switch_cover_mm": 0.4960173606872562,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039826393127434,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.3000148773193363,
+        0.2999847412109382,
+        0.22499902343750122,
+        0.22500135803222676
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22499902343750122,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S16",
+      "object": "S16 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          25.700016021728516,
+          23.9739990234375,
+          -6.925201892852783
+        ],
+        "max_mm": [
+          37.800018310546875,
+          29.873998641967773,
+          4.074798583984375
+        ],
+        "size_mm": [
+          12.10000228881836,
+          5.899999618530273,
+          11.000000476837158
+        ],
+        "maximum_normal_witness_panel_mm": [
+          37.25001525878906,
+          24.52400016784668,
+          4.074798583984375
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.4999985839843752,
+      "actuator_tip_panel_z_mm": -4.52122163772583,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403980255126953,
+      "actuator_tip_below_cap_top_mm": 8.596020221710205,
+      "cap_bottom_above_switch_cover_mm": 0.49601974487304723,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039802551269524,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.30001602172851705,
+        0.2999816894531264,
+        0.22499902343750122,
+        0.22500135803222676
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22499902343750122,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S17",
+      "object": "S17 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          49.7550163269043,
+          19.350000381469727,
+          -6.925201892852783
+        ],
+        "max_mm": [
+          55.6550178527832,
+          31.44999885559082,
+          4.074798583984375
+        ],
+        "size_mm": [
+          5.900001525878906,
+          12.099998474121094,
+          11.000000476837158
+        ],
+        "maximum_normal_witness_panel_mm": [
+          50.305015563964844,
+          19.899999618530273,
+          4.074798583984375
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.4999985839843752,
+      "actuator_tip_panel_z_mm": -4.521224498748779,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403977394104004,
+      "actuator_tip_below_cap_top_mm": 8.596023082733154,
+      "cap_bottom_above_switch_cover_mm": 0.49602260589599645,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039773941040032,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.22501632690429574,
+        0.22498214721679943,
+        0.30000038146972585,
+        0.3000011444091797
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22498214721679943,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S18",
+      "object": "S18 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          65.75701141357422,
+          19.350000381469727,
+          -6.925201892852783
+        ],
+        "max_mm": [
+          71.65701293945312,
+          31.44999885559082,
+          4.074798583984375
+        ],
+        "size_mm": [
+          5.900001525878906,
+          12.099998474121094,
+          11.000000476837158
+        ],
+        "maximum_normal_witness_panel_mm": [
+          66.3070068359375,
+          19.899999618530273,
+          4.074798583984375
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.4999985839843752,
+      "actuator_tip_panel_z_mm": -4.521226406097412,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403975486755371,
+      "actuator_tip_below_cap_top_mm": 8.596024990081787,
+      "cap_bottom_above_switch_cover_mm": 0.49602451324462926,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039754867553704,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.22501141357422227,
+        0.22498706054688,
+        0.30000038146972585,
+        0.3000011444091797
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22498706054688,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S19",
+      "object": "S19 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          81.75901794433594,
+          19.350000381469727,
+          -6.925201892852783
+        ],
+        "max_mm": [
+          87.65901947021484,
+          31.44999885559082,
+          4.074798583984375
+        ],
+        "size_mm": [
+          5.900001525878906,
+          12.099998474121094,
+          11.000000476837158
+        ],
+        "maximum_normal_witness_panel_mm": [
+          82.30901336669922,
+          19.899999618530273,
+          4.074798583984375
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.4999985839843752,
+      "actuator_tip_panel_z_mm": -4.521229267120361,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403972625732422,
+      "actuator_tip_below_cap_top_mm": 8.596027851104736,
+      "cap_bottom_above_switch_cover_mm": 0.4960273742675785,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039726257324212,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.22501794433593147,
+        0.2249805297851566,
+        0.30000038146972585,
+        0.3000011444091797
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.2249805297851566,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S20",
+      "object": "S20 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          97.76101684570312,
+          19.350000381469727,
+          -6.925201892852783
+        ],
+        "max_mm": [
+          103.66101837158203,
+          31.44999885559082,
+          4.074798583984375
+        ],
+        "size_mm": [
+          5.900001525878906,
+          12.099998474121094,
+          11.000000476837158
+        ],
+        "maximum_normal_witness_panel_mm": [
+          98.3110122680664,
+          19.899999618530273,
+          4.074798583984375
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.4999985839843752,
+      "actuator_tip_panel_z_mm": -4.521231174468994,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403970718383789,
+      "actuator_tip_below_cap_top_mm": 8.59602975845337,
+      "cap_bottom_above_switch_cover_mm": 0.4960292816162113,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039707183837884,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.22501684570312364,
+        0.22498162841796443,
+        0.30000038146972585,
+        0.3000011444091797
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22498162841796443,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S21",
+      "object": "S21 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          113.76301574707031,
+          19.350000381469727,
+          -6.925201892852783
+        ],
+        "max_mm": [
+          119.66301727294922,
+          31.44999885559082,
+          4.074798583984375
+        ],
+        "size_mm": [
+          5.900001525878906,
+          12.099998474121094,
+          11.000000476837158
+        ],
+        "maximum_normal_witness_panel_mm": [
+          114.3130111694336,
+          19.899999618530273,
+          4.074798583984375
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.4999985839843752,
+      "actuator_tip_panel_z_mm": -4.521234035491943,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.40396785736084,
+      "actuator_tip_below_cap_top_mm": 8.596032619476318,
+      "cap_bottom_above_switch_cover_mm": 0.4960321426391605,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039678573608391,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.2250157470703158,
+        0.22498272705078648,
+        0.30000038146972585,
+        0.3000011444091797
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22498272705078648,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S22",
+      "object": "S22 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          129.7650146484375,
+          19.350000381469727,
+          -6.925201892852783
+        ],
+        "max_mm": [
+          135.66500854492188,
+          31.44999885559082,
+          4.074798583984375
+        ],
+        "size_mm": [
+          5.899993896484375,
+          12.099998474121094,
+          11.000000476837158
+        ],
+        "maximum_normal_witness_panel_mm": [
+          130.3150177001953,
+          19.899999618530273,
+          4.074798583984375
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.4999985839843752,
+      "actuator_tip_panel_z_mm": -4.521235942840576,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403965950012207,
+      "actuator_tip_below_cap_top_mm": 8.596034526824951,
+      "cap_bottom_above_switch_cover_mm": 0.4960340499877933,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039659500122063,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.22501464843750796,
+        0.22499145507811136,
+        0.30000038146972585,
+        0.3000011444091797
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22499145507811136,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S23",
+      "object": "S23 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          145.7670135498047,
+          19.350000381469727,
+          -6.925201892852783
+        ],
+        "max_mm": [
+          151.66700744628906,
+          31.44999885559082,
+          4.074798583984375
+        ],
+        "size_mm": [
+          5.899993896484375,
+          12.099998474121094,
+          11.000000476837158
+        ],
+        "maximum_normal_witness_panel_mm": [
+          146.3170166015625,
+          19.899999618530273,
+          4.074798583984375
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.4999985839843752,
+      "actuator_tip_panel_z_mm": -4.521238803863525,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403963088989258,
+      "actuator_tip_below_cap_top_mm": 8.5960373878479,
+      "cap_bottom_above_switch_cover_mm": 0.49603691101074254,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039630889892571,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.2250135498046859,
+        0.2249925537109334,
+        0.30000038146972585,
+        0.3000011444091797
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.2249925537109334,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S24",
+      "object": "S24 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          161.76901245117188,
+          19.350000381469727,
+          -6.925201892852783
+        ],
+        "max_mm": [
+          167.66900634765625,
+          31.44999885559082,
+          4.074798583984375
+        ],
+        "size_mm": [
+          5.899993896484375,
+          12.099998474121094,
+          11.000000476837158
+        ],
+        "maximum_normal_witness_panel_mm": [
+          162.3190155029297,
+          19.899999618530273,
+          4.074798583984375
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.4999985839843752,
+      "actuator_tip_panel_z_mm": -4.521240711212158,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.403961181640625,
+      "actuator_tip_below_cap_top_mm": 8.596039295196533,
+      "cap_bottom_above_switch_cover_mm": 0.49603881835937536,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039611816406243,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.22501245117186386,
+        0.22499365234375546,
+        0.30000038146972585,
+        0.3000011444091797
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22499365234375546,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S25",
+      "object": "S25 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          184.75601196289062,
+          19.350000381469727,
+          -6.925201892852783
+        ],
+        "max_mm": [
+          190.656005859375,
+          31.44999885559082,
+          4.074798583984375
+        ],
+        "size_mm": [
+          5.899993896484375,
+          12.099998474121094,
+          11.000000476837158
+        ],
+        "maximum_normal_witness_panel_mm": [
+          185.30601501464844,
+          19.899999618530273,
+          4.074798583984375
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.4999985839843752,
+      "actuator_tip_panel_z_mm": -4.521244049072266,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.4039578437805176,
+      "actuator_tip_below_cap_top_mm": 8.59604263305664,
+      "cap_bottom_above_switch_cover_mm": 0.4960421562194828,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039578437805169,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.2250119628906191,
+        0.22499414062500023,
+        0.30000038146972585,
+        0.3000011444091797
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22499414062500023,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S26",
+      "object": "S26 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          200.7580108642578,
+          19.350000381469727,
+          -6.925201892852783
+        ],
+        "max_mm": [
+          206.6580047607422,
+          31.44999885559082,
+          4.074798583984375
+        ],
+        "size_mm": [
+          5.899993896484375,
+          12.099998474121094,
+          11.000000476837158
+        ],
+        "maximum_normal_witness_panel_mm": [
+          201.30801391601562,
+          19.899999618530273,
+          4.074798583984375
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.4999985839843752,
+      "actuator_tip_panel_z_mm": -4.521245956420898,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.4039559364318848,
+      "actuator_tip_below_cap_top_mm": 8.596044540405273,
+      "cap_bottom_above_switch_cover_mm": 0.4960440635681156,
+      "cap_bottom_below_actuator_base_top_mm": 0.603955936431884,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.22501086425782546,
+        0.22499523925782228,
+        0.30000038146972585,
+        0.3000011444091797
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.22499523925782228,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    },
+    {
+      "reference": "S27",
+      "object": "S27 / switch cap proxy",
+      "proposed_elevation_mm": 0,
+      "current_bounds_panel_mm": {
+        "min_mm": [
+          216.76002502441406,
+          19.350000381469727,
+          -6.925201892852783
+        ],
+        "max_mm": [
+          222.66001892089844,
+          31.44999885559082,
+          4.074798583984375
+        ],
+        "size_mm": [
+          5.899993896484375,
+          12.099998474121094,
+          11.000000476837158
+        ],
+        "maximum_normal_witness_panel_mm": [
+          217.31002807617188,
+          19.899999618530273,
+          4.074798583984375
+        ]
+      },
+      "cap_height_mm": 11,
+      "visible_height_above_panel_mm": 2.4999985839843752,
+      "actuator_tip_panel_z_mm": -4.521248817443848,
+      "nominal_actuator_tip_insertion_from_cap_bottom_mm": 2.4039530754089355,
+      "actuator_tip_below_cap_top_mm": 8.596047401428223,
+      "cap_bottom_above_switch_cover_mm": 0.4960469245910648,
+      "cap_bottom_below_actuator_base_top_mm": 0.6039530754089348,
+      "full_cap_envelope_to_DXF_edge_clearance_mm": [
+        0.2250250244140659,
+        0.2249810791015534,
+        0.30000038146972585,
+        0.3000011444091797
+      ],
+      "minimum_DXF_edge_clearance_mm": 0.2249810791015534,
+      "interpretation": "Keep current visual seating. Full cap remains 11 mm high, with 2.5 mm visible. The solid proxy overlaps the native actuator; actual hollow/snap socket and travel are unknown. This is not a qualified physical cap fit."
+    }
+  ],
+  "S1_lever": {
+    "reference": "S1",
+    "native_objects": [
+      "MAINBOARD/S1/mesh"
+    ],
+    "presentation_proxies_present": false,
+    "proposed_change": "none",
+    "native_bounds_panel_mm": {
+      "min_mm": [
+        16.95503044128418,
+        139.8212127685547,
+        -11.8212308883667
+      ],
+      "max_mm": [
+        24.955034255981445,
+        148.6212158203125,
+        11.27877140045166
+      ],
+      "size_mm": [
+        8.000003814697266,
+        8.800003051757812,
+        23.10000228881836
+      ],
+      "maximum_normal_witness_panel_mm": [
+        19.6550350189209,
+        144.22122192382812,
+        11.27877140045166
+      ]
+    },
+    "nominal_lever_length_mm": 10,
+    "tip_above_panel_top_mm": 9.70397140045166,
+    "neutral_lever_start_panel_z_mm": 1.2787714004516584,
+    "bushing_top_below_panel_top_mm": 0.2960285995483416,
+    "panel_hole_diameter_mm": 6.35,
+    "nominal_bushing_diameter_mm": 6,
+    "nominal_bushing_radial_clearance_mm": 0.17499999999999982,
+    "nominal_lever_radial_clearance_mm": 1.8749999999999998,
+    "interpretation": "Native nominal neutral lever is the sole visible S1 geometry; superseded tilted proxy is absent. Lever emerges approximately 9.704 mm above the panel. Bushing ends 0.296 mm below the outer surface under the existing board seat assumption. Keep source body/lever and assembly pose; actual seating and full throw clearance remain unqualified."
+  },
+  "limits": [
+    "Only presentation skirt, knob and pointer objects are proposed to move; labels, native PCB models, board/case/panel transforms and full source dimensions remain fixed. No scene or project was saved or edited.",
+    "The current knob proxies are solid envelopes, not modeled hollow bores. Internal clearance uses an explicitly assumed 0.5 mm roof; it is not a vendor bore/grip or fitted-seat measurement.",
+    "Nominal insertion is shaft tip minus knob bottom along the panel normal. It assumes coaxial placement and gives envelope overlap, not retained torque or pull-off strength.",
+    "S2 retains approximately 5.504 mm nominal engagement, about 0.92 times its 6 mm shaft diameter. This supports a plausible visual seat, but no vendor minimum grip is established.",
+    "EVU and Alpha proposed overlap extends approximately 2.304 mm below the published flatted portion into the round shaft envelope. The unknown underside entry/recess and D-socket length prevent claiming exact shaft fit.",
+    "Switch cap socket, actual engagement and stroke are unknown. Solid proxy overlaps are expected construction simplifications, not evidence of compatible snap fit.",
+    "S1 remains neutral; no complete swept throw or panel-tolerance analysis was performed."
+  ]
+}

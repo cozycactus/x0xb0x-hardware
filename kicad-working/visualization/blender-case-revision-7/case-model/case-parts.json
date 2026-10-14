@@ -1,0 +1,67 @@
+{
+  "parts": [
+    {
+      "name": "PT10_Bottom_Cover",
+      "role": "bottom",
+      "filename": "pt10_bottom_cover.stl",
+      "format": "stl",
+      "units": "mm",
+      "solid_count": 1,
+      "is_valid": true,
+      "volume_mm3": 182017.5047452109,
+      "triangles": 3876,
+      "bbox_mm": {
+        "min": [
+          -139.7,
+          0.010053361369787158,
+          0.0
+        ],
+        "max": [
+          139.7,
+          203.1492,
+          38.98425350668076
+        ]
+      }
+    },
+    {
+      "name": "PT10_Upper_Cover",
+      "role": "upper",
+      "filename": "pt10_upper_cover.stl",
+      "format": "stl",
+      "units": "mm",
+      "solid_count": 1,
+      "is_valid": true,
+      "volume_mm3": 80219.2914974117,
+      "triangles": 596,
+      "bbox_mm": {
+        "min": [
+          -139.7,
+          0.0,
+          17.680883364255862
+        ],
+        "max": [
+          139.7,
+          203.09607823104184,
+          77.0382
+        ]
+      }
+    }
+  ],
+  "source_sha256": "bc763ac06161166e58c34a4274821632c2e86a09521e6776b953714de2b94734",
+  "generator": "build_pt10_case.py",
+  "manufacturing_ready": false,
+  "omitted_details": [
+    "exact molded draft/radii",
+    "clip and screw geometry",
+    "internal ribs",
+    "rubber feet"
+  ],
+  "assumed_details": {
+    "xy_corner_radius_mm": 7,
+    "side_wall_mm": 2.54,
+    "front_seam_z_mm": 17.5,
+    "seam_visual_gap_mm": 0.18,
+    "bottom_boss_outer_radius_mm": 3.5,
+    "bottom_boss_bore_radius_mm": 1.13
+  }
+}

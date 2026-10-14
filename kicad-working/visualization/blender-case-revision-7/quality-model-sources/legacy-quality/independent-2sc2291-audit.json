@@ -1,0 +1,3797 @@
+{
+  "passed": true,
+  "check_count": 200,
+  "failed_checks": [],
+  "scope": "Fresh independent FreeCAD STEP geometry and native pcbnew actual-pad nominal fit audit; no model/project edits.",
+  "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286.step",
+  "step_sha256": "e77a4406c0eec3750b4db057ca88ac00c49cc46bdb9f72ee2ebd5b268029909b",
+  "manifest_sha256": "c75dd2bd750bc63496bb0c9166b1561a06d94327470614d9c0940c9da7e2c013",
+  "body_bounds_mm": [
+    -4.05,
+    -1.4,
+    3.0,
+    4.05,
+    2.2,
+    8.6
+  ],
+  "whole_component_optimal_bounds_mm": [
+    -4.797,
+    -1.4,
+    -2.5,
+    4.797000000000001,
+    2.2,
+    8.6
+  ],
+  "whole_component_conservative_ordinary_bounds_mm": [
+    -4.869093175255845,
+    -1.4,
+    -2.5,
+    4.869093175255845,
+    2.2,
+    8.6
+  ],
+  "bounds_method": "FreeCAD optimalBoundingBox for exact trimmed analytic BRep extrema; ordinary BoundBox reported separately as conservative.",
+  "supersedes_step_sha256": "17b749a4af12772c552d83ee7ab597cf29e9157b21eb846c455e64ba00d9c41c",
+  "body_volume_mm3": 147.09599999999998,
+  "bevel_faces": [
+    {
+      "vertices_mm": [
+        [
+          -4.05,
+          2.2,
+          6.6
+        ],
+        [
+          4.05,
+          2.2,
+          6.6
+        ],
+        [
+          4.05,
+          0.2,
+          8.6
+        ],
+        [
+          -4.05,
+          0.2,
+          8.6
+        ]
+      ],
+      "area_mm2": 22.910259710444137
+    }
+  ],
+  "tail_planes_z_mm": [
+    -0.001,
+    -0.1,
+    -0.4,
+    -0.8,
+    -1.2,
+    -1.5,
+    -1.599
+  ],
+  "package_root_plane_z_mm": 2.9,
+  "actual_Q22": {
+    "pcb": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb",
+    "cache": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod",
+    "source_sha256_before": {
+      "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb": "a8b792afcb7d012740086c92916c7f05fa964142da6353c1a2298e6c9374e66e",
+      "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod": "04c416963cb00adb9fcc994e45f410e4e98879390fdac0d3ed0579db6d9e15c5"
+    },
+    "footprint": "SSIP5",
+    "layer": "F.Cu",
+    "orientation_deg": 180.0,
+    "position_mm": [
+      61.7728,
+      -107.5182
+    ],
+    "board_thickness_mm": 1.6,
+    "pads": [
+      {
+        "pin": "1",
+        "original_F_Cu_local_xy_mm": [
+          -4.572,
+          0.0
+        ],
+        "canonical_xy_mm": [
+          -4.572,
+          -0.0
+        ],
+        "drill_xy_mm": [
+          1.0,
+          1.0
+        ],
+        "drill_shape": 1
+      },
+      {
+        "pin": "2",
+        "original_F_Cu_local_xy_mm": [
+          -2.286,
+          0.0
+        ],
+        "canonical_xy_mm": [
+          -2.286,
+          -0.0
+        ],
+        "drill_xy_mm": [
+          1.0,
+          1.0
+        ],
+        "drill_shape": 1
+      },
+      {
+        "pin": "3",
+        "original_F_Cu_local_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "canonical_xy_mm": [
+          0.0,
+          -0.0
+        ],
+        "drill_xy_mm": [
+          1.0,
+          1.0
+        ],
+        "drill_shape": 1
+      },
+      {
+        "pin": "4",
+        "original_F_Cu_local_xy_mm": [
+          2.286,
+          0.0
+        ],
+        "canonical_xy_mm": [
+          2.286,
+          -0.0
+        ],
+        "drill_xy_mm": [
+          1.0,
+          1.0
+        ],
+        "drill_shape": 1
+      },
+      {
+        "pin": "5",
+        "original_F_Cu_local_xy_mm": [
+          4.572,
+          0.0
+        ],
+        "canonical_xy_mm": [
+          4.572,
+          -0.0
+        ],
+        "drill_xy_mm": [
+          1.0,
+          1.0
+        ],
+        "drill_shape": 1
+      }
+    ],
+    "cache_model_nodes": 0,
+    "source_sha256_after": {
+      "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb": "a8b792afcb7d012740086c92916c7f05fa964142da6353c1a2298e6c9374e66e",
+      "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod": "04c416963cb00adb9fcc994e45f410e4e98879390fdac0d3ed0579db6d9e15c5"
+    }
+  },
+  "section_measurements": [
+    {
+      "pin": "1",
+      "z_mm": -0.001,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        -4.572,
+        1.468576570352845e-17
+      ],
+      "expected_xy_mm": [
+        -4.572,
+        -0.0
+      ],
+      "center_error_mm": 1.468576570352845e-17,
+      "section_area_mm2": 0.15904312808798315,
+      "area_equivalent_diameter_mm": 0.44999999999999984,
+      "sampled_radius_min_max_mm": [
+        0.2249999999999996,
+        0.22500000000000045
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999996,
+      "section_bounds_mm": [
+        -4.797,
+        -0.225,
+        -0.0010000000000000009,
+        -4.347,
+        0.225,
+        -0.0010000000000000009
+      ]
+    },
+    {
+      "pin": "1",
+      "z_mm": -0.1,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        -4.572,
+        1.468576570352845e-17
+      ],
+      "expected_xy_mm": [
+        -4.572,
+        -0.0
+      ],
+      "center_error_mm": 1.468576570352845e-17,
+      "section_area_mm2": 0.15904312808798315,
+      "area_equivalent_diameter_mm": 0.44999999999999984,
+      "sampled_radius_min_max_mm": [
+        0.2249999999999996,
+        0.22500000000000045
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999996,
+      "section_bounds_mm": [
+        -4.797,
+        -0.225,
+        -0.09999999999999998,
+        -4.347,
+        0.225,
+        -0.09999999999999998
+      ]
+    },
+    {
+      "pin": "1",
+      "z_mm": -0.4,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        -4.572,
+        1.468576570352845e-17
+      ],
+      "expected_xy_mm": [
+        -4.572,
+        -0.0
+      ],
+      "center_error_mm": 1.468576570352845e-17,
+      "section_area_mm2": 0.15904312808798315,
+      "area_equivalent_diameter_mm": 0.44999999999999984,
+      "sampled_radius_min_max_mm": [
+        0.2249999999999996,
+        0.22500000000000045
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999996,
+      "section_bounds_mm": [
+        -4.797,
+        -0.225,
+        -0.4,
+        -4.347,
+        0.225,
+        -0.4
+      ]
+    },
+    {
+      "pin": "1",
+      "z_mm": -0.8,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        -4.572,
+        1.468576570352845e-17
+      ],
+      "expected_xy_mm": [
+        -4.572,
+        -0.0
+      ],
+      "center_error_mm": 1.468576570352845e-17,
+      "section_area_mm2": 0.15904312808798315,
+      "area_equivalent_diameter_mm": 0.44999999999999984,
+      "sampled_radius_min_max_mm": [
+        0.2249999999999996,
+        0.22500000000000045
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999996,
+      "section_bounds_mm": [
+        -4.797,
+        -0.225,
+        -0.8000000000000002,
+        -4.347,
+        0.225,
+        -0.8000000000000002
+      ]
+    },
+    {
+      "pin": "1",
+      "z_mm": -1.2,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        -4.572,
+        1.468576570352845e-17
+      ],
+      "expected_xy_mm": [
+        -4.572,
+        -0.0
+      ],
+      "center_error_mm": 1.468576570352845e-17,
+      "section_area_mm2": 0.15904312808798315,
+      "area_equivalent_diameter_mm": 0.44999999999999984,
+      "sampled_radius_min_max_mm": [
+        0.2249999999999996,
+        0.22500000000000045
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999996,
+      "section_bounds_mm": [
+        -4.797,
+        -0.225,
+        -1.2000000000000002,
+        -4.347,
+        0.225,
+        -1.2000000000000002
+      ]
+    },
+    {
+      "pin": "1",
+      "z_mm": -1.5,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        -4.572,
+        1.468576570352845e-17
+      ],
+      "expected_xy_mm": [
+        -4.572,
+        -0.0
+      ],
+      "center_error_mm": 1.468576570352845e-17,
+      "section_area_mm2": 0.15904312808798315,
+      "area_equivalent_diameter_mm": 0.44999999999999984,
+      "sampled_radius_min_max_mm": [
+        0.2249999999999996,
+        0.22500000000000045
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999996,
+      "section_bounds_mm": [
+        -4.797,
+        -0.225,
+        -1.5,
+        -4.347,
+        0.225,
+        -1.5
+      ]
+    },
+    {
+      "pin": "1",
+      "z_mm": -1.599,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        -4.572,
+        1.468576570352845e-17
+      ],
+      "expected_xy_mm": [
+        -4.572,
+        -0.0
+      ],
+      "center_error_mm": 1.468576570352845e-17,
+      "section_area_mm2": 0.15904312808798315,
+      "area_equivalent_diameter_mm": 0.44999999999999984,
+      "sampled_radius_min_max_mm": [
+        0.2249999999999996,
+        0.22500000000000045
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999996,
+      "section_bounds_mm": [
+        -4.797,
+        -0.225,
+        -1.5990000000000002,
+        -4.347,
+        0.225,
+        -1.5990000000000002
+      ]
+    },
+    {
+      "pin": "1",
+      "z_mm": 2.9,
+      "purpose": "nominal package root pitch",
+      "measured_center_xy_mm": [
+        -2.5,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        -2.5,
+        0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": null,
+      "section_bounds_mm": [
+        -2.725,
+        -0.225,
+        2.9,
+        -2.275,
+        0.225,
+        2.9
+      ]
+    },
+    {
+      "pin": "2",
+      "z_mm": -0.001,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        -2.286,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        -2.286,
+        -0.0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999998,
+      "section_bounds_mm": [
+        -2.511,
+        -0.225,
+        -0.0010000000000000009,
+        -2.061,
+        0.225,
+        -0.0010000000000000009
+      ]
+    },
+    {
+      "pin": "2",
+      "z_mm": -0.1,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        -2.286,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        -2.286,
+        -0.0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999998,
+      "section_bounds_mm": [
+        -2.511,
+        -0.225,
+        -0.09999999999999998,
+        -2.061,
+        0.225,
+        -0.09999999999999998
+      ]
+    },
+    {
+      "pin": "2",
+      "z_mm": -0.4,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        -2.286,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        -2.286,
+        -0.0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999998,
+      "section_bounds_mm": [
+        -2.511,
+        -0.225,
+        -0.4,
+        -2.061,
+        0.225,
+        -0.4
+      ]
+    },
+    {
+      "pin": "2",
+      "z_mm": -0.8,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        -2.286,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        -2.286,
+        -0.0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999998,
+      "section_bounds_mm": [
+        -2.511,
+        -0.225,
+        -0.8000000000000002,
+        -2.061,
+        0.225,
+        -0.8000000000000002
+      ]
+    },
+    {
+      "pin": "2",
+      "z_mm": -1.2,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        -2.286,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        -2.286,
+        -0.0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999998,
+      "section_bounds_mm": [
+        -2.511,
+        -0.225,
+        -1.2000000000000002,
+        -2.061,
+        0.225,
+        -1.2000000000000002
+      ]
+    },
+    {
+      "pin": "2",
+      "z_mm": -1.5,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        -2.286,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        -2.286,
+        -0.0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999998,
+      "section_bounds_mm": [
+        -2.511,
+        -0.225,
+        -1.5,
+        -2.061,
+        0.225,
+        -1.5
+      ]
+    },
+    {
+      "pin": "2",
+      "z_mm": -1.599,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        -2.286,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        -2.286,
+        -0.0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999998,
+      "section_bounds_mm": [
+        -2.511,
+        -0.225,
+        -1.5990000000000002,
+        -2.061,
+        0.225,
+        -1.5990000000000002
+      ]
+    },
+    {
+      "pin": "2",
+      "z_mm": 2.9,
+      "purpose": "nominal package root pitch",
+      "measured_center_xy_mm": [
+        -1.25,
+        6.119230019692395e-18
+      ],
+      "expected_xy_mm": [
+        -1.25,
+        0
+      ],
+      "center_error_mm": 6.119230019692395e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999987,
+        0.22500000000000014
+      ],
+      "nominal_hole_radial_margin_mm": null,
+      "section_bounds_mm": [
+        -1.475,
+        -0.225,
+        2.9,
+        -1.025,
+        0.225,
+        2.9
+      ]
+    },
+    {
+      "pin": "3",
+      "z_mm": -0.001,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        0.0,
+        3.322428433183001e-17
+      ],
+      "expected_xy_mm": [
+        0.0,
+        -0.0
+      ],
+      "center_error_mm": 3.322428433183001e-17,
+      "section_area_mm2": 0.15904312808798332,
+      "area_equivalent_diameter_mm": 0.45000000000000007,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999998,
+        0.22500000000000003
+      ],
+      "nominal_hole_radial_margin_mm": 0.27499999999999997,
+      "section_bounds_mm": [
+        -0.225,
+        -0.225,
+        -0.0009999999999998899,
+        0.225,
+        0.225,
+        -0.0009999999999998899
+      ]
+    },
+    {
+      "pin": "3",
+      "z_mm": -0.1,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        0.0,
+        3.322428433183001e-17
+      ],
+      "expected_xy_mm": [
+        0.0,
+        -0.0
+      ],
+      "center_error_mm": 3.322428433183001e-17,
+      "section_area_mm2": 0.15904312808798332,
+      "area_equivalent_diameter_mm": 0.45000000000000007,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999998,
+        0.22500000000000003
+      ],
+      "nominal_hole_radial_margin_mm": 0.27499999999999997,
+      "section_bounds_mm": [
+        -0.225,
+        -0.225,
+        -0.10000000000000009,
+        0.225,
+        0.225,
+        -0.10000000000000009
+      ]
+    },
+    {
+      "pin": "3",
+      "z_mm": -0.4,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        0.0,
+        3.322428433183001e-17
+      ],
+      "expected_xy_mm": [
+        0.0,
+        -0.0
+      ],
+      "center_error_mm": 3.322428433183001e-17,
+      "section_area_mm2": 0.15904312808798332,
+      "area_equivalent_diameter_mm": 0.45000000000000007,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999998,
+        0.22500000000000003
+      ],
+      "nominal_hole_radial_margin_mm": 0.27499999999999997,
+      "section_bounds_mm": [
+        -0.225,
+        -0.225,
+        -0.3999999999999999,
+        0.225,
+        0.225,
+        -0.3999999999999999
+      ]
+    },
+    {
+      "pin": "3",
+      "z_mm": -0.8,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        0.0,
+        3.322428433183001e-17
+      ],
+      "expected_xy_mm": [
+        0.0,
+        -0.0
+      ],
+      "center_error_mm": 3.322428433183001e-17,
+      "section_area_mm2": 0.15904312808798332,
+      "area_equivalent_diameter_mm": 0.45000000000000007,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999998,
+        0.22500000000000003
+      ],
+      "nominal_hole_radial_margin_mm": 0.27499999999999997,
+      "section_bounds_mm": [
+        -0.225,
+        -0.225,
+        -0.7999999999999998,
+        0.225,
+        0.225,
+        -0.7999999999999998
+      ]
+    },
+    {
+      "pin": "3",
+      "z_mm": -1.2,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        0.0,
+        3.322428433183001e-17
+      ],
+      "expected_xy_mm": [
+        0.0,
+        -0.0
+      ],
+      "center_error_mm": 3.322428433183001e-17,
+      "section_area_mm2": 0.15904312808798332,
+      "area_equivalent_diameter_mm": 0.45000000000000007,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999998,
+        0.22500000000000003
+      ],
+      "nominal_hole_radial_margin_mm": 0.27499999999999997,
+      "section_bounds_mm": [
+        -0.225,
+        -0.225,
+        -1.2000000000000002,
+        0.225,
+        0.225,
+        -1.2000000000000002
+      ]
+    },
+    {
+      "pin": "3",
+      "z_mm": -1.5,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        0.0,
+        3.322428433183001e-17
+      ],
+      "expected_xy_mm": [
+        0.0,
+        -0.0
+      ],
+      "center_error_mm": 3.322428433183001e-17,
+      "section_area_mm2": 0.15904312808798332,
+      "area_equivalent_diameter_mm": 0.45000000000000007,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999998,
+        0.22500000000000003
+      ],
+      "nominal_hole_radial_margin_mm": 0.27499999999999997,
+      "section_bounds_mm": [
+        -0.225,
+        -0.225,
+        -1.5,
+        0.225,
+        0.225,
+        -1.5
+      ]
+    },
+    {
+      "pin": "3",
+      "z_mm": -1.599,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        0.0,
+        3.322428433183001e-17
+      ],
+      "expected_xy_mm": [
+        0.0,
+        -0.0
+      ],
+      "center_error_mm": 3.322428433183001e-17,
+      "section_area_mm2": 0.15904312808798332,
+      "area_equivalent_diameter_mm": 0.45000000000000007,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999998,
+        0.22500000000000003
+      ],
+      "nominal_hole_radial_margin_mm": 0.27499999999999997,
+      "section_bounds_mm": [
+        -0.225,
+        -0.225,
+        -1.5990000000000002,
+        0.225,
+        0.225,
+        -1.5990000000000002
+      ]
+    },
+    {
+      "pin": "3",
+      "z_mm": 2.9,
+      "purpose": "nominal package root pitch",
+      "measured_center_xy_mm": [
+        0.0,
+        3.322428433183001e-17
+      ],
+      "expected_xy_mm": [
+        0.0,
+        0
+      ],
+      "center_error_mm": 3.322428433183001e-17,
+      "section_area_mm2": 0.15904312808798332,
+      "area_equivalent_diameter_mm": 0.45000000000000007,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999998,
+        0.22500000000000003
+      ],
+      "nominal_hole_radial_margin_mm": null,
+      "section_bounds_mm": [
+        -0.225,
+        -0.225,
+        2.9,
+        0.225,
+        0.225,
+        2.9
+      ]
+    },
+    {
+      "pin": "4",
+      "z_mm": -0.001,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        2.286,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        2.286,
+        -0.0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999998,
+      "section_bounds_mm": [
+        2.061,
+        -0.225,
+        -0.0010000000000000009,
+        2.511,
+        0.225,
+        -0.0010000000000000009
+      ]
+    },
+    {
+      "pin": "4",
+      "z_mm": -0.1,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        2.286,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        2.286,
+        -0.0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999998,
+      "section_bounds_mm": [
+        2.061,
+        -0.225,
+        -0.09999999999999998,
+        2.511,
+        0.225,
+        -0.09999999999999998
+      ]
+    },
+    {
+      "pin": "4",
+      "z_mm": -0.4,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        2.286,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        2.286,
+        -0.0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999998,
+      "section_bounds_mm": [
+        2.061,
+        -0.225,
+        -0.4,
+        2.511,
+        0.225,
+        -0.4
+      ]
+    },
+    {
+      "pin": "4",
+      "z_mm": -0.8,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        2.286,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        2.286,
+        -0.0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999998,
+      "section_bounds_mm": [
+        2.061,
+        -0.225,
+        -0.8000000000000002,
+        2.511,
+        0.225,
+        -0.8000000000000002
+      ]
+    },
+    {
+      "pin": "4",
+      "z_mm": -1.2,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        2.286,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        2.286,
+        -0.0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999998,
+      "section_bounds_mm": [
+        2.061,
+        -0.225,
+        -1.2000000000000002,
+        2.511,
+        0.225,
+        -1.2000000000000002
+      ]
+    },
+    {
+      "pin": "4",
+      "z_mm": -1.5,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        2.286,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        2.286,
+        -0.0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999998,
+      "section_bounds_mm": [
+        2.061,
+        -0.225,
+        -1.5,
+        2.511,
+        0.225,
+        -1.5
+      ]
+    },
+    {
+      "pin": "4",
+      "z_mm": -1.599,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        2.286,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        2.286,
+        -0.0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999998,
+      "section_bounds_mm": [
+        2.061,
+        -0.225,
+        -1.5990000000000002,
+        2.511,
+        0.225,
+        -1.5990000000000002
+      ]
+    },
+    {
+      "pin": "4",
+      "z_mm": 2.9,
+      "purpose": "nominal package root pitch",
+      "measured_center_xy_mm": [
+        1.25,
+        6.119230019692395e-18
+      ],
+      "expected_xy_mm": [
+        1.25,
+        0
+      ],
+      "center_error_mm": 6.119230019692395e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999987,
+        0.22500000000000014
+      ],
+      "nominal_hole_radial_margin_mm": null,
+      "section_bounds_mm": [
+        1.025,
+        -0.225,
+        2.9,
+        1.475,
+        0.225,
+        2.9
+      ]
+    },
+    {
+      "pin": "5",
+      "z_mm": -0.001,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        4.572,
+        1.468576570352845e-17
+      ],
+      "expected_xy_mm": [
+        4.572,
+        -0.0
+      ],
+      "center_error_mm": 1.468576570352845e-17,
+      "section_area_mm2": 0.15904312808798315,
+      "area_equivalent_diameter_mm": 0.44999999999999984,
+      "sampled_radius_min_max_mm": [
+        0.2249999999999996,
+        0.22500000000000045
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999996,
+      "section_bounds_mm": [
+        4.347,
+        -0.225,
+        -0.0010000000000000009,
+        4.797,
+        0.225,
+        -0.0010000000000000009
+      ]
+    },
+    {
+      "pin": "5",
+      "z_mm": -0.1,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        4.572,
+        1.468576570352845e-17
+      ],
+      "expected_xy_mm": [
+        4.572,
+        -0.0
+      ],
+      "center_error_mm": 1.468576570352845e-17,
+      "section_area_mm2": 0.15904312808798315,
+      "area_equivalent_diameter_mm": 0.44999999999999984,
+      "sampled_radius_min_max_mm": [
+        0.2249999999999996,
+        0.22500000000000045
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999996,
+      "section_bounds_mm": [
+        4.347,
+        -0.225,
+        -0.09999999999999998,
+        4.797,
+        0.225,
+        -0.09999999999999998
+      ]
+    },
+    {
+      "pin": "5",
+      "z_mm": -0.4,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        4.572,
+        1.468576570352845e-17
+      ],
+      "expected_xy_mm": [
+        4.572,
+        -0.0
+      ],
+      "center_error_mm": 1.468576570352845e-17,
+      "section_area_mm2": 0.15904312808798315,
+      "area_equivalent_diameter_mm": 0.44999999999999984,
+      "sampled_radius_min_max_mm": [
+        0.2249999999999996,
+        0.22500000000000045
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999996,
+      "section_bounds_mm": [
+        4.347,
+        -0.225,
+        -0.4,
+        4.797,
+        0.225,
+        -0.4
+      ]
+    },
+    {
+      "pin": "5",
+      "z_mm": -0.8,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        4.572,
+        1.468576570352845e-17
+      ],
+      "expected_xy_mm": [
+        4.572,
+        -0.0
+      ],
+      "center_error_mm": 1.468576570352845e-17,
+      "section_area_mm2": 0.15904312808798315,
+      "area_equivalent_diameter_mm": 0.44999999999999984,
+      "sampled_radius_min_max_mm": [
+        0.2249999999999996,
+        0.22500000000000045
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999996,
+      "section_bounds_mm": [
+        4.347,
+        -0.225,
+        -0.8000000000000002,
+        4.797,
+        0.225,
+        -0.8000000000000002
+      ]
+    },
+    {
+      "pin": "5",
+      "z_mm": -1.2,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        4.572,
+        1.468576570352845e-17
+      ],
+      "expected_xy_mm": [
+        4.572,
+        -0.0
+      ],
+      "center_error_mm": 1.468576570352845e-17,
+      "section_area_mm2": 0.15904312808798315,
+      "area_equivalent_diameter_mm": 0.44999999999999984,
+      "sampled_radius_min_max_mm": [
+        0.2249999999999996,
+        0.22500000000000045
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999996,
+      "section_bounds_mm": [
+        4.347,
+        -0.225,
+        -1.2000000000000002,
+        4.797,
+        0.225,
+        -1.2000000000000002
+      ]
+    },
+    {
+      "pin": "5",
+      "z_mm": -1.5,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        4.572,
+        1.468576570352845e-17
+      ],
+      "expected_xy_mm": [
+        4.572,
+        -0.0
+      ],
+      "center_error_mm": 1.468576570352845e-17,
+      "section_area_mm2": 0.15904312808798315,
+      "area_equivalent_diameter_mm": 0.44999999999999984,
+      "sampled_radius_min_max_mm": [
+        0.2249999999999996,
+        0.22500000000000045
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999996,
+      "section_bounds_mm": [
+        4.347,
+        -0.225,
+        -1.5,
+        4.797,
+        0.225,
+        -1.5
+      ]
+    },
+    {
+      "pin": "5",
+      "z_mm": -1.599,
+      "purpose": "straight tail inside board lamination",
+      "measured_center_xy_mm": [
+        4.572,
+        1.468576570352845e-17
+      ],
+      "expected_xy_mm": [
+        4.572,
+        -0.0
+      ],
+      "center_error_mm": 1.468576570352845e-17,
+      "section_area_mm2": 0.15904312808798315,
+      "area_equivalent_diameter_mm": 0.44999999999999984,
+      "sampled_radius_min_max_mm": [
+        0.2249999999999996,
+        0.22500000000000045
+      ],
+      "nominal_hole_radial_margin_mm": 0.2749999999999996,
+      "section_bounds_mm": [
+        4.347,
+        -0.225,
+        -1.5990000000000002,
+        4.797,
+        0.225,
+        -1.5990000000000002
+      ]
+    },
+    {
+      "pin": "5",
+      "z_mm": 2.9,
+      "purpose": "nominal package root pitch",
+      "measured_center_xy_mm": [
+        2.5,
+        1.8359621777743457e-18
+      ],
+      "expected_xy_mm": [
+        2.5,
+        0
+      ],
+      "center_error_mm": 1.8359621777743457e-18,
+      "section_area_mm2": 0.15904312808798327,
+      "area_equivalent_diameter_mm": 0.45,
+      "sampled_radius_min_max_mm": [
+        0.22499999999999978,
+        0.22500000000000023
+      ],
+      "nominal_hole_radial_margin_mm": null,
+      "section_bounds_mm": [
+        2.275,
+        -0.225,
+        2.9,
+        2.725,
+        0.225,
+        2.9
+      ]
+    }
+  ],
+  "minimum_tail_nominal_radial_margin_mm": 0.2749999999999996,
+  "limits": [
+    "8.1x3.6x5.6 body dimensions are manufacturer maxima;1.25pitch/.45diameter/2x2bevel are representative unless otherwise toleranced.",
+    "Z3 body stand-off, curved fanout and trimmed tails are reconstruction choices, not manufacturer installed forming specifications.",
+    "Nominal circle-in-drill checks exclude actual lead/drill/plating tolerances, stress, springback, soldering and mechanical process/hardware proof.",
+    "This audit checks canonical model and actual unmodified footprint coordinates; native KiCad import and saved Blender pose require separate final integration review."
+  ],
+  "checks": [
+    {
+      "name": "Native STEP valid",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Final frozen STEP identity",
+      "passed": true,
+      "evidence": "e77a4406c0eec3750b4db057ca88ac00c49cc46bdb9f72ee2ebd5b268029909b"
+    },
+    {
+      "name": "Exact trimmed complete-component bounds",
+      "passed": true,
+      "evidence": {
+        "exact_optimal_bounds_mm": [
+          -4.797,
+          -1.4,
+          -2.5,
+          4.797000000000001,
+          2.2,
+          8.6
+        ],
+        "conservative_ordinary_bounds_mm": [
+          -4.869093175255845,
+          -1.4,
+          -2.5,
+          4.869093175255845,
+          2.2,
+          8.6
+        ]
+      }
+    },
+    {
+      "name": "Manifest exact trimmed bounds agree",
+      "passed": true,
+      "evidence": [
+        -4.797,
+        -1.4,
+        -2.5,
+        4.797000000000001,
+        2.2,
+        8.6
+      ]
+    },
+    {
+      "name": "Six separately colored geometry solids",
+      "passed": true,
+      "evidence": 6
+    },
+    {
+      "name": "Solid0 valid and positive volume",
+      "passed": true,
+      "evidence": {
+        "volume_mm3": 147.09599999999998,
+        "bounds_mm": [
+          -4.05,
+          -1.4,
+          3.0,
+          4.05,
+          2.2,
+          8.6
+        ]
+      }
+    },
+    {
+      "name": "Solid1 valid and positive volume",
+      "passed": true,
+      "evidence": {
+        "volume_mm3": 1.040687016473892,
+        "bounds_mm": [
+          -4.869093175255845,
+          -0.225,
+          -2.5,
+          -2.2029068247441552,
+          0.225,
+          3.12
+        ]
+      }
+    },
+    {
+      "name": "Solid2 valid and positive volume",
+      "passed": true,
+      "evidence": {
+        "volume_mm3": 0.93326850891856,
+        "bounds_mm": [
+          -2.583093175255845,
+          -0.225,
+          -2.5,
+          -0.9529068247441552,
+          0.225,
+          3.12
+        ]
+      }
+    },
+    {
+      "name": "Solid3 valid and positive volume",
+      "passed": true,
+      "evidence": {
+        "volume_mm3": 0.893822379854466,
+        "bounds_mm": [
+          -0.225,
+          -0.225,
+          -2.5,
+          0.225,
+          0.225,
+          3.12
+        ]
+      }
+    },
+    {
+      "name": "Solid4 valid and positive volume",
+      "passed": true,
+      "evidence": {
+        "volume_mm3": 0.9332685089185867,
+        "bounds_mm": [
+          0.9529068247441552,
+          -0.225,
+          -2.5,
+          2.5830931752558444,
+          0.225,
+          3.12
+        ]
+      }
+    },
+    {
+      "name": "Solid5 valid and positive volume",
+      "passed": true,
+      "evidence": {
+        "volume_mm3": 1.0406870164738604,
+        "bounds_mm": [
+          2.2029068247441552,
+          -0.225,
+          -2.5,
+          4.869093175255845,
+          0.225,
+          3.12
+        ]
+      }
+    },
+    {
+      "name": "Maximum body bounds",
+      "passed": true,
+      "evidence": [
+        -4.05,
+        -1.4,
+        3.0,
+        4.05,
+        2.2,
+        8.6
+      ]
+    },
+    {
+      "name": "Maximum body volume with exact2x2 YZ rear bevel",
+      "passed": true,
+      "evidence": 147.09599999999998
+    },
+    {
+      "name": "Body has ten extrusion vertices",
+      "passed": true,
+      "evidence": [
+        [
+          -4.05,
+          -1.4,
+          3.0
+        ],
+        [
+          4.05,
+          -1.4,
+          3.0
+        ],
+        [
+          4.05,
+          2.2,
+          3.0
+        ],
+        [
+          -4.05,
+          2.2,
+          3.0
+        ],
+        [
+          4.05,
+          2.2,
+          6.6
+        ],
+        [
+          -4.05,
+          2.2,
+          6.6
+        ],
+        [
+          4.05,
+          0.2,
+          8.6
+        ],
+        [
+          -4.05,
+          0.2,
+          8.6
+        ],
+        [
+          4.05,
+          -1.4,
+          8.6
+        ],
+        [
+          -4.05,
+          -1.4,
+          8.6
+        ]
+      ]
+    },
+    {
+      "name": "Body vertex[-4.05, -1.4, 3]",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Body vertex[-4.05, 2.2, 3]",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Body vertex[-4.05, 2.2, 6.6]",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Body vertex[-4.05, 0.2, 8.6]",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Body vertex[-4.05, -1.4, 8.6]",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Body vertex[4.05, -1.4, 3]",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Body vertex[4.05, 2.2, 3]",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Body vertex[4.05, 2.2, 6.6]",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Body vertex[4.05, 0.2, 8.6]",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Body vertex[4.05, -1.4, 8.6]",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Single correct rear+Y YZ bevel face",
+      "passed": true,
+      "evidence": [
+        {
+          "vertices_mm": [
+            [
+              -4.05,
+              2.2,
+              6.6
+            ],
+            [
+              4.05,
+              2.2,
+              6.6
+            ],
+            [
+              4.05,
+              0.2,
+              8.6
+            ],
+            [
+              -4.05,
+              0.2,
+              8.6
+            ]
+          ],
+          "area_mm2": 22.910259710444137
+        }
+      ]
+    },
+    {
+      "name": "Bevel face area",
+      "passed": true,
+      "evidence": [
+        {
+          "vertices_mm": [
+            [
+              -4.05,
+              2.2,
+              6.6
+            ],
+            [
+              4.05,
+              2.2,
+              6.6
+            ],
+            [
+              4.05,
+              0.2,
+              8.6
+            ],
+            [
+              -4.05,
+              0.2,
+              8.6
+            ]
+          ],
+          "area_mm2": 22.910259710444137
+        }
+      ]
+    },
+    {
+      "name": "Actual reference SSIP5 F.Cu180deg",
+      "passed": true,
+      "evidence": {
+        "footprint": "SSIP5",
+        "layer": "F.Cu",
+        "angle_deg": 180.0
+      }
+    },
+    {
+      "name": "Actual board1.6mm thickness",
+      "passed": true,
+      "evidence": 1.6
+    },
+    {
+      "name": "Actual five pad identities",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Heterogeneous SSIP5 cache has zero model nodes",
+      "passed": true,
+      "evidence": 0
+    },
+    {
+      "name": "Manifest assigns Q22 only",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Manifest STEP digest matches fresh import",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "Pin1 actual pad retains2.286mm pitch",
+      "passed": true,
+      "evidence": [
+        -4.572,
+        -0.0
+      ]
+    },
+    {
+      "name": "Pin1 actual round drill1mm",
+      "passed": true,
+      "evidence": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Pin1 Z-0.001 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin1 Z-0.001 center",
+      "passed": true,
+      "evidence": 1.468576570352845e-17
+    },
+    {
+      "name": "Pin1 Z-0.001 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "1",
+        "z_mm": -0.001,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          -4.572,
+          1.468576570352845e-17
+        ],
+        "expected_xy_mm": [
+          -4.572,
+          -0.0
+        ],
+        "center_error_mm": 1.468576570352845e-17,
+        "section_area_mm2": 0.15904312808798315,
+        "area_equivalent_diameter_mm": 0.44999999999999984,
+        "sampled_radius_min_max_mm": [
+          0.2249999999999996,
+          0.22500000000000045
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999996,
+        "section_bounds_mm": [
+          -4.797,
+          -0.225,
+          -0.0010000000000000009,
+          -4.347,
+          0.225,
+          -0.0010000000000000009
+        ]
+      }
+    },
+    {
+      "name": "Pin1 Z-0.001 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999996
+    },
+    {
+      "name": "Pin1 Z-0.1 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin1 Z-0.1 center",
+      "passed": true,
+      "evidence": 1.468576570352845e-17
+    },
+    {
+      "name": "Pin1 Z-0.1 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "1",
+        "z_mm": -0.1,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          -4.572,
+          1.468576570352845e-17
+        ],
+        "expected_xy_mm": [
+          -4.572,
+          -0.0
+        ],
+        "center_error_mm": 1.468576570352845e-17,
+        "section_area_mm2": 0.15904312808798315,
+        "area_equivalent_diameter_mm": 0.44999999999999984,
+        "sampled_radius_min_max_mm": [
+          0.2249999999999996,
+          0.22500000000000045
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999996,
+        "section_bounds_mm": [
+          -4.797,
+          -0.225,
+          -0.09999999999999998,
+          -4.347,
+          0.225,
+          -0.09999999999999998
+        ]
+      }
+    },
+    {
+      "name": "Pin1 Z-0.1 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999996
+    },
+    {
+      "name": "Pin1 Z-0.4 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin1 Z-0.4 center",
+      "passed": true,
+      "evidence": 1.468576570352845e-17
+    },
+    {
+      "name": "Pin1 Z-0.4 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "1",
+        "z_mm": -0.4,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          -4.572,
+          1.468576570352845e-17
+        ],
+        "expected_xy_mm": [
+          -4.572,
+          -0.0
+        ],
+        "center_error_mm": 1.468576570352845e-17,
+        "section_area_mm2": 0.15904312808798315,
+        "area_equivalent_diameter_mm": 0.44999999999999984,
+        "sampled_radius_min_max_mm": [
+          0.2249999999999996,
+          0.22500000000000045
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999996,
+        "section_bounds_mm": [
+          -4.797,
+          -0.225,
+          -0.4,
+          -4.347,
+          0.225,
+          -0.4
+        ]
+      }
+    },
+    {
+      "name": "Pin1 Z-0.4 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999996
+    },
+    {
+      "name": "Pin1 Z-0.8 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin1 Z-0.8 center",
+      "passed": true,
+      "evidence": 1.468576570352845e-17
+    },
+    {
+      "name": "Pin1 Z-0.8 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "1",
+        "z_mm": -0.8,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          -4.572,
+          1.468576570352845e-17
+        ],
+        "expected_xy_mm": [
+          -4.572,
+          -0.0
+        ],
+        "center_error_mm": 1.468576570352845e-17,
+        "section_area_mm2": 0.15904312808798315,
+        "area_equivalent_diameter_mm": 0.44999999999999984,
+        "sampled_radius_min_max_mm": [
+          0.2249999999999996,
+          0.22500000000000045
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999996,
+        "section_bounds_mm": [
+          -4.797,
+          -0.225,
+          -0.8000000000000002,
+          -4.347,
+          0.225,
+          -0.8000000000000002
+        ]
+      }
+    },
+    {
+      "name": "Pin1 Z-0.8 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999996
+    },
+    {
+      "name": "Pin1 Z-1.2 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin1 Z-1.2 center",
+      "passed": true,
+      "evidence": 1.468576570352845e-17
+    },
+    {
+      "name": "Pin1 Z-1.2 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "1",
+        "z_mm": -1.2,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          -4.572,
+          1.468576570352845e-17
+        ],
+        "expected_xy_mm": [
+          -4.572,
+          -0.0
+        ],
+        "center_error_mm": 1.468576570352845e-17,
+        "section_area_mm2": 0.15904312808798315,
+        "area_equivalent_diameter_mm": 0.44999999999999984,
+        "sampled_radius_min_max_mm": [
+          0.2249999999999996,
+          0.22500000000000045
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999996,
+        "section_bounds_mm": [
+          -4.797,
+          -0.225,
+          -1.2000000000000002,
+          -4.347,
+          0.225,
+          -1.2000000000000002
+        ]
+      }
+    },
+    {
+      "name": "Pin1 Z-1.2 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999996
+    },
+    {
+      "name": "Pin1 Z-1.5 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin1 Z-1.5 center",
+      "passed": true,
+      "evidence": 1.468576570352845e-17
+    },
+    {
+      "name": "Pin1 Z-1.5 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "1",
+        "z_mm": -1.5,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          -4.572,
+          1.468576570352845e-17
+        ],
+        "expected_xy_mm": [
+          -4.572,
+          -0.0
+        ],
+        "center_error_mm": 1.468576570352845e-17,
+        "section_area_mm2": 0.15904312808798315,
+        "area_equivalent_diameter_mm": 0.44999999999999984,
+        "sampled_radius_min_max_mm": [
+          0.2249999999999996,
+          0.22500000000000045
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999996,
+        "section_bounds_mm": [
+          -4.797,
+          -0.225,
+          -1.5,
+          -4.347,
+          0.225,
+          -1.5
+        ]
+      }
+    },
+    {
+      "name": "Pin1 Z-1.5 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999996
+    },
+    {
+      "name": "Pin1 Z-1.599 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin1 Z-1.599 center",
+      "passed": true,
+      "evidence": 1.468576570352845e-17
+    },
+    {
+      "name": "Pin1 Z-1.599 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "1",
+        "z_mm": -1.599,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          -4.572,
+          1.468576570352845e-17
+        ],
+        "expected_xy_mm": [
+          -4.572,
+          -0.0
+        ],
+        "center_error_mm": 1.468576570352845e-17,
+        "section_area_mm2": 0.15904312808798315,
+        "area_equivalent_diameter_mm": 0.44999999999999984,
+        "sampled_radius_min_max_mm": [
+          0.2249999999999996,
+          0.22500000000000045
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999996,
+        "section_bounds_mm": [
+          -4.797,
+          -0.225,
+          -1.5990000000000002,
+          -4.347,
+          0.225,
+          -1.5990000000000002
+        ]
+      }
+    },
+    {
+      "name": "Pin1 Z-1.599 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999996
+    },
+    {
+      "name": "Pin1 Z2.9 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin1 Z2.9 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin1 Z2.9 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "1",
+        "z_mm": 2.9,
+        "purpose": "nominal package root pitch",
+        "measured_center_xy_mm": [
+          -2.5,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          -2.5,
+          0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": null,
+        "section_bounds_mm": [
+          -2.725,
+          -0.225,
+          2.9,
+          -2.275,
+          0.225,
+          2.9
+        ]
+      }
+    },
+    {
+      "name": "Pin2 actual pad retains2.286mm pitch",
+      "passed": true,
+      "evidence": [
+        -2.286,
+        -0.0
+      ]
+    },
+    {
+      "name": "Pin2 actual round drill1mm",
+      "passed": true,
+      "evidence": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Pin2 Z-0.001 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin2 Z-0.001 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin2 Z-0.001 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "2",
+        "z_mm": -0.001,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          -2.286,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          -2.286,
+          -0.0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999998,
+        "section_bounds_mm": [
+          -2.511,
+          -0.225,
+          -0.0010000000000000009,
+          -2.061,
+          0.225,
+          -0.0010000000000000009
+        ]
+      }
+    },
+    {
+      "name": "Pin2 Z-0.001 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999998
+    },
+    {
+      "name": "Pin2 Z-0.1 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin2 Z-0.1 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin2 Z-0.1 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "2",
+        "z_mm": -0.1,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          -2.286,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          -2.286,
+          -0.0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999998,
+        "section_bounds_mm": [
+          -2.511,
+          -0.225,
+          -0.09999999999999998,
+          -2.061,
+          0.225,
+          -0.09999999999999998
+        ]
+      }
+    },
+    {
+      "name": "Pin2 Z-0.1 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999998
+    },
+    {
+      "name": "Pin2 Z-0.4 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin2 Z-0.4 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin2 Z-0.4 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "2",
+        "z_mm": -0.4,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          -2.286,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          -2.286,
+          -0.0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999998,
+        "section_bounds_mm": [
+          -2.511,
+          -0.225,
+          -0.4,
+          -2.061,
+          0.225,
+          -0.4
+        ]
+      }
+    },
+    {
+      "name": "Pin2 Z-0.4 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999998
+    },
+    {
+      "name": "Pin2 Z-0.8 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin2 Z-0.8 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin2 Z-0.8 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "2",
+        "z_mm": -0.8,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          -2.286,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          -2.286,
+          -0.0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999998,
+        "section_bounds_mm": [
+          -2.511,
+          -0.225,
+          -0.8000000000000002,
+          -2.061,
+          0.225,
+          -0.8000000000000002
+        ]
+      }
+    },
+    {
+      "name": "Pin2 Z-0.8 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999998
+    },
+    {
+      "name": "Pin2 Z-1.2 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin2 Z-1.2 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin2 Z-1.2 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "2",
+        "z_mm": -1.2,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          -2.286,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          -2.286,
+          -0.0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999998,
+        "section_bounds_mm": [
+          -2.511,
+          -0.225,
+          -1.2000000000000002,
+          -2.061,
+          0.225,
+          -1.2000000000000002
+        ]
+      }
+    },
+    {
+      "name": "Pin2 Z-1.2 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999998
+    },
+    {
+      "name": "Pin2 Z-1.5 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin2 Z-1.5 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin2 Z-1.5 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "2",
+        "z_mm": -1.5,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          -2.286,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          -2.286,
+          -0.0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999998,
+        "section_bounds_mm": [
+          -2.511,
+          -0.225,
+          -1.5,
+          -2.061,
+          0.225,
+          -1.5
+        ]
+      }
+    },
+    {
+      "name": "Pin2 Z-1.5 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999998
+    },
+    {
+      "name": "Pin2 Z-1.599 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin2 Z-1.599 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin2 Z-1.599 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "2",
+        "z_mm": -1.599,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          -2.286,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          -2.286,
+          -0.0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999998,
+        "section_bounds_mm": [
+          -2.511,
+          -0.225,
+          -1.5990000000000002,
+          -2.061,
+          0.225,
+          -1.5990000000000002
+        ]
+      }
+    },
+    {
+      "name": "Pin2 Z-1.599 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999998
+    },
+    {
+      "name": "Pin2 Z2.9 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin2 Z2.9 center",
+      "passed": true,
+      "evidence": 6.119230019692395e-18
+    },
+    {
+      "name": "Pin2 Z2.9 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "2",
+        "z_mm": 2.9,
+        "purpose": "nominal package root pitch",
+        "measured_center_xy_mm": [
+          -1.25,
+          6.119230019692395e-18
+        ],
+        "expected_xy_mm": [
+          -1.25,
+          0
+        ],
+        "center_error_mm": 6.119230019692395e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999987,
+          0.22500000000000014
+        ],
+        "nominal_hole_radial_margin_mm": null,
+        "section_bounds_mm": [
+          -1.475,
+          -0.225,
+          2.9,
+          -1.025,
+          0.225,
+          2.9
+        ]
+      }
+    },
+    {
+      "name": "Pin3 actual pad retains2.286mm pitch",
+      "passed": true,
+      "evidence": [
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "name": "Pin3 actual round drill1mm",
+      "passed": true,
+      "evidence": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Pin3 Z-0.001 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin3 Z-0.001 center",
+      "passed": true,
+      "evidence": 3.322428433183001e-17
+    },
+    {
+      "name": "Pin3 Z-0.001 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "3",
+        "z_mm": -0.001,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          0.0,
+          3.322428433183001e-17
+        ],
+        "expected_xy_mm": [
+          0.0,
+          -0.0
+        ],
+        "center_error_mm": 3.322428433183001e-17,
+        "section_area_mm2": 0.15904312808798332,
+        "area_equivalent_diameter_mm": 0.45000000000000007,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999998,
+          0.22500000000000003
+        ],
+        "nominal_hole_radial_margin_mm": 0.27499999999999997,
+        "section_bounds_mm": [
+          -0.225,
+          -0.225,
+          -0.0009999999999998899,
+          0.225,
+          0.225,
+          -0.0009999999999998899
+        ]
+      }
+    },
+    {
+      "name": "Pin3 Z-0.001 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.27499999999999997
+    },
+    {
+      "name": "Pin3 Z-0.1 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin3 Z-0.1 center",
+      "passed": true,
+      "evidence": 3.322428433183001e-17
+    },
+    {
+      "name": "Pin3 Z-0.1 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "3",
+        "z_mm": -0.1,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          0.0,
+          3.322428433183001e-17
+        ],
+        "expected_xy_mm": [
+          0.0,
+          -0.0
+        ],
+        "center_error_mm": 3.322428433183001e-17,
+        "section_area_mm2": 0.15904312808798332,
+        "area_equivalent_diameter_mm": 0.45000000000000007,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999998,
+          0.22500000000000003
+        ],
+        "nominal_hole_radial_margin_mm": 0.27499999999999997,
+        "section_bounds_mm": [
+          -0.225,
+          -0.225,
+          -0.10000000000000009,
+          0.225,
+          0.225,
+          -0.10000000000000009
+        ]
+      }
+    },
+    {
+      "name": "Pin3 Z-0.1 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.27499999999999997
+    },
+    {
+      "name": "Pin3 Z-0.4 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin3 Z-0.4 center",
+      "passed": true,
+      "evidence": 3.322428433183001e-17
+    },
+    {
+      "name": "Pin3 Z-0.4 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "3",
+        "z_mm": -0.4,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          0.0,
+          3.322428433183001e-17
+        ],
+        "expected_xy_mm": [
+          0.0,
+          -0.0
+        ],
+        "center_error_mm": 3.322428433183001e-17,
+        "section_area_mm2": 0.15904312808798332,
+        "area_equivalent_diameter_mm": 0.45000000000000007,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999998,
+          0.22500000000000003
+        ],
+        "nominal_hole_radial_margin_mm": 0.27499999999999997,
+        "section_bounds_mm": [
+          -0.225,
+          -0.225,
+          -0.3999999999999999,
+          0.225,
+          0.225,
+          -0.3999999999999999
+        ]
+      }
+    },
+    {
+      "name": "Pin3 Z-0.4 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.27499999999999997
+    },
+    {
+      "name": "Pin3 Z-0.8 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin3 Z-0.8 center",
+      "passed": true,
+      "evidence": 3.322428433183001e-17
+    },
+    {
+      "name": "Pin3 Z-0.8 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "3",
+        "z_mm": -0.8,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          0.0,
+          3.322428433183001e-17
+        ],
+        "expected_xy_mm": [
+          0.0,
+          -0.0
+        ],
+        "center_error_mm": 3.322428433183001e-17,
+        "section_area_mm2": 0.15904312808798332,
+        "area_equivalent_diameter_mm": 0.45000000000000007,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999998,
+          0.22500000000000003
+        ],
+        "nominal_hole_radial_margin_mm": 0.27499999999999997,
+        "section_bounds_mm": [
+          -0.225,
+          -0.225,
+          -0.7999999999999998,
+          0.225,
+          0.225,
+          -0.7999999999999998
+        ]
+      }
+    },
+    {
+      "name": "Pin3 Z-0.8 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.27499999999999997
+    },
+    {
+      "name": "Pin3 Z-1.2 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin3 Z-1.2 center",
+      "passed": true,
+      "evidence": 3.322428433183001e-17
+    },
+    {
+      "name": "Pin3 Z-1.2 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "3",
+        "z_mm": -1.2,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          0.0,
+          3.322428433183001e-17
+        ],
+        "expected_xy_mm": [
+          0.0,
+          -0.0
+        ],
+        "center_error_mm": 3.322428433183001e-17,
+        "section_area_mm2": 0.15904312808798332,
+        "area_equivalent_diameter_mm": 0.45000000000000007,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999998,
+          0.22500000000000003
+        ],
+        "nominal_hole_radial_margin_mm": 0.27499999999999997,
+        "section_bounds_mm": [
+          -0.225,
+          -0.225,
+          -1.2000000000000002,
+          0.225,
+          0.225,
+          -1.2000000000000002
+        ]
+      }
+    },
+    {
+      "name": "Pin3 Z-1.2 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.27499999999999997
+    },
+    {
+      "name": "Pin3 Z-1.5 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin3 Z-1.5 center",
+      "passed": true,
+      "evidence": 3.322428433183001e-17
+    },
+    {
+      "name": "Pin3 Z-1.5 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "3",
+        "z_mm": -1.5,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          0.0,
+          3.322428433183001e-17
+        ],
+        "expected_xy_mm": [
+          0.0,
+          -0.0
+        ],
+        "center_error_mm": 3.322428433183001e-17,
+        "section_area_mm2": 0.15904312808798332,
+        "area_equivalent_diameter_mm": 0.45000000000000007,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999998,
+          0.22500000000000003
+        ],
+        "nominal_hole_radial_margin_mm": 0.27499999999999997,
+        "section_bounds_mm": [
+          -0.225,
+          -0.225,
+          -1.5,
+          0.225,
+          0.225,
+          -1.5
+        ]
+      }
+    },
+    {
+      "name": "Pin3 Z-1.5 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.27499999999999997
+    },
+    {
+      "name": "Pin3 Z-1.599 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin3 Z-1.599 center",
+      "passed": true,
+      "evidence": 3.322428433183001e-17
+    },
+    {
+      "name": "Pin3 Z-1.599 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "3",
+        "z_mm": -1.599,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          0.0,
+          3.322428433183001e-17
+        ],
+        "expected_xy_mm": [
+          0.0,
+          -0.0
+        ],
+        "center_error_mm": 3.322428433183001e-17,
+        "section_area_mm2": 0.15904312808798332,
+        "area_equivalent_diameter_mm": 0.45000000000000007,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999998,
+          0.22500000000000003
+        ],
+        "nominal_hole_radial_margin_mm": 0.27499999999999997,
+        "section_bounds_mm": [
+          -0.225,
+          -0.225,
+          -1.5990000000000002,
+          0.225,
+          0.225,
+          -1.5990000000000002
+        ]
+      }
+    },
+    {
+      "name": "Pin3 Z-1.599 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.27499999999999997
+    },
+    {
+      "name": "Pin3 Z2.9 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin3 Z2.9 center",
+      "passed": true,
+      "evidence": 3.322428433183001e-17
+    },
+    {
+      "name": "Pin3 Z2.9 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "3",
+        "z_mm": 2.9,
+        "purpose": "nominal package root pitch",
+        "measured_center_xy_mm": [
+          0.0,
+          3.322428433183001e-17
+        ],
+        "expected_xy_mm": [
+          0.0,
+          0
+        ],
+        "center_error_mm": 3.322428433183001e-17,
+        "section_area_mm2": 0.15904312808798332,
+        "area_equivalent_diameter_mm": 0.45000000000000007,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999998,
+          0.22500000000000003
+        ],
+        "nominal_hole_radial_margin_mm": null,
+        "section_bounds_mm": [
+          -0.225,
+          -0.225,
+          2.9,
+          0.225,
+          0.225,
+          2.9
+        ]
+      }
+    },
+    {
+      "name": "Pin4 actual pad retains2.286mm pitch",
+      "passed": true,
+      "evidence": [
+        2.286,
+        -0.0
+      ]
+    },
+    {
+      "name": "Pin4 actual round drill1mm",
+      "passed": true,
+      "evidence": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Pin4 Z-0.001 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin4 Z-0.001 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin4 Z-0.001 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "4",
+        "z_mm": -0.001,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          2.286,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          2.286,
+          -0.0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999998,
+        "section_bounds_mm": [
+          2.061,
+          -0.225,
+          -0.0010000000000000009,
+          2.511,
+          0.225,
+          -0.0010000000000000009
+        ]
+      }
+    },
+    {
+      "name": "Pin4 Z-0.001 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999998
+    },
+    {
+      "name": "Pin4 Z-0.1 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin4 Z-0.1 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin4 Z-0.1 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "4",
+        "z_mm": -0.1,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          2.286,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          2.286,
+          -0.0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999998,
+        "section_bounds_mm": [
+          2.061,
+          -0.225,
+          -0.09999999999999998,
+          2.511,
+          0.225,
+          -0.09999999999999998
+        ]
+      }
+    },
+    {
+      "name": "Pin4 Z-0.1 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999998
+    },
+    {
+      "name": "Pin4 Z-0.4 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin4 Z-0.4 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin4 Z-0.4 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "4",
+        "z_mm": -0.4,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          2.286,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          2.286,
+          -0.0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999998,
+        "section_bounds_mm": [
+          2.061,
+          -0.225,
+          -0.4,
+          2.511,
+          0.225,
+          -0.4
+        ]
+      }
+    },
+    {
+      "name": "Pin4 Z-0.4 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999998
+    },
+    {
+      "name": "Pin4 Z-0.8 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin4 Z-0.8 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin4 Z-0.8 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "4",
+        "z_mm": -0.8,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          2.286,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          2.286,
+          -0.0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999998,
+        "section_bounds_mm": [
+          2.061,
+          -0.225,
+          -0.8000000000000002,
+          2.511,
+          0.225,
+          -0.8000000000000002
+        ]
+      }
+    },
+    {
+      "name": "Pin4 Z-0.8 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999998
+    },
+    {
+      "name": "Pin4 Z-1.2 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin4 Z-1.2 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin4 Z-1.2 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "4",
+        "z_mm": -1.2,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          2.286,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          2.286,
+          -0.0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999998,
+        "section_bounds_mm": [
+          2.061,
+          -0.225,
+          -1.2000000000000002,
+          2.511,
+          0.225,
+          -1.2000000000000002
+        ]
+      }
+    },
+    {
+      "name": "Pin4 Z-1.2 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999998
+    },
+    {
+      "name": "Pin4 Z-1.5 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin4 Z-1.5 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin4 Z-1.5 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "4",
+        "z_mm": -1.5,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          2.286,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          2.286,
+          -0.0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999998,
+        "section_bounds_mm": [
+          2.061,
+          -0.225,
+          -1.5,
+          2.511,
+          0.225,
+          -1.5
+        ]
+      }
+    },
+    {
+      "name": "Pin4 Z-1.5 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999998
+    },
+    {
+      "name": "Pin4 Z-1.599 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin4 Z-1.599 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin4 Z-1.599 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "4",
+        "z_mm": -1.599,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          2.286,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          2.286,
+          -0.0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999998,
+        "section_bounds_mm": [
+          2.061,
+          -0.225,
+          -1.5990000000000002,
+          2.511,
+          0.225,
+          -1.5990000000000002
+        ]
+      }
+    },
+    {
+      "name": "Pin4 Z-1.599 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999998
+    },
+    {
+      "name": "Pin4 Z2.9 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin4 Z2.9 center",
+      "passed": true,
+      "evidence": 6.119230019692395e-18
+    },
+    {
+      "name": "Pin4 Z2.9 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "4",
+        "z_mm": 2.9,
+        "purpose": "nominal package root pitch",
+        "measured_center_xy_mm": [
+          1.25,
+          6.119230019692395e-18
+        ],
+        "expected_xy_mm": [
+          1.25,
+          0
+        ],
+        "center_error_mm": 6.119230019692395e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999987,
+          0.22500000000000014
+        ],
+        "nominal_hole_radial_margin_mm": null,
+        "section_bounds_mm": [
+          1.025,
+          -0.225,
+          2.9,
+          1.475,
+          0.225,
+          2.9
+        ]
+      }
+    },
+    {
+      "name": "Pin5 actual pad retains2.286mm pitch",
+      "passed": true,
+      "evidence": [
+        4.572,
+        -0.0
+      ]
+    },
+    {
+      "name": "Pin5 actual round drill1mm",
+      "passed": true,
+      "evidence": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Pin5 Z-0.001 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin5 Z-0.001 center",
+      "passed": true,
+      "evidence": 1.468576570352845e-17
+    },
+    {
+      "name": "Pin5 Z-0.001 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "5",
+        "z_mm": -0.001,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          4.572,
+          1.468576570352845e-17
+        ],
+        "expected_xy_mm": [
+          4.572,
+          -0.0
+        ],
+        "center_error_mm": 1.468576570352845e-17,
+        "section_area_mm2": 0.15904312808798315,
+        "area_equivalent_diameter_mm": 0.44999999999999984,
+        "sampled_radius_min_max_mm": [
+          0.2249999999999996,
+          0.22500000000000045
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999996,
+        "section_bounds_mm": [
+          4.347,
+          -0.225,
+          -0.0010000000000000009,
+          4.797,
+          0.225,
+          -0.0010000000000000009
+        ]
+      }
+    },
+    {
+      "name": "Pin5 Z-0.001 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999996
+    },
+    {
+      "name": "Pin5 Z-0.1 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin5 Z-0.1 center",
+      "passed": true,
+      "evidence": 1.468576570352845e-17
+    },
+    {
+      "name": "Pin5 Z-0.1 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "5",
+        "z_mm": -0.1,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          4.572,
+          1.468576570352845e-17
+        ],
+        "expected_xy_mm": [
+          4.572,
+          -0.0
+        ],
+        "center_error_mm": 1.468576570352845e-17,
+        "section_area_mm2": 0.15904312808798315,
+        "area_equivalent_diameter_mm": 0.44999999999999984,
+        "sampled_radius_min_max_mm": [
+          0.2249999999999996,
+          0.22500000000000045
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999996,
+        "section_bounds_mm": [
+          4.347,
+          -0.225,
+          -0.09999999999999998,
+          4.797,
+          0.225,
+          -0.09999999999999998
+        ]
+      }
+    },
+    {
+      "name": "Pin5 Z-0.1 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999996
+    },
+    {
+      "name": "Pin5 Z-0.4 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin5 Z-0.4 center",
+      "passed": true,
+      "evidence": 1.468576570352845e-17
+    },
+    {
+      "name": "Pin5 Z-0.4 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "5",
+        "z_mm": -0.4,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          4.572,
+          1.468576570352845e-17
+        ],
+        "expected_xy_mm": [
+          4.572,
+          -0.0
+        ],
+        "center_error_mm": 1.468576570352845e-17,
+        "section_area_mm2": 0.15904312808798315,
+        "area_equivalent_diameter_mm": 0.44999999999999984,
+        "sampled_radius_min_max_mm": [
+          0.2249999999999996,
+          0.22500000000000045
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999996,
+        "section_bounds_mm": [
+          4.347,
+          -0.225,
+          -0.4,
+          4.797,
+          0.225,
+          -0.4
+        ]
+      }
+    },
+    {
+      "name": "Pin5 Z-0.4 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999996
+    },
+    {
+      "name": "Pin5 Z-0.8 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin5 Z-0.8 center",
+      "passed": true,
+      "evidence": 1.468576570352845e-17
+    },
+    {
+      "name": "Pin5 Z-0.8 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "5",
+        "z_mm": -0.8,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          4.572,
+          1.468576570352845e-17
+        ],
+        "expected_xy_mm": [
+          4.572,
+          -0.0
+        ],
+        "center_error_mm": 1.468576570352845e-17,
+        "section_area_mm2": 0.15904312808798315,
+        "area_equivalent_diameter_mm": 0.44999999999999984,
+        "sampled_radius_min_max_mm": [
+          0.2249999999999996,
+          0.22500000000000045
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999996,
+        "section_bounds_mm": [
+          4.347,
+          -0.225,
+          -0.8000000000000002,
+          4.797,
+          0.225,
+          -0.8000000000000002
+        ]
+      }
+    },
+    {
+      "name": "Pin5 Z-0.8 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999996
+    },
+    {
+      "name": "Pin5 Z-1.2 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin5 Z-1.2 center",
+      "passed": true,
+      "evidence": 1.468576570352845e-17
+    },
+    {
+      "name": "Pin5 Z-1.2 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "5",
+        "z_mm": -1.2,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          4.572,
+          1.468576570352845e-17
+        ],
+        "expected_xy_mm": [
+          4.572,
+          -0.0
+        ],
+        "center_error_mm": 1.468576570352845e-17,
+        "section_area_mm2": 0.15904312808798315,
+        "area_equivalent_diameter_mm": 0.44999999999999984,
+        "sampled_radius_min_max_mm": [
+          0.2249999999999996,
+          0.22500000000000045
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999996,
+        "section_bounds_mm": [
+          4.347,
+          -0.225,
+          -1.2000000000000002,
+          4.797,
+          0.225,
+          -1.2000000000000002
+        ]
+      }
+    },
+    {
+      "name": "Pin5 Z-1.2 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999996
+    },
+    {
+      "name": "Pin5 Z-1.5 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin5 Z-1.5 center",
+      "passed": true,
+      "evidence": 1.468576570352845e-17
+    },
+    {
+      "name": "Pin5 Z-1.5 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "5",
+        "z_mm": -1.5,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          4.572,
+          1.468576570352845e-17
+        ],
+        "expected_xy_mm": [
+          4.572,
+          -0.0
+        ],
+        "center_error_mm": 1.468576570352845e-17,
+        "section_area_mm2": 0.15904312808798315,
+        "area_equivalent_diameter_mm": 0.44999999999999984,
+        "sampled_radius_min_max_mm": [
+          0.2249999999999996,
+          0.22500000000000045
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999996,
+        "section_bounds_mm": [
+          4.347,
+          -0.225,
+          -1.5,
+          4.797,
+          0.225,
+          -1.5
+        ]
+      }
+    },
+    {
+      "name": "Pin5 Z-1.5 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999996
+    },
+    {
+      "name": "Pin5 Z-1.599 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin5 Z-1.599 center",
+      "passed": true,
+      "evidence": 1.468576570352845e-17
+    },
+    {
+      "name": "Pin5 Z-1.599 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "5",
+        "z_mm": -1.599,
+        "purpose": "straight tail inside board lamination",
+        "measured_center_xy_mm": [
+          4.572,
+          1.468576570352845e-17
+        ],
+        "expected_xy_mm": [
+          4.572,
+          -0.0
+        ],
+        "center_error_mm": 1.468576570352845e-17,
+        "section_area_mm2": 0.15904312808798315,
+        "area_equivalent_diameter_mm": 0.44999999999999984,
+        "sampled_radius_min_max_mm": [
+          0.2249999999999996,
+          0.22500000000000045
+        ],
+        "nominal_hole_radial_margin_mm": 0.2749999999999996,
+        "section_bounds_mm": [
+          4.347,
+          -0.225,
+          -1.5990000000000002,
+          4.797,
+          0.225,
+          -1.5990000000000002
+        ]
+      }
+    },
+    {
+      "name": "Pin5 Z-1.599 circle inside actual nominal drill",
+      "passed": true,
+      "evidence": 0.2749999999999996
+    },
+    {
+      "name": "Pin5 Z2.9 single closed section",
+      "passed": true,
+      "evidence": {
+        "wire_count": 1
+      }
+    },
+    {
+      "name": "Pin5 Z2.9 center",
+      "passed": true,
+      "evidence": 1.8359621777743457e-18
+    },
+    {
+      "name": "Pin5 Z2.9 fullD.45 circular section",
+      "passed": true,
+      "evidence": {
+        "pin": "5",
+        "z_mm": 2.9,
+        "purpose": "nominal package root pitch",
+        "measured_center_xy_mm": [
+          2.5,
+          1.8359621777743457e-18
+        ],
+        "expected_xy_mm": [
+          2.5,
+          0
+        ],
+        "center_error_mm": 1.8359621777743457e-18,
+        "section_area_mm2": 0.15904312808798327,
+        "area_equivalent_diameter_mm": 0.45,
+        "sampled_radius_min_max_mm": [
+          0.22499999999999978,
+          0.22500000000000023
+        ],
+        "nominal_hole_radial_margin_mm": null,
+        "section_bounds_mm": [
+          2.275,
+          -0.225,
+          2.9,
+          2.725,
+          0.225,
+          2.9
+        ]
+      }
+    },
+    {
+      "name": "Body and five lead roots form one valid joined solid",
+      "passed": true,
+      "evidence": {
+        "solids": 1,
+        "volume_mm3": 151.84230755378664
+      }
+    },
+    {
+      "name": "Model manifest and actual project/cache unchanged during independent audit",
+      "passed": true,
+      "evidence": {
+        "before": {
+          "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286.step": "e77a4406c0eec3750b4db057ca88ac00c49cc46bdb9f72ee2ebd5b268029909b",
+          "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/legacy-quality-manifest.json": "c75dd2bd750bc63496bb0c9166b1561a06d94327470614d9c0940c9da7e2c013",
+          "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb": "a8b792afcb7d012740086c92916c7f05fa964142da6353c1a2298e6c9374e66e",
+          "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod": "04c416963cb00adb9fcc994e45f410e4e98879390fdac0d3ed0579db6d9e15c5"
+        },
+        "after": {
+          "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286.step": "e77a4406c0eec3750b4db057ca88ac00c49cc46bdb9f72ee2ebd5b268029909b",
+          "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/legacy-quality-manifest.json": "c75dd2bd750bc63496bb0c9166b1561a06d94327470614d9c0940c9da7e2c013",
+          "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb": "a8b792afcb7d012740086c92916c7f05fa964142da6353c1a2298e6c9374e66e",
+          "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod": "04c416963cb00adb9fcc994e45f410e4e98879390fdac0d3ed0579db6d9e15c5"
+        }
+      }
+    },
+    {
+      "name": "Actual board/cache match fresh native pad extraction",
+      "passed": true,
+      "evidence": null
+    }
+  ],
+  "source_sha256_after": {
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286.step": "e77a4406c0eec3750b4db057ca88ac00c49cc46bdb9f72ee2ebd5b268029909b",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/legacy-quality/legacy-quality-manifest.json": "c75dd2bd750bc63496bb0c9166b1561a06d94327470614d9c0940c9da7e2c013",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb": "a8b792afcb7d012740086c92916c7f05fa964142da6353c1a2298e6c9374e66e",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod": "04c416963cb00adb9fcc994e45f410e4e98879390fdac0d3ed0579db6d9e15c5"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "updates": [
+    {
+      "board": "ioboard",
+      "references": [
+        "KK1"
+      ],
+      "footprint": "D03S",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/heatsink-quality/Aavid_574502B00000G_DrawingDerived_FoldedSpring.step",
+      "source_sha256": "36ea5130eb331e8c740748c697559dfd79671284869be83e8251dd4c944e4336",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Primary manufacturer drawing-derived parametric reconstruction",
+      "classification": "Detailed exact-part continuous folded/slotted free-state spring illustration; installed fit unqualified",
+      "limitations": [
+        "Drawing-derived reconstruction, not downloaded manufacturer CAD. Exact 574502B00000G identity is retained; no solderable tabs from 03200/03300 variants were added.",
+        "Specific 2017 part drawing gives 21.84 x 10.03 x 19.05 mm. Family table reports 9.02 mm depth. Specific drawing controls the envelope.",
+        "Primary manufacturer catalogue printed page45 specifies 0.63 mm aluminium and black anodize. Thickness tolerance and spring alloy condition are unconfirmed.",
+        "The 4.19 +/-0.13 mm checking-gauge gap, 3.81 mm hole, 11.81 mm hole height and 14.99 mm upper-lance datum follow the exact part drawing. Its parenthetical 11.81 (.485) callout conflicts internally; metric 11.81 is retained, also consistent with catalogue .465 inch.",
+        "Bend radii, inner channel width, outer-fin tip height, lances, contact finger loft, holding catch and stamped relief widths are unsized drawing-traced presentation geometry, documented in generator parameters.",
+        "Canonical envelope Y=-1.27..8.76 and Z=0..19.05 retain the prior illustration datum. Actual installed slide height, insertion depth and free-state spring deformation are unconfirmed; native assignment stays zero offset/rotation with unity scale.",
+        "D03S footprint artwork is 13.716 mm wide versus the BOM part width 21.84 mm. Source footprint and all PCB geometry remain unchanged.",
+        "Nominal regulator contact/intersection is measured separately; no clamping, thermal performance, elastic installation, physical clearance or manufacturing tolerance qualification is claimed.",
+        "At the retained illustration datum the nominal IC20 intersects the two front cooling returns by48.642693mm3, versus40.92mm3 in the prior envelope. The reconstructed checking channel lies atY3.94..8.13mm while unchanged IC20 lies atY-5.105..-0.65mm in KK1 coordinates. This incompatibility is not claimed to be intended spring compression; original seat and body mapping remain unresolved."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf",
+        "https://www.mouser.com/datasheet/2/2/Aavid_Boyd_Board_Level_Heatsinks_Catalog-3043646.pdf"
+      ],
+      "replaces_source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/Aavid_574502B00000G_EnvelopeIllustration.step",
+      "replaces_source_sha256": "b66e739c934beceb105612459bedeab0864eab3289a5ea23b2f414d3769bf068",
+      "previous_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "local_model": "Revision9/heatsink-quality/Aavid_574502B00000G_DrawingDerived_FoldedSpring.step",
+      "review_manifest": "heatsink-quality/heatsink-quality-manifest.json",
+      "previous_source_sha256": "b66e739c934beceb105612459bedeab0864eab3289a5ea23b2f414d3769bf068",
+      "previous_local_model": "Revision6/misc-body-illustrations/Aavid_574502B00000G_EnvelopeIllustration.step"
+    }
+  ]
+}

@@ -1,0 +1,619 @@
+{
+  "models": {
+    "KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "sha256": "6781515e86885b41d533492ffafff77a688e73cc7f24f42ac9b6960d0b19a9a0",
+      "source_kind": "official installed KiCad library",
+      "source_url": null,
+      "classification": "generic_package_visual_exact_pitch"
+    },
+    "KiCad/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step",
+      "sha256": "85b7de23bf92112c1cc60ca5fdb644f1a44e150a99f8c6f4f5f29010f50282b9",
+      "source_kind": "official installed KiCad library",
+      "source_url": null,
+      "classification": "generic_package_visual_exact_pitch"
+    },
+    "KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+      "sha256": "79deea96d81cb1e938ee80b9d546043f1678e6c4ce86a997adb27a3ea46f5108",
+      "source_kind": "official installed KiCad library",
+      "source_url": null,
+      "classification": "generic_package_visual_near_pitch"
+    },
+    "KiCad/Package_DIP.3dshapes/DIP-6_W7.62mm.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-6_W7.62mm.step",
+      "sha256": "a4460ddeadf04a1914d6bacbeb5b59d684aa99d513b0a3b223dbfdd0c77830c1",
+      "source_kind": "official installed KiCad library",
+      "source_url": null,
+      "classification": "generic package model; exact lead grid, body is not manufacturer-specific CAD"
+    },
+    "KiCad/Package_DIP.3dshapes/DIP-8_W7.62mm.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DIP.3dshapes/DIP-8_W7.62mm.step",
+      "sha256": "4a377a56a8d9e9c0b86c095ef9ecc1869ac19e7f5069a3247b294250bf4f235d",
+      "source_kind": "official installed KiCad library",
+      "source_url": null,
+      "classification": "generic package model; exact lead grid, body is not manufacturer-specific CAD"
+    },
+    "KiCad/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.step": {
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.step",
+      "sha256": "be0e412f1c66fee70039b0e109e0cc7c823161dda97593718afa97569bc61ce3",
+      "source_kind": "official installed KiCad library",
+      "source_url": null,
+      "classification": "generic nominal LQFP package matching original FT232BM package drawing"
+    },
+    "Project/D_DO35_P7.112_Illustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-4/generated-models/D_DO35_P7.112_Illustration.step",
+      "sha256": "8c3d100c84de93553e1723cd2f7060df093155b85c89edc537c22a68f50fa534",
+      "source_kind": "original project-generated CC0 illustration",
+      "source_urls": [
+        "https://www.vishay.com/docs/81857/1n4148.pdf"
+      ],
+      "classification": "generic_parametric_package_illustration_exact_pitch"
+    },
+    "Project/D_DO41_P11.176_Illustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-4/generated-models/D_DO41_P11.176_Illustration.step",
+      "sha256": "2f814b737ca58bd30ab405078670da7fb1a6d2a6f1cd3443746c7412df6b470b",
+      "source_kind": "original project-generated CC0 illustration",
+      "source_urls": [
+        "https://www.vishay.com/docs/88503/1n4001.pdf"
+      ],
+      "classification": "generic_parametric_package_illustration_exact_pitch"
+    },
+    "Revision5/passive-models/C_AVX_SR205_P2.54_Illustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/C_AVX_SR205_P2.54_Illustration.step",
+      "sha256": "2893fab1c5613ec442c8a4d4e07ea5ca238553affe5d3f5eb39d1a715f9120c2",
+      "source_kind": "original CC0 package illustration",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://ladyada.net/wiki/x0x/billofmaterials",
+        "https://datasheets.kyocera-avx.com/SR-Series.pdf"
+      ],
+      "classification": "qualified original package illustration",
+      "limitations": [
+        "Original package illustration, not manufacturer CAD or identification of the actual fitted component.",
+        "Mounting gap, lead forming, colors, fillet radii and printed/stripe annotations are explicit illustration choices.",
+        "Manufacturer body dimensions are retained without shrinking to historical silk; no physical assembly, enclosure, tolerance or clearance approval.",
+        "Body width/depth minus historical silk envelope: 0.508000/0.635000 mm; height is from the linked primary drawing and source height is unknown."
+      ],
+      "review_manifest": "passive-models/passive-assignments.json"
+    },
+    "Revision5/passive-models/C_Xicon_PM333_P4.064_Illustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/C_Xicon_PM333_P4.064_Illustration.step",
+      "sha256": "07665e8a5671a936853a264c52c7a65b69a76f0809f84e78f85fe80edb703976",
+      "source_kind": "original CC0 package illustration",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://ladyada.net/wiki/x0x/billofmaterials",
+        "https://www.mouser.com/datasheet/2/70/pm-190464.pdf"
+      ],
+      "classification": "qualified original package illustration",
+      "limitations": [
+        "Original package illustration, not manufacturer CAD or identification of the actual fitted component.",
+        "Mounting gap, lead forming, colors, fillet radii and printed/stripe annotations are explicit illustration choices.",
+        "Manufacturer body dimensions are retained without shrinking to historical silk; no physical assembly, enclosure, tolerance or clearance approval.",
+        "Body width/depth minus historical silk envelope: 0.150000/0.444000 mm; height is from the linked primary drawing and source height is unknown."
+      ],
+      "review_manifest": "passive-models/passive-assignments.json"
+    },
+    "Revision5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step",
+      "sha256": "baedb7170ada384a9ddecc4f7c192ac3cdd29ed68d497d8384e2c4b352464243",
+      "source_kind": "original CC0 package illustration",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://ladyada.net/wiki/x0x/billofmaterials",
+        "https://www.mouser.com/datasheet/2/231/XC-600178-1174881.pdf"
+      ],
+      "classification": "qualified original package illustration",
+      "limitations": [
+        "Original package illustration, not manufacturer CAD or identification of the actual fitted component.",
+        "Mounting gap, lead forming, colors, fillet radii and printed/stripe annotations are explicit illustration choices.",
+        "Manufacturer body dimensions are retained without shrinking to historical silk; no physical assembly, enclosure, tolerance or clearance approval.",
+        "Body width/depth minus historical silk envelope: 0.300000/0.300000 mm; height is from the linked primary drawing and source height is unknown."
+      ],
+      "review_manifest": "passive-models/passive-assignments.json"
+    },
+    "Revision5/integrated-models/Resonator_AWCR6MD_MaxBody_P2.54_Illustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/Resonator_AWCR6MD_MaxBody_P2.54_Illustration.step",
+      "sha256": "78f33aa8eb4dd7053e1fb5a9b03b43a1ae36eda4c313cbbf4c5e60b23c1c1bab",
+      "source_kind": "original project-generated CC0 illustration",
+      "source_urls": [
+        "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf"
+      ],
+      "classification": "original_parametric_package_illustration_primary_dimensions_exact_board_pitch",
+      "limitations": [
+        "Body uses maximum9.5\u00d74\u00d76.5mm envelope.",
+        "Exact PCB pitch2.54mm lies within manufacturer2.5\u00b10.3mm range.",
+        "Lead section uses printed maxima0.5\u00b10.1 by0.25\u00b10.1mm.",
+        "0.35mm body standoff,2.5mm cut tails,rounded corners and blue color are illustration choices.",
+        "Manufacturer front view has pin3 negativeX,pin2 center,pin1 positiveX; matchesXTL2P$3/P$2/P$1.",
+        "Not manufacturer CAD,exact fitted-part geometry,tolerance analysis or fabrication/assembly approval."
+      ],
+      "review_manifest": "integrated-models/integrated-model-manifest.json"
+    },
+    "Revision6/rear-body-illustrations/SDS50J-body-illustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/SDS50J-body-illustration.step",
+      "sha256": "05a7bb977ace0cfe47f532cc3bf7573f88b5a9db197a855eb672071956a81c31",
+      "source_kind": "Parametric nominal body illustration reconstructed from originalBOM/current manufacturer drawings; no terminals or locators",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.sameskydevices.com/product/resource/sds-j.pdf"
+      ],
+      "classification": "body-only visual illustration; terminals and locators omitted, not fit qualified",
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Rear cylinder and face recess diameter14.2mm are unsized exterior approximations; printed20x15.8x21.1mm envelope preserved.",
+        "Three1.6mm flange holes use printed19mm mounting circle; this diameter is not mistaken for the mating aperture.",
+        "Five front socket holes are illustrative1.3mm openings on printed7mmPCD; no contact/lead-fit claim."
+      ],
+      "review_manifest": "rear-body-illustrations/rear-body-illustrations-manifest.json"
+    },
+    "Revision6/rear-body-illustrations/MJ3536N-body-illustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/MJ3536N-body-illustration.step",
+      "sha256": "d82b0f5a71eae36fc7b1a3ceb3772a899549606cc427f84e57e080b66def1d6a",
+      "source_kind": "Parametric nominal body illustration reconstructed from originalBOM/current manufacturer drawings; no terminals or locators",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.sameskydevices.com/product/resource/mj-3536n.pdf"
+      ],
+      "classification": "body-only visual illustration; terminals and locators omitted, not fit qualified",
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Housing front nominally at canonicalY0, matching historical outline; current family terminal/body offsets not qualified.",
+        "Shallow top recess is generalized; current-family full10x15.8x10mm housing envelope retained.",
+        "No mounting nut implied. Full3mm bushing projection is retained even if scene seating requires review."
+      ],
+      "review_manifest": "rear-body-illustrations/rear-body-illustrations-manifest.json"
+    },
+    "Revision6/rear-body-illustrations/PJ202AH-body-illustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/PJ202AH-body-illustration.step",
+      "sha256": "7baa377ffaf50a4f81eb2de4fe964d550d0d6cf4478abe60a6261dc1d76a717b",
+      "source_kind": "Parametric nominal body illustration reconstructed from originalBOM/current manufacturer drawings; no terminals or locators",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.sameskydevices.com/product/resource/pj-202ah.pdf"
+      ],
+      "classification": "body-only visual illustration; terminals and locators omitted, not fit qualified",
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Canonical body extends toward negativeY because the original footprint body is drawn in positiveKiCadY; actualPOWER0 angle180 must be applied.",
+        "Rounded rear cover geometry generalized within full9x14.4x11mm envelope.",
+        "2mm pin diameter is printed; axial start/end are an illustration of the9mm insertion cavity, not mechanical tolerances."
+      ],
+      "review_manifest": "rear-body-illustrations/rear-body-illustrations-manifest.json"
+    },
+    "Revision6/rear-body-illustrations/NYS216-body-illustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/NYS216-body-illustration.step",
+      "sha256": "1354dbc753aa549bbb87d0524ebddedab9d305db2d015c415bd4c3ae5b36c619",
+      "source_kind": "Parametric nominal body illustration reconstructed from originalBOM/current manufacturer drawings; no terminals or locators",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.rean-connectors.com/media/9014/download/nys-216.pdf?v=1"
+      ],
+      "classification": "body-only visual illustration; terminals and locators omitted, not fit qualified",
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Full33mm overall axial length retained:24.5mm rear housing plus8.5mm bushing.",
+        "Current drawing also shows15.5mm side height; this illustration conservatively preserves16.5mm maximum front housing envelope.",
+        "Top slots and6.4mm bore are generalized. Nut/washer are omitted because exterior hardware is a separate existing scene illustration.",
+        "Historical asymmetric pad rows and current lead offsets are intentionally not represented."
+      ],
+      "review_manifest": "rear-body-illustrations/rear-body-illustrations-manifest.json"
+    },
+    "Revision6/rear-body-illustrations/USB_TypeB-body-illustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rear-body-illustrations/USB_TypeB-body-illustration.step",
+      "sha256": "5d7b59c38b09bdaca1159baf92438a00587a3cefd0af5855a874abdc8029fb90",
+      "source_kind": "Parametric nominal body illustration reconstructed from originalBOM/current manufacturer drawings; no terminals or locators",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.mouser.com/catalog/specsheets/KC-301021.pdf"
+      ],
+      "classification": "body-only visual illustration; terminals and locators omitted, not fit qualified",
+      "limitations": [
+        "Body-only visual illustration; terminals and locators omitted, not fit qualified.",
+        "Published nominal body envelope retained at scale1. No shrinking to satisfy pads or enclosure clearance.",
+        "All solder terminals, board locators and mounting pegs omitted; no historical pin-fit or toleranced seating assertion.",
+        "Internal details, small fillets and some recesses are generalized. Exact historical manufactured variant remains unverified.",
+        "Generic TypeB body using originalBOM Kobiconn154-2442-E dimensions, not an exactPN61729 asset.",
+        "BOM drawing envelope12.04x16.00x10.62mm and aperture7.78x8.45mm were recovered as primaryPDF text viaweb/Firecrawl; localdownload returnedHTML access page.",
+        "Nominal0.38mm shell gauge, chamfer outline, tongue and internal seating are illustrative; no lead compatibility asserted."
+      ],
+      "review_manifest": "rear-body-illustrations/rear-body-illustrations-manifest.json"
+    },
+    "Revision6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step",
+      "sha256": "4e804dd88e09680a8147bb4a013c877e9011c7bb70c5fd7d114618000e3eef1e",
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.nidec-components.com/e/catalog/trimmer/ct-6.pdf"
+      ],
+      "classification": "Original CT6EP-family nominal body illustration; no electrical terminals",
+      "limitations": [
+        "Original BOM calls these VishayCT6EP202/502/503/504; current primary CT-6EP catalog is Nidec/Copal. This is not the earlier CTS306 substitution.",
+        "7x7x5.8mm and slot dimensions follow the current manufacturer CT-6EP drawing. Historical vendor/revision is not confirmed.",
+        "Rotor diameter, housing/rotor split and colors are presentation approximations. No unverified terminals, clips or printed markings are modeled.",
+        "Body seated at canonicalZ0 is an installed-height assumption. Body-only assignment does not establish pin fit."
+      ],
+      "review_manifest": "misc-body-illustrations/misc-body-manifest.json"
+    },
+    "Revision6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.step",
+      "sha256": "f65e974128af6b8e5f9f74b815aada33c296f1ae113dac9fc6f7a341599e65a8",
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.onsemi.com/download/data-sheet/pdf/mc78m00-d.pdf"
+      ],
+      "classification": "Generic MC78M05/7805 TO220 nominal body and tab; all leads omitted",
+      "limitations": [
+        "Original BOM identifies7805 TO220 and links FairchildMC78M05CT; exact supplied regulator vendor/suffix is unconfirmed.",
+        "Nominal exterior dimensions lie within current onsemi case221AB published limits; body/tab segmentation and mounting-hole pose are simplified.",
+        "No terminals are modeled. The prior nominal pin-clearance concern is not hidden by thinning or moving leads.",
+        "Body bottomZ3.0mm and canonicalY placement are illustration assumptions informed by the installed standard TO220 package and source footprint; real seat/heatsink contact is not certified."
+      ],
+      "review_manifest": "misc-body-illustrations/misc-body-manifest.json"
+    },
+    "Revision6/misc-body-illustrations/Aavid_574502B00000G_EnvelopeIllustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/Aavid_574502B00000G_EnvelopeIllustration.step",
+      "sha256": "b66e739c934beceb105612459bedeab0864eab3289a5ea23b2f414d3769bf068",
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf"
+      ],
+      "classification": "Published-envelope Aavid/Boyd574502B00000G heatsink illustration; folds approximate",
+      "limitations": [
+        "KK1 is a fitted padless heatsink, included separately from the electrical-pad inventory.",
+        "Specific574502B00000G drawing gives21.84mm width,10.03mm side depth and19.05mm height; family summary table reports9.02mm depth. This model uses the specific part drawing.",
+        "SourceD03S footprint artwork is13.716mm wide and conflicts with the BOM part; the board artwork is not altered.",
+        "Fold wall0.6mm, simplified spring outline and installed seat are approximations; no real regulator contact/clamping or mechanical clearance is certified."
+      ],
+      "review_manifest": "misc-body-illustrations/misc-body-manifest.json"
+    },
+    "Revision6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://wiki.ladyada.net/x0x/jumpers",
+        "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf"
+      ],
+      "classification": "Soldered ribbon termination illustration; no invented header housing",
+      "limitations": [
+        "MA03-1/MA12-1 are footprint names; original assembly uses soldered ribbon jumpers, not fitted plastic headers.",
+        "Conductor counts and2.54mm pad axes are exact. Wire sections,7.5mm stub height and forming/trim lengths are inferred presentation choices.",
+        "152.4mm is original stock length, not validated installed board separation. Only terminations are modeled; board-to-board ribbon paths are assembly dependent."
+      ],
+      "review_manifest": "misc-body-illustrations/misc-body-manifest.json"
+    },
+    "Revision6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step",
+      "sha256": "01941f699d9d68c823228d7d566d2f682a9b98dd1d03bc189c73b2ae18eaa6e3",
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://wiki.ladyada.net/x0x/jumpers",
+        "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf"
+      ],
+      "classification": "Soldered ribbon termination illustration; no invented header housing",
+      "limitations": [
+        "MA03-1/MA12-1 are footprint names; original assembly uses soldered ribbon jumpers, not fitted plastic headers.",
+        "Conductor counts and2.54mm pad axes are exact. Wire sections,7.5mm stub height and forming/trim lengths are inferred presentation choices.",
+        "152.4mm is original stock length, not validated installed board separation. Only terminations are modeled; board-to-board ribbon paths are assembly dependent."
+      ],
+      "review_manifest": "misc-body-illustrations/misc-body-manifest.json"
+    },
+    "Revision8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+      "sha256": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+      "source_kind": "Original parameterized primary-drawing reconstruction with explicit unsized details",
+      "source_urls": [
+        "https://www.sameskydevices.com/product/resource/sds-j.pdf"
+      ],
+      "classification": "Detailed exact-family drawing-derived body illustration; not manufacturerCAD, terminalfit unqualified",
+      "limitations": [
+        "Detailed body reconstruction from primary manufacturer drawings; not recovered manufacturer3DCAD.",
+        "Canonical original F.Cu footprint frame X,-Y,Z outward, no placed board/case pose baked in; all native assignment transforms remain zero offset/rotation and unity scale.",
+        "Unconfirmed solder terminals and locators are omitted; visible mating/contact illustrations are not electrical lead geometry.",
+        "Unsized details are traced/interpreted within published nominal envelopes; no factorytolerance, terminalfit, historicalrevision or enclosurefit qualification.",
+        "CurrentSDS-J drawing differs from historical2005CUI drawing in flange detail/thickness; candidate is exactSDS50J currentfamily, not proven identical2005mold.",
+        "Mating cavity14.2diameter, socket dimensions, minor reliefs and rearcover steps are unsized visual reconstructions; outerenvelope and printed PCD/holepatterns are authoritative."
+      ],
+      "review_manifest": "rear-quality/rear-quality-manifest.json",
+      "change": "Detailed source-qualified model replacement; native assignment transform and all PCB design nodes preserved",
+      "previous_local_model": "Revision6/rear-body-illustrations/SDS50J-body-illustration.step"
+    },
+    "Revision8/rear-quality/NYS216_DrawingDerived_DetailedBody.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/NYS216_DrawingDerived_DetailedBody.step",
+      "sha256": "9f397ef5f43bf615023e40b04554d182468b351faf732539918b42c040ebb390",
+      "source_kind": "Original parameterized primary-drawing reconstruction with explicit unsized details",
+      "source_urls": [
+        "https://www.rean-connectors.com/media/12224/download/nys-216-1.dxf?v=1",
+        "https://www.rean-connectors.com/media/9014/download/nys-216.pdf?v=1"
+      ],
+      "classification": "Detailed exact-family drawing-derived body illustration; not manufacturerCAD, terminalfit unqualified",
+      "limitations": [
+        "Detailed body reconstruction from primary manufacturer drawings; not recovered manufacturer3DCAD.",
+        "Canonical original F.Cu footprint frame X,-Y,Z outward, no placed board/case pose baked in; all native assignment transforms remain zero offset/rotation and unity scale.",
+        "Unconfirmed solder terminals and locators are omitted; visible mating/contact illustrations are not electrical lead geometry.",
+        "Unsized details are traced/interpreted within published nominal envelopes; no factorytolerance, terminalfit, historicalrevision or enclosurefit qualification.",
+        "ManufacturerDXF modelspace is drawing2:1, normalizedby0.5; rawoveralloutline33.75 conflicts with printed33\u00b10.5; printed33nominal governs reconstructed outerlength.",
+        "DXF drawnribheight15.3 differs from printed15.5bodyheight; printed15.5nominal governs.16.5 is also shown forfront/hardware orPCBpitch, not uniformly solidhousingheight.",
+        "Official currentproductpage reports8.2mmtoPCB while drawingaxisis8.0; actualbodyseat/feetgap is unmeasured and candidate retainsdrawingaxis8.0.",
+        "Circular threadgrooves are visual pitch markers, not a truehelix. Leafcontactcurves, stockthickness, topwindowdepth and side marks are unsized reconstructions.",
+        "Nut/washer omitted because existingscene providesseparateexteriorhardware; do not duplicateorclaimcompatibility fromtheseillustrations."
+      ],
+      "review_manifest": "rear-quality/rear-quality-manifest.json",
+      "change": "Detailed source-qualified model replacement; native assignment transform and all PCB design nodes preserved",
+      "previous_local_model": "Revision6/rear-body-illustrations/NYS216-body-illustration.step"
+    },
+    "Revision8/misc-quality/CT6EP_DatasheetDetailed.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/misc-quality/CT6EP_DatasheetDetailed.step",
+      "sha256": "21b0eceff6097b791b5c1174b74a85826ec8da8e5674869bf5a034b657d6df45",
+      "source_kind": "Original CC0 parametric reconstruction from manufacturer CT6EP drawing",
+      "source_urls": [
+        "https://www.nidec-components.com/e/catalog/trimmer/ct-6.pdf",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "classification": "Detailed datasheet-derived CT6EP family model with nominal untrimmed leads",
+      "limitations": [
+        "Manufacturer CT6EP drawing supplies7x7x5.8mm envelope,0.6x2.6x1.6mm crossslot,0.45mm leads,5x2.5mm lead grid and7+/-2mm untrimmed length. Current Nidec/Copal family is not proven identical to original Vishay-supplied historical stock.",
+        "Housing radii, seam/lug positions, label-panel relief and rotor/tooth dimensions are interpreted from the unsized outline; not factory CAD. Resistance and production date are not invented.",
+        "The canonical origin and native assignment transform are unchanged. Body seated atZ0 is an installed-height assumption. Leads are manufacturer nominal untrimmed length; actual soldered trim length is unknown.",
+        "Nominal lead grid differs from original board5.08x2.54 by0.04mm peraxis. Nominal drill1.0mm minus lead0.45mm permits this nominal centre mismatch; tolerance and real formed-lead seating are not qualified.",
+        "No part body was reduced or moved to fit the case. This visual model is not physical assembly or fabrication qualification."
+      ],
+      "review_manifest": "misc-quality/misc-quality-manifest.json",
+      "change": "Detailed source-qualified model replacement; native assignment transform and all PCB design nodes preserved",
+      "previous_local_model": "Revision6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step"
+    },
+    "Revision9/heatsink-quality/Aavid_574502B00000G_DrawingDerived_FoldedSpring.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/heatsink-quality/Aavid_574502B00000G_DrawingDerived_FoldedSpring.step",
+      "sha256": "36ea5130eb331e8c740748c697559dfd79671284869be83e8251dd4c944e4336",
+      "source_kind": "Primary manufacturer drawing-derived parametric reconstruction",
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf",
+        "https://www.mouser.com/datasheet/2/2/Aavid_Boyd_Board_Level_Heatsinks_Catalog-3043646.pdf"
+      ],
+      "classification": "Detailed exact-part continuous folded/slotted free-state spring illustration; installed fit unqualified",
+      "limitations": [
+        "Drawing-derived reconstruction, not downloaded manufacturer CAD. Exact 574502B00000G identity is retained; no solderable tabs from 03200/03300 variants were added.",
+        "Specific 2017 part drawing gives 21.84 x 10.03 x 19.05 mm. Family table reports 9.02 mm depth. Specific drawing controls the envelope.",
+        "Primary manufacturer catalogue printed page45 specifies 0.63 mm aluminium and black anodize. Thickness tolerance and spring alloy condition are unconfirmed.",
+        "The 4.19 +/-0.13 mm checking-gauge gap, 3.81 mm hole, 11.81 mm hole height and 14.99 mm upper-lance datum follow the exact part drawing. Its parenthetical 11.81 (.485) callout conflicts internally; metric 11.81 is retained, also consistent with catalogue .465 inch.",
+        "Bend radii, inner channel width, outer-fin tip height, lances, contact finger loft, holding catch and stamped relief widths are unsized drawing-traced presentation geometry, documented in generator parameters.",
+        "Canonical envelope Y=-1.27..8.76 and Z=0..19.05 retain the prior illustration datum. Actual installed slide height, insertion depth and free-state spring deformation are unconfirmed; native assignment stays zero offset/rotation with unity scale.",
+        "D03S footprint artwork is 13.716 mm wide versus the BOM part width 21.84 mm. Source footprint and all PCB geometry remain unchanged.",
+        "Nominal regulator contact/intersection is measured separately; no clamping, thermal performance, elastic installation, physical clearance or manufacturing tolerance qualification is claimed.",
+        "At the retained illustration datum the nominal IC20 intersects the two front cooling returns by48.642693mm3, versus40.92mm3 in the prior envelope. The reconstructed checking channel lies atY3.94..8.13mm while unchanged IC20 lies atY-5.105..-0.65mm in KK1 coordinates. This incompatibility is not claimed to be intended spring compression; original seat and body mapping remain unresolved."
+      ],
+      "review_manifest": "heatsink-quality/heatsink-quality-manifest.json",
+      "change": "Detailed source-qualified model replacement; all PCB design nodes preserved; any model-only seating offset exception explicitly recorded",
+      "previous_local_model": "Revision6/misc-body-illustrations/Aavid_574502B00000G_EnvelopeIllustration.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "previous_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "model_seating_review": null
+    },
+    "Revision10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step",
+      "sha256": "57572d2c7c441f7c83c0bf4c281866def4e4d5b5639d05f805596d090a09f555",
+      "source_kind": "Primary original-author assembly-photo qualified rigid installation of source-dimensional reconstruction",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/powersupply.html",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.onsemi.com/download/data-sheet/pdf/mc78m00-d.pdf",
+        "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf"
+      ],
+      "classification": "Original assembly photo-qualified bent-back nominal MC78M05 TO220 body-only illustration",
+      "limitations": [
+        "Original author assembly instruction explicitly says to bend IC20 back before fitting the heatsink; the original place/soldered/measure photos show the body and tab approximately parallel to the PCB and extending beyond its edge.",
+        "The exact 90 degree angle, bend datum and 2.0 mm vertical placement are illustration assumptions, not measurements from the photograph or a manufacturer formed-lead specification.",
+        "All IC20 leads remain omitted. The prior nominal published lead width/hole fit was unresolved; no terminals were thinned, displaced or invented to conceal it.",
+        "The paired seat uses source-consistent through-hole and contact-plane alignment, inherited from the nominal generic TO220 body. Actual original regulator vendor/suffix, lead forming, cut lengths and installed seat require physical confirmation.",
+        "The complete revision 9 heatsink is only rigidly rotated and translated. No fold, spring finger, wall, source envelope or neighboring component is trimmed or shrunk.",
+        "Free-state reconstructed spring fingers retain a nominal 1.729422 mm3 regulator intersection. This is a documented geometric overlap, not a simulation or certification of elastic clamping, contact force or thermal performance.",
+        "Case placement, board seat and neighboring package models remain qualified visual geometry. A clear surface screen does not establish tolerance or physical fit."
+      ],
+      "review_manifest": "heatsink-fit-research/bent-pair-manifest.json",
+      "change": "Detailed source-qualified model replacement; all PCB design nodes preserved; any model-only seating offset exception explicitly recorded",
+      "previous_local_model": "Revision6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "previous_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "model_seating_review": null
+    },
+    "Revision10/heatsink-fit-research/Aavid_574502B00000G_BentBack_PhotoQualified.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/heatsink-fit-research/Aavid_574502B00000G_BentBack_PhotoQualified.step",
+      "sha256": "c52b9aed6d3145861dde7c39389c46e2efe0853e84373eb84f299e2691d7fea9",
+      "source_kind": "Primary original-author assembly-photo qualified rigid installation of source-dimensional reconstruction",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/powersupply.html",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.onsemi.com/download/data-sheet/pdf/mc78m00-d.pdf",
+        "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf"
+      ],
+      "classification": "Original assembly photo-qualified bent-back full-size drawing-derived folded spring illustration",
+      "limitations": [
+        "Original author assembly instruction explicitly says to bend IC20 back before fitting the heatsink; the original place/soldered/measure photos show the body and tab approximately parallel to the PCB and extending beyond its edge.",
+        "The exact 90 degree angle, bend datum and 2.0 mm vertical placement are illustration assumptions, not measurements from the photograph or a manufacturer formed-lead specification.",
+        "All IC20 leads remain omitted. The prior nominal published lead width/hole fit was unresolved; no terminals were thinned, displaced or invented to conceal it.",
+        "The paired seat uses source-consistent through-hole and contact-plane alignment, inherited from the nominal generic TO220 body. Actual original regulator vendor/suffix, lead forming, cut lengths and installed seat require physical confirmation.",
+        "The complete revision 9 heatsink is only rigidly rotated and translated. No fold, spring finger, wall, source envelope or neighboring component is trimmed or shrunk.",
+        "Free-state reconstructed spring fingers retain a nominal 1.729422 mm3 regulator intersection. This is a documented geometric overlap, not a simulation or certification of elastic clamping, contact force or thermal performance.",
+        "Case placement, board seat and neighboring package models remain qualified visual geometry. A clear surface screen does not establish tolerance or physical fit."
+      ],
+      "review_manifest": "heatsink-fit-research/bent-pair-manifest.json",
+      "change": "Detailed source-qualified model replacement; all PCB design nodes preserved; any model-only seating offset exception explicitly recorded",
+      "previous_local_model": "Revision9/heatsink-quality/Aavid_574502B00000G_DrawingDerived_FoldedSpring.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "previous_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "model_seating_review": null
+    },
+    "Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+      "sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+      "source_kind": "Independent parameterized reconstruction from original/current manufacturer drawings; explicitly unsized appearance details",
+      "source_urls": [
+        "https://www.sameskydevices.com/product/resource/mj-3536n.pdf",
+        "https://static.chipdip.ru/lib/247/DOC011247072.pdf",
+        "https://www.mouser.com/datasheet/2/670/mj-3536n-1311426.pdf",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "classification": "Detailed exact-family drawing-derived body/contact illustration; below-seat terminals omitted, installed fit unqualified",
+      "limitations": [
+        "Original independent parameterized reconstruction from primary manufacturer drawings, not redistributed manufacturer CAD.",
+        "Published nominal envelopes/apertures retained at unity scale. Original canonical front/body-seat datum, offset0, rotation0 and native footprint pose are preserved.",
+        "Below-seat terminals, solder lugs and locators are omitted. These candidates do not demonstrate PCB lead fit or installed seating.",
+        "Roof slopes, recess/slot positions, cover seams, contact-arch/leaf/ring shapes and stock gauges are unsized visual interpretations within the printed envelopes; no tolerance or electrical-contact qualification.",
+        "Exact historical supplied revision, mold, plating and physical fit remain unverified. Contemporary datasheets are references for a family illustration.",
+        "2010 revisionB and2020 revision1.02 dimension-lines imply nominal terminal positions(0,2.3),(0,16),(5.2,13.5), consistent with the current drawing; 11.2 is terminal1-to-terminal3, not terminal1-to-terminal2.",
+        "The source records reengineering in2023 and2024. Equal printed nominal dimensions do not prove unchanged mold or terminal tolerances.",
+        "Original PCB rounddrills2.54 and slightly displaced center positions differ from manufacturer slotted-hole recommendations; no leads were narrowed or shifted to fit.",
+        "No nut or thread is added: MJ-3536N is the nonthreaded6mm-bushing family, distinct from threaded sibling variants.",
+        "Roof height7.5, slope breakpoints2.3/10.0, recessed window7.1wide, contactstock0.27/0.30 and14.1mm internal bore depth are visual assumptions, not manufacturer callouts."
+      ],
+      "review_manifest": "rear-connector-quality/rear-connector-quality-corrected-manifest.json",
+      "change": "Detailed source-qualified model replacement; all PCB design nodes preserved; any model-only seating offset exception explicitly recorded",
+      "previous_local_model": "Revision6/rear-body-illustrations/MJ3536N-body-illustration.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "previous_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "model_seating_review": null
+    },
+    "Revision10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+      "sha256": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+      "source_kind": "Independent parameterized reconstruction from original/current manufacturer drawings; explicitly unsized appearance details",
+      "source_urls": [
+        "https://www.sameskydevices.com/product/resource/pj-202ah.pdf",
+        "https://datasheet.octopart.com/PJ-202AH-CUI-datasheet-62089902.pdf",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "classification": "Detailed exact-family drawing-derived body/contact illustration; below-seat terminals omitted, installed fit unqualified",
+      "limitations": [
+        "Original independent parameterized reconstruction from primary manufacturer drawings, not redistributed manufacturer CAD.",
+        "Published nominal envelopes/apertures retained at unity scale. Original canonical front/body-seat datum, offset0, rotation0 and native footprint pose are preserved.",
+        "Below-seat terminals, solder lugs and locators are omitted. These candidates do not demonstrate PCB lead fit or installed seating.",
+        "Roof slopes, recess/slot positions, cover seams, contact-arch/leaf/ring shapes and stock gauges are unsized visual interpretations within the printed envelopes; no tolerance or electrical-contact qualification.",
+        "Exact historical supplied revision, mold, plating and physical fit remain unverified. Contemporary datasheets are references for a family illustration.",
+        "The recovered2015 revision1.01 and current2025 revision1.05 retain printed9x14.4x11mm, axis6.5, bore6.5, pin2.0 and terminalspacing nominal dimensions; the current drawing adds finer views/tolerances.",
+        "Nominal terminal3 width3.0 exceeds original P$3 rounddrill2.8 before considering gauge, forming or offset; manufacturer recommends a3.0x1.0 slot. Terminals are omitted rather than thinned.",
+        "Rearcover thickness0.7, retention cutout dimensions, cavity ring0.32stock, rounded pin nose and spring dimensions are unsized illustration choices.",
+        "OriginalPOWER0 placementangle180 is external to this canonical asset; no mirror, scale or boardtranslation is baked into the model.",
+        "Removed rear plastic recess: manufacturer \u00d81.5 callout is a terminal eye, not a molded cover hole. Below-seat terminal geometry remains omitted."
+      ],
+      "review_manifest": "rear-connector-quality/rear-connector-quality-corrected-manifest.json",
+      "change": "Detailed source-qualified model replacement; all PCB design nodes preserved; any model-only seating offset exception explicitly recorded",
+      "previous_local_model": "Revision6/rear-body-illustrations/PJ202AH-body-illustration.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "previous_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "model_seating_review": null
+    }
+  },
+  "assigned_reference_count": 82,
+  "reviews_directory": "validation/models-review-10",
+  "known_nominal_model_intersections": [
+    {
+      "reference_a": "C204",
+      "reference_b": "XTL2",
+      "new_a": true,
+      "new_b": true,
+      "intersection_volume_mm3": 0.6361694972499026,
+      "intersection_bounds_mm": [
+        85.7885,
+        30.21392057121531,
+        2.336920571215276,
+        85.84899984251969,
+        34.81007942878472,
+        6.9330794287847235
+      ],
+      "common_valid": true
+    },
+    {
+      "reference_a": "C201",
+      "reference_b": "R8",
+      "new_a": true,
+      "new_b": false,
+      "intersection_volume_mm3": 0.3842572659015724,
+      "intersection_bounds_mm": [
+        73.95800974963451,
+        18.932402261053106,
+        2.7762499999999997,
+        74.39786,
+        20.1340351899589,
+        8.71375
+      ],
+      "common_valid": true
+    },
+    {
+      "reference_a": "C3",
+      "reference_b": "C5",
+      "new_a": true,
+      "new_b": true,
+      "intersection_volume_mm3": 0.001342613371783763,
+      "intersection_bounds_mm": [
+        12.627310423893862,
+        34.29777919746063,
+        22.195,
+        12.772689576106186,
+        34.91722080253919,
+        22.395
+      ],
+      "common_valid": true
+    }
+  ]
+}

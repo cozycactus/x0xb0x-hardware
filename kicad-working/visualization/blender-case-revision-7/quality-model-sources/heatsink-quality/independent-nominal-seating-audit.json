@@ -1,0 +1,235 @@
+{
+  "scope": "Independent exact-BRep comparison of immutable KK1 and unchanged IC20 with explicit proposed model-only translations. No PCB/model/scenes changed.",
+  "source_sha256": {
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/heatsink-quality/Aavid_574502B00000G_DrawingDerived_FoldedSpring.step": "36ea5130eb331e8c740748c697559dfd79671284869be83e8251dd4c944e4336",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.step": "f65e974128af6b8e5f9f74b815aada33c296f1ae113dac9fc6f7a341599e65a8"
+  },
+  "actual_native_origin_difference_IC20_minus_KK1_mm": [
+    0,
+    -1.27,
+    0
+  ],
+  "primary_drawing_interpretation": {
+    "through_hole_axis_height_mm": 11.81,
+    "upper_lance_bottom_datum_mm": 14.99,
+    "note": "Fresh high-resolution drawing inspection confirms11.81 throughholecentre and14.99 upperlancebottom, neither is a holdingcatch datum."
+  },
+  "poses": [
+    {
+      "label": "prior_zero",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "bounds_in_KK1_frame_mm": [
+        -10.920000000000002,
+        -1.2700000000000002,
+        0.0,
+        10.920000000000002,
+        8.76,
+        19.05
+      ],
+      "intersection_volume_mm3": 48.64269307624872,
+      "intersection_bounds_mm": [
+        -5.0,
+        -1.2700000000000002,
+        3.0,
+        5.0,
+        -0.6499999999999984,
+        18.5
+      ],
+      "intersection_in_reconstructed_spring_fingers_mm3": 0.0,
+      "intersection_outside_finger_mask_mm3": 48.64269307624872,
+      "rear_contact_plane_y_mm": 8.13,
+      "heatsink_hole_axis_z_mm": 11.81,
+      "regulator_hole_axis_z_mm": 15.71,
+      "hole_axis_residual_mm": 3.9000000000000004,
+      "coplanar_back_contact_faces": [],
+      "total_coplanar_back_contact_area_mm2": 0
+    },
+    {
+      "label": "Y_only",
+      "offset_mm": [
+        0,
+        -8.78,
+        0
+      ],
+      "bounds_in_KK1_frame_mm": [
+        -10.920000000000002,
+        -10.05,
+        0.0,
+        10.920000000000002,
+        -0.019999999999999574,
+        19.05
+      ],
+      "intersection_volume_mm3": 1.4798096567657923,
+      "intersection_bounds_mm": [
+        -3.85,
+        -5.869999999999999,
+        0.0,
+        3.85,
+        -0.6499999999999986,
+        17.9
+      ],
+      "intersection_in_reconstructed_spring_fingers_mm3": 1.3731272204402827,
+      "intersection_outside_finger_mask_mm3": 0.1066823926745984,
+      "rear_contact_plane_y_mm": -0.6499999999999986,
+      "heatsink_hole_axis_z_mm": 11.81,
+      "regulator_hole_axis_z_mm": 15.71,
+      "hole_axis_residual_mm": 3.9000000000000004,
+      "coplanar_back_contact_faces": [
+        {
+          "area_mm2": 86.72931058464218,
+          "bounds_mm": [
+            -5.0,
+            -0.65,
+            3.0,
+            5.0,
+            -0.6499999999999986,
+            12.5
+          ]
+        },
+        {
+          "area_mm2": 45.67055685632649,
+          "bounds_mm": [
+            -5.0,
+            -0.65,
+            12.49999999999996,
+            5.0,
+            -0.6499999999999986,
+            18.5
+          ]
+        }
+      ],
+      "total_coplanar_back_contact_area_mm2": 132.39986744096868
+    },
+    {
+      "label": "rejected_point72",
+      "offset_mm": [
+        0,
+        -8.78,
+        0.72
+      ],
+      "bounds_in_KK1_frame_mm": [
+        -10.920000000000002,
+        -10.05,
+        0.7199999999999989,
+        10.920000000000002,
+        -0.019999999999999574,
+        19.77
+      ],
+      "intersection_volume_mm3": 1.6793804956876834,
+      "intersection_bounds_mm": [
+        -3.85,
+        -5.869999999999999,
+        0.72,
+        3.85,
+        -0.6499999999999986,
+        18.5
+      ],
+      "intersection_in_reconstructed_spring_fingers_mm3": 1.519880405149513,
+      "intersection_outside_finger_mask_mm3": 0.15950000000000034,
+      "rear_contact_plane_y_mm": -0.6499999999999986,
+      "heatsink_hole_axis_z_mm": 12.530000000000001,
+      "regulator_hole_axis_z_mm": 15.71,
+      "hole_axis_residual_mm": 3.1799999999999997,
+      "coplanar_back_contact_faces": [
+        {
+          "area_mm2": 89.41383613556779,
+          "bounds_mm": [
+            -5.0,
+            -0.65,
+            3.0,
+            5.0,
+            -0.6499999999999986,
+            12.500000000000036
+          ]
+        },
+        {
+          "area_mm2": 43.15592997012051,
+          "bounds_mm": [
+            -5.0,
+            -0.65,
+            12.5,
+            5.0,
+            -0.6499999999999986,
+            18.5
+          ]
+        }
+      ],
+      "total_coplanar_back_contact_area_mm2": 132.5697661056883
+    },
+    {
+      "label": "hole_and_back_plane_aligned",
+      "offset_mm": [
+        0,
+        -8.78,
+        3.9
+      ],
+      "bounds_in_KK1_frame_mm": [
+        -10.920000000000002,
+        -10.05,
+        3.8999999999999986,
+        10.920000000000002,
+        -0.019999999999999574,
+        22.95
+      ],
+      "intersection_volume_mm3": 1.7294223413446805,
+      "intersection_bounds_mm": [
+        -3.85,
+        -5.869999999999999,
+        3.9,
+        3.85,
+        -4.84,
+        13.700000000000001
+      ],
+      "intersection_in_reconstructed_spring_fingers_mm3": 1.7294223413446805,
+      "intersection_outside_finger_mask_mm3": 0.0,
+      "rear_contact_plane_y_mm": -0.6499999999999986,
+      "heatsink_hole_axis_z_mm": 15.71,
+      "regulator_hole_axis_z_mm": 15.71,
+      "hole_axis_residual_mm": 0.0,
+      "coplanar_back_contact_faces": [
+        {
+          "area_mm2": 85.99999999999999,
+          "bounds_mm": [
+            -5.0,
+            -0.65,
+            3.9,
+            5.0,
+            -0.6499999999999986,
+            12.5
+          ]
+        },
+        {
+          "area_mm2": 48.5990817203063,
+          "bounds_mm": [
+            -5.0,
+            -0.65,
+            12.5,
+            5.0,
+            -0.6499999999999986,
+            18.5
+          ]
+        }
+      ],
+      "total_coplanar_back_contact_area_mm2": 134.5990817203063
+    }
+  ],
+  "proposed_offset_mm": [
+    0,
+    -8.78,
+    3.9
+  ],
+  "nominal_channel_mm": 4.19,
+  "nominal_channel_tolerance_mm": 0.13,
+  "regulator_plastic_depth_mm": 4.455,
+  "nominal_plastic_over_channel_mm": 0.265,
+  "limitations": [
+    "IC20 is a nominal generic body-only model with assumed bodybottomZ3.0 and vendor/seating uncertainty. Hole alignment inherits that assumption.",
+    "Remaining intersection is evaluated geometrically, not presumed elastic. Finger geometry itself is unsized reconstruction; alloy/tempering, force/deformation and tolerances are unknown.",
+    "No manufacturer-mounted exact-part assemblyphoto was recovered in this bounded local review. Manufacturer drawing shows TO220 slide-on checking gap and device/tab concept, but does not qualify actual x0xb0x seating.",
+    "Full-case/neighbor mesh screen is recorded separately; this is not hardware assembly or thermal qualification."
+  ]
+}

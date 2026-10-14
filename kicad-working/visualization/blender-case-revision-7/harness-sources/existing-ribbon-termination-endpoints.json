@@ -1,0 +1,5487 @@
+{
+  "saved_scene": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/visualization/blender-case-revision-4/x0xb0x-populated-with-case.blend",
+  "saved_scene_sha256": "2a124a12efc0e32250c9363ecbbd35c18d8f4ff1c5d9f7e46eafb3632b097a67",
+  "saved_scene_unchanged": true,
+  "source_misc_manifest": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/misc-body-manifest.json",
+  "source_misc_manifest_sha256": "0e8be8d3d8ebf7ac9f3fc3ccf76d0f40d15243b6b4e1364b629bcaac13a9841f",
+  "native_reference_count": 491,
+  "inspected_native_ribbon_references": 10,
+  "span_conductors": 24,
+  "board_end_tips": 48,
+  "canonical_geometry": {
+    "pitch_mm": 2.54,
+    "insulation_diameter_mm": 1,
+    "insulation_z_mm": [
+      1.2,
+      7.5
+    ],
+    "web_thickness_mm": 0.35,
+    "bare_conductor_diameter_mm": 0.4,
+    "bare_conductor_z_mm": [
+      -1.8,
+      1.2
+    ],
+    "total_3way_width_mm": 6.08,
+    "total_12way_width_mm": 28.94,
+    "stock_length_mm": 152.4,
+    "top_tip": "Flat insulation face atZ7.5; conductor model ends atZ1.2 and is not exposed at the upper tip."
+  },
+  "geometry_records": [
+    {
+      "board": "mainboard",
+      "reference": "J3",
+      "footprint": "mainboard-import-fps:MA12-1",
+      "canonical_model_STEP": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step",
+      "canonical_model_sha256": "01941f699d9d68c823228d7d566d2f682a9b98dd1d03bc189c73b2ae18eaa6e3",
+      "canonical_wire_axes_x_mm": [
+        -13.97,
+        -11.43,
+        -8.89,
+        -6.35,
+        -3.81,
+        -1.27,
+        1.27,
+        3.81,
+        6.35,
+        8.89,
+        11.43,
+        13.97
+      ],
+      "source_dimensions": {
+        "actual_conductor_count": 12,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "native_meshes": [
+        {
+          "name": "MAINBOARD/J3/mesh",
+          "vertices": 1176,
+          "polygons": 1104,
+          "canonical_bounds_mm": [
+            -14.170000329613686,
+            -0.19999999494757503,
+            -1.7999999690800905,
+            14.170000329613686,
+            0.19999999494757503,
+            1.2000000569969416
+          ]
+        },
+        {
+          "name": "MAINBOARD/J3/mesh.001",
+          "vertices": 1176,
+          "polygons": 1068,
+          "canonical_bounds_mm": [
+            -14.469999819993973,
+            -0.5000000237487257,
+            1.2000000569969416,
+            14.469999819993973,
+            0.5000000237487257,
+            7.499999832361937
+          ]
+        }
+      ],
+      "native_component_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.19659599661827087
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.004064000211656094
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0015950000379234552
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J4",
+      "footprint": "mainboard-import-fps:MA03-1",
+      "canonical_model_STEP": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "canonical_model_sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "canonical_wire_axes_x_mm": [
+        -2.54,
+        0.0,
+        2.54
+      ],
+      "source_dimensions": {
+        "actual_conductor_count": 3,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "native_meshes": [
+        {
+          "name": "MAINBOARD/J4/mesh",
+          "vertices": 294,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -2.739999908953905,
+            -0.19999999494757503,
+            -1.7999999690800905,
+            2.739999908953905,
+            0.19999999494757503,
+            1.2000000569969416
+          ]
+        },
+        {
+          "name": "MAINBOARD/J4/mesh.001",
+          "vertices": 312,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -3.0400000978261232,
+            -0.5000000237487257,
+            1.2000000569969416,
+            3.0400000978261232,
+            0.5000000237487257,
+            7.499999832361937
+          ]
+        }
+      ],
+      "native_component_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.12242799997329712
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.13563600182533264
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0015950000379234552
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J5",
+      "footprint": "mainboard-import-fps:MA03-1",
+      "canonical_model_STEP": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "canonical_model_sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "canonical_wire_axes_x_mm": [
+        -2.54,
+        0.0,
+        2.54
+      ],
+      "source_dimensions": {
+        "actual_conductor_count": 3,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "native_meshes": [
+        {
+          "name": "MAINBOARD/J5/mesh",
+          "vertices": 294,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -2.739999908953905,
+            -0.19999999494757503,
+            -1.7999999690800905,
+            2.739999908953905,
+            0.19999999494757503,
+            1.2000000569969416
+          ]
+        },
+        {
+          "name": "MAINBOARD/J5/mesh.001",
+          "vertices": 312,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -3.0400000978261232,
+            -0.5000000237487257,
+            1.2000000569969416,
+            3.0400000978261232,
+            0.5000000237487257,
+            7.499999832361937
+          ]
+        }
+      ],
+      "native_component_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.017271999269723892
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.17119599878787994
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0015950000379234552
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J6",
+      "footprint": "mainboard-import-fps:MA03-1",
+      "canonical_model_STEP": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "canonical_model_sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "canonical_wire_axes_x_mm": [
+        -2.54,
+        0.0,
+        2.54
+      ],
+      "source_dimensions": {
+        "actual_conductor_count": 3,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "native_meshes": [
+        {
+          "name": "MAINBOARD/J6/mesh",
+          "vertices": 294,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -2.7399910613894463,
+            -0.1999927480937913,
+            -1.8000000854954123,
+            2.740008756518364,
+            0.20000724180135876,
+            1.1999999405816197
+          ]
+        },
+        {
+          "name": "MAINBOARD/J6/mesh.001",
+          "vertices": 312,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -3.0399912502616644,
+            -0.4999928059987724,
+            1.1999999405816197,
+            3.040008945390582,
+            0.5000072414986789,
+            7.499999832361937
+          ]
+        }
+      ],
+      "native_component_matrix": [
+        [
+          -1.3435885648505064e-07,
+          -1.0000001192092896,
+          0.0,
+          0.1562100052833557
+        ],
+        [
+          1.0000001192092896,
+          -1.3435885648505064e-07,
+          0.0,
+          0.16789400577545166
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0015950000379234552
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J7",
+      "footprint": "mainboard-import-fps:MA03-1",
+      "canonical_model_STEP": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "canonical_model_sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "canonical_wire_axes_x_mm": [
+        -2.54,
+        0.0,
+        2.54
+      ],
+      "source_dimensions": {
+        "actual_conductor_count": 3,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "native_meshes": [
+        {
+          "name": "MAINBOARD/J7/mesh",
+          "vertices": 294,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -2.739999908953905,
+            -0.19999999494757503,
+            -1.7999999690800905,
+            2.739999908953905,
+            0.19999999494757503,
+            1.2000000569969416
+          ]
+        },
+        {
+          "name": "MAINBOARD/J7/mesh.001",
+          "vertices": 312,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -3.0400000978261232,
+            -0.5000000237487257,
+            1.2000000569969416,
+            3.0400000978261232,
+            0.5000000237487257,
+            7.499999832361937
+          ]
+        }
+      ],
+      "native_component_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.005841999780386686
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.10159999877214432
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0015950000379234552
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J3",
+      "footprint": "ioboard-import-fps:MA12-1",
+      "canonical_model_STEP": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step",
+      "canonical_model_sha256": "01941f699d9d68c823228d7d566d2f682a9b98dd1d03bc189c73b2ae18eaa6e3",
+      "canonical_wire_axes_x_mm": [
+        -13.97,
+        -11.43,
+        -8.89,
+        -6.35,
+        -3.81,
+        -1.27,
+        1.27,
+        3.81,
+        6.35,
+        8.89,
+        11.43,
+        13.97
+      ],
+      "source_dimensions": {
+        "actual_conductor_count": 12,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "native_meshes": [
+        {
+          "name": "IOBOARD/J3/mesh",
+          "vertices": 1176,
+          "polygons": 1104,
+          "canonical_bounds_mm": [
+            -14.170000329613686,
+            -0.19999999494757503,
+            -1.7999999690800905,
+            14.170000329613686,
+            0.19999999494757503,
+            1.2000000569969416
+          ]
+        },
+        {
+          "name": "IOBOARD/J3/mesh.001",
+          "vertices": 1176,
+          "polygons": 1068,
+          "canonical_bounds_mm": [
+            -14.469999819993973,
+            -0.5000000237487257,
+            1.2000000569969416,
+            14.469999819993973,
+            0.5000000237487257,
+            7.499999832361937
+          ]
+        }
+      ],
+      "native_component_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.18453100323677063
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.038100000470876694
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0015950000379234552
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J4",
+      "footprint": "ioboard-import-fps:MA03-1",
+      "canonical_model_STEP": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "canonical_model_sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "canonical_wire_axes_x_mm": [
+        -2.54,
+        0.0,
+        2.54
+      ],
+      "source_dimensions": {
+        "actual_conductor_count": 3,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "native_meshes": [
+        {
+          "name": "IOBOARD/J4/mesh",
+          "vertices": 294,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -2.739999908953905,
+            -0.19999999494757503,
+            -1.7999999690800905,
+            2.739999908953905,
+            0.19999999494757503,
+            1.2000000569969416
+          ]
+        },
+        {
+          "name": "IOBOARD/J4/mesh.001",
+          "vertices": 312,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -3.0400000978261232,
+            -0.5000000237487257,
+            1.2000000569969416,
+            3.0400000978261232,
+            0.5000000237487257,
+            7.499999832361937
+          ]
+        }
+      ],
+      "native_component_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.05689600110054016
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.03721100091934204
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0015950000379234552
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J5",
+      "footprint": "ioboard-import-fps:MA03-1",
+      "canonical_model_STEP": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "canonical_model_sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "canonical_wire_axes_x_mm": [
+        -2.54,
+        0.0,
+        2.54
+      ],
+      "source_dimensions": {
+        "actual_conductor_count": 3,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "native_meshes": [
+        {
+          "name": "IOBOARD/J5/mesh",
+          "vertices": 294,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -2.739999908953905,
+            -0.19999999494757503,
+            -1.7999999690800905,
+            2.739999908953905,
+            0.19999999494757503,
+            1.2000000569969416
+          ]
+        },
+        {
+          "name": "IOBOARD/J5/mesh.001",
+          "vertices": 312,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -3.0400000978261232,
+            -0.5000000237487257,
+            1.2000000569969416,
+            3.0400000978261232,
+            0.5000000237487257,
+            7.499999832361937
+          ]
+        }
+      ],
+      "native_component_matrix": [
+        [
+          -1.0,
+          -1.2246468525851679e-16,
+          0.0,
+          0.03632200136780739
+        ],
+        [
+          1.2246468525851679e-16,
+          -1.0,
+          0.0,
+          0.022987000644207
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0015950000379234552
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J6",
+      "footprint": "ioboard-import-fps:MA03-1",
+      "canonical_model_STEP": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "canonical_model_sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "canonical_wire_axes_x_mm": [
+        -2.54,
+        0.0,
+        2.54
+      ],
+      "source_dimensions": {
+        "actual_conductor_count": 3,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "native_meshes": [
+        {
+          "name": "IOBOARD/J6/mesh",
+          "vertices": 294,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -2.739999908953905,
+            -0.19999999494757503,
+            -1.7999999690800905,
+            2.739999908953905,
+            0.19999999494757503,
+            1.2000000569969416
+          ]
+        },
+        {
+          "name": "IOBOARD/J6/mesh.001",
+          "vertices": 312,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -3.0400000978261232,
+            -0.5000000237487257,
+            1.2000000569969416,
+            3.0400000978261232,
+            0.5000000237487257,
+            7.499999832361937
+          ]
+        }
+      ],
+      "native_component_matrix": [
+        [
+          -1.0,
+          -1.2246468525851679e-16,
+          0.0,
+          0.050418999046087265
+        ],
+        [
+          1.2246468525851679e-16,
+          -1.0,
+          0.0,
+          0.01854199916124344
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0015950000379234552
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J7",
+      "footprint": "ioboard-import-fps:MA03-1",
+      "canonical_model_STEP": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "canonical_model_sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "canonical_wire_axes_x_mm": [
+        -2.54,
+        0.0,
+        2.54
+      ],
+      "source_dimensions": {
+        "actual_conductor_count": 3,
+        "actual_pitch_mm": 2.54,
+        "assumed_wire_diameter_mm": 0.4,
+        "assumed_insulation_diameter_mm": 1.0,
+        "assumed_installed_stub_height_mm": 7.5,
+        "assumed_bare_end_projection_below_seat_mm": 1.8,
+        "original_stock_length_mm": 152.4
+      },
+      "native_meshes": [
+        {
+          "name": "IOBOARD/J7/mesh",
+          "vertices": 294,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -2.740002004429698,
+            -0.19999609503429383,
+            -1.8000000854954123,
+            2.739997813478112,
+            0.20000389486085624,
+            1.1999999405816197
+          ]
+        },
+        {
+          "name": "IOBOARD/J7/mesh.001",
+          "vertices": 312,
+          "polygons": 276,
+          "canonical_bounds_mm": [
+            -3.040002193301916,
+            -0.49999612383544445,
+            1.1999999405816197,
+            3.0399980023503304,
+            0.5000039236620069,
+            7.499999832361937
+          ]
+        }
+      ],
+      "native_component_matrix": [
+        [
+          -1.3435885648505064e-07,
+          -1.0000001192092896,
+          0.0,
+          0.09956800192594528
+        ],
+        [
+          1.0000001192092896,
+          -1.3435885648505064e-07,
+          0.0,
+          0.026415999978780746
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0015950000379234552
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "endpoints": [
+    {
+      "board": "mainboard",
+      "reference": "J3",
+      "frame": 1,
+      "world_outward_tangent": [
+        -1.4585074836759304e-07,
+        0.258819043636322,
+        -0.9659258723258972
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.0,
+        0.0,
+        1.5099580252808664e-07
+      ],
+      "tip_count": 12,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -13.97,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -13.97,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -63.88100051879883,
+            19.78668785095215,
+            9.432415962219238
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -63.88100051879883,
+            19.773746490478516,
+            9.480712890625
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            -11.43,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -11.43,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -66.42100524902344,
+            19.78668785095215,
+            9.432416915893555
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -66.42100524902344,
+            19.773746490478516,
+            9.480712890625
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            -8.89,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -8.89,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -68.96099853515625,
+            19.78668785095215,
+            9.432416915893555
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -68.96099853515625,
+            19.773746490478516,
+            9.480713844299316
+          ]
+        },
+        {
+          "pin": "4",
+          "canonical_axis_xy_mm": [
+            -6.35,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -6.35,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -71.5009994506836,
+            19.78668785095215,
+            9.432416915893555
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -71.5009994506836,
+            19.773746490478516,
+            9.480713844299316
+          ]
+        },
+        {
+          "pin": "5",
+          "canonical_axis_xy_mm": [
+            -3.81,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -3.81,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -74.04100036621094,
+            19.78668785095215,
+            9.432417869567871
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -74.04100036621094,
+            19.773746490478516,
+            9.480713844299316
+          ]
+        },
+        {
+          "pin": "6",
+          "canonical_axis_xy_mm": [
+            -1.27,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -1.27,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -76.58100128173828,
+            19.78668785095215,
+            9.432417869567871
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -76.58100128173828,
+            19.773746490478516,
+            9.480714797973633
+          ]
+        },
+        {
+          "pin": "7",
+          "canonical_axis_xy_mm": [
+            1.27,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            1.27,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -79.12100219726562,
+            19.78668785095215,
+            9.432418823242188
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -79.12100219726562,
+            19.773746490478516,
+            9.480714797973633
+          ]
+        },
+        {
+          "pin": "8",
+          "canonical_axis_xy_mm": [
+            3.81,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            3.81,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -81.66100311279297,
+            19.78668785095215,
+            9.432418823242188
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -81.66100311279297,
+            19.773746490478516,
+            9.48071575164795
+          ]
+        },
+        {
+          "pin": "9",
+          "canonical_axis_xy_mm": [
+            6.35,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            6.35,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -84.20100402832031,
+            19.78668785095215,
+            9.432419776916504
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -84.20100402832031,
+            19.773746490478516,
+            9.48071575164795
+          ]
+        },
+        {
+          "pin": "10",
+          "canonical_axis_xy_mm": [
+            8.89,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            8.89,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -86.74099731445312,
+            19.78668785095215,
+            9.432419776916504
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -86.74099731445312,
+            19.773746490478516,
+            9.48071575164795
+          ]
+        },
+        {
+          "pin": "11",
+          "canonical_axis_xy_mm": [
+            11.43,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            11.43,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -89.28099822998047,
+            19.78668785095215,
+            9.432419776916504
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -89.28099822998047,
+            19.773746490478516,
+            9.480716705322266
+          ]
+        },
+        {
+          "pin": "12",
+          "canonical_axis_xy_mm": [
+            13.97,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            13.97,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -91.82099914550781,
+            19.78668785095215,
+            9.43242073059082
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -91.82099914550781,
+            19.773746490478516,
+            9.480716705322266
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.0,
+          3.908058587853702e-08,
+          -1.4585073415673833e-07,
+          -0.07785099744796753
+        ],
+        [
+          0.0,
+          0.9659257531166077,
+          0.25881901383399963,
+          0.01784554496407509
+        ],
+        [
+          1.5099580252808664e-07,
+          0.25881901383399963,
+          -0.9659257531166077,
+          0.01667686179280281
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J3",
+      "frame": 80,
+      "world_outward_tangent": [
+        -8.742275525719378e-08,
+        -0.2588190734386444,
+        0.9659258127212524
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        1.0,
+        -2.262667209151914e-08,
+        8.444389720807521e-08
+      ],
+      "tip_count": 12,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -13.97,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -13.97,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            63.88101577758789,
+            15.469579696655273,
+            140.5440216064453
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            63.88101577758789,
+            15.482521057128906,
+            140.4957275390625
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            -11.43,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -11.43,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            66.42102813720703,
+            15.469579696655273,
+            140.5440216064453
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            66.42102813720703,
+            15.482521057128906,
+            140.4957275390625
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            -8.89,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -8.89,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            68.96102142333984,
+            15.469579696655273,
+            140.54403686523438
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            68.96102142333984,
+            15.482521057128906,
+            140.4957275390625
+          ]
+        },
+        {
+          "pin": "4",
+          "canonical_axis_xy_mm": [
+            -6.35,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -6.35,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            71.50102233886719,
+            15.469579696655273,
+            140.54403686523438
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            71.50102233886719,
+            15.482521057128906,
+            140.4957275390625
+          ]
+        },
+        {
+          "pin": "5",
+          "canonical_axis_xy_mm": [
+            -3.81,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -3.81,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            74.04102325439453,
+            15.469579696655273,
+            140.54403686523438
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            74.04102325439453,
+            15.482521057128906,
+            140.4957275390625
+          ]
+        },
+        {
+          "pin": "6",
+          "canonical_axis_xy_mm": [
+            -1.27,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -1.27,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            76.58102416992188,
+            15.469579696655273,
+            140.54403686523438
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            76.58102416992188,
+            15.482521057128906,
+            140.4957275390625
+          ]
+        },
+        {
+          "pin": "7",
+          "canonical_axis_xy_mm": [
+            1.27,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            1.27,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            79.12103271484375,
+            15.469579696655273,
+            140.54403686523438
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            79.12103271484375,
+            15.482521057128906,
+            140.4957275390625
+          ]
+        },
+        {
+          "pin": "8",
+          "canonical_axis_xy_mm": [
+            3.81,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            3.81,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            81.6610336303711,
+            15.469579696655273,
+            140.54403686523438
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            81.6610336303711,
+            15.482521057128906,
+            140.4957275390625
+          ]
+        },
+        {
+          "pin": "9",
+          "canonical_axis_xy_mm": [
+            6.35,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            6.35,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            84.2010269165039,
+            15.469579696655273,
+            140.54403686523438
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            84.2010269165039,
+            15.482521057128906,
+            140.4957275390625
+          ]
+        },
+        {
+          "pin": "10",
+          "canonical_axis_xy_mm": [
+            8.89,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            8.89,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            86.74102783203125,
+            15.469579696655273,
+            140.54403686523438
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            86.74102783203125,
+            15.482521057128906,
+            140.4957275390625
+          ]
+        },
+        {
+          "pin": "11",
+          "canonical_axis_xy_mm": [
+            11.43,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            11.43,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            89.2810287475586,
+            15.469579696655273,
+            140.54403686523438
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            89.2810287475586,
+            15.482521057128906,
+            140.49574279785156
+          ]
+        },
+        {
+          "pin": "12",
+          "canonical_axis_xy_mm": [
+            13.97,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            13.97,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            91.82102966308594,
+            15.469579696655273,
+            140.54403686523438
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            91.82102966308594,
+            15.482521057128906,
+            140.49574279785156
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          1.0000004768371582,
+          -5.146252856096014e-15,
+          -8.742278367890322e-08,
+          0.07785102725028992
+        ],
+        [
+          -2.2626682749660176e-08,
+          0.9659257531166077,
+          -0.2588191628456116,
+          0.017410723492503166
+        ],
+        [
+          8.444393984063936e-08,
+          0.258819043636322,
+          0.9659261703491211,
+          0.1332995891571045
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J3",
+      "frame": 120,
+      "world_outward_tangent": [
+        -1.4585074836759304e-07,
+        0.25881901383399963,
+        -0.9659258127212524
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.0,
+        -2.6750060156965373e-16,
+        1.5099580252808664e-07
+      ],
+      "tip_count": 12,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -13.97,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -13.97,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -63.88100051879883,
+            19.78668785095215,
+            124.43240356445312
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -63.88100051879883,
+            19.773746490478516,
+            124.48070526123047
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            -11.43,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -11.43,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -66.42100524902344,
+            19.78668785095215,
+            124.43240356445312
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -66.42100524902344,
+            19.773746490478516,
+            124.48070526123047
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            -8.89,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -8.89,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -68.96099853515625,
+            19.78668785095215,
+            124.43240356445312
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -68.96099853515625,
+            19.773746490478516,
+            124.48070526123047
+          ]
+        },
+        {
+          "pin": "4",
+          "canonical_axis_xy_mm": [
+            -6.35,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -6.35,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -71.5009994506836,
+            19.78668785095215,
+            124.43240356445312
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -71.5009994506836,
+            19.773746490478516,
+            124.48070526123047
+          ]
+        },
+        {
+          "pin": "5",
+          "canonical_axis_xy_mm": [
+            -3.81,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -3.81,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -74.04100036621094,
+            19.78668785095215,
+            124.43240356445312
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -74.04100036621094,
+            19.773746490478516,
+            124.48070526123047
+          ]
+        },
+        {
+          "pin": "6",
+          "canonical_axis_xy_mm": [
+            -1.27,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -1.27,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -76.58100128173828,
+            19.78668785095215,
+            124.43240356445312
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -76.58100128173828,
+            19.773746490478516,
+            124.480712890625
+          ]
+        },
+        {
+          "pin": "7",
+          "canonical_axis_xy_mm": [
+            1.27,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            1.27,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -79.12100219726562,
+            19.78668785095215,
+            124.43240356445312
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -79.12100219726562,
+            19.773746490478516,
+            124.480712890625
+          ]
+        },
+        {
+          "pin": "8",
+          "canonical_axis_xy_mm": [
+            3.81,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            3.81,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -81.66100311279297,
+            19.78668785095215,
+            124.43240356445312
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -81.66100311279297,
+            19.773746490478516,
+            124.480712890625
+          ]
+        },
+        {
+          "pin": "9",
+          "canonical_axis_xy_mm": [
+            6.35,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            6.35,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -84.20100402832031,
+            19.78668785095215,
+            124.43241119384766
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -84.20100402832031,
+            19.773746490478516,
+            124.480712890625
+          ]
+        },
+        {
+          "pin": "10",
+          "canonical_axis_xy_mm": [
+            8.89,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            8.89,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -86.74099731445312,
+            19.78668785095215,
+            124.43241119384766
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -86.74099731445312,
+            19.773746490478516,
+            124.480712890625
+          ]
+        },
+        {
+          "pin": "11",
+          "canonical_axis_xy_mm": [
+            11.43,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            11.43,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -89.28099822998047,
+            19.78668785095215,
+            124.43241119384766
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -89.28099822998047,
+            19.773746490478516,
+            124.480712890625
+          ]
+        },
+        {
+          "pin": "12",
+          "canonical_axis_xy_mm": [
+            13.97,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            13.97,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -91.82099914550781,
+            19.78668785095215,
+            124.43241119384766
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -91.82099914550781,
+            19.773746490478516,
+            124.480712890625
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.0,
+          3.908058232582334e-08,
+          -1.4585073415673833e-07,
+          -0.07785099744796753
+        ],
+        [
+          -2.6750060156965373e-16,
+          0.9659256935119629,
+          0.25881898403167725,
+          0.01784554496407509
+        ],
+        [
+          1.5099580252808664e-07,
+          0.25881898403167725,
+          -0.9659256935119629,
+          0.13167685270309448
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J4",
+      "frame": 1,
+      "world_outward_tangent": [
+        -1.4585074836759304e-07,
+        0.258819043636322,
+        -0.9659258723258972
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.0,
+        0.0,
+        1.5099580252808664e-07
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -1.1429966688156128,
+            146.87547302246094,
+            43.48574447631836
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -1.1429966688156128,
+            146.86251831054688,
+            43.53404235839844
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -3.6829967498779297,
+            146.87547302246094,
+            43.48574447631836
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -3.6829967498779297,
+            146.86251831054688,
+            43.53404235839844
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -6.222996711730957,
+            146.87547302246094,
+            43.48574447631836
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -6.222996711730957,
+            146.86251831054688,
+            43.53404235839844
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.0,
+          3.908058587853702e-08,
+          -1.4585073415673833e-07,
+          -0.003682995680719614
+        ],
+        [
+          0.0,
+          0.9659257531166077,
+          0.25881901383399963,
+          0.14493432641029358
+        ],
+        [
+          1.5099580252808664e-07,
+          0.25881901383399963,
+          -0.9659257531166077,
+          0.05073018744587898
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J4",
+      "frame": 80,
+      "world_outward_tangent": [
+        -8.742275525719378e-08,
+        -0.2588190734386444,
+        0.9659258127212524
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        1.0,
+        -2.262667209151914e-08,
+        8.444389720807521e-08
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            1.1429986953735352,
+            142.55836486816406,
+            174.59738159179688
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            1.1429986953735352,
+            142.57131958007812,
+            174.549072265625
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            3.682999849319458,
+            142.55836486816406,
+            174.59738159179688
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            3.682999849319458,
+            142.57131958007812,
+            174.549072265625
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            6.223001003265381,
+            142.55836486816406,
+            174.59738159179688
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            6.223001003265381,
+            142.57131958007812,
+            174.549072265625
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          1.0000004768371582,
+          -5.146252856096014e-15,
+          -8.742278367890322e-08,
+          0.0036830005701631308
+        ],
+        [
+          -2.2626682749660176e-08,
+          0.9659257531166077,
+          -0.2588191628456116,
+          0.1444995105266571
+        ],
+        [
+          8.444393984063936e-08,
+          0.258819043636322,
+          0.9659261703491211,
+          0.16735292971134186
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J4",
+      "frame": 120,
+      "world_outward_tangent": [
+        -1.4585074836759304e-07,
+        0.25881901383399963,
+        -0.9659258127212524
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.0,
+        -2.6750060156965373e-16,
+        1.5099580252808664e-07
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -1.1429966688156128,
+            146.87547302246094,
+            158.48573303222656
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -1.1429966688156128,
+            146.86251831054688,
+            158.53404235839844
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -3.6829967498779297,
+            146.87547302246094,
+            158.48573303222656
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -3.6829967498779297,
+            146.86251831054688,
+            158.53404235839844
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -6.222996711730957,
+            146.87547302246094,
+            158.48573303222656
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -6.222996711730957,
+            146.86251831054688,
+            158.53404235839844
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.0,
+          3.908058232582334e-08,
+          -1.4585073415673833e-07,
+          -0.003682995680719614
+        ],
+        [
+          -2.6750060156965373e-16,
+          0.9659256935119629,
+          0.25881898403167725,
+          0.14493432641029358
+        ],
+        [
+          1.5099580252808664e-07,
+          0.25881898403167725,
+          -0.9659256935119629,
+          0.16573017835617065
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J5",
+      "frame": 1,
+      "world_outward_tangent": [
+        -1.4585074836759304e-07,
+        0.258819043636322,
+        -0.9659258723258972
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.0,
+        0.0,
+        1.5099580252808664e-07
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            104.01300048828125,
+            181.2238006591797,
+            52.6893310546875
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            104.01300048828125,
+            181.21084594726562,
+            52.73762893676758
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            101.47300720214844,
+            181.2238006591797,
+            52.6893310546875
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            101.47300720214844,
+            181.21084594726562,
+            52.73762893676758
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            98.9330062866211,
+            181.2238006591797,
+            52.6893310546875
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            98.9330062866211,
+            181.21084594726562,
+            52.73762893676758
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.0,
+          3.908058587853702e-08,
+          -1.4585073415673833e-07,
+          0.10147300362586975
+        ],
+        [
+          0.0,
+          0.9659257531166077,
+          0.25881901383399963,
+          0.17928265035152435
+        ],
+        [
+          1.5099580252808664e-07,
+          0.25881901383399963,
+          -0.9659257531166077,
+          0.059933774173259735
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J5",
+      "frame": 80,
+      "world_outward_tangent": [
+        -8.742275525719378e-08,
+        -0.2588190734386444,
+        0.9659258127212524
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        1.0,
+        -2.262667209151914e-08,
+        8.444389720807521e-08
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -104.01305389404297,
+            176.9066925048828,
+            183.8009796142578
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -104.01305389404297,
+            176.9196319580078,
+            183.75267028808594
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -101.47305297851562,
+            176.9066925048828,
+            183.8009796142578
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -101.47305297851562,
+            176.9196319580078,
+            183.75267028808594
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -98.93305969238281,
+            176.9066925048828,
+            183.8009796142578
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -98.93305969238281,
+            176.9196319580078,
+            183.75267028808594
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          1.0000004768371582,
+          -5.146252856096014e-15,
+          -8.742278367890322e-08,
+          -0.10147305577993393
+        ],
+        [
+          -2.2626682749660176e-08,
+          0.9659257531166077,
+          -0.2588191628456116,
+          0.17884783446788788
+        ],
+        [
+          8.444393984063936e-08,
+          0.258819043636322,
+          0.9659261703491211,
+          0.1765565276145935
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J5",
+      "frame": 120,
+      "world_outward_tangent": [
+        -1.4585074836759304e-07,
+        0.25881901383399963,
+        -0.9659258127212524
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.0,
+        -2.6750060156965373e-16,
+        1.5099580252808664e-07
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            104.01300048828125,
+            181.22378540039062,
+            167.6893310546875
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            104.01300048828125,
+            181.21083068847656,
+            167.7376251220703
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            101.47300720214844,
+            181.22378540039062,
+            167.6893310546875
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            101.47300720214844,
+            181.21083068847656,
+            167.7376251220703
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            98.9330062866211,
+            181.22378540039062,
+            167.6893310546875
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            98.9330062866211,
+            181.21083068847656,
+            167.7376251220703
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.0,
+          3.908058232582334e-08,
+          -1.4585073415673833e-07,
+          0.10147300362586975
+        ],
+        [
+          -2.6750060156965373e-16,
+          0.9659256935119629,
+          0.25881898403167725,
+          0.17928263545036316
+        ],
+        [
+          1.5099580252808664e-07,
+          0.25881898403167725,
+          -0.9659256935119629,
+          0.1749337613582611
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J6",
+      "frame": 1,
+      "world_outward_tangent": [
+        -1.4585074836759304e-07,
+        0.258819043636322,
+        -0.9659258723258972
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        1.7343944591630134e-07,
+        0.9659258723258972,
+        0.258819043636322
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -37.46500015258789,
+            175.5808563232422,
+            51.17733383178711
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -37.46500015258789,
+            175.5679168701172,
+            51.22562789916992
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -37.46500015258789,
+            178.0343017578125,
+            51.83473587036133
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -37.46500015258789,
+            178.0213623046875,
+            51.88302993774414
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -37.46500015258789,
+            180.4877471923828,
+            52.49213409423828
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -37.46500015258789,
+            180.47482299804688,
+            52.54043197631836
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          1.7343944591630134e-07,
+          1.0000001192092896,
+          -1.4585073415673833e-07,
+          -0.03746499866247177
+        ],
+        [
+          0.9659258723258972,
+          -1.2978067331914644e-07,
+          0.25881901383399963,
+          0.17609316110610962
+        ],
+        [
+          0.258819043636322,
+          -1.8577044613721228e-07,
+          -0.9659257531166077,
+          0.05907917767763138
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J6",
+      "frame": 80,
+      "world_outward_tangent": [
+        -8.742275525719378e-08,
+        -0.2588190734386444,
+        0.9659258127212524
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.3435892753932421e-07,
+        0.9659258723258972,
+        0.2588190734386444
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            37.46501922607422,
+            171.2637481689453,
+            182.28895568847656
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            37.46501922607422,
+            171.2766876220703,
+            182.24066162109375
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            37.46501922607422,
+            173.71719360351562,
+            182.9463653564453
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            37.46501922607422,
+            173.7301483154297,
+            182.89805603027344
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            37.46501922607422,
+            176.170654296875,
+            183.603759765625
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            37.46501922607422,
+            176.18359375,
+            183.5554656982422
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.3435892753932421e-07,
+          -1.0000005960464478,
+          -8.742278367890322e-08,
+          0.03746502101421356
+        ],
+        [
+          0.9659258723258972,
+          -1.0715398701677259e-07,
+          -0.2588191628456116,
+          0.17565834522247314
+        ],
+        [
+          0.2588190734386444,
+          -1.19218583449765e-07,
+          0.9659261703491211,
+          0.17570191621780396
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J6",
+      "frame": 120,
+      "world_outward_tangent": [
+        -1.4585074836759304e-07,
+        0.25881901383399963,
+        -0.9659258127212524
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        1.7343944591630134e-07,
+        0.9659258127212524,
+        0.25881901383399963
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -37.46500015258789,
+            175.5808563232422,
+            166.1773223876953
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -37.46500015258789,
+            175.5679168701172,
+            166.22561645507812
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -37.46500015258789,
+            178.0343017578125,
+            166.83473205566406
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -37.46500015258789,
+            178.0213623046875,
+            166.88302612304688
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -37.46500015258789,
+            180.4877471923828,
+            167.49212646484375
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -37.46500015258789,
+            180.47482299804688,
+            167.54042053222656
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          1.7343944591630134e-07,
+          1.0000001192092896,
+          -1.4585073415673833e-07,
+          -0.03746499866247177
+        ],
+        [
+          0.9659258127212524,
+          -1.2978067331914644e-07,
+          0.25881898403167725,
+          0.17609316110610962
+        ],
+        [
+          0.25881901383399963,
+          -1.8577043192635756e-07,
+          -0.9659256935119629,
+          0.17407916486263275
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J7",
+      "frame": 1,
+      "world_outward_tangent": [
+        -1.4585074836759304e-07,
+        0.258819043636322,
+        -0.9659258723258972
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.0,
+        0.0,
+        1.5099580252808664e-07
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            115.44300842285156,
+            113.99922180175781,
+            34.67656326293945
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            115.44300842285156,
+            113.98628234863281,
+            34.724857330322266
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            112.90300750732422,
+            113.99922180175781,
+            34.67656326293945
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            112.90300750732422,
+            113.98628234863281,
+            34.724857330322266
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            110.36300659179688,
+            113.99922180175781,
+            34.67656326293945
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            110.36300659179688,
+            113.98628234863281,
+            34.724857330322266
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.0,
+          3.908058587853702e-08,
+          -1.4585073415673833e-07,
+          0.11290300637483597
+        ],
+        [
+          0.0,
+          0.9659257531166077,
+          0.25881901383399963,
+          0.11205808073282242
+        ],
+        [
+          1.5099580252808664e-07,
+          0.25881901383399963,
+          -0.9659257531166077,
+          0.04192100465297699
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J7",
+      "frame": 80,
+      "world_outward_tangent": [
+        -8.742275525719378e-08,
+        -0.2588190734386444,
+        0.9659258127212524
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        1.0,
+        -2.262667209151914e-08,
+        8.444389720807521e-08
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -115.44306182861328,
+            109.68212127685547,
+            165.7882080078125
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -115.44306182861328,
+            109.69506072998047,
+            165.73989868164062
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -112.90306091308594,
+            109.68212127685547,
+            165.7882080078125
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -112.90306091308594,
+            109.69506072998047,
+            165.73989868164062
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -110.3630599975586,
+            109.68212127685547,
+            165.7882080078125
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -110.3630599975586,
+            109.69506072998047,
+            165.73989868164062
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          1.0000004768371582,
+          -5.146252856096014e-15,
+          -8.742278367890322e-08,
+          -0.11290305852890015
+        ],
+        [
+          -2.2626682749660176e-08,
+          0.9659257531166077,
+          -0.2588191628456116,
+          0.11162326484918594
+        ],
+        [
+          8.444393984063936e-08,
+          0.258819043636322,
+          0.9659261703491211,
+          0.15854375064373016
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "mainboard",
+      "reference": "J7",
+      "frame": 120,
+      "world_outward_tangent": [
+        -1.4585074836759304e-07,
+        0.25881901383399963,
+        -0.9659258127212524
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.0,
+        -2.6750060156965373e-16,
+        1.5099580252808664e-07
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            115.44300842285156,
+            113.99921417236328,
+            149.6765594482422
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            115.44300842285156,
+            113.98627471923828,
+            149.724853515625
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            112.90300750732422,
+            113.99921417236328,
+            149.6765594482422
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            112.90300750732422,
+            113.98627471923828,
+            149.724853515625
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            110.36300659179688,
+            113.99921417236328,
+            149.6765594482422
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            110.36300659179688,
+            113.98627471923828,
+            149.724853515625
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.0,
+          3.908058232582334e-08,
+          -1.4585073415673833e-07,
+          0.11290300637483597
+        ],
+        [
+          -2.6750060156965373e-16,
+          0.9659256935119629,
+          0.25881898403167725,
+          0.11205807328224182
+        ],
+        [
+          1.5099580252808664e-07,
+          0.25881898403167725,
+          -0.9659256935119629,
+          0.15692099928855896
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J3",
+      "frame": 1,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.0,
+        1.5099580252808664e-07,
+        0.0
+      ],
+      "tip_count": 12,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -13.97,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -13.97,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -63.88100051879883,
+            158.8199462890625,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -63.88100051879883,
+            158.8199462890625,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            -11.43,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -11.43,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -66.42100524902344,
+            158.8199462890625,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -66.42100524902344,
+            158.8199462890625,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            -8.89,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -8.89,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -68.96099853515625,
+            158.8199462890625,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -68.96099853515625,
+            158.8199462890625,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "4",
+          "canonical_axis_xy_mm": [
+            -6.35,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -6.35,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -71.5009994506836,
+            158.8199462890625,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -71.5009994506836,
+            158.8199462890625,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "5",
+          "canonical_axis_xy_mm": [
+            -3.81,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -3.81,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -74.04100036621094,
+            158.8199462890625,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -74.04100036621094,
+            158.8199462890625,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "6",
+          "canonical_axis_xy_mm": [
+            -1.27,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -1.27,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -76.58100128173828,
+            158.8199462890625,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -76.58100128173828,
+            158.8199462890625,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "7",
+          "canonical_axis_xy_mm": [
+            1.27,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            1.27,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -79.12100982666016,
+            158.8199462890625,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -79.12100982666016,
+            158.8199462890625,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "8",
+          "canonical_axis_xy_mm": [
+            3.81,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            3.81,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -81.6610107421875,
+            158.8199462890625,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -81.6610107421875,
+            158.8199462890625,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "9",
+          "canonical_axis_xy_mm": [
+            6.35,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            6.35,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -84.20101165771484,
+            158.8199462890625,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -84.20101165771484,
+            158.8199462890625,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "10",
+          "canonical_axis_xy_mm": [
+            8.89,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            8.89,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -86.74100494384766,
+            158.8199462890625,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -86.74100494384766,
+            158.8199462890625,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "11",
+          "canonical_axis_xy_mm": [
+            11.43,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            11.43,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -89.281005859375,
+            158.8199462890625,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -89.281005859375,
+            158.8199462890625,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "12",
+          "canonical_axis_xy_mm": [
+            13.97,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            13.97,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -91.82100677490234,
+            158.8199462890625,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -91.82100677490234,
+            158.8199462890625,
+            20.018199920654297
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.0,
+          -1.5099580252808664e-07,
+          0.0,
+          -0.07785100489854813
+        ],
+        [
+          1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          0.15881994366645813
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.012568200007081032
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J3",
+      "frame": 80,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.0,
+        1.5099580252808664e-07,
+        0.0
+      ],
+      "tip_count": 12,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -13.97,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -13.97,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -63.88100051879883,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -63.88100051879883,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            -11.43,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -11.43,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -66.42100524902344,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -66.42100524902344,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            -8.89,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -8.89,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -68.96099853515625,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -68.96099853515625,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "4",
+          "canonical_axis_xy_mm": [
+            -6.35,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -6.35,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -71.5009994506836,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -71.5009994506836,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "5",
+          "canonical_axis_xy_mm": [
+            -3.81,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -3.81,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -74.04100036621094,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -74.04100036621094,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "6",
+          "canonical_axis_xy_mm": [
+            -1.27,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -1.27,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -76.58100128173828,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -76.58100128173828,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "7",
+          "canonical_axis_xy_mm": [
+            1.27,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            1.27,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -79.12100982666016,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -79.12100982666016,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "8",
+          "canonical_axis_xy_mm": [
+            3.81,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            3.81,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -81.6610107421875,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -81.6610107421875,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "9",
+          "canonical_axis_xy_mm": [
+            6.35,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            6.35,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -84.20101165771484,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -84.20101165771484,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "10",
+          "canonical_axis_xy_mm": [
+            8.89,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            8.89,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -86.74100494384766,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -86.74100494384766,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "11",
+          "canonical_axis_xy_mm": [
+            11.43,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            11.43,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -89.281005859375,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -89.281005859375,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "12",
+          "canonical_axis_xy_mm": [
+            13.97,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            13.97,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -91.82100677490234,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -91.82100677490234,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.0,
+          -1.5099580252808664e-07,
+          0.0,
+          -0.07785100489854813
+        ],
+        [
+          1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          0.1838199496269226
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.04756820201873779
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J3",
+      "frame": 120,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.0,
+        1.5099580252808664e-07,
+        0.0
+      ],
+      "tip_count": 12,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -13.97,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -13.97,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -63.88100051879883,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -63.88100051879883,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            -11.43,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -11.43,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -66.42100524902344,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -66.42100524902344,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            -8.89,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -8.89,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -68.96099853515625,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -68.96099853515625,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "4",
+          "canonical_axis_xy_mm": [
+            -6.35,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -6.35,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -71.5009994506836,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -71.5009994506836,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "5",
+          "canonical_axis_xy_mm": [
+            -3.81,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -3.81,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -74.04100036621094,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -74.04100036621094,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "6",
+          "canonical_axis_xy_mm": [
+            -1.27,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -1.27,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -76.58100128173828,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -76.58100128173828,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "7",
+          "canonical_axis_xy_mm": [
+            1.27,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            1.27,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -79.12100982666016,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -79.12100982666016,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "8",
+          "canonical_axis_xy_mm": [
+            3.81,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            3.81,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -81.6610107421875,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -81.6610107421875,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "9",
+          "canonical_axis_xy_mm": [
+            6.35,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            6.35,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -84.20101165771484,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -84.20101165771484,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "10",
+          "canonical_axis_xy_mm": [
+            8.89,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            8.89,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -86.74100494384766,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -86.74100494384766,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "11",
+          "canonical_axis_xy_mm": [
+            11.43,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            11.43,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -89.281005859375,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -89.281005859375,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "12",
+          "canonical_axis_xy_mm": [
+            13.97,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            13.97,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            -91.82100677490234,
+            183.8199462890625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            -91.82100677490234,
+            183.8199462890625,
+            55.0181999206543
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.0,
+          -1.5099580252808664e-07,
+          0.0,
+          -0.07785100489854813
+        ],
+        [
+          1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          0.1838199496269226
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.04756820201873779
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J4",
+      "frame": 1,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.0,
+        1.5099580252808664e-07,
+        0.0
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            52.323997497558594,
+            159.7089385986328,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            52.323997497558594,
+            159.7089385986328,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            49.78399658203125,
+            159.7089385986328,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            49.78399658203125,
+            159.7089385986328,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            47.243995666503906,
+            159.7089385986328,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            47.243995666503906,
+            159.7089385986328,
+            20.018199920654297
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.0,
+          -1.5099580252808664e-07,
+          0.0,
+          0.04978399723768234
+        ],
+        [
+          1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          0.1597089320421219
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.012568200007081032
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J4",
+      "frame": 80,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.0,
+        1.5099580252808664e-07,
+        0.0
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            52.323997497558594,
+            184.7089385986328,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            52.323997497558594,
+            184.7089385986328,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            49.78399658203125,
+            184.7089385986328,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            49.78399658203125,
+            184.7089385986328,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            47.243995666503906,
+            184.7089385986328,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            47.243995666503906,
+            184.7089385986328,
+            55.0181999206543
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.0,
+          -1.5099580252808664e-07,
+          0.0,
+          0.04978399723768234
+        ],
+        [
+          1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          0.18470893800258636
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.04756820201873779
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J4",
+      "frame": 120,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.0,
+        1.5099580252808664e-07,
+        0.0
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            52.323997497558594,
+            184.7089385986328,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            52.323997497558594,
+            184.7089385986328,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            49.78399658203125,
+            184.7089385986328,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            49.78399658203125,
+            184.7089385986328,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            47.243995666503906,
+            184.7089385986328,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            47.243995666503906,
+            184.7089385986328,
+            55.0181999206543
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.0,
+          -1.5099580252808664e-07,
+          0.0,
+          0.04978399723768234
+        ],
+        [
+          1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          0.18470893800258636
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.04756820201873779
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J5",
+      "frame": 1,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        1.0,
+        -1.5099580252808664e-07,
+        0.0
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            67.81800079345703,
+            173.93292236328125,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            67.81800079345703,
+            173.93292236328125,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            70.35800170898438,
+            173.93292236328125,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            70.35800170898438,
+            173.93292236328125,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            72.89800262451172,
+            173.93292236328125,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            72.89800262451172,
+            173.93292236328125,
+            20.018199920654297
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          1.0,
+          1.5099580252808664e-07,
+          0.0,
+          0.07035800069570541
+        ],
+        [
+          -1.5099580252808664e-07,
+          1.0,
+          0.0,
+          0.17393292486667633
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.012568200007081032
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J5",
+      "frame": 80,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        1.0,
+        -1.5099580252808664e-07,
+        0.0
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            67.81800079345703,
+            198.9329376220703,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            67.81800079345703,
+            198.9329376220703,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            70.35800170898438,
+            198.9329376220703,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            70.35800170898438,
+            198.9329376220703,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            72.89800262451172,
+            198.9329376220703,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            72.89800262451172,
+            198.9329376220703,
+            55.0181999206543
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          1.0,
+          1.5099580252808664e-07,
+          0.0,
+          0.07035800069570541
+        ],
+        [
+          -1.5099580252808664e-07,
+          1.0,
+          0.0,
+          0.1989329308271408
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.04756820201873779
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J5",
+      "frame": 120,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        1.0,
+        -1.5099580252808664e-07,
+        0.0
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            67.81800079345703,
+            198.9329376220703,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            67.81800079345703,
+            198.9329376220703,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            70.35800170898438,
+            198.9329376220703,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            70.35800170898438,
+            198.9329376220703,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            72.89800262451172,
+            198.9329376220703,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            72.89800262451172,
+            198.9329376220703,
+            55.0181999206543
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          1.0,
+          1.5099580252808664e-07,
+          0.0,
+          0.07035800069570541
+        ],
+        [
+          -1.5099580252808664e-07,
+          1.0,
+          0.0,
+          0.1989329308271408
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.04756820201873779
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J6",
+      "frame": 1,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        1.0,
+        -1.5099580252808664e-07,
+        0.0
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            53.721004486083984,
+            178.3779296875,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            53.721004486083984,
+            178.3779296875,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            56.26100158691406,
+            178.3779296875,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            56.26100158691406,
+            178.3779296875,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            58.801002502441406,
+            178.3779296875,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            58.801002502441406,
+            178.3779296875,
+            20.018199920654297
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          1.0,
+          1.5099580252808664e-07,
+          0.0,
+          0.05626100301742554
+        ],
+        [
+          -1.5099580252808664e-07,
+          1.0,
+          0.0,
+          0.1783779263496399
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.012568200007081032
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J6",
+      "frame": 80,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        1.0,
+        -1.5099580252808664e-07,
+        0.0
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            53.721004486083984,
+            203.3779296875,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            53.721004486083984,
+            203.3779296875,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            56.26100158691406,
+            203.3779296875,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            56.26100158691406,
+            203.3779296875,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            58.801002502441406,
+            203.3779296875,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            58.801002502441406,
+            203.3779296875,
+            55.0181999206543
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          1.0,
+          1.5099580252808664e-07,
+          0.0,
+          0.05626100301742554
+        ],
+        [
+          -1.5099580252808664e-07,
+          1.0,
+          0.0,
+          0.20337793231010437
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.04756820201873779
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J6",
+      "frame": 120,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        1.0,
+        -1.5099580252808664e-07,
+        0.0
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            53.721004486083984,
+            203.3779296875,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            53.721004486083984,
+            203.3779296875,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            56.26100158691406,
+            203.3779296875,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            56.26100158691406,
+            203.3779296875,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            58.801002502441406,
+            203.3779296875,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            58.801002502441406,
+            203.3779296875,
+            55.0181999206543
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          1.0,
+          1.5099580252808664e-07,
+          0.0,
+          0.05626100301742554
+        ],
+        [
+          -1.5099580252808664e-07,
+          1.0,
+          0.0,
+          0.20337793231010437
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.04756820201873779
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J7",
+      "frame": 1,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.663695847753388e-08,
+        -1.0,
+        0.0
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            7.11199951171875,
+            173.04393005371094,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            7.11199951171875,
+            173.04393005371094,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            7.11199951171875,
+            170.50393676757812,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            7.11199951171875,
+            170.50393676757812,
+            20.018199920654297
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            7.11199951171875,
+            167.96392822265625,
+            20.068201065063477
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            7.11199951171875,
+            167.96392822265625,
+            20.018199920654297
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.663696025389072e-08,
+          1.0000001192092896,
+          0.0,
+          0.007111999671906233
+        ],
+        [
+          -1.0000001192092896,
+          -1.663696025389072e-08,
+          0.0,
+          0.17050392925739288
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.012568200007081032
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J7",
+      "frame": 80,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.663695847753388e-08,
+        -1.0,
+        0.0
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            7.11199951171875,
+            198.0439453125,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            7.11199951171875,
+            198.0439453125,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            7.11199951171875,
+            195.50393676757812,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            7.11199951171875,
+            195.50393676757812,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            7.11199951171875,
+            192.96392822265625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            7.11199951171875,
+            192.96392822265625,
+            55.0181999206543
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.663696025389072e-08,
+          1.0000001192092896,
+          0.0,
+          0.007111999671906233
+        ],
+        [
+          -1.0000001192092896,
+          -1.663696025389072e-08,
+          0.0,
+          0.19550393521785736
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.04756820201873779
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "board": "ioboard",
+      "reference": "J7",
+      "frame": 120,
+      "world_outward_tangent": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_row_axis_increasing_canonical_x": [
+        -1.663695847753388e-08,
+        -1.0,
+        0.0
+      ],
+      "tip_count": 3,
+      "tips": [
+        {
+          "pin": "1",
+          "canonical_axis_xy_mm": [
+            -2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            -2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            7.11199951171875,
+            198.0439453125,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            7.11199951171875,
+            198.0439453125,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "2",
+          "canonical_axis_xy_mm": [
+            0.0,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            0.0,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            7.11199951171875,
+            195.50393676757812,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            7.11199951171875,
+            195.50393676757812,
+            55.0181999206543
+          ]
+        },
+        {
+          "pin": "3",
+          "canonical_axis_xy_mm": [
+            2.54,
+            -0.0
+          ],
+          "canonical_insulation_tip_mm": [
+            2.54,
+            -0.0,
+            7.5
+          ],
+          "world_tip_mm": [
+            7.11199951171875,
+            192.96392822265625,
+            55.06820297241211
+          ],
+          "suggested_0p05mm_overlap_start_world_mm": [
+            7.11199951171875,
+            192.96392822265625,
+            55.0181999206543
+          ]
+        }
+      ],
+      "component_to_assembled_world_matrix": [
+        [
+          -1.663696025389072e-08,
+          1.0000001192092896,
+          0.0,
+          0.007111999671906233
+        ],
+        [
+          -1.0000001192092896,
+          -1.663696025389072e-08,
+          0.0,
+          0.19550393521785736
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.04756820201873779
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "assembled_same_pin_chords": [
+    {
+      "reference": "J3",
+      "pin": "1",
+      "same_pin_tip_chord_mm": 139.43947781502783,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 154.43947781502783,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J3",
+      "pin": "2",
+      "same_pin_tip_chord_mm": 139.4394777329557,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 154.4394777329557,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J3",
+      "pin": "3",
+      "same_pin_tip_chord_mm": 139.4394777329557,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 154.4394777329557,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J3",
+      "pin": "4",
+      "same_pin_tip_chord_mm": 139.4394777329557,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 154.4394777329557,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J3",
+      "pin": "5",
+      "same_pin_tip_chord_mm": 139.43947765088362,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 154.43947765088362,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J3",
+      "pin": "6",
+      "same_pin_tip_chord_mm": 139.43947765088362,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 154.43947765088362,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J3",
+      "pin": "7",
+      "same_pin_tip_chord_mm": 139.43947759616907,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 154.43947759616907,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J3",
+      "pin": "8",
+      "same_pin_tip_chord_mm": 139.43947759616907,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 154.43947759616907,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J3",
+      "pin": "9",
+      "same_pin_tip_chord_mm": 139.43947751409698,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 154.43947751409698,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J3",
+      "pin": "10",
+      "same_pin_tip_chord_mm": 139.43947751409698,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 154.43947751409698,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J3",
+      "pin": "11",
+      "same_pin_tip_chord_mm": 139.43947751409698,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 154.43947751409698,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J3",
+      "pin": "12",
+      "same_pin_tip_chord_mm": 139.43947743202486,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 154.43947743202486,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J4",
+      "pin": "1",
+      "same_pin_tip_chord_mm": 59.764526899634276,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 74.76452689963428,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J4",
+      "pin": "2",
+      "same_pin_tip_chord_mm": 59.764526899634276,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 74.76452689963428,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J4",
+      "pin": "3",
+      "same_pin_tip_chord_mm": 59.76452485711306,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 74.76452485711306,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J5",
+      "pin": "1",
+      "same_pin_tip_chord_mm": 49.26837946108721,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 64.2683794610872,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J5",
+      "pin": "2",
+      "same_pin_tip_chord_mm": 45.66660449912487,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 60.66660449912487,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J5",
+      "pin": "3",
+      "same_pin_tip_chord_mm": 42.36881663351957,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 57.36881663351957,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J6",
+      "pin": "1",
+      "same_pin_tip_chord_mm": 96.38718510198969,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 111.38718510198969,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J6",
+      "pin": "2",
+      "same_pin_tip_chord_mm": 98.96359589307401,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 113.96359589307401,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J6",
+      "pin": "3",
+      "same_pin_tip_chord_mm": 101.60170474865616,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 116.60170474865616,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J7",
+      "pin": "1",
+      "same_pin_tip_chord_mm": 124.23883958273377,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 139.23883958273376,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J7",
+      "pin": "2",
+      "same_pin_tip_chord_mm": 120.82187000137799,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 135.821870001378,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    },
+    {
+      "reference": "J7",
+      "pin": "3",
+      "same_pin_tip_chord_mm": 117.41534913305046,
+      "chord_plus_two_7p5mm_above_seat_stub_lengths_mm": 132.41534913305046,
+      "original_stock_length_mm": 152.4,
+      "status": "Geometric lower bound using current inferred stub/seating poses; net map and actual stock trimming are separate evidence."
+    }
+  ],
+  "limitations": [
+    "Dimensions other than conductor count/pad pitch are original presentation assumptions. No manufacturer bend-radius or fitted cable length qualification.",
+    "Pin numbers here identify geometric tips. Electrical mapping is independently verified by the net/source review."
+  ]
+}

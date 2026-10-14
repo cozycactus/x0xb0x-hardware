@@ -1,0 +1,144 @@
+{
+  "passed": true,
+  "check_count": 15,
+  "checks": [
+    {
+      "check": "IC20 original and frozen replacement hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "IC20 valid positive-volume replacement",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "IC20 full original rigid geometry retained",
+      "passed": true,
+      "details": {
+        "expected_volume_mm3": 486.0634828602393,
+        "actual_volume_mm3": 486.0634828602392,
+        "common_volume_mm3": 486.0634828602392,
+        "maximum_volume_difference_mm3": 5.684341886080802e-14
+      }
+    },
+    {
+      "check": "IC20 canonical geometry above board seat",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "KK1 original and frozen replacement hashes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "KK1 valid positive-volume replacement",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "KK1 full original rigid geometry retained",
+      "passed": true,
+      "details": {
+        "expected_volume_mm3": 797.0774096350166,
+        "actual_volume_mm3": 797.0774096350162,
+        "common_volume_mm3": 797.0774096350166,
+        "maximum_volume_difference_mm3": 3.410605131648481e-13
+      }
+    },
+    {
+      "check": "KK1 canonical geometry above board seat",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Previously documented free-state spring overlap retained",
+      "passed": true,
+      "details": {
+        "overlap_mm3": 1.729422341344677
+      }
+    },
+    {
+      "check": "C3 existing model canonical assignment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "C3 exact package bodies clear of bent pair",
+      "passed": true,
+      "details": {
+        "heatsink_mm3": 0.0,
+        "regulator_mm3": 0.0
+      }
+    },
+    {
+      "check": "C4 existing model canonical assignment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "C4 exact package bodies clear of bent pair",
+      "passed": true,
+      "details": {
+        "heatsink_mm3": 0.0,
+        "regulator_mm3": 0.0
+      }
+    },
+    {
+      "check": "C5 existing model canonical assignment",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "C5 exact package bodies clear of bent pair",
+      "passed": true,
+      "details": {
+        "heatsink_mm3": 0.0,
+        "regulator_mm3": 0.0
+      }
+    }
+  ],
+  "failures": [],
+  "rigid_geometry_records": [
+    {
+      "reference": "IC20",
+      "maximum_rigid_volume_difference_mm3": 5.684341886080802e-14
+    },
+    {
+      "reference": "KK1",
+      "maximum_rigid_volume_difference_mm3": 3.410605131648481e-13
+    }
+  ],
+  "neighbor_records": [
+    {
+      "reference": "C3",
+      "intersections": {
+        "heatsink_mm3": 0.0,
+        "regulator_mm3": 0.0
+      }
+    },
+    {
+      "reference": "C4",
+      "intersections": {
+        "heatsink_mm3": 0.0,
+        "regulator_mm3": 0.0
+      }
+    },
+    {
+      "reference": "C5",
+      "intersections": {
+        "heatsink_mm3": 0.0,
+        "regulator_mm3": 0.0
+      }
+    }
+  ],
+  "pair_free_state_overlap_mm3": 1.729422341344677,
+  "scope": "Fresh independent exact BRep rigid-transform and nearby body review; no project or geometry edits.",
+  "limits": [
+    "The 90 degree bend and 2 mm vertical datum are illustrations supported qualitatively by original photos, not measured forming specifications.",
+    "Free-state spring overlap is not elastic clamping or thermal-contact certification.",
+    "IC20 leads remain omitted; actual original vendor, lead dimensions and fitted tolerances are unresolved.",
+    "Case and full populated-board surface screens are recorded separately."
+  ]
+}

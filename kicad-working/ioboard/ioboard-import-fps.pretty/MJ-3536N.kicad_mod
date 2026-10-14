@@ -1,0 +1,174 @@
+(footprint "MJ-3536N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.2092 -18.8272 0)
+		(layer "F.SilkS")
+		(uuid "02689c02-2648-4f62-bdbc-14cab579ea36")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "99b9b431-56b2-4a98-9cb4-18a39c5cf16e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d99e1d67-7c4e-4b61-85ed-1604c1a4e221")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab55e1ea-920b-4f61-bd18-5a72759ccd50")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.08 -15.24)
+		(end 5.08 -15.24)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58603feb-be98-406a-84d2-f52fcaa17057")
+	)
+	(fp_line
+		(start -5.08 0)
+		(end -5.08 -15.24)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6904d768-ae17-483a-ad22-c7243e370ebf")
+	)
+	(fp_line
+		(start -2.54 0)
+		(end -5.08 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ecfafbe-d4bb-4f67-976b-eb2e278884ba")
+	)
+	(fp_line
+		(start -2.54 0)
+		(end -2.54 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6342312e-d17b-4647-856c-f6c6e76b3013")
+	)
+	(fp_line
+		(start -2.54 2.54)
+		(end 2.54 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1992c66-5dee-4102-9f7f-61a4150aca2e")
+	)
+	(fp_line
+		(start 2.54 0)
+		(end -2.54 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d9ba746-042b-49b6-ac29-064eb8b5ce45")
+	)
+	(fp_line
+		(start 2.54 2.54)
+		(end 2.54 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e34d8da-b864-4ba6-8fe7-ad6ca2e8b23f")
+	)
+	(fp_line
+		(start 5.08 -15.24)
+		(end 5.08 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f58c87c-a6b8-4b98-8456-4c537cb25b84")
+	)
+	(fp_line
+		(start 5.08 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8810b0a-65bc-492c-88a5-a593a5019b59")
+	)
+	(pad "TIPSHUNT" thru_hole circle
+		(at 5.08 -13.462)
+		(size 3.556 3.556)
+		(drill 2.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "8e8ec8d1-9a14-4a4d-8683-09cdf181e9e8")
+	)
+	(pad "SLEEVE" thru_hole circle
+		(at 0 -2.54)
+		(size 3.556 3.556)
+		(drill 2.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "3682ed7a-faa5-4c1a-a8d3-e58cb3bf0a57")
+	)
+	(pad "TIP" thru_hole circle
+		(at 0 -15.8496)
+		(size 3.556 3.556)
+		(drill 2.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "ddfbdfc1-7123-4aa7-abf7-dc5b5415a0ab")
+	)
+	(embedded_fonts no)
+
+	(model "${KIPRJMOD}/3dmodels/Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+)

@@ -1,0 +1,68 @@
+{
+  "status": "PASS for CAD validity, frozen asset integrity, native canonical dimensions, palette export and visual completeness",
+  "scope": "Isolated native KiCad export probes and standalone Blender renders. Actual PCB projects and delivered Blender scenes were not edited by this review.",
+  "frozen_model_hashes_unchanged": {
+    "TL1100F_ManufacturerCAD_BodyOnly.step": true,
+    "TL1100F_ManufacturerCAD_FullNominalFreeState.step": true
+  },
+  "model_hashes": {
+    "TL1100F_ManufacturerCAD_BodyOnly.step": "fb3e2ad5f52de6168f7dfcf25d70543fb9cca64f295175b9b262276c35f193b7",
+    "TL1100F_ManufacturerCAD_FullNominalFreeState.step": "680228325b4efa78f35174d54935fff4315874657fadddc9357cae1aedb37b8f"
+  },
+  "native_bounds_audit": "native-probes/native-canonical-bounds-audit.json",
+  "native_bounds_passed": true,
+  "native_palette_audit": "native-probes/native-color-export-audit.json",
+  "native_palette_passed": true,
+  "native_preview": {
+    "filename": "tl1100-native-cad-review.png",
+    "sha256": "84d1683bdff60b2d877756343780077dfbc672c3e5dfb1f2cf0275066d6ce736",
+    "viewed": true,
+    "result": "Both full and above-seat variants display intact housings, covers, actuator heads and terminal geometry. Full variant includes below-seat free-state terminals; alternate preserves its above-seat source subset."
+  },
+  "segmented_preview": {
+    "filename": "tl1100-manufacturer-cad-review.png",
+    "sha256": "0ba37d3e9e9f24f722b2d1a03ae9184babb6dea2aa4753baf2988d448d728fb0",
+    "viewed": true,
+    "result": "Corrected preview displays complete surface unions."
+  },
+  "earlier_preview_failure": {
+    "cause": "Camera near clipping plane was 0.1 m while the camera was approximately 0.097 m from the models.",
+    "correction": "Set camera clip_start to 0.0001 m and clip_end to 10 m. No model or source geometry was changed."
+  },
+  "canonical_summary": {
+    "full_exact_STEP_bounds_mm": [
+      -7.05,
+      -6,
+      -3.5,
+      7.05,
+      6,
+      7.3
+    ],
+    "seat_z_mm": 0,
+    "actuator_tip_z_mm": 7.3,
+    "assignment_offset_mm": [
+      0,
+      0,
+      0
+    ],
+    "assignment_rotation_deg": [
+      0,
+      0,
+      0
+    ],
+    "assignment_scale": [
+      1,
+      1,
+      1
+    ],
+    "maximum_full_GLB_chord_bound_error_mm": 0.0002466693520544183,
+    "full_GLB_actuator_tip_error_mm": 1.7210841196657611e-07
+  },
+  "installed_fit_limits": [
+    "The repaired source is manufacturer family CAD with nominal, uncompressed retention bends. No elastic compression or installation deformation was simulated.",
+    "The actual imported footprint drill is 1.1938 mm; the current manufacturer drawing recommends 1.30 mm. Native PCB holes were preserved.",
+    "Nominal electrical terminal axes differ from actual pad axes by 0.010918 mm. Sampled straight shoulders and narrow solder tips fit the actual drill; free-state retention bends exceed its radius by up to 0.331224 mm.",
+    "Source family force/plating options, exact historical mold revision, tolerances, cap socket/grip, full switch travel and complete physical assembly fit remain unqualified.",
+    "AP214 face colors are inferred presentation choices; original publisher CAD has one grey appearance."
+  ]
+}

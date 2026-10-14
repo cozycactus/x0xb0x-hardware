@@ -1,0 +1,932 @@
+{
+  "date": "2026-10-14",
+  "scope": "Two detailed rearconnector body candidates for7references; no sourceprojects/scenes/models edited.",
+  "manufacturer_CAD_recovered": false,
+  "canonical_frame": "Original F.Cu footprint X,-Y,Z outward",
+  "parts": [
+    {
+      "id": "SDS50J_DatasheetDerived_DetailedBody",
+      "footprint": "CP-2350",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sameskydevices.com/product/resource/sds-j.pdf",
+          "filename": "source/sds50j.pdf",
+          "sha256": "bf4a7032ee22b320bc5627c5d6eb331b59e6dc4c7fc618250d52e182ccea1e65",
+          "page": 3,
+          "date": "2024-09-12"
+        }
+      ],
+      "dimensions": {
+        "width_mm": 20,
+        "depth_max_mm": 15.8,
+        "height_mm": 21.1,
+        "flange_thickness_mm": 1.8,
+        "contact_pcd_mm": 7,
+        "mounting_pcd_mm": 19,
+        "mounting_hole_diameter_mm": 1.6,
+        "mounting_angles_deg": [
+          90,
+          205,
+          335
+        ],
+        "contact_angles_deg": [
+          25,
+          155,
+          225,
+          270,
+          315
+        ]
+      },
+      "improvements": [
+        "Correct printed25/45degree contact orientations and25degree lower mountingholes.",
+        "Keyed mating cavity, elongated socket recesses and separate visible tin/contact sleeves.",
+        "Separated molded housing/rearcover/insert with source-derived step profile; current-family fullenvelope retained."
+      ],
+      "limits": [
+        "Detailed body reconstruction from primary manufacturer drawings; not recovered manufacturer3DCAD.",
+        "Canonical original F.Cu footprint frame X,-Y,Z outward, no placed board/case pose baked in; all native assignment transforms remain zero offset/rotation and unity scale.",
+        "Unconfirmed solder terminals and locators are omitted; visible mating/contact illustrations are not electrical lead geometry.",
+        "Unsized details are traced/interpreted within published nominal envelopes; no factorytolerance, terminalfit, historicalrevision or enclosurefit qualification.",
+        "CurrentSDS-J drawing differs from historical2005CUI drawing in flange detail/thickness; candidate is exactSDS50J currentfamily, not proven identical2005mold.",
+        "Mating cavity14.2diameter, socket dimensions, minor reliefs and rearcover steps are unsized visual reconstructions; outerenvelope and printed PCD/holepatterns are authoritative."
+      ],
+      "board": "ioboard",
+      "classification": "Detailed exact-family drawing-derived body illustration; not manufacturerCAD, terminalfit unqualified",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+      "source_sha256": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.stl",
+      "stl_sha256": "402478c4ffb528115041f279cd90d4ac81b686c13fb1d6177f81096338ef4d2b",
+      "units": "mm",
+      "bounds": {
+        "min_mm": [
+          -10.0,
+          0.0,
+          0.0
+        ],
+        "max_mm": [
+          10.0,
+          15.8,
+          21.1
+        ],
+        "size_mm": [
+          20.0,
+          15.8,
+          21.1
+        ]
+      },
+      "mesh_parts": [
+        {
+          "name": "Housing",
+          "role": "housing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/SDS50J_DatasheetDerived_DetailedBody_Housing.stl",
+          "units": "mm",
+          "rgba": [
+            0.025,
+            0.027,
+            0.03,
+            1
+          ],
+          "bounds": {
+            "min_mm": [
+              -10.0,
+              0.0,
+              0.0
+            ],
+            "max_mm": [
+              10.0,
+              12.100000000000001,
+              21.1
+            ],
+            "size_mm": [
+              20.0,
+              12.100000000000001,
+              21.1
+            ]
+          },
+          "triangles": 3982,
+          "sha256": "2e99d50e1fb29d49e502b3b982e7c22b0e25e1f8509ce09c9d234e8de0f7d4a9"
+        },
+        {
+          "name": "RearCover",
+          "role": "cover",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/SDS50J_DatasheetDerived_DetailedBody_RearCover.stl",
+          "units": "mm",
+          "rgba": [
+            0.045,
+            0.047,
+            0.05,
+            1
+          ],
+          "bounds": {
+            "min_mm": [
+              -7.5,
+              12.1,
+              0.0
+            ],
+            "max_mm": [
+              7.5,
+              15.8,
+              13.6
+            ],
+            "size_mm": [
+              15.0,
+              3.700000000000001,
+              13.6
+            ]
+          },
+          "triangles": 28,
+          "sha256": "443f853985d048a6bfcf4581410b0ecab1d5e97c6102896431fb88105b1e049e"
+        },
+        {
+          "name": "SocketInsert",
+          "role": "housing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/SDS50J_DatasheetDerived_DetailedBody_SocketInsert.stl",
+          "units": "mm",
+          "rgba": [
+            0.025,
+            0.027,
+            0.03,
+            1
+          ],
+          "bounds": {
+            "min_mm": [
+              -6.649139016809675,
+              5.8,
+              3.3499999999999996
+            ],
+            "max_mm": [
+              6.649139016809676,
+              7.4,
+              16.55839157110949
+            ],
+            "size_mm": [
+              13.29827803361935,
+              1.6000000000000005,
+              13.20839157110949
+            ]
+          },
+          "triangles": 608,
+          "sha256": "576e706def238dcd0baf1876729c054a4fe50c2f4d7eb17776e1464fe013da27"
+        },
+        {
+          "name": "MatingSocket1",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/SDS50J_DatasheetDerived_DetailedBody_MatingSocket1.stl",
+          "units": "mm",
+          "rgba": [
+            0.6,
+            0.61,
+            0.63,
+            1
+          ],
+          "bounds": {
+            "min_mm": [
+              2.4523010435876866,
+              5.95,
+              10.759163916092447
+            ],
+            "max_mm": [
+              3.8918534656688624,
+              7.25,
+              12.199163916092449
+            ],
+            "size_mm": [
+              1.4395524220811757,
+              1.2999999999999998,
+              1.4400000000000013
+            ]
+          },
+          "triangles": 1008,
+          "sha256": "c7a3c44bbb5f867caf59df02980e88fd52c88ee0669cc1642f0102690ec8e4ce"
+        },
+        {
+          "name": "MatingSocket2",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/SDS50J_DatasheetDerived_DetailedBody_MatingSocket2.stl",
+          "units": "mm",
+          "rgba": [
+            0.6,
+            0.61,
+            0.63,
+            1
+          ],
+          "bounds": {
+            "min_mm": [
+              -3.891853465668863,
+              5.95,
+              10.759163916092447
+            ],
+            "max_mm": [
+              -2.452301043587687,
+              7.25,
+              12.199163916092449
+            ],
+            "size_mm": [
+              1.4395524220811757,
+              1.2999999999999998,
+              1.4400000000000013
+            ]
+          },
+          "triangles": 1008,
+          "sha256": "6d75181e5cf283c8056955dad762c8007f8aa49621b45fc2be8ef90832f18d3d"
+        },
+        {
+          "name": "MatingSocket3",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/SDS50J_DatasheetDerived_DetailedBody_MatingSocket3.stl",
+          "units": "mm",
+          "rgba": [
+            0.6,
+            0.61,
+            0.63,
+            1
+          ],
+          "bounds": {
+            "min_mm": [
+              -3.194649945193505,
+              5.95,
+              6.805126265847084
+            ],
+            "max_mm": [
+              -1.7550975231123291,
+              7.25,
+              8.245126265847084
+            ],
+            "size_mm": [
+              1.4395524220811757,
+              1.2999999999999998,
+              1.4399999999999995
+            ]
+          },
+          "triangles": 1008,
+          "sha256": "510c1d2ce6814dd5bff23f0703a7740f4848eb6ac0df0577bcc4f227597d6864"
+        },
+        {
+          "name": "MatingSocket4",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/SDS50J_DatasheetDerived_DetailedBody_MatingSocket4.stl",
+          "units": "mm",
+          "rgba": [
+            0.6,
+            0.61,
+            0.63,
+            1
+          ],
+          "bounds": {
+            "min_mm": [
+              -0.7197762110405885,
+              5.95,
+              5.78
+            ],
+            "max_mm": [
+              0.719776211040587,
+              7.25,
+              7.22
+            ],
+            "size_mm": [
+              1.4395524220811755,
+              1.2999999999999998,
+              1.4399999999999995
+            ]
+          },
+          "triangles": 1008,
+          "sha256": "db55fa0e9be596d6272365b73b5f084f38f9d3ab6fe9a5a0fbe24f17804cb511"
+        },
+        {
+          "name": "MatingSocket5",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/SDS50J_DatasheetDerived_DetailedBody_MatingSocket5.stl",
+          "units": "mm",
+          "rgba": [
+            0.6,
+            0.61,
+            0.63,
+            1
+          ],
+          "bounds": {
+            "min_mm": [
+              1.755097523112328,
+              5.95,
+              6.8051262658470835
+            ],
+            "max_mm": [
+              3.1946499451935035,
+              7.25,
+              8.245126265847084
+            ],
+            "size_mm": [
+              1.4395524220811755,
+              1.2999999999999998,
+              1.4400000000000004
+            ]
+          },
+          "triangles": 1008,
+          "sha256": "a30c5c9821bfa7aaf2f723af6669a7e4b8f1455fbcfc9fe66ca6621a68def2aa"
+        }
+      ],
+      "valid": true,
+      "solid_count": 8,
+      "triangles": 9654,
+      "color_roles": [
+        {
+          "brep": 15,
+          "faces": 32,
+          "color": [
+            0.025,
+            0.027,
+            0.03
+          ]
+        },
+        {
+          "brep": 1035,
+          "faces": 11,
+          "color": [
+            0.045,
+            0.047,
+            0.05
+          ]
+        },
+        {
+          "brep": 1327,
+          "faces": 30,
+          "color": [
+            0.025,
+            0.027,
+            0.03
+          ]
+        },
+        {
+          "brep": 2295,
+          "faces": 4,
+          "color": [
+            0.6,
+            0.61,
+            0.63
+          ]
+        },
+        {
+          "brep": 2387,
+          "faces": 4,
+          "color": [
+            0.6,
+            0.61,
+            0.63
+          ]
+        },
+        {
+          "brep": 2479,
+          "faces": 4,
+          "color": [
+            0.6,
+            0.61,
+            0.63
+          ]
+        },
+        {
+          "brep": 2571,
+          "faces": 4,
+          "color": [
+            0.6,
+            0.61,
+            0.63
+          ]
+        },
+        {
+          "brep": 2663,
+          "faces": 4,
+          "color": [
+            0.6,
+            0.61,
+            0.63
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.sameskydevices.com/product/resource/sds-j.pdf"
+      ],
+      "canonical_frame": "Original F.Cu footprint X,-Y,Z outward; millimetres; sourcefrontY0, bodyinto+Y. No placed transform baked in.",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Original parameterized primary-drawing reconstruction with explicit unsized details",
+      "limitations": [
+        "Detailed body reconstruction from primary manufacturer drawings; not recovered manufacturer3DCAD.",
+        "Canonical original F.Cu footprint frame X,-Y,Z outward, no placed board/case pose baked in; all native assignment transforms remain zero offset/rotation and unity scale.",
+        "Unconfirmed solder terminals and locators are omitted; visible mating/contact illustrations are not electrical lead geometry.",
+        "Unsized details are traced/interpreted within published nominal envelopes; no factorytolerance, terminalfit, historicalrevision or enclosurefit qualification.",
+        "CurrentSDS-J drawing differs from historical2005CUI drawing in flange detail/thickness; candidate is exactSDS50J currentfamily, not proven identical2005mold.",
+        "Mating cavity14.2diameter, socket dimensions, minor reliefs and rearcover steps are unsized visual reconstructions; outerenvelope and printed PCD/holepatterns are authoritative."
+      ]
+    },
+    {
+      "id": "NYS216_DrawingDerived_DetailedBody",
+      "footprint": "REAN_1_4STERO",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rean-connectors.com/media/12224/download/nys-216-1.dxf?v=1",
+          "filename": "source/nys-216-manufacturer.dxf",
+          "sha256": "4e853c5f53bb89195fa5e80d00454ed65ce3a57d98c5dee52b2e8d3b7414f438",
+          "drawing": "3102ST2201",
+          "revision": "C2007; original2004",
+          "drawing_to_physical_scale": 0.5
+        },
+        {
+          "url": "https://www.rean-connectors.com/media/9014/download/nys-216.pdf?v=1",
+          "filename": "source/nys216.pdf",
+          "sha256": "3b41beb12880dae7b02c99e7c3296d22b3ac7eb45e87a7b5b2d194b44ad5fec7"
+        }
+      ],
+      "dimensions": {
+        "width_mm": 20,
+        "overall_depth_mm": 33,
+        "body_depth_mm": 24.5,
+        "ribbed_body_depth_mm": 22.45,
+        "body_height_mm": 15.5,
+        "socket_axis_z_mm": 8,
+        "nose_projection_mm": 8.5,
+        "thread_major_diameter_mm": 9.525,
+        "thread_pitch_mm": 0.79375,
+        "mating_bore_diameter_mm": 6.35,
+        "window_width_mm": 17,
+        "window_stations_y_mm": [
+          [
+            2.25,
+            7.5
+          ],
+          [
+            8.6,
+            13.85
+          ],
+          [
+            14.95,
+            20.2
+          ]
+        ]
+      },
+      "improvements": [
+        "Three open contactwindows and source-derived rib stations replace the former solid box.",
+        "Separate rearprojection, matingbore,3/8-32nominalnose andvisible leafcontactstrips.",
+        "Bodyheight15.5 and threadedmajor9.525 followprintedmanufacturerbody/threadcallouts; prior16.5/11 coarse envelope values were conservative/approximate, not exactbody dimensions."
+      ],
+      "limits": [
+        "Detailed body reconstruction from primary manufacturer drawings; not recovered manufacturer3DCAD.",
+        "Canonical original F.Cu footprint frame X,-Y,Z outward, no placed board/case pose baked in; all native assignment transforms remain zero offset/rotation and unity scale.",
+        "Unconfirmed solder terminals and locators are omitted; visible mating/contact illustrations are not electrical lead geometry.",
+        "Unsized details are traced/interpreted within published nominal envelopes; no factorytolerance, terminalfit, historicalrevision or enclosurefit qualification.",
+        "ManufacturerDXF modelspace is drawing2:1, normalizedby0.5; rawoveralloutline33.75 conflicts with printed33\u00b10.5; printed33nominal governs reconstructed outerlength.",
+        "DXF drawnribheight15.3 differs from printed15.5bodyheight; printed15.5nominal governs.16.5 is also shown forfront/hardware orPCBpitch, not uniformly solidhousingheight.",
+        "Official currentproductpage reports8.2mmtoPCB while drawingaxisis8.0; actualbodyseat/feetgap is unmeasured and candidate retainsdrawingaxis8.0.",
+        "Circular threadgrooves are visual pitch markers, not a truehelix. Leafcontactcurves, stockthickness, topwindowdepth and side marks are unsized reconstructions.",
+        "Nut/washer omitted because existingscene providesseparateexteriorhardware; do not duplicateorclaimcompatibility fromtheseillustrations."
+      ],
+      "board": "ioboard",
+      "classification": "Detailed exact-family drawing-derived body illustration; not manufacturerCAD, terminalfit unqualified",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/NYS216_DrawingDerived_DetailedBody.step",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/NYS216_DrawingDerived_DetailedBody.step",
+      "source_sha256": "9f397ef5f43bf615023e40b04554d182468b351faf732539918b42c040ebb390",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/NYS216_DrawingDerived_DetailedBody.stl",
+      "stl_sha256": "efe5599a4fc59bb616105217177ea5f037d836abc08c23bfdd81076fdb9cfb37",
+      "units": "mm",
+      "bounds": {
+        "min_mm": [
+          -10.0,
+          -8.5,
+          0.0
+        ],
+        "max_mm": [
+          10.0,
+          24.5,
+          15.5
+        ],
+        "size_mm": [
+          20.0,
+          33.0,
+          15.5
+        ]
+      },
+      "mesh_parts": [
+        {
+          "name": "RibbedHousing",
+          "role": "housing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/NYS216_DrawingDerived_DetailedBody_RibbedHousing.stl",
+          "units": "mm",
+          "rgba": [
+            0.025,
+            0.027,
+            0.03,
+            1
+          ],
+          "bounds": {
+            "min_mm": [
+              -10.0,
+              0.0,
+              0.0
+            ],
+            "max_mm": [
+              10.0,
+              24.5,
+              15.5
+            ],
+            "size_mm": [
+              20.0,
+              24.5,
+              15.5
+            ]
+          },
+          "triangles": 4448,
+          "sha256": "f038e35ef2db4fb0319784dd67d22d64029e6236760d367674a4f3c294a21058"
+        },
+        {
+          "name": "ThreadedNose",
+          "role": "housing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/NYS216_DrawingDerived_DetailedBody_ThreadedNose.stl",
+          "units": "mm",
+          "rgba": [
+            0.025,
+            0.027,
+            0.03,
+            1
+          ],
+          "bounds": {
+            "min_mm": [
+              -4.761019729278889,
+              -8.5,
+              3.2375
+            ],
+            "max_mm": [
+              4.761019729278887,
+              0.0,
+              12.7625
+            ],
+            "size_mm": [
+              9.522039458557776,
+              8.5,
+              9.524999999999999
+            ]
+          },
+          "triangles": 162288,
+          "sha256": "a101fdfcba866001ad07a8a7a9ba7bda7706c169df3e615f5baf3e5d49429c39"
+        },
+        {
+          "name": "VisibleLeafContact1",
+          "role": "bronze",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/NYS216_DrawingDerived_DetailedBody_VisibleLeafContact1.stl",
+          "units": "mm",
+          "rgba": [
+            0.57,
+            0.42,
+            0.21,
+            1
+          ],
+          "bounds": {
+            "min_mm": [
+              -2.9,
+              2.35,
+              8.05
+            ],
+            "max_mm": [
+              -1.5499999999999998,
+              7.25,
+              10.48
+            ],
+            "size_mm": [
+              1.35,
+              4.9,
+              2.4299999999999997
+            ]
+          },
+          "triangles": 28,
+          "sha256": "cca74dcce9229990bd34f7bd931df0c2a476242a6a0336b377889a7f7e62cb37"
+        },
+        {
+          "name": "VisibleLeafContact2",
+          "role": "bronze",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/NYS216_DrawingDerived_DetailedBody_VisibleLeafContact2.stl",
+          "units": "mm",
+          "rgba": [
+            0.57,
+            0.42,
+            0.21,
+            1
+          ],
+          "bounds": {
+            "min_mm": [
+              -2.9,
+              8.7,
+              8.05
+            ],
+            "max_mm": [
+              -1.5499999999999998,
+              13.6,
+              10.48
+            ],
+            "size_mm": [
+              1.35,
+              4.9,
+              2.4299999999999997
+            ]
+          },
+          "triangles": 28,
+          "sha256": "7f8097a57ee82a60ed7fd3352e9998c18da7830cca0be6753ea60f5e6da463b6"
+        },
+        {
+          "name": "VisibleLeafContact3",
+          "role": "bronze",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/NYS216_DrawingDerived_DetailedBody_VisibleLeafContact3.stl",
+          "units": "mm",
+          "rgba": [
+            0.57,
+            0.42,
+            0.21,
+            1
+          ],
+          "bounds": {
+            "min_mm": [
+              -2.9,
+              15.049999999999999,
+              8.05
+            ],
+            "max_mm": [
+              -1.5499999999999998,
+              19.95,
+              10.48
+            ],
+            "size_mm": [
+              1.35,
+              4.9,
+              2.4299999999999997
+            ]
+          },
+          "triangles": 28,
+          "sha256": "98e927316fe4916fa5c42de4f406a981da5e419a779be2f1908c9436eea52b5f"
+        }
+      ],
+      "valid": true,
+      "solid_count": 5,
+      "triangles": 166316,
+      "color_roles": [
+        {
+          "brep": 15,
+          "faces": 42,
+          "color": [
+            0.025,
+            0.027,
+            0.03
+          ]
+        },
+        {
+          "brep": 1303,
+          "faces": 24,
+          "color": [
+            0.025,
+            0.027,
+            0.03
+          ]
+        },
+        {
+          "brep": 1905,
+          "faces": 10,
+          "color": [
+            0.57,
+            0.42,
+            0.21
+          ]
+        },
+        {
+          "brep": 2187,
+          "faces": 10,
+          "color": [
+            0.57,
+            0.42,
+            0.21
+          ]
+        },
+        {
+          "brep": 2469,
+          "faces": 10,
+          "color": [
+            0.57,
+            0.42,
+            0.21
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.rean-connectors.com/media/12224/download/nys-216-1.dxf?v=1",
+        "https://www.rean-connectors.com/media/9014/download/nys-216.pdf?v=1"
+      ],
+      "canonical_frame": "Original F.Cu footprint X,-Y,Z outward; millimetres; sourcefrontY0, bodyinto+Y. No placed transform baked in.",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Original parameterized primary-drawing reconstruction with explicit unsized details",
+      "limitations": [
+        "Detailed body reconstruction from primary manufacturer drawings; not recovered manufacturer3DCAD.",
+        "Canonical original F.Cu footprint frame X,-Y,Z outward, no placed board/case pose baked in; all native assignment transforms remain zero offset/rotation and unity scale.",
+        "Unconfirmed solder terminals and locators are omitted; visible mating/contact illustrations are not electrical lead geometry.",
+        "Unsized details are traced/interpreted within published nominal envelopes; no factorytolerance, terminalfit, historicalrevision or enclosurefit qualification.",
+        "ManufacturerDXF modelspace is drawing2:1, normalizedby0.5; rawoveralloutline33.75 conflicts with printed33\u00b10.5; printed33nominal governs reconstructed outerlength.",
+        "DXF drawnribheight15.3 differs from printed15.5bodyheight; printed15.5nominal governs.16.5 is also shown forfront/hardware orPCBpitch, not uniformly solidhousingheight.",
+        "Official currentproductpage reports8.2mmtoPCB while drawingaxisis8.0; actualbodyseat/feetgap is unmeasured and candidate retainsdrawingaxis8.0.",
+        "Circular threadgrooves are visual pitch markers, not a truehelix. Leafcontactcurves, stockthickness, topwindowdepth and side marks are unsized reconstructions.",
+        "Nut/washer omitted because existingscene providesseparateexteriorhardware; do not duplicateorclaimcompatibility fromtheseillustrations."
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "board": "ioboard",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "footprint": "CP-2350",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+      "source_sha256": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Original parameterized primary-drawing reconstruction with explicit unsized details",
+      "classification": "Detailed exact-family drawing-derived body illustration; not manufacturerCAD, terminalfit unqualified",
+      "limitations": [
+        "Detailed body reconstruction from primary manufacturer drawings; not recovered manufacturer3DCAD.",
+        "Canonical original F.Cu footprint frame X,-Y,Z outward, no placed board/case pose baked in; all native assignment transforms remain zero offset/rotation and unity scale.",
+        "Unconfirmed solder terminals and locators are omitted; visible mating/contact illustrations are not electrical lead geometry.",
+        "Unsized details are traced/interpreted within published nominal envelopes; no factorytolerance, terminalfit, historicalrevision or enclosurefit qualification.",
+        "CurrentSDS-J drawing differs from historical2005CUI drawing in flange detail/thickness; candidate is exactSDS50J currentfamily, not proven identical2005mold.",
+        "Mating cavity14.2diameter, socket dimensions, minor reliefs and rearcover steps are unsized visual reconstructions; outerenvelope and printed PCD/holepatterns are authoritative."
+      ],
+      "source_urls": [
+        "https://www.sameskydevices.com/product/resource/sds-j.pdf"
+      ],
+      "units": "mm"
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "footprint": "REAN_1_4STERO",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/NYS216_DrawingDerived_DetailedBody.step",
+      "source_sha256": "9f397ef5f43bf615023e40b04554d182468b351faf732539918b42c040ebb390",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Original parameterized primary-drawing reconstruction with explicit unsized details",
+      "classification": "Detailed exact-family drawing-derived body illustration; not manufacturerCAD, terminalfit unqualified",
+      "limitations": [
+        "Detailed body reconstruction from primary manufacturer drawings; not recovered manufacturer3DCAD.",
+        "Canonical original F.Cu footprint frame X,-Y,Z outward, no placed board/case pose baked in; all native assignment transforms remain zero offset/rotation and unity scale.",
+        "Unconfirmed solder terminals and locators are omitted; visible mating/contact illustrations are not electrical lead geometry.",
+        "Unsized details are traced/interpreted within published nominal envelopes; no factorytolerance, terminalfit, historicalrevision or enclosurefit qualification.",
+        "ManufacturerDXF modelspace is drawing2:1, normalizedby0.5; rawoveralloutline33.75 conflicts with printed33\u00b10.5; printed33nominal governs reconstructed outerlength.",
+        "DXF drawnribheight15.3 differs from printed15.5bodyheight; printed15.5nominal governs.16.5 is also shown forfront/hardware orPCBpitch, not uniformly solidhousingheight.",
+        "Official currentproductpage reports8.2mmtoPCB while drawingaxisis8.0; actualbodyseat/feetgap is unmeasured and candidate retainsdrawingaxis8.0.",
+        "Circular threadgrooves are visual pitch markers, not a truehelix. Leafcontactcurves, stockthickness, topwindowdepth and side marks are unsized reconstructions.",
+        "Nut/washer omitted because existingscene providesseparateexteriorhardware; do not duplicateorclaimcompatibility fromtheseillustrations."
+      ],
+      "source_urls": [
+        "https://www.rean-connectors.com/media/12224/download/nys-216-1.dxf?v=1",
+        "https://www.rean-connectors.com/media/9014/download/nys-216.pdf?v=1"
+      ],
+      "units": "mm"
+    }
+  ],
+  "instance_count": 7,
+  "geometry_license": "CC0-1.0 original generated reconstruction only; manufacturerdrawingrights retained.",
+  "source_availability": "source/cad-availability.json",
+  "source_project_hashes": {
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb": "b259d30eb19ece610a23ace3da7085f4bb56339a8158c024aa95c92d5b5eeb7d",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/ioboard.kicad_pcb": "52f1964f77cea0e203c3622dd4b3f22f875feaba0ebfcea233db0f56175f1cb4"
+  },
+  "source_projects_unchanged": true,
+  "audit": [
+    {
+      "id": "SDS50J_DatasheetDerived_DetailedBody",
+      "valid": true,
+      "step_geometry_unchanged_by_color_styles": true,
+      "solid_count": 8,
+      "bounds": {
+        "min_mm": [
+          -10.0,
+          0.0,
+          0.0
+        ],
+        "max_mm": [
+          10.0,
+          15.8,
+          21.1
+        ],
+        "size_mm": [
+          20.0,
+          15.8,
+          21.1
+        ]
+      },
+      "triangles": 9654,
+      "volume_mm3": 2891.1138613083676
+    },
+    {
+      "id": "NYS216_DrawingDerived_DetailedBody",
+      "valid": true,
+      "step_geometry_unchanged_by_color_styles": true,
+      "solid_count": 5,
+      "bounds": {
+        "min_mm": [
+          -10.0,
+          -8.5,
+          0.0
+        ],
+        "max_mm": [
+          10.0,
+          24.5,
+          15.5
+        ],
+        "size_mm": [
+          20.0,
+          33.0,
+          15.5
+        ]
+      },
+      "triangles": 166316,
+      "volume_mm3": 4860.556525402399
+    }
+  ],
+  "visual_review": {
+    "contact_sheet": "rear-quality-contact-sheet.png",
+    "inspected": true,
+    "finding": "Detailed silhouettes, keyed mating openings, rear stepped cover, open housing windows and nose grooves visually checked. No disconnected export artifact found. Visible contact strips are partial illustrations."
+  },
+  "native_color_validation": {
+    "report": "native-probes/native-color-export-audit.json",
+    "passed": true,
+    "SDS50J_materials": 3,
+    "NYS216_materials": 2,
+    "all_component_primitives_have_material": true,
+    "scope": "Isolated native KiCad probes, no actualprojectedits. Initial output-file-attributes messages concern not-yet-created destinations; output files and material payloads were independently parsed."
+  }
+}

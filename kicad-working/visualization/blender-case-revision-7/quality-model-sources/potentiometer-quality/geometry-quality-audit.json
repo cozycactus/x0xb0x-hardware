@@ -1,0 +1,384 @@
+{
+  "passed": true,
+  "scope": "Fresh native FreeCAD read-only imports and source-qualified published datums; no installed-fit claim.",
+  "check_count": 23,
+  "checks": [
+    {
+      "check": "Panasonic_EVUF2LFL3_DetailedCandidate valid STEP",
+      "passed": true
+    },
+    {
+      "check": "Panasonic_EVUF2LFL3_DetailedCandidate frozen source hash",
+      "passed": true
+    },
+    {
+      "check": "Panasonic_EVUF2LFL3_DetailedCandidate full published nominal bounds",
+      "passed": true,
+      "detail": [
+        -4.850000000000125,
+        -6.5,
+        0.0,
+        4.85,
+        6.0,
+        30.000000000000583
+      ]
+    },
+    {
+      "check": "Panasonic_EVUF2LFL3_DetailedCandidate no below-seat geometry",
+      "passed": true
+    },
+    {
+      "check": "Panasonic_EVUF2LFL3_DetailedCandidate millimetre SI units",
+      "passed": true
+    },
+    {
+      "check": "Panasonic_EVUF2LFL3_DetailedCandidate zero-unity assignment",
+      "passed": true
+    },
+    {
+      "check": "Panasonic_EVUF2LFL3_DetailedCandidate sleeve diameter/projection",
+      "passed": true,
+      "detail": [
+        -4.5,
+        -4.5,
+        8.5,
+        4.5,
+        4.5,
+        13.5
+      ]
+    },
+    {
+      "check": "Panasonic_EVUF2LFL3_DetailedCandidate D6 lower round shaft",
+      "passed": true
+    },
+    {
+      "check": "Panasonic_EVUF2LFL3_DetailedCandidate negativeY flat across4.5",
+      "passed": true
+    },
+    {
+      "check": "Panasonic_EVUF2LFL3_DetailedCandidate selected flat length",
+      "passed": true
+    },
+    {
+      "check": "Panasonic_EVUF2LFL3_DetailedCandidate shaft tip Z",
+      "passed": true
+    },
+    {
+      "check": "Alpha_RV112BCF40_25_DetailedCandidate valid STEP",
+      "passed": true
+    },
+    {
+      "check": "Alpha_RV112BCF40_25_DetailedCandidate frozen source hash",
+      "passed": true
+    },
+    {
+      "check": "Alpha_RV112BCF40_25_DetailedCandidate full published nominal bounds",
+      "passed": true,
+      "detail": [
+        -6.8,
+        -8.700000000000133,
+        0.0,
+        6.8,
+        6.7,
+        25.0
+      ]
+    },
+    {
+      "check": "Alpha_RV112BCF40_25_DetailedCandidate no below-seat geometry",
+      "passed": true
+    },
+    {
+      "check": "Alpha_RV112BCF40_25_DetailedCandidate millimetre SI units",
+      "passed": true
+    },
+    {
+      "check": "Alpha_RV112BCF40_25_DetailedCandidate zero-unity assignment",
+      "passed": true
+    },
+    {
+      "check": "Alpha_RV112BCF40_25_DetailedCandidate sleeve diameter/projection",
+      "passed": true,
+      "detail": [
+        -3.6,
+        -3.6,
+        6.9,
+        3.6,
+        3.6,
+        11.9
+      ]
+    },
+    {
+      "check": "Alpha_RV112BCF40_25_DetailedCandidate D6 lower round shaft",
+      "passed": true
+    },
+    {
+      "check": "Alpha_RV112BCF40_25_DetailedCandidate negativeY flat across4.5",
+      "passed": true
+    },
+    {
+      "check": "Alpha_RV112BCF40_25_DetailedCandidate selected flat length",
+      "passed": true
+    },
+    {
+      "check": "Alpha_RV112BCF40_25_DetailedCandidate shaft tip Z",
+      "passed": true
+    },
+    {
+      "check": "All original input assets unchanged",
+      "passed": true
+    }
+  ],
+  "models": [
+    {
+      "id": "Panasonic_EVUF2LFL3_DetailedCandidate",
+      "step_sha256": "37621a5fac69b737fdee4b5f0d6a4dffa83e97dc64cc3a66021d9ff02af8b381",
+      "bounds_mm": [
+        -4.850000000000125,
+        -6.5,
+        0.0,
+        4.85,
+        6.0,
+        30.000000000000583
+      ],
+      "solids": 9,
+      "faces": 183,
+      "volume_mm3": 1475.0842236945011,
+      "feature_bounds_mm": {
+        "BlackMoldedCase": [
+          -4.0,
+          -4.0,
+          0.85,
+          4.0,
+          4.0,
+          8.1
+        ],
+        "RearWaferAndTerminalCarrier": [
+          -4.0,
+          -6.2,
+          0.0,
+          4.0,
+          4.0,
+          3.45
+        ],
+        "StampedFrontFrameAndCrimps": [
+          -4.850000000000125,
+          -6.5,
+          0.4,
+          4.85,
+          6.0,
+          8.5
+        ],
+        "StampedFrontFrameAndCrimps001": [
+          -3.8,
+          -3.9,
+          0.05,
+          -2.6,
+          -2.9,
+          0.4
+        ],
+        "StampedFrontFrameAndCrimps002": [
+          2.6,
+          -3.9,
+          0.05,
+          3.8,
+          -2.9,
+          0.4
+        ],
+        "StampedFrontFrameAndCrimps003": [
+          -4.850000000000125,
+          -6.5,
+          0.05,
+          4.85,
+          6.0,
+          8.5
+        ],
+        "FrontRivetHeads": [
+          -2.95,
+          3.8499999999999996,
+          8.42,
+          -2.05,
+          4.75,
+          8.5
+        ],
+        "FrontRivetHeads001": [
+          2.05,
+          -4.75,
+          8.42,
+          2.95,
+          -3.8499999999999996,
+          8.5
+        ],
+        "FrontRivetHeads002": [
+          -2.95,
+          -4.75,
+          8.42,
+          2.95,
+          4.75,
+          8.5
+        ],
+        "UnthreadedSleeve": [
+          -4.5,
+          -4.5,
+          8.5,
+          4.5,
+          4.5,
+          13.5
+        ],
+        "FL3_FlattedInsulatedShaft": [
+          -3.0,
+          -3.0,
+          8.5,
+          3.0,
+          3.0,
+          30.000000000000583
+        ],
+        "Panasonic_EVUF2LFL3_DetailedCandidate": [
+          -4.850000000000125,
+          -6.5,
+          0.0,
+          4.85,
+          6.0,
+          30.000000000000583
+        ]
+      }
+    },
+    {
+      "id": "Alpha_RV112BCF40_25_DetailedCandidate",
+      "step_sha256": "15f4f15e36793c0c3e746684357c8dd8269d002d1df7509125e7b2691a253443",
+      "bounds_mm": [
+        -6.8,
+        -8.700000000000133,
+        0.0,
+        6.8,
+        6.7,
+        25.0
+      ],
+      "solids": 12,
+      "faces": 141,
+      "volume_mm3": 1462.7384013433948,
+      "feature_bounds_mm": {
+        "RearWaferAndLowerCarrier": [
+          -6.5,
+          -8.45,
+          0.0,
+          6.5,
+          5.0,
+          0.85
+        ],
+        "SecondGangWafer": [
+          -5.2,
+          -4.8500000000000005,
+          3.05,
+          5.2,
+          4.75,
+          3.7
+        ],
+        "MoldedDualGangCore": [
+          -5.15,
+          -4.8500000000000005,
+          3.7,
+          5.15,
+          4.75,
+          6.550000000000001
+        ],
+        "MoldedDualGangCore001": [
+          -5.15,
+          -4.8500000000000005,
+          0.85,
+          5.15,
+          4.75,
+          3.05
+        ],
+        "MoldedDualGangCore002": [
+          -5.15,
+          -4.8500000000000005,
+          0.85,
+          5.15,
+          4.75,
+          6.550000000000001
+        ],
+        "FoldedMetalCanAndCrimps": [
+          -5.5,
+          -5.0,
+          0.57,
+          5.5,
+          5.0,
+          6.55
+        ],
+        "FrontPlate": [
+          -6.8,
+          -8.700000000000133,
+          6.55,
+          6.8,
+          6.7,
+          6.9
+        ],
+        "FrontRivetHeads": [
+          -4.45,
+          4.55,
+          6.82,
+          -3.65,
+          5.3500000000000005,
+          6.9
+        ],
+        "FrontRivetHeads001": [
+          3.65,
+          4.55,
+          6.82,
+          4.45,
+          5.3500000000000005,
+          6.9
+        ],
+        "FrontRivetHeads002": [
+          -4.45,
+          -5.3500000000000005,
+          6.82,
+          -3.65,
+          -4.55,
+          6.9
+        ],
+        "FrontRivetHeads003": [
+          3.65,
+          -5.3500000000000005,
+          6.82,
+          4.45,
+          -4.55,
+          6.9
+        ],
+        "FrontRivetHeads004": [
+          -4.45,
+          -5.3500000000000005,
+          6.82,
+          4.45,
+          5.3500000000000005,
+          6.9
+        ],
+        "UnthreadedSleeve": [
+          -3.6,
+          -3.6,
+          6.9,
+          3.6,
+          3.6,
+          11.9
+        ],
+        "OpaqueFlattedShaft": [
+          -3.0,
+          -3.0,
+          6.9,
+          3.0,
+          3.0,
+          25.0
+        ],
+        "Alpha_RV112BCF40_25_DetailedCandidate": [
+          -6.8,
+          -8.700000000000133,
+          0.0,
+          6.8,
+          6.7,
+          25.0
+        ]
+      }
+    }
+  ],
+  "failure_count": 0
+}

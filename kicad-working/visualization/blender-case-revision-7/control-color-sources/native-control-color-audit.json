@@ -1,0 +1,819 @@
+{
+  "passed": true,
+  "families": [
+    {
+      "id": "ESwitch_TL1100F160Q_BodyIllustration",
+      "references": [
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "native_probe_reference": "S5",
+      "native_probe_side": "B.Cu",
+      "original_GLB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/native-probes/ESwitch_TL1100F160Q_BodyIllustration_original/native.glb",
+      "original_GLB_sha256": "28ef6d8a9b85406d7f3791805f1b75e6c5ea7cbda036c2cabe339a85c4de2187",
+      "colored_GLB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/native-probes/ESwitch_TL1100F160Q_BodyIllustration_colored/native.glb",
+      "colored_GLB_sha256": "38c0027195fc3c5732afd6c18aed0243d5e7f76a4b09d1170a10b6b563c562b9",
+      "original_primitives_without_material": 21,
+      "corrected_primitives_with_material": 21,
+      "native_material_count": 2,
+      "GLB_binary_geometry_byte_identical": true,
+      "GLB_binary_geometry_sha256": "d11c68ea8b42412dafbdd70324f2f58a9ae73ff5b064bd9729fb9d71702519cf",
+      "accessors_and_bufferViews_identical": true,
+      "primitive_geometry_metadata_identical": true,
+      "native_component_nodes_and_transforms_identical": true,
+      "source_STEP_entities_and_BRep_unchanged": true,
+      "roles": [
+        {
+          "segment": "Housing",
+          "material": "black_polymer",
+          "STEP_rgb_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "expected_GLB_rgb_linear": [
+            0.002708978328173375,
+            0.002708978328173375,
+            0.0030959752321981426
+          ],
+          "actual_GLB_rgb_linear": [
+            0.0027089782524853945,
+            0.0027089782524853945,
+            0.0030959751456975937
+          ],
+          "maximum_color_error": 8.650054891118364e-11,
+          "native_primitive_count": 6,
+          "native_bounds_mm": [
+            -6.000000052154064,
+            -6.000000052154064,
+            0.0,
+            6.000000052154064,
+            6.000000052154064,
+            3.8999998942017555
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 1.0579824438750052e-07,
+          "palette_and_role_geometry_passed": true
+        },
+        {
+          "segment": "Cover",
+          "material": "metal_case",
+          "STEP_rgb_srgb": [
+            0.57,
+            0.59,
+            0.61
+          ],
+          "expected_GLB_rgb_linear": [
+            0.28464669032765505,
+            0.30699931892751636,
+            0.3303437128042374
+          ],
+          "actual_GLB_rgb_linear": [
+            0.2846466898918152,
+            0.3069993257522583,
+            0.33034372329711914
+          ],
+          "maximum_color_error": 1.049288173016194e-08,
+          "native_primitive_count": 6,
+          "native_bounds_mm": [
+            -6.000000052154064,
+            -6.000000052154064,
+            3.8999998942017555,
+            6.000000052154064,
+            6.000000052154064,
+            4.399999976158142
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 1.0579824438750052e-07,
+          "palette_and_role_geometry_passed": true
+        },
+        {
+          "segment": "ActuatorBase",
+          "material": "black_polymer",
+          "STEP_rgb_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "expected_GLB_rgb_linear": [
+            0.002708978328173375,
+            0.002708978328173375,
+            0.0030959752321981426
+          ],
+          "actual_GLB_rgb_linear": [
+            0.0027089782524853945,
+            0.0027089782524853945,
+            0.0030959751456975937
+          ],
+          "maximum_color_error": 8.650054891118364e-11,
+          "native_primitive_count": 3,
+          "native_bounds_mm": [
+            -3.3499998971819878,
+            -3.3499998971819878,
+            4.399999976158142,
+            3.3499998971819878,
+            3.3499998971819878,
+            5.499999970197678
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 1.0281801232636667e-07,
+          "palette_and_role_geometry_passed": true
+        },
+        {
+          "segment": "ActuatorHead",
+          "material": "black_polymer",
+          "STEP_rgb_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "expected_GLB_rgb_linear": [
+            0.002708978328173375,
+            0.002708978328173375,
+            0.0030959752321981426
+          ],
+          "actual_GLB_rgb_linear": [
+            0.0027089782524853945,
+            0.0027089782524853945,
+            0.0030959751456975937
+          ],
+          "maximum_color_error": 8.650054891118364e-11,
+          "native_primitive_count": 6,
+          "native_bounds_mm": [
+            -1.6499999910593033,
+            -1.2499999720603228,
+            5.499999970197678,
+            1.6499999910593033,
+            1.2499999720603228,
+            7.300000172108412
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 1.7210841196657611e-07,
+          "palette_and_role_geometry_passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "Panasonic_EVUF2LFL3_BodyIllustration",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ],
+      "native_probe_reference": "VR2",
+      "native_probe_side": "B.Cu",
+      "original_GLB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/native-probes/Panasonic_EVUF2LFL3_BodyIllustration_original/native.glb",
+      "original_GLB_sha256": "d2c348756e2d207f4f33e55f3a78a05685aad7a0731087ad98dccf50e77e94fa",
+      "colored_GLB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/native-probes/Panasonic_EVUF2LFL3_BodyIllustration_colored/native.glb",
+      "colored_GLB_sha256": "0d34570af7442b79b779edf1a34eece80c6dffce18b27265010116e89f4b29a0",
+      "original_primitives_without_material": 14,
+      "corrected_primitives_with_material": 14,
+      "native_material_count": 1,
+      "GLB_binary_geometry_byte_identical": true,
+      "GLB_binary_geometry_sha256": "7d1fc9730045ec1696af2e3c74ae92f9b6a2d15050b943055710432d63838d32",
+      "accessors_and_bufferViews_identical": true,
+      "primitive_geometry_metadata_identical": true,
+      "native_component_nodes_and_transforms_identical": true,
+      "source_STEP_entities_and_BRep_unchanged": true,
+      "roles": [
+        {
+          "segment": "Housing",
+          "material": "black_polymer",
+          "STEP_rgb_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "expected_GLB_rgb_linear": [
+            0.002708978328173375,
+            0.002708978328173375,
+            0.0030959752321981426
+          ],
+          "actual_GLB_rgb_linear": [
+            0.0027089782524853945,
+            0.0027089782524853945,
+            0.0030959751456975937
+          ],
+          "maximum_color_error": 8.650054891118364e-11,
+          "native_primitive_count": 6,
+          "native_bounds_mm": [
+            -4.8500001430511475,
+            -6.500000134110451,
+            0.0,
+            4.8500001430511475,
+            6.000000052154064,
+            8.500000461935997
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 4.6193599700927734e-07,
+          "palette_and_role_geometry_passed": true
+        },
+        {
+          "segment": "Sleeve",
+          "material": "black_polymer",
+          "STEP_rgb_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "expected_GLB_rgb_linear": [
+            0.002708978328173375,
+            0.002708978328173375,
+            0.0030959752321981426
+          ],
+          "actual_GLB_rgb_linear": [
+            0.0027089782524853945,
+            0.0027089782524853945,
+            0.0030959751456975937
+          ],
+          "maximum_color_error": 8.650054891118364e-11,
+          "native_primitive_count": 3,
+          "native_bounds_mm": [
+            -4.4999998062849045,
+            -4.4999998062849045,
+            8.500000461935997,
+            4.4999998062849045,
+            4.4999998062849045,
+            13.500000350177288
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 4.6193599700927734e-07,
+          "palette_and_role_geometry_passed": true
+        },
+        {
+          "segment": "Shaft",
+          "material": "black_polymer",
+          "STEP_rgb_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "expected_GLB_rgb_linear": [
+            0.002708978328173375,
+            0.002708978328173375,
+            0.0030959752321981426
+          ],
+          "actual_GLB_rgb_linear": [
+            0.0027089782524853945,
+            0.0027089782524853945,
+            0.0030959751456975937
+          ],
+          "maximum_color_error": 8.650054891118364e-11,
+          "native_primitive_count": 5,
+          "native_bounds_mm": [
+            -3.000000026077032,
+            -3.000000026077032,
+            8.500000461935997,
+            3.000000026077032,
+            3.000000026077032,
+            29.999999329447746
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 6.705522537231445e-07,
+          "palette_and_role_geometry_passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "Alpha_RV112BCF40_25_BodyIllustration",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "native_probe_reference": "VR4",
+      "native_probe_side": "B.Cu",
+      "original_GLB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/native-probes/Alpha_RV112BCF40_25_BodyIllustration_original/native.glb",
+      "original_GLB_sha256": "71b311d52d6126a3f6f0bc34a7c81d0f5eff040056f8adc1f865f66dfee4deaa",
+      "colored_GLB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/native-probes/Alpha_RV112BCF40_25_BodyIllustration_colored/native.glb",
+      "colored_GLB_sha256": "fec1adce02e0887a2d7f27919c4aef18804e61a315638ca94c9855a987ed56d2",
+      "original_primitives_without_material": 14,
+      "corrected_primitives_with_material": 14,
+      "native_material_count": 1,
+      "GLB_binary_geometry_byte_identical": true,
+      "GLB_binary_geometry_sha256": "04cadc157b120f04c2b28feea880d4bf2ace1c4b8f9a2edd2056e0ad314e463a",
+      "accessors_and_bufferViews_identical": true,
+      "primitive_geometry_metadata_identical": true,
+      "native_component_nodes_and_transforms_identical": true,
+      "source_STEP_entities_and_BRep_unchanged": true,
+      "roles": [
+        {
+          "segment": "HousingEnvelope",
+          "material": "black_polymer",
+          "STEP_rgb_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "expected_GLB_rgb_linear": [
+            0.002708978328173375,
+            0.002708978328173375,
+            0.0030959752321981426
+          ],
+          "actual_GLB_rgb_linear": [
+            0.0027089782524853945,
+            0.0027089782524853945,
+            0.0030959751456975937
+          ],
+          "maximum_color_error": 8.650054891118364e-11,
+          "native_primitive_count": 6,
+          "native_bounds_mm": [
+            -6.800000090152025,
+            -8.700000122189522,
+            0.0,
+            6.800000090152025,
+            6.6999997943639755,
+            6.899999920278788
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 2.0563602465273334e-07,
+          "palette_and_role_geometry_passed": true
+        },
+        {
+          "segment": "Sleeve",
+          "material": "black_polymer",
+          "STEP_rgb_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "expected_GLB_rgb_linear": [
+            0.002708978328173375,
+            0.002708978328173375,
+            0.0030959752321981426
+          ],
+          "actual_GLB_rgb_linear": [
+            0.0027089782524853945,
+            0.0027089782524853945,
+            0.0030959751456975937
+          ],
+          "maximum_color_error": 8.650054891118364e-11,
+          "native_primitive_count": 3,
+          "native_bounds_mm": [
+            -3.599999938160181,
+            -3.599999938160181,
+            6.899999920278788,
+            3.599999938160181,
+            3.599999938160181,
+            11.900000274181366
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 2.741813656115255e-07,
+          "palette_and_role_geometry_passed": true
+        },
+        {
+          "segment": "Shaft",
+          "material": "black_polymer",
+          "STEP_rgb_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "expected_GLB_rgb_linear": [
+            0.002708978328173375,
+            0.002708978328173375,
+            0.0030959752321981426
+          ],
+          "actual_GLB_rgb_linear": [
+            0.0027089782524853945,
+            0.0027089782524853945,
+            0.0030959751456975937
+          ],
+          "maximum_color_error": 8.650054891118364e-11,
+          "native_primitive_count": 5,
+          "native_bounds_mm": [
+            -3.000000026077032,
+            -3.000000026077032,
+            6.899999920278788,
+            3.000000026077032,
+            3.000000026077032,
+            25.00000037252903
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 3.725290298461914e-07,
+          "palette_and_role_geometry_passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "CTS_290VAA5F201B2_BodyIllustration",
+      "references": [
+        "S2"
+      ],
+      "native_probe_reference": "S2",
+      "native_probe_side": "B.Cu",
+      "original_GLB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/native-probes/CTS_290VAA5F201B2_BodyIllustration_original/native.glb",
+      "original_GLB_sha256": "911843d88499b462345812b0fe6e28ab0b278e130461b1c636bbcd094511be61",
+      "colored_GLB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/native-probes/CTS_290VAA5F201B2_BodyIllustration_colored/native.glb",
+      "colored_GLB_sha256": "4028bd67904506036fcecaa0026b048ad092544d6362f5844931916fa1085390",
+      "original_primitives_without_material": 14,
+      "corrected_primitives_with_material": 14,
+      "native_material_count": 2,
+      "GLB_binary_geometry_byte_identical": true,
+      "GLB_binary_geometry_sha256": "e9f79a8d0e0cd7b85d7b2ee72fa383c1af9065659a38b37bf0ce35f19dfe6d7c",
+      "accessors_and_bufferViews_identical": true,
+      "primitive_geometry_metadata_identical": true,
+      "native_component_nodes_and_transforms_identical": true,
+      "source_STEP_entities_and_BRep_unchanged": true,
+      "roles": [
+        {
+          "segment": "Housing",
+          "material": "metal_case",
+          "STEP_rgb_srgb": [
+            0.57,
+            0.59,
+            0.61
+          ],
+          "expected_GLB_rgb_linear": [
+            0.28464669032765505,
+            0.30699931892751636,
+            0.3303437128042374
+          ],
+          "actual_GLB_rgb_linear": [
+            0.2846466898918152,
+            0.3069993257522583,
+            0.33034372329711914
+          ],
+          "maximum_color_error": 1.049288173016194e-08,
+          "native_primitive_count": 6,
+          "native_bounds_mm": [
+            -4.900000058114529,
+            -5.100000184029341,
+            0.0,
+            4.900000058114529,
+            5.499999970197678,
+            6.200000178068876
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 1.8402934109928992e-07,
+          "palette_and_role_geometry_passed": true
+        },
+        {
+          "segment": "BushingA_Unthreaded",
+          "material": "nickel_brass",
+          "STEP_rgb_srgb": [
+            0.69,
+            0.7,
+            0.72
+          ],
+          "expected_GLB_rgb_linear": [
+            0.43387952044860834,
+            0.44798841244188325,
+            0.47699978456654196
+          ],
+          "actual_GLB_rgb_linear": [
+            0.4338795244693756,
+            0.4479884207248688,
+            0.47699978947639465
+          ],
+          "maximum_color_error": 8.282985519691977e-09,
+          "native_primitive_count": 3,
+          "native_bounds_mm": [
+            -3.5000001080334187,
+            -3.5000001080334187,
+            6.200000178068876,
+            3.5000001080334187,
+            3.5000001080334187,
+            11.19999960064888
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 3.9935111928457445e-07,
+          "palette_and_role_geometry_passed": true
+        },
+        {
+          "segment": "ShaftA5_Flatted",
+          "material": "nickel_brass",
+          "STEP_rgb_srgb": [
+            0.69,
+            0.7,
+            0.72
+          ],
+          "expected_GLB_rgb_linear": [
+            0.43387952044860834,
+            0.44798841244188325,
+            0.47699978456654196
+          ],
+          "actual_GLB_rgb_linear": [
+            0.4338795244693756,
+            0.4479884207248688,
+            0.47699978947639465
+          ],
+          "maximum_color_error": 8.282985519691977e-09,
+          "native_primitive_count": 5,
+          "native_bounds_mm": [
+            -3.000000026077032,
+            -3.000000026077032,
+            6.200000178068876,
+            3.000000026077032,
+            3.000000026077032,
+            21.199999377131462
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 6.228685371922893e-07,
+          "palette_and_role_geometry_passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "NKK_B12AB_BodyIllustration",
+      "references": [
+        "S1"
+      ],
+      "native_probe_reference": "S1",
+      "native_probe_side": "B.Cu",
+      "original_GLB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/native-probes/NKK_B12AB_BodyIllustration_original/native.glb",
+      "original_GLB_sha256": "f63691fc4526ad99a4db4eb9fc0088871a85498a15e6c0aaa2898c384ef77516",
+      "colored_GLB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/native-probes/NKK_B12AB_BodyIllustration_colored/native.glb",
+      "colored_GLB_sha256": "66431ea63340519249cfa74c1732cb50a22c4522e9f633dd2a3d8772184727f3",
+      "original_primitives_without_material": 12,
+      "corrected_primitives_with_material": 12,
+      "native_material_count": 3,
+      "GLB_binary_geometry_byte_identical": true,
+      "GLB_binary_geometry_sha256": "ebbfa8d777a9371a9845abe4dbb08fc5e56788b7852ff2b58d1aacfaebfaa311",
+      "accessors_and_bufferViews_identical": true,
+      "primitive_geometry_metadata_identical": true,
+      "native_component_nodes_and_transforms_identical": true,
+      "source_STEP_entities_and_BRep_unchanged": true,
+      "roles": [
+        {
+          "segment": "HousingWithBracketEnvelope",
+          "material": "metal_case",
+          "STEP_rgb_srgb": [
+            0.57,
+            0.59,
+            0.61
+          ],
+          "expected_GLB_rgb_linear": [
+            0.28464669032765505,
+            0.30699931892751636,
+            0.3303437128042374
+          ],
+          "actual_GLB_rgb_linear": [
+            0.2846466898918152,
+            0.3069993257522583,
+            0.33034372329711914
+          ],
+          "maximum_color_error": 1.049288173016194e-08,
+          "native_primitive_count": 6,
+          "native_bounds_mm": [
+            -4.000000189989805,
+            -4.399999976158142,
+            0.0,
+            4.000000189989805,
+            4.399999976158142,
+            10.400000028312206
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 1.8998980522155762e-07,
+          "palette_and_role_geometry_passed": true
+        },
+        {
+          "segment": "Bushing",
+          "material": "black_polymer",
+          "STEP_rgb_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "expected_GLB_rgb_linear": [
+            0.002708978328173375,
+            0.002708978328173375,
+            0.0030959752321981426
+          ],
+          "actual_GLB_rgb_linear": [
+            0.0027089782524853945,
+            0.0027089782524853945,
+            0.0030959751456975937
+          ],
+          "maximum_color_error": 8.650054891118364e-11,
+          "native_primitive_count": 3,
+          "native_bounds_mm": [
+            -3.000000026077032,
+            -3.000000026077032,
+            10.400000028312206,
+            3.000000026077032,
+            3.000000026077032,
+            13.100000098347664
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 9.83476642346659e-08,
+          "palette_and_role_geometry_passed": true
+        },
+        {
+          "segment": "BatLeverNeutralEnvelope",
+          "material": "nickel_brass",
+          "STEP_rgb_srgb": [
+            0.69,
+            0.7,
+            0.72
+          ],
+          "expected_GLB_rgb_linear": [
+            0.43387952044860834,
+            0.44798841244188325,
+            0.47699978456654196
+          ],
+          "actual_GLB_rgb_linear": [
+            0.4338795244693756,
+            0.4479884207248688,
+            0.47699978947639465
+          ],
+          "maximum_color_error": 8.282985519691977e-09,
+          "native_primitive_count": 3,
+          "native_bounds_mm": [
+            -1.3000000035390258,
+            -1.3000000035390258,
+            13.100000098347664,
+            1.3000000035390258,
+            1.3000000035390258,
+            23.099999874830246
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 1.2516975544940578e-07,
+          "palette_and_role_geometry_passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "Grayhill_25LB22H_BodyIllustration",
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "native_probe_reference": "S3",
+      "native_probe_side": "B.Cu",
+      "original_GLB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/native-probes/Grayhill_25LB22H_BodyIllustration_original/native.glb",
+      "original_GLB_sha256": "3a3c304ca91124cbf9461ac32a25f4b28e2774ae1f04574c29a95f9d3b1ba281",
+      "colored_GLB": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-7/control-colors/native-probes/Grayhill_25LB22H_BodyIllustration_colored/native.glb",
+      "colored_GLB_sha256": "bae7f830b1ef73dad9f672c528a286387227211b51e158eed64a9ca5945f6218",
+      "original_primitives_without_material": 20,
+      "corrected_primitives_with_material": 20,
+      "native_material_count": 1,
+      "GLB_binary_geometry_byte_identical": true,
+      "GLB_binary_geometry_sha256": "0f93fcb8ec1e74744b3d957eed9a3e892b0ea111759fecc3754a5412739ab88d",
+      "accessors_and_bufferViews_identical": true,
+      "primitive_geometry_metadata_identical": true,
+      "native_component_nodes_and_transforms_identical": true,
+      "source_STEP_entities_and_BRep_unchanged": true,
+      "roles": [
+        {
+          "segment": "HousingEnvelope",
+          "material": "black_polymer",
+          "STEP_rgb_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "expected_GLB_rgb_linear": [
+            0.002708978328173375,
+            0.002708978328173375,
+            0.0030959752321981426
+          ],
+          "actual_GLB_rgb_linear": [
+            0.0027089782524853945,
+            0.0027089782524853945,
+            0.0030959751456975937
+          ],
+          "maximum_color_error": 8.650054891118364e-11,
+          "native_primitive_count": 6,
+          "native_bounds_mm": [
+            -11.749999597668648,
+            -14.925000257790089,
+            0.0,
+            11.749999597668648,
+            10.985000059008598,
+            8.709999732673168
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 4.023313522338867e-07,
+          "palette_and_role_geometry_passed": true
+        },
+        {
+          "segment": "DoubleDBushingEnvelope",
+          "material": "black_polymer",
+          "STEP_rgb_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "expected_GLB_rgb_linear": [
+            0.002708978328173375,
+            0.002708978328173375,
+            0.0030959752321981426
+          ],
+          "actual_GLB_rgb_linear": [
+            0.0027089782524853945,
+            0.0027089782524853945,
+            0.0030959751456975937
+          ],
+          "maximum_color_error": 8.650054891118364e-11,
+          "native_primitive_count": 6,
+          "native_bounds_mm": [
+            -4.064999986439943,
+            -4.762500058859587,
+            8.709999732673168,
+            4.064999986439943,
+            4.762500058859587,
+            15.060000121593475
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 2.6732683267027824e-07,
+          "palette_and_role_geometry_passed": true
+        },
+        {
+          "segment": "Shaft",
+          "material": "black_polymer",
+          "STEP_rgb_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "expected_GLB_rgb_linear": [
+            0.002708978328173375,
+            0.002708978328173375,
+            0.0030959752321981426
+          ],
+          "actual_GLB_rgb_linear": [
+            0.0027089782524853945,
+            0.0027089782524853945,
+            0.0030959751456975937
+          ],
+          "maximum_color_error": 8.650054891118364e-11,
+          "native_primitive_count": 5,
+          "native_bounds_mm": [
+            -3.17499996162951,
+            -3.17499996162951,
+            15.060000121593475,
+            3.17499996162951,
+            3.17499996162951,
+            27.76000089943409
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 8.994340880974505e-07,
+          "palette_and_role_geometry_passed": true
+        },
+        {
+          "segment": "AntiTurnTabEnvelope",
+          "material": "black_polymer",
+          "STEP_rgb_srgb": [
+            0.035,
+            0.035,
+            0.04
+          ],
+          "expected_GLB_rgb_linear": [
+            0.002708978328173375,
+            0.002708978328173375,
+            0.0030959752321981426
+          ],
+          "actual_GLB_rgb_linear": [
+            0.0027089782524853945,
+            0.0027089782524853945,
+            0.0030959751456975937
+          ],
+          "maximum_color_error": 8.650054891118364e-11,
+          "native_primitive_count": 3,
+          "native_bounds_mm": [
+            8.635000325739384,
+            -1.5249999705702066,
+            8.709999732673168,
+            11.68499980121851,
+            1.5249999705702066,
+            10.440000332891941
+          ],
+          "maximum_native_mesh_chord_bounds_residual_mm": 3.3289194156793656e-07,
+          "palette_and_role_geometry_passed": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "family_count": 6,
+  "instance_count": 34,
+  "native_KiCad_probe_count": 12,
+  "source_pcb_pose_preserved": true,
+  "appearance_transfer": "STEP COLOUR_RGB palette is sRGB; native glTF baseColorFactor is linear using IEC61966-2-1 transfer.",
+  "color_channel_tolerance": 1e-06,
+  "role_mesh_bounds_check_tolerance_mm": 0.02,
+  "geometry_proof": "Every original STEP entity remains verbatim unchanged; exact reloaded BRep strings match. Each native original/colored GLB pair has byte-identical binary geometry, accessor/bufferView geometry metadata, primitive geometry metadata and node poses.",
+  "limitations": [
+    "Same original nominal-body illustrations and installed-seating uncertainties. This revision changes appearance only.",
+    "One native B.Cu reference per reused family is probed;34 assignment references reuse these six exact corrected STEP files.",
+    "RGB colors are illustration palette choices. STEP diffuse color does not encode Blender metalness/roughness."
+  ],
+  "native_KiCad_version": "10.0.7",
+  "input_projects_unchanged_at_generation_and_probe_validation": true,
+  "original_control_models_unchanged": true,
+  "project_hash_guard_scope": "Generation-time snapshots only. Later authorized integration may change actual project model paths without invalidating preserved probes.",
+  "does_not_require_projects_to_remain_at_preintegration_revision": true,
+  "generation_input_project_hashes": {
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb": "b5732ce240b4768f6cbd900d1b068bf859b773cbf40646ee991a339a533145f2",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/ioboard.kicad_pcb": "52f1964f77cea0e203c3622dd4b3f22f875feaba0ebfcea233db0f56175f1cb4"
+  }
+}

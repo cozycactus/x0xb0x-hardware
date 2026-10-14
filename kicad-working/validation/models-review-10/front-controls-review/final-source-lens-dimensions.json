@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "scope": "Fresh read-only analytical FreeCAD geometry verification of nominal5mm family source and final raised body.",
+  "nominal_family_name": "LED_D5.0mm",
+  "nominal_family_diameter_mm": 5.0,
+  "actual_CAD_lens_cylinder_and_dome_diameter_mm": 4.9,
+  "actual_CAD_flange_diameter_mm": 5.8,
+  "original_DXF_hole_diameter_mm": 5.08,
+  "nominal_family_radial_difference_mm": 0.04,
+  "actual_CAD_lens_radial_difference_mm": 0.09,
+  "body_rigid_lift_mm": 3.096,
+  "sources": [
+    {
+      "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/led-assembly-quality/sources/official-KiCad-LED_D5.0mm-original.step",
+      "sha256": "7cc5086e6ee1fb4853d1fb74675a61a436c8811204094823b31f04ce788e5d40",
+      "valid": true,
+      "curved_surfaces": [
+        {
+          "surface": "Sphere",
+          "radius_mm": 2.45,
+          "bounds_mm": [
+            -1.1800000000000002,
+            -2.449999999999994,
+            9.149999999999999,
+            3.72,
+            2.450000000000004,
+            11.600000000000001
+          ]
+        },
+        {
+          "surface": "Cylinder",
+          "radius_mm": 2.45,
+          "bounds_mm": [
+            -1.1800000000000002,
+            -2.4499999999999984,
+            3.999999999999999,
+            3.72,
+            2.450000000000004,
+            9.150000000000002
+          ]
+        },
+        {
+          "surface": "Cylinder",
+          "radius_mm": 2.9,
+          "bounds_mm": [
+            -1.2300000000003952,
+            -2.9,
+            3.0,
+            4.17,
+            2.9,
+            4.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+      "sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+      "valid": true,
+      "curved_surfaces": [
+        {
+          "surface": "Sphere",
+          "radius_mm": 2.45,
+          "bounds_mm": [
+            -1.1800000000000002,
+            -2.449999999999994,
+            12.245999999999999,
+            3.72,
+            2.450000000000004,
+            14.696000000000002
+          ]
+        },
+        {
+          "surface": "Cylinder",
+          "radius_mm": 2.45,
+          "bounds_mm": [
+            -1.1800000000000002,
+            -2.4499999999999984,
+            7.095999999999999,
+            3.72,
+            2.450000000000004,
+            12.246000000000002
+          ]
+        },
+        {
+          "surface": "Cylinder",
+          "radius_mm": 2.9,
+          "bounds_mm": [
+            -1.2300000000003952,
+            -2.9,
+            6.096,
+            4.17,
+            2.9,
+            7.096
+          ]
+        }
+      ]
+    }
+  ],
+  "physical_clearance_qualified": false,
+  "note": "The model filename is a nominal family label. Actual cylinder/sphere surfaces areR2.45. No geometry was shrunk or modified during this verification; exact original supplied LED dimensions/tolerances remain unknown."
+}

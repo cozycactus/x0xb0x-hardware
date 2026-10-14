@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-14T17:08:47.808491+00:00",
+  "attempts": [
+    {
+      "url": "http://www.micro-ohm.com/temperature/temprecflm.html",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.micro-ohm.com/temperature/temprecflm.html",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://microohm.com/temperature/temprecflm.html",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.micro-ohm.com/temperature/temprecflm.html&output=json&filter=statuscode:200&filter=mimetype:text/html&collapse=digest",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://www.datasheetarchive.com/datasheet/2SC536/Sanyo-Semiconductor?term=2sc536&version=1",
+      "status": 200,
+      "final_url": "https://www.datasheetarchive.com/datasheet/2SC536/Sanyo-Semiconductor?term=2sc536",
+      "bytes": 14974,
+      "saved_file": "endpoint-4.html"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "updates": [
+    {
+      "board": "ioboard",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "footprint": "CP-2350",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+      "source_sha256": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Original parameterized primary-drawing reconstruction with explicit unsized details",
+      "classification": "Detailed exact-family drawing-derived body illustration; not manufacturerCAD, terminalfit unqualified",
+      "limitations": [
+        "Detailed body reconstruction from primary manufacturer drawings; not recovered manufacturer3DCAD.",
+        "Canonical original F.Cu footprint frame X,-Y,Z outward, no placed board/case pose baked in; all native assignment transforms remain zero offset/rotation and unity scale.",
+        "Unconfirmed solder terminals and locators are omitted; visible mating/contact illustrations are not electrical lead geometry.",
+        "Unsized details are traced/interpreted within published nominal envelopes; no factorytolerance, terminalfit, historicalrevision or enclosurefit qualification.",
+        "CurrentSDS-J drawing differs from historical2005CUI drawing in flange detail/thickness; candidate is exactSDS50J currentfamily, not proven identical2005mold.",
+        "Mating cavity14.2diameter, socket dimensions, minor reliefs and rearcover steps are unsized visual reconstructions; outerenvelope and printed PCD/holepatterns are authoritative."
+      ],
+      "source_urls": [
+        "https://www.sameskydevices.com/product/resource/sds-j.pdf"
+      ],
+      "units": "mm",
+      "local_model": "Revision8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+      "review_manifest": "rear-quality/rear-quality-manifest.json",
+      "previous_source_sha256": "05a7bb977ace0cfe47f532cc3bf7573f88b5a9db197a855eb672071956a81c31",
+      "previous_local_model": "Revision6/rear-body-illustrations/SDS50J-body-illustration.step"
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "footprint": "REAN_1_4STERO",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/rear-quality/NYS216_DrawingDerived_DetailedBody.step",
+      "source_sha256": "9f397ef5f43bf615023e40b04554d182468b351faf732539918b42c040ebb390",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "Original parameterized primary-drawing reconstruction with explicit unsized details",
+      "classification": "Detailed exact-family drawing-derived body illustration; not manufacturerCAD, terminalfit unqualified",
+      "limitations": [
+        "Detailed body reconstruction from primary manufacturer drawings; not recovered manufacturer3DCAD.",
+        "Canonical original F.Cu footprint frame X,-Y,Z outward, no placed board/case pose baked in; all native assignment transforms remain zero offset/rotation and unity scale.",
+        "Unconfirmed solder terminals and locators are omitted; visible mating/contact illustrations are not electrical lead geometry.",
+        "Unsized details are traced/interpreted within published nominal envelopes; no factorytolerance, terminalfit, historicalrevision or enclosurefit qualification.",
+        "ManufacturerDXF modelspace is drawing2:1, normalizedby0.5; rawoveralloutline33.75 conflicts with printed33\u00b10.5; printed33nominal governs reconstructed outerlength.",
+        "DXF drawnribheight15.3 differs from printed15.5bodyheight; printed15.5nominal governs.16.5 is also shown forfront/hardware orPCBpitch, not uniformly solidhousingheight.",
+        "Official currentproductpage reports8.2mmtoPCB while drawingaxisis8.0; actualbodyseat/feetgap is unmeasured and candidate retainsdrawingaxis8.0.",
+        "Circular threadgrooves are visual pitch markers, not a truehelix. Leafcontactcurves, stockthickness, topwindowdepth and side marks are unsized reconstructions.",
+        "Nut/washer omitted because existingscene providesseparateexteriorhardware; do not duplicateorclaimcompatibility fromtheseillustrations."
+      ],
+      "source_urls": [
+        "https://www.rean-connectors.com/media/12224/download/nys-216-1.dxf?v=1",
+        "https://www.rean-connectors.com/media/9014/download/nys-216.pdf?v=1"
+      ],
+      "units": "mm",
+      "local_model": "Revision8/rear-quality/NYS216_DrawingDerived_DetailedBody.step",
+      "review_manifest": "rear-quality/rear-quality-manifest.json",
+      "previous_source_sha256": "1354dbc753aa549bbb87d0524ebddedab9d305db2d015c415bd4c3ae5b36c619",
+      "previous_local_model": "Revision6/rear-body-illustrations/NYS216-body-illustration.step"
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "TM6"
+      ],
+      "footprint": "306",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/misc-quality/CT6EP_DatasheetDetailed.step",
+      "source_sha256": "21b0eceff6097b791b5c1174b74a85826ec8da8e5674869bf5a034b657d6df45",
+      "source_kind": "Original CC0 parametric reconstruction from manufacturer CT6EP drawing",
+      "classification": "Detailed datasheet-derived CT6EP family model with nominal untrimmed leads",
+      "limitations": [
+        "Manufacturer CT6EP drawing supplies7x7x5.8mm envelope,0.6x2.6x1.6mm crossslot,0.45mm leads,5x2.5mm lead grid and7+/-2mm untrimmed length. Current Nidec/Copal family is not proven identical to original Vishay-supplied historical stock.",
+        "Housing radii, seam/lug positions, label-panel relief and rotor/tooth dimensions are interpreted from the unsized outline; not factory CAD. Resistance and production date are not invented.",
+        "The canonical origin and native assignment transform are unchanged. Body seated atZ0 is an installed-height assumption. Leads are manufacturer nominal untrimmed length; actual soldered trim length is unknown.",
+        "Nominal lead grid differs from original board5.08x2.54 by0.04mm peraxis. Nominal drill1.0mm minus lead0.45mm permits this nominal centre mismatch; tolerance and real formed-lead seating are not qualified.",
+        "No part body was reduced or moved to fit the case. This visual model is not physical assembly or fabrication qualification."
+      ],
+      "source_urls": [
+        "https://www.nidec-components.com/e/catalog/trimmer/ct-6.pdf",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "local_model": "Revision8/misc-quality/CT6EP_DatasheetDetailed.step",
+      "review_manifest": "misc-quality/misc-quality-manifest.json",
+      "previous_source_sha256": "4e804dd88e09680a8147bb4a013c877e9011c7bb70c5fd7d114618000e3eef1e",
+      "previous_local_model": "Revision6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step"
+    }
+  ]
+}

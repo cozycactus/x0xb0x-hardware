@@ -1,0 +1,1248 @@
+{
+  "blender_version": "5.0.0",
+  "boards": {
+    "mainboard": {
+      "expected_components": 409,
+      "imported_components": 409,
+      "source_glb_sha256": "15ab335945cb7cf7ddd241b6caacfe4fdcab14d3643da1a2bdd5f1eca8567da9",
+      "mesh_objects": 581,
+      "vertices": 1890388
+    },
+    "ioboard": {
+      "expected_components": 82,
+      "imported_components": 82,
+      "source_glb_sha256": "015bd58a9bb18e7ff6f40a91bcfcc123b7baec8f0c1bedd2324a98a8f6c73fd9",
+      "mesh_objects": 101,
+      "vertices": 368975,
+      "historical_reference_split": [
+        {
+          "original": "IOBOARD/PCB layers/mesh.003",
+          "detached_polygon_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ],
+          "source_vertices": 21811,
+          "source_polygons": 21699,
+          "retained_polygons": 21623,
+          "reference_polygons": 76,
+          "reference_vertices": 98
+        },
+        {
+          "original": "IOBOARD/PCB layers/mesh.005",
+          "detached_polygon_indices": [
+            0,
+            1
+          ],
+          "source_vertices": 5656,
+          "source_polygons": 6110,
+          "retained_polygons": 6108,
+          "reference_polygons": 2,
+          "reference_vertices": 4
+        },
+        {
+          "original": "IOBOARD/PCB layers/mesh.006",
+          "detached_polygon_indices": [
+            0,
+            1
+          ],
+          "source_vertices": 6552,
+          "source_polygons": 7070,
+          "retained_polygons": 7068,
+          "reference_polygons": 2,
+          "reference_vertices": 4
+        },
+        {
+          "original": "IOBOARD/PCB layers/mesh.007",
+          "detached_polygon_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "source_vertices": 24,
+          "source_polygons": 12,
+          "retained_polygons": 0,
+          "reference_polygons": 12,
+          "reference_vertices": 24
+        }
+      ]
+    }
+  },
+  "mainboard_world_matrix": [
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.11874499917030334
+    ],
+    [
+      0.0,
+      0.9659258127212524,
+      0.258819043636322,
+      0.013507205992937088
+    ],
+    [
+      0.0,
+      0.258819043636322,
+      -0.9659258127212524,
+      0.017165644094347954
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "ioboard_world_matrix": [
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.1066800057888031
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0,
+      0.19691991806030273
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.01097320020198822
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "main_panel_world_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -0.11620500683784485
+    ],
+    [
+      0.0,
+      0.9659258127212524,
+      -0.258819043636322,
+      0.022692900151014328
+    ],
+    [
+      0.0,
+      0.258819043636322,
+      0.9659258127212524,
+      0.031953200697898865
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "rear_panel_world_matrix": [
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.10896600782871246
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.19849471747875214
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.006299200467765331
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_panels": {
+    "mainpanel": "35d6ab3658245f1f07d251d9ba5eb91435610e8daa5ae54b7da98b31c5828ceb",
+    "iopanel": "6354e6a79fc85b96a25020ec5f7b76196ee3fa224a9da60db6426e86c6b3f598"
+  },
+  "case_dimensions": {
+    "outer_width": 279.4,
+    "outer_depth": 203.1492,
+    "outer_height": 77.0382,
+    "slope_degrees": 15.0,
+    "main_panel_width": 232.41,
+    "main_panel_depth_along_slope": 163.2712,
+    "panel_thickness": 1.5748,
+    "rear_panel_width": 217.932,
+    "rear_panel_height": 52.578,
+    "nominal_floor_thickness": 2.54,
+    "bottom_pcb_mount_height_above_inner_floor": 6.35
+  },
+  "frame_1": "assembled",
+  "frame_80": "exploded with mainboard flipped for inspection",
+  "proxy_collections": [
+    "SOURCE / Front controls \u2014 presentation proxies, not ECAD models",
+    "SOURCE / Rear connector faces \u2014 presentation proxies, not ECAD models",
+    "SOURCE / Mounting spacers and feet \u2014 presentation geometry",
+    "SOURCE / Rubber feet \u2014 presentation proxies"
+  ],
+  "native_model_geometry_preserved": true,
+  "limitations": [
+    "2.54 mm nominal thickness is directly dimensioned at the top support and observed at the bottom; side-wall thickness generalized to the same nominal for visualization.",
+    "Unsized molded corner radii, taper, seam, ribs, bosses and clip geometry require approximation; no original 3D CAD found.",
+    "Floor at z=0 excludes supplied rubber feet; feet dimensions are not provided.",
+    "The undimensioned vertical placement of the rear opening in the rear orthographic silhouette appears about 10 mm above the section C-C/detail D placement. This reconstruction uses the explicit detail D stack for rear-panel Z. Verify against an actual PT-10 before mechanical use.",
+    "Panel controls/LED lenses/jack faces, labels and hardware include explicitly separate presentation geometry."
+  ],
+  "BOM_dimensions_sha256": "c4d6ba0a1d699d59eacb79f483241f8916f074be3289374af2bb93c0809904d9",
+  "BOM_source": "https://ladyada.net/make/x0xb0x/fab/parts.html",
+  "BOM_part_groups": 9,
+  "presentation_exposure": -1.7000000476837158,
+  "case_meshes": [
+    {
+      "role": "bottom",
+      "stl": "pt10_bottom_cover.stl",
+      "sha256": "469b38c044e81be032a8c107efe457368ab69c3e4a2937ba46d5a4d20701bdc8",
+      "triangles": 3876
+    },
+    {
+      "role": "upper",
+      "stl": "pt10_upper_cover.stl",
+      "sha256": "ff2e9190755a3f44c63612866cad342f3f77ab645660a50f6edfc1998e5cca2c",
+      "triangles": 596
+    }
+  ],
+  "visualization_revision": 7,
+  "native_geometry_preserved_in_source_collections": true,
+  "visible_IO_is_exact_subset": true,
+  "hidden_reference_geometry": {
+    "vertices": 130,
+    "polygons": 92
+  },
+  "native_model_count": 491,
+  "added_visual_body_count": 66,
+  "removed_superseded_proxies": [
+    "DIN4 / DIN face proxy",
+    "DIN4 / contact recess proxy",
+    "DIN4 / contact recess proxy.001",
+    "DIN4 / contact recess proxy.002",
+    "DIN4 / contact recess proxy.003",
+    "DIN4 / contact recess proxy.004",
+    "DIN3 / DIN face proxy",
+    "DIN3 / contact recess proxy",
+    "DIN3 / contact recess proxy.001",
+    "DIN3 / contact recess proxy.002",
+    "DIN3 / contact recess proxy.003",
+    "DIN3 / contact recess proxy.004",
+    "DIN2 / DIN face proxy",
+    "DIN2 / contact recess proxy",
+    "DIN2 / contact recess proxy.001",
+    "DIN2 / contact recess proxy.002",
+    "DIN2 / contact recess proxy.003",
+    "DIN2 / contact recess proxy.004",
+    "DIN1 / DIN face proxy",
+    "DIN1 / contact recess proxy",
+    "DIN1 / contact recess proxy.001",
+    "DIN1 / contact recess proxy.002",
+    "DIN1 / contact recess proxy.003",
+    "DIN1 / contact recess proxy.004",
+    "GATE0 / 6mm bushing proxy",
+    "CV0 / 6mm bushing proxy",
+    "USB0 / connector face proxy",
+    "USB0 / USB metal proxy",
+    "USB0 / USB cavity proxy",
+    "POWER0 / connector face proxy",
+    "POWER0 / DC recess proxy",
+    "POWER0 / DC centre proxy",
+    "S1 / unsized polymer bushing proxy",
+    "S1 / toggle lever proxy"
+  ],
+  "control_color_corrected_references": 34,
+  "knob_proxy_elevations": [
+    {
+      "object": "VR8 / knob skirt proxy",
+      "reference": "VR8",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.21145500242710114,
+        0.10845799744129181,
+        0.003824800020083785
+      ],
+      "after_location_m": [
+        0.21145500242710114,
+        0.10845799744129181,
+        0.005524800159037113
+      ]
+    },
+    {
+      "object": "VR8 / BOM dimension knob proxy",
+      "reference": "VR8",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.21145500242710114,
+        0.10845799744129181,
+        0.011524800211191177
+      ],
+      "after_location_m": [
+        0.21145500242710114,
+        0.10845799744129181,
+        0.013224800117313862
+      ]
+    },
+    {
+      "object": "VR8 / pointer proxy",
+      "reference": "VR8",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.21145500242710114,
+        0.11100800335407257,
+        0.017654800787568092
+      ],
+      "after_location_m": [
+        0.21145500242710114,
+        0.11100800335407257,
+        0.01935480162501335
+      ]
+    },
+    {
+      "object": "VR8 / pointer body projection proxy",
+      "reference": "VR8",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.21145500242710114,
+        0.11535800248384476,
+        0.0035747999791055918
+      ],
+      "after_location_m": [
+        0.21145500242710114,
+        0.11535800248384476,
+        0.00527480011805892
+      ]
+    },
+    {
+      "object": "VR7 / knob skirt proxy",
+      "reference": "VR7",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.2076449990272522,
+        0.1442212015390396,
+        0.003824800020083785
+      ],
+      "after_location_m": [
+        0.2076449990272522,
+        0.1442212015390396,
+        0.005524800159037113
+      ]
+    },
+    {
+      "object": "VR7 / BOM dimension knob proxy",
+      "reference": "VR7",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.2076449990272522,
+        0.1442212015390396,
+        0.011524800211191177
+      ],
+      "after_location_m": [
+        0.2076449990272522,
+        0.1442212015390396,
+        0.013224800117313862
+      ]
+    },
+    {
+      "object": "VR7 / pointer proxy",
+      "reference": "VR7",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.2076449990272522,
+        0.14677119255065918,
+        0.017654800787568092
+      ],
+      "after_location_m": [
+        0.2076449990272522,
+        0.14677119255065918,
+        0.01935480162501335
+      ]
+    },
+    {
+      "object": "VR7 / pointer body projection proxy",
+      "reference": "VR7",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.2076449990272522,
+        0.15112119913101196,
+        0.0035747999791055918
+      ],
+      "after_location_m": [
+        0.2076449990272522,
+        0.15112119913101196,
+        0.00527480011805892
+      ]
+    },
+    {
+      "object": "VR6 / knob skirt proxy",
+      "reference": "VR6",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.17716500163078308,
+        0.1442212015390396,
+        0.003824800020083785
+      ],
+      "after_location_m": [
+        0.17716500163078308,
+        0.1442212015390396,
+        0.005524800159037113
+      ]
+    },
+    {
+      "object": "VR6 / BOM dimension knob proxy",
+      "reference": "VR6",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.17716500163078308,
+        0.1442212015390396,
+        0.011524800211191177
+      ],
+      "after_location_m": [
+        0.17716500163078308,
+        0.1442212015390396,
+        0.013224800117313862
+      ]
+    },
+    {
+      "object": "VR6 / pointer proxy",
+      "reference": "VR6",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.17716500163078308,
+        0.14677119255065918,
+        0.017654800787568092
+      ],
+      "after_location_m": [
+        0.17716500163078308,
+        0.14677119255065918,
+        0.01935480162501335
+      ]
+    },
+    {
+      "object": "VR6 / pointer body projection proxy",
+      "reference": "VR6",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.17716500163078308,
+        0.15112119913101196,
+        0.0035747999791055918
+      ],
+      "after_location_m": [
+        0.17716500163078308,
+        0.15112119913101196,
+        0.00527480011805892
+      ]
+    },
+    {
+      "object": "VR5 / knob skirt proxy",
+      "reference": "VR5",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.14668500423431396,
+        0.1442212015390396,
+        0.003824800020083785
+      ],
+      "after_location_m": [
+        0.14668500423431396,
+        0.1442212015390396,
+        0.005524800159037113
+      ]
+    },
+    {
+      "object": "VR5 / BOM dimension knob proxy",
+      "reference": "VR5",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.14668500423431396,
+        0.1442212015390396,
+        0.011524800211191177
+      ],
+      "after_location_m": [
+        0.14668500423431396,
+        0.1442212015390396,
+        0.013224800117313862
+      ]
+    },
+    {
+      "object": "VR5 / pointer proxy",
+      "reference": "VR5",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.14668500423431396,
+        0.14677119255065918,
+        0.017654800787568092
+      ],
+      "after_location_m": [
+        0.14668500423431396,
+        0.14677119255065918,
+        0.01935480162501335
+      ]
+    },
+    {
+      "object": "VR5 / pointer body projection proxy",
+      "reference": "VR5",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.14668500423431396,
+        0.15112119913101196,
+        0.0035747999791055918
+      ],
+      "after_location_m": [
+        0.14668500423431396,
+        0.15112119913101196,
+        0.00527480011805892
+      ]
+    },
+    {
+      "object": "VR4 / knob skirt proxy",
+      "reference": "VR4",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.11620499938726425,
+        0.1442212015390396,
+        0.003824800020083785
+      ],
+      "after_location_m": [
+        0.11620499938726425,
+        0.1442212015390396,
+        0.005524800159037113
+      ]
+    },
+    {
+      "object": "VR4 / BOM dimension knob proxy",
+      "reference": "VR4",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.11620499938726425,
+        0.1442212015390396,
+        0.011524800211191177
+      ],
+      "after_location_m": [
+        0.11620499938726425,
+        0.1442212015390396,
+        0.013224800117313862
+      ]
+    },
+    {
+      "object": "VR4 / pointer proxy",
+      "reference": "VR4",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.11620499938726425,
+        0.14677119255065918,
+        0.017654800787568092
+      ],
+      "after_location_m": [
+        0.11620499938726425,
+        0.14677119255065918,
+        0.01935480162501335
+      ]
+    },
+    {
+      "object": "VR4 / pointer body projection proxy",
+      "reference": "VR4",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.11620499938726425,
+        0.15112119913101196,
+        0.0035747999791055918
+      ],
+      "after_location_m": [
+        0.11620499938726425,
+        0.15112119913101196,
+        0.00527480011805892
+      ]
+    },
+    {
+      "object": "S3 / knob skirt proxy",
+      "reference": "S3",
+      "local_z_elevation_mm": 1.2,
+      "before_location_m": [
+        0.06032500043511391,
+        0.10845799744129181,
+        0.0031747999601066113
+      ],
+      "after_location_m": [
+        0.06032500043511391,
+        0.10845799744129181,
+        0.004374799784272909
+      ]
+    },
+    {
+      "object": "S3 / BOM dimension knob proxy",
+      "reference": "S3",
+      "local_z_elevation_mm": 1.2,
+      "before_location_m": [
+        0.06032500043511391,
+        0.10845799744129181,
+        0.010286799632012844
+      ],
+      "after_location_m": [
+        0.06032500043511391,
+        0.10845799744129181,
+        0.011486799456179142
+      ]
+    },
+    {
+      "object": "S3 / pointer proxy",
+      "reference": "S3",
+      "local_z_elevation_mm": 1.2,
+      "before_location_m": [
+        0.06032500043511391,
+        0.11297570914030075,
+        0.016478799283504486
+      ],
+      "after_location_m": [
+        0.06032500043511391,
+        0.11297570914030075,
+        0.017678799107670784
+      ]
+    },
+    {
+      "object": "S4 / knob skirt proxy",
+      "reference": "S4",
+      "local_z_elevation_mm": 1.2,
+      "before_location_m": [
+        0.11620499938726425,
+        0.10845799744129181,
+        0.0031747999601066113
+      ],
+      "after_location_m": [
+        0.11620499938726425,
+        0.10845799744129181,
+        0.004374799784272909
+      ]
+    },
+    {
+      "object": "S4 / BOM dimension knob proxy",
+      "reference": "S4",
+      "local_z_elevation_mm": 1.2,
+      "before_location_m": [
+        0.11620499938726425,
+        0.10845799744129181,
+        0.010286799632012844
+      ],
+      "after_location_m": [
+        0.11620499938726425,
+        0.10845799744129181,
+        0.011486799456179142
+      ]
+    },
+    {
+      "object": "S4 / pointer proxy",
+      "reference": "S4",
+      "local_z_elevation_mm": 1.2,
+      "before_location_m": [
+        0.11620499938726425,
+        0.11297570914030075,
+        0.016478799283504486
+      ],
+      "after_location_m": [
+        0.11620499938726425,
+        0.11297570914030075,
+        0.017678799107670784
+      ]
+    },
+    {
+      "object": "VR2 / knob skirt proxy",
+      "reference": "VR2",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.05524500086903572,
+        0.1442212015390396,
+        0.003824800020083785
+      ],
+      "after_location_m": [
+        0.05524500086903572,
+        0.1442212015390396,
+        0.005524800159037113
+      ]
+    },
+    {
+      "object": "VR2 / BOM dimension knob proxy",
+      "reference": "VR2",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.05524500086903572,
+        0.1442212015390396,
+        0.011524800211191177
+      ],
+      "after_location_m": [
+        0.05524500086903572,
+        0.1442212015390396,
+        0.013224800117313862
+      ]
+    },
+    {
+      "object": "VR2 / pointer proxy",
+      "reference": "VR2",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.05524500086903572,
+        0.14677119255065918,
+        0.017654800787568092
+      ],
+      "after_location_m": [
+        0.05524500086903572,
+        0.14677119255065918,
+        0.01935480162501335
+      ]
+    },
+    {
+      "object": "VR2 / pointer body projection proxy",
+      "reference": "VR2",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.05524500086903572,
+        0.15112119913101196,
+        0.0035747999791055918
+      ],
+      "after_location_m": [
+        0.05524500086903572,
+        0.15112119913101196,
+        0.00527480011805892
+      ]
+    },
+    {
+      "object": "VR3 / knob skirt proxy",
+      "reference": "VR3",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.08572500199079514,
+        0.1442212015390396,
+        0.003824800020083785
+      ],
+      "after_location_m": [
+        0.08572500199079514,
+        0.1442212015390396,
+        0.005524800159037113
+      ]
+    },
+    {
+      "object": "VR3 / BOM dimension knob proxy",
+      "reference": "VR3",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.08572500199079514,
+        0.1442212015390396,
+        0.011524800211191177
+      ],
+      "after_location_m": [
+        0.08572500199079514,
+        0.1442212015390396,
+        0.013224800117313862
+      ]
+    },
+    {
+      "object": "VR3 / pointer proxy",
+      "reference": "VR3",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.08572500199079514,
+        0.14677119255065918,
+        0.017654800787568092
+      ],
+      "after_location_m": [
+        0.08572500199079514,
+        0.14677119255065918,
+        0.01935480162501335
+      ]
+    },
+    {
+      "object": "VR3 / pointer body projection proxy",
+      "reference": "VR3",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.08572500199079514,
+        0.15112119913101196,
+        0.0035747999791055918
+      ],
+      "after_location_m": [
+        0.08572500199079514,
+        0.15112119913101196,
+        0.00527480011805892
+      ]
+    },
+    {
+      "object": "S2 / knob skirt proxy",
+      "reference": "S2",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.020955000072717667,
+        0.10845799744129181,
+        0.003824800020083785
+      ],
+      "after_location_m": [
+        0.020955000072717667,
+        0.10845799744129181,
+        0.005524800159037113
+      ]
+    },
+    {
+      "object": "S2 / BOM dimension knob proxy",
+      "reference": "S2",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.020955000072717667,
+        0.10845799744129181,
+        0.011524800211191177
+      ],
+      "after_location_m": [
+        0.020955000072717667,
+        0.10845799744129181,
+        0.013224800117313862
+      ]
+    },
+    {
+      "object": "S2 / pointer proxy",
+      "reference": "S2",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.020955000072717667,
+        0.11100800335407257,
+        0.017654800787568092
+      ],
+      "after_location_m": [
+        0.020955000072717667,
+        0.11100800335407257,
+        0.01935480162501335
+      ]
+    },
+    {
+      "object": "S2 / pointer body projection proxy",
+      "reference": "S2",
+      "local_z_elevation_mm": 1.7,
+      "before_location_m": [
+        0.020955000072717667,
+        0.11535800248384476,
+        0.0035747999791055918
+      ],
+      "after_location_m": [
+        0.020955000072717667,
+        0.11535800248384476,
+        0.00527480011805892
+      ]
+    }
+  ],
+  "native_geometry_unchanged": true,
+  "native_reference_count": 491,
+  "detailed_replaced_references": 45,
+  "updated_model_rows": [
+    {
+      "board": "ioboard",
+      "references": [
+        "IC20"
+      ],
+      "footprint": "78XXS",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step",
+      "source_sha256": "57572d2c7c441f7c83c0bf4c281866def4e4d5b5639d05f805596d090a09f555",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "source_kind": "Primary original-author assembly-photo qualified rigid installation of source-dimensional reconstruction",
+      "classification": "Original assembly photo-qualified bent-back nominal MC78M05 TO220 body-only illustration",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/powersupply.html",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.onsemi.com/download/data-sheet/pdf/mc78m00-d.pdf",
+        "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf"
+      ],
+      "limitations": [
+        "Original author assembly instruction explicitly says to bend IC20 back before fitting the heatsink; the original place/soldered/measure photos show the body and tab approximately parallel to the PCB and extending beyond its edge.",
+        "The exact 90 degree angle, bend datum and 2.0 mm vertical placement are illustration assumptions, not measurements from the photograph or a manufacturer formed-lead specification.",
+        "All IC20 leads remain omitted. The prior nominal published lead width/hole fit was unresolved; no terminals were thinned, displaced or invented to conceal it.",
+        "The paired seat uses source-consistent through-hole and contact-plane alignment, inherited from the nominal generic TO220 body. Actual original regulator vendor/suffix, lead forming, cut lengths and installed seat require physical confirmation.",
+        "The complete revision 9 heatsink is only rigidly rotated and translated. No fold, spring finger, wall, source envelope or neighboring component is trimmed or shrunk.",
+        "Free-state reconstructed spring fingers retain a nominal 1.729422 mm3 regulator intersection. This is a documented geometric overlap, not a simulation or certification of elastic clamping, contact force or thermal performance.",
+        "Case placement, board seat and neighboring package models remain qualified visual geometry. A clear surface screen does not establish tolerance or physical fit."
+      ],
+      "replaces_source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.step",
+      "replaces_source_sha256": "f65e974128af6b8e5f9f74b815aada33c296f1ae113dac9fc6f7a341599e65a8",
+      "previous_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "local_model": "Revision10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step",
+      "review_manifest": "heatsink-fit-research/bent-pair-manifest.json",
+      "previous_source_sha256": "f65e974128af6b8e5f9f74b815aada33c296f1ae113dac9fc6f7a341599e65a8",
+      "previous_local_model": "Revision6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.step"
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "KK1"
+      ],
+      "footprint": "D03S",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/heatsink-fit-research/Aavid_574502B00000G_BentBack_PhotoQualified.step",
+      "source_sha256": "c52b9aed6d3145861dde7c39389c46e2efe0853e84373eb84f299e2691d7fea9",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "source_kind": "Primary original-author assembly-photo qualified rigid installation of source-dimensional reconstruction",
+      "classification": "Original assembly photo-qualified bent-back full-size drawing-derived folded spring illustration",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/powersupply.html",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.onsemi.com/download/data-sheet/pdf/mc78m00-d.pdf",
+        "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf"
+      ],
+      "limitations": [
+        "Original author assembly instruction explicitly says to bend IC20 back before fitting the heatsink; the original place/soldered/measure photos show the body and tab approximately parallel to the PCB and extending beyond its edge.",
+        "The exact 90 degree angle, bend datum and 2.0 mm vertical placement are illustration assumptions, not measurements from the photograph or a manufacturer formed-lead specification.",
+        "All IC20 leads remain omitted. The prior nominal published lead width/hole fit was unresolved; no terminals were thinned, displaced or invented to conceal it.",
+        "The paired seat uses source-consistent through-hole and contact-plane alignment, inherited from the nominal generic TO220 body. Actual original regulator vendor/suffix, lead forming, cut lengths and installed seat require physical confirmation.",
+        "The complete revision 9 heatsink is only rigidly rotated and translated. No fold, spring finger, wall, source envelope or neighboring component is trimmed or shrunk.",
+        "Free-state reconstructed spring fingers retain a nominal 1.729422 mm3 regulator intersection. This is a documented geometric overlap, not a simulation or certification of elastic clamping, contact force or thermal performance.",
+        "Case placement, board seat and neighboring package models remain qualified visual geometry. A clear surface screen does not establish tolerance or physical fit."
+      ],
+      "replaces_source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/heatsink-quality/Aavid_574502B00000G_DrawingDerived_FoldedSpring.step",
+      "replaces_source_sha256": "36ea5130eb331e8c740748c697559dfd79671284869be83e8251dd4c944e4336",
+      "previous_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "local_model": "Revision10/heatsink-fit-research/Aavid_574502B00000G_BentBack_PhotoQualified.step",
+      "review_manifest": "heatsink-fit-research/bent-pair-manifest.json",
+      "previous_source_sha256": "36ea5130eb331e8c740748c697559dfd79671284869be83e8251dd4c944e4336",
+      "previous_local_model": "Revision9/heatsink-quality/Aavid_574502B00000G_DrawingDerived_FoldedSpring.step"
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "footprint": "MJ-3536N",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+      "source_sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "Detailed exact-family drawing-derived body/contact illustration; below-seat terminals omitted, installed fit unqualified",
+      "source_kind": "Independent parameterized reconstruction from original/current manufacturer drawings; explicitly unsized appearance details",
+      "source_urls": [
+        "https://www.sameskydevices.com/product/resource/mj-3536n.pdf",
+        "https://static.chipdip.ru/lib/247/DOC011247072.pdf",
+        "https://www.mouser.com/datasheet/2/670/mj-3536n-1311426.pdf",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "limitations": [
+        "Original independent parameterized reconstruction from primary manufacturer drawings, not redistributed manufacturer CAD.",
+        "Published nominal envelopes/apertures retained at unity scale. Original canonical front/body-seat datum, offset0, rotation0 and native footprint pose are preserved.",
+        "Below-seat terminals, solder lugs and locators are omitted. These candidates do not demonstrate PCB lead fit or installed seating.",
+        "Roof slopes, recess/slot positions, cover seams, contact-arch/leaf/ring shapes and stock gauges are unsized visual interpretations within the printed envelopes; no tolerance or electrical-contact qualification.",
+        "Exact historical supplied revision, mold, plating and physical fit remain unverified. Contemporary datasheets are references for a family illustration.",
+        "2010 revisionB and2020 revision1.02 dimension-lines imply nominal terminal positions(0,2.3),(0,16),(5.2,13.5), consistent with the current drawing; 11.2 is terminal1-to-terminal3, not terminal1-to-terminal2.",
+        "The source records reengineering in2023 and2024. Equal printed nominal dimensions do not prove unchanged mold or terminal tolerances.",
+        "Original PCB rounddrills2.54 and slightly displaced center positions differ from manufacturer slotted-hole recommendations; no leads were narrowed or shifted to fit.",
+        "No nut or thread is added: MJ-3536N is the nonthreaded6mm-bushing family, distinct from threaded sibling variants.",
+        "Roof height7.5, slope breakpoints2.3/10.0, recessed window7.1wide, contactstock0.27/0.30 and14.1mm internal bore depth are visual assumptions, not manufacturer callouts."
+      ],
+      "canonical_frame": "Original F.Cu footprint X,-Y,Z outward, mm. FrontY0, bodyinto+Y, axisZ5.5.",
+      "units": "mm",
+      "previous_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "local_model": "Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+      "review_manifest": "rear-connector-quality/rear-connector-quality-corrected-manifest.json",
+      "previous_source_sha256": "d82b0f5a71eae36fc7b1a3ceb3772a899549606cc427f84e57e080b66def1d6a",
+      "previous_local_model": "Revision6/rear-body-illustrations/MJ3536N-body-illustration.step"
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "POWER0"
+      ],
+      "footprint": "PJ-202AH",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+      "source_sha256": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "Detailed exact-family drawing-derived body/contact illustration; below-seat terminals omitted, installed fit unqualified",
+      "source_kind": "Independent parameterized reconstruction from original/current manufacturer drawings; explicitly unsized appearance details",
+      "source_urls": [
+        "https://www.sameskydevices.com/product/resource/pj-202ah.pdf",
+        "https://datasheet.octopart.com/PJ-202AH-CUI-datasheet-62089902.pdf",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "limitations": [
+        "Original independent parameterized reconstruction from primary manufacturer drawings, not redistributed manufacturer CAD.",
+        "Published nominal envelopes/apertures retained at unity scale. Original canonical front/body-seat datum, offset0, rotation0 and native footprint pose are preserved.",
+        "Below-seat terminals, solder lugs and locators are omitted. These candidates do not demonstrate PCB lead fit or installed seating.",
+        "Roof slopes, recess/slot positions, cover seams, contact-arch/leaf/ring shapes and stock gauges are unsized visual interpretations within the printed envelopes; no tolerance or electrical-contact qualification.",
+        "Exact historical supplied revision, mold, plating and physical fit remain unverified. Contemporary datasheets are references for a family illustration.",
+        "The recovered2015 revision1.01 and current2025 revision1.05 retain printed9x14.4x11mm, axis6.5, bore6.5, pin2.0 and terminalspacing nominal dimensions; the current drawing adds finer views/tolerances.",
+        "Nominal terminal3 width3.0 exceeds original P$3 rounddrill2.8 before considering gauge, forming or offset; manufacturer recommends a3.0x1.0 slot. Terminals are omitted rather than thinned.",
+        "Rearcover thickness0.7, retention cutout dimensions, cavity ring0.32stock, rounded pin nose and spring dimensions are unsized illustration choices.",
+        "OriginalPOWER0 placementangle180 is external to this canonical asset; no mirror, scale or boardtranslation is baked into the model.",
+        "Removed rear plastic recess: manufacturer \u00d81.5 callout is a terminal eye, not a molded cover hole. Below-seat terminal geometry remains omitted."
+      ],
+      "canonical_frame": "Original F.Cu footprint X,-Y,Z outward, mm. FrontY0, bodyinto-Y, axisZ6.5. Root applies actual POWER0 angle180.",
+      "units": "mm",
+      "previous_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "local_model": "Revision10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+      "review_manifest": "rear-connector-quality/rear-connector-quality-corrected-manifest.json",
+      "previous_source_sha256": "7baa377ffaf50a4f81eb2de4fe964d550d0d6cf4478abe60a6261dc1d76a717b",
+      "previous_local_model": "Revision6/rear-body-illustrations/PJ202AH-body-illustration.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "LED1",
+        "LED2",
+        "LED3",
+        "LED4",
+        "LED5",
+        "LED6",
+        "LED7",
+        "LED8",
+        "LED9",
+        "LED10",
+        "LED11",
+        "LED12",
+        "LED13",
+        "LED14",
+        "LED15",
+        "LED16",
+        "LED17",
+        "LED18",
+        "LED19",
+        "LED20",
+        "LED21",
+        "LED22",
+        "LED23",
+        "LED24",
+        "LED25",
+        "LED26",
+        "LED27",
+        "LED28",
+        "LED29",
+        "LED30",
+        "LED31",
+        "LED32",
+        "LED33",
+        "LED34",
+        "LED35",
+        "LED36",
+        "LED37",
+        "LED38",
+        "LED39",
+        "LED40"
+      ],
+      "footprint": "LED5MM",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+      "source_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+      "offset_mm": [
+        1.27,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        180
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "source_kind": "Official generic source body with original author BOM spacer height and full-width continuous installed leads",
+      "classification": "Original-photo clear-body generic 5mm LED with source-BOM spacer seat and full-width extended leads",
+      "limitations": [
+        "The complete official generic KiCad LED body above its Z3mm lower-flange plane is preserved by a rigid +3.096mm translation. Exact original fitted LED manufacturer and package tolerances are unknown.",
+        "The selected 6.096mm lower-body height follows the original BOM VCC STD240B 0.24in. The original sequencer table instead says0.22in/5.588mm; that conflict is preserved, not silently resolved as a measured installed height.",
+        "Full stock 0.4x0.4mm lead cross-sections at sourceX0 andX2.54mm are retained and extended continuously from trimmedZ-2.5mm to the new body undersideZ6.096mm. Lead material, cut length and exact fitted original lead specification remain generic illustration data.",
+        "Existing native model offset[1.27,0,0] and rotation[0,0,180] with unity scale are preserved for all40LED references; original footprint axes, polarity, pad and drill geometry are unchanged.",
+        "Clear/unlit lens appearance follows original author PCB/panel photos. STEP light-gray color is an appearance role, not an optical simulation; Blender transmission/refraction settings are presentation choices.",
+        "Spacer height is represented by body seating. No black spacer shape is added because an exact primary outline was not recovered in the bounded search. This avoids inventing unverified outer profile or lead holes.",
+        "Current scene panel seat yields a nominal1.300mm lens-tip projection above the top panel; alternative0.22in spacing yields0.792mm. Native exported assembly measurements must independently confirm this after integration.",
+        "No lead thinning, scaled body, moved PCB footprint, altered panel hole or fitted tolerance/physical assembly claim is made."
+      ],
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.ladyada.net/make/x0xb0x/fab/seq/index.html",
+        "https://www.flickr.com/photos/ladyada/388601923",
+        "https://www.flickr.com/photos/ladyada/388576688"
+      ],
+      "replaces_source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/input-snapshot/mainboard/3dmodels/KiCad/LED_THT.3dshapes/LED_D5.0mm.step",
+      "replaces_source_sha256": "7cc5086e6ee1fb4853d1fb74675a61a436c8811204094823b31f04ce788e5d40",
+      "previous_offset_mm": [
+        1.27,
+        0,
+        0
+      ],
+      "local_model": "Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+      "review_manifest": "led-assembly-quality/led-assembly-manifest.json",
+      "previous_source_sha256": "7cc5086e6ee1fb4853d1fb74675a61a436c8811204094823b31f04ce788e5d40",
+      "previous_local_model": "KiCad/LED_THT.3dshapes/LED_D5.0mm.step"
+    }
+  ],
+  "harness_routing_study": {
+    "conductors": 24,
+    "frame": 160,
+    "physical_fit_qualified": false,
+    "report": "harness-routing-study-audit.json"
+  },
+  "redundant_LED_lenses_removed": 40,
+  "switch_caps_attached_to_PCB": 23,
+  "cap_assembled_geometry_and_pose_preserved": true,
+  "cap_exploded_ownership_corrected": true,
+  "case_panel_board_poses_preserved": true
+}

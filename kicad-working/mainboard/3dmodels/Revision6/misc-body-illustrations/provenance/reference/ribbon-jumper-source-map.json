@@ -1,0 +1,486 @@
+{
+  "review": "Original soldered ribbon jumper mapping for scene planning; no standalone plastic header body assignment",
+  "primary_sources": [
+    "https://wiki.ladyada.net/x0x/jumpers",
+    "https://ladyada.net/wiki/x0x/billofmaterials"
+  ],
+  "historical_distributor_alias_source": "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf",
+  "cables": [
+    {
+      "reference": "J3",
+      "connect": "mainboard.J3 pin n to ioboard.J3 pin n",
+      "conductor_count": 12,
+      "lead_pitch_mm": 2.54,
+      "pins": [
+        {
+          "number": 1,
+          "function": "USB transmit/receive pair conductor1",
+          "mainboard_net_name": "USBRX",
+          "mainboard_local_pad_mm": [
+            -13.97,
+            0.0
+          ],
+          "ioboard_net_name": "USB_TX",
+          "ioboard_local_pad_mm": [
+            -13.97,
+            0.0
+          ]
+        },
+        {
+          "number": 2,
+          "function": "USB transmit/receive pair conductor2",
+          "mainboard_net_name": "USB_TX",
+          "mainboard_local_pad_mm": [
+            -11.43,
+            0.0
+          ],
+          "ioboard_net_name": "USB_RX",
+          "ioboard_local_pad_mm": [
+            -11.43,
+            0.0
+          ]
+        },
+        {
+          "number": 3,
+          "function": "+5V",
+          "mainboard_net_name": "+5V",
+          "mainboard_local_pad_mm": [
+            -8.89,
+            0.0
+          ],
+          "ioboard_net_name": "+5V",
+          "ioboard_local_pad_mm": [
+            -8.89,
+            0.0
+          ]
+        },
+        {
+          "number": 4,
+          "function": "+5V",
+          "mainboard_net_name": "+5V",
+          "mainboard_local_pad_mm": [
+            -6.35,
+            0.0
+          ],
+          "ioboard_net_name": "+5V",
+          "ioboard_local_pad_mm": [
+            -6.35,
+            0.0
+          ]
+        },
+        {
+          "number": 5,
+          "function": "MIDI In",
+          "mainboard_net_name": "MIDI_IN",
+          "mainboard_local_pad_mm": [
+            -3.81,
+            0.0
+          ],
+          "ioboard_net_name": "MIDI_IN",
+          "ioboard_local_pad_mm": [
+            -3.81,
+            0.0
+          ]
+        },
+        {
+          "number": 6,
+          "function": "MIDI Out",
+          "mainboard_net_name": "MIDI_OUT",
+          "mainboard_local_pad_mm": [
+            -1.27,
+            0.0
+          ],
+          "ioboard_net_name": "MIDI_OUT",
+          "ioboard_local_pad_mm": [
+            -1.27,
+            0.0
+          ]
+        },
+        {
+          "number": 7,
+          "function": "GND",
+          "mainboard_net_name": "GND",
+          "mainboard_local_pad_mm": [
+            1.27,
+            0.0
+          ],
+          "ioboard_net_name": "GND",
+          "ioboard_local_pad_mm": [
+            1.27,
+            0.0
+          ]
+        },
+        {
+          "number": 8,
+          "function": "GND",
+          "mainboard_net_name": "GND",
+          "mainboard_local_pad_mm": [
+            3.81,
+            0.0
+          ],
+          "ioboard_net_name": "GND",
+          "ioboard_local_pad_mm": [
+            3.81,
+            0.0
+          ]
+        },
+        {
+          "number": 9,
+          "function": "DIN Sync4",
+          "mainboard_net_name": "DINSYNC4",
+          "mainboard_local_pad_mm": [
+            6.35,
+            0.0
+          ],
+          "ioboard_net_name": "DINSYNC4",
+          "ioboard_local_pad_mm": [
+            6.35,
+            0.0
+          ]
+        },
+        {
+          "number": 10,
+          "function": "DIN Sync3",
+          "mainboard_net_name": "DINSYNC3",
+          "mainboard_local_pad_mm": [
+            8.89,
+            0.0
+          ],
+          "ioboard_net_name": "DINSYNC3",
+          "ioboard_local_pad_mm": [
+            8.89,
+            0.0
+          ]
+        },
+        {
+          "number": 11,
+          "function": "DIN Sync2",
+          "mainboard_net_name": "DINSYNC2",
+          "mainboard_local_pad_mm": [
+            11.43,
+            0.0
+          ],
+          "ioboard_net_name": "DINSYNC2",
+          "ioboard_local_pad_mm": [
+            11.43,
+            0.0
+          ]
+        },
+        {
+          "number": 12,
+          "function": "DIN Sync1",
+          "mainboard_net_name": "DINSYNC1",
+          "mainboard_local_pad_mm": [
+            13.97,
+            0.0
+          ],
+          "ioboard_net_name": "DINSYNC1",
+          "ioboard_local_pad_mm": [
+            13.97,
+            0.0
+          ]
+        }
+      ],
+      "mainboard_footprint": "mainboard-import-fps:MA12-1",
+      "mainboard_position_mm_deg": [
+        196.596,
+        -4.064
+      ],
+      "mainboard_side": "F.Cu",
+      "ioboard_footprint": "ioboard-import-fps:MA12-1",
+      "ioboard_position_mm_deg": [
+        184.531,
+        -38.1
+      ],
+      "ioboard_side": "F.Cu"
+    },
+    {
+      "reference": "J4",
+      "connect": "mainboard.J4 pin n to ioboard.J4 pin n",
+      "conductor_count": 3,
+      "lead_pitch_mm": 2.54,
+      "pins": [
+        {
+          "number": 1,
+          "function": "5.333V",
+          "mainboard_net_name": "+5.333V",
+          "mainboard_local_pad_mm": [
+            -2.54,
+            0.0
+          ],
+          "ioboard_net_name": "+5.333V",
+          "ioboard_local_pad_mm": [
+            -2.54,
+            0.0
+          ]
+        },
+        {
+          "number": 2,
+          "function": "GND",
+          "mainboard_net_name": "GND",
+          "mainboard_local_pad_mm": [
+            0.0,
+            0.0
+          ],
+          "ioboard_net_name": "GND",
+          "ioboard_local_pad_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": 3,
+          "function": "12V",
+          "mainboard_net_name": "+12V",
+          "mainboard_local_pad_mm": [
+            2.54,
+            0.0
+          ],
+          "ioboard_net_name": "+12V",
+          "ioboard_local_pad_mm": [
+            2.54,
+            0.0
+          ]
+        }
+      ],
+      "mainboard_footprint": "mainboard-import-fps:MA03-1",
+      "mainboard_position_mm_deg": [
+        122.428,
+        -135.636
+      ],
+      "mainboard_side": "F.Cu",
+      "ioboard_footprint": "ioboard-import-fps:MA03-1",
+      "ioboard_position_mm_deg": [
+        56.896,
+        -37.211
+      ],
+      "ioboard_side": "F.Cu"
+    },
+    {
+      "reference": "J5",
+      "connect": "mainboard.J5 pin n to ioboard.J5 pin n",
+      "conductor_count": 3,
+      "lead_pitch_mm": 2.54,
+      "pins": [
+        {
+          "number": 1,
+          "function": "Headphone",
+          "mainboard_net_name": "N$10",
+          "mainboard_local_pad_mm": [
+            -2.54,
+            0.0
+          ],
+          "ioboard_net_name": "HP_OUT",
+          "ioboard_local_pad_mm": [
+            -2.54,
+            0.0
+          ]
+        },
+        {
+          "number": 2,
+          "function": "GND",
+          "mainboard_net_name": "GND",
+          "mainboard_local_pad_mm": [
+            0.0,
+            0.0
+          ],
+          "ioboard_net_name": "GND",
+          "ioboard_local_pad_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": 3,
+          "function": "6V",
+          "mainboard_net_name": "+6V",
+          "mainboard_local_pad_mm": [
+            2.54,
+            0.0
+          ],
+          "ioboard_net_name": "+6V",
+          "ioboard_local_pad_mm": [
+            2.54,
+            0.0
+          ]
+        }
+      ],
+      "mainboard_footprint": "mainboard-import-fps:MA03-1",
+      "mainboard_position_mm_deg": [
+        17.272,
+        -171.196
+      ],
+      "mainboard_side": "F.Cu",
+      "ioboard_footprint": "ioboard-import-fps:MA03-1",
+      "ioboard_position_mm_deg": [
+        36.322,
+        -22.987,
+        180.0
+      ],
+      "ioboard_side": "F.Cu"
+    },
+    {
+      "reference": "J6",
+      "connect": "mainboard.J6 pin n to ioboard.J6 pin n",
+      "conductor_count": 3,
+      "lead_pitch_mm": 2.54,
+      "pins": [
+        {
+          "number": 1,
+          "function": "CV",
+          "mainboard_net_name": "N$625",
+          "mainboard_local_pad_mm": [
+            -2.54,
+            0.0
+          ],
+          "ioboard_net_name": "N$27",
+          "ioboard_local_pad_mm": [
+            -2.54,
+            0.0
+          ]
+        },
+        {
+          "number": 2,
+          "function": "GND",
+          "mainboard_net_name": "GND",
+          "mainboard_local_pad_mm": [
+            0.0,
+            0.0
+          ],
+          "ioboard_net_name": "GND",
+          "ioboard_local_pad_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": 3,
+          "function": "Gate",
+          "mainboard_net_name": "N$622",
+          "mainboard_local_pad_mm": [
+            2.54,
+            0.0
+          ],
+          "ioboard_net_name": "N$26",
+          "ioboard_local_pad_mm": [
+            2.54,
+            0.0
+          ]
+        }
+      ],
+      "mainboard_footprint": "mainboard-import-fps:MA03-1",
+      "mainboard_position_mm_deg": [
+        156.21,
+        -167.894,
+        90.0
+      ],
+      "mainboard_side": "F.Cu",
+      "ioboard_footprint": "ioboard-import-fps:MA03-1",
+      "ioboard_position_mm_deg": [
+        50.419,
+        -18.542,
+        180.0
+      ],
+      "ioboard_side": "F.Cu"
+    },
+    {
+      "reference": "J7",
+      "connect": "mainboard.J7 pin n to ioboard.J7 pin n",
+      "conductor_count": 3,
+      "lead_pitch_mm": 2.54,
+      "pins": [
+        {
+          "number": 1,
+          "function": "Mix Out",
+          "mainboard_net_name": "N$7",
+          "mainboard_local_pad_mm": [
+            -2.54,
+            0.0
+          ],
+          "ioboard_net_name": "N$1",
+          "ioboard_local_pad_mm": [
+            -2.54,
+            0.0
+          ]
+        },
+        {
+          "number": 2,
+          "function": "GND",
+          "mainboard_net_name": "GND",
+          "mainboard_local_pad_mm": [
+            0.0,
+            0.0
+          ],
+          "ioboard_net_name": "GND",
+          "ioboard_local_pad_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": 3,
+          "function": "Mix In",
+          "mainboard_net_name": "N$20",
+          "mainboard_local_pad_mm": [
+            2.54,
+            0.0
+          ],
+          "ioboard_net_name": "N$2",
+          "ioboard_local_pad_mm": [
+            2.54,
+            0.0
+          ]
+        }
+      ],
+      "mainboard_footprint": "mainboard-import-fps:MA03-1",
+      "mainboard_position_mm_deg": [
+        5.842,
+        -101.6
+      ],
+      "mainboard_side": "F.Cu",
+      "ioboard_footprint": "ioboard-import-fps:MA03-1",
+      "ioboard_position_mm_deg": [
+        99.568,
+        -26.416,
+        90.0
+      ],
+      "ioboard_side": "F.Cu"
+    }
+  ],
+  "original_stock_cables": [
+    {
+      "distributor_code": "WM03-06-ND",
+      "manufacturer": "Molex",
+      "manufacturer_part": "28100-0266",
+      "conductors": 3,
+      "nominal_length_mm": 152.4,
+      "pitch_mm": 2.54,
+      "exposed_end_length_mm": 3.18
+    },
+    {
+      "distributor_code": "WM06-06-ND",
+      "manufacturer": "Molex",
+      "manufacturer_part": "28100-0278",
+      "conductors": 6,
+      "nominal_length_mm": 152.4,
+      "pitch_mm": 2.54
+    },
+    {
+      "distributor_code": "WM09-06-ND",
+      "manufacturer": "Molex",
+      "manufacturer_part": "28100-0290",
+      "conductors": 9,
+      "nominal_length_mm": 152.4,
+      "pitch_mm": 2.54
+    }
+  ],
+  "identity_limit": "BOM calls jumper ribbon cables and lists alternative conductor-count stock. Alias mapping comes from historical distributor catalog, not an independently recovered Molex manufacturer package drawing. It disproves a KK-header inference; it does not establish every cable end geometry.",
+  "scene_limits": [
+    "Header-style footprint names MA03-1/MA12-1 do not establish installed plastic header bodies.",
+    "Total24 electrical conductors: one12-conductor and four3-conductor board-to-board groups. Physical stock may be split from wider ribbon.",
+    "152.4 mm is stock cable length, not installed board separation or a validated three-dimensional routing path.",
+    "Harness bends, exposed-wire diameter/section, stripped end placement, colors and case routing are not established.",
+    "J3 USB net names are device-perspective labels: mainboard pin1 USBRX maps to I/O pin1 USB_TX. Pin numbers remain authoritative.",
+    "No actual model, board, drill, placement or routing was edited."
+  ]
+}

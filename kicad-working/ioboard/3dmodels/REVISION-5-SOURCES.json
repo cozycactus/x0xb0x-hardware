@@ -1,0 +1,2078 @@
+{
+  "assignments": [
+    {
+      "board": "ioboard",
+      "footprint": "C050H075X075",
+      "references": [
+        "C1",
+        "C2",
+        "C4",
+        "C6",
+        "C202",
+        "C204"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/C_AVX_SR205_P2.54_Illustration.step",
+      "source_sha256": "2893fab1c5613ec442c8a4d4e07ea5ca238553affe5d3f5eb39d1a715f9120c2",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "qualified original package illustration",
+      "limitations": [
+        "Original package illustration, not manufacturer CAD or identification of the actual fitted component.",
+        "Mounting gap, lead forming, colors, fillet radii and printed/stripe annotations are explicit illustration choices.",
+        "Manufacturer body dimensions are retained without shrinking to historical silk; no physical assembly, enclosure, tolerance or clearance approval.",
+        "Body width/depth minus historical silk envelope: 0.508000/0.635000 mm; height is from the linked primary drawing and source height is unknown."
+      ],
+      "source_kind": "original CC0 package illustration",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://ladyada.net/wiki/x0x/billofmaterials",
+        "https://datasheets.kyocera-avx.com/SR-Series.pdf"
+      ],
+      "source_refs": [
+        {
+          "board": "ioboard",
+          "reference": "C1",
+          "footprint": "C050H075X075",
+          "value": ".1",
+          "input_board_sha256": "49435937e956ef0fbc42e54ff4e635418ac1b6ae8d4f7d896a36c01ec7693785",
+          "input_footprint_library_sha256": "09fbff80cfb7a9928804bd03d2e6c02d6808750afa208de631fe67f8b3414f72",
+          "pads": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "+6V"
+              ]
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "GND"
+              ]
+            }
+          ],
+          "pad_geometry_sha256": "d6b1e94af250acf708e9d50d02ecee09eb9f0268d4234db0afc3632d30d69d38"
+        },
+        {
+          "board": "ioboard",
+          "reference": "C2",
+          "footprint": "C050H075X075",
+          "value": ".1",
+          "input_board_sha256": "49435937e956ef0fbc42e54ff4e635418ac1b6ae8d4f7d896a36c01ec7693785",
+          "input_footprint_library_sha256": "09fbff80cfb7a9928804bd03d2e6c02d6808750afa208de631fe67f8b3414f72",
+          "pads": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "N$17"
+              ]
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "GND"
+              ]
+            }
+          ],
+          "pad_geometry_sha256": "dd8900aa01974718165a9085469da541180001bdce3851c418e3aa97c42e7770"
+        },
+        {
+          "board": "ioboard",
+          "reference": "C4",
+          "footprint": "C050H075X075",
+          "value": ".1",
+          "input_board_sha256": "49435937e956ef0fbc42e54ff4e635418ac1b6ae8d4f7d896a36c01ec7693785",
+          "input_footprint_library_sha256": "09fbff80cfb7a9928804bd03d2e6c02d6808750afa208de631fe67f8b3414f72",
+          "pads": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "N$17"
+              ]
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "GND"
+              ]
+            }
+          ],
+          "pad_geometry_sha256": "dd8900aa01974718165a9085469da541180001bdce3851c418e3aa97c42e7770"
+        },
+        {
+          "board": "ioboard",
+          "reference": "C6",
+          "footprint": "C050H075X075",
+          "value": ".1",
+          "input_board_sha256": "49435937e956ef0fbc42e54ff4e635418ac1b6ae8d4f7d896a36c01ec7693785",
+          "input_footprint_library_sha256": "09fbff80cfb7a9928804bd03d2e6c02d6808750afa208de631fe67f8b3414f72",
+          "pads": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "+5V"
+              ]
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "GND"
+              ]
+            }
+          ],
+          "pad_geometry_sha256": "b694c2c8fd07259e3e57e9e6857446789058c594d1eed29cf53e1acc99a8cef5"
+        },
+        {
+          "board": "ioboard",
+          "reference": "C202",
+          "footprint": "C050H075X075",
+          "value": ".1uF",
+          "input_board_sha256": "49435937e956ef0fbc42e54ff4e635418ac1b6ae8d4f7d896a36c01ec7693785",
+          "input_footprint_library_sha256": "09fbff80cfb7a9928804bd03d2e6c02d6808750afa208de631fe67f8b3414f72",
+          "pads": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "+5V"
+              ]
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "GND"
+              ]
+            }
+          ],
+          "pad_geometry_sha256": "b694c2c8fd07259e3e57e9e6857446789058c594d1eed29cf53e1acc99a8cef5"
+        },
+        {
+          "board": "ioboard",
+          "reference": "C204",
+          "footprint": "C050H075X075",
+          "value": ".1uF",
+          "input_board_sha256": "49435937e956ef0fbc42e54ff4e635418ac1b6ae8d4f7d896a36c01ec7693785",
+          "input_footprint_library_sha256": "09fbff80cfb7a9928804bd03d2e6c02d6808750afa208de631fe67f8b3414f72",
+          "pads": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "N$314"
+              ]
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "GND"
+              ]
+            }
+          ],
+          "pad_geometry_sha256": "a68ba9c898babfffa86c178fbf90ba49298a1381fc9b8830a517288bad8db614"
+        }
+      ],
+      "dimensions": {
+        "name": "C_AVX_SR205_P2.54_Illustration",
+        "kind": "rounded",
+        "refs": [
+          "C103",
+          "C104",
+          "C106",
+          "C107",
+          "C108",
+          "C109",
+          "C110",
+          "C111",
+          "C112",
+          "C113",
+          "io:C1",
+          "io:C2",
+          "io:C4",
+          "io:C6",
+          "io:C202",
+          "io:C204"
+        ],
+        "body_mm": [
+          5.08,
+          3.175,
+          5.08
+        ],
+        "factory_pitch_mm": 2.54,
+        "lead_diameter_mm": 0.508,
+        "source_urls": [
+          "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+          "https://ladyada.net/wiki/x0x/billofmaterials",
+          "https://datasheets.kyocera-avx.com/SR-Series.pdf"
+        ],
+        "part": "AVX SR205E104MAR",
+        "standoff_mm": 0.5,
+        "source_outline_mm": [
+          4.572,
+          2.54
+        ],
+        "polarity": false
+      },
+      "board_depth_validation": [
+        {
+          "z_mm": -1.6,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -1.5,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -1.4000000000000001,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -1.3,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -1.2000000000000002,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -1.1,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -1.0,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -0.9,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -0.8,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -0.7000000000000001,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -0.6000000000000001,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -0.5,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -0.4,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -0.30000000000000004,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -0.2,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -0.1,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": -0.05,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        },
+        {
+          "z_mm": 0.0,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_radius_mm": 0.254,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.246
+            }
+          ]
+        }
+      ],
+      "polarity_mapping": null,
+      "local_model": "Revision5/passive-models/C_AVX_SR205_P2.54_Illustration.step",
+      "review_manifest": "passive-models/passive-assignments.json"
+    },
+    {
+      "board": "ioboard",
+      "footprint": "C050-025X075",
+      "references": [
+        "C201"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/C_Xicon_PM333_P4.064_Illustration.step",
+      "source_sha256": "07665e8a5671a936853a264c52c7a65b69a76f0809f84e78f85fe80edb703976",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "qualified original package illustration",
+      "limitations": [
+        "Original package illustration, not manufacturer CAD or identification of the actual fitted component.",
+        "Mounting gap, lead forming, colors, fillet radii and printed/stripe annotations are explicit illustration choices.",
+        "Manufacturer body dimensions are retained without shrinking to historical silk; no physical assembly, enclosure, tolerance or clearance approval.",
+        "Body width/depth minus historical silk envelope: 0.150000/0.444000 mm; height is from the linked primary drawing and source height is unknown."
+      ],
+      "source_kind": "original CC0 package illustration",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://ladyada.net/wiki/x0x/billofmaterials",
+        "https://www.mouser.com/datasheet/2/70/pm-190464.pdf"
+      ],
+      "source_refs": [
+        {
+          "board": "ioboard",
+          "reference": "C201",
+          "footprint": "C050-025X075",
+          "value": "33nF",
+          "input_board_sha256": "49435937e956ef0fbc42e54ff4e635418ac1b6ae8d4f7d896a36c01ec7693785",
+          "input_footprint_library_sha256": "71672c3f973bf746907594267b78e3abf7529833e2d4769a2763eff951600c3d",
+          "pads": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "N$313"
+              ]
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "GND"
+              ]
+            }
+          ],
+          "pad_geometry_sha256": "a56f7d1290bb0f68865f3a8ac2a53780ad0752621e5635d7bc712f96dd622ad9"
+        }
+      ],
+      "dimensions": {
+        "name": "C_Xicon_PM333_P4.064_Illustration",
+        "kind": "rounded",
+        "refs": [
+          "C19",
+          "C24",
+          "C36",
+          "io:C201"
+        ],
+        "body_mm": [
+          6.5,
+          4.0,
+          9.0
+        ],
+        "factory_pitch_mm": 3.5,
+        "lead_diameter_mm": 0.5,
+        "source_urls": [
+          "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+          "https://ladyada.net/wiki/x0x/billofmaterials",
+          "https://www.mouser.com/datasheet/2/70/pm-190464.pdf"
+        ],
+        "part": "Xicon PM2A333K",
+        "standoff_mm": 1.5,
+        "source_outline_mm": [
+          6.35,
+          3.556
+        ],
+        "polarity": false
+      },
+      "board_depth_validation": [
+        {
+          "z_mm": -1.6,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -1.5,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -1.4000000000000001,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -1.3,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -1.2000000000000002,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -1.1,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -1.0,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -0.9,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -0.8,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -0.7000000000000001,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -0.6000000000000001,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -0.5,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -0.4,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -0.30000000000000004,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -0.2,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -0.1,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": -0.05,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "z_mm": 0.0,
+          "sections": [
+            {
+              "pad": "1",
+              "center_mm": [
+                -2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            },
+            {
+              "pad": "2",
+              "center_mm": [
+                2.032,
+                0.0
+              ],
+              "lead_radius_mm": 0.25,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.25
+            }
+          ]
+        }
+      ],
+      "polarity_mapping": null,
+      "local_model": "Revision5/passive-models/C_Xicon_PM333_P4.064_Illustration.step",
+      "review_manifest": "passive-models/passive-assignments.json"
+    },
+    {
+      "board": "ioboard",
+      "footprint": "E5-13",
+      "references": [
+        "C3",
+        "C5"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step",
+      "source_sha256": "baedb7170ada384a9ddecc4f7c192ac3cdd29ed68d497d8384e2c4b352464243",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "qualified original package illustration",
+      "limitations": [
+        "Original package illustration, not manufacturer CAD or identification of the actual fitted component.",
+        "Mounting gap, lead forming, colors, fillet radii and printed/stripe annotations are explicit illustration choices.",
+        "Manufacturer body dimensions are retained without shrinking to historical silk; no physical assembly, enclosure, tolerance or clearance approval.",
+        "Body width/depth minus historical silk envelope: 0.300000/0.300000 mm; height is from the linked primary drawing and source height is unknown."
+      ],
+      "source_kind": "original CC0 package illustration",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://ladyada.net/wiki/x0x/billofmaterials",
+        "https://www.mouser.com/datasheet/2/231/XC-600178-1174881.pdf"
+      ],
+      "source_refs": [
+        {
+          "board": "ioboard",
+          "reference": "C3",
+          "footprint": "E5-13",
+          "value": "2200/16",
+          "input_board_sha256": "49435937e956ef0fbc42e54ff4e635418ac1b6ae8d4f7d896a36c01ec7693785",
+          "input_footprint_library_sha256": "9aae0c29f268178d58c0aafc1db7924f567777ca2f9f9adf44e7753bb60644f0",
+          "pads": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "N$17"
+              ]
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "GND"
+              ]
+            }
+          ],
+          "pad_geometry_sha256": "298ad6912123b884aa818bacbedf2219056d767852e273c687cd6a519a157077"
+        },
+        {
+          "board": "ioboard",
+          "reference": "C5",
+          "footprint": "E5-13",
+          "value": "2200/16",
+          "input_board_sha256": "49435937e956ef0fbc42e54ff4e635418ac1b6ae8d4f7d896a36c01ec7693785",
+          "input_footprint_library_sha256": "9aae0c29f268178d58c0aafc1db7924f567777ca2f9f9adf44e7753bb60644f0",
+          "pads": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "N$16"
+              ]
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "size_mm": [
+                1.778,
+                1.778
+              ],
+              "net": [
+                "net",
+                "N$17"
+              ]
+            }
+          ],
+          "pad_geometry_sha256": "6da1c21574475b964a86463d21b267703f9eab6d7d14bf23390f231090389866"
+        }
+      ],
+      "dimensions": {
+        "name": "CP_Xicon_XRL2200u16_P5.08_Illustration",
+        "kind": "can",
+        "refs": [
+          "io:C3",
+          "io:C5"
+        ],
+        "body_mm": [
+          13.0,
+          13.0,
+          20.0
+        ],
+        "factory_pitch_mm": 5.0,
+        "lead_diameter_mm": 0.6,
+        "source_urls": [
+          "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+          "https://ladyada.net/wiki/x0x/billofmaterials",
+          "https://www.mouser.com/datasheet/2/231/XC-600178-1174881.pdf"
+        ],
+        "part": "Xicon XRL16V2200",
+        "standoff_mm": 0.8,
+        "source_outline_mm": [
+          12.7,
+          12.7
+        ],
+        "polarity": true,
+        "dimensional_notes": "Nominal 13x20 mm can, nominal 5.0 mm factory pitch and documented 0.6 mm lead diameter. Manufacturer lists can diameter +/-1 mm, length +/-1.5 mm and pitch +/-0.5 mm. This is a newly generated family illustration; no rejected stock 0.9 mm leads were thinned."
+      },
+      "board_depth_validation": [
+        {
+          "z_mm": -1.6,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -1.5,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -1.4000000000000001,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -1.3,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -1.2000000000000002,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -1.1,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -1.0,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -0.9,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -0.8,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -0.7000000000000001,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -0.6000000000000001,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -0.5,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -0.4,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -0.30000000000000004,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -0.2,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -0.1,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": -0.05,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        },
+        {
+          "z_mm": 0.0,
+          "sections": [
+            {
+              "pad": "+",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            },
+            {
+              "pad": "-",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_radius_mm": 0.3,
+              "center_residual_mm": 0.0,
+              "nominal_radial_margin_mm": 0.2
+            }
+          ]
+        }
+      ],
+      "polarity_mapping": {
+        "positive_mark_and_lead": "+",
+        "negative_stripe_and_lead": "-"
+      },
+      "local_model": "Revision5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step",
+      "review_manifest": "passive-models/passive-assignments.json"
+    },
+    {
+      "board": "ioboard",
+      "footprint": "Resonator_6MHz_x0x",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-5/integrated-models/Resonator_AWCR6MD_MaxBody_P2.54_Illustration.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "original_parametric_package_illustration_primary_dimensions_exact_board_pitch",
+      "source_kind": "original project-generated CC0 illustration",
+      "license": "CC0-1.0",
+      "sources": [
+        {
+          "url": "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf",
+          "document": "Abracon AWCR-MD,revised2013-05-07,page3,1.79\u20136MHz low-profile bulk",
+          "local_pdf": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/reference-pdfs/awcr-md.pdf",
+          "sha256": "ef48f7b242efe5cfc1f1514721edb274fb13dd2caea086bebe3f40e30fa01a7a"
+        }
+      ],
+      "source_face_and_pin_order": [
+        "3",
+        "2/GND",
+        "1"
+      ],
+      "per_instance_override": false,
+      "references": [
+        "XTL2"
+      ],
+      "source_sha256": "78f33aa8eb4dd7053e1fb5a9b03b43a1ae36eda4c313cbbf4c5e60b23c1c1bab",
+      "limitations": [
+        "Body uses maximum9.5\u00d74\u00d76.5mm envelope.",
+        "Exact PCB pitch2.54mm lies within manufacturer2.5\u00b10.3mm range.",
+        "Lead section uses printed maxima0.5\u00b10.1 by0.25\u00b10.1mm.",
+        "0.35mm body standoff,2.5mm cut tails,rounded corners and blue color are illustration choices.",
+        "Manufacturer front view has pin3 negativeX,pin2 center,pin1 positiveX; matchesXTL2P$3/P$2/P$1.",
+        "Not manufacturer CAD,exact fitted-part geometry,tolerance analysis or fabrication/assembly approval."
+      ],
+      "source_urls": [
+        "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf"
+      ],
+      "local_model": "Revision5/integrated-models/Resonator_AWCR6MD_MaxBody_P2.54_Illustration.step",
+      "review_manifest": "integrated-models/integrated-model-manifest.json"
+    }
+  ],
+  "cache_policies": [
+    {
+      "board": "ioboard",
+      "footprint": "E5-13",
+      "references": [
+        "C5",
+        "C3"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    },
+    {
+      "board": "ioboard",
+      "footprint": "Resonator_6MHz_x0x",
+      "references": [
+        "XTL2"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    },
+    {
+      "board": "ioboard",
+      "footprint": "C050H075X075",
+      "references": [
+        "C4",
+        "C202",
+        "C6",
+        "C2",
+        "C1",
+        "C204"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    },
+    {
+      "board": "ioboard",
+      "footprint": "C050-025X075",
+      "references": [
+        "C201"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    }
+  ]
+}

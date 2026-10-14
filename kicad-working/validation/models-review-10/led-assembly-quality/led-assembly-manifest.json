@@ -1,0 +1,245 @@
+{
+  "date": "2026-10-14",
+  "parts": [
+    {
+      "id": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads",
+      "board": "mainboard",
+      "references": [
+        "LED1",
+        "LED2",
+        "LED3",
+        "LED4",
+        "LED5",
+        "LED6",
+        "LED7",
+        "LED8",
+        "LED9",
+        "LED10",
+        "LED11",
+        "LED12",
+        "LED13",
+        "LED14",
+        "LED15",
+        "LED16",
+        "LED17",
+        "LED18",
+        "LED19",
+        "LED20",
+        "LED21",
+        "LED22",
+        "LED23",
+        "LED24",
+        "LED25",
+        "LED26",
+        "LED27",
+        "LED28",
+        "LED29",
+        "LED30",
+        "LED31",
+        "LED32",
+        "LED33",
+        "LED34",
+        "LED35",
+        "LED36",
+        "LED37",
+        "LED38",
+        "LED39",
+        "LED40"
+      ],
+      "footprint": "LED5MM",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.stl",
+      "units": "mm",
+      "source_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+      "stl_sha256": "a179cbcc8a5f45f36d725f5c0a34355aadd54144ecad02fb5ccfad282e01a9a9",
+      "canonical_frame": "Original official generic stock LED source frame retained: source lead axesX0 andX2.54mm, lens axisX1.27mm; existing native offset/rotation applies unchanged.",
+      "classification": "Original-photo clear-body generic 5mm LED with source-BOM spacer seat and full-width extended leads",
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.ladyada.net/make/x0xb0x/fab/seq/index.html",
+        "https://www.flickr.com/photos/ladyada/388601923",
+        "https://www.flickr.com/photos/ladyada/388576688"
+      ],
+      "limitations": [
+        "The complete official generic KiCad LED body above its Z3mm lower-flange plane is preserved by a rigid +3.096mm translation. Exact original fitted LED manufacturer and package tolerances are unknown.",
+        "The selected 6.096mm lower-body height follows the original BOM VCC STD240B 0.24in. The original sequencer table instead says0.22in/5.588mm; that conflict is preserved, not silently resolved as a measured installed height.",
+        "Full stock 0.4x0.4mm lead cross-sections at sourceX0 andX2.54mm are retained and extended continuously from trimmedZ-2.5mm to the new body undersideZ6.096mm. Lead material, cut length and exact fitted original lead specification remain generic illustration data.",
+        "Existing native model offset[1.27,0,0] and rotation[0,0,180] with unity scale are preserved for all40LED references; original footprint axes, polarity, pad and drill geometry are unchanged.",
+        "Clear/unlit lens appearance follows original author PCB/panel photos. STEP light-gray color is an appearance role, not an optical simulation; Blender transmission/refraction settings are presentation choices.",
+        "Spacer height is represented by body seating. No black spacer shape is added because an exact primary outline was not recovered in the bounded search. This avoids inventing unverified outer profile or lead holes.",
+        "Current scene panel seat yields a nominal1.300mm lens-tip projection above the top panel; alternative0.22in spacing yields0.792mm. Native exported assembly measurements must independently confirm this after integration.",
+        "No lead thinning, scaled body, moved PCB footprint, altered panel hole or fitted tolerance/physical assembly claim is made."
+      ],
+      "segments": [
+        {
+          "name": "ClearLensBody",
+          "stl": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads--ClearLensBody.stl",
+          "color_rgb": [
+            0.72,
+            0.82,
+            0.85
+          ]
+        },
+        {
+          "name": "CathodeFullWidthLead",
+          "stl": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads--CathodeFullWidthLead.stl",
+          "color_rgb": [
+            0.824,
+            0.82,
+            0.781
+          ]
+        },
+        {
+          "name": "AnodeFullWidthLead",
+          "stl": "Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads--AnodeFullWidthLead.stl",
+          "color_rgb": [
+            0.824,
+            0.82,
+            0.781
+          ]
+        }
+      ],
+      "geometry": {
+        "valid": true,
+        "solids": 3,
+        "faces": 20,
+        "volume_mm3": 156.2922822263168,
+        "exact_bounds_mm": [
+          -1.2300000000003966,
+          -2.9,
+          -2.5,
+          4.17,
+          2.9,
+          14.696000000000002
+        ],
+        "union_solid_count": 1,
+        "STL_closed": true,
+        "STL_facets": 4958,
+        "AP214_styled_faces": 20
+      },
+      "dimensions": {
+        "generic_source_lower_body_Z_mm": 3,
+        "selected_BOM_body_lower_Z_mm": 6.096,
+        "source_body_rigid_lift_mm": 3.096,
+        "lens_top_Z_mm": 14.696,
+        "stock_lens_body_height_mm": 8.6,
+        "full_lead_width_mm": 0.4,
+        "full_lead_thickness_mm": 0.4,
+        "lead_axis_source_X_mm": [
+          0,
+          2.54
+        ],
+        "trimmed_tail_minimum_Z_mm": -2.5,
+        "unresolved_seq_alternative_standoff_mm": 5.588
+      },
+      "stock_source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/led-assembly-quality/sources/official-KiCad-LED_D5.0mm-original.step",
+      "stock_source_sha256": "7cc5086e6ee1fb4853d1fb74675a61a436c8811204094823b31f04ce788e5d40",
+      "source_body_before_lift_bounds_mm": [
+        -1.2300000000003966,
+        -2.9,
+        3.0,
+        4.17,
+        2.9,
+        11.600000000000001
+      ],
+      "source_body_volume_mm3": 153.54156222631704,
+      "stock_source_license": "sources/KiCad-package-library-LICENSE.md"
+    }
+  ],
+  "assignments": [
+    {
+      "board": "mainboard",
+      "references": [
+        "LED1",
+        "LED2",
+        "LED3",
+        "LED4",
+        "LED5",
+        "LED6",
+        "LED7",
+        "LED8",
+        "LED9",
+        "LED10",
+        "LED11",
+        "LED12",
+        "LED13",
+        "LED14",
+        "LED15",
+        "LED16",
+        "LED17",
+        "LED18",
+        "LED19",
+        "LED20",
+        "LED21",
+        "LED22",
+        "LED23",
+        "LED24",
+        "LED25",
+        "LED26",
+        "LED27",
+        "LED28",
+        "LED29",
+        "LED30",
+        "LED31",
+        "LED32",
+        "LED33",
+        "LED34",
+        "LED35",
+        "LED36",
+        "LED37",
+        "LED38",
+        "LED39",
+        "LED40"
+      ],
+      "footprint": "LED5MM",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step",
+      "source_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+      "offset_mm": [
+        1.27,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        180
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "source_kind": "Official generic source body with original author BOM spacer height and full-width continuous installed leads",
+      "classification": "Original-photo clear-body generic 5mm LED with source-BOM spacer seat and full-width extended leads",
+      "limitations": [
+        "The complete official generic KiCad LED body above its Z3mm lower-flange plane is preserved by a rigid +3.096mm translation. Exact original fitted LED manufacturer and package tolerances are unknown.",
+        "The selected 6.096mm lower-body height follows the original BOM VCC STD240B 0.24in. The original sequencer table instead says0.22in/5.588mm; that conflict is preserved, not silently resolved as a measured installed height.",
+        "Full stock 0.4x0.4mm lead cross-sections at sourceX0 andX2.54mm are retained and extended continuously from trimmedZ-2.5mm to the new body undersideZ6.096mm. Lead material, cut length and exact fitted original lead specification remain generic illustration data.",
+        "Existing native model offset[1.27,0,0] and rotation[0,0,180] with unity scale are preserved for all40LED references; original footprint axes, polarity, pad and drill geometry are unchanged.",
+        "Clear/unlit lens appearance follows original author PCB/panel photos. STEP light-gray color is an appearance role, not an optical simulation; Blender transmission/refraction settings are presentation choices.",
+        "Spacer height is represented by body seating. No black spacer shape is added because an exact primary outline was not recovered in the bounded search. This avoids inventing unverified outer profile or lead holes.",
+        "Current scene panel seat yields a nominal1.300mm lens-tip projection above the top panel; alternative0.22in spacing yields0.792mm. Native exported assembly measurements must independently confirm this after integration.",
+        "No lead thinning, scaled body, moved PCB footprint, altered panel hole or fitted tolerance/physical assembly claim is made."
+      ],
+      "source_urls": [
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.ladyada.net/make/x0xb0x/fab/seq/index.html",
+        "https://www.flickr.com/photos/ladyada/388601923",
+        "https://www.flickr.com/photos/ladyada/388576688"
+      ],
+      "replaces_source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/input-snapshot/mainboard/3dmodels/KiCad/LED_THT.3dshapes/LED_D5.0mm.step",
+      "replaces_source_sha256": "7cc5086e6ee1fb4853d1fb74675a61a436c8811204094823b31f04ce788e5d40"
+    }
+  ],
+  "generator": "build_LED_installed.py",
+  "license": "Reconstruction code CC0-1.0; modified official KiCad source-head geometry is CC-BY-SA-4.0 with the official KiCad library exception; original source texts and photos retain publisher rights.",
+  "geometry_audit": "led-assembly-geometry-audit.json",
+  "native_export_audit": "native-probes/native-export-audit.json",
+  "documentation": "README.md",
+  "panel_hole_audit": "led-panel-hole-audit.json",
+  "visually_reviewed_native_preview": "LED-native-panel-mount-review.png",
+  "visual_review": {
+    "viewed": true,
+    "result": "Complete native clear lens body passes through original diameter panel-hole patch with two full-width leads continuously reaching PCB holes; no clipping or missing model segment observed. Internal optics and physical spacer shell are omitted explicitly."
+  }
+}

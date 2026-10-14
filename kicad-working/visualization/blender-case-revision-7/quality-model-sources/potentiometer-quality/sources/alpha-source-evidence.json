@@ -1,0 +1,252 @@
+{
+  "scope": "Read-only bounded primary-source review for Alpha RV112BCF-40 geometry; no model or project edits.",
+  "date": "2026-10-14",
+  "original_references": [
+    "VR4",
+    "VR6"
+  ],
+  "original_parts": [
+    "RV112BCF-40-25F-B54",
+    "RV112BCF-40-25F-A16"
+  ],
+  "original_selection_evidence": "Revision6 control-body-manifest.json retains original Ladyada BOM names and source URLs.",
+  "primary_source": {
+    "url": "https://www.taiwanalpha.com/downloads?target=products&id=77",
+    "local_file": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/potentiometer-quality/sources/alpha-insulated-rv112b-primary.pdf",
+    "sha256": "7996dbeabb138b63046c41f3a3be0edd3009eeee0aed250087605a7c6d8b69d6",
+    "bytes": 948426,
+    "title": "11mm Dual Gangs, Snap-In Series",
+    "manufacturer": "Taiwan Alpha Electronic Co., Ltd.",
+    "catalog_index": "https://www.taiwanalpha.com/en/products/4",
+    "public_catalog_link_observed": "Insulated shaft and metal shaft RV112B row links downloads?target=products&id=77",
+    "pages_visually_reviewed": [
+      4,
+      5
+    ],
+    "family_variant": "RV112BCF-40, opaque plastic shaft, unthreaded sleeve"
+  },
+  "rejected_exact_variant_source": {
+    "local_file": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-8/control-quality/sources/alpha-current-rv112b-primary.pdf",
+    "url": "https://www.taiwanalpha.com/downloads?id=78&target=products",
+    "sha256": "8062b491418d110a9607cdd899b9b9999e44eff56d8cca0d6a8733093ce7c1eb",
+    "reason": "Transparent Shaft RV112BCF-40-25AL family. Shared dimensional corroboration only; not exact original opaque shaft/material source."
+  },
+  "manufacturer_cad_search": {
+    "conclusion": "No openly downloadable official RV112BCF-40 STEP/IGES/3D CAD found in this bounded search. Public official catalogue exposes a PDF drawing only for this family. This is not proof that no manufacturer CAD exists.",
+    "queries": [
+      "site.taiwanalpha.com RV112B 3D CAD",
+      "site.taiwanalpha.com RV112B STEP",
+      "site.taiwanalpha.com RV112B CAD",
+      "Alpha RV112BCF-40 3D CAD STEP"
+    ],
+    "official_pages_checked": [
+      "https://www.taiwanalpha.com/en/products/4",
+      "https://www.taiwanalpha.com/downloads?target=products&id=77"
+    ],
+    "wrong_variants_used": false,
+    "auth_bypass_attempted": false
+  },
+  "canonical_convention": {
+    "x": "original F.Cu footprint X",
+    "y": "negative original F.Cu footprint Y",
+    "z": "outward from component side",
+    "origin": "Original library origin in XY; housing rear datum at Z=0",
+    "terminal_side": "negative Y",
+    "side_flip_baked": false,
+    "rule": "Retain current model transform; apply actual KiCad footprint rotation and side flip once."
+  },
+  "printed_dimensions_mm": {
+    "housing_axial_depth": {
+      "value": 6.9,
+      "page": 4,
+      "interpretation": "Rear housing datum to front sleeve seat; shaft L starts at rear datum, not sleeve front."
+    },
+    "sleeve_diameter": {
+      "value": 7.2,
+      "page": 4,
+      "interpretation": "Smooth sleeve; do not add M9 threads from E1 sibling."
+    },
+    "sleeve_axial_projection": {
+      "value": 5.0,
+      "page": 4
+    },
+    "shaft_diameter": {
+      "value": 6.0,
+      "page": 4
+    },
+    "shaft_across_flat": {
+      "value": 4.5,
+      "page": 4
+    },
+    "current25A_L": {
+      "value": 25.0,
+      "page": 5,
+      "interpretation": "Rear datum to shaft tip; retain Ztip=25.0, not 31.9 or Panasonic30."
+    },
+    "current25A_flat_F_options": {
+      "values": [
+        7.0,
+        12.0
+      ],
+      "page": 5,
+      "interpretation": "25A column explicitly provides both7 and12; chosen7 remains qualified and not historical25F confirmation."
+    },
+    "front_outline_main_width": {
+      "value": 11.0,
+      "page": 4
+    },
+    "front_outline_upper_flange_width": {
+      "value": 12.0,
+      "page": 4
+    },
+    "front_outline_lower_inner_width": {
+      "value": 13.0,
+      "page": 4
+    },
+    "front_outline_lower_overall_width": {
+      "value": 13.6,
+      "page": 4
+    },
+    "shaft_axis_to_upper_outline": {
+      "value": 6.7,
+      "page": 4
+    },
+    "shaft_axis_to_lower_outline": {
+      "value": 8.7,
+      "page": 4
+    },
+    "overall_Y_extent_derived": {
+      "value": 15.4,
+      "formula": "6.7+8.7",
+      "canonical_range": [
+        -8.7,
+        6.7
+      ]
+    },
+    "side_internal_body_height": {
+      "value": 10.0,
+      "page": 4,
+      "interpretation": "Internal molded body side elevation; not complete front flange extent."
+    },
+    "terminal_pitch": {
+      "value": 2.0,
+      "page": 4
+    },
+    "terminal_row_span": {
+      "value": 10.0,
+      "formula": "5x2.0"
+    },
+    "recommended_electrical_hole_diameter": {
+      "value": 1.0,
+      "page": 4
+    },
+    "mounting_tab_pitch": {
+      "value": 13.0,
+      "page": 4,
+      "interpretation": "PCB mounting-hole detail; do not confuse with outer lower flange width13.6."
+    },
+    "mounting_slot_size": {
+      "value": [
+        2.0,
+        2.1
+      ],
+      "page": 4
+    },
+    "mounting_slot_to_electrical_row": {
+      "value": 11.0,
+      "page": 4
+    },
+    "rearward_terminal_reach": {
+      "values": [
+        3.2,
+        3.5
+      ],
+      "page": 4,
+      "interpretation": "Terminal/bent lead geometry, not body axial height."
+    },
+    "terminal_end_from_axis_in_side_elevation": {
+      "value": 11.0,
+      "page": 4,
+      "interpretation": "Below/negativeY terminal reach; do not enlarge body to this dimension."
+    },
+    "full_CCW_shaft_flat_clocking_deg": {
+      "value": 30.0,
+      "page": 4,
+      "interpretation": "Drawing pose only. Arbitrary visual shaft pose must not claim this electrical state."
+    },
+    "shaft_tip_taper_radial_reduction": {
+      "value": 0.5,
+      "count": 2,
+      "printed_callout": "2-0.5",
+      "page": 4,
+      "interpretation": "Two0.5mm radial reductions shown at upper/lower tip in side elevation. This is neither2mm axial length nor2.0 +/-0.5. Verified600dpi crop arrows span radial gap fromD6surface to tip surface."
+    },
+    "shaft_tip_nominal_diameter_derived": {
+      "value": 5.0,
+      "formula": "6.0-2*0.5",
+      "qualification": "Derived taper-cylinder diameter only; not separately printed, and flat intersection remains source-shaped. Axial taper length and angle are unsized."
+    }
+  },
+  "published_datums_to_retain": {
+    "nominal_bounds_mm": [
+      -6.8,
+      -8.7,
+      0.0,
+      6.8,
+      6.7,
+      25.0
+    ],
+    "rear_housing_Z": 0.0,
+    "sleeve_seat_Z": 6.9,
+    "sleeve_end_Z": 11.9,
+    "shaft_tip_Z": 25.0,
+    "full_nominal_dimensions": true
+  },
+  "detail_features_supported_by_outline_and_photo": [
+    {
+      "feature": "Narrow molded dual-gang stack inside folded metal cage with overhanging front flange",
+      "status": "Shape and material distinction visible; exact wafer layer thicknesses, splits and cage stock thickness are unsized."
+    },
+    {
+      "feature": "Stepped upper front11/12mm widths and widened lower13/13.6mm outline",
+      "status": "Widths printed; transitions, corner radii, flange stock thickness and exact axial extrusion split are unsized."
+    },
+    {
+      "feature": "Four circular front cage fastener/rivet indications",
+      "status": "Visible in drawing; diameters and local centers unsized. Do not claim them as confirmed clearance through-holes."
+    },
+    {
+      "feature": "Side cage notches/tabs, rear cage folds and lower central folded tongue",
+      "status": "Visible contours; local sizes and depths unsized reconstruction."
+    },
+    {
+      "feature": "Black/opaque insulating sleeve and flatted shaft",
+      "status": "Opaque plastic supported by correct-family source photograph and plastic shaft description; exact resin/finish not established."
+    },
+    {
+      "feature": "Dual resistor wafers/terminal carrier",
+      "status": "Dual unit and six terminals established. Carrier shape, color and layer thickness may be approximated and must be labeled unsized."
+    },
+    {
+      "feature": "Shaft shoulder, taper/chamfer at tip and end relief",
+      "status": "ShaftD6, acrossflat4.5 and two0.5mm radial tip reductions are dimensioned. Tip taper axial length/angle, shoulder blending and end relief remain unsized."
+    }
+  ],
+  "reconstruction_limits": [
+    "Historical original25F suffix is not rewritten to25A. Current25A family dimensions may inform a qualified visual derivative only.",
+    "Primary77 family model table labels RV112BCF-40 terminal type Horizontal despite vertical terminal drawing/current distributor terminology. Preserve this source inconsistency; actual footprint and drawing govern orientation.",
+    "No exact historical part CAD, mold revision, wafer stock, body seating gap, tolerance stack or installed shaft rotation established.",
+    "Body-only asset must omit leads and mounting legs unless separately qualified and fit checked; no below-seat metal implied by body-only reconstruction.",
+    "No enclosure clearance-driven shrink, shaft shortening or model transform changes.",
+    "Manufacturer drawings retain original rights; only independently generated reconstruction geometry may use the project geometry license."
+  ],
+  "prior_manifest": {
+    "path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/control-body-manifest.json",
+    "sha256": "26ac833a83addd4c662d7d1bd5df9d0eae795a9e58761e63ca0c5b92a03e0aa8"
+  },
+  "actual_project_files_modified": false,
+  "visual_review_detail": {
+    "page4_tip_crop": "Rendered at600dpi to /tmp/alpha-tip-detail-4.png and visually inspected; no retained source file modified.",
+    "page4_RV112BCF_row": "Rendered at300dpi to /tmp/alpha-rv112bcf-row-4.png and visually inspected."
+  }
+}

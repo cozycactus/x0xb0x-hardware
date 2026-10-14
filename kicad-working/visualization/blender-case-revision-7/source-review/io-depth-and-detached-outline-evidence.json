@@ -1,0 +1,179 @@
+{
+  "decision": "Preserve the detached historical Dimension contour as a separate construction reference; hide it by default in a presentation copy, without moving the main I/O board or editing PCB/GLB source.",
+  "classification": "Likely rear-panel cross-section / mechanical construction reference. Exact original intended identity is not proven.",
+  "physical_PCB_rectangle_KiCad_mm": {
+    "x": [
+      0,
+      213.36
+    ],
+    "y": [
+      -44.45,
+      0
+    ],
+    "width": 213.36,
+    "depth": 44.45
+  },
+  "detached_rectangle_KiCad_mm": {
+    "x": [
+      -4.064,
+      218.186
+    ],
+    "y": [
+      0.508,
+      2.159
+    ],
+    "width": 222.25,
+    "depth": 1.651,
+    "gap_from_PCB_rear_edge": 0.508
+  },
+  "original_Eagle_Dimension_wires": [
+    {
+      "layer": "20",
+      "x1": "0.0000",
+      "y1": "0.0000",
+      "x2": "213.3600",
+      "y2": "0.0000",
+      "width": "0.0000"
+    },
+    {
+      "layer": "20",
+      "x1": "213.3600",
+      "y1": "0.0000",
+      "x2": "213.3600",
+      "y2": "44.4500",
+      "width": "0.0000"
+    },
+    {
+      "layer": "20",
+      "x1": "213.3600",
+      "y1": "44.4500",
+      "x2": "0.0000",
+      "y2": "44.4500",
+      "width": "0.0000"
+    },
+    {
+      "layer": "20",
+      "x1": "0.0000",
+      "y1": "44.4500",
+      "x2": "0.0000",
+      "y2": "0.0000",
+      "width": "0.0254"
+    },
+    {
+      "layer": "20",
+      "x1": "-4.0640",
+      "y1": "-0.5080",
+      "x2": "218.1860",
+      "y2": "-0.5080",
+      "width": "0.0254"
+    },
+    {
+      "layer": "20",
+      "x1": "218.1860",
+      "y1": "-0.5080",
+      "x2": "218.1860",
+      "y2": "-2.1590",
+      "width": "0.0254"
+    },
+    {
+      "layer": "20",
+      "x1": "218.1860",
+      "y1": "-2.1590",
+      "x2": "-4.0640",
+      "y2": "-2.1590",
+      "width": "0.0254"
+    },
+    {
+      "layer": "20",
+      "x1": "-4.0640",
+      "y1": "-2.1590",
+      "x2": "-4.0640",
+      "y2": "-0.5080",
+      "width": "0.0254"
+    },
+    {
+      "layer": "20",
+      "x1": "-3.9370",
+      "y1": "-2.9210",
+      "x2": "220.3450",
+      "y2": "-2.9210",
+      "width": "0.0254"
+    }
+  ],
+  "cross_section_correspondence": {
+    "strip_depth_in": 0.065,
+    "original_panel_thickness_in": 0.062,
+    "difference_mm": 0.0762,
+    "strip_width_mm": 222.25,
+    "actual_rear_panel_DXF_width_mm": 217.932,
+    "width_difference_mm": 4.318,
+    "three_REAN_body_front_KiCad_Y_mm": 0.508,
+    "strip_inner_edge_KiCad_Y_mm": 0.508
+  },
+  "native_mesh_split_report": "io-detached-contour-native-meshes.json",
+  "affected_saved_object_names": [
+    "IOBOARD/PCB layers/mesh.003",
+    "IOBOARD/PCB layers/mesh.005",
+    "IOBOARD/PCB layers/mesh.006",
+    "IOBOARD/PCB layers/mesh.007"
+  ],
+  "total_detached_mesh_vertices": 130,
+  "total_detached_mesh_polygons": 92,
+  "crossing_polygons": 0,
+  "photo_evidence": {
+    "original_url": "https://ladyada.net/make/x0xb0x/fab/images/ioboard_done.jpg",
+    "pinned_mirror_url": "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/images/ioboard_done.jpg",
+    "mirror_commit": "1910f746d2d8758f2651596b00c08f76c847c926",
+    "local": "original-ioboard-done.jpg",
+    "observation": "One rectangular populated PCB is visible; no detached parallel narrow green board is present. DIN connector faces align with the rear PCB edge."
+  },
+  "manual_evidence": {
+    "url": "https://ladyada.net/make/x0xb0x/fab/ioboard/index.html",
+    "local": "original-ioboard-manual.md",
+    "finding": "Soldering step9 instructs pressing DIN connectors back so their faces are flush with the PCB. Finishing step5 says the rear panel is attached through the1/4-inch jacks."
+  },
+  "depth_recommendation": {
+    "apply_now": false,
+    "arbitrary_2_3mm_shift": "Not justified; all14 sampled hits were on the detached construction contour, not the populated PCB rectangle.",
+    "historical_drawing_candidate": "The original strip inner edge and allthree REAN body-front silks coincide at KiCadY+.508; if treated as intended rear-panel inner-face datum, PCBnativeY0 should sit .508mm forward of the inner panel face.",
+    "current_NYS216_family_candidate": "Current manufacturer front-lead depths4/10.35/16.70mm compared with original4.35/10.70/17.05mm and footprintplacementY+.508 imply currentfamily body-frontY+.158; exacthistorical variant is not proven.",
+    "limitation": "Both candidates are submillimeter, and do not justify shifting the board2.3mm. Preserve the current board transform for the immediate reference separation."
+  },
+  "sources": [
+    {
+      "path": "ioboard.brd",
+      "sha256": "76b6d3c1b71adafd8b84ae0141f78a480a07d13c3eb908694f8cd212c833270e",
+      "bytes": 46298
+    },
+    {
+      "path": "kicad-import/validation/repaired-eagle-xml/ioboard.brd",
+      "sha256": "5cf8a750ca05350712c991a296348b0f06c9124a382659435675afd91980ce95",
+      "bytes": 435176
+    },
+    {
+      "path": "kicad-working/ioboard/ioboard.kicad_pcb",
+      "sha256": "33165521e8ba18bda663e633594cbefefea4a9e43fee5a7ac4a513d1486c7974",
+      "bytes": 956143
+    },
+    {
+      "path": "kicad-working/visualization/blender-case/board-meshes/ioboard.glb",
+      "sha256": "96ff82cd5d76c7cfee349528209ab8b549032b1ebb9bf535bc5502d128cec83e",
+      "bytes": 12025704
+    },
+    {
+      "path": "kicad-working/visualization/blender-case/next-review/original-ioboard-done.jpg",
+      "sha256": "cebc229db578cae5703682754e7bd16ab94391f0d5add38fab34f8f5270f35e3",
+      "bytes": 190023
+    },
+    {
+      "path": "kicad-working/visualization/blender-case/next-review/mj-3536n.pdf",
+      "sha256": "f589370e302b8e331eeb777d19cfb85fd5521162b5cfe2e722284fda693474dc",
+      "bytes": 279558
+    },
+    {
+      "path": "kicad-working/validation/models-review-5/connector-models/nys216.pdf",
+      "sha256": "3b41beb12880dae7b02c99e7c3296d22b3ac7eb45e87a7b5b2d194b44ad5fec7",
+      "bytes": 138690
+    }
+  ]
+}

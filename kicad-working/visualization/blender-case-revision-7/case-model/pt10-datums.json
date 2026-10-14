@@ -1,0 +1,110 @@
+{
+  "units": "mm",
+  "world_frame": {
+    "x": "across case, centered",
+    "y": "front to rear",
+    "z": "bottom cover outer floor at zero, feet excluded"
+  },
+  "source": {
+    "url": "https://www.farnell.com/datasheets/1483254.pdf",
+    "drawing": "PacTec 82232 revision C, PT-10",
+    "local": "../source/pactec-pt10-manufacturer-drawing.pdf",
+    "sha256": "bc763ac06161166e58c34a4274821632c2e86a09521e6776b953714de2b94734"
+  },
+  "verified_dimensions_mm": {
+    "outer_width": 279.4,
+    "outer_depth": 203.1492,
+    "outer_height": 77.0382,
+    "slope_degrees": 15.0,
+    "main_panel_width": 232.41,
+    "main_panel_depth_along_slope": 163.2712,
+    "panel_thickness": 1.5748,
+    "rear_panel_width": 217.932,
+    "rear_panel_height": 52.578,
+    "nominal_floor_thickness": 2.54,
+    "bottom_pcb_mount_height_above_inner_floor": 6.35
+  },
+  "main_panel": {
+    "underside_origin_left_front_mm": [
+      -116.205,
+      22.6929,
+      31.9532
+    ],
+    "basis_u": [
+      1,
+      0,
+      0
+    ],
+    "basis_v": [
+      0,
+      0.9659258262890683,
+      0.25881904510252074
+    ],
+    "outward_normal": [
+      0,
+      -0.25881904510252074,
+      0.9659258262890683
+    ],
+    "size_mm": [
+      232.41,
+      163.2712
+    ],
+    "thickness_mm": 1.5748,
+    "front_underside_z_interpretation": "2.54 floor thickness + 1.158 inch front datum in section C-C; front datum is interpreted as panel underside.",
+    "front_setback_status": "22.6929 mm inferred from dimensionally calibrated vector section C-C (not a printed dimension); use +/-0.5 mm visualization uncertainty.",
+    "mounting_hole_centres_from_left_front_mm": [
+      [
+        6.9088,
+        8.5852
+      ],
+      [
+        225.5012,
+        8.5852
+      ],
+      [
+        6.9088,
+        154.686
+      ],
+      [
+        225.5012,
+        154.686
+      ]
+    ]
+  },
+  "rear_panel": {
+    "outer_face_origin_outside_view_left_bottom_mm": [
+      108.966,
+      198.4947,
+      6.2992
+    ],
+    "basis_u": [
+      -1,
+      0,
+      0
+    ],
+    "basis_v": [
+      0,
+      0,
+      1
+    ],
+    "outward_normal": [
+      0,
+      1,
+      0
+    ],
+    "size_mm": [
+      217.932,
+      52.578
+    ],
+    "thickness_mm": 1.5748,
+    "lower_edge_z_interpretation": "floor inner z 2.54 + bottom PCB boss .250 inch 6.35 - rear groove lower offset .102 inch 2.5908 = 6.2992 mm, from detail D.",
+    "depth_status": "outer face y=198.4947 mm traced from calibrated section C-C rear plate line, not a printed setback dimension; use +/-0.5 mm visualization uncertainty.",
+    "unresolved_view_conflict": "The undimensioned vertical placement of the rear opening in the rear orthographic silhouette appears about 10 mm above the section C-C/detail D placement. This reconstruction uses the explicit detail D stack for rear-panel Z. Verify against an actual PT-10 before mechanical use."
+  },
+  "assumptions": [
+    "2.54 mm nominal thickness is directly dimensioned at the top support and observed at the bottom; side-wall thickness generalized to the same nominal for visualization.",
+    "Unsized molded corner radii, taper, seam, ribs, bosses and clip geometry require approximation; no original 3D CAD found.",
+    "Floor at z=0 excludes supplied rubber feet; feet dimensions are not provided."
+  ],
+  "case_mesh_manifest": "case-parts.json"
+}

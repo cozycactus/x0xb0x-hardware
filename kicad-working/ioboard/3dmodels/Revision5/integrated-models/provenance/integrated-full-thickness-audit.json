@@ -1,0 +1,2816 @@
+{
+  "audit": "Independent exported STEP full nominal PCB thickness sampling against actual placed drills",
+  "passed": true,
+  "check_count": 273,
+  "failure_count": 0,
+  "failures": [],
+  "depths_below_board_mm": [
+    0.001,
+    0.1,
+    0.4,
+    0.8,
+    1.2,
+    1.5,
+    1.599
+  ],
+  "results": [
+    {
+      "board": "mainboard",
+      "refs": [
+        "IC14"
+      ],
+      "model": "SIP9_LA4140_3017C_MaxBody_P2.54_Illustration.step",
+      "shape_valid": true,
+      "actual_board_sha256": "bb36f421cafdfb941c081c9f701cdd2d7c132d03002f579b11005db907353867",
+      "checks": [
+        {
+          "reference": "IC14",
+          "pin": "1",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "2",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "3",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "4",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "5",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "6",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "7",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "8",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "9",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "1",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "2",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "3",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "4",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "5",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "6",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "7",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "8",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "9",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "1",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "2",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "3",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "4",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "5",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "6",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "7",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "8",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "9",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "1",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "2",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "3",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "4",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "5",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "6",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "7",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "8",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "9",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "1",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "2",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "3",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "4",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "5",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "6",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "7",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "8",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "9",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "1",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "2",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "3",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "4",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "5",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "6",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "7",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "8",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "9",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "1",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "2",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "3",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.2795084971874753,
+          "radial_margin_mm": 0.17049150281252473,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "4",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "5",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "6",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "7",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "8",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874745,
+          "radial_margin_mm": 0.1704915028125255,
+          "passed": true
+        },
+        {
+          "reference": "IC14",
+          "pin": "9",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.2795084971874737,
+          "radial_margin_mm": 0.17049150281252629,
+          "passed": true
+        }
+      ],
+      "minimum_radial_margin_mm": 0.17049150281252473,
+      "passed": true
+    },
+    {
+      "board": "mainboard",
+      "refs": [
+        "IC15B0"
+      ],
+      "model": "SIP9_BA6110_NominalBody_P2.54_Illustration.step",
+      "shape_valid": true,
+      "actual_board_sha256": "bb36f421cafdfb941c081c9f701cdd2d7c132d03002f579b11005db907353867",
+      "checks": [
+        {
+          "reference": "IC15B0",
+          "pin": "1",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "2",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.36055512754639957,
+          "radial_margin_mm": 0.08944487245360044,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "3",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.3605551275464018,
+          "radial_margin_mm": 0.08944487245359822,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "4",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.3322676295501878e-15,
+          "lead_section_radius_mm": 0.3605551275463988,
+          "radial_margin_mm": 0.08944487245360122,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "5",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "6",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.36055512754639985,
+          "radial_margin_mm": 0.08944487245360017,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "7",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.3605551275464018,
+          "radial_margin_mm": 0.08944487245359822,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "8",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.3605551275463991,
+          "radial_margin_mm": 0.08944487245360089,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "9",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "1",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "2",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.36055512754639957,
+          "radial_margin_mm": 0.08944487245360044,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "3",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.3605551275464018,
+          "radial_margin_mm": 0.08944487245359822,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "4",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.3322676295501878e-15,
+          "lead_section_radius_mm": 0.3605551275463988,
+          "radial_margin_mm": 0.08944487245360122,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "5",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "6",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.36055512754639985,
+          "radial_margin_mm": 0.08944487245360017,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "7",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.3605551275464018,
+          "radial_margin_mm": 0.08944487245359822,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "8",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.3605551275463991,
+          "radial_margin_mm": 0.08944487245360089,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "9",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "1",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "2",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.36055512754639957,
+          "radial_margin_mm": 0.08944487245360044,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "3",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.3605551275464018,
+          "radial_margin_mm": 0.08944487245359822,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "4",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.3322676295501878e-15,
+          "lead_section_radius_mm": 0.3605551275463988,
+          "radial_margin_mm": 0.08944487245360122,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "5",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "6",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.36055512754639985,
+          "radial_margin_mm": 0.08944487245360017,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "7",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.3605551275464018,
+          "radial_margin_mm": 0.08944487245359822,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "8",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.3605551275463991,
+          "radial_margin_mm": 0.08944487245360089,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "9",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "1",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "2",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.36055512754639957,
+          "radial_margin_mm": 0.08944487245360044,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "3",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.3605551275464018,
+          "radial_margin_mm": 0.08944487245359822,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "4",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.3322676295501878e-15,
+          "lead_section_radius_mm": 0.3605551275463988,
+          "radial_margin_mm": 0.08944487245360122,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "5",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "6",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.36055512754639985,
+          "radial_margin_mm": 0.08944487245360017,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "7",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.3605551275464018,
+          "radial_margin_mm": 0.08944487245359822,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "8",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.3605551275463991,
+          "radial_margin_mm": 0.08944487245360089,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "9",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "1",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "2",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.36055512754639957,
+          "radial_margin_mm": 0.08944487245360044,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "3",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.3605551275464018,
+          "radial_margin_mm": 0.08944487245359822,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "4",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.3322676295501878e-15,
+          "lead_section_radius_mm": 0.3605551275463988,
+          "radial_margin_mm": 0.08944487245360122,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "5",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "6",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.36055512754639985,
+          "radial_margin_mm": 0.08944487245360017,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "7",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.3605551275464018,
+          "radial_margin_mm": 0.08944487245359822,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "8",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.3605551275463991,
+          "radial_margin_mm": 0.08944487245360089,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "9",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "1",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "2",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.36055512754639957,
+          "radial_margin_mm": 0.08944487245360044,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "3",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.3605551275464018,
+          "radial_margin_mm": 0.08944487245359822,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "4",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.3322676295501878e-15,
+          "lead_section_radius_mm": 0.3605551275463988,
+          "radial_margin_mm": 0.08944487245360122,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "5",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "6",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.36055512754639985,
+          "radial_margin_mm": 0.08944487245360017,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "7",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.3605551275464018,
+          "radial_margin_mm": 0.08944487245359822,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "8",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.3605551275463991,
+          "radial_margin_mm": 0.08944487245360089,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "9",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "1",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "2",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.36055512754639957,
+          "radial_margin_mm": 0.08944487245360044,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "3",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.3605551275464018,
+          "radial_margin_mm": 0.08944487245359822,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "4",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.3322676295501878e-15,
+          "lead_section_radius_mm": 0.3605551275463988,
+          "radial_margin_mm": 0.08944487245360122,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "5",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "6",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.36055512754639985,
+          "radial_margin_mm": 0.08944487245360017,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "7",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 1.7763568394002505e-15,
+          "lead_section_radius_mm": 0.3605551275464018,
+          "radial_margin_mm": 0.08944487245359822,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "8",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 8.881784197001252e-16,
+          "lead_section_radius_mm": 0.3605551275463991,
+          "radial_margin_mm": 0.08944487245360089,
+          "passed": true
+        },
+        {
+          "reference": "IC15B0",
+          "pin": "9",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.9,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3605551275464003,
+          "radial_margin_mm": 0.08944487245359972,
+          "passed": true
+        }
+      ],
+      "minimum_radial_margin_mm": 0.08944487245359822,
+      "passed": true
+    },
+    {
+      "board": "mainboard",
+      "refs": [
+        "Q12",
+        "Q21",
+        "Q26"
+      ],
+      "model": "SSIP5_2SC1583_MaxBody_FannedP2.286_Illustration.step",
+      "shape_valid": true,
+      "actual_board_sha256": "bb36f421cafdfb941c081c9f701cdd2d7c132d03002f579b11005db907353867",
+      "checks": [
+        {
+          "reference": "Q12",
+          "pin": "1",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "2",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "3",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "4",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "5",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "1",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "2",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "3",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "4",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "5",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "1",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "2",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "3",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "4",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "5",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "1",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "2",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "3",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "4",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "5",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "1",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "2",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "3",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "4",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "5",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "1",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "2",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "3",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "4",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "5",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "1",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "2",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "3",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "4",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "5",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "1",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "2",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "3",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "4",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "5",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "1",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "2",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "3",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "4",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "5",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "1",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "2",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "3",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "4",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "5",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "1",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "2",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "3",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "4",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "5",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "1",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "2",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "3",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "4",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "5",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "1",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "2",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "3",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "4",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "5",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "1",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "2",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "3",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "4",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "5",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "1",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "2",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "3",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "4",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "5",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "1",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "2",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "3",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "4",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "5",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "1",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "2",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "3",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "4",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "5",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "1",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "2",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "3",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "4",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "5",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "1",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "2",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "3",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "4",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q12",
+          "pin": "5",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "1",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "2",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "3",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "4",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q21",
+          "pin": "5",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "1",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "2",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "3",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000003,
+          "radial_margin_mm": 0.27499999999999997,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "4",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000023,
+          "radial_margin_mm": 0.2749999999999998,
+          "passed": true
+        },
+        {
+          "reference": "Q26",
+          "pin": "5",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.22500000000000045,
+          "radial_margin_mm": 0.2749999999999996,
+          "passed": true
+        }
+      ],
+      "minimum_radial_margin_mm": 0.2749999999999996,
+      "passed": true
+    },
+    {
+      "board": "ioboard",
+      "refs": [
+        "XTL2"
+      ],
+      "model": "Resonator_AWCR6MD_MaxBody_P2.54_Illustration.step",
+      "shape_valid": true,
+      "actual_board_sha256": "49435937e956ef0fbc42e54ff4e635418ac1b6ae8d4f7d896a36c01ec7693785",
+      "checks": [
+        {
+          "reference": "XTL2",
+          "pin": "P$3",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 1.3322676295501878e-15,
+          "lead_section_radius_mm": 0.34731109973624497,
+          "radial_margin_mm": 0.05908890026375502,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$2",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3473110997362451,
+          "radial_margin_mm": 0.05908890026375491,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$1",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.34731109973624685,
+          "radial_margin_mm": 0.05908890026375313,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$3",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 1.3322676295501878e-15,
+          "lead_section_radius_mm": 0.34731109973624497,
+          "radial_margin_mm": 0.05908890026375502,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$2",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3473110997362451,
+          "radial_margin_mm": 0.05908890026375491,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$1",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.34731109973624685,
+          "radial_margin_mm": 0.05908890026375313,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$3",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 1.3322676295501878e-15,
+          "lead_section_radius_mm": 0.34731109973624497,
+          "radial_margin_mm": 0.05908890026375502,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$2",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3473110997362451,
+          "radial_margin_mm": 0.05908890026375491,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$1",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.34731109973624685,
+          "radial_margin_mm": 0.05908890026375313,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$3",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 1.3322676295501878e-15,
+          "lead_section_radius_mm": 0.34731109973624497,
+          "radial_margin_mm": 0.05908890026375502,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$2",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3473110997362451,
+          "radial_margin_mm": 0.05908890026375491,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$1",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.34731109973624685,
+          "radial_margin_mm": 0.05908890026375313,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$3",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 1.3322676295501878e-15,
+          "lead_section_radius_mm": 0.34731109973624497,
+          "radial_margin_mm": 0.05908890026375502,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$2",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3473110997362451,
+          "radial_margin_mm": 0.05908890026375491,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$1",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.34731109973624685,
+          "radial_margin_mm": 0.05908890026375313,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$3",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 1.3322676295501878e-15,
+          "lead_section_radius_mm": 0.34731109973624497,
+          "radial_margin_mm": 0.05908890026375502,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$2",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3473110997362451,
+          "radial_margin_mm": 0.05908890026375491,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$1",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.34731109973624685,
+          "radial_margin_mm": 0.05908890026375313,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$3",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 1.3322676295501878e-15,
+          "lead_section_radius_mm": 0.34731109973624497,
+          "radial_margin_mm": 0.05908890026375502,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$2",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.3473110997362451,
+          "radial_margin_mm": 0.05908890026375491,
+          "passed": true
+        },
+        {
+          "reference": "XTL2",
+          "pin": "P$1",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 0.8128,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.34731109973624685,
+          "radial_margin_mm": 0.05908890026375313,
+          "passed": true
+        }
+      ],
+      "minimum_radial_margin_mm": 0.05908890026375313,
+      "passed": true
+    },
+    {
+      "board": "mainboard",
+      "refs": [
+        "XTL1"
+      ],
+      "model": "Resonator_AWCR16MD_MaxBody_P2.54_Illustration.step",
+      "shape_valid": true,
+      "actual_board_sha256": "bb36f421cafdfb941c081c9f701cdd2d7c132d03002f579b11005db907353867",
+      "checks": [
+        {
+          "reference": "XTL1",
+          "pin": "1",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 3.110602869834277e-16,
+          "lead_section_radius_mm": 0.347311099736247,
+          "radial_margin_mm": 0.15268890026375298,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "2",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.34731109973624513,
+          "radial_margin_mm": 0.15268890026375487,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "3",
+          "depth_below_board_mm": 0.001,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 1.368099243068824e-15,
+          "lead_section_radius_mm": 0.34731109973624513,
+          "radial_margin_mm": 0.15268890026375487,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "1",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 3.110602869834277e-16,
+          "lead_section_radius_mm": 0.347311099736247,
+          "radial_margin_mm": 0.15268890026375298,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "2",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.34731109973624513,
+          "radial_margin_mm": 0.15268890026375487,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "3",
+          "depth_below_board_mm": 0.1,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 1.368099243068824e-15,
+          "lead_section_radius_mm": 0.34731109973624513,
+          "radial_margin_mm": 0.15268890026375487,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "1",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 3.110602869834277e-16,
+          "lead_section_radius_mm": 0.347311099736247,
+          "radial_margin_mm": 0.15268890026375298,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "2",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.34731109973624513,
+          "radial_margin_mm": 0.15268890026375487,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "3",
+          "depth_below_board_mm": 0.4,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 1.368099243068824e-15,
+          "lead_section_radius_mm": 0.34731109973624513,
+          "radial_margin_mm": 0.15268890026375487,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "1",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 3.110602869834277e-16,
+          "lead_section_radius_mm": 0.347311099736247,
+          "radial_margin_mm": 0.15268890026375298,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "2",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.34731109973624513,
+          "radial_margin_mm": 0.15268890026375487,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "3",
+          "depth_below_board_mm": 0.8,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 1.368099243068824e-15,
+          "lead_section_radius_mm": 0.34731109973624513,
+          "radial_margin_mm": 0.15268890026375487,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "1",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 3.110602869834277e-16,
+          "lead_section_radius_mm": 0.347311099736247,
+          "radial_margin_mm": 0.15268890026375298,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "2",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.34731109973624513,
+          "radial_margin_mm": 0.15268890026375487,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "3",
+          "depth_below_board_mm": 1.2,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 1.368099243068824e-15,
+          "lead_section_radius_mm": 0.34731109973624513,
+          "radial_margin_mm": 0.15268890026375487,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "1",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 3.110602869834277e-16,
+          "lead_section_radius_mm": 0.347311099736247,
+          "radial_margin_mm": 0.15268890026375298,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "2",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.34731109973624513,
+          "radial_margin_mm": 0.15268890026375487,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "3",
+          "depth_below_board_mm": 1.5,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 1.368099243068824e-15,
+          "lead_section_radius_mm": 0.34731109973624513,
+          "radial_margin_mm": 0.15268890026375487,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "1",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 3.110602869834277e-16,
+          "lead_section_radius_mm": 0.347311099736247,
+          "radial_margin_mm": 0.15268890026375298,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "2",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 0.0,
+          "lead_section_radius_mm": 0.34731109973624513,
+          "radial_margin_mm": 0.15268890026375487,
+          "passed": true
+        },
+        {
+          "reference": "XTL1",
+          "pin": "3",
+          "depth_below_board_mm": 1.599,
+          "actual_board_drill_mm": 1.0,
+          "center_error_mm": 1.368099243068824e-15,
+          "lead_section_radius_mm": 0.34731109973624513,
+          "radial_margin_mm": 0.15268890026375487,
+          "passed": true
+        }
+      ],
+      "minimum_radial_margin_mm": 0.15268890026375298,
+      "passed": true
+    }
+  ],
+  "limits": "Seven sampled planes across nominal1.6mm board; all generated below-board lead sections are straight. Actual part tolerances, plating and fitted geometry remain unverified."
+}

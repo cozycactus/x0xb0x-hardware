@@ -1,0 +1,54 @@
+[
+  {
+    "board": "mainboard",
+    "timestamp_utc": "2026-10-14T17:33:10.127266+00:00",
+    "command": [
+      "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "pcb",
+      "export",
+      "glb",
+      "--force",
+      "--include-tracks",
+      "--include-pads",
+      "--include-zones",
+      "--include-inner-copper",
+      "--include-silkscreen",
+      "--include-soldermask",
+      "-o",
+      "/Users/ruslanmigirov/Downloads/hardware/kicad-working/visualization/blender-case-revision-7/board-meshes/mainboard/mainboard.glb",
+      "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/candidate/mainboard/mainboard.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "source_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+    "output_sha256": "15ab335945cb7cf7ddd241b6caacfe4fdcab14d3643da1a2bdd5f1eca8567da9",
+    "bytes": 64799096,
+    "stdout": "Wire self-interference check failed\nz: 0; bounding box: x0: 134.111498; y0: -32.512337; x1: 170.434337; y1: -16.255498\nWire self-interference check failed\nz: 1.585; bounding box: x0: 9.95852; y0: -109.567476; x1: 10.598354; y1: -109.290698\nBinary GLTF file '/Users/ruslanmigirov/Downloads/hardware/kicad-working/visualization/blender-case-revision-7/board-meshes/mainboard/mainboard.glb' created.\n\nExport time 32.797 s\n",
+    "stderr": ""
+  },
+  {
+    "board": "ioboard",
+    "timestamp_utc": "2026-10-14T17:33:10.127510+00:00",
+    "command": [
+      "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "pcb",
+      "export",
+      "glb",
+      "--force",
+      "--include-tracks",
+      "--include-pads",
+      "--include-zones",
+      "--include-inner-copper",
+      "--include-silkscreen",
+      "--include-soldermask",
+      "-o",
+      "/Users/ruslanmigirov/Downloads/hardware/kicad-working/visualization/blender-case-revision-7/board-meshes/ioboard/ioboard.glb",
+      "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/candidate/ioboard/ioboard.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "source_sha256": "fae5554526eb936a04c0d7de76ef50d5a69ef82ee9a48d6918db0844276dc351",
+    "output_sha256": "015bd58a9bb18e7ff6f40a91bcfcc123b7baec8f0c1bedd2324a98a8f6c73fd9",
+    "bytes": 12841252,
+    "stdout": "Wire self-interference check failed\nz: 1.51; bounding box: x0: 184.9255; y0: -38.1; x1: 186.6765; y1: -36.4625\nWire self-interference check failed\nz: 1.51; bounding box: x0: 187.4655; y0: -38.1; x1: 189.2165; y1: -36.4625\nWire self-interference check failed\nz: 1.51; bounding box: x0: 97.9305; y0: -27.2915; x1: 99.568; y1: -25.5405\nWire self-interference check failed\nz: 1.585; bounding box: x0: 68.385504; y0: -43.121096; x1: 73.600762; y1: -37.905901\nBinary GLTF file '/Users/ruslanmigirov/Downloads/hardware/kicad-working/visualization/blender-case-revision-7/board-meshes/ioboard/ioboard.glb' created.\n\nExport time 5.475 s\n",
+    "stderr": ""
+  }
+]

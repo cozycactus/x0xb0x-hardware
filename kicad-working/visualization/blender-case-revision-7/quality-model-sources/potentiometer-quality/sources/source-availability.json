@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-14",
+  "manufacturer_CAD_recovered": false,
+  "scope": "Bounded public exact-family manufacturer CAD search before drawing reconstruction. No wrong-variant substitution or authentication bypass.",
+  "Panasonic": {
+    "exact_BOM_families": [
+      "EVU-F2LFL3B54",
+      "EVU-F2LFL3D54"
+    ],
+    "checked_urls": [
+      "https://industrial.panasonic.com/ww/downloads/cad-download",
+      "https://industry.panasonic.eu/products/components/rotary-input-devices/potentiometers-sensors",
+      "https://industry.panasonic.eu/downloads?search-api-fulltext=EVU"
+    ],
+    "finding": "Official current CAD index contains no EVU/potentiometer family; exact-part and official-domain searches did not recover a public manufacturer 3D asset. A CAD-labelled distributor ECAD entry for a different B24 variant was not substituted. No claim that no CAD exists elsewhere.",
+    "used_primary_drawing": "sources/panasonic-evu-primary-mirror.pdf",
+    "sha256": "410c4120bb640dac4b4ae6be508fa183aa289f92005df9aab60af09f282c9e0b",
+    "publisher": "Panasonic",
+    "drawing_dates": [
+      "March2005 No.8",
+      "November2005 FL3"
+    ],
+    "public_mirror_url": "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf"
+  },
+  "Alpha": {
+    "exact_historical_BOM_families": [
+      "RV112BCF-40-25F-B54",
+      "RV112BCF-40-25F-A16"
+    ],
+    "official_catalogue": "https://www.taiwanalpha.com/en/products/4",
+    "official_insulated_family_pdf": "https://www.taiwanalpha.com/downloads?target=products&id=77",
+    "retained_source": "sources/alpha-insulated-rv112b-primary.pdf",
+    "sha256": "7996dbeabb138b63046c41f3a3be0edd3009eeee0aed250087605a7c6d8b69d6",
+    "evidence": "sources/alpha-source-evidence.json",
+    "finding": "Public official catalogue exposes primary insulated-family drawing. No openly downloadable exact-family STEP/IGES/CAD recovered in bounded search. Review8 official ID78 source is a transparent25AL sibling and is not used to infer original opaque shaft.",
+    "historical_variant_qualification": "Historical25F mapping tocurrent25A remains unresolved; current25A lists7and12mm flat options.7mm is retained as qualified prior nominal detail."
+  },
+  "rights": "Own reconstructed CAD CC0-1.0; manufacturer PDFs/photos retain manufacturer rights."
+}

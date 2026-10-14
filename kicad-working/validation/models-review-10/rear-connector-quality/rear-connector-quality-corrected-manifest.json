@@ -1,0 +1,979 @@
+{
+  "date": "2026-10-14",
+  "scope": "Two families,3reference instances; candidate only, no project or scene edits",
+  "parts": [
+    {
+      "id": "MJ3536N_DrawingDerived_DetailedBody",
+      "footprint": "MJ-3536N",
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "canonical_frame": "Original F.Cu footprint X,-Y,Z outward, mm. FrontY0, bodyinto+Y, axisZ5.5.",
+      "source_urls": [
+        "https://www.sameskydevices.com/product/resource/mj-3536n.pdf",
+        "https://static.chipdip.ru/lib/247/DOC011247072.pdf",
+        "https://www.mouser.com/datasheet/2/670/mj-3536n-1311426.pdf",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "dimensions": {
+        "body_width_mm": 10,
+        "body_depth_mm": 15.8,
+        "body_height_mm": 10,
+        "bushing_diameter_mm": 6,
+        "bushing_projection_mm": 3,
+        "bore_diameter_mm": 3.6,
+        "socket_axis_z_mm": 5.5
+      },
+      "improvements": [
+        "Sloping side rails and open recessed center replace flat solid box.",
+        "Full nonthreaded nickel bushing with restrained front molding detail.",
+        "Separate molded bridge and visible arch/leaf contacts inside top window."
+      ],
+      "limitations": [
+        "Original independent parameterized reconstruction from primary manufacturer drawings, not redistributed manufacturer CAD.",
+        "Published nominal envelopes/apertures retained at unity scale. Original canonical front/body-seat datum, offset0, rotation0 and native footprint pose are preserved.",
+        "Below-seat terminals, solder lugs and locators are omitted. These candidates do not demonstrate PCB lead fit or installed seating.",
+        "Roof slopes, recess/slot positions, cover seams, contact-arch/leaf/ring shapes and stock gauges are unsized visual interpretations within the printed envelopes; no tolerance or electrical-contact qualification.",
+        "Exact historical supplied revision, mold, plating and physical fit remain unverified. Contemporary datasheets are references for a family illustration.",
+        "2010 revisionB and2020 revision1.02 dimension-lines imply nominal terminal positions(0,2.3),(0,16),(5.2,13.5), consistent with the current drawing; 11.2 is terminal1-to-terminal3, not terminal1-to-terminal2.",
+        "The source records reengineering in2023 and2024. Equal printed nominal dimensions do not prove unchanged mold or terminal tolerances.",
+        "Original PCB rounddrills2.54 and slightly displaced center positions differ from manufacturer slotted-hole recommendations; no leads were narrowed or shifted to fit.",
+        "No nut or thread is added: MJ-3536N is the nonthreaded6mm-bushing family, distinct from threaded sibling variants.",
+        "Roof height7.5, slope breakpoints2.3/10.0, recessed window7.1wide, contactstock0.27/0.30 and14.1mm internal bore depth are visual assumptions, not manufacturer callouts."
+      ],
+      "board": "ioboard",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+      "source_sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.stl",
+      "stl_sha256": "d7714d8f13098fe68d5b481f39d5c794c64f9fb51c218085fa58010bb618a98a",
+      "units": "mm",
+      "features": [
+        {
+          "name": "SlopedOpenHousing",
+          "role": "housing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody--SlopedOpenHousing.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.025,
+            0.028,
+            0.032
+          ],
+          "rgba": [
+            0.025,
+            0.028,
+            0.032,
+            1
+          ],
+          "exact_bounds_mm": [
+            -5.0,
+            0.0,
+            0.0,
+            5.0,
+            15.8,
+            10.0
+          ],
+          "volume_mm3": 1068.2896042002444,
+          "sha256": "068b988688e4b9a0ee2d347b0afdc638b6dd0248bd05e8b6955dba22b0ce9981",
+          "triangles": 590
+        },
+        {
+          "name": "RearMoldedBridge",
+          "role": "cover",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody--RearMoldedBridge.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.047,
+            0.05,
+            0.054
+          ],
+          "rgba": [
+            0.047,
+            0.05,
+            0.054,
+            1
+          ],
+          "exact_bounds_mm": [
+            -3.55,
+            15.1,
+            7.05,
+            3.55,
+            15.799999999999999,
+            7.5
+          ],
+          "volume_mm3": 2.236499999999998,
+          "sha256": "3771bc493a2ab2a4e50f028e2e9160ae1af4aafd526a59fa353b4466e25b7eaf",
+          "triangles": 12
+        },
+        {
+          "name": "NonthreadedNickelBushing",
+          "role": "bushing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody--NonthreadedNickelBushing.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.55,
+            0.57,
+            0.6
+          ],
+          "rgba": [
+            0.55,
+            0.57,
+            0.6,
+            1
+          ],
+          "exact_bounds_mm": [
+            -3.0,
+            -3.0,
+            2.5,
+            3.0,
+            0.0,
+            8.5
+          ],
+          "volume_mm3": 53.78563283699385,
+          "sha256": "24d1a2c72b6be3fa36dc31773ef42804242c23f8cf25f9700107977cd228fc01",
+          "triangles": 2268
+        },
+        {
+          "name": "VisibleContactArch",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody--VisibleContactArch.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.62,
+            0.64,
+            0.67
+          ],
+          "rgba": [
+            0.62,
+            0.64,
+            0.67,
+            1
+          ],
+          "exact_bounds_mm": [
+            -2.393219588754864,
+            4.7,
+            6.75,
+            2.393219588754864,
+            8.8,
+            8.2
+          ],
+          "volume_mm3": 6.029224305740838,
+          "sha256": "46865790aa40ed807fdf3678e566b4df2b48847bdbdfba93a7c45c1a57f94d54",
+          "triangles": 348
+        },
+        {
+          "name": "VisibleTipLeaf",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody--VisibleTipLeaf.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.62,
+            0.64,
+            0.67
+          ],
+          "rgba": [
+            0.62,
+            0.64,
+            0.67,
+            1
+          ],
+          "exact_bounds_mm": [
+            -1.0,
+            9.6,
+            7.06,
+            1.0,
+            14.2,
+            7.95
+          ],
+          "volume_mm3": 2.7825000000000037,
+          "sha256": "932c2e62e31151903299a2f8b31aca2c3dd2da4656a34affd8dd880ecc115d6b",
+          "triangles": 28
+        }
+      ],
+      "mesh_parts": [
+        {
+          "name": "SlopedOpenHousing",
+          "role": "housing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody--SlopedOpenHousing.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.025,
+            0.028,
+            0.032
+          ],
+          "rgba": [
+            0.025,
+            0.028,
+            0.032,
+            1
+          ],
+          "exact_bounds_mm": [
+            -5.0,
+            0.0,
+            0.0,
+            5.0,
+            15.8,
+            10.0
+          ],
+          "volume_mm3": 1068.2896042002444,
+          "sha256": "068b988688e4b9a0ee2d347b0afdc638b6dd0248bd05e8b6955dba22b0ce9981",
+          "triangles": 590
+        },
+        {
+          "name": "RearMoldedBridge",
+          "role": "cover",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody--RearMoldedBridge.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.047,
+            0.05,
+            0.054
+          ],
+          "rgba": [
+            0.047,
+            0.05,
+            0.054,
+            1
+          ],
+          "exact_bounds_mm": [
+            -3.55,
+            15.1,
+            7.05,
+            3.55,
+            15.799999999999999,
+            7.5
+          ],
+          "volume_mm3": 2.236499999999998,
+          "sha256": "3771bc493a2ab2a4e50f028e2e9160ae1af4aafd526a59fa353b4466e25b7eaf",
+          "triangles": 12
+        },
+        {
+          "name": "NonthreadedNickelBushing",
+          "role": "bushing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody--NonthreadedNickelBushing.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.55,
+            0.57,
+            0.6
+          ],
+          "rgba": [
+            0.55,
+            0.57,
+            0.6,
+            1
+          ],
+          "exact_bounds_mm": [
+            -3.0,
+            -3.0,
+            2.5,
+            3.0,
+            0.0,
+            8.5
+          ],
+          "volume_mm3": 53.78563283699385,
+          "sha256": "24d1a2c72b6be3fa36dc31773ef42804242c23f8cf25f9700107977cd228fc01",
+          "triangles": 2268
+        },
+        {
+          "name": "VisibleContactArch",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody--VisibleContactArch.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.62,
+            0.64,
+            0.67
+          ],
+          "rgba": [
+            0.62,
+            0.64,
+            0.67,
+            1
+          ],
+          "exact_bounds_mm": [
+            -2.393219588754864,
+            4.7,
+            6.75,
+            2.393219588754864,
+            8.8,
+            8.2
+          ],
+          "volume_mm3": 6.029224305740838,
+          "sha256": "46865790aa40ed807fdf3678e566b4df2b48847bdbdfba93a7c45c1a57f94d54",
+          "triangles": 348
+        },
+        {
+          "name": "VisibleTipLeaf",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody--VisibleTipLeaf.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.62,
+            0.64,
+            0.67
+          ],
+          "rgba": [
+            0.62,
+            0.64,
+            0.67,
+            1
+          ],
+          "exact_bounds_mm": [
+            -1.0,
+            9.6,
+            7.06,
+            1.0,
+            14.2,
+            7.95
+          ],
+          "volume_mm3": 2.7825000000000037,
+          "sha256": "932c2e62e31151903299a2f8b31aca2c3dd2da4656a34affd8dd880ecc115d6b",
+          "triangles": 28
+        }
+      ],
+      "exact_bounds_mm": [
+        -5.0,
+        -3.0,
+        0.0,
+        5.0,
+        15.8,
+        10.0
+      ],
+      "valid": true,
+      "solid_count": 5,
+      "faces": 57,
+      "volume_mm3": 1133.1234613429533,
+      "color_roles": [
+        {
+          "brep": 15,
+          "faces": 26,
+          "color": [
+            0.025,
+            0.028,
+            0.032
+          ]
+        },
+        {
+          "brep": 810,
+          "faces": 6,
+          "color": [
+            0.047,
+            0.05,
+            0.054
+          ]
+        },
+        {
+          "brep": 960,
+          "faces": 9,
+          "color": [
+            0.55,
+            0.57,
+            0.6
+          ]
+        },
+        {
+          "brep": 1167,
+          "faces": 6,
+          "color": [
+            0.62,
+            0.64,
+            0.67
+          ]
+        },
+        {
+          "brep": 1361,
+          "faces": 10,
+          "color": [
+            0.62,
+            0.64,
+            0.67
+          ]
+        }
+      ],
+      "triangles": 2698,
+      "combined_stl_representation": "Exterior boolean union of material solids; per-feature STLs and colored STEP retain separate materials",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "Detailed exact-family drawing-derived body/contact illustration; below-seat terminals omitted, installed fit unqualified",
+      "source_kind": "Independent parameterized reconstruction from original/current manufacturer drawings; explicitly unsized appearance details"
+    },
+    {
+      "id": "PJ202AH_DrawingDerived_DetailedBody_Corrected",
+      "footprint": "PJ-202AH",
+      "references": [
+        "POWER0"
+      ],
+      "canonical_frame": "Original F.Cu footprint X,-Y,Z outward, mm. FrontY0, bodyinto-Y, axisZ6.5. Root applies actual POWER0 angle180.",
+      "source_urls": [
+        "https://www.sameskydevices.com/product/resource/pj-202ah.pdf",
+        "https://datasheet.octopart.com/PJ-202AH-CUI-datasheet-62089902.pdf",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "dimensions": {
+        "body_width_mm": 9,
+        "body_depth_mm": 14.4,
+        "body_height_mm": 11,
+        "front_shoulder_depth_mm": 3.5,
+        "socket_axis_z_mm": 6.5,
+        "mating_pin_diameter_mm": 2,
+        "bore_diameter_mm": 6.5,
+        "insertion_cavity_depth_mm": 9
+      },
+      "improvements": [
+        "Separate rounded housing and stepped rearcover with retention relief.",
+        "Top rim recesses follow manufacturer appearance.",
+        "Full2mm centerpin, recessed mating ring and visible cavity leaf replace isolated blunt pin."
+      ],
+      "limitations": [
+        "Original independent parameterized reconstruction from primary manufacturer drawings, not redistributed manufacturer CAD.",
+        "Published nominal envelopes/apertures retained at unity scale. Original canonical front/body-seat datum, offset0, rotation0 and native footprint pose are preserved.",
+        "Below-seat terminals, solder lugs and locators are omitted. These candidates do not demonstrate PCB lead fit or installed seating.",
+        "Roof slopes, recess/slot positions, cover seams, contact-arch/leaf/ring shapes and stock gauges are unsized visual interpretations within the printed envelopes; no tolerance or electrical-contact qualification.",
+        "Exact historical supplied revision, mold, plating and physical fit remain unverified. Contemporary datasheets are references for a family illustration.",
+        "The recovered2015 revision1.01 and current2025 revision1.05 retain printed9x14.4x11mm, axis6.5, bore6.5, pin2.0 and terminalspacing nominal dimensions; the current drawing adds finer views/tolerances.",
+        "Nominal terminal3 width3.0 exceeds original P$3 rounddrill2.8 before considering gauge, forming or offset; manufacturer recommends a3.0x1.0 slot. Terminals are omitted rather than thinned.",
+        "Rearcover thickness0.7, retention cutout dimensions, cavity ring0.32stock, rounded pin nose and spring dimensions are unsized illustration choices.",
+        "OriginalPOWER0 placementangle180 is external to this canonical asset; no mirror, scale or boardtranslation is baked into the model.",
+        "Removed rear plastic recess: manufacturer \u00d81.5 callout is a terminal eye, not a molded cover hole. Below-seat terminal geometry remains omitted."
+      ],
+      "board": "ioboard",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+      "source_sha256": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.stl",
+      "stl_sha256": "83434edf4590e305b0dab8b73228035f24f3348c3c6ab77a83800e8f2058d6aa",
+      "units": "mm",
+      "features": [
+        {
+          "name": "RoundedMoldedHousing",
+          "role": "housing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody--RoundedMoldedHousing.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.025,
+            0.028,
+            0.032
+          ],
+          "rgba": [
+            0.025,
+            0.028,
+            0.032,
+            1
+          ],
+          "exact_bounds_mm": [
+            -4.5,
+            -13.7,
+            0.0,
+            4.5,
+            0.0,
+            11.0
+          ],
+          "volume_mm3": 962.8411760474286,
+          "sha256": "fdd95f725b14acf749a3fcf84c4847a8ec9ec42ed358b9217cc4c033fffaa008",
+          "triangles": 808
+        },
+        {
+          "name": "SteppedRearCover",
+          "role": "cover",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected--SteppedRearCover.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.047,
+            0.05,
+            0.054
+          ],
+          "rgba": [
+            0.047,
+            0.05,
+            0.054,
+            1
+          ],
+          "exact_bounds_mm": [
+            -4.5,
+            -14.400000000000004,
+            0.0,
+            4.5,
+            -13.7,
+            11.0
+          ],
+          "volume_mm3": 58.72229263466546,
+          "sha256": "3fbdb00175f0e12f96b7a40b1869e7e8b62060b439381529b37796e18f7e4a89",
+          "triangles": 200
+        },
+        {
+          "name": "TwoMillimetreMatingPin",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody--TwoMillimetreMatingPin.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.62,
+            0.64,
+            0.67
+          ],
+          "rgba": [
+            0.62,
+            0.64,
+            0.67,
+            1
+          ],
+          "exact_bounds_mm": [
+            -1.0,
+            -8.9,
+            5.5,
+            1.0,
+            -1.0,
+            7.5
+          ],
+          "volume_mm3": 23.77138441216277,
+          "sha256": "555c0e274534775f1eade79ac94ace5de1941d525b62ff3685129650f3a40d68",
+          "triangles": 4416
+        },
+        {
+          "name": "RecessedMatingContactRing",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody--RecessedMatingContactRing.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.62,
+            0.64,
+            0.67
+          ],
+          "rgba": [
+            0.62,
+            0.64,
+            0.67,
+            1
+          ],
+          "exact_bounds_mm": [
+            -3.19,
+            -2.1,
+            3.31,
+            3.19,
+            -1.78,
+            9.69
+          ],
+          "volume_mm3": 2.0071007145254454,
+          "sha256": "466c60d3d42bfc2ba02e56ca51361a071770c5f7c9b99b12021b07c1dd4734ab",
+          "triangles": 1008
+        },
+        {
+          "name": "VisibleLowerLeaf",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody--VisibleLowerLeaf.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.62,
+            0.64,
+            0.67
+          ],
+          "rgba": [
+            0.62,
+            0.64,
+            0.67,
+            1
+          ],
+          "exact_bounds_mm": [
+            -0.8,
+            -7.4,
+            3.4,
+            0.8,
+            -4.2,
+            4.43
+          ],
+          "volume_mm3": 1.2936,
+          "sha256": "8849ed37e790e6c5ffac3d23b8b91001dc9c688cd420200464b4dd45e5ea67f5",
+          "triangles": 28
+        }
+      ],
+      "mesh_parts": [
+        {
+          "name": "RoundedMoldedHousing",
+          "role": "housing",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody--RoundedMoldedHousing.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.025,
+            0.028,
+            0.032
+          ],
+          "rgba": [
+            0.025,
+            0.028,
+            0.032,
+            1
+          ],
+          "exact_bounds_mm": [
+            -4.5,
+            -13.7,
+            0.0,
+            4.5,
+            0.0,
+            11.0
+          ],
+          "volume_mm3": 962.8411760474286,
+          "sha256": "fdd95f725b14acf749a3fcf84c4847a8ec9ec42ed358b9217cc4c033fffaa008",
+          "triangles": 808
+        },
+        {
+          "name": "SteppedRearCover",
+          "role": "cover",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected--SteppedRearCover.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.047,
+            0.05,
+            0.054
+          ],
+          "rgba": [
+            0.047,
+            0.05,
+            0.054,
+            1
+          ],
+          "exact_bounds_mm": [
+            -4.5,
+            -14.400000000000004,
+            0.0,
+            4.5,
+            -13.7,
+            11.0
+          ],
+          "volume_mm3": 58.72229263466546,
+          "sha256": "3fbdb00175f0e12f96b7a40b1869e7e8b62060b439381529b37796e18f7e4a89",
+          "triangles": 200
+        },
+        {
+          "name": "TwoMillimetreMatingPin",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody--TwoMillimetreMatingPin.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.62,
+            0.64,
+            0.67
+          ],
+          "rgba": [
+            0.62,
+            0.64,
+            0.67,
+            1
+          ],
+          "exact_bounds_mm": [
+            -1.0,
+            -8.9,
+            5.5,
+            1.0,
+            -1.0,
+            7.5
+          ],
+          "volume_mm3": 23.77138441216277,
+          "sha256": "555c0e274534775f1eade79ac94ace5de1941d525b62ff3685129650f3a40d68",
+          "triangles": 4416
+        },
+        {
+          "name": "RecessedMatingContactRing",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody--RecessedMatingContactRing.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.62,
+            0.64,
+            0.67
+          ],
+          "rgba": [
+            0.62,
+            0.64,
+            0.67,
+            1
+          ],
+          "exact_bounds_mm": [
+            -3.19,
+            -2.1,
+            3.31,
+            3.19,
+            -1.78,
+            9.69
+          ],
+          "volume_mm3": 2.0071007145254454,
+          "sha256": "466c60d3d42bfc2ba02e56ca51361a071770c5f7c9b99b12021b07c1dd4734ab",
+          "triangles": 1008
+        },
+        {
+          "name": "VisibleLowerLeaf",
+          "role": "contact",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody--VisibleLowerLeaf.stl",
+          "units": "mm",
+          "color_rgb": [
+            0.62,
+            0.64,
+            0.67
+          ],
+          "rgba": [
+            0.62,
+            0.64,
+            0.67,
+            1
+          ],
+          "exact_bounds_mm": [
+            -0.8,
+            -7.4,
+            3.4,
+            0.8,
+            -4.2,
+            4.43
+          ],
+          "volume_mm3": 1.2936,
+          "sha256": "8849ed37e790e6c5ffac3d23b8b91001dc9c688cd420200464b4dd45e5ea67f5",
+          "triangles": 28
+        }
+      ],
+      "exact_bounds_mm": [
+        -4.5,
+        -14.400000000000004,
+        0.0,
+        4.5,
+        0.0,
+        11.0
+      ],
+      "valid": true,
+      "solid_count": 5,
+      "faces": 50,
+      "volume_mm3": 1048.6355538087932,
+      "color_roles": [
+        {
+          "brep": 15,
+          "faces": 21,
+          "color": [
+            0.025,
+            0.028,
+            0.032
+          ]
+        },
+        {
+          "brep": 597,
+          "faces": 12,
+          "color": [
+            0.047,
+            0.05,
+            0.054
+          ]
+        },
+        {
+          "brep": 967,
+          "faces": 3,
+          "color": [
+            0.62,
+            0.64,
+            0.67
+          ]
+        },
+        {
+          "brep": 1030,
+          "faces": 4,
+          "color": [
+            0.62,
+            0.64,
+            0.67
+          ]
+        },
+        {
+          "brep": 1122,
+          "faces": 10,
+          "color": [
+            0.62,
+            0.64,
+            0.67
+          ]
+        }
+      ],
+      "triangles": 6284,
+      "combined_stl_representation": "Exterior boolean union of material solids; per-feature STLs and colored STEP retain separate materials",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "Detailed exact-family drawing-derived body/contact illustration; below-seat terminals omitted, installed fit unqualified",
+      "source_kind": "Independent parameterized reconstruction from original/current manufacturer drawings; explicitly unsized appearance details",
+      "supersedes_source_sha256": "fe87485b36022962413cb03c78af75e7dc1f3084ab6f2944d9b45e54fc34fef5",
+      "source_correction": "Removed rear plastic recess: manufacturer \u00d81.5 callout is a terminal eye, not a molded cover hole. Below-seat terminal geometry remains omitted."
+    }
+  ],
+  "assignments": [
+    {
+      "board": "ioboard",
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "footprint": "MJ-3536N",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+      "source_sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "Detailed exact-family drawing-derived body/contact illustration; below-seat terminals omitted, installed fit unqualified",
+      "source_kind": "Independent parameterized reconstruction from original/current manufacturer drawings; explicitly unsized appearance details",
+      "source_urls": [
+        "https://www.sameskydevices.com/product/resource/mj-3536n.pdf",
+        "https://static.chipdip.ru/lib/247/DOC011247072.pdf",
+        "https://www.mouser.com/datasheet/2/670/mj-3536n-1311426.pdf",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "limitations": [
+        "Original independent parameterized reconstruction from primary manufacturer drawings, not redistributed manufacturer CAD.",
+        "Published nominal envelopes/apertures retained at unity scale. Original canonical front/body-seat datum, offset0, rotation0 and native footprint pose are preserved.",
+        "Below-seat terminals, solder lugs and locators are omitted. These candidates do not demonstrate PCB lead fit or installed seating.",
+        "Roof slopes, recess/slot positions, cover seams, contact-arch/leaf/ring shapes and stock gauges are unsized visual interpretations within the printed envelopes; no tolerance or electrical-contact qualification.",
+        "Exact historical supplied revision, mold, plating and physical fit remain unverified. Contemporary datasheets are references for a family illustration.",
+        "2010 revisionB and2020 revision1.02 dimension-lines imply nominal terminal positions(0,2.3),(0,16),(5.2,13.5), consistent with the current drawing; 11.2 is terminal1-to-terminal3, not terminal1-to-terminal2.",
+        "The source records reengineering in2023 and2024. Equal printed nominal dimensions do not prove unchanged mold or terminal tolerances.",
+        "Original PCB rounddrills2.54 and slightly displaced center positions differ from manufacturer slotted-hole recommendations; no leads were narrowed or shifted to fit.",
+        "No nut or thread is added: MJ-3536N is the nonthreaded6mm-bushing family, distinct from threaded sibling variants.",
+        "Roof height7.5, slope breakpoints2.3/10.0, recessed window7.1wide, contactstock0.27/0.30 and14.1mm internal bore depth are visual assumptions, not manufacturer callouts."
+      ],
+      "canonical_frame": "Original F.Cu footprint X,-Y,Z outward, mm. FrontY0, bodyinto+Y, axisZ5.5.",
+      "units": "mm"
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "POWER0"
+      ],
+      "footprint": "PJ-202AH",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+      "source_sha256": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "Detailed exact-family drawing-derived body/contact illustration; below-seat terminals omitted, installed fit unqualified",
+      "source_kind": "Independent parameterized reconstruction from original/current manufacturer drawings; explicitly unsized appearance details",
+      "source_urls": [
+        "https://www.sameskydevices.com/product/resource/pj-202ah.pdf",
+        "https://datasheet.octopart.com/PJ-202AH-CUI-datasheet-62089902.pdf",
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "limitations": [
+        "Original independent parameterized reconstruction from primary manufacturer drawings, not redistributed manufacturer CAD.",
+        "Published nominal envelopes/apertures retained at unity scale. Original canonical front/body-seat datum, offset0, rotation0 and native footprint pose are preserved.",
+        "Below-seat terminals, solder lugs and locators are omitted. These candidates do not demonstrate PCB lead fit or installed seating.",
+        "Roof slopes, recess/slot positions, cover seams, contact-arch/leaf/ring shapes and stock gauges are unsized visual interpretations within the printed envelopes; no tolerance or electrical-contact qualification.",
+        "Exact historical supplied revision, mold, plating and physical fit remain unverified. Contemporary datasheets are references for a family illustration.",
+        "The recovered2015 revision1.01 and current2025 revision1.05 retain printed9x14.4x11mm, axis6.5, bore6.5, pin2.0 and terminalspacing nominal dimensions; the current drawing adds finer views/tolerances.",
+        "Nominal terminal3 width3.0 exceeds original P$3 rounddrill2.8 before considering gauge, forming or offset; manufacturer recommends a3.0x1.0 slot. Terminals are omitted rather than thinned.",
+        "Rearcover thickness0.7, retention cutout dimensions, cavity ring0.32stock, rounded pin nose and spring dimensions are unsized illustration choices.",
+        "OriginalPOWER0 placementangle180 is external to this canonical asset; no mirror, scale or boardtranslation is baked into the model.",
+        "Removed rear plastic recess: manufacturer \u00d81.5 callout is a terminal eye, not a molded cover hole. Below-seat terminal geometry remains omitted."
+      ],
+      "canonical_frame": "Original F.Cu footprint X,-Y,Z outward, mm. FrontY0, bodyinto-Y, axisZ6.5. Root applies actual POWER0 angle180.",
+      "units": "mm"
+    }
+  ],
+  "instance_count": 3,
+  "body_only": true,
+  "physical_fit_qualified": false,
+  "geometry_license": "CC0-1.0 applies to original reconstruction geometry/scripts only; manufacturer drawings/branding retain respective rights.",
+  "manufacturer_CAD_incorporated": false,
+  "manufacturer_CAD_zip_distribution": "Exclude sources/Same_Sky_MJ-3536N.zip from all delivery archives; no express redistribution grant found and no CAD data was read or incorporated.",
+  "source_project_hashes": {
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb": "a8b792afcb7d012740086c92916c7f05fa964142da6353c1a2298e6c9374e66e",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/ioboard/ioboard.kicad_pcb": "838b1aa9d75cbf70d53475aa26c2bf892f6461b5d5100b8b62c1cdda8bf63a73"
+  },
+  "source_projects_unchanged": true,
+  "sources": [
+    {
+      "filename": "sources/mj-3536n-current.pdf",
+      "sha256": "aa1de851ef2fba7c4f66b9e4413351ce9349e1b34502bc7b67b3788e9d5d6e79",
+      "bytes": 279558
+    },
+    {
+      "filename": "sources/mj3536n-2020.pdf",
+      "sha256": "09fc15106f9eec1ddfb0943d0964045e3960f6a6c144c5b7a5874bdda7f76166",
+      "bytes": 268960
+    },
+    {
+      "filename": "sources/mj3536n-official-cad-page.html",
+      "sha256": "8bf8d848b412414ae7c66054a029c9de26822371b2ad232673dfa19aa7bdce1c",
+      "bytes": 234563
+    },
+    {
+      "filename": "sources/pj-202ah-current.pdf",
+      "sha256": "a35968324973cf6df2cf8891203d949ee850aa51a70b5f88d71b940d40559ead",
+      "bytes": 285891
+    },
+    {
+      "filename": "sources/pj202ah-2015.pdf",
+      "sha256": "bca6421dec884391e3d1f87ee5911d9dc52320e544c881a01073c06a6d4e92c8",
+      "bytes": 219969
+    },
+    {
+      "filename": "sources/pj202ah-official-cad-page.html",
+      "sha256": "c684e4a1db733838bae99061225d7863712a829609b1af74bc94b9d64b891ba7",
+      "bytes": 234614
+    },
+    {
+      "filename": "sources/samesky-cad-model-terms.html",
+      "sha256": "50e5aac24205b80cffac9f6424fb84edf9598712f3dda157c00de91251eb97a6",
+      "bytes": 215680
+    }
+  ],
+  "superseded_candidates": [
+    {
+      "id": "PJ202AH_DrawingDerived_DetailedBody",
+      "source_sha256": "fe87485b36022962413cb03c78af75e7dc1f3084ab6f2944d9b45e54fc34fef5",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody.step",
+      "reason": "Removed rear plastic recess: manufacturer \u00d81.5 callout is a terminal eye, not a molded cover hole. Below-seat terminal geometry remains omitted.",
+      "distribute": false
+    }
+  ],
+  "active_manifest": "rear-connector-quality-corrected-manifest.json"
+}

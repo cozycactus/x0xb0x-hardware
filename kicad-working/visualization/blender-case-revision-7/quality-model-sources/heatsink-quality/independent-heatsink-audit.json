@@ -1,0 +1,103 @@
+{
+  "scope": "Fresh read-only source STEP/BRep feature audit; no generated geometry or PCB edits during this check.",
+  "source_step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-9/heatsink-quality/Aavid_574502B00000G_DrawingDerived_FoldedSpring.step",
+  "source_sha256": "36ea5130eb331e8c740748c697559dfd79671284869be83e8251dd4c944e4336",
+  "checks": [
+    {
+      "check": "Fresh STEP shape is one valid positive-volume continuous solid",
+      "passed": true,
+      "detail": {
+        "solids": 1,
+        "faces": 86,
+        "volume_mm3": 797.0774096350161
+      }
+    },
+    {
+      "check": "Exact published envelope at retained canonical datum",
+      "passed": true,
+      "detail": {
+        "bounds_mm": [
+          -10.920000000000002,
+          -1.2700000000000002,
+          0.0,
+          10.920000000000002,
+          8.76,
+          19.05
+        ],
+        "published_dimensions_mm": [
+          21.84,
+          10.03,
+          19.05
+        ]
+      }
+    },
+    {
+      "check": "Published catalogue 0.63 mm sheet thickness at front return",
+      "passed": true,
+      "detail": {
+        "outer_y_mm": -1.27,
+        "inner_y_mm": -0.64,
+        "measured_thickness_mm": 0.63
+      }
+    },
+    {
+      "check": "Published 3.81 mm through hole at metric Z11.81",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Published checking-gauge gap measured from candidate BRep",
+      "passed": true,
+      "detail": {
+        "rear_inner_y_mm": 8.13,
+        "finger_edge_y_mm": 3.94,
+        "gap_mm": 4.190000000000001,
+        "published_tolerance_mm": 0.13
+      }
+    },
+    {
+      "check": "Explicit STEP millimetre units",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Black anodized AP214 appearance attached to every BRep face",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All original source files preserve their generator snapshot hashes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Candidate frozen hash remains unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "KK1 assignment preserves original footprint and canonical transforms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Fresh native KiCad export passes dimensional and palette checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Known nominal IC20 interference remains explicitly measurable",
+      "passed": true,
+      "detail": {
+        "previous_mm3": 40.92,
+        "candidate_mm3": 48.64269307624872
+      }
+    }
+  ],
+  "check_count": 12,
+  "failures": [],
+  "limits": [
+    "PASS verifies source-qualified geometry and export only. The preserved nominal source pose has interference and does not qualify clamping or installed fit."
+  ],
+  "passed": true
+}

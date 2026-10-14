@@ -1,0 +1,70 @@
+{
+  "specific_primary_drawing": {
+    "source_url": "https://info.boydcorp.com/hubfs/Thermal/Air-Cooling/Boyd-Board-Level-Cooling-Slide-On-5744.pdf",
+    "local_file": "sources/boyd-5740-manufacturer.pdf",
+    "sha256": "dd353265a5a8fdb57d77b1abe8a6c40b036684f2c6df460ee070fad60bae2f5f",
+    "page": 2,
+    "region": "lower, explicitly titled Part Number:574502B00000G",
+    "published_dimensions_mm": {
+      "width": 21.84,
+      "depth": 10.03,
+      "height": 19.05,
+      "checking_gauge": 4.19,
+      "checking_gauge_plus_minus": 0.13,
+      "hole_diameter": 3.81,
+      "hole_axis_height_metric": 11.81,
+      "upper_lance_height": 14.99
+    }
+  },
+  "secondary_primary_authored_catalogue": {
+    "source_url": "https://www.mouser.com/datasheet/2/2/Aavid_Boyd_Board_Level_Heatsinks_Catalog-3043646.pdf",
+    "printed_page": 45,
+    "content_observed_through_web_pdf_parser": true,
+    "local_full_pdf_archived": false,
+    "download_status": "Distributor transport failed via HTTP2 and timed out via HTTP1.1; no authenticated or alternative-variant CAD used.",
+    "published_material_thickness_mm": 0.63,
+    "published_material": "Aluminium",
+    "published_finish": "Black anodize",
+    "identity": "574502B00000G, FigureB, no solderable tabs, A height19.05mm",
+    "metric_hole_height_mm": 11.81,
+    "parenthetical_inch_hole_height": 0.465
+  },
+  "conflicts": [
+    {
+      "topic": "Depth",
+      "specific_drawing_mm": 10.03,
+      "family_table_mm": 9.02,
+      "resolution": "Specific part drawing10.03 controls."
+    },
+    {
+      "topic": "11.81mm parenthetical inch value",
+      "specific_drawing_inch": 0.485,
+      "catalogue_inch": 0.465,
+      "resolution": "Metric11.81 retained; .465inch corroborates metric rounded11.811mm."
+    },
+    {
+      "topic": "Footprint width",
+      "original_D03S_artwork_mm": 13.716,
+      "BOM_part_width_mm": 21.84,
+      "resolution": "Full publishedBOMbody retained; sourceartwork untouched."
+    },
+    {
+      "topic": "Installed seating",
+      "retained_prior_canonical_y_mm": [
+        -1.27,
+        8.76
+      ],
+      "resolution": "No fitting translation or trim applied. Nominal IC20 intersection and incompatible checking-channel location explicitly reported."
+    }
+  ],
+  "unsized_reconstruction_parameters": {
+    "retained_prior_canonical_front_y_mm": -1.27,
+    "assumed_small_bend_center_radius_mm": 0.55,
+    "traced_return_bend_center_radius_mm": 1.8,
+    "traced_inner_channel_outer_width_mm": 12,
+    "traced_outer_fin_tip_y_mm": 7.78,
+    "traced_spring_finger_height_mm": 9.8,
+    "assumed_inner_lance_width_mm": 0.45,
+    "traced_inner_lance_height_mm": 8.2
+  }
+}

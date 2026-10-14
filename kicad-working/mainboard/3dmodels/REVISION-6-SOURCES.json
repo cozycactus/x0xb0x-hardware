@@ -1,0 +1,710 @@
+{
+  "assignments": [
+    {
+      "board": "mainboard",
+      "references": [
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "footprint": "B3F-40XX",
+      "source_sha256": "575df18465dffed5804b95c02adf9c4dd136ad7ad7bfa60d37911665c2d9c060",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original parameterized published-envelope illustration",
+      "classification": "original-BOM nominal body illustration",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "Cover uses the printed 0.50 mm maximum thickness. The 1.10 mm actuator-base height is an illustrative link between the printed lid and actuator-head levels.",
+        "The drawing preserves 7.30 mm total actuator height; cap color and installed cap seating remain separate assembly choices."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1100F160Q.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/ESwitch_TL1100F160Q_BodyIllustration.step",
+      "local_model": "Revision6/control-body-illustrations/ESwitch_TL1100F160Q_BodyIllustration.step",
+      "review_manifest": "control-body-illustrations/control-body-manifest.json"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ],
+      "footprint": "EVU",
+      "source_sha256": "e0bc61ce82e62b7afda32545553915b5c375759a3ab95ce1c1ae4055721cbaf6",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original parameterized published-envelope illustration",
+      "classification": "original-BOM nominal body illustration",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "The canonical terminal side is negative Y, matching the original F.Cu library after Cartesian Y inversion.",
+        "Shaft flat is a nominal illustration; current rotation and historical assembly trim are unspecified. Shaft tip Z=30.0 mm follows the full FL3 drawing and is not shortened to fit the panel."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Panasonic_EVUF2LFL3_BodyIllustration.step",
+      "local_model": "Revision6/control-body-illustrations/Panasonic_EVUF2LFL3_BodyIllustration.step",
+      "review_manifest": "control-body-illustrations/control-body-manifest.json"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "footprint": "ALPHADUAL",
+      "source_sha256": "2ec819805e6f82307a681066c92d46b17b34cdfcc5daa4c6362c4c1be6103adc",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original parameterized published-envelope illustration",
+      "classification": "original-BOM nominal body illustration",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "Housing is the complete rectangular 13.6 by 15.4 mm published envelope, including the output-board/flange extent; detailed molding steps are not reconstructed.",
+        "Original BOM uses historical 25F shaft suffix. Current drawing calls the 25 mm flatted option 25A; the 7 mm flat detail is explicitly a current-family nominal illustration, not verified historical 25F CAD.",
+        "Unlike Panasonic, Alpha L=25 mm is measured from housing rear. Model shaft tip is Z=25 mm."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://static.chipdip.ru/lib/521/DOC013521571.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Alpha_RV112BCF40_25_BodyIllustration.step",
+      "local_model": "Revision6/control-body-illustrations/Alpha_RV112BCF40_25_BodyIllustration.step",
+      "review_manifest": "control-body-illustrations/control-body-manifest.json"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "S2"
+      ],
+      "footprint": "PEC11-S",
+      "source_sha256": "90f6ff9576977d79187ba3b2f1afd90193bd1ddd128899629763d44920956709",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original parameterized published-envelope illustration",
+      "classification": "original-BOM nominal body illustration",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "The original footprint is named PEC11-S, but the original BOM identifies CTS290VAA5F201B2. This illustration follows CTS dimensions, without substituting Bourns PEC11.",
+        "Preserved manufacturer STEP290VBC0F201B2 has different bushing and shaft options and is not used to create this model.",
+        "The housing-only illustration does not transfer the previous wrong-variant mounting-tab fit result to the illustrated original variant."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.ctscorp.com/Files/DataSheets/Encoders/encoders-290-datasheet.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/CTS_290VAA5F201B2_BodyIllustration.step",
+      "local_model": "Revision6/control-body-illustrations/CTS_290VAA5F201B2_BodyIllustration.step",
+      "review_manifest": "control-body-illustrations/control-body-manifest.json"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "S1"
+      ],
+      "footprint": "NKKTOGGLE",
+      "source_sha256": "d78fff34332c1d5ce83540f6e325317dbf10c6df685244215055bb1ec277f4a4",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original parameterized published-envelope illustration",
+      "classification": "original-BOM nominal body illustration",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "The bracketed housing uses its complete rectangular envelope; bracket windows, folds and separate polymer-case molding are not reconstructed.",
+        "Lever is shown in a neutral reference pose to preserve its full 10 mm length. B12AB is ON-NONE-ON, so an installed lever should be posed to either end of the printed total26 degree throw. No switch-state claim is made.",
+        "Source terminal-row offset is nominal1.0 mm; original library is1.016 mm. The body axis uses the original library origin, without inventing an offset to force terminal fit."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.nkkswitches.eu/pdf/toggle_B.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/NKK_B12AB_BodyIllustration.step",
+      "local_model": "Revision6/control-body-illustrations/NKK_B12AB_BodyIllustration.step",
+      "review_manifest": "control-body-illustrations/control-body-manifest.json"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "footprint": "GH3074",
+      "source_sha256": "8247a603780d6111e8b8ba78e3739e57a487f68d0394bd40645c6f68b4c71ef4",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original parameterized published-envelope illustration",
+      "classification": "original-BOM nominal body illustration",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "Full housing rectangular envelope retains the output-board tongue on canonical negative Y. Native B.Cu side flip remains a placement operation.",
+        "Bushing represents the source3/8-32 major-diameter double-D envelope; helical thread and mounting nut are omitted.",
+        "No optional bracket is added to original25LB22-H. This is the same corrected original-F.Cu orientation independently audited in grayhill-world-orientation-audit.json."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://grayhill.com/wp-content/uploads/media/25l-datasheet.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Grayhill_25LB22H_BodyIllustration.step",
+      "local_model": "Revision6/control-body-illustrations/Grayhill_25LB22H_BodyIllustration.step",
+      "review_manifest": "control-body-illustrations/control-body-manifest.json"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "TM3",
+        "TM4",
+        "TM5"
+      ],
+      "footprint": "306",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step",
+      "source_sha256": "4e804dd88e09680a8147bb4a013c877e9011c7bb70c5fd7d114618000e3eef1e",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Original CT6EP-family nominal body illustration; no electrical terminals",
+      "limitations": [
+        "Original BOM calls these VishayCT6EP202/502/503/504; current primary CT-6EP catalog is Nidec/Copal. This is not the earlier CTS306 substitution.",
+        "7x7x5.8mm and slot dimensions follow the current manufacturer CT-6EP drawing. Historical vendor/revision is not confirmed.",
+        "Rotor diameter, housing/rotor split and colors are presentation approximations. No unverified terminals, clips or printed markings are modeled.",
+        "Body seated at canonicalZ0 is an installed-height assumption. Body-only assignment does not establish pin fit."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.nidec-components.com/e/catalog/trimmer/ct-6.pdf"
+      ],
+      "local_model": "Revision6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step",
+      "review_manifest": "misc-body-illustrations/misc-body-manifest.json"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "R100A0",
+        "R100B0"
+      ],
+      "footprint": "R-7,5",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/Microohm_LPTC12T21001_ApproxBody.step",
+      "source_sha256": "907fbd52f9bc38814d3986e9841976ae001ca6fd73bd8d28d4e35a586b6bb450",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Approximate Microohm LPTC12T21001 axial PTC body; no leads",
+      "limitations": [
+        "Original BOM identifies1kOhm PTC LPTC12T21001, not a generic NTC. Both R100A/R100B are fitted.",
+        "Primary Microohm mechanical data was not recovered.7.62x2.54mm envelope follows the sourceR-7,5 outline; actual body dimensions remain approximate.",
+        "Body standoff0.4mm, tapered ends, band locations and colors are illustration choices. Band sequence follows the original BOM.",
+        "Unknown leads omitted; no pin fit or thermal coupling claim follows."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "http://www.micro-ohm.com/temperature/temprecflm.html",
+        "https://github.com/x0xb0x/x0xb0x.github.io/blob/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/posistor.jpg"
+      ],
+      "local_model": "Revision6/misc-body-illustrations/Microohm_LPTC12T21001_ApproxBody.step",
+      "review_manifest": "misc-body-illustrations/misc-body-manifest.json"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "Q22"
+      ],
+      "footprint": "SSIP5",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/2SC2291_SSIP5_ApproxBody.step",
+      "source_sha256": "19c85906d54361aa9937eb1868bddb3249b0c0b7ad878e7067d447b56bdc95de",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Approximate original-footprint2SC2291 SIP5 body; no leads",
+      "limitations": [
+        "Original BOM and primary project photo establish2SC2291 SIP5 matched pair with common base.",
+        "No manufacturer package drawing was recovered. SourceSSIP5 outline supplies XY;5mm height and flat seating are explicit approximations.",
+        "No2SC1583 package identity is assumed from the shared SSIP5 footprint. Unknown leads omitted."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://github.com/x0xb0x/x0xb0x.github.io/blob/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/2SC2291.jpg"
+      ],
+      "local_model": "Revision6/misc-body-illustrations/2SC2291_SSIP5_ApproxBody.step",
+      "review_manifest": "misc-body-illustrations/misc-body-manifest.json"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "J1"
+      ],
+      "footprint": "12",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/WireJumper_P12p7.step",
+      "source_sha256": "cab0cbc52fcb9b04f69394062fc0e924242e85a6cfe2b50df2784feb94557202",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Bare wire jumper illustration at actual source pad spacing",
+      "limitations": [
+        "J1/J2 are soldered wire jumpers, not plastic connector bodies.",
+        "Actual pad pitch and conductor axes are preserved. Wire diameter, bridge height, forming radius and trimmed projection are illustrative."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "local_model": "Revision6/misc-body-illustrations/WireJumper_P12p7.step",
+      "review_manifest": "misc-body-illustrations/misc-body-manifest.json"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "J2"
+      ],
+      "footprint": "15",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/WireJumper_P15p24.step",
+      "source_sha256": "bcb2a95f62d50668559ed08bf43bedc2014e84d10c67c95805f9b2763c8a0d9a",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Bare wire jumper illustration at actual source pad spacing",
+      "limitations": [
+        "J1/J2 are soldered wire jumpers, not plastic connector bodies.",
+        "Actual pad pitch and conductor axes are preserved. Wire diameter, bridge height, forming radius and trimmed projection are illustrative."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html"
+      ],
+      "local_model": "Revision6/misc-body-illustrations/WireJumper_P15p24.step",
+      "review_manifest": "misc-body-illustrations/misc-body-manifest.json"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "J4",
+        "J5",
+        "J6",
+        "J7"
+      ],
+      "footprint": "MA03-1",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "source_sha256": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Soldered ribbon termination illustration; no invented header housing",
+      "limitations": [
+        "MA03-1/MA12-1 are footprint names; original assembly uses soldered ribbon jumpers, not fitted plastic headers.",
+        "Conductor counts and2.54mm pad axes are exact. Wire sections,7.5mm stub height and forming/trim lengths are inferred presentation choices.",
+        "152.4mm is original stock length, not validated installed board separation. Only terminations are modeled; board-to-board ribbon paths are assembly dependent."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://wiki.ladyada.net/x0x/jumpers",
+        "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf"
+      ],
+      "local_model": "Revision6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step",
+      "review_manifest": "misc-body-illustrations/misc-body-manifest.json"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "J3"
+      ],
+      "footprint": "MA12-1",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step",
+      "source_sha256": "01941f699d9d68c823228d7d566d2f682a9b98dd1d03bc189c73b2ae18eaa6e3",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original CC0 parametric body/wire illustration",
+      "classification": "Soldered ribbon termination illustration; no invented header housing",
+      "limitations": [
+        "MA03-1/MA12-1 are footprint names; original assembly uses soldered ribbon jumpers, not fitted plastic headers.",
+        "Conductor counts and2.54mm pad axes are exact. Wire sections,7.5mm stub height and forming/trim lengths are inferred presentation choices.",
+        "152.4mm is original stock length, not validated installed board separation. Only terminations are modeled; board-to-board ribbon paths are assembly dependent."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://wiki.ladyada.net/x0x/jumpers",
+        "https://stuff.mit.edu/afs/sipb/contrib/doc/DigiKey/SECTA.pdf"
+      ],
+      "local_model": "Revision6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step",
+      "review_manifest": "misc-body-illustrations/misc-body-manifest.json"
+    }
+  ],
+  "cache_policies": [
+    {
+      "board": "mainboard",
+      "footprint": "SSIP5",
+      "references": [
+        "Q21",
+        "Q12",
+        "Q26",
+        "Q22"
+      ],
+      "cache_model_added": false,
+      "reason": "Part-specific model overrides; shared physical footprint cache remains without model because bodies/population differ."
+    },
+    {
+      "board": "mainboard",
+      "footprint": "306",
+      "references": [
+        "TM3",
+        "TM4",
+        "TM5"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    },
+    {
+      "board": "mainboard",
+      "footprint": "MA12-1",
+      "references": [
+        "J3"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    },
+    {
+      "board": "mainboard",
+      "footprint": "PEC11-S",
+      "references": [
+        "S2"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    },
+    {
+      "board": "mainboard",
+      "footprint": "GH3074",
+      "references": [
+        "S4",
+        "S3"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    },
+    {
+      "board": "mainboard",
+      "footprint": "12",
+      "references": [
+        "J1"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    },
+    {
+      "board": "mainboard",
+      "footprint": "15",
+      "references": [
+        "J2"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    },
+    {
+      "board": "mainboard",
+      "footprint": "ALPHADUAL",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    },
+    {
+      "board": "mainboard",
+      "footprint": "B3F-40XX",
+      "references": [
+        "S14",
+        "S18",
+        "S21",
+        "S10",
+        "S13",
+        "S25",
+        "S6",
+        "S9",
+        "S26",
+        "S27",
+        "S15",
+        "S24",
+        "S20",
+        "S12",
+        "S17",
+        "S7",
+        "S16",
+        "S23",
+        "S5",
+        "S22",
+        "S8",
+        "S19",
+        "S11"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    },
+    {
+      "board": "mainboard",
+      "footprint": "NKKTOGGLE",
+      "references": [
+        "S1"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    },
+    {
+      "board": "mainboard",
+      "footprint": "R-7,5",
+      "references": [
+        "R100A0",
+        "R100B0"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    },
+    {
+      "board": "mainboard",
+      "footprint": "EVU",
+      "references": [
+        "VR7",
+        "VR5",
+        "VR2",
+        "VR8",
+        "VR3"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    },
+    {
+      "board": "mainboard",
+      "footprint": "MA03-1",
+      "references": [
+        "J6",
+        "J5",
+        "J7",
+        "J4"
+      ],
+      "cache_model_added": true,
+      "reason": "All placed instances use identical model and transform."
+    }
+  ]
+}

@@ -1,0 +1,2020 @@
+{
+  "native_board_mesh_frame": "millimetres: (X,Y,Z)=(pcbX,-pcbY,KiCad STEP Z); Blender GLB values are metres",
+  "mainboard": {
+    "native_board_to_panel_local_2d": {
+      "matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "translation_mm": [
+        234.95,
+        -12.7
+      ],
+      "equations": [
+        "panelX=234.95-pcbX",
+        "panelY=-pcbY-12.7"
+      ],
+      "basis_3d_before_panel_slope": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "reason": "180 degrees about native Y places B.Cu controls/LEDs outward and F.Cu components inward."
+    },
+    "controls_and_LEDs_max_residual_mm": 3.1776437161565096e-14,
+    "buttons_max_residual_mm": 0.09158100239678275,
+    "mounts_max_residual_mm": 0.24548343999998679,
+    "mount_note": "Four rear DXF mounts are 0.24548344 mm rearward of PCB centres. Preserve original geometry. Actual placed PCB drills are3.302 mm (radius1.651 mm), despite the stale local1,3 cache drill of2.6 mm. Panel radius1.7272 mm leaves only0.0762 mm radial difference; rear displacement0.24548344 mm exceeds that difference, so the PCB hole is not wholly inside the panel hole. Preserve both geometries. No physical-fit conclusion is made;4-40 fastener and fitted-part clearances require a separate check.",
+    "correspondences": [
+      {
+        "ref": "U$2",
+        "kind": "mount",
+        "footprint": "1,3",
+        "board_pcb_xy_mm": [
+          228.0412,
+          -21.2852
+        ],
+        "expected_panel_xy_mm": [
+          6.908799999999985,
+          8.5852
+        ],
+        "dxf_panel_xy_mm": [
+          6.9088,
+          8.5852
+        ],
+        "residual_mm": 1.509903313490213e-14,
+        "dxf_handles": [
+          "1CD"
+        ]
+      },
+      {
+        "ref": "U$27",
+        "kind": "mount",
+        "footprint": "1,3",
+        "board_pcb_xy_mm": [
+          118.745,
+          -21.2852
+        ],
+        "expected_panel_xy_mm": [
+          116.20499999999998,
+          8.5852
+        ],
+        "dxf_panel_xy_mm": [
+          116.205,
+          8.5852
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "137"
+        ]
+      },
+      {
+        "ref": "U$28",
+        "kind": "mount",
+        "footprint": "1,3",
+        "board_pcb_xy_mm": [
+          73.025,
+          -167.386
+        ],
+        "expected_panel_xy_mm": [
+          161.92499999999998,
+          154.686
+        ],
+        "dxf_panel_xy_mm": [
+          161.925,
+          154.93148344
+        ],
+        "residual_mm": 0.24548343999998679,
+        "dxf_handles": [
+          "17D"
+        ]
+      },
+      {
+        "ref": "U$24",
+        "kind": "mount",
+        "footprint": "1,3",
+        "board_pcb_xy_mm": [
+          9.4488,
+          -167.386
+        ],
+        "expected_panel_xy_mm": [
+          225.50119999999998,
+          154.686
+        ],
+        "dxf_panel_xy_mm": [
+          225.5012,
+          154.93148344
+        ],
+        "residual_mm": 0.24548343999998679,
+        "dxf_handles": [
+          "133"
+        ]
+      },
+      {
+        "ref": "U$23",
+        "kind": "mount",
+        "footprint": "1,3",
+        "board_pcb_xy_mm": [
+          228.0412,
+          -167.386
+        ],
+        "expected_panel_xy_mm": [
+          6.908799999999985,
+          154.686
+        ],
+        "dxf_panel_xy_mm": [
+          6.9088,
+          154.93148344
+        ],
+        "residual_mm": 0.24548343999998679,
+        "dxf_handles": [
+          "1DA"
+        ]
+      },
+      {
+        "ref": "U$25",
+        "kind": "mount",
+        "footprint": "1,3",
+        "board_pcb_xy_mm": [
+          9.4488,
+          -21.2852
+        ],
+        "expected_panel_xy_mm": [
+          225.50119999999998,
+          8.5852
+        ],
+        "dxf_panel_xy_mm": [
+          225.5012,
+          8.5852
+        ],
+        "residual_mm": 2.842170943040401e-14,
+        "dxf_handles": [
+          "123"
+        ]
+      },
+      {
+        "ref": "U$29",
+        "kind": "mount",
+        "footprint": "1,3",
+        "board_pcb_xy_mm": [
+          164.465,
+          -167.386
+        ],
+        "expected_panel_xy_mm": [
+          70.48499999999999,
+          154.686
+        ],
+        "dxf_panel_xy_mm": [
+          70.485,
+          154.93148344
+        ],
+        "residual_mm": 0.24548343999998679,
+        "dxf_handles": [
+          "1BF"
+        ]
+      },
+      {
+        "ref": "LED6",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          163.195,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          71.755,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          71.755,
+          83.058
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "19D"
+        ]
+      },
+      {
+        "ref": "S14",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          15.24,
+          -65.786
+        ],
+        "expected_panel_xy_mm": [
+          219.70999999999998,
+          53.086
+        ],
+        "dxf_panel_xy_mm": [
+          219.71,
+          53.086
+        ],
+        "residual_mm": 2.842170943040401e-14,
+        "dxf_handles": [
+          "129",
+          "131",
+          "12B",
+          "12A"
+        ]
+      },
+      {
+        "ref": "LED18",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          222.25,
+          -77.978
+        ],
+        "expected_panel_xy_mm": [
+          12.699999999999989,
+          65.27799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          12.7,
+          65.278
+        ],
+        "residual_mm": 1.7763568394002505e-14,
+        "dxf_handles": [
+          "1D5"
+        ]
+      },
+      {
+        "ref": "S18",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          166.243,
+          -38.1
+        ],
+        "expected_panel_xy_mm": [
+          68.707,
+          25.400000000000002
+        ],
+        "dxf_panel_xy_mm": [
+          68.707,
+          25.4
+        ],
+        "residual_mm": 3.552713678800501e-15,
+        "dxf_handles": [
+          "18B",
+          "18D",
+          "18E",
+          "18C"
+        ]
+      },
+      {
+        "ref": "LED5",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          175.895,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          59.05499999999998,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          59.055,
+          83.058
+        ],
+        "residual_mm": 2.5618982671915014e-14,
+        "dxf_handles": [
+          "1B1"
+        ]
+      },
+      {
+        "ref": "LED30",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          182.245,
+          -51.816
+        ],
+        "expected_panel_xy_mm": [
+          52.704999999999984,
+          39.116
+        ],
+        "dxf_panel_xy_mm": [
+          52.705,
+          39.116
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "1B8"
+        ]
+      },
+      {
+        "ref": "S21",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          118.237,
+          -38.1
+        ],
+        "expected_panel_xy_mm": [
+          116.713,
+          25.400000000000002
+        ],
+        "dxf_panel_xy_mm": [
+          116.713,
+          25.4
+        ],
+        "residual_mm": 3.552713678800501e-15,
+        "dxf_handles": [
+          "13C",
+          "13E",
+          "13D",
+          "13F"
+        ]
+      },
+      {
+        "ref": "LED4",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          188.595,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          46.35499999999999,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          46.355,
+          83.058
+        ],
+        "residual_mm": 1.5888218580782548e-14,
+        "dxf_handles": [
+          "1B0"
+        ]
+      },
+      {
+        "ref": "S2",
+        "kind": "control",
+        "footprint": "PEC11-S",
+        "board_pcb_xy_mm": [
+          213.995,
+          -121.158
+        ],
+        "expected_panel_xy_mm": [
+          20.954999999999984,
+          108.458
+        ],
+        "dxf_panel_xy_mm": [
+          20.955,
+          108.458
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "1D4"
+        ]
+      },
+      {
+        "ref": "LED12",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          86.995,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          147.95499999999998,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          147.955,
+          83.058
+        ],
+        "residual_mm": 3.1776437161565096e-14,
+        "dxf_handles": [
+          "16D"
+        ]
+      },
+      {
+        "ref": "S10",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          110.236,
+          -64.262
+        ],
+        "expected_panel_xy_mm": [
+          124.71399999999998,
+          51.562
+        ],
+        "dxf_panel_xy_mm": [
+          124.714,
+          51.562
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "15A",
+          "160",
+          "15C",
+          "161"
+        ]
+      },
+      {
+        "ref": "VR4",
+        "kind": "control",
+        "footprint": "ALPHADUAL",
+        "board_pcb_xy_mm": [
+          118.745,
+          -156.9212
+        ],
+        "expected_panel_xy_mm": [
+          116.20499999999998,
+          144.2212
+        ],
+        "dxf_panel_xy_mm": [
+          116.205,
+          144.2212
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "17F"
+        ]
+      },
+      {
+        "ref": "VR7",
+        "kind": "control",
+        "footprint": "EVU",
+        "board_pcb_xy_mm": [
+          27.305,
+          -156.9212
+        ],
+        "expected_panel_xy_mm": [
+          207.64499999999998,
+          144.2212
+        ],
+        "dxf_panel_xy_mm": [
+          207.645,
+          144.2212
+        ],
+        "residual_mm": 2.842170943040401e-14,
+        "dxf_handles": [
+          "134"
+        ]
+      },
+      {
+        "ref": "LED29",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          203.2,
+          -51.816
+        ],
+        "expected_panel_xy_mm": [
+          31.75,
+          39.116
+        ],
+        "dxf_panel_xy_mm": [
+          31.75,
+          39.116
+        ],
+        "residual_mm": 0.0,
+        "dxf_handles": [
+          "1A7"
+        ]
+      },
+      {
+        "ref": "S13",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          39.243,
+          -64.262
+        ],
+        "expected_panel_xy_mm": [
+          195.707,
+          51.562
+        ],
+        "dxf_panel_xy_mm": [
+          195.707,
+          51.562
+        ],
+        "residual_mm": 0.0,
+        "dxf_handles": [
+          "132",
+          "158",
+          "155",
+          "156"
+        ]
+      },
+      {
+        "ref": "VR5",
+        "kind": "control",
+        "footprint": "EVU",
+        "board_pcb_xy_mm": [
+          88.265,
+          -156.9212
+        ],
+        "expected_panel_xy_mm": [
+          146.685,
+          144.2212
+        ],
+        "dxf_panel_xy_mm": [
+          146.685,
+          144.2212
+        ],
+        "residual_mm": 0.0,
+        "dxf_handles": [
+          "17E"
+        ]
+      },
+      {
+        "ref": "LED19",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          203.2,
+          -77.978
+        ],
+        "expected_panel_xy_mm": [
+          31.75,
+          65.27799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          31.75,
+          65.278
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "1B2"
+        ]
+      },
+      {
+        "ref": "S25",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          47.244,
+          -38.1
+        ],
+        "expected_panel_xy_mm": [
+          187.706,
+          25.400000000000002
+        ],
+        "dxf_panel_xy_mm": [
+          187.70600000000002,
+          25.4
+        ],
+        "residual_mm": 2.864289338439558e-14,
+        "dxf_handles": [
+          "147",
+          "14B",
+          "14C",
+          "14D"
+        ]
+      },
+      {
+        "ref": "LED25",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          55.245,
+          -77.978
+        ],
+        "expected_panel_xy_mm": [
+          179.70499999999998,
+          65.27799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          179.705,
+          65.278
+        ],
+        "residual_mm": 3.1776437161565096e-14,
+        "dxf_handles": [
+          "16E"
+        ]
+      },
+      {
+        "ref": "VR2",
+        "kind": "control",
+        "footprint": "EVU",
+        "board_pcb_xy_mm": [
+          179.705,
+          -156.9212
+        ],
+        "expected_panel_xy_mm": [
+          55.244999999999976,
+          144.2212
+        ],
+        "dxf_panel_xy_mm": [
+          55.245,
+          144.2212
+        ],
+        "residual_mm": 2.1316282072803006e-14,
+        "dxf_handles": [
+          "1C3"
+        ]
+      },
+      {
+        "ref": "LED27",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          15.24,
+          -77.978
+        ],
+        "expected_panel_xy_mm": [
+          219.70999999999998,
+          65.27799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          219.71,
+          65.278
+        ],
+        "residual_mm": 3.1776437161565096e-14,
+        "dxf_handles": [
+          "12C"
+        ]
+      },
+      {
+        "ref": "LED2",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          213.995,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          20.954999999999984,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          20.955,
+          83.058
+        ],
+        "residual_mm": 2.0097183471152322e-14,
+        "dxf_handles": [
+          "1AE"
+        ]
+      },
+      {
+        "ref": "S6",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          203.2,
+          -65.786
+        ],
+        "expected_panel_xy_mm": [
+          31.75,
+          53.086
+        ],
+        "dxf_panel_xy_mm": [
+          31.75,
+          53.086
+        ],
+        "residual_mm": 0.0,
+        "dxf_handles": [
+          "1A8",
+          "1AA",
+          "1AB",
+          "1A9"
+        ]
+      },
+      {
+        "ref": "LED13",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          74.295,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          160.65499999999997,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          160.655,
+          83.058
+        ],
+        "residual_mm": 3.1776437161565096e-14,
+        "dxf_handles": [
+          "16F"
+        ]
+      },
+      {
+        "ref": "S9",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          126.238,
+          -64.262
+        ],
+        "expected_panel_xy_mm": [
+          108.71199999999999,
+          51.562
+        ],
+        "dxf_panel_xy_mm": [
+          108.712,
+          51.562
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "159",
+          "183",
+          "182",
+          "15B"
+        ]
+      },
+      {
+        "ref": "LED3",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          201.295,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          33.655,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          33.655,
+          83.058
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "1AF"
+        ]
+      },
+      {
+        "ref": "S1",
+        "kind": "control",
+        "footprint": "NKKTOGGLE",
+        "board_pcb_xy_mm": [
+          213.995,
+          -156.9212
+        ],
+        "expected_panel_xy_mm": [
+          20.954999999999984,
+          144.2212
+        ],
+        "dxf_panel_xy_mm": [
+          20.955,
+          144.2212
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "1C0"
+        ]
+      },
+      {
+        "ref": "LED36",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          86.233,
+          -51.816
+        ],
+        "expected_panel_xy_mm": [
+          148.71699999999998,
+          39.116
+        ],
+        "dxf_panel_xy_mm": [
+          148.717,
+          39.116
+        ],
+        "residual_mm": 2.842170943040401e-14,
+        "dxf_handles": [
+          "179"
+        ]
+      },
+      {
+        "ref": "LED10",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          112.395,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          122.55499999999999,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          122.555,
+          83.058
+        ],
+        "residual_mm": 2.0097183471152322e-14,
+        "dxf_handles": [
+          "168"
+        ]
+      },
+      {
+        "ref": "S26",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          31.242,
+          -38.1
+        ],
+        "expected_panel_xy_mm": [
+          203.708,
+          25.400000000000002
+        ],
+        "dxf_panel_xy_mm": [
+          203.708,
+          25.4
+        ],
+        "residual_mm": 3.552713678800501e-15,
+        "dxf_handles": [
+          "127",
+          "149",
+          "14A",
+          "148"
+        ]
+      },
+      {
+        "ref": "LED22",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          126.238,
+          -77.978
+        ],
+        "expected_panel_xy_mm": [
+          108.71199999999999,
+          65.27799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          108.712,
+          65.278
+        ],
+        "residual_mm": 2.0097183471152322e-14,
+        "dxf_handles": [
+          "167"
+        ]
+      },
+      {
+        "ref": "S27",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          15.24,
+          -38.1
+        ],
+        "expected_panel_xy_mm": [
+          219.70999999999998,
+          25.400000000000002
+        ],
+        "dxf_panel_xy_mm": [
+          219.70999999999998,
+          25.4
+        ],
+        "residual_mm": 3.552713678800501e-15,
+        "dxf_handles": [
+          "122",
+          "126",
+          "124",
+          "125"
+        ]
+      },
+      {
+        "ref": "LED17",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          23.495,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          211.45499999999998,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          211.455,
+          83.058
+        ],
+        "residual_mm": 3.1776437161565096e-14,
+        "dxf_handles": [
+          "12D"
+        ]
+      },
+      {
+        "ref": "LED31",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          166.243,
+          -51.816
+        ],
+        "expected_panel_xy_mm": [
+          68.707,
+          39.116
+        ],
+        "dxf_panel_xy_mm": [
+          68.707,
+          39.116
+        ],
+        "residual_mm": 0.0,
+        "dxf_handles": [
+          "1B7"
+        ]
+      },
+      {
+        "ref": "S15",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          222.25,
+          -39.624
+        ],
+        "expected_panel_xy_mm": [
+          12.699999999999989,
+          26.924000000000003
+        ],
+        "dxf_panel_xy_mm": [
+          12.7,
+          26.924
+        ],
+        "residual_mm": 1.1234667099445444e-14,
+        "dxf_handles": [
+          "1C8",
+          "1CF",
+          "1CE",
+          "1D0"
+        ]
+      },
+      {
+        "ref": "LED35",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          102.235,
+          -51.816
+        ],
+        "expected_panel_xy_mm": [
+          132.71499999999997,
+          39.116
+        ],
+        "dxf_panel_xy_mm": [
+          132.715,
+          39.116
+        ],
+        "residual_mm": 2.842170943040401e-14,
+        "dxf_handles": [
+          "17A"
+        ]
+      },
+      {
+        "ref": "S4",
+        "kind": "control",
+        "footprint": "GH3074",
+        "board_pcb_xy_mm": [
+          118.745,
+          -121.158
+        ],
+        "expected_panel_xy_mm": [
+          116.20499999999998,
+          108.458
+        ],
+        "dxf_panel_xy_mm": [
+          116.205,
+          108.458
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "19C"
+        ]
+      },
+      {
+        "ref": "S24",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          70.231,
+          -38.1
+        ],
+        "expected_panel_xy_mm": [
+          164.719,
+          25.400000000000002
+        ],
+        "dxf_panel_xy_mm": [
+          164.719,
+          25.4
+        ],
+        "residual_mm": 3.552713678800501e-15,
+        "dxf_handles": [
+          "140",
+          "14E",
+          "145",
+          "150"
+        ]
+      },
+      {
+        "ref": "LED32",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          150.241,
+          -51.816
+        ],
+        "expected_panel_xy_mm": [
+          84.70899999999997,
+          39.116
+        ],
+        "dxf_panel_xy_mm": [
+          84.709,
+          39.116
+        ],
+        "residual_mm": 2.842170943040401e-14,
+        "dxf_handles": [
+          "199"
+        ]
+      },
+      {
+        "ref": "LED8",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          137.795,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          97.155,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          97.155,
+          83.058
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "19F"
+        ]
+      },
+      {
+        "ref": "VR8",
+        "kind": "control",
+        "footprint": "EVU",
+        "board_pcb_xy_mm": [
+          23.495,
+          -121.158
+        ],
+        "expected_panel_xy_mm": [
+          211.45499999999998,
+          108.458
+        ],
+        "dxf_panel_xy_mm": [
+          211.455,
+          108.458
+        ],
+        "residual_mm": 2.842170943040401e-14,
+        "dxf_handles": [
+          "128"
+        ]
+      },
+      {
+        "ref": "LED39",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          31.242,
+          -51.816
+        ],
+        "expected_panel_xy_mm": [
+          203.708,
+          39.116
+        ],
+        "dxf_panel_xy_mm": [
+          203.708,
+          39.116
+        ],
+        "residual_mm": 0.0,
+        "dxf_handles": [
+          "154"
+        ]
+      },
+      {
+        "ref": "S20",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          134.239,
+          -38.1
+        ],
+        "expected_panel_xy_mm": [
+          100.71099999999998,
+          25.400000000000002
+        ],
+        "dxf_panel_xy_mm": [
+          100.711,
+          25.4
+        ],
+        "residual_mm": 1.464821375527116e-14,
+        "dxf_handles": [
+          "180",
+          "185",
+          "181",
+          "184"
+        ]
+      },
+      {
+        "ref": "LED33",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          134.239,
+          -51.816
+        ],
+        "expected_panel_xy_mm": [
+          100.71099999999998,
+          39.116
+        ],
+        "dxf_panel_xy_mm": [
+          100.711,
+          39.116
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "198"
+        ]
+      },
+      {
+        "ref": "S12",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          55.1688,
+          -64.3128
+        ],
+        "expected_panel_xy_mm": [
+          179.78119999999998,
+          51.61279999999999
+        ],
+        "dxf_panel_xy_mm": [
+          179.70499999999998,
+          51.562
+        ],
+        "residual_mm": 0.09158100239678275,
+        "dxf_handles": [
+          "14F",
+          "165",
+          "177",
+          "166"
+        ]
+      },
+      {
+        "ref": "S17",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          182.245,
+          -38.1
+        ],
+        "expected_panel_xy_mm": [
+          52.704999999999984,
+          25.400000000000002
+        ],
+        "dxf_panel_xy_mm": [
+          52.705,
+          25.4
+        ],
+        "residual_mm": 1.464821375527116e-14,
+        "dxf_handles": [
+          "18F",
+          "193",
+          "196",
+          "192"
+        ]
+      },
+      {
+        "ref": "LED7",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          150.495,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          84.45499999999998,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          84.455,
+          83.058
+        ],
+        "residual_mm": 2.0097183471152322e-14,
+        "dxf_handles": [
+          "19E"
+        ]
+      },
+      {
+        "ref": "LED37",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          70.231,
+          -51.816
+        ],
+        "expected_panel_xy_mm": [
+          164.719,
+          39.116
+        ],
+        "dxf_panel_xy_mm": [
+          164.719,
+          39.116
+        ],
+        "residual_mm": 0.0,
+        "dxf_handles": [
+          "178"
+        ]
+      },
+      {
+        "ref": "LED23",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          110.236,
+          -77.978
+        ],
+        "expected_panel_xy_mm": [
+          124.71399999999998,
+          65.27799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          124.714,
+          65.278
+        ],
+        "residual_mm": 2.0097183471152322e-14,
+        "dxf_handles": [
+          "16A"
+        ]
+      },
+      {
+        "ref": "LED14",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          61.595,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          173.355,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          173.355,
+          83.058
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "171"
+        ]
+      },
+      {
+        "ref": "LED9",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          125.095,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          109.85499999999999,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          109.855,
+          83.058
+        ],
+        "residual_mm": 2.0097183471152322e-14,
+        "dxf_handles": [
+          "1A0"
+        ]
+      },
+      {
+        "ref": "LED11",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          99.695,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          135.255,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          135.255,
+          83.058
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "169"
+        ]
+      },
+      {
+        "ref": "S7",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          174.244,
+          -64.262
+        ],
+        "expected_panel_xy_mm": [
+          60.70599999999999,
+          51.562
+        ],
+        "dxf_panel_xy_mm": [
+          60.706,
+          51.562
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "1B9",
+          "1BB",
+          "1BC",
+          "1BA"
+        ]
+      },
+      {
+        "ref": "S16",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          203.2,
+          -39.624
+        ],
+        "expected_panel_xy_mm": [
+          31.75,
+          26.924000000000003
+        ],
+        "dxf_panel_xy_mm": [
+          31.75,
+          26.924
+        ],
+        "residual_mm": 3.552713678800501e-15,
+        "dxf_handles": [
+          "190",
+          "194",
+          "195",
+          "191"
+        ]
+      },
+      {
+        "ref": "LED26",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          39.243,
+          -77.978
+        ],
+        "expected_panel_xy_mm": [
+          195.707,
+          65.27799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          195.707,
+          65.278
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "170"
+        ]
+      },
+      {
+        "ref": "LED38",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          47.244,
+          -51.816
+        ],
+        "expected_panel_xy_mm": [
+          187.706,
+          39.116
+        ],
+        "dxf_panel_xy_mm": [
+          187.706,
+          39.116
+        ],
+        "residual_mm": 0.0,
+        "dxf_handles": [
+          "157"
+        ]
+      },
+      {
+        "ref": "S23",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          86.233,
+          -38.1
+        ],
+        "expected_panel_xy_mm": [
+          148.71699999999998,
+          25.400000000000002
+        ],
+        "dxf_panel_xy_mm": [
+          148.71699999999998,
+          25.4
+        ],
+        "residual_mm": 3.552713678800501e-15,
+        "dxf_handles": [
+          "141",
+          "144",
+          "143",
+          "142"
+        ]
+      },
+      {
+        "ref": "S5",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          222.25,
+          -65.786
+        ],
+        "expected_panel_xy_mm": [
+          12.699999999999989,
+          53.086
+        ],
+        "dxf_panel_xy_mm": [
+          12.7,
+          53.086
+        ],
+        "residual_mm": 1.0658141036401503e-14,
+        "dxf_handles": [
+          "1AC",
+          "1CA",
+          "1C9",
+          "1CB"
+        ]
+      },
+      {
+        "ref": "VR6",
+        "kind": "control",
+        "footprint": "ALPHADUAL",
+        "board_pcb_xy_mm": [
+          57.785,
+          -156.9212
+        ],
+        "expected_panel_xy_mm": [
+          177.165,
+          144.2212
+        ],
+        "dxf_panel_xy_mm": [
+          177.165,
+          144.2212
+        ],
+        "residual_mm": 0.0,
+        "dxf_handles": [
+          "17C"
+        ]
+      },
+      {
+        "ref": "LED40",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          15.24,
+          -51.816
+        ],
+        "expected_panel_xy_mm": [
+          219.70999999999998,
+          39.116
+        ],
+        "dxf_panel_xy_mm": [
+          219.71,
+          39.116
+        ],
+        "residual_mm": 2.842170943040401e-14,
+        "dxf_handles": [
+          "12F"
+        ]
+      },
+      {
+        "ref": "VR3",
+        "kind": "control",
+        "footprint": "EVU",
+        "board_pcb_xy_mm": [
+          149.225,
+          -156.9212
+        ],
+        "expected_panel_xy_mm": [
+          85.725,
+          144.2212
+        ],
+        "dxf_panel_xy_mm": [
+          85.725,
+          144.2212
+        ],
+        "residual_mm": 0.0,
+        "dxf_handles": [
+          "1C4"
+        ]
+      },
+      {
+        "ref": "S22",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          102.235,
+          -38.1
+        ],
+        "expected_panel_xy_mm": [
+          132.71499999999997,
+          25.400000000000002
+        ],
+        "dxf_panel_xy_mm": [
+          132.71499999999997,
+          25.4
+        ],
+        "residual_mm": 3.552713678800501e-15,
+        "dxf_handles": [
+          "138",
+          "13A",
+          "139",
+          "13B"
+        ]
+      },
+      {
+        "ref": "S8",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          158.242,
+          -64.262
+        ],
+        "expected_panel_xy_mm": [
+          76.708,
+          51.562
+        ],
+        "dxf_panel_xy_mm": [
+          76.708,
+          51.562
+        ],
+        "residual_mm": 0.0,
+        "dxf_handles": [
+          "1A1",
+          "1A2",
+          "1A3",
+          "1A4"
+        ]
+      },
+      {
+        "ref": "LED34",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          118.237,
+          -51.816
+        ],
+        "expected_panel_xy_mm": [
+          116.713,
+          39.116
+        ],
+        "dxf_panel_xy_mm": [
+          116.713,
+          39.116
+        ],
+        "residual_mm": 0.0,
+        "dxf_handles": [
+          "151"
+        ]
+      },
+      {
+        "ref": "S3",
+        "kind": "control",
+        "footprint": "GH3074",
+        "board_pcb_xy_mm": [
+          174.625,
+          -121.158
+        ],
+        "expected_panel_xy_mm": [
+          60.32499999999999,
+          108.458
+        ],
+        "dxf_panel_xy_mm": [
+          60.325,
+          108.458
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "19B"
+        ]
+      },
+      {
+        "ref": "S19",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          150.241,
+          -38.1
+        ],
+        "expected_panel_xy_mm": [
+          84.70899999999997,
+          25.400000000000002
+        ],
+        "dxf_panel_xy_mm": [
+          84.709,
+          25.4
+        ],
+        "residual_mm": 2.864289338439558e-14,
+        "dxf_handles": [
+          "187",
+          "189",
+          "188",
+          "18A"
+        ]
+      },
+      {
+        "ref": "LED24",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          94.234,
+          -77.978
+        ],
+        "expected_panel_xy_mm": [
+          140.716,
+          65.27799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          140.716,
+          65.278
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "16B"
+        ]
+      },
+      {
+        "ref": "LED1",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          213.995,
+          -135.382
+        ],
+        "expected_panel_xy_mm": [
+          20.954999999999984,
+          122.682
+        ],
+        "dxf_panel_xy_mm": [
+          20.955,
+          122.682
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "1C1"
+        ]
+      },
+      {
+        "ref": "LED28",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          222.25,
+          -51.816
+        ],
+        "expected_panel_xy_mm": [
+          12.699999999999989,
+          39.116
+        ],
+        "dxf_panel_xy_mm": [
+          12.7,
+          39.116
+        ],
+        "residual_mm": 1.0658141036401503e-14,
+        "dxf_handles": [
+          "1CC"
+        ]
+      },
+      {
+        "ref": "LED20",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          174.244,
+          -77.978
+        ],
+        "expected_panel_xy_mm": [
+          60.70599999999999,
+          65.27799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          60.706,
+          65.278
+        ],
+        "residual_mm": 2.0097183471152322e-14,
+        "dxf_handles": [
+          "1BD"
+        ]
+      },
+      {
+        "ref": "LED16",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          36.195,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          198.755,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          198.755,
+          83.058
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "173"
+        ]
+      },
+      {
+        "ref": "S11",
+        "kind": "button",
+        "footprint": "B3F-40XX",
+        "board_pcb_xy_mm": [
+          94.234,
+          -64.262
+        ],
+        "expected_panel_xy_mm": [
+          140.716,
+          51.562
+        ],
+        "dxf_panel_xy_mm": [
+          140.716,
+          51.562
+        ],
+        "residual_mm": 0.0,
+        "dxf_handles": [
+          "15D",
+          "15E",
+          "17B",
+          "15F"
+        ]
+      },
+      {
+        "ref": "LED21",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          158.242,
+          -77.978
+        ],
+        "expected_panel_xy_mm": [
+          76.708,
+          65.27799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          76.708,
+          65.278
+        ],
+        "residual_mm": 1.4210854715202004e-14,
+        "dxf_handles": [
+          "1BE"
+        ]
+      },
+      {
+        "ref": "LED15",
+        "kind": "LED",
+        "footprint": "LED5MM",
+        "board_pcb_xy_mm": [
+          48.895,
+          -95.758
+        ],
+        "expected_panel_xy_mm": [
+          186.05499999999998,
+          83.05799999999999
+        ],
+        "dxf_panel_xy_mm": [
+          186.055,
+          83.058
+        ],
+        "residual_mm": 3.1776437161565096e-14,
+        "dxf_handles": [
+          "172"
+        ]
+      }
+    ]
+  },
+  "ioboard": {
+    "horizontal_equation": "rearDrawingX=pcbX+2.286",
+    "horizontal_max_residual_mm": 1.4210854715202004e-14,
+    "case_frame_orientation": {
+      "native_to_case_basis": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "case_X_translation_mm_if_rear_panel_is_centered": 106.67999999999999,
+      "reason": "Rear drawing viewed from outside has its rightward X opposite top-panel rightward X; rotate board180 degrees about Z so jacks face rearward and components remain upward."
+    },
+    "vertical_datum": {
+      "status": "illustration assumption based on current manufacturer dimensions; historical fitted part heights are unmeasured",
+      "reference": "Same Sky MJ-3536N manufacturer drawing 2024-09-12, page2 (locally retained validation/reference-pdfs/mj-3536n-page2.png)",
+      "CV_GATE_center_height_above_seated_PCB_top_mm": 5.5,
+      "CV_GATE_panel_center_height_above_panel_bottom_mm": 11.684,
+      "suggested_PCB_top_height_above_rear_panel_bottom_mm": 6.184,
+      "alternative_NYS216_current_axis_height_mm": 8.0,
+      "alternative_NYS216_PCB_top_height_above_rear_panel_bottom_mm": 6.351,
+      "alternative_note": "Current REAN NYS216 primary drawing specifies an8.0mm front axis height above its housing bottom. DXF audio axis14.351mm implies PCBtop6.351mm,0.167mm higher than the MJ3536N estimate. The historical footprint body is about24mm deep while current NYS216 drawing is33mm; the historical fitted package/seating datum is unconfirmed.",
+      "note": "Only horizontal alignment is established by original board/panel centres. The 5.5mm package datum assumes body seated against PCB. Current part drawing has revisions after2005; it does not prove the original assembly height."
+    },
+    "depth_datum": {
+      "status": "illustration assumption from original connector footprint front edges",
+      "suggested_native_Y0_plane": "rear panel inner face",
+      "note": "DIN and CV/GATE original footprint bodies begin at pcbY0. Their mating bushing artwork projects outside. No exact jack CAD is installed and connector shoulder/nut depths are unmeasured."
+    },
+    "correspondences": [
+      {
+        "ref": "MIXOUT0",
+        "footprint": "REAN_1_4STERO",
+        "board_pcb_xy_mm": [
+          91.44,
+          0.508
+        ],
+        "dxf_panel_xz_mm": [
+          93.726,
+          14.351
+        ],
+        "predicted_panel_x_mm": 93.726,
+        "horizontal_residual_mm": 0.0
+      },
+      {
+        "ref": "DIN2",
+        "footprint": "CP-2350",
+        "board_pcb_xy_mm": [
+          135.128,
+          0.0
+        ],
+        "dxf_panel_xz_mm": [
+          137.414,
+          16.3322
+        ],
+        "predicted_panel_x_mm": 137.414,
+        "horizontal_residual_mm": 0.0
+      },
+      {
+        "ref": "DIN4",
+        "footprint": "CP-2350",
+        "board_pcb_xy_mm": [
+          200.914,
+          0.0
+        ],
+        "dxf_panel_xz_mm": [
+          203.2,
+          16.3322
+        ],
+        "predicted_panel_x_mm": 203.2,
+        "horizontal_residual_mm": 0.0
+      },
+      {
+        "ref": "USB0",
+        "footprint": "PN61729",
+        "board_pcb_xy_mm": [
+          71.628,
+          2.794
+        ],
+        "dxf_panel_xz_mm": [
+          73.91399999999999,
+          12.192
+        ],
+        "predicted_panel_x_mm": 73.914,
+        "horizontal_residual_mm": 1.4210854715202004e-14
+      },
+      {
+        "ref": "CV0",
+        "footprint": "MJ-3536N",
+        "board_pcb_xy_mm": [
+          57.912,
+          0.0
+        ],
+        "dxf_panel_xz_mm": [
+          60.198,
+          11.684
+        ],
+        "predicted_panel_x_mm": 60.198,
+        "horizontal_residual_mm": 0.0
+      },
+      {
+        "ref": "DIN3",
+        "footprint": "CP-2350",
+        "board_pcb_xy_mm": [
+          156.718,
+          0.0
+        ],
+        "dxf_panel_xz_mm": [
+          159.004,
+          16.3322
+        ],
+        "predicted_panel_x_mm": 159.004,
+        "horizontal_residual_mm": 0.0
+      },
+      {
+        "ref": "HEADPHONE0",
+        "footprint": "REAN_1_4STERO",
+        "board_pcb_xy_mm": [
+          26.67,
+          0.508
+        ],
+        "dxf_panel_xz_mm": [
+          28.956,
+          14.351
+        ],
+        "predicted_panel_x_mm": 28.956000000000003,
+        "horizontal_residual_mm": 3.552713678800501e-15
+      },
+      {
+        "ref": "GATE0",
+        "footprint": "MJ-3536N",
+        "board_pcb_xy_mm": [
+          45.212,
+          0.0
+        ],
+        "dxf_panel_xz_mm": [
+          47.498,
+          11.684
+        ],
+        "predicted_panel_x_mm": 47.498000000000005,
+        "horizontal_residual_mm": 7.105427357601002e-15
+      },
+      {
+        "ref": "MIXIN0",
+        "footprint": "REAN_1_4STERO",
+        "board_pcb_xy_mm": [
+          178.816,
+          0.508
+        ],
+        "dxf_panel_xz_mm": [
+          181.102,
+          14.351
+        ],
+        "predicted_panel_x_mm": 181.102,
+        "horizontal_residual_mm": 0.0
+      },
+      {
+        "ref": "DIN1",
+        "footprint": "CP-2350",
+        "board_pcb_xy_mm": [
+          113.538,
+          0.0
+        ],
+        "dxf_panel_xz_mm": [
+          115.824,
+          16.3322
+        ],
+        "predicted_panel_x_mm": 115.824,
+        "horizontal_residual_mm": 0.0
+      },
+      {
+        "ref": "POWER0",
+        "footprint": "PJ-202AH",
+        "board_pcb_xy_mm": [
+          8.636,
+          2.794
+        ],
+        "dxf_panel_xz_mm": [
+          10.922,
+          12.192
+        ],
+        "predicted_panel_x_mm": 10.921999999999999,
+        "horizontal_residual_mm": 1.7763568394002505e-15
+      }
+    ]
+  },
+  "board_source_hashes": {
+    "mainboard": "c3ff1a14cbaf9298fb6a0377bc881d279b94245fbae3719be3b618ad913965dc",
+    "ioboard": "33165521e8ba18bda663e633594cbefefea4a9e43fee5a7ac4a513d1486c7974"
+  }
+}

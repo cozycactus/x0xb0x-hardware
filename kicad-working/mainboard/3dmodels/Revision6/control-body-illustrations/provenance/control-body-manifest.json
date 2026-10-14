@@ -1,0 +1,1770 @@
+{
+  "date": "2026-10-14",
+  "units": "mm",
+  "scope": "Six original-BOM control body illustrations for34 mainboard references.",
+  "canonical_coordinate_convention": {
+    "x": "original F.Cu footprint X",
+    "y": "negative original F.Cu footprint Y",
+    "z": "outward from component side",
+    "origin": "original library origin in XY; housing rear datum at Z=0",
+    "placement": "Apply actual KiCad side flip and footprint rotation once.",
+    "baked_placement_side_flip": false
+  },
+  "geometry_license": "CC0-1.0 (original generated illustrations only)",
+  "source_document_rights": "Manufacturer documents retain their original rights.",
+  "parts": [
+    {
+      "id": "ESwitch_TL1100F160Q_BodyIllustration",
+      "board": "mainboard",
+      "references": [
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "footprint": "B3F-40XX",
+      "manufacturer_parts": [
+        "E-Switch TL1100F160Q"
+      ],
+      "classification": "original-BOM nominal body illustration",
+      "body_only": true,
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/ESwitch_TL1100F160Q_BodyIllustration.stl",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/ESwitch_TL1100F160Q_BodyIllustration.step",
+      "units": "mm",
+      "source_kind": "original parameterized published-envelope illustration",
+      "canonical_coordinate_convention": {
+        "x": "original F.Cu footprint X",
+        "y": "negative original F.Cu footprint Y",
+        "z": "outward from component side",
+        "origin": "original library origin in XY; housing rear datum at Z=0",
+        "placement": "Apply actual KiCad side flip and footprint rotation once.",
+        "baked_placement_side_flip": false
+      },
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1100F160Q.pdf"
+      ],
+      "sources": [
+        {
+          "url": "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1100F160Q.pdf",
+          "local_file": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/tact-switches/TL1100F160Q.pdf",
+          "sha256": "2d05798eba65aba0899face1d9c6828c64d6e7c0ba9718a054b72463790c7475",
+          "pages": [
+            1
+          ],
+          "kind": "manufacturer dimension drawing"
+        }
+      ],
+      "dimensions": {
+        "housing_width_mm": 12,
+        "housing_length_mm": 12,
+        "base_height_mm": 3.9,
+        "lid_thickness_max_mm": 0.5,
+        "actuator_total_height_mm": 7.3,
+        "actuator_head_width_mm": 3.3,
+        "actuator_head_length_mm": 2.5,
+        "actuator_head_height_mm": 1.8,
+        "actuator_base_diameter_mm": 6.7
+      },
+      "bounds": {
+        "min_mm": [
+          -6.0,
+          -6.0,
+          0.0
+        ],
+        "max_mm": [
+          6.0,
+          6.0,
+          7.3
+        ],
+        "size_mm": [
+          12.0,
+          12.0,
+          7.3
+        ]
+      },
+      "source_sha256": "575df18465dffed5804b95c02adf9c4dd136ad7ad7bfa60d37911665c2d9c060",
+      "stl_sha256": "865fb2e3c4cde248fc0dda3dd7488c119db310674e590259e8c3114f3856d769",
+      "material_color_suggestions": {
+        "black_polymer": {
+          "rgba": [
+            0.035,
+            0.035,
+            0.04,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.36
+        },
+        "brown_phenolic": {
+          "rgba": [
+            0.23,
+            0.11,
+            0.035,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.58
+        },
+        "metal_case": {
+          "rgba": [
+            0.57,
+            0.59,
+            0.61,
+            1
+          ],
+          "metallic": 0.8,
+          "roughness": 0.34
+        },
+        "nickel_brass": {
+          "rgba": [
+            0.69,
+            0.7,
+            0.72,
+            1
+          ],
+          "metallic": 0.9,
+          "roughness": 0.23
+        }
+      },
+      "mesh_parts": [
+        {
+          "name": "Housing",
+          "role": "housing",
+          "material": "black_polymer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/ESwitch_TL1100F160Q_BodyIllustration_Housing.stl",
+          "units": "mm",
+          "sha256": "ef034d0e1f4b368c7eb9e3e480a848d668034cec0717a7ca2547939a0f3f4792",
+          "bounds": {
+            "min_mm": [
+              -6.0,
+              -6.0,
+              0.0
+            ],
+            "max_mm": [
+              6.0,
+              6.0,
+              3.9
+            ],
+            "size_mm": [
+              12.0,
+              12.0,
+              3.9
+            ]
+          },
+          "facets": 12
+        },
+        {
+          "name": "Cover",
+          "role": "housing",
+          "material": "metal_case",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/ESwitch_TL1100F160Q_BodyIllustration_Cover.stl",
+          "units": "mm",
+          "sha256": "08418711255406c6e6d9764d4e0bfa14e6af720825d8d0e84319f0e62ef32003",
+          "bounds": {
+            "min_mm": [
+              -6.0,
+              -6.0,
+              3.9
+            ],
+            "max_mm": [
+              6.0,
+              6.0,
+              4.4
+            ],
+            "size_mm": [
+              12.0,
+              12.0,
+              0.5000000000000004
+            ]
+          },
+          "facets": 12
+        },
+        {
+          "name": "ActuatorBase",
+          "role": "actuator",
+          "material": "black_polymer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/ESwitch_TL1100F160Q_BodyIllustration_ActuatorBase.stl",
+          "units": "mm",
+          "sha256": "036b47e9cbf0bad2faef7b6f46a0f7c714ee9defaabcb71cdad9ef711aacb59e",
+          "bounds": {
+            "min_mm": [
+              -3.35,
+              -3.348958759702735,
+              4.4
+            ],
+            "max_mm": [
+              3.35,
+              3.3489587597027346,
+              5.5
+            ],
+            "size_mm": [
+              6.7,
+              6.69791751940547,
+              1.0999999999999996
+            ]
+          },
+          "facets": 500
+        },
+        {
+          "name": "ActuatorHead",
+          "role": "actuator",
+          "material": "black_polymer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/ESwitch_TL1100F160Q_BodyIllustration_ActuatorHead.stl",
+          "units": "mm",
+          "sha256": "def8294ba20c2a2681a63c7cf44fdb02ff45c5c74d67ac47166425c460b919b4",
+          "bounds": {
+            "min_mm": [
+              -1.65,
+              -1.25,
+              5.5
+            ],
+            "max_mm": [
+              1.65,
+              1.25,
+              7.3
+            ],
+            "size_mm": [
+              3.3,
+              2.5,
+              1.7999999999999998
+            ]
+          },
+          "facets": 12
+        }
+      ],
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "Cover uses the printed 0.50 mm maximum thickness. The 1.10 mm actuator-base height is an illustrative link between the printed lid and actuator-head levels.",
+        "The drawing preserves 7.30 mm total actuator height; cap color and installed cap seating remain separate assembly choices."
+      ],
+      "source_library": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod",
+      "source_library_sha256": "8af6820c597f0a4d7af59eb8d7b712c98268eada2fbcff65cb1cbb1442262007",
+      "combined_step_contains": [
+        "Housing",
+        "Cover",
+        "ActuatorBase",
+        "ActuatorHead"
+      ],
+      "step_colors": "Material intent is recorded here; headless STEP may use viewer default colors."
+    },
+    {
+      "id": "Panasonic_EVUF2LFL3_BodyIllustration",
+      "board": "mainboard",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ],
+      "footprint": "EVU",
+      "manufacturer_parts": [
+        "Panasonic EVU-F2LFL3B54",
+        "Panasonic EVU-F2LFL3D54"
+      ],
+      "classification": "original-BOM nominal body illustration",
+      "body_only": true,
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Panasonic_EVUF2LFL3_BodyIllustration.stl",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Panasonic_EVUF2LFL3_BodyIllustration.step",
+      "units": "mm",
+      "source_kind": "original parameterized published-envelope illustration",
+      "canonical_coordinate_convention": {
+        "x": "original F.Cu footprint X",
+        "y": "negative original F.Cu footprint Y",
+        "z": "outward from component side",
+        "origin": "original library origin in XY; housing rear datum at Z=0",
+        "placement": "Apply actual KiCad side flip and footprint rotation once.",
+        "baked_placement_side_flip": false
+      },
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf"
+      ],
+      "sources": [
+        {
+          "url": "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf",
+          "local_file": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/sources/panasonic-evu.pdf",
+          "sha256": "410c4120bb640dac4b4ae6be508fa183aa289f92005df9aab60af09f282c9e0b",
+          "pages": [
+            4,
+            5
+          ],
+          "kind": "Panasonic manufacturer dimension drawing preserved by public mirror"
+        }
+      ],
+      "dimensions": {
+        "housing_width_mm": 9.7,
+        "housing_length_mm": 12.5,
+        "housing_height_mm": 8.5,
+        "housing_y_min_mm": -6.5,
+        "housing_y_max_mm": 6.0,
+        "sleeve_diameter_mm": 9,
+        "sleeve_length_mm": 5,
+        "shaft_diameter_mm": 6,
+        "shaft_length_from_housing_front_mm": 21.5,
+        "shaft_flat_length_mm": 12,
+        "shaft_flat_across_mm": 4.5,
+        "shaft_tip_from_housing_rear_mm": 30
+      },
+      "bounds": {
+        "min_mm": [
+          -4.85,
+          -6.5,
+          0.0
+        ],
+        "max_mm": [
+          4.85,
+          6.0,
+          30.0
+        ],
+        "size_mm": [
+          9.7,
+          12.5,
+          30.0
+        ]
+      },
+      "source_sha256": "e0bc61ce82e62b7afda32545553915b5c375759a3ab95ce1c1ae4055721cbaf6",
+      "stl_sha256": "04ad2e5ba3b40643841837d0807deb95a151768207f43143d3590f849000f188",
+      "material_color_suggestions": {
+        "black_polymer": {
+          "rgba": [
+            0.035,
+            0.035,
+            0.04,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.36
+        },
+        "brown_phenolic": {
+          "rgba": [
+            0.23,
+            0.11,
+            0.035,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.58
+        },
+        "metal_case": {
+          "rgba": [
+            0.57,
+            0.59,
+            0.61,
+            1
+          ],
+          "metallic": 0.8,
+          "roughness": 0.34
+        },
+        "nickel_brass": {
+          "rgba": [
+            0.69,
+            0.7,
+            0.72,
+            1
+          ],
+          "metallic": 0.9,
+          "roughness": 0.23
+        }
+      },
+      "mesh_parts": [
+        {
+          "name": "Housing",
+          "role": "housing",
+          "material": "black_polymer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Panasonic_EVUF2LFL3_BodyIllustration_Housing.stl",
+          "units": "mm",
+          "sha256": "b6ec107e9d13b3881d51532f94ab3c06f3104e597dc92fd08630d8cd7b7f83b5",
+          "bounds": {
+            "min_mm": [
+              -4.85,
+              -6.5,
+              0.0
+            ],
+            "max_mm": [
+              4.85,
+              6.0,
+              8.5
+            ],
+            "size_mm": [
+              9.7,
+              12.5,
+              8.5
+            ]
+          },
+          "facets": 12
+        },
+        {
+          "name": "Sleeve",
+          "role": "bushing",
+          "material": "black_polymer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Panasonic_EVUF2LFL3_BodyIllustration_Sleeve.stl",
+          "units": "mm",
+          "sha256": "53fe9dd53c3938c9cf3a79f4a216f02235b9de5d79a20eede1bf4a7884030c16",
+          "bounds": {
+            "min_mm": [
+              -4.5,
+              -4.498601319003674,
+              8.5
+            ],
+            "max_mm": [
+              4.5,
+              4.498601319003673,
+              13.5
+            ],
+            "size_mm": [
+              9.0,
+              8.997202638007348,
+              5.0
+            ]
+          },
+          "facets": 500
+        },
+        {
+          "name": "Shaft",
+          "role": "shaft",
+          "material": "black_polymer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Panasonic_EVUF2LFL3_BodyIllustration_Shaft.stl",
+          "units": "mm",
+          "sha256": "9c60536414316c77bac47ad625c67022f1b13f919005af7d344ca92bccf5c591",
+          "bounds": {
+            "min_mm": [
+              -3.0,
+              -3.0,
+              8.5
+            ],
+            "max_mm": [
+              3.0,
+              2.999699615300247,
+              30.0
+            ],
+            "size_mm": [
+              6.0,
+              5.999699615300247,
+              21.5
+            ]
+          },
+          "facets": 506
+        }
+      ],
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "The canonical terminal side is negative Y, matching the original F.Cu library after Cartesian Y inversion.",
+        "Shaft flat is a nominal illustration; current rotation and historical assembly trim are unspecified. Shaft tip Z=30.0 mm follows the full FL3 drawing and is not shortened to fit the panel."
+      ],
+      "source_library": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/EVU.kicad_mod",
+      "source_library_sha256": "496403731e6d60f7c0d6d729f5621f44f0a2433cb93090242be8e6d558d10140",
+      "combined_step_contains": [
+        "Housing",
+        "Sleeve",
+        "Shaft"
+      ],
+      "step_colors": "Material intent is recorded here; headless STEP may use viewer default colors."
+    },
+    {
+      "id": "Alpha_RV112BCF40_25_BodyIllustration",
+      "board": "mainboard",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "footprint": "ALPHADUAL",
+      "manufacturer_parts": [
+        "Alpha RV112BCF-40-25F-B54",
+        "Alpha RV112BCF-40-25F-A16"
+      ],
+      "classification": "original-BOM nominal body illustration",
+      "body_only": true,
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Alpha_RV112BCF40_25_BodyIllustration.stl",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Alpha_RV112BCF40_25_BodyIllustration.step",
+      "units": "mm",
+      "source_kind": "original parameterized published-envelope illustration",
+      "canonical_coordinate_convention": {
+        "x": "original F.Cu footprint X",
+        "y": "negative original F.Cu footprint Y",
+        "z": "outward from component side",
+        "origin": "original library origin in XY; housing rear datum at Z=0",
+        "placement": "Apply actual KiCad side flip and footprint rotation once.",
+        "baked_placement_side_flip": false
+      },
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://static.chipdip.ru/lib/521/DOC013521571.pdf"
+      ],
+      "sources": [
+        {
+          "url": "https://static.chipdip.ru/lib/521/DOC013521571.pdf",
+          "local_file": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/sources/alpha-rv112b.pdf",
+          "sha256": "78a6668289775ea5226232e6fb838979dd83a5e2ba8dba4185e82cde23e21763",
+          "pages": [
+            4,
+            5,
+            8
+          ],
+          "kind": "Taiwan Alpha manufacturer dimension drawing preserved by public distributor"
+        }
+      ],
+      "dimensions": {
+        "housing_overall_width_mm": 13.6,
+        "housing_main_width_mm": 11,
+        "housing_flange_width_mm": 12,
+        "housing_length_mm": 15.4,
+        "housing_y_min_mm": -8.7,
+        "housing_y_max_mm": 6.7,
+        "housing_height_mm": 6.9,
+        "sleeve_diameter_mm": 7.2,
+        "sleeve_length_mm": 5,
+        "shaft_diameter_mm": 6,
+        "shaft_length_from_housing_rear_mm": 25,
+        "nominal_current25A_flat_length_mm": 7,
+        "shaft_flat_across_mm": 4.5
+      },
+      "bounds": {
+        "min_mm": [
+          -6.8,
+          -8.7,
+          0.0
+        ],
+        "max_mm": [
+          6.8,
+          6.700000000000001,
+          25.0
+        ],
+        "size_mm": [
+          13.6,
+          15.4,
+          25.0
+        ]
+      },
+      "source_sha256": "2ec819805e6f82307a681066c92d46b17b34cdfcc5daa4c6362c4c1be6103adc",
+      "stl_sha256": "cbada6cf6c873a681fddb0cbf84511e20b3fd9bb0f9226fa1740663ec097bf55",
+      "material_color_suggestions": {
+        "black_polymer": {
+          "rgba": [
+            0.035,
+            0.035,
+            0.04,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.36
+        },
+        "brown_phenolic": {
+          "rgba": [
+            0.23,
+            0.11,
+            0.035,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.58
+        },
+        "metal_case": {
+          "rgba": [
+            0.57,
+            0.59,
+            0.61,
+            1
+          ],
+          "metallic": 0.8,
+          "roughness": 0.34
+        },
+        "nickel_brass": {
+          "rgba": [
+            0.69,
+            0.7,
+            0.72,
+            1
+          ],
+          "metallic": 0.9,
+          "roughness": 0.23
+        }
+      },
+      "mesh_parts": [
+        {
+          "name": "HousingEnvelope",
+          "role": "housing",
+          "material": "black_polymer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Alpha_RV112BCF40_25_BodyIllustration_HousingEnvelope.stl",
+          "units": "mm",
+          "sha256": "ec2c1a781a5209ef1136b2bec5dac226472bef45d9d25d84a4633af05aed3b33",
+          "bounds": {
+            "min_mm": [
+              -6.8,
+              -8.7,
+              0.0
+            ],
+            "max_mm": [
+              6.8,
+              6.700000000000001,
+              6.9
+            ],
+            "size_mm": [
+              13.6,
+              15.4,
+              6.9
+            ]
+          },
+          "facets": 12
+        },
+        {
+          "name": "Sleeve",
+          "role": "bushing",
+          "material": "black_polymer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Alpha_RV112BCF40_25_BodyIllustration_Sleeve.stl",
+          "units": "mm",
+          "sha256": "0a969f6a093d3935a61065cb5971b746f432d716fb4674e6759ef5eec5c9fbed",
+          "bounds": {
+            "min_mm": [
+              -3.6,
+              -3.5988810552029395,
+              6.9
+            ],
+            "max_mm": [
+              3.6,
+              3.5988810552029387,
+              11.9
+            ],
+            "size_mm": [
+              7.2,
+              7.197762110405878,
+              5.0
+            ]
+          },
+          "facets": 500
+        },
+        {
+          "name": "Shaft",
+          "role": "shaft",
+          "material": "black_polymer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Alpha_RV112BCF40_25_BodyIllustration_Shaft.stl",
+          "units": "mm",
+          "sha256": "bcdd5eb809dcccdbe081a2b4b737da9b1c29a45fc1483794c6b28cb9c8397337",
+          "bounds": {
+            "min_mm": [
+              -3.0,
+              -3.0,
+              6.9
+            ],
+            "max_mm": [
+              3.0,
+              2.999699615300247,
+              25.0
+            ],
+            "size_mm": [
+              6.0,
+              5.999699615300247,
+              18.1
+            ]
+          },
+          "facets": 506
+        }
+      ],
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "Housing is the complete rectangular 13.6 by 15.4 mm published envelope, including the output-board/flange extent; detailed molding steps are not reconstructed.",
+        "Original BOM uses historical 25F shaft suffix. Current drawing calls the 25 mm flatted option 25A; the 7 mm flat detail is explicitly a current-family nominal illustration, not verified historical 25F CAD.",
+        "Unlike Panasonic, Alpha L=25 mm is measured from housing rear. Model shaft tip is Z=25 mm."
+      ],
+      "source_library": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/ALPHADUAL.kicad_mod",
+      "source_library_sha256": "412f06d4192994bbdd24995dee55d48989d6bd0b2673f8f7c589501233dcb7c5",
+      "combined_step_contains": [
+        "HousingEnvelope",
+        "Sleeve",
+        "Shaft"
+      ],
+      "step_colors": "Material intent is recorded here; headless STEP may use viewer default colors."
+    },
+    {
+      "id": "CTS_290VAA5F201B2_BodyIllustration",
+      "board": "mainboard",
+      "references": [
+        "S2"
+      ],
+      "footprint": "PEC11-S",
+      "manufacturer_parts": [
+        "CTS 290VAA5F201B2"
+      ],
+      "classification": "original-BOM nominal body illustration",
+      "body_only": true,
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/CTS_290VAA5F201B2_BodyIllustration.stl",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/CTS_290VAA5F201B2_BodyIllustration.step",
+      "units": "mm",
+      "source_kind": "original parameterized published-envelope illustration",
+      "canonical_coordinate_convention": {
+        "x": "original F.Cu footprint X",
+        "y": "negative original F.Cu footprint Y",
+        "z": "outward from component side",
+        "origin": "original library origin in XY; housing rear datum at Z=0",
+        "placement": "Apply actual KiCad side flip and footprint rotation once.",
+        "baked_placement_side_flip": false
+      },
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.ctscorp.com/Files/DataSheets/Encoders/encoders-290-datasheet.pdf"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ctscorp.com/Files/DataSheets/Encoders/encoders-290-datasheet.pdf",
+          "local_file": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rotary-models/cts290.pdf",
+          "sha256": "19ce2930fbe3efed88713c996116dbd3bbb4dbf4655cc86d4a69aa0cdaaa2232",
+          "pages": [
+            2,
+            3
+          ],
+          "kind": "manufacturer dimension drawing"
+        }
+      ],
+      "dimensions": {
+        "housing_width_mm": 9.8,
+        "housing_length_mm": 10.6,
+        "housing_height_mm": 6.2,
+        "housing_y_min_mm": -5.1,
+        "housing_y_max_mm": 5.5,
+        "bushing_diameter_mm": 7,
+        "bushing_length_mm": 5,
+        "shaft_diameter_mm": 6,
+        "shaft_length_from_housing_front_mm": 15,
+        "shaft_flat_length_mm": 7,
+        "shaft_flat_across_mm": 4.5,
+        "shaft_tip_from_housing_rear_mm": 21.2
+      },
+      "bounds": {
+        "min_mm": [
+          -4.9,
+          -5.1,
+          0.0
+        ],
+        "max_mm": [
+          4.9,
+          5.5,
+          21.2
+        ],
+        "size_mm": [
+          9.8,
+          10.6,
+          21.2
+        ]
+      },
+      "source_sha256": "90f6ff9576977d79187ba3b2f1afd90193bd1ddd128899629763d44920956709",
+      "stl_sha256": "a2717c9ab7b68c8c247d3232e6daca2ad2564dce279d1e36e1ca223a8cdd89ed",
+      "material_color_suggestions": {
+        "black_polymer": {
+          "rgba": [
+            0.035,
+            0.035,
+            0.04,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.36
+        },
+        "brown_phenolic": {
+          "rgba": [
+            0.23,
+            0.11,
+            0.035,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.58
+        },
+        "metal_case": {
+          "rgba": [
+            0.57,
+            0.59,
+            0.61,
+            1
+          ],
+          "metallic": 0.8,
+          "roughness": 0.34
+        },
+        "nickel_brass": {
+          "rgba": [
+            0.69,
+            0.7,
+            0.72,
+            1
+          ],
+          "metallic": 0.9,
+          "roughness": 0.23
+        }
+      },
+      "mesh_parts": [
+        {
+          "name": "Housing",
+          "role": "housing",
+          "material": "metal_case",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/CTS_290VAA5F201B2_BodyIllustration_Housing.stl",
+          "units": "mm",
+          "sha256": "970b0e8efe90c1dae0569bfc8d4815089db141f8275b614a666c3425da81bea2",
+          "bounds": {
+            "min_mm": [
+              -4.9,
+              -5.1,
+              0.0
+            ],
+            "max_mm": [
+              4.9,
+              5.5,
+              6.2
+            ],
+            "size_mm": [
+              9.8,
+              10.6,
+              6.2
+            ]
+          },
+          "facets": 12
+        },
+        {
+          "name": "BushingA_Unthreaded",
+          "role": "bushing",
+          "material": "nickel_brass",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/CTS_290VAA5F201B2_BodyIllustration_BushingA_Unthreaded.stl",
+          "units": "mm",
+          "sha256": "89417e16e2abab9a6a5f27e9240c4960f36f039fd0608ebc189cbb54398ddb32",
+          "bounds": {
+            "min_mm": [
+              -3.5,
+              -3.4989121370028577,
+              6.2
+            ],
+            "max_mm": [
+              3.5,
+              3.498912137002857,
+              11.2
+            ],
+            "size_mm": [
+              7.0,
+              6.997824274005715,
+              4.999999999999999
+            ]
+          },
+          "facets": 500
+        },
+        {
+          "name": "ShaftA5_Flatted",
+          "role": "shaft",
+          "material": "nickel_brass",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/CTS_290VAA5F201B2_BodyIllustration_ShaftA5_Flatted.stl",
+          "units": "mm",
+          "sha256": "9eb0141e16a4b3ab6a2e934779f6672a7f6b82cebe75be6c5b5e8291191f7474",
+          "bounds": {
+            "min_mm": [
+              -3.0,
+              -3.0,
+              6.2
+            ],
+            "max_mm": [
+              3.0,
+              2.999699615300247,
+              21.2
+            ],
+            "size_mm": [
+              6.0,
+              5.999699615300247,
+              15.0
+            ]
+          },
+          "facets": 506
+        }
+      ],
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "The original footprint is named PEC11-S, but the original BOM identifies CTS290VAA5F201B2. This illustration follows CTS dimensions, without substituting Bourns PEC11.",
+        "Preserved manufacturer STEP290VBC0F201B2 has different bushing and shaft options and is not used to create this model.",
+        "The housing-only illustration does not transfer the previous wrong-variant mounting-tab fit result to the illustrated original variant."
+      ],
+      "source_library": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/PEC11-S.kicad_mod",
+      "source_library_sha256": "7d882a5b0244378e4de5d5d86fcbc0fb42a702e1a82995873786851f2e78ca13",
+      "combined_step_contains": [
+        "Housing",
+        "BushingA_Unthreaded",
+        "ShaftA5_Flatted"
+      ],
+      "step_colors": "Material intent is recorded here; headless STEP may use viewer default colors."
+    },
+    {
+      "id": "NKK_B12AB_BodyIllustration",
+      "board": "mainboard",
+      "references": [
+        "S1"
+      ],
+      "footprint": "NKKTOGGLE",
+      "manufacturer_parts": [
+        "NKK B12AB-RO"
+      ],
+      "classification": "original-BOM nominal body illustration",
+      "body_only": true,
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/NKK_B12AB_BodyIllustration.stl",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/NKK_B12AB_BodyIllustration.step",
+      "units": "mm",
+      "source_kind": "original parameterized published-envelope illustration",
+      "canonical_coordinate_convention": {
+        "x": "original F.Cu footprint X",
+        "y": "negative original F.Cu footprint Y",
+        "z": "outward from component side",
+        "origin": "original library origin in XY; housing rear datum at Z=0",
+        "placement": "Apply actual KiCad side flip and footprint rotation once.",
+        "baked_placement_side_flip": false
+      },
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.nkkswitches.eu/pdf/toggle_B.pdf"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nkkswitches.eu/pdf/toggle_B.pdf",
+          "local_file": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/sources/nkk-btoggles-eu.pdf",
+          "sha256": "d20c2abceed8671b95b2fbdb13ebdce8cd60ab685e104cd43771bf8fbd8b17b4",
+          "pages": [
+            3,
+            4,
+            6
+          ],
+          "kind": "manufacturer dimension drawing"
+        }
+      ],
+      "dimensions": {
+        "housing_with_bracket_width_mm": 8,
+        "housing_length_mm": 8.8,
+        "housing_with_bracket_depth_mm": 10.4,
+        "body_plus_bushing_depth_mm": 13.1,
+        "bushing_diameter_mm": 6,
+        "bushing_projection_mm": 2.7,
+        "lever_diameter_mm": 2.6,
+        "lever_length_mm": 10,
+        "total_throw_degrees": 26,
+        "lever_neutral_tip_z_mm": 23.1,
+        "bracket_stock_thickness_mm": 0.4
+      },
+      "bounds": {
+        "min_mm": [
+          -4.0,
+          -4.4,
+          0.0
+        ],
+        "max_mm": [
+          4.0,
+          4.4,
+          23.1
+        ],
+        "size_mm": [
+          8.0,
+          8.8,
+          23.1
+        ]
+      },
+      "source_sha256": "d78fff34332c1d5ce83540f6e325317dbf10c6df685244215055bb1ec277f4a4",
+      "stl_sha256": "07f8248761f460139ba91960fc010c68d9f0c06f4d8e2707e914543580972836",
+      "material_color_suggestions": {
+        "black_polymer": {
+          "rgba": [
+            0.035,
+            0.035,
+            0.04,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.36
+        },
+        "brown_phenolic": {
+          "rgba": [
+            0.23,
+            0.11,
+            0.035,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.58
+        },
+        "metal_case": {
+          "rgba": [
+            0.57,
+            0.59,
+            0.61,
+            1
+          ],
+          "metallic": 0.8,
+          "roughness": 0.34
+        },
+        "nickel_brass": {
+          "rgba": [
+            0.69,
+            0.7,
+            0.72,
+            1
+          ],
+          "metallic": 0.9,
+          "roughness": 0.23
+        }
+      },
+      "mesh_parts": [
+        {
+          "name": "HousingWithBracketEnvelope",
+          "role": "housing",
+          "material": "metal_case",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/NKK_B12AB_BodyIllustration_HousingWithBracketEnvelope.stl",
+          "units": "mm",
+          "sha256": "0e52722074f42189c83b1416d24d6f98c0f5cf24759c80758fb9a86ad735658d",
+          "bounds": {
+            "min_mm": [
+              -4.0,
+              -4.4,
+              0.0
+            ],
+            "max_mm": [
+              4.0,
+              4.4,
+              10.4
+            ],
+            "size_mm": [
+              8.0,
+              8.8,
+              10.4
+            ]
+          },
+          "facets": 12
+        },
+        {
+          "name": "Bushing",
+          "role": "bushing",
+          "material": "black_polymer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/NKK_B12AB_BodyIllustration_Bushing.stl",
+          "units": "mm",
+          "sha256": "7fd9b4c248bc94d3646049eb231acf406eae6dea1c54153495c01fe878088e54",
+          "bounds": {
+            "min_mm": [
+              -3.0,
+              -2.9990675460024496,
+              10.4
+            ],
+            "max_mm": [
+              3.0,
+              2.9990675460024487,
+              13.100000000000001
+            ],
+            "size_mm": [
+              6.0,
+              5.998135092004898,
+              2.700000000000001
+            ]
+          },
+          "facets": 500
+        },
+        {
+          "name": "BatLeverNeutralEnvelope",
+          "role": "actuator",
+          "material": "nickel_brass",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/NKK_B12AB_BodyIllustration_BatLeverNeutralEnvelope.stl",
+          "units": "mm",
+          "sha256": "9270bb2af0e8fd247bc85d536869a200b52e14bc29fd41907afaf703f9056d0f",
+          "bounds": {
+            "min_mm": [
+              -1.3,
+              -1.2995959366010614,
+              13.1
+            ],
+            "max_mm": [
+              1.3,
+              1.2995959366010612,
+              23.1
+            ],
+            "size_mm": [
+              2.6,
+              2.5991918732021224,
+              10.000000000000002
+            ]
+          },
+          "facets": 500
+        }
+      ],
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "The bracketed housing uses its complete rectangular envelope; bracket windows, folds and separate polymer-case molding are not reconstructed.",
+        "Lever is shown in a neutral reference pose to preserve its full 10 mm length. B12AB is ON-NONE-ON, so an installed lever should be posed to either end of the printed total26 degree throw. No switch-state claim is made.",
+        "Source terminal-row offset is nominal1.0 mm; original library is1.016 mm. The body axis uses the original library origin, without inventing an offset to force terminal fit."
+      ],
+      "source_library": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/NKKTOGGLE.kicad_mod",
+      "source_library_sha256": "e8d725874d38a8f7d2b5d6dbf54984678daf1c2e57a48b2fdd45ae01c527dea6",
+      "combined_step_contains": [
+        "HousingWithBracketEnvelope",
+        "Bushing",
+        "BatLeverNeutralEnvelope"
+      ],
+      "step_colors": "Material intent is recorded here; headless STEP may use viewer default colors."
+    },
+    {
+      "id": "Grayhill_25LB22H_BodyIllustration",
+      "board": "mainboard",
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "footprint": "GH3074",
+      "manufacturer_parts": [
+        "Grayhill 25LB22-H"
+      ],
+      "classification": "original-BOM nominal body illustration",
+      "body_only": true,
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Grayhill_25LB22H_BodyIllustration.stl",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Grayhill_25LB22H_BodyIllustration.step",
+      "units": "mm",
+      "source_kind": "original parameterized published-envelope illustration",
+      "canonical_coordinate_convention": {
+        "x": "original F.Cu footprint X",
+        "y": "negative original F.Cu footprint Y",
+        "z": "outward from component side",
+        "origin": "original library origin in XY; housing rear datum at Z=0",
+        "placement": "Apply actual KiCad side flip and footprint rotation once.",
+        "baked_placement_side_flip": false
+      },
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://grayhill.com/wp-content/uploads/media/25l-datasheet.pdf"
+      ],
+      "sources": [
+        {
+          "url": "https://grayhill.com/wp-content/uploads/media/25l-datasheet.pdf",
+          "local_file": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/rotary-models/grayhill25l.pdf",
+          "sha256": "fea3a93ce2e151bef4a134dd21ef2d986f6c87c98b6b31bfd2e6fcb1754ab655",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "manufacturer dimension drawing"
+        }
+      ],
+      "dimensions": {
+        "housing_overall_width_mm": 23.5,
+        "housing_overall_length_mm": 25.91,
+        "housing_depth_mm": 8.71,
+        "housing_y_min_mm": -14.925,
+        "housing_y_max_mm": 10.985,
+        "bushing_major_diameter_mm": 9.525,
+        "bushing_double_d_across_mm": 8.13,
+        "bushing_length_mm": 6.35,
+        "shaft_diameter_mm": 6.35,
+        "shaft_length_beyond_bushing_mm": 12.7,
+        "shaft_flat_length_mm": 6.35,
+        "shaft_flat_across_mm": 5.56,
+        "shaft_tip_z_mm": 27.76,
+        "anti_turn_tab_diameter_envelope_mm": 3.05,
+        "anti_turn_tab_height_mm": 1.73,
+        "anti_turn_tab_center_mm": [
+          10.16,
+          0
+        ]
+      },
+      "bounds": {
+        "min_mm": [
+          -11.75,
+          -14.925,
+          0.0
+        ],
+        "max_mm": [
+          11.75,
+          10.985,
+          27.760000000000005
+        ],
+        "size_mm": [
+          23.5,
+          25.91,
+          27.760000000000005
+        ]
+      },
+      "source_sha256": "8247a603780d6111e8b8ba78e3739e57a487f68d0394bd40645c6f68b4c71ef4",
+      "stl_sha256": "4470e42ebfad172cc1a2b5e73a58b8f56f5c14a8d4e68bc47b0e9a7081a58ff0",
+      "material_color_suggestions": {
+        "black_polymer": {
+          "rgba": [
+            0.035,
+            0.035,
+            0.04,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.36
+        },
+        "brown_phenolic": {
+          "rgba": [
+            0.23,
+            0.11,
+            0.035,
+            1
+          ],
+          "metallic": 0,
+          "roughness": 0.58
+        },
+        "metal_case": {
+          "rgba": [
+            0.57,
+            0.59,
+            0.61,
+            1
+          ],
+          "metallic": 0.8,
+          "roughness": 0.34
+        },
+        "nickel_brass": {
+          "rgba": [
+            0.69,
+            0.7,
+            0.72,
+            1
+          ],
+          "metallic": 0.9,
+          "roughness": 0.23
+        }
+      },
+      "mesh_parts": [
+        {
+          "name": "HousingEnvelope",
+          "role": "housing",
+          "material": "black_polymer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Grayhill_25LB22H_BodyIllustration_HousingEnvelope.stl",
+          "units": "mm",
+          "sha256": "2e7721b8ad155f2282a1051e04287474a674725c1204161207c1a8fdb871e5bc",
+          "bounds": {
+            "min_mm": [
+              -11.75,
+              -14.925,
+              0.0
+            ],
+            "max_mm": [
+              11.75,
+              10.985,
+              8.71
+            ],
+            "size_mm": [
+              23.5,
+              25.91,
+              8.71
+            ]
+          },
+          "facets": 12
+        },
+        {
+          "name": "DoubleDBushingEnvelope",
+          "role": "bushing",
+          "material": "black_polymer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Grayhill_25LB22H_BodyIllustration_DoubleDBushingEnvelope.stl",
+          "units": "mm",
+          "sha256": "1ad5711b25038b764403d58f625644fb3e979fd6a665b1654f397b40196a8b05",
+          "bounds": {
+            "min_mm": [
+              -4.064999999999969,
+              -4.761018326487028,
+              8.71
+            ],
+            "max_mm": [
+              4.0650000000001025,
+              4.761018326487028,
+              15.06
+            ],
+            "size_mm": [
+              8.130000000000072,
+              9.522036652974055,
+              6.35
+            ]
+          },
+          "facets": 332
+        },
+        {
+          "name": "Shaft",
+          "role": "shaft",
+          "material": "black_polymer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Grayhill_25LB22H_BodyIllustration_Shaft.stl",
+          "units": "mm",
+          "sha256": "fb8449b5d13395d7f43beafddc90883ef6302179f7a01cf92a2bcc509981a480",
+          "bounds": {
+            "min_mm": [
+              -3.175,
+              -3.1740189259704343,
+              15.06
+            ],
+            "max_mm": [
+              3.175,
+              3.174077054209974,
+              27.760000000000005
+            ],
+            "size_mm": [
+              6.35,
+              6.348095980180409,
+              12.700000000000005
+            ]
+          },
+          "facets": 504
+        },
+        {
+          "name": "AntiTurnTabEnvelope",
+          "role": "housing",
+          "material": "black_polymer",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Grayhill_25LB22H_BodyIllustration_AntiTurnTabEnvelope.stl",
+          "units": "mm",
+          "sha256": "c03f9b8748a48952ad87bfbc97359c658e97befbe3368e4fed5e081efe1cb277",
+          "bounds": {
+            "min_mm": [
+              8.635,
+              -1.524526002551245,
+              8.71
+            ],
+            "max_mm": [
+              11.685,
+              1.5245260025512446,
+              10.440000000000001
+            ],
+            "size_mm": [
+              3.0500000000000007,
+              3.0490520051024896,
+              1.7300000000000004
+            ]
+          },
+          "facets": 500
+        }
+      ],
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "Full housing rectangular envelope retains the output-board tongue on canonical negative Y. Native B.Cu side flip remains a placement operation.",
+        "Bushing represents the source3/8-32 major-diameter double-D envelope; helical thread and mounting nut are omitted.",
+        "No optional bracket is added to original25LB22-H. This is the same corrected original-F.Cu orientation independently audited in grayhill-world-orientation-audit.json."
+      ],
+      "source_library": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/GH3074.kicad_mod",
+      "source_library_sha256": "64cf42f76a9362c63ec206f6126e79c568856e00a9b6cb5db17549bc4a58e569",
+      "combined_step_contains": [
+        "HousingEnvelope",
+        "DoubleDBushingEnvelope",
+        "Shaft",
+        "AntiTurnTabEnvelope"
+      ],
+      "step_colors": "Material intent is recorded here; headless STEP may use viewer default colors."
+    }
+  ],
+  "assignments": [
+    {
+      "board": "mainboard",
+      "references": [
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27"
+      ],
+      "footprint": "B3F-40XX",
+      "source_sha256": "575df18465dffed5804b95c02adf9c4dd136ad7ad7bfa60d37911665c2d9c060",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original parameterized published-envelope illustration",
+      "classification": "original-BOM nominal body illustration",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "Cover uses the printed 0.50 mm maximum thickness. The 1.10 mm actuator-base height is an illustrative link between the printed lid and actuator-head levels.",
+        "The drawing preserves 7.30 mm total actuator height; cap color and installed cap seating remain separate assembly choices."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1100F160Q.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/ESwitch_TL1100F160Q_BodyIllustration.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ],
+      "footprint": "EVU",
+      "source_sha256": "e0bc61ce82e62b7afda32545553915b5c375759a3ab95ce1c1ae4055721cbaf6",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original parameterized published-envelope illustration",
+      "classification": "original-BOM nominal body illustration",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "The canonical terminal side is negative Y, matching the original F.Cu library after Cartesian Y inversion.",
+        "Shaft flat is a nominal illustration; current rotation and historical assembly trim are unspecified. Shaft tip Z=30.0 mm follows the full FL3 drawing and is not shortened to fit the panel."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://hkjdwchip.com/image/files/panasonicelectroniccomponents-evue2af25d14-datasheets-6366.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Panasonic_EVUF2LFL3_BodyIllustration.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "footprint": "ALPHADUAL",
+      "source_sha256": "2ec819805e6f82307a681066c92d46b17b34cdfcc5daa4c6362c4c1be6103adc",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original parameterized published-envelope illustration",
+      "classification": "original-BOM nominal body illustration",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "Housing is the complete rectangular 13.6 by 15.4 mm published envelope, including the output-board/flange extent; detailed molding steps are not reconstructed.",
+        "Original BOM uses historical 25F shaft suffix. Current drawing calls the 25 mm flatted option 25A; the 7 mm flat detail is explicitly a current-family nominal illustration, not verified historical 25F CAD.",
+        "Unlike Panasonic, Alpha L=25 mm is measured from housing rear. Model shaft tip is Z=25 mm."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://static.chipdip.ru/lib/521/DOC013521571.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Alpha_RV112BCF40_25_BodyIllustration.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "S2"
+      ],
+      "footprint": "PEC11-S",
+      "source_sha256": "90f6ff9576977d79187ba3b2f1afd90193bd1ddd128899629763d44920956709",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original parameterized published-envelope illustration",
+      "classification": "original-BOM nominal body illustration",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "The original footprint is named PEC11-S, but the original BOM identifies CTS290VAA5F201B2. This illustration follows CTS dimensions, without substituting Bourns PEC11.",
+        "Preserved manufacturer STEP290VBC0F201B2 has different bushing and shaft options and is not used to create this model.",
+        "The housing-only illustration does not transfer the previous wrong-variant mounting-tab fit result to the illustrated original variant."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.ctscorp.com/Files/DataSheets/Encoders/encoders-290-datasheet.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/CTS_290VAA5F201B2_BodyIllustration.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "S1"
+      ],
+      "footprint": "NKKTOGGLE",
+      "source_sha256": "d78fff34332c1d5ce83540f6e325317dbf10c6df685244215055bb1ec277f4a4",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original parameterized published-envelope illustration",
+      "classification": "original-BOM nominal body illustration",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "The bracketed housing uses its complete rectangular envelope; bracket windows, folds and separate polymer-case molding are not reconstructed.",
+        "Lever is shown in a neutral reference pose to preserve its full 10 mm length. B12AB is ON-NONE-ON, so an installed lever should be posed to either end of the printed total26 degree throw. No switch-state claim is made.",
+        "Source terminal-row offset is nominal1.0 mm; original library is1.016 mm. The body axis uses the original library origin, without inventing an offset to force terminal fit."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://www.nkkswitches.eu/pdf/toggle_B.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/NKK_B12AB_BodyIllustration.step"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "footprint": "GH3074",
+      "source_sha256": "8247a603780d6111e8b8ba78e3739e57a487f68d0394bd40645c6f68b4c71ef4",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "source_kind": "original parameterized published-envelope illustration",
+      "classification": "original-BOM nominal body illustration",
+      "limitations": [
+        "Body illustration derived from published dimensions; not manufacturer CAD.",
+        "Housing rear datum is placed at model Z=0. Actual historical seating gap is unmeasured.",
+        "Molding details, tolerances, chamfers and terminal geometry are outside this illustration.",
+        "Full nominal body and shaft dimensions are retained; geometry is not reduced to clear an enclosure.",
+        "This visual population asset does not qualify terminal fit, enclosure fit or physical assembly.",
+        "Full housing rectangular envelope retains the output-board tongue on canonical negative Y. Native B.Cu side flip remains a placement operation.",
+        "Bushing represents the source3/8-32 major-diameter double-D envelope; helical thread and mounting nut are omitted.",
+        "No optional bracket is added to original25LB22-H. This is the same corrected original-F.Cu orientation independently audited in grayhill-world-orientation-audit.json."
+      ],
+      "source_urls": [
+        "https://ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/pages/ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://grayhill.com/wp-content/uploads/media/25l-datasheet.pdf"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-6/control-body-illustrations/Grayhill_25LB22H_BodyIllustration.step"
+    }
+  ],
+  "instance_count": 34,
+  "family_count": 6,
+  "input_board_and_libraries_sha256": {
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard.kicad_pcb": "c3ff1a14cbaf9298fb6a0377bc881d279b94245fbae3719be3b618ad913965dc",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod": "8af6820c597f0a4d7af59eb8d7b712c98268eada2fbcff65cb1cbb1442262007",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/EVU.kicad_mod": "496403731e6d60f7c0d6d729f5621f44f0a2433cb93090242be8e6d558d10140",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/ALPHADUAL.kicad_mod": "412f06d4192994bbdd24995dee55d48989d6bd0b2673f8f7c589501233dcb7c5",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/PEC11-S.kicad_mod": "7d882a5b0244378e4de5d5d86fcbc0fb42a702e1a82995873786851f2e78ca13",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/NKKTOGGLE.kicad_mod": "e8d725874d38a8f7d2b5d6dbf54984678daf1c2e57a48b2fdd45ae01c527dea6",
+    "/Users/ruslanmigirov/Downloads/hardware/kicad-working/mainboard/mainboard-import-fps.pretty/GH3074.kicad_mod": "64cf42f76a9362c63ec206f6126e79c568856e00a9b6cb5db17549bc4a58e569"
+  },
+  "generator_modified_input_board_or_libraries": false
+}
