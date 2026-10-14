@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "verifier": "scripts/verify_rear_openings.py",
+  "verifier_sha256": "beb85811b0a54009e0c0cd5c746ea8718d4da01023794b2c99d33d765300b8d4",
+  "before": {
+    "scene_sha256": "69aee3594bd9d836f5216a61f8a9bf1cd7e41c4287eb4cb1f5e1a0f6fa23bf27",
+    "passed": false,
+    "expected_failure": true,
+    "check_count": 44,
+    "ray_count": 974,
+    "failed_check_count": 11,
+    "native_exit_code": 1
+  },
+  "after": {
+    "scene_sha256": "96c57c42b2019abb3d4431b63b363587c509890185e0ed895436f103cd535158",
+    "passed": true,
+    "check_count": 44,
+    "ray_count": 974,
+    "failed_check_count": 0,
+    "native_exit_code": 0
+  },
+  "rear_port_count": 11,
+  "hardware_bore_count": 6,
+  "method": "Same unmodified reusable verifier against saved revision 8 and saved revision 9; evaluated source-instance matrices, all-scene obstruction rays and isolated hardware clearance.",
+  "read_only": true,
+  "physical_fit_qualified": false
+}

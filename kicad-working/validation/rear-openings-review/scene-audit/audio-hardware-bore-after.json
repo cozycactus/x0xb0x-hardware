@@ -1,0 +1,84 @@
+{
+  "source_scene": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/visualization/blender-case-revision-9/x0xb0x-populated-with-case.blend",
+  "source_scene_sha256": "96c57c42b2019abb3d4431b63b363587c509890185e0ed895436f103cd535158",
+  "method": "Frame1 evaluated collection-instance matrices, isolated per-hardware BVH rays; center plus three rings up to99.9percent of native9.525mm threadednose diameter.",
+  "passed": true,
+  "hardware_count": 6,
+  "ray_count": 600,
+  "checks": [
+    {
+      "object": "HEADPHONE0 / black ABS washer proxy",
+      "passed": true,
+      "ray_count": 100,
+      "native_axis_mm": [
+        80.01000434160233,
+        20.568199455738068
+      ],
+      "native_bushing_nominal_diameter_mm": 9.525,
+      "max_sample_diameter_mm": 9.515475,
+      "blocked_rays": []
+    },
+    {
+      "object": "HEADPHONE0 / black PA6 nut proxy",
+      "passed": true,
+      "ray_count": 100,
+      "native_axis_mm": [
+        80.01000434160233,
+        20.568199455738068
+      ],
+      "native_bushing_nominal_diameter_mm": 9.525,
+      "max_sample_diameter_mm": 9.515475,
+      "blocked_rays": []
+    },
+    {
+      "object": "MIXIN0 / black ABS washer proxy",
+      "passed": true,
+      "ray_count": 100,
+      "native_axis_mm": [
+        -72.13599979877472,
+        20.568199455738068
+      ],
+      "native_bushing_nominal_diameter_mm": 9.525,
+      "max_sample_diameter_mm": 9.515475,
+      "blocked_rays": []
+    },
+    {
+      "object": "MIXIN0 / black PA6 nut proxy",
+      "passed": true,
+      "ray_count": 100,
+      "native_axis_mm": [
+        -72.13599979877472,
+        20.568199455738068
+      ],
+      "native_bushing_nominal_diameter_mm": 9.525,
+      "max_sample_diameter_mm": 9.515475,
+      "blocked_rays": []
+    },
+    {
+      "object": "MIXOUT0 / black ABS washer proxy",
+      "passed": true,
+      "ray_count": 100,
+      "native_axis_mm": [
+        15.240006148815155,
+        20.568199455738068
+      ],
+      "native_bushing_nominal_diameter_mm": 9.525,
+      "max_sample_diameter_mm": 9.515475,
+      "blocked_rays": []
+    },
+    {
+      "object": "MIXOUT0 / black PA6 nut proxy",
+      "passed": true,
+      "ray_count": 100,
+      "native_axis_mm": [
+        15.240006148815155,
+        20.568199455738068
+      ],
+      "native_bushing_nominal_diameter_mm": 9.525,
+      "max_sample_diameter_mm": 9.515475,
+      "blocked_rays": []
+    }
+  ],
+  "source_bytes_unchanged": true,
+  "scope": "Sampled geometric clearance around nominal body envelope; not a thread tolerance or assembly-fit certification."
+}

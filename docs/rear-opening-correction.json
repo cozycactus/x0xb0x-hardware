@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-14",
+  "Blender_revision": 9,
+  "KiCad_revision": 11,
+  "scene": "kicad-working/visualization/blender-case-revision-9/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "96c57c42b2019abb3d4431b63b363587c509890185e0ed895436f103cd535158",
+  "scene_bytes": 42617896,
+  "problem": "Five obsolete rear socket disks and six solid audio nut/washer illustrations covered the already-open native mating passages.",
+  "correction": {
+    "removed_recess_disks": [
+      "CV0",
+      "GATE0",
+      "HEADPHONE0",
+      "MIXIN0",
+      "MIXOUT0"
+    ],
+    "bored_audio_hardware_objects": 6,
+    "nut_bore_mm": 9.6,
+    "washer_bore_mm": 11.3,
+    "native_connector_geometry_changed": false,
+    "outer_hardware_envelopes_and_poses_preserved": true
+  },
+  "verification": {
+    "rear_opening_regression": {
+      "report": "kicad-working/validation/rear-openings-review/scene-audit/rear-openings-regression.json",
+      "scene_sha256": "96c57c42b2019abb3d4431b63b363587c509890185e0ed895436f103cd535158",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974,
+      "failed_check_count": 0,
+      "native_exit_code": 0,
+      "port_count": 11,
+      "same_verifier_detects_old_obstruction": true,
+      "old_failed_check_count": 11
+    },
+    "native_source_openings": {
+      "report": "kicad-working/validation/rear-openings-review/source-audit/source-opening-audit.json",
+      "passed": true,
+      "check_count": 61
+    },
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-9/verification/final-saved-scene-audit.json",
+      "passed": true,
+      "check_count": 14866,
+      "native_reference_count": 491
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-9/verification/portable-scene-audit.json",
+      "passed": true,
+      "check_count": 106,
+      "PCB_LED_assemblies": 40,
+      "PCB_attached_button_caps": 23,
+      "unpacked_external_dependencies": 0
+    },
+    "KiCad_core_preservation": {
+      "passed": true,
+      "KiCad_revision": 11,
+      "core_file_count": 257,
+      "changed_or_missing_files": [],
+      "scope": "Byte preservation against recorded revision11 core outputs; Blender-only repair, ERC/DRC not rerun."
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-9/verification/final-render-review.json",
+      "passed": true,
+      "fresh_views": 6,
+      "root_independent_visual_review": [
+        "rear",
+        "rear-openings-closeup"
+      ],
+      "scene_bytes_unchanged": true
+    }
+  },
+  "qualification": "Sampled visual opening checks, not plug insertion or toleranced installed fit. The installed 2007 NYS216 source uses a 9.525mm 3/8-32 UNEF nose, while the retained2015 PDF uses M11x1.25. Nut9.6mm is nominal illustrative clearance; washer11.3mm is retained from the later drawing. Threaded hardware interchangeability remains unqualified.",
+  "physical_fit_qualified": false
+}

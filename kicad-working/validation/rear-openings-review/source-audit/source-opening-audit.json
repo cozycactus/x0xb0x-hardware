@@ -1,0 +1,1389 @@
+{
+  "passed": true,
+  "checks_count": 61,
+  "failed_checks": [],
+  "scope": "Read-only installed STEP audit, five families, eleven rear connector references. Does not audit scene proxies or qualify physical plug fit.",
+  "method": "Read installed STEP with FreeCAD1.0.1/OpenCascade; exact BRep cylinder-common probes through entrance and mating channels; validate actual zero/native assignments and outward direction.",
+  "PCB_sha256": "63ce57799bb03ee442863c9e59f13fef5f39fbb268d4bacc70b980e6c21c8487",
+  "records": [
+    {
+      "name": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "front_y_mm": -8.5,
+      "front_direction": [
+        0,
+        -1,
+        0
+      ],
+      "axis_z_mm": 8.0,
+      "interpretation": "Open front bore and central passage; reconstructed leaf contacts occupy one side. Nut/washer belong to scene hardware. No source correction required.",
+      "assignments": [
+        {
+          "reference": "HEADPHONE0",
+          "model": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/NYS216_DrawingDerived_DetailedBody.step",
+          "sha256": "9f397ef5f43bf615023e40b04554d182468b351faf732539918b42c040ebb390",
+          "footprint_pose": [
+            26.67,
+            0.508
+          ],
+          "native_front_direction": [
+            0.0,
+            -1.0,
+            0
+          ],
+          "transforms": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "reference": "MIXIN0",
+          "model": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/NYS216_DrawingDerived_DetailedBody.step",
+          "sha256": "9f397ef5f43bf615023e40b04554d182468b351faf732539918b42c040ebb390",
+          "footprint_pose": [
+            178.816,
+            0.508
+          ],
+          "native_front_direction": [
+            0.0,
+            -1.0,
+            0
+          ],
+          "transforms": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "reference": "MIXOUT0",
+          "model": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/NYS216_DrawingDerived_DetailedBody.step",
+          "sha256": "9f397ef5f43bf615023e40b04554d182468b351faf732539918b42c040ebb390",
+          "footprint_pose": [
+            91.44,
+            0.508
+          ],
+          "native_front_direction": [
+            0.0,
+            -1.0,
+            0
+          ],
+          "transforms": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "valid": true,
+      "bounds_mm": [
+        -10.0,
+        -8.5,
+        0.0,
+        10.0,
+        24.5,
+        15.5
+      ],
+      "open_cylinder_probes": [
+        {
+          "name": "unobstructed entrance within 6.35mm bore",
+          "x": 0,
+          "z": 8,
+          "y": -8.51,
+          "length": 8.5,
+          "radius": 3.0,
+          "material_intersection_mm3": 0.0,
+          "passed": true
+        },
+        {
+          "name": "continuous central passage through housing",
+          "x": 0,
+          "z": 8,
+          "y": -8.51,
+          "length": 32.9,
+          "radius": 1.4,
+          "material_intersection_mm3": 0.0,
+          "passed": true
+        }
+      ],
+      "expected_central_features": []
+    },
+    {
+      "name": "SDS50J",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "front_y_mm": 0,
+      "front_direction": [
+        0,
+        -1,
+        0
+      ],
+      "axis_z_mm": 10.0,
+      "interpretation": "Open recessed insert with five open contact mouths. Each modeled contact hole is blind behind Y7.4, a documented unsized illustrative depth; this does not prove plug insertion depth. No front-face closure in source.",
+      "assignments": [
+        {
+          "reference": "DIN1",
+          "model": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+          "sha256": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+          "footprint_pose": [
+            113.538,
+            0.0
+          ],
+          "native_front_direction": [
+            0.0,
+            -1.0,
+            0
+          ],
+          "transforms": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "reference": "DIN2",
+          "model": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+          "sha256": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+          "footprint_pose": [
+            135.128,
+            0.0
+          ],
+          "native_front_direction": [
+            0.0,
+            -1.0,
+            0
+          ],
+          "transforms": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "reference": "DIN3",
+          "model": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+          "sha256": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+          "footprint_pose": [
+            156.718,
+            0.0
+          ],
+          "native_front_direction": [
+            0.0,
+            -1.0,
+            0
+          ],
+          "transforms": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "reference": "DIN4",
+          "model": "kicad-working/ioboard/3dmodels/Revision8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step",
+          "sha256": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+          "footprint_pose": [
+            200.914,
+            0.0
+          ],
+          "native_front_direction": [
+            0.0,
+            -1.0,
+            0
+          ],
+          "transforms": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "valid": true,
+      "bounds_mm": [
+        -10.0,
+        0.0,
+        0.0,
+        10.0,
+        15.8,
+        21.1
+      ],
+      "open_cylinder_probes": [
+        {
+          "name": "open front mating recess",
+          "x": 0,
+          "z": 10,
+          "y": -0.01,
+          "length": 5.7,
+          "radius": 6.0,
+          "material_intersection_mm3": 0.0,
+          "passed": true
+        },
+        {
+          "name": "contact1 open to modeled blind floor",
+          "x": 3.1720772546282747,
+          "z": 11.479163916092448,
+          "y": -0.01,
+          "length": 7.35,
+          "radius": 0.35,
+          "material_intersection_mm3": 0.0,
+          "passed": true
+        },
+        {
+          "name": "contact2 open to modeled blind floor",
+          "x": -3.1720772546282747,
+          "z": 11.479163916092448,
+          "y": -0.01,
+          "length": 7.35,
+          "radius": 0.35,
+          "material_intersection_mm3": 0.0,
+          "passed": true
+        },
+        {
+          "name": "contact3 open to modeled blind floor",
+          "x": -2.474873734152917,
+          "z": 7.525126265847084,
+          "y": -0.01,
+          "length": 7.35,
+          "radius": 0.35,
+          "material_intersection_mm3": 0.0,
+          "passed": true
+        },
+        {
+          "name": "contact4 open to modeled blind floor",
+          "x": -6.429395695523604e-16,
+          "z": 6.5,
+          "y": -0.01,
+          "length": 7.35,
+          "radius": 0.35,
+          "material_intersection_mm3": 0.0,
+          "passed": true
+        },
+        {
+          "name": "contact5 open to modeled blind floor",
+          "x": 2.474873734152916,
+          "z": 7.525126265847083,
+          "y": -0.01,
+          "length": 7.35,
+          "radius": 0.35,
+          "material_intersection_mm3": 0.0,
+          "passed": true
+        }
+      ],
+      "expected_central_features": []
+    },
+    {
+      "name": "MJ3536N",
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "front_y_mm": -3,
+      "front_direction": [
+        0,
+        -1,
+        0
+      ],
+      "axis_z_mm": 5.5,
+      "interpretation": "Open 3.6mm bore through projecting bushing and housing to nominal depth14.1mm beyond front shoulder. Reconstructed leaf intrudes slightly into upper bore; blind rear floor and contact intrusion are not closed mating faces. No source correction required.",
+      "assignments": [
+        {
+          "reference": "CV0",
+          "model": "kicad-working/ioboard/3dmodels/Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+          "sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+          "footprint_pose": [
+            57.912,
+            0.0
+          ],
+          "native_front_direction": [
+            0.0,
+            -1.0,
+            0
+          ],
+          "transforms": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "reference": "GATE0",
+          "model": "kicad-working/ioboard/3dmodels/Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+          "sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+          "footprint_pose": [
+            45.212,
+            0.0
+          ],
+          "native_front_direction": [
+            0.0,
+            -1.0,
+            0
+          ],
+          "transforms": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "valid": true,
+      "bounds_mm": [
+        -5.0,
+        -3.0,
+        0.0,
+        5.0,
+        15.8,
+        10.0
+      ],
+      "open_cylinder_probes": [
+        {
+          "name": "full-width entrance before interior contact leaf",
+          "x": 0,
+          "z": 5.5,
+          "y": -3.01,
+          "length": 12.5,
+          "radius": 1.7,
+          "material_intersection_mm3": 0.0,
+          "passed": true
+        },
+        {
+          "name": "continuous central passage through contact zone",
+          "x": 0,
+          "z": 5.5,
+          "y": -3.01,
+          "length": 17.0,
+          "radius": 1.4,
+          "material_intersection_mm3": 0.0,
+          "passed": true
+        }
+      ],
+      "expected_central_features": [
+        {
+          "illustrative_contact_intrusion": [
+            {
+              "index": 0,
+              "volume_mm3": 0.0
+            },
+            {
+              "index": 1,
+              "volume_mm3": 0.0
+            },
+            {
+              "index": 2,
+              "volume_mm3": 0.0
+            },
+            {
+              "index": 3,
+              "volume_mm3": 0.0
+            },
+            {
+              "index": 4,
+              "volume_mm3": 0.08309041575698338
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PJ202AH",
+      "references": [
+        "POWER0"
+      ],
+      "front_y_mm": 0,
+      "front_direction": [
+        0,
+        1,
+        0
+      ],
+      "axis_z_mm": 6.5,
+      "interpretation": "Open 6.5mm entrance with recessed 2mm center pin. Center-axis ray correctly hits the mating pin; it is not evidence of closure. A clear annular passage exists. Source front+Y rotated by actual PCB180deg faces outward, as expected. No source correction required.",
+      "assignments": [
+        {
+          "reference": "POWER0",
+          "model": "kicad-working/ioboard/3dmodels/Revision10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+          "sha256": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+          "footprint_pose": [
+            8.636,
+            2.794,
+            180.0
+          ],
+          "native_front_direction": [
+            -1.2246467991473532e-16,
+            -1.0,
+            0
+          ],
+          "transforms": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "valid": true,
+      "bounds_mm": [
+        -4.5,
+        -14.4,
+        0.0,
+        4.5,
+        0.0,
+        11.0
+      ],
+      "open_cylinder_probes": [
+        {
+          "name": "open front before recessed center pin",
+          "x": 0,
+          "z": 6.5,
+          "y": -0.7,
+          "length": 0.71,
+          "radius": 3.0,
+          "material_intersection_mm3": 0.0,
+          "passed": true
+        },
+        {
+          "name": "continuous annular plug path beside center pin",
+          "x": 1.75,
+          "z": 6.5,
+          "y": -8.7,
+          "length": 8.71,
+          "radius": 0.5,
+          "material_intersection_mm3": 0.0,
+          "passed": true
+        }
+      ],
+      "expected_central_features": [
+        {
+          "canonical_point_mm": [
+            0,
+            -2,
+            6.5
+          ],
+          "present": true
+        }
+      ]
+    },
+    {
+      "name": "USB_TypeB",
+      "references": [
+        "USB0"
+      ],
+      "front_y_mm": 0,
+      "front_direction": [
+        0,
+        -1,
+        0
+      ],
+      "axis_z_mm": 5.31,
+      "interpretation": "Open chamfered shell/insulator mouth; recessed central tongue is expected for USB-B. No source correction required. Generic original-BOM body, not exact PN61729 CAD.",
+      "assignments": [
+        {
+          "reference": "USB0",
+          "model": "kicad-working/ioboard/3dmodels/Revision6/rear-body-illustrations/USB_TypeB-body-illustration.step",
+          "sha256": "5d7b59c38b09bdaca1159baf92438a00587a3cefd0af5855a874abdc8029fb90",
+          "footprint_pose": [
+            71.628,
+            2.794
+          ],
+          "native_front_direction": [
+            0.0,
+            -1.0,
+            0
+          ],
+          "transforms": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "valid": true,
+      "bounds_mm": [
+        -6.02,
+        0.0,
+        0.0,
+        6.02,
+        16.0,
+        10.62
+      ],
+      "open_cylinder_probes": [
+        {
+          "name": "open chamfered entrance before tongue",
+          "x": 0,
+          "z": 5,
+          "y": -0.01,
+          "length": 1.2,
+          "radius": 0.6,
+          "material_intersection_mm3": 0.0,
+          "passed": true
+        },
+        {
+          "name": "continuous mating passage alongside tongue",
+          "x": 3,
+          "z": 4.5,
+          "y": -0.01,
+          "length": 9.5,
+          "radius": 0.5,
+          "material_intersection_mm3": 0.0,
+          "passed": true
+        }
+      ],
+      "expected_central_features": [
+        {
+          "canonical_point_mm": [
+            0,
+            2,
+            5
+          ],
+          "present": true
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "HEADPHONE0:canonical transforms preserved",
+      "passed": true,
+      "transforms": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "HEADPHONE0:front points toward native negativeY rear edge",
+      "passed": true,
+      "footprint_angle_deg": 0,
+      "native_front_direction": [
+        0.0,
+        -1.0,
+        0
+      ]
+    },
+    {
+      "name": "MIXIN0:canonical transforms preserved",
+      "passed": true,
+      "transforms": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "MIXIN0:front points toward native negativeY rear edge",
+      "passed": true,
+      "footprint_angle_deg": 0,
+      "native_front_direction": [
+        0.0,
+        -1.0,
+        0
+      ]
+    },
+    {
+      "name": "MIXOUT0:canonical transforms preserved",
+      "passed": true,
+      "transforms": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "MIXOUT0:front points toward native negativeY rear edge",
+      "passed": true,
+      "footprint_angle_deg": 0,
+      "native_front_direction": [
+        0.0,
+        -1.0,
+        0
+      ]
+    },
+    {
+      "name": "NYS216:all assignments use identical STEP bytes",
+      "passed": true
+    },
+    {
+      "name": "NYS216:valid positive solids",
+      "passed": true,
+      "solids": 5
+    },
+    {
+      "name": "NYS216:unobstructed entrance within 6.35mm bore",
+      "passed": true,
+      "material_intersection_mm3": 0.0,
+      "probe": {
+        "name": "unobstructed entrance within 6.35mm bore",
+        "x": 0,
+        "z": 8,
+        "y": -8.51,
+        "length": 8.5,
+        "radius": 3.0
+      }
+    },
+    {
+      "name": "NYS216:continuous central passage through housing",
+      "passed": true,
+      "material_intersection_mm3": 0.0,
+      "probe": {
+        "name": "continuous central passage through housing",
+        "x": 0,
+        "z": 8,
+        "y": -8.51,
+        "length": 32.9,
+        "radius": 1.4
+      }
+    },
+    {
+      "name": "DIN1:canonical transforms preserved",
+      "passed": true,
+      "transforms": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "DIN1:front points toward native negativeY rear edge",
+      "passed": true,
+      "footprint_angle_deg": 0,
+      "native_front_direction": [
+        0.0,
+        -1.0,
+        0
+      ]
+    },
+    {
+      "name": "DIN2:canonical transforms preserved",
+      "passed": true,
+      "transforms": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "DIN2:front points toward native negativeY rear edge",
+      "passed": true,
+      "footprint_angle_deg": 0,
+      "native_front_direction": [
+        0.0,
+        -1.0,
+        0
+      ]
+    },
+    {
+      "name": "DIN3:canonical transforms preserved",
+      "passed": true,
+      "transforms": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "DIN3:front points toward native negativeY rear edge",
+      "passed": true,
+      "footprint_angle_deg": 0,
+      "native_front_direction": [
+        0.0,
+        -1.0,
+        0
+      ]
+    },
+    {
+      "name": "DIN4:canonical transforms preserved",
+      "passed": true,
+      "transforms": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "DIN4:front points toward native negativeY rear edge",
+      "passed": true,
+      "footprint_angle_deg": 0,
+      "native_front_direction": [
+        0.0,
+        -1.0,
+        0
+      ]
+    },
+    {
+      "name": "SDS50J:all assignments use identical STEP bytes",
+      "passed": true
+    },
+    {
+      "name": "SDS50J:valid positive solids",
+      "passed": true,
+      "solids": 8
+    },
+    {
+      "name": "SDS50J:open front mating recess",
+      "passed": true,
+      "material_intersection_mm3": 0.0,
+      "probe": {
+        "name": "open front mating recess",
+        "x": 0,
+        "z": 10,
+        "y": -0.01,
+        "length": 5.7,
+        "radius": 6.0
+      }
+    },
+    {
+      "name": "SDS50J:contact1 open to modeled blind floor",
+      "passed": true,
+      "material_intersection_mm3": 0.0,
+      "probe": {
+        "name": "contact1 open to modeled blind floor",
+        "x": 3.1720772546282747,
+        "z": 11.479163916092448,
+        "y": -0.01,
+        "length": 7.35,
+        "radius": 0.35
+      }
+    },
+    {
+      "name": "SDS50J:contact2 open to modeled blind floor",
+      "passed": true,
+      "material_intersection_mm3": 0.0,
+      "probe": {
+        "name": "contact2 open to modeled blind floor",
+        "x": -3.1720772546282747,
+        "z": 11.479163916092448,
+        "y": -0.01,
+        "length": 7.35,
+        "radius": 0.35
+      }
+    },
+    {
+      "name": "SDS50J:contact3 open to modeled blind floor",
+      "passed": true,
+      "material_intersection_mm3": 0.0,
+      "probe": {
+        "name": "contact3 open to modeled blind floor",
+        "x": -2.474873734152917,
+        "z": 7.525126265847084,
+        "y": -0.01,
+        "length": 7.35,
+        "radius": 0.35
+      }
+    },
+    {
+      "name": "SDS50J:contact4 open to modeled blind floor",
+      "passed": true,
+      "material_intersection_mm3": 0.0,
+      "probe": {
+        "name": "contact4 open to modeled blind floor",
+        "x": -6.429395695523604e-16,
+        "z": 6.5,
+        "y": -0.01,
+        "length": 7.35,
+        "radius": 0.35
+      }
+    },
+    {
+      "name": "SDS50J:contact5 open to modeled blind floor",
+      "passed": true,
+      "material_intersection_mm3": 0.0,
+      "probe": {
+        "name": "contact5 open to modeled blind floor",
+        "x": 2.474873734152916,
+        "z": 7.525126265847083,
+        "y": -0.01,
+        "length": 7.35,
+        "radius": 0.35
+      }
+    },
+    {
+      "name": "CV0:canonical transforms preserved",
+      "passed": true,
+      "transforms": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "CV0:front points toward native negativeY rear edge",
+      "passed": true,
+      "footprint_angle_deg": 0,
+      "native_front_direction": [
+        0.0,
+        -1.0,
+        0
+      ]
+    },
+    {
+      "name": "GATE0:canonical transforms preserved",
+      "passed": true,
+      "transforms": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "GATE0:front points toward native negativeY rear edge",
+      "passed": true,
+      "footprint_angle_deg": 0,
+      "native_front_direction": [
+        0.0,
+        -1.0,
+        0
+      ]
+    },
+    {
+      "name": "MJ3536N:all assignments use identical STEP bytes",
+      "passed": true
+    },
+    {
+      "name": "MJ3536N:valid positive solids",
+      "passed": true,
+      "solids": 5
+    },
+    {
+      "name": "MJ3536N:full-width entrance before interior contact leaf",
+      "passed": true,
+      "material_intersection_mm3": 0.0,
+      "probe": {
+        "name": "full-width entrance before interior contact leaf",
+        "x": 0,
+        "z": 5.5,
+        "y": -3.01,
+        "length": 12.5,
+        "radius": 1.7
+      }
+    },
+    {
+      "name": "MJ3536N:continuous central passage through contact zone",
+      "passed": true,
+      "material_intersection_mm3": 0.0,
+      "probe": {
+        "name": "continuous central passage through contact zone",
+        "x": 0,
+        "z": 5.5,
+        "y": -3.01,
+        "length": 17.0,
+        "radius": 1.4
+      }
+    },
+    {
+      "name": "MJ3536N:wide internal probe meets only one small contact leaf",
+      "passed": true,
+      "intersections": [
+        {
+          "index": 0,
+          "volume_mm3": 0.0
+        },
+        {
+          "index": 1,
+          "volume_mm3": 0.0
+        },
+        {
+          "index": 2,
+          "volume_mm3": 0.0
+        },
+        {
+          "index": 3,
+          "volume_mm3": 0.0
+        },
+        {
+          "index": 4,
+          "volume_mm3": 0.08309041575698338
+        }
+      ],
+      "note": "A wider axial cylinder intersects upper contact leaf by0.08309mm3; clear entrance and central channel verified independently."
+    },
+    {
+      "name": "POWER0:canonical transforms preserved",
+      "passed": true,
+      "transforms": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "POWER0:front points toward native negativeY rear edge",
+      "passed": true,
+      "footprint_angle_deg": 180.0,
+      "native_front_direction": [
+        -1.2246467991473532e-16,
+        -1.0,
+        0
+      ]
+    },
+    {
+      "name": "PJ202AH:all assignments use identical STEP bytes",
+      "passed": true
+    },
+    {
+      "name": "PJ202AH:valid positive solids",
+      "passed": true,
+      "solids": 5
+    },
+    {
+      "name": "PJ202AH:open front before recessed center pin",
+      "passed": true,
+      "material_intersection_mm3": 0.0,
+      "probe": {
+        "name": "open front before recessed center pin",
+        "x": 0,
+        "z": 6.5,
+        "y": -0.7,
+        "length": 0.71,
+        "radius": 3.0
+      }
+    },
+    {
+      "name": "PJ202AH:continuous annular plug path beside center pin",
+      "passed": true,
+      "material_intersection_mm3": 0.0,
+      "probe": {
+        "name": "continuous annular plug path beside center pin",
+        "x": 1.75,
+        "z": 6.5,
+        "y": -8.7,
+        "length": 8.71,
+        "radius": 0.5
+      }
+    },
+    {
+      "name": "PJ202AH:expected central mating feature retained",
+      "passed": true,
+      "canonical_point_mm": [
+        0,
+        -2,
+        6.5
+      ]
+    },
+    {
+      "name": "USB0:canonical transforms preserved",
+      "passed": true,
+      "transforms": {
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "USB0:front points toward native negativeY rear edge",
+      "passed": true,
+      "footprint_angle_deg": 0,
+      "native_front_direction": [
+        0.0,
+        -1.0,
+        0
+      ]
+    },
+    {
+      "name": "USB_TypeB:all assignments use identical STEP bytes",
+      "passed": true
+    },
+    {
+      "name": "USB_TypeB:valid positive solids",
+      "passed": true,
+      "solids": 2
+    },
+    {
+      "name": "USB_TypeB:open chamfered entrance before tongue",
+      "passed": true,
+      "material_intersection_mm3": 0.0,
+      "probe": {
+        "name": "open chamfered entrance before tongue",
+        "x": 0,
+        "z": 5,
+        "y": -0.01,
+        "length": 1.2,
+        "radius": 0.6
+      }
+    },
+    {
+      "name": "USB_TypeB:continuous mating passage alongside tongue",
+      "passed": true,
+      "material_intersection_mm3": 0.0,
+      "probe": {
+        "name": "continuous mating passage alongside tongue",
+        "x": 3,
+        "z": 4.5,
+        "y": -0.01,
+        "length": 9.5,
+        "radius": 0.5
+      }
+    },
+    {
+      "name": "USB_TypeB:expected central mating feature retained",
+      "passed": true,
+      "canonical_point_mm": [
+        0,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "source PCB unchanged",
+      "passed": true
+    },
+    {
+      "name": "HEADPHONE0:source STEP unchanged",
+      "passed": true
+    },
+    {
+      "name": "MIXIN0:source STEP unchanged",
+      "passed": true
+    },
+    {
+      "name": "MIXOUT0:source STEP unchanged",
+      "passed": true
+    },
+    {
+      "name": "DIN1:source STEP unchanged",
+      "passed": true
+    },
+    {
+      "name": "DIN2:source STEP unchanged",
+      "passed": true
+    },
+    {
+      "name": "DIN3:source STEP unchanged",
+      "passed": true
+    },
+    {
+      "name": "DIN4:source STEP unchanged",
+      "passed": true
+    },
+    {
+      "name": "CV0:source STEP unchanged",
+      "passed": true
+    },
+    {
+      "name": "GATE0:source STEP unchanged",
+      "passed": true
+    },
+    {
+      "name": "POWER0:source STEP unchanged",
+      "passed": true
+    },
+    {
+      "name": "USB0:source STEP unchanged",
+      "passed": true
+    }
+  ],
+  "source_documents": [
+    {
+      "path": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/nys-216-manufacturer.dxf",
+      "url": "https://www.rean-connectors.com/media/12224/download/nys-216-1.dxf?v=1",
+      "evidence": "Drawing3102ST2201 revC2007:3/8-32UNEF thread,33mm overall,8mm axis. Canonical source actually follows this older drawing.",
+      "sha256": "4e853c5f53bb89195fa5e80d00454ed65ce3a57d98c5dee52b2e8d3b7414f438"
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/nys216.pdf",
+      "url": "https://www.rean-connectors.com/media/9014/download/nys-216.pdf?v=1",
+      "evidence": "Drawing3102ST2201 rev2015: same family but M11x1.25 thread; historical/current revision discrepancy. Do not use current nut dimensions to qualify older3/8 source or claim interchangeability.",
+      "sha256": "3b41beb12880dae7b02c99e7c3296d22b3ac7eb45e87a7b5b2d194b44ad5fec7"
+    },
+    {
+      "path": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/sds50j.pdf",
+      "url": "https://www.sameskydevices.com/product/resource/sds-j.pdf",
+      "evidence": "Page3 SDS50J front view shows five socket mouths in a recessed insert,7mm PCD and correct25/45degree pattern. Actual modeled blind-depth not dimensioned.",
+      "sha256": "bf4a7032ee22b320bc5627c5d6eb331b59e6dc4c7fc618250d52e182ccea1e65"
+    },
+    {
+      "path": "kicad-working/validation/models-review-10/rear-connector-quality/sources/mj-3536n-current.pdf",
+      "url": "https://www.sameskydevices.com/product/resource/mj-3536n.pdf",
+      "evidence": "Page2 shows open3.6mm bushing,6mm outside diameter and side/top spring contacts; depth reconstruction remains illustrative.",
+      "sha256": "aa1de851ef2fba7c4f66b9e4413351ce9349e1b34502bc7b67b3788e9d5d6e79"
+    },
+    {
+      "path": "kicad-working/validation/models-review-10/rear-connector-quality/sources/pj-202ah-current.pdf",
+      "url": "https://www.sameskydevices.com/product/resource/pj-202ah.pdf",
+      "evidence": "Page2 shows open6.5mm mouth,2mm center pin and9mm maximum plug insertion. Pin intentionally blocks center-axis ray.",
+      "sha256": "a35968324973cf6df2cf8891203d949ee850aa51a70b5f88d71b940d40559ead"
+    },
+    {
+      "path": "kicad-working/ioboard/3dmodels/Revision6/rear-body-illustrations/provenance/source/kc-301021-web-extract.json",
+      "url": "https://www.mouser.com/catalog/specsheets/KC-301021.pdf",
+      "evidence": "Retained primaryPDF text extraction only; local binaryPDF unavailable. Generic chamfered USB-B opening and tongue, exact historicalPN61729 fit unqualified.",
+      "sha256": "fa3a5d92160d619f95c41bed935a054dd9d54e919432557842b75003633b12ca"
+    }
+  ],
+  "source_visual_review": "Visually inspected freshly rendered SDS50J page3 and NYS216 PDF, retained olderNYS216DXF render, and currentMJ/PJ page2 drawings.",
+  "source_model_corrections_required": false,
+  "limitations": [
+    "All source bores/internal contacts are illustrations with documented unsized details. Passing probes show a continuous visible opening only.",
+    "SDS50J socket depth is shallow and unqualified; all five contact mouths are open but blind at nominal Y7.4.",
+    "No scene, mesh, project, source geometry, placement or routing was changed."
+  ]
+}
