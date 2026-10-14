@@ -1,0 +1,120 @@
+[
+  {
+    "project": "mainboard",
+    "check": "drc",
+    "timestamp_utc": "2026-10-14T20:00:48.806709+00:00",
+    "version": "10.0.7",
+    "command": [
+      "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "pcb",
+      "drc",
+      "--refill-zones",
+      "--schematic-parity",
+      "--all-track-errors",
+      "--format",
+      "json",
+      "--units",
+      "mm",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/mainboard-drc-final.json",
+      "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/final-check-snapshot/mainboard/mainboard.kicad_pcb"
+    ],
+    "exit_code": 5,
+    "input_sha256": "f0c2f6a3422d3ad3bb94340dfcc2167d7edf7ae0523f7761c1a963de0ac62e70",
+    "output": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/mainboard-drc-final.json",
+    "report_parses": true,
+    "environment_overrides": {
+      "XDG_CACHE_HOME": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/cache",
+      "KICAD_CONFIG_HOME": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/config"
+    }
+  },
+  {
+    "project": "mainboard",
+    "check": "erc",
+    "timestamp_utc": "2026-10-14T20:00:48.807023+00:00",
+    "version": "10.0.7",
+    "command": [
+      "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--units",
+      "mm",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/mainboard-erc-final.json",
+      "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/final-check-snapshot/mainboard/mainboard.kicad_sch"
+    ],
+    "exit_code": 0,
+    "input_sha256": "048af535f76cfa6b3acc6b1bd9a9c603b213b7dd0de759cf7f848d8f7856e190",
+    "output": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/mainboard-erc-final.json",
+    "report_parses": true,
+    "environment_overrides": {
+      "XDG_CACHE_HOME": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/cache",
+      "KICAD_CONFIG_HOME": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/config"
+    }
+  },
+  {
+    "project": "ioboard",
+    "check": "drc",
+    "timestamp_utc": "2026-10-14T20:00:48.808313+00:00",
+    "version": "10.0.7",
+    "command": [
+      "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "pcb",
+      "drc",
+      "--refill-zones",
+      "--schematic-parity",
+      "--all-track-errors",
+      "--format",
+      "json",
+      "--units",
+      "mm",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/ioboard-drc-final.json",
+      "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/final-check-snapshot/ioboard/ioboard.kicad_pcb"
+    ],
+    "exit_code": 5,
+    "input_sha256": "63ce57799bb03ee442863c9e59f13fef5f39fbb268d4bacc70b980e6c21c8487",
+    "output": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/ioboard-drc-final.json",
+    "report_parses": true,
+    "environment_overrides": {
+      "XDG_CACHE_HOME": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/cache",
+      "KICAD_CONFIG_HOME": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/config"
+    }
+  },
+  {
+    "project": "ioboard",
+    "check": "erc",
+    "timestamp_utc": "2026-10-14T20:00:48.811905+00:00",
+    "version": "10.0.7",
+    "command": [
+      "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--units",
+      "mm",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/ioboard-erc-final.json",
+      "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/final-check-snapshot/ioboard/ioboard.kicad_sch"
+    ],
+    "exit_code": 0,
+    "input_sha256": "c4dc4a4032fe068738e498adc2683d8d34d5bfca9320a3b016926c462a98d81d",
+    "output": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/ioboard-erc-final.json",
+    "report_parses": true,
+    "environment_overrides": {
+      "XDG_CACHE_HOME": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/cache",
+      "KICAD_CONFIG_HOME": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/config"
+    }
+  }
+]

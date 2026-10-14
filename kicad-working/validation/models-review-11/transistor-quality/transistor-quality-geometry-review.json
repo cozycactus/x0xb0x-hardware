@@ -1,0 +1,2330 @@
+{
+  "passed": true,
+  "check_count": 162,
+  "failure_count": 0,
+  "physical_fit_qualified": false,
+  "source_projects_unchanged": true,
+  "checks": [
+    {
+      "name": "exact24references",
+      "passed": true
+    },
+    {
+      "name": "mainboard:mainboard-eagle-import:2SC536F'':original-BCE-mapping",
+      "passed": true,
+      "actual": {
+        "1": "B",
+        "2": "C",
+        "3": "E"
+      }
+    },
+    {
+      "name": "mainboard:mainboard-eagle-import:2SC536FUNEVEN:original-BCE-mapping",
+      "passed": true,
+      "actual": {
+        "1": "B",
+        "2": "C",
+        "3": "E"
+      }
+    },
+    {
+      "name": "ioboard:ioboard-eagle-import:2SC536F'':original-BCE-mapping",
+      "passed": true,
+      "actual": {
+        "1": "B",
+        "2": "C",
+        "3": "E"
+      }
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:valid-one-solid-body",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:published-typical-body-envelope",
+      "passed": true,
+      "expected_mm": [
+        0.040000000000000036,
+        -1.5,
+        2.5,
+        5.04,
+        2.5,
+        7.5
+      ],
+      "actual_mm": [
+        0.0399998999999997,
+        -1.5000001,
+        2.4999999,
+        5.0400001,
+        2.5000001,
+        7.5000001
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin1:valid-one-connected-lead",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin1:full-section-Z-1.6",
+      "passed": true,
+      "actual_bounds_mm": [
+        4.855,
+        -0.22000000000000036,
+        -1.6000000000000003,
+        5.305000000000001,
+        0.22000000000000064,
+        -1.5990000000000002
+      ],
+      "pad_axis_source_mm": [
+        5.08,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin1:full-section-Z-0.8",
+      "passed": true,
+      "actual_bounds_mm": [
+        4.855,
+        -0.22000000000000036,
+        -0.8,
+        5.305000000000001,
+        0.22000000000000064,
+        -0.7989999999999999
+      ],
+      "pad_axis_source_mm": [
+        5.08,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin1:full-section-Z-0.05",
+      "passed": true,
+      "actual_bounds_mm": [
+        4.855,
+        -0.22000000000000036,
+        -0.05,
+        5.305000000000001,
+        0.22000000000000064,
+        -0.04899999999999993
+      ],
+      "pad_axis_source_mm": [
+        5.08,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin1:full-section-Z0",
+      "passed": true,
+      "actual_bounds_mm": [
+        4.855,
+        -0.22000000000000036,
+        0.0,
+        5.305000000000001,
+        0.22000000000000064,
+        0.0010000000000000009
+      ],
+      "pad_axis_source_mm": [
+        5.08,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin1:factory1.3exit",
+      "passed": true,
+      "factory_axis_mm": [
+        3.84,
+        0
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin2:valid-one-connected-lead",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin2:full-section-Z-1.6",
+      "passed": true,
+      "actual_bounds_mm": [
+        2.3149999999999995,
+        -0.22000000000000036,
+        -1.6000000000000005,
+        2.765000000000001,
+        0.22000000000000036,
+        -1.5990000000000002
+      ],
+      "pad_axis_source_mm": [
+        2.54,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin2:full-section-Z-0.8",
+      "passed": true,
+      "actual_bounds_mm": [
+        2.3149999999999995,
+        -0.22000000000000036,
+        -0.8,
+        2.765000000000001,
+        0.22000000000000036,
+        -0.7989999999999999
+      ],
+      "pad_axis_source_mm": [
+        2.54,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin2:full-section-Z-0.05",
+      "passed": true,
+      "actual_bounds_mm": [
+        2.3149999999999995,
+        -0.22000000000000036,
+        -0.050000000000000044,
+        2.765000000000001,
+        0.22000000000000036,
+        -0.04899999999999993
+      ],
+      "pad_axis_source_mm": [
+        2.54,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin2:full-section-Z0",
+      "passed": true,
+      "actual_bounds_mm": [
+        2.3149999999999995,
+        -0.22000000000000036,
+        0.0,
+        2.765000000000001,
+        0.22000000000000036,
+        0.0010000000000000009
+      ],
+      "pad_axis_source_mm": [
+        2.54,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin2:factory1.3exit",
+      "passed": true,
+      "factory_axis_mm": [
+        2.54,
+        0
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin3:valid-one-connected-lead",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin3:full-section-Z-1.6",
+      "passed": true,
+      "actual_bounds_mm": [
+        -0.2250000000000001,
+        -0.22000000000000036,
+        -1.6000000000000003,
+        0.2250000000000001,
+        0.22000000000000064,
+        -1.5990000000000002
+      ],
+      "pad_axis_source_mm": [
+        0,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin3:full-section-Z-0.8",
+      "passed": true,
+      "actual_bounds_mm": [
+        -0.2250000000000001,
+        -0.22000000000000036,
+        -0.8,
+        0.2250000000000001,
+        0.22000000000000064,
+        -0.7989999999999999
+      ],
+      "pad_axis_source_mm": [
+        0,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin3:full-section-Z-0.05",
+      "passed": true,
+      "actual_bounds_mm": [
+        -0.2250000000000001,
+        -0.22000000000000036,
+        -0.05,
+        0.2250000000000001,
+        0.22000000000000064,
+        -0.04899999999999993
+      ],
+      "pad_axis_source_mm": [
+        0,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin3:full-section-Z0",
+      "passed": true,
+      "actual_bounds_mm": [
+        -0.2250000000000001,
+        -0.22000000000000036,
+        0.0,
+        0.2250000000000001,
+        0.22000000000000064,
+        0.0010000000000000009
+      ],
+      "pad_axis_source_mm": [
+        0,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:pin3:factory1.3exit",
+      "passed": true,
+      "factory_axis_mm": [
+        1.24,
+        0
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:one-connected-assembly",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:lead1-lead2:no-short",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:lead1-lead3:no-short",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:lead2-lead3:no-short",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:MouldedNPBody:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:BaseFullWidthLead:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:CollectorFullWidthLead:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:EmitterFullWidthLead:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:STEP-roundtrip",
+      "passed": true,
+      "restored_bounds_mm": [
+        -0.225,
+        -1.5000001,
+        -2.7,
+        5.305,
+        2.5000001,
+        7.5000001
+      ],
+      "relative_volume_error": 1.618811126492942e-14
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration:closed-exterior-STL",
+      "passed": true
+    },
+    {
+      "name": "mainboard:Q11:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q11:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q11:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q11:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q13:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q13:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q13:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q13:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q14:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q14:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q14:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q14:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q15:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q15:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q15:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q15:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q16:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q16:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q16:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q16:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q18:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q18:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q18:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q18:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q20:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q20:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q20:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q20:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q24:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q24:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q24:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q24:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q25:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q25:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q25:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q25:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q29:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q29:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q29:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q29:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q3:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q3:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q3:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q3:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q30:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q30:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q30:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q30:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q32:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q32:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q32:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q32:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q34:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q34:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q34:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q34:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q35:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q35:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q35:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q35:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q37:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q37:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q37:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q37:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q4:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q4:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q4:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q4:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q40:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q40:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q40:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q40:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q41:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q41:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q41:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q41:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q5:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q5:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q5:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q5:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "ioboard:Q50:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          -2.54,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "ioboard:Q50:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "ioboard:Q50:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "ioboard:Q50:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:valid-one-solid-body",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:published-typical-body-envelope",
+      "passed": true,
+      "expected_mm": [
+        -2.5,
+        -1.5,
+        3.2,
+        2.5,
+        2.5,
+        8.2
+      ],
+      "actual_mm": [
+        -2.5000001000000003,
+        -1.5000001,
+        3.1999999000000003,
+        2.5000001,
+        2.5000001,
+        8.200000099999999
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin1:valid-one-connected-lead",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin1:full-section-Z-1.6",
+      "passed": true,
+      "actual_bounds_mm": [
+        2.3149999999999995,
+        -0.22000000000000036,
+        -1.6000000000000003,
+        2.7650000000000006,
+        0.22000000000000064,
+        -1.5990000000000002
+      ],
+      "pad_axis_source_mm": [
+        2.54,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin1:full-section-Z-0.8",
+      "passed": true,
+      "actual_bounds_mm": [
+        2.3149999999999995,
+        -0.22000000000000036,
+        -0.8,
+        2.7650000000000006,
+        0.22000000000000064,
+        -0.7989999999999999
+      ],
+      "pad_axis_source_mm": [
+        2.54,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin1:full-section-Z-0.05",
+      "passed": true,
+      "actual_bounds_mm": [
+        2.3149999999999995,
+        -0.22000000000000036,
+        -0.049999999999999996,
+        2.7650000000000006,
+        0.22000000000000064,
+        -0.04899999999999993
+      ],
+      "pad_axis_source_mm": [
+        2.54,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin1:full-section-Z0",
+      "passed": true,
+      "actual_bounds_mm": [
+        2.3149999999999995,
+        -0.22000000000000036,
+        0.0,
+        2.7650000000000006,
+        0.22000000000000064,
+        0.0010000000000000009
+      ],
+      "pad_axis_source_mm": [
+        2.54,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin1:factory1.3exit",
+      "passed": true,
+      "factory_axis_mm": [
+        1.3,
+        0
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin2:valid-one-connected-lead",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin2:full-section-Z-1.6",
+      "passed": true,
+      "actual_bounds_mm": [
+        -0.225,
+        -0.22000000000000036,
+        -1.6000000000000003,
+        0.225,
+        0.22000000000000036,
+        -1.5990000000000002
+      ],
+      "pad_axis_source_mm": [
+        0,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin2:full-section-Z-0.8",
+      "passed": true,
+      "actual_bounds_mm": [
+        -0.225,
+        -0.22000000000000036,
+        -0.8,
+        0.225,
+        0.22000000000000036,
+        -0.7989999999999999
+      ],
+      "pad_axis_source_mm": [
+        0,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin2:full-section-Z-0.05",
+      "passed": true,
+      "actual_bounds_mm": [
+        -0.225,
+        -0.22000000000000036,
+        -0.049999999999999996,
+        0.225,
+        0.22000000000000036,
+        -0.04899999999999993
+      ],
+      "pad_axis_source_mm": [
+        0,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin2:full-section-Z0",
+      "passed": true,
+      "actual_bounds_mm": [
+        -0.225,
+        -0.22000000000000036,
+        0.0,
+        0.225,
+        0.22000000000000036,
+        0.0010000000000000009
+      ],
+      "pad_axis_source_mm": [
+        0,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin2:factory1.3exit",
+      "passed": true,
+      "factory_axis_mm": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin3:valid-one-connected-lead",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin3:full-section-Z-1.6",
+      "passed": true,
+      "actual_bounds_mm": [
+        -3.527,
+        -0.22000000000000042,
+        -1.6000000000000003,
+        -3.077,
+        0.22000000000000064,
+        -1.5990000000000002
+      ],
+      "pad_axis_source_mm": [
+        -3.302,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin3:full-section-Z-0.8",
+      "passed": true,
+      "actual_bounds_mm": [
+        -3.527,
+        -0.22000000000000042,
+        -0.8,
+        -3.077,
+        0.22000000000000064,
+        -0.7989999999999999
+      ],
+      "pad_axis_source_mm": [
+        -3.302,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin3:full-section-Z-0.05",
+      "passed": true,
+      "actual_bounds_mm": [
+        -3.527,
+        -0.22000000000000042,
+        -0.050000000000000024,
+        -3.077,
+        0.22000000000000064,
+        -0.04899999999999993
+      ],
+      "pad_axis_source_mm": [
+        -3.302,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin3:full-section-Z0",
+      "passed": true,
+      "actual_bounds_mm": [
+        -3.527,
+        -0.22000000000000042,
+        0.0,
+        -3.077,
+        0.22000000000000064,
+        0.0010000000000000009
+      ],
+      "pad_axis_source_mm": [
+        -3.302,
+        0
+      ],
+      "section_mm": [
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:pin3:factory1.3exit",
+      "passed": true,
+      "factory_axis_mm": [
+        -1.3,
+        0
+      ]
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:one-connected-assembly",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:lead1-lead2:no-short",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:lead1-lead3:no-short",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:lead2-lead3:no-short",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:MouldedNPBody:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:BaseFullWidthLead:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:CollectorFullWidthLead:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:EmitterFullWidthLead:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:STEP-roundtrip",
+      "passed": true,
+      "restored_bounds_mm": [
+        -3.527,
+        -1.5000001,
+        -2.5000000000000004,
+        2.765,
+        2.5000001,
+        8.200000099999999
+      ],
+      "relative_volume_error": 1.0857494014248015e-14
+    },
+    {
+      "name": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration:closed-exterior-STL",
+      "passed": true
+    },
+    {
+      "name": "mainboard:Q17:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q17:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q17:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q17:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -3.302,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q19:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q19:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q19:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q19:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -3.302,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "mainboard:Q23:unchanged-transforms",
+      "passed": true,
+      "actual": {
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "mainboard:Q23:pin1:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        2.54,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "B"
+    },
+    {
+      "name": "mainboard:Q23:pin2:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        0.0,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "C"
+    },
+    {
+      "name": "mainboard:Q23:pin3:axis-full-stock-hole",
+      "passed": true,
+      "center_pcb_mm": [
+        -3.302,
+        0.0
+      ],
+      "lead_section_mm": [
+        0.45,
+        0.44
+      ],
+      "drill_mm": 1.0,
+      "nominal_radial_margin_mm": 0.18531762044880873,
+      "pin_name": "E"
+    },
+    {
+      "name": "source-project-unchanged:mainboard",
+      "passed": true
+    },
+    {
+      "name": "source-project-unchanged:ioboard",
+      "passed": true
+    }
+  ]
+}

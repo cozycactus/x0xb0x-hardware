@@ -562,10 +562,79 @@
         0
       ],
       "model_seating_review": null
+    },
+    "Revision11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration.step",
+      "sha256": "692666df2d45e3cf6cca90f48de88b0ea76ce9650dfcb0c57ade849135b8009a",
+      "source_kind": "Independent original drawing-derived family illustration; no manufacturer CAD",
+      "source_urls": [
+        "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf"
+      ],
+      "classification": "original_parametric_package_illustration_primary_max_dimensions_exact_board_pitch_undimensioned_profile_detail",
+      "limitations": [
+        "Independent original family illustration from the Abracon drawing; exact historically fitted manufacturer/part/revision is not established.",
+        "Body retains the same maximum 9.5 x 4 x 6.5 mm envelope. A maximum envelope is not an exact selected-part body size.",
+        "The printed nominal lead pitch is 2.5 +/- 0.3 mm; the existing exact 2.54 mm PCB pitch is preserved, without moving footprint or pads.",
+        "Full 0.6 x 0.35 mm maximum lead sections, original centers, 0.35 mm body datum and -2.5..0.47 mm lead extents are preserved exactly.",
+        "0.35 mm body stand-off and 2.5 mm cut tails are inherited mounting illustrations, not the drawing factory lead length of 5 +/- 1 mm.",
+        "The drawing supports a tapered side profile, softened front corners and three coated lead shoulders; the exact normalized profiles, Bezier control points, 0.96 mm shoulder base width, 1.34 mm upper width and 0.55 mm base thickness are undimensioned visual choices.",
+        "Blue coating and silver lead colors are illustrative. The original project permits an alternative 6 MHz part and notes that its color can be orange.",
+        "Frequency markings and manufacturer branding are intentionally omitted because fitted identity, typography and marking positions are unverified.",
+        "No physical seating, tolerance stack, enclosure fit, solder joint or mechanical assembly approval is implied."
+      ],
+      "review_manifest": "resonator-quality/resonator-quality-manifest.json",
+      "change": "Detailed source-qualified model replacement; all PCB design nodes preserved; any model-only seating offset exception explicitly recorded",
+      "previous_local_model": "Revision5/integrated-models/Resonator_AWCR6MD_MaxBody_P2.54_Illustration.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "previous_offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "model_seating_review": null
+    },
+    "Revision11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration.step": {
+      "source": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration.step",
+      "sha256": "e1836f981186b13cb2ceb9ec33df48d0d16d8597b27581334d941cbb152aa439",
+      "source_kind": "Independent CC0 reconstruction from historical primary manufacturer drawing",
+      "source_urls": [
+        "https://www.bitsavers.org/components/sanyo/_dataBooks/1985_Sanyo_Semiconductor_Handbook_-_Transistors.pdf",
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/2sc536.jpg"
+      ],
+      "classification": "Qualified historical Sanyo NP2003A primary-typical package illustration",
+      "limitations": [
+        "Independent original reconstruction from historical Sanyo No.333H, not redistributed manufacturer CAD or proof of the actually fitted manufacturer/mould.",
+        "The original BOM explicitly calls 2SC536F TO-92. No333H identifies NP2003A as TO-92; the original nearly-square front photo is consistent with this family. Exact fitted vendor and rear profile are unverified.",
+        "Published NP body5x4x5mm, factory1.3mm pitch and0.45x0.44mm lead section are TYPICAL, not maximum toleranced clearance envelopes. F is a160-320 gain rank, not package identification.",
+        "Body curve poles/chamfers, flat-faceYdatum-1.5mm, shallow front recess, colors and smooth appearance are unsized illustrative interpretations; no body is shrunk to fit silk or other components.",
+        "Original normal model seat2.5mm/tail-2.7mm and asymmetric seat3.2mm/tail-2.5mm are retained as installation choices. Factory14mm lead length is not an installed tail-length specification.",
+        "Full0.45x0.44mm ribbon leads retain source stock, with qualified bend positions and rounded joining regions. Factory1.3mm exits are formed to existing2.54mm/asymmetric2.54-3.302mm pad axes without moving or thinning board-through leads.",
+        "Bottom-view B-C-E mapping is checked against the original symbols and preserved pad numbers1-2-3. Flat side remains negativeSTEPY/positivePCB-Y under unchanged original transforms.",
+        "Nominal drill margins are geometry checks only; source tolerances, actual lead forming, installed clearances, soldering and physical fit remain unqualified."
+      ],
+      "review_manifest": "transistor-quality/transistor-quality-manifest.json",
+      "change": "Detailed source-qualified model replacement; all PCB design nodes preserved; any model-only seating offset exception explicitly recorded",
+      "previous_local_model": "KiCad/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step",
+      "offset_mm": [
+        -2.54,
+        0,
+        0
+      ],
+      "previous_offset_mm": [
+        -2.54,
+        0,
+        0
+      ],
+      "model_seating_review": null
     }
   },
   "assigned_reference_count": 82,
-  "reviews_directory": "validation/models-review-10",
+  "reviews_directory": "validation/models-review-11",
   "known_nominal_model_intersections": [
     {
       "reference_a": "C204",

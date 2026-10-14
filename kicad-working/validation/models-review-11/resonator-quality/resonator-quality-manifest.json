@@ -1,0 +1,914 @@
+{
+  "date": "2026-10-14",
+  "scope": "Two resonator families, two references; candidate only",
+  "parts": [
+    {
+      "id": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration",
+      "board": "ioboard",
+      "footprint": "Resonator_6MHz_x0x",
+      "references": [
+        "XTL2"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration.step",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration.step",
+      "source_sha256": "692666df2d45e3cf6cca90f48de88b0ea76ce9650dfcb0c57ade849135b8009a",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration.stl",
+      "stl_sha256": "743c66776c5eed40ed651272730ed71b9cfbc2f9590d5ab5e0896053cd158e7b",
+      "source_urls": [
+        "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf"
+      ],
+      "sources": [
+        {
+          "url": "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf",
+          "document": "Abracon AWCR-MD revised 05.07.13, page 3, bulk outline",
+          "local_pdf": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/sources/Abracon_AWCR_MD_2013.pdf",
+          "sha256": "ef48f7b242efe5cfc1f1514721edb274fb13dd2caea086bebe3f40e30fa01a7a"
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "original_parametric_package_illustration_primary_max_dimensions_exact_board_pitch_undimensioned_profile_detail",
+      "source_kind": "Independent original drawing-derived family illustration; no manufacturer CAD",
+      "license": "CC0-1.0",
+      "limitations": [
+        "Independent original family illustration from the Abracon drawing; exact historically fitted manufacturer/part/revision is not established.",
+        "Body retains the same maximum 9.5 x 4 x 6.5 mm envelope. A maximum envelope is not an exact selected-part body size.",
+        "The printed nominal lead pitch is 2.5 +/- 0.3 mm; the existing exact 2.54 mm PCB pitch is preserved, without moving footprint or pads.",
+        "Full 0.6 x 0.35 mm maximum lead sections, original centers, 0.35 mm body datum and -2.5..0.47 mm lead extents are preserved exactly.",
+        "0.35 mm body stand-off and 2.5 mm cut tails are inherited mounting illustrations, not the drawing factory lead length of 5 +/- 1 mm.",
+        "The drawing supports a tapered side profile, softened front corners and three coated lead shoulders; the exact normalized profiles, Bezier control points, 0.96 mm shoulder base width, 1.34 mm upper width and 0.55 mm base thickness are undimensioned visual choices.",
+        "Blue coating and silver lead colors are illustrative. The original project permits an alternative 6 MHz part and notes that its color can be orange.",
+        "Frequency markings and manufacturer branding are intentionally omitted because fitted identity, typography and marking positions are unverified.",
+        "No physical seating, tolerance stack, enclosure fit, solder joint or mechanical assembly approval is implied."
+      ],
+      "source_face_and_pin_order": [
+        "3",
+        "2/GND",
+        "1"
+      ],
+      "per_instance_override": false,
+      "canonical_frame": "millimeters; model X, -PCB-local-Y, outward Z; source front pin 3 at negative X",
+      "units": "mm",
+      "body_mm": [
+        9.5,
+        4,
+        6.5
+      ],
+      "body_bounds_mm": [
+        -4.7500001,
+        -2.0000001,
+        0.3499999,
+        4.7500001,
+        2.0000001000000003,
+        6.850000100000013
+      ],
+      "exact_bounds_mm": [
+        -4.7500001,
+        -2.0000001,
+        -2.5,
+        4.7500001,
+        2.0000001,
+        6.850000100000012
+      ],
+      "features": [
+        {
+          "name": "Body",
+          "role": "coated_ceramic",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration--Body.stl",
+          "sha256": "ec05eca1657733ddb5d6ec28cb7a96137720d37e407af5ebbba1b02849e2d36a",
+          "units": "mm",
+          "color_rgb": [
+            0.1,
+            0.25,
+            0.65
+          ],
+          "rgba": [
+            0.1,
+            0.25,
+            0.65,
+            1
+          ],
+          "exact_bounds_mm": [
+            -4.7500001,
+            -2.0000001,
+            0.3499999,
+            4.7500001,
+            2.0000001000000003,
+            6.850000100000013
+          ],
+          "volume_mm3": 172.9523718452159,
+          "triangles": 7264
+        },
+        {
+          "name": "Lead1",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration--Lead1.stl",
+          "sha256": "6c6f177a36d8f61da54db89ec5c8c95626ce16defb4b9f37106954c640c04e61",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "rgba": [
+            0.72,
+            0.73,
+            0.75,
+            1
+          ],
+          "exact_bounds_mm": [
+            -2.84,
+            -0.175,
+            -2.5,
+            -2.2399999999999998,
+            0.175,
+            0.4700000000000002
+          ],
+          "volume_mm3": 0.6237000000000001,
+          "triangles": 12
+        },
+        {
+          "name": "Lead2",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration--Lead2.stl",
+          "sha256": "1513cfd70c3183e5d19918d91d444ff507812ef4b45c1ded8f03a2166a2a48f1",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "rgba": [
+            0.72,
+            0.73,
+            0.75,
+            1
+          ],
+          "exact_bounds_mm": [
+            -0.3,
+            -0.175,
+            -2.5,
+            0.3,
+            0.175,
+            0.4700000000000002
+          ],
+          "volume_mm3": 0.6236999999999999,
+          "triangles": 12
+        },
+        {
+          "name": "Lead3",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration--Lead3.stl",
+          "sha256": "4b895c0c543be94526ea32e6cfd9b457e852e454a6a03faf080e3bb51056092c",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "rgba": [
+            0.72,
+            0.73,
+            0.75,
+            1
+          ],
+          "exact_bounds_mm": [
+            2.24,
+            -0.175,
+            -2.5,
+            2.8400000000000003,
+            0.175,
+            0.4700000000000002
+          ],
+          "volume_mm3": 0.6237000000000001,
+          "triangles": 12
+        }
+      ],
+      "mesh_parts": [
+        {
+          "name": "Body",
+          "role": "coated_ceramic",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration--Body.stl",
+          "sha256": "ec05eca1657733ddb5d6ec28cb7a96137720d37e407af5ebbba1b02849e2d36a",
+          "units": "mm",
+          "color_rgb": [
+            0.1,
+            0.25,
+            0.65
+          ],
+          "rgba": [
+            0.1,
+            0.25,
+            0.65,
+            1
+          ],
+          "exact_bounds_mm": [
+            -4.7500001,
+            -2.0000001,
+            0.3499999,
+            4.7500001,
+            2.0000001000000003,
+            6.850000100000013
+          ],
+          "volume_mm3": 172.9523718452159,
+          "triangles": 7264
+        },
+        {
+          "name": "Lead1",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration--Lead1.stl",
+          "sha256": "6c6f177a36d8f61da54db89ec5c8c95626ce16defb4b9f37106954c640c04e61",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "rgba": [
+            0.72,
+            0.73,
+            0.75,
+            1
+          ],
+          "exact_bounds_mm": [
+            -2.84,
+            -0.175,
+            -2.5,
+            -2.2399999999999998,
+            0.175,
+            0.4700000000000002
+          ],
+          "volume_mm3": 0.6237000000000001,
+          "triangles": 12
+        },
+        {
+          "name": "Lead2",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration--Lead2.stl",
+          "sha256": "1513cfd70c3183e5d19918d91d444ff507812ef4b45c1ded8f03a2166a2a48f1",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "rgba": [
+            0.72,
+            0.73,
+            0.75,
+            1
+          ],
+          "exact_bounds_mm": [
+            -0.3,
+            -0.175,
+            -2.5,
+            0.3,
+            0.175,
+            0.4700000000000002
+          ],
+          "volume_mm3": 0.6236999999999999,
+          "triangles": 12
+        },
+        {
+          "name": "Lead3",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration--Lead3.stl",
+          "sha256": "4b895c0c543be94526ea32e6cfd9b457e852e454a6a03faf080e3bb51056092c",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "rgba": [
+            0.72,
+            0.73,
+            0.75,
+            1
+          ],
+          "exact_bounds_mm": [
+            2.24,
+            -0.175,
+            -2.5,
+            2.8400000000000003,
+            0.175,
+            0.4700000000000002
+          ],
+          "volume_mm3": 0.6237000000000001,
+          "triangles": 12
+        }
+      ],
+      "valid": true,
+      "solid_count": 4,
+      "faces": 41,
+      "volume_mm3": 174.82346779038204,
+      "triangles": 7312,
+      "color_roles": [
+        {
+          "brep": 15,
+          "faces": 23,
+          "color": [
+            0.1,
+            0.25,
+            0.65
+          ]
+        },
+        {
+          "brep": 1280,
+          "faces": 6,
+          "color": [
+            0.72,
+            0.73,
+            0.75
+          ]
+        },
+        {
+          "brep": 1430,
+          "faces": 6,
+          "color": [
+            0.72,
+            0.73,
+            0.75
+          ]
+        },
+        {
+          "brep": 1580,
+          "faces": 6,
+          "color": [
+            0.72,
+            0.73,
+            0.75
+          ]
+        }
+      ],
+      "baseline_model": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/ioboard/3dmodels/Revision5/integrated-models/Resonator_AWCR6MD_MaxBody_P2.54_Illustration.step",
+      "baseline_sha256": "78f33aa8eb4dd7053e1fb5a9b03b43a1ae36eda4c313cbbf4c5e60b23c1c1bab",
+      "pad_checks": [
+        {
+          "source_pin": "3",
+          "board_pin": "P$3",
+          "center_error_mm": 0.0,
+          "drill_mm": 0.8128,
+          "nominal_corner_margin_mm": 0.05908890026375491
+        },
+        {
+          "source_pin": "2",
+          "board_pin": "P$2",
+          "center_error_mm": 0.0,
+          "drill_mm": 0.8128,
+          "nominal_corner_margin_mm": 0.05908890026375491
+        },
+        {
+          "source_pin": "1",
+          "board_pin": "P$1",
+          "center_error_mm": 0.0,
+          "drill_mm": 0.8128,
+          "nominal_corner_margin_mm": 0.05908890026375491
+        }
+      ],
+      "placement_diff_zero": true,
+      "lead_geometry_diff_zero": true,
+      "physical_fit_qualified": false
+    },
+    {
+      "id": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration",
+      "board": "mainboard",
+      "footprint": "2SC2021",
+      "references": [
+        "XTL1"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration.step",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration.step",
+      "source_sha256": "a63663896e9e1ea6d8a0ba33a2ddef22f269bb937f6f7b48c5ed782170496704",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration.stl",
+      "stl_sha256": "4ccbe023a56f0f4e88b9f902bf1b5066ec6079c480b18725da774e5b6ea9b3b9",
+      "source_urls": [
+        "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf"
+      ],
+      "sources": [
+        {
+          "url": "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf",
+          "document": "Abracon AWCR-MD revised 05.07.13, page 3, bulk outline",
+          "local_pdf": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/sources/Abracon_AWCR_MD_2013.pdf",
+          "sha256": "ef48f7b242efe5cfc1f1514721edb274fb13dd2caea086bebe3f40e30fa01a7a"
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        180
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "original_parametric_package_illustration_primary_max_dimensions_exact_board_pitch_undimensioned_profile_detail",
+      "source_kind": "Independent original drawing-derived family illustration; no manufacturer CAD",
+      "license": "CC0-1.0",
+      "limitations": [
+        "Independent original family illustration from the Abracon drawing; exact historically fitted manufacturer/part/revision is not established.",
+        "Body retains the same maximum 10 x 5 x 10 mm envelope. A maximum envelope is not an exact selected-part body size.",
+        "The printed nominal lead pitch is 2.5 +/- 0.3 mm; the existing exact 2.54 mm PCB pitch is preserved, without moving footprint or pads.",
+        "Full 0.6 x 0.35 mm maximum lead sections, original centers, 0.35 mm body datum and -2.5..0.47 mm lead extents are preserved exactly.",
+        "0.35 mm body stand-off and 2.5 mm cut tails are inherited mounting illustrations, not the drawing factory lead length of 5 +/- 1 mm.",
+        "The drawing supports a tapered side profile, softened front corners and three coated lead shoulders; the exact normalized profiles, Bezier control points, 0.96 mm shoulder base width, 1.34 mm upper width and 0.55 mm base thickness are undimensioned visual choices.",
+        "Blue coating and silver lead colors are illustrative. The original project permits an alternative 6 MHz part and notes that its color can be orange.",
+        "Frequency markings and manufacturer branding are intentionally omitted because fitted identity, typography and marking positions are unverified.",
+        "No physical seating, tolerance stack, enclosure fit, solder joint or mechanical assembly approval is implied."
+      ],
+      "source_face_and_pin_order": [
+        "3",
+        "2/GND",
+        "1"
+      ],
+      "per_instance_override": true,
+      "canonical_frame": "millimeters; model X, -PCB-local-Y, outward Z; source front pin 3 at negative X",
+      "units": "mm",
+      "body_mm": [
+        10,
+        5,
+        10
+      ],
+      "body_bounds_mm": [
+        -5.0000001,
+        -2.5000001,
+        0.34999989999999964,
+        5.0000001,
+        2.5000001000000003,
+        10.350000100000022
+      ],
+      "exact_bounds_mm": [
+        -5.0000001,
+        -2.5000001,
+        -2.5,
+        5.0000001,
+        2.5000001,
+        10.350000100000022
+      ],
+      "features": [
+        {
+          "name": "Body",
+          "role": "coated_ceramic",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration--Body.stl",
+          "sha256": "20c1df9eb3fc165038cda88b1c1491d978e21d1e6ee6454868906c9bb51246ca",
+          "units": "mm",
+          "color_rgb": [
+            0.1,
+            0.25,
+            0.65
+          ],
+          "rgba": [
+            0.1,
+            0.25,
+            0.65,
+            1
+          ],
+          "exact_bounds_mm": [
+            -5.0000001,
+            -2.5000001,
+            0.34999989999999964,
+            5.0000001,
+            2.5000001000000003,
+            10.350000100000022
+          ],
+          "volume_mm3": 348.0284447376443,
+          "triangles": 6176
+        },
+        {
+          "name": "Lead1",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration--Lead1.stl",
+          "sha256": "6c6f177a36d8f61da54db89ec5c8c95626ce16defb4b9f37106954c640c04e61",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "rgba": [
+            0.72,
+            0.73,
+            0.75,
+            1
+          ],
+          "exact_bounds_mm": [
+            -2.84,
+            -0.175,
+            -2.5,
+            -2.2399999999999998,
+            0.175,
+            0.4700000000000002
+          ],
+          "volume_mm3": 0.6237000000000001,
+          "triangles": 12
+        },
+        {
+          "name": "Lead2",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration--Lead2.stl",
+          "sha256": "1513cfd70c3183e5d19918d91d444ff507812ef4b45c1ded8f03a2166a2a48f1",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "rgba": [
+            0.72,
+            0.73,
+            0.75,
+            1
+          ],
+          "exact_bounds_mm": [
+            -0.3,
+            -0.175,
+            -2.5,
+            0.3,
+            0.175,
+            0.4700000000000002
+          ],
+          "volume_mm3": 0.6236999999999999,
+          "triangles": 12
+        },
+        {
+          "name": "Lead3",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration--Lead3.stl",
+          "sha256": "4b895c0c543be94526ea32e6cfd9b457e852e454a6a03faf080e3bb51056092c",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "rgba": [
+            0.72,
+            0.73,
+            0.75,
+            1
+          ],
+          "exact_bounds_mm": [
+            2.24,
+            -0.175,
+            -2.5,
+            2.8400000000000003,
+            0.175,
+            0.4700000000000002
+          ],
+          "volume_mm3": 0.6237000000000001,
+          "triangles": 12
+        }
+      ],
+      "mesh_parts": [
+        {
+          "name": "Body",
+          "role": "coated_ceramic",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration--Body.stl",
+          "sha256": "20c1df9eb3fc165038cda88b1c1491d978e21d1e6ee6454868906c9bb51246ca",
+          "units": "mm",
+          "color_rgb": [
+            0.1,
+            0.25,
+            0.65
+          ],
+          "rgba": [
+            0.1,
+            0.25,
+            0.65,
+            1
+          ],
+          "exact_bounds_mm": [
+            -5.0000001,
+            -2.5000001,
+            0.34999989999999964,
+            5.0000001,
+            2.5000001000000003,
+            10.350000100000022
+          ],
+          "volume_mm3": 348.0284447376443,
+          "triangles": 6176
+        },
+        {
+          "name": "Lead1",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration--Lead1.stl",
+          "sha256": "6c6f177a36d8f61da54db89ec5c8c95626ce16defb4b9f37106954c640c04e61",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "rgba": [
+            0.72,
+            0.73,
+            0.75,
+            1
+          ],
+          "exact_bounds_mm": [
+            -2.84,
+            -0.175,
+            -2.5,
+            -2.2399999999999998,
+            0.175,
+            0.4700000000000002
+          ],
+          "volume_mm3": 0.6237000000000001,
+          "triangles": 12
+        },
+        {
+          "name": "Lead2",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration--Lead2.stl",
+          "sha256": "1513cfd70c3183e5d19918d91d444ff507812ef4b45c1ded8f03a2166a2a48f1",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "rgba": [
+            0.72,
+            0.73,
+            0.75,
+            1
+          ],
+          "exact_bounds_mm": [
+            -0.3,
+            -0.175,
+            -2.5,
+            0.3,
+            0.175,
+            0.4700000000000002
+          ],
+          "volume_mm3": 0.6236999999999999,
+          "triangles": 12
+        },
+        {
+          "name": "Lead3",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration--Lead3.stl",
+          "sha256": "4b895c0c543be94526ea32e6cfd9b457e852e454a6a03faf080e3bb51056092c",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "rgba": [
+            0.72,
+            0.73,
+            0.75,
+            1
+          ],
+          "exact_bounds_mm": [
+            2.24,
+            -0.175,
+            -2.5,
+            2.8400000000000003,
+            0.175,
+            0.4700000000000002
+          ],
+          "volume_mm3": 0.6237000000000001,
+          "triangles": 12
+        }
+      ],
+      "valid": true,
+      "solid_count": 4,
+      "faces": 43,
+      "volume_mm3": 349.8995617357913,
+      "triangles": 6224,
+      "color_roles": [
+        {
+          "brep": 15,
+          "faces": 25,
+          "color": [
+            0.1,
+            0.25,
+            0.65
+          ]
+        },
+        {
+          "brep": 1264,
+          "faces": 6,
+          "color": [
+            0.72,
+            0.73,
+            0.75
+          ]
+        },
+        {
+          "brep": 1414,
+          "faces": 6,
+          "color": [
+            0.72,
+            0.73,
+            0.75
+          ]
+        },
+        {
+          "brep": 1564,
+          "faces": 6,
+          "color": [
+            0.72,
+            0.73,
+            0.75
+          ]
+        }
+      ],
+      "baseline_model": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/mainboard/3dmodels/Revision5/integrated-models/Resonator_AWCR16MD_MaxBody_P2.54_Illustration.step",
+      "baseline_sha256": "a9cab63f2cba58e776998905e5234d17f380e69914a32637e3c28c6bba854b08",
+      "pad_checks": [
+        {
+          "source_pin": "3",
+          "board_pin": "3",
+          "center_error_mm": 3.110602869834277e-16,
+          "drill_mm": 1.0,
+          "nominal_corner_margin_mm": 0.15268890026375492
+        },
+        {
+          "source_pin": "2",
+          "board_pin": "2",
+          "center_error_mm": 0.0,
+          "drill_mm": 1.0,
+          "nominal_corner_margin_mm": 0.15268890026375492
+        },
+        {
+          "source_pin": "1",
+          "board_pin": "1",
+          "center_error_mm": 3.110602869834277e-16,
+          "drill_mm": 1.0,
+          "nominal_corner_margin_mm": 0.15268890026375492
+        }
+      ],
+      "placement_diff_zero": true,
+      "lead_geometry_diff_zero": true,
+      "physical_fit_qualified": false
+    }
+  ],
+  "assignments": [
+    {
+      "board": "ioboard",
+      "footprint": "Resonator_6MHz_x0x",
+      "references": [
+        "XTL2"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration.step",
+      "source_sha256": "692666df2d45e3cf6cca90f48de88b0ea76ce9650dfcb0c57ade849135b8009a",
+      "source_urls": [
+        "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf"
+      ],
+      "sources": [
+        {
+          "url": "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf",
+          "document": "Abracon AWCR-MD revised 05.07.13, page 3, bulk outline",
+          "local_pdf": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/sources/Abracon_AWCR_MD_2013.pdf",
+          "sha256": "ef48f7b242efe5cfc1f1514721edb274fb13dd2caea086bebe3f40e30fa01a7a"
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "original_parametric_package_illustration_primary_max_dimensions_exact_board_pitch_undimensioned_profile_detail",
+      "source_kind": "Independent original drawing-derived family illustration; no manufacturer CAD",
+      "license": "CC0-1.0",
+      "limitations": [
+        "Independent original family illustration from the Abracon drawing; exact historically fitted manufacturer/part/revision is not established.",
+        "Body retains the same maximum 9.5 x 4 x 6.5 mm envelope. A maximum envelope is not an exact selected-part body size.",
+        "The printed nominal lead pitch is 2.5 +/- 0.3 mm; the existing exact 2.54 mm PCB pitch is preserved, without moving footprint or pads.",
+        "Full 0.6 x 0.35 mm maximum lead sections, original centers, 0.35 mm body datum and -2.5..0.47 mm lead extents are preserved exactly.",
+        "0.35 mm body stand-off and 2.5 mm cut tails are inherited mounting illustrations, not the drawing factory lead length of 5 +/- 1 mm.",
+        "The drawing supports a tapered side profile, softened front corners and three coated lead shoulders; the exact normalized profiles, Bezier control points, 0.96 mm shoulder base width, 1.34 mm upper width and 0.55 mm base thickness are undimensioned visual choices.",
+        "Blue coating and silver lead colors are illustrative. The original project permits an alternative 6 MHz part and notes that its color can be orange.",
+        "Frequency markings and manufacturer branding are intentionally omitted because fitted identity, typography and marking positions are unverified.",
+        "No physical seating, tolerance stack, enclosure fit, solder joint or mechanical assembly approval is implied."
+      ],
+      "source_face_and_pin_order": [
+        "3",
+        "2/GND",
+        "1"
+      ],
+      "per_instance_override": false,
+      "canonical_frame": "millimeters; model X, -PCB-local-Y, outward Z; source front pin 3 at negative X",
+      "units": "mm"
+    },
+    {
+      "board": "mainboard",
+      "footprint": "2SC2021",
+      "references": [
+        "XTL1"
+      ],
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration.step",
+      "source_sha256": "a63663896e9e1ea6d8a0ba33a2ddef22f269bb937f6f7b48c5ed782170496704",
+      "source_urls": [
+        "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf"
+      ],
+      "sources": [
+        {
+          "url": "https://media.digikey.com/pdf/Data%20Sheets/Abracon%20Corp%20PDFs/AWCR_MD.pdf",
+          "document": "Abracon AWCR-MD revised 05.07.13, page 3, bulk outline",
+          "local_pdf": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/resonator-quality/sources/Abracon_AWCR_MD_2013.pdf",
+          "sha256": "ef48f7b242efe5cfc1f1514721edb274fb13dd2caea086bebe3f40e30fa01a7a"
+        }
+      ],
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        180
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "original_parametric_package_illustration_primary_max_dimensions_exact_board_pitch_undimensioned_profile_detail",
+      "source_kind": "Independent original drawing-derived family illustration; no manufacturer CAD",
+      "license": "CC0-1.0",
+      "limitations": [
+        "Independent original family illustration from the Abracon drawing; exact historically fitted manufacturer/part/revision is not established.",
+        "Body retains the same maximum 10 x 5 x 10 mm envelope. A maximum envelope is not an exact selected-part body size.",
+        "The printed nominal lead pitch is 2.5 +/- 0.3 mm; the existing exact 2.54 mm PCB pitch is preserved, without moving footprint or pads.",
+        "Full 0.6 x 0.35 mm maximum lead sections, original centers, 0.35 mm body datum and -2.5..0.47 mm lead extents are preserved exactly.",
+        "0.35 mm body stand-off and 2.5 mm cut tails are inherited mounting illustrations, not the drawing factory lead length of 5 +/- 1 mm.",
+        "The drawing supports a tapered side profile, softened front corners and three coated lead shoulders; the exact normalized profiles, Bezier control points, 0.96 mm shoulder base width, 1.34 mm upper width and 0.55 mm base thickness are undimensioned visual choices.",
+        "Blue coating and silver lead colors are illustrative. The original project permits an alternative 6 MHz part and notes that its color can be orange.",
+        "Frequency markings and manufacturer branding are intentionally omitted because fitted identity, typography and marking positions are unverified.",
+        "No physical seating, tolerance stack, enclosure fit, solder joint or mechanical assembly approval is implied."
+      ],
+      "source_face_and_pin_order": [
+        "3",
+        "2/GND",
+        "1"
+      ],
+      "per_instance_override": true,
+      "canonical_frame": "millimeters; model X, -PCB-local-Y, outward Z; source front pin 3 at negative X",
+      "units": "mm"
+    }
+  ],
+  "instance_count": 2,
+  "assigned_instance_count": 2,
+  "placement_diff_zero": true,
+  "source_projects_unchanged": true,
+  "source_project_hashes": {
+    "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/mainboard/mainboard.kicad_pcb": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+    "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/ioboard/ioboard.kicad_pcb": "fae5554526eb936a04c0d7de76ef50d5a69ef82ee9a48d6918db0844276dc351"
+  },
+  "physical_fit_qualified": false,
+  "manufacturer_CAD_incorporated": false,
+  "geometry_license": "CC0-1.0 original reconstruction geometry and scripts only; Abracon drawing retains its copyright",
+  "source_files": [
+    {
+      "path": "sources/Abracon_AWCR_MD_2013.pdf",
+      "sha256": "ef48f7b242efe5cfc1f1514721edb274fb13dd2caea086bebe3f40e30fa01a7a",
+      "bytes": 2598354
+    }
+  ],
+  "generator": "build_resonators.py",
+  "generator_sha256": "6a8701a75fcf13ad6378a4c3bdca5e6421cd4cda505e777ab0135505d0fbe3f1",
+  "freecad_version": [
+    "1",
+    "0",
+    "1",
+    "39285 (Git)",
+    "https://github.com/FreeCAD/FreeCAD",
+    "2025/05/14 02:58:13",
+    "(HEAD detached at 1.0.1)",
+    "878f0b8c9c72c6f215833a99f2762bc3a3cf2abd"
+  ]
+}

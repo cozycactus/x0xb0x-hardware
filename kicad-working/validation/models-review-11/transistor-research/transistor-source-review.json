@@ -1,0 +1,135 @@
+{
+  "schema": "x0xb0x-historical-transistor-source-review-v1",
+  "status": "primary dimensional source recovered; package assignment qualified",
+  "source": {
+    "title": "1985 Sanyo Semiconductor Handbook - Transistors",
+    "publisher": "Sanyo Electric Co., Ltd.",
+    "archive_url": "https://www.bitsavers.org/components/sanyo/_dataBooks/1985_Sanyo_Semiconductor_Handbook_-_Transistors.pdf",
+    "bytes": 67201880,
+    "sha256": "e96643675ad4e019f6ea1cce5913a3ccaedd9c3374a8892479f8f0d2b6e40c4d",
+    "full_download_local_path": "/Users/ruslanmigirov/Downloads/hardware/kicad-working/validation/models-review-11/transistor-research/sources/1985-Sanyo-Semiconductor-Handbook-Transistors.pdf",
+    "delivered_extract_pdf_pages": [
+      247,
+      248
+    ],
+    "printed_pages": [
+      243,
+      244
+    ],
+    "package_general_pdf_page": 44,
+    "package_general_printed_page": 40,
+    "primary_datasheet_number": "333H",
+    "source_date_code": "3085KI/4223KI/6162KI/TS",
+    "copyright": "Retained original manufacturer documentation; no assertion of a new open license."
+  },
+  "original_project_photo": {
+    "url": "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/2sc536.jpg",
+    "author_page": "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+    "bom_description": "2SC536F TO-92 NPN transistor; 24 fitted parts; 536F marking",
+    "visual_findings": [
+      "Photo is an unscaled approximately front-on image of a black package with a 536F marking.",
+      "Near-square visible body is consistent with 5 x 5 mm NP front face; a front image alone does not directly verify depth or rear curvature.",
+      "A preliminary SP interpretation from apparent side-edge lips was rejected after checking the source front aspect ratios."
+    ],
+    "selects_manufacturer_and_exact_mould": false
+  },
+  "dimensional_interpretation": {
+    "units": "mm",
+    "source_dimensional_status": "Typical where not explicitly min/max, per handbook printedpage40/PDF44. These are not maximum envelopes.",
+    "SP2000B": {
+      "body_width": 4.0,
+      "body_inner_width_callout": 3.8,
+      "body_depth": 2.2,
+      "body_height": 3.0,
+      "factory_lead_pitch": 1.3,
+      "factory_lead_length": 14.0,
+      "lead_section_width": 0.35,
+      "lead_section_thickness": 0.3,
+      "root_shoulder_width": 0.45,
+      "root_shoulder_distance_from_body": 2.0
+    },
+    "NP2003A": {
+      "body_width": 5.0,
+      "body_inner_width_callout": 4.8,
+      "body_depth": 4.0,
+      "body_height": 5.0,
+      "factory_lead_pitch": 1.3,
+      "factory_lead_length": 14.0,
+      "lead_section_width": 0.45,
+      "lead_section_thickness": 0.44,
+      "root_shoulder_width_callout": 0.45,
+      "root_shoulder_distance_from_body": 2.0
+    },
+    "pin_view": "Shown bottom/end view: B, C, E in that order along the lead line. The flat profile edge and viewpoint must be respected when mapping to PCB pads.",
+    "F_rank": "hFE 160-320 in No333H; F is a gain rank and does not identify SP versus NP."
+  },
+  "decision": {
+    "verified_dimensional_improvement_possible": true,
+    "proposed_model": "Qualified historical Sanyo NP2003A illustration, using its primary typical dimensions; retain exact existing board pad geometry, model transforms, and installed lead-form qualifications.",
+    "why_np_is_defensible": "Original project BOM explicitly calls TO-92; No333H explicitly assigns TO-92 to NP2003A. Photo near-square frontal body is consistent with NP, whereas SP front drawing is4:3. This is a package-family selection, not exact fitted-vendor/mould authentication.",
+    "sp_not_adopted": "SP has a separate smaller rectangular4 x3 x2.2mm body and is not called TO-92 in No333H. An initial photo interpretation as SP was corrected before any geometry edit.",
+    "historical_vendor_proven": false,
+    "current_models_changed": false,
+    "limits": [
+      "No dimensional scale in project photograph.",
+      "Rear curvature and radii are drawn but not dimensioned.",
+      "Installed height, splayed lead bends and trimmed tails remain installation assumptions.",
+      "Factory1.3mm pitch must not replace existing PCB2.54mm/asymmetric2.54/3.302mm pad axes.",
+      "Existing electrical emitter/collector/base mapping must be independently preserved before integrating new models.",
+      "Do not present typical values as clearance maxima."
+    ]
+  },
+  "rejected_alternatives": [
+    "Modern2SC536N/NPA-WA is not the recovered original package.",
+    "JSCJ and Semtech dimensions do not establish historical Sanyo536F geometry.",
+    "1968 round-case Sanyo scan is valid historical evidence but does not match the intended TO-92 family."
+  ],
+  "retrieval_notes": [
+    "Direct Ladyada image endpoints returned403. Frozen authorGitHub mirror succeeded.",
+    "Bitsavers curl defaultUserAgent returned403; ordinary MozillaUserAgent request succeeded.",
+    "ScribdpublicNo333Hpreview corroborates the sameprintedpage243but the higher-resolution manufacturerhandbook excerpt is the accepted dimensional source.",
+    "RawHTMLand publicpreview retrievals are outside the tracked repo and unnecessary for the final source package."
+  ],
+  "delivered_files": [
+    {
+      "path": "sources/Sanyo-2SC536-No333H-1985-excerpt.pdf",
+      "bytes": 741964,
+      "sha256": "0c083ba50faa42ced26383b368655084a0fe31224ca3409c9c0b9aeb5982ee86"
+    },
+    {
+      "path": "sources/sanyo-general-package-page44.pdf",
+      "bytes": 131411,
+      "sha256": "cadf71cf443b4524fd1461e220a3d5a82a69aaf93f03050939b72817235513bd"
+    },
+    {
+      "path": "sources/original-x0xb0x-2sc536-photo.jpg",
+      "bytes": 18298,
+      "sha256": "e22f2f98d1b3b959ca7e4503868f390a07cf3401f1e64220cbddf1224715eb5d"
+    },
+    {
+      "path": "sources/sanyo-No333H-page247.txt",
+      "bytes": 4347,
+      "sha256": "52990495b944b8379d7c725818ba83247182d245f9174ec50aa7a3387ed79060"
+    },
+    {
+      "path": "rendered/sanyo-No333H-handbook-page247.png",
+      "bytes": 304913,
+      "sha256": "4b515f8e833daf1dd5086b3760667e16ea4d070fe54653c5b6a698811186a5d9"
+    },
+    {
+      "path": "rendered/sanyo-No333H-outline-full-detail.png",
+      "bytes": 41288,
+      "sha256": "45b0e9ab914423589efea31cef9aa1b7d97b6a5f3de03d41a240e1f66b545edb"
+    },
+    {
+      "path": "rendered/sanyo-general-package-page44.png",
+      "bytes": 720851,
+      "sha256": "3979ec1e608b670f9b001ec7f971e815ec243eda3713ae5e4334d14a34ef8af3"
+    },
+    {
+      "path": "rendered/1985-Sanyo-handbook-cover.png",
+      "bytes": 2495638,
+      "sha256": "0c546f6c2f222aacff5cea781607e4e8953699e77d4e49f1031d05b7184c320c"
+    }
+  ]
+}

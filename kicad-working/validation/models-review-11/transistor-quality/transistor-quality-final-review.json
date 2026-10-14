@@ -1,0 +1,159 @@
+{
+  "passed": true,
+  "date": "2026-10-14",
+  "families": 2,
+  "assignment_rows": 3,
+  "reference_count": 24,
+  "reports": {
+    "transistor-quality-geometry-review.json": {
+      "passed": true,
+      "checks": 162,
+      "sha256": "f6c4f9e8c9528865fd6bc8b6f1e411be0acad4f5dd8ab92b8d1e1166acdac524"
+    },
+    "native-export-audit.json": {
+      "passed": true,
+      "checks": 101,
+      "sha256": "a13298c0b0f95bd4d97be6d702973406bf9559385a5409358938a3fa5bc0e393"
+    },
+    "transverse-stock-audit.json": {
+      "passed": true,
+      "checks": 20,
+      "sha256": "26be17f74baa9e8329934e613b880809cf9585963f0645ac38524067b4521b06"
+    }
+  },
+  "check_count": 283,
+  "visual_review": {
+    "image": "Sanyo-NP2003A-native-review.png",
+    "inspected": true,
+    "finding": "Both complete native-translated model forms are framed without clipping; shallow mould-face recess, rounded rear profile and full continuous formed leads are visible. Labels distinguish21inline and3asymmetric instances. No PCB or complete-enclosure fit is implied."
+  },
+  "source_projects_modified": false,
+  "physical_fit_qualified": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3740,
+      "sha256": "ca4199c978ca501fbdc4086390c154520f8273bed2b4622d16b4416263918b1f"
+    },
+    {
+      "path": "Sanyo-NP2003A-native-review.png",
+      "bytes": 1699611,
+      "sha256": "5f2950871aad406ced123044d0d9e036e68325fe21324b48284fca6fbb413fd3"
+    },
+    {
+      "path": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration--BaseFullWidthLead.stl",
+      "bytes": 6684,
+      "sha256": "89581c741c6320edcabd81b5ca699f405f82074cb8d182f5fb07c77d4d695874"
+    },
+    {
+      "path": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration--CollectorFullWidthLead.stl",
+      "bytes": 684,
+      "sha256": "9d3100d01ee04d08b6ea1c12ef58bfa539d4548931e38296b9bc62b50fd82991"
+    },
+    {
+      "path": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration--EmitterFullWidthLead.stl",
+      "bytes": 9084,
+      "sha256": "5db2a4eda3631fc125123aaa19daa58e78e7b4a1cf3995667f0065597b6cf9aa"
+    },
+    {
+      "path": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration--MouldedNPBody.stl",
+      "bytes": 81584,
+      "sha256": "ae97235a0d90de5c012cf89bc150811875bf86fb2fbabaa0bc036dda1ad562c7"
+    },
+    {
+      "path": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration.FCStd",
+      "bytes": 8540,
+      "sha256": "65363880251c408145c6962971b5cb6755694eb2989be6ee60c2e43bf33a8d09"
+    },
+    {
+      "path": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration.step",
+      "bytes": 60958,
+      "sha256": "ed319ccb57287b484fd7d8eb04c9cae502f0f13a96b4863127313955c535f29c"
+    },
+    {
+      "path": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration.stl",
+      "bytes": 98384,
+      "sha256": "888dd26b5dea2685a7dc2dd96e1b9292866805005a9df22aef6a3b37c20bfcba"
+    },
+    {
+      "path": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration--BaseFullWidthLead.stl",
+      "bytes": 8684,
+      "sha256": "7ddb9a2e5435a1f38c6c2ef814a3bb4b77fe1481853d06b8bb7c05a6661eef76"
+    },
+    {
+      "path": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration--CollectorFullWidthLead.stl",
+      "bytes": 684,
+      "sha256": "fbe4f0bb470d2dcf34ef735e2ad8bd287934d16494d82c6960255f513e4d4880"
+    },
+    {
+      "path": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration--EmitterFullWidthLead.stl",
+      "bytes": 8684,
+      "sha256": "21c9d5a8346e28b3d50ded24d21ed1f34d9b20dbc1905e666df80b5c57550552"
+    },
+    {
+      "path": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration--MouldedNPBody.stl",
+      "bytes": 80084,
+      "sha256": "9a225cb715a3feba727b8bb183c7a2f84e6da3fac2bd3b67e1ccd03a2eadb363"
+    },
+    {
+      "path": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration.FCStd",
+      "bytes": 8551,
+      "sha256": "6dcb2f6165952a9e70713db2e5ff8b654d867dfc956efc5281457e35d798bbbe"
+    },
+    {
+      "path": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration.step",
+      "bytes": 60956,
+      "sha256": "e1836f981186b13cb2ceb9ec33df48d0d16d8597b27581334d941cbb152aa439"
+    },
+    {
+      "path": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration.stl",
+      "bytes": 98484,
+      "sha256": "9743231fad4036a829fc0d30946c1e7d4bca27d9e5823f26acfe3c7e90e4f97e"
+    },
+    {
+      "path": "audit_transverse_stock.py",
+      "bytes": 2618,
+      "sha256": "49b1321d73955a0fa555550580c80d47d39ab2185f4b7c86eaa676544fcddbca"
+    },
+    {
+      "path": "build_transistors.py",
+      "bytes": 16037,
+      "sha256": "b2d6d59b18682df005ecd7ffbaf41f569b7f681055c536a6159c960a76da70f9"
+    },
+    {
+      "path": "check_native_export.py",
+      "bytes": 6193,
+      "sha256": "126bb1d594a9882cbf3f30c7382c1ff89760cba3acb3e504cae85f9c5240bddd"
+    },
+    {
+      "path": "native-export-audit.json",
+      "bytes": 24849,
+      "sha256": "a13298c0b0f95bd4d97be6d702973406bf9559385a5409358938a3fa5bc0e393"
+    },
+    {
+      "path": "render_native_review.py",
+      "bytes": 3915,
+      "sha256": "5282e81eab77efa0729610b39f98753c9ce5022983c11acaef76d0bac99d8e9a"
+    },
+    {
+      "path": "step_appearance.py",
+      "bytes": 1763,
+      "sha256": "d8fcb898f7cfbc12d87826d95f3b141a750c19396717520f0ca06c8ea1ffa8d4"
+    },
+    {
+      "path": "transistor-quality-geometry-review.json",
+      "bytes": 48581,
+      "sha256": "f6c4f9e8c9528865fd6bc8b6f1e411be0acad4f5dd8ab92b8d1e1166acdac524"
+    },
+    {
+      "path": "transistor-quality-manifest.json",
+      "bytes": 99442,
+      "sha256": "f2f19b331f11042b3990e306535fa51d971ed54638f12a3762005ad5d8eb274f"
+    },
+    {
+      "path": "transverse-stock-audit.json",
+      "bytes": 6668,
+      "sha256": "26be17f74baa9e8329934e613b880809cf9585963f0645ac38524067b4521b06"
+    }
+  ]
+}

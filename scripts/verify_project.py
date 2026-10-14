@@ -25,26 +25,27 @@ def metadata(name):
                           "error": str(error)}, indent=2))
         raise SystemExit(1)
 
-required = ["docs/repository-content.json", "PROJECT.json",
-            "kicad-working/validation/working-validation-summary-revision-10.json"]
+required = ["docs/repository-content.json", "PROJECT.json"]
 missing = [name for name in required if not (ROOT / name).is_file()]
 if missing:
     print(json.dumps({"passed": False, "failures": missing,
                       "scope": "Required repository metadata is missing."}, indent=2))
     raise SystemExit(1)
 
+project = metadata("PROJECT.json")
+summary_path = "kicad-working/" + project.get(
+    "validation_summary", "validation/working-validation-summary-revision-10.json")
 manifest = metadata("docs/repository-content.json")
 failures = []
 for name, record in manifest["files"].items():
     path = ROOT / name
     if not path.is_file() or path.stat().st_size != record["bytes"] or sha(path) != record["sha256"]:
         failures.append(name)
-summary = metadata("kicad-working/validation/working-validation-summary-revision-10.json")
+summary = metadata(summary_path)
 for name, expected in summary["outputs"].items():
     path = ROOT / "kicad-working" / name
     if not matches(path, expected):
         failures.append("KiCad: " + name)
-project = metadata("PROJECT.json")
 for name, expected in project["original_Eagle_files"].items():
     path = ROOT / "original-eagle" / name
     if not matches(path, expected):

@@ -44,3 +44,5 @@ Revision8 replaces selected coarse models with detailed manufacturer CAD or draw
 Revision9 replaces selected coarse models with detailed manufacturer CAD or drawing-derived reconstructions. Published dimensions and source limitations are recorded per model; PCB geometry is unchanged. The documented KK1 model-only seating exception, if present, changes only its 3Doffset; all other native assignment transforms are unchanged. Previous model assets are retained.
 
 Revision10 replaces selected coarse models with detailed manufacturer CAD or drawing-derived reconstructions. Published dimensions and source limitations are recorded per model; PCB geometry is unchanged. All native assignment offsets, rotations and scales are unchanged. Previous model assets are retained.
+
+Revision11 replaces selected coarse models with independent drawing-derived illustrations. Published dimensions, package-selection inferences and undimensioned details are recorded per model; PCB geometry is unchanged. All native assignment offsets, rotations and scales are unchanged. Previous model assets are retained.

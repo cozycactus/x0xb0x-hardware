@@ -1,0 +1,54 @@
+[
+  {
+    "board": "mainboard",
+    "timestamp_utc": "2026-10-14T20:00:48.691268+00:00",
+    "command": [
+      "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "pcb",
+      "export",
+      "glb",
+      "--force",
+      "--include-tracks",
+      "--include-pads",
+      "--include-zones",
+      "--include-inner-copper",
+      "--include-silkscreen",
+      "--include-soldermask",
+      "-o",
+      "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/visualization/blender-case-revision-8/board-meshes/mainboard/mainboard.glb",
+      "kicad-working/validation/models-review-11/candidate/mainboard/mainboard.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "source_sha256": "f0c2f6a3422d3ad3bb94340dfcc2167d7edf7ae0523f7761c1a963de0ac62e70",
+    "output_sha256": "e19891c51b7d952aebc8a4d38d8208fa672fa55b7443c12c76d95d3c5f143bf1",
+    "bytes": 64884432,
+    "stdout": "Wire self-interference check failed\nz: 0; bounding box: x0: 134.111498; y0: -32.512337; x1: 170.434337; y1: -16.255498\nWire self-interference check failed\nz: 1.585; bounding box: x0: 9.95852; y0: -109.567476; x1: 10.598354; y1: -109.290698\nBinary GLTF file '/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/visualization/blender-case-revision-8/board-meshes/mainboard/mainboard.glb' created.\n\nExport time 31.412 s\n",
+    "stderr": "2026-10-14 23:01:21.511 kicad-cli[8274:8333612] Error retrieving source file attributes: Error Domain=NSCocoaErrorDomain Code=260 \"The file \u201cmainboard.glb\u201d couldn\u2019t be opened because there is no such file.\" UserInfo={NSFilePath=/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/visualization/blender-case-revision-8/board-meshes/mainboard/mainboard.glb, NSURL=file:///Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/visualization/blender-case-revision-8/board-meshes/mainboard/mainboard.glb, NSUnderlyingError=0x75c4c0c390 {Error Domain=NSPOSIXErrorDomain Code=2 \"No such file or directory\"}}\n"
+  },
+  {
+    "board": "ioboard",
+    "timestamp_utc": "2026-10-14T20:00:48.691650+00:00",
+    "command": [
+      "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "pcb",
+      "export",
+      "glb",
+      "--force",
+      "--include-tracks",
+      "--include-pads",
+      "--include-zones",
+      "--include-inner-copper",
+      "--include-silkscreen",
+      "--include-soldermask",
+      "-o",
+      "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/visualization/blender-case-revision-8/board-meshes/ioboard/ioboard.glb",
+      "kicad-working/validation/models-review-11/candidate/ioboard/ioboard.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "source_sha256": "63ce57799bb03ee442863c9e59f13fef5f39fbb268d4bacc70b980e6c21c8487",
+    "output_sha256": "e255cd0d26d810b46af45c8126296ddc45cf23cc96037a2e545a004593a1ffbc",
+    "bytes": 12881100,
+    "stdout": "Wire self-interference check failed\nz: 1.51; bounding box: x0: 184.9255; y0: -38.1; x1: 186.6765; y1: -36.4625\nWire self-interference check failed\nz: 1.51; bounding box: x0: 187.4655; y0: -38.1; x1: 189.2165; y1: -36.4625\nWire self-interference check failed\nz: 1.51; bounding box: x0: 97.9305; y0: -27.2915; x1: 99.568; y1: -25.5405\nWire self-interference check failed\nz: 1.585; bounding box: x0: 68.385504; y0: -43.121096; x1: 73.600762; y1: -37.905901\nBinary GLTF file '/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/visualization/blender-case-revision-8/board-meshes/ioboard/ioboard.glb' created.\n\nExport time 5.870 s\n",
+    "stderr": "2026-10-14 23:00:55.267 kicad-cli[8273:8333610] Error retrieving source file attributes: Error Domain=NSCocoaErrorDomain Code=260 \"The file \u201cioboard.glb\u201d couldn\u2019t be opened because there is no such file.\" UserInfo={NSFilePath=/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/visualization/blender-case-revision-8/board-meshes/ioboard/ioboard.glb, NSURL=file:///Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/visualization/blender-case-revision-8/board-meshes/ioboard/ioboard.glb, NSUnderlyingError=0x7cbac0c390 {Error Domain=NSPOSIXErrorDomain Code=2 \"No such file or directory\"}}\n"
+  }
+]

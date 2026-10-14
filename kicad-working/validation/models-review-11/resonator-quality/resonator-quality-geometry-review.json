@@ -1,0 +1,413 @@
+{
+  "passed": true,
+  "check_count": 60,
+  "failure_count": 0,
+  "source_projects_unchanged": true,
+  "placement_diff_zero": true,
+  "lead_geometry_diff_zero": true,
+  "physical_fit_qualified": false,
+  "checks": [
+    {
+      "name": "retained-primary-drawing-hash",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:one-valid-body",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:body-max-envelope-preserved",
+      "passed": true,
+      "previous_mm": [
+        -4.75,
+        -2.0,
+        0.35,
+        4.75,
+        2.0,
+        6.85
+      ],
+      "refined_mm": [
+        -4.7500001,
+        -2.0000001,
+        0.3499999,
+        4.7500001,
+        2.0000001000000003,
+        6.850000100000013
+      ]
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:lead-1-identical-geometry",
+      "passed": true,
+      "symmetric_difference_volume_mm3": 0.0,
+      "preserved_section_mm": [
+        0.6,
+        0.35
+      ],
+      "preserved_z_mm": [
+        -2.5,
+        0.47
+      ]
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:lead-1-body-contact",
+      "passed": true,
+      "contact_overlap_mm3": 0.02520000000000003
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:lead-2-identical-geometry",
+      "passed": true,
+      "symmetric_difference_volume_mm3": 0.0,
+      "preserved_section_mm": [
+        0.6,
+        0.35
+      ],
+      "preserved_z_mm": [
+        -2.5,
+        0.47
+      ]
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:lead-2-body-contact",
+      "passed": true,
+      "contact_overlap_mm3": 0.025200000000000028
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:lead-3-identical-geometry",
+      "passed": true,
+      "symmetric_difference_volume_mm3": 0.0,
+      "preserved_section_mm": [
+        0.6,
+        0.35
+      ],
+      "preserved_z_mm": [
+        -2.5,
+        0.47
+      ]
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:lead-3-body-contact",
+      "passed": true,
+      "contact_overlap_mm3": 0.02520000000000003
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:Body:valid-solid",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:Body:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:Lead1:valid-solid",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:Lead1:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:Lead2:valid-solid",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:Lead2:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:Lead3:valid-solid",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:Lead3:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:full-envelope-preserved",
+      "passed": true,
+      "expected_mm": [
+        -4.75,
+        -2.0,
+        -2.5,
+        4.75,
+        2.0,
+        6.85
+      ],
+      "actual_mm": [
+        -4.7500001,
+        -2.0000001,
+        -2.5,
+        4.7500001,
+        2.0000001000000003,
+        6.850000100000013
+      ]
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:one-connected-union",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:STEP-roundtrip",
+      "passed": true,
+      "restored_valid": true,
+      "restored_solids": 4,
+      "compound_volume_mm3": 174.82347002748094,
+      "restored_volume_mm3": 174.82346779038204,
+      "absolute_volume_error_mm3": 2.2370988972397754e-06,
+      "relative_volume_error": 1.2796330474896306e-08,
+      "max_bounds_error_mm": 8.881784197001252e-16
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:appearance-geometry-unchanged",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:exterior-closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:source-footprint",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:original-transforms-preserved",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:pin-3:unchanged-center",
+      "passed": true,
+      "lead_center_error_mm": 0.0,
+      "board_pin": "P$3"
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:pin-3:nominal-drill-margin",
+      "passed": true,
+      "drill_mm": 0.8128,
+      "radial_margin_mm": 0.05908890026375491
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:pin-2:unchanged-center",
+      "passed": true,
+      "lead_center_error_mm": 0.0,
+      "board_pin": "P$2"
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:pin-2:nominal-drill-margin",
+      "passed": true,
+      "drill_mm": 0.8128,
+      "radial_margin_mm": 0.05908890026375491
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:pin-1:unchanged-center",
+      "passed": true,
+      "lead_center_error_mm": 0.0,
+      "board_pin": "P$1"
+    },
+    {
+      "name": "Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration:pin-1:nominal-drill-margin",
+      "passed": true,
+      "drill_mm": 0.8128,
+      "radial_margin_mm": 0.05908890026375491
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:one-valid-body",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:body-max-envelope-preserved",
+      "passed": true,
+      "previous_mm": [
+        -5.0,
+        -2.5,
+        0.35,
+        5.0,
+        2.5,
+        10.35
+      ],
+      "refined_mm": [
+        -5.0000001,
+        -2.5000001,
+        0.34999989999999964,
+        5.0000001,
+        2.5000001000000003,
+        10.350000100000022
+      ]
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:lead-1-identical-geometry",
+      "passed": true,
+      "symmetric_difference_volume_mm3": 0.0,
+      "preserved_section_mm": [
+        0.6,
+        0.35
+      ],
+      "preserved_z_mm": [
+        -2.5,
+        0.47
+      ]
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:lead-1-body-contact",
+      "passed": true,
+      "contact_overlap_mm3": 0.02520000000000003
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:lead-2-identical-geometry",
+      "passed": true,
+      "symmetric_difference_volume_mm3": 0.0,
+      "preserved_section_mm": [
+        0.6,
+        0.35
+      ],
+      "preserved_z_mm": [
+        -2.5,
+        0.47
+      ]
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:lead-2-body-contact",
+      "passed": true,
+      "contact_overlap_mm3": 0.025200000000000028
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:lead-3-identical-geometry",
+      "passed": true,
+      "symmetric_difference_volume_mm3": 0.0,
+      "preserved_section_mm": [
+        0.6,
+        0.35
+      ],
+      "preserved_z_mm": [
+        -2.5,
+        0.47
+      ]
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:lead-3-body-contact",
+      "passed": true,
+      "contact_overlap_mm3": 0.02520000000000003
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:Body:valid-solid",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:Body:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:Lead1:valid-solid",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:Lead1:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:Lead2:valid-solid",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:Lead2:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:Lead3:valid-solid",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:Lead3:closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:full-envelope-preserved",
+      "passed": true,
+      "expected_mm": [
+        -5.0,
+        -2.5,
+        -2.5,
+        5.0,
+        2.5,
+        10.35
+      ],
+      "actual_mm": [
+        -5.0000001,
+        -2.5000001,
+        -2.5,
+        5.0000001,
+        2.5000001000000003,
+        10.350000100000022
+      ]
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:one-connected-union",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:STEP-roundtrip",
+      "passed": true,
+      "restored_valid": true,
+      "restored_solids": 4,
+      "compound_volume_mm3": 349.8995434074362,
+      "restored_volume_mm3": 349.8995617357913,
+      "absolute_volume_error_mm3": 1.8328355054109124e-05,
+      "relative_volume_error": 5.238176327874454e-08,
+      "max_bounds_error_mm": 4.440892098500626e-16
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:appearance-geometry-unchanged",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:exterior-closed-mesh",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:source-footprint",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:original-transforms-preserved",
+      "passed": true
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:pin-3:unchanged-center",
+      "passed": true,
+      "lead_center_error_mm": 3.110602869834277e-16,
+      "board_pin": "3"
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:pin-3:nominal-drill-margin",
+      "passed": true,
+      "drill_mm": 1.0,
+      "radial_margin_mm": 0.15268890026375492
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:pin-2:unchanged-center",
+      "passed": true,
+      "lead_center_error_mm": 0.0,
+      "board_pin": "2"
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:pin-2:nominal-drill-margin",
+      "passed": true,
+      "drill_mm": 1.0,
+      "radial_margin_mm": 0.15268890026375492
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:pin-1:unchanged-center",
+      "passed": true,
+      "lead_center_error_mm": 3.110602869834277e-16,
+      "board_pin": "1"
+    },
+    {
+      "name": "Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration:pin-1:nominal-drill-margin",
+      "passed": true,
+      "drill_mm": 1.0,
+      "radial_margin_mm": 0.15268890026375492
+    },
+    {
+      "name": "source-PCBs-byte-unchanged",
+      "passed": true
+    }
+  ]
+}

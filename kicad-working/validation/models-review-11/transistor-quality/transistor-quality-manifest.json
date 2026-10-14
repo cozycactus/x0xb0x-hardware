@@ -1,0 +1,3335 @@
+{
+  "date": "2026-10-14",
+  "parts": [
+    {
+      "id": "Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration.step",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration.stl",
+      "units": "mm",
+      "source_sha256": "e1836f981186b13cb2ceb9ec33df48d0d16d8597b27581334d941cbb152aa439",
+      "stl_sha256": "9743231fad4036a829fc0d30946c1e7d4bca27d9e5823f26acfe3c7e90e4f97e",
+      "segments": [
+        {
+          "name": "MouldedNPBody",
+          "role": "body",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration--MouldedNPBody.stl",
+          "sha256": "9a225cb715a3feba727b8bb183c7a2f84e6da3fac2bd3b67e1ccd03a2eadb363",
+          "units": "mm",
+          "color_rgb": [
+            0.075,
+            0.08,
+            0.085
+          ],
+          "exact_bounds_mm": [
+            0.0399998999999997,
+            -1.5000001,
+            2.4999999,
+            5.0400001,
+            2.5000001,
+            7.5000001
+          ],
+          "volume_mm3": 85.32812600000001
+        },
+        {
+          "name": "BaseFullWidthLead",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration--BaseFullWidthLead.stl",
+          "sha256": "7ddb9a2e5435a1f38c6c2ef814a3bb4b77fe1481853d06b8bb7c05a6661eef76",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "exact_bounds_mm": [
+            3.6149999999999998,
+            -0.22,
+            -2.7,
+            5.305,
+            0.22,
+            2.62
+          ],
+          "volume_mm3": 1.1410602210739005
+        },
+        {
+          "name": "CollectorFullWidthLead",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration--CollectorFullWidthLead.stl",
+          "sha256": "fbe4f0bb470d2dcf34ef735e2ad8bd287934d16494d82c6960255f513e4d4880",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "exact_bounds_mm": [
+            2.315,
+            -0.22,
+            -2.7,
+            2.765,
+            0.22,
+            2.62
+          ],
+          "volume_mm3": 1.0533600000000005
+        },
+        {
+          "name": "EmitterFullWidthLead",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration--EmitterFullWidthLead.stl",
+          "sha256": "21c9d5a8346e28b3d50ded24d21ed1f34d9b20dbc1905e666df80b5c57550552",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "exact_bounds_mm": [
+            -0.225,
+            -0.22,
+            -2.7,
+            1.465,
+            0.22,
+            2.62
+          ],
+          "volume_mm3": 1.141060221073901
+        }
+      ],
+      "geometry": {
+        "valid": true,
+        "solids": 4,
+        "exact_bounds_mm": [
+          -0.225,
+          -1.5000001,
+          -2.7,
+          5.305,
+          2.5000001,
+          7.5000001
+        ],
+        "volume_mm3": 88.66360644214643,
+        "union_solids": 1,
+        "STL_closed": true
+      },
+      "body_bounds_mm": [
+        0.040000000000000036,
+        -1.5,
+        2.5,
+        5.04,
+        2.5,
+        7.5
+      ],
+      "board": "mainboard",
+      "references": [
+        "Q11",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16",
+        "Q18",
+        "Q20",
+        "Q24",
+        "Q25",
+        "Q29",
+        "Q3",
+        "Q30",
+        "Q32",
+        "Q34",
+        "Q35",
+        "Q37",
+        "Q4",
+        "Q40",
+        "Q41",
+        "Q5",
+        "Q50"
+      ],
+      "footprint": "2SC536F",
+      "dimensions": {
+        "body_typical_mm": [
+          5,
+          4,
+          5
+        ],
+        "body_seat_Z_mm": 2.5,
+        "tail_minimum_Z_mm": -2.7,
+        "lead_stock_section_mm": [
+          0.45,
+          0.44
+        ],
+        "factory_pitch_mm": 1.3,
+        "factory_length_mm": 14,
+        "source_pad_axes_mm": [
+          [
+            5.08,
+            0
+          ],
+          [
+            2.54,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "factory_axes_mm": [
+          [
+            3.84,
+            0
+          ],
+          [
+            2.54,
+            0
+          ],
+          [
+            1.24,
+            0
+          ]
+        ],
+        "bend_centerlines_XZ_mm": [
+          [
+            [
+              5.08,
+              -2.7
+            ],
+            [
+              5.08,
+              0.45
+            ],
+            [
+              3.84,
+              1.95
+            ],
+            [
+              3.84,
+              2.62
+            ]
+          ],
+          [
+            [
+              2.54,
+              -2.7
+            ],
+            [
+              2.54,
+              0.45
+            ],
+            [
+              2.54,
+              1.95
+            ],
+            [
+              2.54,
+              2.62
+            ]
+          ],
+          [
+            [
+              0,
+              -2.7
+            ],
+            [
+              0,
+              0.45
+            ],
+            [
+              1.24,
+              1.95
+            ],
+            [
+              1.24,
+              2.62
+            ]
+          ]
+        ]
+      },
+      "source_urls": [
+        "https://www.bitsavers.org/components/sanyo/_dataBooks/1985_Sanyo_Semiconductor_Handbook_-_Transistors.pdf",
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/2sc536.jpg"
+      ],
+      "limitations": [
+        "Independent original reconstruction from historical Sanyo No.333H, not redistributed manufacturer CAD or proof of the actually fitted manufacturer/mould.",
+        "The original BOM explicitly calls 2SC536F TO-92. No333H identifies NP2003A as TO-92; the original nearly-square front photo is consistent with this family. Exact fitted vendor and rear profile are unverified.",
+        "Published NP body5x4x5mm, factory1.3mm pitch and0.45x0.44mm lead section are TYPICAL, not maximum toleranced clearance envelopes. F is a160-320 gain rank, not package identification.",
+        "Body curve poles/chamfers, flat-faceYdatum-1.5mm, shallow front recess, colors and smooth appearance are unsized illustrative interpretations; no body is shrunk to fit silk or other components.",
+        "Original normal model seat2.5mm/tail-2.7mm and asymmetric seat3.2mm/tail-2.5mm are retained as installation choices. Factory14mm lead length is not an installed tail-length specification.",
+        "Full0.45x0.44mm ribbon leads retain source stock, with qualified bend positions and rounded joining regions. Factory1.3mm exits are formed to existing2.54mm/asymmetric2.54-3.302mm pad axes without moving or thinning board-through leads.",
+        "Bottom-view B-C-E mapping is checked against the original symbols and preserved pad numbers1-2-3. Flat side remains negativeSTEPY/positivePCB-Y under unchanged original transforms.",
+        "Nominal drill margins are geometry checks only; source tolerances, actual lead forming, installed clearances, soldering and physical fit remain unqualified."
+      ],
+      "source_refs": [
+        {
+          "board": "mainboard",
+          "reference": "Q11",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q13",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q14",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q15",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q16",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q18",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q20",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q24",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q25",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q29",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q3",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q30",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q32",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q34",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q35",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q37",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q4",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q40",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q41",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q5",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "ioboard",
+          "reference": "Q50",
+          "footprint": "2SC536F",
+          "input_board_sha256": "fae5554526eb936a04c0d7de76ef50d5a69ef82ee9a48d6918db0844276dc351",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        }
+      ],
+      "canonical_frame": "STEPY=-PCB-Y; flatfaceSTEPY-1.5; originaloffset/rotation retained; pin1B onpositiveX.",
+      "boards": [
+        "ioboard",
+        "mainboard"
+      ],
+      "references_by_board": {
+        "ioboard": [
+          "Q50"
+        ],
+        "mainboard": [
+          "Q11",
+          "Q13",
+          "Q14",
+          "Q15",
+          "Q16",
+          "Q18",
+          "Q20",
+          "Q24",
+          "Q25",
+          "Q29",
+          "Q3",
+          "Q30",
+          "Q32",
+          "Q34",
+          "Q35",
+          "Q37",
+          "Q4",
+          "Q40",
+          "Q41",
+          "Q5"
+        ]
+      }
+    },
+    {
+      "id": "Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration",
+      "step": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration.step",
+      "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration.stl",
+      "units": "mm",
+      "source_sha256": "ed319ccb57287b484fd7d8eb04c9cae502f0f13a96b4863127313955c535f29c",
+      "stl_sha256": "888dd26b5dea2685a7dc2dd96e1b9292866805005a9df22aef6a3b37c20bfcba",
+      "segments": [
+        {
+          "name": "MouldedNPBody",
+          "role": "body",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration--MouldedNPBody.stl",
+          "sha256": "ae97235a0d90de5c012cf89bc150811875bf86fb2fbabaa0bc036dda1ad562c7",
+          "units": "mm",
+          "color_rgb": [
+            0.075,
+            0.08,
+            0.085
+          ],
+          "exact_bounds_mm": [
+            -2.5000001000000003,
+            -1.5000001,
+            3.1999999000000003,
+            2.5000001,
+            2.5000001,
+            8.200000099999999
+          ],
+          "volume_mm3": 85.328126
+        },
+        {
+          "name": "BaseFullWidthLead",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration--BaseFullWidthLead.stl",
+          "sha256": "89581c741c6320edcabd81b5ca699f405f82074cb8d182f5fb07c77d4d695874",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "exact_bounds_mm": [
+            1.075,
+            -0.22,
+            -2.5,
+            2.765,
+            0.22,
+            3.3200000000000003
+          ],
+          "volume_mm3": 1.2165296630009421
+        },
+        {
+          "name": "CollectorFullWidthLead",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration--CollectorFullWidthLead.stl",
+          "sha256": "9d3100d01ee04d08b6ea1c12ef58bfa539d4548931e38296b9bc62b50fd82991",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "exact_bounds_mm": [
+            -0.225,
+            -0.22,
+            -2.5,
+            0.225,
+            0.22,
+            3.3200000000000003
+          ],
+          "volume_mm3": 1.1523600000000005
+        },
+        {
+          "name": "EmitterFullWidthLead",
+          "role": "lead",
+          "stl": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration--EmitterFullWidthLead.stl",
+          "sha256": "5db2a4eda3631fc125123aaa19daa58e78e7b4a1cf3995667f0065597b6cf9aa",
+          "units": "mm",
+          "color_rgb": [
+            0.72,
+            0.73,
+            0.75
+          ],
+          "exact_bounds_mm": [
+            -3.527,
+            -0.22,
+            -2.5,
+            -1.075,
+            0.22,
+            3.3200000000000003
+          ],
+          "volume_mm3": 1.3049326102962802
+        }
+      ],
+      "geometry": {
+        "valid": true,
+        "solids": 4,
+        "exact_bounds_mm": [
+          -3.527,
+          -1.5000001,
+          -2.5000000000000004,
+          2.765,
+          2.5000001,
+          8.200000099999999
+        ],
+        "volume_mm3": 89.00194827329628,
+        "union_solids": 1,
+        "STL_closed": true
+      },
+      "body_bounds_mm": [
+        -2.5,
+        -1.5,
+        3.2,
+        2.5,
+        2.5,
+        8.2
+      ],
+      "board": "mainboard",
+      "references": [
+        "Q17",
+        "Q19",
+        "Q23"
+      ],
+      "footprint": "2SC536_UNEVEN",
+      "dimensions": {
+        "body_typical_mm": [
+          5,
+          4,
+          5
+        ],
+        "body_seat_Z_mm": 3.2,
+        "tail_minimum_Z_mm": -2.5,
+        "lead_stock_section_mm": [
+          0.45,
+          0.44
+        ],
+        "factory_pitch_mm": 1.3,
+        "factory_length_mm": 14,
+        "source_pad_axes_mm": [
+          [
+            2.54,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -3.302,
+            0
+          ]
+        ],
+        "factory_axes_mm": [
+          [
+            1.3,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -1.3,
+            0
+          ]
+        ],
+        "bend_centerlines_XZ_mm": [
+          [
+            [
+              2.54,
+              -2.5
+            ],
+            [
+              2.54,
+              0.45
+            ],
+            [
+              1.3,
+              2.6500000000000004
+            ],
+            [
+              1.3,
+              3.3200000000000003
+            ]
+          ],
+          [
+            [
+              0,
+              -2.5
+            ],
+            [
+              0,
+              0.45
+            ],
+            [
+              0,
+              2.6500000000000004
+            ],
+            [
+              0,
+              3.3200000000000003
+            ]
+          ],
+          [
+            [
+              -3.302,
+              -2.5
+            ],
+            [
+              -3.302,
+              0.45
+            ],
+            [
+              -1.3,
+              2.6500000000000004
+            ],
+            [
+              -1.3,
+              3.3200000000000003
+            ]
+          ]
+        ]
+      },
+      "source_urls": [
+        "https://www.bitsavers.org/components/sanyo/_dataBooks/1985_Sanyo_Semiconductor_Handbook_-_Transistors.pdf",
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/2sc536.jpg"
+      ],
+      "limitations": [
+        "Independent original reconstruction from historical Sanyo No.333H, not redistributed manufacturer CAD or proof of the actually fitted manufacturer/mould.",
+        "The original BOM explicitly calls 2SC536F TO-92. No333H identifies NP2003A as TO-92; the original nearly-square front photo is consistent with this family. Exact fitted vendor and rear profile are unverified.",
+        "Published NP body5x4x5mm, factory1.3mm pitch and0.45x0.44mm lead section are TYPICAL, not maximum toleranced clearance envelopes. F is a160-320 gain rank, not package identification.",
+        "Body curve poles/chamfers, flat-faceYdatum-1.5mm, shallow front recess, colors and smooth appearance are unsized illustrative interpretations; no body is shrunk to fit silk or other components.",
+        "Original normal model seat2.5mm/tail-2.7mm and asymmetric seat3.2mm/tail-2.5mm are retained as installation choices. Factory14mm lead length is not an installed tail-length specification.",
+        "Full0.45x0.44mm ribbon leads retain source stock, with qualified bend positions and rounded joining regions. Factory1.3mm exits are formed to existing2.54mm/asymmetric2.54-3.302mm pad axes without moving or thinning board-through leads.",
+        "Bottom-view B-C-E mapping is checked against the original symbols and preserved pad numbers1-2-3. Flat side remains negativeSTEPY/positivePCB-Y under unchanged original transforms.",
+        "Nominal drill margins are geometry checks only; source tolerances, actual lead forming, installed clearances, soldering and physical fit remain unqualified."
+      ],
+      "source_refs": [
+        {
+          "board": "mainboard",
+          "reference": "Q17",
+          "footprint": "2SC536_UNEVEN",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -3.302,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q19",
+          "footprint": "2SC536_UNEVEN",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -3.302,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q23",
+          "footprint": "2SC536_UNEVEN",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -3.302,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        }
+      ],
+      "canonical_frame": "STEPY=-PCB-Y; flatfaceSTEPY-1.5; originaloffset/rotation retained; pin1B onpositiveX.",
+      "boards": [
+        "mainboard"
+      ],
+      "references_by_board": {
+        "mainboard": [
+          "Q17",
+          "Q19",
+          "Q23"
+        ]
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "board": "mainboard",
+      "references": [
+        "Q11",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16",
+        "Q18",
+        "Q20",
+        "Q24",
+        "Q25",
+        "Q29",
+        "Q3",
+        "Q30",
+        "Q32",
+        "Q34",
+        "Q35",
+        "Q37",
+        "Q4",
+        "Q40",
+        "Q41",
+        "Q5"
+      ],
+      "footprint": "2SC536F",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration.step",
+      "source_sha256": "e1836f981186b13cb2ceb9ec33df48d0d16d8597b27581334d941cbb152aa439",
+      "local_model": "Revision11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration.step",
+      "offset_mm": [
+        -2.54,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "Qualified historical Sanyo NP2003A primary-typical package illustration",
+      "source_kind": "Independent CC0 reconstruction from historical primary manufacturer drawing",
+      "source_urls": [
+        "https://www.bitsavers.org/components/sanyo/_dataBooks/1985_Sanyo_Semiconductor_Handbook_-_Transistors.pdf",
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/2sc536.jpg"
+      ],
+      "limitations": [
+        "Independent original reconstruction from historical Sanyo No.333H, not redistributed manufacturer CAD or proof of the actually fitted manufacturer/mould.",
+        "The original BOM explicitly calls 2SC536F TO-92. No333H identifies NP2003A as TO-92; the original nearly-square front photo is consistent with this family. Exact fitted vendor and rear profile are unverified.",
+        "Published NP body5x4x5mm, factory1.3mm pitch and0.45x0.44mm lead section are TYPICAL, not maximum toleranced clearance envelopes. F is a160-320 gain rank, not package identification.",
+        "Body curve poles/chamfers, flat-faceYdatum-1.5mm, shallow front recess, colors and smooth appearance are unsized illustrative interpretations; no body is shrunk to fit silk or other components.",
+        "Original normal model seat2.5mm/tail-2.7mm and asymmetric seat3.2mm/tail-2.5mm are retained as installation choices. Factory14mm lead length is not an installed tail-length specification.",
+        "Full0.45x0.44mm ribbon leads retain source stock, with qualified bend positions and rounded joining regions. Factory1.3mm exits are formed to existing2.54mm/asymmetric2.54-3.302mm pad axes without moving or thinning board-through leads.",
+        "Bottom-view B-C-E mapping is checked against the original symbols and preserved pad numbers1-2-3. Flat side remains negativeSTEPY/positivePCB-Y under unchanged original transforms.",
+        "Nominal drill margins are geometry checks only; source tolerances, actual lead forming, installed clearances, soldering and physical fit remain unqualified."
+      ],
+      "source_refs": [
+        {
+          "board": "mainboard",
+          "reference": "Q11",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q13",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q14",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q15",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q16",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q18",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q20",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q24",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q25",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q29",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q3",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q30",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q32",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q34",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q35",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q37",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q4",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q40",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q41",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q5",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "ioboard",
+          "reference": "Q50",
+          "footprint": "2SC536F",
+          "input_board_sha256": "fae5554526eb936a04c0d7de76ef50d5a69ef82ee9a48d6918db0844276dc351",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        }
+      ],
+      "previous_local_model": "KiCad/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step",
+      "previous_source_sha256": "85b7de23bf92112c1cc60ca5fdb644f1a44e150a99f8c6f4f5f29010f50282b9"
+    },
+    {
+      "board": "ioboard",
+      "references": [
+        "Q50"
+      ],
+      "footprint": "2SC536F",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration.step",
+      "source_sha256": "e1836f981186b13cb2ceb9ec33df48d0d16d8597b27581334d941cbb152aa439",
+      "local_model": "Revision11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration.step",
+      "offset_mm": [
+        -2.54,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "Qualified historical Sanyo NP2003A primary-typical package illustration",
+      "source_kind": "Independent CC0 reconstruction from historical primary manufacturer drawing",
+      "source_urls": [
+        "https://www.bitsavers.org/components/sanyo/_dataBooks/1985_Sanyo_Semiconductor_Handbook_-_Transistors.pdf",
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/2sc536.jpg"
+      ],
+      "limitations": [
+        "Independent original reconstruction from historical Sanyo No.333H, not redistributed manufacturer CAD or proof of the actually fitted manufacturer/mould.",
+        "The original BOM explicitly calls 2SC536F TO-92. No333H identifies NP2003A as TO-92; the original nearly-square front photo is consistent with this family. Exact fitted vendor and rear profile are unverified.",
+        "Published NP body5x4x5mm, factory1.3mm pitch and0.45x0.44mm lead section are TYPICAL, not maximum toleranced clearance envelopes. F is a160-320 gain rank, not package identification.",
+        "Body curve poles/chamfers, flat-faceYdatum-1.5mm, shallow front recess, colors and smooth appearance are unsized illustrative interpretations; no body is shrunk to fit silk or other components.",
+        "Original normal model seat2.5mm/tail-2.7mm and asymmetric seat3.2mm/tail-2.5mm are retained as installation choices. Factory14mm lead length is not an installed tail-length specification.",
+        "Full0.45x0.44mm ribbon leads retain source stock, with qualified bend positions and rounded joining regions. Factory1.3mm exits are formed to existing2.54mm/asymmetric2.54-3.302mm pad axes without moving or thinning board-through leads.",
+        "Bottom-view B-C-E mapping is checked against the original symbols and preserved pad numbers1-2-3. Flat side remains negativeSTEPY/positivePCB-Y under unchanged original transforms.",
+        "Nominal drill margins are geometry checks only; source tolerances, actual lead forming, installed clearances, soldering and physical fit remain unqualified."
+      ],
+      "source_refs": [
+        {
+          "board": "mainboard",
+          "reference": "Q11",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q13",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q14",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q15",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q16",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q18",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q20",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q24",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q25",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q29",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q3",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q30",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q32",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q34",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q35",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q37",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q4",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q40",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q41",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q5",
+          "footprint": "2SC536F",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "ioboard",
+          "reference": "Q50",
+          "footprint": "2SC536F",
+          "input_board_sha256": "fae5554526eb936a04c0d7de76ef50d5a69ef82ee9a48d6918db0844276dc351",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        }
+      ],
+      "previous_local_model": "KiCad/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step",
+      "previous_source_sha256": "85b7de23bf92112c1cc60ca5fdb644f1a44e150a99f8c6f4f5f29010f50282b9"
+    },
+    {
+      "board": "mainboard",
+      "references": [
+        "Q17",
+        "Q19",
+        "Q23"
+      ],
+      "footprint": "2SC536_UNEVEN",
+      "source_model": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/validation/models-review-11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration.step",
+      "source_sha256": "ed319ccb57287b484fd7d8eb04c9cae502f0f13a96b4863127313955c535f29c",
+      "local_model": "Revision11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration.step",
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "classification": "Qualified historical Sanyo NP2003A primary-typical package illustration",
+      "source_kind": "Independent CC0 reconstruction from historical primary manufacturer drawing",
+      "source_urls": [
+        "https://www.bitsavers.org/components/sanyo/_dataBooks/1985_Sanyo_Semiconductor_Handbook_-_Transistors.pdf",
+        "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+        "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/1910f746d2d8758f2651596b00c08f76c847c926/assets/images/parts/2sc536.jpg"
+      ],
+      "limitations": [
+        "Independent original reconstruction from historical Sanyo No.333H, not redistributed manufacturer CAD or proof of the actually fitted manufacturer/mould.",
+        "The original BOM explicitly calls 2SC536F TO-92. No333H identifies NP2003A as TO-92; the original nearly-square front photo is consistent with this family. Exact fitted vendor and rear profile are unverified.",
+        "Published NP body5x4x5mm, factory1.3mm pitch and0.45x0.44mm lead section are TYPICAL, not maximum toleranced clearance envelopes. F is a160-320 gain rank, not package identification.",
+        "Body curve poles/chamfers, flat-faceYdatum-1.5mm, shallow front recess, colors and smooth appearance are unsized illustrative interpretations; no body is shrunk to fit silk or other components.",
+        "Original normal model seat2.5mm/tail-2.7mm and asymmetric seat3.2mm/tail-2.5mm are retained as installation choices. Factory14mm lead length is not an installed tail-length specification.",
+        "Full0.45x0.44mm ribbon leads retain source stock, with qualified bend positions and rounded joining regions. Factory1.3mm exits are formed to existing2.54mm/asymmetric2.54-3.302mm pad axes without moving or thinning board-through leads.",
+        "Bottom-view B-C-E mapping is checked against the original symbols and preserved pad numbers1-2-3. Flat side remains negativeSTEPY/positivePCB-Y under unchanged original transforms.",
+        "Nominal drill margins are geometry checks only; source tolerances, actual lead forming, installed clearances, soldering and physical fit remain unqualified."
+      ],
+      "source_refs": [
+        {
+          "board": "mainboard",
+          "reference": "Q17",
+          "footprint": "2SC536_UNEVEN",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -3.302,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q19",
+          "footprint": "2SC536_UNEVEN",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -3.302,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "Q23",
+          "footprint": "2SC536_UNEVEN",
+          "input_board_sha256": "83caa8c29155e80819783faea08e4f8545344955f9aee1faf34443df4e3469c0",
+          "pads": [
+            {
+              "pad": "1",
+              "pin_name": "B",
+              "center_mm": [
+                2.54,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "2",
+              "pin_name": "C",
+              "center_mm": [
+                0.0,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            },
+            {
+              "pad": "3",
+              "pin_name": "E",
+              "center_mm": [
+                -3.302,
+                0.0
+              ],
+              "drill_mm": 1.0,
+              "nominal_radial_margin_mm": 0.18531762044880873
+            }
+          ]
+        }
+      ],
+      "previous_local_model": "Revision5/passive-models/TO92_Asymmetric_x0x_Illustration.step",
+      "previous_source_sha256": "80eb8b45661b02b1c9639fe9943e6d3b2778ec8912665963b2c55dfb75b51255"
+    }
+  ],
+  "generator": "build_transistors.py",
+  "license": "Original reconstruction code and geometry CC0-1.0; source documents and photos retain publisher copyright.",
+  "geometry_audit": "transistor-quality-geometry-review.json",
+  "native_export_audit": "native-export-audit.json",
+  "documentation": "README.md",
+  "source_review": "../transistor-research/transistor-source-review.json"
+}

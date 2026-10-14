@@ -1,21 +1,26 @@
-# x0xb0x KiCad working revision 10
+# x0xb0x KiCad working revision 11
 
-This revision improves the 3D geometry for 45 fitted references: forty PCB-mounted LED assemblies, the photo-qualified bent-back IC20/KK1 pair, two MJ-3536N audio jacks and the PJ-202AH power jack. All 491 fitted references retain their visual models. Previous source assets, stable scenes and archives are preserved.
+This revision improves 26 fitted model references: the 24 historical 2SC536F transistors and the 6/16 MHz ceramic resonators. Both editable projects retain all 491 fitted visual models. Electrical connectivity, copper routing, footprint placement, drills, symbol libraries and project rules are unchanged.
 
 - Mainboard: `mainboard/mainboard.kicad_pro`
 - I/O: `ioboard/ioboard.kicad_pro`
-- Blender with case: `visualization/blender-case-revision-7/x0xb0x-populated-with-case.blend`
-- Current model plan: `validation/models-review-10/combined-model-plan.json`
-- Fresh checks: `validation/working-validation-summary.json`
+- Current complete assembly: `visualization/blender-case-revision-8/x0xb0x-populated-with-case.blend`
+- Current model plan: `validation/models-review-11/combined-model-plan.json`
+- Source and model review: `validation/models-review-11/`
+- Current validation: `validation/working-validation-summary.json`
 
-The original author instructs bending IC20 back before fitting the heatsink. Original placement/soldering photos show its body extending approximately parallel to the PCB beyond the edge. The new rigid pair preserves the previous nominal full-size body and folded heatsink geometry; the exact 90 degree bend and 2 mm datum are explicit illustration assumptions. Capacitor-body interference from the previous upright alignment is removed in the modeled pair. Remaining free-state spring overlap is documented, not elastic-fit certification.
+## Historical transistor illustrations
 
-LED1–LED40 now have one complete PCB-mounted model each, with original generic head geometry, full-width extended leads and the BOM mounting length. The lenses pass through the panel holes and project approximately 1.3 mm above the modeled panel. The older sequencer 0.22 inch versus named STD240B 0.24 inch conflict remains qualified. Blender removes forty disconnected lens display pieces and attaches the 23 button caps to their PCB switches in the exploded view. The unlit clear lenses represent the red-emitting LEDs shown in the original assembly photographs; optical appearance is illustrative.
+The recovered Sanyo No.333H drawing in the 1985 semiconductor handbook distinguishes NP2003A (TO-92) from the smaller SP2000B. The BOM's TO-92 description and original near-square part photograph support a qualified NP family illustration; they do not establish every fitted vendor or mould revision. The F suffix is a gain rank, not a package identifier.
 
-Rear jacks have detailed housings, cavities, bushings and visible contact illustrations from manufacturer drawings. Below-seat terminals remain omitted; original round drills differ from the published slot requirements and no terminal is thinned to conceal that limitation. The downloaded proprietary CAD research ZIP is excluded from portable delivery; delivered replacements are independent parametric reconstructions.
+The models retain the drawing's typical 5 x 4 x 5 mm body and full 0.45 x 0.44 mm typical lead stock. Factory 1.3 mm exits are formed to the original PCB axes: 21 normal and three asymmetric positions. Original body seating, tail heights and all model transforms remain unchanged. Lead bends, unsized mould profiles and materials are illustrative. Typical dimensions are not maximum toleranced envelopes.
 
-Every non-model PCB/library node, schematic, project setting, electrical pad/net/copper/routing, outline and footprint placement is unchanged. All model offsets, rotations and scales are unchanged. Existing PCB connection gaps, warnings and parity findings remain recorded. Nominal drawings and photographs do not establish actual fitted vendor, tolerances, lead forming or enclosure fabrication readiness.
+## Resonator illustrations
 
-Portable model assets use project-relative paths. Earlier documentation is retained in `validation/README-revision-9.md`. Original Eagle sources and the preservation import remain unchanged.
+XTL1 and XTL2 retain their existing published maximum envelopes and complete leads. Taper and coated shoulders follow the Abracon outline's appearance; exact profile coordinates and radii remain undimensioned illustration choices. The original 2.54 mm pitch, 0.6 x 0.35 mm lead sections, seating, tail heights and XTL1's 180-degree mapping are preserved.
 
-The saved Blender revision 7 passes 1,856 scene checks and 694 independent front-control checks. All 40 LED axes align with the original panel holes in the model, and all 23 caps retain their assembled geometry and positions. Actual spacer molding, cap retention and switch travel remain unmodeled. Use frame 1 for the assembled case and frame 80 for the exploded assembly; frames 120 and 160 intentionally hide the caps. The five rendered views were visually reviewed. Final live desktop inspection was unavailable because the Mac was locked; this limitation is recorded separately from the saved-file checks.
+## Assembly and limits
+
+The corrected 40 PCB-mounted LEDs and 23 PCB-attached button caps are preserved. Revision 8 retains the revision-7 case, panel, controls, editable labels, wiring curves, camera views and all other component geometry. Its source geometry is a documented composite of the preserved revision-7 assembly and the selected revision-11 native KiCad component meshes. The revision-7 scene remains available as a baseline.
+
+The existing three PCB connection gaps and board/parity warnings remain documented. Models do not certify physical assembly, enclosure tolerances, cap travel, vendor identity or fabrication readiness. Earlier working notes are retained at `validation/README-revision-10.md`; original Eagle sources remain unchanged.
