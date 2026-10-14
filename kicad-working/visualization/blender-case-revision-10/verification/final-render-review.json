@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "stable_scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+  "view_count": 7,
+  "all_five_standard_images_and_two_diagnostics_visually_reviewed": true,
+  "native_reference_count": 491,
+  "refined_nut_count": 3,
+  "source_scene_unchanged_after_render": true,
+  "preserved_revision9_scene_unchanged": true,
+  "final_images_only": true,
+  "physical_fit_qualified": false,
+  "front_rounding": "15mm front face,0.55mm axial span and quarter-ellipse curve are explicitly illustrative; exact Boolean clipping creates clean planar-to-rounded edges",
+  "views": [
+    {
+      "view": "rear-openings-closeup",
+      "frame": 1,
+      "image": "rear-openings-closeup.png",
+      "width": 1800,
+      "height": 750,
+      "sha256": "e074d671692d368c2673402d35e540206dfd1efe1f56f6f59add6bf6a61e9bc8",
+      "source_scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+      "visually_reviewed": true,
+      "finding": "All eleven ports fit in the image. Three rounded audio nuts now have circular flanges and six flats; native audio recesses/contact leaves, CV/GATE bores, power pin, USB tongue and DIN inserts remain."
+    },
+    {
+      "view": "nut-detail-after",
+      "frame": 1,
+      "image": "nut-detail-after.png",
+      "width": 1200,
+      "height": 1000,
+      "sha256": "6bd47f1b4d03853293210f5edd063f8a2c0d77bba737c8a1fc30f34eb8a96e37",
+      "source_scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+      "visually_reviewed": true,
+      "finding": "Rounded front meets planar SW15 wrench faces cleanly, with no staircase shading spikes at the flat/round boundary. Circular rear flange and open plain bore visible. Underlying native bushing tessellation unchanged."
+    },
+    {
+      "view": "assembled",
+      "frame": 1,
+      "image": "assembled.png",
+      "width": 1800,
+      "height": 1400,
+      "sha256": "d6e4352918e059c8cc3c5cc334416b22a471d8c59b63f56d79e9e657e5e90046",
+      "source_scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+      "visually_reviewed": true,
+      "finding": "Complete case, knobs, forty native LED lenses and twenty-three PCB-attached caps retain their assembled appearance; no blank render or clipping."
+    },
+    {
+      "view": "rear",
+      "frame": 1,
+      "image": "rear.png",
+      "width": 1800,
+      "height": 1400,
+      "sha256": "00dcd0f3c43fb771e9474ba1164a741ae79da910368d885bfbbd2bad79858dec",
+      "source_scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+      "visually_reviewed": true,
+      "finding": "Three circular rear nut flanges and rounded fronts clearly visible; all three audio mating bores remain open, as do CV/GATE. Other rear port contacts remain."
+    },
+    {
+      "view": "exploded",
+      "frame": 80,
+      "image": "exploded.png",
+      "width": 1800,
+      "height": 1400,
+      "sha256": "081cb4fb489300a43a6ee8d9e72e23ea7cb5d9074d7555d483f3ede94f8ffb9d",
+      "source_scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+      "visually_reviewed": true,
+      "finding": "Original case, panel and board separation retained; LED/button apertures empty with complete controls following mainboard. No newly detached component or shifted panel."
+    },
+    {
+      "view": "control-side",
+      "frame": 120,
+      "image": "control-side.png",
+      "width": 1800,
+      "height": 1400,
+      "sha256": "093ebb44eeb816260da8ddd9578bd51c144edbeb1b9bc56d9a1a181fcd5da7e3",
+      "source_scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+      "visually_reviewed": true,
+      "finding": "Complete original native PCB controls retained; forty LED heads and twenty-three bare switches visible, caps intentionally hidden."
+    },
+    {
+      "view": "wiring-study",
+      "frame": 160,
+      "image": "wiring-study.png",
+      "width": 1800,
+      "height": 1400,
+      "sha256": "91042d73776e1cfac0e506ddad5d1ffed3b7a18fa7677ce3487c0b0a2b587a9d",
+      "source_scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+      "visually_reviewed": true,
+      "finding": "Original twenty-four illustrative wires, endpoint labels and physical-fit qualification retained; native I/O board, connectors and regulator/heatsink intact."
+    }
+  ]
+}

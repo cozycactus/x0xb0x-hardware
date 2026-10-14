@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "scope": "Blender10 exterior mounting-nut refinement only; three retained audio nuts, no native connector/washer/PCB changes.",
+  "references": [
+    "HEADPHONE0",
+    "MIXIN0",
+    "MIXOUT0"
+  ],
+  "object_names": [
+    "HEADPHONE0 / black PA6 nut proxy",
+    "MIXIN0 / black PA6 nut proxy",
+    "MIXOUT0 / black PA6 nut proxy"
+  ],
+  "source_evidence": "source-evidence.json",
+  "units": "mm",
+  "local_frame": {
+    "axis": "existing nut localZ",
+    "front": "+Z",
+    "back": "-Z",
+    "origin": "preserve existing objectorigin halfway through5mm nut",
+    "profile_center_xy": "actual native mating-axis intersection expressed in existing nutobject localXY; same center as retained bore, not assumed local(0,0)",
+    "geometry_center_refinement": true,
+    "previous_outer_axis_residual_mm_approx": 0.082,
+    "expected_profile_center_local_xy_mm_approx": [
+      0,
+      -0.082
+    ],
+    "center_value_requirement": "Compute exact center perreference from nativeaxis; approximation is descriptive, not a placementoverride.",
+    "center_refinement_scope": "Center only the new nutmesh profile and its plainbore on actual nativeaxis; objectorigin/matrix,parenting,PCBcomponentpose and all nativegeometry remain unchanged.",
+    "rear_plane_z_mm": -2.5,
+    "front_plane_z_mm": 2.5,
+    "previous_source_absolute_rear_z_mm": 1.2,
+    "previous_source_absolute_front_z_mm": 6.2,
+    "note": "Preserve objectmatrix/material/axis; sourcepositions quoted for interpretation only. Use actual native-axis bore from revision9 and center complete new exteriorprofile coaxially on it."
+  },
+  "printed_nominal_dimensions": {
+    "wrench_across_flats_mm": {
+      "value": 15.0,
+      "evidence": [
+        "official-dxf-2007",
+        "official-pdf-2015"
+      ],
+      "classification": "printed SW15"
+    },
+    "circular_flange_diameter_mm": {
+      "value": 17.5,
+      "evidence": [
+        "official-pdf-2015"
+      ],
+      "classification": "printed nut detail"
+    },
+    "total_axial_depth_mm": {
+      "value": 5.0,
+      "evidence": [
+        "official-pdf-2015"
+      ],
+      "classification": "printed nut detail"
+    },
+    "rear_flange_depth_mm": {
+      "value": 1.5,
+      "evidence": [
+        "official-pdf-2015"
+      ],
+      "classification": "printed nut detail"
+    }
+  },
+  "build_profile": {
+    "center_xy": "shared actual native-axis center in existing nutobject localXY, derived independently for each reference",
+    "flange": {
+      "shape": "cylinder",
+      "diameter_mm": 17.5,
+      "z_min_mm": -2.5,
+      "z_max_mm": -1.0
+    },
+    "wrench": {
+      "shape": "regular six-flat prism, phase inherited from previousnut",
+      "across_flats_mm": 15.0,
+      "circumscribed_diameter_mm": 17.32050807568877,
+      "z_min_mm": -1.0,
+      "z_max_mm": 2.5
+    },
+    "front_treatment": {
+      "operation": "intersect wrenchprism with sampled quarter-ellipse radial envelope to round corners near front",
+      "cap_start_z_mm": 1.95,
+      "cap_end_z_mm": 2.5,
+      "back_diameter_mm": 17.32050807568877,
+      "front_diameter_mm": 15.0,
+      "axial_depth_mm": 0.55,
+      "curve_profile": "quarter-ellipse",
+      "parameter_theta_range_rad": [
+        0,
+        1.5707963267948966
+      ],
+      "parameter_z_formula": "z(theta)=1.95+0.55*sin(theta)",
+      "parameter_radius_formula": "r(theta)=7.5+(8.660254037844386-7.5)*cos(theta)",
+      "quarter_arc_segments": 64,
+      "classification": "explicit visual approximation",
+      "evidence": [
+        "official-dxf-2007",
+        "official-photo-current"
+      ],
+      "limitation": "Circular front face and rounding visible;15mm frontcircle,0.55mm depth and quarter-ellipse curve are modeling choices, not printeddimensions.64segmentsisrenderingresolutiononly. No physical thread/contact assertion."
+    },
+    "bore": {
+      "diameter_mm": 9.6,
+      "through": true,
+      "classification": "retained revision9 nominal visual clearance",
+      "installed_native_nose_major_diameter_mm": 9.525,
+      "nominal_radial_clearance_mm": 0.037499999999999645,
+      "thread_geometry": "omitted; plain cylindrical bore",
+      "limitation": "Older3/8-32source cannot be qualified by newerM11nut drawing; historicalsuppliednutidentity/fitunverified."
+    },
+    "rear_features": {
+      "include": false,
+      "observed_count": 9,
+      "observed_angular_pitch_deg": 40,
+      "classification": "inferred rear mounting-face details; deliberately omitted",
+      "reason": "Rib width/height/radii/angular datum are unprinted; adding them could alter seat or total axial depth. No new seating claim."
+    }
+  },
+  "retained_washer": {
+    "inner_diameter_mm": 11.3,
+    "outer_diameter_mm": 15.3,
+    "thickness_mm": 1.2,
+    "source": "official-pdf-2015",
+    "change": false,
+    "note": "NewerPDFwasherdimensionsalreadyretained; do notchange to9.6 orconflate with6.35plugaperture."
+  },
+  "preservation": {
+    "retain_object_pose": true,
+    "retain_parenting": true,
+    "retain_material": true,
+    "retain_native_model_bytes": true,
+    "retain_washer_mesh_bytes": true,
+    "retain_plain_bore_axis": true,
+    "refine_mesh_profile_center_to_native_axis": true,
+    "note": "Flange converts prior fullhex silhouette into circularrearflange. AxisalignedXYboundsmayexpand toward17.5 whilecircumscribedmaximumdiameterstays17.5."
+  },
+  "physical_fit_qualified": false,
+  "limitations": [
+    "Printed hardware envelope from2015drawing is combined witholdernativeconnector. Historicalidentity/threadcompatibilityunqualified.",
+    "Frontcapshape/depth and source-rearfeatureinterpretation are illustrative; no moldtol/truefemale thread.",
+    "No solderterminals,PCBplacement,routing,enclosureorconnectorbody changes are authorized by this source note."
+  ]
+}

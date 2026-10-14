@@ -4,7 +4,7 @@ This revision improves 26 fitted model references: the 24 historical 2SC536F tra
 
 - Mainboard: `mainboard/mainboard.kicad_pro`
 - I/O: `ioboard/ioboard.kicad_pro`
-- Current complete assembly: `visualization/blender-case-revision-9/x0xb0x-populated-with-case.blend`
+- Current complete assembly: `visualization/blender-case-revision-10/x0xb0x-populated-with-case.blend`
 - Current model plan: `validation/models-review-11/combined-model-plan.json`
 - Source and model review: `validation/models-review-11/`
 - Current validation: `validation/working-validation-summary.json`
@@ -21,6 +21,6 @@ XTL1 and XTL2 retain their existing published maximum envelopes and complete lea
 
 ## Assembly and limits
 
-The corrected 40 PCB-mounted LEDs and 23 PCB-attached button caps are preserved. Revision 8 retains the revision-7 case, panel, controls, editable labels, wiring curves, camera views and all other component geometry. Its source geometry is a documented composite of the preserved revision-7 assembly and the selected revision-11 native KiCad component meshes. Blender revision 9 removes five obsolete rear socket disks and opens six audio nut/washer meshes while preserving all native component geometry. Both earlier scenes remain available as baselines. The Blender-only correction and all eleven rear port checks are documented under `validation/rear-openings-review/`; the KiCad projects remain revision 11.
+The corrected 40 PCB-mounted LEDs and 23 PCB-attached button caps are preserved. Revision 8 retains the revision-7 case, panel, controls, editable labels, wiring curves, camera views and all other component geometry. Its source geometry is a documented composite of the preserved revision-7 assembly and the selected revision-11 native KiCad component meshes. Blender revision 9 removes five obsolete rear socket disks and opens six audio nut/washer meshes while preserving all native component geometry. Blender revision 10 refines only the three audio nut profiles using the manufacturer drawings and photograph; all rear opening corrections remain. Earlier scenes remain available as baselines. These Blender-only changes are documented under `validation/rear-openings-review/` and `validation/nys216-hardware-quality/`; the KiCad projects remain revision 11.
 
 The existing three PCB connection gaps and board/parity warnings remain documented. Models do not certify physical assembly, enclosure tolerances, cap travel, vendor identity or fabrication readiness. Earlier working notes are retained at `validation/README-revision-10.md`; original Eagle sources remain unchanged.

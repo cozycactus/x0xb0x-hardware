@@ -6,14 +6,14 @@ Private working repository for the x0xb0x Eagle-to-KiCad conversion and reconstr
 
 - [Mainboard — KiCad working revision 11](kicad-working/mainboard/mainboard.kicad_pro)
 - [I/O board — KiCad working revision 11](kicad-working/ioboard/ioboard.kicad_pro)
-- [Complete assembly — Blender revision 9](kicad-working/visualization/blender-case-revision-9/x0xb0x-populated-with-case.blend)
-- [KiCad notes](kicad-working/README.md) and [Blender views and limitations](kicad-working/visualization/blender-case-revision-9/README.md)
+- [Complete assembly — Blender revision 10](kicad-working/visualization/blender-case-revision-10/x0xb0x-populated-with-case.blend)
+- [KiCad notes](kicad-working/README.md) and [Blender views and limitations](kicad-working/visualization/blender-case-revision-10/README.md)
 
 Keep each complete project folder together: symbols, footprints and STEP models use project-relative paths. The Blender file embeds the populated boards and can be opened without the original workspace or external board exports. It was saved with Blender 5.0.0. The current KiCad projects were checked using KiCad 10.0.7.
 
 See [opening and verification instructions](docs/OPENING.md) for a fresh download.
 
-![Assembled x0xb0x](kicad-working/visualization/blender-case-revision-9/assembled.png)
+![Assembled x0xb0x](kicad-working/visualization/blender-case-revision-10/assembled.png)
 
 ## What is included
 
@@ -29,11 +29,13 @@ Blender views: **frame 1** assembled, **frame 80** exploded, **frame 120** contr
 
 ## Validation and known limits
 
+Blender revision 10 refines the three NYS216 mounting nuts from the retained official DXF, PDF and product photograph: 15 mm wrench flats, a circular rear flange and a rounded front treatment. Only these three presentation meshes change. The washer geometry, native connectors, all other components, case, materials, positions and animation remain as in revision 9. The source dimensions and illustrative details are separated in the [hardware refinement review](kicad-working/validation/nys216-hardware-quality/README.md). The front rounding and small rear-face features are not fully dimensioned by the manufacturer; they remain visual reconstructions. See the [current assembly report](docs/nys216-hardware-refinement.json).
+
 Blender revision 9 corrects rear socket occlusion in the presentation geometry. The installed native connector models already had open entrances; five separate display disks and six solid audio hardware pieces covered them. The correction preserves all 491 native component assemblies, the case and panel cutouts, component positions, materials and animation. Independent checks inspect all 11 rear ports using the evaluated assembly geometry, including the DIN contact mouths and the passages around the power pin and USB tongue. See the [rear opening review](kicad-working/validation/rear-openings-review/scene-audit/README.md) and [source model review](kicad-working/validation/rear-openings-review/source-audit/README.md). Earlier preservation checks did not test these openings.
 
-The audio nut bores use an illustrative 9.6 mm clearance around the installed 9.525 mm nose; washer bores use the retained 11.3 mm drawing dimension. The manufacturer's DXF and product photo confirm the six-flat SW15 nut; the scene simplifies its rounded face and rear details, as recorded in the [hardware source review](kicad-working/validation/rear-openings-review/source-audit/NYS216-HARDWARE.md). The older 3/8-32 UNEF source and later M11 drawing describe different threads, so the exterior hardware depiction does not establish interchangeability or physical fit. This correction changes only Blender; the KiCad revision-11 projects and their electrical findings remain unchanged.
+The audio nut bores use an illustrative 9.6 mm clearance around the installed 9.525 mm nose; washer bores use the retained 11.3 mm drawing dimension. The manufacturer's DXF and product photo confirm the six-flat SW15 nut, as recorded in the [hardware source review](kicad-working/validation/rear-openings-review/source-audit/NYS216-HARDWARE.md). The older 3/8-32 UNEF source and later M11 drawing describe different threads, so the exterior hardware depiction does not establish interchangeability or physical fit. These updates change only Blender; the KiCad revision-11 projects and their electrical findings remain unchanged.
 
-Revision 11 updates 24 historical 2SC536F transistor illustrations and both ceramic resonators. The saved KiCad model integration passed 5,200 checks; source/native integration review passed 4,041 checks; the saved Blender scene passed 12,819 preservation checks. The transistor dimensions are typical values, and the historical NP package choice remains a documented inference from the BOM and original photo. Resonator maximum envelopes and complete leads are preserved. Both schematics passed ERC with zero errors and warnings under the recorded project rules. Existing PCB connection gaps remain at mainboard IC9.8/GND, mainboard S22.1/+5V and I/O MIXOUT0/GND; recorded DRC and schematic-parity warnings also remain. The 3D update did not alter the circuit, copper routing or footprint placement.
+KiCad revision 11 updates 24 historical 2SC536F transistor illustrations and both ceramic resonators. Its saved model integration passed 5,200 checks and source/native integration review passed 4,041 checks; the companion Blender revision 8 passed 12,819 preservation checks. The transistor dimensions are typical values, and the historical NP package choice remains a documented inference from the BOM and original photo. Resonator maximum envelopes and complete leads are preserved. Both schematics passed ERC with zero errors and warnings under the recorded project rules. Existing PCB connection gaps remain at mainboard IC9.8/GND, mainboard S22.1/+5V and I/O MIXOUT0/GND; recorded DRC and schematic-parity warnings also remain. The 3D updates did not alter the circuit, copper routing or footprint placement.
 
 The LED height uses the BOM's named STD240B 0.24-inch spacer. An older assembly table says 0.22 inch; the discrepancy is documented. Exact spacer molding, button retention/travel, historical vendor variations, omitted terminals, reconstructed enclosure tolerances and the wiring study remain qualified. These files do not establish fabrication or physical assembly readiness.
 
@@ -48,9 +50,9 @@ The initial revision-10 fresh download passed native KiCad ERC, model exports an
 
 These checks do not establish physical fit. The historical native audit/model-generation scripts retain source paths and may require macOS applications, earlier source baselines or other tools; their recorded results are preserved as evidence.
 
-Key reports: [working validation](kicad-working/validation/working-validation-summary-revision-11.json), [front controls](kicad-working/validation/models-review-10/front-controls-review/final-front-control-assembly-review.md), [saved-scene verification](kicad-working/visualization/blender-case-revision-9/verification/final-saved-scene-audit.json), [rear opening correction](docs/rear-opening-correction.json).
+Key reports: [working validation](kicad-working/validation/working-validation-summary-revision-11.json), [front controls](kicad-working/validation/models-review-10/front-controls-review/final-front-control-assembly-review.md), [saved-scene verification](kicad-working/visualization/blender-case-revision-10/verification/final-saved-scene-audit.json), [rear opening correction](docs/rear-opening-correction.json), [hardware refinement](docs/nys216-hardware-refinement.json).
 
-Delivery ZIPs, earlier experimental Blender scenes, temporary native probes, local application state and redundant board GLB exports are excluded. The revision-7 and revision-8 scenes are retained as comparison baselines for the subsequent updates. The native GLB exports can be regenerated from the KiCad projects with `kicad-working/validation/models-review-11/export_quality_boards.py`; they are already embedded in the saved Blender scene.
+Delivery ZIPs, earlier experimental Blender scenes, temporary native probes, local application state and redundant board GLB exports are excluded. The revision-7, revision-8 and revision-9 scenes are retained as comparison baselines for the subsequent updates. The native GLB exports can be regenerated from the KiCad projects with `kicad-working/validation/models-review-11/export_quality_boards.py`; they are already embedded in the saved Blender scene.
 
 ## Sources and licensing
 

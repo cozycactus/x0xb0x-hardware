@@ -1,0 +1,726 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-14",
+  "sources": [
+    {
+      "id": "official-dxf-2007",
+      "path": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/nys-216-manufacturer.dxf",
+      "url": "https://www.rean-connectors.com/media/12224/download/nys-216-1.dxf?v=1",
+      "drawing": "3102 ST 22 01",
+      "revision": "C,2007-06-14;original2004",
+      "drawing_to_physical_scale": 0.5,
+      "review": "Assembled front has six-flat hardware and SW15 label. Thread3/8-32UNEF. Separate nut component dimensions not supplied in this DXF.",
+      "sha256": "4e853c5f53bb89195fa5e80d00454ed65ce3a57d98c5dee52b2e8d3b7414f438",
+      "bytes": 420273
+    },
+    {
+      "id": "official-pdf-2015",
+      "path": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/nys216.pdf",
+      "url": "https://www.rean-connectors.com/media/9014/download/nys-216.pdf?v=1",
+      "drawing": "3102 ST 22 01",
+      "revision": "2015-05-27",
+      "page": 1,
+      "review": "Assembled frontSW15; separate Nut flange\u00d817.5/total5/flange1.5; Washer\u00d811.3ID/\u00d815.3OD/t1.2. ThreadM11x1.25. Raster PDF visually reviewed; no extractable text.",
+      "sha256": "3b41beb12880dae7b02c99e7c3296d22b3ac7eb45e87a7b5b2d194b44ad5fec7",
+      "bytes": 138690
+    },
+    {
+      "id": "official-photo-current",
+      "path": "kicad-working/validation/rear-openings-review/source-audit/nys216-official-current.jpg",
+      "url": "https://www.rean-connectors.com/uploads/media/400x/02/15142-NYS216.jpg?v=1-0",
+      "product_url": "https://www.rean-connectors.com/en/product/nys216",
+      "review": "Visible six-flat external nut with rounded front rim. Does not establish exact historical hardware or rounding dimensions.",
+      "sha256": "cce84377700493fe90b09e1a535865ecad5cc9ae5810dbeeb2ae49f849f7fdb8",
+      "bytes": 8525
+    },
+    {
+      "id": "pdf-nut-detail-render",
+      "path": "kicad-working/validation/rear-openings-review/source-audit/nys216-nut-detail.png",
+      "derived_from": "official-pdf-2015",
+      "review": "Enlarged PDF region verifies flange section, nut dimension callouts and nine radial rear-face features.",
+      "sha256": "0cef443ad30f0eda8f03ef9f44f2e51e79ea86d1abe6190431604410a35de4c0",
+      "bytes": 56169
+    }
+  ],
+  "visual_findings": [
+    "DXF assembled front and official photograph independently confirm six exterior wrench flats; this is a real removable nut, not the20mm-wide connector body.",
+    "PDF circular nut view contains nine radial features. Its side section supports interpreting them as rear mounting-face ribs; exact function is not stated.",
+    "Rounded/beveled circular front is visible. No printed front fillet radius, chamfer depth, circle diameter, rear-rib size or rib datum was recovered.",
+    "Source revisions differ in thread designation: olderDXF3/8-32UNEF versus newerPDFM11x1.25. They do not certify hardware interchangeability."
+  ],
+  "raw_DXF_entities": [
+    {
+      "handle": "114F",
+      "type": "LINE",
+      "layer": "05",
+      "raw_groups": [
+        [
+          0,
+          "LINE"
+        ],
+        [
+          5,
+          "114F"
+        ],
+        [
+          330,
+          "B595"
+        ],
+        [
+          100,
+          "AcDbEntity"
+        ],
+        [
+          8,
+          "05"
+        ],
+        [
+          100,
+          "AcDbLine"
+        ],
+        [
+          10,
+          "45.45019196666761"
+        ],
+        [
+          20,
+          "226.7180231809514"
+        ],
+        [
+          30,
+          "0.0"
+        ],
+        [
+          11,
+          "45.45019196666761"
+        ],
+        [
+          21,
+          "259.9180231809514"
+        ],
+        [
+          31,
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "12A5",
+      "type": "ARC",
+      "layer": "05",
+      "raw_groups": [
+        [
+          0,
+          "ARC"
+        ],
+        [
+          5,
+          "12A5"
+        ],
+        [
+          330,
+          "B595"
+        ],
+        [
+          100,
+          "AcDbEntity"
+        ],
+        [
+          8,
+          "05"
+        ],
+        [
+          100,
+          "AcDbCircle"
+        ],
+        [
+          10,
+          "47.12964819281991"
+        ],
+        [
+          20,
+          "256.600198276343"
+        ],
+        [
+          30,
+          "0.0"
+        ],
+        [
+          40,
+          "3.718673864861188"
+        ],
+        [
+          100,
+          "AcDbArc"
+        ],
+        [
+          50,
+          "91.2243216404814"
+        ],
+        [
+          51,
+          "116.8481652953781"
+        ]
+      ]
+    },
+    {
+      "handle": "12A6",
+      "type": "LINE",
+      "layer": "05",
+      "raw_groups": [
+        [
+          0,
+          "LINE"
+        ],
+        [
+          5,
+          "12A6"
+        ],
+        [
+          330,
+          "B595"
+        ],
+        [
+          100,
+          "AcDbEntity"
+        ],
+        [
+          8,
+          "05"
+        ],
+        [
+          100,
+          "AcDbLine"
+        ],
+        [
+          10,
+          "47.05019196666763"
+        ],
+        [
+          20,
+          "260.3180231809515"
+        ],
+        [
+          30,
+          "0.0"
+        ],
+        [
+          11,
+          "47.05019196666763"
+        ],
+        [
+          21,
+          "226.3180231809514"
+        ],
+        [
+          31,
+          "0.0"
+        ]
+      ]
+    },
+    {
+      "handle": "12A7",
+      "type": "ARC",
+      "layer": "05",
+      "raw_groups": [
+        [
+          0,
+          "ARC"
+        ],
+        [
+          5,
+          "12A7"
+        ],
+        [
+          330,
+          "B595"
+        ],
+        [
+          100,
+          "AcDbEntity"
+        ],
+        [
+          8,
+          "05"
+        ],
+        [
+          100,
+          "AcDbCircle"
+        ],
+        [
+          10,
+          "47.12964819281968"
+        ],
+        [
+          20,
+          "230.0358480855599"
+        ],
+        [
+          30,
+          "0.0"
+        ],
+        [
+          40,
+          "3.718673864861121"
+        ],
+        [
+          100,
+          "AcDbArc"
+        ],
+        [
+          50,
+          "243.1518347046258"
+        ],
+        [
+          51,
+          "268.7756783595225"
+        ]
+      ]
+    },
+    {
+      "handle": "12B7",
+      "type": "LWPOLYLINE",
+      "layer": "05",
+      "raw_groups": [
+        [
+          0,
+          "LWPOLYLINE"
+        ],
+        [
+          5,
+          "12B7"
+        ],
+        [
+          330,
+          "B595"
+        ],
+        [
+          100,
+          "AcDbEntity"
+        ],
+        [
+          8,
+          "05"
+        ],
+        [
+          100,
+          "AcDbPolyline"
+        ],
+        [
+          90,
+          "6"
+        ],
+        [
+          70,
+          "0"
+        ],
+        [
+          43,
+          "0.0"
+        ],
+        [
+          10,
+          "45.45019196666784"
+        ],
+        [
+          20,
+          "228.4180231809513"
+        ],
+        [
+          10,
+          "38.31543316731735"
+        ],
+        [
+          20,
+          "228.4180231809513"
+        ],
+        [
+          10,
+          "37.65019196666766"
+        ],
+        [
+          20,
+          "229.0832643816008"
+        ],
+        [
+          10,
+          "37.65019196666766"
+        ],
+        [
+          20,
+          "257.552781980302"
+        ],
+        [
+          10,
+          "38.31543316731713"
+        ],
+        [
+          20,
+          "258.2180231809514"
+        ],
+        [
+          10,
+          "45.45019196666761"
+        ],
+        [
+          20,
+          "258.2180231809514"
+        ]
+      ]
+    },
+    {
+      "handle": "12BF",
+      "type": "LWPOLYLINE",
+      "layer": "05",
+      "raw_groups": [
+        [
+          0,
+          "LWPOLYLINE"
+        ],
+        [
+          5,
+          "12BF"
+        ],
+        [
+          330,
+          "B595"
+        ],
+        [
+          100,
+          "AcDbEntity"
+        ],
+        [
+          8,
+          "05"
+        ],
+        [
+          100,
+          "AcDbPolyline"
+        ],
+        [
+          90,
+          "3"
+        ],
+        [
+          70,
+          "0"
+        ],
+        [
+          43,
+          "0.0"
+        ],
+        [
+          10,
+          "39.25019196666735"
+        ],
+        [
+          20,
+          "258.2180231809509"
+        ],
+        [
+          42,
+          "0.2160186508206791"
+        ],
+        [
+          10,
+          "39.25019196666735"
+        ],
+        [
+          20,
+          "243.3180231809509"
+        ],
+        [
+          42,
+          "0.2160186508206876"
+        ],
+        [
+          10,
+          "39.25019196666701"
+        ],
+        [
+          20,
+          "228.4180231809529"
+        ],
+        [
+          42,
+          "0.2160186508206876"
+        ]
+      ]
+    },
+    {
+      "handle": "138E",
+      "type": "CIRCLE",
+      "layer": "05",
+      "raw_groups": [
+        [
+          0,
+          "CIRCLE"
+        ],
+        [
+          5,
+          "138E"
+        ],
+        [
+          330,
+          "B595"
+        ],
+        [
+          100,
+          "AcDbEntity"
+        ],
+        [
+          8,
+          "05"
+        ],
+        [
+          100,
+          "AcDbCircle"
+        ],
+        [
+          10,
+          "160.4256772084297"
+        ],
+        [
+          20,
+          "243.3180231809514"
+        ],
+        [
+          30,
+          "0.0"
+        ],
+        [
+          40,
+          "17.00000000000011"
+        ]
+      ]
+    },
+    {
+      "handle": "138F",
+      "type": "LWPOLYLINE",
+      "layer": "05",
+      "raw_groups": [
+        [
+          0,
+          "LWPOLYLINE"
+        ],
+        [
+          5,
+          "138F"
+        ],
+        [
+          330,
+          "B595"
+        ],
+        [
+          100,
+          "AcDbEntity"
+        ],
+        [
+          8,
+          "05"
+        ],
+        [
+          100,
+          "AcDbPolyline"
+        ],
+        [
+          90,
+          "6"
+        ],
+        [
+          70,
+          "1"
+        ],
+        [
+          43,
+          "0.0"
+        ],
+        [
+          10,
+          "160.4256772084297"
+        ],
+        [
+          20,
+          "259.9180231809514"
+        ],
+        [
+          10,
+          "146.0496555056081"
+        ],
+        [
+          20,
+          "251.6180231809514"
+        ],
+        [
+          10,
+          "146.0496555056081"
+        ],
+        [
+          20,
+          "235.0180231809514"
+        ],
+        [
+          10,
+          "160.4256772084297"
+        ],
+        [
+          20,
+          "226.7180231809514"
+        ],
+        [
+          10,
+          "174.8016989112514"
+        ],
+        [
+          20,
+          "235.0180231809514"
+        ],
+        [
+          10,
+          "174.8016989112514"
+        ],
+        [
+          20,
+          "251.6180231809514"
+        ]
+      ]
+    },
+    {
+      "handle": "1397",
+      "type": "CIRCLE",
+      "layer": "035",
+      "raw_groups": [
+        [
+          0,
+          "CIRCLE"
+        ],
+        [
+          5,
+          "1397"
+        ],
+        [
+          330,
+          "B595"
+        ],
+        [
+          100,
+          "AcDbEntity"
+        ],
+        [
+          8,
+          "035"
+        ],
+        [
+          100,
+          "AcDbCircle"
+        ],
+        [
+          10,
+          "160.4256772084297"
+        ],
+        [
+          20,
+          "243.3180231809514"
+        ],
+        [
+          30,
+          "0.0"
+        ],
+        [
+          40,
+          "14.37602170282172"
+        ]
+      ]
+    },
+    {
+      "handle": "1BE9",
+      "type": "TEXT",
+      "layer": "BEM1",
+      "raw_groups": [
+        [
+          0,
+          "TEXT"
+        ],
+        [
+          5,
+          "1BE9"
+        ],
+        [
+          330,
+          "B595"
+        ],
+        [
+          100,
+          "AcDbEntity"
+        ],
+        [
+          8,
+          "BEM1"
+        ],
+        [
+          62,
+          "3"
+        ],
+        [
+          100,
+          "AcDbText"
+        ],
+        [
+          10,
+          "155.934010541763"
+        ],
+        [
+          20,
+          "271.6045367034531"
+        ],
+        [
+          30,
+          "0.0"
+        ],
+        [
+          40,
+          "3.5"
+        ],
+        [
+          1,
+          "SW15"
+        ],
+        [
+          41,
+          "0.7"
+        ],
+        [
+          51,
+          "15.0"
+        ],
+        [
+          72,
+          "1"
+        ],
+        [
+          11,
+          "160.4256772084297"
+        ],
+        [
+          21,
+          "273.3545367034531"
+        ],
+        [
+          31,
+          "0.0"
+        ],
+        [
+          100,
+          "AcDbText"
+        ],
+        [
+          73,
+          "2"
+        ]
+      ]
+    }
+  ],
+  "raw_DXF_limits": "Drawing is2:1, with unsized coordinates that differ from printednominals. SW15 governs wrenchsize; do not promote rawfrontcircle/hex coordinates to toleranced dimensions.",
+  "geometry_changes_made": false,
+  "manufacturer_sources_rights_retained": true
+}

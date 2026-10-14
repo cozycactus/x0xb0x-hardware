@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-15",
+  "Blender_revision": 10,
+  "KiCad_revision": 11,
+  "scene": "kicad-working/visualization/blender-case-revision-10/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+  "scene_bytes": 42935746,
+  "baseline_scene": "kicad-working/visualization/blender-case-revision-9/x0xb0x-populated-with-case.blend",
+  "baseline_scene_sha256": "96c57c42b2019abb3d4431b63b363587c509890185e0ed895436f103cd535158",
+  "refined_objects": [
+    "HEADPHONE0 / black PA6 nut proxy",
+    "MIXIN0 / black PA6 nut proxy",
+    "MIXOUT0 / black PA6 nut proxy"
+  ],
+  "refined_nut_count": 3,
+  "source_contract": "kicad-working/validation/nys216-hardware-quality/hardware-parameters.json",
+  "source_contract_sha256": "544d45622c9410b5a7dac18d0b863b8f320f6577d183c4527b22b58e5fb2c1fd",
+  "source_evidence": "kicad-working/validation/nys216-hardware-quality/source-evidence.json",
+  "source_evidence_sha256": "024a19c4c2ce6debd1cbb3de91807dacf634f54c1540d8740178bd88799188a6",
+  "printed_nominal_dimensions_mm": {
+    "wrench_across_flats_mm": 15.0,
+    "circular_flange_diameter_mm": 17.5,
+    "total_axial_depth_mm": 5.0,
+    "rear_flange_depth_mm": 1.5
+  },
+  "illustrative_front_profile": {
+    "operation": "intersect wrenchprism with sampled quarter-ellipse radial envelope to round corners near front",
+    "cap_start_z_mm": 1.95,
+    "cap_end_z_mm": 2.5,
+    "back_diameter_mm": 17.32050807568877,
+    "front_diameter_mm": 15.0,
+    "axial_depth_mm": 0.55,
+    "curve_profile": "quarter-ellipse",
+    "parameter_theta_range_rad": [
+      0,
+      1.5707963267948966
+    ],
+    "parameter_z_formula": "z(theta)=1.95+0.55*sin(theta)",
+    "parameter_radius_formula": "r(theta)=7.5+(8.660254037844386-7.5)*cos(theta)",
+    "quarter_arc_segments": 64,
+    "classification": "explicit visual approximation",
+    "evidence": [
+      "official-dxf-2007",
+      "official-photo-current"
+    ],
+    "limitation": "Circular front face and rounding visible;15mm frontcircle,0.55mm depth and quarter-ellipse curve are modeling choices, not printeddimensions.64segmentsisrenderingresolutiononly. No physical thread/contact assertion."
+  },
+  "plain_bore_mm": 9.6,
+  "washers_unchanged": true,
+  "native_component_geometry_unchanged": true,
+  "stored_object_poses_unchanged": true,
+  "native_components_preserved": 491,
+  "PCB_LED_assemblies_preserved": 40,
+  "PCB_attached_button_caps_preserved": 23,
+  "mesh_center_shifts_mm": {
+    "HEADPHONE0": [
+      8.742510715364915e-06,
+      -0.08200173760997131,
+      0.0
+    ],
+    "MIXIN0": [
+      1.6193094865002422e-05,
+      -0.08200173760997131,
+      0.0
+    ],
+    "MIXOUT0": [
+      -5.70715252834475e-07,
+      -0.08200173760997131,
+      0.0
+    ]
+  },
+  "verification": {
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-10/verification/final-saved-scene-audit.json",
+      "passed": true,
+      "check_count": 14823,
+      "native_reference_count": 491
+    },
+    "actual_nut_geometry": {
+      "report": "kicad-working/validation/nys216-hardware-quality/independent-audit/saved-nut-geometry-audit.json",
+      "passed": true,
+      "check_count": 43
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-10/verification/rear-openings-audit.json",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974,
+      "rear_port_count": 11
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-10/verification/portable-scene-audit.json",
+      "passed": true,
+      "check_count": 106
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-10/verification/final-render-review.json",
+      "passed": true,
+      "view_count": 7,
+      "native_reference_count": 491
+    },
+    "KiCad_core_preservation": {
+      "passed": true,
+      "core_file_count": 257,
+      "changed_files": [],
+      "scope": "Byte preservation against KiCad revision11; electrical source unchanged, ERC/DRC not rerun for this Blender-only update."
+    }
+  },
+  "root_visual_review": [
+    "rear.png",
+    "rear-openings-closeup.png",
+    "nut-detail-after.png"
+  ],
+  "qualifications": [
+    "Front rounding curve,0.55mm transition and15mm front circle are visual reconstruction choices; printed SW15/flange/depth dimensions are retained.",
+    "Undimensioned rear radial features are omitted; the rear mounting plane is preserved.",
+    "The retained older3/8-32native nose and newerM11hardware drawing do not establish thread interchangeability. The plain9.6mm bore is visual clearance, not a female thread."
+  ],
+  "physical_fit_qualified": false
+}

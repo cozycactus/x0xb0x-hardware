@@ -1,0 +1,593 @@
+{
+  "passed": true,
+  "check_count": 43,
+  "scene": "x0xb0x-populated-with-case.blend",
+  "scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+  "measured_nut_count": 3,
+  "measurements": [
+    {
+      "object": "HEADPHONE0 / black PA6 nut proxy",
+      "local_bounds_mm": [
+        -8.749991655349731,
+        -8.832002058625221,
+        -2.4999999441206455,
+        8.750008419156075,
+        8.667998015880585,
+        2.4999999441206455
+      ],
+      "cross_section_plane_z_mm": 0.0,
+      "cross_section_hull_mm": [
+        [
+          -7.49999145,
+          -4.41212859
+        ],
+        [
+          8.743e-06,
+          -8.74225609
+        ],
+        [
+          7.50000868,
+          -4.41212859
+        ],
+        [
+          7.50000868,
+          4.248125479
+        ],
+        [
+          8.743e-06,
+          8.578252047
+        ],
+        [
+          -7.49999145,
+          4.248125479
+        ]
+      ],
+      "nominal_bore_mm": 9.6,
+      "signed_volume_mm3": 680.1319102271939
+    },
+    {
+      "object": "MIXIN0 / black PA6 nut proxy",
+      "local_bounds_mm": [
+        -8.749984204769135,
+        -8.832002058625221,
+        -2.4999999441206455,
+        8.750015869736671,
+        8.667998015880585,
+        2.4999999441206455
+      ],
+      "cross_section_plane_z_mm": 0.0,
+      "cross_section_hull_mm": [
+        [
+          -7.499984,
+          -4.41212859
+        ],
+        [
+          1.6193e-05,
+          -8.74225609
+        ],
+        [
+          7.500016131,
+          -4.41212859
+        ],
+        [
+          7.500016131,
+          4.248125479
+        ],
+        [
+          1.6193e-05,
+          8.578252047
+        ],
+        [
+          -7.499984,
+          4.248125479
+        ]
+      ],
+      "nominal_bore_mm": 9.6,
+      "signed_volume_mm3": 680.1319102271619
+    },
+    {
+      "object": "MIXOUT0 / black PA6 nut proxy",
+      "local_bounds_mm": [
+        -8.750000968575478,
+        -8.832002058625221,
+        -2.4999999441206455,
+        8.749999105930328,
+        8.667998015880585,
+        2.4999999441206455
+      ],
+      "cross_section_plane_z_mm": 0.0,
+      "cross_section_hull_mm": [
+        [
+          -7.500000764,
+          -4.41212859
+        ],
+        [
+          -5.71e-07,
+          -8.74225609
+        ],
+        [
+          7.499999367,
+          -4.41212859
+        ],
+        [
+          7.499999367,
+          4.248125479
+        ],
+        [
+          -5.71e-07,
+          8.578252047
+        ],
+        [
+          -7.500000764,
+          4.248125479
+        ]
+      ],
+      "nominal_bore_mm": 9.6,
+      "signed_volume_mm3": 680.1319102271965
+    }
+  ],
+  "failures": [],
+  "checks": [
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy has exactly one evaluated displayed instance",
+      "passed": true
+    },
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy has 5 mm total depth and unchanged rear seating plane",
+      "passed": true,
+      "z_min_mm": -2.4999999441206455,
+      "z_max_mm": 2.4999999441206455,
+      "total_depth_mm": 4.999999888241291
+    },
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy has a 17.5 mm circular flange",
+      "passed": true,
+      "radial_sample_count": 384,
+      "diameter_min_mm": 17.499998188226012,
+      "diameter_max_mm": 17.500002213088628,
+      "fitted_outer_center_mm": [
+        8.381903171539307e-06,
+        -0.08200202137231827,
+        0.0
+      ]
+    },
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy flange is 1.5 mm thick at the rear",
+      "passed": true,
+      "flange_z_min_mm": -2.4999999441206455,
+      "flange_z_max_mm": -1.0000000474974513,
+      "flange_thickness_mm": 1.4999998966231942
+    },
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy central cross-section has six 15 mm wrench flats",
+      "passed": true,
+      "hull_mm": [
+        [
+          -7.49999145,
+          -4.41212859
+        ],
+        [
+          8.743e-06,
+          -8.74225609
+        ],
+        [
+          7.50000868,
+          -4.41212859
+        ],
+        [
+          7.50000868,
+          4.248125479
+        ],
+        [
+          8.743e-06,
+          8.578252047
+        ],
+        [
+          -7.49999145,
+          4.248125479
+        ]
+      ],
+      "across_flats_mm": [
+        15.00000041210713,
+        15.000000540107127,
+        15.000000129999998,
+        15.000000412107154,
+        15.000000540107134,
+        15.000000129999998
+      ]
+    },
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy hex corners match the 15 mm AF geometric consequence",
+      "passed": true,
+      "corner_diameters_mm": [
+        17.320507334242023,
+        17.320508137255377,
+        17.320508141713148,
+        17.320509073457757,
+        17.32050813674465,
+        17.32050826598668
+      ]
+    },
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy illustrated rounded front edge remains within the source envelope",
+      "passed": true,
+      "front_outer_diameter_mm": 15.000001427396773,
+      "unsized_illustration": true
+    },
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy saved rounded transition follows its declared illustrative profile",
+      "passed": true,
+      "measured_level_count": 65,
+      "max_profile_residual_mm": 0.0005222992257802872,
+      "unsized_illustration": true
+    },
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy all rounded vertices stay inside the analytic cap and hex envelope",
+      "passed": true,
+      "inspected_vertex_count": 4007,
+      "max_cap_outward_normal_distance_mm": 6.304029100731183e-07,
+      "max_hex_outward_distance_mm": 4.0159825065444466e-07,
+      "numeric_envelope_tolerance_mm": 1e-05,
+      "partial_clip_vertices_may_lie_inside": true,
+      "unsized_illustration": true
+    },
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy native socket axis is parallel to the plain bore",
+      "passed": true,
+      "native_axis_local": [
+        0.0,
+        -7.549790126404332e-08,
+        1.0
+      ],
+      "native_axis_at_local_z0_mm": [
+        8.742510544834659e-06,
+        -0.0820014551281929,
+        0.0
+      ]
+    },
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy flange, hex and bore share the actual native mating axis",
+      "passed": true,
+      "fitted_outer_center_mm": [
+        8.381903171539307e-06,
+        -0.08200202137231827,
+        0.0
+      ],
+      "native_axis_at_local_z0_mm": [
+        8.742510544834659e-06,
+        -0.0820014551281929,
+        0.0
+      ],
+      "center_error_mm": 6.724002418717941e-07
+    },
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy actual saved inner wall is the nominal 9.6 mm native-axis bore",
+      "passed": true,
+      "inner_vertex_count": 257,
+      "bore_diameter_min_mm": 9.597149134285445,
+      "bore_diameter_max_mm": 9.600018672146783
+    },
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy plain bore wall spans the entire nut depth",
+      "passed": true
+    },
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy is one closed manifold solid with positive signed volume",
+      "passed": true,
+      "connected_components": 1,
+      "signed_volume_mm3": 680.1319102271939,
+      "nonmanifold_edge_count": 0
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy has exactly one evaluated displayed instance",
+      "passed": true
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy has 5 mm total depth and unchanged rear seating plane",
+      "passed": true,
+      "z_min_mm": -2.4999999441206455,
+      "z_max_mm": 2.4999999441206455,
+      "total_depth_mm": 4.999999888241291
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy has a 17.5 mm circular flange",
+      "passed": true,
+      "radial_sample_count": 384,
+      "diameter_min_mm": 17.499998188226012,
+      "diameter_max_mm": 17.500002213088628,
+      "fitted_outer_center_mm": [
+        1.5832483768463135e-05,
+        -0.08200202137231827,
+        0.0
+      ]
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy flange is 1.5 mm thick at the rear",
+      "passed": true,
+      "flange_z_min_mm": -2.4999999441206455,
+      "flange_z_max_mm": -1.0000000474974513,
+      "flange_thickness_mm": 1.4999998966231942
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy central cross-section has six 15 mm wrench flats",
+      "passed": true,
+      "hull_mm": [
+        [
+          -7.499984,
+          -4.41212859
+        ],
+        [
+          1.6193e-05,
+          -8.74225609
+        ],
+        [
+          7.500016131,
+          -4.41212859
+        ],
+        [
+          7.500016131,
+          4.248125479
+        ],
+        [
+          1.6193e-05,
+          8.578252047
+        ],
+        [
+          -7.499984,
+          4.248125479
+        ]
+      ],
+      "across_flats_mm": [
+        15.000000412607132,
+        15.00000054010713,
+        15.000000131,
+        15.000000412607154,
+        15.000000540107136,
+        15.000000131
+      ]
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy hex corners match the 15 mm AF geometric consequence",
+      "passed": true,
+      "corner_diameters_mm": [
+        17.320507335247648,
+        17.320508137255377,
+        17.320508142439575,
+        17.320509074184184,
+        17.32050813674465,
+        17.320508266992302
+      ]
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy illustrated rounded front edge remains within the source envelope",
+      "passed": true,
+      "front_outer_diameter_mm": 15.000001427396773,
+      "unsized_illustration": true
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy saved rounded transition follows its declared illustrative profile",
+      "passed": true,
+      "measured_level_count": 65,
+      "max_profile_residual_mm": 0.0005222992257802872,
+      "unsized_illustration": true
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy all rounded vertices stay inside the analytic cap and hex envelope",
+      "passed": true,
+      "inspected_vertex_count": 4007,
+      "max_cap_outward_normal_distance_mm": 6.304029100731183e-07,
+      "max_hex_outward_distance_mm": 4.018835548791344e-07,
+      "numeric_envelope_tolerance_mm": 1e-05,
+      "partial_clip_vertices_may_lie_inside": true,
+      "unsized_illustration": true
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy native socket axis is parallel to the plain bore",
+      "passed": true,
+      "native_axis_local": [
+        0.0,
+        -7.549790126404332e-08,
+        1.0
+      ],
+      "native_axis_at_local_z0_mm": [
+        1.6193094779737294e-05,
+        -0.0820014551281929,
+        0.0
+      ]
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy flange, hex and bore share the actual native mating axis",
+      "passed": true,
+      "fitted_outer_center_mm": [
+        1.5832483768463135e-05,
+        -0.08200202137231827,
+        0.0
+      ],
+      "native_axis_at_local_z0_mm": [
+        1.6193094779737294e-05,
+        -0.0820014551281929,
+        0.0
+      ],
+      "center_error_mm": 6.724021448205436e-07
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy actual saved inner wall is the nominal 9.6 mm native-axis bore",
+      "passed": true,
+      "inner_vertex_count": 257,
+      "bore_diameter_min_mm": 9.597143827322235,
+      "bore_diameter_max_mm": 9.600033451395566
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy plain bore wall spans the entire nut depth",
+      "passed": true
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy is one closed manifold solid with positive signed volume",
+      "passed": true,
+      "connected_components": 1,
+      "signed_volume_mm3": 680.1319102271619,
+      "nonmanifold_edge_count": 0
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy has exactly one evaluated displayed instance",
+      "passed": true
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy has 5 mm total depth and unchanged rear seating plane",
+      "passed": true,
+      "z_min_mm": -2.4999999441206455,
+      "z_max_mm": 2.4999999441206455,
+      "total_depth_mm": 4.999999888241291
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy has a 17.5 mm circular flange",
+      "passed": true,
+      "radial_sample_count": 384,
+      "diameter_min_mm": 17.499998188226012,
+      "diameter_max_mm": 17.500002213088628,
+      "fitted_outer_center_mm": [
+        -9.313225746154785e-07,
+        -0.08200202137231827,
+        0.0
+      ]
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy flange is 1.5 mm thick at the rear",
+      "passed": true,
+      "flange_z_min_mm": -2.4999999441206455,
+      "flange_z_max_mm": -1.0000000474974513,
+      "flange_thickness_mm": 1.4999998966231942
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy central cross-section has six 15 mm wrench flats",
+      "passed": true,
+      "hull_mm": [
+        [
+          -7.500000764,
+          -4.41212859
+        ],
+        [
+          -5.71e-07,
+          -8.74225609
+        ],
+        [
+          7.499999367,
+          -4.41212859
+        ],
+        [
+          7.499999367,
+          4.248125479
+        ],
+        [
+          -5.71e-07,
+          8.578252047
+        ],
+        [
+          -7.500000764,
+          4.248125479
+        ]
+      ],
+      "across_flats_mm": [
+        15.000000412607129,
+        15.00000054010713,
+        15.000000131,
+        15.000000412607154,
+        15.000000540107134,
+        15.000000131
+      ]
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy hex corners match the 15 mm AF geometric consequence",
+      "passed": true,
+      "corner_diameters_mm": [
+        17.320507335583073,
+        17.320508137255377,
+        17.320508142104153,
+        17.32050907384876,
+        17.32050813674465,
+        17.320508267327725
+      ]
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy illustrated rounded front edge remains within the source envelope",
+      "passed": true,
+      "front_outer_diameter_mm": 15.000001427396773,
+      "unsized_illustration": true
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy saved rounded transition follows its declared illustrative profile",
+      "passed": true,
+      "measured_level_count": 65,
+      "max_profile_residual_mm": 0.0005222992257802872,
+      "unsized_illustration": true
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy all rounded vertices stay inside the analytic cap and hex envelope",
+      "passed": true,
+      "inspected_vertex_count": 4007,
+      "max_cap_outward_normal_distance_mm": 6.304029100731183e-07,
+      "max_hex_outward_distance_mm": 4.019803832022717e-07,
+      "numeric_envelope_tolerance_mm": 1e-05,
+      "partial_clip_vertices_may_lie_inside": true,
+      "unsized_illustration": true
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy native socket axis is parallel to the plain bore",
+      "passed": true,
+      "native_axis_local": [
+        0.0,
+        -7.549790126404332e-08,
+        1.0
+      ],
+      "native_axis_at_local_z0_mm": [
+        -5.707152581635455e-07,
+        -0.0820014551281929,
+        0.0
+      ]
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy flange, hex and bore share the actual native mating axis",
+      "passed": true,
+      "fitted_outer_center_mm": [
+        -9.313225746154785e-07,
+        -0.08200202137231827,
+        0.0
+      ],
+      "native_axis_at_local_z0_mm": [
+        -5.707152581635455e-07,
+        -0.0820014551281929,
+        0.0
+      ],
+      "center_error_mm": 6.724001169305262e-07
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy actual saved inner wall is the nominal 9.6 mm native-axis bore",
+      "passed": true,
+      "inner_vertex_count": 257,
+      "bore_diameter_min_mm": 9.597155815368884,
+      "bore_diameter_max_mm": 9.600002576151182
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy plain bore wall spans the entire nut depth",
+      "passed": true
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy is one closed manifold solid with positive signed volume",
+      "passed": true,
+      "connected_components": 1,
+      "signed_volume_mm3": 680.1319102271965,
+      "nonmanifold_edge_count": 0
+    },
+    {
+      "check": "Independent measurement leaves the saved scene bytes unchanged",
+      "passed": true
+    }
+  ],
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "limitations": [
+    "Front rounded transition, its 0.55 mm depth and 15 mm front circle are undimensioned appearance choices.",
+    "Undimensioned rear features are omitted to preserve the nominal rear seat and total depth.",
+    "Bores are plain illustrations; no thread, torque, interchangeability or physical seating certification."
+  ]
+}

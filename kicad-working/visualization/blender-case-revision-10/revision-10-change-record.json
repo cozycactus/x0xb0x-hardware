@@ -1,0 +1,1607 @@
+{
+  "visualization_revision": 10,
+  "kicad_revision": 11,
+  "preserved_baseline_scene": "blender-case-revision-9/x0xb0x-populated-with-case.blend",
+  "preserved_baseline_sha256": "96c57c42b2019abb3d4431b63b363587c509890185e0ed895436f103cd535158",
+  "saved_scene": "x0xb0x-populated-with-case.blend",
+  "saved_scene_sha256": "9c75786aa2ea7a551ef68ed0715c6ac8ef12455213dd24192e5a07f4d00f1d07",
+  "saved_scene_bytes": 42935746,
+  "refined_nut_count": 3,
+  "refined_objects": [
+    "HEADPHONE0 / black PA6 nut proxy",
+    "MIXIN0 / black PA6 nut proxy",
+    "MIXOUT0 / black PA6 nut proxy"
+  ],
+  "hardware_changes": [
+    {
+      "object": "HEADPHONE0 / black PA6 nut proxy",
+      "source_reference": "HEADPHONE0",
+      "old_mesh_signature": {
+        "hash": "e9adfc83faf25f6cfb19b933ad9071c4ffdb85749248149e2197d0c8430c12d7",
+        "vertices": 270,
+        "edges": 408,
+        "polygons": 138,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "e7ff4460c75831e231bc85d350909a6661b4c39a9e93b6567247d8d6bc0cb944"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9d9ccaa28aaf5581ac13ca5825ee3811a22fde62834f10edefa42feda4adbbc4"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "6390cecc9925586375f9df6713f198c7150ac67b76221dd71650e5750d0b1f28"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "ae04ca82843c92937bf5d8bc87621ad814f0686667968c6d8341edf1b0ab7d00"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "ae04ca82843c92937bf5d8bc87621ad814f0686667968c6d8341edf1b0ab7d00"
+          },
+          ".uv_select_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d1fa6cd477058aa100d735b1f682c8792b857fe24903a2410abcc9ea412af51b"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "41e8fe3f6c2dc11749468fc372873f5d808ddb5fc016c9c561ec0af2d9484555"
+          },
+          "UVMap": {
+            "data_type": "FLOAT2",
+            "domain": "CORNER",
+            "hash": "55bdeeb91b80e08f903304c73d3a19d4702b5196ea2ad5feb346b077f6bf4ba2"
+          },
+          ".uv_select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "CORNER",
+            "hash": "4d0bb611286dcbdadce407c0e0bfdc03f321b0cccad8031f9f8a91c48bdb1335"
+          },
+          ".uv_select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "CORNER",
+            "hash": "4d0bb611286dcbdadce407c0e0bfdc03f321b0cccad8031f9f8a91c48bdb1335"
+          }
+        },
+        "props": {},
+        "materials": [
+          "Controls / dark soft-touch proxy"
+        ]
+      },
+      "saved_mesh_signature": {
+        "hash": "031d13568b241640da7cc5b76e5ba790db74f4131272f35e3fe273e035f2d6b0",
+        "vertices": 4529,
+        "edges": 8173,
+        "polygons": 3644,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "b51f5fec86070d9d82feb6a4ce496a6fbaeadddc808de5dc53d2aa56eb42cc10"
+          },
+          ".select_edge": {
+            "data_type": "INT32_2D",
+            "domain": "EDGE",
+            "hash": "7053b6d01ce31048d58d88e81715987e3fcb6a36979aadf2c98698a8d7af4417"
+          },
+          ".select_edge.001": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "e6ae4f4444668aa014322aadf9f6e3b27b3d45879dc692627f754aebeacfbfff"
+          },
+          ".select_edge.002": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "f63336977223751954eb093bf1613124453e12aaca0196d230a0516f4ffff473"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "7d1cb786e4a45e284f20aff7765fc0bd4fc363490c398b735ece5bda1ff6d5ee"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "fe1be186fcbb3577012150b5c5e6db3cc3f4912bdead622603cf058098d584fb"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "6530fc0e66b4abd3c4ec80c4ffd73d0c39940bb142393a0d5901f52c276f168f"
+          },
+          ".uv_select_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "e4222e0fee41eb1a7286abcb392d9fdefbefb0b6b2254ab3c3824bd7951254db"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "0c74b0f6c34faab9e4d244e7fbdab662b0b4aba0b668412970320b0ccc1b372c"
+          },
+          "UVMap": {
+            "data_type": "FLOAT2",
+            "domain": "CORNER",
+            "hash": "a63af546d0701687e8d9b9b0a3afcb54705915ee89f0b576587c88dc93f57407"
+          },
+          ".uv_select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "CORNER",
+            "hash": "874297582f679c8ec8d561f3230f719ebfe0003156b5fa62b00a57981a40eefb"
+          },
+          ".uv_select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "CORNER",
+            "hash": "874297582f679c8ec8d561f3230f719ebfe0003156b5fa62b00a57981a40eefb"
+          }
+        },
+        "props": {},
+        "materials": [
+          "Controls / dark soft-touch proxy"
+        ]
+      },
+      "original_object_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.02895599976181984
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.01435100007802248
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.003700000001117587
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "original_collections": [
+        "SOURCE / Rear connector faces \u2014 presentation proxies, not ECAD models"
+      ],
+      "profile_center_local_m": [
+        8.742510715364915e-09,
+        -8.200173760997131e-05,
+        0.0
+      ],
+      "exterior_mesh_center_shift_mm": [
+        8.742510715364915e-06,
+        -0.08200173760997131,
+        0.0
+      ],
+      "original_object_origin_and_pose_preserved": true,
+      "bore_diameter_mm": 9.6,
+      "profile_stations_mm": [
+        {
+          "z": -1.05,
+          "type": "circle",
+          "radius": 8.660254037844386
+        },
+        {
+          "z": 1.95,
+          "type": "circle",
+          "radius": 8.660254037844386
+        },
+        {
+          "z": 1.9634976756876017,
+          "type": "rounded",
+          "radius": 8.659904591020533
+        },
+        {
+          "z": 1.9769872208800798,
+          "type": "rounded",
+          "radius": 8.658856461042676
+        },
+        {
+          "z": 1.990460509979817,
+          "type": "rounded",
+          "radius": 8.657110279265122
+        },
+        {
+          "z": 2.003909427181258,
+          "type": "rounded",
+          "radius": 8.654667097522477
+        },
+        {
+          "z": 2.017325871359569,
+          "type": "rounded",
+          "radius": 8.65152838749607
+        },
+        {
+          "z": 2.030701760950449,
+          "type": "rounded",
+          "radius": 8.647696039827455
+        },
+        {
+          "z": 2.0440290388181657,
+          "type": "rounded",
+          "radius": 8.643172362979566
+        },
+        {
+          "z": 2.0572996771088703,
+          "type": "rounded",
+          "radius": 8.637960081846186
+        },
+        {
+          "z": 2.0705056820862784,
+          "type": "rounded",
+          "radius": 8.63206233611057
+        },
+        {
+          "z": 2.083639098946795,
+          "type": "rounded",
+          "radius": 8.625482678354219
+        },
+        {
+          "z": 2.096692016611194,
+          "type": "rounded",
+          "radius": 8.618225071916935
+        },
+        {
+          "z": 2.1096565724899543,
+          "type": "rounded",
+          "radius": 8.610293888509457
+        },
+        {
+          "z": 2.1225249572193903,
+          "type": "rounded",
+          "radius": 8.601693905580104
+        },
+        {
+          "z": 2.135289419365721,
+          "type": "rounded",
+          "radius": 8.592430303437018
+        },
+        {
+          "z": 2.1479422700942434,
+          "type": "rounded",
+          "radius": 8.58250866212774
+        },
+        {
+          "z": 2.1604758878007995,
+          "type": "rounded",
+          "radius": 8.571934958078003
+        },
+        {
+          "z": 2.1728827227027443,
+          "type": "rounded",
+          "radius": 8.56071556049175
+        },
+        {
+          "z": 2.185155301386655,
+          "type": "rounded",
+          "radius": 8.548857227514567
+        },
+        {
+          "z": 2.1972862313100334,
+          "type": "rounded",
+          "radius": 8.536367102162826
+        },
+        {
+          "z": 2.2092682052542987,
+          "type": "rounded",
+          "radius": 8.523252708021005
+        },
+        {
+          "z": 2.221094005726381,
+          "type": "rounded",
+          "radius": 8.509521944709755
+        },
+        {
+          "z": 2.232756509306272,
+          "type": "rounded",
+          "radius": 8.495183083127468
+        },
+        {
+          "z": 2.2442486909379036,
+          "type": "rounded",
+          "radius": 8.480244760468198
+        },
+        {
+          "z": 2.255563628160781,
+          "type": "rounded",
+          "radius": 8.464715975018933
+        },
+        {
+          "z": 2.266694505279815,
+          "type": "rounded",
+          "radius": 8.448606080739372
+        },
+        {
+          "z": 2.2776346174708384,
+          "type": "rounded",
+          "radius": 8.43192478162744
+        },
+        {
+          "z": 2.2883773748193446,
+          "type": "rounded",
+          "radius": 8.414682125873966
+        },
+        {
+          "z": 2.298916306290005,
+          "type": "rounded",
+          "radius": 8.396888499810034
+        },
+        {
+          "z": 2.3092450636245774,
+          "type": "rounded",
+          "radius": 8.378554621650638
+        },
+        {
+          "z": 2.31935742516586,
+          "type": "rounded",
+          "radius": 8.359691535038433
+        },
+        {
+          "z": 2.329247299605387,
+          "type": "rounded",
+          "radius": 8.340310602391456
+        },
+        {
+          "z": 2.338908729652601,
+          "type": "rounded",
+          "radius": 8.320423498058839
+        },
+        {
+          "z": 2.3483358956233067,
+          "type": "rounded",
+          "radius": 8.3000422012886
+        },
+        {
+          "z": 2.3575231189452275,
+          "type": "rounded",
+          "radius": 8.279178989011807
+        },
+        {
+          "z": 2.3664648655785663,
+          "type": "rounded",
+          "radius": 8.257846428447417
+        },
+        {
+          "z": 2.3751557493495055,
+          "type": "rounded",
+          "radius": 8.23605736953223
+        },
+        {
+          "z": 2.3835905351946334,
+          "type": "rounded",
+          "radius": 8.213824937180597
+        },
+        {
+          "z": 2.3917641423143547,
+          "type": "rounded",
+          "radius": 8.191162523378438
+        },
+        {
+          "z": 2.399671647233371,
+          "type": "rounded",
+          "radius": 8.168083779116428
+        },
+        {
+          "z": 2.4073082867664,
+          "type": "rounded",
+          "radius": 8.14460260616714
+        },
+        {
+          "z": 2.414669460887339,
+          "type": "rounded",
+          "radius": 8.12073314871114
+        },
+        {
+          "z": 2.4217507355001495,
+          "type": "rounded",
+          "radius": 8.096489784817065
+        },
+        {
+          "z": 2.428547845109791,
+          "type": "rounded",
+          "radius": 8.071887117780806
+        },
+        {
+          "z": 2.4350566953915953,
+          "type": "rounded",
+          "radius": 8.046939967329031
+        },
+        {
+          "z": 2.4412733656575334,
+          "type": "rounded",
+          "radius": 8.02166336069234
+        },
+        {
+          "z": 2.4471941112178937,
+          "type": "rounded",
+          "radius": 7.996072523553418
+        },
+        {
+          "z": 2.452815365636942,
+          "type": "rounded",
+          "radius": 7.970182870875654
+        },
+        {
+          "z": 2.458133742881208,
+          "type": "rounded",
+          "radius": 7.944009997617744
+        },
+        {
+          "z": 2.4631460393591063,
+          "type": "rounded",
+          "radius": 7.917569669339873
+        },
+        {
+          "z": 2.4678492358506614,
+          "type": "rounded",
+          "radius": 7.890877812707126
+        },
+        {
+          "z": 2.47224049932617,
+          "type": "rounded",
+          "radius": 7.863950505895868
+        },
+        {
+          "z": 2.4763171846527148,
+          "type": "rounded",
+          "radius": 7.8368039689088445
+        },
+        {
+          "z": 2.480076836187492,
+          "type": "rounded",
+          "radius": 7.809454553804861
+        },
+        {
+          "z": 2.4835171892569994,
+          "type": "rounded",
+          "radius": 7.781918734848917
+        },
+        {
+          "z": 2.486636171521191,
+          "type": "rounded",
+          "radius": 7.75421309858872
+        },
+        {
+          "z": 2.4894319042217767,
+          "type": "rounded",
+          "radius": 7.726354333863575
+        },
+        {
+          "z": 2.491902703313918,
+          "type": "rounded",
+          "radius": 7.698359221751642
+        },
+        {
+          "z": 2.4940470804806294,
+          "type": "rounded",
+          "radius": 7.670244625461656
+        },
+        {
+          "z": 2.4958637440292906,
+          "type": "rounded",
+          "radius": 7.642027480175148
+        },
+        {
+          "z": 2.497351599669708,
+          "type": "rounded",
+          "radius": 7.613724782845333
+        },
+        {
+          "z": 2.4985097511732794,
+          "type": "rounded",
+          "radius": 7.585353581958774
+        },
+        {
+          "z": 2.4993375009128447,
+          "type": "rounded",
+          "radius": 7.5569309672660205
+        },
+        {
+          "z": 2.4998343502829123,
+          "type": "rounded",
+          "radius": 7.528474059487371
+        },
+        {
+          "z": 2.5,
+          "type": "rounded",
+          "radius": 7.5
+        }
+      ],
+      "angular_segments": 192,
+      "topology_method": "Exact six-plane Boolean intersection of revolved quarter-ellipse, union with circular flange, retained plain bore; flat faces remain flat, curved faces smooth",
+      "topology": {
+        "closed_manifold": true,
+        "connected_components": 1,
+        "volume_mm3": 680.1319102271939
+      },
+      "bounds_local_m": [
+        -0.008749991655349731,
+        -0.008832002058625221,
+        -0.0024999999441206455,
+        0.008750008419156075,
+        0.008667998015880585,
+        0.0024999999441206455
+      ],
+      "physical_fit_qualified": false
+    },
+    {
+      "object": "MIXIN0 / black PA6 nut proxy",
+      "source_reference": "MIXIN0",
+      "old_mesh_signature": {
+        "hash": "e9adfc83faf25f6cfb19b933ad9071c4ffdb85749248149e2197d0c8430c12d7",
+        "vertices": 270,
+        "edges": 408,
+        "polygons": 138,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "e7ff4460c75831e231bc85d350909a6661b4c39a9e93b6567247d8d6bc0cb944"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9d9ccaa28aaf5581ac13ca5825ee3811a22fde62834f10edefa42feda4adbbc4"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "6390cecc9925586375f9df6713f198c7150ac67b76221dd71650e5750d0b1f28"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "ae04ca82843c92937bf5d8bc87621ad814f0686667968c6d8341edf1b0ab7d00"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "ae04ca82843c92937bf5d8bc87621ad814f0686667968c6d8341edf1b0ab7d00"
+          },
+          ".uv_select_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d1fa6cd477058aa100d735b1f682c8792b857fe24903a2410abcc9ea412af51b"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "41e8fe3f6c2dc11749468fc372873f5d808ddb5fc016c9c561ec0af2d9484555"
+          },
+          "UVMap": {
+            "data_type": "FLOAT2",
+            "domain": "CORNER",
+            "hash": "55bdeeb91b80e08f903304c73d3a19d4702b5196ea2ad5feb346b077f6bf4ba2"
+          },
+          ".uv_select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "CORNER",
+            "hash": "4d0bb611286dcbdadce407c0e0bfdc03f321b0cccad8031f9f8a91c48bdb1335"
+          },
+          ".uv_select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "CORNER",
+            "hash": "4d0bb611286dcbdadce407c0e0bfdc03f321b0cccad8031f9f8a91c48bdb1335"
+          }
+        },
+        "props": {},
+        "materials": [
+          "Controls / dark soft-touch proxy"
+        ]
+      },
+      "saved_mesh_signature": {
+        "hash": "ed6f7475cd84dd1d91d3a435f70f482353897281cf202d6d7fa1ffb8df228bea",
+        "vertices": 4529,
+        "edges": 8173,
+        "polygons": 3644,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "b51f5fec86070d9d82feb6a4ce496a6fbaeadddc808de5dc53d2aa56eb42cc10"
+          },
+          ".select_edge": {
+            "data_type": "INT32_2D",
+            "domain": "EDGE",
+            "hash": "294908ce0de22c044da4a790358a5def338843a68bfe400560b3ed9f2dae8d0d"
+          },
+          ".select_edge.001": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "bc8d551dfa889655e5fdfe8f442905b1aa895d11b492ffd1df774c123f29ff70"
+          },
+          ".select_edge.002": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "f63336977223751954eb093bf1613124453e12aaca0196d230a0516f4ffff473"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "7d1cb786e4a45e284f20aff7765fc0bd4fc363490c398b735ece5bda1ff6d5ee"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "fe1be186fcbb3577012150b5c5e6db3cc3f4912bdead622603cf058098d584fb"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "6530fc0e66b4abd3c4ec80c4ffd73d0c39940bb142393a0d5901f52c276f168f"
+          },
+          ".uv_select_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "e4222e0fee41eb1a7286abcb392d9fdefbefb0b6b2254ab3c3824bd7951254db"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "0c74b0f6c34faab9e4d244e7fbdab662b0b4aba0b668412970320b0ccc1b372c"
+          },
+          "UVMap": {
+            "data_type": "FLOAT2",
+            "domain": "CORNER",
+            "hash": "fa401867eb927b897e51007df6d7516f11ff680a9f8cc1e280bf49bd6427e388"
+          },
+          ".uv_select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "CORNER",
+            "hash": "874297582f679c8ec8d561f3230f719ebfe0003156b5fa62b00a57981a40eefb"
+          },
+          ".uv_select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "CORNER",
+            "hash": "874297582f679c8ec8d561f3230f719ebfe0003156b5fa62b00a57981a40eefb"
+          }
+        },
+        "props": {},
+        "materials": [
+          "Controls / dark soft-touch proxy"
+        ]
+      },
+      "original_object_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.181101992726326
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.01435100007802248
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.003700000001117587
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "original_collections": [
+        "SOURCE / Rear connector faces \u2014 presentation proxies, not ECAD models"
+      ],
+      "profile_center_local_m": [
+        1.6193094865002422e-08,
+        -8.200173760997131e-05,
+        0.0
+      ],
+      "exterior_mesh_center_shift_mm": [
+        1.6193094865002422e-05,
+        -0.08200173760997131,
+        0.0
+      ],
+      "original_object_origin_and_pose_preserved": true,
+      "bore_diameter_mm": 9.6,
+      "profile_stations_mm": [
+        {
+          "z": -1.05,
+          "type": "circle",
+          "radius": 8.660254037844386
+        },
+        {
+          "z": 1.95,
+          "type": "circle",
+          "radius": 8.660254037844386
+        },
+        {
+          "z": 1.9634976756876017,
+          "type": "rounded",
+          "radius": 8.659904591020533
+        },
+        {
+          "z": 1.9769872208800798,
+          "type": "rounded",
+          "radius": 8.658856461042676
+        },
+        {
+          "z": 1.990460509979817,
+          "type": "rounded",
+          "radius": 8.657110279265122
+        },
+        {
+          "z": 2.003909427181258,
+          "type": "rounded",
+          "radius": 8.654667097522477
+        },
+        {
+          "z": 2.017325871359569,
+          "type": "rounded",
+          "radius": 8.65152838749607
+        },
+        {
+          "z": 2.030701760950449,
+          "type": "rounded",
+          "radius": 8.647696039827455
+        },
+        {
+          "z": 2.0440290388181657,
+          "type": "rounded",
+          "radius": 8.643172362979566
+        },
+        {
+          "z": 2.0572996771088703,
+          "type": "rounded",
+          "radius": 8.637960081846186
+        },
+        {
+          "z": 2.0705056820862784,
+          "type": "rounded",
+          "radius": 8.63206233611057
+        },
+        {
+          "z": 2.083639098946795,
+          "type": "rounded",
+          "radius": 8.625482678354219
+        },
+        {
+          "z": 2.096692016611194,
+          "type": "rounded",
+          "radius": 8.618225071916935
+        },
+        {
+          "z": 2.1096565724899543,
+          "type": "rounded",
+          "radius": 8.610293888509457
+        },
+        {
+          "z": 2.1225249572193903,
+          "type": "rounded",
+          "radius": 8.601693905580104
+        },
+        {
+          "z": 2.135289419365721,
+          "type": "rounded",
+          "radius": 8.592430303437018
+        },
+        {
+          "z": 2.1479422700942434,
+          "type": "rounded",
+          "radius": 8.58250866212774
+        },
+        {
+          "z": 2.1604758878007995,
+          "type": "rounded",
+          "radius": 8.571934958078003
+        },
+        {
+          "z": 2.1728827227027443,
+          "type": "rounded",
+          "radius": 8.56071556049175
+        },
+        {
+          "z": 2.185155301386655,
+          "type": "rounded",
+          "radius": 8.548857227514567
+        },
+        {
+          "z": 2.1972862313100334,
+          "type": "rounded",
+          "radius": 8.536367102162826
+        },
+        {
+          "z": 2.2092682052542987,
+          "type": "rounded",
+          "radius": 8.523252708021005
+        },
+        {
+          "z": 2.221094005726381,
+          "type": "rounded",
+          "radius": 8.509521944709755
+        },
+        {
+          "z": 2.232756509306272,
+          "type": "rounded",
+          "radius": 8.495183083127468
+        },
+        {
+          "z": 2.2442486909379036,
+          "type": "rounded",
+          "radius": 8.480244760468198
+        },
+        {
+          "z": 2.255563628160781,
+          "type": "rounded",
+          "radius": 8.464715975018933
+        },
+        {
+          "z": 2.266694505279815,
+          "type": "rounded",
+          "radius": 8.448606080739372
+        },
+        {
+          "z": 2.2776346174708384,
+          "type": "rounded",
+          "radius": 8.43192478162744
+        },
+        {
+          "z": 2.2883773748193446,
+          "type": "rounded",
+          "radius": 8.414682125873966
+        },
+        {
+          "z": 2.298916306290005,
+          "type": "rounded",
+          "radius": 8.396888499810034
+        },
+        {
+          "z": 2.3092450636245774,
+          "type": "rounded",
+          "radius": 8.378554621650638
+        },
+        {
+          "z": 2.31935742516586,
+          "type": "rounded",
+          "radius": 8.359691535038433
+        },
+        {
+          "z": 2.329247299605387,
+          "type": "rounded",
+          "radius": 8.340310602391456
+        },
+        {
+          "z": 2.338908729652601,
+          "type": "rounded",
+          "radius": 8.320423498058839
+        },
+        {
+          "z": 2.3483358956233067,
+          "type": "rounded",
+          "radius": 8.3000422012886
+        },
+        {
+          "z": 2.3575231189452275,
+          "type": "rounded",
+          "radius": 8.279178989011807
+        },
+        {
+          "z": 2.3664648655785663,
+          "type": "rounded",
+          "radius": 8.257846428447417
+        },
+        {
+          "z": 2.3751557493495055,
+          "type": "rounded",
+          "radius": 8.23605736953223
+        },
+        {
+          "z": 2.3835905351946334,
+          "type": "rounded",
+          "radius": 8.213824937180597
+        },
+        {
+          "z": 2.3917641423143547,
+          "type": "rounded",
+          "radius": 8.191162523378438
+        },
+        {
+          "z": 2.399671647233371,
+          "type": "rounded",
+          "radius": 8.168083779116428
+        },
+        {
+          "z": 2.4073082867664,
+          "type": "rounded",
+          "radius": 8.14460260616714
+        },
+        {
+          "z": 2.414669460887339,
+          "type": "rounded",
+          "radius": 8.12073314871114
+        },
+        {
+          "z": 2.4217507355001495,
+          "type": "rounded",
+          "radius": 8.096489784817065
+        },
+        {
+          "z": 2.428547845109791,
+          "type": "rounded",
+          "radius": 8.071887117780806
+        },
+        {
+          "z": 2.4350566953915953,
+          "type": "rounded",
+          "radius": 8.046939967329031
+        },
+        {
+          "z": 2.4412733656575334,
+          "type": "rounded",
+          "radius": 8.02166336069234
+        },
+        {
+          "z": 2.4471941112178937,
+          "type": "rounded",
+          "radius": 7.996072523553418
+        },
+        {
+          "z": 2.452815365636942,
+          "type": "rounded",
+          "radius": 7.970182870875654
+        },
+        {
+          "z": 2.458133742881208,
+          "type": "rounded",
+          "radius": 7.944009997617744
+        },
+        {
+          "z": 2.4631460393591063,
+          "type": "rounded",
+          "radius": 7.917569669339873
+        },
+        {
+          "z": 2.4678492358506614,
+          "type": "rounded",
+          "radius": 7.890877812707126
+        },
+        {
+          "z": 2.47224049932617,
+          "type": "rounded",
+          "radius": 7.863950505895868
+        },
+        {
+          "z": 2.4763171846527148,
+          "type": "rounded",
+          "radius": 7.8368039689088445
+        },
+        {
+          "z": 2.480076836187492,
+          "type": "rounded",
+          "radius": 7.809454553804861
+        },
+        {
+          "z": 2.4835171892569994,
+          "type": "rounded",
+          "radius": 7.781918734848917
+        },
+        {
+          "z": 2.486636171521191,
+          "type": "rounded",
+          "radius": 7.75421309858872
+        },
+        {
+          "z": 2.4894319042217767,
+          "type": "rounded",
+          "radius": 7.726354333863575
+        },
+        {
+          "z": 2.491902703313918,
+          "type": "rounded",
+          "radius": 7.698359221751642
+        },
+        {
+          "z": 2.4940470804806294,
+          "type": "rounded",
+          "radius": 7.670244625461656
+        },
+        {
+          "z": 2.4958637440292906,
+          "type": "rounded",
+          "radius": 7.642027480175148
+        },
+        {
+          "z": 2.497351599669708,
+          "type": "rounded",
+          "radius": 7.613724782845333
+        },
+        {
+          "z": 2.4985097511732794,
+          "type": "rounded",
+          "radius": 7.585353581958774
+        },
+        {
+          "z": 2.4993375009128447,
+          "type": "rounded",
+          "radius": 7.5569309672660205
+        },
+        {
+          "z": 2.4998343502829123,
+          "type": "rounded",
+          "radius": 7.528474059487371
+        },
+        {
+          "z": 2.5,
+          "type": "rounded",
+          "radius": 7.5
+        }
+      ],
+      "angular_segments": 192,
+      "topology_method": "Exact six-plane Boolean intersection of revolved quarter-ellipse, union with circular flange, retained plain bore; flat faces remain flat, curved faces smooth",
+      "topology": {
+        "closed_manifold": true,
+        "connected_components": 1,
+        "volume_mm3": 680.1319102271619
+      },
+      "bounds_local_m": [
+        -0.008749984204769135,
+        -0.008832002058625221,
+        -0.0024999999441206455,
+        0.008750015869736671,
+        0.008667998015880585,
+        0.0024999999441206455
+      ],
+      "physical_fit_qualified": false
+    },
+    {
+      "object": "MIXOUT0 / black PA6 nut proxy",
+      "source_reference": "MIXOUT0",
+      "old_mesh_signature": {
+        "hash": "e9adfc83faf25f6cfb19b933ad9071c4ffdb85749248149e2197d0c8430c12d7",
+        "vertices": 270,
+        "edges": 408,
+        "polygons": 138,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "e7ff4460c75831e231bc85d350909a6661b4c39a9e93b6567247d8d6bc0cb944"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9d9ccaa28aaf5581ac13ca5825ee3811a22fde62834f10edefa42feda4adbbc4"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "6390cecc9925586375f9df6713f198c7150ac67b76221dd71650e5750d0b1f28"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "ae04ca82843c92937bf5d8bc87621ad814f0686667968c6d8341edf1b0ab7d00"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "ae04ca82843c92937bf5d8bc87621ad814f0686667968c6d8341edf1b0ab7d00"
+          },
+          ".uv_select_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d1fa6cd477058aa100d735b1f682c8792b857fe24903a2410abcc9ea412af51b"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "41e8fe3f6c2dc11749468fc372873f5d808ddb5fc016c9c561ec0af2d9484555"
+          },
+          "UVMap": {
+            "data_type": "FLOAT2",
+            "domain": "CORNER",
+            "hash": "55bdeeb91b80e08f903304c73d3a19d4702b5196ea2ad5feb346b077f6bf4ba2"
+          },
+          ".uv_select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "CORNER",
+            "hash": "4d0bb611286dcbdadce407c0e0bfdc03f321b0cccad8031f9f8a91c48bdb1335"
+          },
+          ".uv_select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "CORNER",
+            "hash": "4d0bb611286dcbdadce407c0e0bfdc03f321b0cccad8031f9f8a91c48bdb1335"
+          }
+        },
+        "props": {},
+        "materials": [
+          "Controls / dark soft-touch proxy"
+        ]
+      },
+      "saved_mesh_signature": {
+        "hash": "80f321abd6c1de9932d3ad519ec8f2eb2217ce38296204f375901957f7cc5847",
+        "vertices": 4529,
+        "edges": 8173,
+        "polygons": 3644,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "b51f5fec86070d9d82feb6a4ce496a6fbaeadddc808de5dc53d2aa56eb42cc10"
+          },
+          ".select_edge": {
+            "data_type": "INT32_2D",
+            "domain": "EDGE",
+            "hash": "4738560444fef58fa96b15457a0633bce3918ccb0bbcd412ef6a62aeb3f82c2e"
+          },
+          ".select_edge.001": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "cf7c9ba9b1a51f9fe912d249991772ae10cdf26c8e51bdc6e6f14d028e9051cb"
+          },
+          ".select_edge.002": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "f63336977223751954eb093bf1613124453e12aaca0196d230a0516f4ffff473"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "7d1cb786e4a45e284f20aff7765fc0bd4fc363490c398b735ece5bda1ff6d5ee"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "fe1be186fcbb3577012150b5c5e6db3cc3f4912bdead622603cf058098d584fb"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "6530fc0e66b4abd3c4ec80c4ffd73d0c39940bb142393a0d5901f52c276f168f"
+          },
+          ".uv_select_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "e4222e0fee41eb1a7286abcb392d9fdefbefb0b6b2254ab3c3824bd7951254db"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "0c74b0f6c34faab9e4d244e7fbdab662b0b4aba0b668412970320b0ccc1b372c"
+          },
+          "UVMap": {
+            "data_type": "FLOAT2",
+            "domain": "CORNER",
+            "hash": "2d1fa1c5252a1206d8b27b8e1e29728265c06189df0ec6bd69b700122ed81cf4"
+          },
+          ".uv_select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "CORNER",
+            "hash": "874297582f679c8ec8d561f3230f719ebfe0003156b5fa62b00a57981a40eefb"
+          },
+          ".uv_select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "CORNER",
+            "hash": "874297582f679c8ec8d561f3230f719ebfe0003156b5fa62b00a57981a40eefb"
+          }
+        },
+        "props": {},
+        "materials": [
+          "Controls / dark soft-touch proxy"
+        ]
+      },
+      "original_object_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.09372600167989731
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.01435100007802248
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.003700000001117587
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "original_collections": [
+        "SOURCE / Rear connector faces \u2014 presentation proxies, not ECAD models"
+      ],
+      "profile_center_local_m": [
+        -5.70715252834475e-10,
+        -8.200173760997131e-05,
+        0.0
+      ],
+      "exterior_mesh_center_shift_mm": [
+        -5.70715252834475e-07,
+        -0.08200173760997131,
+        0.0
+      ],
+      "original_object_origin_and_pose_preserved": true,
+      "bore_diameter_mm": 9.6,
+      "profile_stations_mm": [
+        {
+          "z": -1.05,
+          "type": "circle",
+          "radius": 8.660254037844386
+        },
+        {
+          "z": 1.95,
+          "type": "circle",
+          "radius": 8.660254037844386
+        },
+        {
+          "z": 1.9634976756876017,
+          "type": "rounded",
+          "radius": 8.659904591020533
+        },
+        {
+          "z": 1.9769872208800798,
+          "type": "rounded",
+          "radius": 8.658856461042676
+        },
+        {
+          "z": 1.990460509979817,
+          "type": "rounded",
+          "radius": 8.657110279265122
+        },
+        {
+          "z": 2.003909427181258,
+          "type": "rounded",
+          "radius": 8.654667097522477
+        },
+        {
+          "z": 2.017325871359569,
+          "type": "rounded",
+          "radius": 8.65152838749607
+        },
+        {
+          "z": 2.030701760950449,
+          "type": "rounded",
+          "radius": 8.647696039827455
+        },
+        {
+          "z": 2.0440290388181657,
+          "type": "rounded",
+          "radius": 8.643172362979566
+        },
+        {
+          "z": 2.0572996771088703,
+          "type": "rounded",
+          "radius": 8.637960081846186
+        },
+        {
+          "z": 2.0705056820862784,
+          "type": "rounded",
+          "radius": 8.63206233611057
+        },
+        {
+          "z": 2.083639098946795,
+          "type": "rounded",
+          "radius": 8.625482678354219
+        },
+        {
+          "z": 2.096692016611194,
+          "type": "rounded",
+          "radius": 8.618225071916935
+        },
+        {
+          "z": 2.1096565724899543,
+          "type": "rounded",
+          "radius": 8.610293888509457
+        },
+        {
+          "z": 2.1225249572193903,
+          "type": "rounded",
+          "radius": 8.601693905580104
+        },
+        {
+          "z": 2.135289419365721,
+          "type": "rounded",
+          "radius": 8.592430303437018
+        },
+        {
+          "z": 2.1479422700942434,
+          "type": "rounded",
+          "radius": 8.58250866212774
+        },
+        {
+          "z": 2.1604758878007995,
+          "type": "rounded",
+          "radius": 8.571934958078003
+        },
+        {
+          "z": 2.1728827227027443,
+          "type": "rounded",
+          "radius": 8.56071556049175
+        },
+        {
+          "z": 2.185155301386655,
+          "type": "rounded",
+          "radius": 8.548857227514567
+        },
+        {
+          "z": 2.1972862313100334,
+          "type": "rounded",
+          "radius": 8.536367102162826
+        },
+        {
+          "z": 2.2092682052542987,
+          "type": "rounded",
+          "radius": 8.523252708021005
+        },
+        {
+          "z": 2.221094005726381,
+          "type": "rounded",
+          "radius": 8.509521944709755
+        },
+        {
+          "z": 2.232756509306272,
+          "type": "rounded",
+          "radius": 8.495183083127468
+        },
+        {
+          "z": 2.2442486909379036,
+          "type": "rounded",
+          "radius": 8.480244760468198
+        },
+        {
+          "z": 2.255563628160781,
+          "type": "rounded",
+          "radius": 8.464715975018933
+        },
+        {
+          "z": 2.266694505279815,
+          "type": "rounded",
+          "radius": 8.448606080739372
+        },
+        {
+          "z": 2.2776346174708384,
+          "type": "rounded",
+          "radius": 8.43192478162744
+        },
+        {
+          "z": 2.2883773748193446,
+          "type": "rounded",
+          "radius": 8.414682125873966
+        },
+        {
+          "z": 2.298916306290005,
+          "type": "rounded",
+          "radius": 8.396888499810034
+        },
+        {
+          "z": 2.3092450636245774,
+          "type": "rounded",
+          "radius": 8.378554621650638
+        },
+        {
+          "z": 2.31935742516586,
+          "type": "rounded",
+          "radius": 8.359691535038433
+        },
+        {
+          "z": 2.329247299605387,
+          "type": "rounded",
+          "radius": 8.340310602391456
+        },
+        {
+          "z": 2.338908729652601,
+          "type": "rounded",
+          "radius": 8.320423498058839
+        },
+        {
+          "z": 2.3483358956233067,
+          "type": "rounded",
+          "radius": 8.3000422012886
+        },
+        {
+          "z": 2.3575231189452275,
+          "type": "rounded",
+          "radius": 8.279178989011807
+        },
+        {
+          "z": 2.3664648655785663,
+          "type": "rounded",
+          "radius": 8.257846428447417
+        },
+        {
+          "z": 2.3751557493495055,
+          "type": "rounded",
+          "radius": 8.23605736953223
+        },
+        {
+          "z": 2.3835905351946334,
+          "type": "rounded",
+          "radius": 8.213824937180597
+        },
+        {
+          "z": 2.3917641423143547,
+          "type": "rounded",
+          "radius": 8.191162523378438
+        },
+        {
+          "z": 2.399671647233371,
+          "type": "rounded",
+          "radius": 8.168083779116428
+        },
+        {
+          "z": 2.4073082867664,
+          "type": "rounded",
+          "radius": 8.14460260616714
+        },
+        {
+          "z": 2.414669460887339,
+          "type": "rounded",
+          "radius": 8.12073314871114
+        },
+        {
+          "z": 2.4217507355001495,
+          "type": "rounded",
+          "radius": 8.096489784817065
+        },
+        {
+          "z": 2.428547845109791,
+          "type": "rounded",
+          "radius": 8.071887117780806
+        },
+        {
+          "z": 2.4350566953915953,
+          "type": "rounded",
+          "radius": 8.046939967329031
+        },
+        {
+          "z": 2.4412733656575334,
+          "type": "rounded",
+          "radius": 8.02166336069234
+        },
+        {
+          "z": 2.4471941112178937,
+          "type": "rounded",
+          "radius": 7.996072523553418
+        },
+        {
+          "z": 2.452815365636942,
+          "type": "rounded",
+          "radius": 7.970182870875654
+        },
+        {
+          "z": 2.458133742881208,
+          "type": "rounded",
+          "radius": 7.944009997617744
+        },
+        {
+          "z": 2.4631460393591063,
+          "type": "rounded",
+          "radius": 7.917569669339873
+        },
+        {
+          "z": 2.4678492358506614,
+          "type": "rounded",
+          "radius": 7.890877812707126
+        },
+        {
+          "z": 2.47224049932617,
+          "type": "rounded",
+          "radius": 7.863950505895868
+        },
+        {
+          "z": 2.4763171846527148,
+          "type": "rounded",
+          "radius": 7.8368039689088445
+        },
+        {
+          "z": 2.480076836187492,
+          "type": "rounded",
+          "radius": 7.809454553804861
+        },
+        {
+          "z": 2.4835171892569994,
+          "type": "rounded",
+          "radius": 7.781918734848917
+        },
+        {
+          "z": 2.486636171521191,
+          "type": "rounded",
+          "radius": 7.75421309858872
+        },
+        {
+          "z": 2.4894319042217767,
+          "type": "rounded",
+          "radius": 7.726354333863575
+        },
+        {
+          "z": 2.491902703313918,
+          "type": "rounded",
+          "radius": 7.698359221751642
+        },
+        {
+          "z": 2.4940470804806294,
+          "type": "rounded",
+          "radius": 7.670244625461656
+        },
+        {
+          "z": 2.4958637440292906,
+          "type": "rounded",
+          "radius": 7.642027480175148
+        },
+        {
+          "z": 2.497351599669708,
+          "type": "rounded",
+          "radius": 7.613724782845333
+        },
+        {
+          "z": 2.4985097511732794,
+          "type": "rounded",
+          "radius": 7.585353581958774
+        },
+        {
+          "z": 2.4993375009128447,
+          "type": "rounded",
+          "radius": 7.5569309672660205
+        },
+        {
+          "z": 2.4998343502829123,
+          "type": "rounded",
+          "radius": 7.528474059487371
+        },
+        {
+          "z": 2.5,
+          "type": "rounded",
+          "radius": 7.5
+        }
+      ],
+      "angular_segments": 192,
+      "topology_method": "Exact six-plane Boolean intersection of revolved quarter-ellipse, union with circular flange, retained plain bore; flat faces remain flat, curved faces smooth",
+      "topology": {
+        "closed_manifold": true,
+        "connected_components": 1,
+        "volume_mm3": 680.1319102271965
+      },
+      "bounds_local_m": [
+        -0.008750000968575478,
+        -0.008832002058625221,
+        -0.0024999999441206455,
+        0.008749999105930328,
+        0.008667998015880585,
+        0.0024999999441206455
+      ],
+      "physical_fit_qualified": false
+    }
+  ],
+  "source_parameters": "../../validation/nys216-hardware-quality/hardware-parameters.json",
+  "source_parameters_sha256": "544d45622c9410b5a7dac18d0b863b8f320f6577d183c4527b22b58e5fb2c1fd",
+  "source_evidence_sha256": "024a19c4c2ce6debd1cbb3de91807dacf634f54c1540d8740178bd88799188a6",
+  "current_opening_notes_text": "00 START HERE \u2014 revision 10 assembly",
+  "current_opening_notes_sha256": "899e92e9703cc5f1be0279971986a02aaedb46c3ed695aa872b12e755b855ce4",
+  "native_geometry_changed": false,
+  "kicad_files_changed": false,
+  "washers_changed": false,
+  "physical_fit_qualified": false
+}
