@@ -108,6 +108,36 @@ legend placement; the offset and existing typography are not manufacturer
 dimensions or recovered original artwork. This visual correction does not
 resolve or conceal the connector seating conflicts.
 
+## MJ-3536N axis height (follow-up to Blender revision 15)
+
+Blender revision 15 seats the I/O board on the rear DXF's 0.250 in datum.
+The CV0/GATE0 holes sit 0.460 in above the plate edge, which is 0.21 in
+(5.334 mm) above that datum, against the modelled 5.5 mm jack axis. The two
+manufacturer sheets already retained in
+`kicad-working/validation/models-review-10/rear-connector-quality/sources/`
+date that axis:
+
+| Sheet | SHA256 (prefix) | Axis above body bottom | Tolerance |
+| --- | --- | --- | --- |
+| `mj3536n-2020.pdf` (CUI, 2020-02-10) | `09fc1510` | 5.5 [0.217] mm | X.X ±0.2 mm |
+| `mj-3536n-current.pdf` (Same Sky, 2024-09-12) | `aa1de851` | 5.50 mm | X.XX ±0.20 mm |
+
+The revision history in both sheets lists the 2005-11-17 initial release, PCB
+slot dimensions added on 2010-10-07 and only a brand update on 2020-02-10.
+Re-engineering is recorded only from 2023. The mechanics drawn in 2020,
+including the 5.5 mm axis and Ø6.00 mm bushing, therefore stand for the part
+available in 2007. The 2023/2024 re-engineering kept the same 5.50 mm axis.
+The 2010 sheet itself was not retrieved; the revision-10 source review records
+the same limit.
+
+The 0.21 in hole position therefore reads as an inch rounding of the 5.5 mm
+axis, 0.166 mm low and inside the part's ±0.2 mm tolerance. It is not evidence
+of a lower historical axis. Revision 15 keeps the 5.5 mm model, so the nominal
+Ø6.00 mm bushing clears the Ø6.35 mm hole by about 0.005 mm. That is a
+tolerance stack in the original design, not a modelling error, and no
+geometry change follows. This supersedes the revision-15 README's remark that
+the question needed the period drawing.
+
 Primary references: [original downloads](https://www.ladyada.net/make/x0xb0x/download.html),
 [original finishing](https://www.ladyada.net/make/x0xb0x/fab/finish/index.html),
 [original I/O assembly](https://www.ladyada.net/make/x0xb0x/fab/ioboard/),
