@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "scene_sha256": "931b2f7d935551c22a63b4c1261edaf8d9883112a3b4bb0f229971df18fdc149",
+  "view_count": 7,
+  "views": [
+    "assembled",
+    "rear",
+    "exploded",
+    "control-side",
+    "wiring-study",
+    "rear-openings-closeup",
+    "rear-midi-detail"
+  ],
+  "method": "Human-visible image inspection after native rendering (downscaled contact sheets and the section figure). Hashes pin the reviewed images.",
+  "image_sha256": {
+    "assembled.png": "a15be451322bd764ee090cfa73437dd34fd2c681f4734ea8b48bf184fa513030",
+    "rear.png": "a66e66737f9c7e04482ca389833426b2f4eb2426b0a3177867fab89f05cc5d99",
+    "exploded.png": "30da756cde21a3d82262c83470fccb0ed2398c6564a601b59e656e5a38bb18a1",
+    "control-side.png": "4dc3b272c468cacce674c3b36ca983f80b0874f3afdbc69a5b69e72de3427c57",
+    "wiring-study.png": "91560daf85a9598a28ab645a74ba9587a5df2e23eb034604cc17a3e9ea24fd52",
+    "rear-openings-closeup.png": "e25c6418c8c92666e6d18e8f390e42dcdc8905a41b166f4d5bbb0a205cd06287",
+    "rear-midi-detail.png": "982e5587d224c446eae5c94ac1114f6cfd165a9852dad6d72c2dcad2c6a79543"
+  },
+  "observations": [
+    "The assembled case, front controls and LEDs are preserved.",
+    "Rear view and closeup show eleven open entrances; audio nuts and washers sit concentrically on the plate outside face.",
+    "All four DINs show the corrected contact pattern; MIDI OUT, THRU, MIDI IN and SYNC legends are readable at their retained positions.",
+    "Exploded view retains both boards, the original case and panels and PCB-mounted controls.",
+    "Control-side view keeps caps hidden; the wiring study keeps its 24 conductors attached to the moved I/O endpoints.",
+    "The 0.081 mm board raise is not resolvable at these render scales; rear-height-sections.png shows it in measured sections."
+  ],
+  "limitations": [
+    "Image inspection supplements the geometric audits; it does not measure clearance.",
+    "CV/GATE bushing clearance (about 0.005 mm) is a nominal mesh value only.",
+    "Images do not qualify physical assembly fit."
+  ],
+  "physical_fit_qualified": false
+}

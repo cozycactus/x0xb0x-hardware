@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source_snapshot_date": "2026-10-15",
-  "scope": "Current private GitHub snapshot: KiCad working revision12 and Blender revision14 rear plate seated on the original Eagle I/O datum; immutable Blender7 through13 baselines retained. Original-source function proof, downloaded-model registration measurements and original model corrections are included. Standalone received CAD, trial scenes, archives, probes, caches and redundant GLBs are excluded.",
+  "scope": "Current private GitHub snapshot: KiCad working revision12 and Blender revision15 I/O board on the original rear-panel axial and height datums; immutable Blender7 through14 baselines retained. Original-source function proof, downloaded-model registration measurements and original model corrections are included. Standalone received CAD, trial scenes, archives, probes, caches and redundant GLBs are excluded.",
   "files": {
     ".gitattributes": {
       "bytes": 190,
@@ -16,16 +16,16 @@
       "sha256": "73cc95f62a104053a2602ccc733fc88336b0f3f6329ac3e9bbab827aa26af6f6"
     },
     "PROJECT.json": {
-      "bytes": 1323,
-      "sha256": "290a30c2f5534a25446f619f4ffeab65b9c9dfbae6f0ca50c1a32aa5b92a6668"
+      "bytes": 1395,
+      "sha256": "50001a23537ebbb0198ed48e64cdf468f7826b47d050c9e3129bc5afaa6b4bd0"
     },
     "README.md": {
-      "bytes": 14192,
-      "sha256": "ce543a1aec13424fce18d9acd300a0027edd4cb5dcf474df0d4fa518fce13248"
+      "bytes": 15433,
+      "sha256": "fa4c1127374571abcd6f3acf7d2ea257b5b63963a68d4ca7fd4cb9b730b8026f"
     },
     "docs/OPENING.md": {
-      "bytes": 5016,
-      "sha256": "f69657a70ab196d2f066a6317d5b2da4ed96aac7c029f758b086ad2dc3d3d3e6"
+      "bytes": 5123,
+      "sha256": "264e18afb7987f3e30962fdbe4c5fff359a8d9a07a489d6d5040e4b66445e9dd"
     },
     "docs/din-contact-correction.json": {
       "bytes": 8848,
@@ -42,6 +42,10 @@
     "docs/nys216-hardware-refinement.json": {
       "bytes": 4759,
       "sha256": "d5b597250f97f9c013f2ec673ee29e3499f0bec4ab12b1ed377c92f9d1978ded"
+    },
+    "docs/rear-height-datum-correction.json": {
+      "bytes": 13978,
+      "sha256": "66de575280429f522221e403ea88dbac528425f579fb5ffcd4249a80d9742d73"
     },
     "docs/rear-opening-correction.json": {
       "bytes": 3017,
@@ -132,8 +136,8 @@
       "sha256": "282b88df6e2fed1d85d2057c10ecfbaee7be45a2e85a9614167fe06266b4cc6a"
     },
     "kicad-working/README.md": {
-      "bytes": 5421,
-      "sha256": "144d5d00a15d2636fc6f12be1eed53d8e4d7b81a33833cef12034eb7b2308cd6"
+      "bytes": 5738,
+      "sha256": "e9f6528bc2200b289796a3f0f8d78de0d55e459d32278c406e2337c8b9e033b4"
     },
     "kicad-working/ioboard/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step": {
       "bytes": 140022,
@@ -2512,8 +2516,8 @@
       "sha256": "c64162d41ded603a5ec32596e5b6b391eba1a343be3daede5625e4f49654ccc1"
     },
     "kicad-working/validation/rear-seating-review/scene-audit/README.md": {
-      "bytes": 7089,
-      "sha256": "6f7365799fc780c169a51c66a4060563b07e3a41888d6dbb8a1269682f68da50"
+      "bytes": 7773,
+      "sha256": "9b5c7c6736f56851e7d2a1529a74d1e0f7a6cf89c4afa47ee829960feb769632"
     },
     "kicad-working/validation/rear-seating-review/scene-audit/audit_rear_seating.py": {
       "bytes": 12768,
@@ -3154,6 +3158,162 @@
     "kicad-working/visualization/blender-case-revision-14/x0xb0x-populated-with-case.blend": {
       "bytes": 42902521,
       "sha256": "57ca42b29fb812022d24a0138ec96048a3085bc7262762e1660e87397050f2ae"
+    },
+    "kicad-working/visualization/blender-case-revision-15/README.md": {
+      "bytes": 3546,
+      "sha256": "f99631954c764016daf10f5d128007beb96080bf34c8ad6d92aaa0f6a00e6781"
+    },
+    "kicad-working/visualization/blender-case-revision-15/assembled.png": {
+      "bytes": 2586555,
+      "sha256": "a15be451322bd764ee090cfa73437dd34fd2c681f4734ea8b48bf184fa513030"
+    },
+    "kicad-working/visualization/blender-case-revision-15/control-side.png": {
+      "bytes": 3709812,
+      "sha256": "4dc3b272c468cacce674c3b36ca983f80b0874f3afdbc69a5b69e72de3427c57"
+    },
+    "kicad-working/visualization/blender-case-revision-15/exploded.png": {
+      "bytes": 2958351,
+      "sha256": "30da756cde21a3d82262c83470fccb0ed2398c6564a601b59e656e5a38bb18a1"
+    },
+    "kicad-working/visualization/blender-case-revision-15/rear-height-sections.png": {
+      "bytes": 196840,
+      "sha256": "705abd4fc15dc8ba77791d2c5a9d2231d184ebfd3b83e465d84096af4a85c474"
+    },
+    "kicad-working/visualization/blender-case-revision-15/rear-height-sections.svg": {
+      "bytes": 955957,
+      "sha256": "bc50d767847f8e446a7d237fd316fd1524aeb091eb5bf4e20019c9debe581444"
+    },
+    "kicad-working/visualization/blender-case-revision-15/rear-midi-detail.png": {
+      "bytes": 1359350,
+      "sha256": "982e5587d224c446eae5c94ac1114f6cfd165a9852dad6d72c2dcad2c6a79543"
+    },
+    "kicad-working/visualization/blender-case-revision-15/rear-openings-closeup.png": {
+      "bytes": 1463107,
+      "sha256": "e25c6418c8c92666e6d18e8f390e42dcdc8905a41b166f4d5bbb0a205cd06287"
+    },
+    "kicad-working/visualization/blender-case-revision-15/rear.png": {
+      "bytes": 2731255,
+      "sha256": "a66e66737f9c7e04482ca389833426b2f4eb2426b0a3177867fab89f05cc5d99"
+    },
+    "kicad-working/visualization/blender-case-revision-15/render-records.json": {
+      "bytes": 3007,
+      "sha256": "3936d61734834c8f46be31c8221d5bf7ed1b9e68bfef83462623fd3e464f610f"
+    },
+    "kicad-working/visualization/blender-case-revision-15/render_scene.py": {
+      "bytes": 4111,
+      "sha256": "5f494c0592b2c02d1178196fa5de9cf11c0078a66f876c0036ae867ec66f309c"
+    },
+    "kicad-working/visualization/blender-case-revision-15/revision-15-change-record.json": {
+      "bytes": 5860,
+      "sha256": "225fe805ac81adaab1b5151b8be831bc4627e3b5c7afadb0cf2c08020bb7268b"
+    },
+    "kicad-working/visualization/blender-case-revision-15/update_vertical_datum.py": {
+      "bytes": 8752,
+      "sha256": "67177ca3418b875fee8e0bdc87bb076b9d8fe57710c3529876594f65fa7c3f7d"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/README.md": {
+      "bytes": 2362,
+      "sha256": "7b94bb0954e03b404a771662075f758da9bc6186fd875e015f8013f57394bca5"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/after-scene.json.gz": {
+      "bytes": 947613,
+      "sha256": "6cf29d1fe05bd473c31dbd1c201d6b81c38a8fc1e091b916d59f2c507a35ed9c"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/audit_portability.py": {
+      "bytes": 427,
+      "sha256": "1c67479336884a383d144a8359680c86672c7a721b0ffa9f0806ab43060446f3"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/audit_saved_scene.py": {
+      "bytes": 12001,
+      "sha256": "06a734d754dc497b6b8bf49c28e2135f16ddb9163f796b19a89e0c5a9abe333b"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/before-scene.json.gz": {
+      "bytes": 946851,
+      "sha256": "66d85aba292ed2d83b16f404dca6798df205e383e0b8665a1164f1228813703f"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/extract_sections.py": {
+      "bytes": 5654,
+      "sha256": "409102d07924bca9572a362f0eac5ddc71c19c74311216a53313231dcd890ba9"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/final-render-review.json": {
+      "bytes": 2084,
+      "sha256": "08b87a73021556027d7bc37514ec2ed4f9883e6b90afb8c0992c020f0700a6c0"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/final-saved-scene-audit.json": {
+      "bytes": 2958,
+      "sha256": "eef9f23ffcfe5653114175046ff44b62150caaedb6083587e92d6a08981a026e"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/independent-validation-summary.json": {
+      "bytes": 13747,
+      "sha256": "6d3c07b5a9dbf7a88d5c64b72a21b61e6cd6e2e85c637cabb913bf21986c9852"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/io-contacts-revision-14.json": {
+      "bytes": 1200,
+      "sha256": "1b58b0685c6799ec29732a2762fe9fd462cfbec83095ee01b0afbb35ee63a2b5"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/io-contacts.json": {
+      "bytes": 838,
+      "sha256": "be37cda7be04b3ef6fff66c323308e1ed2e1a4de26597d4f47812637270dcdd5"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/make_section_figure.py": {
+      "bytes": 11423,
+      "sha256": "3f364baa585dcfad319a5a00bd81c7af7bb3a68b8822f98e14edca36cc632fe9"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/measure_rear_seating.py": {
+      "bytes": 13073,
+      "sha256": "a0c1740e6b3911ad980b9c0f326b436416c28674e7438eef45602a681561bdec"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/portable-scene-audit.json": {
+      "bytes": 12523,
+      "sha256": "22f00ca4c8437fbf2d7e248bd9ea9e707e0e1dce41d4941fb35febe7d3854c19"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/rear-openings-audit.json": {
+      "bytes": 119442,
+      "sha256": "891bf330f748c2fb927278b6da3825fc9be4083c9119917cad4401bdcbdb482a"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/rear-seating-audit.json": {
+      "bytes": 42504,
+      "sha256": "d43aa7c2dd270c5d29a5a27770182c1c9f392472229487d5fddc34083b84ee83"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/rear-seating-revision-14.json": {
+      "bytes": 42919,
+      "sha256": "2462f654b60caeff9d1ab200a1ede8a5c3e940c01206820d285e2d5136bddeeb"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/render-readonly-verification.json": {
+      "bytes": 321,
+      "sha256": "d7d2957b5b74df90e298addfba6510f2a19fc52cc67948a97e2de6f99fc061a6"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/run_verification.sh": {
+      "bytes": 1965,
+      "sha256": "bd42d2e9b2ff4f47c0299f76fe7c3cf3443778478daff20dea84c9ccdb4860d1"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/scene_snapshot.py": {
+      "bytes": 11397,
+      "sha256": "9c6576a9a05cba01736055f45d35e751edb1df57933c9b16b9c9e7faa1c8d642"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/screen_io_contacts.py": {
+      "bytes": 3364,
+      "sha256": "a8286960683fcb39159f526163e1587837cfcd241ee75f3cb2ad8afc33a0080c"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/sections-revision-14.json": {
+      "bytes": 1510134,
+      "sha256": "09af5dff51e4e6c276a906816f0db686f90d0f945a252457d28ef394f716cf64"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/sections.json": {
+      "bytes": 1511817,
+      "sha256": "3609b1cbe2b22d6cc07c5050779477fdb769f4d515764a90b1139ccf1b1cdc8a"
+    },
+    "kicad-working/visualization/blender-case-revision-15/verification/summarize_revision.py": {
+      "bytes": 11602,
+      "sha256": "19b7b918c1ea439b9c9cd2bf705eacb26f78034ee527eec58044d4cafd7b4cc2"
+    },
+    "kicad-working/visualization/blender-case-revision-15/wiring-study.png": {
+      "bytes": 3097166,
+      "sha256": "91560daf85a9598a28ab645a74ba9587a5df2e23eb034604cc17a3e9ea24fd52"
+    },
+    "kicad-working/visualization/blender-case-revision-15/x0xb0x-populated-with-case.blend": {
+      "bytes": 42903858,
+      "sha256": "931b2f7d935551c22a63b4c1261edaf8d9883112a3b4bb0f229971df18fdc149"
     },
     "kicad-working/visualization/blender-case-revision-7/README.md": {
       "bytes": 4279,
@@ -6124,5 +6284,5 @@
       "sha256": "229e988e352143042e6542e92902e2807940aa441e02b647f2c6dcaac9ad1e54"
     }
   },
-  "verification_note": "Current Blender14 evidence covers complete saved-file comparison with revision13, 974 rear rays, 106 portability checks, revision13/14 seating and I/O contact measurements and seven rendered views. KiCad12 native evidence and fresh I/O ERC/DRC are unchanged. Downloaded-model plate-datum measurements remain local-scene records; no physical-fit qualification."
+  "verification_note": "Current Blender15 evidence covers complete saved-file comparison with revision14, 974 rear rays, 106 portability checks, revision14/15 seating and I/O contact measurements and seven rendered views. KiCad12 native evidence and fresh I/O ERC/DRC are unchanged. Downloaded-model plate-datum measurements remain local-scene records; no physical-fit qualification."
 }

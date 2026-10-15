@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "check_count": 11,
+  "failures": [],
+  "checks": [
+    {
+      "check": "Change record pins the saved scene and its revision-14 baseline",
+      "passed": true
+    },
+    {
+      "check": "Object identities and native reference roots are retained",
+      "passed": true,
+      "object_count": 1661,
+      "native_reference_count": 491
+    },
+    {
+      "check": "No undeclared differences from revision 14",
+      "passed": true,
+      "unexpected_count": 0,
+      "first_unexpected": [],
+      "ignored_stale_hidden_object_matrix_entries": 0
+    },
+    {
+      "check": "Opening guide and revision properties are the only scene-level additions",
+      "passed": true
+    },
+    {
+      "check": "Every displayed I/O instance and visible moved object shifts by exactly the delta in all four views",
+      "passed": true,
+      "frames": [
+        "1",
+        "120",
+        "160",
+        "80"
+      ],
+      "displayed_io_instances_frame1": 194,
+      "parented_followers": [
+        "Historical detached Dimension outline \u2014 hidden reference"
+      ],
+      "failures": []
+    },
+    {
+      "check": "All 30 declared placement/study objects move by exactly the delta in matrix_basis",
+      "passed": true,
+      "moved": 30,
+      "failures": []
+    },
+    {
+      "check": "The three audio nut proxies follow the jack axes (collection delta; displayed by world delta)",
+      "passed": true,
+      "hardware": [
+        "HEADPHONE0 / black PA6 nut proxy",
+        "MIXIN0 / black PA6 nut proxy",
+        "MIXOUT0 / black PA6 nut proxy"
+      ],
+      "failures": []
+    },
+    {
+      "check": "Revision 14 axial plate datum is retained (no Y or X component in the delta)",
+      "passed": true
+    },
+    {
+      "check": "24 conductors: I/O end follows the delta; mainboard end and run beyond 20 mm unchanged",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "check": "Rear apertures pass on revision 14 and revision 15",
+      "passed": true,
+      "baseline": [
+        44,
+        974
+      ],
+      "final": [
+        44,
+        974
+      ]
+    },
+    {
+      "check": "Read-only audit left both saved scenes unchanged",
+      "passed": true
+    }
+  ],
+  "stable_scene_sha256": "931b2f7d935551c22a63b4c1261edaf8d9883112a3b4bb0f229971df18fdc149",
+  "baseline_sha256": "57ca42b29fb812022d24a0138ec96048a3085bc7262762e1660e87397050f2ae",
+  "native_reference_count": 491,
+  "world_delta_mm": [
+    0.0,
+    0.0,
+    0.08100046068429911
+  ],
+  "frames": 4,
+  "snapshot_sha256": {
+    "before-scene.json.gz": "66d85aba292ed2d83b16f404dca6798df205e383e0b8665a1164f1228813703f",
+    "after-scene.json.gz": "6cf29d1fe05bd473c31dbd1c201d6b81c38a8fc1e091b916d59f2c507a35ed9c"
+  },
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "method": "Fresh saved-file snapshots of revisions 14 and 15 compare all stored data and evaluated instance poses in four views; current 974 rear rays are replayed on both."
+}

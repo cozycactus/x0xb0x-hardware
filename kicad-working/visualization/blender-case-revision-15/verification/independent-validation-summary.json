@@ -1,0 +1,441 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-15",
+  "Blender_revision": 15,
+  "KiCad_revision": 12,
+  "scene": "kicad-working/visualization/blender-case-revision-15/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "931b2f7d935551c22a63b4c1261edaf8d9883112a3b4bb0f229971df18fdc149",
+  "scene_bytes": 42903858,
+  "baseline_scene_sha256": "57ca42b29fb812022d24a0138ec96048a3085bc7262762e1660e87397050f2ae",
+  "correction": "I/O component mounting plane raised onto the original rear-DXF height datum, 0.250 in (6.350 mm) above the rear plate lower edge; the three audio nuts follow the jack axes.",
+  "evidence": {
+    "rectangular_cutout_bottoms": [
+      {
+        "reference": "USB0",
+        "bottom_edge_mm": 6.35,
+        "bottom_edge_in": 0.25
+      },
+      {
+        "reference": "POWER0",
+        "bottom_edge_mm": 6.35,
+        "bottom_edge_in": 0.25
+      }
+    ],
+    "circular_holes": [
+      {
+        "reference": "DIN4",
+        "hole_center_above_plate_edge_mm": 16.3322,
+        "hole_center_in": 0.643,
+        "above_0_250in_datum_mm": 9.9822,
+        "modelled_axis_mm": 10.0,
+        "datum_axis_difference_mm": -0.0178
+      },
+      {
+        "reference": "MIXIN0",
+        "hole_center_above_plate_edge_mm": 14.351,
+        "hole_center_in": 0.565,
+        "above_0_250in_datum_mm": 8.001,
+        "modelled_axis_mm": 8.0,
+        "datum_axis_difference_mm": 0.001
+      },
+      {
+        "reference": "DIN3",
+        "hole_center_above_plate_edge_mm": 16.3322,
+        "hole_center_in": 0.643,
+        "above_0_250in_datum_mm": 9.9822,
+        "modelled_axis_mm": 10.0,
+        "datum_axis_difference_mm": -0.0178
+      },
+      {
+        "reference": "DIN2",
+        "hole_center_above_plate_edge_mm": 16.3322,
+        "hole_center_in": 0.643,
+        "above_0_250in_datum_mm": 9.9822,
+        "modelled_axis_mm": 10.0,
+        "datum_axis_difference_mm": -0.0178
+      },
+      {
+        "reference": "DIN1",
+        "hole_center_above_plate_edge_mm": 16.3322,
+        "hole_center_in": 0.643,
+        "above_0_250in_datum_mm": 9.9822,
+        "modelled_axis_mm": 10.0,
+        "datum_axis_difference_mm": -0.0178
+      },
+      {
+        "reference": "MIXOUT0",
+        "hole_center_above_plate_edge_mm": 14.351,
+        "hole_center_in": 0.565,
+        "above_0_250in_datum_mm": 8.001,
+        "modelled_axis_mm": 8.0,
+        "datum_axis_difference_mm": 0.001
+      },
+      {
+        "reference": "GATE0",
+        "hole_center_above_plate_edge_mm": 11.684,
+        "hole_center_in": 0.46,
+        "above_0_250in_datum_mm": 5.334,
+        "modelled_axis_mm": 5.5,
+        "datum_axis_difference_mm": -0.166
+      },
+      {
+        "reference": "CV0",
+        "hole_center_above_plate_edge_mm": 11.684,
+        "hole_center_in": 0.46,
+        "above_0_250in_datum_mm": 5.334,
+        "modelled_axis_mm": 5.5,
+        "datum_axis_difference_mm": -0.166
+      },
+      {
+        "reference": "HEADPHONE0",
+        "hole_center_above_plate_edge_mm": 14.351,
+        "hole_center_in": 0.565,
+        "above_0_250in_datum_mm": 8.001,
+        "modelled_axis_mm": 8.0,
+        "datum_axis_difference_mm": 0.001
+      }
+    ],
+    "interpretation": "Both rectangles start at 0.250 in. Audio and DIN holes sit their modelled axis heights above it within 0.001 and 0.018 mm. Only the MJ-3536N holes differ, 0.166 mm below a 5.5 mm axis.",
+    "nominal_feasible_window_mm": "POWER/USB bodies clear their cutouts at 6.350 mm or above; 3.0 mm CV/GATE bushings clear 3.175 mm holes up to about 6.359 mm. Gravity rests the POWER/USB bodies on the cutout bottoms."
+  },
+  "change": {
+    "world_delta_mm": [
+      0.0,
+      0.0,
+      0.08100046068429911
+    ],
+    "mounting_plane_mm": [
+      6.2689995393157005,
+      6.350000388920307
+    ],
+    "moved_objects": 30,
+    "moved_hardware": [
+      "HEADPHONE0 / black PA6 nut proxy",
+      "MIXIN0 / black PA6 nut proxy",
+      "MIXOUT0 / black PA6 nut proxy"
+    ],
+    "conductors_end_blended": 24,
+    "conductor_blend_length_mm": 20.0,
+    "revision14_axial_datum_retained": true
+  },
+  "ports": [
+    {
+      "reference": "POWER0",
+      "axis_minus_cutout_center_mm": [
+        0.5770021021871923,
+        0.6580024302511571
+      ],
+      "plate_mesh_overlap_mm3": [
+        1.1480147505048741,
+        0.0
+      ],
+      "shoulder_or_flange_minus_plate_inner_mm": [
+        null,
+        null
+      ],
+      "rectangle_clearance_mm": [
+        {
+          "left": 0.32599449157714844,
+          "right": 0.32599449157714844,
+          "bottom": -0.08099794387817383,
+          "top": 0.7649974822998047
+        },
+        {
+          "left": 0.32599449157714844,
+          "right": 0.32599449157714844,
+          "bottom": 2.86102294921875e-06,
+          "top": 0.6839981079101562
+        }
+      ]
+    },
+    {
+      "reference": "HEADPHONE0",
+      "axis_minus_cutout_center_mm": [
+        -0.08199851157199589,
+        -0.0009981835080310475
+      ],
+      "plate_mesh_overlap_mm3": [
+        0.004542438860974569,
+        0.004542438865521627
+      ],
+      "shoulder_or_flange_minus_plate_inner_mm": [
+        1.895427703857422e-05,
+        1.895427703857422e-05
+      ],
+      "bushing_to_faceted_hole_wall_mm": [
+        1.0539869434668212,
+        1.1348897010939947
+      ]
+    },
+    {
+      "reference": "MIXIN0",
+      "axis_minus_cutout_center_mm": [
+        -0.08199851157315408,
+        -0.0009981835091892322
+      ],
+      "plate_mesh_overlap_mm3": [
+        0.0015530697957048883,
+        0.0015530697970619158
+      ],
+      "shoulder_or_flange_minus_plate_inner_mm": [
+        1.0967254638671875e-05,
+        1.0967254638671875e-05
+      ],
+      "bushing_to_faceted_hole_wall_mm": [
+        1.053986705195845,
+        1.1348894647747896
+      ]
+    },
+    {
+      "reference": "MIXOUT0",
+      "axis_minus_cutout_center_mm": [
+        -0.08199851157910842,
+        -0.0009981835151435803
+      ],
+      "plate_mesh_overlap_mm3": [
+        0.0015530697441231442,
+        0.0015530697456842043
+      ],
+      "shoulder_or_flange_minus_plate_inner_mm": [
+        9.179115295410156e-06,
+        9.179115295410156e-06
+      ],
+      "bushing_to_faceted_hole_wall_mm": [
+        1.0539874549686674,
+        1.1348902145139617
+      ]
+    },
+    {
+      "reference": "CV0",
+      "axis_minus_cutout_center_mm": [
+        0.0850013837604422,
+        0.16600266549872345
+      ],
+      "plate_mesh_overlap_mm3": [
+        0.0,
+        0.0
+      ],
+      "shoulder_or_flange_minus_plate_inner_mm": [
+        -0.5079813003540039,
+        -0.5079813003540039
+      ],
+      "bushing_to_faceted_hole_wall_mm": [
+        0.08627596066200605,
+        0.0053722421282440536
+      ]
+    },
+    {
+      "reference": "GATE0",
+      "axis_minus_cutout_center_mm": [
+        0.08500138375944033,
+        0.16600266549772158
+      ],
+      "plate_mesh_overlap_mm3": [
+        0.0,
+        0.0
+      ],
+      "shoulder_or_flange_minus_plate_inner_mm": [
+        -0.5079944133758545,
+        -0.5079944133758545
+      ],
+      "bushing_to_faceted_hole_wall_mm": [
+        0.08627633413164437,
+        0.005372615660468316
+      ]
+    },
+    {
+      "reference": "USB0",
+      "axis_minus_cutout_center_mm": [
+        -0.6129984318700252,
+        -0.5319981038060604
+      ],
+      "plate_mesh_overlap_mm3": [
+        1.5357887400554344,
+        0.0
+      ],
+      "shoulder_or_flange_minus_plate_inner_mm": [
+        null,
+        null
+      ],
+      "rectangle_clearance_mm": [
+        {
+          "left": 0.329986572265625,
+          "right": 0.33000946044921875,
+          "bottom": -0.08099794387817383,
+          "top": 1.144998550415039
+        },
+        {
+          "left": 0.329986572265625,
+          "right": 0.33000946044921875,
+          "bottom": 2.86102294921875e-06,
+          "top": 1.0639972686767578
+        }
+      ]
+    },
+    {
+      "reference": "DIN1",
+      "axis_minus_cutout_center_mm": [
+        -0.06319888904632975,
+        0.017802392691951496
+      ],
+      "plate_mesh_overlap_mm3": [
+        0.0,
+        0.0
+      ],
+      "shoulder_or_flange_minus_plate_inner_mm": [
+        -0.5079894065856934,
+        -0.5079894065856934
+      ]
+    },
+    {
+      "reference": "DIN2",
+      "axis_minus_cutout_center_mm": [
+        -0.06319888904549487,
+        0.017802392692786384
+      ],
+      "plate_mesh_overlap_mm3": [
+        0.0,
+        0.0
+      ],
+      "shoulder_or_flange_minus_plate_inner_mm": [
+        -0.5079927444458008,
+        -0.5079927444458008
+      ]
+    },
+    {
+      "reference": "DIN3",
+      "axis_minus_cutout_center_mm": [
+        -0.06319888904393167,
+        0.017802392694349578
+      ],
+      "plate_mesh_overlap_mm3": [
+        0.0,
+        0.0
+      ],
+      "shoulder_or_flange_minus_plate_inner_mm": [
+        -0.5079810619354248,
+        -0.5079810619354248
+      ]
+    },
+    {
+      "reference": "DIN4",
+      "axis_minus_cutout_center_mm": [
+        -0.06319888904405246,
+        0.017802392694228786
+      ],
+      "plate_mesh_overlap_mm3": [
+        0.0,
+        0.0
+      ],
+      "shoulder_or_flange_minus_plate_inner_mm": [
+        -0.5079877376556396,
+        -0.5079877376556396
+      ]
+    }
+  ],
+  "columns": "[revision 14, revision 15]",
+  "audio_hardware": [
+    {
+      "reference": "HEADPHONE0",
+      "washer_eccentricity_mm": 0.000999903803385405,
+      "nut_eccentricity_mm": 2.8442095789671384e-07,
+      "nose_tip_beyond_nut_mm": 0.7252130508422852
+    },
+    {
+      "reference": "MIXIN0",
+      "washer_eccentricity_mm": 0.000999910625841463,
+      "nut_eccentricity_mm": 1.526143959744788e-05,
+      "nose_tip_beyond_nut_mm": 0.7251982688903809
+    },
+    {
+      "reference": "MIXOUT0",
+      "washer_eccentricity_mm": 0.0009998887959231852,
+      "nut_eccentricity_mm": 3.825285620603996e-06,
+      "nose_tip_beyond_nut_mm": 0.7251977920532227
+    }
+  ],
+  "io_contacts": {
+    "revision14_pairs": 5,
+    "revision15_pairs": 3,
+    "new_pairs": [],
+    "removed_pairs": [
+      [
+        "IOBOARD/POWER0/mesh",
+        "iopanel \u2014 exact DXF profile"
+      ],
+      [
+        "IOBOARD/USB0/mesh",
+        "iopanel \u2014 exact DXF profile"
+      ]
+    ]
+  },
+  "nut_finding": "Raising only the board left the three audio nut proxies 0.081 mm off the jack axes and the rear-opening verifier failed their bushing clearance in a local trial; the nuts thread onto the jacks, so they move with the board.",
+  "verification": {
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-15/verification/final-saved-scene-audit.json",
+      "sha256": "eef9f23ffcfe5653114175046ff44b62150caaedb6083587e92d6a08981a026e",
+      "passed": true,
+      "check_count": 11
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-15/verification/rear-openings-audit.json",
+      "sha256": "891bf330f748c2fb927278b6da3825fc9be4083c9119917cad4401bdcbdb482a",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-15/verification/portable-scene-audit.json",
+      "sha256": "22f00ca4c8437fbf2d7e248bd9ea9e707e0e1dce41d4941fb35febe7d3854c19",
+      "passed": true,
+      "check_count": 106
+    },
+    "rear_seating_revision14": {
+      "report": "kicad-working/visualization/blender-case-revision-15/verification/rear-seating-revision-14.json",
+      "sha256": "2462f654b60caeff9d1ab200a1ede8a5c3e940c01206820d285e2d5136bddeeb",
+      "kind": "measurement; outcomes asserted by summarize_revision.py"
+    },
+    "rear_seating": {
+      "report": "kicad-working/visualization/blender-case-revision-15/verification/rear-seating-audit.json",
+      "sha256": "d43aa7c2dd270c5d29a5a27770182c1c9f392472229487d5fddc34083b84ee83",
+      "kind": "measurement; outcomes asserted by summarize_revision.py"
+    },
+    "io_contacts_revision14": {
+      "report": "kicad-working/visualization/blender-case-revision-15/verification/io-contacts-revision-14.json",
+      "sha256": "1b58b0685c6799ec29732a2762fe9fd462cfbec83095ee01b0afbb35ee63a2b5",
+      "kind": "measurement; outcomes asserted by summarize_revision.py",
+      "contact_pairs": 5
+    },
+    "io_contacts": {
+      "report": "kicad-working/visualization/blender-case-revision-15/verification/io-contacts.json",
+      "sha256": "be37cda7be04b3ef6fff66c323308e1ed2e1a4de26597d4f47812637270dcdd5",
+      "kind": "measurement; outcomes asserted by summarize_revision.py",
+      "contact_pairs": 3,
+      "new_pairs": 0
+    },
+    "render_readonly": {
+      "report": "kicad-working/visualization/blender-case-revision-15/verification/render-readonly-verification.json",
+      "sha256": "d7d2957b5b74df90e298addfba6510f2a19fc52cc67948a97e2de6f99fc061a6",
+      "passed": true
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-15/verification/final-render-review.json",
+      "sha256": "08b87a73021556027d7bc37514ec2ed4f9883e6b90afb8c0992c020f0700a6c0",
+      "passed": true,
+      "view_count": 7
+    }
+  },
+  "unchanged": [
+    "Original Eagle files",
+    "KiCad revision-12 projects, copper, footprints and placement",
+    "All meshes, materials, keyframes, case, plate, washers and mainboard poses",
+    "Revision 14 axial plate datum",
+    "Blender revisions 7-14 baselines"
+  ],
+  "limitations": [
+    "The original CV/GATE holes imply a 5.334 mm (0.21 in) jack axis; the current MJ-3536N drawing gives 5.5 mm, so the modelled bushings clear the holes by only about 0.005 mm.",
+    "USB envelope axis 5.31 mm remains a generic choice, not a recovered datum.",
+    "Historical part variants, terminal registration, tolerances and physical fit are unqualified."
+  ],
+  "physical_fit_qualified": false
+}
