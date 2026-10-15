@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "check_count": 10,
+  "checks": [
+    {
+      "check": "Both frozen files match recorded hashes",
+      "passed": true
+    },
+    {
+      "check": "All1721 object identities retained with none added",
+      "passed": true
+    },
+    {
+      "check": "Only declared PTC mesh data and source/guide metadata change",
+      "passed": true,
+      "unexpected": []
+    },
+    {
+      "check": "All14 PTC meshes match recorded old and new exact native geometry",
+      "passed": true
+    },
+    {
+      "check": "All materials are retained exactly with none added",
+      "passed": true
+    },
+    {
+      "check": "491 references,40 LEDs,40 spacers and23 caps retained",
+      "passed": true
+    },
+    {
+      "check": "Every displayed instance pose and legend glyph retained in four frames",
+      "passed": true
+    },
+    {
+      "check": "Only one current opening guide added",
+      "passed": true
+    },
+    {
+      "check": "All rear passages remain clear",
+      "passed": true
+    },
+    {
+      "check": "Frozen scene files remain byte-identical after audit",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "stable_scene_sha256": "bd52b26392eeb97c6079c8a1d74f11981ec7d61d0a07811d1967d6c0aeb8cd9c",
+  "baseline_sha256": "9666132150c6ed12e9ee3a78113ad0b1392d5d023d0ec74fba4009433bacec58",
+  "frames": 4,
+  "native_reference_count": 491,
+  "stored_object_count": 1721,
+  "changed_geometry_objects": [
+    "MAINBOARD/R100A0/mesh",
+    "MAINBOARD/R100A0/mesh.001",
+    "MAINBOARD/R100A0/mesh.002",
+    "MAINBOARD/R100A0/mesh.003",
+    "MAINBOARD/R100A0/mesh.004",
+    "MAINBOARD/R100A0/mesh.005",
+    "MAINBOARD/R100A0/mesh.006",
+    "MAINBOARD/R100B0/mesh",
+    "MAINBOARD/R100B0/mesh.001",
+    "MAINBOARD/R100B0/mesh.002",
+    "MAINBOARD/R100B0/mesh.003",
+    "MAINBOARD/R100B0/mesh.004",
+    "MAINBOARD/R100B0/mesh.005",
+    "MAINBOARD/R100B0/mesh.006"
+  ],
+  "added_materials": [],
+  "read_only": true,
+  "physical_fit_qualified": false
+}

@@ -1,0 +1,38 @@
+{
+  "revision": 20,
+  "baseline_revision": 19,
+  "model": "Revision20/ptc-quality/Microohm_LPTC12_PrimaryDimensions_Terminals.step",
+  "model_sha256": "470cfe9c2fb0a6f9b2d9bdbc6018d2a733996c282af571e2571752c1dd104ace",
+  "previous_model": "Revision13/terminals/Microohm_LPTC12T21001_ApproxBody_Terminals.step",
+  "previous_model_sha256": "82c88429f12447c5011f8dcbd61e9a1f88a288a87d94aba929b8b463ca96f58b",
+  "references": [
+    "R100A0",
+    "R100B0"
+  ],
+  "drawing": {
+    "file": "sources/micro-ohm-precision-film-sensor-user.pdf",
+    "sha256": "8a19c37cbf8febdb018d35d1839ed14427b22c3c40639ca24783f66529632192",
+    "title": "Micro-Ohm Precision Film Temperature Sensor Type LPTC",
+    "page": 1,
+    "original_url": "http://www.micro-ohm.com/temperature/temprecflm.html",
+    "retrieval": "User printed the archived manufacturer HTML page to PDF; original downloaded PDF preserved byte-for-byte",
+    "archive_capture_timestamp": "Not established by the printed PDF; CDX records retained separately"
+  },
+  "dimensions_mm": {
+    "body_length": 3.7,
+    "body_diameter": 1.9,
+    "lead_diameter": 0.45,
+    "original_board_pitch": 10.16,
+    "illustrated_body_standoff": 0.4,
+    "illustrated_bend_radius": 0.75,
+    "retained_solder_tip_z": -3.1
+  },
+  "limitations": [
+    "Independent nominal reconstruction from the original manufacturer family page; not manufacturer CAD or measurement of the fitted historical part",
+    "0.4mm body standoff,0.75mm lead bend radius, formed lead paths and trimmed tails are installation illustrations",
+    "End tapers,0.18mm band widths, band positions and recessed0.01mm coating thickness are illustrative",
+    "Original BOM color sequence retained; no new electrical TCR/band-code certification inferred from the drawing",
+    "Source table provides no dimensional tolerance; actual fitted package/assembly fit remains unqualified"
+  ],
+  "physical_fit_qualified": false
+}

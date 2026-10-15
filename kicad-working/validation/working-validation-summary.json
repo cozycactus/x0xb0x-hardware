@@ -1,6 +1,6 @@
 {
-  "revision": "Working revision19: STD240B spacers added under40 unchanged LEDs",
-  "created_utc": "2026-10-15T19:00:18.523307+00:00",
+  "revision": "Working revision20: Micro-Ohm LPTC12 source-dimensioned PTC bodies and leads",
+  "created_utc": "2026-10-15T21:07:32.382987+00:00",
   "native_kicad_version": "10.0.7",
   "projects": {
     "mainboard": {
@@ -23,12 +23,12 @@
               "uuid": "651d28fa-8333-4604-9ae3-ea635ae2bc15"
             },
             {
-              "description": "Track [GND] on B.Cu, length 5.3882 mm",
+              "description": "Track [GND] on B.Cu, length 30.0990 mm",
               "pos": {
-                "x": 159.131,
+                "x": 129.032,
                 "y": -108.204
               },
-              "uuid": "e14ad63c-d290-4cb6-920f-664cc609ad61"
+              "uuid": "279a155e-4995-4b23-80ff-01a1e6b1c40b"
             }
           ],
           "severity": "error",
@@ -38,12 +38,12 @@
           "description": "Missing connection between items",
           "items": [
             {
-              "description": "Track [+5V] on B.Cu, length 0.9699 mm",
+              "description": "PTH pad 1 [+5V] of S22",
               "pos": {
-                "x": 105.41,
-                "y": -31.1658
+                "x": 104.7242,
+                "y": -31.8516
               },
-              "uuid": "1abde9c4-d830-4cca-95fd-855c37dfd5b8"
+              "uuid": "f28f01e2-da6a-4a39-95a9-b8e48f2793b0"
             },
             {
               "description": "Track [+5V] on B.Cu, length 19.5580 mm",
@@ -91,12 +91,12 @@
           "description": "Missing connection between items",
           "items": [
             {
-              "description": "PTH pad S [GND] of MIXOUT0",
+              "description": "Track (arc) [GND] on F.Cu, length 3.3411 mm",
               "pos": {
-                "x": 99.54,
+                "x": 101.667,
                 "y": -3.842
               },
-              "uuid": "5ce3eba1-b809-418c-92f5-642bf92fe6b9"
+              "uuid": "213a7286-c228-48cf-8b59-b6bfff39663b"
             },
             {
               "description": "Track [GND] on B.Cu, length 4.4730 mm",
@@ -280,6 +280,7 @@
     "mainboard/3dmodels/REVISION-16-SOURCES.json": "2499dc3b51cc90375c99266e4745a58c11318e326adf8aaf942c868cc4a03b8d",
     "mainboard/3dmodels/REVISION-17-SOURCES.json": "dfe8af923440a3c469ee956fc52dfd56b568694434172a47479da741630068e7",
     "mainboard/3dmodels/REVISION-19-SOURCES.json": "66ba8310ce1e3d3764900738d3a43e6e2cc8e629314309689dfa3d933005b1dd",
+    "mainboard/3dmodels/REVISION-20-SOURCES.json": "0bf7c14deeaaf4a6a8f3616b58587efbc2a8d9b261d3135bfa980b5a1355717a",
     "mainboard/3dmodels/REVISION-5-INTERSECTIONS.json": "aaf6dbdbbfc1f0861cb64988205925cf68b4ceb4a69a5682bc04d0f3b4cf7a57",
     "mainboard/3dmodels/REVISION-5-SOURCES.json": "5f7d9d98f44ab69f87cbef05bb19161d7d7cc596cc89a204be8f8b64126a8513",
     "mainboard/3dmodels/REVISION-6-SOURCES.json": "bc5734dc671a86cb3fab9048f76b1febcaf7c7f4fe9580d90f8335161e9b416e",
@@ -305,6 +306,7 @@
     "mainboard/3dmodels/Revision16/terminals/Grayhill_25LB22H_PhotoDrawing_Terminals.step": "83e62824f66ef4e9c761cdb8a5bb25482979cd041551f48196b0a130ddc99f74",
     "mainboard/3dmodels/Revision17/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState_MetalLegs.step": "fe2ecfc02dd78ddbcee51a5399c89b530fd4728f3744b261cc046419687b97c3",
     "mainboard/3dmodels/Revision19/led-spacer-quality/LED5mm_STD240B_WithSpacer.step": "5a2ebfe46cfef093d90161faa047dd64c79ef5ec6b2508903e0902147afbda37",
+    "mainboard/3dmodels/Revision20/ptc-quality/Microohm_LPTC12_PrimaryDimensions_Terminals.step": "470cfe9c2fb0a6f9b2d9bdbc6018d2a733996c282af571e2571752c1dd104ace",
     "mainboard/3dmodels/Revision5/integrated-models/Resonator_AWCR16MD_MaxBody_P2.54_Illustration.step": "a9cab63f2cba58e776998905e5234d17f380e69914a32637e3c28c6bba854b08",
     "mainboard/3dmodels/Revision5/integrated-models/SIP9_BA6110_NominalBody_P2.54_Illustration.step": "622e8623379f94e50032a7580650d2bc80fccb2a417783c2abe0e08656dd3e1e",
     "mainboard/3dmodels/Revision5/integrated-models/SIP9_LA4140_3017C_MaxBody_P2.54_Illustration.step": "75aa32f403890c20388e09bd30915dd194f7ede3de01e86291f05a7f5e390045",
@@ -420,66 +422,28 @@
     "mainboard/mainboard-import-fps.pretty/MA12-1.kicad_mod": "046afa536815f3d80840737cf31f67ada5aed8ab451ef6d0c1c35fe27d78495a",
     "mainboard/mainboard-import-fps.pretty/NKKTOGGLE.kicad_mod": "a05e91f915d5b320a9bee42749fe91635b9b3e353b4deaeac9e42be20d68c49d",
     "mainboard/mainboard-import-fps.pretty/PEC11-S.kicad_mod": "62a537ce1685abd597b20d5b4aae4273c452854369371225d3b7d55726984db2",
-    "mainboard/mainboard-import-fps.pretty/R-7,5.kicad_mod": "56baae0ffa2427868a9b0542df26e91025cb5b25fb09d32489fadb656c455e09",
+    "mainboard/mainboard-import-fps.pretty/R-7,5.kicad_mod": "e85eb19162ee758aa18790f2e2cc30629aec67aac070760dccf3d321f4ed1bbf",
     "mainboard/mainboard-import-fps.pretty/SIP9.kicad_mod": "fd2162f50298bcac99197e429d3a041cfb040635968859e979d814b8b7f24f6c",
     "mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod": "04c416963cb00adb9fcc994e45f410e4e98879390fdac0d3ed0579db6d9e15c5",
     "mainboard/mainboard-import-fps.pretty/TO92.kicad_mod": "99da721afd86004a7dc19853af8b9a52c1c66e308941fb7162e97d8d30bfc717",
-    "mainboard/mainboard.kicad_pcb": "c3013242c3c69322ad8e7401ad9bb4e5b2ffeac050ff9d3a69afbb8b5fbe5fad",
+    "mainboard/mainboard.kicad_pcb": "b867f88ea0fc056ddf4ee74d937c060c87f9ad2a720499ce58f4c9cc53bf59f9",
     "mainboard/mainboard.kicad_pro": "87aeeeb92fe20492ff1aa73b261114cafb57b0553370ec2d9eafded5886ae873",
     "mainboard/mainboard.kicad_sch": "048af535f76cfa6b3acc6b1bd9a9c603b213b7dd0de759cf7f848d8f7856e190",
     "mainboard/sym-lib-table": "ab580635180f3beb7cc7aa3941e515c3e1461bef4ee63ec6679fad3c76336702"
   },
   "model_references": 491,
   "updated_model_references": [
-    "LED1",
-    "LED10",
-    "LED11",
-    "LED12",
-    "LED13",
-    "LED14",
-    "LED15",
-    "LED16",
-    "LED17",
-    "LED18",
-    "LED19",
-    "LED2",
-    "LED20",
-    "LED21",
-    "LED22",
-    "LED23",
-    "LED24",
-    "LED25",
-    "LED26",
-    "LED27",
-    "LED28",
-    "LED29",
-    "LED3",
-    "LED30",
-    "LED31",
-    "LED32",
-    "LED33",
-    "LED34",
-    "LED35",
-    "LED36",
-    "LED37",
-    "LED38",
-    "LED39",
-    "LED4",
-    "LED40",
-    "LED5",
-    "LED6",
-    "LED7",
-    "LED8",
-    "LED9"
+    "R100A0",
+    "R100B0"
   ],
-  "previous_core_files": 293,
+  "previous_core_files": 295,
   "changed_previous_core_files": [
-    "mainboard/mainboard-import-fps.pretty/LED5MM.kicad_mod",
+    "mainboard/mainboard-import-fps.pretty/R-7,5.kicad_mod",
     "mainboard/mainboard.kicad_pcb"
   ],
   "new_core_files": [
-    "mainboard/3dmodels/Revision19/led-spacer-quality/LED5mm_STD240B_WithSpacer.step",
-    "mainboard/3dmodels/REVISION-19-SOURCES.json"
+    "mainboard/3dmodels/Revision20/ptc-quality/Microohm_LPTC12_PrimaryDimensions_Terminals.step",
+    "mainboard/3dmodels/REVISION-20-SOURCES.json"
   ],
   "fresh_DRC_comparison_to_previous": {
     "mainboard": {
@@ -493,7 +457,7 @@
       "violations": true,
       "schematic_parity": true,
       "ignored_checks": true,
-      "unconnected_items_raw": true,
+      "unconnected_items_raw": false,
       "unconnected_count_and_nets": true
     }
   },
@@ -733,24 +697,26 @@
     }
   ],
   "reports": {
-    "installation-audit.json": "d90653831e7d72cedef34538bc2a031bc3a70f27b5d98a646cc6ce690225052c",
-    "combined-model-plan.json": "4b2dce1b9e280d27b2b8f1dd96dc3835536e351f6be209b769c6973e232af995",
-    "led-spacer-quality/installed-spacer-audit.json": "a8bf1c65fe88dc6a3886beaa37d63f1399b06a057f51447215351e7a2e5f9dea",
-    "native-export-record.json": "ace501d0d67d1b418d11fe2fd18715f22718bbd6aae9532cbc7c173e158d6a39",
-    "native-terminal-audit.json": "7cf67307156f6721d14711438582ef3217c083ce60dec20fba9fdacb2ab94456",
-    "native-run-records.json": "c2c9655e317a98b43ba90328a282834df67915ba7a72faf4cf6c0965a028901f",
+    "installation-audit.json": "02ad9efd10c07b8658880ec955fc51fd262e390a4e0594b8eef16ee92a899a3c",
+    "combined-model-plan.json": "716d825a35f0dd4af5758956e3af3806db50505dffe795f8334d31a27bfe2008",
+    "ptc-quality/ptc-model-audit.json": "ac5d5765dd251044a5ffe6aedbb3292644f1e4faa2e1056bbd4ee6b8da869b9f",
+    "native-export-record.json": "6bde7dc68254d0892dd4d881146625ea3f2af124dc5dafa99dccaf4c75e662c4",
+    "native-terminal-audit.json": "02f1a6b8a28cd8ee98c91e771c30c9f88979e6619125fb4bf436d3a47305a41e",
+    "native-run-records.json": "705f3c04bd57810686cd7c022f1aa6fd06c0dd71af3c319e872c07839a3b423e",
     "current-function-source-evidence.json": "f1cb753ce666469c5cf1dc3b94614816eb18eceb881d6719cd75833bab8ed1c9",
-    "current-function-verification.json": "d9d2e8014ff6d4a73ac61042c65b51ac5aa851de4562287cf9caec12371f4254",
+    "current-function-verification.json": "4b38ce615cb0e5733e3ba2e261ec165a64c73d422953ec7dedd9909cc5bbe4d4",
     "local-dependencies.json": "c22a49b5e2c84faf200356daeaaa5f86440db3c6ea0321469d80924e11400f7c",
-    "mainboard-drc.json": "31731003d35381a7a298d66e5bbbe8db9644c4b7ae277b1de59413548f234785",
-    "mainboard-erc.json": "56cc994599940376efe9f5800ba04980ad43262a81b161af7ac2a953d6dcf4a8",
-    "ioboard-drc.json": "9676f63f9373da901b61709694f4e7ddb94b5047744805a3fa7fb61f4c2c7c18",
-    "ioboard-erc.json": "78bcf0cf86a54d45af16f09cc667193012b6439a9436c2c7c194ff3789295287"
+    "mainboard-drc.json": "f4e52bc681fa19970fe11b6776a4fe2e6c9352181678f284dfe3310752c071ee",
+    "mainboard-erc.json": "db3534cb66abd1231be10685cf2ec89f881f4ca487502bd819213061367e36f5",
+    "ioboard-drc.json": "aa12329bec64056cca02b605b8f6e6fbfdd790bee7c999d6f4eec9776e06b3e3",
+    "ioboard-erc.json": "e4b2a30b1152a033a3a9dd4b95c165915dabd2f9e18d9b6a603323e33b91c982"
   },
-  "baseline_summary": "validation/working-validation-summary-revision-18.json",
-  "baseline_summary_sha256": "d73459dffd06bc5fb91452f6947df52cd592acc401cc83f09f06510d00c809a8",
-  "scope": "Forty LED STEP paths and one matching footprint-cache path only. Original LED bodies, leads, optics, seating height and all PCB/model transforms retained. VCC STDxxxBLK_A rev001 resolves total spacer length including end lands. Source Eagle, copper, pads, drills, nets, footprint poses and rules preserved.",
+  "baseline_summary": "validation/working-validation-summary-revision-19.json",
+  "baseline_summary_sha256": "424068bac41b778dd0098f8719ea75bb0c5e901fdd901888ad485661c339f73b",
+  "scope": "Two PTC STEP paths and one matching footprint-cache path only. Body3.7x1.9mm and lead0.45mm dimensions follow the recovered original Micro-Ohm LPTC12 page. Original Eagle, copper, pads, drills, nets, footprint poses and model transforms preserved.",
   "limitations": [
+    "PTC end tapers, bands,0.4mm body standoff,0.75mm lead bends and trimmed tails are installation illustrations.",
+    "PTC table has no dimensional tolerances; TCR/band-code and actual thermal coupling remain unqualified.",
     "Spacer central bore/end-land radii are illustrative and compliant retention tabs omitted.",
     "Original0.24-inch BOM versus0.22-inch sequencer spacer height remains unresolved.",
     "Terminal thicknesses, bends and several widths are labelled assumptions in terminal_spec.py.",

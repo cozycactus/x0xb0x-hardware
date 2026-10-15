@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "kicad_revision": 20,
+  "blender_revision": 23,
+  "references": [
+    "R100A0",
+    "R100B0"
+  ],
+  "source": {
+    "file": "sources/micro-ohm-precision-film-sensor-user.pdf",
+    "sha256": "8a19c37cbf8febdb018d35d1839ed14427b22c3c40639ca24783f66529632192",
+    "title": "Micro-Ohm Precision Film Temperature Sensor Type LPTC",
+    "page": 1,
+    "original_url": "http://www.micro-ohm.com/temperature/temprecflm.html",
+    "retrieval": "User printed the archived manufacturer HTML page to PDF; original downloaded PDF preserved byte-for-byte",
+    "archive_capture_timestamp": "Not established by the printed PDF; CDX records retained separately"
+  },
+  "model_sha256": "470cfe9c2fb0a6f9b2d9bdbc6018d2a733996c282af571e2571752c1dd104ace",
+  "scene_sha256": "bd52b26392eeb97c6079c8a1d74f11981ec7d61d0a07811d1967d6c0aeb8cd9c",
+  "dimensions_mm": {
+    "previous": {
+      "body_length": 7.62,
+      "body_diameter": 2.54,
+      "lead_diameter": 0.5
+    },
+    "current": {
+      "body_length": 3.7,
+      "body_diameter": 1.9,
+      "lead_diameter": 0.45
+    },
+    "preserved": {
+      "board_pitch": 10.16,
+      "illustrated_body_standoff": 0.4,
+      "illustrated_bend_radius": 0.75,
+      "solder_tip_z": -3.1
+    }
+  },
+  "reason": "Previous body dimensions followed the Eagle footprint outline. Original Micro-Ohm LPTC12 family page recovered by the user gives much smaller nominal body and full lead dimensions.",
+  "preservation": "Only two native PCB model paths, one matching footprint-cache path and14 existing Blender PTC meshes change. Copper, pads, drills, footprints, model transforms, existing scene objects/materials, LEDs/spacers, caps, case, camera poses and animation are preserved.",
+  "source_archive_note": "Printed browser PDF preserved byte-for-byte. CDX records establish available historical captures but the exact replay timestamp of the user print is not recorded.",
+  "validation": {
+    "solid_geometry_checks": 33,
+    "saved_scene_checks": 10,
+    "native_terminal_checks": 32,
+    "native_models_compared_identical": 491,
+    "portability_checks": 106,
+    "rear_opening_checks": 44,
+    "rear_opening_rays": 974,
+    "drilled_models_checked": 489,
+    "new_ptc_external_contacts": 0,
+    "current_neighbour_mesh_tests": 121,
+    "ptc_holes_checked": 4,
+    "ptc_nominal_radial_drill_margin_mm": 0.275,
+    "fresh_erc_errors": {
+      "mainboard": 0,
+      "ioboard": 0
+    },
+    "fresh_erc_warnings": {
+      "mainboard": 0,
+      "ioboard": 0
+    }
+  },
+  "known_nominal_fit_findings_unchanged": 11,
+  "existing_missing_connections_unchanged": 3,
+  "limitations": [
+    "Independent nominal reconstruction from the original manufacturer family page; not manufacturer CAD or measurement of the fitted historical part",
+    "0.4mm body standoff,0.75mm lead bend radius, formed lead paths and trimmed tails are installation illustrations",
+    "End tapers,0.18mm band widths, band positions and recessed0.01mm coating thickness are illustrative",
+    "Original BOM color sequence retained; no new electrical TCR/band-code certification inferred from the drawing",
+    "Source table provides no dimensional tolerance; actual fitted package/assembly fit remains unqualified"
+  ],
+  "physical_fit_qualified": false,
+  "reports": {
+    "native": "kicad-working/validation/working-validation-summary-revision-20.json",
+    "scene": "kicad-working/visualization/blender-case-revision-23/verification/final-saved-scene-audit.json",
+    "geometry": "kicad-working/validation/models-review-20/ptc-quality/ptc-model-audit.json",
+    "neighbours": "kicad-working/visualization/blender-case-revision-23/verification/ptc-neighbour-audit.json"
+  }
+}

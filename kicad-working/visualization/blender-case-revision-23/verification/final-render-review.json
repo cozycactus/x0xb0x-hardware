@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "review": "Visual inspection of all six current PNGs",
+  "scene_sha256": "bd52b26392eeb97c6079c8a1d74f11981ec7d61d0a07811d1967d6c0aeb8cd9c",
+  "images": {
+    "assembled": {
+      "path": "assembled.png",
+      "sha256": "42100677cccd747c956c6c67e142b857a9e48b4d666d0bb9713334e0997cb001"
+    },
+    "exploded": {
+      "path": "exploded.png",
+      "sha256": "90ea9b923166c2234d139258796d3924b3623d8624d428f609eafbd566729d5f"
+    },
+    "control-side": {
+      "path": "control-side.png",
+      "sha256": "61404eb91cfc64b9cf530c0af5dad4b062345840c6ad0d3537344938cb195a8d"
+    },
+    "ptc-before": {
+      "path": "ptc-before.png",
+      "sha256": "0ebcca9e65eb8e46c9477a4a759be18e8a9c8fb55740c1139b6060f5549f0fa7"
+    },
+    "ptc-after": {
+      "path": "ptc-after.png",
+      "sha256": "88f228ea1dbdf5253c01cad1154033d7049f833368b27a2479c5ac48316c7704"
+    },
+    "ptc-installed": {
+      "path": "ptc-installed.png",
+      "sha256": "480884cb9bc3c1ad27fd57b9865e12971601bda9db309b974dc38226b82b2d05"
+    }
+  },
+  "observations": [
+    "Same-scale before/after views show the smaller primary-dimensioned PTC body and thinner full leads",
+    "Installed diagnostic clearly shows both PTCs, their original four PCB holes and adjacent components",
+    "Inspection camera ray screen confirms the actual PTC body is unobstructed; temporary lighting is not saved",
+    "Assembled panel appearance, exploded assembly and control-side inspection remain preserved"
+  ],
+  "physical_fit_qualified": false
+}

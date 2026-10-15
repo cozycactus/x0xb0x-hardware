@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "mainboard/mainboard.kicad_pcb",
+      "before_sha256": "c3013242c3c69322ad8e7401ad9bb4e5b2ffeac050ff9d3a69afbb8b5fbe5fad",
+      "after_sha256": "b867f88ea0fc056ddf4ee74d937c060c87f9ad2a720499ce58f4c9cc53bf59f9",
+      "model_nodes_only": true,
+      "replaced_model_path_count": 2,
+      "non_model_nodes_identical": true,
+      "model_transforms_identical": true
+    },
+    {
+      "file": "mainboard/mainboard-import-fps.pretty/R-7,5.kicad_mod",
+      "before_sha256": "56baae0ffa2427868a9b0542df26e91025cb5b25fb09d32489fadb656c455e09",
+      "after_sha256": "e85eb19162ee758aa18790f2e2cc30629aec67aac070760dccf3d321f4ed1bbf",
+      "model_nodes_only": true,
+      "replaced_model_path_count": 1,
+      "non_model_nodes_identical": true,
+      "model_transforms_identical": true
+    }
+  ],
+  "previous_core_file_count": 295,
+  "changed_previous_core_files": [
+    "mainboard/mainboard-import-fps.pretty/R-7,5.kicad_mod",
+    "mainboard/mainboard.kicad_pcb"
+  ],
+  "new_core_files": [
+    "mainboard/3dmodels/Revision20/ptc-quality/Microohm_LPTC12_PrimaryDimensions_Terminals.step",
+    "mainboard/3dmodels/REVISION-20-SOURCES.json"
+  ],
+  "component_references_updated": 2,
+  "references": {
+    "LPTC": [
+      "R100A0",
+      "R100B0"
+    ]
+  },
+  "total_fitted_model_references": 491,
+  "copper_pads_nets_footprint_poses_schematics_and_project_rules_unchanged": true,
+  "model_transforms_unchanged": true,
+  "source_Eagle_files_unchanged": true,
+  "old_STEP_preserved": true,
+  "physical_fit_qualified": false
+}
