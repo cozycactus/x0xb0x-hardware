@@ -1,0 +1,253 @@
+{
+  "schema": 1,
+  "revision": 23,
+  "generator": "build_sockets.py",
+  "passed": true,
+  "check_count": 30,
+  "checks": [
+    {
+      "check": "IC3: KiCad DIP is one solid with a colour per face",
+      "passed": true
+    },
+    {
+      "check": "IC3: 40 chip pins found below the seat",
+      "passed": true,
+      "pins": 40
+    },
+    {
+      "check": "IC3: chip pin 1 at the model origin",
+      "passed": true
+    },
+    {
+      "check": "IC3: TE model matches the recorded hash",
+      "passed": true
+    },
+    {
+      "check": "IC3: TE socket is one valid solid with its top at z=0",
+      "passed": true
+    },
+    {
+      "check": "IC3: socket notch end identified",
+      "passed": true,
+      "end_volumes": {
+        "-1": 81.74482603024256,
+        "1": 80.089600161399
+      },
+      "notch_end": "+X"
+    },
+    {
+      "check": "IC3: socket geometry unchanged by placement (volume)",
+      "passed": true
+    },
+    {
+      "check": "IC3: every socket tail lies on a chip pin axis (and so on its pad)",
+      "passed": true,
+      "worst_mm": 1.42580222416033e-14
+    },
+    {
+      "check": "IC3: tails are 0.17 x 0.60 mm flats, diagonal inside the 0.8128 mm drill",
+      "passed": true,
+      "tail_sizes": [
+        [
+          0.17,
+          0.6
+        ]
+      ],
+      "nominal_corner_margin_mm": 0.0946
+    },
+    {
+      "check": "IC3: socket seating plane on the board and top 5.1 mm above it",
+      "passed": true
+    },
+    {
+      "check": "IC3: placed socket notch (lighter end wall) is at the chip pin-1 end",
+      "passed": true,
+      "end_volumes": [
+        81.745,
+        80.09
+      ]
+    },
+    {
+      "check": "IC3: raised chip body clears the socket top and its pin tips stay above the board",
+      "passed": true,
+      "body_bottom_mm": 5.48,
+      "pin_tip_mm": 1.8
+    },
+    {
+      "check": "IC3: contact faces reaching below the board are tin; every black face lies on or above the board",
+      "passed": true
+    },
+    {
+      "check": "IC3: saved STEP keeps socket and chip solids, faces and volumes in order",
+      "passed": true
+    },
+    {
+      "check": "IC3: every face carries a colour style",
+      "passed": true,
+      "styled": 1942
+    },
+    {
+      "check": "IC2: KiCad DIP is one solid with a colour per face",
+      "passed": true
+    },
+    {
+      "check": "IC2: 8 chip pins found below the seat",
+      "passed": true,
+      "pins": 8
+    },
+    {
+      "check": "IC2: chip pin 1 at the model origin",
+      "passed": true
+    },
+    {
+      "check": "IC2: TE model matches the recorded hash",
+      "passed": true
+    },
+    {
+      "check": "IC2: TE socket is one valid solid with its top at z=0",
+      "passed": true
+    },
+    {
+      "check": "IC2: socket notch end identified",
+      "passed": true,
+      "end_volumes": {
+        "-1": 52.269730084582434,
+        "1": 50.67694260897383
+      },
+      "notch_end": "+X"
+    },
+    {
+      "check": "IC2: socket geometry unchanged by placement (volume)",
+      "passed": true
+    },
+    {
+      "check": "IC2: every socket tail lies on a chip pin axis (and so on its pad)",
+      "passed": true,
+      "worst_mm": 1.7763568394002505e-15
+    },
+    {
+      "check": "IC2: tails are 0.17 x 0.60 mm flats, diagonal inside the 0.8128 mm drill",
+      "passed": true,
+      "tail_sizes": [
+        [
+          0.17,
+          0.6
+        ]
+      ],
+      "nominal_corner_margin_mm": 0.0946
+    },
+    {
+      "check": "IC2: socket seating plane on the board and top 5.1 mm above it",
+      "passed": true
+    },
+    {
+      "check": "IC2: placed socket notch (lighter end wall) is at the chip pin-1 end",
+      "passed": true,
+      "end_volumes": [
+        52.27,
+        50.677
+      ]
+    },
+    {
+      "check": "IC2: raised chip body clears the socket top and its pin tips stay above the board",
+      "passed": true,
+      "body_bottom_mm": 5.48,
+      "pin_tip_mm": 1.8
+    },
+    {
+      "check": "IC2: contact faces reaching below the board are tin; every black face lies on or above the board",
+      "passed": true
+    },
+    {
+      "check": "IC2: saved STEP keeps socket and chip solids, faces and volumes in order",
+      "passed": true
+    },
+    {
+      "check": "IC2: every face carries a colour style",
+      "passed": true,
+      "styled": 435
+    }
+  ],
+  "models": {
+    "IC3": {
+      "output": "DIP-40_W15.24mm_in_1-390262-5_Socket_KiCadFrame.step",
+      "output_sha256": "f13fea9c22d41e3904239ae434a375c79e3e7974e971f71cdf4bd8eef5c27d30",
+      "footprint": "DIL40",
+      "part": "TE 1-390262-5 (BOM AMP 390262-5)",
+      "socket_source": "TE_CVM_1-390262-5_3d_stp.zip",
+      "socket_inner_sha256": "0bf1905b62e2ff75fac48b459e5c015e928f1e1539114f02d0bec098d4b8d40f",
+      "chip_source": "KiCad/Package_DIP.3dshapes/DIP-40_W15.24mm.step",
+      "chip_source_sha256": "56fb239cc3f47dd58a0eac0bd4aeae847d6aac80463bd6713647a9e06bc34a04",
+      "seat_mm": 5.1,
+      "rotation_deg": 90.0,
+      "socket_centre_model_mm": [
+        7.620000000000001,
+        -24.130000000000003
+      ],
+      "chip_top_above_board_mm": 8.78,
+      "socket_outline_mm": [
+        17.7,
+        50.8
+      ],
+      "chip_pins_inside_socket_contacts_overlap_mm3": 6.434,
+      "colours": {
+        "housing": [
+          0.07,
+          0.07,
+          0.08
+        ],
+        "tails": [
+          0.8,
+          0.8,
+          0.78
+        ]
+      }
+    },
+    "IC2": {
+      "output": "DIP-8_W7.62mm_in_1-390261-2_Socket_KiCadFrame.step",
+      "output_sha256": "c0a34091d8abedeb2628a54ff39aaa78098a3c0f77fb619f7f606ba555e98f42",
+      "footprint": "DIL08_AT25",
+      "part": "TE 1-390261-2 (BOM AMP 390261-2)",
+      "socket_source": "TE_CVM_1-390261-2_3d_stp.zip",
+      "socket_inner_sha256": "a752812a5e937148dbfabc3213a66a6244ded313ada6a119ea55ed3cf8305882",
+      "chip_source": "KiCad/Package_DIP.3dshapes/DIP-8_W7.62mm.step",
+      "chip_source_sha256": "4a377a56a8d9e9c0b86c095ef9ecc1869ac19e7f5069a3247b294250bf4f235d",
+      "seat_mm": 5.1,
+      "rotation_deg": 90.0,
+      "socket_centre_model_mm": [
+        3.81,
+        -3.8099999999999996
+      ],
+      "chip_top_above_board_mm": 8.78,
+      "socket_outline_mm": [
+        10.0,
+        10.16
+      ],
+      "chip_pins_inside_socket_contacts_overlap_mm3": 1.299,
+      "colours": {
+        "housing": [
+          0.07,
+          0.07,
+          0.08
+        ],
+        "tails": [
+          0.8,
+          0.8,
+          0.78
+        ]
+      }
+    }
+  },
+  "evidence": {
+    "file": "sources/socket-evidence.json",
+    "sha256": "88c9025a44564c3e2bd81834b4cd0ec008eccea51b7e896d61b303c1adff95c2"
+  },
+  "limitations": [
+    "TE models are for the 1- prefixed lead-free successors of the BOM part numbers; identical geometry is assumed.",
+    "The chip seating height (lead shoulders on the socket top, 5.10 mm) is assumed; TE customer drawings could not be retrieved.",
+    "TE models are single fused solids; contact faces that reach below the board are tin, while contact openings on top stay black.",
+    "Chip pins overlap the fused socket contacts inside the housing; this is hidden and not a fit claim.",
+    "Physical fit is unqualified."
+  ],
+  "physical_fit_qualified": false
+}

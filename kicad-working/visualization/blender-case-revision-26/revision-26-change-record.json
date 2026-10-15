@@ -1,0 +1,390 @@
+{
+  "passed": true,
+  "visualization_revision": 26,
+  "kicad_revision": 23,
+  "baseline_sha256": "e02138d570637325dc4d7b43353216340832ddd6ea0526f2ea8880afe5d44d90",
+  "stable_scene_sha256": "121021a77f6b4b9b7865df46c6b227403ba38d0594113b985042e6102aa47ada",
+  "stable_scene_bytes": 46673616,
+  "source_glb_sha256": {
+    "ioboard": "e6b967c29f9da0b0d1de4bc4d1b9e113ef2244af1521ce4f9db61f105001723c",
+    "mainboard": "b0f76b838ddc6df44a74dd5c701dc4229d320dcdb2eb6de1215f2207fd050ae4"
+  },
+  "source_plan_sha256": "69c69f708364b4b1a993323ddf589b9a5a0e2a7df0a8e38be8caecb7e4594a47",
+  "changes": {
+    "MAINBOARD/IC2/mesh": {
+      "reference": "IC2",
+      "board": "mainboard",
+      "model": "Revision23/socket-quality/DIP-8_W7.62mm_in_1-390261-2_Socket_KiCadFrame.step",
+      "old_mesh": {
+        "hash": "cedbd3d71a4c28083a8f2230855c8526ae0cac711232fa582c2e86503d61593e",
+        "vertices": 1156,
+        "edges": 1868,
+        "polygons": 860,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "b06ab6e2f336371d2c9c54f3101b32cdbcdc2dd91f14a614956c560510104cfa"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "ccc7cc1cbaeacacfd99859db960ddc6868c2df48e7946d4f7da10cf99a71c3c0"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "fef1f8f3340ea88e3316eeca9bf7ad5c66560e0ef7b06cfe845d1598d600aaa2"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "ee0f4d4f1ea5cc40037ce2832a28acb61f0fb113586d841195d28bc94bfe44d4"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "3c8c0aa3e6c506ad904ea102a965850f807c999117334aff84e89d6a09ca8bf5"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "644aaa0fb176ffd344a724e7c89afcc1e7c1c3772075b69a334efa2bf624afa7"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "dc8f4b5d700d64f6e0dae9d8c06fdc6094d239ea32352f97f5396d81379ffe9e"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "48cf5d7ccc1046033843d0f6ed27257b12c33c704cec2f29e1468af0eda92d01",
+        "vertices": 3636,
+        "edges": 6074,
+        "polygons": 2856,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "1bfa73b0d045e21878271cdf8b312962aaf29151c3c566cf55a3557d6349f393"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "946da7f90a09876cfa651303741bf3617d3a7fe035a7f3f0ca572c071e455a82"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "b32b20e62e045b307a544f2f88ecb45c7c876764f250dd6e0e241b0ddae4df81"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "7646ea6f8492fd15704ea27cdb1f0c048fbafc27f4eb4a236a09969708f5e114"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c5f975c334650a0e60f89088b29bac5b10d958ea93e7477e7fbc65ef158482c1"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "be408c881eea27cd2f2887c60eb6600875caf3a163eb590fd01f04085444074b"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "f6db30f744ea5f46efd61f2edfb519baf7acf9ab5e3076a9edffd643e827becd"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "be38a32bf25edf386bc8e2a28a0228b8744e605a9422ffb85f9d6fedb5ef8be7"
+          }
+        },
+        "props": {},
+        "materials": [
+          "TE DIP socket housing \u2014 revision 26 (native KiCad colour)",
+          "TE DIP socket contacts \u2014 revision 26 (native KiCad colour)",
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "socket housing",
+          "native_colour": [
+            0.005981059744954109,
+            0.005981059744954109,
+            0.007194409146904945,
+            1.0
+          ],
+          "scene_material": "TE DIP socket housing \u2014 revision 26 (native KiCad colour)"
+        },
+        {
+          "slot": 1,
+          "role": "socket contacts",
+          "native_colour": [
+            0.6038273572921753,
+            0.6038273572921753,
+            0.5704815983772278,
+            1.0
+          ],
+          "scene_material": "TE DIP socket contacts \u2014 revision 26 (native KiCad colour)"
+        },
+        {
+          "slot": 2,
+          "role": "chip body",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 3,
+          "role": "chip pins",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        }
+      ]
+    },
+    "MAINBOARD/IC3/mesh": {
+      "reference": "IC3",
+      "board": "mainboard",
+      "model": "Revision23/socket-quality/DIP-40_W15.24mm_in_1-390262-5_Socket_KiCadFrame.step",
+      "old_mesh": {
+        "hash": "6d474f42a499e6880473eae4b07849f34593eb8589be47609691a0732a0bace8",
+        "vertices": 5444,
+        "edges": 8812,
+        "polygons": 4060,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "55b09d6e1bb6db90f516aa6c38d793c60e2536bef6f1cdea6985d018a813308d"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9090e32c484cfc58df8423953cb2eadff83a602a5163ffe56bb7707e941cdfd4"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "cb2a344ab06bca7932a322aec8815124b9578601439c9c1088d2fd0f1550e675"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "884545652c4171c1f559276f628bc51d4e8347c6efd0e4f7f003fc8135257150"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "3274d8aeda0fb4e093e40f961ddf66307b097fda87851c0f74ab0582cb9b705a"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "77c423b3ce16c7f28db9377f2c7a00ac812052a9b08303ac0f128119e2fadc8a"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "4a50b137f1a2e4b335196cbe8c4a0ddca9284e15ba70af76b521aac192c4d9cd"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "ccaca829331104adba68d19efaf38f1ee2f9c7d31068c405ad9248ee155ba14f",
+        "vertices": 15862,
+        "edges": 26203,
+        "polygons": 12200,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "709b8a30e98b186a173cfefb9c7fd03d9959d260abdaa653221e6e35f0fbdb4b"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "de0cb164295cf750a1599fac56bf491139153d569f60e060ab1ed610f56a8194"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "2fdb0ca1e672dc5db2373233991f3799cd934f301b2c0557463c960a8165fc6e"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "4d1b9b233d40392ae622de320ac0c5366e76cabb51544622ffe2746e72ce4958"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "eb3c154cb8fd30eaadc1fc58f6af238633b3a8c100d7625f378a61b69b79eb9f"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c331d40315ddcba49f33eb756c2b3f8d6c7346f2bc12d83e95cad36e809bdf15"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "0462f3d1a720c21e538e5ade7bae8ac515e5378983ee15b23b5b18fe0cec731c"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "057c509aa61aeca3dc9637f89d0f465dc43405b5d00f0b1870f1f3c42d1de98b"
+          }
+        },
+        "props": {},
+        "materials": [
+          "TE DIP socket housing \u2014 revision 26 (native KiCad colour)",
+          "TE DIP socket contacts \u2014 revision 26 (native KiCad colour)",
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.3901537698757238e-09
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.625600809518346e-08
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.1641532182693481e-10
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "socket housing",
+          "native_colour": [
+            0.005981059744954109,
+            0.005981059744954109,
+            0.007194409146904945,
+            1.0
+          ],
+          "scene_material": "TE DIP socket housing \u2014 revision 26 (native KiCad colour)"
+        },
+        {
+          "slot": 1,
+          "role": "socket contacts",
+          "native_colour": [
+            0.6038273572921753,
+            0.6038273572921753,
+            0.5704815983772278,
+            1.0
+          ],
+          "scene_material": "TE DIP socket contacts \u2014 revision 26 (native KiCad colour)"
+        },
+        {
+          "slot": 2,
+          "role": "chip body",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 3,
+          "role": "chip pins",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        }
+      ]
+    }
+  },
+  "changed_source_roots": [
+    "MAINBOARD/IC2",
+    "MAINBOARD/IC3"
+  ],
+  "added_objects": [],
+  "added_materials": [
+    "TE DIP socket contacts \u2014 revision 26 (native KiCad colour)",
+    "TE DIP socket housing \u2014 revision 26 (native KiCad colour)"
+  ],
+  "retired_materials": [],
+  "native_reference_count": 491,
+  "stored_object_count": 1721,
+  "opening_guide": "00 START HERE \u2014 revision26 assembly",
+  "opening_guide_sha256": "61dfc26d56cf6dae3535a2279cd82496c51ca61888d6697fe1ab76576c0cb195",
+  "physical_fit_qualified": false
+}

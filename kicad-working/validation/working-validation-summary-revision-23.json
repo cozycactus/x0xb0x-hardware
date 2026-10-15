@@ -1,0 +1,800 @@
+{
+  "revision": "Working revision23: IC3 and IC2 in their original-BOM TE DIP sockets",
+  "created_utc": "2026-10-15T23:14:46.331564+00:00",
+  "native_kicad_version": "10.0.7",
+  "projects": {
+    "mainboard": {
+      "erc_errors": 0,
+      "erc_warnings": 0,
+      "drc_violation_errors": 0,
+      "drc_violation_warnings": 448,
+      "separate_unconnected_errors": 2,
+      "separate_schematic_parity_warnings": 120,
+      "remaining_connections": [
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "PTH pad 8 [GND] of IC9",
+              "pos": {
+                "x": 158.3944,
+                "y": -110.3376
+              },
+              "uuid": "651d28fa-8333-4604-9ae3-ea635ae2bc15"
+            },
+            {
+              "description": "Track [GND] on B.Cu, length 5.3882 mm",
+              "pos": {
+                "x": 159.131,
+                "y": -108.204
+              },
+              "uuid": "e14ad63c-d290-4cb6-920f-664cc609ad61"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Track [+5V] on B.Cu, length 0.9699 mm",
+              "pos": {
+                "x": 105.41,
+                "y": -31.1658
+              },
+              "uuid": "1abde9c4-d830-4cca-95fd-855c37dfd5b8"
+            },
+            {
+              "description": "Track [+5V] on B.Cu, length 19.5580 mm",
+              "pos": {
+                "x": 116.078,
+                "y": -39.624
+              },
+              "uuid": "7861271c-efe0-4b82-ae88-e92be4e03ec7"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        }
+      ],
+      "erc_ignored_checks": [
+        "footprint_filter",
+        "four_way_junction",
+        "simulation_model_issue",
+        "single_global_label"
+      ],
+      "drc_ignored_checks": [
+        "footprint_filters_mismatch",
+        "footprint_type_mismatch",
+        "missing_courtyard",
+        "track_not_centered_on_via",
+        "tuning_profile_track_geometries"
+      ],
+      "erc_exclusions": [],
+      "drc_exclusions": [],
+      "model_instances": 409,
+      "electrical_inputs_and_rules_preserved": true,
+      "fresh_native_ERC_DRC_this_revision": true,
+      "electrical_evidence_basis": "Fresh KiCad10.0.7 reports for this revision; DRC violations, schematic parity and ignored checks exactly equal the previous fresh report; same unconnected gaps. ERC0 under retained project rules.",
+      "unconnected_track_end_note": "S22 pad 1 [+5V] gap unchanged; KiCad names varying representative pads or tracks of the same two islands as its ends between runs. Copper is byte-identical apart from model paths."
+    },
+    "ioboard": {
+      "erc_errors": 0,
+      "erc_warnings": 0,
+      "drc_violation_errors": 0,
+      "drc_violation_warnings": 348,
+      "separate_unconnected_errors": 1,
+      "separate_schematic_parity_warnings": 45,
+      "remaining_connections": [
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "PTH pad S [GND] of MIXOUT0",
+              "pos": {
+                "x": 99.54,
+                "y": -3.842
+              },
+              "uuid": "5ce3eba1-b809-418c-92f5-642bf92fe6b9"
+            },
+            {
+              "description": "Track [GND] on B.Cu, length 4.4730 mm",
+              "pos": {
+                "x": 104.013,
+                "y": -1.143
+              },
+              "uuid": "67df69d5-7681-42dc-9765-bf24cf3485bc"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        }
+      ],
+      "erc_ignored_checks": [
+        "footprint_filter",
+        "four_way_junction",
+        "simulation_model_issue",
+        "single_global_label"
+      ],
+      "drc_ignored_checks": [
+        "footprint_filters_mismatch",
+        "footprint_type_mismatch",
+        "missing_courtyard",
+        "track_not_centered_on_via",
+        "tuning_profile_track_geometries"
+      ],
+      "erc_exclusions": [],
+      "drc_exclusions": [],
+      "model_instances": 82,
+      "electrical_inputs_and_rules_preserved": true,
+      "fresh_native_ERC_DRC_this_revision": true,
+      "electrical_evidence_basis": "Fresh KiCad10.0.7 reports for this revision; DRC violations, schematic parity and ignored checks exactly equal the previous fresh report; same unconnected gaps. ERC0 under retained project rules."
+    }
+  },
+  "outputs": {
+    "ioboard/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step": "79deea96d81cb1e938ee80b9d546043f1678e6c4ce86a997adb27a3ea46f5108",
+    "ioboard/3dmodels/KiCad/Package_DIP.3dshapes/DIP-6_W7.62mm.step": "a4460ddeadf04a1914d6bacbeb5b59d684aa99d513b0a3b223dbfdd0c77830c1",
+    "ioboard/3dmodels/KiCad/Package_DIP.3dshapes/DIP-8_W7.62mm.step": "4a377a56a8d9e9c0b86c095ef9ecc1869ac19e7f5069a3247b294250bf4f235d",
+    "ioboard/3dmodels/KiCad/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.step": "be0e412f1c66fee70039b0e109e0cc7c823161dda97593718afa97569bc61ce3",
+    "ioboard/3dmodels/KiCad/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step": "85b7de23bf92112c1cc60ca5fdb644f1a44e150a99f8c6f4f5f29010f50282b9",
+    "ioboard/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step": "6781515e86885b41d533492ffafff77a688e73cc7f24f42ac9b6960d0b19a9a0",
+    "ioboard/3dmodels/LICENSE-KICAD-3D.md": "45d2bce75e5a4208f5afb01b8fb2c406e700371c4fe2b5f5cd5c443d46db4d8f",
+    "ioboard/3dmodels/MODEL-PROVENANCE.json": "474192a269723efc90aa9083c91a3c2d9c7fe0bf4bf397aa7558d48ee42046dc",
+    "ioboard/3dmodels/Project/D_DO35_P7.112_Illustration.step": "8c3d100c84de93553e1723cd2f7060df093155b85c89edc537c22a68f50fa534",
+    "ioboard/3dmodels/Project/D_DO41_P11.176_Illustration.step": "2f814b737ca58bd30ab405078670da7fb1a6d2a6f1cd3443746c7412df6b470b",
+    "ioboard/3dmodels/Project/axial-diode-dimensional-record.json": "8165de1420e4404c94947e7ad5c10d70c5cb475b89c37356006cc6f8292c7df1",
+    "ioboard/3dmodels/Project/axial-diode-recommendations.json": "6c96338c168b83b20524ba44e4144b7888c2e44377a384fd834cf541395a0bef",
+    "ioboard/3dmodels/Project/generate_axial_diodes.py": "4f20d10c5cea53317e5152d5c7f0fa58461cfbf91bbdf0a4201ab2d511c0df9d",
+    "ioboard/3dmodels/README.md": "fdeb52db0734c779a67a1f9fa339947c4f774e5ba1ae7fa8f9762dec59dde4c9",
+    "ioboard/3dmodels/REVISION-10-SOURCES.json": "dc9587580922b6ab28fa1336211fdf2e31548a247855329c79943420d3e9c1cb",
+    "ioboard/3dmodels/REVISION-11-SOURCES.json": "4c62e555ccc374e7ad91386ada740b473a45a5b3896fe2d83977410a51ea75d8",
+    "ioboard/3dmodels/REVISION-12-SOURCES.json": "dda84b9064fa505bc6e04aeb6871da22b63e1fa894f5feee318b26a484baa848",
+    "ioboard/3dmodels/REVISION-13-SOURCES.json": "076983af4c374c7bf5c8d1869da54785a892734172cf20329d24c3b8abaac217",
+    "ioboard/3dmodels/REVISION-14-SOURCES.json": "f495fc3e618cf68f8fb4ad8d2abecb3342b3e5de5e98936b862921c8dd961ea3",
+    "ioboard/3dmodels/REVISION-15-SOURCES.json": "a1f10e468686b77a5db0642a6322ed5996932eee93b2263c14cf1d5b2febf231",
+    "ioboard/3dmodels/REVISION-18-SOURCES.json": "7f5560c26e651ac5a9e2ce1d37f25d3853c08dc6888f9225067e506ea20a86ac",
+    "ioboard/3dmodels/REVISION-21-SOURCES.json": "57843834f3c2a2b718f18450f714d1b64011858008cd429ee046f00b7646e11e",
+    "ioboard/3dmodels/REVISION-22-SOURCES.json": "67b7223b20c30005a012efed127c83430f0d4a111434193bbe5a5404c97cded9",
+    "ioboard/3dmodels/REVISION-5-INTERSECTIONS.json": "d960e5c5d3cdeb71a1d14ce8411350f3454524ae79894582c0c31e4b28df55ea",
+    "ioboard/3dmodels/REVISION-5-SOURCES.json": "fc2142623b0a51e2b6e30c8d2c18e1c6733d1a4f2c27e9ed3875112173a9f815",
+    "ioboard/3dmodels/REVISION-6-SOURCES.json": "0f6f9170a1dabe24032c1d366085afa49201889d39559af0f2c9bfd9c1e34952",
+    "ioboard/3dmodels/REVISION-8-SOURCES.json": "624307458e589c56e1653e6dc498a4e11cda49a7640aef393538a3243d2006b1",
+    "ioboard/3dmodels/REVISION-9-SOURCES.json": "8495652da6bae4e4602af3b676e617ea2e6f26520615b495fdd47c569c083582",
+    "ioboard/3dmodels/Revision10/heatsink-fit-research/Aavid_574502B00000G_BentBack_PhotoQualified.step": "c52b9aed6d3145861dde7c39389c46e2efe0853e84373eb84f299e2691d7fea9",
+    "ioboard/3dmodels/Revision10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step": "57572d2c7c441f7c83c0bf4c281866def4e4d5b5639d05f805596d090a09f555",
+    "ioboard/3dmodels/Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+    "ioboard/3dmodels/Revision10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+    "ioboard/3dmodels/Revision11/resonator-quality/Resonator_AWCR6MD_TaperShoulders_P2.54_Illustration.step": "692666df2d45e3cf6cca90f48de88b0ea76ce9650dfcb0c57ade849135b8009a",
+    "ioboard/3dmodels/Revision11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration.step": "e1836f981186b13cb2ceb9ec33df48d0d16d8597b27581334d941cbb152aa439",
+    "ioboard/3dmodels/Revision12/din-contact-quality/SDS50J_CorrectedContactPattern.step": "9a8bd2dd10aa384f377796fe8aa7234217d0bfdb9d8d8c7e16dc7f6ee3657c01",
+    "ioboard/3dmodels/Revision13/terminals/MC78M05_TO220_BentBack_PhotoQualified_Terminals.step": "d8ba9827d873933070d2751289376126ba84b375be2de7e559b2ff7b75b7727c",
+    "ioboard/3dmodels/Revision13/terminals/MJ3536N_DrawingDerived_DetailedBody_Terminals.step": "da564256db4dce1dbfca3c40de197eb26b4cf57c648014e35469e0d5d9a973f4",
+    "ioboard/3dmodels/Revision13/terminals/NYS216_DrawingDerived_DetailedBody_Terminals.step": "02af6889a2d82a29c452c142279d2fbfe0239203af81708b7cc219d9ec817fd0",
+    "ioboard/3dmodels/Revision13/terminals/PJ202AH_DrawingDerived_DetailedBody_Terminals.step": "516f628957f5b63eb868504085d9c6eea39aa16fa6841644357bcb04a9495838",
+    "ioboard/3dmodels/Revision13/terminals/SDS50J_CorrectedContactPattern_Terminals.step": "e318691c718321e49ee72b154bde8a65bed5b52a32b2ca20daeeadedb9e1c663",
+    "ioboard/3dmodels/Revision13/terminals/USB_TypeB-body-illustration_Terminals.step": "bb3e336edf721107308693a43b0dbd8c709f152d9560b8ce5fc735ee1963a961",
+    "ioboard/3dmodels/Revision14/terminals/PJ202AH_DrawingDerived_DetailedBody_Terminals.step": "7fefae6f7c77b94df876eceff24837161442ff66fc5cf2e1c1342c0d6cb94977",
+    "ioboard/3dmodels/Revision14/terminals/SDS50J_CorrectedContactPattern_Terminals.step": "c777af51ecebbb76fc7e2b0e3d4c8c124f675a5390bfff941149fc7575a5d00a",
+    "ioboard/3dmodels/Revision15/terminals/MJ3536N_DrawingDerived_DetailedBody_Terminals.step": "65c6ed98a589bbd345ea01bf0d00024d6ff3e228612025acf11b58950bf188fd",
+    "ioboard/3dmodels/Revision15/terminals/SDS50J_CorrectedContactPattern_Terminals.step": "3e1f792c5992818752641dc00d56083e7f31d596bc5d84f1765675dafd8fcaf5",
+    "ioboard/3dmodels/Revision18/usb-quality/Kobiconn1542442E_DrawingDerived_Terminals.step": "1c57746fc1aad51cbc7a24f905d8e2ea80a384564df79c671154ebfec0eb4584",
+    "ioboard/3dmodels/Revision21/electrolytic-quality/CP_Xicon_XRL2200u16_P5.08_PhotoColours.step": "dc552de9cae35cb3e4e0411dc0abb6803ab447542291c21a0aeed419b3cc07a8",
+    "ioboard/3dmodels/Revision21/electrolytic-quality/CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame.step": "592961a7f74d127321afb31cce440c7fccb412c76fb6097a8138ed271a415ea9",
+    "ioboard/3dmodels/Revision21/electrolytic-quality/CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame.step": "00cc1da601ebbc9c9cefb4470113abbd447b831a6e9f679db4fca4ea195d9d76",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Blue-Grey-Red-Gold_KiCadBody.step": "207f1600bbc4cd71117c14e1d88eceaf110c8f0ff8d1d47c4830ad1aba924d78",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Black-Gold_KiCadBody.step": "45b950e08f50f195700a696268fe830c477fe9024bc4cb23ab25d00c265bc1ae",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Brown-Gold_KiCadBody.step": "90abd602d6dd18d6b1b84dbfce7864e1c29e38fb678bb69393b7289bdbfe2949",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Orange-Gold_KiCadBody.step": "68bcfb92f0c21d669b2ca0b8c4a0989a544b2415ae84773da5b82c53ea48de5e",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Red-Gold_KiCadBody.step": "9e099de77943a12d1ae655005aaf75101e0580ebf84cacca145c88b4e64e8fe8",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Yellow-Gold_KiCadBody.step": "0b754a33edfd959cf51f59224d0258b3bbc2f9ce36a2cbfd7f2900412a8913ad",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Green-Brown-Gold_KiCadBody.step": "a0a7fd89212abab505559c7c0525226a9c2adb54c55f6919140882fbb56971a1",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Green-Red-Gold_KiCadBody.step": "5cef26a001a4eac6b09b812fbc853e44cefce67b77313d9d37726f9c7b9c1573",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Grey-Red-Gold_KiCadBody.step": "199791bb0094e450a2e2e7a947659952452863cb7c73f183a0e2d430b1aee505",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Green-Blue-Black-Brown-Brown_KiCadBody.step": "fbe67afd0bb008cc7b9748a229176a0c2bea03877d7ce0e3beeb232868238269",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Black-Gold_KiCadBody.step": "a1b5d809081d4f033a587ac57017a4a29a1b8c9dc30fff5e37520ded6ccf45c5",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Brown-Gold_KiCadBody.step": "f9d1a1ae83a461cbc691d03dd5640418ce432945a88fa4a372f1c0e61ddef5f0",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Red-Gold_KiCadBody.step": "4a45ac67f941c9c9a8878dd2d72a621b0f9ccb76d49d89deede3d2e9c98fe3ed",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Violet-Black-Gold_KiCadBody.step": "41f9de269b8c8edd0ae735c58b330e77226ff10314c35d36992265a711b02d99",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Yellow-Black-Brown-Brown_KiCadBody.step": "83de0e36853646edf711a1d0c6fa8bd9712e9d04bb8f16525efa04c29651b509",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Yellow-Violet-Brown-Gold_KiCadBody.step": "2644bbea2fce2425c4550d69c8dd5ec03045be2bdcd367ae150569555f09cf1f",
+    "ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Yellow-Violet-Red-Gold_KiCadBody.step": "2beb4779a55fd095f43c69054c7e31dddfd7bdd74e8ae9711d023909d96bac0a",
+    "ioboard/3dmodels/Revision5/integrated-models/Resonator_AWCR6MD_MaxBody_P2.54_Illustration.step": "78f33aa8eb4dd7053e1fb5a9b03b43a1ae36eda4c313cbbf4c5e60b23c1c1bab",
+    "ioboard/3dmodels/Revision5/integrated-models/provenance/LICENSE-CC0.md": "c3683b871f3d82dc03413ecfe590e7914e5115e814daef8aad682736de5e9a68",
+    "ioboard/3dmodels/Revision5/integrated-models/provenance/README.md": "003941362fcef14715c9da0124a13f5ad6e7f78f9fdf2eb664ebbbce7dea8cb3",
+    "ioboard/3dmodels/Revision5/integrated-models/provenance/audit_integrated_full_thickness.py": "49dccabb8fb7f655f783823e73a9f0e58938d4d15526150b65d8394a1a41067e",
+    "ioboard/3dmodels/Revision5/integrated-models/provenance/generate_integrated_illustrations.py": "d03a61923a3c855dde03bd274bf52b826d415e338f21cb57d81205a3a3185e56",
+    "ioboard/3dmodels/Revision5/integrated-models/provenance/integrated-full-thickness-audit.json": "a95182f53732674fdec40f541b0641f58ff9b1818306d66d78ce721cb92dd9c9",
+    "ioboard/3dmodels/Revision5/integrated-models/provenance/integrated-model-manifest.json": "4db30ddd68a328207e571651d8694e4b49c13fc489e8f08265bcdfecd4f8b648",
+    "ioboard/3dmodels/Revision5/integrated-models/provenance/integrated-model-records.json": "9918d0feba176971a897622d012d39d800267aeb1dbadf307abe00d31d025ef2",
+    "ioboard/3dmodels/Revision5/integrated-models/provenance/step_colors.py": "b946f7511c7e6a4f69fd8c52086cfbc14bdc41cfc11cc1181b8cfd3f25488c44",
+    "ioboard/3dmodels/Revision5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step": "baedb7170ada384a9ddecc4f7c192ac3cdd29ed68d497d8384e2c4b352464243",
+    "ioboard/3dmodels/Revision5/passive-models/C_AVX_SR205_P2.54_Illustration.step": "2893fab1c5613ec442c8a4d4e07ea5ca238553affe5d3f5eb39d1a715f9120c2",
+    "ioboard/3dmodels/Revision5/passive-models/C_Xicon_PM333_P4.064_Illustration.step": "07665e8a5671a936853a264c52c7a65b69a76f0809f84e78f85fe80edb703976",
+    "ioboard/3dmodels/Revision5/passive-models/provenance/LICENSE.md": "28f7c9e7cd6cc3eac2e9d3cedf135339d4652b666e03144427e9b402ba4459c3",
+    "ioboard/3dmodels/Revision5/passive-models/provenance/README.md": "c8b2f5c04557f86d41a6052308b86fb17f0e9b58e2f1b414521f4d67604549c5",
+    "ioboard/3dmodels/Revision5/passive-models/provenance/generate_passive_illustrations.py": "b2dd4f2ac14642bcefc671021601275668b2a253e6aa29d723f11903634a65bc",
+    "ioboard/3dmodels/Revision5/passive-models/provenance/passive-assignments.json": "cd9c582787e3756b90d3cd11b6f4df59c0bb72d1ca735cb685f0af2c174a55b0",
+    "ioboard/3dmodels/Revision5/passive-models/provenance/passive-dimensional-records.json": "816ee2d4e613f2f4b4af96cc217ed3d179a10b34a04a8ca61e5224f5a8dd3ed3",
+    "ioboard/3dmodels/Revision5/passive-models/provenance/reference-documents/additional-downloads.json": "ba89f15c49a3819bbfc85a4450dc22a8299bf4a70cc96c6dc63d7749396ead65",
+    "ioboard/3dmodels/Revision5/passive-models/provenance/reference-documents/downloads.json": "faeb41517c571a3c29df8aa1218b822ba9277fc9b7db13d577f85a7e3da2eff2",
+    "ioboard/3dmodels/Revision5/passive-models/provenance/reference-documents/xicon-author-documents.json": "d155fb278b4cb87286d9c4ba6a58c445a7dbda7f2834bd954c6cd2218a695342",
+    "ioboard/3dmodels/Revision6/misc-body-illustrations/Aavid_574502B00000G_EnvelopeIllustration.step": "b66e739c934beceb105612459bedeab0864eab3289a5ea23b2f414d3769bf068",
+    "ioboard/3dmodels/Revision6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step": "4e804dd88e09680a8147bb4a013c877e9011c7bb70c5fd7d114618000e3eef1e",
+    "ioboard/3dmodels/Revision6/misc-body-illustrations/MC78M05_TO220_BodyOnlyIllustration.step": "f65e974128af6b8e5f9f74b815aada33c296f1ae113dac9fc6f7a341599e65a8",
+    "ioboard/3dmodels/Revision6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step": "01941f699d9d68c823228d7d566d2f682a9b98dd1d03bc189c73b2ae18eaa6e3",
+    "ioboard/3dmodels/Revision6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+    "ioboard/3dmodels/Revision6/misc-body-illustrations/provenance/actual-source-positions.json": "e51d0b48b2bfd7de93520cbab04af49a142170f079cc7a06f2c47ba4caad2e65",
+    "ioboard/3dmodels/Revision6/misc-body-illustrations/provenance/generate_misc_bodies.py": "1199ca4ffb1ba6dd040b788b8c543a3a2aeaf12f0a9c6b73333db1fa030e0f48",
+    "ioboard/3dmodels/Revision6/misc-body-illustrations/provenance/misc-body-manifest.json": "0e8be8d3d8ebf7ac9f3fc3ccf76d0f40d15243b6b4e1364b629bcaac13a9841f",
+    "ioboard/3dmodels/Revision6/misc-body-illustrations/provenance/reference/ribbon-jumper-source-map.json": "e6d8dd014be09554df8bef8291407c6e74b9e73949941b36f38a434c9ebe2adb",
+    "ioboard/3dmodels/Revision6/rear-body-illustrations/MJ3536N-body-illustration.step": "d82b0f5a71eae36fc7b1a3ceb3772a899549606cc427f84e57e080b66def1d6a",
+    "ioboard/3dmodels/Revision6/rear-body-illustrations/NYS216-body-illustration.step": "1354dbc753aa549bbb87d0524ebddedab9d305db2d015c415bd4c3ae5b36c619",
+    "ioboard/3dmodels/Revision6/rear-body-illustrations/PJ202AH-body-illustration.step": "7baa377ffaf50a4f81eb2de4fe964d550d0d6cf4478abe60a6261dc1d76a717b",
+    "ioboard/3dmodels/Revision6/rear-body-illustrations/SDS50J-body-illustration.step": "05a7bb977ace0cfe47f532cc3bf7573f88b5a9db197a855eb672071956a81c31",
+    "ioboard/3dmodels/Revision6/rear-body-illustrations/USB_TypeB-body-illustration.step": "5d7b59c38b09bdaca1159baf92438a00587a3cefd0af5855a874abdc8029fb90",
+    "ioboard/3dmodels/Revision6/rear-body-illustrations/provenance/build_rear_bodies.py": "784df7df553435ecf749f2cdccb3363c19db5ad0216ecff2f2a42a5afb37265a",
+    "ioboard/3dmodels/Revision6/rear-body-illustrations/provenance/rear-body-illustrations-manifest.json": "a9cd4766da47ac1c471b20205f344adfae75d6a4c756cbe86d419048754599aa",
+    "ioboard/3dmodels/Revision6/rear-body-illustrations/provenance/render_body_review.py": "73c73d93fb5e36eaa4297aed612812dc32cd1b33d8901aa38f47f09df629150a",
+    "ioboard/3dmodels/Revision6/rear-body-illustrations/provenance/source/kc-301021-web-extract.json": "fa3a5d92160d619f95c41bed935a054dd9d54e919432557842b75003633b12ca",
+    "ioboard/3dmodels/Revision8/misc-quality/CT6EP_DatasheetDetailed.step": "21b0eceff6097b791b5c1174b74a85826ec8da8e5674869bf5a034b657d6df45",
+    "ioboard/3dmodels/Revision8/rear-quality/NYS216_DrawingDerived_DetailedBody.step": "9f397ef5f43bf615023e40b04554d182468b351faf732539918b42c040ebb390",
+    "ioboard/3dmodels/Revision8/rear-quality/SDS50J_DatasheetDerived_DetailedBody.step": "bbe3db09adccb95265c344d21d89ff00af080a5c3c055ebac2f752c650f7dd19",
+    "ioboard/3dmodels/Revision9/heatsink-quality/Aavid_574502B00000G_DrawingDerived_FoldedSpring.step": "36ea5130eb331e8c740748c697559dfd79671284869be83e8251dd4c944e4336",
+    "ioboard/fp-lib-table": "c21fcad71bfab230129fcb7bd8cc9679d77e78b21e7a5990968fa2ef133eff53",
+    "ioboard/ioboard-eagle-import.kicad_sym": "c1d5de104b6e39c1fedf7882890bf72b81e8c8d5bec315050ce412d877122c22",
+    "ioboard/ioboard-import-fps.pretty/0207_5V.kicad_mod": "d6aa0ce070800b29c9cbeb24491ce9b52b8b460f8d2dd6bbc361ba5de9013289",
+    "ioboard/ioboard-import-fps.pretty/2SC536F.kicad_mod": "7157e88fb0849c0f9346dfcac4f074317fbec68755ab31c79618087754da39b8",
+    "ioboard/ioboard-import-fps.pretty/306.kicad_mod": "db5f57f41518f0c42422efaadfe9e7e1ce5e80f331715c545a82db13b8a60a76",
+    "ioboard/ioboard-import-fps.pretty/78XXS.kicad_mod": "8f015aeb2d776a730ae0c15857aef3b97acc73c80d68cc0a1a088be60221fec9",
+    "ioboard/ioboard-import-fps.pretty/C050-025X075.kicad_mod": "b38c39616d2c7c6f85991cc609a0da3b8be4872231cd3ed1199f06943d73bfb2",
+    "ioboard/ioboard-import-fps.pretty/C050H075X075.kicad_mod": "23e15d2a515d130bcd66c763c3044c8508d63e3c56d4218ef12a992390cd1045",
+    "ioboard/ioboard-import-fps.pretty/CERM_OSC.kicad_mod": "652291d45c9b9fb339a7fb5d8708de864ef547a0ffc27c40c0da5afd540030c4",
+    "ioboard/ioboard-import-fps.pretty/CP-2350.kicad_mod": "b41177591925ba981209d71c33e3d668d1def7af50bd81a0e656d775ac6a8d56",
+    "ioboard/ioboard-import-fps.pretty/CP-3502.kicad_mod": "01c9922a9c9ae21a9eedb64c904935d2f34f12949825d975e6fe42a2542b124f",
+    "ioboard/ioboard-import-fps.pretty/D03S.kicad_mod": "5879e38ef29d8886564b74f4c5ccfd9cfe3a47b1dfc287d5d7a117d6283266c1",
+    "ioboard/ioboard-import-fps.pretty/DIL06.kicad_mod": "6552dbcac7ccdd74f8a0578d667fc8de38b3ac2a4c42d861b04497a94bf84949",
+    "ioboard/ioboard-import-fps.pretty/DIL08.kicad_mod": "5fe93a423c2a6e258f9d39df272ffc743ca55763880d6f195d0243740bfaeb9e",
+    "ioboard/ioboard-import-fps.pretty/DO35-10.kicad_mod": "48cf4e8a3b1379f15d496d1652755ad043364bb70c14eeec6614f44f7d90bed9",
+    "ioboard/ioboard-import-fps.pretty/DO41-10.kicad_mod": "c578a47f687bda147f5739bad23ff03fb0514e36733bff3437542f146c5b4414",
+    "ioboard/ioboard-import-fps.pretty/E5-13.kicad_mod": "21b26448dfecab7fb1269076ec633778cd1b668459e5b97af0d8ffc75688f240",
+    "ioboard/ioboard-import-fps.pretty/E5-6.kicad_mod": "70cb725f35a024ccd01ef6f17743fec65e48e5ddcd9d92f828a6c89d32243020",
+    "ioboard/ioboard-import-fps.pretty/MA03-1.kicad_mod": "3e05dfa2decd5f095815ffec1d00bef2281b1c32d471fd6d355cad1f0e1b0cea",
+    "ioboard/ioboard-import-fps.pretty/MA12-1.kicad_mod": "64833d6ba1ec2fc0e8d505b5c25a1789c4f548a1d6aeab03529cb57d6e8d9271",
+    "ioboard/ioboard-import-fps.pretty/MJ-3536N.kicad_mod": "416c7e692bc42b193f19095435dcdc51bdb3fd00eeda2afd7900940caa1c9fd4",
+    "ioboard/ioboard-import-fps.pretty/PJ-102A.kicad_mod": "2b314bdea9353ee41181312da2beb29630eaad60be2180cfd4088e4ac29ae74e",
+    "ioboard/ioboard-import-fps.pretty/PJ-202AH.kicad_mod": "aa3e7d79c06cdaec90e29c9fc283a8bba28506ace6e83499187e88997d2ae835",
+    "ioboard/ioboard-import-fps.pretty/PN61729.kicad_mod": "e44a279cc2d5793ad2e5ec6f1e8fbdb22f84b1ab71316d7ed045335b34dd9bfb",
+    "ioboard/ioboard-import-fps.pretty/REAN_1_4STERO.kicad_mod": "3ba8c6afdf4a868c250ba34affcb4063987498ca45fd1c8253ef8ba82f7a823d",
+    "ioboard/ioboard-import-fps.pretty/Resonator_6MHz_x0x.kicad_mod": "f8b57d003fc4308df9cd58e41d64f138b04885a21a57aebae2a7d9da896650cb",
+    "ioboard/ioboard-import-fps.pretty/SQFP-S-7X7-32.kicad_mod": "bf06f2210f5a4d2141dfe80df65c2f0ef3d50e53f59400119e12583a8627b177",
+    "ioboard/ioboard-import-fps.pretty/TO-92_x0x.kicad_mod": "80157f7d3a299227f8501ba096c7bad2842d2896d8452efe6bcc22fe58b86632",
+    "ioboard/ioboard-schema-extra-footprints-import-fps.pretty/TO92.kicad_mod": "8738e5204d890c1abf686f2e1c8c476d54c4cb0046f58d0f07009dfbd866721c",
+    "ioboard/ioboard-schema-extra-footprints-import-fps.pretty/ZTT_XTAL.kicad_mod": "20ca4b7f1a0df706c927f685b10f76f7e7cd00d1488b0f2546c7ba3952980b8c",
+    "ioboard/ioboard.kicad_pcb": "378827c0f5f82ae9ab110eb779bdbf4415f71353149c630f99fab0d3651cc22b",
+    "ioboard/ioboard.kicad_pro": "4d79e6a44b983c4dfbf1aebbea329beef15dfba20c0df313a9aa4d0393d5971e",
+    "ioboard/ioboard.kicad_sch": "c4dc4a4032fe068738e498adc2683d8d34d5bfca9320a3b016926c462a98d81d",
+    "ioboard/sym-lib-table": "8bfa007448fb4843bbddd26cce02bcf5705821ac97c923abbdb75dcbe647c5db",
+    "mainboard/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.step": "7367f35dd5439e325ba3912de65e9200831fdc6698080ffd056cd268649ba41d",
+    "mainboard/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step": "79deea96d81cb1e938ee80b9d546043f1678e6c4ce86a997adb27a3ea46f5108",
+    "mainboard/3dmodels/KiCad/LED_THT.3dshapes/LED_D5.0mm.step": "7cc5086e6ee1fb4853d1fb74675a61a436c8811204094823b31f04ce788e5d40",
+    "mainboard/3dmodels/KiCad/Package_DIP.3dshapes/DIP-14_W7.62mm.step": "3dae072a95c64bee0d1e58be8e75383639f5017ab982de1749d05808a4eed058",
+    "mainboard/3dmodels/KiCad/Package_DIP.3dshapes/DIP-16_W7.62mm.step": "17a30b1f0ab3fd5384a1231e3c63c394888d5b952c542a8c189e023ed3467464",
+    "mainboard/3dmodels/KiCad/Package_DIP.3dshapes/DIP-40_W15.24mm.step": "56fb239cc3f47dd58a0eac0bd4aeae847d6aac80463bd6713647a9e06bc34a04",
+    "mainboard/3dmodels/KiCad/Package_DIP.3dshapes/DIP-8_W7.62mm.step": "4a377a56a8d9e9c0b86c095ef9ecc1869ac19e7f5069a3247b294250bf4f235d",
+    "mainboard/3dmodels/KiCad/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step": "85b7de23bf92112c1cc60ca5fdb644f1a44e150a99f8c6f4f5f29010f50282b9",
+    "mainboard/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step": "85bdadc9190739c38429da06b1d9c76ccf33aef9a0794a2e7a9dd5b58d9d05fe",
+    "mainboard/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal.step": "1e50215760052ad2c63db1181593b1b1c95db3de7742a0e65da277dd2833c939",
+    "mainboard/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical.step": "aae7dcf956d8945ca411659b40aa693347b096c5741659e2c561bc1aea62d29f",
+    "mainboard/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step": "6781515e86885b41d533492ffafff77a688e73cc7f24f42ac9b6960d0b19a9a0",
+    "mainboard/3dmodels/LICENSE-KICAD-3D.md": "45d2bce75e5a4208f5afb01b8fb2c406e700371c4fe2b5f5cd5c443d46db4d8f",
+    "mainboard/3dmodels/MODEL-PROVENANCE.json": "b6c240e9cec3e96ef44cbc717a57a7bbed8831337d0b2e3f14668f258b111451",
+    "mainboard/3dmodels/Project/D_DO35_P7.112_Illustration.step": "8c3d100c84de93553e1723cd2f7060df093155b85c89edc537c22a68f50fa534",
+    "mainboard/3dmodels/Project/axial-diode-dimensional-record.json": "8165de1420e4404c94947e7ad5c10d70c5cb475b89c37356006cc6f8292c7df1",
+    "mainboard/3dmodels/Project/axial-diode-recommendations.json": "6c96338c168b83b20524ba44e4144b7888c2e44377a384fd834cf541395a0bef",
+    "mainboard/3dmodels/Project/generate_axial_diodes.py": "4f20d10c5cea53317e5152d5c7f0fa58461cfbf91bbdf0a4201ab2d511c0df9d",
+    "mainboard/3dmodels/README.md": "81bdbb392e4d0eafa828a8aae30529f9e72879c3fc76cfd549a6f4d366779514",
+    "mainboard/3dmodels/REVISION-10-SOURCES.json": "dc23ece427b5d3aac38eaf0cfe6329b760fbae1079e13c3652988d19ae5ac0f9",
+    "mainboard/3dmodels/REVISION-11-SOURCES.json": "04a4c870cb5baaf0d4e9cf2ed87fdaf6aa960fb9782dcaf28137e9bf7ecc24c7",
+    "mainboard/3dmodels/REVISION-13-SOURCES.json": "afd9806a890193c80d22642b679d077ec89027775bf2b981db425d0798d8af84",
+    "mainboard/3dmodels/REVISION-14-SOURCES.json": "c443696ef7428ddeeafb9a99d4a93e88ee691b7d2521226d3948889f0da7b4d4",
+    "mainboard/3dmodels/REVISION-15-SOURCES.json": "236e42c46ba1c91c5c3ae833b7ca8ca043bd52202d8df9efa724565c8f85e694",
+    "mainboard/3dmodels/REVISION-16-SOURCES.json": "2499dc3b51cc90375c99266e4745a58c11318e326adf8aaf942c868cc4a03b8d",
+    "mainboard/3dmodels/REVISION-17-SOURCES.json": "dfe8af923440a3c469ee956fc52dfd56b568694434172a47479da741630068e7",
+    "mainboard/3dmodels/REVISION-19-SOURCES.json": "66ba8310ce1e3d3764900738d3a43e6e2cc8e629314309689dfa3d933005b1dd",
+    "mainboard/3dmodels/REVISION-20-SOURCES.json": "0bf7c14deeaaf4a6a8f3616b58587efbc2a8d9b261d3135bfa980b5a1355717a",
+    "mainboard/3dmodels/REVISION-21-SOURCES.json": "7a65f0bfd58ee804f7aee6b56ed8b8303a97e1ecb6a2718b730f547d9ada43b3",
+    "mainboard/3dmodels/REVISION-22-SOURCES.json": "3e00ccbde8f1662fc51f9b5320b58376e7724e0d5ff30c3102b7ac63730cdf59",
+    "mainboard/3dmodels/REVISION-23-SOURCES.json": "bbac84dea7e7d8db4bf0a3dee4fcc28dbde5235cc3cb92a4cf87408184d44112",
+    "mainboard/3dmodels/REVISION-5-INTERSECTIONS.json": "aaf6dbdbbfc1f0861cb64988205925cf68b4ceb4a69a5682bc04d0f3b4cf7a57",
+    "mainboard/3dmodels/REVISION-5-SOURCES.json": "5f7d9d98f44ab69f87cbef05bb19161d7d7cc596cc89a204be8f8b64126a8513",
+    "mainboard/3dmodels/REVISION-6-SOURCES.json": "bc5734dc671a86cb3fab9048f76b1febcaf7c7f4fe9580d90f8335161e9b416e",
+    "mainboard/3dmodels/REVISION-7-SOURCES.json": "1cee9204b0cd9a13c0c3de5675882476aaa118b85c67f14e196e99687686aadc",
+    "mainboard/3dmodels/REVISION-8-SOURCES.json": "ca038c9c8612cd9729abd825c1f2aaa5806986c7048eb9156a853b26a13ea917",
+    "mainboard/3dmodels/REVISION-9-SOURCES.json": "aeec56fb951e7121c649b1c290745e98626b0c9ea0f3a9353fdb2404d01bb030",
+    "mainboard/3dmodels/Revision10/led-assembly-quality/Generic_LED5mm_STD240B_6p096_ClearBody_FullLeads.step": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+    "mainboard/3dmodels/Revision11/resonator-quality/Resonator_AWCR16MD_TaperShoulders_P2.54_Illustration.step": "a63663896e9e1ea6d8a0ba33a2ddef22f269bb937f6f7b48c5ed782170496704",
+    "mainboard/3dmodels/Revision11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_AsymmetricForm_Illustration.step": "ed319ccb57287b484fd7d8eb04c9cae502f0f13a96b4863127313955c535f29c",
+    "mainboard/3dmodels/Revision11/transistor-quality/Sanyo_2SC536_NP2003A_Typical_InlineForm_Illustration.step": "e1836f981186b13cb2ceb9ec33df48d0d16d8597b27581334d941cbb152aa439",
+    "mainboard/3dmodels/Revision13/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step": "6e8088a3aeeeb6d04bdaa30e88cf02ea965e1ff313e29a9496c3387b5ba5f335",
+    "mainboard/3dmodels/Revision13/terminals/CTS_290VAA5F201B2_DetailedCandidate_Terminals.step": "145720b6e2bc7f9f1f071584b6e15fd62597128405a2cdd1069f7f33b6cff20d",
+    "mainboard/3dmodels/Revision13/terminals/Grayhill_25LB22H_DetailedCandidate_Terminals.step": "808eb7af33f7cda61668c406f2a9ce83dbccb1549f02f320dfd62811b7c36058",
+    "mainboard/3dmodels/Revision13/terminals/Microohm_LPTC12T21001_ApproxBody_Terminals.step": "82c88429f12447c5011f8dcbd61e9a1f88a288a87d94aba929b8b463ca96f58b",
+    "mainboard/3dmodels/Revision13/terminals/NKK_B12AB_DetailedCandidate_Terminals.step": "a4eacb805bab8d5454a9462bd1d65243d162fc0198dcdcb54711ffc8b9b6b66d",
+    "mainboard/3dmodels/Revision13/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step": "836769f73057150ae894762da05a024319280c526a4f2b7c5f8d9d9d142023ee",
+    "mainboard/3dmodels/Revision14/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step": "1c69cd253b292497bb99f6d3b76c82e1f853fb763233a0c39634e6440f437263",
+    "mainboard/3dmodels/Revision14/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step": "78f2e2bf9803cd0de9b46b20d6b26b7a48c6d2b2996974cee645f8ded066690c",
+    "mainboard/3dmodels/Revision15/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step": "328758a08d94b9608785d29157f3a75227e4dc5eb2d33d9bebaa2c067f8d5a1e",
+    "mainboard/3dmodels/Revision15/terminals/CTS_290VAA5F201B2_DetailedCandidate_Terminals.step": "11b9b8da6c9488f211698a71cc50d39ac7f80431145f6b5c3ff3d2dbae5a261c",
+    "mainboard/3dmodels/Revision15/terminals/NKK_B12AB_DetailedCandidate_Terminals.step": "1e97bf3227bab2c52f1855487e9f8474b66ea2ecbcd83becb549f0823496cfd9",
+    "mainboard/3dmodels/Revision15/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step": "74d1ec6877dfa6543ec35123bc033cd361a5140623bdd52b8e7aa461e81f6b97",
+    "mainboard/3dmodels/Revision16/terminals/Grayhill_25LB22H_PhotoDrawing_Terminals.step": "83e62824f66ef4e9c761cdb8a5bb25482979cd041551f48196b0a130ddc99f74",
+    "mainboard/3dmodels/Revision17/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState_MetalLegs.step": "fe2ecfc02dd78ddbcee51a5399c89b530fd4728f3744b261cc046419687b97c3",
+    "mainboard/3dmodels/Revision19/led-spacer-quality/LED5mm_STD240B_WithSpacer.step": "5a2ebfe46cfef093d90161faa047dd64c79ef5ec6b2508903e0902147afbda37",
+    "mainboard/3dmodels/Revision20/ptc-quality/Microohm_LPTC12_PrimaryDimensions_Terminals.step": "470cfe9c2fb0a6f9b2d9bdbc6018d2a733996c282af571e2571752c1dd104ace",
+    "mainboard/3dmodels/Revision21/electrolytic-quality/CP_Xicon_XRL1u50_P3.556_PhotoColours.step": "90203c40ebaa1cb5f2c43a7932cec4b82b1cf648bebc59372f7eb1f6a114423c",
+    "mainboard/3dmodels/Revision21/electrolytic-quality/CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame.step": "d4d5892dbf7893bbd9a9b8cd960118006f9f9ca62a5c3f212865fe58f57d09a8",
+    "mainboard/3dmodels/Revision21/electrolytic-quality/CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame.step": "592961a7f74d127321afb31cce440c7fccb412c76fb6097a8138ed271a415ea9",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P10.16mm_Horizontal_Brown-Black-Orange-Gold_KiCadBody.step": "e9c726ef7cf8193c7f7981ff6f5d40c5d92caeda78bccddcbf90b1c99d13cc2a",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P10.16mm_Horizontal_Brown-Black-Red-Gold_KiCadBody.step": "f864a8c70c00d78d8745f9b75eb82896cbed5e189557391c054ba367d30eddd7",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P15.24mm_Horizontal_Brown-Black-Orange-Gold_KiCadBody.step": "99b0a8ed986a337f3e09610618d424993a8b6f396a53a9fb165342f01511119d",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P2.54mm_Vertical_Brown-Black-Orange-Gold_KiCadBody.step": "ebadd935faac201f2efd306815bb4cfe1c6e75d2276efaba3d19e452b9662de4",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P2.54mm_Vertical_Red-Red-Red-Gold_KiCadBody.step": "f69fbeb2ca0e1d0b042f30dad2e7b03c765ed89d15bd2458a19d44fad3a758d7",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Blue-Grey-Orange-Gold_KiCadBody.step": "adb5d898d23cccf4e988766066917c2585d85a87aa2d45b26510f800958450c4",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Brown-Gold_KiCadBody.step": "90abd602d6dd18d6b1b84dbfce7864e1c29e38fb678bb69393b7289bdbfe2949",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Green-Gold_KiCadBody.step": "64ccb72623ab3e8e51fbb68c7d85790be6d12a22f6abb6537375a47039d19a3d",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Orange-Gold_KiCadBody.step": "68bcfb92f0c21d669b2ca0b8c4a0989a544b2415ae84773da5b82c53ea48de5e",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Red-Gold_KiCadBody.step": "9e099de77943a12d1ae655005aaf75101e0580ebf84cacca145c88b4e64e8fe8",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Yellow-Gold_KiCadBody.step": "0b754a33edfd959cf51f59224d0258b3bbc2f9ce36a2cbfd7f2900412a8913ad",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Green-Green-Gold_KiCadBody.step": "54750cd392f1f74ab05cced278b94f0b7c30fc3e52a3ae20c884623a4895aa79",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Orange-Orange-Orange-Gold_KiCadBody.step": "25e0c87fab9fed9cb8b0ff00d8ea55103b1da44a6537876029b3c21830c7318a",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Black-Black-Orange-Brown_KiCadBody.step": "b1590dc63ddd9c6d5d19d5834ebfae6dd809d05bb09d2c12222a8516ca2b1580",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Black-Gold_KiCadBody.step": "a1b5d809081d4f033a587ac57017a4a29a1b8c9dc30fff5e37520ded6ccf45c5",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Orange-Gold_KiCadBody.step": "614ef6b5bc82a0a6f9b2d2676c676b0dc9decec0b462ac751b2bcfa95dfc6365",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Red-Gold_KiCadBody.step": "4a45ac67f941c9c9a8878dd2d72a621b0f9ccb76d49d89deede3d2e9c98fe3ed",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Yellow-Gold_KiCadBody.step": "ab2140ff86f552381e77713e1eac4c3c9cd58e5ab0b804e7546f0d1f04ef5ef7",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Yellow-Black-Red-Brown_KiCadBody.step": "0e028bd993306fb9ee451b7ceb91f95725be6af4031a498883ac6fd4fb2627a8",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Yellow-Violet-Orange-Gold_KiCadBody.step": "935ef9e35b5d7d83228fcfb5e7f8d27aebb45546dff8758b43eecc097d9caefa",
+    "mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Yellow-Violet-Red-Gold_KiCadBody.step": "2beb4779a55fd095f43c69054c7e31dddfd7bdd74e8ae9711d023909d96bac0a",
+    "mainboard/3dmodels/Revision23/socket-quality/DIP-40_W15.24mm_in_1-390262-5_Socket_KiCadFrame.step": "f13fea9c22d41e3904239ae434a375c79e3e7974e971f71cdf4bd8eef5c27d30",
+    "mainboard/3dmodels/Revision23/socket-quality/DIP-8_W7.62mm_in_1-390261-2_Socket_KiCadFrame.step": "c0a34091d8abedeb2628a54ff39aaa78098a3c0f77fb619f7f606ba555e98f42",
+    "mainboard/3dmodels/Revision5/integrated-models/Resonator_AWCR16MD_MaxBody_P2.54_Illustration.step": "a9cab63f2cba58e776998905e5234d17f380e69914a32637e3c28c6bba854b08",
+    "mainboard/3dmodels/Revision5/integrated-models/SIP9_BA6110_NominalBody_P2.54_Illustration.step": "622e8623379f94e50032a7580650d2bc80fccb2a417783c2abe0e08656dd3e1e",
+    "mainboard/3dmodels/Revision5/integrated-models/SIP9_LA4140_3017C_MaxBody_P2.54_Illustration.step": "75aa32f403890c20388e09bd30915dd194f7ede3de01e86291f05a7f5e390045",
+    "mainboard/3dmodels/Revision5/integrated-models/SSIP5_2SC1583_MaxBody_FannedP2.286_Illustration.step": "9a485b529d902a5b33a3beafe7bdca2cf4983aebc15ef889787b22e8e0af3c9d",
+    "mainboard/3dmodels/Revision5/integrated-models/provenance/LICENSE-CC0.md": "c3683b871f3d82dc03413ecfe590e7914e5115e814daef8aad682736de5e9a68",
+    "mainboard/3dmodels/Revision5/integrated-models/provenance/README.md": "003941362fcef14715c9da0124a13f5ad6e7f78f9fdf2eb664ebbbce7dea8cb3",
+    "mainboard/3dmodels/Revision5/integrated-models/provenance/audit_integrated_full_thickness.py": "49dccabb8fb7f655f783823e73a9f0e58938d4d15526150b65d8394a1a41067e",
+    "mainboard/3dmodels/Revision5/integrated-models/provenance/generate_integrated_illustrations.py": "d03a61923a3c855dde03bd274bf52b826d415e338f21cb57d81205a3a3185e56",
+    "mainboard/3dmodels/Revision5/integrated-models/provenance/integrated-full-thickness-audit.json": "a95182f53732674fdec40f541b0641f58ff9b1818306d66d78ce721cb92dd9c9",
+    "mainboard/3dmodels/Revision5/integrated-models/provenance/integrated-model-manifest.json": "4db30ddd68a328207e571651d8694e4b49c13fc489e8f08265bcdfecd4f8b648",
+    "mainboard/3dmodels/Revision5/integrated-models/provenance/integrated-model-records.json": "9918d0feba176971a897622d012d39d800267aeb1dbadf307abe00d31d025ef2",
+    "mainboard/3dmodels/Revision5/integrated-models/provenance/step_colors.py": "b946f7511c7e6a4f69fd8c52086cfbc14bdc41cfc11cc1181b8cfd3f25488c44",
+    "mainboard/3dmodels/Revision5/passive-models/CP_Kemet_T350A105_P2.54_Illustration.step": "85695effea1bba408bbff1030898f13b4001bcfb9203e84f38a3c7bb051b27fa",
+    "mainboard/3dmodels/Revision5/passive-models/CP_Xicon_XRL1u50_P3.556_Illustration.step": "1e02f31748e20a430b5f78568834bde6f8dcc2b785e50d9932968a7043784a04",
+    "mainboard/3dmodels/Revision5/passive-models/C_AVX_SR205_P2.54_Illustration.step": "2893fab1c5613ec442c8a4d4e07ea5ca238553affe5d3f5eb39d1a715f9120c2",
+    "mainboard/3dmodels/Revision5/passive-models/C_Xicon_PF183_P4.064_Illustration.step": "e04f5f1e60db01d340a94b410cabd175d62a769c3ba265e81fd178c1aee57eaf",
+    "mainboard/3dmodels/Revision5/passive-models/C_Xicon_PF682_P3.81_Illustration.step": "026fa225a653f0da3de139a272aa03f3266bce5d429444375c2ee0bb1d2cf427",
+    "mainboard/3dmodels/Revision5/passive-models/C_Xicon_PF683_P7.62_Illustration.step": "128c7483329ba0a44391011f8c45f9854e1ab79b4932001b635531126488d86e",
+    "mainboard/3dmodels/Revision5/passive-models/C_Xicon_PM102_P3.556_Illustration.step": "8e382c2fb1acab46ba289417090aa91d782ca200ffd28cd1365e17fbe3d45832",
+    "mainboard/3dmodels/Revision5/passive-models/C_Xicon_PM103_P4.064_Illustration.step": "721a5ac7a270bc5862d2a8f2e3e43753be7e5732b76af809466750733fb79923",
+    "mainboard/3dmodels/Revision5/passive-models/C_Xicon_PM104_P5.08_Illustration.step": "95247258bf4fbf968deca1984e3dfe51e733a4fb8b92a5082b2058913ca1b3d5",
+    "mainboard/3dmodels/Revision5/passive-models/C_Xicon_PM224_P7.62_Illustration.step": "f0f596ea9cb906b0574bf9dbb12a63a2d3c7cea03d164cc3e522a11e7c550d89",
+    "mainboard/3dmodels/Revision5/passive-models/C_Xicon_PM333_P4.064_Illustration.step": "07665e8a5671a936853a264c52c7a65b69a76f0809f84e78f85fe80edb703976",
+    "mainboard/3dmodels/Revision5/passive-models/C_Xicon_PM333_P5.08_Illustration.step": "7df7d0acc5c75dd9813fe7fe23394d6ab0ac0a34c3b36ca39ee5c7ec7a8571e1",
+    "mainboard/3dmodels/Revision5/passive-models/C_Xicon_PM473_P5.08_Illustration.step": "669216a45af8a3a1ab32218c15b1d12e322d3b6e50ca39cef55bc08ac2c1193d",
+    "mainboard/3dmodels/Revision5/passive-models/TO92_Asymmetric_x0x_Illustration.step": "80eb8b45661b02b1c9639fe9943e6d3b2778ec8912665963b2c55dfb75b51255",
+    "mainboard/3dmodels/Revision5/passive-models/provenance/LICENSE.md": "28f7c9e7cd6cc3eac2e9d3cedf135339d4652b666e03144427e9b402ba4459c3",
+    "mainboard/3dmodels/Revision5/passive-models/provenance/README.md": "c8b2f5c04557f86d41a6052308b86fb17f0e9b58e2f1b414521f4d67604549c5",
+    "mainboard/3dmodels/Revision5/passive-models/provenance/generate_passive_illustrations.py": "b2dd4f2ac14642bcefc671021601275668b2a253e6aa29d723f11903634a65bc",
+    "mainboard/3dmodels/Revision5/passive-models/provenance/passive-assignments.json": "cd9c582787e3756b90d3cd11b6f4df59c0bb72d1ca735cb685f0af2c174a55b0",
+    "mainboard/3dmodels/Revision5/passive-models/provenance/passive-dimensional-records.json": "816ee2d4e613f2f4b4af96cc217ed3d179a10b34a04a8ca61e5224f5a8dd3ed3",
+    "mainboard/3dmodels/Revision5/passive-models/provenance/reference-documents/additional-downloads.json": "ba89f15c49a3819bbfc85a4450dc22a8299bf4a70cc96c6dc63d7749396ead65",
+    "mainboard/3dmodels/Revision5/passive-models/provenance/reference-documents/downloads.json": "faeb41517c571a3c29df8aa1218b822ba9277fc9b7db13d577f85a7e3da2eff2",
+    "mainboard/3dmodels/Revision5/passive-models/provenance/reference-documents/xicon-author-documents.json": "d155fb278b4cb87286d9c4ba6a58c445a7dbda7f2834bd954c6cd2218a695342",
+    "mainboard/3dmodels/Revision6/control-body-illustrations/Alpha_RV112BCF40_25_BodyIllustration.step": "2ec819805e6f82307a681066c92d46b17b34cdfcc5daa4c6362c4c1be6103adc",
+    "mainboard/3dmodels/Revision6/control-body-illustrations/CTS_290VAA5F201B2_BodyIllustration.step": "90f6ff9576977d79187ba3b2f1afd90193bd1ddd128899629763d44920956709",
+    "mainboard/3dmodels/Revision6/control-body-illustrations/ESwitch_TL1100F160Q_BodyIllustration.step": "575df18465dffed5804b95c02adf9c4dd136ad7ad7bfa60d37911665c2d9c060",
+    "mainboard/3dmodels/Revision6/control-body-illustrations/Grayhill_25LB22H_BodyIllustration.step": "8247a603780d6111e8b8ba78e3739e57a487f68d0394bd40645c6f68b4c71ef4",
+    "mainboard/3dmodels/Revision6/control-body-illustrations/NKK_B12AB_BodyIllustration.step": "d78fff34332c1d5ce83540f6e325317dbf10c6df685244215055bb1ec277f4a4",
+    "mainboard/3dmodels/Revision6/control-body-illustrations/Panasonic_EVUF2LFL3_BodyIllustration.step": "e0bc61ce82e62b7afda32545553915b5c375759a3ab95ce1c1ae4055721cbaf6",
+    "mainboard/3dmodels/Revision6/control-body-illustrations/provenance/README.md": "359d8b5c09d31d0d5e9cbf9ce53e8b7eec9d22facb5df1c004fb189f18d4e3d8",
+    "mainboard/3dmodels/Revision6/control-body-illustrations/provenance/control-body-audit.json": "705b2cfa84f5b1d46172dbb6c9cce5b2be5b3eb0a5395cc43b21ca239f524cd2",
+    "mainboard/3dmodels/Revision6/control-body-illustrations/provenance/control-body-manifest.json": "26ac833a83addd4c662d7d1bd5df9d0eae795a9e58761e63ca0c5b92a03e0aa8",
+    "mainboard/3dmodels/Revision6/control-body-illustrations/provenance/generate_control_bodies.py": "002a5d3b1d84120fb721b820397d47c0cb314005e773c1e5b8bef6fa48e8cf2c",
+    "mainboard/3dmodels/Revision6/control-body-illustrations/provenance/render_body_review.py": "6a117ba91da967df52b8597a34ebfc8832f5ec77bd8768a1f5d2f43c32c60cb1",
+    "mainboard/3dmodels/Revision6/control-body-illustrations/provenance/sources/downloads.json": "e3b3c348469f3dbdbddb3868c261022933b58ca6dfe0d9a2128eb1055da746d9",
+    "mainboard/3dmodels/Revision6/control-body-illustrations/provenance/sources/nkk-downloads.json": "fe5da35d2b10f3c7f221b70a0b1e5e4290d757ce07ec1e526cb010f8b6788913",
+    "mainboard/3dmodels/Revision6/misc-body-illustrations/2SC2291_SSIP5_ApproxBody.step": "19c85906d54361aa9937eb1868bddb3249b0c0b7ad878e7067d447b56bdc95de",
+    "mainboard/3dmodels/Revision6/misc-body-illustrations/CT6EP_TopAdjust_BodyIllustration.step": "4e804dd88e09680a8147bb4a013c877e9011c7bb70c5fd7d114618000e3eef1e",
+    "mainboard/3dmodels/Revision6/misc-body-illustrations/Microohm_LPTC12T21001_ApproxBody.step": "907fbd52f9bc38814d3986e9841976ae001ca6fd73bd8d28d4e35a586b6bb450",
+    "mainboard/3dmodels/Revision6/misc-body-illustrations/SolderedRibbon_12Way_Termination.step": "01941f699d9d68c823228d7d566d2f682a9b98dd1d03bc189c73b2ae18eaa6e3",
+    "mainboard/3dmodels/Revision6/misc-body-illustrations/SolderedRibbon_3Way_Termination.step": "493e7e44e3195c9486dc78b96caa1fde034f349c13782b1936c2aaf932706839",
+    "mainboard/3dmodels/Revision6/misc-body-illustrations/WireJumper_P12p7.step": "cab0cbc52fcb9b04f69394062fc0e924242e85a6cfe2b50df2784feb94557202",
+    "mainboard/3dmodels/Revision6/misc-body-illustrations/WireJumper_P15p24.step": "bcb2a95f62d50668559ed08bf43bedc2014e84d10c67c95805f9b2763c8a0d9a",
+    "mainboard/3dmodels/Revision6/misc-body-illustrations/provenance/actual-source-positions.json": "e51d0b48b2bfd7de93520cbab04af49a142170f079cc7a06f2c47ba4caad2e65",
+    "mainboard/3dmodels/Revision6/misc-body-illustrations/provenance/generate_misc_bodies.py": "1199ca4ffb1ba6dd040b788b8c543a3a2aeaf12f0a9c6b73333db1fa030e0f48",
+    "mainboard/3dmodels/Revision6/misc-body-illustrations/provenance/misc-body-manifest.json": "0e8be8d3d8ebf7ac9f3fc3ccf76d0f40d15243b6b4e1364b629bcaac13a9841f",
+    "mainboard/3dmodels/Revision6/misc-body-illustrations/provenance/reference/ribbon-jumper-source-map.json": "e6d8dd014be09554df8bef8291407c6e74b9e73949941b36f38a434c9ebe2adb",
+    "mainboard/3dmodels/Revision7/control-colors/Alpha_RV112BCF40_25_BodyIllustration_Colors.step": "732aaa2de27c49de746d0df4b8188882270bc78704570b4d146cccd1a899a170",
+    "mainboard/3dmodels/Revision7/control-colors/CTS_290VAA5F201B2_BodyIllustration_Colors.step": "b4b77d4a249fdf39653b3b4bfad7537b60570e70e66886385239a742ea38c1d3",
+    "mainboard/3dmodels/Revision7/control-colors/ESwitch_TL1100F160Q_BodyIllustration_Colors.step": "d6876b2e5f3fb2d25ff6071936dfe32e81bfda5252abe706dda4845fa081a348",
+    "mainboard/3dmodels/Revision7/control-colors/Grayhill_25LB22H_BodyIllustration_Colors.step": "017b1f29db1ea3b27a827fa7c5ef35a65a989c8d9d0e144a13084a090bb07fcd",
+    "mainboard/3dmodels/Revision7/control-colors/NKK_B12AB_BodyIllustration_Colors.step": "c3d98d35d7629316ddbc0090ef7d06b1da1d83a094d5890f1e08472b8632567f",
+    "mainboard/3dmodels/Revision7/control-colors/Panasonic_EVUF2LFL3_BodyIllustration_Colors.step": "1dd40c49ccabcb25023c3cf2e0859ceedfc062b3583fe4f099f35c73239ab42a",
+    "mainboard/3dmodels/Revision8/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState.step": "680228325b4efa78f35174d54935fff4315874657fadddc9357cae1aedb37b8f",
+    "mainboard/3dmodels/Revision8/misc-quality/CT6EP_DatasheetDetailed.step": "21b0eceff6097b791b5c1174b74a85826ec8da8e5674869bf5a034b657d6df45",
+    "mainboard/3dmodels/Revision8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate.step": "7466fde9d58888b5b1986111f5a9556ca272d17d02c4d40b80775104eb1f0272",
+    "mainboard/3dmodels/Revision8/rotary-quality/Grayhill_25LB22H_DetailedCandidate.step": "2ae9410a3016bfd0deeb90c390fe4daefdb832912fa829bcb318a879e34e5caf",
+    "mainboard/3dmodels/Revision8/rotary-quality/NKK_B12AB_DetailedCandidate.step": "d6fcc8f1de47e51094c5d8cf7874d7e273f42dccbadcc1caea180e1526c4730b",
+    "mainboard/3dmodels/Revision9/legacy-quality/Mitsubishi_2SC2291_MaxBody_FormedP2p286.step": "e77a4406c0eec3750b4db057ca88ac00c49cc46bdb9f72ee2ebd5b268029909b",
+    "mainboard/3dmodels/Revision9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate.step": "15f4f15e36793c0c3e746684357c8dd8269d002d1df7509125e7b2691a253443",
+    "mainboard/3dmodels/Revision9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate.step": "37621a5fac69b737fdee4b5f0d6a4dffa83e97dc64cc3a66021d9ff02af8b381",
+    "mainboard/fp-lib-table": "0a926c3ab7fae92f4863f15c182220cc20905a2bb4f7e9eea21c90cf6ae8fee0",
+    "mainboard/mainboard-eagle-import.kicad_sym": "c9c08619833f67921b6fdba0b90d6efdf11a74d2deb453eaaed8b3de0b343a96",
+    "mainboard/mainboard-import-fps.pretty/0207_10.kicad_mod": "6d2e84143a1a429ddafeddbd65c9a9072212068d5a9e88a70ca4a312c5a77707",
+    "mainboard/mainboard-import-fps.pretty/0207_15.kicad_mod": "615eca454afe47332ff678f829e00ab0ff9a44bc7eeac10b79976c47e56e4308",
+    "mainboard/mainboard-import-fps.pretty/0207_2V.kicad_mod": "69110bee89020c7186286cb775a512f63a04262373a1415c17a00900517830d8",
+    "mainboard/mainboard-import-fps.pretty/0207_5V.kicad_mod": "5b4e22e0e64584940d3e7f0f1c2f9a8f5a2bd2905dfb191f01870a1c41c583e4",
+    "mainboard/mainboard-import-fps.pretty/1,3.kicad_mod": "ee8a18645606ace140f720a36d7e43421a87b4feff4a0dca0470c50711ccc22a",
+    "mainboard/mainboard-import-fps.pretty/12.kicad_mod": "c0ff169a75d5af9dad86da0990c82a08bfcb8a54fccd418f468b25379ecbfbd5",
+    "mainboard/mainboard-import-fps.pretty/15.kicad_mod": "18de61ec0ec490d559adf5b11f46b61dd95966daed8c0c96f26df0fb4e9c8d68",
+    "mainboard/mainboard-import-fps.pretty/2SC2021.kicad_mod": "7aed8580b7e39191acf9572dea64da1d07f78f391797b4f7f7cbe197545acdac",
+    "mainboard/mainboard-import-fps.pretty/2SC536F.kicad_mod": "974b307d1a05d4a7c0e2e0bad7e81a30251f9f0c199f7e8dc6f6714b211d3265",
+    "mainboard/mainboard-import-fps.pretty/2SC536_UNEVEN.kicad_mod": "918d7cfd2f8cde80ea777681adc114e250be6f346667b89f407e9ed45725834e",
+    "mainboard/mainboard-import-fps.pretty/2SK30.kicad_mod": "f6e2dd456b0f53a138cc1034730995c7712b6f13a3817a4f9e1288ebb722648e",
+    "mainboard/mainboard-import-fps.pretty/306.kicad_mod": "171d5ea1ea0767d03ef80f39fd862b96846740e792d89e28ce5f30c7fa0bdacd",
+    "mainboard/mainboard-import-fps.pretty/ALPHADUAL.kicad_mod": "842fc2f95f5ceb21bea3ee94bee20b99bf1f80bb52f3f7c0d6f1d93c85c5ae26",
+    "mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod": "c16e18a085fc4915d653d6892072cae4b1eadbf5edf5233fc6e2503e0ab18ab9",
+    "mainboard/mainboard-import-fps.pretty/C050-024X044.kicad_mod": "5d29ffb09193934d6bfddc7b15c2af64cb394c898bfcbdcfe5942154f9665510",
+    "mainboard/mainboard-import-fps.pretty/C050-025X075.kicad_mod": "4d6d1c8babbebb05ab68e279d085685f4fad9bfb4d6c8a42469483f21a997d28",
+    "mainboard/mainboard-import-fps.pretty/C050-030X075.kicad_mod": "883275e808b6330a2977d0b2980165e7b765986173f188012d3a54c5a0a42e0c",
+    "mainboard/mainboard-import-fps.pretty/C050-035X075.kicad_mod": "4615c4e11fe1c308617f68e0880828e975a8b402aa2924df51bbf8dfcd0002cf",
+    "mainboard/mainboard-import-fps.pretty/C050-045X075.kicad_mod": "3a401f0c7223416f6759249b4633791043b2e0ccf438db7274711fbff259a1b6",
+    "mainboard/mainboard-import-fps.pretty/C050-050X075.kicad_mod": "45226a6362e37becd63b3d0e44aed1a646b48d2c6f282dcedc28f143aa926fca",
+    "mainboard/mainboard-import-fps.pretty/C050-055X075.kicad_mod": "d2bb1bd2323e376c07121eaf608a047127e59241a97ec2dd027770d3bf42fae0",
+    "mainboard/mainboard-import-fps.pretty/C050-075X075.kicad_mod": "096a6d53d1c53e6cf0d643c5fa7368fb568a424d1a238424acc10bb3286d5553",
+    "mainboard/mainboard-import-fps.pretty/C050H075X075.kicad_mod": "4239f335456d00dedc167fa4a20d203b717d1ed02551a4b525be4e0f4a67ae8d",
+    "mainboard/mainboard-import-fps.pretty/C075-032X103.kicad_mod": "7bd3bc6d5e8566ff39ef995751f8dbfb0e91d79459478c5386590189593e1ca9",
+    "mainboard/mainboard-import-fps.pretty/DIL08.kicad_mod": "75b6a0bbad4c4bc9e99b6de67c09b7c2012d9172e77243c2d69f79eec67a39d2",
+    "mainboard/mainboard-import-fps.pretty/DIL08_AT25.kicad_mod": "60f6aa214ae785a9a515edd2e7db1d21bc2586853798cc4f60aa4a20182d916e",
+    "mainboard/mainboard-import-fps.pretty/DIL14.kicad_mod": "c3d95e06d042fd005a8261fdc9c6a7165d5696b094171e0351d22ae1813be6e3",
+    "mainboard/mainboard-import-fps.pretty/DIL16.kicad_mod": "52766e95b44a8beb94df778126df3f50e4987f7d487ea0b4b409566e688a38dc",
+    "mainboard/mainboard-import-fps.pretty/DIL40.kicad_mod": "53e861f87a86f83bfc2dff8e25904e3f2eeeea734a57e22d8500caf0da61e5d1",
+    "mainboard/mainboard-import-fps.pretty/DO35-10.kicad_mod": "6ff59bb29dfe2152d733e983cb456e16c8948bad781a3bba76b5fa57e3be13ce",
+    "mainboard/mainboard-import-fps.pretty/E2,5-7.kicad_mod": "8b307e4044685817a60f237593a7af609c392e25e49ef15c7f894e242af2b927",
+    "mainboard/mainboard-import-fps.pretty/E3,5-8.kicad_mod": "1fa6eb873f24d4a708a7a25450b0a7d4f61da17813c14e2f08191ba6f0f7d4ed",
+    "mainboard/mainboard-import-fps.pretty/E5-5.kicad_mod": "4e543bc8972ac18ca9ac720c63c5c674e59ace3f5691bd860efea6d4fccdaa7d",
+    "mainboard/mainboard-import-fps.pretty/E5-6.kicad_mod": "9383633ae3e749d6fc66e17197d821735b8665eb32ca6aa377093c2cc2b61fe5",
+    "mainboard/mainboard-import-fps.pretty/EVU.kicad_mod": "001fe2a08af8c3412d421039a59001e146c9207b2d3ec800f32e8a0498613a12",
+    "mainboard/mainboard-import-fps.pretty/GH3074.kicad_mod": "7e5c2b1126ccf4d5ddff0b3641dc05c1b362f3b9407ca47ab93f2bb42c6d50d9",
+    "mainboard/mainboard-import-fps.pretty/LED5MM.kicad_mod": "aed77f4010aebd5a398d46d4c6a762d470a9fe3224d74121c49420091f5b2671",
+    "mainboard/mainboard-import-fps.pretty/MA03-1.kicad_mod": "22873e7fb727d6cb24f23651a7c454a415827d4bec9e47f57624163a63b10d28",
+    "mainboard/mainboard-import-fps.pretty/MA12-1.kicad_mod": "046afa536815f3d80840737cf31f67ada5aed8ab451ef6d0c1c35fe27d78495a",
+    "mainboard/mainboard-import-fps.pretty/NKKTOGGLE.kicad_mod": "a05e91f915d5b320a9bee42749fe91635b9b3e353b4deaeac9e42be20d68c49d",
+    "mainboard/mainboard-import-fps.pretty/PEC11-S.kicad_mod": "62a537ce1685abd597b20d5b4aae4273c452854369371225d3b7d55726984db2",
+    "mainboard/mainboard-import-fps.pretty/R-7,5.kicad_mod": "e85eb19162ee758aa18790f2e2cc30629aec67aac070760dccf3d321f4ed1bbf",
+    "mainboard/mainboard-import-fps.pretty/SIP9.kicad_mod": "fd2162f50298bcac99197e429d3a041cfb040635968859e979d814b8b7f24f6c",
+    "mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod": "04c416963cb00adb9fcc994e45f410e4e98879390fdac0d3ed0579db6d9e15c5",
+    "mainboard/mainboard-import-fps.pretty/TO92.kicad_mod": "99da721afd86004a7dc19853af8b9a52c1c66e308941fb7162e97d8d30bfc717",
+    "mainboard/mainboard.kicad_pcb": "4ae5e20e3ccb622e57042d98a2d4a5dcfc710f45e47e04ab0b6aa884c9c58b71",
+    "mainboard/mainboard.kicad_pro": "87aeeeb92fe20492ff1aa73b261114cafb57b0553370ec2d9eafded5886ae873",
+    "mainboard/mainboard.kicad_sch": "048af535f76cfa6b3acc6b1bd9a9c603b213b7dd0de759cf7f848d8f7856e190",
+    "mainboard/sym-lib-table": "ab580635180f3beb7cc7aa3941e515c3e1461bef4ee63ec6679fad3c76336702"
+  },
+  "model_references": 491,
+  "updated_model_references": [
+    "IC2",
+    "IC3"
+  ],
+  "previous_core_files": 345,
+  "changed_previous_core_files": [
+    "mainboard/mainboard-import-fps.pretty/DIL08_AT25.kicad_mod",
+    "mainboard/mainboard-import-fps.pretty/DIL40.kicad_mod",
+    "mainboard/mainboard.kicad_pcb"
+  ],
+  "new_core_files": [
+    "mainboard/3dmodels/Revision23/socket-quality/DIP-40_W15.24mm_in_1-390262-5_Socket_KiCadFrame.step",
+    "mainboard/3dmodels/Revision23/socket-quality/DIP-8_W7.62mm_in_1-390261-2_Socket_KiCadFrame.step",
+    "mainboard/3dmodels/REVISION-23-SOURCES.json"
+  ],
+  "fresh_DRC_comparison_to_previous": {
+    "mainboard": {
+      "violations": true,
+      "schematic_parity": true,
+      "ignored_checks": true,
+      "unconnected_items_raw": false,
+      "unconnected_count_and_nets": true
+    },
+    "ioboard": {
+      "violations": true,
+      "schematic_parity": true,
+      "ignored_checks": true,
+      "unconnected_items_raw": true,
+      "unconnected_count_and_nets": true
+    }
+  },
+  "fresh_ERC_errors": {
+    "mainboard": 0,
+    "ioboard": 0
+  },
+  "fresh_ERC_warnings": {
+    "mainboard": 0,
+    "ioboard": 0
+  },
+  "lead_presence": {
+    "ioboard": {
+      "board_top_mm": 1.595,
+      "board_bottom_mm": -0.0050000000000001155,
+      "fitted_models": 82,
+      "counts": {
+        "all pins": 82
+      },
+      "missing": {}
+    },
+    "mainboard": {
+      "board_top_mm": 1.595,
+      "board_bottom_mm": -0.0050000000000001155,
+      "fitted_models": 409,
+      "counts": {
+        "all pins": 409
+      },
+      "missing": {}
+    }
+  },
+  "nominal_fit_findings": [
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "R",
+      "result": "interferes",
+      "margin_mm": -0.277,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        0.1202,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "RN",
+      "result": "interferes",
+      "margin_mm": -0.244,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        -0.0202,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "S",
+      "result": "interferes",
+      "margin_mm": -0.2595,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        0.0702,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "SN",
+      "result": "interferes",
+      "margin_mm": -0.2595,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        -0.0702,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "T",
+      "result": "interferes",
+      "margin_mm": -0.2595,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        0.0702,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "TN",
+      "result": "interferes",
+      "margin_mm": -0.2595,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        -0.0702,
+        -0.35
+      ]
+    },
+    {
+      "model": "SDS50J",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "pad": "1",
+      "result": "interferes",
+      "margin_mm": -0.0276,
+      "drill_mm": [
+        1.3208,
+        1.3208
+      ],
+      "section_centre_offset_mm": [
+        -0.12,
+        -0.08
+      ]
+    },
+    {
+      "model": "SDS50J",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "pad": "2",
+      "result": "interferes",
+      "margin_mm": -0.0641,
+      "drill_mm": [
+        1.3208,
+        1.3208
+      ],
+      "section_centre_offset_mm": [
+        0.0,
+        -0.18
+      ]
+    },
+    {
+      "model": "USB",
+      "references": [
+        "USB0"
+      ],
+      "pad": "M2",
+      "result": "interferes",
+      "margin_mm": -0.2392,
+      "drill_mm": [
+        2.2,
+        2.2
+      ],
+      "section_centre_offset_mm": [
+        0.076,
+        0.12
+      ]
+    },
+    {
+      "model": "USB",
+      "references": [
+        "USB0"
+      ],
+      "pad": "P$2",
+      "result": "interferes",
+      "margin_mm": -0.2392,
+      "drill_mm": [
+        2.2,
+        2.2
+      ],
+      "section_centre_offset_mm": [
+        -0.076,
+        0.12
+      ]
+    },
+    {
+      "model": "PJ202AH",
+      "references": [
+        "POWER0"
+      ],
+      "pad": "P$3",
+      "result": "interferes",
+      "margin_mm": -0.0435,
+      "drill_mm": [
+        2.8,
+        2.8
+      ],
+      "section_centre_offset_mm": [
+        0.1,
+        -0.162
+      ]
+    }
+  ],
+  "reports": {
+    "installation-audit.json": "d4d43b55f8fe1327fca65d61a905cb13a70d725bd8d680c7b57d965878fc5dbc",
+    "combined-model-plan.json": "69c69f708364b4b1a993323ddf589b9a5a0e2a7df0a8e38be8caecb7e4594a47",
+    "socket-quality/socket-model-audit.json": "6614ccd85056887833c2bc88bd83929850cae9b7a21e8b7f1532e87e82fcd488",
+    "socket-quality/socket-native-check.json": "68e24718f7be8ec8990bf98c21c4c2bae5fcbfefeae218168c03c5391b0ec1a1",
+    "socket-quality/sources/socket-evidence.json": "88c9025a44564c3e2bd81834b4cd0ec008eccea51b7e896d61b303c1adff95c2",
+    "native-export-record.json": "f54c063fb1f6c422e61acaf7dac8f7788f79eaef7988be38b25a359005eff9d1",
+    "native-terminal-audit.json": "d732a91e0ab7528bf483337428f402b0d7d2f9fb56643aa2577a437f884e061d",
+    "native-run-records.json": "7ee2ecfada11dba593c0610359051fecfecc8bcb5884e102749fcb7881dfe2e2",
+    "current-function-source-evidence.json": "ef4f507c3fa99c0340b9ec8d3c7868b0878dadca24d63a801b7f2b257cd1079d",
+    "current-function-verification.json": "6427f4975b5a92ea277bce4f60b2bf9ca0c87eb3515d487d932f44e3e8a2b628",
+    "local-dependencies.json": "aed45b48ae5666feff3f0a4bbb3f3737ec2b5488721bd2c526e1c5f96de8f5df",
+    "mainboard-drc.json": "648cc33d893a6e0a1d088b46812467f4676596142e063ebb200eae3f685d1f02",
+    "mainboard-erc.json": "7be84d313288bb60db10c5eab56ec7b3c757b9e1962db22f8b6177aa334e30c6",
+    "ioboard-drc.json": "0485f2a131bee024b4de859338ff431ffa6c1663b9775a44f87b4e59d6abd459",
+    "ioboard-erc.json": "9d762fe222905d5ec6479bcab7182483e041dc261c893424065bf87ac0177abf"
+  },
+  "baseline_summary": "validation/working-validation-summary-revision-22.json",
+  "baseline_summary_sha256": "71f586f1d11ab580cd333cd3d30f0f98cc4f6b8e4d49c79c483e8ec4b1995e5f",
+  "scope": "Two PCB model paths and two matching footprint-cache paths only. IC3 and IC2 sit in TE manufacturer models of their original-BOM DIP sockets with the KiCad DIP chips raised 5.10 mm. Original Eagle, copper, pads, drills, nets, footprint poses, PCB value fields and model transforms preserved.",
+  "limitations": [
+    "TE models are for the 1- prefixed lead-free successors of the BOM part numbers; identical geometry is assumed.",
+    "The chip seating height (lead shoulders on the socket top, 5.10 mm) is assumed; TE customer drawings could not be retrieved.",
+    "TE models are single fused solids; contact faces that reach below the board are tin, while contact openings on top stay black.",
+    "Chip pins overlap the fused socket contacts inside the housing; this is hidden and not a fit claim.",
+    "Physical fit is unqualified.",
+    "Body and lead geometry are the installed KiCad DIN0207 models, unchanged; not a measurement of the kit parts.",
+    "Band widths, positions, the first-band end and the band colour values are illustrations; band order and values come from the original parts page.",
+    "The 1% body colour is sampled from four uncalibrated parts-page photographs; the 5% tan comes from the page band graphic, not a photograph.",
+    "R16 and R106 are banded per the parts page (150 ohm 5%, 24.0K 1%); their PCB values (100, 27K) are left unchanged.",
+    "The 40 LED resistors carry their PCB value (10K); the parts page says the value may vary.",
+    "Original CC0 illustrations from the XRL datasheet table and drawing; not manufacturer CAD or a measurement of the fitted historical parts.",
+    "Expanded-BOM part numbers come from search-engine extracts of a page that could not be read directly; the 100uF 10V/25V assignment is inferred from the parts page and its photographs.",
+    "Sleeve and stripe colours are sampled from uncalibrated photographs; printed value text is omitted.",
+    "The seat gaps (1.5 mm for 5 mm cans, whose leads are formed from 2.0 to 2.54 mm; 0.5 mm otherwise), lead forming, top disc, vent cross and 2.5 mm lead tip are illustrations; the datasheet allows +/-1 mm diameter and +/-1.5 mm length.",
+    "PCB value fields (47/16, 100/6.3, 1000/6.3) differ from the parts page and are left unchanged.",
+    "PTC end tapers, bands,0.4mm body standoff,0.75mm lead bends and trimmed tails are installation illustrations.",
+    "PTC table has no dimensional tolerances; TCR/band-code and actual thermal coupling remain unqualified.",
+    "Spacer central bore/end-land radii are illustrative and compliant retention tabs omitted.",
+    "Original0.24-inch BOM versus0.22-inch sequencer spacer height remains unresolved.",
+    "Terminal thicknesses, bends and several widths are labelled assumptions in terminal_spec.py.",
+    "Nominal-fit findings record drawing/footprint disagreements; neither source was altered.",
+    "USB pin stock, board-lock shape, insulation skirts and gold-strip dimensions remain illustrative; hidden contact routing is omitted.",
+    "Grayhill optional bracket holes and SDS-50J locating details remain as documented.",
+    "Existing three PCB connection gaps and recorded DRC/parity warnings remain.",
+    "Nominal model checks do not establish physical assembly or fabrication readiness."
+  ],
+  "physical_fit_qualified": false
+}

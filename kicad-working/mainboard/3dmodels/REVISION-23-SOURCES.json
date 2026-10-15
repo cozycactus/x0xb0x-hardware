@@ -1,0 +1,31 @@
+{
+  "revision": 23,
+  "baseline_revision": 22,
+  "models": {
+    "DIP-40_W15.24mm_in_1-390262-5_Socket_KiCadFrame.step": {
+      "local_model": "Revision23/socket-quality/DIP-40_W15.24mm_in_1-390262-5_Socket_KiCadFrame.step",
+      "sha256": "f13fea9c22d41e3904239ae434a375c79e3e7974e971f71cdf4bd8eef5c27d30"
+    },
+    "DIP-8_W7.62mm_in_1-390261-2_Socket_KiCadFrame.step": {
+      "local_model": "Revision23/socket-quality/DIP-8_W7.62mm_in_1-390261-2_Socket_KiCadFrame.step",
+      "sha256": "c0a34091d8abedeb2628a54ff39aaa78098a3c0f77fb619f7f606ba555e98f42"
+    }
+  },
+  "references": {
+    "DIP-40_W15.24mm_in_1-390262-5_Socket_KiCadFrame.step": [
+      "IC3"
+    ],
+    "DIP-8_W7.62mm_in_1-390261-2_Socket_KiCadFrame.step": [
+      "IC2"
+    ]
+  },
+  "evidence": "validation/models-review-23/socket-quality/sources/socket-evidence.json",
+  "limitations": [
+    "TE models are for the 1- prefixed lead-free successors of the BOM part numbers; identical geometry is assumed.",
+    "The chip seating height (lead shoulders on the socket top, 5.10 mm) is assumed; TE customer drawings could not be retrieved.",
+    "TE models are single fused solids; contact faces that reach below the board are tin, while contact openings on top stay black.",
+    "Chip pins overlap the fused socket contacts inside the housing; this is hidden and not a fit claim.",
+    "Physical fit is unqualified."
+  ],
+  "physical_fit_qualified": false
+}

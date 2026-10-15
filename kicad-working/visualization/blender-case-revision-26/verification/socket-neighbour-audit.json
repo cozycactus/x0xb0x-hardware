@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "frame": 1,
+  "declared": [],
+  "new_contacts": [],
+  "retained_contacts": [],
+  "removed_contacts": [],
+  "headroom_above_chip_mm": {
+    "before": {
+      "MAINBOARD/IC2": 12.88,
+      "MAINBOARD/IC3": 12.91
+    },
+    "after": {
+      "MAINBOARD/IC2": 7.78,
+      "MAINBOARD/IC3": 7.81
+    }
+  },
+  "baseline": {
+    "scene_sha256": "e02138d570637325dc4d7b43353216340832ddd6ea0526f2ea8880afe5d44d90",
+    "nearby_meshes_tested": 9
+  },
+  "current": {
+    "scene_sha256": "121021a77f6b4b9b7865df46c6b227403ba38d0594113b985042e6102aa47ada",
+    "nearby_meshes_tested": 9
+  },
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "method": "Rendered IC3/IC2 meshes versus other component, panel and enclosure meshes within a 2 mm bbox at frame 1; own geometry and PCB layers excluded. Depth = deepest reach of the other mesh inside the reference bounding box. Headroom = free distance along the board normal from the 60 highest vertices to any other visible mesh."
+}

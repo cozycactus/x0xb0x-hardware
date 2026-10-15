@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "retrieved": "2026-10-16",
+  "bom": {
+    "parts_page": "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+    "local_mirror": "kicad-working/visualization/blender-case-revision-7/bom-parts/original-parts-page-mirror.html",
+    "rows": {
+      "IC3'": "40-pin DIP socket, AMP 390262-5 (Any 40 pin socket will do), Mouser; IC3 is the ATmega162-16PU",
+      "IC2*": "8-pin DIP socket, AMP 390261-2 (Any 8 pin socket will do), Mouser; IC2 is the CAT2532 / 25C33 / AT25320 EEPROM"
+    },
+    "notation": "Marks ' and * denote parts attached to a component (e.g. IC20' heat sink, LED1*-LED40* spacers)."
+  },
+  "kit_photo": {
+    "file": "8pinsocket.jpg",
+    "source": "https://github.com/x0xb0x/x0xb0x.github.io (assets/images/parts/)",
+    "retained": false,
+    "observed": "Black open-frame ladder socket, tin dual-wipe contacts, pin-1 notch in one end wall"
+  },
+  "manufacturer_models": {
+    "TE_CVM_1-390262-5_3d_stp.zip": {
+      "url": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-390262-5&DocType=Customer%20View%20Model&DocLang=English&DocFormat=3d_stp.zip&PartCntxt=1-390262-5",
+      "product_page": "https://www.te.com/en/product-1-390262-5.html",
+      "description": "40P, DIP SKT, 600 CL, LDR, PB FREE (superseded)",
+      "inner_file": "c-1-390262-5-m-3d.stp",
+      "inner_sha256": "0bf1905b62e2ff75fac48b459e5c015e928f1e1539114f02d0bec098d4b8d40f",
+      "inner_date": "2009-03-02"
+    },
+    "TE_CVM_1-390261-2_3d_stp.zip": {
+      "url": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=CVM_1-390261-2&DocType=Customer%20View%20Model&DocLang=English&DocFormat=3d_stp.zip&PartCntxt=1-390261-2",
+      "product_page": "https://www.te.com/en/product-1-390261-2.html",
+      "description": "8P, DIP SKT, 300 CL, LDR, PB FREE (superseded)",
+      "inner_file": "c-1-390261-2-m-3d.stp",
+      "inner_sha256": "a752812a5e937148dbfabc3213a66a6244ded313ada6a119ea55ed3cf8305882",
+      "inner_date": "2012-01-05"
+    },
+    "relation_to_bom": "The BOM names 390262-5 and 390261-2; TE publishes models only for the 1- prefixed lead-free successors. Identical geometry is assumed, not confirmed by TE.",
+    "distributor_dimensions": {
+      "height_above_board_mm": 5.1,
+      "post_length_mm": 3.0,
+      "sources": ["https://oneic.com/product/13902625.html", "https://www.jameco.com/z/390261-2-TE-Connectivity-8-Position-Dual-Wipe-Ladder-Style-DIP-IC-Socket-0-3-Wide-0-1-Pitch_526299.html"]
+    },
+    "customer_drawings": "TE customer drawings 390261/390262 returned HTTP 500 and were not read."
+  },
+  "chip_seating": "The chip's lead shoulders are assumed to rest on the socket top, 5.10 mm above the board; not confirmed by a drawing."
+}

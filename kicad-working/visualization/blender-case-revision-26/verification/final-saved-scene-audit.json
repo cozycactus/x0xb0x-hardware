@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "check_count": 12,
+  "checks": [
+    {
+      "check": "Both frozen files match recorded hashes",
+      "passed": true
+    },
+    {
+      "check": "All 1721 object identities retained with none added",
+      "passed": true
+    },
+    {
+      "check": "Only declared IC3/IC2 mesh data, socket materials and source/guide metadata change",
+      "passed": true,
+      "unexpected": []
+    },
+    {
+      "check": "Both IC meshes match recorded old and new exact native geometry",
+      "passed": true
+    },
+    {
+      "check": "Every previous material is retained exactly, except those used only by the replaced meshes",
+      "passed": true,
+      "retired": [],
+      "retired_users": {}
+    },
+    {
+      "check": "Exactly two socket materials added",
+      "passed": true
+    },
+    {
+      "check": "Replaced meshes use only the socket materials or their own previous materials",
+      "passed": true
+    },
+    {
+      "check": "491 references, 40 LEDs, 40 spacers and 23 caps retained",
+      "passed": true
+    },
+    {
+      "check": "Every displayed instance pose and legend glyph retained in four frames",
+      "passed": true
+    },
+    {
+      "check": "Only one current opening guide added",
+      "passed": true
+    },
+    {
+      "check": "All rear passages remain clear",
+      "passed": true
+    },
+    {
+      "check": "Frozen scene files remain byte-identical after audit",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "stable_scene_sha256": "121021a77f6b4b9b7865df46c6b227403ba38d0594113b985042e6102aa47ada",
+  "baseline_sha256": "e02138d570637325dc4d7b43353216340832ddd6ea0526f2ea8880afe5d44d90",
+  "frames": 4,
+  "native_reference_count": 491,
+  "stored_object_count": 1721,
+  "changed_geometry_objects": [
+    "MAINBOARD/IC2/mesh",
+    "MAINBOARD/IC3/mesh"
+  ],
+  "added_materials": [
+    "TE DIP socket contacts \u2014 revision 26 (native KiCad colour)",
+    "TE DIP socket housing \u2014 revision 26 (native KiCad colour)"
+  ],
+  "retired_materials": [],
+  "read_only": true,
+  "physical_fit_qualified": false
+}

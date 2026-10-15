@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "revision": 23,
+  "generator": "check_native_sockets.py",
+  "passed": true,
+  "check_count": 2,
+  "checks": [
+    {
+      "check": "IC3: black housing on the board up to 5.10 mm, tin contact tails to 3.0 mm below, chip seated on the socket",
+      "passed": true,
+      "unknown_colour_triangles": 0,
+      "z_ranges_mm": {
+        "housing": [
+          -0.0,
+          5.1
+        ],
+        "tin": [
+          -3.0,
+          0.3
+        ],
+        "chip body": [
+          5.48,
+          8.78
+        ],
+        "chip pins": [
+          1.8,
+          7.257
+        ]
+      }
+    },
+    {
+      "check": "IC2: black housing on the board up to 5.10 mm, tin contact tails to 3.0 mm below, chip seated on the socket",
+      "passed": true,
+      "unknown_colour_triangles": 0,
+      "z_ranges_mm": {
+        "housing": [
+          0.0,
+          5.1
+        ],
+        "tin": [
+          -3.0,
+          0.3
+        ],
+        "chip body": [
+          5.48,
+          8.78
+        ],
+        "chip pins": [
+          1.8,
+          7.257
+        ]
+      }
+    }
+  ],
+  "glb_sha256": "b0f76b838ddc6df44a74dd5c701dc4229d320dcdb2eb6de1215f2207fd050ae4",
+  "read_only": true
+}

@@ -1,0 +1,232 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-16",
+  "Blender_revision": 26,
+  "KiCad_revision": 23,
+  "scene": "kicad-working/visualization/blender-case-revision-26/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "121021a77f6b4b9b7865df46c6b227403ba38d0594113b985042e6102aa47ada",
+  "scene_bytes": 46673616,
+  "baseline_scene_sha256": "e02138d570637325dc4d7b43353216340832ddd6ea0526f2ea8880afe5d44d90",
+  "correction": "IC3 (ATmega162) and IC2 (EEPROM) sit in their original-BOM sockets, AMP 390262-5 and 390261-2, using TE manufacturer models of the lead-free successors 1-390262-5 and 1-390261-2: black ladder housings 5.10 mm tall with tin contacts reaching 3.0 mm below the board. The KiCad DIP chips rest on the socket tops, 8.78 mm above the board.",
+  "bom": {
+    "IC3'": "40-pin DIP socket, AMP 390262-5 (Any 40 pin socket will do), Mouser; IC3 is the ATmega162-16PU",
+    "IC2*": "8-pin DIP socket, AMP 390261-2 (Any 8 pin socket will do), Mouser; IC2 is the CAT2532 / 25C33 / AT25320 EEPROM"
+  },
+  "manufacturer_models": {
+    "TE_CVM_1-390262-5_3d_stp.zip": {
+      "url": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-390262-5&DocType=Customer%20View%20Model&DocLang=English&DocFormat=3d_stp.zip&PartCntxt=1-390262-5",
+      "product_page": "https://www.te.com/en/product-1-390262-5.html",
+      "description": "40P, DIP SKT, 600 CL, LDR, PB FREE (superseded)",
+      "inner_file": "c-1-390262-5-m-3d.stp",
+      "inner_sha256": "0bf1905b62e2ff75fac48b459e5c015e928f1e1539114f02d0bec098d4b8d40f",
+      "inner_date": "2009-03-02"
+    },
+    "TE_CVM_1-390261-2_3d_stp.zip": {
+      "url": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=CVM_1-390261-2&DocType=Customer%20View%20Model&DocLang=English&DocFormat=3d_stp.zip&PartCntxt=1-390261-2",
+      "product_page": "https://www.te.com/en/product-1-390261-2.html",
+      "description": "8P, DIP SKT, 300 CL, LDR, PB FREE (superseded)",
+      "inner_file": "c-1-390261-2-m-3d.stp",
+      "inner_sha256": "a752812a5e937148dbfabc3213a66a6244ded313ada6a119ea55ed3cf8305882",
+      "inner_date": "2012-01-05"
+    },
+    "relation_to_bom": "The BOM names 390262-5 and 390261-2; TE publishes models only for the 1- prefixed lead-free successors. Identical geometry is assumed, not confirmed by TE.",
+    "distributor_dimensions": {
+      "height_above_board_mm": 5.1,
+      "post_length_mm": 3.0,
+      "sources": [
+        "https://oneic.com/product/13902625.html",
+        "https://www.jameco.com/z/390261-2-TE-Connectivity-8-Position-Dual-Wipe-Ladder-Style-DIP-IC-Socket-0-3-Wide-0-1-Pitch_526299.html"
+      ]
+    },
+    "customer_drawings": "TE customer drawings 390261/390262 returned HTTP 500 and were not read."
+  },
+  "models": {
+    "IC3": {
+      "output": "DIP-40_W15.24mm_in_1-390262-5_Socket_KiCadFrame.step",
+      "part": "TE 1-390262-5 (BOM AMP 390262-5)",
+      "seat_mm": 5.1,
+      "chip_top_above_board_mm": 8.78,
+      "socket_outline_mm": [
+        17.7,
+        50.8
+      ],
+      "rotation_deg": 90.0
+    },
+    "IC2": {
+      "output": "DIP-8_W7.62mm_in_1-390261-2_Socket_KiCadFrame.step",
+      "part": "TE 1-390261-2 (BOM AMP 390261-2)",
+      "seat_mm": 5.1,
+      "chip_top_above_board_mm": 8.78,
+      "socket_outline_mm": [
+        10.0,
+        10.16
+      ],
+      "rotation_deg": 90.0
+    }
+  },
+  "tail_fit": "0.17 x 0.60 mm flat tails, diagonal 0.62 mm, in the original 0.8128 mm drills (nominal corner margin 0.094 mm)",
+  "neighbour_contacts": {
+    "new": [],
+    "headroom_above_chip_mm": {
+      "before": {
+        "MAINBOARD/IC2": 12.88,
+        "MAINBOARD/IC3": 12.91
+      },
+      "after": {
+        "MAINBOARD/IC2": 7.78,
+        "MAINBOARD/IC3": 7.81
+      }
+    }
+  },
+  "blender": {
+    "changed_meshes": 2,
+    "added_materials": [
+      "TE DIP socket contacts \u2014 revision 26 (native KiCad colour)",
+      "TE DIP socket housing \u2014 revision 26 (native KiCad colour)"
+    ],
+    "retired_materials": []
+  },
+  "kicad": {
+    "changed_files": [
+      "mainboard/mainboard-import-fps.pretty/DIL08_AT25.kicad_mod",
+      "mainboard/mainboard-import-fps.pretty/DIL40.kicad_mod",
+      "mainboard/mainboard.kicad_pcb"
+    ],
+    "new_files": [
+      "mainboard/3dmodels/Revision23/socket-quality/DIP-40_W15.24mm_in_1-390262-5_Socket_KiCadFrame.step",
+      "mainboard/3dmodels/Revision23/socket-quality/DIP-8_W7.62mm_in_1-390261-2_Socket_KiCadFrame.step",
+      "mainboard/3dmodels/REVISION-23-SOURCES.json"
+    ],
+    "core_files": 348,
+    "fresh_ERC_errors": {
+      "mainboard": 0,
+      "ioboard": 0
+    },
+    "fresh_DRC_comparison_to_previous": {
+      "mainboard": {
+        "violations": true,
+        "schematic_parity": true,
+        "ignored_checks": true,
+        "unconnected_items_raw": false,
+        "unconnected_count_and_nets": true
+      },
+      "ioboard": {
+        "violations": true,
+        "schematic_parity": true,
+        "ignored_checks": true,
+        "unconnected_items_raw": true,
+        "unconnected_count_and_nets": true
+      }
+    }
+  },
+  "verification": {
+    "socket_models": {
+      "report": "kicad-working/validation/models-review-23/socket-quality/socket-model-audit.json",
+      "sha256": "6614ccd85056887833c2bc88bd83929850cae9b7a21e8b7f1532e87e82fcd488",
+      "passed": true,
+      "check_count": 30
+    },
+    "native_socket_check": {
+      "report": "kicad-working/validation/models-review-23/socket-quality/socket-native-check.json",
+      "sha256": "68e24718f7be8ec8990bf98c21c4c2bae5fcbfefeae218168c03c5391b0ec1a1",
+      "passed": true,
+      "check_count": 2
+    },
+    "kicad_installation": {
+      "report": "kicad-working/validation/models-review-23/installation-audit.json",
+      "sha256": "d4d43b55f8fe1327fca65d61a905cb13a70d725bd8d680c7b57d965878fc5dbc",
+      "passed": true
+    },
+    "native_lead_and_fit_audit": {
+      "report": "kicad-working/validation/models-review-23/native-terminal-audit.json",
+      "sha256": "d732a91e0ab7528bf483337428f402b0d7d2f9fb56643aa2577a437f884e061d",
+      "passed": true,
+      "check_count": 42
+    },
+    "kicad_validation_summary": {
+      "report": "kicad-working/validation/working-validation-summary-revision-23.json",
+      "sha256": "9639906fa4ccd20a542fc18f76fb502b7f05417d143483ee7631948e6136579e",
+      "passed": true
+    },
+    "midi_function_replay": {
+      "report": "kicad-working/validation/models-review-23/current-function-verification.json",
+      "sha256": "6427f4975b5a92ea277bce4f60b2bf9ca0c87eb3515d487d932f44e3e8a2b628",
+      "passed": true
+    },
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-26/verification/final-saved-scene-audit.json",
+      "sha256": "e3f19595a97460426dcc3161ac65dc91de2b2a26ad6d931afa6137797aa2c872",
+      "passed": true,
+      "check_count": 12
+    },
+    "kicad_blender_models": {
+      "report": "kicad-working/visualization/blender-case-revision-26/verification/kicad-blender-models-audit.json",
+      "sha256": "dcd84c291551b131823cc67e34376fd99c63f44bf7bb50a72d283d58bfa9fd0b",
+      "passed": true,
+      "check_count": 7
+    },
+    "drill_fit": {
+      "report": "kicad-working/visualization/blender-case-revision-26/verification/drill-fit-audit.json",
+      "sha256": "c7c3615cc148e4a83eb4621fe268c46c7f3bcab578f9e2918a7706dedf9e42c1",
+      "passed": true,
+      "check_count": 6
+    },
+    "terminal_joins": {
+      "report": "kicad-working/visualization/blender-case-revision-26/verification/terminal-join-audit.json",
+      "sha256": "dd842137cc4ef800d5df1500dd10deed227524cfc0e6d00c9a323c22002687a7",
+      "passed": true,
+      "check_count": 4
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-26/verification/rear-openings-audit.json",
+      "sha256": "0af4511f1cb6c61bd3c3fe37f1506cb5df96536ab1380f9f2297aeff95a71d12",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-26/verification/portable-scene-audit.json",
+      "sha256": "b3e4939314e62504db0cb79a06d4cc1c41fdfb19a8f266449b9c5c1e3983a6a3",
+      "passed": true,
+      "check_count": 106
+    },
+    "socket_neighbours": {
+      "report": "kicad-working/visualization/blender-case-revision-26/verification/socket-neighbour-audit.json",
+      "sha256": "d987dcd5d562e21d3d714c8287cf68fe5ec4bd4d0ec7249b05eb411f3732a32c",
+      "passed": true
+    },
+    "detail_renders": {
+      "report": "kicad-working/visualization/blender-case-revision-26/verification/socket-detail-render.json",
+      "sha256": "83ec7463f4c0152364e2ddda00bed28f0020835fc2886810a5c0624eff95e541",
+      "passed": true
+    },
+    "render_readonly": {
+      "report": "kicad-working/visualization/blender-case-revision-26/verification/render-readonly-verification.json",
+      "sha256": "451e477da024391918c0a2de1b5fbefe7a77a9d50066b8f9ed6b23aeadfd44cd",
+      "passed": true
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-26/verification/final-render-review.json",
+      "sha256": "46216336f3ae9b112fc4b347171e9353d1429ebbf8220381f84cb97cb4049d05",
+      "passed": true
+    }
+  },
+  "unchanged": [
+    "Original Eagle files",
+    "KiCad copper, pads, drills, nets, footprint poses, PCB value fields, model transforms and rules",
+    "Every other model reference",
+    "All Blender objects, poses, case, LEDs, spacers, caps, hardware, wiring study, previous materials, cameras and animation"
+  ],
+  "limitations": [
+    "TE models are for the 1- prefixed lead-free successors of the BOM part numbers; identical geometry is assumed.",
+    "The chip seating height (lead shoulders on the socket top, 5.10 mm) is assumed; TE customer drawings could not be retrieved.",
+    "TE models are single fused solids; contact faces that reach below the board are tin, while contact openings on top stay black.",
+    "Chip pins overlap the fused socket contacts inside the housing; this is hidden and not a fit claim.",
+    "Physical fit is unqualified."
+  ],
+  "physical_fit_qualified": false,
+  "validation_summary": {
+    "report": "kicad-working/visualization/blender-case-revision-26/verification/independent-validation-summary.json",
+    "sha256": "21a055921597984035bc580b3b47fedad5f2b59a66418474e911556fd19b0157"
+  }
+}

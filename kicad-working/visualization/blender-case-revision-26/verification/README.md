@@ -1,0 +1,3 @@
+# Revision 26 verification
+
+The saved-file audit compares revisions 25 and 26, accepting only the IC3/IC2 mesh changes, two added socket materials, the roots' source fields and the new guide. Every existing object, pose, camera, legend and animation remains. The other scripts replay the current native-model, drill-fit, portability and terminal-join checks; source hashes are pinned in their reports. The neighbour screen tests the evaluated IC3/IC2 instances against every other visible mesh at frame 1 and records the free height above each chip; no new contact appears. Before/after detail images use identical cameras; their lighting is temporary and never saved.
