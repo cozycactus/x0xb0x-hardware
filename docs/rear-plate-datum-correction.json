@@ -1,0 +1,565 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-15",
+  "Blender_revision": 14,
+  "KiCad_revision": 12,
+  "scene": "kicad-working/visualization/blender-case-revision-14/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "57ca42b29fb812022d24a0138ec96048a3085bc7262762e1660e87397050f2ae",
+  "scene_bytes": 42902521,
+  "baseline_scene_sha256": "f4bbf1d0f73dbc641ed494c0fc12cf2f4e76689e7b762f45592d0ea4d5ede2d2",
+  "correction": "Rear plate inner face moved onto the original Eagle I/O detached Dimension strip datum (KiCad Y=+0.508 mm, the three REAN footprint origins) by moving only the I/O board placement 0.508 mm toward the case front.",
+  "evidence": {
+    "original_eagle_detached_strip_y_mm": [
+      0.508,
+      2.159
+    ],
+    "strip_depth_mm": 1.651,
+    "original_plate_thickness_mm": 1.5748,
+    "strip_width_mm": 222.25,
+    "plate_width_mm": 217.932,
+    "footprint_origin_y_mm": {
+      "CV0": 0.0,
+      "DIN1": 0.0,
+      "DIN2": 0.0,
+      "DIN3": 0.0,
+      "DIN4": 0.0,
+      "GATE0": 0.0,
+      "HEADPHONE0": 0.508,
+      "MIXIN0": 0.508,
+      "MIXOUT0": 0.508
+    },
+    "manuals": "Original finishing manual attaches the rear plate through the three 1/4-inch jacks; I/O manual step 9 keeps DIN faces flush with the PCB edge.",
+    "interpretation": "Plate clamped against the audio shoulders; shoulders at the footprint origin (2007 NYS216 drawing registration); strip drawn from exactly that line."
+  },
+  "change": {
+    "world_delta_mm": [
+      0.0,
+      -0.508,
+      0.0
+    ],
+    "moved_objects": 30,
+    "conductors_end_blended": 24,
+    "conductor_blend_length_mm": 20.0,
+    "hidden_strip_reference_follows_board": true
+  },
+  "seating": {
+    "columns": "[revision 13, revision 14]",
+    "ports": [
+      {
+        "reference": "POWER0",
+        "shoulder_or_flange_minus_plate_inner_mm": [
+          null,
+          null
+        ],
+        "mating_face_beyond_plate_exterior_mm": [
+          1.2192041338421404,
+          0.71120864758268
+        ],
+        "plate_mesh_overlap_mm3": [
+          1.148014708072022,
+          1.1480147505048741
+        ],
+        "rectangle_bottom_clearance_mm": [
+          -0.08099794387817383,
+          -0.08099794387817383
+        ]
+      },
+      {
+        "reference": "HEADPHONE0",
+        "shoulder_or_flange_minus_plate_inner_mm": [
+          0.508014440536499,
+          1.895427703857422e-05
+        ],
+        "mating_face_beyond_plate_exterior_mm": [
+          7.4332146109081805,
+          6.925219482276589
+        ],
+        "plate_mesh_overlap_mm3": [
+          101.91510414108015,
+          0.004542438860974569
+        ],
+        "rectangle_bottom_clearance_mm": [
+          null,
+          null
+        ]
+      },
+      {
+        "reference": "MIXIN0",
+        "shoulder_or_flange_minus_plate_inner_mm": [
+          0.5080064535140991,
+          1.0967254638671875e-05
+        ],
+        "mating_face_beyond_plate_exterior_mm": [
+          7.433206981513649,
+          6.925211376044899
+        ],
+        "plate_mesh_overlap_mm3": [
+          101.91207800113683,
+          0.0015530697957048883
+        ],
+        "rectangle_bottom_clearance_mm": [
+          null,
+          null
+        ]
+      },
+      {
+        "reference": "MIXOUT0",
+        "shoulder_or_flange_minus_plate_inner_mm": [
+          0.5080046653747559,
+          9.179115295410156e-06
+        ],
+        "mating_face_beyond_plate_exterior_mm": [
+          7.433205074165016,
+          6.925209468696266
+        ],
+        "plate_mesh_overlap_mm3": [
+          101.91207459825067,
+          0.0015530697441231442
+        ],
+        "rectangle_bottom_clearance_mm": [
+          null,
+          null
+        ]
+      },
+      {
+        "reference": "CV0",
+        "shoulder_or_flange_minus_plate_inner_mm": [
+          1.4066696166992188e-05,
+          -0.5079813003540039
+        ],
+        "mating_face_beyond_plate_exterior_mm": [
+          1.4252139986492693,
+          0.9172186315990984
+        ],
+        "plate_mesh_overlap_mm3": [
+          0.0,
+          0.0
+        ],
+        "rectangle_bottom_clearance_mm": [
+          null,
+          null
+        ]
+      },
+      {
+        "reference": "GATE0",
+        "shoulder_or_flange_minus_plate_inner_mm": [
+          1.1920928955078125e-06,
+          -0.5079944133758545
+        ],
+        "mating_face_beyond_plate_exterior_mm": [
+          1.4252011240459979,
+          0.9172055781818926
+        ],
+        "plate_mesh_overlap_mm3": [
+          0.0,
+          0.0
+        ],
+        "rectangle_bottom_clearance_mm": [
+          null,
+          null
+        ]
+      },
+      {
+        "reference": "USB0",
+        "shoulder_or_flange_minus_plate_inner_mm": [
+          null,
+          null
+        ],
+        "mating_face_beyond_plate_exterior_mm": [
+          1.2192094982601702,
+          0.711213952396065
+        ],
+        "plate_mesh_overlap_mm3": [
+          1.5357886832897032,
+          1.5357887400554344
+        ],
+        "rectangle_bottom_clearance_mm": [
+          -0.08099794387817383,
+          -0.08099794387817383
+        ]
+      },
+      {
+        "reference": "DIN1",
+        "shoulder_or_flange_minus_plate_inner_mm": [
+          5.9604644775390625e-06,
+          -0.5079894065856934
+        ],
+        "mating_face_beyond_plate_exterior_mm": [
+          -1.57479410758242,
+          -2.082789474632591
+        ],
+        "plate_mesh_overlap_mm3": [
+          0.0,
+          0.0
+        ],
+        "rectangle_bottom_clearance_mm": [
+          null,
+          null
+        ]
+      },
+      {
+        "reference": "DIN2",
+        "shoulder_or_flange_minus_plate_inner_mm": [
+          2.7418136596679688e-06,
+          -0.5079927444458008
+        ],
+        "mating_face_beyond_plate_exterior_mm": [
+          -1.574797326233238,
+          -2.0827928124926984
+        ],
+        "plate_mesh_overlap_mm3": [
+          0.0,
+          0.0
+        ],
+        "rectangle_bottom_clearance_mm": [
+          null,
+          null
+        ]
+      },
+      {
+        "reference": "DIN3",
+        "shoulder_or_flange_minus_plate_inner_mm": [
+          1.430511474609375e-05,
+          -0.5079810619354248
+        ],
+        "mating_face_beyond_plate_exterior_mm": [
+          -1.5747857629321516,
+          -2.0827811299823225
+        ],
+        "plate_mesh_overlap_mm3": [
+          0.0,
+          0.0
+        ],
+        "rectangle_bottom_clearance_mm": [
+          null,
+          null
+        ]
+      },
+      {
+        "reference": "DIN4",
+        "shoulder_or_flange_minus_plate_inner_mm": [
+          7.748603820800781e-06,
+          -0.5079877376556396
+        ],
+        "mating_face_beyond_plate_exterior_mm": [
+          -1.5747923194430768,
+          -2.0827878057025373
+        ],
+        "plate_mesh_overlap_mm3": [
+          0.0,
+          0.0
+        ],
+        "rectangle_bottom_clearance_mm": [
+          null,
+          null
+        ]
+      }
+    ],
+    "audio_nose_tip_beyond_nut_mm": [
+      0.7252130508422852,
+      0.7251982688903809,
+      0.7251977920532227
+    ]
+  },
+  "io_contacts": {
+    "revision13_pairs": 15,
+    "revision14_pairs": 5,
+    "new_pairs": [],
+    "removed_pairs": [
+      [
+        "IOBOARD/CV0/mesh",
+        "iopanel \u2014 exact DXF profile"
+      ],
+      [
+        "IOBOARD/DIN1/mesh",
+        "iopanel \u2014 exact DXF profile"
+      ],
+      [
+        "IOBOARD/DIN2/mesh",
+        "iopanel \u2014 exact DXF profile"
+      ],
+      [
+        "IOBOARD/DIN3/mesh",
+        "iopanel \u2014 exact DXF profile"
+      ],
+      [
+        "IOBOARD/DIN4/mesh",
+        "iopanel \u2014 exact DXF profile"
+      ],
+      [
+        "IOBOARD/GATE0/mesh",
+        "iopanel \u2014 exact DXF profile"
+      ],
+      [
+        "IOBOARD/PCB layers/mesh.003 / populated PCB subset",
+        "iopanel \u2014 exact DXF profile"
+      ],
+      [
+        "IOBOARD/PCB layers/mesh.005 / populated PCB subset",
+        "iopanel \u2014 exact DXF profile"
+      ],
+      [
+        "IOBOARD/PCB layers/mesh.006 / populated PCB subset",
+        "iopanel \u2014 exact DXF profile"
+      ],
+      [
+        "IOBOARD/PCB layers/mesh.008",
+        "iopanel \u2014 exact DXF profile"
+      ]
+    ]
+  },
+  "din_pin_patterns": {
+    "frame": "x across connector, y = distance from connector front datum, mm",
+    "datasheet_source": "Same Sky SDS-J datasheet 09/12/2024 page 3 (retained PDF kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/sds50j.pdf); values read from the drawing",
+    "pins": [
+      {
+        "pad": "1",
+        "eagle_pad_mm": [
+          7.62,
+          12.58
+        ],
+        "datasheet_layout_mm": [
+          7.5,
+          12.5
+        ],
+        "received_terminal_mm": [
+          7.5,
+          12.7
+        ],
+        "eagle_minus_datasheet_mm": [
+          0.12,
+          0.08
+        ],
+        "received_minus_datasheet_mm": [
+          0.0,
+          0.2
+        ]
+      },
+      {
+        "pad": "2",
+        "eagle_pad_mm": [
+          0.0,
+          12.68
+        ],
+        "datasheet_layout_mm": [
+          0.0,
+          12.5
+        ],
+        "received_terminal_mm": [
+          0.0,
+          12.7
+        ],
+        "eagle_minus_datasheet_mm": [
+          0.0,
+          0.18
+        ],
+        "received_minus_datasheet_mm": [
+          0.0,
+          0.2
+        ]
+      },
+      {
+        "pad": "3",
+        "eagle_pad_mm": [
+          -7.52,
+          12.58
+        ],
+        "datasheet_layout_mm": [
+          -7.5,
+          12.5
+        ],
+        "received_terminal_mm": [
+          -7.5,
+          12.7
+        ],
+        "eagle_minus_datasheet_mm": [
+          -0.02,
+          0.08
+        ],
+        "received_minus_datasheet_mm": [
+          0.0,
+          0.2
+        ]
+      },
+      {
+        "pad": "4",
+        "eagle_pad_mm": [
+          5.08,
+          15.02
+        ],
+        "datasheet_layout_mm": [
+          5.0,
+          15.0
+        ],
+        "received_terminal_mm": [
+          5.0,
+          15.2
+        ],
+        "eagle_minus_datasheet_mm": [
+          0.08,
+          0.02
+        ],
+        "received_minus_datasheet_mm": [
+          0.0,
+          0.2
+        ]
+      },
+      {
+        "pad": "5",
+        "eagle_pad_mm": [
+          -5.08,
+          15.02
+        ],
+        "datasheet_layout_mm": [
+          -5.0,
+          15.0
+        ],
+        "received_terminal_mm": [
+          -5.0,
+          15.2
+        ],
+        "eagle_minus_datasheet_mm": [
+          -0.08,
+          0.02
+        ],
+        "received_minus_datasheet_mm": [
+          0.0,
+          0.2
+        ]
+      },
+      {
+        "pad": "PE",
+        "eagle_pad_mm": [
+          -2.54,
+          2.62
+        ],
+        "datasheet_layout_mm": [
+          -2.5,
+          2.5
+        ],
+        "received_terminal_mm": [
+          -2.5,
+          2.7
+        ],
+        "eagle_minus_datasheet_mm": [
+          -0.04,
+          0.12
+        ],
+        "received_minus_datasheet_mm": [
+          0.0,
+          0.2
+        ]
+      },
+      {
+        "pad": "PE@",
+        "eagle_pad_mm": [
+          2.54,
+          2.62
+        ],
+        "datasheet_layout_mm": [
+          2.5,
+          2.5
+        ],
+        "received_terminal_mm": [
+          2.5,
+          2.7
+        ],
+        "eagle_minus_datasheet_mm": [
+          0.04,
+          0.12
+        ],
+        "received_minus_datasheet_mm": [
+          0.0,
+          0.2
+        ]
+      }
+    ],
+    "received_rows_offset_from_datasheet_mm": 0.2,
+    "received_minus_datasheet_flange_thickness_mm": 0.2,
+    "datasheet_locator_holes": "2 x dia 2.4 mm at x=+-7.5, y=7.5; absent from the original Eagle package",
+    "interpretation": "Received terminals equal the datasheet pattern measured from the back of a 0.2 mm thicker flange. Eagle pads are an imperial-grid approximation within 0.18 mm, inside the +-0.3 mm part tolerance, so pads cannot fix the axial datum."
+  },
+  "downloaded_din_flange_penetration_mm": {
+    "front-datum-original": 0.0,
+    "pin-fitted-original": 0.12,
+    "pin-fitted-panel-datum": -0.388
+  },
+  "verification": {
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-14/verification/final-saved-scene-audit.json",
+      "sha256": "6d4926598f9e87c8522c1464d3172a5866542abce12b341282ff44a72fa165c8",
+      "passed": true,
+      "check_count": 9
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-14/verification/rear-openings-audit.json",
+      "sha256": "5c7888b4d4bfc746887a850cbacf70a08d34874280685f137e42331af124929c",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-14/verification/portable-scene-audit.json",
+      "sha256": "8e7295a09be0284c7d69905e8cb7a543c2af857d139038333db02dfa13b27559",
+      "passed": true,
+      "check_count": 106
+    },
+    "rear_seating_revision13": {
+      "report": "kicad-working/visualization/blender-case-revision-14/verification/rear-seating-revision-13.json",
+      "sha256": "d16c91238d8fb7eb4137e87f6fba6f2bc7c1f6d6bdfdd1e617fa60f2e9285c06",
+      "kind": "measurement; outcomes asserted by summarize_revision.py"
+    },
+    "rear_seating": {
+      "report": "kicad-working/visualization/blender-case-revision-14/verification/rear-seating-audit.json",
+      "sha256": "2462f654b60caeff9d1ab200a1ede8a5c3e940c01206820d285e2d5136bddeeb",
+      "kind": "measurement; outcomes asserted by summarize_revision.py"
+    },
+    "io_contacts_revision13": {
+      "report": "kicad-working/visualization/blender-case-revision-14/verification/io-contacts-revision-13.json",
+      "sha256": "d3a526ff0d4002faa59668e5dae7301e86a49b9b507b974ea66f65cccc7380b8",
+      "kind": "measurement; outcomes asserted by summarize_revision.py",
+      "contact_pairs": 15
+    },
+    "io_contacts": {
+      "report": "kicad-working/visualization/blender-case-revision-14/verification/io-contacts.json",
+      "sha256": "1b58b0685c6799ec29732a2762fe9fd462cfbec83095ee01b0afbb35ee63a2b5",
+      "kind": "measurement; outcomes asserted by summarize_revision.py",
+      "contact_pairs": 5,
+      "new_pairs": 0
+    },
+    "downloaded_din_plate_datum": {
+      "report": "kicad-working/visualization/blender-case-revision-14/verification/downloaded-din-plate-datum.json",
+      "sha256": "71a649086703475066188d8fdbe5faf27ba64fbc5b0507d6e59de4d07ccb942f",
+      "kind": "measurement; outcomes asserted by summarize_revision.py"
+    },
+    "render_readonly": {
+      "report": "kicad-working/visualization/blender-case-revision-14/verification/render-readonly-verification.json",
+      "sha256": "cdfaed5c9a8d5705a1978d6325ab79bd27e0b90d45d3b727e82ae95ce4c63747",
+      "passed": true
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-14/verification/final-render-review.json",
+      "sha256": "751233ea2b3ac486106c6ab0ed1ec8a0dd71d909bdc68ef50c0dd368151e0944",
+      "passed": true,
+      "view_count": 7
+    }
+  },
+  "unchanged": [
+    "Original Eagle files",
+    "KiCad revision-12 projects, copper, footprints and placement",
+    "All meshes, materials, keyframes, case, plate, hardware and mainboard poses",
+    "Blender revisions 7-13 baselines"
+  ],
+  "limitations": [
+    "Reading the strip as the plate section is an interpretation; it is 4.318 mm wider than the plate.",
+    "Current-family NYS216 lead depths would put its body front near KiCad Y=+0.158 mm; that alternative needs a model re-registration and is untested.",
+    "POWER0/USB0 bodies remain 0.081 mm below their rectangular cutouts (vertical datum).",
+    "The 0.167 mm MJ-3536N versus NYS216 axis-height disagreement remains.",
+    "Historical part variants, terminal registration, tolerances and physical fit are unqualified."
+  ],
+  "physical_fit_qualified": false,
+  "validation_summary": {
+    "report": "kicad-working/visualization/blender-case-revision-14/verification/independent-validation-summary.json",
+    "sha256": "9f5140e6df3cd50a7dddac0c87f538281b9a7d9ca9e932892edde19e70f0777b"
+  }
+}

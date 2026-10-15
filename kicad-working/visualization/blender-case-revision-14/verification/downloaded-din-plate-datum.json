@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "review_date": "2026-10-15",
+  "purpose": "Measure the user-downloaded Warehouse SDS-50J mesh flange against the rear plate at the revision-13 and revision-14 plate datums.",
+  "method": "Four flange-corner rays per DIN cast inward along the connector axis in frame 1; plate frame normal Z outward, inner face at slab minimum. Positive = flange inside plate material; negative = gap. Same sampling as the revision-13 downloaded-fit review.",
+  "variants": [
+    {
+      "variant": "front-datum-original",
+      "description": "Received mesh, front-datum trial",
+      "plate_datum": "revision 13 plate (PCB edge on inner face)",
+      "local_scene": "x0xb0x-downloaded-din-front-datum.blend",
+      "local_scene_sha256": "eb399d35c4f8ae80a8d01755cf2bb3e4042203f93ac391ad02859b5483342f54",
+      "max_signed_flange_penetration_mm": 0.0,
+      "per_connector_mm": {
+        "DIN1": 0.0,
+        "DIN2": 0.0,
+        "DIN3": 0.0,
+        "DIN4": 0.0
+      }
+    },
+    {
+      "variant": "pin-fitted-original",
+      "description": "Received mesh, pin-fitted trial (rigid 0.12 mm outward pin fit)",
+      "plate_datum": "revision 13 plate (PCB edge on inner face)",
+      "local_scene": "x0xb0x-downloaded-din-pin-fitted.blend",
+      "local_scene_sha256": "4e25f56cf6f03dadc5201c2bf5bb755df3c216243f2e6f6eb58222162fdb31df",
+      "max_signed_flange_penetration_mm": 0.12,
+      "per_connector_mm": {
+        "DIN1": 0.12,
+        "DIN2": 0.12,
+        "DIN3": 0.12,
+        "DIN4": 0.12
+      }
+    },
+    {
+      "variant": "pin-fitted-panel-datum",
+      "description": "Received mesh, pin-fitted trial with the revision-14 I/O board delta",
+      "plate_datum": "revision 14 plate datum (KiCad Y=+0.508 mm)",
+      "local_scene": "x0xb0x-downloaded-din-pin-fitted-panel-datum.blend",
+      "local_scene_sha256": "3f6105e7cc7e6ec0e7862623be7d992fedb2b6c86bf631e9f8454ef7f8e26b67",
+      "max_signed_flange_penetration_mm": -0.388,
+      "per_connector_mm": {
+        "DIN1": -0.388,
+        "DIN2": -0.388,
+        "DIN3": -0.388,
+        "DIN4": -0.388
+      }
+    }
+  ],
+  "rev14_variant_build": {
+    "source_scene": "x0xb0x-downloaded-din-pin-fitted.blend",
+    "source_sha256": "4e25f56cf6f03dadc5201c2bf5bb755df3c216243f2e6f6eb58222162fdb31df",
+    "world_delta_mm": [
+      0.0,
+      -0.508,
+      0.0
+    ],
+    "output_sha256": "3f6105e7cc7e6ec0e7862623be7d992fedb2b6c86bf631e9f8454ef7f8e26b67",
+    "note": "Identical delta and conductor-end blend as revision 14, applied to the local pin-fitted trial."
+  },
+  "nominal_pin_section_minimum_margin_mm": 0.0104,
+  "pin_fit_unchanged": "The PCB, drills and the trial pin fit are not moved by the plate datum change.",
+  "received_CAD_and_trial_scenes_published": false,
+  "source_geometry_scaled": false,
+  "source_geometry_reshaped": false,
+  "electrical_pin_identity_verified": false,
+  "physical_fit_qualified": false
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "scene_sha256": "57ca42b29fb812022d24a0138ec96048a3085bc7262762e1660e87397050f2ae",
+  "view_count": 7,
+  "views": [
+    "assembled",
+    "rear",
+    "exploded",
+    "control-side",
+    "wiring-study",
+    "rear-openings-closeup",
+    "rear-midi-detail"
+  ],
+  "method": "Human-visible image inspection after native rendering (downscaled contact sheets and the section figure). Hashes pin the reviewed images.",
+  "image_sha256": {
+    "assembled.png": "7d475f4eee958cd63bc51178d48acbb94b1beb059da5e649555a0883a51547d2",
+    "rear.png": "1ff7e9d223ee65080c930eb8144e13de8e0fb474f78e046fd2eb9cbb70eaf295",
+    "exploded.png": "b6e4e6db2cfcbb722d9adcb4f8f60420880e212d4b2fb78dd00330b4c87e0eb8",
+    "control-side.png": "bf484c7af6ca698e5bb4d194d7f477c9bdb2a101b7e84c7e05d349bbff1ee080",
+    "wiring-study.png": "e50887c665945e3136988eeab678d193942baac8c5b3c3a232a6c7d8c4358431",
+    "rear-openings-closeup.png": "c2c95dc8e4c21d81a4bd8ce7650833e65cf92d21df3130a292c314b8089ba9a8",
+    "rear-midi-detail.png": "45c28c4e8163341289761ab768793d3804912f66e48b99de3fd2e848a3c32359"
+  },
+  "observations": [
+    "The assembled case, front controls and LEDs are preserved.",
+    "Rear view and closeup show eleven open entrances with audio nuts and washers outside the plate.",
+    "All four DINs show the corrected contact pattern; MIDI OUT, THRU, MIDI IN and SYNC legends are readable at their retained positions.",
+    "Exploded view retains both boards, the original case and panels and PCB-mounted controls.",
+    "Control-side view keeps caps hidden; the wiring study keeps its 24 conductors attached to the moved I/O endpoints.",
+    "The 0.508 mm board move is not resolvable at these render scales; rear-datum-sections.png shows it in measured sections."
+  ],
+  "limitations": [
+    "Image inspection supplements the geometric audits; it does not measure clearance.",
+    "POWER/USB lower-edge overlap remains as documented.",
+    "Images do not qualify physical assembly fit."
+  ],
+  "physical_fit_qualified": false
+}

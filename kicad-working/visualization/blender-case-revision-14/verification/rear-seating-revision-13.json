@@ -1,0 +1,1267 @@
+{
+  "scene": "x0xb0x-populated-with-case.blend",
+  "scene_sha256": "f4bbf1d0f73dbc641ed494c0fc12cf2f4e76689e7b762f45592d0ea4d5ede2d2",
+  "blender_version": "5.0.0",
+  "panel": {
+    "mesh": "iopanel \u2014 exact DXF profile",
+    "inner_plane_mm": -1.5748047828674316,
+    "outer_plane_mm": -4.71482053399086e-06,
+    "measured_thickness_mm": 1.5748000680468976,
+    "source_nominal_thickness_mm": 1.5748,
+    "local_frame": "X right in original rear drawing, Y up, normal Z outward; actual slab is negative normal Z to zero"
+  },
+  "ports": [
+    {
+      "reference": "POWER0",
+      "native_axis_at_panel_exterior_mm": [
+        10.92199993133545,
+        12.769000145453115
+      ],
+      "outward_axis_in_panel_frame": [
+        0.0,
+        -7.549790126404332e-08,
+        1.0
+      ],
+      "native_mating_face_normal_mm": 1.2191994190216064,
+      "mating_face_projection_beyond_panel_exterior_mm": 1.2192041338421404,
+      "axis_height_basis": "saved canonical model axis from existing drawing-derived illustration",
+      "confidence": {
+        "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+        "historical_installed_fit": "unqualified",
+        "key_uncertainty": "Historical body-seat/terminal identity and canonical-to-footprint registration; omitted terminals/locators"
+      },
+      "actual_cutout": {
+        "shape": "rectangular",
+        "bounds_mm": [
+          [
+            6.096005439758301,
+            6.349997520446777
+          ],
+          [
+            15.747994422912598,
+            18.033998489379883
+          ]
+        ],
+        "boundary_sample_count": 4,
+        "axis_minus_rectangle_center_mm": [
+          0.0,
+          0.5770021405397845
+        ]
+      },
+      "body_envelope_clearance_to_rectangle_mm": {
+        "left": 0.32599449157714844,
+        "right": 0.32599449157714844,
+        "bottom": -0.08099794387817383,
+        "top": 0.7649974822998047
+      },
+      "actual_panel_material_intersection": {
+        "volume_mm3": 1.148014708072022,
+        "vertex_count": 10,
+        "face_count": 7,
+        "nonmanifold_edge_count": 0,
+        "bounds_panel_local_mm": [
+          6.421999931335449,
+          6.2689995765686035,
+          -1.5748063325881958,
+          15.42199993133545,
+          6.349998474121094,
+          -6.3967277128540445e-06
+        ],
+        "substantial_nominal_overlap": true,
+        "numeric_contact_threshold_mm3": 0.01
+      }
+    },
+    {
+      "reference": "HEADPHONE0",
+      "native_axis_at_panel_exterior_mm": [
+        28.956003189086914,
+        14.268999660923548
+      ],
+      "outward_axis_in_panel_frame": [
+        0.0,
+        -7.549790126404332e-08,
+        1.0
+      ],
+      "native_mating_face_normal_mm": 7.4332098960876465,
+      "mating_face_projection_beyond_panel_exterior_mm": 7.4332146109081805,
+      "axis_height_basis": "saved canonical model axis from existing drawing-derived illustration",
+      "confidence": {
+        "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+        "historical_installed_fit": "unqualified",
+        "key_uncertainty": "Historical body-seat/terminal identity and canonical-to-footprint registration; omitted terminals/locators"
+      },
+      "actual_cutout": {
+        "shape": "circular",
+        "fitted_center_mm": [
+          28.95599587921099,
+          14.350998134142978
+        ],
+        "fitted_radius_mm": 5.905498759116942,
+        "radial_fit_max_error_mm": 6.296042774245336e-06,
+        "boundary_sample_count": 64,
+        "original_DXF_center_mm": [
+          28.956,
+          14.351
+        ],
+        "axis_minus_hole_center_mm": [
+          7.3098759223455545e-06,
+          -0.08199847321943032
+        ],
+        "axis_eccentricity_mm": 0.0819984735452552,
+        "minimum_axis_to_saved_polygon_wall_mm": 5.816486981773188
+      },
+      "mating_aperture_radial_margin_to_panel_mm": 2.6414869817731885,
+      "native_bushing_outer_envelope_radial_margin_to_panel_mm": 1.0539869817731882,
+      "housing_shoulder_or_flange_front_normal_mm": -1.0667903423309326,
+      "shoulder_minus_panel_inner_plane_mm": 0.508014440536499,
+      "shoulder_status": "penetrates panel from inside",
+      "actual_panel_material_intersection": {
+        "volume_mm3": 101.91510414108015,
+        "vertex_count": 216,
+        "face_count": 147,
+        "nonmanifold_edge_count": 0,
+        "bounds_panel_local_mm": [
+          18.956003189086914,
+          6.2689995765686035,
+          -1.574808955192566,
+          38.95600128173828,
+          21.769001007080078,
+          -1.0667897462844849
+        ],
+        "substantial_nominal_overlap": true,
+        "numeric_contact_threshold_mm3": 0.01
+      }
+    },
+    {
+      "reference": "MIXIN0",
+      "native_axis_at_panel_exterior_mm": [
+        181.1020050048828,
+        14.268999660922972
+      ],
+      "outward_axis_in_panel_frame": [
+        0.0,
+        -7.549790126404332e-08,
+        1.0
+      ],
+      "native_mating_face_normal_mm": 7.433202266693115,
+      "mating_face_projection_beyond_panel_exterior_mm": 7.433206981513649,
+      "axis_height_basis": "saved canonical model axis from existing drawing-derived illustration",
+      "confidence": {
+        "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+        "historical_installed_fit": "unqualified",
+        "key_uncertainty": "Historical body-seat/terminal identity and canonical-to-footprint registration; omitted terminals/locators"
+      },
+      "actual_cutout": {
+        "shape": "circular",
+        "fitted_center_mm": [
+          181.10199302953092,
+          14.350998134143524
+        ],
+        "fitted_radius_mm": 5.905501006682982,
+        "radial_fit_max_error_mm": 1.3856499639253173e-05,
+        "boundary_sample_count": 64,
+        "original_DXF_center_mm": [
+          181.102,
+          14.351
+        ],
+        "axis_minus_hole_center_mm": [
+          1.1975351895898712e-05,
+          -0.0819984732205512
+        ],
+        "axis_eccentricity_mm": 0.08199847409501293,
+        "minimum_axis_to_saved_polygon_wall_mm": 5.81648674350225
+      },
+      "mating_aperture_radial_margin_to_panel_mm": 2.6414867435022504,
+      "native_bushing_outer_envelope_radial_margin_to_panel_mm": 1.05398674350225,
+      "housing_shoulder_or_flange_front_normal_mm": -1.0667983293533325,
+      "shoulder_minus_panel_inner_plane_mm": 0.5080064535140991,
+      "shoulder_status": "penetrates panel from inside",
+      "actual_panel_material_intersection": {
+        "volume_mm3": 101.91207800113683,
+        "vertex_count": 215,
+        "face_count": 147,
+        "nonmanifold_edge_count": 0,
+        "bounds_panel_local_mm": [
+          171.1020050048828,
+          6.2689995765686035,
+          -1.5748021602630615,
+          191.10202026367188,
+          21.769001007080078,
+          -1.0667977333068848
+        ],
+        "substantial_nominal_overlap": true,
+        "numeric_contact_threshold_mm3": 0.01
+      }
+    },
+    {
+      "reference": "MIXOUT0",
+      "native_axis_at_panel_exterior_mm": [
+        93.72599792480469,
+        14.268999660922828
+      ],
+      "outward_axis_in_panel_frame": [
+        0.0,
+        -7.549790126404332e-08,
+        1.0
+      ],
+      "native_mating_face_normal_mm": 7.433200359344482,
+      "mating_face_projection_beyond_panel_exterior_mm": 7.433205074165016,
+      "axis_height_basis": "saved canonical model axis from existing drawing-derived illustration",
+      "confidence": {
+        "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+        "historical_installed_fit": "unqualified",
+        "key_uncertainty": "Historical body-seat/terminal identity and canonical-to-footprint registration; omitted terminals/locators"
+      },
+      "actual_cutout": {
+        "shape": "circular",
+        "fitted_center_mm": [
+          93.72600133249517,
+          14.350998134149334
+        ],
+        "fitted_radius_mm": 5.905500501675571,
+        "radial_fit_max_error_mm": 3.4534155375354203e-06,
+        "boundary_sample_count": 64,
+        "original_DXF_center_mm": [
+          93.726,
+          14.351
+        ],
+        "axis_minus_hole_center_mm": [
+          -3.407690485346393e-06,
+          -0.08199847322650555
+        ],
+        "axis_eccentricity_mm": 0.08199847329731391,
+        "minimum_axis_to_saved_polygon_wall_mm": 5.816487493275073
+      },
+      "mating_aperture_radial_margin_to_panel_mm": 2.641487493275073,
+      "native_bushing_outer_envelope_radial_margin_to_panel_mm": 1.0539874932750726,
+      "housing_shoulder_or_flange_front_normal_mm": -1.0668001174926758,
+      "shoulder_minus_panel_inner_plane_mm": 0.5080046653747559,
+      "shoulder_status": "penetrates panel from inside",
+      "actual_panel_material_intersection": {
+        "volume_mm3": 101.91207459825067,
+        "vertex_count": 215,
+        "face_count": 147,
+        "nonmanifold_edge_count": 0,
+        "bounds_panel_local_mm": [
+          83.72600555419922,
+          6.2689995765686035,
+          -1.5748038291931152,
+          103.72599792480469,
+          21.769001007080078,
+          -1.066799521446228
+        ],
+        "substantial_nominal_overlap": true,
+        "numeric_contact_threshold_mm3": 0.01
+      }
+    },
+    {
+      "reference": "CV0",
+      "native_axis_at_panel_exterior_mm": [
+        60.198001861572266,
+        11.768999207332111
+      ],
+      "outward_axis_in_panel_frame": [
+        0.0,
+        -7.549790126404332e-08,
+        1.0
+      ],
+      "native_mating_face_normal_mm": 1.4252092838287354,
+      "mating_face_projection_beyond_panel_exterior_mm": 1.4252139986492693,
+      "axis_height_basis": "saved canonical model axis from existing drawing-derived illustration",
+      "confidence": {
+        "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+        "historical_installed_fit": "unqualified",
+        "key_uncertainty": "Historical body-seat/terminal identity and canonical-to-footprint registration; omitted terminals/locators"
+      },
+      "actual_cutout": {
+        "shape": "circular",
+        "fitted_center_mm": [
+          60.19799423217763,
+          11.683997785219084
+        ],
+        "fitted_radius_mm": 3.1750026998972074,
+        "radial_fit_max_error_mm": 5.355615370294942e-06,
+        "boundary_sample_count": 64,
+        "original_DXF_center_mm": [
+          60.198,
+          11.684
+        ],
+        "axis_minus_hole_center_mm": [
+          7.62939463783141e-06,
+          0.0850014221130273
+        ],
+        "axis_eccentricity_mm": 0.08500142245541958,
+        "minimum_axis_to_saved_polygon_wall_mm": 3.0862759223556155
+      },
+      "mating_aperture_radial_margin_to_panel_mm": 1.2862759223556155,
+      "native_bushing_outer_envelope_radial_margin_to_panel_mm": 0.08627592235561554,
+      "housing_shoulder_or_flange_front_normal_mm": -1.5747907161712646,
+      "shoulder_minus_panel_inner_plane_mm": 1.4066696166992188e-05,
+      "shoulder_status": "coincident within saved-mesh numerical precision",
+      "actual_panel_material_intersection": {
+        "volume_mm3": 0.0,
+        "vertex_count": 0,
+        "face_count": 0,
+        "nonmanifold_edge_count": 0,
+        "bounds_panel_local_mm": null,
+        "substantial_nominal_overlap": false,
+        "numeric_contact_threshold_mm3": 0.01
+      }
+    },
+    {
+      "reference": "GATE0",
+      "native_axis_at_panel_exterior_mm": [
+        47.49800109863281,
+        11.76899920733114
+      ],
+      "outward_axis_in_panel_frame": [
+        0.0,
+        -7.549790126404332e-08,
+        1.0
+      ],
+      "native_mating_face_normal_mm": 1.4251964092254639,
+      "mating_face_projection_beyond_panel_exterior_mm": 1.4252011240459979,
+      "axis_height_basis": "saved canonical model axis from existing drawing-derived illustration",
+      "confidence": {
+        "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+        "historical_installed_fit": "unqualified",
+        "key_uncertainty": "Historical body-seat/terminal identity and canonical-to-footprint registration; omitted terminals/locators"
+      },
+      "actual_cutout": {
+        "shape": "circular",
+        "fitted_center_mm": [
+          47.49800282978848,
+          11.683997785219102
+        ],
+        "fitted_radius_mm": 3.175002655305503,
+        "radial_fit_max_error_mm": 4.808496936181683e-06,
+        "boundary_sample_count": 64,
+        "original_DXF_center_mm": [
+          47.498,
+          11.684
+        ],
+        "axis_minus_hole_center_mm": [
+          -1.731155670370299e-06,
+          0.08500142211203787
+        ],
+        "axis_eccentricity_mm": 0.0850014221296664,
+        "minimum_axis_to_saved_polygon_wall_mm": 3.0862762958252414
+      },
+      "mating_aperture_radial_margin_to_panel_mm": 1.2862762958252414,
+      "native_bushing_outer_envelope_radial_margin_to_panel_mm": 0.08627629582524143,
+      "housing_shoulder_or_flange_front_normal_mm": -1.5748035907745361,
+      "shoulder_minus_panel_inner_plane_mm": 1.1920928955078125e-06,
+      "shoulder_status": "coincident within saved-mesh numerical precision",
+      "actual_panel_material_intersection": {
+        "volume_mm3": 0.0,
+        "vertex_count": 0,
+        "face_count": 0,
+        "nonmanifold_edge_count": 0,
+        "bounds_panel_local_mm": null,
+        "substantial_nominal_overlap": false,
+        "numeric_contact_threshold_mm3": 0.01
+      }
+    },
+    {
+      "reference": "USB0",
+      "native_axis_at_panel_exterior_mm": [
+        73.91400146484375,
+        11.578999611395902
+      ],
+      "outward_axis_in_panel_frame": [
+        0.0,
+        -7.549790126404332e-08,
+        1.0
+      ],
+      "native_mating_face_normal_mm": 1.2192047834396362,
+      "mating_face_projection_beyond_panel_exterior_mm": 1.2192094982601702,
+      "axis_height_basis": "illustrative outer-envelope center, not a printed PCB-to-port datum",
+      "confidence": {
+        "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+        "historical_installed_fit": "unqualified",
+        "key_uncertainty": "Generic USB envelope center, omitted locators and body seat, historical part identity"
+      },
+      "actual_cutout": {
+        "shape": "rectangular",
+        "bounds_mm": [
+          [
+            67.56401062011719,
+            6.349997520446777
+          ],
+          [
+            80.26400756835938,
+            18.033998489379883
+          ]
+        ],
+        "boundary_sample_count": 5,
+        "axis_minus_rectangle_center_mm": [
+          -7.62939453125e-06,
+          -0.6129983935174277
+        ]
+      },
+      "body_envelope_clearance_to_rectangle_mm": {
+        "left": 0.329986572265625,
+        "right": 0.33000946044921875,
+        "bottom": -0.08099794387817383,
+        "top": 1.144998550415039
+      },
+      "actual_panel_material_intersection": {
+        "volume_mm3": 1.5357886832897032,
+        "vertex_count": 10,
+        "face_count": 7,
+        "nonmanifold_edge_count": 0,
+        "bounds_panel_local_mm": [
+          67.89399719238281,
+          6.2689995765686035,
+          -1.5748008489608765,
+          79.93399810791016,
+          6.349998474121094,
+          -9.252073027710139e-07
+        ],
+        "substantial_nominal_overlap": true,
+        "numeric_contact_threshold_mm3": 0.01
+      }
+    },
+    {
+      "reference": "DIN1",
+      "native_axis_at_panel_exterior_mm": [
+        115.8239974975586,
+        16.268998980837797
+      ],
+      "outward_axis_in_panel_frame": [
+        0.0,
+        -7.549790126404332e-08,
+        1.0
+      ],
+      "native_mating_face_normal_mm": -1.574798822402954,
+      "mating_face_projection_beyond_panel_exterior_mm": -1.57479410758242,
+      "axis_height_basis": "saved canonical model axis from existing drawing-derived illustration",
+      "confidence": {
+        "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+        "historical_installed_fit": "unqualified",
+        "key_uncertainty": "Historical body-seat/terminal identity and canonical-to-footprint registration; omitted terminals/locators"
+      },
+      "actual_cutout": {
+        "shape": "circular",
+        "fitted_center_mm": [
+          115.82399947903566,
+          16.33219783153154
+        ],
+        "fitted_radius_mm": 8.572500205752865,
+        "radial_fit_max_error_mm": 5.802841569035877e-06,
+        "boundary_sample_count": 64,
+        "original_DXF_center_mm": [
+          115.824,
+          16.3322
+        ],
+        "axis_minus_hole_center_mm": [
+          -1.981477069534776e-06,
+          -0.06319885069374465
+        ],
+        "axis_eccentricity_mm": 0.06319885072480733,
+        "minimum_axis_to_saved_polygon_wall_mm": 8.499050915604604
+      },
+      "mating_aperture_radial_margin_to_panel_mm": 1.3990509156046045,
+      "housing_shoulder_or_flange_front_normal_mm": -1.574798822402954,
+      "shoulder_minus_panel_inner_plane_mm": 5.9604644775390625e-06,
+      "shoulder_status": "coincident within saved-mesh numerical precision",
+      "actual_panel_material_intersection": {
+        "volume_mm3": 0.0,
+        "vertex_count": 0,
+        "face_count": 0,
+        "nonmanifold_edge_count": 0,
+        "bounds_panel_local_mm": null,
+        "substantial_nominal_overlap": false,
+        "numeric_contact_threshold_mm3": 0.01
+      }
+    },
+    {
+      "reference": "DIN2",
+      "native_axis_at_panel_exterior_mm": [
+        137.41400146484375,
+        16.26899898083755
+      ],
+      "outward_axis_in_panel_frame": [
+        0.0,
+        -7.549790126404332e-08,
+        1.0
+      ],
+      "native_mating_face_normal_mm": -1.574802041053772,
+      "mating_face_projection_beyond_panel_exterior_mm": -1.574797326233238,
+      "axis_height_basis": "saved canonical model axis from existing drawing-derived illustration",
+      "confidence": {
+        "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+        "historical_installed_fit": "unqualified",
+        "key_uncertainty": "Historical body-seat/terminal identity and canonical-to-footprint registration; omitted terminals/locators"
+      },
+      "actual_cutout": {
+        "shape": "circular",
+        "fitted_center_mm": [
+          137.41399272915777,
+          16.332197831530454
+        ],
+        "fitted_radius_mm": 8.572501230493373,
+        "radial_fit_max_error_mm": 1.199381167715785e-05,
+        "boundary_sample_count": 64,
+        "original_DXF_center_mm": [
+          137.414,
+          16.3322
+        ],
+        "axis_minus_hole_center_mm": [
+          8.735685980809649e-06,
+          -0.06319885069290265
+        ],
+        "axis_eccentricity_mm": 0.06319885129664947,
+        "minimum_axis_to_saved_polygon_wall_mm": 8.499050539315874
+      },
+      "mating_aperture_radial_margin_to_panel_mm": 1.3990505393158745,
+      "housing_shoulder_or_flange_front_normal_mm": -1.574802041053772,
+      "shoulder_minus_panel_inner_plane_mm": 2.7418136596679688e-06,
+      "shoulder_status": "coincident within saved-mesh numerical precision",
+      "actual_panel_material_intersection": {
+        "volume_mm3": 0.0,
+        "vertex_count": 0,
+        "face_count": 0,
+        "nonmanifold_edge_count": 0,
+        "bounds_panel_local_mm": null,
+        "substantial_nominal_overlap": false,
+        "numeric_contact_threshold_mm3": 0.01
+      }
+    },
+    {
+      "reference": "DIN3",
+      "native_axis_at_panel_exterior_mm": [
+        159.00399780273438,
+        16.268998980838425
+      ],
+      "outward_axis_in_panel_frame": [
+        0.0,
+        -7.549790126404332e-08,
+        1.0
+      ],
+      "native_mating_face_normal_mm": -1.5747904777526855,
+      "mating_face_projection_beyond_panel_exterior_mm": -1.5747857629321516,
+      "axis_height_basis": "saved canonical model axis from existing drawing-derived illustration",
+      "confidence": {
+        "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+        "historical_installed_fit": "unqualified",
+        "key_uncertainty": "Historical body-seat/terminal identity and canonical-to-footprint registration; omitted terminals/locators"
+      },
+      "actual_cutout": {
+        "shape": "circular",
+        "fitted_center_mm": [
+          159.00400323249963,
+          16.332197831529772
+        ],
+        "fitted_radius_mm": 8.57249918823246,
+        "radial_fit_max_error_mm": 1.0487575243800507e-05,
+        "boundary_sample_count": 64,
+        "original_DXF_center_mm": [
+          159.004,
+          16.3322
+        ],
+        "axis_minus_hole_center_mm": [
+          -5.4297652525292506e-06,
+          -0.06319885069134656
+        ],
+        "axis_eccentricity_mm": 0.06319885092459725,
+        "minimum_axis_to_saved_polygon_wall_mm": 8.499050545673516
+      },
+      "mating_aperture_radial_margin_to_panel_mm": 1.399050545673516,
+      "housing_shoulder_or_flange_front_normal_mm": -1.5747904777526855,
+      "shoulder_minus_panel_inner_plane_mm": 1.430511474609375e-05,
+      "shoulder_status": "coincident within saved-mesh numerical precision",
+      "actual_panel_material_intersection": {
+        "volume_mm3": 0.0,
+        "vertex_count": 0,
+        "face_count": 0,
+        "nonmanifold_edge_count": 0,
+        "bounds_panel_local_mm": null,
+        "substantial_nominal_overlap": false,
+        "numeric_contact_threshold_mm3": 0.01
+      }
+    },
+    {
+      "reference": "DIN4",
+      "native_axis_at_panel_exterior_mm": [
+        203.1999969482422,
+        16.26899898083793
+      ],
+      "outward_axis_in_panel_frame": [
+        0.0,
+        -7.549790126404332e-08,
+        1.0
+      ],
+      "native_mating_face_normal_mm": -1.5747970342636108,
+      "mating_face_projection_beyond_panel_exterior_mm": -1.5747923194430768,
+      "axis_height_basis": "saved canonical model axis from existing drawing-derived illustration",
+      "confidence": {
+        "saved_scene_geometry": "high: actual evaluated saved mesh and source boundary fits",
+        "historical_installed_fit": "unqualified",
+        "key_uncertainty": "Historical body-seat/terminal identity and canonical-to-footprint registration; omitted terminals/locators"
+      },
+      "actual_cutout": {
+        "shape": "circular",
+        "fitted_center_mm": [
+          203.1999969482424,
+          16.33219783152939
+        ],
+        "fitted_radius_mm": 8.572501664552533,
+        "radial_fit_max_error_mm": 1.2850197313341027e-05,
+        "boundary_sample_count": 64,
+        "original_DXF_center_mm": [
+          203.2,
+          16.3322
+        ],
+        "axis_minus_hole_center_mm": [
+          -1.9895196601282805e-13,
+          -0.0631988506914567
+        ],
+        "axis_eccentricity_mm": 0.0631988506914567,
+        "minimum_axis_to_saved_polygon_wall_mm": 8.499050915792733
+      },
+      "mating_aperture_radial_margin_to_panel_mm": 1.399050915792733,
+      "housing_shoulder_or_flange_front_normal_mm": -1.5747970342636108,
+      "shoulder_minus_panel_inner_plane_mm": 7.748603820800781e-06,
+      "shoulder_status": "coincident within saved-mesh numerical precision",
+      "actual_panel_material_intersection": {
+        "volume_mm3": 0.0,
+        "vertex_count": 0,
+        "face_count": 0,
+        "nonmanifold_edge_count": 0,
+        "bounds_panel_local_mm": null,
+        "substantial_nominal_overlap": false,
+        "numeric_contact_threshold_mm3": 0.01
+      }
+    }
+  ],
+  "audio_hardware": [
+    {
+      "reference": "HEADPHONE0",
+      "parts": {
+        "black ABS washer proxy": {
+          "outer_center_panel_xy_mm": [
+            28.9559965133667,
+            14.35099983215332
+          ],
+          "bounds_panel_local_mm": [
+            21.305997848510742,
+            6.701000213623047,
+            -6.05359673500061e-06,
+            36.605995178222656,
+            22.000999450683594,
+            1.1999939680099487
+          ],
+          "outside_center_minus_native_axis_mm": [
+            -6.67572021484375e-06,
+            0.08200017122977243
+          ],
+          "outer_center_eccentricity_mm": 0.08200017150151113,
+          "actual_panel_intersection": {
+            "volume_mm3": 0.0,
+            "vertex_count": 0,
+            "face_count": 0,
+            "nonmanifold_edge_count": 0,
+            "bounds_panel_local_mm": null,
+            "substantial_nominal_overlap": false,
+            "numeric_contact_threshold_mm3": 0.01
+          }
+        },
+        "black PA6 nut proxy": {
+          "outer_center_panel_xy_mm": [
+            28.956003189086914,
+            14.26899766921997
+          ],
+          "bounds_panel_local_mm": [
+            20.206005096435547,
+            5.518998146057129,
+            1.2000019550323486,
+            37.70600128173828,
+            23.018997192382812,
+            6.2000017166137695
+          ],
+          "outside_center_minus_native_axis_mm": [
+            0.0,
+            -1.9917035771754854e-06
+          ],
+          "outer_center_eccentricity_mm": 1.9917035771754854e-06,
+          "actual_panel_intersection": {
+            "volume_mm3": 0.0,
+            "vertex_count": 0,
+            "face_count": 0,
+            "nonmanifold_edge_count": 0,
+            "bounds_panel_local_mm": null,
+            "substantial_nominal_overlap": false,
+            "numeric_contact_threshold_mm3": 0.01
+          }
+        }
+      },
+      "washer_rear_minus_panel_exterior_mm": -1.3387762010097504e-06,
+      "nut_rear_minus_washer_front_mm": 7.987022399902344e-06,
+      "native_nose_tip_beyond_nut_front_mm": 1.233208179473877,
+      "conditional_tip_projection_if_shoulder_seated_at_panel_inner_mm": 0.7251999319531022,
+      "mixed_source_threads_unqualified": true
+    },
+    {
+      "reference": "MIXIN0",
+      "parts": {
+        "black ABS washer proxy": {
+          "outer_center_panel_xy_mm": [
+            181.10199737548828,
+            14.35099983215332
+          ],
+          "bounds_panel_local_mm": [
+            173.45199584960938,
+            6.701000213623047,
+            8.149072527885437e-07,
+            188.7519989013672,
+            22.000999450683594,
+            1.2000008821487427
+          ],
+          "outside_center_minus_native_axis_mm": [
+            -7.62939453125e-06,
+            0.08200017123034797
+          ],
+          "outer_center_eccentricity_mm": 0.082000171585272,
+          "actual_panel_intersection": {
+            "volume_mm3": 0.0,
+            "vertex_count": 0,
+            "face_count": 0,
+            "nonmanifold_edge_count": 0,
+            "bounds_panel_local_mm": null,
+            "substantial_nominal_overlap": false,
+            "numeric_contact_threshold_mm3": 0.01
+          }
+        },
+        "black PA6 nut proxy": {
+          "outer_center_panel_xy_mm": [
+            181.10202026367188,
+            14.26899766921997
+          ],
+          "bounds_panel_local_mm": [
+            172.35202026367188,
+            5.518998146057129,
+            1.2000086307525635,
+            189.85202026367188,
+            23.018997192382812,
+            6.200008392333984
+          ],
+          "outside_center_minus_native_axis_mm": [
+            1.52587890625e-05,
+            -1.9917030016358694e-06
+          ],
+          "outer_center_eccentricity_mm": 1.5388226814698143e-05,
+          "actual_panel_intersection": {
+            "volume_mm3": 0.0,
+            "vertex_count": 0,
+            "face_count": 0,
+            "nonmanifold_edge_count": 0,
+            "bounds_panel_local_mm": null,
+            "substantial_nominal_overlap": false,
+            "numeric_contact_threshold_mm3": 0.01
+          }
+        }
+      },
+      "washer_rear_minus_panel_exterior_mm": 5.529727786779404e-06,
+      "nut_rear_minus_washer_front_mm": 7.748603820800781e-06,
+      "native_nose_tip_beyond_nut_front_mm": 1.2331938743591309,
+      "conditional_tip_projection_if_shoulder_seated_at_panel_inner_mm": 0.7251999319531022,
+      "mixed_source_threads_unqualified": true
+    },
+    {
+      "reference": "MIXOUT0",
+      "parts": {
+        "black ABS washer proxy": {
+          "outer_center_panel_xy_mm": [
+            93.72600173950195,
+            14.35099983215332
+          ],
+          "bounds_panel_local_mm": [
+            86.07599639892578,
+            6.701000213623047,
+            -9.313225746154785e-07,
+            101.37600708007812,
+            22.000999450683594,
+            1.1999990940093994
+          ],
+          "outside_center_minus_native_axis_mm": [
+            3.814697265625e-06,
+            0.08200017123049186
+          ],
+          "outer_center_eccentricity_mm": 0.08200017131922287,
+          "actual_panel_intersection": {
+            "volume_mm3": 0.0,
+            "vertex_count": 0,
+            "face_count": 0,
+            "nonmanifold_edge_count": 0,
+            "bounds_panel_local_mm": null,
+            "substantial_nominal_overlap": false,
+            "numeric_contact_threshold_mm3": 0.01
+          }
+        },
+        "black PA6 nut proxy": {
+          "outer_center_panel_xy_mm": [
+            93.72600173950195,
+            14.26899766921997
+          ],
+          "bounds_panel_local_mm": [
+            84.97600555419922,
+            5.518998146057129,
+            1.2000070810317993,
+            102.47599792480469,
+            23.018997192382812,
+            6.20000696182251
+          ],
+          "outside_center_minus_native_axis_mm": [
+            3.814697265625e-06,
+            -1.9917028577509654e-06
+          ],
+          "outer_center_eccentricity_mm": 4.303347011564395e-06,
+          "actual_panel_intersection": {
+            "volume_mm3": 0.0,
+            "vertex_count": 0,
+            "face_count": 0,
+            "nonmanifold_edge_count": 0,
+            "bounds_panel_local_mm": null,
+            "substantial_nominal_overlap": false,
+            "numeric_contact_threshold_mm3": 0.01
+          }
+        }
+      },
+      "washer_rear_minus_panel_exterior_mm": 3.7834979593753815e-06,
+      "nut_rear_minus_washer_front_mm": 7.987022399902344e-06,
+      "native_nose_tip_beyond_nut_front_mm": 1.2331933975219727,
+      "conditional_tip_projection_if_shoulder_seated_at_panel_inner_mm": 0.7251999319531022,
+      "mixed_source_threads_unqualified": true
+    }
+  ],
+  "labels": [
+    {
+      "object": "DIN4 label",
+      "body": "SYNC",
+      "glyph_panel_local_bounds_mm": [
+        200.86810302734375,
+        27.315998077392578,
+        0.010007057338953018,
+        205.52288818359375,
+        28.575998306274414,
+        0.022007057443261147
+      ],
+      "extrusion_mm": 0.006000000212225132,
+      "glyph_minimum_gap_above_panel_exterior_mm": 0.010011772159487009,
+      "glyph_maximum_gap_above_panel_exterior_mm": 0.022011772263795137
+    },
+    {
+      "object": "MIXIN0 label",
+      "body": "IN",
+      "glyph_panel_local_bounds_mm": [
+        180.27488708496094,
+        25.35099983215332,
+        0.010010246187448502,
+        181.93089294433594,
+        26.57859992980957,
+        0.02201024629175663
+      ],
+      "extrusion_mm": 0.006000000212225132,
+      "glyph_minimum_gap_above_panel_exterior_mm": 0.010014961007982492,
+      "glyph_maximum_gap_above_panel_exterior_mm": 0.02201496111229062
+    },
+    {
+      "object": "DIN3 label",
+      "body": "MIDI IN",
+      "glyph_panel_local_bounds_mm": [
+        155.91339111328125,
+        27.332197189331055,
+        0.010013731196522713,
+        162.09100341796875,
+        28.559799194335938,
+        0.02201373130083084
+      ],
+      "extrusion_mm": 0.006000000212225132,
+      "glyph_minimum_gap_above_panel_exterior_mm": 0.010018446017056704,
+      "glyph_maximum_gap_above_panel_exterior_mm": 0.022018446121364832
+    },
+    {
+      "object": "DIN2 label",
+      "body": "THRU",
+      "glyph_panel_local_bounds_mm": [
+        134.95608520507812,
+        27.315998077392578,
+        0.010016990825533867,
+        139.79449462890625,
+        28.559799194335938,
+        0.022016990929841995
+      ],
+      "extrusion_mm": 0.006000000212225132,
+      "glyph_minimum_gap_above_panel_exterior_mm": 0.010021705646067858,
+      "glyph_maximum_gap_above_panel_exterior_mm": 0.022021705750375986
+    },
+    {
+      "object": "DIN1 label",
+      "body": "MIDI OUT",
+      "glyph_panel_local_bounds_mm": [
+        111.70379638671875,
+        27.315998077392578,
+        0.010005351155996323,
+        120.04499816894531,
+        28.575998306274414,
+        0.02200535126030445
+      ],
+      "extrusion_mm": 0.006000000212225132,
+      "glyph_minimum_gap_above_panel_exterior_mm": 0.010010065976530313,
+      "glyph_maximum_gap_above_panel_exterior_mm": 0.022010066080838442
+    },
+    {
+      "object": "MIXOUT0 label",
+      "body": "OUT",
+      "glyph_panel_local_bounds_mm": [
+        91.81350708007812,
+        25.33479881286621,
+        0.010008538141846657,
+        95.68890380859375,
+        26.594799041748047,
+        0.022008538246154785
+      ],
+      "extrusion_mm": 0.006000000212225132,
+      "glyph_minimum_gap_above_panel_exterior_mm": 0.010013252962380648,
+      "glyph_maximum_gap_above_panel_exterior_mm": 0.022013253066688776
+    },
+    {
+      "object": "GATE0 label",
+      "body": "GATE",
+      "glyph_panel_local_bounds_mm": [
+        45.22010040283203,
+        22.667800903320312,
+        0.010015315376222134,
+        49.813697814941406,
+        23.92780113220215,
+        0.022015316411852837
+      ],
+      "extrusion_mm": 0.006000000212225132,
+      "glyph_minimum_gap_above_panel_exterior_mm": 0.010020030196756124,
+      "glyph_maximum_gap_above_panel_exterior_mm": 0.022020031232386827
+    },
+    {
+      "object": "CV0 label",
+      "body": "CV",
+      "glyph_panel_local_bounds_mm": [
+        59.067604064941406,
+        22.667800903320312,
+        0.010013398714363575,
+        61.414798736572266,
+        23.92780113220215,
+        0.022013399749994278
+      ],
+      "extrusion_mm": 0.006000000212225132,
+      "glyph_minimum_gap_above_panel_exterior_mm": 0.010018113534897566,
+      "glyph_maximum_gap_above_panel_exterior_mm": 0.02201811457052827
+    },
+    {
+      "object": "HEADPHONE0 label",
+      "body": "PHONES",
+      "glyph_panel_local_bounds_mm": [
+        25.481096267700195,
+        25.33479881286621,
+        0.010003415867686272,
+        32.49929428100586,
+        26.594799041748047,
+        0.0220034159719944
+      ],
+      "extrusion_mm": 0.006000000212225132,
+      "glyph_minimum_gap_above_panel_exterior_mm": 0.010008130688220263,
+      "glyph_maximum_gap_above_panel_exterior_mm": 0.02200813079252839
+    },
+    {
+      "object": "USB0 label",
+      "body": "USB",
+      "glyph_panel_local_bounds_mm": [
+        72.39569854736328,
+        21.017799377441406,
+        0.010011202655732632,
+        75.50609588623047,
+        22.27779769897461,
+        0.022011203691363335
+      ],
+      "extrusion_mm": 0.006000000212225132,
+      "glyph_minimum_gap_above_panel_exterior_mm": 0.010015917476266623,
+      "glyph_maximum_gap_above_panel_exterior_mm": 0.022015918511897326
+    },
+    {
+      "object": "POWER0 label",
+      "body": "9V AC",
+      "glyph_panel_local_bounds_mm": [
+        8.361499786376953,
+        21.017799377441406,
+        0.010005813091993332,
+        13.466300010681152,
+        22.27779769897461,
+        0.02200581319630146
+      ],
+      "extrusion_mm": 0.006000000212225132,
+      "glyph_minimum_gap_above_panel_exterior_mm": 0.010010527912527323,
+      "glyph_maximum_gap_above_panel_exterior_mm": 0.02201052801683545
+    }
+  ],
+  "intersections": [
+    {
+      "first": "POWER0",
+      "second": "PacTec PT-10 bottom cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "POWER0",
+      "second": "PacTec PT-10 upper cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "HEADPHONE0",
+      "second": "PacTec PT-10 bottom cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "HEADPHONE0",
+      "second": "PacTec PT-10 upper cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "MIXIN0",
+      "second": "PacTec PT-10 bottom cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "MIXIN0",
+      "second": "PacTec PT-10 upper cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "MIXOUT0",
+      "second": "PacTec PT-10 bottom cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "MIXOUT0",
+      "second": "PacTec PT-10 upper cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "CV0",
+      "second": "PacTec PT-10 bottom cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "CV0",
+      "second": "PacTec PT-10 upper cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "GATE0",
+      "second": "PacTec PT-10 bottom cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "GATE0",
+      "second": "PacTec PT-10 upper cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "USB0",
+      "second": "PacTec PT-10 bottom cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "USB0",
+      "second": "PacTec PT-10 upper cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "DIN1",
+      "second": "PacTec PT-10 bottom cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "DIN1",
+      "second": "PacTec PT-10 upper cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "DIN2",
+      "second": "PacTec PT-10 bottom cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "DIN2",
+      "second": "PacTec PT-10 upper cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "DIN3",
+      "second": "PacTec PT-10 bottom cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "DIN3",
+      "second": "PacTec PT-10 upper cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "DIN4",
+      "second": "PacTec PT-10 bottom cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    },
+    {
+      "first": "DIN4",
+      "second": "PacTec PT-10 upper cover",
+      "volume_mm3": 0.0,
+      "vertex_count": 0,
+      "face_count": 0,
+      "nonmanifold_edge_count": 0,
+      "bounds_panel_local_mm": null,
+      "substantial_nominal_overlap": false,
+      "numeric_contact_threshold_mm3": 0.01
+    }
+  ],
+  "physical_fit_qualified": false,
+  "read_only": true,
+  "method": "Frame1 evaluated collection-instance matrices; saved mesh vertices, fitted cutout boundaries, actual surface planes and exact-solver triangle-mesh Boolean screening. No source scene is saved.",
+  "saved_scene_bytes_unchanged": true,
+  "source_panel_json_sha256": "944c0428b8f169a6cdfa1d3b32bee064f6792a8e91d0eb16c0bfc8592d405eac",
+  "summary": {
+    "port_count": 11,
+    "label_count": 11,
+    "native_ports_with_substantial_panel_material_overlap": [
+      "POWER0",
+      "HEADPHONE0",
+      "MIXIN0",
+      "MIXOUT0",
+      "USB0"
+    ],
+    "native_port_case_intersections": [],
+    "floating_rear_legends": []
+  }
+}
