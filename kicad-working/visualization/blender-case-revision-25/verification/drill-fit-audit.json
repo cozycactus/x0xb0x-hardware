@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "check_count": 6,
+  "repository": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware",
+  "kicad_version": "10.0.7",
+  "blender_version": "5.2.2 LTS",
+  "measured_models": 489,
+  "declared_interference_pads": 121,
+  "declared_empty_holes": 8,
+  "allowances_no_longer_needed": [],
+  "exports": {
+    "mainboard": {
+      "pcb": "kicad-working/mainboard/mainboard.kicad_pcb",
+      "pcb_sha256": "272bf5f0099413b79b9f25df68bcc7eff580ac72b62ea1408462d5c2dfa52852",
+      "glb_sha256": "237c6474d036b5f33efde37bfb1c55bf103569658fc8589a15ae260640b51cf3"
+    },
+    "ioboard": {
+      "pcb": "kicad-working/ioboard/ioboard.kicad_pcb",
+      "pcb_sha256": "378827c0f5f82ae9ab110eb779bdbf4415f71353149c630f99fab0d3651cc22b",
+      "glb_sha256": "e539910ee69c9f71a8f7e56eb44ddd7c0e9463131ffa133a4a8eebfd8fefa60f"
+    }
+  },
+  "failures": [],
+  "checks": [
+    {
+      "check": "mainboard: top-side models share one seating plane",
+      "passed": true,
+      "planes_mm": [
+        1.595
+      ]
+    },
+    {
+      "check": "mainboard: KiCad export and pad read left the PCB bytes unchanged",
+      "passed": true
+    },
+    {
+      "check": "ioboard: top-side models share one seating plane",
+      "passed": true,
+      "planes_mm": [
+        1.595
+      ]
+    },
+    {
+      "check": "ioboard: KiCad export and pad read left the PCB bytes unchanged",
+      "passed": true
+    },
+    {
+      "check": "Every fitted model with drilled holes was measured",
+      "passed": true,
+      "models": 489
+    },
+    {
+      "check": "No lead, interference or crossing outside the declared allowances",
+      "passed": true,
+      "findings": [],
+      "finding_count": 0
+    }
+  ],
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "scope": "Nominal native-model sections against nominal drills; tolerances, elastic leads, solder and assembly are not modelled."
+}

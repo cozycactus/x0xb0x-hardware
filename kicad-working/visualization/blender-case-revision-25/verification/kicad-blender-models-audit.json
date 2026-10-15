@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "check_count": 7,
+  "repository": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware",
+  "scene": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/visualization/blender-case-revision-25/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "e02138d570637325dc4d7b43353216340832ddd6ea0526f2ea8880afe5d44d90",
+  "declared_scene": true,
+  "blender_version": "5.2.2 LTS",
+  "kicad_version": "10.0.7",
+  "compared_references": 491,
+  "identical_references": 491,
+  "total_triangles": 1104429,
+  "max_differences": {
+    "frame_max_abs_diff": 0.0,
+    "bounds_max_diff_mm": 0.0,
+    "centroid_max_diff_mm": 9.492406860545088e-15,
+    "area_relative_diff": 3.011784129133649e-16
+  },
+  "tolerances": {
+    "frame": 1e-06,
+    "length_mm": 0.001,
+    "area_relative": 0.0001,
+    "triangle_count": "equal"
+  },
+  "exports": {
+    "mainboard": {
+      "pcb": "kicad-working/mainboard/mainboard.kicad_pcb",
+      "pcb_sha256": "272bf5f0099413b79b9f25df68bcc7eff580ac72b62ea1408462d5c2dfa52852",
+      "pcb_unchanged": true,
+      "exit_code": 0,
+      "glb_sha256": "82dd10b3f97dd4ec3405310fd4a3bdf2b007bce6261859fe6e385f0bb6798024"
+    },
+    "ioboard": {
+      "pcb": "kicad-working/ioboard/ioboard.kicad_pcb",
+      "pcb_sha256": "378827c0f5f82ae9ab110eb779bdbf4415f71353149c630f99fab0d3651cc22b",
+      "pcb_unchanged": true,
+      "exit_code": 0,
+      "glb_sha256": "4ff8b4a8a09746daa005815913660fcbb13a84c75f135e3a5002275de6c7b9cb"
+    }
+  },
+  "failures": [],
+  "checks": [
+    {
+      "check": "mainboard: scene and KiCad place the same designators",
+      "passed": true,
+      "scene_count": 409,
+      "kicad_count": 409,
+      "only_in_scene": [],
+      "only_in_kicad": []
+    },
+    {
+      "check": "mainboard: KiCad export left the PCB bytes unchanged",
+      "passed": true
+    },
+    {
+      "check": "ioboard: scene and KiCad place the same designators",
+      "passed": true,
+      "scene_count": 82,
+      "kicad_count": 82,
+      "only_in_scene": [],
+      "only_in_kicad": []
+    },
+    {
+      "check": "ioboard: KiCad export left the PCB bytes unchanged",
+      "passed": true
+    },
+    {
+      "check": "mainboard: every placed model frame and geometry matches the scene",
+      "passed": true,
+      "compared": 409,
+      "differing": 0
+    },
+    {
+      "check": "ioboard: every placed model frame and geometry matches the scene",
+      "passed": true,
+      "compared": 82,
+      "differing": 0
+    },
+    {
+      "check": "Read-only verification left the scene bytes unchanged",
+      "passed": true
+    }
+  ],
+  "differences": [],
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "scope": "Placed KiCad component models versus the scene's embedded native meshes; board substrate and Blender-only presentation geometry are not compared."
+}

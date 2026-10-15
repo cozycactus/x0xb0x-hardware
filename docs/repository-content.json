@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source_snapshot_date": "2026-10-16",
-  "scope": "Current private snapshot: KiCad working21 and Blender24. All39 radial electrolytics use Xicon XRL bodies from the XRL datasheet XC-600178 and the original kit photographs (5x11,6.3x11 and10x12.5mm cans; C17 and C3/C5 recoloured), with leads on the original2.54/5.08mm holes. Original PCB/model transforms and all other components, LED spacers, complete enclosure and animation preserved. Immutable Blender7 through23 comparison baselines and source evidence retained. Probes, caches and redundant exports excluded.",
+  "scope": "Current private snapshot: KiCad working22 and Blender25. All212 fixed resistors carry the original kit colour bands from the parts page (tan5%, light-blue1%) on the unchanged KiCad DIN0207 bodies; all39 radial electrolytics use Xicon XRL bodies from the XRL datasheet and kit photographs. Original PCB/model transforms and all other components, LED spacers, complete enclosure and animation preserved. Immutable Blender7 through24 comparison baselines and source evidence retained. Probes, caches and redundant exports excluded.",
   "files": {
     ".gitattributes": {
       "bytes": 190,
@@ -16,16 +16,16 @@
       "sha256": "73cc95f62a104053a2602ccc733fc88336b0f3f6329ac3e9bbab827aa26af6f6"
     },
     "PROJECT.json": {
-      "bytes": 1961,
-      "sha256": "64802db5571e023de00dc2fd52e57c2bd370454f667ed3fcd013d61fc6872c04"
+      "bytes": 2022,
+      "sha256": "7a5fa9db72052255f2f4bb4b2d38525ca9fc4de7de7dde65e9db56e9f6da5a08"
     },
     "README.md": {
-      "bytes": 24660,
-      "sha256": "77d5b36519712966c71b56410eb76ee3f8c3cf209bbc83dca6086d8544f690f1"
+      "bytes": 25161,
+      "sha256": "736a911a29e305d4e13f4272815b520d95640cd3e52408fc524dfd188a9569c4"
     },
     "docs/OPENING.md": {
-      "bytes": 7533,
-      "sha256": "58034c5f8dadb9146a88f969b7fae1ce469b7100499692b1ef366c5ade00cc19"
+      "bytes": 7629,
+      "sha256": "608fafe6a299207a9b85418c9f56054051e2846b3705170ee758dc37eb168f76"
     },
     "docs/din-contact-correction.json": {
       "bytes": 8848,
@@ -78,6 +78,10 @@
     "docs/rear-seating-and-legends.json": {
       "bytes": 6979,
       "sha256": "a39f737b134160d8fd69e41193e0420079f188d45539e8fc4268d5dd90933eb3"
+    },
+    "docs/resistor-colour-bands.json": {
+      "bytes": 10981,
+      "sha256": "dbe266d7f3ac1445ba19608b4f01fbc8103e29b9ac0dbed561d441f541e78847"
     },
     "docs/terminal-completion.json": {
       "bytes": 28183,
@@ -180,8 +184,8 @@
       "sha256": "282b88df6e2fed1d85d2057c10ecfbaee7be45a2e85a9614167fe06266b4cc6a"
     },
     "kicad-working/README.md": {
-      "bytes": 13423,
-      "sha256": "89c07749db3675f2dd0449cd9defba6e85902e9babcc9d12ada29d9d3cd6abe3"
+      "bytes": 13946,
+      "sha256": "b7841d84d00da073e68da049a451760465b0334872ab4af7b85ca6b7c172eec2"
     },
     "kicad-working/ioboard/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step": {
       "bytes": 140022,
@@ -270,6 +274,10 @@
     "kicad-working/ioboard/3dmodels/REVISION-21-SOURCES.json": {
       "bytes": 2338,
       "sha256": "57843834f3c2a2b718f18450f714d1b64011858008cd429ee046f00b7646e11e"
+    },
+    "kicad-working/ioboard/3dmodels/REVISION-22-SOURCES.json": {
+      "bytes": 7409,
+      "sha256": "67b7223b20c30005a012efed127c83430f0d4a111434193bbe5a5404c97cded9"
     },
     "kicad-working/ioboard/3dmodels/REVISION-5-INTERSECTIONS.json": {
       "bytes": 1884,
@@ -374,6 +382,74 @@
     "kicad-working/ioboard/3dmodels/Revision21/electrolytic-quality/CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame.step": {
       "bytes": 34288,
       "sha256": "00cc1da601ebbc9c9cefb4470113abbd447b831a6e9f679db4fca4ea195d9d76"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Blue-Grey-Red-Gold_KiCadBody.step": {
+      "bytes": 48631,
+      "sha256": "207f1600bbc4cd71117c14e1d88eceaf110c8f0ff8d1d47c4830ad1aba924d78"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Black-Gold_KiCadBody.step": {
+      "bytes": 48640,
+      "sha256": "45b950e08f50f195700a696268fe830c477fe9024bc4cb23ab25d00c265bc1ae"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Brown-Gold_KiCadBody.step": {
+      "bytes": 48639,
+      "sha256": "90abd602d6dd18d6b1b84dbfce7864e1c29e38fb678bb69393b7289bdbfe2949"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Orange-Gold_KiCadBody.step": {
+      "bytes": 48643,
+      "sha256": "68bcfb92f0c21d669b2ca0b8c4a0989a544b2415ae84773da5b82c53ea48de5e"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Red-Gold_KiCadBody.step": {
+      "bytes": 48639,
+      "sha256": "9e099de77943a12d1ae655005aaf75101e0580ebf84cacca145c88b4e64e8fe8"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Yellow-Gold_KiCadBody.step": {
+      "bytes": 48642,
+      "sha256": "0b754a33edfd959cf51f59224d0258b3bbc2f9ce36a2cbfd7f2900412a8913ad"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Green-Brown-Gold_KiCadBody.step": {
+      "bytes": 48639,
+      "sha256": "a0a7fd89212abab505559c7c0525226a9c2adb54c55f6919140882fbb56971a1"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Green-Red-Gold_KiCadBody.step": {
+      "bytes": 48637,
+      "sha256": "5cef26a001a4eac6b09b812fbc853e44cefce67b77313d9d37726f9c7b9c1573"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Grey-Red-Gold_KiCadBody.step": {
+      "bytes": 48635,
+      "sha256": "199791bb0094e450a2e2e7a947659952452863cb7c73f183a0e2d430b1aee505"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Green-Blue-Black-Brown-Brown_KiCadBody.step": {
+      "bytes": 56246,
+      "sha256": "fbe67afd0bb008cc7b9748a229176a0c2bea03877d7ce0e3beeb232868238269"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Black-Gold_KiCadBody.step": {
+      "bytes": 48637,
+      "sha256": "a1b5d809081d4f033a587ac57017a4a29a1b8c9dc30fff5e37520ded6ccf45c5"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Brown-Gold_KiCadBody.step": {
+      "bytes": 48636,
+      "sha256": "f9d1a1ae83a461cbc691d03dd5640418ce432945a88fa4a372f1c0e61ddef5f0"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Red-Gold_KiCadBody.step": {
+      "bytes": 48634,
+      "sha256": "4a45ac67f941c9c9a8878dd2d72a621b0f9ccb76d49d89deede3d2e9c98fe3ed"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Violet-Black-Gold_KiCadBody.step": {
+      "bytes": 48639,
+      "sha256": "41f9de269b8c8edd0ae735c58b330e77226ff10314c35d36992265a711b02d99"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Yellow-Black-Brown-Brown_KiCadBody.step": {
+      "bytes": 56248,
+      "sha256": "83de0e36853646edf711a1d0c6fa8bd9712e9d04bb8f16525efa04c29651b509"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Yellow-Violet-Brown-Gold_KiCadBody.step": {
+      "bytes": 48641,
+      "sha256": "2644bbea2fce2425c4550d69c8dd5ec03045be2bdcd367ae150569555f09cf1f"
+    },
+    "kicad-working/ioboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Yellow-Violet-Red-Gold_KiCadBody.step": {
+      "bytes": 48639,
+      "sha256": "2beb4779a55fd095f43c69054c7e31dddfd7bdd74e8ae9711d023909d96bac0a"
     },
     "kicad-working/ioboard/3dmodels/Revision5/integrated-models/Resonator_AWCR6MD_MaxBody_P2.54_Illustration.step": {
       "bytes": 30484,
@@ -664,8 +740,8 @@
       "sha256": "20ca4b7f1a0df706c927f685b10f76f7e7cd00d1488b0f2546c7ba3952980b8c"
     },
     "kicad-working/ioboard/ioboard.kicad_pcb": {
-      "bytes": 959466,
-      "sha256": "7eeaa4bf8a6d9ceb05af2d4577074220f762fb4000c4a6924303d2a9e81c090a"
+      "bytes": 959833,
+      "sha256": "378827c0f5f82ae9ab110eb779bdbf4415f71353149c630f99fab0d3651cc22b"
     },
     "kicad-working/ioboard/ioboard.kicad_pro": {
       "bytes": 18372,
@@ -795,6 +871,10 @@
       "bytes": 2638,
       "sha256": "7a65f0bfd58ee804f7aee6b56ed8b8303a97e1ecb6a2718b730f547d9ada43b3"
     },
+    "kicad-working/mainboard/3dmodels/REVISION-22-SOURCES.json": {
+      "bytes": 10954,
+      "sha256": "3e00ccbde8f1662fc51f9b5320b58376e7724e0d5ff30c3102b7ac63730cdf59"
+    },
     "kicad-working/mainboard/3dmodels/REVISION-5-INTERSECTIONS.json": {
       "bytes": 1904,
       "sha256": "aaf6dbdbbfc1f0861cb64988205925cf68b4ceb4a69a5682bc04d0f3b4cf7a57"
@@ -910,6 +990,90 @@
     "kicad-working/mainboard/3dmodels/Revision21/electrolytic-quality/CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame.step": {
       "bytes": 38365,
       "sha256": "592961a7f74d127321afb31cce440c7fccb412c76fb6097a8138ed271a415ea9"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P10.16mm_Horizontal_Brown-Black-Orange-Gold_KiCadBody.step": {
+      "bytes": 48965,
+      "sha256": "e9c726ef7cf8193c7f7981ff6f5d40c5d92caeda78bccddcbf90b1c99d13cc2a"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P10.16mm_Horizontal_Brown-Black-Red-Gold_KiCadBody.step": {
+      "bytes": 48961,
+      "sha256": "f864a8c70c00d78d8745f9b75eb82896cbed5e189557391c054ba367d30eddd7"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P15.24mm_Horizontal_Brown-Black-Orange-Gold_KiCadBody.step": {
+      "bytes": 49022,
+      "sha256": "99b0a8ed986a337f3e09610618d424993a8b6f396a53a9fb165342f01511119d"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P2.54mm_Vertical_Brown-Black-Orange-Gold_KiCadBody.step": {
+      "bytes": 48641,
+      "sha256": "ebadd935faac201f2efd306815bb4cfe1c6e75d2276efaba3d19e452b9662de4"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P2.54mm_Vertical_Red-Red-Red-Gold_KiCadBody.step": {
+      "bytes": 48632,
+      "sha256": "f69fbeb2ca0e1d0b042f30dad2e7b03c765ed89d15bd2458a19d44fad3a758d7"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Blue-Grey-Orange-Gold_KiCadBody.step": {
+      "bytes": 48635,
+      "sha256": "adb5d898d23cccf4e988766066917c2585d85a87aa2d45b26510f800958450c4"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Brown-Gold_KiCadBody.step": {
+      "bytes": 48639,
+      "sha256": "90abd602d6dd18d6b1b84dbfce7864e1c29e38fb678bb69393b7289bdbfe2949"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Green-Gold_KiCadBody.step": {
+      "bytes": 48640,
+      "sha256": "64ccb72623ab3e8e51fbb68c7d85790be6d12a22f6abb6537375a47039d19a3d"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Orange-Gold_KiCadBody.step": {
+      "bytes": 48643,
+      "sha256": "68bcfb92f0c21d669b2ca0b8c4a0989a544b2415ae84773da5b82c53ea48de5e"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Red-Gold_KiCadBody.step": {
+      "bytes": 48639,
+      "sha256": "9e099de77943a12d1ae655005aaf75101e0580ebf84cacca145c88b4e64e8fe8"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Yellow-Gold_KiCadBody.step": {
+      "bytes": 48642,
+      "sha256": "0b754a33edfd959cf51f59224d0258b3bbc2f9ce36a2cbfd7f2900412a8913ad"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Green-Green-Gold_KiCadBody.step": {
+      "bytes": 48638,
+      "sha256": "54750cd392f1f74ab05cced278b94f0b7c30fc3e52a3ae20c884623a4895aa79"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Orange-Orange-Orange-Gold_KiCadBody.step": {
+      "bytes": 48646,
+      "sha256": "25e0c87fab9fed9cb8b0ff00d8ea55103b1da44a6537876029b3c21830c7318a"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Black-Black-Orange-Brown_KiCadBody.step": {
+      "bytes": 56250,
+      "sha256": "b1590dc63ddd9c6d5d19d5834ebfae6dd809d05bb09d2c12222a8516ca2b1580"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Black-Gold_KiCadBody.step": {
+      "bytes": 48637,
+      "sha256": "a1b5d809081d4f033a587ac57017a4a29a1b8c9dc30fff5e37520ded6ccf45c5"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Orange-Gold_KiCadBody.step": {
+      "bytes": 48638,
+      "sha256": "614ef6b5bc82a0a6f9b2d2676c676b0dc9decec0b462ac751b2bcfa95dfc6365"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Red-Gold_KiCadBody.step": {
+      "bytes": 48634,
+      "sha256": "4a45ac67f941c9c9a8878dd2d72a621b0f9ccb76d49d89deede3d2e9c98fe3ed"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Yellow-Gold_KiCadBody.step": {
+      "bytes": 48637,
+      "sha256": "ab2140ff86f552381e77713e1eac4c3c9cd58e5ab0b804e7546f0d1f04ef5ef7"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Yellow-Black-Red-Brown_KiCadBody.step": {
+      "bytes": 56246,
+      "sha256": "0e028bd993306fb9ee451b7ceb91f95725be6af4031a498883ac6fd4fb2627a8"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Yellow-Violet-Orange-Gold_KiCadBody.step": {
+      "bytes": 48643,
+      "sha256": "935ef9e35b5d7d83228fcfb5e7f8d27aebb45546dff8758b43eecc097d9caefa"
+    },
+    "kicad-working/mainboard/3dmodels/Revision22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Yellow-Violet-Red-Gold_KiCadBody.step": {
+      "bytes": 48639,
+      "sha256": "2beb4779a55fd095f43c69054c7e31dddfd7bdd74e8ae9711d023909d96bac0a"
     },
     "kicad-working/mainboard/3dmodels/Revision5/integrated-models/Resonator_AWCR16MD_MaxBody_P2.54_Illustration.step": {
       "bytes": 30503,
@@ -1388,8 +1552,8 @@
       "sha256": "99da721afd86004a7dc19853af8b9a52c1c66e308941fb7162e97d8d30bfc717"
     },
     "kicad-working/mainboard/mainboard.kicad_pcb": {
-      "bytes": 4854989,
-      "sha256": "04a769ff289b13c6bbf90a0f30a55800240918dfade934c1e7a41adc82f436ce"
+      "bytes": 4857415,
+      "sha256": "272bf5f0099413b79b9f25df68bcc7eff580ac72b62ea1408462d5c2dfa52852"
     },
     "kicad-working/mainboard/mainboard.kicad_pro": {
       "bytes": 18381,
@@ -3639,6 +3803,234 @@
       "bytes": 803,
       "sha256": "678139c6601ddb723557f99ec991fe3b9823c653117607e22677505b705c0227"
     },
+    "kicad-working/validation/models-review-22/README.md": {
+      "bytes": 2154,
+      "sha256": "e74aeb2b212d07369f5969a2d375fec2b5ad079ae9167762d48b079f73cf06ba"
+    },
+    "kicad-working/validation/models-review-22/audit_native_terminals.py": {
+      "bytes": 11717,
+      "sha256": "d5da8d457216c0083c1f621fb4697a08b66fa4b27658935f2045a37dd61826e3"
+    },
+    "kicad-working/validation/models-review-22/combined-model-plan.json": {
+      "bytes": 664332,
+      "sha256": "2c3ba5b516807efa1bcef6f418cd62fbccbd5593fffb8f9250db5ea378ba862c"
+    },
+    "kicad-working/validation/models-review-22/current-function-source-evidence.json": {
+      "bytes": 41675,
+      "sha256": "79562b08dba5f4553f42f169709d598d37604d2ca8f846c06e4217961900a914"
+    },
+    "kicad-working/validation/models-review-22/current-function-verification.json": {
+      "bytes": 26522,
+      "sha256": "bf7706e6be5de73022b45eb01641c8fe090232be650f05accf2d2f7b388d1593"
+    },
+    "kicad-working/validation/models-review-22/export_native_boards.py": {
+      "bytes": 3339,
+      "sha256": "bfba801179ac56bffb3f585ee88891d52c6d37596881faca99475cca815f19ca"
+    },
+    "kicad-working/validation/models-review-22/install_resistor_models.py": {
+      "bytes": 8250,
+      "sha256": "5c1ff7fdd922452e8f43c178cb068ee7a6431f8a2eafd72dd0f02077bc8409ce"
+    },
+    "kicad-working/validation/models-review-22/installation-audit.json": {
+      "bytes": 12202,
+      "sha256": "06993458a33009a84e3313f5f52eb25a8e9e8d722321b1719c84df93b38d026a"
+    },
+    "kicad-working/validation/models-review-22/ioboard-drc.json": {
+      "bytes": 295126,
+      "sha256": "696fcf908d72f93a9bc4cbc0797db1fb1a6421a4132ee3ea7c86572a284af65f"
+    },
+    "kicad-working/validation/models-review-22/ioboard-erc.json": {
+      "bytes": 1001,
+      "sha256": "ce980af15a2639b7beca196b80d1f0f7b157fc9888fcf373814b7b88a41c1de6"
+    },
+    "kicad-working/validation/models-review-22/local-dependencies.json": {
+      "bytes": 1518,
+      "sha256": "a1ca963d890f5d789845499b288398df1ae8aaa1ec13839467370349ce4ac096"
+    },
+    "kicad-working/validation/models-review-22/mainboard-drc.json": {
+      "bytes": 399165,
+      "sha256": "93402cfa1f3e6db2791b27ac2a32f278242576d647a3642d097b27e35dfda8a6"
+    },
+    "kicad-working/validation/models-review-22/mainboard-erc.json": {
+      "bytes": 1003,
+      "sha256": "5124305119e2c95491fe58db5d440e3844d806e464cfd1aff1625d90d1202665"
+    },
+    "kicad-working/validation/models-review-22/native-export-record.json": {
+      "bytes": 1725,
+      "sha256": "337d61e6912a5546fb18287fedece44148037b4e18ea321ce4558663192b775f"
+    },
+    "kicad-working/validation/models-review-22/native-run-records.json": {
+      "bytes": 3251,
+      "sha256": "ad60d0243b9f258a62e6341542addc641192778e2accdbc5dccf8b51ca93b041"
+    },
+    "kicad-working/validation/models-review-22/native-terminal-audit.json": {
+      "bytes": 110089,
+      "sha256": "03628e0cda251217dab7c1f514c3af140497a0b82b961210c4752ec776fccccc"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P10.16mm_Horizontal_Brown-Black-Orange-Gold_KiCadBody.step": {
+      "bytes": 48965,
+      "sha256": "e9c726ef7cf8193c7f7981ff6f5d40c5d92caeda78bccddcbf90b1c99d13cc2a"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P10.16mm_Horizontal_Brown-Black-Red-Gold_KiCadBody.step": {
+      "bytes": 48961,
+      "sha256": "f864a8c70c00d78d8745f9b75eb82896cbed5e189557391c054ba367d30eddd7"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P15.24mm_Horizontal_Brown-Black-Orange-Gold_KiCadBody.step": {
+      "bytes": 49022,
+      "sha256": "99b0a8ed986a337f3e09610618d424993a8b6f396a53a9fb165342f01511119d"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P2.54mm_Vertical_Brown-Black-Orange-Gold_KiCadBody.step": {
+      "bytes": 48641,
+      "sha256": "ebadd935faac201f2efd306815bb4cfe1c6e75d2276efaba3d19e452b9662de4"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P2.54mm_Vertical_Red-Red-Red-Gold_KiCadBody.step": {
+      "bytes": 48632,
+      "sha256": "f69fbeb2ca0e1d0b042f30dad2e7b03c765ed89d15bd2458a19d44fad3a758d7"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Blue-Grey-Orange-Gold_KiCadBody.step": {
+      "bytes": 48635,
+      "sha256": "adb5d898d23cccf4e988766066917c2585d85a87aa2d45b26510f800958450c4"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Blue-Grey-Red-Gold_KiCadBody.step": {
+      "bytes": 48631,
+      "sha256": "207f1600bbc4cd71117c14e1d88eceaf110c8f0ff8d1d47c4830ad1aba924d78"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Black-Gold_KiCadBody.step": {
+      "bytes": 48640,
+      "sha256": "45b950e08f50f195700a696268fe830c477fe9024bc4cb23ab25d00c265bc1ae"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Brown-Gold_KiCadBody.step": {
+      "bytes": 48639,
+      "sha256": "90abd602d6dd18d6b1b84dbfce7864e1c29e38fb678bb69393b7289bdbfe2949"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Green-Gold_KiCadBody.step": {
+      "bytes": 48640,
+      "sha256": "64ccb72623ab3e8e51fbb68c7d85790be6d12a22f6abb6537375a47039d19a3d"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Orange-Gold_KiCadBody.step": {
+      "bytes": 48643,
+      "sha256": "68bcfb92f0c21d669b2ca0b8c4a0989a544b2415ae84773da5b82c53ea48de5e"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Red-Gold_KiCadBody.step": {
+      "bytes": 48639,
+      "sha256": "9e099de77943a12d1ae655005aaf75101e0580ebf84cacca145c88b4e64e8fe8"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Black-Yellow-Gold_KiCadBody.step": {
+      "bytes": 48642,
+      "sha256": "0b754a33edfd959cf51f59224d0258b3bbc2f9ce36a2cbfd7f2900412a8913ad"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Green-Brown-Gold_KiCadBody.step": {
+      "bytes": 48639,
+      "sha256": "a0a7fd89212abab505559c7c0525226a9c2adb54c55f6919140882fbb56971a1"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Green-Green-Gold_KiCadBody.step": {
+      "bytes": 48638,
+      "sha256": "54750cd392f1f74ab05cced278b94f0b7c30fc3e52a3ae20c884623a4895aa79"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Green-Red-Gold_KiCadBody.step": {
+      "bytes": 48637,
+      "sha256": "5cef26a001a4eac6b09b812fbc853e44cefce67b77313d9d37726f9c7b9c1573"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Brown-Grey-Red-Gold_KiCadBody.step": {
+      "bytes": 48635,
+      "sha256": "199791bb0094e450a2e2e7a947659952452863cb7c73f183a0e2d430b1aee505"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Green-Blue-Black-Brown-Brown_KiCadBody.step": {
+      "bytes": 56246,
+      "sha256": "fbe67afd0bb008cc7b9748a229176a0c2bea03877d7ce0e3beeb232868238269"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Orange-Orange-Orange-Gold_KiCadBody.step": {
+      "bytes": 48646,
+      "sha256": "25e0c87fab9fed9cb8b0ff00d8ea55103b1da44a6537876029b3c21830c7318a"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Black-Black-Orange-Brown_KiCadBody.step": {
+      "bytes": 56250,
+      "sha256": "b1590dc63ddd9c6d5d19d5834ebfae6dd809d05bb09d2c12222a8516ca2b1580"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Black-Gold_KiCadBody.step": {
+      "bytes": 48637,
+      "sha256": "a1b5d809081d4f033a587ac57017a4a29a1b8c9dc30fff5e37520ded6ccf45c5"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Brown-Gold_KiCadBody.step": {
+      "bytes": 48636,
+      "sha256": "f9d1a1ae83a461cbc691d03dd5640418ce432945a88fa4a372f1c0e61ddef5f0"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Orange-Gold_KiCadBody.step": {
+      "bytes": 48638,
+      "sha256": "614ef6b5bc82a0a6f9b2d2676c676b0dc9decec0b462ac751b2bcfa95dfc6365"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Red-Gold_KiCadBody.step": {
+      "bytes": 48634,
+      "sha256": "4a45ac67f941c9c9a8878dd2d72a621b0f9ccb76d49d89deede3d2e9c98fe3ed"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Red-Yellow-Gold_KiCadBody.step": {
+      "bytes": 48637,
+      "sha256": "ab2140ff86f552381e77713e1eac4c3c9cd58e5ab0b804e7546f0d1f04ef5ef7"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Violet-Black-Gold_KiCadBody.step": {
+      "bytes": 48639,
+      "sha256": "41f9de269b8c8edd0ae735c58b330e77226ff10314c35d36992265a711b02d99"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Yellow-Black-Brown-Brown_KiCadBody.step": {
+      "bytes": 56248,
+      "sha256": "83de0e36853646edf711a1d0c6fa8bd9712e9d04bb8f16525efa04c29651b509"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Red-Yellow-Black-Red-Brown_KiCadBody.step": {
+      "bytes": 56246,
+      "sha256": "0e028bd993306fb9ee451b7ceb91f95725be6af4031a498883ac6fd4fb2627a8"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Yellow-Violet-Brown-Gold_KiCadBody.step": {
+      "bytes": 48641,
+      "sha256": "2644bbea2fce2425c4550d69c8dd5ec03045be2bdcd367ae150569555f09cf1f"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Yellow-Violet-Orange-Gold_KiCadBody.step": {
+      "bytes": 48643,
+      "sha256": "935ef9e35b5d7d83228fcfb5e7f8d27aebb45546dff8758b43eecc097d9caefa"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/R_DIN0207_P5.08mm_Vertical_Yellow-Violet-Red-Gold_KiCadBody.step": {
+      "bytes": 48639,
+      "sha256": "2beb4779a55fd095f43c69054c7e31dddfd7bdd74e8ae9711d023909d96bac0a"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/build_resistors.py": {
+      "bytes": 9939,
+      "sha256": "bfaaad183aca0d15b02303596d31b8e4f1535f718a08fdf9fa43a013b989a080"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/check_native_bands.py": {
+      "bytes": 4500,
+      "sha256": "8defb2c7645c3c61206b9d9adedcac5fd5edce6dbec2f51214a7d44a1988bed2"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/extract_resistor_bands.py": {
+      "bytes": 8754,
+      "sha256": "6c8f263b7ae8fe443b176bce843c5bb2e11fa181ff3dec15ec1310204423fe88"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/resistor-model-audit.json": {
+      "bytes": 99754,
+      "sha256": "8d0a70c9a9f04db6f682c6ff050b871024bbe4da63bb85b3fb98237786ee1001"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/resistor-native-band-check.json": {
+      "bytes": 45647,
+      "sha256": "3a038af993cebf791f9f44ec5e832e7b0d1611a34fe8254ab47ddbd31dc47cc5"
+    },
+    "kicad-working/validation/models-review-22/resistor-quality/sources/resistor-band-assignments.json": {
+      "bytes": 106612,
+      "sha256": "37af09912640fc1ff4ae05b5e1a9a7365db6d30d21e6a831411d7e105d0f1418"
+    },
+    "kicad-working/validation/models-review-22/run_native_checks.py": {
+      "bytes": 2585,
+      "sha256": "22024e55f7d3fc8f52ef1795fa31884085f184ef8d4f6d2686b5b9adf49fe84d"
+    },
+    "kicad-working/validation/models-review-22/summarize_working_validation.py": {
+      "bytes": 7550,
+      "sha256": "af06072b5cb579a2d8e28c85dba6889f3f9777c8c83de017c823f08d65a30949"
+    },
+    "kicad-working/validation/models-review-22/update_function_evidence.py": {
+      "bytes": 1446,
+      "sha256": "5730d0b07e5adeb5bc0a067fcfd3cf0a312013e8505590f0d97668a232174d8f"
+    },
+    "kicad-working/validation/models-review-22/verify_current_functions.py": {
+      "bytes": 803,
+      "sha256": "2573672138a59aad45ea4ae0c72e2f79ccab13ffb2e7477fe45c2b7cbdbca825"
+    },
     "kicad-working/validation/nys216-hardware-quality/README.md": {
       "bytes": 4605,
       "sha256": "9624913389c724670454900b6177f99029051f5cd249d2fe7d24f41e86e3bad5"
@@ -3851,9 +4243,13 @@
       "bytes": 59514,
       "sha256": "c3faffff0c3e4fe771a6811858b52ed2433c7822be0bc5dafc6421f9917aeab3"
     },
+    "kicad-working/validation/working-validation-summary-revision-22.json": {
+      "bytes": 72977,
+      "sha256": "71f586f1d11ab580cd333cd3d30f0f98cc4f6b8e4d49c79c483e8ec4b1995e5f"
+    },
     "kicad-working/validation/working-validation-summary.json": {
-      "bytes": 59514,
-      "sha256": "c3faffff0c3e4fe771a6811858b52ed2433c7822be0bc5dafc6421f9917aeab3"
+      "bytes": 72977,
+      "sha256": "71f586f1d11ab580cd333cd3d30f0f98cc4f6b8e4d49c79c483e8ec4b1995e5f"
     },
     "kicad-working/visualization/blender-case-revision-10/README.md": {
       "bytes": 3553,
@@ -5814,6 +6210,146 @@
     "kicad-working/visualization/blender-case-revision-24/x0xb0x-populated-with-case.blend": {
       "bytes": 42306204,
       "sha256": "2d440139aa6c9ca4c1e0e74cbe773ef35867a030fe7b1dc31379801907ed45e0"
+    },
+    "kicad-working/visualization/blender-case-revision-25/README.md": {
+      "bytes": 1619,
+      "sha256": "3f75dac3558b97daa777250b8585cf7a0c506dd9f3e7ea11c9e962a30aa336eb"
+    },
+    "kicad-working/visualization/blender-case-revision-25/assembled.png": {
+      "bytes": 2579260,
+      "sha256": "fcd67a870decf558a3fdf0165046d3fd85d8c95a16c7db59bb29026bb6e0090a"
+    },
+    "kicad-working/visualization/blender-case-revision-25/control-side.png": {
+      "bytes": 3747195,
+      "sha256": "f7e50e55d1c20080f405d14db1f6aaafdee9748150356484e0df28e849a86016"
+    },
+    "kicad-working/visualization/blender-case-revision-25/exploded.png": {
+      "bytes": 2963632,
+      "sha256": "c50578476b9cd68d6217c158ed3452f3b42bad0457b2576104ac590498748958"
+    },
+    "kicad-working/visualization/blender-case-revision-25/render-records.json": {
+      "bytes": 1282,
+      "sha256": "2ed537a53df7ff704366e5da73d1c89642068c9d7c73325ae2233204ce7732e4"
+    },
+    "kicad-working/visualization/blender-case-revision-25/render_scene.py": {
+      "bytes": 6508,
+      "sha256": "3733a5590c4590b7eda4423736c997cee18894ab8d20876d37fb3c184f50b43f"
+    },
+    "kicad-working/visualization/blender-case-revision-25/resistors-1percent-after.png": {
+      "bytes": 2530609,
+      "sha256": "91f85c1b46e235b9ba07510a4b4d14bb48b5e545de8610caf690b10ac534fbc1"
+    },
+    "kicad-working/visualization/blender-case-revision-25/resistors-1percent-before.png": {
+      "bytes": 2446405,
+      "sha256": "69e93156d3f67610b63486106d46f5459ae682e05e06c603a8c09c41f4555ca3"
+    },
+    "kicad-working/visualization/blender-case-revision-25/resistors-5percent-after.png": {
+      "bytes": 2056800,
+      "sha256": "dabaeccd4944965dc3fbdc699d958a635732bf109de007eff0e315d80d020d70"
+    },
+    "kicad-working/visualization/blender-case-revision-25/resistors-5percent-before.png": {
+      "bytes": 2044361,
+      "sha256": "dfa430ea3c004989feb4b4f00d2910276572a0da0f634b9b43c8336f51292b1b"
+    },
+    "kicad-working/visualization/blender-case-revision-25/revision-25-change-record.json": {
+      "bytes": 1330857,
+      "sha256": "bf8b270262c21136c8f2a1e85dde041c30b664ee7b92e95744d2aa321a243c5f"
+    },
+    "kicad-working/visualization/blender-case-revision-25/update_resistors.py": {
+      "bytes": 8822,
+      "sha256": "62cae01e72d82ef8d7ca9272263f805061c05a1c271c59380b3197bdfbe1cc43"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/README.md": {
+      "bytes": 668,
+      "sha256": "27252a7f4a4e131f10fb56a734920221b0cd3004659d3201d0cbe65752b671ba"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/after-scene.json.gz": {
+      "bytes": 997019,
+      "sha256": "e2ce04749a5d6e03ae258b2914d93a62148fbeea975acbb56d770d5cc534f226"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/audit_drill_fit.py": {
+      "bytes": 367,
+      "sha256": "e1e36b2023a5b9213991b1b5ec665e32a483862e572beda9ac0637eb5944566d"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/audit_kicad_models.py": {
+      "bytes": 490,
+      "sha256": "9e86e0cf1ccd83e2e25a11e4641d7c198d4391bc7cd9e27d6871a95a4275a401"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/audit_portability.py": {
+      "bytes": 427,
+      "sha256": "1c67479336884a383d144a8359680c86672c7a721b0ffa9f0806ab43060446f3"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/audit_saved_scene.py": {
+      "bytes": 7400,
+      "sha256": "5cef49760a062c8be68310f74247ef095e606712250c07f7ce4cf4433f56b113"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/audit_terminal_joins.py": {
+      "bytes": 474,
+      "sha256": "36b7690b5674a98071bf700c6d414e74995f863163459a8706cac84d58809a97"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/before-scene.json.gz": {
+      "bytes": 978257,
+      "sha256": "6a05e35b84b497b826789b835eb8646b92964bc177233ce06e3b999a11e8e2b4"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/drill-fit-audit.json": {
+      "bytes": 1884,
+      "sha256": "1b269628fd94f21764b28e99a8cf76a2e78d74508c510c23cb3c5a51b640c3ee"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/final-render-review.json": {
+      "bytes": 1799,
+      "sha256": "e50e2107faa90ffdcbc3b1d708b6649a770c88cf0c2518a5cab217dd608d6417"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/final-saved-scene-audit.json": {
+      "bytes": 15467,
+      "sha256": "16963192256473f9f46b616e3afb0bdd00c55372d1b37963ae70b50e8a6ba0f5"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/independent-validation-summary.json": {
+      "bytes": 10750,
+      "sha256": "3fc3dd6a4e4f42fa0af82c11ec8130f26c30c330bbee1c1fd761faddf0e2b56a"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/kicad-blender-models-audit.json": {
+      "bytes": 2822,
+      "sha256": "405853fb3d3540436c00443e73045cd12650df1a9d4c1860d04f6b3d9473b376"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/portable-scene-audit.json": {
+      "bytes": 12527,
+      "sha256": "537ec3072f27ccef91587898a3dace8eec40a5b61a26e86a4feb44cb574021dc"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/rear-openings-audit.json": {
+      "bytes": 119446,
+      "sha256": "e574e61f370ed7dd81593c4593bd2a383cd3af2047c61ccb6c0a90acdb7a7340"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/render-readonly-verification.json": {
+      "bytes": 236,
+      "sha256": "6dcc9a0419677579f804948ff15d1bb51ff69a9d19750f2c5f6ac6745d28b5b9"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/render_resistor_details.py": {
+      "bytes": 4027,
+      "sha256": "31429050edc099d49225159c39114e6530b18f691fe8c78950a9d3e53d5f1701"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/resistor-detail-render.json": {
+      "bytes": 2494,
+      "sha256": "adbf3a733559b91783172579a6f785afc9e4d77d775e97208a526e093237056a"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/run_model_checks.py": {
+      "bytes": 276,
+      "sha256": "4f002b78cf79c25f0c737b0ae2253da4479e18f4d5d26ecda5c5968b1e6ed676"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/scene_snapshot.py": {
+      "bytes": 11397,
+      "sha256": "9c6576a9a05cba01736055f45d35e751edb1df57933c9b16b9c9e7faa1c8d642"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/summarize_revision.py": {
+      "bytes": 8672,
+      "sha256": "f26e166b15b746364de56ef7855e5ed68b46e4318a48a3681cd88d1f6a34414c"
+    },
+    "kicad-working/visualization/blender-case-revision-25/verification/terminal-join-audit.json": {
+      "bytes": 4723,
+      "sha256": "dd842137cc4ef800d5df1500dd10deed227524cfc0e6d00c9a323c22002687a7"
+    },
+    "kicad-working/visualization/blender-case-revision-25/x0xb0x-populated-with-case.blend": {
+      "bytes": 46521875,
+      "sha256": "e02138d570637325dc4d7b43353216340832ddd6ea0526f2ea8880afe5d44d90"
     },
     "kicad-working/visualization/blender-case-revision-7/README.md": {
       "bytes": 4279,
@@ -8796,5 +9332,5 @@
       "sha256": "9e3b4c0ac2769c16fc1ec163b3889fc0fae7db6849794d3b28b5aa39c0247efb"
     }
   },
-  "verification_note": "Current Blender24 evidence covers complete saved-file comparison with revision23 (12 checks), 491 KiCad-vs-scene model matches, drill fit on 489 drilled models, 133 terminal pieces joined to their bodies, 974 rear rays, 106 portability checks, an electrolytic neighbour screen with one recorded new contact (C8/TM6, about0.09mm) and same-camera before/after details. KiCad21 evidence covers 272 XRL model checks, native colour checks on 39 placements, a native lead and drill-fit audit with 11 unchanged nominal interferences, and fresh ERC/DRC for both boards equal to the previous reports. No physical-fit qualification."
+  "verification_note": "Current Blender25 evidence covers complete saved-file comparison with revision24 (13 checks, including unchanged resistor outlines), 491 KiCad-vs-scene model matches, drill fit on 489 drilled models, 133 terminal pieces joined to their bodies, 974 rear rays, 106 portability checks and same-camera before/after details. KiCad22 evidence covers 33 band-assignment checks against the parts page, 376 banded-model checks, native band read-back on all212 resistors, a native lead and drill-fit audit with 11 unchanged nominal interferences, and fresh ERC/DRC for both boards equal to the previous reports. No physical-fit qualification."
 }

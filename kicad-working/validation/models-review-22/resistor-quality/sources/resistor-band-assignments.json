@@ -1,0 +1,4294 @@
+{
+  "schema": 1,
+  "generator": "extract_resistor_bands.py",
+  "passed": true,
+  "check_count": 33,
+  "checks": [
+    {
+      "check": "10 ohm 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Brown",
+        "Black",
+        "Black",
+        "Gold"
+      ]
+    },
+    {
+      "check": "22 ohm 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Red",
+        "Red",
+        "Black",
+        "Gold"
+      ]
+    },
+    {
+      "check": "27 ohm 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Red",
+        "Violet",
+        "Black",
+        "Gold"
+      ]
+    },
+    {
+      "check": "100 ohm 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Brown",
+        "Black",
+        "Brown",
+        "Gold"
+      ]
+    },
+    {
+      "check": "150 ohm 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Brown",
+        "Green",
+        "Brown",
+        "Gold"
+      ]
+    },
+    {
+      "check": "220 ohm 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Red",
+        "Red",
+        "Brown",
+        "Gold"
+      ]
+    },
+    {
+      "check": "470 ohm 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Yellow",
+        "Violet",
+        "Brown",
+        "Gold"
+      ]
+    },
+    {
+      "check": "1K 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Brown",
+        "Black",
+        "Red",
+        "Gold"
+      ]
+    },
+    {
+      "check": "1.5K 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Brown",
+        "Green",
+        "Red",
+        "Gold"
+      ]
+    },
+    {
+      "check": "1.8K 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Brown",
+        "Grey",
+        "Red",
+        "Gold"
+      ]
+    },
+    {
+      "check": "2.2K 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ]
+    },
+    {
+      "check": "4.7K 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Yellow",
+        "Violet",
+        "Red",
+        "Gold"
+      ]
+    },
+    {
+      "check": "6.8K 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Blue",
+        "Grey",
+        "Red",
+        "Gold"
+      ]
+    },
+    {
+      "check": "10K 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ]
+    },
+    {
+      "check": "22K 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Red",
+        "Red",
+        "Orange",
+        "Gold"
+      ]
+    },
+    {
+      "check": "33K 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Orange",
+        "Orange",
+        "Orange",
+        "Gold"
+      ]
+    },
+    {
+      "check": "47K 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Yellow",
+        "Violet",
+        "Orange",
+        "Gold"
+      ]
+    },
+    {
+      "check": "68K 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Blue",
+        "Grey",
+        "Orange",
+        "Gold"
+      ]
+    },
+    {
+      "check": "100K 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ]
+    },
+    {
+      "check": "220K 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Red",
+        "Red",
+        "Yellow",
+        "Gold"
+      ]
+    },
+    {
+      "check": "1MEG 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Brown",
+        "Black",
+        "Green",
+        "Gold"
+      ]
+    },
+    {
+      "check": "1.5MEG 5%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Brown",
+        "Green",
+        "Green",
+        "Gold"
+      ]
+    },
+    {
+      "check": "2.4K 1%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Red",
+        "Yellow",
+        "Black",
+        "Brown",
+        "Brown"
+      ]
+    },
+    {
+      "check": "5.6K 1%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Green",
+        "Blue",
+        "Black",
+        "Brown",
+        "Brown"
+      ]
+    },
+    {
+      "check": "24.0K 1%: printed bands decode to the row value",
+      "passed": true,
+      "bands": [
+        "Red",
+        "Yellow",
+        "Black",
+        "Red",
+        "Brown"
+      ]
+    },
+    {
+      "check": "200K 1% bands read from the photograph decode to 200K 1%",
+      "passed": true
+    },
+    {
+      "check": "LED-resistor row lists 40 references",
+      "passed": true
+    },
+    {
+      "check": "212 fixed resistors on 0207 footprints, unique references across boards",
+      "passed": true
+    },
+    {
+      "check": "Every listed parts-page reference exists on a PCB",
+      "passed": true,
+      "extra": []
+    },
+    {
+      "check": "The 28 references missing from the 10K row are all 10K on the PCB and complete its quantity",
+      "passed": true
+    },
+    {
+      "check": "Only R16 and R106 differ between PCB value and parts page",
+      "passed": true,
+      "differences": [
+        {
+          "reference": "R16",
+          "board": "ioboard",
+          "pcb_value": "100",
+          "parts_page": "150 ohm 5%"
+        },
+        {
+          "reference": "R106",
+          "board": "mainboard",
+          "pcb_value": "27K",
+          "parts_page": "24.0K 1%"
+        }
+      ]
+    },
+    {
+      "check": "Every assigned band list decodes to its assigned value and tolerance",
+      "passed": true
+    },
+    {
+      "check": "Twenty 1% references (R4, R5, R106, R74-R90)",
+      "passed": true
+    }
+  ],
+  "parts_page": {
+    "url": "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+    "local_mirror": "visualization/blender-case-revision-7/bom-parts/original-parts-page-mirror.html",
+    "sha256": "e923c899b7685017bd232bff162a5756825ef70ef3de75e3a62ffaaada014002"
+  },
+  "rows": [
+    {
+      "value": "10 ohm",
+      "ohms": 10.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Brown",
+        "Black",
+        "Black",
+        "Gold"
+      ],
+      "refs": [
+        "R186",
+        "R164"
+      ],
+      "quantity": 2,
+      "bands": [
+        "Brown",
+        "Black",
+        "Black",
+        "Gold"
+      ]
+    },
+    {
+      "value": "22 ohm",
+      "ohms": 22.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Red",
+        "Red",
+        "Black",
+        "Gold"
+      ],
+      "refs": [
+        "R20",
+        "R150"
+      ],
+      "quantity": 2,
+      "bands": [
+        "Red",
+        "Red",
+        "Black",
+        "Gold"
+      ]
+    },
+    {
+      "value": "27 ohm",
+      "ohms": 27.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Red",
+        "Violet",
+        "Black",
+        "Gold"
+      ],
+      "refs": [
+        "R6",
+        "R7"
+      ],
+      "quantity": 2,
+      "bands": [
+        "Red",
+        "Violet",
+        "Black",
+        "Gold"
+      ]
+    },
+    {
+      "value": "100 ohm",
+      "ohms": 100.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Brown",
+        "Black",
+        "Brown",
+        "Gold"
+      ],
+      "refs": [
+        "R1",
+        "R95",
+        "R130",
+        "R132",
+        "R136",
+        "R152",
+        "R16"
+      ],
+      "quantity": 7,
+      "bands": [
+        "Brown",
+        "Black",
+        "Brown",
+        "Gold"
+      ]
+    },
+    {
+      "value": "150 ohm",
+      "ohms": 150.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Brown",
+        "Green",
+        "Brown",
+        "Gold"
+      ],
+      "refs": [
+        "R16"
+      ],
+      "quantity": 1,
+      "bands": [
+        "Brown",
+        "Green",
+        "Brown",
+        "Gold"
+      ]
+    },
+    {
+      "value": "220 ohm",
+      "ohms": 220.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Red",
+        "Red",
+        "Brown",
+        "Gold"
+      ],
+      "refs": [
+        "R13",
+        "R14",
+        "R15",
+        "R18",
+        "R19"
+      ],
+      "quantity": 5,
+      "bands": [
+        "Red",
+        "Red",
+        "Brown",
+        "Gold"
+      ]
+    },
+    {
+      "value": "470 ohm",
+      "ohms": 470.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Yellow",
+        "Violet",
+        "Brown",
+        "Gold"
+      ],
+      "refs": [
+        "R12"
+      ],
+      "quantity": 1,
+      "bands": [
+        "Yellow",
+        "Violet",
+        "Brown",
+        "Gold"
+      ]
+    },
+    {
+      "value": "1K",
+      "ohms": 1000.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Brown",
+        "Black",
+        "Red",
+        "Gold"
+      ],
+      "refs": [
+        "R2",
+        "R17",
+        "R137",
+        "R161"
+      ],
+      "quantity": 4,
+      "bands": [
+        "Brown",
+        "Black",
+        "Red",
+        "Gold"
+      ]
+    },
+    {
+      "value": "1.5K",
+      "ohms": 1500.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Brown",
+        "Green",
+        "Red",
+        "Gold"
+      ],
+      "refs": [
+        "R8"
+      ],
+      "quantity": 1,
+      "bands": [
+        "Brown",
+        "Green",
+        "Red",
+        "Gold"
+      ]
+    },
+    {
+      "value": "1.8K",
+      "ohms": 1800.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Brown",
+        "Grey",
+        "Red",
+        "Gold"
+      ],
+      "refs": [
+        "R179"
+      ],
+      "quantity": 1,
+      "bands": [
+        "Brown",
+        "Grey",
+        "Red",
+        "Gold"
+      ]
+    },
+    {
+      "value": "2.2K",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "refs": [
+        "R21",
+        "R22",
+        "R23",
+        "R24",
+        "R67",
+        "R68",
+        "R69",
+        "R70",
+        "R71",
+        "R98",
+        "R104",
+        "R107",
+        "R108",
+        "R124",
+        "R125",
+        "R126",
+        "R133",
+        "R162",
+        "R178"
+      ],
+      "quantity": 19,
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ]
+    },
+    {
+      "value": "4.7K",
+      "ohms": 4700.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Yellow",
+        "Violet",
+        "Red",
+        "GOld"
+      ],
+      "refs": [
+        "R9",
+        "R135"
+      ],
+      "quantity": 2,
+      "bands": [
+        "Yellow",
+        "Violet",
+        "Red",
+        "Gold"
+      ],
+      "band_spelling_normalised": true
+    },
+    {
+      "value": "6.8K",
+      "ohms": 6800.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Blue",
+        "Grey",
+        "Red",
+        "Gold"
+      ],
+      "refs": [
+        "R3"
+      ],
+      "quantity": 1,
+      "bands": [
+        "Blue",
+        "Grey",
+        "Red",
+        "Gold"
+      ]
+    },
+    {
+      "value": "10K",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "refs": [
+        "R10",
+        "R11",
+        "R34",
+        "R36",
+        "R47",
+        "R61",
+        "R64",
+        "R65",
+        "R94",
+        "R96",
+        "R97",
+        "R101",
+        "R105",
+        "R109",
+        "R112",
+        "R115",
+        "R116",
+        "R142",
+        "R143",
+        "R144",
+        "R145",
+        "R148",
+        "R149",
+        "R157",
+        "R158",
+        "R160"
+      ],
+      "quantity": 54,
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ]
+    },
+    {
+      "value": "22K",
+      "ohms": 22000.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Red",
+        "Red",
+        "Orange",
+        "Gold"
+      ],
+      "refs": [
+        "R45",
+        "R60",
+        "R110",
+        "R111",
+        "R117",
+        "R120",
+        "R129",
+        "R134",
+        "R146",
+        "R151"
+      ],
+      "quantity": 10,
+      "bands": [
+        "Red",
+        "Red",
+        "Orange",
+        "Gold"
+      ]
+    },
+    {
+      "value": "33K",
+      "ohms": 33000.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Orange",
+        "Orange",
+        "Orange",
+        "Gold"
+      ],
+      "refs": [
+        "R159"
+      ],
+      "quantity": 1,
+      "bands": [
+        "Orange",
+        "Orange",
+        "Orange",
+        "Gold"
+      ]
+    },
+    {
+      "value": "47K",
+      "ohms": 47000.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Yellow",
+        "Violet",
+        "Orange",
+        "Gold"
+      ],
+      "refs": [
+        "R46",
+        "R119",
+        "R127",
+        "R155"
+      ],
+      "quantity": 4,
+      "bands": [
+        "Yellow",
+        "Violet",
+        "Orange",
+        "Gold"
+      ]
+    },
+    {
+      "value": "68K",
+      "ohms": 68000.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Blue",
+        "Grey",
+        "Orange",
+        "Gold"
+      ],
+      "refs": [
+        "R138"
+      ],
+      "quantity": 1,
+      "bands": [
+        "Blue",
+        "Grey",
+        "Orange",
+        "Gold"
+      ]
+    },
+    {
+      "value": "100K",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "refs": [
+        "R25",
+        "R26",
+        "R27",
+        "R28",
+        "R35",
+        "R59",
+        "R66",
+        "R72",
+        "R73",
+        "R92",
+        "R93",
+        "R99",
+        "R102",
+        "R113",
+        "R114",
+        "R118",
+        "R122",
+        "R139",
+        "R140",
+        "R141",
+        "R153",
+        "R154",
+        "R156",
+        "R165"
+      ],
+      "quantity": 24,
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ]
+    },
+    {
+      "value": "220K",
+      "ohms": 220000.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Red",
+        "Red",
+        "Yellow",
+        "Gold"
+      ],
+      "refs": [
+        "R62",
+        "R63",
+        "R103",
+        "R121",
+        "R128",
+        "R131",
+        "R235",
+        "R236"
+      ],
+      "quantity": 8,
+      "bands": [
+        "Red",
+        "Red",
+        "Yellow",
+        "Gold"
+      ]
+    },
+    {
+      "value": "1MEG",
+      "ohms": 1000000.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Brown",
+        "Black",
+        "Green",
+        "Gold"
+      ],
+      "refs": [
+        "R91",
+        "R200"
+      ],
+      "quantity": 2,
+      "bands": [
+        "Brown",
+        "Black",
+        "Green",
+        "Gold"
+      ]
+    },
+    {
+      "value": "1.5MEG",
+      "ohms": 1500000.0,
+      "tolerance": "5%",
+      "printed_bands": [
+        "Brown",
+        "Green",
+        "Green",
+        "Gold"
+      ],
+      "refs": [
+        "R123"
+      ],
+      "quantity": 1,
+      "bands": [
+        "Brown",
+        "Green",
+        "Green",
+        "Gold"
+      ]
+    },
+    {
+      "value": "2.4K",
+      "ohms": 2400.0,
+      "tolerance": "1%",
+      "printed_bands": [
+        "Red",
+        "Yellow",
+        "Black",
+        "Brown",
+        "Brown"
+      ],
+      "refs": [
+        "R5"
+      ],
+      "quantity": 1,
+      "bands": [
+        "Red",
+        "Yellow",
+        "Black",
+        "Brown",
+        "Brown"
+      ]
+    },
+    {
+      "value": "5.6K",
+      "ohms": 5600.0,
+      "tolerance": "1%",
+      "printed_bands": [
+        "Green",
+        "Blue",
+        "Black",
+        "Brown",
+        "Brown"
+      ],
+      "refs": [
+        "R4"
+      ],
+      "quantity": 1,
+      "bands": [
+        "Green",
+        "Blue",
+        "Black",
+        "Brown",
+        "Brown"
+      ]
+    },
+    {
+      "value": "24.0K",
+      "ohms": 24000.0,
+      "tolerance": "1%",
+      "printed_bands": [
+        "Red",
+        "Yellow",
+        "Black",
+        "Red",
+        "Brown"
+      ],
+      "refs": [
+        "R106"
+      ],
+      "quantity": 1,
+      "bands": [
+        "Red",
+        "Yellow",
+        "Black",
+        "Red",
+        "Brown"
+      ]
+    },
+    {
+      "value": "200K",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "printed_bands": [],
+      "refs": [
+        "R74",
+        "R75",
+        "R76",
+        "R77",
+        "R78",
+        "R79",
+        "R80",
+        "R81",
+        "R82",
+        "R83",
+        "R84",
+        "R85",
+        "R86",
+        "R87",
+        "R88",
+        "R89",
+        "R90"
+      ],
+      "quantity": 17,
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "bands_source": "Read from the row photograph 200.0K.jpg (red end first); the row prints no bands"
+    }
+  ],
+  "led_references": [
+    "R203",
+    "R204",
+    "R205",
+    "R208",
+    "R211",
+    "R213",
+    "R215",
+    "R217",
+    "R221",
+    "R222",
+    "R223",
+    "R227",
+    "R228",
+    "R229",
+    "R234",
+    "R237",
+    "R238",
+    "R239",
+    "R241",
+    "R242",
+    "R243",
+    "R244",
+    "R245",
+    "R246",
+    "R248",
+    "R249",
+    "R250",
+    "R251",
+    "R252",
+    "R253",
+    "R256",
+    "R258",
+    "R260",
+    "R261",
+    "R262",
+    "R264",
+    "R265",
+    "R266",
+    "R267",
+    "R268"
+  ],
+  "value_differences": [
+    {
+      "reference": "R16",
+      "board": "ioboard",
+      "pcb_value": "100",
+      "parts_page": "150 ohm 5%"
+    },
+    {
+      "reference": "R106",
+      "board": "mainboard",
+      "pcb_value": "27K",
+      "parts_page": "24.0K 1%"
+    }
+  ],
+  "differences_resolution": "Bands follow the parts page (the part supplied in the kit); PCB value fields stay unchanged.",
+  "photos": {
+    "source": "Original parts page photographs, archived at https://github.com/x0xb0x/x0xb0x.github.io (assets/images/parts/)",
+    "retained": false,
+    "files": {
+      "2.4k_1p.jpg": "a91aead043c56fec04431d4ab4fab4959e9e619f09890826d13120410e6b652a",
+      "24.0K_1p.jpg": "4d0033b771abd9970785ccfb978c324ad7ccde496497829e4ed5d9d5804c5076",
+      "5.60K.jpg": "eae7b8812c0fac591fa35e7f63120d4549d39530fbb1263224685b32a8fb031e",
+      "200.0K.jpg": "ea6eb7a2273352dfec33426c491b90c0db07cf5e5a812612b950b6e529bb700a",
+      "resleft_t.gif": "31af51eb6724e911b24330f9fab458c3939915b21572243d714a45fd8bbb9638"
+    },
+    "one_percent_body_srgb_median": {
+      "2.4k_1p.jpg": [
+        93,
+        149,
+        175
+      ],
+      "24.0K_1p.jpg": [
+        95,
+        143,
+        173
+      ],
+      "5.60K.jpg": [
+        111,
+        163,
+        184
+      ],
+      "200.0K.jpg": [
+        116,
+        162,
+        188
+      ]
+    },
+    "five_percent_body": "No photograph; tan body sampled from the page band graphic resleft_t.gif, median [169, 118, 82]"
+  },
+  "body_colours_srgb": {
+    "1%": [
+      0.41,
+      0.61,
+      0.71
+    ],
+    "5%": [
+      0.66,
+      0.46,
+      0.32
+    ]
+  },
+  "assignments": {
+    "R1": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Brown",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R2": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "1k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 1000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R3": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "6.8k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 6800.0,
+      "tolerance": "5%",
+      "bands": [
+        "Blue",
+        "Grey",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R4": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "5.6k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 5600.0,
+      "tolerance": "1%",
+      "bands": [
+        "Green",
+        "Blue",
+        "Black",
+        "Brown",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R5": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.4k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2400.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Yellow",
+        "Black",
+        "Brown",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R6": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "27",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 27.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Violet",
+        "Black",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R7": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "27",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 27.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Violet",
+        "Black",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R8": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "1.5k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 1500.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Green",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R9": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "4.7k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 4700.0,
+      "tolerance": "5%",
+      "bands": [
+        "Yellow",
+        "Violet",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R10": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R11": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R12": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "470",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 470.0,
+      "tolerance": "5%",
+      "bands": [
+        "Yellow",
+        "Violet",
+        "Brown",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R13": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "220",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 220.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Brown",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R14": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "220",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 220.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Brown",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R15": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "220",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 220.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Brown",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R16": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 150.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Green",
+        "Brown",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R17": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "1k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 1000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R18": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "220",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 220.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Brown",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R19": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "220",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 220.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Brown",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R20": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "22",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 22.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Black",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R21": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R22": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R23": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R24": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R25": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R26": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R27": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R28": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R164": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Black",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R178": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R179": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "1.8k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 1800.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Grey",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R186": {
+      "board": "ioboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Black",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R34": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R35": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R36": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R45": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "22K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 22000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R46": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "47K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 47000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Yellow",
+        "Violet",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R47": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R59": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R60": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "22K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 22000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R61": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R62": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "220K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 220000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R63": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "220K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 220000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R64": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R65": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R66": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R67": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R68": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R69": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R70": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R71": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R72": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R73": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R74": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R75": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R76": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R77": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R78": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R79": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R80": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R81": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R82": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R83": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R84": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R85": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R86": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R87": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R88": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R89": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R90": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "200k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 200000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Black",
+        "Black",
+        "Orange",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R91": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "1M",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 1000000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Green",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R92": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R93": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R94": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R95": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Brown",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R96": {
+      "board": "mainboard",
+      "footprint": "0207_2V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R97": {
+      "board": "mainboard",
+      "footprint": "0207_2V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R98": {
+      "board": "mainboard",
+      "footprint": "0207_2V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R99": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R101": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R102": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R103": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "220k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 220000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R104": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R105": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R106": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "27K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 24000.0,
+      "tolerance": "1%",
+      "bands": [
+        "Red",
+        "Yellow",
+        "Black",
+        "Red",
+        "Brown"
+      ],
+      "source": "parts-page row"
+    },
+    "R107": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R108": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R109": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R110": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "22K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 22000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R111": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "22K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 22000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R112": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R113": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R114": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R115": {
+      "board": "mainboard",
+      "footprint": "0207_2V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R116": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R117": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "22K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 22000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R118": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R119": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "47K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 47000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Yellow",
+        "Violet",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R120": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "22k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 22000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R121": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "220K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 220000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R122": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R123": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "1.5M",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 1500000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Green",
+        "Green",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R124": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R125": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R126": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R127": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "47K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 47000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Yellow",
+        "Violet",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R128": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "220K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 220000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R129": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "22K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 22000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R130": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Brown",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R131": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "220K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 220000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R132": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Brown",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R133": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R134": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "22K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 22000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R135": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "4.7k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 4700.0,
+      "tolerance": "5%",
+      "bands": [
+        "Yellow",
+        "Violet",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R136": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Brown",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R137": {
+      "board": "mainboard",
+      "footprint": "0207_10",
+      "pcb_value": "1K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step",
+      "ohms": 1000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R138": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "68K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 68000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Blue",
+        "Grey",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R139": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R140": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R141": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R142": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R143": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R144": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R145": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R146": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "22K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 22000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R148": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R149": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R150": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "22",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 22.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Black",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R151": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "22K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 22000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R152": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Brown",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R153": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R154": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R155": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "47K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 47000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Yellow",
+        "Violet",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R156": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R157": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R158": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R159": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "33K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 33000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Orange",
+        "Orange",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R160": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R161": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "1K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 1000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R162": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "2.2K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 2200.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Red",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R165": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "100K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 100000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R200": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "1M",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 1000000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Green",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R201": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R202": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R203": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R204": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R205": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R206": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R207": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R208": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R209": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R210": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R211": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R212": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R213": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R214": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R215": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R216": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R217": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R218": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R219": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R220": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R221": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R222": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R223": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R224": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R225": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R226": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R227": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R228": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R229": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R230": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R231": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R232": {
+      "board": "mainboard",
+      "footprint": "0207_10",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R233": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R234": {
+      "board": "mainboard",
+      "footprint": "0207_15",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R235": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "220k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 220000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R236": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "220k",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 220000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Red",
+        "Red",
+        "Yellow",
+        "Gold"
+      ],
+      "source": "parts-page row"
+    },
+    "R237": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R238": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R239": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R240": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R241": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R242": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R243": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R244": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R245": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R246": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R247": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R248": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R249": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R250": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R251": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R252": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R253": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R254": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R255": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R256": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R257": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R258": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R259": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R260": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R261": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R262": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R263": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R264": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R265": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R266": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R267": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R268": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "LED-resistor row (5%, value may vary); PCB value"
+    },
+    "R269": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    },
+    "R270": {
+      "board": "mainboard",
+      "footprint": "0207_5V",
+      "pcb_value": "10K",
+      "model": "${KIPRJMOD}/3dmodels/KiCad/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical.step",
+      "ohms": 10000.0,
+      "tolerance": "5%",
+      "bands": [
+        "Brown",
+        "Black",
+        "Orange",
+        "Gold"
+      ],
+      "source": "parts-page 10K row; its printed reference list stops after 26 of 54"
+    }
+  },
+  "source_counts": {
+    "parts-page row": 144,
+    "parts-page 10K row": 28,
+    "LED-resistor row (5%, value may vary)": 40
+  }
+}

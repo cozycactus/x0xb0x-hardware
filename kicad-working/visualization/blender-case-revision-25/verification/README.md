@@ -1,0 +1,3 @@
+# Revision 25 verification
+
+The saved-file audit compares revisions 24 and 25, accepting only the 212 declared resistor mesh changes, twelve added body and band materials, two materials whose only users were the replaced meshes, the roots' source fields and the new guide; it also checks that every replaced mesh keeps its revision-24 bounds within 1 micrometre. Every existing object, pose, camera, legend and animation remains. The other scripts replay the current native-model, drill-fit, portability and terminal-join checks; source hashes are pinned in their reports. Before/after detail images use identical cameras; their lighting is temporary and never saved.

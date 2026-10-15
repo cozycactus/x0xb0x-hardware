@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "review": "Visual inspection of all seven current PNGs",
+  "scene_sha256": "e02138d570637325dc4d7b43353216340832ddd6ea0526f2ea8880afe5d44d90",
+  "images": {
+    "assembled": {
+      "path": "assembled.png",
+      "sha256": "fcd67a870decf558a3fdf0165046d3fd85d8c95a16c7db59bb29026bb6e0090a"
+    },
+    "exploded": {
+      "path": "exploded.png",
+      "sha256": "c50578476b9cd68d6217c158ed3452f3b42bad0457b2576104ac590498748958"
+    },
+    "control-side": {
+      "path": "control-side.png",
+      "sha256": "f7e50e55d1c20080f405d14db1f6aaafdee9748150356484e0df28e849a86016"
+    },
+    "resistors-1percent-before": {
+      "path": "resistors-1percent-before.png",
+      "sha256": "69e93156d3f67610b63486106d46f5459ae682e05e06c603a8c09c41f4555ca3"
+    },
+    "resistors-5percent-before": {
+      "path": "resistors-5percent-before.png",
+      "sha256": "dfa430ea3c004989feb4b4f00d2910276572a0da0f634b9b43c8336f51292b1b"
+    },
+    "resistors-1percent-after": {
+      "path": "resistors-1percent-after.png",
+      "sha256": "91f85c1b46e235b9ba07510a4b4d14bb48b5e545de8610caf690b10ac534fbc1"
+    },
+    "resistors-5percent-after": {
+      "path": "resistors-5percent-after.png",
+      "sha256": "dabaeccd4944965dc3fbdc699d958a635732bf109de007eff0e315d80d020d70"
+    }
+  },
+  "observations": [
+    "Same-camera 1% detail: R74-R90 show light-blue bodies reading Red Black Black Orange Brown from the top",
+    "Same-camera 5% detail: tan bodies with four bands; body outline, leads and positions unchanged",
+    "Exploded view shows the banded resistors across the mainboard; assembled and control-side views preserved",
+    "The tan body sampled from the page graphic renders slightly peach under the scene lights; colours are uncalibrated"
+  ],
+  "physical_fit_qualified": false
+}

@@ -1,0 +1,326 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-16",
+  "Blender_revision": 25,
+  "KiCad_revision": 22,
+  "scene": "kicad-working/visualization/blender-case-revision-25/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "e02138d570637325dc4d7b43353216340832ddd6ea0526f2ea8880afe5d44d90",
+  "scene_bytes": 46521875,
+  "baseline_scene_sha256": "2d440139aa6c9ca4c1e0e74cbe773ef35867a030fe7b1dc31379801907ed45e0",
+  "correction": "All 212 fixed resistors carry the original kit colour bands from the original parts page: tan 5% bodies with four bands and light-blue 1% bodies with five (R4, R5, R106, R74-R90). Body and lead geometry are the unchanged KiCad DIN0207 models; bands are flush rings of the body material.",
+  "band_sources": {
+    "parts-page row": 144,
+    "parts-page 10K row": 28,
+    "LED-resistor row (5%, value may vary)": 40
+  },
+  "tolerances": {
+    "5%": 192,
+    "1%": 20
+  },
+  "variants": 31,
+  "band_spans_mm_from_end_A": {
+    "4": [
+      [
+        0.85,
+        1.35
+      ],
+      [
+        1.95,
+        2.45
+      ],
+      [
+        2.85,
+        3.35
+      ],
+      [
+        4.95,
+        5.45
+      ]
+    ],
+    "5": [
+      [
+        0.85,
+        1.35
+      ],
+      [
+        1.85,
+        2.25
+      ],
+      [
+        2.55,
+        2.95
+      ],
+      [
+        3.25,
+        3.65
+      ],
+      [
+        4.95,
+        5.45
+      ]
+    ]
+  },
+  "reading_direction": "Upright parts read from the top; lying parts from the pad-1 end (illustration)",
+  "value_differences": [
+    {
+      "reference": "R16",
+      "board": "ioboard",
+      "pcb_value": "100",
+      "parts_page": "150 ohm 5%"
+    },
+    {
+      "reference": "R106",
+      "board": "mainboard",
+      "pcb_value": "27K",
+      "parts_page": "24.0K 1%"
+    }
+  ],
+  "value_difference_resolution": "Bands follow the parts page (the part supplied in the kit); PCB value fields stay unchanged.",
+  "page_corrections": [
+    "4.7K row prints \"GOld\"; read as Gold",
+    "200K 1% row prints no bands; read from its photograph as Red Black Black Orange Brown",
+    "10K row lists 26 of 54 references; the other 28 PCB references are all 10K"
+  ],
+  "led_resistors": "The 40 LED resistors carry the PCB value 10K; the parts page says the value may vary with the LED.",
+  "colours": {
+    "bands": {
+      "Black": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "Brown": [
+        0.42,
+        0.22,
+        0.1
+      ],
+      "Red": [
+        0.8,
+        0.07,
+        0.07
+      ],
+      "Orange": [
+        0.95,
+        0.45,
+        0.05
+      ],
+      "Yellow": [
+        0.95,
+        0.83,
+        0.1
+      ],
+      "Green": [
+        0.1,
+        0.55,
+        0.2
+      ],
+      "Blue": [
+        0.1,
+        0.25,
+        0.8
+      ],
+      "Violet": [
+        0.52,
+        0.2,
+        0.7
+      ],
+      "Grey": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "White": [
+        0.95,
+        0.95,
+        0.95
+      ],
+      "Gold": [
+        0.83,
+        0.66,
+        0.22
+      ]
+    },
+    "bodies": {
+      "1%": [
+        0.41,
+        0.61,
+        0.71
+      ],
+      "5%": [
+        0.66,
+        0.46,
+        0.32
+      ]
+    },
+    "leads": [
+      0.824,
+      0.82,
+      0.781
+    ]
+  },
+  "sources": {
+    "parts_page": "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+    "parts_page_mirror": "visualization/blender-case-revision-7/bom-parts/original-parts-page-mirror.html",
+    "photographs": "Original parts page photographs, archived at https://github.com/x0xb0x/x0xb0x.github.io (assets/images/parts/)"
+  },
+  "blender": {
+    "changed_meshes": 212,
+    "added_materials": [
+      "Resistor 1% body \u2014 revision 25 (native KiCad colour)",
+      "Resistor 5% body \u2014 revision 25 (native KiCad colour)",
+      "Resistor black band \u2014 revision 25 (native KiCad colour)",
+      "Resistor blue band \u2014 revision 25 (native KiCad colour)",
+      "Resistor brown band \u2014 revision 25 (native KiCad colour)",
+      "Resistor gold band \u2014 revision 25 (native KiCad colour)",
+      "Resistor green band \u2014 revision 25 (native KiCad colour)",
+      "Resistor grey band \u2014 revision 25 (native KiCad colour)",
+      "Resistor orange band \u2014 revision 25 (native KiCad colour)",
+      "Resistor red band \u2014 revision 25 (native KiCad colour)",
+      "Resistor violet band \u2014 revision 25 (native KiCad colour)",
+      "Resistor yellow band \u2014 revision 25 (native KiCad colour)"
+    ],
+    "retired_materials": [
+      "mat_2.004",
+      "mat_4.005"
+    ],
+    "added_objects": []
+  },
+  "kicad": {
+    "changed_files": [
+      "ioboard/ioboard.kicad_pcb",
+      "mainboard/mainboard.kicad_pcb"
+    ],
+    "new_files": 40,
+    "core_files": 345,
+    "footprint_caches_unchanged": true,
+    "fresh_ERC_errors": {
+      "mainboard": 0,
+      "ioboard": 0
+    },
+    "fresh_DRC_comparison_to_previous": {
+      "mainboard": {
+        "violations": true,
+        "schematic_parity": true,
+        "ignored_checks": true,
+        "unconnected_items_raw": true,
+        "unconnected_count_and_nets": true
+      },
+      "ioboard": {
+        "violations": true,
+        "schematic_parity": true,
+        "ignored_checks": true,
+        "unconnected_items_raw": false,
+        "unconnected_count_and_nets": true
+      }
+    }
+  },
+  "verification": {
+    "band_assignments": {
+      "report": "kicad-working/validation/models-review-22/resistor-quality/sources/resistor-band-assignments.json",
+      "sha256": "37af09912640fc1ff4ae05b5e1a9a7365db6d30d21e6a831411d7e105d0f1418",
+      "passed": true,
+      "check_count": 33
+    },
+    "resistor_models": {
+      "report": "kicad-working/validation/models-review-22/resistor-quality/resistor-model-audit.json",
+      "sha256": "8d0a70c9a9f04db6f682c6ff050b871024bbe4da63bb85b3fb98237786ee1001",
+      "passed": true,
+      "check_count": 376
+    },
+    "native_bands": {
+      "report": "kicad-working/validation/models-review-22/resistor-quality/resistor-native-band-check.json",
+      "sha256": "3a038af993cebf791f9f44ec5e832e7b0d1611a34fe8254ab47ddbd31dc47cc5",
+      "passed": true,
+      "check_count": 212
+    },
+    "kicad_installation": {
+      "report": "kicad-working/validation/models-review-22/installation-audit.json",
+      "sha256": "06993458a33009a84e3313f5f52eb25a8e9e8d722321b1719c84df93b38d026a",
+      "passed": true
+    },
+    "native_lead_and_fit_audit": {
+      "report": "kicad-working/validation/models-review-22/native-terminal-audit.json",
+      "sha256": "03628e0cda251217dab7c1f514c3af140497a0b82b961210c4752ec776fccccc",
+      "passed": true,
+      "check_count": 42
+    },
+    "kicad_validation_summary": {
+      "report": "kicad-working/validation/working-validation-summary-revision-22.json",
+      "sha256": "71f586f1d11ab580cd333cd3d30f0f98cc4f6b8e4d49c79c483e8ec4b1995e5f",
+      "passed": true
+    },
+    "midi_function_replay": {
+      "report": "kicad-working/validation/models-review-22/current-function-verification.json",
+      "sha256": "bf7706e6be5de73022b45eb01641c8fe090232be650f05accf2d2f7b388d1593",
+      "passed": true
+    },
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-25/verification/final-saved-scene-audit.json",
+      "sha256": "16963192256473f9f46b616e3afb0bdd00c55372d1b37963ae70b50e8a6ba0f5",
+      "passed": true,
+      "check_count": 13
+    },
+    "kicad_blender_models": {
+      "report": "kicad-working/visualization/blender-case-revision-25/verification/kicad-blender-models-audit.json",
+      "sha256": "405853fb3d3540436c00443e73045cd12650df1a9d4c1860d04f6b3d9473b376",
+      "passed": true,
+      "check_count": 7
+    },
+    "drill_fit": {
+      "report": "kicad-working/visualization/blender-case-revision-25/verification/drill-fit-audit.json",
+      "sha256": "1b269628fd94f21764b28e99a8cf76a2e78d74508c510c23cb3c5a51b640c3ee",
+      "passed": true,
+      "check_count": 6
+    },
+    "terminal_joins": {
+      "report": "kicad-working/visualization/blender-case-revision-25/verification/terminal-join-audit.json",
+      "sha256": "dd842137cc4ef800d5df1500dd10deed227524cfc0e6d00c9a323c22002687a7",
+      "passed": true,
+      "check_count": 4
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-25/verification/rear-openings-audit.json",
+      "sha256": "e574e61f370ed7dd81593c4593bd2a383cd3af2047c61ccb6c0a90acdb7a7340",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-25/verification/portable-scene-audit.json",
+      "sha256": "537ec3072f27ccef91587898a3dace8eec40a5b61a26e86a4feb44cb574021dc",
+      "passed": true,
+      "check_count": 106
+    },
+    "detail_renders": {
+      "report": "kicad-working/visualization/blender-case-revision-25/verification/resistor-detail-render.json",
+      "sha256": "adbf3a733559b91783172579a6f785afc9e4d77d775e97208a526e093237056a",
+      "passed": true
+    },
+    "render_readonly": {
+      "report": "kicad-working/visualization/blender-case-revision-25/verification/render-readonly-verification.json",
+      "sha256": "6dcc9a0419677579f804948ff15d1bb51ff69a9d19750f2c5f6ac6745d28b5b9",
+      "passed": true
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-25/verification/final-render-review.json",
+      "sha256": "e50e2107faa90ffdcbc3b1d708b6649a770c88cf0c2518a5cab217dd608d6417",
+      "passed": true
+    }
+  },
+  "unchanged": [
+    "Original Eagle files",
+    "KiCad copper, pads, drills, nets, footprint poses and caches, PCB value fields, model transforms and rules",
+    "Resistor body and lead geometry (outline within 1 micrometre)",
+    "Every other model reference, including the Xicon XRL electrolytics",
+    "All Blender objects, poses, case, LEDs, spacers, caps, hardware, wiring study, previous materials (except two left unused), cameras and animation"
+  ],
+  "limitations": [
+    "Body and lead geometry are the installed KiCad DIN0207 models, unchanged; not a measurement of the kit parts.",
+    "Band widths, positions, the first-band end and the band colour values are illustrations; band order and values come from the original parts page.",
+    "The 1% body colour is sampled from four uncalibrated parts-page photographs; the 5% tan comes from the page band graphic, not a photograph.",
+    "R16 and R106 are banded per the parts page (150 ohm 5%, 24.0K 1%); their PCB values (100, 27K) are left unchanged.",
+    "The 40 LED resistors carry their PCB value (10K); the parts page says the value may vary.",
+    "Not a measurement of the kit parts; physical fit is unqualified."
+  ],
+  "physical_fit_qualified": false
+}
