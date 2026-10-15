@@ -1,0 +1,226 @@
+{
+  "passed": true,
+  "check_count": 12,
+  "checks": [
+    {
+      "check": "Both frozen files match recorded hashes",
+      "passed": true
+    },
+    {
+      "check": "All 1721 object identities retained with none added",
+      "passed": true
+    },
+    {
+      "check": "Only declared electrolytic mesh data, materials and source/guide metadata change",
+      "passed": true,
+      "unexpected": []
+    },
+    {
+      "check": "All 39 electrolytic meshes match recorded old and new exact native geometry",
+      "passed": true
+    },
+    {
+      "check": "Every previous material is retained exactly, except those used only by the replaced meshes",
+      "passed": true,
+      "retired": [
+        "mat_10.004",
+        "mat_10.005",
+        "mat_11.004",
+        "mat_11.005",
+        "mat_13.005",
+        "mat_14.005",
+        "mat_23.004",
+        "mat_24.004"
+      ],
+      "retired_users": {
+        "mat_10.004": [
+          "MAINBOARD/C102/mesh",
+          "MAINBOARD/C105/mesh",
+          "MAINBOARD/C11/mesh",
+          "MAINBOARD/C13/mesh",
+          "MAINBOARD/C14/mesh",
+          "MAINBOARD/C15/mesh",
+          "MAINBOARD/C16/mesh",
+          "MAINBOARD/C22/mesh",
+          "MAINBOARD/C23/mesh",
+          "MAINBOARD/C28/mesh",
+          "MAINBOARD/C29/mesh",
+          "MAINBOARD/C30/mesh",
+          "MAINBOARD/C31/mesh",
+          "MAINBOARD/C32/mesh",
+          "MAINBOARD/C37/mesh",
+          "MAINBOARD/C38/mesh",
+          "MAINBOARD/C40/mesh",
+          "MAINBOARD/C43/mesh",
+          "MAINBOARD/C44/mesh",
+          "MAINBOARD/C48/mesh",
+          "MAINBOARD/C49/mesh",
+          "MAINBOARD/C50/mesh",
+          "MAINBOARD/C51/mesh",
+          "MAINBOARD/C52/mesh",
+          "MAINBOARD/C53/mesh",
+          "MAINBOARD/C55/mesh",
+          "MAINBOARD/C56/mesh",
+          "MAINBOARD/C58/mesh",
+          "MAINBOARD/C59/mesh",
+          "MAINBOARD/C72/mesh"
+        ],
+        "mat_10.005": [
+          "IOBOARD/C3/mesh",
+          "IOBOARD/C5/mesh"
+        ],
+        "mat_11.004": [
+          "MAINBOARD/C102/mesh",
+          "MAINBOARD/C105/mesh",
+          "MAINBOARD/C11/mesh",
+          "MAINBOARD/C13/mesh",
+          "MAINBOARD/C14/mesh",
+          "MAINBOARD/C15/mesh",
+          "MAINBOARD/C16/mesh",
+          "MAINBOARD/C22/mesh",
+          "MAINBOARD/C23/mesh",
+          "MAINBOARD/C28/mesh",
+          "MAINBOARD/C29/mesh",
+          "MAINBOARD/C30/mesh",
+          "MAINBOARD/C31/mesh",
+          "MAINBOARD/C32/mesh",
+          "MAINBOARD/C37/mesh",
+          "MAINBOARD/C38/mesh",
+          "MAINBOARD/C40/mesh",
+          "MAINBOARD/C43/mesh",
+          "MAINBOARD/C44/mesh",
+          "MAINBOARD/C48/mesh",
+          "MAINBOARD/C49/mesh",
+          "MAINBOARD/C50/mesh",
+          "MAINBOARD/C51/mesh",
+          "MAINBOARD/C52/mesh",
+          "MAINBOARD/C53/mesh",
+          "MAINBOARD/C55/mesh",
+          "MAINBOARD/C56/mesh",
+          "MAINBOARD/C58/mesh",
+          "MAINBOARD/C59/mesh",
+          "MAINBOARD/C72/mesh"
+        ],
+        "mat_11.005": [
+          "IOBOARD/C3/mesh",
+          "IOBOARD/C5/mesh"
+        ],
+        "mat_13.005": [
+          "IOBOARD/C203/mesh",
+          "IOBOARD/C205/mesh",
+          "IOBOARD/C60/mesh",
+          "IOBOARD/C61/mesh",
+          "IOBOARD/C7/mesh",
+          "IOBOARD/C8/mesh"
+        ],
+        "mat_14.005": [
+          "IOBOARD/C203/mesh",
+          "IOBOARD/C205/mesh",
+          "IOBOARD/C60/mesh",
+          "IOBOARD/C61/mesh",
+          "IOBOARD/C7/mesh",
+          "IOBOARD/C8/mesh"
+        ],
+        "mat_23.004": [
+          "MAINBOARD/C17/mesh"
+        ],
+        "mat_24.004": [
+          "MAINBOARD/C17/mesh"
+        ]
+      }
+    },
+    {
+      "check": "Exactly four XRL materials added",
+      "passed": true
+    },
+    {
+      "check": "Replaced meshes use only XRL materials or their own previous materials",
+      "passed": true
+    },
+    {
+      "check": "491 references, 40 LEDs, 40 spacers and 23 caps retained",
+      "passed": true
+    },
+    {
+      "check": "Every displayed instance pose and legend glyph retained in four frames",
+      "passed": true
+    },
+    {
+      "check": "Only one current opening guide added",
+      "passed": true
+    },
+    {
+      "check": "All rear passages remain clear",
+      "passed": true
+    },
+    {
+      "check": "Frozen scene files remain byte-identical after audit",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "stable_scene_sha256": "2d440139aa6c9ca4c1e0e74cbe773ef35867a030fe7b1dc31379801907ed45e0",
+  "baseline_sha256": "bd52b26392eeb97c6079c8a1d74f11981ec7d61d0a07811d1967d6c0aeb8cd9c",
+  "frames": 4,
+  "native_reference_count": 491,
+  "stored_object_count": 1721,
+  "changed_geometry_objects": [
+    "IOBOARD/C203/mesh",
+    "IOBOARD/C205/mesh",
+    "IOBOARD/C3/mesh",
+    "IOBOARD/C5/mesh",
+    "IOBOARD/C60/mesh",
+    "IOBOARD/C61/mesh",
+    "IOBOARD/C7/mesh",
+    "IOBOARD/C8/mesh",
+    "MAINBOARD/C102/mesh",
+    "MAINBOARD/C105/mesh",
+    "MAINBOARD/C11/mesh",
+    "MAINBOARD/C13/mesh",
+    "MAINBOARD/C14/mesh",
+    "MAINBOARD/C15/mesh",
+    "MAINBOARD/C16/mesh",
+    "MAINBOARD/C17/mesh",
+    "MAINBOARD/C22/mesh",
+    "MAINBOARD/C23/mesh",
+    "MAINBOARD/C28/mesh",
+    "MAINBOARD/C29/mesh",
+    "MAINBOARD/C30/mesh",
+    "MAINBOARD/C31/mesh",
+    "MAINBOARD/C32/mesh",
+    "MAINBOARD/C37/mesh",
+    "MAINBOARD/C38/mesh",
+    "MAINBOARD/C40/mesh",
+    "MAINBOARD/C43/mesh",
+    "MAINBOARD/C44/mesh",
+    "MAINBOARD/C48/mesh",
+    "MAINBOARD/C49/mesh",
+    "MAINBOARD/C50/mesh",
+    "MAINBOARD/C51/mesh",
+    "MAINBOARD/C52/mesh",
+    "MAINBOARD/C53/mesh",
+    "MAINBOARD/C55/mesh",
+    "MAINBOARD/C56/mesh",
+    "MAINBOARD/C58/mesh",
+    "MAINBOARD/C59/mesh",
+    "MAINBOARD/C72/mesh"
+  ],
+  "added_materials": [
+    "Xicon XRL leads \u2014 revision 24 (native KiCad colour)",
+    "Xicon XRL negative stripe \u2014 revision 24 (native KiCad colour)",
+    "Xicon XRL sleeve \u2014 revision 24 (native KiCad colour)",
+    "Xicon XRL top metal \u2014 revision 24 (native KiCad colour)"
+  ],
+  "retired_materials": [
+    "mat_10.004",
+    "mat_10.005",
+    "mat_11.004",
+    "mat_11.005",
+    "mat_13.005",
+    "mat_14.005",
+    "mat_23.004",
+    "mat_24.004"
+  ],
+  "read_only": true,
+  "physical_fit_qualified": false
+}

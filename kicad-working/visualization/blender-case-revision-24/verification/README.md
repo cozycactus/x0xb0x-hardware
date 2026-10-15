@@ -1,0 +1,5 @@
+# Revision 24 verification
+
+The saved-file audit compares revisions 23 and 24, accepting only the 39 declared electrolytic mesh changes, four added XRL materials, eight materials whose only users were the replaced meshes, the roots' source fields and the new guide. Every existing object, pose, camera, legend and animation remains. The other scripts replay the current native-model, drill-fit, portability and terminal-join checks; source hashes are pinned in their reports.
+
+The neighbour screen tests the evaluated electrolytic instances against every other visible component, panel and enclosure mesh at frame 1, excluding their own geometry and the PCB layers, and measures each contact's radial depth from the can's own axis. Contacts present only in revision 24 must match its declared list (C8 / TM6). It also records the free height above each can top. It is a triangle-contact screen, not a physical assembly or tolerance qualification. Before/after detail images use identical cameras; their lighting is temporary and never saved.

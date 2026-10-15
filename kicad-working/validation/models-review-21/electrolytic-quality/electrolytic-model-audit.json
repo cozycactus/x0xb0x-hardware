@@ -1,0 +1,4056 @@
+{
+  "schema": 1,
+  "revision": 21,
+  "generator": "build_electrolytics.py",
+  "passed": true,
+  "check_count": 272,
+  "checks": [
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: Sleeve is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: NegativeStripe is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: TopMetal is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: Lead_Positive is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: Lead_Negative is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: datasheet can diameter and length",
+      "passed": true,
+      "bounds_mm": [
+        -1.25,
+        -2.5,
+        1.5,
+        3.75,
+        2.5,
+        12.5
+      ]
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: can centred between the holes and seated 1.5 mm above the board",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: negative stripe faces the negative lead (+X)",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: Lead_Positive joins the can",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: Lead_Negative joins the can",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: leads do not touch each other",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: leads leave the seal at the factory pitch and are formed to the exact board pitch",
+      "passed": true,
+      "exit_pitch_mm": 2.0,
+      "board_pitch_mm": 2.54
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: Lead_Positive keeps its full 0.5 mm section at the seal, board faces and tip",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: Lead_Negative keeps its full 0.5 mm section at the seal, board faces and tip",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: all parts fuse to one connected solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: saved STEP has five valid solids with the same volumes and centroids",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: named solids in order",
+      "passed": true,
+      "names": [
+        "Sleeve",
+        "NegativeStripe",
+        "TopMetal",
+        "Lead_Positive",
+        "Lead_Negative"
+      ]
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C102 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C102 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C102 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C102 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C102 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C102 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C105 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C105 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C105 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C105 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C105 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C105 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C11 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C11 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C11 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C11 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C11 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C11 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C13 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C13 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C13 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C13 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C13 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C13 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C14 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C14 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C14 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C14 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C14 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C14 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C15 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C15 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C15 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C15 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C15 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C15 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C16 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C16 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C16 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C16 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C16 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C16 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C22 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C22 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C22 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C22 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C22 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C22 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C23 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C23 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C23 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C23 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C23 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C23 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C28 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C28 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C28 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C28 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C28 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C28 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C29 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C29 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C29 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C29 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C29 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C29 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C30 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C30 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C30 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C30 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C30 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C30 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C31 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C31 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C31 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C31 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C31 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C31 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C32 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C32 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C32 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C32 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C32 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C32 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C37 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C37 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C37 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C37 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C37 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C37 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C38 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C38 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C38 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C38 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C38 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C38 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C40 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C40 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C40 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C40 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C40 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C40 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C44 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C44 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C44 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C44 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C44 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C44 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C48 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C48 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C48 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C48 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C48 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C48 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C49 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C49 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C49 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C49 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C49 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C49 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C50 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C50 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C50 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C50 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C50 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C50 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C51 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C51 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C51 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C51 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C51 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C51 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C52 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C52 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C52 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C52 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C52 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C52 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C53 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C53 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C53 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C53 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C53 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C53 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C55 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C55 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C55 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C55 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C55 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C55 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C56 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C56 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C56 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C56 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C56 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C56 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C58 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C58 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C58 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C58 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C58 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C58 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C59 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C59 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C59 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C59 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C59 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C59 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C72 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C72 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C72 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C72 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C72 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: mainboard C72 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C203 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C203 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C203 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C203 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C203 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C203 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C205 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C205 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C205 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C205 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C205 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C205 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C60 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C60 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C60 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C60 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C60 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C60 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C61 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C61 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C61 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C61 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C61 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame: ioboard C61 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: Sleeve is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: NegativeStripe is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: TopMetal is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: Lead_Positive is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: Lead_Negative is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: datasheet can diameter and length",
+      "passed": true,
+      "bounds_mm": [
+        -1.9,
+        -3.15,
+        0.5,
+        4.4,
+        3.15,
+        11.5
+      ]
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: can centred between the holes and seated 0.5 mm above the board",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: negative stripe faces the negative lead (+X)",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: Lead_Positive joins the can",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: Lead_Negative joins the can",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: leads do not touch each other",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: leads leave the seal at the board pitch, within the +/-0.5 mm drawing tolerance of the exact board pitch",
+      "passed": true,
+      "exit_pitch_mm": 2.54,
+      "board_pitch_mm": 2.54
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: Lead_Positive keeps its full 0.5 mm section at the seal, board faces and tip",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: Lead_Negative keeps its full 0.5 mm section at the seal, board faces and tip",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: all parts fuse to one connected solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: saved STEP has five valid solids with the same volumes and centroids",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: named solids in order",
+      "passed": true,
+      "names": [
+        "Sleeve",
+        "NegativeStripe",
+        "TopMetal",
+        "Lead_Positive",
+        "Lead_Negative"
+      ]
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: ioboard C7 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: ioboard C7 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: ioboard C7 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: ioboard C7 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: ioboard C7 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: ioboard C7 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: ioboard C8 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -1.27,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 1.27,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -1.25,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: ioboard C8 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: ioboard C8 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: ioboard C8 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: ioboard C8 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame: ioboard C8 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: Sleeve is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: NegativeStripe is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: TopMetal is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: Lead_Positive is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: Lead_Negative is one valid solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: datasheet can diameter and length",
+      "passed": true,
+      "bounds_mm": [
+        -2.5,
+        -5.0,
+        0.5,
+        7.5,
+        5.0,
+        13.0
+      ]
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: can centred between the holes and seated 0.5 mm above the board",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: negative stripe faces the negative lead (+X)",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: Lead_Positive joins the can",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: Lead_Negative joins the can",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: leads do not touch each other",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: leads leave the seal at the board pitch, within the +/-0.5 mm drawing tolerance of the exact board pitch",
+      "passed": true,
+      "exit_pitch_mm": 5.08,
+      "board_pitch_mm": 5.08
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: Lead_Positive keeps its full 0.6 mm section at the seal, board faces and tip",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: Lead_Negative keeps its full 0.6 mm section at the seal, board faces and tip",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: all parts fuse to one connected solid",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: saved STEP has five valid solids with the same volumes and centroids",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: named solids in order",
+      "passed": true,
+      "names": [
+        "Sleeve",
+        "NegativeStripe",
+        "TopMetal",
+        "Lead_Positive",
+        "Lead_Negative"
+      ]
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: mainboard C43 keeps the inherited transform",
+      "passed": true,
+      "transform": {
+        "pads": {
+          "+": {
+            "x": -2.54,
+            "y": 0.0,
+            "drill": 1.0
+          },
+          "-": {
+            "x": 2.54,
+            "y": 0.0,
+            "drill": 1.0
+          }
+        },
+        "offset": [
+          -2.5,
+          0.0,
+          0.0
+        ],
+        "rotate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.step"
+      }
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: mainboard C43 leads centred in pads + and - at z=0.0",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: mainboard C43 leads centred in pads + and - at z=-0.05",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: mainboard C43 leads centred in pads + and - at z=-0.8",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: mainboard C43 leads centred in pads + and - at z=-1.5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame: mainboard C43 leads centred in pads + and - at z=-1.6",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL1u50_P3.556_PhotoColours.step: only the sleeve and stripe COLOUR_RGB entities differ",
+      "passed": true,
+      "changed": [
+        706,
+        714
+      ]
+    },
+    {
+      "check": "CP_Xicon_XRL1u50_P3.556_PhotoColours.step: reloaded B-rep identical to revision 5",
+      "passed": true
+    },
+    {
+      "check": "CP_Xicon_XRL2200u16_P5.08_PhotoColours.step: only the sleeve and stripe COLOUR_RGB entities differ",
+      "passed": true,
+      "changed": [
+        578,
+        586
+      ]
+    },
+    {
+      "check": "CP_Xicon_XRL2200u16_P5.08_PhotoColours.step: reloaded B-rep identical to revision 5",
+      "passed": true
+    },
+    {
+      "check": "Original PCBs and footprint files unchanged by the build",
+      "passed": true
+    }
+  ],
+  "models": {
+    "XRL_D5": {
+      "name": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame",
+      "output": "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame.step",
+      "output_sha256": "592961a7f74d127321afb31cce440c7fccb412c76fb6097a8138ed271a415ea9",
+      "parts": "1.0uF 50V, 2.2uF 50V, 10uF 16V, 47uF 16V and 100uF 10V (XRL 5 x 11)",
+      "dimensions_mm": {
+        "diameter": 5.0,
+        "length": 11.0,
+        "lead_diameter": 0.5,
+        "factory_pitch": 2.0,
+        "board_pitch": 2.54,
+        "leads_formed": true,
+        "seat_gap": 1.5,
+        "lead_tip_z": -2.5,
+        "top_z": 12.5
+      },
+      "model_frame": "Inherited KiCad transform offset (-1.25, 0, 0); can centre at model x=1.25",
+      "vent": false,
+      "references": [
+        "mainboard:C102",
+        "mainboard:C105",
+        "mainboard:C11",
+        "mainboard:C13",
+        "mainboard:C14",
+        "mainboard:C15",
+        "mainboard:C16",
+        "mainboard:C22",
+        "mainboard:C23",
+        "mainboard:C28",
+        "mainboard:C29",
+        "mainboard:C30",
+        "mainboard:C31",
+        "mainboard:C32",
+        "mainboard:C37",
+        "mainboard:C38",
+        "mainboard:C40",
+        "mainboard:C44",
+        "mainboard:C48",
+        "mainboard:C49",
+        "mainboard:C50",
+        "mainboard:C51",
+        "mainboard:C52",
+        "mainboard:C53",
+        "mainboard:C55",
+        "mainboard:C56",
+        "mainboard:C58",
+        "mainboard:C59",
+        "mainboard:C72",
+        "ioboard:C203",
+        "ioboard:C205",
+        "ioboard:C60",
+        "ioboard:C61"
+      ],
+      "placements": [
+        {
+          "board": "mainboard",
+          "reference": "C102",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C105",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C11",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C13",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C14",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C15",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C16",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C22",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C23",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C28",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C29",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C30",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C31",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C32",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C37",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C38",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C40",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C44",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C48",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C49",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C50",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C51",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C52",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C53",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C55",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C56",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C58",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C59",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "mainboard",
+          "reference": "C72",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "ioboard",
+          "reference": "C203",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "ioboard",
+          "reference": "C205",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "ioboard",
+          "reference": "C60",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "ioboard",
+          "reference": "C61",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        }
+      ],
+      "colours": {
+        "Sleeve": [
+          0.41,
+          0.67,
+          0.82
+        ],
+        "NegativeStripe": [
+          0.11,
+          0.15,
+          0.17
+        ],
+        "TopMetal": [
+          0.7,
+          0.72,
+          0.74
+        ],
+        "Leads": [
+          0.68,
+          0.7,
+          0.73
+        ]
+      }
+    },
+    "XRL_D6.3": {
+      "name": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame",
+      "output": "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame.step",
+      "output_sha256": "00cc1da601ebbc9c9cefb4470113abbd447b831a6e9f679db4fca4ea195d9d76",
+      "parts": "100uF 25V (XRL 6.3 x 11)",
+      "dimensions_mm": {
+        "diameter": 6.3,
+        "length": 11.0,
+        "lead_diameter": 0.5,
+        "factory_pitch": 2.5,
+        "board_pitch": 2.54,
+        "leads_formed": false,
+        "seat_gap": 0.5,
+        "lead_tip_z": -2.5,
+        "top_z": 11.5
+      },
+      "model_frame": "Inherited KiCad transform offset (-1.25, 0, 0); can centre at model x=1.25",
+      "vent": true,
+      "references": [
+        "ioboard:C7",
+        "ioboard:C8"
+      ],
+      "placements": [
+        {
+          "board": "ioboard",
+          "reference": "C7",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        },
+        {
+          "board": "ioboard",
+          "reference": "C8",
+          "pad_centres_mm": {
+            "+": [
+              -1.27,
+              0.0
+            ],
+            "-": [
+              1.27,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "lead_centre_mm": [
+                1.27,
+                0.0
+              ],
+              "radial_margin_mm": 0.25
+            }
+          ]
+        }
+      ],
+      "colours": {
+        "Sleeve": [
+          0.41,
+          0.67,
+          0.82
+        ],
+        "NegativeStripe": [
+          0.11,
+          0.15,
+          0.17
+        ],
+        "TopMetal": [
+          0.7,
+          0.72,
+          0.74
+        ],
+        "Leads": [
+          0.68,
+          0.7,
+          0.73
+        ]
+      }
+    },
+    "XRL_D10": {
+      "name": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame",
+      "output": "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame.step",
+      "output_sha256": "d4d5892dbf7893bbd9a9b8cd960118006f9f9ca62a5c3f212865fe58f57d09a8",
+      "parts": "1000uF 10V (XRL 10 x 12.5)",
+      "dimensions_mm": {
+        "diameter": 10.0,
+        "length": 12.5,
+        "lead_diameter": 0.6,
+        "factory_pitch": 5.0,
+        "board_pitch": 5.08,
+        "leads_formed": false,
+        "seat_gap": 0.5,
+        "lead_tip_z": -2.5,
+        "top_z": 13.0
+      },
+      "model_frame": "Inherited KiCad transform offset (-2.5, 0, 0); can centre at model x=2.5",
+      "vent": true,
+      "references": [
+        "mainboard:C43"
+      ],
+      "placements": [
+        {
+          "board": "mainboard",
+          "reference": "C43",
+          "pad_centres_mm": {
+            "+": [
+              -2.54,
+              0.0
+            ],
+            "-": [
+              2.54,
+              0.0
+            ]
+          },
+          "drill_mm": 1.0,
+          "previous_model": "${KIPRJMOD}/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.step",
+          "sections": [
+            {
+              "z_mm": 0.0,
+              "pad": "+",
+              "hole_centre_mm": [
+                -2.54,
+                0.0
+              ],
+              "lead_centre_mm": [
+                -2.54,
+                0.0
+              ],
+              "radial_margin_mm": 0.2
+            },
+            {
+              "z_mm": 0.0,
+              "pad": "-",
+              "hole_centre_mm": [
+                2.54,
+                0.0
+              ],
+              "lead_centre_mm": [
+                2.54,
+                0.0
+              ],
+              "radial_margin_mm": 0.2
+            }
+          ]
+        }
+      ],
+      "colours": {
+        "Sleeve": [
+          0.41,
+          0.67,
+          0.82
+        ],
+        "NegativeStripe": [
+          0.11,
+          0.15,
+          0.17
+        ],
+        "TopMetal": [
+          0.7,
+          0.72,
+          0.74
+        ],
+        "Leads": [
+          0.68,
+          0.7,
+          0.73
+        ]
+      }
+    }
+  },
+  "recoloured": {
+    "CP_Xicon_XRL1u50_P3.556_PhotoColours.step": {
+      "board": "mainboard",
+      "references": [
+        "C17"
+      ],
+      "source": "Revision5/passive-models/CP_Xicon_XRL1u50_P3.556_Illustration.step",
+      "source_sha256": "1e02f31748e20a430b5f78568834bde6f8dcc2b785e50d9932968a7043784a04",
+      "output": "CP_Xicon_XRL1u50_P3.556_PhotoColours.step",
+      "output_sha256": "90203c40ebaa1cb5f2c43a7932cec4b82b1cf648bebc59372f7eb1f6a114423c",
+      "colour_changes": {
+        "Sleeve": {
+          "entity": 706,
+          "old": "#706 = COLOUR_RGB('',0.06,0.2,0.55);",
+          "new": "#706 = COLOUR_RGB('',0.41,0.67,0.82);"
+        },
+        "NegativeStripe": {
+          "entity": 714,
+          "old": "#714 = COLOUR_RGB('',0.8,0.82,0.85);",
+          "new": "#714 = COLOUR_RGB('',0.11,0.15,0.17);"
+        }
+      },
+      "geometry_changed": false
+    },
+    "CP_Xicon_XRL2200u16_P5.08_PhotoColours.step": {
+      "board": "ioboard",
+      "references": [
+        "C3",
+        "C5"
+      ],
+      "source": "Revision5/passive-models/CP_Xicon_XRL2200u16_P5.08_Illustration.step",
+      "source_sha256": "baedb7170ada384a9ddecc4f7c192ac3cdd29ed68d497d8384e2c4b352464243",
+      "output": "CP_Xicon_XRL2200u16_P5.08_PhotoColours.step",
+      "output_sha256": "dc552de9cae35cb3e4e0411dc0abb6803ab447542291c21a0aeed419b3cc07a8",
+      "colour_changes": {
+        "Sleeve": {
+          "entity": 578,
+          "old": "#578 = COLOUR_RGB('',0.06,0.2,0.55);",
+          "new": "#578 = COLOUR_RGB('',0.41,0.67,0.82);"
+        },
+        "NegativeStripe": {
+          "entity": 586,
+          "old": "#586 = COLOUR_RGB('',0.8,0.82,0.85);",
+          "new": "#586 = COLOUR_RGB('',0.11,0.15,0.17);"
+        }
+      },
+      "geometry_changed": false
+    }
+  },
+  "source": {
+    "datasheet": "xicon-xrl-XC-600178.pdf",
+    "datasheet_sha256": "d118db3abe10bc08130fe93f00252ce6a811d7f4c0d40f34438a066e6e9f8c02",
+    "evidence": "sources/electrolytic-evidence.json",
+    "evidence_sha256": "01f6be6064427bc8e47c419a28f66ff080fc490290437cb3e72296bc83b374bc"
+  },
+  "limitations": [
+    "Original CC0 illustrations from the XRL datasheet table and drawing; not manufacturer CAD or a measurement of the fitted historical parts.",
+    "Expanded-BOM part numbers come from search-engine extracts of a page that could not be read directly; the 100uF 10V/25V assignment is inferred from the parts page and its photographs.",
+    "Sleeve and stripe colours are sampled from uncalibrated photographs; printed value text is omitted.",
+    "The seat gaps (1.5 mm for 5 mm cans, whose leads are formed from 2.0 to 2.54 mm; 0.5 mm otherwise), lead forming, top disc, vent cross and 2.5 mm lead tip are illustrations; the datasheet allows +/-1 mm diameter and +/-1.5 mm length.",
+    "PCB value fields (47/16, 100/6.3, 1000/6.3) differ from the parts page and are left unchanged."
+  ],
+  "physical_fit_qualified": false
+}

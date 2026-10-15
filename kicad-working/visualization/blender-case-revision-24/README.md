@@ -1,0 +1,9 @@
+# Blender revision 24 — Xicon XRL electrolytics
+
+Open `x0xb0x-populated-with-case.blend` with Blender 5.2.2 LTS. All 39 radial electrolytics show the native KiCad 21 Xicon XRL bodies: 5 x 11 mm cans for 33 parts, 6.3 x 11 mm for C7/C8 (100uF 25V), 10 x 12.5 mm for C43 (1000uF 10V), and C17/C3/C5 in their revision-5 geometry, all in the original kit's light-blue sleeve with a dark negative stripe. Only the 39 existing part meshes change, four XRL materials are added, and eight materials left unused by the replaced generic bodies drop out. All 1721 objects, 491 native references, 40 LEDs and spacers, 23 caps, case geometry, camera poses and animation are preserved.
+
+Original PCB spacing and component transforms remain. Seat gaps, the formed 5 mm-can leads, vent cross and photo-sampled colours are documented illustrations. See `../../../docs/electrolytic-xrl-correction.json` and the KiCad 21 review for sources and limits.
+
+All 491 models match fresh native KiCad exports. The saved scene passes 12 preservation checks, 106 portability checks, 44 rear-opening checks/974 rays, the 25-reference/133-piece terminal-join check, and the drill-fit check on all 489 drilled models. The neighbour screen finds one new contact: C8's 6.3 mm can reaches the TM6 trimmer by about 0.09 mm at 4.5–5.5 mm height (recorded, not corrected; the E5-6 silkscreen was drawn for a 5 mm can). C3/C5 keep their existing 0.15–0.19 mm mutual top-disc contact. The smallest free height above any can top is 4.37 mm (C105 to the case floor, assembled).
+
+Frames 1 assembled, 80 exploded, 120 control-side, 160 wiring study. `electrolytics-*-before.png` and `-after.png` use identical cameras over a mainboard cluster and the I/O power section; their lighting is temporary. These checks do not qualify physical fit, tolerances or circuit operation.

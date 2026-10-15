@@ -1,0 +1,405 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-16",
+  "Blender_revision": 24,
+  "KiCad_revision": 21,
+  "scene": "kicad-working/visualization/blender-case-revision-24/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "2d440139aa6c9ca4c1e0e74cbe773ef35867a030fe7b1dc31379801907ed45e0",
+  "scene_bytes": 42306204,
+  "baseline_scene_sha256": "bd52b26392eeb97c6079c8a1d74f11981ec7d61d0a07811d1967d6c0aeb8cd9c",
+  "correction": "All 39 radial electrolytics are Xicon XRL bodies sized from the XRL datasheet XC-600178 (1/8/07) and coloured from the original kit photographs. 36 placements replace generic KiCad cans (5 x 5 mm and 10 x 10 mm visual bodies at 2.50/5.00 mm pitch) with 5 x 11, 6.3 x 11 and 10 x 12.5 mm cans whose leads land on the original 2.54/5.08 mm holes; C17 and C3/C5 keep their revision-5 XRL geometry, recoloured.",
+  "references": {
+    "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame": [
+      "mainboard:C102",
+      "mainboard:C105",
+      "mainboard:C11",
+      "mainboard:C13",
+      "mainboard:C14",
+      "mainboard:C15",
+      "mainboard:C16",
+      "mainboard:C22",
+      "mainboard:C23",
+      "mainboard:C28",
+      "mainboard:C29",
+      "mainboard:C30",
+      "mainboard:C31",
+      "mainboard:C32",
+      "mainboard:C37",
+      "mainboard:C38",
+      "mainboard:C40",
+      "mainboard:C44",
+      "mainboard:C48",
+      "mainboard:C49",
+      "mainboard:C50",
+      "mainboard:C51",
+      "mainboard:C52",
+      "mainboard:C53",
+      "mainboard:C55",
+      "mainboard:C56",
+      "mainboard:C58",
+      "mainboard:C59",
+      "mainboard:C72",
+      "ioboard:C203",
+      "ioboard:C205",
+      "ioboard:C60",
+      "ioboard:C61"
+    ],
+    "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame": [
+      "ioboard:C7",
+      "ioboard:C8"
+    ],
+    "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame": [
+      "mainboard:C43"
+    ],
+    "CP_Xicon_XRL1u50_P3.556_PhotoColours.step": [
+      "mainboard:C17"
+    ],
+    "CP_Xicon_XRL2200u16_P5.08_PhotoColours.step": [
+      "ioboard:C3",
+      "ioboard:C5"
+    ]
+  },
+  "dimensions_mm": {
+    "XRL_D5": {
+      "diameter": 5.0,
+      "length": 11.0,
+      "lead_diameter": 0.5,
+      "factory_pitch": 2.0,
+      "board_pitch": 2.54,
+      "leads_formed": true,
+      "seat_gap": 1.5,
+      "lead_tip_z": -2.5,
+      "top_z": 12.5
+    },
+    "XRL_D6.3": {
+      "diameter": 6.3,
+      "length": 11.0,
+      "lead_diameter": 0.5,
+      "factory_pitch": 2.5,
+      "board_pitch": 2.54,
+      "leads_formed": false,
+      "seat_gap": 0.5,
+      "lead_tip_z": -2.5,
+      "top_z": 11.5
+    },
+    "XRL_D10": {
+      "diameter": 10.0,
+      "length": 12.5,
+      "lead_diameter": 0.6,
+      "factory_pitch": 5.0,
+      "board_pitch": 5.08,
+      "leads_formed": false,
+      "seat_gap": 0.5,
+      "lead_tip_z": -2.5,
+      "top_z": 13.0
+    }
+  },
+  "lead_fit": {
+    "XRL_C3_C5": [
+      {
+        "pad": "+",
+        "result": "fits",
+        "radial_margin_mm": 0.2
+      },
+      {
+        "pad": "-",
+        "result": "fits",
+        "radial_margin_mm": 0.2
+      }
+    ],
+    "XRL_D5": [
+      {
+        "pad": "+",
+        "result": "fits",
+        "radial_margin_mm": 0.25
+      },
+      {
+        "pad": "-",
+        "result": "fits",
+        "radial_margin_mm": 0.25
+      }
+    ],
+    "XRL_D6.3": [
+      {
+        "pad": "+",
+        "result": "fits",
+        "radial_margin_mm": 0.25
+      },
+      {
+        "pad": "-",
+        "result": "fits",
+        "radial_margin_mm": 0.25
+      }
+    ],
+    "XRL_C17": [
+      {
+        "pad": "+",
+        "result": "fits",
+        "radial_margin_mm": 0.25
+      },
+      {
+        "pad": "-",
+        "result": "fits",
+        "radial_margin_mm": 0.25
+      }
+    ],
+    "XRL_D10": [
+      {
+        "pad": "+",
+        "result": "fits",
+        "radial_margin_mm": 0.2
+      },
+      {
+        "pad": "-",
+        "result": "fits",
+        "radial_margin_mm": 0.2
+      }
+    ]
+  },
+  "sources": {
+    "datasheet": "Xicon Miniature Aluminum Electrolytic Capacitors XRL Series, XC-600178",
+    "datasheet_file": "kicad-working/validation/models-review-21/electrolytic-quality/sources/xicon-xrl-XC-600178.pdf",
+    "parts_page": "https://www.ladyada.net/make/x0xb0x/fab/parts.html",
+    "expanded_bom": "https://www.ladyada.net/wiki/x0x/billofmaterials",
+    "expanded_bom_status": "Unconfirmed: part numbers come from search-engine extracts, not a direct read of the page.",
+    "kit_photographs": "Original parts page photographs, archived at https://github.com/x0xb0x/x0xb0x.github.io (assets/images/parts/)"
+  },
+  "interferences": {
+    "new": [
+      {
+        "target": "IOBOARD/C8",
+        "other": "IOBOARD/TM6/mesh.001",
+        "radial_depth_mm": 0.089,
+        "z_range_mm": [
+          4.45,
+          5.45
+        ],
+        "triangle_pairs": 42
+      }
+    ],
+    "retained_unchanged": [
+      {
+        "target": "IOBOARD/C3",
+        "other": "IOBOARD/C5/mesh",
+        "now": {
+          "radial_depth_mm": 0.151,
+          "z_range_mm": [
+            20.6,
+            20.6
+          ],
+          "triangle_pairs": 34
+        },
+        "before": {
+          "radial_depth_mm": 0.151,
+          "z_range_mm": [
+            20.6,
+            20.6
+          ],
+          "triangle_pairs": 34
+        }
+      },
+      {
+        "target": "IOBOARD/C5",
+        "other": "IOBOARD/C3/mesh",
+        "now": {
+          "radial_depth_mm": 0.191,
+          "z_range_mm": [
+            20.6,
+            20.6
+          ],
+          "triangle_pairs": 34
+        },
+        "before": {
+          "radial_depth_mm": 0.191,
+          "z_range_mm": [
+            20.6,
+            20.6
+          ],
+          "triangle_pairs": 34
+        }
+      }
+    ],
+    "minimum_headroom_above_can_top_mm": 4.37,
+    "note": "Recorded, not corrected: placement and model transforms are original. C8 is the 6.3 mm 100uF 25V can; the E5-6 silkscreen (5.33 mm) was drawn for a 5 mm can."
+  },
+  "pcb_value_differences": {
+    "C28 C44 C53 C55": "PCB value 47/16; parts page 47uF 10V; expanded BOM extract 140-xrl16v47; photograph marked 47uF 16V. Same 5 x 11 can either way.",
+    "C48 C49 C102": "PCB value 100/6.3; parts page 100uF 10V; photograph marked 100uF 10V (5 x 11). A 25V part would be 6.3 x 11 (unconfirmed alternative).",
+    "C43": "PCB value 1000/6.3; parts page 1000uF 10V; photograph marked 1000uF 10V.",
+    "C203 C205": "PCB value 10uF; parts page lists them under 10uF 16V (or 35V); 5 x 11 for 16V and 35V.",
+    "C51": "Parts page 2.2uF 50V; photograph shows a black 63V part of another family; same 5 x 11 can. Modelled in XRL colours per the BOM."
+  },
+  "blender": {
+    "changed_meshes": 39,
+    "added_materials": [
+      "Xicon XRL leads \u2014 revision 24 (native KiCad colour)",
+      "Xicon XRL negative stripe \u2014 revision 24 (native KiCad colour)",
+      "Xicon XRL sleeve \u2014 revision 24 (native KiCad colour)",
+      "Xicon XRL top metal \u2014 revision 24 (native KiCad colour)"
+    ],
+    "retired_materials": [
+      "mat_10.004",
+      "mat_10.005",
+      "mat_11.004",
+      "mat_11.005",
+      "mat_13.005",
+      "mat_14.005",
+      "mat_23.004",
+      "mat_24.004"
+    ],
+    "added_objects": []
+  },
+  "kicad": {
+    "changed_files": [
+      "ioboard/ioboard-import-fps.pretty/E5-13.kicad_mod",
+      "ioboard/ioboard-import-fps.pretty/E5-6.kicad_mod",
+      "ioboard/ioboard.kicad_pcb",
+      "mainboard/mainboard-import-fps.pretty/E3,5-8.kicad_mod",
+      "mainboard/mainboard-import-fps.pretty/E5-5.kicad_mod",
+      "mainboard/mainboard-import-fps.pretty/E5-6.kicad_mod",
+      "mainboard/mainboard.kicad_pcb"
+    ],
+    "new_files": [
+      "mainboard/3dmodels/Revision21/electrolytic-quality/CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame.step",
+      "mainboard/3dmodels/Revision21/electrolytic-quality/CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame.step",
+      "mainboard/3dmodels/Revision21/electrolytic-quality/CP_Xicon_XRL1u50_P3.556_PhotoColours.step",
+      "ioboard/3dmodels/Revision21/electrolytic-quality/CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame.step",
+      "ioboard/3dmodels/Revision21/electrolytic-quality/CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame.step",
+      "ioboard/3dmodels/Revision21/electrolytic-quality/CP_Xicon_XRL2200u16_P5.08_PhotoColours.step",
+      "mainboard/3dmodels/REVISION-21-SOURCES.json",
+      "ioboard/3dmodels/REVISION-21-SOURCES.json"
+    ],
+    "core_files": 305,
+    "fresh_ERC_errors": {
+      "mainboard": 0,
+      "ioboard": 0
+    },
+    "fresh_DRC_comparison_to_previous": {
+      "mainboard": {
+        "violations": true,
+        "schematic_parity": true,
+        "ignored_checks": true,
+        "unconnected_items_raw": true,
+        "unconnected_count_and_nets": true
+      },
+      "ioboard": {
+        "violations": true,
+        "schematic_parity": true,
+        "ignored_checks": true,
+        "unconnected_items_raw": true,
+        "unconnected_count_and_nets": true
+      }
+    }
+  },
+  "verification": {
+    "electrolytic_models": {
+      "report": "kicad-working/validation/models-review-21/electrolytic-quality/electrolytic-model-audit.json",
+      "sha256": "65ee1c67b415fcaf9010ec8519aa5eb5f5de167ff94e1490b2ad306d04a6d7fb",
+      "passed": true,
+      "check_count": 272
+    },
+    "native_colours": {
+      "report": "kicad-working/validation/models-review-21/electrolytic-quality/electrolytic-native-colour-check.json",
+      "sha256": "7cc8ca31dd33bf2c50e609862d18595f07afe46cc1ccbca4ad8ec00d69ccb949",
+      "passed": true,
+      "check_count": 39
+    },
+    "kicad_installation": {
+      "report": "kicad-working/validation/models-review-21/installation-audit.json",
+      "sha256": "633f028ec3f2c17a83faf43afad74b746eafd6d49ebe6625c51a44de5a2004ca",
+      "passed": true
+    },
+    "native_lead_and_fit_audit": {
+      "report": "kicad-working/validation/models-review-21/native-terminal-audit.json",
+      "sha256": "fe22f5e737bff6850e9f78427626bb115925350f643337ca62f6836699267f63",
+      "passed": true,
+      "check_count": 42
+    },
+    "kicad_validation_summary": {
+      "report": "kicad-working/validation/working-validation-summary-revision-21.json",
+      "sha256": "c3faffff0c3e4fe771a6811858b52ed2433c7822be0bc5dafc6421f9917aeab3",
+      "passed": true
+    },
+    "midi_function_replay": {
+      "report": "kicad-working/validation/models-review-21/current-function-verification.json",
+      "sha256": "ec26ed651673838a54c7bd69455647d08a8ae3b154d86b0b61d3f56adc4daa5c",
+      "passed": true
+    },
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-24/verification/final-saved-scene-audit.json",
+      "sha256": "0e4daa799462af4bd3f055ab9558fe7325955130d9cbbb6fa9a94d15d23cee05",
+      "passed": true,
+      "check_count": 12
+    },
+    "kicad_blender_models": {
+      "report": "kicad-working/visualization/blender-case-revision-24/verification/kicad-blender-models-audit.json",
+      "sha256": "233b7803f3e7083bdf103b3dc601b4a0e10cef34c98ed042561aea5f5219558f",
+      "passed": true,
+      "check_count": 7
+    },
+    "drill_fit": {
+      "report": "kicad-working/visualization/blender-case-revision-24/verification/drill-fit-audit.json",
+      "sha256": "652a857cb216359e7e22ae3e505718fd3b75ec02495b43cd1397173ac57fde30",
+      "passed": true,
+      "check_count": 6
+    },
+    "terminal_joins": {
+      "report": "kicad-working/visualization/blender-case-revision-24/verification/terminal-join-audit.json",
+      "sha256": "dd842137cc4ef800d5df1500dd10deed227524cfc0e6d00c9a323c22002687a7",
+      "passed": true,
+      "check_count": 4
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-24/verification/rear-openings-audit.json",
+      "sha256": "b480c718ba2ac200d37aeeb434837fd9e701bbcfb40cc0c66b55e9d5e812d0a8",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-24/verification/portable-scene-audit.json",
+      "sha256": "f6ad54d3468a342ece91212f8face251ebaa03a16b1836a9eb7dceb24336ed73",
+      "passed": true,
+      "check_count": 106
+    },
+    "electrolytic_neighbours": {
+      "report": "kicad-working/visualization/blender-case-revision-24/verification/electrolytic-neighbour-audit.json",
+      "sha256": "91161d87f4728c3939cd1c6fe72d1b351250676821a37c009bb93381b8f93a09",
+      "passed": true
+    },
+    "detail_renders": {
+      "report": "kicad-working/visualization/blender-case-revision-24/verification/electrolytic-detail-render.json",
+      "sha256": "a867189d1c7153442889c8f9adbf5125f9baabca5e98896706c9782f0e473136",
+      "passed": true
+    },
+    "render_readonly": {
+      "report": "kicad-working/visualization/blender-case-revision-24/verification/render-readonly-verification.json",
+      "sha256": "26c904cc52e14f4467425f4f9b709d42230aecda9413b595b4b1e445b9b9185e",
+      "passed": true
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-24/verification/final-render-review.json",
+      "sha256": "2700425f91ee3133b41e08bad7ee71742511c33877ee32f92ef6af279a5063d3",
+      "passed": true
+    }
+  },
+  "unchanged": [
+    "Original Eagle files",
+    "KiCad copper, pads, drills, nets, footprint poses, PCB value fields, model transforms and rules",
+    "Every other model reference",
+    "All Blender objects, poses, case, LEDs, spacers, caps, hardware, wiring study, previous materials (except eight left unused by the replaced meshes), cameras and animation"
+  ],
+  "limitations": [
+    "Original CC0 illustrations from the XRL datasheet table and drawing; not manufacturer CAD or a measurement of the fitted historical parts.",
+    "Expanded-BOM part numbers come from search-engine extracts of a page that could not be read directly; the 100uF 10V/25V assignment is inferred from the parts page and its photographs.",
+    "Sleeve and stripe colours are sampled from uncalibrated photographs; printed value text is omitted.",
+    "The seat gaps (1.5 mm for 5 mm cans, whose leads are formed from 2.0 to 2.54 mm; 0.5 mm otherwise), lead forming, top disc, vent cross and 2.5 mm lead tip are illustrations; the datasheet allows +/-1 mm diameter and +/-1.5 mm length.",
+    "PCB value fields (47/16, 100/6.3, 1000/6.3) differ from the parts page and are left unchanged.",
+    "Not manufacturer CAD; physical fit is unqualified."
+  ],
+  "physical_fit_qualified": false,
+  "validation_summary": {
+    "report": "kicad-working/visualization/blender-case-revision-24/verification/independent-validation-summary.json",
+    "sha256": "fb6bf0528ce1ff871d04c31ce521078523a5391545bc8f9d0a1c6201520dcbc8"
+  }
+}

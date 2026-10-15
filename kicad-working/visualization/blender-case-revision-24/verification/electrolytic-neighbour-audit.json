@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "frame": 1,
+  "new_contacts": [
+    {
+      "target": "IOBOARD/C8",
+      "other": "IOBOARD/TM6/mesh.001",
+      "radial_depth_mm": 0.089,
+      "z_range_mm": [
+        4.45,
+        5.45
+      ],
+      "triangle_pairs": 42
+    }
+  ],
+  "retained_contacts": [
+    {
+      "target": "IOBOARD/C3",
+      "other": "IOBOARD/C5/mesh",
+      "now": {
+        "radial_depth_mm": 0.151,
+        "z_range_mm": [
+          20.6,
+          20.6
+        ],
+        "triangle_pairs": 34
+      },
+      "before": {
+        "radial_depth_mm": 0.151,
+        "z_range_mm": [
+          20.6,
+          20.6
+        ],
+        "triangle_pairs": 34
+      }
+    },
+    {
+      "target": "IOBOARD/C5",
+      "other": "IOBOARD/C3/mesh",
+      "now": {
+        "radial_depth_mm": 0.191,
+        "z_range_mm": [
+          20.6,
+          20.6
+        ],
+        "triangle_pairs": 34
+      },
+      "before": {
+        "radial_depth_mm": 0.191,
+        "z_range_mm": [
+          20.6,
+          20.6
+        ],
+        "triangle_pairs": 34
+      }
+    }
+  ],
+  "removed_contacts": [],
+  "declared": [
+    "IOBOARD/C8 | IOBOARD/TM6/mesh.001"
+  ],
+  "baseline": {
+    "scene_sha256": "bd52b26392eeb97c6079c8a1d74f11981ec7d61d0a07811d1967d6c0aeb8cd9c",
+    "nearby_meshes_tested": 254,
+    "contact_count": 2
+  },
+  "current": {
+    "scene_sha256": "2d440139aa6c9ca4c1e0e74cbe773ef35867a030fe7b1dc31379801907ed45e0",
+    "nearby_meshes_tested": 280,
+    "contact_count": 3
+  },
+  "headroom_above_can_top_mm": {
+    "IOBOARD/C203": 19.06,
+    "IOBOARD/C205": 47.47,
+    "IOBOARD/C3": 5.52,
+    "IOBOARD/C5": 11.93,
+    "IOBOARD/C60": 34.99,
+    "IOBOARD/C61": 35.41,
+    "IOBOARD/C7": 19.84,
+    "IOBOARD/C8": 35.78,
+    "MAINBOARD/C102": 6.88,
+    "MAINBOARD/C105": 4.37,
+    "MAINBOARD/C11": 38.65,
+    "MAINBOARD/C13": 17.36,
+    "MAINBOARD/C14": 22.0,
+    "MAINBOARD/C15": 21.58,
+    "MAINBOARD/C16": 35.11,
+    "MAINBOARD/C17": 34.53,
+    "MAINBOARD/C22": 22.12,
+    "MAINBOARD/C23": 32.95,
+    "MAINBOARD/C28": 28.46,
+    "MAINBOARD/C29": 32.05,
+    "MAINBOARD/C30": 30.08,
+    "MAINBOARD/C31": 38.18,
+    "MAINBOARD/C32": 37.15,
+    "MAINBOARD/C37": 35.59,
+    "MAINBOARD/C38": 29.11,
+    "MAINBOARD/C40": 9.75,
+    "MAINBOARD/C43": 28.41,
+    "MAINBOARD/C44": 37.75,
+    "MAINBOARD/C48": 24.42,
+    "MAINBOARD/C49": 24.06,
+    "MAINBOARD/C50": 41.46,
+    "MAINBOARD/C51": 37.73,
+    "MAINBOARD/C52": 20.87,
+    "MAINBOARD/C53": 10.48,
+    "MAINBOARD/C55": 19.96,
+    "MAINBOARD/C56": 30.16,
+    "MAINBOARD/C58": 28.17,
+    "MAINBOARD/C59": 9.69,
+    "MAINBOARD/C72": 36.17
+  },
+  "minimum_headroom_mm": 4.37,
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "method": "Rendered electrolytic meshes versus other component, panel and enclosure meshes within a 2 mm bbox at frame 1. Own geometry and PCB layers excluded. Radial depth = how far the other mesh's vertices reach inside the revision-24 nominal can cylinder between seat and top (also for the baseline contacts). Contacts are recorded, not corrected. Headroom = free distance along each can axis from its 40 highest vertices to any other visible mesh (other electrolytics excluded)."
+}

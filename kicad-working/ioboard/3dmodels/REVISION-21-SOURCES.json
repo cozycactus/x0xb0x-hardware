@@ -1,0 +1,49 @@
+{
+  "revision": 21,
+  "baseline_revision": 20,
+  "models": {
+    "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame.step": {
+      "local_model": "Revision21/electrolytic-quality/CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame.step",
+      "sha256": "592961a7f74d127321afb31cce440c7fccb412c76fb6097a8138ed271a415ea9"
+    },
+    "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame.step": {
+      "local_model": "Revision21/electrolytic-quality/CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame.step",
+      "sha256": "00cc1da601ebbc9c9cefb4470113abbd447b831a6e9f679db4fca4ea195d9d76"
+    },
+    "CP_Xicon_XRL2200u16_P5.08_PhotoColours.step": {
+      "local_model": "Revision21/electrolytic-quality/CP_Xicon_XRL2200u16_P5.08_PhotoColours.step",
+      "sha256": "dc552de9cae35cb3e4e0411dc0abb6803ab447542291c21a0aeed419b3cc07a8"
+    }
+  },
+  "references": {
+    "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame.step": [
+      "C203",
+      "C205",
+      "C60",
+      "C61"
+    ],
+    "CP_Xicon_XRL_D6.3x11_P2.54_KiCadFrame.step": [
+      "C7",
+      "C8"
+    ],
+    "CP_Xicon_XRL2200u16_P5.08_PhotoColours.step": [
+      "C3",
+      "C5"
+    ]
+  },
+  "datasheet": {
+    "datasheet": "xicon-xrl-XC-600178.pdf",
+    "datasheet_sha256": "d118db3abe10bc08130fe93f00252ce6a811d7f4c0d40f34438a066e6e9f8c02",
+    "evidence": "sources/electrolytic-evidence.json",
+    "evidence_sha256": "01f6be6064427bc8e47c419a28f66ff080fc490290437cb3e72296bc83b374bc"
+  },
+  "evidence": "validation/models-review-21/electrolytic-quality/sources/electrolytic-evidence.json",
+  "limitations": [
+    "Original CC0 illustrations from the XRL datasheet table and drawing; not manufacturer CAD or a measurement of the fitted historical parts.",
+    "Expanded-BOM part numbers come from search-engine extracts of a page that could not be read directly; the 100uF 10V/25V assignment is inferred from the parts page and its photographs.",
+    "Sleeve and stripe colours are sampled from uncalibrated photographs; printed value text is omitted.",
+    "The seat gaps (1.5 mm for 5 mm cans, whose leads are formed from 2.0 to 2.54 mm; 0.5 mm otherwise), lead forming, top disc, vent cross and 2.5 mm lead tip are illustrations; the datasheet allows +/-1 mm diameter and +/-1.5 mm length.",
+    "PCB value fields (47/16, 100/6.3, 1000/6.3) differ from the parts page and are left unchanged."
+  ],
+  "physical_fit_qualified": false
+}

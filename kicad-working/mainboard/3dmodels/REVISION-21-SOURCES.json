@@ -1,0 +1,72 @@
+{
+  "revision": 21,
+  "baseline_revision": 20,
+  "models": {
+    "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame.step": {
+      "local_model": "Revision21/electrolytic-quality/CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame.step",
+      "sha256": "592961a7f74d127321afb31cce440c7fccb412c76fb6097a8138ed271a415ea9"
+    },
+    "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame.step": {
+      "local_model": "Revision21/electrolytic-quality/CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame.step",
+      "sha256": "d4d5892dbf7893bbd9a9b8cd960118006f9f9ca62a5c3f212865fe58f57d09a8"
+    },
+    "CP_Xicon_XRL1u50_P3.556_PhotoColours.step": {
+      "local_model": "Revision21/electrolytic-quality/CP_Xicon_XRL1u50_P3.556_PhotoColours.step",
+      "sha256": "90203c40ebaa1cb5f2c43a7932cec4b82b1cf648bebc59372f7eb1f6a114423c"
+    }
+  },
+  "references": {
+    "CP_Xicon_XRL_D5.0x11_P2.54_KiCadFrame.step": [
+      "C102",
+      "C105",
+      "C11",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C22",
+      "C23",
+      "C28",
+      "C29",
+      "C30",
+      "C31",
+      "C32",
+      "C37",
+      "C38",
+      "C40",
+      "C44",
+      "C48",
+      "C49",
+      "C50",
+      "C51",
+      "C52",
+      "C53",
+      "C55",
+      "C56",
+      "C58",
+      "C59",
+      "C72"
+    ],
+    "CP_Xicon_XRL_D10x12.5_P5.08_KiCadFrame.step": [
+      "C43"
+    ],
+    "CP_Xicon_XRL1u50_P3.556_PhotoColours.step": [
+      "C17"
+    ]
+  },
+  "datasheet": {
+    "datasheet": "xicon-xrl-XC-600178.pdf",
+    "datasheet_sha256": "d118db3abe10bc08130fe93f00252ce6a811d7f4c0d40f34438a066e6e9f8c02",
+    "evidence": "sources/electrolytic-evidence.json",
+    "evidence_sha256": "01f6be6064427bc8e47c419a28f66ff080fc490290437cb3e72296bc83b374bc"
+  },
+  "evidence": "validation/models-review-21/electrolytic-quality/sources/electrolytic-evidence.json",
+  "limitations": [
+    "Original CC0 illustrations from the XRL datasheet table and drawing; not manufacturer CAD or a measurement of the fitted historical parts.",
+    "Expanded-BOM part numbers come from search-engine extracts of a page that could not be read directly; the 100uF 10V/25V assignment is inferred from the parts page and its photographs.",
+    "Sleeve and stripe colours are sampled from uncalibrated photographs; printed value text is omitted.",
+    "The seat gaps (1.5 mm for 5 mm cans, whose leads are formed from 2.0 to 2.54 mm; 0.5 mm otherwise), lead forming, top disc, vent cross and 2.5 mm lead tip are illustrations; the datasheet allows +/-1 mm diameter and +/-1.5 mm length.",
+    "PCB value fields (47/16, 100/6.3, 1000/6.3) differ from the parts page and are left unchanged."
+  ],
+  "physical_fit_qualified": false
+}
