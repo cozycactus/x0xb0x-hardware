@@ -37,7 +37,7 @@ if any(v in requested for v in UNDERSIDE):
  # Revision 16: view the solder sides from below. Each camera clips just below the lowest geometry of the boards
  # it frames, so the animated case floor, feet and ground drop out, and one shadowless upward light is added
  # only in memory for these views; the saved scene is never written.
- audit=json.loads((HERE.parents[1]/'validation/models-review-17/native-terminal-audit.json').read_text())
+ audit=json.loads((HERE.parents[1]/'validation/models-review-18/native-terminal-audit.json').read_text())
  scene.frame_set(1);bpy.context.view_layer.update()
  def bounds(boards):
   roots={('IOBOARD/' if v['board']=='ioboard' else 'MAINBOARD/')+ref for refs in audit['models'].values() for ref,v in refs.items() if v['board'] in boards};pts=[]

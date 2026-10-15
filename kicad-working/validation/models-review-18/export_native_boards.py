@@ -7,7 +7,7 @@ before and after.
 
 Run with KiCad's bundled Python from the repository root:
   /Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python3 \
-      kicad-working/validation/models-review-17/export_native_boards.py
+      kicad-working/validation/models-review-18/export_native_boards.py
 """
 from pathlib import Path
 import hashlib, json, os, subprocess

@@ -1,4 +1,4 @@
-"""Replay original DIN function proof against the current revision-17 model-only PCB update."""
+"""Replay original DIN function proof against the current revision-18 model-only PCB update."""
 from pathlib import Path
 import json, sys
 
@@ -9,7 +9,7 @@ from inspect_din_functions import verify  # noqa: E402
 
 evidence = json.loads((HERE / 'current-function-source-evidence.json').read_text())
 result = verify(evidence)
-result['scope'] = ('Original source function/raw-record proof replayed against current PCB. Only the revision-17 '
+result['scope'] = ('Original source function/raw-record proof replayed against current PCB. Only the revision-18 '
                    'STEP-path changes are separately validated by installation-audit.json; no circuit or physical '
                    'hardware claim.')
 print(json.dumps(result, indent=2))

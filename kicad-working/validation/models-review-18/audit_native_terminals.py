@@ -14,7 +14,7 @@ then, in the board frame (no model-frame assumptions):
 
 Run read-only with Blender:
   Blender --background --factory-startup --python-exit-code 1 \
-      --python kicad-working/validation/models-review-17/audit_native_terminals.py
+      --python kicad-working/validation/models-review-18/audit_native_terminals.py
 """
 import hashlib
 import json
