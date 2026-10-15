@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-15",
+  "Blender_revision": 20,
+  "KiCad_revision": 17,
+  "scene": "kicad-working/visualization/blender-case-revision-20/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "208430509570a742c2ad5a91f9fbf9fb25e0be36109e2fcb9c267c955e476d5c",
+  "scene_bytes": 42627844,
+  "baseline_scene_sha256": "63c10df2ecfd2859190a14d0444397862aa5caa0860661b201a4bb9b3025c6b9",
+  "correction": "TL1100F tact switches (23 references) show metal legs: the 24 leg faces per switch that leave the 12 x 12 mm housing and rise up to 1.45 mm above the board were coloured as black housing by revision 8 and are now terminal metal. Geometry unchanged.",
+  "found_by": "User inspection of the KiCad 3D viewer.",
+  "rule": "Terminal metal if wholly below the seat (revision 8) or any part outside the 12 x 12 mm housing outline",
+  "recoloured_faces_per_switch": 24,
+  "native_triangles_recoloured_per_switch": 368,
+  "references": [
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19",
+    "S20",
+    "S21",
+    "S22",
+    "S23",
+    "S24",
+    "S25",
+    "S26",
+    "S27",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9"
+  ],
+  "kicad": {
+    "changed_files": [
+      "mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod",
+      "mainboard/mainboard.kicad_pcb"
+    ],
+    "core_files": 291,
+    "fresh_ERC_errors": {
+      "mainboard": 0,
+      "ioboard": 0
+    },
+    "fresh_DRC_comparison_to_previous": {
+      "mainboard": {
+        "violations": true,
+        "schematic_parity": true,
+        "ignored_checks": true,
+        "unconnected_items_raw": true,
+        "unconnected_count_and_nets": true
+      },
+      "ioboard": {
+        "violations": true,
+        "schematic_parity": true,
+        "ignored_checks": true,
+        "unconnected_items_raw": false,
+        "unconnected_count_and_nets": true
+      }
+    }
+  },
+  "blender": {
+    "replaced_meshes": 23,
+    "added_objects": 0,
+    "added_materials": 0
+  },
+  "verification": {
+    "step_recolour": {
+      "report": "kicad-working/validation/models-review-17/tl1100-colour/tl1100-colour-audit.json",
+      "sha256": "60fd753f3673f43b691bed5d5be0710c6d4b5b6413dd0bf9a4716320b5f25e7a",
+      "passed": true,
+      "check_count": 4
+    },
+    "native_colour_check": {
+      "report": "kicad-working/validation/models-review-17/tl1100-colour/tl1100-native-colour-check.json",
+      "sha256": "7664838ad5ab7b4898cdff45fd1d6a252f9e1bda7fbe4b1c3d9ff60f5361bac1",
+      "passed": true,
+      "check_count": 23
+    },
+    "kicad_installation": {
+      "report": "kicad-working/validation/models-review-17/installation-audit.json",
+      "sha256": "871dd49e9dcc69a31c6ca0333eba0adfaa4eead404ca5e3b1fea01405b314c95",
+      "passed": true
+    },
+    "native_lead_and_fit_audit": {
+      "report": "kicad-working/validation/models-review-17/native-terminal-audit.json",
+      "sha256": "dde989cae3beb07949882a13e6df0bf6d228da770fbca060d0a483854f8a89e5",
+      "passed": true,
+      "check_count": 32
+    },
+    "kicad_validation_summary": {
+      "report": "kicad-working/validation/working-validation-summary-revision-17.json",
+      "sha256": "a53e270a6f6e32d9c5e47ecc7bd19572ac44934a02aff28067eb0ccceefb6ccc",
+      "passed": true
+    },
+    "midi_function_replay": {
+      "report": "kicad-working/validation/models-review-17/current-function-verification.json",
+      "sha256": "f863e8ea98cae9585c47d02a44575bff02f9ca951690162dc517d6f17457cab0",
+      "passed": true,
+      "checks_count": 214
+    },
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-20/verification/final-saved-scene-audit.json",
+      "sha256": "412bd7081d60d3d1c4ba83f63e86427ad0df513e57c89cb5362d102e9212e8d3",
+      "passed": true,
+      "check_count": 9
+    },
+    "kicad_blender_models": {
+      "report": "kicad-working/visualization/blender-case-revision-20/verification/kicad-blender-models-audit.json",
+      "sha256": "098384473bff763536412f955f3debb2a6bd6d945f2e05c45a1b0592adca84e4",
+      "passed": true,
+      "check_count": 7
+    },
+    "native_terminal_joins": {
+      "report": "kicad-working/visualization/blender-case-revision-20/verification/terminal-join-audit.json",
+      "sha256": "f83a80575fa4f46629487ee26c2df2b4cc52771e5b32a0c80fe6ba0cdc4d502d",
+      "passed": true,
+      "check_count": 4
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-20/verification/rear-openings-audit.json",
+      "sha256": "871234377d06c48aba0e613fef96d2b5893d3f049853f9858303772e02e98bf4",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-20/verification/portable-scene-audit.json",
+      "sha256": "ba67b85d58dee6e331ab434dbf157d636476d933795f8c01b65425acf7b0ada2",
+      "passed": true,
+      "check_count": 106
+    },
+    "tl1100f_render": {
+      "report": "kicad-working/visualization/blender-case-revision-20/verification/tl1100f-render.json",
+      "sha256": "85b8c9cdd318637a1c35488ed4897d4f87cb184147cb411f256382f7678f11c4",
+      "passed": true
+    },
+    "render_readonly": {
+      "report": "kicad-working/visualization/blender-case-revision-20/verification/render-readonly-verification.json",
+      "sha256": "daefeca657850942b49506480d5163380cd5c92127732fe869fbfc2a0ec0fffc",
+      "passed": true
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-20/verification/final-render-review.json",
+      "sha256": "f574f125c7b293d04ba5427bc805e8a49a4ef3b8968a147d4408b7f72a4ce33c",
+      "passed": true,
+      "view_count": 7
+    }
+  },
+  "unchanged": [
+    "TL1100F geometry (identical B-rep)",
+    "Original Eagle files, copper, footprint poses and rules",
+    "Every other model reference",
+    "All Blender objects, poses, materials and views"
+  ],
+  "limitations": [
+    "The legs keep the publisher free-state shape; their drill-fit allowance is unchanged.",
+    "Not fit qualified."
+  ],
+  "physical_fit_qualified": false,
+  "validation_summary": {
+    "report": "kicad-working/visualization/blender-case-revision-20/verification/independent-validation-summary.json",
+    "sha256": "01125ec3da226fc0b728abc0b2babcc5333afdaf4e88a5b560bbe4e4bc680d6e"
+  }
+}

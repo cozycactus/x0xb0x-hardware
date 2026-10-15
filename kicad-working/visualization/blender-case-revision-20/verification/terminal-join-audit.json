@@ -1,0 +1,160 @@
+{
+  "passed": true,
+  "check_count": 4,
+  "repository": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware",
+  "kicad_version": "10.0.7",
+  "blender_version": "5.2.2 LTS",
+  "references_checked": 25,
+  "terminal_pieces": 133,
+  "references": {
+    "mainboard/R100A0": {
+      "model": "Microohm_LPTC12T21001_ApproxBody_Terminals.step",
+      "terminal_pieces": 2,
+      "largest_gap_mm": 0.0
+    },
+    "mainboard/R100B0": {
+      "model": "Microohm_LPTC12T21001_ApproxBody_Terminals.step",
+      "terminal_pieces": 2,
+      "largest_gap_mm": 0.0
+    },
+    "mainboard/S1": {
+      "model": "NKK_B12AB_DetailedCandidate_Terminals.step",
+      "terminal_pieces": 7,
+      "largest_gap_mm": 0.0
+    },
+    "mainboard/S2": {
+      "model": "CTS_290VAA5F201B2_DetailedCandidate_Terminals.step",
+      "terminal_pieces": 7,
+      "largest_gap_mm": 0.0
+    },
+    "mainboard/S3": {
+      "model": "Grayhill_25LB22H_PhotoDrawing_Terminals.step",
+      "terminal_pieces": 5,
+      "largest_gap_mm": 0.0
+    },
+    "mainboard/S4": {
+      "model": "Grayhill_25LB22H_PhotoDrawing_Terminals.step",
+      "terminal_pieces": 5,
+      "largest_gap_mm": 0.0
+    },
+    "mainboard/VR2": {
+      "model": "Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "terminal_pieces": 5,
+      "largest_gap_mm": 0.0
+    },
+    "mainboard/VR3": {
+      "model": "Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "terminal_pieces": 5,
+      "largest_gap_mm": 0.0
+    },
+    "mainboard/VR4": {
+      "model": "Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step",
+      "terminal_pieces": 8,
+      "largest_gap_mm": 0.0
+    },
+    "mainboard/VR5": {
+      "model": "Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "terminal_pieces": 5,
+      "largest_gap_mm": 0.0
+    },
+    "mainboard/VR6": {
+      "model": "Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step",
+      "terminal_pieces": 8,
+      "largest_gap_mm": 0.0
+    },
+    "mainboard/VR7": {
+      "model": "Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "terminal_pieces": 5,
+      "largest_gap_mm": 0.0
+    },
+    "mainboard/VR8": {
+      "model": "Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "terminal_pieces": 5,
+      "largest_gap_mm": 0.0
+    },
+    "ioboard/CV0": {
+      "model": "MJ3536N_DrawingDerived_DetailedBody_Terminals.step",
+      "terminal_pieces": 3,
+      "largest_gap_mm": 0.0
+    },
+    "ioboard/DIN1": {
+      "model": "SDS50J_CorrectedContactPattern_Terminals.step",
+      "terminal_pieces": 7,
+      "largest_gap_mm": 0.0
+    },
+    "ioboard/DIN2": {
+      "model": "SDS50J_CorrectedContactPattern_Terminals.step",
+      "terminal_pieces": 7,
+      "largest_gap_mm": 0.0
+    },
+    "ioboard/DIN3": {
+      "model": "SDS50J_CorrectedContactPattern_Terminals.step",
+      "terminal_pieces": 7,
+      "largest_gap_mm": 0.0
+    },
+    "ioboard/DIN4": {
+      "model": "SDS50J_CorrectedContactPattern_Terminals.step",
+      "terminal_pieces": 7,
+      "largest_gap_mm": 0.0
+    },
+    "ioboard/GATE0": {
+      "model": "MJ3536N_DrawingDerived_DetailedBody_Terminals.step",
+      "terminal_pieces": 3,
+      "largest_gap_mm": 0.0
+    },
+    "ioboard/HEADPHONE0": {
+      "model": "NYS216_DrawingDerived_DetailedBody_Terminals.step",
+      "terminal_pieces": 6,
+      "largest_gap_mm": 0.0
+    },
+    "ioboard/IC20": {
+      "model": "MC78M05_TO220_BentBack_PhotoQualified_Terminals.step",
+      "terminal_pieces": 3,
+      "largest_gap_mm": 0.0
+    },
+    "ioboard/MIXIN0": {
+      "model": "NYS216_DrawingDerived_DetailedBody_Terminals.step",
+      "terminal_pieces": 6,
+      "largest_gap_mm": 0.0
+    },
+    "ioboard/MIXOUT0": {
+      "model": "NYS216_DrawingDerived_DetailedBody_Terminals.step",
+      "terminal_pieces": 6,
+      "largest_gap_mm": 0.0
+    },
+    "ioboard/POWER0": {
+      "model": "PJ202AH_DrawingDerived_DetailedBody_Terminals.step",
+      "terminal_pieces": 3,
+      "largest_gap_mm": 0.0
+    },
+    "ioboard/USB0": {
+      "model": "USB_TypeB-body-illustration_Terminals.step",
+      "terminal_pieces": 6,
+      "largest_gap_mm": 0.0
+    }
+  },
+  "failures": [],
+  "checks": [
+    {
+      "check": "mainboard: KiCad export left the PCB bytes unchanged",
+      "passed": true
+    },
+    {
+      "check": "ioboard: KiCad export left the PCB bytes unchanged",
+      "passed": true
+    },
+    {
+      "check": "Drawing-derived terminal models are placed",
+      "passed": true,
+      "references": 25
+    },
+    {
+      "check": "Every terminal piece joins its body",
+      "passed": true,
+      "detached": [],
+      "detached_count": 0
+    }
+  ],
+  "read_only": true,
+  "scope": "Drawing-derived terminal models only; their terminals are identified by the tin material."
+}

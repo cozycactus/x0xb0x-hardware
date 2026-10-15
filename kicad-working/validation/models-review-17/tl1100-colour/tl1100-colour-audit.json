@@ -1,0 +1,330 @@
+{
+  "schema": 1,
+  "revision": 17,
+  "generator": "recolour_tl1100.py",
+  "passed": true,
+  "check_count": 4,
+  "checks": [
+    {
+      "check": "Only STYLED_ITEM entities differ; same entity set",
+      "passed": true,
+      "changed_entities": 24
+    },
+    {
+      "check": "Reloaded B-rep is identical to the revision-8 model",
+      "passed": true
+    },
+    {
+      "check": "All recoloured faces lie outside the housing and reach above the seat",
+      "passed": true,
+      "recoloured": 24
+    },
+    {
+      "check": "Role counts move exactly 24 faces from housing to terminals",
+      "passed": true,
+      "roles": {
+        "housing": 138,
+        "terminals": 88,
+        "cover": 6,
+        "actuator": 17
+      }
+    }
+  ],
+  "source": "mainboard/3dmodels/Revision8/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState.step",
+  "source_sha256": "680228325b4efa78f35174d54935fff4315874657fadddc9357cae1aedb37b8f",
+  "output": "mainboard/3dmodels/Revision17/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState_MetalLegs.step",
+  "output_sha256": "fe2ecfc02dd78ddbcee51a5399c89b530fd4728f3744b261cc046419687b97c3",
+  "recoloured_faces": [
+    {
+      "face": 3529,
+      "previous_role": "housing",
+      "z_range_mm": [
+        1.05,
+        1.15
+      ],
+      "x_range_mm": [
+        -6.1,
+        -6.0
+      ]
+    },
+    {
+      "face": 3562,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -3.1,
+        1.45
+      ],
+      "x_range_mm": [
+        -7.05,
+        -6.0
+      ]
+    },
+    {
+      "face": 3671,
+      "previous_role": "housing",
+      "z_range_mm": [
+        1.05,
+        1.45
+      ],
+      "x_range_mm": [
+        -6.4,
+        -6.0
+      ]
+    },
+    {
+      "face": 3696,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -3.1,
+        1.45
+      ],
+      "x_range_mm": [
+        -7.05,
+        -6.0
+      ]
+    },
+    {
+      "face": 3797,
+      "previous_role": "housing",
+      "z_range_mm": [
+        1.05,
+        1.15
+      ],
+      "x_range_mm": [
+        -6.1,
+        -6.0
+      ]
+    },
+    {
+      "face": 3830,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -3.1,
+        1.45
+      ],
+      "x_range_mm": [
+        -7.05,
+        -6.0
+      ]
+    },
+    {
+      "face": 3939,
+      "previous_role": "housing",
+      "z_range_mm": [
+        1.05,
+        1.45
+      ],
+      "x_range_mm": [
+        -6.4,
+        -6.0
+      ]
+    },
+    {
+      "face": 3964,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -3.1,
+        1.45
+      ],
+      "x_range_mm": [
+        -7.05,
+        -6.0
+      ]
+    },
+    {
+      "face": 4065,
+      "previous_role": "housing",
+      "z_range_mm": [
+        1.05,
+        1.15
+      ],
+      "x_range_mm": [
+        6.0,
+        6.1
+      ]
+    },
+    {
+      "face": 4098,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -3.1,
+        1.45
+      ],
+      "x_range_mm": [
+        6.0,
+        7.05
+      ]
+    },
+    {
+      "face": 4207,
+      "previous_role": "housing",
+      "z_range_mm": [
+        1.05,
+        1.45
+      ],
+      "x_range_mm": [
+        6.0,
+        6.4
+      ]
+    },
+    {
+      "face": 4232,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -3.1,
+        1.45
+      ],
+      "x_range_mm": [
+        6.0,
+        7.05
+      ]
+    },
+    {
+      "face": 4333,
+      "previous_role": "housing",
+      "z_range_mm": [
+        1.05,
+        1.15
+      ],
+      "x_range_mm": [
+        6.0,
+        6.1
+      ]
+    },
+    {
+      "face": 4366,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -3.1,
+        1.45
+      ],
+      "x_range_mm": [
+        6.0,
+        7.05
+      ]
+    },
+    {
+      "face": 4475,
+      "previous_role": "housing",
+      "z_range_mm": [
+        1.05,
+        1.45
+      ],
+      "x_range_mm": [
+        6.0,
+        6.4
+      ]
+    },
+    {
+      "face": 4500,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -3.1,
+        1.45
+      ],
+      "x_range_mm": [
+        6.0,
+        7.05
+      ]
+    },
+    {
+      "face": 5644,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -0.477,
+        1.05
+      ],
+      "x_range_mm": [
+        -6.1,
+        -6.1
+      ]
+    },
+    {
+      "face": 5808,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -0.4,
+        1.05
+      ],
+      "x_range_mm": [
+        -6.4,
+        -6.4
+      ]
+    },
+    {
+      "face": 5948,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -0.477,
+        1.05
+      ],
+      "x_range_mm": [
+        -6.1,
+        -6.1
+      ]
+    },
+    {
+      "face": 6112,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -0.4,
+        1.05
+      ],
+      "x_range_mm": [
+        -6.4,
+        -6.4
+      ]
+    },
+    {
+      "face": 6252,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -0.477,
+        1.05
+      ],
+      "x_range_mm": [
+        6.1,
+        6.1
+      ]
+    },
+    {
+      "face": 6416,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -0.4,
+        1.05
+      ],
+      "x_range_mm": [
+        6.4,
+        6.4
+      ]
+    },
+    {
+      "face": 6556,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -0.477,
+        1.05
+      ],
+      "x_range_mm": [
+        6.1,
+        6.1
+      ]
+    },
+    {
+      "face": 6720,
+      "previous_role": "housing",
+      "z_range_mm": [
+        -0.4,
+        1.05
+      ],
+      "x_range_mm": [
+        6.4,
+        6.4
+      ]
+    }
+  ],
+  "rule": "Terminal metal if wholly below the seat (revision 8) or any part outside the 12 x 12 mm housing outline",
+  "geometry_changed": false,
+  "physical_fit_qualified": false
+}

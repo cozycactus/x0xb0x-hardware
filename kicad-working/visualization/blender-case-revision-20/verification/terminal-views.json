@@ -1,0 +1,173 @@
+{
+  "source_scene_sha256": "208430509570a742c2ad5a91f9fbf9fb25e0be36109e2fcb9c267c955e476d5c",
+  "views": [
+    {
+      "model": "NYS216",
+      "reference": "HEADPHONE0",
+      "board": "ioboard",
+      "image": "NYS216.png",
+      "drill_rings": {
+        "R": "interferes",
+        "RN": "interferes",
+        "S": "interferes",
+        "SN": "interferes",
+        "T": "interferes",
+        "TN": "interferes"
+      }
+    },
+    {
+      "model": "SDS50J",
+      "reference": "DIN1",
+      "board": "ioboard",
+      "image": "SDS50J.png",
+      "drill_rings": {
+        "1": "interferes",
+        "2": "interferes",
+        "3": "fits",
+        "4": "fits",
+        "5": "fits",
+        "PE": "fits",
+        "PE@": "fits"
+      }
+    },
+    {
+      "model": "USB",
+      "reference": "USB0",
+      "board": "ioboard",
+      "image": "USB.png",
+      "drill_rings": {
+        "1": "fits",
+        "2": "fits",
+        "3": "fits",
+        "4": "fits",
+        "M2": "interferes",
+        "P$2": "interferes"
+      }
+    },
+    {
+      "model": "MJ3536N",
+      "reference": "CV0",
+      "board": "ioboard",
+      "image": "MJ3536N.png",
+      "drill_rings": {
+        "TIPSHUNT": "fits",
+        "SLEEVE": "fits",
+        "TIP": "fits"
+      }
+    },
+    {
+      "model": "MC78M05",
+      "reference": "IC20",
+      "board": "ioboard",
+      "image": "MC78M05.png",
+      "drill_rings": {
+        "GND": "fits",
+        "IN": "fits",
+        "OUT": "fits"
+      }
+    },
+    {
+      "model": "PJ202AH",
+      "reference": "POWER0",
+      "board": "ioboard",
+      "image": "PJ202AH.png",
+      "drill_rings": {
+        "P$3": "interferes",
+        "P$2": "fits",
+        "P$1": "fits"
+      }
+    },
+    {
+      "model": "LPTC",
+      "reference": "R100A0",
+      "board": "mainboard",
+      "image": "LPTC.png",
+      "drill_rings": {
+        "1": "fits",
+        "2": "fits"
+      }
+    },
+    {
+      "model": "CTS290",
+      "reference": "S2",
+      "board": "mainboard",
+      "image": "CTS290.png",
+      "drill_rings": {
+        "A": "fits",
+        "B": "fits",
+        "C": "fits",
+        "P$1": "fits",
+        "P$2": "fits",
+        "SW1": "fits",
+        "SW2": "fits"
+      }
+    },
+    {
+      "model": "AlphaRV112",
+      "reference": "VR4",
+      "board": "mainboard",
+      "image": "AlphaRV112.png",
+      "drill_rings": {
+        "1A": "fits",
+        "1B": "fits",
+        "2A": "fits",
+        "2B": "fits",
+        "3A": "fits",
+        "3B": "fits",
+        "M1": "fits",
+        "M2": "fits"
+      }
+    },
+    {
+      "model": "PanasonicEVU",
+      "reference": "VR2",
+      "board": "mainboard",
+      "image": "PanasonicEVU.png",
+      "drill_rings": {
+        "1": "fits",
+        "2": "fits",
+        "3": "fits",
+        "M1": "fits",
+        "M2": "fits"
+      }
+    },
+    {
+      "model": "NKKB12AB",
+      "reference": "S1",
+      "board": "mainboard",
+      "image": "NKKB12AB.png",
+      "drill_rings": {
+        "1": "fits",
+        "2": "fits",
+        "3": "fits",
+        "M1": "fits",
+        "M2": "fits",
+        "M3": "fits",
+        "M4": "fits"
+      }
+    },
+    {
+      "model": "Grayhill25L",
+      "reference": "S3",
+      "board": "mainboard",
+      "image": "Grayhill25L.png",
+      "drill_rings": {
+        "C": "fits",
+        "MT1": "empty by design",
+        "MT2": "empty by design",
+        "MT3": "empty by design",
+        "MT4": "empty by design",
+        "P$1": "fits",
+        "P$2": "fits",
+        "P$4": "fits",
+        "P$8": "fits"
+      }
+    }
+  ],
+  "sheet": "terminal-models.png",
+  "sheet_layout": "3 rows of 4, half resolution",
+  "sheet_sha256": "8e111af9e6006a8caa1a19368a888c33be4246fa97d6df6fa162a661ee19e417",
+  "saved_scene_unchanged": true,
+  "read_only": true,
+  "legend": "Model frame, viewed from below the seat at front-right; drill rings on both board faces: green fits, red nominal interference, grey empty by design."
+}

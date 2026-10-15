@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source_snapshot_date": "2026-10-15",
-  "scope": "Current private GitHub snapshot: KiCad working revision16 and Blender revision19 with drawing-derived solder terminals on the twelve previously pinless models, four of them corrected against their drawings all joined to their bodies, and the Grayhill 25L rebuilt from its drawing and a photograph; I/O board on the original rear-panel axial and height datums; immutable Blender7 through18 baselines retained. Original-source function proof, downloaded-model registration measurements and original model corrections are included. Standalone received CAD, trial scenes, archives, probes, caches and redundant GLBs are excluded.",
+  "scope": "Current private GitHub snapshot: KiCad working revision17 and Blender revision20 with drawing-derived solder terminals on the twelve previously pinless models, four of them corrected against their drawings all joined to their bodies, the Grayhill 25L rebuilt from its drawing and a photograph, and TL1100F legs coloured as metal; I/O board on the original rear-panel axial and height datums; immutable Blender7 through19 baselines retained. Original-source function proof, downloaded-model registration measurements and original model corrections are included. Standalone received CAD, trial scenes, archives, probes, caches and redundant GLBs are excluded.",
   "files": {
     ".gitattributes": {
       "bytes": 190,
@@ -16,16 +16,16 @@
       "sha256": "73cc95f62a104053a2602ccc733fc88336b0f3f6329ac3e9bbab827aa26af6f6"
     },
     "PROJECT.json": {
-      "bytes": 1660,
-      "sha256": "6c1d03ee81869b5cea27b1fdc93af1643297a2d140aeba6f779fcc0088e86634"
+      "bytes": 1718,
+      "sha256": "8b018189521bdc9fb511a75065d00ebcde628cbd266242834fef2b9245d43a0c"
     },
     "README.md": {
-      "bytes": 21594,
-      "sha256": "c4b7ad69510ec975c24bd980380024b3aad7c912200badcd95b6360280b5ea7b"
+      "bytes": 22012,
+      "sha256": "e88bc7fdcaf3ae9c017b7c7fe0f340e02e5eff3f0b21196ceb2f7bee85741b4b"
     },
     "docs/OPENING.md": {
-      "bytes": 6987,
-      "sha256": "3fa2c6176d16be1fae21a25e323a5000e31cb2bc73db0cfc3ac51b77c43501fe"
+      "bytes": 7108,
+      "sha256": "b5fde1e6fc252657d5c3440ae083ecf86399a38666c666233966445f0ec437bf"
     },
     "docs/din-contact-correction.json": {
       "bytes": 8848,
@@ -78,6 +78,10 @@
     "docs/terminal-join-correction.json": {
       "bytes": 36935,
       "sha256": "2cd10a29b5fb8ca13b5173f2d4e93a7db72c51731b8868beec3a9d8829ca94bc"
+    },
+    "docs/tl1100f-leg-colour.json": {
+      "bytes": 6353,
+      "sha256": "62eaf70aa953dea43d3ae6a50b63e1ec9b092a67130fbc2d0244eaca9ddb6dea"
     },
     "docs/verification/fresh-clone-blender.json": {
       "bytes": 12492,
@@ -156,8 +160,8 @@
       "sha256": "282b88df6e2fed1d85d2057c10ecfbaee7be45a2e85a9614167fe06266b4cc6a"
     },
     "kicad-working/README.md": {
-      "bytes": 10158,
-      "sha256": "d7641d6578d772e1c927d382afd73782e531162c0f8c2b3afeb60c251d0382aa"
+      "bytes": 10856,
+      "sha256": "955f7d5ffcc012759dd7a96ee4166a5b56fe1d470c61e03268035b597349eb87"
     },
     "kicad-working/ioboard/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step": {
       "bytes": 140022,
@@ -731,6 +735,10 @@
       "bytes": 1681,
       "sha256": "2499dc3b51cc90375c99266e4745a58c11318e326adf8aaf942c868cc4a03b8d"
     },
+    "kicad-working/mainboard/3dmodels/REVISION-17-SOURCES.json": {
+      "bytes": 885,
+      "sha256": "dfe8af923440a3c469ee956fc52dfd56b568694434172a47479da741630068e7"
+    },
     "kicad-working/mainboard/3dmodels/REVISION-5-INTERSECTIONS.json": {
       "bytes": 1904,
       "sha256": "aaf6dbdbbfc1f0861cb64988205925cf68b4ceb4a69a5682bc04d0f3b4cf7a57"
@@ -822,6 +830,10 @@
     "kicad-working/mainboard/3dmodels/Revision16/terminals/Grayhill_25LB22H_PhotoDrawing_Terminals.step": {
       "bytes": 453305,
       "sha256": "83e62824f66ef4e9c761cdb8a5bb25482979cd041551f48196b0a130ddc99f74"
+    },
+    "kicad-working/mainboard/3dmodels/Revision17/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState_MetalLegs.step": {
+      "bytes": 350532,
+      "sha256": "fe2ecfc02dd78ddbcee51a5399c89b530fd4728f3744b261cc046419687b97c3"
     },
     "kicad-working/mainboard/3dmodels/Revision5/integrated-models/Resonator_AWCR16MD_MaxBody_P2.54_Illustration.step": {
       "bytes": 30503,
@@ -1172,8 +1184,8 @@
       "sha256": "842fc2f95f5ceb21bea3ee94bee20b99bf1f80bb52f3f7c0d6f1d93c85c5ae26"
     },
     "kicad-working/mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod": {
-      "bytes": 15772,
-      "sha256": "b0746cf7298cabf92dd01d579a82a4e3f2b994603b1ee05594749fbd5605d544"
+      "bytes": 15783,
+      "sha256": "c16e18a085fc4915d653d6892072cae4b1eadbf5edf5233fc6e2503e0ab18ab9"
     },
     "kicad-working/mainboard/mainboard-import-fps.pretty/C050-024X044.kicad_mod": {
       "bytes": 4120,
@@ -1300,8 +1312,8 @@
       "sha256": "99da721afd86004a7dc19853af8b9a52c1c66e308941fb7162e97d8d30bfc717"
     },
     "kicad-working/mainboard/mainboard.kicad_pcb": {
-      "bytes": 4855243,
-      "sha256": "f56d4130cec142daa509eba5412211aaae9c9d4e3dff45255e4b65b5ef74bde0"
+      "bytes": 4855496,
+      "sha256": "ffde9820f26573f7281e84507979fe4682281e37bca28208ec0cf386da73975a"
     },
     "kicad-working/mainboard/mainboard.kicad_pro": {
       "bytes": 18381,
@@ -2939,6 +2951,102 @@
       "bytes": 803,
       "sha256": "15227f95330ae8eb26491c87619e83cc7bf0d055cb52e8f104bcd4bc813eba29"
     },
+    "kicad-working/validation/models-review-17/README.md": {
+      "bytes": 1813,
+      "sha256": "225656bb48c06d25825ba753760c2a967f42a821055f1196f5ccf173fe9256a5"
+    },
+    "kicad-working/validation/models-review-17/audit_native_terminals.py": {
+      "bytes": 11186,
+      "sha256": "5e4008f054c475d76d4c558111d05780955be63f8b8cf87e416a49fb90389b0d"
+    },
+    "kicad-working/validation/models-review-17/carry_function_evidence.py": {
+      "bytes": 2381,
+      "sha256": "57e8730f0260a2f4314381ad6577077169ca8c5433e7c443534d46c4551ff3fe"
+    },
+    "kicad-working/validation/models-review-17/combined-model-plan.json": {
+      "bytes": 461265,
+      "sha256": "970ccc14ea82efd78e4bc0e556b7b06c264c9e666bf0d989979fb472ee83f06e"
+    },
+    "kicad-working/validation/models-review-17/current-function-source-evidence.json": {
+      "bytes": 41659,
+      "sha256": "1096424fc4eece53a6b0aa4d9c3af0a05884e0af6648d2bcdc42df4004f2a5f9"
+    },
+    "kicad-working/validation/models-review-17/current-function-verification.json": {
+      "bytes": 26522,
+      "sha256": "f863e8ea98cae9585c47d02a44575bff02f9ca951690162dc517d6f17457cab0"
+    },
+    "kicad-working/validation/models-review-17/export_native_boards.py": {
+      "bytes": 3334,
+      "sha256": "51123a6d039142230eb71c37c100c1fb90d1580fe58110ef5266f232893b304d"
+    },
+    "kicad-working/validation/models-review-17/install_tl1100_colour.py": {
+      "bytes": 5680,
+      "sha256": "470b42c715bfcac02aecd58717e3c9b56113117629d9d503dd9a8eca0fd9314c"
+    },
+    "kicad-working/validation/models-review-17/installation-audit.json": {
+      "bytes": 1889,
+      "sha256": "871dd49e9dcc69a31c6ca0333eba0adfaa4eead404ca5e3b1fea01405b314c95"
+    },
+    "kicad-working/validation/models-review-17/ioboard-drc.json": {
+      "bytes": 295145,
+      "sha256": "f7528dd7bbb5cd88d0e44772b132b8f134abfbc6b29603c3ef6ade52dc24de5a"
+    },
+    "kicad-working/validation/models-review-17/ioboard-erc.json": {
+      "bytes": 1001,
+      "sha256": "aea476dcc7ef85c4bca7bcd5236b8fc78a2d362e76aaedd4e01287cebfdfed1d"
+    },
+    "kicad-working/validation/models-review-17/local-dependencies.json": {
+      "bytes": 1518,
+      "sha256": "c22a49b5e2c84faf200356daeaaa5f86440db3c6ea0321469d80924e11400f7c"
+    },
+    "kicad-working/validation/models-review-17/mainboard-drc.json": {
+      "bytes": 399165,
+      "sha256": "b5e2617d203ea99a64bcd9f21d004751a3712081c78ff91c06a65b4bb00a2b2d"
+    },
+    "kicad-working/validation/models-review-17/mainboard-erc.json": {
+      "bytes": 1003,
+      "sha256": "15dbde5d0cbc9eddeee7fd34138e9a236d22c7df1cfdb93334372558437c0520"
+    },
+    "kicad-working/validation/models-review-17/native-export-record.json": {
+      "bytes": 1725,
+      "sha256": "8cccd66f0207369def60f08765620b2f716ef5a1398174ac6a9accd91733cbf9"
+    },
+    "kicad-working/validation/models-review-17/native-run-records.json": {
+      "bytes": 3251,
+      "sha256": "bddfa8d3a2328daf5da0b80af7bfae38ddd63a1b0d2a227ddebd6b9fbc4a7f3b"
+    },
+    "kicad-working/validation/models-review-17/native-terminal-audit.json": {
+      "bytes": 68586,
+      "sha256": "dde989cae3beb07949882a13e6df0bf6d228da770fbca060d0a483854f8a89e5"
+    },
+    "kicad-working/validation/models-review-17/run_native_checks.py": {
+      "bytes": 2585,
+      "sha256": "642f50546682dbdebf33bfbb7dbfea151fc714541aa5d8e94a9940737c9a39a2"
+    },
+    "kicad-working/validation/models-review-17/summarize_working_validation.py": {
+      "bytes": 6680,
+      "sha256": "01d4ae7d8619328a500e23b365b1d7041b50d1ec9a912a5a9efc7bb5b2bb6e2c"
+    },
+    "kicad-working/validation/models-review-17/tl1100-colour/check_native_colours.py": {
+      "bytes": 3770,
+      "sha256": "e45165c15653db9c50c9b988366f3bb52f3e77c26074b989011bb9e20388d71f"
+    },
+    "kicad-working/validation/models-review-17/tl1100-colour/recolour_tl1100.py": {
+      "bytes": 5327,
+      "sha256": "1f8cd4275214de10d553b6b26379433b415cc8c081ae8b894ea3f87100c59478"
+    },
+    "kicad-working/validation/models-review-17/tl1100-colour/tl1100-colour-audit.json": {
+      "bytes": 5715,
+      "sha256": "60fd753f3673f43b691bed5d5be0710c6d4b5b6413dd0bf9a4716320b5f25e7a"
+    },
+    "kicad-working/validation/models-review-17/tl1100-colour/tl1100-native-colour-check.json": {
+      "bytes": 5313,
+      "sha256": "7664838ad5ab7b4898cdff45fd1d6a252f9e1bda7fbe4b1c3d9ff60f5361bac1"
+    },
+    "kicad-working/validation/models-review-17/verify_current_functions.py": {
+      "bytes": 803,
+      "sha256": "13ad608e66c55afde457c040fa6a8816762521c4aff43dd4e1b4e91f8322cc0b"
+    },
     "kicad-working/validation/nys216-hardware-quality/README.md": {
       "bytes": 4605,
       "sha256": "9624913389c724670454900b6177f99029051f5cd249d2fe7d24f41e86e3bad5"
@@ -3119,9 +3227,13 @@
       "bytes": 54357,
       "sha256": "6009ffbd2a7440c7b243a7e073caa9fe5f0002a7699b3d22891579a9042aa662"
     },
+    "kicad-working/validation/working-validation-summary-revision-17.json": {
+      "bytes": 54956,
+      "sha256": "a53e270a6f6e32d9c5e47ecc7bd19572ac44934a02aff28067eb0ccceefb6ccc"
+    },
     "kicad-working/validation/working-validation-summary.json": {
-      "bytes": 54357,
-      "sha256": "6009ffbd2a7440c7b243a7e073caa9fe5f0002a7699b3d22891579a9042aa662"
+      "bytes": 54956,
+      "sha256": "a53e270a6f6e32d9c5e47ecc7bd19572ac44934a02aff28067eb0ccceefb6ccc"
     },
     "kicad-working/visualization/blender-case-revision-10/README.md": {
       "bytes": 3553,
@@ -4378,6 +4490,146 @@
     "kicad-working/visualization/blender-case-revision-19/x0xb0x-populated-with-case.blend": {
       "bytes": 42412451,
       "sha256": "63c10df2ecfd2859190a14d0444397862aa5caa0860661b201a4bb9b3025c6b9"
+    },
+    "kicad-working/visualization/blender-case-revision-20/README.md": {
+      "bytes": 1893,
+      "sha256": "c94ae933254da8cdec673e6d6bca5ece88157e39a1467175247a8a89fefb3eab"
+    },
+    "kicad-working/visualization/blender-case-revision-20/assembled.png": {
+      "bytes": 2579118,
+      "sha256": "b3771d13b30e7107596965b034923750c2d3583bdf2f74dbc55304c690bb3601"
+    },
+    "kicad-working/visualization/blender-case-revision-20/control-side.png": {
+      "bytes": 3736127,
+      "sha256": "a221a421c1c062306302d260d725e21ea0e652ec590ed504ea1065be44eb3620"
+    },
+    "kicad-working/visualization/blender-case-revision-20/exploded.png": {
+      "bytes": 2955574,
+      "sha256": "22ae8583aa263be97313831f227fd75ef34d30723b9c8db6ab4a10f139ac141f"
+    },
+    "kicad-working/visualization/blender-case-revision-20/io-terminals-detail.png": {
+      "bytes": 1801257,
+      "sha256": "69eec22c007a67e1be338d81ab29e905aa21611019b9a7dd609f56abee055c94"
+    },
+    "kicad-working/visualization/blender-case-revision-20/rear.png": {
+      "bytes": 2725994,
+      "sha256": "5f31cacc1f3d912106b7ae7c6e8d790b12a86a9706ee69aac2f40648c594d868"
+    },
+    "kicad-working/visualization/blender-case-revision-20/render-records.json": {
+      "bytes": 2126,
+      "sha256": "32eb2e1d5ffe918ad53e238e0349b0c8242cd6759263f464f9d7254825e728a8"
+    },
+    "kicad-working/visualization/blender-case-revision-20/render_scene.py": {
+      "bytes": 6508,
+      "sha256": "4b89ede38440aac78710eb173b76b2aa5c3c93b04df27d512fe0420a83df84ee"
+    },
+    "kicad-working/visualization/blender-case-revision-20/revision-20-change-record.json": {
+      "bytes": 139346,
+      "sha256": "2051b19d3acb9e2f35353e75d6e860692a8f6c41bfbced1a21141e93051b7df8"
+    },
+    "kicad-working/visualization/blender-case-revision-20/terminal-models.png": {
+      "bytes": 1333420,
+      "sha256": "8e111af9e6006a8caa1a19368a888c33be4246fa97d6df6fa162a661ee19e417"
+    },
+    "kicad-working/visualization/blender-case-revision-20/tl1100f.png": {
+      "bytes": 917792,
+      "sha256": "803dfaeaaac8995534d119d1a980109eee97e5bfad97b695abcfa407c311829e"
+    },
+    "kicad-working/visualization/blender-case-revision-20/update_tl1100_colour.py": {
+      "bytes": 9794,
+      "sha256": "3368e9120be2bb6f0cc473ded783ee13bb17cefea64a3ef85e78e7a2932d4e47"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/README.md": {
+      "bytes": 2610,
+      "sha256": "a27aeab55c0e51894ce4f88d97813926b23d60a74a618cb4c74557a3310ea249"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/after-scene.json.gz": {
+      "bytes": 971074,
+      "sha256": "4cfabc0a388f0c53cdad77843df250ff48a1d2d65d8f3d2412140b229f075fce"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/audit_kicad_models.py": {
+      "bytes": 490,
+      "sha256": "9e86e0cf1ccd83e2e25a11e4641d7c198d4391bc7cd9e27d6871a95a4275a401"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/audit_portability.py": {
+      "bytes": 427,
+      "sha256": "1c67479336884a383d144a8359680c86672c7a721b0ffa9f0806ab43060446f3"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/audit_saved_scene.py": {
+      "bytes": 8399,
+      "sha256": "ff3cacbbe8551741906ba20da09fc20edcc478e97e9e82da317d40a6407c0f7b"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/audit_terminal_joins.py": {
+      "bytes": 474,
+      "sha256": "36b7690b5674a98071bf700c6d414e74995f863163459a8706cac84d58809a97"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/before-scene.json.gz": {
+      "bytes": 970477,
+      "sha256": "6195c44b14b7bd220c44e4fd4e435b18a00ca7e744b7fb30f24cfe51e101bc02"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/final-render-review.json": {
+      "bytes": 1983,
+      "sha256": "f574f125c7b293d04ba5427bc805e8a49a4ef3b8968a147d4408b7f72a4ce33c"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/final-saved-scene-audit.json": {
+      "bytes": 2132,
+      "sha256": "412bd7081d60d3d1c4ba83f63e86427ad0df513e57c89cb5362d102e9212e8d3"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/independent-validation-summary.json": {
+      "bytes": 6122,
+      "sha256": "01125ec3da226fc0b728abc0b2babcc5333afdaf4e88a5b560bbe4e4bc680d6e"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/kicad-blender-models-audit.json": {
+      "bytes": 2820,
+      "sha256": "098384473bff763536412f955f3debb2a6bd6d945f2e05c45a1b0592adca84e4"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/portable-scene-audit.json": {
+      "bytes": 12527,
+      "sha256": "ba67b85d58dee6e331ab434dbf157d636476d933795f8c01b65425acf7b0ada2"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/rear-openings-audit.json": {
+      "bytes": 119446,
+      "sha256": "871234377d06c48aba0e613fef96d2b5893d3f049853f9858303772e02e98bf4"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/render-readonly-verification.json": {
+      "bytes": 275,
+      "sha256": "daefeca657850942b49506480d5163380cd5c92127732fe869fbfc2a0ec0fffc"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/render_terminal_sheet.py": {
+      "bytes": 8683,
+      "sha256": "b566ff95c5d55da4860ff270e84e43b72edc938e2ad88c03bab602e897b6ed16"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/render_tl1100f.py": {
+      "bytes": 3447,
+      "sha256": "1758ba0fb2da118dff3af185392f05b788c9d7ba3bd085a4546ceb753a7915a0"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/run_verification.sh": {
+      "bytes": 1368,
+      "sha256": "cee77b3168ec34c08feb0ee3263decf60e097e25ca2e876ef66d6b16fb993861"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/scene_snapshot.py": {
+      "bytes": 11397,
+      "sha256": "9c6576a9a05cba01736055f45d35e751edb1df57933c9b16b9c9e7faa1c8d642"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/summarize_revision.py": {
+      "bytes": 6471,
+      "sha256": "e2add3d39517c75cfb98acd860db77ed18fd10f155a70a69930fe6defa9167cd"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/terminal-join-audit.json": {
+      "bytes": 4717,
+      "sha256": "f83a80575fa4f46629487ee26c2df2b4cc52771e5b32a0c80fe6ba0cdc4d502d"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/terminal-views.json": {
+      "bytes": 3912,
+      "sha256": "82255dcce2028251034b812c8b060b5e0362928be3c22b9d9b77bf32830a2e15"
+    },
+    "kicad-working/visualization/blender-case-revision-20/verification/tl1100f-render.json": {
+      "bytes": 335,
+      "sha256": "85b8c9cdd318637a1c35488ed4897d4f87cb184147cb411f256382f7678f11c4"
+    },
+    "kicad-working/visualization/blender-case-revision-20/x0xb0x-populated-with-case.blend": {
+      "bytes": 42627844,
+      "sha256": "208430509570a742c2ad5a91f9fbf9fb25e0be36109e2fcb9c267c955e476d5c"
     },
     "kicad-working/visualization/blender-case-revision-7/README.md": {
       "bytes": 4279,
@@ -7360,5 +7612,5 @@
       "sha256": "9e3b4c0ac2769c16fc1ec163b3889fc0fae7db6849794d3b28b5aa39c0247efb"
     }
   },
-  "verification_note": "Current Blender19 evidence covers complete saved-file comparison with revision18, 491 KiCad-vs-scene model matches, 133 terminal pieces joined to their bodies, 974 rear rays, 106 portability checks, the terminal drill-ring sheet, a Grayhill close-up and five rendered views. KiCad16 evidence covers the Grayhill body (18 checks), terminal-model solid and join checks for all 62 terminals, a native lead and drill-fit audit with 11 recorded nominal interferences, and fresh ERC/DRC for both boards equal to the previous reports. scripts/verify_drill_fit.py and scripts/verify_terminal_joins.py check all placed models. No physical-fit qualification."
+  "verification_note": "Current Blender20 evidence covers complete saved-file comparison with revision19, 491 KiCad-vs-scene model matches, 133 terminal pieces joined to their bodies, 974 rear rays, 106 portability checks, the terminal drill-ring sheet, Grayhill and TL1100F close-ups and five rendered views. KiCad17 evidence covers the TL1100F colour-only STEP update with native colour checks on 23 switches, the Grayhill body (18 checks), terminal-model solid and join checks for all 62 terminals, a native lead and drill-fit audit with 11 recorded nominal interferences, and fresh ERC/DRC for both boards equal to the previous reports. scripts/verify_drill_fit.py and scripts/verify_terminal_joins.py check all placed models. No physical-fit qualification."
 }

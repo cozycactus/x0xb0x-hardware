@@ -1,0 +1,5380 @@
+{
+  "passed": true,
+  "check_count": 44,
+  "ray_count": 974,
+  "rear_port_count": 11,
+  "audio_hardware_count": 6,
+  "scene": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/visualization/blender-case-revision-20/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "208430509570a742c2ad5a91f9fbf9fb25e0be36109e2fcb9c267c955e476d5c",
+  "blender_version": "5.2.2 LTS",
+  "method": "Frame 1 evaluated dependency-graph instance matrices and native per-mesh BVH raycasts from the exterior.",
+  "ports": [
+    {
+      "reference": "HEADPHONE0",
+      "opening_ray_count": 35,
+      "minimum_clear_depth_mm": 8.6,
+      "native_face_axis_world_mm": [
+        80.01000434160233,
+        205.41992783546448,
+        20.649202167987823
+      ]
+    },
+    {
+      "reference": "MIXIN0",
+      "opening_ray_count": 35,
+      "minimum_clear_depth_mm": 8.6,
+      "native_face_axis_world_mm": [
+        -72.13599979877472,
+        205.41994273662567,
+        20.649202167987823
+      ]
+    },
+    {
+      "reference": "MIXOUT0",
+      "opening_ray_count": 35,
+      "minimum_clear_depth_mm": 8.6,
+      "native_face_axis_world_mm": [
+        15.24000708013773,
+        205.41992783546448,
+        20.649202167987823
+      ]
+    },
+    {
+      "reference": "CV0",
+      "opening_ray_count": 35,
+      "minimum_clear_depth_mm": 8.0,
+      "native_face_axis_world_mm": [
+        48.76800626516342,
+        199.41194355487823,
+        18.149200826883316
+      ]
+    },
+    {
+      "reference": "GATE0",
+      "opening_ray_count": 35,
+      "minimum_clear_depth_mm": 8.0,
+      "native_face_axis_world_mm": [
+        61.46800518035889,
+        199.41192865371704,
+        18.149200826883316
+      ]
+    },
+    {
+      "reference": "POWER0",
+      "opening_ray_count": 8,
+      "minimum_clear_depth_mm": 3.0,
+      "native_face_axis_world_mm": [
+        98.0440080165863,
+        199.2059201002121,
+        19.14920099079609
+      ]
+    },
+    {
+      "reference": "USB0",
+      "opening_ray_count": 8,
+      "minimum_clear_depth_mm": 5.0,
+      "native_face_axis_world_mm": [
+        35.05200892686844,
+        199.2059350013733,
+        17.959199845790863
+      ]
+    },
+    {
+      "reference": "DIN1",
+      "opening_ray_count": 18,
+      "minimum_clear_depth_mm": 5.5,
+      "native_face_axis_world_mm": [
+        -6.8579912185668945,
+        196.41193747520447,
+        22.64920063316822
+      ]
+    },
+    {
+      "reference": "DIN2",
+      "opening_ray_count": 18,
+      "minimum_clear_depth_mm": 5.5,
+      "native_face_axis_world_mm": [
+        -28.44800055027008,
+        196.41193747520447,
+        22.64920063316822
+      ]
+    },
+    {
+      "reference": "DIN3",
+      "opening_ray_count": 18,
+      "minimum_clear_depth_mm": 5.5,
+      "native_face_axis_world_mm": [
+        -50.03799498081207,
+        196.41195237636566,
+        22.64920063316822
+      ]
+    },
+    {
+      "reference": "DIN4",
+      "opening_ray_count": 18,
+      "minimum_clear_depth_mm": 5.5,
+      "native_face_axis_world_mm": [
+        -94.23398971557617,
+        196.41195237636566,
+        22.64920063316822
+      ]
+    }
+  ],
+  "failures": [],
+  "checks": [
+    {
+      "check": "HEADPHONE0 mating axis faces the exterior",
+      "passed": true,
+      "outward_axis": [
+        1.5099580252808664e-07,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "check": "HEADPHONE0 mating passage reaches its intended depth",
+      "passed": true,
+      "ray_count": 35,
+      "minimum_clear_depth_mm": 8.6,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "HEADPHONE0 retains its native through bore",
+      "passed": true,
+      "native_hits": []
+    },
+    {
+      "check": "HEADPHONE0 / black ABS washer proxy clears the nominal threaded bushing",
+      "passed": true,
+      "native_bushing_diameter_mm": 9.525,
+      "sampled_max_diameter_mm": 9.515475,
+      "ray_count": 100,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "HEADPHONE0 / black PA6 nut proxy clears the nominal threaded bushing",
+      "passed": true,
+      "native_bushing_diameter_mm": 9.525,
+      "sampled_max_diameter_mm": 9.515475,
+      "ray_count": 100,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "MIXIN0 mating axis faces the exterior",
+      "passed": true,
+      "outward_axis": [
+        1.5099580252808664e-07,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "check": "MIXIN0 mating passage reaches its intended depth",
+      "passed": true,
+      "ray_count": 35,
+      "minimum_clear_depth_mm": 8.6,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "MIXIN0 retains its native through bore",
+      "passed": true,
+      "native_hits": []
+    },
+    {
+      "check": "MIXIN0 / black ABS washer proxy clears the nominal threaded bushing",
+      "passed": true,
+      "native_bushing_diameter_mm": 9.525,
+      "sampled_max_diameter_mm": 9.515475,
+      "ray_count": 100,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "MIXIN0 / black PA6 nut proxy clears the nominal threaded bushing",
+      "passed": true,
+      "native_bushing_diameter_mm": 9.525,
+      "sampled_max_diameter_mm": 9.515475,
+      "ray_count": 100,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "MIXOUT0 mating axis faces the exterior",
+      "passed": true,
+      "outward_axis": [
+        1.5099580252808664e-07,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "check": "MIXOUT0 mating passage reaches its intended depth",
+      "passed": true,
+      "ray_count": 35,
+      "minimum_clear_depth_mm": 8.6,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "MIXOUT0 retains its native through bore",
+      "passed": true,
+      "native_hits": []
+    },
+    {
+      "check": "MIXOUT0 / black ABS washer proxy clears the nominal threaded bushing",
+      "passed": true,
+      "native_bushing_diameter_mm": 9.525,
+      "sampled_max_diameter_mm": 9.515475,
+      "ray_count": 100,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "MIXOUT0 / black PA6 nut proxy clears the nominal threaded bushing",
+      "passed": true,
+      "native_bushing_diameter_mm": 9.525,
+      "sampled_max_diameter_mm": 9.515475,
+      "ray_count": 100,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.25-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a11",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a33",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a55",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a77",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a99",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a121",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a143",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a165",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a187",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a209",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a231",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a253",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a275",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a297",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a319",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a341",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.999-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "CV0 mating axis faces the exterior",
+      "passed": true,
+      "outward_axis": [
+        1.5099580252808664e-07,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "check": "CV0 mating passage reaches its intended depth",
+      "passed": true,
+      "ray_count": 35,
+      "minimum_clear_depth_mm": 8.0,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "CV0 retains its intended recessed blind back",
+      "passed": true,
+      "first_hit_depth_mm": 17.100006341934765
+    },
+    {
+      "check": "GATE0 mating axis faces the exterior",
+      "passed": true,
+      "outward_axis": [
+        1.5099580252808664e-07,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "check": "GATE0 mating passage reaches its intended depth",
+      "passed": true,
+      "ray_count": 35,
+      "minimum_clear_depth_mm": 8.0,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.7-a352",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "GATE0 retains its intended recessed blind back",
+      "passed": true,
+      "first_hit_depth_mm": 17.100006341934765
+    },
+    {
+      "check": "POWER0 mating axis faces the exterior",
+      "passed": true,
+      "outward_axis": [
+        1.5099580252808664e-07,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "check": "POWER0 mating passage reaches its intended depth",
+      "passed": true,
+      "ray_count": 8,
+      "minimum_clear_depth_mm": 3.0,
+      "observations": [
+        {
+          "sample": "annulus-0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "annulus-45",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "annulus-90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "annulus-135",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "annulus-180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "annulus-225",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "annulus-270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "annulus-315",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "POWER0 retains its recessed center mating pin",
+      "passed": true,
+      "first_hit_depth_mm": 1.0226815938949585
+    },
+    {
+      "check": "USB0 mating axis faces the exterior",
+      "passed": true,
+      "outward_axis": [
+        1.5099580252808664e-07,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "check": "USB0 mating passage reaches its intended depth",
+      "passed": true,
+      "ray_count": 8,
+      "minimum_clear_depth_mm": 5.0,
+      "observations": [
+        {
+          "sample": "left",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "right",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "below",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "above",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "upper-left",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "upper-right",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "lower-left",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "lower-right",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "USB0 retains its recessed insulating tongue",
+      "passed": true,
+      "first_hit_depth_mm": 1.3000071048742197
+    },
+    {
+      "check": "DIN1 mating axis faces the exterior",
+      "passed": true,
+      "outward_axis": [
+        1.5099580252808664e-07,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "check": "DIN1 mating passage reaches its intended depth",
+      "passed": true,
+      "ray_count": 18,
+      "minimum_clear_depth_mm": 5.5,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "DIN1 retains its intended recessed socket insert",
+      "passed": true,
+      "first_hit_depth_mm": 5.799993872642657
+    },
+    {
+      "check": "DIN1 has five open contact bores through its insert",
+      "passed": true,
+      "contact_count": 5,
+      "minimum_clear_depth_mm": 7.3,
+      "ray_count": 25,
+      "observations": [
+        {
+          "contact_angle_deg": 0,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "DIN2 mating axis faces the exterior",
+      "passed": true,
+      "outward_axis": [
+        1.5099580252808664e-07,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "check": "DIN2 mating passage reaches its intended depth",
+      "passed": true,
+      "ray_count": 18,
+      "minimum_clear_depth_mm": 5.5,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "DIN2 retains its intended recessed socket insert",
+      "passed": true,
+      "first_hit_depth_mm": 5.800008773803711
+    },
+    {
+      "check": "DIN2 has five open contact bores through its insert",
+      "passed": true,
+      "contact_count": 5,
+      "minimum_clear_depth_mm": 7.3,
+      "ray_count": 25,
+      "observations": [
+        {
+          "contact_angle_deg": 0,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "DIN3 mating axis faces the exterior",
+      "passed": true,
+      "outward_axis": [
+        1.5099580252808664e-07,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "check": "DIN3 mating passage reaches its intended depth",
+      "passed": true,
+      "ray_count": 18,
+      "minimum_clear_depth_mm": 5.5,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "DIN3 retains its intended recessed socket insert",
+      "passed": true,
+      "first_hit_depth_mm": 5.79999387264308
+    },
+    {
+      "check": "DIN3 has five open contact bores through its insert",
+      "passed": true,
+      "contact_count": 5,
+      "minimum_clear_depth_mm": 7.3,
+      "ray_count": 25,
+      "observations": [
+        {
+          "contact_angle_deg": 0,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "DIN4 mating axis faces the exterior",
+      "passed": true,
+      "outward_axis": [
+        1.5099580252808664e-07,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "check": "DIN4 mating passage reaches its intended depth",
+      "passed": true,
+      "ray_count": 18,
+      "minimum_clear_depth_mm": 5.5,
+      "observations": [
+        {
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a22",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a44",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a66",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a88",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a110",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a132",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a154",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a176",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a198",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a220",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a242",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a264",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a286",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a308",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a330",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "sample": "r0.95-a352",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "DIN4 retains its intended recessed socket insert",
+      "passed": true,
+      "first_hit_depth_mm": 5.800008773803711
+    },
+    {
+      "check": "DIN4 has five open contact bores through its insert",
+      "passed": true,
+      "contact_count": 5,
+      "minimum_clear_depth_mm": 7.3,
+      "ray_count": 25,
+      "observations": [
+        {
+          "contact_angle_deg": 0,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 0,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 180,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 225,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 270,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "center",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a0",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a90",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a180",
+          "passed": true,
+          "first_hit": null
+        },
+        {
+          "contact_angle_deg": 315,
+          "sample": "r1.0-a270",
+          "passed": true,
+          "first_hit": null
+        }
+      ]
+    },
+    {
+      "check": "Read-only checks left saved scene bytes unchanged",
+      "passed": true
+    }
+  ],
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "scope": "Sampled visual mating apertures, nominal bushing passage and preservation of intended recessed internals; not thread, plug, seating, cable-clearance or physical-fit certification."
+}

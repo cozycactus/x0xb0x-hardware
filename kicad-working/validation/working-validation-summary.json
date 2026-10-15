@@ -1,6 +1,6 @@
 {
-  "revision": "Working revision16: Grayhill 25L body rebuilt from its drawing and a product photograph",
-  "created_utc": "2026-10-15T16:12:10.597182+00:00",
+  "revision": "Working revision17: TL1100F terminal legs coloured as metal (geometry unchanged)",
+  "created_utc": "2026-10-15T16:28:32.341826+00:00",
   "native_kicad_version": "10.0.7",
   "projects": {
     "mainboard": {
@@ -91,12 +91,12 @@
           "description": "Missing connection between items",
           "items": [
             {
-              "description": "PTH pad S [GND] of MIXOUT0",
+              "description": "Track (arc) [GND] on F.Cu, length 3.3411 mm",
               "pos": {
-                "x": 99.54,
+                "x": 101.667,
                 "y": -3.842
               },
-              "uuid": "5ce3eba1-b809-418c-92f5-642bf92fe6b9"
+              "uuid": "213a7286-c228-48cf-8b59-b6bfff39663b"
             },
             {
               "description": "Track [GND] on B.Cu, length 4.4730 mm",
@@ -276,6 +276,7 @@
     "mainboard/3dmodels/REVISION-14-SOURCES.json": "c443696ef7428ddeeafb9a99d4a93e88ee691b7d2521226d3948889f0da7b4d4",
     "mainboard/3dmodels/REVISION-15-SOURCES.json": "236e42c46ba1c91c5c3ae833b7ca8ca043bd52202d8df9efa724565c8f85e694",
     "mainboard/3dmodels/REVISION-16-SOURCES.json": "2499dc3b51cc90375c99266e4745a58c11318e326adf8aaf942c868cc4a03b8d",
+    "mainboard/3dmodels/REVISION-17-SOURCES.json": "dfe8af923440a3c469ee956fc52dfd56b568694434172a47479da741630068e7",
     "mainboard/3dmodels/REVISION-5-INTERSECTIONS.json": "aaf6dbdbbfc1f0861cb64988205925cf68b4ceb4a69a5682bc04d0f3b4cf7a57",
     "mainboard/3dmodels/REVISION-5-SOURCES.json": "5f7d9d98f44ab69f87cbef05bb19161d7d7cc596cc89a204be8f8b64126a8513",
     "mainboard/3dmodels/REVISION-6-SOURCES.json": "bc5734dc671a86cb3fab9048f76b1febcaf7c7f4fe9580d90f8335161e9b416e",
@@ -299,6 +300,7 @@
     "mainboard/3dmodels/Revision15/terminals/NKK_B12AB_DetailedCandidate_Terminals.step": "1e97bf3227bab2c52f1855487e9f8474b66ea2ecbcd83becb549f0823496cfd9",
     "mainboard/3dmodels/Revision15/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step": "74d1ec6877dfa6543ec35123bc033cd361a5140623bdd52b8e7aa461e81f6b97",
     "mainboard/3dmodels/Revision16/terminals/Grayhill_25LB22H_PhotoDrawing_Terminals.step": "83e62824f66ef4e9c761cdb8a5bb25482979cd041551f48196b0a130ddc99f74",
+    "mainboard/3dmodels/Revision17/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState_MetalLegs.step": "fe2ecfc02dd78ddbcee51a5399c89b530fd4728f3744b261cc046419687b97c3",
     "mainboard/3dmodels/Revision5/integrated-models/Resonator_AWCR16MD_MaxBody_P2.54_Illustration.step": "a9cab63f2cba58e776998905e5234d17f380e69914a32637e3c28c6bba854b08",
     "mainboard/3dmodels/Revision5/integrated-models/SIP9_BA6110_NominalBody_P2.54_Illustration.step": "622e8623379f94e50032a7580650d2bc80fccb2a417783c2abe0e08656dd3e1e",
     "mainboard/3dmodels/Revision5/integrated-models/SIP9_LA4140_3017C_MaxBody_P2.54_Illustration.step": "75aa32f403890c20388e09bd30915dd194f7ede3de01e86291f05a7f5e390045",
@@ -386,7 +388,7 @@
     "mainboard/mainboard-import-fps.pretty/2SK30.kicad_mod": "f6e2dd456b0f53a138cc1034730995c7712b6f13a3817a4f9e1288ebb722648e",
     "mainboard/mainboard-import-fps.pretty/306.kicad_mod": "171d5ea1ea0767d03ef80f39fd862b96846740e792d89e28ce5f30c7fa0bdacd",
     "mainboard/mainboard-import-fps.pretty/ALPHADUAL.kicad_mod": "842fc2f95f5ceb21bea3ee94bee20b99bf1f80bb52f3f7c0d6f1d93c85c5ae26",
-    "mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod": "b0746cf7298cabf92dd01d579a82a4e3f2b994603b1ee05594749fbd5605d544",
+    "mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod": "c16e18a085fc4915d653d6892072cae4b1eadbf5edf5233fc6e2503e0ab18ab9",
     "mainboard/mainboard-import-fps.pretty/C050-024X044.kicad_mod": "5d29ffb09193934d6bfddc7b15c2af64cb394c898bfcbdcfe5942154f9665510",
     "mainboard/mainboard-import-fps.pretty/C050-025X075.kicad_mod": "4d6d1c8babbebb05ab68e279d085685f4fad9bfb4d6c8a42469483f21a997d28",
     "mainboard/mainboard-import-fps.pretty/C050-030X075.kicad_mod": "883275e808b6330a2977d0b2980165e7b765986173f188012d3a54c5a0a42e0c",
@@ -418,38 +420,59 @@
     "mainboard/mainboard-import-fps.pretty/SIP9.kicad_mod": "fd2162f50298bcac99197e429d3a041cfb040635968859e979d814b8b7f24f6c",
     "mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod": "04c416963cb00adb9fcc994e45f410e4e98879390fdac0d3ed0579db6d9e15c5",
     "mainboard/mainboard-import-fps.pretty/TO92.kicad_mod": "99da721afd86004a7dc19853af8b9a52c1c66e308941fb7162e97d8d30bfc717",
-    "mainboard/mainboard.kicad_pcb": "f56d4130cec142daa509eba5412211aaae9c9d4e3dff45255e4b65b5ef74bde0",
+    "mainboard/mainboard.kicad_pcb": "ffde9820f26573f7281e84507979fe4682281e37bca28208ec0cf386da73975a",
     "mainboard/mainboard.kicad_pro": "87aeeeb92fe20492ff1aa73b261114cafb57b0553370ec2d9eafded5886ae873",
     "mainboard/mainboard.kicad_sch": "048af535f76cfa6b3acc6b1bd9a9c603b213b7dd0de759cf7f848d8f7856e190",
     "mainboard/sym-lib-table": "ab580635180f3beb7cc7aa3941e515c3e1461bef4ee63ec6679fad3c76336702"
   },
   "model_references": 491,
   "updated_model_references": [
-    "S3",
-    "S4"
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19",
+    "S20",
+    "S21",
+    "S22",
+    "S23",
+    "S24",
+    "S25",
+    "S26",
+    "S27",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9"
   ],
-  "previous_core_files": 287,
+  "previous_core_files": 289,
   "changed_previous_core_files": [
-    "mainboard/mainboard-import-fps.pretty/GH3074.kicad_mod",
+    "mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod",
     "mainboard/mainboard.kicad_pcb"
   ],
   "new_core_files": [
-    "mainboard/3dmodels/Revision16/terminals/Grayhill_25LB22H_PhotoDrawing_Terminals.step",
-    "mainboard/3dmodels/REVISION-16-SOURCES.json"
+    "mainboard/3dmodels/Revision17/control-quality/TL1100F_ManufacturerCAD_FullNominalFreeState_MetalLegs.step",
+    "mainboard/3dmodels/REVISION-17-SOURCES.json"
   ],
   "fresh_DRC_comparison_to_previous": {
     "mainboard": {
       "violations": true,
       "schematic_parity": true,
       "ignored_checks": true,
-      "unconnected_items_raw": false,
+      "unconnected_items_raw": true,
       "unconnected_count_and_nets": true
     },
     "ioboard": {
       "violations": true,
       "schematic_parity": true,
       "ignored_checks": true,
-      "unconnected_items_raw": true,
+      "unconnected_items_raw": false,
       "unconnected_count_and_nets": true
     }
   },
@@ -689,24 +712,24 @@
     }
   ],
   "reports": {
-    "installation-audit.json": "4fbfd3a631826797e2373f1226db5aba6fbc957379726d877c8d5ba8b7c5aebe",
-    "combined-model-plan.json": "da9c692806a9d46a2f7f287dd4b51185ba89c30c502085dc56f2f23361ee591a",
-    "terminal-quality/terminal-model-audit.json": "5cd5d11fa8dedd3b1e9bd2e340177e5603cec7b418255522ee80f08342f33185",
-    "terminal-quality/terminal-join-audit.json": "2f4b10c128d12e351dce92117d2b6e14b2614743705020c14dc78aad4ace829f",
-    "native-export-record.json": "6840b5a802fb442b6f44af5c5def0543e6a55b100261534be5d8d07741b88c6e",
-    "native-terminal-audit.json": "e582b098bfec3540af6eb7928638c65a1925d99406153ed6abaaa45f8449f2ec",
-    "native-run-records.json": "697430da3efd6ec2e614ce950994941c393e813ecee0470f1df532b94a75f297",
-    "current-function-source-evidence.json": "78e7cd3bcd81224f4b6a8294668356ddd0e5eda729e9aeafb1c2ad4c405166db",
-    "current-function-verification.json": "aff7d12dc5f3d3ce4d94b6bc6ea67d5358c7425948f59d82e609e82e967910f5",
+    "installation-audit.json": "871dd49e9dcc69a31c6ca0333eba0adfaa4eead404ca5e3b1fea01405b314c95",
+    "combined-model-plan.json": "970ccc14ea82efd78e4bc0e556b7b06c264c9e666bf0d989979fb472ee83f06e",
+    "tl1100-colour/tl1100-colour-audit.json": "60fd753f3673f43b691bed5d5be0710c6d4b5b6413dd0bf9a4716320b5f25e7a",
+    "tl1100-colour/tl1100-native-colour-check.json": "7664838ad5ab7b4898cdff45fd1d6a252f9e1bda7fbe4b1c3d9ff60f5361bac1",
+    "native-export-record.json": "8cccd66f0207369def60f08765620b2f716ef5a1398174ac6a9accd91733cbf9",
+    "native-terminal-audit.json": "dde989cae3beb07949882a13e6df0bf6d228da770fbca060d0a483854f8a89e5",
+    "native-run-records.json": "bddfa8d3a2328daf5da0b80af7bfae38ddd63a1b0d2a227ddebd6b9fbc4a7f3b",
+    "current-function-source-evidence.json": "1096424fc4eece53a6b0aa4d9c3af0a05884e0af6648d2bcdc42df4004f2a5f9",
+    "current-function-verification.json": "f863e8ea98cae9585c47d02a44575bff02f9ca951690162dc517d6f17457cab0",
     "local-dependencies.json": "c22a49b5e2c84faf200356daeaaa5f86440db3c6ea0321469d80924e11400f7c",
-    "mainboard-drc.json": "529627dd1d2e89bc5f127d92a66004c55d6f9f7c308df7cd7155c2ed54a644f2",
-    "mainboard-erc.json": "3f6335f0cff4951a27c6a8ae0b808f74c912d392ff55f64b06135952f0bcbe03",
-    "ioboard-drc.json": "25549de9f0929b27b6466344ff1c97bb2f6e952121561d38865fa84a853510e1",
-    "ioboard-erc.json": "d01408f9713bcf41eddadcbd1f6d8d68a424ded08e4aeaea274343773dd007a5"
+    "mainboard-drc.json": "b5e2617d203ea99a64bcd9f21d004751a3712081c78ff91c06a65b4bb00a2b2d",
+    "mainboard-erc.json": "15dbde5d0cbc9eddeee7fd34138e9a236d22c7df1cfdb93334372558437c0520",
+    "ioboard-drc.json": "f7528dd7bbb5cd88d0e44772b132b8f134abfbc6b29603c3ef6ade52dc24de5a",
+    "ioboard-erc.json": "aea476dcc7ef85c4bca7bcd5236b8fc78a2d362e76aaedd4e01287cebfdfed1d"
   },
-  "baseline_summary": "validation/working-validation-summary-revision-15.json",
-  "baseline_summary_sha256": "2213d0ab9bf447ff27de19b9ab80cf228fdf8cf0ad39a4ebcf7aec142562c13a",
-  "scope": "Two PCB STEP paths and one corresponding footprint-cache path only. Original Eagle files, schematics, copper, pads, drills, nets, footprint poses, model transforms and rules are preserved. Previous body solids are retained exactly; terminals follow drawing dimensions in each model frame and were not moved to pads.",
+  "baseline_summary": "validation/working-validation-summary-revision-16.json",
+  "baseline_summary_sha256": "6009ffbd2a7440c7b243a7e073caa9fe5f0002a7699b3d22891579a9042aa662",
+  "scope": "Twenty-three PCB STEP paths and one corresponding footprint-cache path only (colour-only model update). Original Eagle files, schematics, copper, pads, drills, nets, footprint poses, model transforms and rules are preserved. Previous body solids are retained exactly; terminals follow drawing dimensions in each model frame and were not moved to pads.",
   "limitations": [
     "Terminal thicknesses, bends and several widths are labelled assumptions in terminal_spec.py.",
     "Nominal-fit findings record drawing/footprint disagreements; neither source was altered.",

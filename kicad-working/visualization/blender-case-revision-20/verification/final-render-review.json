@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "scene_sha256": "208430509570a742c2ad5a91f9fbf9fb25e0be36109e2fcb9c267c955e476d5c",
+  "view_count": 7,
+  "views": [
+    "assembled",
+    "rear",
+    "exploded",
+    "control-side",
+    "io-terminals-detail",
+    "terminal-models",
+    "tl1100f"
+  ],
+  "method": "Human-visible image inspection after native rendering, a close-up of S19 and a pixel comparison of every view with revision 19. Hashes pin the reviewed images.",
+  "image_sha256": {
+    "assembled.png": "b3771d13b30e7107596965b034923750c2d3583bdf2f74dbc55304c690bb3601",
+    "rear.png": "5f31cacc1f3d912106b7ae7c6e8d790b12a86a9706ee69aac2f40648c594d868",
+    "exploded.png": "22ae8583aa263be97313831f227fd75ef34d30723b9c8db6ab4a10f139ac141f",
+    "control-side.png": "a221a421c1c062306302d260d725e21ea0e652ec590ed504ea1065be44eb3620",
+    "io-terminals-detail.png": "69eec22c007a67e1be338d81ab29e905aa21611019b9a7dd609f56abee055c94",
+    "terminal-models.png": "8e111af9e6006a8caa1a19368a888c33be4246fa97d6df6fa162a661ee19e417",
+    "tl1100f.png": "803dfaeaaac8995534d119d1a980109eee97e5bfad97b695abcfa407c311829e"
+  },
+  "comparison_with_revision_19": {
+    "assembled": "0 of 2,520,000 pixels differ by more than 24 (max 1)",
+    "rear": "0 of 2,520,000 pixels differ by more than 24 (max 0)",
+    "exploded": "72 of 2,520,000 pixels differ by more than 24 (max 53)",
+    "control_side": "4,053 of 2,520,000 pixels differ by more than 24 (max 199)",
+    "io_terminals_detail": "15,092 of 1,350,000 pixels differ by more than 24 (max 71)"
+  },
+  "observations": [
+    "The TL1100F legs are metal from the housing exit to the solder tips; the housing, cover and actuator colours are unchanged.",
+    "The legs show in the control-side view and in 72 pixels of the exploded view; the assembled and rear views are unchanged."
+  ],
+  "limitations": [
+    "Colour-only change; the legs keep the publisher free-state shape and the recorded drill-fit allowance."
+  ],
+  "physical_fit_qualified": false
+}
