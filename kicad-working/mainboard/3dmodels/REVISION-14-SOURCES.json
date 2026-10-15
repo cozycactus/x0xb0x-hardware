@@ -1,0 +1,58 @@
+{
+  "revision": 14,
+  "baseline_revision": 13,
+  "geometry_license": "CC0-1.0 original reconstruction; manufacturer drawing rights retained",
+  "models": [
+    {
+      "key": "AlphaRV112",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "previous_model": "Revision13/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step",
+      "previous_model_sha256": "6e8088a3aeeeb6d04bdaa30e88cf02ea965e1ff313e29a9496c3387b5ba5f335",
+      "model": "Revision14/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step",
+      "model_sha256": "1c69cd253b292497bb99f6d3b76c82e1f853fb763233a0c39634e6440f437263",
+      "original_solids_retained": 12,
+      "terminal_solids": 8,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/potentiometer-quality/sources/alpha-insulated-rv112b-primary.pdf",
+        "title": "Alpha RV112BCF-40 11 mm dual snap-in"
+      },
+      "provenance": {
+        "positions": "Dimensioned: six pins at 2.0 pitch, 11.0 from the tab line; snap-in tab slots 2.0 wide with 13.0 across their outer edges, so tab centres at +-5.5 (revision 13 misread 13.0 as the centre spacing)",
+        "section": "Drawn 0.8 pin width; 0.3 thickness and 0.6 x 1.9 tab section assumed from the 2.0 x 2.1 slots",
+        "length": "Dimensioned 3.5 (pins) and 3.2 (tabs) below the mounting surface"
+      }
+    },
+    {
+      "key": "PanasonicEVU",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ],
+      "previous_model": "Revision13/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "previous_model_sha256": "836769f73057150ae894762da05a024319280c526a4f2b7c5f8d9d9d142023ee",
+      "model": "Revision14/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "model_sha256": "78f2e2bf9803cd0de9b46b20d6b26b7a48c6d2b2996974cee645f8ded066690c",
+      "original_solids_retained": 9,
+      "terminal_solids": 5,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/potentiometer-quality/sources/panasonic-evu-primary-mirror.pdf",
+        "title": "Panasonic EVUF2L No. 8 (2005)"
+      },
+      "provenance": {
+        "positions": "Dimensioned piercing plan: #1-#3 at 2.5 pitch 7.00 from the tab line; tab slots 1.6 wide with 10.60 across their outer edges, so tab centres at +-4.50 (revision 13 misread 10.60 as the centre spacing)",
+        "section": "Sister-type dimension 0.8 terminal width; 0.3 thickness and 0.6 x 2.0 tab section assumed from 1.6 x 2.2 slots",
+        "length": "Dimensioned 3.7 below the mounting surface"
+      }
+    }
+  ],
+  "native_assignment_transforms": "unchanged from revision 13",
+  "terminal_positions": "Drawing dimensions in each model frame; never moved to PCB pads",
+  "downloaded_CAD_geometry_incorporated": false,
+  "physical_fit_qualified": false
+}

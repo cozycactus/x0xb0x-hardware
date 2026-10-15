@@ -4,16 +4,16 @@ Private working repository for the x0xb0x Eagle-to-KiCad conversion and reconstr
 
 ## Open the current projects
 
-- [Mainboard — KiCad working revision 13](kicad-working/mainboard/mainboard.kicad_pro)
-- [I/O board — KiCad working revision 13](kicad-working/ioboard/ioboard.kicad_pro)
-- [Complete assembly — Blender revision 16](kicad-working/visualization/blender-case-revision-16/x0xb0x-populated-with-case.blend)
-- [KiCad notes](kicad-working/README.md) and [Blender views and limitations](kicad-working/visualization/blender-case-revision-16/README.md)
+- [Mainboard — KiCad working revision 14](kicad-working/mainboard/mainboard.kicad_pro)
+- [I/O board — KiCad working revision 14](kicad-working/ioboard/ioboard.kicad_pro)
+- [Complete assembly — Blender revision 17](kicad-working/visualization/blender-case-revision-17/x0xb0x-populated-with-case.blend)
+- [KiCad notes](kicad-working/README.md) and [Blender views and limitations](kicad-working/visualization/blender-case-revision-17/README.md)
 
 Keep each complete project folder together: symbols, footprints and STEP models use project-relative paths. The Blender file embeds the populated boards and can be opened without the original workspace or external board exports. It was saved with Blender 5.0.0. The current KiCad projects were checked using KiCad 10.0.7.
 
 See [opening and verification instructions](docs/OPENING.md) for a fresh download.
 
-![Assembled x0xb0x](kicad-working/visualization/blender-case-revision-16/assembled.png)
+![Assembled x0xb0x](kicad-working/visualization/blender-case-revision-17/assembled.png)
 
 ## What is included
 
@@ -31,6 +31,8 @@ See [opening and verification instructions](docs/OPENING.md) for a fresh downloa
 Blender views: **frame 1** assembled, **frame 80** exploded, **frame 120** control-side inspection, **frame 160** wiring study. The caps are intentionally hidden in the two inspection views.
 
 ## Validation and known limits
+
+KiCad working revision 14 and Blender revision 17 correct four of those terminal models against their drawings, after an independent source review of the 19 recorded hole conflicts. The Alpha and Panasonic potentiometer tabs move to their slot centres: their drawings' 13.0 and 10.60 mm dimensions run across the outer slot edges, which revision 13 misread as centre spacing. PJ-202AH terminal 2 becomes the 2.50 mm blade, and the SDS-50J pins follow the period CUI drawing (rev D, 2006), now retained in the repository. The conflicts fall from 19 to 11. The NYS216 rows remain 0.35 mm from the footprint rows with no source explaining the Eagle datum, and the USB board locks are a designed press fit in Eagle's undersized holes; PJ-202AH terminal 3 and SDS-50J pins 1 and 2 differ by Eagle's grid positions within drawing tolerance. Only 12 model paths and 12 Blender meshes change. See the [terminal correction report](docs/terminal-drawing-correction.json), the [KiCad review](kicad-working/validation/models-review-14/README.md) and the [revision-17 notes](kicad-working/visualization/blender-case-revision-17/README.md).
 
 KiCad working revision 13 and Blender revision 16 add solder terminals from the manufacturer drawings to the 12 component models that had none: the NYS216, SDS-50J, MJ-3536N, PJ-202AH and USB-B rear connectors, the bent-back MC78M05, the LPTC thermistors, the CTS encoder, the Alpha and Panasonic potentiometers, and the NKK and Grayhill switches (25 placed references). Every fitted component now has a lead in every drilled hole, except the four Grayhill bracket holes, whose legs the drawing does not define. Terminals follow the drawing dimensions and were not moved to the pads. A native audit against the real drills records 19 nominal interferences where a drawing and the footprint disagree, for example the NYS216 rows 0.35 mm from the footprint rows and the Alpha and Panasonic bracket tabs outside their holes; neither source was altered to fit. Previous body solids, copper, placement and every Blender pose are preserved. Terminal thicknesses, bends and some widths are labelled assumptions. See the [terminal completion report](docs/terminal-completion.json), the [KiCad review](kicad-working/validation/models-review-13/README.md) and the [revision-16 notes](kicad-working/visualization/blender-case-revision-16/README.md).
 
@@ -60,20 +62,20 @@ The LED height uses the BOM's named STD240B 0.24-inch spacer. An older assembly 
 
 Six reusable checks are included:
 
-- `python3 scripts/verify_project.py` checks file hashes, the 273 current KiCad project files, original Eagle sources and saved Blender scene.
+- `python3 scripts/verify_project.py` checks file hashes, the 279 current KiCad project files, original Eagle sources and saved Blender scene.
 - `python3 scripts/verify_kicad_dependencies.py` checks that symbols, footprints and all 491 placed models resolve inside the checkout, without global KiCad libraries. Both Python checks accept `--root PATH` and require Python 3.9 or later.
 - `scripts/verify_blender_scene.py` runs inside native Blender and checks embedded components, complete LED assemblies, cap attachment across views and external file dependencies. See the opening instructions for the command, including the required failure exit-code option.
 - `scripts/verify_rear_openings.py` runs inside native Blender and checks the actual rear mating passages for scene geometry that covers them. It accounts for intentional contacts and recessed inserts.
 - `scripts/verify_kicad_blender_models.py` runs inside native Blender, exports both KiCad PCBs to a temporary folder with `kicad-cli`, and checks that every placed KiCad model matches the scene's embedded native mesh: footprint frame, bounds, centroid, surface area and triangle count. Blender-only enclosure and presentation parts are outside its scope. It needs KiCad installed; set `KICAD_CLI` to override the macOS path.
-- `python3 kicad-working/validation/models-review-13/verify_current_functions.py` replays 214 original-source and current-PCB MIDI function checks. It does not modify the project.
+- `python3 kicad-working/validation/models-review-14/verify_current_functions.py` replays 214 original-source and current-PCB MIDI function checks. It does not modify the project.
 
-The initial revision-10 fresh download passed native KiCad ERC, model exports and 106 Blender portability checks; [historical fresh-download verification](docs/fresh-clone-verification.json) pins that source commit and scene hash. Current model integration and electrical evidence are recorded in [working validation](kicad-working/validation/working-validation-summary-revision-13.json). Fresh ERC on both boards reports zero errors and warnings under the recorded rules, and both boards' DRC violation, parity and ignored-check lists exactly equal the previous fresh reports, with the same unconnected pads. The saved Blender16 audit passes ten saved-scene comparison checks against revision 15, 106 portability checks and 44 rear-opening checks using 974 rays, and all 491 placed KiCad models match the scene's native meshes. The Blender13 contact-correction, Blender14 plate-datum and Blender15 height-datum evidence, including the four circuit-function checks, is retained.
+The initial revision-10 fresh download passed native KiCad ERC, model exports and 106 Blender portability checks; [historical fresh-download verification](docs/fresh-clone-verification.json) pins that source commit and scene hash. Current model integration and electrical evidence are recorded in [working validation](kicad-working/validation/working-validation-summary-revision-14.json). Fresh ERC on both boards reports zero errors and warnings under the recorded rules, and both boards' DRC violation, parity and ignored-check lists exactly equal the previous fresh reports, with the same connection gaps. The saved Blender17 audit passes nine saved-scene comparison checks against revision 16, 106 portability checks and 44 rear-opening checks using 974 rays, and all 491 placed KiCad models match the scene's native meshes. The Blender13 contact-correction, Blender14 plate-datum, Blender15 height-datum and Blender16 terminal evidence, including the four circuit-function checks, is retained.
 
 These checks do not establish physical fit. The historical native audit/model-generation scripts retain source paths and may require macOS applications, earlier source baselines or other tools; their recorded results are preserved as evidence.
 
-Key reports: [working validation](kicad-working/validation/working-validation-summary-revision-13.json), [front controls](kicad-working/validation/models-review-10/front-controls-review/final-front-control-assembly-review.md), [saved-scene verification](kicad-working/visualization/blender-case-revision-16/verification/final-saved-scene-audit.json), [rear opening correction](docs/rear-opening-correction.json), [hardware refinement](docs/nys216-hardware-refinement.json), [rear seating and legends](docs/rear-seating-and-legends.json), [DIN/MIDI functions](docs/din-midi-correction.json), [DIN contact correction](docs/din-contact-correction.json), [rear plate datum](docs/rear-plate-datum-correction.json), [rear height datum](docs/rear-height-datum-correction.json), [terminal completion](docs/terminal-completion.json).
+Key reports: [working validation](kicad-working/validation/working-validation-summary-revision-14.json), [front controls](kicad-working/validation/models-review-10/front-controls-review/final-front-control-assembly-review.md), [saved-scene verification](kicad-working/visualization/blender-case-revision-17/verification/final-saved-scene-audit.json), [rear opening correction](docs/rear-opening-correction.json), [hardware refinement](docs/nys216-hardware-refinement.json), [rear seating and legends](docs/rear-seating-and-legends.json), [DIN/MIDI functions](docs/din-midi-correction.json), [DIN contact correction](docs/din-contact-correction.json), [rear plate datum](docs/rear-plate-datum-correction.json), [rear height datum](docs/rear-height-datum-correction.json), [terminal completion](docs/terminal-completion.json), [terminal drawing correction](docs/terminal-drawing-correction.json).
 
-Delivery ZIPs, earlier experimental Blender scenes, temporary native probes, local application state and redundant board GLB exports are excluded. The revision-7 through revision-15 scenes are retained as comparison baselines for the subsequent updates. Native meshes are already embedded in the saved Blender scene. Whole-board exports can be regenerated with the recorded scripts; the current exports' hashes are recorded in `validation/models-review-13/native-export-record.json`.
+Delivery ZIPs, earlier experimental Blender scenes, temporary native probes, local application state and redundant board GLB exports are excluded. The revision-7 through revision-16 scenes are retained as comparison baselines for the subsequent updates. Native meshes are already embedded in the saved Blender scene. Whole-board exports can be regenerated with the recorded scripts; the current exports' hashes are recorded in `validation/models-review-14/native-export-record.json`.
 
 ## Sources and licensing
 

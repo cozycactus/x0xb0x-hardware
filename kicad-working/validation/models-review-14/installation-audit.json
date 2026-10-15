@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "ioboard/ioboard.kicad_pcb",
+      "before_sha256": "f18c466058219bbb1c5aadd0b6424c37d0c2b7818d534481f71c9957a18dee83",
+      "after_sha256": "cf055891cfd5df3d70034a80bbbad62944d20c6a60cd1708435df08b5d1cd3b4",
+      "model_nodes_only": true,
+      "replaced_model_path_count": 5,
+      "replaced_models": {
+        "SDS50J": 4,
+        "PJ202AH": 1
+      },
+      "non_model_nodes_identical": true,
+      "model_transforms_identical": true
+    },
+    {
+      "file": "ioboard/ioboard-import-fps.pretty/CP-2350.kicad_mod",
+      "before_sha256": "40c5791604573c922a3e814020bfc1e05892ecf2c0eff88244dfdeeab43334f8",
+      "after_sha256": "863a6735efe00533e730fc7500484daa86a3a59e4ee231c5e33eb2bf12bb47fe",
+      "model_nodes_only": true,
+      "replaced_model_path_count": 1,
+      "replaced_models": {
+        "SDS50J": 1
+      },
+      "non_model_nodes_identical": true,
+      "model_transforms_identical": true
+    },
+    {
+      "file": "ioboard/ioboard-import-fps.pretty/PJ-202AH.kicad_mod",
+      "before_sha256": "a06b67759e26882885bb48a95b211ae3b1678c2eebba146311ed553d3e5584c9",
+      "after_sha256": "aa3e7d79c06cdaec90e29c9fc283a8bba28506ace6e83499187e88997d2ae835",
+      "model_nodes_only": true,
+      "replaced_model_path_count": 1,
+      "replaced_models": {
+        "PJ202AH": 1
+      },
+      "non_model_nodes_identical": true,
+      "model_transforms_identical": true
+    },
+    {
+      "file": "mainboard/mainboard.kicad_pcb",
+      "before_sha256": "17b1066f5628fe669a974b2dff608214c7fbcba112858cdf4e5618555a31fff9",
+      "after_sha256": "96e3b2953bf3d419f611437fab475521d0a6bd12b8fc4190152f586871fc72d2",
+      "model_nodes_only": true,
+      "replaced_model_path_count": 7,
+      "replaced_models": {
+        "AlphaRV112": 2,
+        "PanasonicEVU": 5
+      },
+      "non_model_nodes_identical": true,
+      "model_transforms_identical": true
+    },
+    {
+      "file": "mainboard/mainboard-import-fps.pretty/ALPHADUAL.kicad_mod",
+      "before_sha256": "ce13ffca1de4a799a1885ab8eccdba059a720c47e397370304cdfcb127dfff13",
+      "after_sha256": "eddbae7c2de6f97e972a7971e36a7765a2201454f35d5295c6e55dae45270963",
+      "model_nodes_only": true,
+      "replaced_model_path_count": 1,
+      "replaced_models": {
+        "AlphaRV112": 1
+      },
+      "non_model_nodes_identical": true,
+      "model_transforms_identical": true
+    },
+    {
+      "file": "mainboard/mainboard-import-fps.pretty/EVU.kicad_mod",
+      "before_sha256": "b915e34153afa07c42954dc4fca8120650d87c2b65e2914347913061285d1102",
+      "after_sha256": "1e166065f69f18ae4cffdab60375bd0833e8eda280dcf8208266e88b73cc957e",
+      "model_nodes_only": true,
+      "replaced_model_path_count": 1,
+      "replaced_models": {
+        "PanasonicEVU": 1
+      },
+      "non_model_nodes_identical": true,
+      "model_transforms_identical": true
+    }
+  ],
+  "previous_core_file_count": 273,
+  "changed_previous_core_files": [
+    "ioboard/ioboard-import-fps.pretty/CP-2350.kicad_mod",
+    "ioboard/ioboard-import-fps.pretty/PJ-202AH.kicad_mod",
+    "ioboard/ioboard.kicad_pcb",
+    "mainboard/mainboard-import-fps.pretty/ALPHADUAL.kicad_mod",
+    "mainboard/mainboard-import-fps.pretty/EVU.kicad_mod",
+    "mainboard/mainboard.kicad_pcb"
+  ],
+  "new_core_files": [
+    "ioboard/3dmodels/Revision14/terminals/PJ202AH_DrawingDerived_DetailedBody_Terminals.step",
+    "ioboard/3dmodels/Revision14/terminals/SDS50J_CorrectedContactPattern_Terminals.step",
+    "mainboard/3dmodels/Revision14/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step",
+    "mainboard/3dmodels/Revision14/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+    "ioboard/3dmodels/REVISION-14-SOURCES.json",
+    "mainboard/3dmodels/REVISION-14-SOURCES.json"
+  ],
+  "component_references_updated": 12,
+  "references": {
+    "SDS50J": [
+      "DIN1",
+      "DIN2",
+      "DIN3",
+      "DIN4"
+    ],
+    "PJ202AH": [
+      "POWER0"
+    ],
+    "AlphaRV112": [
+      "VR4",
+      "VR6"
+    ],
+    "PanasonicEVU": [
+      "VR2",
+      "VR3",
+      "VR5",
+      "VR7",
+      "VR8"
+    ]
+  },
+  "total_fitted_model_references": 491,
+  "copper_pads_nets_footprint_poses_schematics_and_project_rules_unchanged": true,
+  "model_transforms_unchanged": true,
+  "source_Eagle_files_unchanged": true,
+  "old_STEP_preserved": true,
+  "physical_fit_qualified": false
+}

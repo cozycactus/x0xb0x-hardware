@@ -1,0 +1,1071 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-15",
+  "Blender_revision": 17,
+  "KiCad_revision": 14,
+  "scene": "kicad-working/visualization/blender-case-revision-17/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "c9d9536418f73a93d309ee34ae543df887a8fd343e98c930482c4bc3b8f15aae",
+  "scene_bytes": 42379973,
+  "baseline_scene_sha256": "6532b92a3d3c5ee85b46aa8af6d274858f607746c69a92f3d394297a03534776",
+  "correction": "Four revision-13 terminal models corrected against their drawings (12 placed references): Alpha and Panasonic tab centres (their 13.0 and 10.60 mm dimensions run across the outer slot edges), PJ-202AH terminal 2 width 2.50 mm, SDS-50J pin sections from the period CUI rev D (2006) drawing. Nominal hole interferences fall from 19 to 11.",
+  "corrections": [
+    {
+      "model": "AlphaRV112",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/potentiometer-quality/sources/alpha-insulated-rv112b-primary.pdf",
+        "title": "Alpha RV112BCF-40 11 mm dual snap-in"
+      },
+      "provenance": {
+        "positions": "Dimensioned: six pins at 2.0 pitch, 11.0 from the tab line; snap-in tab slots 2.0 wide with 13.0 across their outer edges, so tab centres at +-5.5 (revision 13 misread 13.0 as the centre spacing)",
+        "section": "Drawn 0.8 pin width; 0.3 thickness and 0.6 x 1.9 tab section assumed from the 2.0 x 2.1 slots",
+        "length": "Dimensioned 3.5 (pins) and 3.2 (tabs) below the mounting surface"
+      },
+      "findings_before": [
+        {
+          "model": "AlphaRV112",
+          "references": [
+            "VR4",
+            "VR6"
+          ],
+          "pad": "M1",
+          "result": "interferes",
+          "margin_mm": -0.5179,
+          "drill_mm": [
+            2.1844,
+            2.1844
+          ],
+          "section_centre_offset_mm": [
+            -1.0,
+            -0.0
+          ]
+        },
+        {
+          "model": "AlphaRV112",
+          "references": [
+            "VR4",
+            "VR6"
+          ],
+          "pad": "M2",
+          "result": "interferes",
+          "margin_mm": -0.5179,
+          "drill_mm": [
+            2.1844,
+            2.1844
+          ],
+          "section_centre_offset_mm": [
+            1.0,
+            -0.0
+          ]
+        }
+      ],
+      "findings_after": []
+    },
+    {
+      "model": "PJ202AH",
+      "references": [
+        "POWER0"
+      ],
+      "drawing": {
+        "file": "kicad-working/validation/models-review-10/rear-connector-quality/sources/pj202ah-2015.pdf",
+        "title": "CUI PJ-202AH (2015-01-08); Same Sky PJ-202AH (2025-07-24)"
+      },
+      "provenance": {
+        "positions": "Dimensioned: terminal 2 at 7.7, terminal 3 at 10.7 (4.7 off axis), terminal 1 at 13.7 behind the front face",
+        "section": "Terminal 1 3.00 and terminal 2 2.50 wide (dimensioned on the 2025 front view, nested outlines drawn in 2015; layout slots 3.5 and 3.0); terminal 3 2.50; drawn 0.40 thickness; dia 1.50 eyelet",
+        "length": "Dimensioned 3.5 below the body"
+      },
+      "findings_before": [
+        {
+          "model": "PJ202AH",
+          "references": [
+            "POWER0"
+          ],
+          "pad": "P$3",
+          "result": "interferes",
+          "margin_mm": -0.0435,
+          "drill_mm": [
+            2.8,
+            2.8
+          ],
+          "section_centre_offset_mm": [
+            0.1,
+            -0.162
+          ]
+        },
+        {
+          "model": "PJ202AH",
+          "references": [
+            "POWER0"
+          ],
+          "pad": "P$2",
+          "result": "interferes",
+          "margin_mm": -0.1259,
+          "drill_mm": [
+            2.8,
+            2.8
+          ],
+          "section_centre_offset_mm": [
+            -0.0,
+            0.08
+          ]
+        }
+      ],
+      "findings_after": [
+        {
+          "model": "PJ202AH",
+          "references": [
+            "POWER0"
+          ],
+          "pad": "P$3",
+          "result": "interferes",
+          "margin_mm": -0.0435,
+          "drill_mm": [
+            2.8,
+            2.8
+          ],
+          "section_centre_offset_mm": [
+            0.1,
+            -0.162
+          ]
+        }
+      ]
+    },
+    {
+      "model": "PanasonicEVU",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ],
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/potentiometer-quality/sources/panasonic-evu-primary-mirror.pdf",
+        "title": "Panasonic EVUF2L No. 8 (2005)"
+      },
+      "provenance": {
+        "positions": "Dimensioned piercing plan: #1-#3 at 2.5 pitch 7.00 from the tab line; tab slots 1.6 wide with 10.60 across their outer edges, so tab centres at +-4.50 (revision 13 misread 10.60 as the centre spacing)",
+        "section": "Sister-type dimension 0.8 terminal width; 0.3 thickness and 0.6 x 2.0 tab section assumed from 1.6 x 2.2 slots",
+        "length": "Dimensioned 3.7 below the mounting surface"
+      },
+      "findings_before": [
+        {
+          "model": "PanasonicEVU",
+          "references": [
+            "VR2",
+            "VR3",
+            "VR5",
+            "VR7",
+            "VR8"
+          ],
+          "pad": "M1",
+          "result": "interferes",
+          "margin_mm": -0.342,
+          "drill_mm": [
+            2.1844,
+            2.1844
+          ],
+          "section_centre_offset_mm": [
+            -0.728,
+            -0.0
+          ]
+        },
+        {
+          "model": "PanasonicEVU",
+          "references": [
+            "VR2",
+            "VR3",
+            "VR5",
+            "VR7",
+            "VR8"
+          ],
+          "pad": "M2",
+          "result": "interferes",
+          "margin_mm": -0.342,
+          "drill_mm": [
+            2.1844,
+            2.1844
+          ],
+          "section_centre_offset_mm": [
+            0.728,
+            -0.0
+          ]
+        }
+      ],
+      "findings_after": []
+    },
+    {
+      "model": "SDS50J",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "drawing": {
+        "file": "kicad-working/validation/models-review-14/terminal-quality/sources/sds50j-cui-rev-d-2006.pdf",
+        "title": "CUI SDS-50J rev D (2006-08-22); positions also on Same Sky SDS-J page 3 (2024-09-12)",
+        "url": "https://datasheet.octopart.com/SDS-50J-CUI-datasheet-86818.pdf"
+      },
+      "provenance": {
+        "positions": "Dimensioned PCB layout and side view: E at 2.5, pins 1-3 at 12.5, pins 4-5 at 15.0 from the front; x 2.5/5.0/7.5",
+        "section": "Period drawing (2006): signal pins dimensioned 1.0 deep, drawn 0.5 wide; earth legs dimensioned 1.0 wide, drawn 0.32 thick, pointed (revision 13 used 0.70 x 1.00 and 1.00 x 0.21 drawn on the 2024 sheet)",
+        "length": "Dimensioned 3.5 below the body (both drawings)",
+        "omitted": "Locating pegs are not added: the 2006 part shows screw bosses, not pegs, and the Eagle package has no holes for them"
+      },
+      "findings_before": [
+        {
+          "model": "SDS50J",
+          "references": [
+            "DIN1",
+            "DIN2",
+            "DIN3",
+            "DIN4"
+          ],
+          "pad": "1",
+          "result": "interferes",
+          "margin_mm": -0.0861,
+          "drill_mm": [
+            1.3208,
+            1.3208
+          ],
+          "section_centre_offset_mm": [
+            -0.12,
+            -0.08
+          ]
+        },
+        {
+          "model": "SDS50J",
+          "references": [
+            "DIN1",
+            "DIN2",
+            "DIN3",
+            "DIN4"
+          ],
+          "pad": "2",
+          "result": "interferes",
+          "margin_mm": -0.1044,
+          "drill_mm": [
+            1.3208,
+            1.3208
+          ],
+          "section_centre_offset_mm": [
+            0.0,
+            -0.18
+          ]
+        },
+        {
+          "model": "SDS50J",
+          "references": [
+            "DIN1",
+            "DIN2",
+            "DIN3",
+            "DIN4"
+          ],
+          "pad": "3",
+          "result": "interferes",
+          "margin_mm": -0.0276,
+          "drill_mm": [
+            1.3208,
+            1.3208
+          ],
+          "section_centre_offset_mm": [
+            0.02,
+            -0.08
+          ]
+        },
+        {
+          "model": "SDS50J",
+          "references": [
+            "DIN1",
+            "DIN2",
+            "DIN3",
+            "DIN4"
+          ],
+          "pad": "4",
+          "result": "interferes",
+          "margin_mm": -0.0144,
+          "drill_mm": [
+            1.3208,
+            1.3208
+          ],
+          "section_centre_offset_mm": [
+            -0.08,
+            -0.02
+          ]
+        },
+        {
+          "model": "SDS50J",
+          "references": [
+            "DIN1",
+            "DIN2",
+            "DIN3",
+            "DIN4"
+          ],
+          "pad": "5",
+          "result": "interferes",
+          "margin_mm": -0.0144,
+          "drill_mm": [
+            1.3208,
+            1.3208
+          ],
+          "section_centre_offset_mm": [
+            0.08,
+            -0.02
+          ]
+        }
+      ],
+      "findings_after": [
+        {
+          "model": "SDS50J",
+          "references": [
+            "DIN1",
+            "DIN2",
+            "DIN3",
+            "DIN4"
+          ],
+          "pad": "1",
+          "result": "interferes",
+          "margin_mm": -0.0276,
+          "drill_mm": [
+            1.3208,
+            1.3208
+          ],
+          "section_centre_offset_mm": [
+            -0.12,
+            -0.08
+          ]
+        },
+        {
+          "model": "SDS50J",
+          "references": [
+            "DIN1",
+            "DIN2",
+            "DIN3",
+            "DIN4"
+          ],
+          "pad": "2",
+          "result": "interferes",
+          "margin_mm": -0.0641,
+          "drill_mm": [
+            1.3208,
+            1.3208
+          ],
+          "section_centre_offset_mm": [
+            0.0,
+            -0.18
+          ]
+        }
+      ]
+    }
+  ],
+  "source_review": "Independent source review of the 19 revision-13 findings; Alpha and Panasonic were misreadings of drawings already retained in the repository, NYS216 and USB remain as recorded.",
+  "lead_presence": {
+    "boards": {
+      "ioboard": {
+        "board_top_mm": 1.595,
+        "board_bottom_mm": -0.0050000000000001155,
+        "fitted_models": 82,
+        "counts": {
+          "all pins": 82
+        },
+        "missing": {}
+      },
+      "mainboard": {
+        "board_top_mm": 1.595,
+        "board_bottom_mm": -0.0050000000000001155,
+        "fitted_models": 409,
+        "counts": {
+          "all pins": 409
+        },
+        "missing": {}
+      }
+    },
+    "statement": "Every fitted model has a lead in every drilled hole except the four Grayhill MT bracket holes, whose legs the drawing does not define."
+  },
+  "models": [
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "board": "ioboard",
+      "revision": 13,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/nys-216-manufacturer.dxf",
+        "title": "REAN NYS216 3102 ST 22 01 rev C (2007)"
+      },
+      "terminals_added": 6,
+      "original_solids_retained": 5,
+      "step": "ioboard/3dmodels/Revision13/terminals/NYS216_DrawingDerived_DetailedBody_Terminals.step",
+      "drilled_pads_fitting": 0,
+      "drilled_pads_nominal_interference": 6,
+      "drilled_pads_empty_by_design": 0,
+      "smallest_margin_mm": -0.277,
+      "lead_protrusion_mm": 2.4,
+      "provenance": {
+        "positions": "PCB-layout dimensions: rows 4.00 + 2 x 6.35 behind the shoulder, rows 16.50 apart (x = +-8.25)",
+        "section": "DXF drawn geometry: leg 1.30 wide (side view, semicircular tip), 0.40 thick with tear-drop waist (front view)",
+        "length": "DXF drawn geometry: tip 4.00 below the body floor",
+        "conflict": "The drawn side-view legs sit 0.875 mm behind the dimensioned holes; dimensions are used."
+      }
+    },
+    {
+      "model": "SDS50J",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "board": "ioboard",
+      "revision": 14,
+      "drawing": {
+        "file": "kicad-working/validation/models-review-14/terminal-quality/sources/sds50j-cui-rev-d-2006.pdf",
+        "title": "CUI SDS-50J rev D (2006-08-22); positions also on Same Sky SDS-J page 3 (2024-09-12)",
+        "url": "https://datasheet.octopart.com/SDS-50J-CUI-datasheet-86818.pdf"
+      },
+      "terminals_added": 7,
+      "original_solids_retained": 8,
+      "step": "ioboard/3dmodels/Revision14/terminals/SDS50J_CorrectedContactPattern_Terminals.step",
+      "drilled_pads_fitting": 5,
+      "drilled_pads_nominal_interference": 2,
+      "drilled_pads_empty_by_design": 0,
+      "smallest_margin_mm": -0.0641,
+      "lead_protrusion_mm": 1.9,
+      "provenance": {
+        "positions": "Dimensioned PCB layout and side view: E at 2.5, pins 1-3 at 12.5, pins 4-5 at 15.0 from the front; x 2.5/5.0/7.5",
+        "section": "Period drawing (2006): signal pins dimensioned 1.0 deep, drawn 0.5 wide; earth legs dimensioned 1.0 wide, drawn 0.32 thick, pointed (revision 13 used 0.70 x 1.00 and 1.00 x 0.21 drawn on the 2024 sheet)",
+        "length": "Dimensioned 3.5 below the body (both drawings)",
+        "omitted": "Locating pegs are not added: the 2006 part shows screw bosses, not pegs, and the Eagle package has no holes for them"
+      }
+    },
+    {
+      "model": "MJ3536N",
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "board": "ioboard",
+      "revision": 13,
+      "drawing": {
+        "file": "kicad-working/validation/models-review-10/rear-connector-quality/sources/mj3536n-2020.pdf",
+        "title": "CUI MJ-3536N rev 1.02 (2020; mechanics unchanged since 2005)"
+      },
+      "terminals_added": 3,
+      "original_solids_retained": 5,
+      "step": "ioboard/3dmodels/Revision13/terminals/MJ3536N_DrawingDerived_DetailedBody_Terminals.step",
+      "drilled_pads_fitting": 3,
+      "drilled_pads_nominal_interference": 0,
+      "drilled_pads_empty_by_design": 0,
+      "smallest_margin_mm": 0.0853,
+      "lead_protrusion_mm": 2.9,
+      "provenance": {
+        "positions": "Dimensioned: terminal 1 at 2.3, terminal 3 at 13.5 (5.2 off axis), terminal 2 at 16.0 from the shoulder",
+        "section": "Dimensioned widths 2.2 (terminal 1) and 2.0 (terminal 3); drawn thicknesses 0.40 / 0.20 / 0.34; terminal 2 width assumed equal to terminal 1 (hidden in the front view)",
+        "length": "Dimensioned 4.5 below the body; dia 1.0 eyelets (3 places) in the rounded ends"
+      }
+    },
+    {
+      "model": "PJ202AH",
+      "references": [
+        "POWER0"
+      ],
+      "board": "ioboard",
+      "revision": 14,
+      "drawing": {
+        "file": "kicad-working/validation/models-review-10/rear-connector-quality/sources/pj202ah-2015.pdf",
+        "title": "CUI PJ-202AH (2015-01-08); Same Sky PJ-202AH (2025-07-24)"
+      },
+      "terminals_added": 3,
+      "original_solids_retained": 5,
+      "step": "ioboard/3dmodels/Revision14/terminals/PJ202AH_DrawingDerived_DetailedBody_Terminals.step",
+      "drilled_pads_fitting": 2,
+      "drilled_pads_nominal_interference": 1,
+      "drilled_pads_empty_by_design": 0,
+      "smallest_margin_mm": -0.0435,
+      "lead_protrusion_mm": 1.9,
+      "provenance": {
+        "positions": "Dimensioned: terminal 2 at 7.7, terminal 3 at 10.7 (4.7 off axis), terminal 1 at 13.7 behind the front face",
+        "section": "Terminal 1 3.00 and terminal 2 2.50 wide (dimensioned on the 2025 front view, nested outlines drawn in 2015; layout slots 3.5 and 3.0); terminal 3 2.50; drawn 0.40 thickness; dia 1.50 eyelet",
+        "length": "Dimensioned 3.5 below the body"
+      }
+    },
+    {
+      "model": "USB",
+      "references": [
+        "USB0"
+      ],
+      "board": "ioboard",
+      "revision": 13,
+      "drawing": {
+        "file": "FCI 61729 drawing rev V (2008), via RS 61729-0011BLF product sheet",
+        "title": "FCI/Amphenol 61729 USB receptacle B type (matches footprint PN61729)"
+      },
+      "terminals_added": 6,
+      "original_solids_retained": 2,
+      "step": "ioboard/3dmodels/Revision13/terminals/USB_TypeB-body-illustration_Terminals.step",
+      "drilled_pads_fitting": 4,
+      "drilled_pads_nominal_interference": 2,
+      "drilled_pads_empty_by_design": 0,
+      "smallest_margin_mm": -0.2392,
+      "lead_protrusion_mm": 1.24,
+      "provenance": {
+        "positions": "Dimensioned: board locks 10.28 behind the mating face, signal rows 2.71 and 4.71 behind them, pitch 2.50, lock holes 12.04 apart",
+        "section": "Drawn 0.40 square signal pins; board-lock fork drawn about 2.4 wide, assumed 0.30 thick with a 0.6 slot",
+        "length": "Dimensioned 2.84 (signal) and 2.63 (board lock) below the seating plane",
+        "identity": "Original BOM names Kobiconn 154-2442-E; its drawing could not be retrieved. The footprint is PN61729."
+      }
+    },
+    {
+      "model": "MC78M05",
+      "references": [
+        "IC20"
+      ],
+      "board": "ioboard",
+      "revision": 13,
+      "drawing": {
+        "file": "kicad-working/validation/models-review-10/heatsink-fit-research/sources/onsemi-mc78m00.pdf",
+        "title": "onsemi TO-220 case 221AB issue A (2010)"
+      },
+      "terminals_added": 3,
+      "original_solids_retained": 2,
+      "step": "ioboard/3dmodels/Revision13/terminals/MC78M05_TO220_BentBack_PhotoQualified_Terminals.step",
+      "drilled_pads_fitting": 3,
+      "drilled_pads_nominal_interference": 0,
+      "drilled_pads_empty_by_design": 0,
+      "smallest_margin_mm": 0.0389,
+      "lead_protrusion_mm": 2.9792,
+      "provenance": {
+        "section": "Nominal of printed ranges: D 0.76 wide, J 0.55 thick, L 1.335 shoulder width, G 2.54 pitch",
+        "path": "Lead plane R 2.415 above the tab back (z 3.795); leaves the lead face at y 3.0, 90 degree bend (1.0 centreline radius, assumed) above the holes at y -2.54; total length K 13.485 from the body",
+        "limits": "Bend radius, shoulder length (1.0) and formed path are illustration assumptions, like the body pose"
+      }
+    },
+    {
+      "model": "LPTC",
+      "references": [
+        "R100A0",
+        "R100B0"
+      ],
+      "board": "mainboard",
+      "revision": 13,
+      "drawing": {
+        "file": "none recovered",
+        "title": "Micro-Ohm LPTC12T21001 (no manufacturer mechanical data found)"
+      },
+      "terminals_added": 2,
+      "original_solids_retained": 6,
+      "step": "mainboard/3dmodels/Revision13/terminals/Microohm_LPTC12T21001_ApproxBody_Terminals.step",
+      "drilled_pads_fitting": 2,
+      "drilled_pads_nominal_interference": 0,
+      "drilled_pads_empty_by_design": 0,
+      "smallest_margin_mm": 0.25,
+      "lead_protrusion_mm": 1.5,
+      "provenance": {
+        "all": "ASSUMED: no manufacturer drawing exists in the project or online (micro-ohm.com page returns 404). Axial dia 0.5 tinned leads leave the body ends at its axis, bend (0.75 centreline radius) into the existing holes and protrude 1.5 below the board."
+      }
+    },
+    {
+      "model": "CTS290",
+      "references": [
+        "S2"
+      ],
+      "board": "mainboard",
+      "revision": 13,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/cts290-datasheet.pdf",
+        "title": "CTS Series 290 MC-290V (2025-10-21 rev A)"
+      },
+      "terminals_added": 7,
+      "original_solids_retained": 6,
+      "step": "mainboard/3dmodels/Revision13/terminals/CTS_290VAA5F201B2_DetailedCandidate_Terminals.step",
+      "drilled_pads_fitting": 7,
+      "drilled_pads_nominal_interference": 0,
+      "drilled_pads_empty_by_design": 0,
+      "smallest_margin_mm": 0.0728,
+      "lead_protrusion_mm": 1.82,
+      "provenance": {
+        "positions": "Dimensioned: A/C/B at 2.5 pitch 7.5 from centre, switch pins 5.00 apart 7.0 from centre, mounting tabs 11.10 apart",
+        "section": "Dimensioned 0.8 +-0.1 pin width; 0.3 thickness and 0.6 x 2.2 tab section assumed from the 1.8 x 2.6 slots",
+        "length": "Dimensioned 3.5 below the mounting surface"
+      }
+    },
+    {
+      "model": "AlphaRV112",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "board": "mainboard",
+      "revision": 14,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/potentiometer-quality/sources/alpha-insulated-rv112b-primary.pdf",
+        "title": "Alpha RV112BCF-40 11 mm dual snap-in"
+      },
+      "terminals_added": 8,
+      "original_solids_retained": 12,
+      "step": "mainboard/3dmodels/Revision14/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step",
+      "drilled_pads_fitting": 8,
+      "drilled_pads_nominal_interference": 0,
+      "drilled_pads_empty_by_design": 0,
+      "smallest_margin_mm": 0.0808,
+      "lead_protrusion_mm": 1.82,
+      "provenance": {
+        "positions": "Dimensioned: six pins at 2.0 pitch, 11.0 from the tab line; snap-in tab slots 2.0 wide with 13.0 across their outer edges, so tab centres at +-5.5 (revision 13 misread 13.0 as the centre spacing)",
+        "section": "Drawn 0.8 pin width; 0.3 thickness and 0.6 x 1.9 tab section assumed from the 2.0 x 2.1 slots",
+        "length": "Dimensioned 3.5 (pins) and 3.2 (tabs) below the mounting surface"
+      }
+    },
+    {
+      "model": "PanasonicEVU",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ],
+      "board": "mainboard",
+      "revision": 14,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/potentiometer-quality/sources/panasonic-evu-primary-mirror.pdf",
+        "title": "Panasonic EVUF2L No. 8 (2005)"
+      },
+      "terminals_added": 5,
+      "original_solids_retained": 9,
+      "step": "mainboard/3dmodels/Revision14/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "drilled_pads_fitting": 5,
+      "drilled_pads_nominal_interference": 0,
+      "drilled_pads_empty_by_design": 0,
+      "smallest_margin_mm": 0.0252,
+      "lead_protrusion_mm": 2.02,
+      "provenance": {
+        "positions": "Dimensioned piercing plan: #1-#3 at 2.5 pitch 7.00 from the tab line; tab slots 1.6 wide with 10.60 across their outer edges, so tab centres at +-4.50 (revision 13 misread 10.60 as the centre spacing)",
+        "section": "Sister-type dimension 0.8 terminal width; 0.3 thickness and 0.6 x 2.0 tab section assumed from 1.6 x 2.2 slots",
+        "length": "Dimensioned 3.7 below the mounting surface"
+      }
+    },
+    {
+      "model": "NKKB12AB",
+      "references": [
+        "S1"
+      ],
+      "board": "mainboard",
+      "revision": 13,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/nkk-btoggles.pdf",
+        "title": "NKK Series B B12AB straight PC with bracket"
+      },
+      "terminals_added": 7,
+      "original_solids_retained": 4,
+      "step": "mainboard/3dmodels/Revision13/terminals/NKK_B12AB_DetailedCandidate_Terminals.step",
+      "drilled_pads_fitting": 7,
+      "drilled_pads_nominal_interference": 0,
+      "drilled_pads_empty_by_design": 0,
+      "smallest_margin_mm": 0.126,
+      "lead_protrusion_mm": 1.42,
+      "provenance": {
+        "positions": "Reference dimensions: pins 2.54 pitch 1.0 off centre; bracket legs 10.16 apart in columns 2.54 apart",
+        "section": "Dimensioned 0.6 dia pins; bracket legs 0.6 wide x 0.4 thick",
+        "length": "Reference 3.1 below the body"
+      }
+    },
+    {
+      "model": "Grayhill25L",
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "board": "mainboard",
+      "revision": 13,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/grayhill25l.pdf",
+        "title": "Grayhill Series 25L"
+      },
+      "terminals_added": 5,
+      "original_solids_retained": 10,
+      "step": "mainboard/3dmodels/Revision13/terminals/Grayhill_25LB22H_DetailedCandidate_Terminals.step",
+      "drilled_pads_fitting": 5,
+      "drilled_pads_nominal_interference": 0,
+      "drilled_pads_empty_by_design": 4,
+      "smallest_margin_mm": 0.0474,
+      "lead_protrusion_mm": 4.67,
+      "provenance": {
+        "positions": "Dimensioned: 0.100 in pitch, row 0.500 in from the shaft centre",
+        "section": "Dimensioned 0.025 in (0.64) square pins",
+        "length": "Dimensioned 0.250 in (6.35) below the base",
+        "omitted": "MT1-MT4 belong to the separate 25J5155 mounting bracket; no drawing, so no legs are added"
+      }
+    }
+  ],
+  "nominal_fit_findings": [
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "R",
+      "result": "interferes",
+      "margin_mm": -0.277,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        0.1202,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "RN",
+      "result": "interferes",
+      "margin_mm": -0.244,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        -0.0202,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "S",
+      "result": "interferes",
+      "margin_mm": -0.2595,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        0.0702,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "SN",
+      "result": "interferes",
+      "margin_mm": -0.2595,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        -0.0702,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "T",
+      "result": "interferes",
+      "margin_mm": -0.2595,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        0.0702,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "TN",
+      "result": "interferes",
+      "margin_mm": -0.2595,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        -0.0702,
+        -0.35
+      ]
+    },
+    {
+      "model": "SDS50J",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "pad": "1",
+      "result": "interferes",
+      "margin_mm": -0.0276,
+      "drill_mm": [
+        1.3208,
+        1.3208
+      ],
+      "section_centre_offset_mm": [
+        -0.12,
+        -0.08
+      ]
+    },
+    {
+      "model": "SDS50J",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "pad": "2",
+      "result": "interferes",
+      "margin_mm": -0.0641,
+      "drill_mm": [
+        1.3208,
+        1.3208
+      ],
+      "section_centre_offset_mm": [
+        0.0,
+        -0.18
+      ]
+    },
+    {
+      "model": "USB",
+      "references": [
+        "USB0"
+      ],
+      "pad": "M2",
+      "result": "interferes",
+      "margin_mm": -0.2392,
+      "drill_mm": [
+        2.2,
+        2.2
+      ],
+      "section_centre_offset_mm": [
+        0.076,
+        0.12
+      ]
+    },
+    {
+      "model": "USB",
+      "references": [
+        "USB0"
+      ],
+      "pad": "P$2",
+      "result": "interferes",
+      "margin_mm": -0.2392,
+      "drill_mm": [
+        2.2,
+        2.2
+      ],
+      "section_centre_offset_mm": [
+        -0.076,
+        0.12
+      ]
+    },
+    {
+      "model": "PJ202AH",
+      "references": [
+        "POWER0"
+      ],
+      "pad": "P$3",
+      "result": "interferes",
+      "margin_mm": -0.0435,
+      "drill_mm": [
+        2.8,
+        2.8
+      ],
+      "section_centre_offset_mm": [
+        0.1,
+        -0.162
+      ]
+    }
+  ],
+  "nominal_fit_method": "Triangle sections of the native KiCad GLB at the board faces (0.02 mm inside) and mid-depth; margin = drill radius minus the largest distance of nearby section points from the drill axis.",
+  "kicad": {
+    "changed_files": [
+      "ioboard/ioboard-import-fps.pretty/CP-2350.kicad_mod",
+      "ioboard/ioboard-import-fps.pretty/PJ-202AH.kicad_mod",
+      "ioboard/ioboard.kicad_pcb",
+      "mainboard/mainboard-import-fps.pretty/ALPHADUAL.kicad_mod",
+      "mainboard/mainboard-import-fps.pretty/EVU.kicad_mod",
+      "mainboard/mainboard.kicad_pcb"
+    ],
+    "new_files": [
+      "ioboard/3dmodels/Revision14/terminals/PJ202AH_DrawingDerived_DetailedBody_Terminals.step",
+      "ioboard/3dmodels/Revision14/terminals/SDS50J_CorrectedContactPattern_Terminals.step",
+      "mainboard/3dmodels/Revision14/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step",
+      "mainboard/3dmodels/Revision14/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "ioboard/3dmodels/REVISION-14-SOURCES.json",
+      "mainboard/3dmodels/REVISION-14-SOURCES.json"
+    ],
+    "core_files": 279,
+    "fresh_ERC_errors": {
+      "mainboard": 0,
+      "ioboard": 0
+    },
+    "fresh_DRC_comparison_to_previous": {
+      "mainboard": {
+        "violations": true,
+        "schematic_parity": true,
+        "ignored_checks": true,
+        "unconnected_items_raw": false,
+        "unconnected_count_and_nets": true
+      },
+      "ioboard": {
+        "violations": true,
+        "schematic_parity": true,
+        "ignored_checks": true,
+        "unconnected_items_raw": false,
+        "unconnected_count_and_nets": true
+      }
+    },
+    "unconnected_track_end_note": "S22 pad 1 [+5V] gap unchanged: this run names the 0.97 mm track ending on S22 pad 1 and the 19.56 mm +5V track as its ends; KiCad picks varying representative items of the same two islands. Copper is byte-identical apart from model paths.",
+    "model_transforms_unchanged": true
+  },
+  "blender": {
+    "added_objects": 0,
+    "replaced_part_meshes": 12,
+    "replaced_objects": [
+      "IOBOARD/DIN1/mesh",
+      "IOBOARD/DIN2/mesh",
+      "IOBOARD/DIN3/mesh",
+      "IOBOARD/DIN4/mesh",
+      "IOBOARD/POWER0/mesh",
+      "MAINBOARD/VR2/mesh.006",
+      "MAINBOARD/VR3/mesh.006",
+      "MAINBOARD/VR4/mesh.008",
+      "MAINBOARD/VR5/mesh.006",
+      "MAINBOARD/VR6/mesh.008",
+      "MAINBOARD/VR7/mesh.006",
+      "MAINBOARD/VR8/mesh.006"
+    ],
+    "terminal_material": "Terminal tin \u2014 revision 16 (native KiCad colour)",
+    "body_meshes": "Body part tessellations matched the native export byte for byte and were kept."
+  },
+  "verification": {
+    "terminal_models": {
+      "report": "kicad-working/validation/models-review-14/terminal-quality/terminal-model-audit.json",
+      "sha256": "8c991dea2bbaf1af73da0260ee0fa96f3dc63c1d8983a9eebf873abe0388723e",
+      "passed": true,
+      "check_count": 69
+    },
+    "terminal_models_revision13": {
+      "report": "kicad-working/validation/models-review-13/terminal-quality/terminal-model-audit.json",
+      "sha256": "55b37723fec3a9e08f23fe52035ea82999d071d22857483a8095d2e70b58dc2d",
+      "passed": true,
+      "check_count": 197
+    },
+    "kicad_installation": {
+      "report": "kicad-working/validation/models-review-14/installation-audit.json",
+      "sha256": "5aa06fe335f755a104077f7a26144b12df95b90d02aff3911718cc71a43dbf3f",
+      "passed": true
+    },
+    "native_lead_and_fit_audit": {
+      "report": "kicad-working/validation/models-review-14/native-terminal-audit.json",
+      "sha256": "abe14eb5257cb47c42f9a444f868bc0cf7da4411ae920ce7bc37d382b5d7bcd9",
+      "passed": true,
+      "check_count": 32
+    },
+    "kicad_validation_summary": {
+      "report": "kicad-working/validation/working-validation-summary-revision-14.json",
+      "sha256": "9b613a5aee72a8f8358e11e607ea07b417919c4acf1937e020cd0278ab448561",
+      "passed": true
+    },
+    "midi_function_replay": {
+      "report": "kicad-working/validation/models-review-14/current-function-verification.json",
+      "sha256": "ec4f73c00a09223035fc1b5d4b89a18cb3b29ebbf1b78a9fee4e4198cb623c7d",
+      "passed": true,
+      "checks_count": 214
+    },
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-17/verification/final-saved-scene-audit.json",
+      "sha256": "ad212fa41dc00bbb673b74adda46fd14a355fe64681295701acfc1c6a0f1796d",
+      "passed": true,
+      "check_count": 9
+    },
+    "kicad_blender_models": {
+      "report": "kicad-working/visualization/blender-case-revision-17/verification/kicad-blender-models-audit.json",
+      "sha256": "5521118fd643a913367ec2331f5a92456c0387034511afef15ade8949bc170da",
+      "passed": true,
+      "check_count": 7,
+      "identical_references": 491
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-17/verification/rear-openings-audit.json",
+      "sha256": "d2e7a59d6fd35e14861a96fc79c02451c26d0dae7739a94ae55effc700477635",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-17/verification/portable-scene-audit.json",
+      "sha256": "21156e811c6ffb4628fab9b5eb034c3d4ed102809ebacabcf272d58dc3eaf7c4",
+      "passed": true,
+      "check_count": 106
+    },
+    "terminal_sheet": {
+      "report": "kicad-working/visualization/blender-case-revision-17/verification/terminal-views.json",
+      "sha256": "40e90de028a06c29309850c62ddfeee333b68b7e4f7cadefc0d353fe9c2f93b3",
+      "passed": true
+    },
+    "render_readonly": {
+      "report": "kicad-working/visualization/blender-case-revision-17/verification/render-readonly-verification.json",
+      "sha256": "cca3ac1f69eb76f703c09b99472a6555caa46c2bffdd894fa2491d318cb23f28",
+      "passed": true
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-17/verification/final-render-review.json",
+      "sha256": "d112fe1f96e8079134997e9ca9613647f46e52537bdced97eaeb9d0ef37499d3",
+      "passed": true,
+      "view_count": 6
+    }
+  },
+  "unchanged": [
+    "Original Eagle files",
+    "KiCad copper, pads, drills, nets, footprint poses, model transforms and rules",
+    "Previous body solids of all 12 models",
+    "The other eight revision-13 terminal models",
+    "All other 466 model references",
+    "All Blender poses, case, plate, LEDs, caps, hardware, wiring study, materials and views"
+  ],
+  "limitations": [
+    "Terminal thicknesses, bends and several widths are labelled assumptions; LPTC leads have no manufacturer data at all.",
+    "Drawing/footprint disagreements are recorded as nominal interference; neither source was altered to fit.",
+    "NYS216 rows remain 0.35 mm from the footprint rows with no source explaining the Eagle datum; the USB board-lock interference is a designed press fit; the fitted USB part is unresolved.",
+    "Grayhill MT bracket legs and SDS-50J locating pegs remain omitted.",
+    "Historical part variants, tolerances and physical fit are unqualified."
+  ],
+  "physical_fit_qualified": false
+}

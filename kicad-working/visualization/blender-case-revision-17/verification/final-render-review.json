@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "scene_sha256": "c9d9536418f73a93d309ee34ae543df887a8fd343e98c930482c4bc3b8f15aae",
+  "view_count": 6,
+  "views": [
+    "assembled",
+    "rear",
+    "exploded",
+    "control-side",
+    "io-terminals-detail",
+    "terminal-models"
+  ],
+  "method": "Human-visible image inspection after native rendering and a pixel comparison of every view with revision 16. Hashes pin the reviewed images.",
+  "image_sha256": {
+    "assembled.png": "b306800bcdb7dcc5099d27d100ae647a2d84d16bb4bae12681617041049174f8",
+    "rear.png": "7dc117ad5acf1f11ff383736403754d14d87e772aef806e47c74fa5b7b080b5c",
+    "exploded.png": "a53922a192c518c0d76ba7d091c5f260d4ba3b7e969c531328c504d046a4cc98",
+    "control-side.png": "103476e8d449c73e37dd2cfd032b403c577d995ccc8edc22d30729afa6acbc5a",
+    "io-terminals-detail.png": "f3ec1384c953de4c6e1e7abd3aa5ef47a93cece6ea203700c63ee95231c0c5b3",
+    "terminal-models.png": "9c1f934c5aca3c74af9b27575f1a6f69efba485e21fb195245381145e9f65a0a"
+  },
+  "comparison_with_revision_16": {
+    "assembled": "byte-identical pixels",
+    "rear": "byte-identical pixels",
+    "exploded": "263 of 2,520,000 pixels differ by more than 24 (soft-shadow sampling regions)",
+    "control_side": "635 of 2,520,000 pixels differ by more than 24 (soft-shadow sampling regions)",
+    "io_terminals_detail": "15,429 of 1,350,000 pixels differ by more than 24: the thinner SDS-50J pins and narrower PJ-202AH terminal 2"
+  },
+  "observations": [
+    "Alpha and Panasonic bracket tabs now pass through green drill rings at the slot centres.",
+    "PJ-202AH terminal 2 now fits its ring; terminal 3 stays red (0.04 mm, Eagle position).",
+    "SDS-50J pins are visibly thinner; pins 1 and 2 stay red at the Eagle grid positions, pins 3-5 and both earth legs are green.",
+    "NYS216 and the USB board locks are unchanged and remain red as recorded.",
+    "The assembled case, rear panel and legends are unchanged."
+  ],
+  "limitations": [
+    "Image inspection supplements the geometric audits; it does not measure clearance.",
+    "Images do not qualify physical assembly fit."
+  ],
+  "physical_fit_qualified": false
+}
