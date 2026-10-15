@@ -55,12 +55,13 @@ KiCad revision 11 updates 24 historical 2SC536F transistor illustrations and bot
 
 The LED height uses the BOM's named STD240B 0.24-inch spacer. An older assembly table says 0.22 inch; the discrepancy is documented. Exact spacer molding, button retention/travel, historical vendor variations, omitted terminals, reconstructed enclosure tolerances and the wiring study remain qualified. These files do not establish fabrication or physical assembly readiness.
 
-Five reusable checks are included:
+Six reusable checks are included:
 
 - `python3 scripts/verify_project.py` checks file hashes, the 259 current KiCad project files, original Eagle sources and saved Blender scene.
 - `python3 scripts/verify_kicad_dependencies.py` checks that symbols, footprints and all 491 placed models resolve inside the checkout, without global KiCad libraries. Both Python checks accept `--root PATH` and require Python 3.9 or later.
 - `scripts/verify_blender_scene.py` runs inside native Blender and checks embedded components, complete LED assemblies, cap attachment across views and external file dependencies. See the opening instructions for the command, including the required failure exit-code option.
 - `scripts/verify_rear_openings.py` runs inside native Blender and checks the actual rear mating passages for scene geometry that covers them. It accounts for intentional contacts and recessed inserts.
+- `scripts/verify_kicad_blender_models.py` runs inside native Blender, exports both KiCad PCBs to a temporary folder with `kicad-cli`, and checks that every placed KiCad model matches the scene's embedded native mesh: footprint frame, bounds, centroid, surface area and triangle count. Blender-only enclosure and presentation parts are outside its scope. It needs KiCad installed; set `KICAD_CLI` to override the macOS path.
 - `python3 kicad-working/validation/models-review-12/verify_current_functions.py` replays 214 original-source and current-PCB MIDI function checks. It does not modify the project.
 
 The initial revision-10 fresh download passed native KiCad ERC, model exports and 106 Blender portability checks; [historical fresh-download verification](docs/fresh-clone-verification.json) pins that source commit and scene hash. Current model integration and electrical evidence are recorded in [working validation](kicad-working/validation/working-validation-summary-revision-12.json). Fresh I/O ERC reports zero errors and warnings under the recorded rules, and its full DRC finding lists are exactly equal to revision 11. All mainboard project files remain byte-identical; its revision-11 native electrical evidence is retained without rerunning it for this model-only update. The saved Blender15 audit passes eleven saved-scene comparison checks against revision 14, 106 portability checks and 44 rear-opening checks using 974 rays. The Blender13 contact-correction and Blender14 plate-datum evidence, including the four circuit-function checks, is retained.
