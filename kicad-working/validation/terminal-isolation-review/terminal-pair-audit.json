@@ -1,0 +1,1417 @@
+{
+  "passed": true,
+  "method": "Fresh exact BRep pairwise common-volume and nearest-distance checks on separately specified terminal solids. End-to-body intentional embedding is excluded. No inference about internal electrical switching or isolation.",
+  "model_count": 12,
+  "reference_count": 25,
+  "pair_count": 151,
+  "models": [
+    {
+      "id": "NYS216",
+      "file": "kicad-working/ioboard/3dmodels/Revision13/terminals/NYS216_DrawingDerived_DetailedBody_Terminals.step",
+      "sha256": "02af6889a2d82a29c452c142279d2fbfe0239203af81708b7cc219d9ec817fd0",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "terminals": 6,
+      "pair_count": 15,
+      "minimum_distance_mm": 5.049999999999999,
+      "overlaps": [],
+      "touches": [],
+      "pairs": [
+        {
+          "first": "L0",
+          "second": "R0",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 15.924,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "L0",
+          "second": "L1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.049999999999999,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "L0",
+          "second": "R1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 16.705576194791963,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "L0",
+          "second": "L2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 11.4,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "L0",
+          "second": "R2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 19.584018382344315,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "R0",
+          "second": "L1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 16.705576194791963,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "R0",
+          "second": "R1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.049999999999999,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "R0",
+          "second": "L2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 19.584018382344315,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "R0",
+          "second": "R2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 11.4,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "L1",
+          "second": "R1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 15.924,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "L1",
+          "second": "L2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.050000000000001,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "L1",
+          "second": "R2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 16.705576194791966,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "R1",
+          "second": "L2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 16.705576194791966,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "R1",
+          "second": "R2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.050000000000001,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "L2",
+          "second": "R2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 15.924,
+          "overlap": false,
+          "touches": false
+        }
+      ]
+    },
+    {
+      "id": "SDS50J",
+      "file": "kicad-working/ioboard/3dmodels/Revision15/terminals/SDS50J_CorrectedContactPattern_Terminals.step",
+      "sha256": "3e1f792c5992818752641dc00d56083e7f31d596bc5d84f1765675dafd8fcaf5",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "terminals": 7,
+      "pair_count": 21,
+      "minimum_distance_mm": 2.009975124224178,
+      "overlaps": [],
+      "touches": [],
+      "pairs": [
+        {
+          "first": "1",
+          "second": "2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.0,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 14.5,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "4",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 2.009975124224178,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "5",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 12.001666550941998,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "E1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 13.14526911097677,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "E2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 10.261486247128142,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.0,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "4",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.504442251822083,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "5",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.504442251822083,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "E1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 9.502531241727121,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "E2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 9.502531241727121,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3",
+          "second": "4",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 12.001666550941998,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3",
+          "second": "5",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 2.009975124224178,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3",
+          "second": "E1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 10.261486247128142,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3",
+          "second": "E2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 13.14526911097677,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "4",
+          "second": "5",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 9.5,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "4",
+          "second": "E1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 12.516153562496745,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "4",
+          "second": "E2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 10.684292208658466,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "5",
+          "second": "E1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 10.684292208658466,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "5",
+          "second": "E2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 12.516153562496745,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "E1",
+          "second": "E2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.0,
+          "overlap": false,
+          "touches": false
+        }
+      ]
+    },
+    {
+      "id": "MJ3536N",
+      "file": "kicad-working/ioboard/3dmodels/Revision15/terminals/MJ3536N_DrawingDerived_DetailedBody_Terminals.step",
+      "sha256": "65c6ed98a589bbd345ea01bf0d00024d6ff3e228612025acf11b58950bf188fd",
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "terminals": 3,
+      "pair_count": 3,
+      "minimum_distance_mm": 3.736308338453881,
+      "overlaps": [],
+      "touches": [],
+      "pairs": [
+        {
+          "first": "1",
+          "second": "2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 13.0,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 10.628264204469138,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 3.736308338453881,
+          "overlap": false,
+          "touches": false
+        }
+      ]
+    },
+    {
+      "id": "PJ202AH",
+      "file": "kicad-working/ioboard/3dmodels/Revision14/terminals/PJ202AH_DrawingDerived_DetailedBody_Terminals.step",
+      "sha256": "7fefae6f7c77b94df876eceff24837161442ff66fc5cf2e1c1342c0d6cb94977",
+      "references": [
+        "POWER0"
+      ],
+      "terminals": 3,
+      "pair_count": 3,
+      "minimum_distance_mm": 3.376758800980609,
+      "overlaps": [],
+      "touches": [],
+      "pairs": [
+        {
+          "first": "1",
+          "second": "2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.6,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 3.376758800980609,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 3.6006943774777658,
+          "overlap": false,
+          "touches": false
+        }
+      ]
+    },
+    {
+      "id": "USB",
+      "file": "kicad-working/ioboard/3dmodels/Revision18/usb-quality/Kobiconn1542442E_DrawingDerived_Terminals.step",
+      "sha256": "1c57746fc1aad51cbc7a24f905d8e2ea80a384564df79c671154ebfec0eb4584",
+      "references": [
+        "USB0"
+      ],
+      "terminals": 6,
+      "pair_count": 15,
+      "minimum_distance_mm": 1.5999999999999996,
+      "overlaps": [],
+      "touches": [],
+      "pairs": [
+        {
+          "first": "1",
+          "second": "2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 2.1,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 2.640075756488817,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "4",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.5999999999999996,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "L1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.670886519822855,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "L2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.522001448750262,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.5999999999999996,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "4",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 2.640075756488817,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "L1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.522001448750262,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "L2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.670886519822855,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3",
+          "second": "4",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 2.1,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3",
+          "second": "L1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.610043383743801,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3",
+          "second": "L2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.042904230500369,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "4",
+          "second": "L1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.042904230500369,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "4",
+          "second": "L2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.610043383743801,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "L1",
+          "second": "L2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 11.74,
+          "overlap": false,
+          "touches": false
+        }
+      ]
+    },
+    {
+      "id": "MC78M05",
+      "file": "kicad-working/ioboard/3dmodels/Revision13/terminals/MC78M05_TO220_BentBack_PhotoQualified_Terminals.step",
+      "sha256": "d8ba9827d873933070d2751289376126ba84b375be2de7e559b2ff7b75b7727c",
+      "references": [
+        "IC20"
+      ],
+      "terminals": 3,
+      "pair_count": 3,
+      "minimum_distance_mm": 1.205,
+      "overlaps": [],
+      "touches": [],
+      "pairs": [
+        {
+          "first": "1",
+          "second": "2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.205,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 3.745,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.205,
+          "overlap": false,
+          "touches": false
+        }
+      ]
+    },
+    {
+      "id": "LPTC",
+      "file": "kicad-working/mainboard/3dmodels/Revision13/terminals/Microohm_LPTC12T21001_ApproxBody_Terminals.step",
+      "sha256": "82c88429f12447c5011f8dcbd61e9a1f88a288a87d94aba929b8b463ca96f58b",
+      "references": [
+        "R100A0",
+        "R100B0"
+      ],
+      "terminals": 2,
+      "pair_count": 1,
+      "minimum_distance_mm": 7.0,
+      "overlaps": [],
+      "touches": [],
+      "pairs": [
+        {
+          "first": "1",
+          "second": "2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.0,
+          "overlap": false,
+          "touches": false
+        }
+      ]
+    },
+    {
+      "id": "CTS290",
+      "file": "kicad-working/mainboard/3dmodels/Revision15/terminals/CTS_290VAA5F201B2_DetailedCandidate_Terminals.step",
+      "sha256": "11b9b8da6c9488f211698a71cc50d39ac7f80431145f6b5c3ff3d2dbae5a261c",
+      "references": [
+        "S2"
+      ],
+      "terminals": 7,
+      "pair_count": 21,
+      "minimum_distance_mm": 1.7000000000000002,
+      "overlaps": [],
+      "touches": [],
+      "pairs": [
+        {
+          "first": "A",
+          "second": "C",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.7000000000000002,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "A",
+          "second": "B",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.2,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "A",
+          "second": "S1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 11.219999999999999,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "A",
+          "second": "S2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 11.980333885163635,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "A",
+          "second": "T1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.430846420267803,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "A",
+          "second": "T2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.837882367068289,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "C",
+          "second": "B",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.7000000000000002,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "C",
+          "second": "S1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 11.348057102429472,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "C",
+          "second": "S2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 11.348057102429472,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "C",
+          "second": "T1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.85511741983028,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "C",
+          "second": "T2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.85511741983028,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "B",
+          "second": "S1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 11.980333885163635,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "B",
+          "second": "S2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 11.219999999999999,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "B",
+          "second": "T1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.837882367068289,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "B",
+          "second": "T2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.430846420267803,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "S1",
+          "second": "S2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.2,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "S1",
+          "second": "T1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.198922965384273,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "S1",
+          "second": "T2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 8.296312433846738,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "S2",
+          "second": "T1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 8.296312433846738,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "S2",
+          "second": "T2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.198922965384273,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "T1",
+          "second": "T2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 9.16,
+          "overlap": false,
+          "touches": false
+        }
+      ]
+    },
+    {
+      "id": "AlphaRV112",
+      "file": "kicad-working/mainboard/3dmodels/Revision15/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step",
+      "sha256": "328758a08d94b9608785d29157f3a75227e4dc5eb2d33d9bebaa2c067f8d5a1e",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "terminals": 8,
+      "pair_count": 28,
+      "minimum_distance_mm": 1.1999999999999997,
+      "overlaps": [],
+      "touches": [],
+      "pairs": [
+        {
+          "first": "2A",
+          "second": "1A",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.1999999999999997,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2A",
+          "second": "1B",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 3.1999999999999997,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2A",
+          "second": "2B",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.199999999999999,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2A",
+          "second": "3B",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.199999999999999,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2A",
+          "second": "3A",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 9.2,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2A",
+          "second": "M1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.2,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2A",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 12.16059209084821,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1A",
+          "second": "1B",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.2000000000000002,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1A",
+          "second": "2B",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 3.2,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1A",
+          "second": "3B",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.2,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1A",
+          "second": "3A",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.199999999999999,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1A",
+          "second": "M1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.42159012611179,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1A",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 10.61508360777248,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1B",
+          "second": "2B",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.2,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1B",
+          "second": "3B",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 3.2,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1B",
+          "second": "3A",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.199999999999999,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1B",
+          "second": "M1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 8.141252974819048,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1B",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 9.245539465060975,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2B",
+          "second": "3B",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.2000000000000002,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2B",
+          "second": "3A",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 3.1999999999999997,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2B",
+          "second": "M1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 9.245539465060975,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2B",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 8.141252974819048,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3B",
+          "second": "3A",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.1999999999999997,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3B",
+          "second": "M1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 10.61508360777248,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3B",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.42159012611179,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3A",
+          "second": "M1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 12.16059209084821,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3A",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.2,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "M1",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 10.4,
+          "overlap": false,
+          "touches": false
+        }
+      ]
+    },
+    {
+      "id": "PanasonicEVU",
+      "file": "kicad-working/mainboard/3dmodels/Revision15/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "sha256": "74d1ec6877dfa6543ec35123bc033cd361a5140623bdd52b8e7aa461e81f6b97",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ],
+      "terminals": 5,
+      "pair_count": 10,
+      "minimum_distance_mm": 1.7000000000000002,
+      "overlaps": [],
+      "touches": [],
+      "pairs": [
+        {
+          "first": "1",
+          "second": "2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.7000000000000002,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.2,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "M1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.069516742254631,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.981227975693967,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.7000000000000002,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "M1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 6.2008063991709985,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 6.2008063991709985,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3",
+          "second": "M1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 7.981227975693967,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 5.069516742254631,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "M1",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 8.4,
+          "overlap": false,
+          "touches": false
+        }
+      ]
+    },
+    {
+      "id": "NKKB12AB",
+      "file": "kicad-working/mainboard/3dmodels/Revision15/terminals/NKK_B12AB_DetailedCandidate_Terminals.step",
+      "sha256": "1e97bf3227bab2c52f1855487e9f8474b66ea2ecbcd83becb549f0823496cfd9",
+      "references": [
+        "S1"
+      ],
+      "terminals": 7,
+      "pair_count": 21,
+      "minimum_distance_mm": 1.2599999999999998,
+      "overlaps": [],
+      "touches": [],
+      "pairs": [
+        {
+          "first": "1",
+          "second": "2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.9400000000000002,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.48,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "M1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 6.34,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 6.707652959443696,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "M3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 2.42968862693165,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "M4",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.2599999999999998,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.9400000000000002,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "M1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 3.8,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.372001712328453,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "M3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.372001712328453,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "M4",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 3.8,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3",
+          "second": "M1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.2599999999999998,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 2.4296886269316507,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3",
+          "second": "M3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 6.7076529594436956,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "3",
+          "second": "M4",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 6.34,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "M1",
+          "second": "M2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.94,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "M1",
+          "second": "M3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 8.426363391167033,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "M1",
+          "second": "M4",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 8.2,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "M2",
+          "second": "M3",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 8.2,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "M2",
+          "second": "M4",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 8.426363391167033,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "M3",
+          "second": "M4",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.94,
+          "overlap": false,
+          "touches": false
+        }
+      ]
+    },
+    {
+      "id": "Grayhill25L",
+      "file": "kicad-working/mainboard/3dmodels/Revision16/terminals/Grayhill_25LB22H_PhotoDrawing_Terminals.step",
+      "sha256": "83e62824f66ef4e9c761cdb8a5bb25482979cd041551f48196b0a130ddc99f74",
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "terminals": 5,
+      "pair_count": 10,
+      "minimum_distance_mm": 1.9,
+      "overlaps": [],
+      "touches": [],
+      "pairs": [
+        {
+          "first": "8",
+          "second": "4",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.9,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "8",
+          "second": "2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.4399999999999995,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "8",
+          "second": "1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 6.98,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "8",
+          "second": "C",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 9.52,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "4",
+          "second": "2",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.9000000000000001,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "4",
+          "second": "1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.44,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "4",
+          "second": "C",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 6.98,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "1",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.9000000000000001,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "2",
+          "second": "C",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 4.4399999999999995,
+          "overlap": false,
+          "touches": false
+        },
+        {
+          "first": "1",
+          "second": "C",
+          "intersection_mm3": 0.0,
+          "minimum_distance_mm": 1.9,
+          "overlap": false,
+          "touches": false
+        }
+      ]
+    }
+  ],
+  "active_inputs_unchanged": {
+    "kicad-working/mainboard/mainboard.kicad_pcb": "c3013242c3c69322ad8e7401ad9bb4e5b2ffeac050ff9d3a69afbb8b5fbe5fad",
+    "kicad-working/ioboard/ioboard.kicad_pcb": "eb0a2bfb3728f049a483f49eae1a2e0ca147d1bf2a7679155f791745bbf38107",
+    "kicad-working/visualization/blender-case-revision-22/x0xb0x-populated-with-case.blend": "9666132150c6ed12e9ee3a78113ad0b1392d5d023d0ec74fba4009433bacec58"
+  },
+  "read_only": true,
+  "physical_fit_qualified": false
+}

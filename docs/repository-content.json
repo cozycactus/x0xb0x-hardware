@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source_snapshot_date": "2026-10-15",
-  "scope": "Current private snapshot: KiCad working19 and Blender22. Forty STD240B LED spacer solids added from user-supplied VCC manufacturer drawing; original LED geometry, height, optics and panel projection preserved. All491 component models and complete enclosure retained. Immutable Blender7 through21 comparison baselines included. Probes, caches and redundant exports excluded.",
+  "scope": "Current private snapshot: KiCad working19 and Blender22. Forty STD240B LED spacer solids added from user-supplied VCC manufacturer drawing; original LED geometry, height, optics and panel projection preserved. All491 component models and complete enclosure retained. Immutable Blender7 through21 comparison baselines included. Probes, caches and redundant exports excluded. Additional read-only151 terminal-pair screen and archived original Mitsubishi2SC1583 source with package/pad checks included.",
   "files": {
     ".gitattributes": {
       "bytes": 190,
@@ -20,8 +20,8 @@
       "sha256": "677b9971a33cdcb49dd5ce5fb5049184eb105bbecfde1e2cfb09579b6da873eb"
     },
     "README.md": {
-      "bytes": 23313,
-      "sha256": "2e2eff084870245a049a6dc3cb0047988e2883d2a0599627f67b3978cd009ae3"
+      "bytes": 23675,
+      "sha256": "9a81329b5d0a1be910c177ff785b78add6e33357de0f6645aa67a5d198214ad1"
     },
     "docs/OPENING.md": {
       "bytes": 7302,
@@ -78,6 +78,10 @@
     "docs/terminal-drawing-correction.json": {
       "bytes": 35825,
       "sha256": "ae1c879d34ecc1d58ef80b92b03add435b8e316c4868f29d76748f9f4e576dc4"
+    },
+    "docs/terminal-isolation-and-source-review.json": {
+      "bytes": 1209,
+      "sha256": "8a6227f342fee34e0e0ea2e80edb748b4117ff4095e5b68b91c55c5a9aaa1761"
     },
     "docs/terminal-join-correction.json": {
       "bytes": 36935,
@@ -1350,6 +1354,22 @@
     "kicad-working/mainboard/sym-lib-table": {
       "bytes": 161,
       "sha256": "ab580635180f3beb7cc7aa3941e515c3e1461bef4ee63ec6679fad3c76336702"
+    },
+    "kicad-working/validation/2sc1583-review/README.md": {
+      "bytes": 1479,
+      "sha256": "ca420508c59544010fa2da059665ba1114cdf7b6f043616d6c6855a8cbf24e06"
+    },
+    "kicad-working/validation/2sc1583-review/audit_existing_model.py": {
+      "bytes": 5474,
+      "sha256": "4a7db83cf60d20fdfa58a74d16ba7eefa1012edb11f9d062593af04efae7003e"
+    },
+    "kicad-working/validation/2sc1583-review/existing-model-audit.json": {
+      "bytes": 13984,
+      "sha256": "30d0692dc2f3c5b6681c01d22aaa24fc72c48eb8c4cb8a04ea37d5be1dc24b8d"
+    },
+    "kicad-working/validation/2sc1583-review/sources/mitsubishi-2sc1583.pdf": {
+      "bytes": 148422,
+      "sha256": "78dc3990fa5b2210453a0972f5a351e9fcef93f4bff40b6d42852999f63faefd"
     },
     "kicad-working/validation/README-revision-10.md": {
       "bytes": 3447,
@@ -3466,6 +3486,18 @@
     "kicad-working/validation/rear-seating-review/source-audit/usb-primary-retrieval.json": {
       "bytes": 991,
       "sha256": "690f51352176dd9b5580f48c1cedaee22518e3edb551cdbc22d41dad8a51f02d"
+    },
+    "kicad-working/validation/terminal-isolation-review/README.md": {
+      "bytes": 996,
+      "sha256": "84b6d378d258c4e8b1d99b1174de7eacf9c53d1ca1bbf2c239d07dc6bbc09eb3"
+    },
+    "kicad-working/validation/terminal-isolation-review/audit_terminal_pairs.py": {
+      "bytes": 3072,
+      "sha256": "18ff770e8bf1e65f510940642ff5ecde8a23963a721837265d2a97bafc5edb9d"
+    },
+    "kicad-working/validation/terminal-isolation-review/terminal-pair-audit.json": {
+      "bytes": 37948,
+      "sha256": "15f7ee04dd1ae7da44ee8207b7f51d2c806585f436db6ff6906faf9119705952"
     },
     "kicad-working/validation/working-validation-summary-revision-10.json": {
       "bytes": 69266,

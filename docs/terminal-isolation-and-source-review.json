@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "kicad_revision_unchanged": 19,
+  "blender_revision_unchanged": 22,
+  "terminal_screen": {
+    "families": 12,
+    "references": 25,
+    "pair_count": 151,
+    "overlaps": 0,
+    "touches": 0,
+    "report": "kicad-working/validation/terminal-isolation-review/terminal-pair-audit.json"
+  },
+  "recovered_source": {
+    "file": "sources/mitsubishi-2sc1583.pdf",
+    "sha256": "78dc3990fa5b2210453a0972f5a351e9fcef93f4bff40b6d42852999f63faefd",
+    "publisher": "Mitsubishi Semiconductor",
+    "url": "https://www.radioradar.net/en/files.html?fid=502807",
+    "recovery": "Archived from the older local conversion workspace; hash exactly matches the existing assignment provenance",
+    "page": 1
+  },
+  "mitsubishi_2sc1583": {
+    "references": [
+      "Q12",
+      "Q21",
+      "Q26"
+    ],
+    "check_count": 83,
+    "report": "kicad-working/validation/2sc1583-review/existing-model-audit.json"
+  },
+  "geometry_and_native_files_changed": false,
+  "physical_fit_qualified": false,
+  "scope": "Additional source evidence and read-only exact-geometry checks. Existing KiCad19/Blender22 native-validation evidence remains applicable because the model, PCB and scene bytes are unchanged."
+}

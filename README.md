@@ -32,6 +32,8 @@ Blender views: **frame 1** assembled, **frame 80** exploded, **frame 120** contr
 
 ## Validation and known limits
 
+Additional [terminal and source checks](docs/terminal-isolation-and-source-review.json) found no overlap or touching among151 pairs of separate solder-terminal solids across12 families at25 references. The original Mitsubishi2SC1583 datasheet is now included, with fresh package/pad checks for Q12/Q21/Q26. These checks preserve KiCad19 and Blender22 geometry.
+
 KiCad19 and Blender22 add the40 black STD240B spacers from the user-supplied VCC drawing. Its section A-A confirms that0.240inch includes the end lands, preserving the existing6.096mm LED seat. The original three LED solids, optics and panel projection remain unchanged. See the [spacer source and validation](docs/led-spacer-completion.json).
 
 KiCad working revision18 and Blender revision21 correct USB0 from the recovered original-BOM Kobiconn154-2442-E drawing (KC-301021,2006). The shell sits0.38mm above the PCB; signal pins project2.91mm and mounting tabs3.72mm below it. The previous mixed model used a flush body and FCI61729 terminal lengths. Four signal pins also intersected the illustrative metal floor; their exits now have shell clearances and white insulation. Four illustrative gold mating strips are added. The original footprint, model transform, body width/depth/height, mating cavity, all other components and every assembly pose are preserved. See the [USB correction](docs/usb-kobiconn-correction.json) and [source review](kicad-working/validation/models-review-18/README.md).
