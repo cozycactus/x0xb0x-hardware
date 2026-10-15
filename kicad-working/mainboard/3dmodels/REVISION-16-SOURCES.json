@@ -1,0 +1,34 @@
+{
+  "revision": 16,
+  "baseline_revision": 15,
+  "geometry_license": "CC0-1.0 original reconstruction; manufacturer drawing rights retained",
+  "models": [
+    {
+      "key": "Grayhill25L",
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "previous_model": "Revision13/terminals/Grayhill_25LB22H_DetailedCandidate_Terminals.step",
+      "previous_model_sha256": "808eb7af33f7cda61668c406f2a9ce83dbccb1549f02f320dfd62811b7c36058",
+      "model": "Revision16/terminals/Grayhill_25LB22H_PhotoDrawing_Terminals.step",
+      "model_sha256": "83e62824f66ef4e9c761cdb8a5bb25482979cd041551f48196b0a130ddc99f74",
+      "original_solids_retained": 21,
+      "terminal_solids": 5,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/grayhill25l.pdf",
+        "title": "Grayhill Series 25L; body appearance from a 25L hex-output photograph"
+      },
+      "provenance": {
+        "positions": "Dimensioned: 0.100 in pitch, row 0.500 in from the shaft centre",
+        "section": "Dimensioned 0.025 in (0.64) square pins",
+        "length": "Dimensioned 0.250 in (6.35) below the base; pins rise 0.8 mm above the output board through the solder joints, as the photograph shows",
+        "omitted": "MT1-MT4 belong to the separate 25J5155 mounting bracket; the BOM part 25LB22-H has no -Z (bracket) suffix, so no bracket or legs are added"
+      }
+    }
+  ],
+  "native_assignment_transforms": "unchanged from revision 15",
+  "terminal_positions": "Drawing dimensions in each model frame; never moved to PCB pads",
+  "downloaded_CAD_geometry_incorporated": false,
+  "physical_fit_qualified": false
+}

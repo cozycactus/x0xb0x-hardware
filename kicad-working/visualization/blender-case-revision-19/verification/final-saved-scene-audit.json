@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "check_count": 11,
+  "failures": [],
+  "checks": [
+    {
+      "check": "Change record pins the saved scene and its revision-18 baseline",
+      "passed": true
+    },
+    {
+      "check": "Objects change only by the declared Grayhill parts; 491 roots",
+      "passed": true,
+      "before_count": 1675,
+      "after_count": 1681,
+      "native_reference_count": 491
+    },
+    {
+      "check": "No undeclared differences from revision 18",
+      "passed": true,
+      "unexpected_count": 0,
+      "first_unexpected": [],
+      "ignored_stale_hidden_object_matrix_entries": 0
+    },
+    {
+      "check": "Every declared part object received its new native mesh and nothing else changed on it",
+      "passed": true,
+      "replaced": 12,
+      "with_geometry_change": 8
+    },
+    {
+      "check": "Collection membership changes are exactly the added and removed part objects",
+      "passed": true,
+      "collections": [
+        "SOURCE / mainboard / immutable native KiCad GLB \u2014 revision 10"
+      ]
+    },
+    {
+      "check": "Only the declared Grayhill materials are added; every remaining previous material identical",
+      "passed": true
+    },
+    {
+      "check": "Materials no longer present were used only by the replaced Grayhill parts",
+      "passed": true,
+      "retired": [
+        "mat_40.004",
+        "mat_42.002"
+      ],
+      "users": [
+        "MAINBOARD/S3/mesh.001",
+        "MAINBOARD/S3/mesh.002",
+        "MAINBOARD/S4/mesh.001",
+        "MAINBOARD/S4/mesh.002"
+      ]
+    },
+    {
+      "check": "Opening guide and revision properties are the only scene-level additions",
+      "passed": true
+    },
+    {
+      "check": "Added part objects attach, link and display exactly like their sibling parts in all four views",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "check": "Rear apertures pass on revision 18 and revision 19",
+      "passed": true,
+      "baseline": [
+        44,
+        974
+      ],
+      "final": [
+        44,
+        974
+      ]
+    },
+    {
+      "check": "Read-only audit left both saved scenes unchanged",
+      "passed": true
+    }
+  ],
+  "stable_scene_sha256": "63c10df2ecfd2859190a14d0444397862aa5caa0860661b201a4bb9b3025c6b9",
+  "baseline_sha256": "d5d831f0cfa03bc9575a82b8c99dfae1752e187da88655b6fc9cc921b938fd30",
+  "native_reference_count": 491,
+  "added_objects": [
+    "MAINBOARD/S3/mesh.007",
+    "MAINBOARD/S3/mesh.008",
+    "MAINBOARD/S3/mesh.009",
+    "MAINBOARD/S3/mesh.010",
+    "MAINBOARD/S4/mesh.007",
+    "MAINBOARD/S4/mesh.008",
+    "MAINBOARD/S4/mesh.009",
+    "MAINBOARD/S4/mesh.010"
+  ],
+  "replaced_mesh_objects": 12,
+  "frames": 4,
+  "snapshot_sha256": {
+    "before-scene.json.gz": "0fe42e0fe3b174931b3ae539d38f7ef03080fcd83b20f9d6c3a2c89f38c4d06e",
+    "after-scene.json.gz": "6195c44b14b7bd220c44e4fd4e435b18a00ca7e744b7fb30f24cfe51e101bc02"
+  },
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "method": "Fresh saved-file snapshots of revisions 18 and 19 compare all stored data and evaluated instance poses in four views; current 974 rear rays are replayed on both."
+}

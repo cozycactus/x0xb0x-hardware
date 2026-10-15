@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "revision": 16,
+  "generator": "build_grayhill.py",
+  "passed": true,
+  "check_count": 18,
+  "checks": [
+    {
+      "check": "FR4OutputBoard: valid",
+      "passed": true,
+      "solids": 1
+    },
+    {
+      "check": "OutputBoardLands: valid",
+      "passed": true,
+      "solids": 5
+    },
+    {
+      "check": "SolderJoints: valid",
+      "passed": true,
+      "solids": 5
+    },
+    {
+      "check": "BlackMoldedHousing: valid",
+      "passed": true,
+      "solids": 1
+    },
+    {
+      "check": "LabelBand: valid",
+      "passed": true,
+      "solids": 1
+    },
+    {
+      "check": "LabelText: valid",
+      "passed": true,
+      "solids": 5
+    },
+    {
+      "check": "ThreadedDoubleDBushing: valid",
+      "passed": true,
+      "solids": 1
+    },
+    {
+      "check": "LightPolymerFlattedShaft: valid",
+      "passed": true,
+      "solids": 1
+    },
+    {
+      "check": "IntegralNonTurnTab: valid",
+      "passed": true,
+      "solids": 1
+    },
+    {
+      "check": "Housing keeps the printed 21.97 mm square, seat and 8.71 mm mounting face",
+      "passed": true,
+      "bounds": [
+        -10.985,
+        -10.985,
+        1.14,
+        10.985,
+        10.985,
+        8.71
+      ]
+    },
+    {
+      "check": "Side lugs stay within the printed square, like the revision-8 lock ears",
+      "passed": true,
+      "lug_x_mm": 10.985,
+      "old_ear_x_mm": 10.985
+    },
+    {
+      "check": "FR4OutputBoard: identical to the revision-8 solid",
+      "passed": true
+    },
+    {
+      "check": "ThreadedDoubleDBushing: identical to the revision-8 solid",
+      "passed": true
+    },
+    {
+      "check": "LightPolymerFlattedShaft: identical to the revision-8 solid",
+      "passed": true
+    },
+    {
+      "check": "Non-turn tab 3.05 x 1.73 mm on the centre line 10.16 mm opposite the pins",
+      "passed": true
+    },
+    {
+      "check": "Label text is five glyphs on the band",
+      "passed": true
+    },
+    {
+      "check": "Shaft tip at 27.76 mm",
+      "passed": true
+    },
+    {
+      "check": "Exported STEP reloads valid with every part solid",
+      "passed": true,
+      "solids": 21
+    }
+  ],
+  "step": "validation/models-review-16/grayhill-quality/Grayhill_25LB22H_PhotoDrawing.step",
+  "step_sha256": "213b55d9b996211aa405ef90dd62dfa4c6ccd967820f6d4cda3c5f84dd9b68d7",
+  "printed_dimensions_kept": {
+    "square_mm": 21.97,
+    "seat_mm": 1.14,
+    "mounting_face_mm": 8.71,
+    "board_depth_mm": 25.91,
+    "tongue_width_mm": 14.97,
+    "bushing": "3/8-32, 6.35 long, 8.13 flats",
+    "shaft": "6.35 dia to 27.76, flat 6.35 x 5.56 toward the pins",
+    "non_turn_tab_mm": {
+      "width": 3.05,
+      "thickness": 1.73,
+      "offset": 10.16,
+      "side": "opposite the pins (drawing front view)"
+    }
+  },
+  "photo_derived": {
+    "drum_diameter_mm": 20.2,
+    "drum_starts_mm": 4.3,
+    "lock_lugs": "two, one per side",
+    "label": "8 4 2 1 C on a white band spanning 84 degrees",
+    "output_board": "green FR4 with gold lands and solder fillets",
+    "tab_height_mm": "1.73, assumed equal to the printed thickness"
+  },
+  "sources": {
+    "drawing": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/grayhill25l.pdf",
+    "photo": "Grayhill 25L hex-output encoder photograph supplied by the user (label 8 4 2 1 C)"
+  },
+  "physical_fit_qualified": false
+}

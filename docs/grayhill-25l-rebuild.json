@@ -1,0 +1,248 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-15",
+  "Blender_revision": 19,
+  "KiCad_revision": 16,
+  "scene": "kicad-working/visualization/blender-case-revision-19/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "63c10df2ecfd2859190a14d0444397862aa5caa0860661b201a4bb9b3025c6b9",
+  "scene_bytes": 42412451,
+  "baseline_scene_sha256": "d5d831f0cfa03bc9575a82b8c99dfae1752e187da88655b6fc9cc921b938fd30",
+  "correction": "Grayhill 25LB22-H (S3, S4) rebuilt from the Series 25L drawing and a product photograph: round drum top with lock lugs, white 8-4-2-1-C label band, green output board with gold lands and solder joints, and the non-turn tab on the centre line opposite the pins (drawing front view).",
+  "printed_dimensions_kept": {
+    "square_mm": 21.97,
+    "seat_mm": 1.14,
+    "mounting_face_mm": 8.71,
+    "board_depth_mm": 25.91,
+    "tongue_width_mm": 14.97,
+    "bushing": "3/8-32, 6.35 long, 8.13 flats",
+    "shaft": "6.35 dia to 27.76, flat 6.35 x 5.56 toward the pins",
+    "non_turn_tab_mm": {
+      "width": 3.05,
+      "thickness": 1.73,
+      "offset": 10.16,
+      "side": "opposite the pins (drawing front view)"
+    }
+  },
+  "photo_derived": {
+    "drum_diameter_mm": 20.2,
+    "drum_starts_mm": 4.3,
+    "lock_lugs": "two, one per side",
+    "label": "8 4 2 1 C on a white band spanning 84 degrees",
+    "output_board": "green FR4 with gold lands and solder fillets",
+    "tab_height_mm": "1.73, assumed equal to the printed thickness"
+  },
+  "pins": {
+    "positions": "unchanged (0.100 in pitch, 0.500 in from the shaft)",
+    "protrusion_above_board_mm": 0.8,
+    "fit": [
+      {
+        "pad": "C",
+        "result": "fits",
+        "margin_mm": 0.0474
+      },
+      {
+        "pad": "MT1",
+        "result": "empty by design",
+        "margin_mm": null
+      },
+      {
+        "pad": "MT2",
+        "result": "empty by design",
+        "margin_mm": null
+      },
+      {
+        "pad": "MT3",
+        "result": "empty by design",
+        "margin_mm": null
+      },
+      {
+        "pad": "MT4",
+        "result": "empty by design",
+        "margin_mm": null
+      },
+      {
+        "pad": "P$1",
+        "result": "fits",
+        "margin_mm": 0.0474
+      },
+      {
+        "pad": "P$2",
+        "result": "fits",
+        "margin_mm": 0.0474
+      },
+      {
+        "pad": "P$4",
+        "result": "fits",
+        "margin_mm": 0.0474
+      },
+      {
+        "pad": "P$8",
+        "result": "fits",
+        "margin_mm": 0.0474
+      }
+    ]
+  },
+  "mounting_holes": "MT1-MT4 stay empty: they serve the optional 25J5155 bracket and the BOM part 25LB22-H has no -Z (with bracket) suffix.",
+  "blender": {
+    "added_objects": [
+      "MAINBOARD/S3/mesh.007",
+      "MAINBOARD/S3/mesh.008",
+      "MAINBOARD/S3/mesh.009",
+      "MAINBOARD/S3/mesh.010",
+      "MAINBOARD/S4/mesh.007",
+      "MAINBOARD/S4/mesh.008",
+      "MAINBOARD/S4/mesh.009",
+      "MAINBOARD/S4/mesh.010"
+    ],
+    "removed_objects": [
+      "MAINBOARD/S3/mesh.002",
+      "MAINBOARD/S4/mesh.002"
+    ],
+    "replaced_part_meshes": 12,
+    "added_materials": [
+      "Grayhill 25L FR4OutputBoard \u2014 revision 19 (native KiCad colour)",
+      "Grayhill 25L LabelBand \u2014 revision 19 (native KiCad colour)",
+      "Grayhill 25L LabelText \u2014 revision 19 (native KiCad colour)",
+      "Grayhill 25L OutputBoardLands \u2014 revision 19 (native KiCad colour)",
+      "Grayhill 25L SolderJoints \u2014 revision 19 (native KiCad colour)"
+    ],
+    "retired_materials": "Two materials used only by the old Grayhill board and land parts are dropped"
+  },
+  "kicad": {
+    "changed_files": [
+      "mainboard/mainboard-import-fps.pretty/GH3074.kicad_mod",
+      "mainboard/mainboard.kicad_pcb"
+    ],
+    "core_files": 289,
+    "fresh_ERC_errors": {
+      "mainboard": 0,
+      "ioboard": 0
+    },
+    "fresh_DRC_comparison_to_previous": {
+      "mainboard": {
+        "violations": true,
+        "schematic_parity": true,
+        "ignored_checks": true,
+        "unconnected_items_raw": false,
+        "unconnected_count_and_nets": true
+      },
+      "ioboard": {
+        "violations": true,
+        "schematic_parity": true,
+        "ignored_checks": true,
+        "unconnected_items_raw": true,
+        "unconnected_count_and_nets": true
+      }
+    }
+  },
+  "verification": {
+    "grayhill_body": {
+      "report": "kicad-working/validation/models-review-16/grayhill-quality/grayhill-model-audit.json",
+      "sha256": "94f1b6c8fe0ac5ad68db7e56618957b17bac7e8c26ebfb7355064806f5c3c044",
+      "passed": true,
+      "check_count": 18
+    },
+    "terminal_model": {
+      "report": "kicad-working/validation/models-review-16/terminal-quality/terminal-model-audit.json",
+      "sha256": "5cd5d11fa8dedd3b1e9bd2e340177e5603cec7b418255522ee80f08342f33185",
+      "passed": true,
+      "check_count": 22
+    },
+    "terminal_join_audit": {
+      "report": "kicad-working/validation/models-review-16/terminal-quality/terminal-join-audit.json",
+      "sha256": "2f4b10c128d12e351dce92117d2b6e14b2614743705020c14dc78aad4ace829f",
+      "passed": true,
+      "check_count": 12
+    },
+    "kicad_installation": {
+      "report": "kicad-working/validation/models-review-16/installation-audit.json",
+      "sha256": "4fbfd3a631826797e2373f1226db5aba6fbc957379726d877c8d5ba8b7c5aebe",
+      "passed": true
+    },
+    "native_lead_and_fit_audit": {
+      "report": "kicad-working/validation/models-review-16/native-terminal-audit.json",
+      "sha256": "e582b098bfec3540af6eb7928638c65a1925d99406153ed6abaaa45f8449f2ec",
+      "passed": true,
+      "check_count": 32
+    },
+    "kicad_validation_summary": {
+      "report": "kicad-working/validation/working-validation-summary-revision-16.json",
+      "sha256": "6009ffbd2a7440c7b243a7e073caa9fe5f0002a7699b3d22891579a9042aa662",
+      "passed": true
+    },
+    "midi_function_replay": {
+      "report": "kicad-working/validation/models-review-16/current-function-verification.json",
+      "sha256": "aff7d12dc5f3d3ce4d94b6bc6ea67d5358c7425948f59d82e609e82e967910f5",
+      "passed": true,
+      "checks_count": 214
+    },
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-19/verification/final-saved-scene-audit.json",
+      "sha256": "d73181ef50d51e2c0d9d841985770e5b811e8d8e7b87b881424a1b0b1e5137f1",
+      "passed": true,
+      "check_count": 11
+    },
+    "kicad_blender_models": {
+      "report": "kicad-working/visualization/blender-case-revision-19/verification/kicad-blender-models-audit.json",
+      "sha256": "4304090730e388c46f67ae20610d245f8d8e8c5c154689b536870c97aca26245",
+      "passed": true,
+      "check_count": 7
+    },
+    "native_terminal_joins": {
+      "report": "kicad-working/visualization/blender-case-revision-19/verification/terminal-join-audit.json",
+      "sha256": "f83a80575fa4f46629487ee26c2df2b4cc52771e5b32a0c80fe6ba0cdc4d502d",
+      "passed": true,
+      "check_count": 4
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-19/verification/rear-openings-audit.json",
+      "sha256": "859549179a33551e108be30e3e0423c9df596621e7fc537f55851c66beaf1595",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-19/verification/portable-scene-audit.json",
+      "sha256": "091e9d84be73e0880a907f4bfb6420cd1fb98c209d1ecf9b3533b76718b8c9c6",
+      "passed": true,
+      "check_count": 106
+    },
+    "terminal_sheet": {
+      "report": "kicad-working/visualization/blender-case-revision-19/verification/terminal-views.json",
+      "sha256": "2aecafe8c9117ffefeaa6e9605f2fb4d75b9d4d7e65e19b0d6808018c16815e1",
+      "passed": true
+    },
+    "grayhill_render": {
+      "report": "kicad-working/visualization/blender-case-revision-19/verification/grayhill-render.json",
+      "sha256": "c592a8c03bc3a7538080189dce7c194edc0165b7ad31ef74da1ad42620aab105",
+      "passed": true
+    },
+    "render_readonly": {
+      "report": "kicad-working/visualization/blender-case-revision-19/verification/render-readonly-verification.json",
+      "sha256": "c3233c955281f8998065085fa5acac8cc9e6aee265d206c219f8b9d24f938717",
+      "passed": true
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-19/verification/final-render-review.json",
+      "sha256": "ea524423ca595396780b5f20dd1d282c0c1685f979f2c6e80e4d00f178e8579e",
+      "passed": true,
+      "view_count": 7
+    }
+  },
+  "unchanged": [
+    "Original Eagle files",
+    "KiCad copper, pads, drills, nets, footprint poses, model transforms and rules",
+    "Every other model reference",
+    "All Blender poses, case, plate, LEDs, caps, hardware, wiring study, previous materials and views"
+  ],
+  "limitations": [
+    "Drum diameter and height, lug size, label layout and colours come from the photograph, not printed dimensions.",
+    "The photograph is user-supplied and not retained; its period and source are not recorded.",
+    "Not manufacturer CAD; physical fit is unqualified."
+  ],
+  "physical_fit_qualified": false,
+  "validation_summary": {
+    "report": "kicad-working/visualization/blender-case-revision-19/verification/independent-validation-summary.json",
+    "sha256": "dc3f3b27cd04be17c6376c235125af3b4f895b5c3c2ca00c8469424423ac672d"
+  }
+}

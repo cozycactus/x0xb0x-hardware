@@ -1,0 +1,255 @@
+{
+  "schema": 1,
+  "revision": 16,
+  "generator": "build_terminals.py",
+  "freecad": [
+    "1",
+    "0",
+    "1"
+  ],
+  "models": {
+    "Grayhill25L": {
+      "board": "mainboard",
+      "source_step": "validation/models-review-16/grayhill-quality/Grayhill_25LB22H_PhotoDrawing.step",
+      "source_sha256": "213b55d9b996211aa405ef90dd62dfa4c6ccd967820f6d4cda3c5f84dd9b68d7",
+      "output": "mainboard/3dmodels/Revision16/terminals/Grayhill_25LB22H_PhotoDrawing_Terminals.step",
+      "output_sha256": "83e62824f66ef4e9c761cdb8a5bb25482979cd041551f48196b0a130ddc99f74",
+      "output_bytes": 453305,
+      "original_solids": 21,
+      "terminal_solids": 5,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/grayhill25l.pdf",
+        "title": "Grayhill Series 25L; body appearance from a 25L hex-output photograph"
+      },
+      "provenance": {
+        "positions": "Dimensioned: 0.100 in pitch, row 0.500 in from the shaft centre",
+        "section": "Dimensioned 0.025 in (0.64) square pins",
+        "length": "Dimensioned 0.250 in (6.35) below the base; pins rise 0.8 mm above the output board through the solder joints, as the photograph shows",
+        "omitted": "MT1-MT4 belong to the separate 25J5155 mounting bracket; the BOM part 25LB22-H has no -Z (bracket) suffix, so no bracket or legs are added"
+      },
+      "terminals": [
+        {
+          "name": "8",
+          "pad": "P$8",
+          "kind": "blade",
+          "z_tip_mm": -6.35,
+          "bounds_mm": [
+            -5.4,
+            -13.02,
+            -6.35,
+            -4.76,
+            -12.38,
+            1.94
+          ],
+          "volume_mm3": 3.395584,
+          "formed_leg": null
+        },
+        {
+          "name": "4",
+          "pad": "P$4",
+          "kind": "blade",
+          "z_tip_mm": -6.35,
+          "bounds_mm": [
+            -2.86,
+            -13.02,
+            -6.35,
+            -2.22,
+            -12.38,
+            1.94
+          ],
+          "volume_mm3": 3.395584,
+          "formed_leg": null
+        },
+        {
+          "name": "2",
+          "pad": "P$2",
+          "kind": "blade",
+          "z_tip_mm": -6.35,
+          "bounds_mm": [
+            -0.32,
+            -13.02,
+            -6.35,
+            0.32,
+            -12.38,
+            1.94
+          ],
+          "volume_mm3": 3.395584,
+          "formed_leg": null
+        },
+        {
+          "name": "1",
+          "pad": "P$1",
+          "kind": "blade",
+          "z_tip_mm": -6.35,
+          "bounds_mm": [
+            2.22,
+            -13.02,
+            -6.35,
+            2.86,
+            -12.38,
+            1.94
+          ],
+          "volume_mm3": 3.395584,
+          "formed_leg": null
+        },
+        {
+          "name": "C",
+          "pad": "C",
+          "kind": "blade",
+          "z_tip_mm": -6.35,
+          "bounds_mm": [
+            4.76,
+            -13.02,
+            -6.35,
+            5.4,
+            -12.38,
+            1.94
+          ],
+          "volume_mm3": 3.395584,
+          "formed_leg": null
+        }
+      ]
+    }
+  },
+  "passed": true,
+  "check_count": 22,
+  "checks": [
+    {
+      "check": "Grayhill25L: source solids and colours read in order",
+      "passed": true,
+      "solids": 21
+    },
+    {
+      "check": "Grayhill25L/8: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "Grayhill25L/8: valid single terminal solid",
+      "passed": true,
+      "volume": 3.3955840000000057
+    },
+    {
+      "check": "Grayhill25L/8: tip at specified depth",
+      "passed": true,
+      "z_min": -6.35,
+      "z_tip": -6.35
+    },
+    {
+      "check": "Grayhill25L/4: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "Grayhill25L/4: valid single terminal solid",
+      "passed": true,
+      "volume": 3.3955840000000004
+    },
+    {
+      "check": "Grayhill25L/4: tip at specified depth",
+      "passed": true,
+      "z_min": -6.35,
+      "z_tip": -6.35
+    },
+    {
+      "check": "Grayhill25L/2: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "Grayhill25L/2: valid single terminal solid",
+      "passed": true,
+      "volume": 3.3955840000000026
+    },
+    {
+      "check": "Grayhill25L/2: tip at specified depth",
+      "passed": true,
+      "z_min": -6.35,
+      "z_tip": -6.35
+    },
+    {
+      "check": "Grayhill25L/1: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "Grayhill25L/1: valid single terminal solid",
+      "passed": true,
+      "volume": 3.3955840000000004
+    },
+    {
+      "check": "Grayhill25L/1: tip at specified depth",
+      "passed": true,
+      "z_min": -6.35,
+      "z_tip": -6.35
+    },
+    {
+      "check": "Grayhill25L/C: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "Grayhill25L/C: valid single terminal solid",
+      "passed": true,
+      "volume": 3.3955840000000057
+    },
+    {
+      "check": "Grayhill25L/C: tip at specified depth",
+      "passed": true,
+      "z_min": -6.35,
+      "z_tip": -6.35
+    },
+    {
+      "check": "Grayhill25L: named source parts cover the solids in order",
+      "passed": true,
+      "parts": [
+        "FR4OutputBoard",
+        "OutputBoardLands",
+        "SolderJoints",
+        "BlackMoldedHousing",
+        "LabelBand",
+        "LabelText",
+        "ThreadedDoubleDBushing",
+        "LightPolymerFlattedShaft",
+        "IntegralNonTurnTab"
+      ]
+    },
+    {
+      "check": "Grayhill25L: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 26
+    },
+    {
+      "check": "Grayhill25L: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 2.3707022948740948e-14
+    },
+    {
+      "check": "Grayhill25L: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "Grayhill25L: assembly root and named part products retained, terminal part added",
+      "passed": true,
+      "products": [
+        "Grayhill_25LB22H_PhotoDrawing",
+        "FR4OutputBoard",
+        "OutputBoardLands",
+        "SolderJoints",
+        "BlackMoldedHousing",
+        "LabelBand",
+        "LabelText",
+        "ThreadedDoubleDBushing",
+        "LightPolymerFlattedShaft",
+        "IntegralNonTurnTab",
+        "DrawingDerivedTerminals"
+      ]
+    },
+    {
+      "check": "Source STEP files and both PCBs unchanged",
+      "passed": true
+    }
+  ],
+  "physical_fit_qualified": false,
+  "scope": "Terminals added to body illustrations; positions per drawing dimensions, not moved to pads."
+}

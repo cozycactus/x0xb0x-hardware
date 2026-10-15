@@ -1,0 +1,207 @@
+{
+  "schema": 1,
+  "revision": 16,
+  "generator": "audit_terminal_joins.py",
+  "passed": true,
+  "check_count": 12,
+  "terminals": 62,
+  "checks": [
+    {
+      "check": "AlphaRV112: every terminal joins its body",
+      "passed": true,
+      "detached": {}
+    },
+    {
+      "check": "CTS290: every terminal joins its body",
+      "passed": true,
+      "detached": {}
+    },
+    {
+      "check": "Grayhill25L: every terminal joins its body",
+      "passed": true,
+      "detached": {}
+    },
+    {
+      "check": "LPTC: every terminal joins its body",
+      "passed": true,
+      "detached": {}
+    },
+    {
+      "check": "MC78M05: every terminal joins its body",
+      "passed": true,
+      "detached": {}
+    },
+    {
+      "check": "MJ3536N: every terminal joins its body",
+      "passed": true,
+      "detached": {}
+    },
+    {
+      "check": "NKKB12AB: every terminal joins its body",
+      "passed": true,
+      "detached": {}
+    },
+    {
+      "check": "NYS216: every terminal joins its body",
+      "passed": true,
+      "detached": {}
+    },
+    {
+      "check": "PJ202AH: every terminal joins its body",
+      "passed": true,
+      "detached": {}
+    },
+    {
+      "check": "PanasonicEVU: every terminal joins its body",
+      "passed": true,
+      "detached": {}
+    },
+    {
+      "check": "SDS50J: every terminal joins its body",
+      "passed": true,
+      "detached": {}
+    },
+    {
+      "check": "USB: every terminal joins its body",
+      "passed": true,
+      "detached": {}
+    }
+  ],
+  "models": {
+    "AlphaRV112": {
+      "step": "mainboard/3dmodels/Revision15/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step",
+      "step_sha256": "328758a08d94b9608785d29157f3a75227e4dc5eb2d33d9bebaa2c067f8d5a1e",
+      "terminal_gaps_mm": {
+        "2A": 0.0,
+        "1A": 0.0,
+        "1B": 0.0,
+        "2B": 0.0,
+        "3B": 0.0,
+        "3A": 0.0,
+        "M1": 0.0,
+        "M2": 0.0
+      }
+    },
+    "CTS290": {
+      "step": "mainboard/3dmodels/Revision15/terminals/CTS_290VAA5F201B2_DetailedCandidate_Terminals.step",
+      "step_sha256": "11b9b8da6c9488f211698a71cc50d39ac7f80431145f6b5c3ff3d2dbae5a261c",
+      "terminal_gaps_mm": {
+        "A": 0.0,
+        "C": 0.0,
+        "B": 0.0,
+        "S1": 0.0,
+        "S2": 0.0,
+        "T1": 0.0,
+        "T2": 0.0
+      }
+    },
+    "Grayhill25L": {
+      "step": "mainboard/3dmodels/Revision16/terminals/Grayhill_25LB22H_PhotoDrawing_Terminals.step",
+      "step_sha256": "83e62824f66ef4e9c761cdb8a5bb25482979cd041551f48196b0a130ddc99f74",
+      "terminal_gaps_mm": {
+        "8": 0.0,
+        "4": 0.0,
+        "2": 0.0,
+        "1": 0.0,
+        "C": 0.0
+      }
+    },
+    "LPTC": {
+      "step": "mainboard/3dmodels/Revision13/terminals/Microohm_LPTC12T21001_ApproxBody_Terminals.step",
+      "step_sha256": "82c88429f12447c5011f8dcbd61e9a1f88a288a87d94aba929b8b463ca96f58b",
+      "terminal_gaps_mm": {
+        "1": 0.0,
+        "2": 0.0
+      }
+    },
+    "MC78M05": {
+      "step": "ioboard/3dmodels/Revision13/terminals/MC78M05_TO220_BentBack_PhotoQualified_Terminals.step",
+      "step_sha256": "d8ba9827d873933070d2751289376126ba84b375be2de7e559b2ff7b75b7727c",
+      "terminal_gaps_mm": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0
+      }
+    },
+    "MJ3536N": {
+      "step": "ioboard/3dmodels/Revision15/terminals/MJ3536N_DrawingDerived_DetailedBody_Terminals.step",
+      "step_sha256": "65c6ed98a589bbd345ea01bf0d00024d6ff3e228612025acf11b58950bf188fd",
+      "terminal_gaps_mm": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0
+      }
+    },
+    "NKKB12AB": {
+      "step": "mainboard/3dmodels/Revision15/terminals/NKK_B12AB_DetailedCandidate_Terminals.step",
+      "step_sha256": "1e97bf3227bab2c52f1855487e9f8474b66ea2ecbcd83becb549f0823496cfd9",
+      "terminal_gaps_mm": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "M1": 0.0,
+        "M2": 0.0,
+        "M3": 0.0,
+        "M4": 0.0
+      }
+    },
+    "NYS216": {
+      "step": "ioboard/3dmodels/Revision13/terminals/NYS216_DrawingDerived_DetailedBody_Terminals.step",
+      "step_sha256": "02af6889a2d82a29c452c142279d2fbfe0239203af81708b7cc219d9ec817fd0",
+      "terminal_gaps_mm": {
+        "L0": 0.0,
+        "R0": 0.0,
+        "L1": 0.0,
+        "R1": 0.0,
+        "L2": 0.0,
+        "R2": 0.0
+      }
+    },
+    "PJ202AH": {
+      "step": "ioboard/3dmodels/Revision14/terminals/PJ202AH_DrawingDerived_DetailedBody_Terminals.step",
+      "step_sha256": "7fefae6f7c77b94df876eceff24837161442ff66fc5cf2e1c1342c0d6cb94977",
+      "terminal_gaps_mm": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0
+      }
+    },
+    "PanasonicEVU": {
+      "step": "mainboard/3dmodels/Revision15/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "step_sha256": "74d1ec6877dfa6543ec35123bc033cd361a5140623bdd52b8e7aa461e81f6b97",
+      "terminal_gaps_mm": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "M1": 0.0,
+        "M2": 0.0
+      }
+    },
+    "SDS50J": {
+      "step": "ioboard/3dmodels/Revision15/terminals/SDS50J_CorrectedContactPattern_Terminals.step",
+      "step_sha256": "3e1f792c5992818752641dc00d56083e7f31d596bc5d84f1765675dafd8fcaf5",
+      "terminal_gaps_mm": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "E1": 0.0,
+        "E2": 0.0
+      }
+    },
+    "USB": {
+      "step": "ioboard/3dmodels/Revision13/terminals/USB_TypeB-body-illustration_Terminals.step",
+      "step_sha256": "bb3e336edf721107308693a43b0dbd8c709f152d9560b8ce5fc735ee1963a961",
+      "terminal_gaps_mm": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "L1": 0.0,
+        "L2": 0.0
+      }
+    }
+  },
+  "method": "FreeCAD distance from each appended terminal solid to the union of the original body solids."
+}

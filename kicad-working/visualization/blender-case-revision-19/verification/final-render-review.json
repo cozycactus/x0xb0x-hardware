@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "scene_sha256": "63c10df2ecfd2859190a14d0444397862aa5caa0860661b201a4bb9b3025c6b9",
+  "view_count": 7,
+  "views": [
+    "assembled",
+    "rear",
+    "exploded",
+    "control-side",
+    "io-terminals-detail",
+    "terminal-models",
+    "grayhill-25l"
+  ],
+  "method": "Human-visible image inspection after native rendering, a close-up comparison of the rebuilt S3 with the user-supplied Grayhill 25L photograph (not retained), and a pixel comparison of every view with revision 18. Hashes pin the reviewed images.",
+  "image_sha256": {
+    "assembled.png": "ddfcdefbe9a075ab3373bcbb7e2a96a1af692264a637fd2e554cc7bc458e2a92",
+    "rear.png": "38ff91da3c86f62918e63168caeb23c304c08e45a224ff8627555db2e1876c65",
+    "exploded.png": "a8665ac9eb7cc168febe64851c5abf394da99f62d2402acd6cc33aadad94b4fc",
+    "control-side.png": "e8b9b912c7465e8ab891c5d956924bab92a2e0a6dfc0d539e91264018004b1d0",
+    "io-terminals-detail.png": "6724f8a8ef60cb2721ed643b23316e6a499b41cf141e81096c258a54b15332e1",
+    "terminal-models.png": "8e111af9e6006a8caa1a19368a888c33be4246fa97d6df6fa162a661ee19e417",
+    "grayhill-25l.png": "e9f036ec7cc3322fc79870bb9ea55358e4af7a08608d073d373e23cc1e7d860d"
+  },
+  "comparison_with_revision_18": {
+    "assembled": "0 of 2,520,000 pixels differ by more than 24 (max 0)",
+    "rear": "0 of 2,520,000 pixels differ by more than 24 (max 0)",
+    "exploded": "0 of 2,520,000 pixels differ by more than 24 (max 22)",
+    "control_side": "8,770 of 2,520,000 pixels differ by more than 24 (max 208): the round drum, green output board and relocated non-turn tab of S3 and S4",
+    "io_terminals_detail": "15,129 of 1,350,000 pixels differ by more than 24 (max 94); this view varies by about 15,000 pixels between renders of unchanged geometry"
+  },
+  "observations": [
+    "The rebuilt switch matches the photograph: square base with a round drum top and two lock lugs, the white 8-4-2-1-C label band, a green output board with gold lands and solder joints, and the light flatted shaft.",
+    "An early build showed a dark line on the label where KiCad tessellates the band in 12-degree facets; the label was thickened to 0.17 mm and the line is gone.",
+    "The non-turn tab now sits on the centre line opposite the pins and clears the top panel; the only S3/S4 overlaps are the shafts inside their knobs, unchanged from revision 18.",
+    "The four MT holes remain empty, as the BOM part has no bracket."
+  ],
+  "limitations": [
+    "Drum, lugs, label and board colour are photo-derived proportions; images do not qualify physical assembly fit."
+  ],
+  "physical_fit_qualified": false
+}
