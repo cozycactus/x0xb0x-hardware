@@ -20,12 +20,12 @@
       "sha256": "e9277257ffc0730a8f15db80ada84356977b878cd16d08c67ce438adcc99a51a"
     },
     "README.md": {
-      "bytes": 18879,
-      "sha256": "2c21c2d8756081b38a8a41c01a8b21681cd9134cd3c4c6d60193d6272b3e8ae2"
+      "bytes": 19532,
+      "sha256": "2293f7a4a58d64fd54a3d125e581bce1e16e0290f85497c1151d3ec360341e87"
     },
     "docs/OPENING.md": {
-      "bytes": 5967,
-      "sha256": "8f45a93b913d132bfefb81f1c25f6e60a4f26f1e4d4d978da8626e6f564b3b85"
+      "bytes": 6499,
+      "sha256": "e4b667a44cbadadacb5bc7f5b0ce036c5fde911282afec72b886bba5fba422f6"
     },
     "docs/din-contact-correction.json": {
       "bytes": 8848,
@@ -34,6 +34,10 @@
     "docs/din-midi-correction.json": {
       "bytes": 5350,
       "sha256": "1765ba837f541441d00a1ea9c03b5ba249f99c24948266f73c05d3ec63b49443"
+    },
+    "docs/drill-fit-allowances.json": {
+      "bytes": 4512,
+      "sha256": "24a8b91d0087fbb14cd0d86de1a379151aee8ff321a0136ae46cd9e3372bbdd3"
     },
     "docs/fresh-clone-verification.json": {
       "bytes": 2610,
@@ -6795,6 +6799,10 @@
       "bytes": 10195,
       "sha256": "398e616003e0de584c077edd2b432e83858d8457852ba708c7472ffbef268439"
     },
+    "scripts/verify_drill_fit.py": {
+      "bytes": 12021,
+      "sha256": "6fbda6b711c49485ffc4ff3e8357a02d35e0b283feec05e3b43245b3b6ac3f77"
+    },
     "scripts/verify_kicad_blender_models.py": {
       "bytes": 10073,
       "sha256": "4e50ef386b1ad2234433edbc642818a34274cac5c0cb06e4e08a70e4621026c4"
@@ -6812,5 +6820,5 @@
       "sha256": "229e988e352143042e6542e92902e2807940aa441e02b647f2c6dcaac9ad1e54"
     }
   },
-  "verification_note": "Current Blender17 evidence covers complete saved-file comparison with revision16, 491 KiCad-vs-scene model matches, 974 rear rays, 106 portability checks, the terminal drill-ring sheet and five rendered views. KiCad14 evidence covers corrected terminal-model solid checks, a native lead and drill-fit audit with 11 recorded nominal interferences (19 in revision13), and fresh ERC/DRC for both boards equal to the previous reports. No physical-fit qualification."
+  "verification_note": "Current Blender17 evidence covers complete saved-file comparison with revision16, 491 KiCad-vs-scene model matches, 974 rear rays, 106 portability checks, the terminal drill-ring sheet and five rendered views. KiCad14 evidence covers corrected terminal-model solid checks, a native lead and drill-fit audit with 11 recorded nominal interferences (19 in revision13), and fresh ERC/DRC for both boards equal to the previous reports. scripts/verify_drill_fit.py checks all 489 drilled-hole models against declared, sourced allowances. No physical-fit qualification."
 }

@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "purpose": "Declared exceptions for scripts/verify_drill_fit.py. Each entry records a sourced reason; none of them is corrected by moving models or editing pads.",
+  "snapshot": "KiCad working revision 14",
+  "empty_by_design": [
+    {
+      "board": "mainboard",
+      "reference": "S3",
+      "pad": "MT1",
+      "reason": "Grayhill 25L bracket legs are not dimensioned on the drawing; omitted (models-review-13)."
+    },
+    {
+      "board": "mainboard",
+      "reference": "S3",
+      "pad": "MT2",
+      "reason": "Grayhill 25L bracket legs are not dimensioned on the drawing; omitted (models-review-13)."
+    },
+    {
+      "board": "mainboard",
+      "reference": "S3",
+      "pad": "MT3",
+      "reason": "Grayhill 25L bracket legs are not dimensioned on the drawing; omitted (models-review-13)."
+    },
+    {
+      "board": "mainboard",
+      "reference": "S3",
+      "pad": "MT4",
+      "reason": "Grayhill 25L bracket legs are not dimensioned on the drawing; omitted (models-review-13)."
+    },
+    {
+      "board": "mainboard",
+      "reference": "S4",
+      "pad": "MT1",
+      "reason": "Grayhill 25L bracket legs are not dimensioned on the drawing; omitted (models-review-13)."
+    },
+    {
+      "board": "mainboard",
+      "reference": "S4",
+      "pad": "MT2",
+      "reason": "Grayhill 25L bracket legs are not dimensioned on the drawing; omitted (models-review-13)."
+    },
+    {
+      "board": "mainboard",
+      "reference": "S4",
+      "pad": "MT3",
+      "reason": "Grayhill 25L bracket legs are not dimensioned on the drawing; omitted (models-review-13)."
+    },
+    {
+      "board": "mainboard",
+      "reference": "S4",
+      "pad": "MT4",
+      "reason": "Grayhill 25L bracket legs are not dimensioned on the drawing; omitted (models-review-13)."
+    }
+  ],
+  "nominal_interference": [
+    {
+      "board": "ioboard",
+      "model": "NYS216_DrawingDerived_DetailedBody_Terminals.step",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pads": [
+        "R",
+        "RN",
+        "S",
+        "SN",
+        "T",
+        "TN"
+      ],
+      "max_interference_mm": 0.277,
+      "reason": "Unresolved: every Neutrik/REAN drawing puts the rows at 4.00/10.35/16.70 mm from the housing front; the Eagle footprint sits 0.35 mm further back and no source explains its datum (models-review-14)."
+    },
+    {
+      "board": "ioboard",
+      "model": "PJ202AH_DrawingDerived_DetailedBody_Terminals.step",
+      "references": [
+        "POWER0"
+      ],
+      "pads": [
+        "P$3"
+      ],
+      "max_interference_mm": 0.044,
+      "reason": "Eagle places the side terminal at 4.6/10.862 vs the drawing 4.7/10.7 mm, within +-0.2 mm (models-review-14)."
+    },
+    {
+      "board": "ioboard",
+      "model": "SDS50J_CorrectedContactPattern_Terminals.step",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "pads": [
+        "1",
+        "2"
+      ],
+      "max_interference_mm": 0.065,
+      "reason": "Eagle grid positions (pin 1 at 7.62 vs 7.5, pin 2 at 12.68 vs 12.5 mm) within the drawing tolerance of +-0.2 mm (models-review-14)."
+    },
+    {
+      "board": "ioboard",
+      "model": "USB_TypeB-body-illustration_Terminals.step",
+      "references": [
+        "USB0"
+      ],
+      "pads": [
+        "M2",
+        "P$2"
+      ],
+      "max_interference_mm": 0.24,
+      "reason": "Board-lock forks are a designed press fit (FCI recommends 2.30 mm holes and its barbs are wider still); the Eagle drill is 2.2 mm. The fitted USB part is unresolved (models-review-14)."
+    },
+    {
+      "board": "mainboard",
+      "model": "TL1100F_ManufacturerCAD_FullNominalFreeState.step",
+      "references": [
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "max_interference_mm": 0.348,
+      "reason": "Manufacturer CAD draws the snap-in retention kinks in their free, uncompressed state; the straight shoulders and solder tips fit, and the Eagle drill (1.19 mm) is smaller than the recommended 1.3 mm (control-quality/tl1100-pin-section-audit.json)."
+    }
+  ],
+  "physical_fit_qualified": false
+}
