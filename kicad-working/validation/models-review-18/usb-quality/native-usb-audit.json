@@ -1,0 +1,233 @@
+{
+  "passed": true,
+  "check_count": 16,
+  "checks": [
+    {
+      "check": "Native four named parts present",
+      "passed": true
+    },
+    {
+      "check": "Native shell body0.38mm above PCB and printed envelope retained",
+      "passed": true,
+      "bounds_mm": [
+        -6.019999980926514,
+        0.0,
+        0.3800000250339508,
+        6.019999980926514,
+        16.0,
+        11.0
+      ]
+    },
+    {
+      "check": "Six native solder terminals retained",
+      "passed": true
+    },
+    {
+      "check": "signal(1.25,14.99) source projection",
+      "passed": true,
+      "bounds_mm": [
+        1.0499999523162842,
+        14.789999961853027,
+        -2.9100000858306885,
+        1.4499999284744263,
+        15.1899995803833,
+        1.2000000476837158
+      ]
+    },
+    {
+      "check": "signal(1.25,14.99) insulated from shell and seated in white insert",
+      "passed": true,
+      "shell_gap_mm": 0.4099998474121094,
+      "insulator_gap_mm": 0.0
+    },
+    {
+      "check": "signal(-1.25,14.99) source projection",
+      "passed": true,
+      "bounds_mm": [
+        -1.4499999284744263,
+        14.789999961853027,
+        -2.9100000858306885,
+        -1.0499999523162842,
+        15.1899995803833,
+        1.2000000476837158
+      ]
+    },
+    {
+      "check": "signal(-1.25,14.99) insulated from shell and seated in white insert",
+      "passed": true,
+      "shell_gap_mm": 0.4099998474121094,
+      "insulator_gap_mm": 0.0
+    },
+    {
+      "check": "lock(-6.02,10.28) source projection",
+      "passed": true,
+      "bounds_mm": [
+        -6.170000076293945,
+        9.079999923706055,
+        -3.7200000286102295,
+        -5.869999885559082,
+        11.479999542236328,
+        1.0
+      ]
+    },
+    {
+      "check": "signal(-1.25,12.99) source projection",
+      "passed": true,
+      "bounds_mm": [
+        -1.4499999284744263,
+        12.789999961853027,
+        -2.9100000858306885,
+        -1.0499999523162842,
+        13.190000534057617,
+        1.2000000476837158
+      ]
+    },
+    {
+      "check": "signal(-1.25,12.99) insulated from shell and seated in white insert",
+      "passed": true,
+      "shell_gap_mm": 0.5622273683547974,
+      "insulator_gap_mm": 0.0
+    },
+    {
+      "check": "lock(6.02,10.28) source projection",
+      "passed": true,
+      "bounds_mm": [
+        5.869999885559082,
+        9.079999923706055,
+        -3.7200000286102295,
+        6.170000076293945,
+        11.479999542236328,
+        1.0
+      ]
+    },
+    {
+      "check": "signal(1.25,12.99) source projection",
+      "passed": true,
+      "bounds_mm": [
+        1.0499999523162842,
+        12.789999961853027,
+        -2.9100000858306885,
+        1.4499999284744263,
+        13.190000534057617,
+        1.2000000476837158
+      ]
+    },
+    {
+      "check": "signal(1.25,12.99) insulated from shell and seated in white insert",
+      "passed": true,
+      "shell_gap_mm": 0.5622273683547974,
+      "insulator_gap_mm": 0.0
+    },
+    {
+      "check": "All six original drilled holes contain leads at board mid-depth",
+      "passed": true,
+      "filled_pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "M2",
+        "P$2"
+      ]
+    },
+    {
+      "check": "No USB geometry crosses PCB away from a hole",
+      "passed": true,
+      "stray_section_points": 0
+    },
+    {
+      "check": "Only declared mounting-tab interferences remain",
+      "passed": true,
+      "nominal_wall_excess_mm": {
+        "1": -0.09763938783671561,
+        "2": -0.09763941745307425,
+        "3": -0.09763890569089195,
+        "4": -0.09763887607457356,
+        "M2": 0.23920648556384938,
+        "P$2": 0.2392075447022477
+      }
+    }
+  ],
+  "failures": [],
+  "source_glb_sha256": "f119a92dcae9f4920371e75c7064b7e71cb745aa012c0ff365223c4d435f2cd1",
+  "pcb_sha256": "eb0a2bfb3728f049a483f49eae1a2e0ca147d1bf2a7679155f791745bbf38107",
+  "terminal_components": [
+    {
+      "name": "signal(1.25,14.99)",
+      "bounds_mm": [
+        1.0499999523162842,
+        14.789999961853027,
+        -2.9100000858306885,
+        1.4499999284744263,
+        15.1899995803833,
+        1.2000000476837158
+      ]
+    },
+    {
+      "name": "signal(-1.25,14.99)",
+      "bounds_mm": [
+        -1.4499999284744263,
+        14.789999961853027,
+        -2.9100000858306885,
+        -1.0499999523162842,
+        15.1899995803833,
+        1.2000000476837158
+      ]
+    },
+    {
+      "name": "lock(-6.02,10.28)",
+      "bounds_mm": [
+        -6.170000076293945,
+        9.079999923706055,
+        -3.7200000286102295,
+        -5.869999885559082,
+        11.479999542236328,
+        1.0
+      ]
+    },
+    {
+      "name": "signal(-1.25,12.99)",
+      "bounds_mm": [
+        -1.4499999284744263,
+        12.789999961853027,
+        -2.9100000858306885,
+        -1.0499999523162842,
+        13.190000534057617,
+        1.2000000476837158
+      ]
+    },
+    {
+      "name": "lock(6.02,10.28)",
+      "bounds_mm": [
+        5.869999885559082,
+        9.079999923706055,
+        -3.7200000286102295,
+        6.170000076293945,
+        11.479999542236328,
+        1.0
+      ]
+    },
+    {
+      "name": "signal(1.25,12.99)",
+      "bounds_mm": [
+        1.0499999523162842,
+        12.789999961853027,
+        -2.9100000858306885,
+        1.4499999284744263,
+        13.190000534057617,
+        1.2000000476837158
+      ]
+    }
+  ],
+  "drill_wall_excess_mm": {
+    "1": -0.09763938783671561,
+    "2": -0.09763941745307425,
+    "3": -0.09763890569089195,
+    "4": -0.09763887607457356,
+    "M2": 0.23920648556384938,
+    "P$2": 0.2392075447022477
+  },
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "scope": "Actual native KiCad tessellation of USB0; source heights, material separation and unchanged nominal drill exceptions. Not physical insertion or electrical certification."
+}

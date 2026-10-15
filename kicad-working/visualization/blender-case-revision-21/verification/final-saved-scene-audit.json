@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "check_count": 10,
+  "checks": [
+    {
+      "check": "Saved files match pinned baseline and final hashes",
+      "passed": true
+    },
+    {
+      "check": "All1681 object identities retained with none added",
+      "passed": true
+    },
+    {
+      "check": "No undeclared data, pose, collection, shader, guide or animation differences",
+      "passed": true,
+      "unexpected": [],
+      "ignored_hidden_stale_world_matrices": 0
+    },
+    {
+      "check": "Only USB mesh receives the exact recorded native aggregate",
+      "passed": true
+    },
+    {
+      "check": "Only one new gold shader; every old shader retained exactly",
+      "passed": true
+    },
+    {
+      "check": "All491 native identities retained with40 LEDs and23 caps",
+      "passed": true
+    },
+    {
+      "check": "Four actual displayed instance poses and legend glyphs retained",
+      "passed": true
+    },
+    {
+      "check": "Only one current opening guide added",
+      "passed": true
+    },
+    {
+      "check": "Old and corrected complete assemblies retain all rear passages",
+      "passed": true
+    },
+    {
+      "check": "Both frozen saved files remain byte-identical after read-only audit",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "stable_scene_sha256": "d9098cd3d6ed65bf9bc68caa016cdf129e870a994987d8ee7ba84d5c58e7500e",
+  "baseline_sha256": "208430509570a742c2ad5a91f9fbf9fb25e0be36109e2fcb9c267c955e476d5c",
+  "frames": 4,
+  "native_reference_count": 491,
+  "stored_object_count": 1681,
+  "changed_geometry_objects": [
+    "IOBOARD/USB0/mesh"
+  ],
+  "added_materials": [
+    "USB mating contact gold \u2014 drawing revision 18"
+  ],
+  "read_only": true,
+  "physical_fit_qualified": false
+}

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source_snapshot_date": "2026-10-15",
-  "scope": "Current private GitHub snapshot: KiCad working revision17 and Blender revision20 with drawing-derived solder terminals on the twelve previously pinless models, four of them corrected against their drawings all joined to their bodies, the Grayhill 25L rebuilt from its drawing and a photograph, and TL1100F legs coloured as metal; I/O board on the original rear-panel axial and height datums; immutable Blender7 through19 baselines retained. Original-source function proof, downloaded-model registration measurements and original model corrections are included. Standalone received CAD, trial scenes, archives, probes, caches and redundant GLBs are excluded.",
+  "scope": "Current private snapshot: KiCad working18 and Blender21. BOM Kobiconn USB standoff and terminal projections corrected from user-supplied Mouser drawing, insulated signal exits and illustrative gold contacts. All491 models and complete enclosure retained. Immutable Blender7 through20 baselines and source evidence included; probes, caches and redundant exports excluded.",
   "files": {
     ".gitattributes": {
       "bytes": 190,
@@ -16,16 +16,16 @@
       "sha256": "73cc95f62a104053a2602ccc733fc88336b0f3f6329ac3e9bbab827aa26af6f6"
     },
     "PROJECT.json": {
-      "bytes": 1718,
-      "sha256": "8b018189521bdc9fb511a75065d00ebcde628cbd266242834fef2b9245d43a0c"
+      "bytes": 1775,
+      "sha256": "e09daeb9e54780cf9307600cb050f712206cd7da3488d96f5ca15fbf2f25548c"
     },
     "README.md": {
-      "bytes": 22012,
-      "sha256": "e88bc7fdcaf3ae9c017b7c7fe0f340e02e5eff3f0b21196ceb2f7bee85741b4b"
+      "bytes": 22940,
+      "sha256": "8212e5b20940c55c2e6398f665296105006c7b402e5315bfbb7ac3b578ceb7c6"
     },
     "docs/OPENING.md": {
-      "bytes": 7108,
-      "sha256": "b5fde1e6fc252657d5c3440ae083ecf86399a38666c666233966445f0ec437bf"
+      "bytes": 7216,
+      "sha256": "ea718ad46b136115d67c708f8dd5a437d742c7b699f254b4dc46d4baee0c1495"
     },
     "docs/din-contact-correction.json": {
       "bytes": 8848,
@@ -36,8 +36,8 @@
       "sha256": "1765ba837f541441d00a1ea9c03b5ba249f99c24948266f73c05d3ec63b49443"
     },
     "docs/drill-fit-allowances.json": {
-      "bytes": 5120,
-      "sha256": "ae614cf6540f2129ed1130e07e5ce28fa13b550dda54a4499613091f523e4e44"
+      "bytes": 5284,
+      "sha256": "5604117b82bf9371304dab30d8affddd0627ceaff95683f8fce1f99d8fd75fbc"
     },
     "docs/fresh-clone-verification.json": {
       "bytes": 2610,
@@ -82,6 +82,10 @@
     "docs/tl1100f-leg-colour.json": {
       "bytes": 6353,
       "sha256": "62eaf70aa953dea43d3ae6a50b63e1ec9b092a67130fbc2d0244eaca9ddb6dea"
+    },
+    "docs/usb-kobiconn-correction.json": {
+      "bytes": 3655,
+      "sha256": "c9e0de81101f81a687d7a36bc353344c6f5432465d7ba6d142598f854e5f580b"
     },
     "docs/verification/fresh-clone-blender.json": {
       "bytes": 12492,
@@ -160,8 +164,8 @@
       "sha256": "282b88df6e2fed1d85d2057c10ecfbaee7be45a2e85a9614167fe06266b4cc6a"
     },
     "kicad-working/README.md": {
-      "bytes": 10856,
-      "sha256": "955f7d5ffcc012759dd7a96ee4166a5b56fe1d470c61e03268035b597349eb87"
+      "bytes": 12004,
+      "sha256": "b13e1786f930a8909b858f04d43d7299d99caf90d03b5c6c79b6420e5018af53"
     },
     "kicad-working/ioboard/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step": {
       "bytes": 140022,
@@ -242,6 +246,10 @@
     "kicad-working/ioboard/3dmodels/REVISION-15-SOURCES.json": {
       "bytes": 3092,
       "sha256": "a1f10e468686b77a5db0642a6322ed5996932eee93b2263c14cf1d5b2febf231"
+    },
+    "kicad-working/ioboard/3dmodels/REVISION-18-SOURCES.json": {
+      "bytes": 1768,
+      "sha256": "7f5560c26e651ac5a9e2ce1d37f25d3853c08dc6888f9225067e506ea20a86ac"
     },
     "kicad-working/ioboard/3dmodels/REVISION-5-INTERSECTIONS.json": {
       "bytes": 1884,
@@ -330,6 +338,10 @@
     "kicad-working/ioboard/3dmodels/Revision15/terminals/SDS50J_CorrectedContactPattern_Terminals.step": {
       "bytes": 173216,
       "sha256": "3e1f792c5992818752641dc00d56083e7f31d596bc5d84f1765675dafd8fcaf5"
+    },
+    "kicad-working/ioboard/3dmodels/Revision18/usb-quality/Kobiconn1542442E_DrawingDerived_Terminals.step": {
+      "bytes": 221433,
+      "sha256": "1c57746fc1aad51cbc7a24f905d8e2ea80a384564df79c671154ebfec0eb4584"
     },
     "kicad-working/ioboard/3dmodels/Revision5/integrated-models/Resonator_AWCR6MD_MaxBody_P2.54_Illustration.step": {
       "bytes": 30484,
@@ -592,8 +604,8 @@
       "sha256": "aa3e7d79c06cdaec90e29c9fc283a8bba28506ace6e83499187e88997d2ae835"
     },
     "kicad-working/ioboard/ioboard-import-fps.pretty/PN61729.kicad_mod": {
-      "bytes": 3285,
-      "sha256": "8f58e9b8ff43f982af819ddb4cff1c04ad563b122e7126f4e0ac59b2e328a774"
+      "bytes": 3291,
+      "sha256": "e44a279cc2d5793ad2e5ec6f1e8fbdb22f84b1ab71316d7ed045335b34dd9bfb"
     },
     "kicad-working/ioboard/ioboard-import-fps.pretty/REAN_1_4STERO.kicad_mod": {
       "bytes": 6086,
@@ -620,8 +632,8 @@
       "sha256": "20ca4b7f1a0df706c927f685b10f76f7e7cd00d1488b0f2546c7ba3952980b8c"
     },
     "kicad-working/ioboard/ioboard.kicad_pcb": {
-      "bytes": 959350,
-      "sha256": "c45ebef1b704d97a3a6e811fe011e6eb2d487e68a7409bb5b5d1df812dc73893"
+      "bytes": 959356,
+      "sha256": "eb0a2bfb3728f049a483f49eae1a2e0ca147d1bf2a7679155f791745bbf38107"
     },
     "kicad-working/ioboard/ioboard.kicad_pro": {
       "bytes": 18372,
@@ -3047,6 +3059,134 @@
       "bytes": 803,
       "sha256": "13ad608e66c55afde457c040fa6a8816762521c4aff43dd4e1b4e91f8322cc0b"
     },
+    "kicad-working/validation/models-review-18/README.md": {
+      "bytes": 1974,
+      "sha256": "2195de18f725b71850a9bfbcd75c4a872fc9cd8856912dfc63bb58606b2db538"
+    },
+    "kicad-working/validation/models-review-18/audit_native_terminals.py": {
+      "bytes": 11252,
+      "sha256": "1035daf4367c4cc9262a588cbd78bdbb0bba61ffe53480d8fa1339b84f3a7c9d"
+    },
+    "kicad-working/validation/models-review-18/combined-model-plan.json": {
+      "bytes": 461452,
+      "sha256": "e01dd39476519f85db69f549d0ba071a5da0a5db3753dd03f4375d9e13e7a874"
+    },
+    "kicad-working/validation/models-review-18/current-function-source-evidence.json": {
+      "bytes": 41639,
+      "sha256": "f1cb753ce666469c5cf1dc3b94614816eb18eceb881d6719cd75833bab8ed1c9"
+    },
+    "kicad-working/validation/models-review-18/current-function-verification.json": {
+      "bytes": 26393,
+      "sha256": "04416fed28babb688462900f56e42a6b088a84dac140e866313a202001128ad3"
+    },
+    "kicad-working/validation/models-review-18/export_native_boards.py": {
+      "bytes": 3326,
+      "sha256": "6b5e1d873e09ef94254e001463cb673ba6b99f401307b65e5930cdc41e1a8fbe"
+    },
+    "kicad-working/validation/models-review-18/install_usb_model.py": {
+      "bytes": 5102,
+      "sha256": "0cf6ac3c0455431226631fdd559b61293225ee3196df9e9f2d16fd3fff134bf1"
+    },
+    "kicad-working/validation/models-review-18/installation-audit.json": {
+      "bytes": 1535,
+      "sha256": "881e772ca0230998ece1a8ebec2a85a7980c70db311cbf88cd30c7669b4cbf3e"
+    },
+    "kicad-working/validation/models-review-18/ioboard-drc.json": {
+      "bytes": 295126,
+      "sha256": "22274dadfdccc5e0c9598e144862b1e40aa8efeaaf19d663c0f34f1d6d114ec9"
+    },
+    "kicad-working/validation/models-review-18/ioboard-erc.json": {
+      "bytes": 1001,
+      "sha256": "979d12bb550f85614d86f191fae2175ed30945e52ac937280c05ff77aa137538"
+    },
+    "kicad-working/validation/models-review-18/local-dependencies.json": {
+      "bytes": 1518,
+      "sha256": "c22a49b5e2c84faf200356daeaaa5f86440db3c6ea0321469d80924e11400f7c"
+    },
+    "kicad-working/validation/models-review-18/mainboard-drc.json": {
+      "bytes": 399178,
+      "sha256": "607de6749c74212ab66765f93fd5e5b0fb7bf1f256e5cb7b5d407959174f6f5e"
+    },
+    "kicad-working/validation/models-review-18/mainboard-erc.json": {
+      "bytes": 1003,
+      "sha256": "827c647bd30e80b994c3f639140f186f68080dadf81b6e876f4277dff2258c6b"
+    },
+    "kicad-working/validation/models-review-18/native-export-record.json": {
+      "bytes": 1725,
+      "sha256": "e1d1c77d2582b6cb1d3fccc0576f91acab16cd566c967a5c52a58ba389580f06"
+    },
+    "kicad-working/validation/models-review-18/native-run-records.json": {
+      "bytes": 3251,
+      "sha256": "f1365fe195d5343994c84ece59cc1e458d60a87226f3fe42fe408c15eb384771"
+    },
+    "kicad-working/validation/models-review-18/native-terminal-audit.json": {
+      "bytes": 68586,
+      "sha256": "2fe18e32ccc349b3b6a4be8c1b3d90742e7a76839e127ba3dcbe48c6d8f14431"
+    },
+    "kicad-working/validation/models-review-18/run_native_checks.py": {
+      "bytes": 2585,
+      "sha256": "22024e55f7d3fc8f52ef1795fa31884085f184ef8d4f6d2686b5b9adf49fe84d"
+    },
+    "kicad-working/validation/models-review-18/summarize_working_validation.py": {
+      "bytes": 6721,
+      "sha256": "a2f955dcbc47626f7b1be6df76554bf8905a96ecee94aa360547061e6e436f78"
+    },
+    "kicad-working/validation/models-review-18/usb-quality/DrawingDerivedTerminals.stl": {
+      "bytes": 6084,
+      "sha256": "39692598b269c1a13190551dfdc811e48db371566f54e67bcedc7d7c63c95300"
+    },
+    "kicad-working/validation/models-review-18/usb-quality/Insulator.stl": {
+      "bytes": 12284,
+      "sha256": "395af565af56feda04ce94aa6c3b1c0f630d245385a3d05113dbc8a3b2dcf2c6"
+    },
+    "kicad-working/validation/models-review-18/usb-quality/Kobiconn1542442E_DrawingDerived_Terminals.FCStd": {
+      "bytes": 27716,
+      "sha256": "c4c5ef2e66e3b6dd63d16bc3aeb396c7f3acac24df36f83484073c2119e4ee2f"
+    },
+    "kicad-working/validation/models-review-18/usb-quality/Kobiconn1542442E_DrawingDerived_Terminals.step": {
+      "bytes": 221433,
+      "sha256": "1c57746fc1aad51cbc7a24f905d8e2ea80a384564df79c671154ebfec0eb4584"
+    },
+    "kicad-working/validation/models-review-18/usb-quality/MatingContacts.stl": {
+      "bytes": 2484,
+      "sha256": "f4cbe2dbbd838c10e60ca6d5a5c66e0974d5ff070e08620a7a505b122c10c911"
+    },
+    "kicad-working/validation/models-review-18/usb-quality/Shell.stl": {
+      "bytes": 6684,
+      "sha256": "ed1d2b963a9009db46d77dc8c524c97e56d85766839098a9aa9219091ecee6e6"
+    },
+    "kicad-working/validation/models-review-18/usb-quality/audit_native_usb.py": {
+      "bytes": 4411,
+      "sha256": "e0d54100280dc4d537e2d41fd01a9d1d362a9f2b934c7c24765b2bc5f325ff61"
+    },
+    "kicad-working/validation/models-review-18/usb-quality/build_kobiconn_usb.py": {
+      "bytes": 8543,
+      "sha256": "5a02710113fc44df5ee5d667e2e5cd66b5641050a6b5d2d1eed0157a3e5882da"
+    },
+    "kicad-working/validation/models-review-18/usb-quality/native-usb-audit.json": {
+      "bytes": 5792,
+      "sha256": "b5e0ed8d34ec0f7de9705e3d408567a3ce18c64ec936d4671d7feaa76e52e0aa"
+    },
+    "kicad-working/validation/models-review-18/usb-quality/sources/kobiconn-154-2442-e-kc301021-2006.pdf": {
+      "bytes": 130304,
+      "sha256": "c7d28677fcb9a15170c090f242131ff9b8de9c45377323bede5c8865565e6ff2"
+    },
+    "kicad-working/validation/models-review-18/usb-quality/sources/mouser-154-2442-8-104099-2003.pdf": {
+      "bytes": 26061,
+      "sha256": "d621b34017b7f15d1a029628b90b57d23a4363ba8fa284837a052773f869f62c"
+    },
+    "kicad-working/validation/models-review-18/usb-quality/sources/source-provenance.json": {
+      "bytes": 946,
+      "sha256": "6c3b0c7a8569ea5cbbaa82fbafa058fac918779c5c24f81cba628fe633528197"
+    },
+    "kicad-working/validation/models-review-18/usb-quality/usb-model-audit.json": {
+      "bytes": 6268,
+      "sha256": "f1962cac9ddaf3ba870315de9c9e62e54d5c591445f08ab9a1ed35d940c3abb1"
+    },
+    "kicad-working/validation/models-review-18/verify_current_functions.py": {
+      "bytes": 803,
+      "sha256": "13ad608e66c55afde457c040fa6a8816762521c4aff43dd4e1b4e91f8322cc0b"
+    },
     "kicad-working/validation/nys216-hardware-quality/README.md": {
       "bytes": 4605,
       "sha256": "9624913389c724670454900b6177f99029051f5cd249d2fe7d24f41e86e3bad5"
@@ -3231,9 +3371,13 @@
       "bytes": 54956,
       "sha256": "a53e270a6f6e32d9c5e47ecc7bd19572ac44934a02aff28067eb0ccceefb6ccc"
     },
+    "kicad-working/validation/working-validation-summary-revision-18.json": {
+      "bytes": 55051,
+      "sha256": "d73459dffd06bc5fb91452f6947df52cd592acc401cc83f09f06510d00c809a8"
+    },
     "kicad-working/validation/working-validation-summary.json": {
-      "bytes": 54956,
-      "sha256": "a53e270a6f6e32d9c5e47ecc7bd19572ac44934a02aff28067eb0ccceefb6ccc"
+      "bytes": 55051,
+      "sha256": "d73459dffd06bc5fb91452f6947df52cd592acc401cc83f09f06510d00c809a8"
     },
     "kicad-working/visualization/blender-case-revision-10/README.md": {
       "bytes": 3553,
@@ -4630,6 +4774,154 @@
     "kicad-working/visualization/blender-case-revision-20/x0xb0x-populated-with-case.blend": {
       "bytes": 42627844,
       "sha256": "208430509570a742c2ad5a91f9fbf9fb25e0be36109e2fcb9c267c955e476d5c"
+    },
+    "kicad-working/visualization/blender-case-revision-21/README.md": {
+      "bytes": 1497,
+      "sha256": "9ae50723b1db8c9d390845b2765a33797852335cf0fc7389042a07efdcb7aad3"
+    },
+    "kicad-working/visualization/blender-case-revision-21/assembled.png": {
+      "bytes": 2579260,
+      "sha256": "1d3accbdbe5461e660e0d1f05694476904c3633046f046753e1049fcca997773"
+    },
+    "kicad-working/visualization/blender-case-revision-21/control-side.png": {
+      "bytes": 3729125,
+      "sha256": "65369595865e6cf966fc0d07c822fb8beb990cdad1dc06814a7f2b20695c906f"
+    },
+    "kicad-working/visualization/blender-case-revision-21/exploded.png": {
+      "bytes": 2956710,
+      "sha256": "947219faea6a0d499f39a0cc1a3ca5aacc9f92a5042e87d686ac7157da0cad3d"
+    },
+    "kicad-working/visualization/blender-case-revision-21/io-terminals-detail.png": {
+      "bytes": 1801065,
+      "sha256": "b2f8f8e30b25f62ec533db22e61b8801f818c8e63a702c435dceb6059ab1b192"
+    },
+    "kicad-working/visualization/blender-case-revision-21/rear-openings-closeup.png": {
+      "bytes": 1462561,
+      "sha256": "a625d994afb47f90886670e95e6493e81be22ce3323696a8f94d6eeab6a316cd"
+    },
+    "kicad-working/visualization/blender-case-revision-21/rear.png": {
+      "bytes": 2725464,
+      "sha256": "e5fe08df2cd04741236b3413b2b2de300751a433d05f79353edba98c806f3e51"
+    },
+    "kicad-working/visualization/blender-case-revision-21/render-records.json": {
+      "bytes": 2575,
+      "sha256": "d627b0641c7d8d0766827b1e386ba120f1c1d2167b8708ca624d7b4f6d554e89"
+    },
+    "kicad-working/visualization/blender-case-revision-21/render_scene.py": {
+      "bytes": 6508,
+      "sha256": "4b89ede38440aac78710eb173b76b2aa5c3c93b04df27d512fe0420a83df84ee"
+    },
+    "kicad-working/visualization/blender-case-revision-21/revision-21-change-record.json": {
+      "bytes": 9475,
+      "sha256": "3d59fb897d48cf3d0565cd07e886b0035f599b7b964e7473664227490ecb8e1b"
+    },
+    "kicad-working/visualization/blender-case-revision-21/update_usb_model.py": {
+      "bytes": 7859,
+      "sha256": "33aa6b2409b6948d6045b7ba5f8ee661bf477a8e47fac5d0a5ac62e565dbd8de"
+    },
+    "kicad-working/visualization/blender-case-revision-21/usb-front.png": {
+      "bytes": 1332271,
+      "sha256": "626d880e0556513323afead89f0e586fb6b8299b146fa7a0fe03721a6b891f6b"
+    },
+    "kicad-working/visualization/blender-case-revision-21/usb-in-case.png": {
+      "bytes": 1465051,
+      "sha256": "9dffa840bf8ce0e878664ecd660a57adfa4b80b28aceb14584333e320c7ba1e0"
+    },
+    "kicad-working/visualization/blender-case-revision-21/usb-underside.png": {
+      "bytes": 1301939,
+      "sha256": "b11c3c834777bb4b755c213ec85860145a518de156828ad6008f6e43ab6ffdbd"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/README.md": {
+      "bytes": 596,
+      "sha256": "bfde02bcabb2f64d80b5ae90d87ab9780015c7e327efec0789f8c5a1a4652999"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/after-scene.json.gz": {
+      "bytes": 971623,
+      "sha256": "4c749dd4dd1ae9b227ff8739e1554c6539c1f11cb2ccd9cb7a20784a81c710d5"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/audit_drill_fit.py": {
+      "bytes": 367,
+      "sha256": "e1e36b2023a5b9213991b1b5ec665e32a483862e572beda9ac0637eb5944566d"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/audit_kicad_models.py": {
+      "bytes": 490,
+      "sha256": "9e86e0cf1ccd83e2e25a11e4641d7c198d4391bc7cd9e27d6871a95a4275a401"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/audit_portability.py": {
+      "bytes": 427,
+      "sha256": "1c67479336884a383d144a8359680c86672c7a721b0ffa9f0806ab43060446f3"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/audit_saved_scene.py": {
+      "bytes": 5692,
+      "sha256": "23f448378f5a7575b6e1a6e00b9875a9e8b6523caf29c1d236edb1f6cf54bff8"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/audit_terminal_joins.py": {
+      "bytes": 474,
+      "sha256": "36b7690b5674a98071bf700c6d414e74995f863163459a8706cac84d58809a97"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/audit_usb_neighbours.py": {
+      "bytes": 2777,
+      "sha256": "179dfa5b40ad0a6bae84834079709d197388c63ba4c5145024d0e980a5d89c49"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/before-scene.json.gz": {
+      "bytes": 971074,
+      "sha256": "4cfabc0a388f0c53cdad77843df250ff48a1d2d65d8f3d2412140b229f075fce"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/drill-fit-audit.json": {
+      "bytes": 1884,
+      "sha256": "687f7e7a5c678d8acc5f22fd64b960351f2a05469aa1a3455695b15d67e53456"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/final-render-review.json": {
+      "bytes": 1945,
+      "sha256": "9872ccc6a43c5c1352555d66a22166f576c832fdaaf370b69e072a8fff2b3ccd"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/final-saved-scene-audit.json": {
+      "bytes": 1720,
+      "sha256": "ca728de26f7f8ab8c1e4011dd12924424444dc111c23a2a66773b1eee7af6256"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/kicad-blender-models-audit.json": {
+      "bytes": 2821,
+      "sha256": "27a493bafd19f8c47cb1a803caddd27c4e399448a98994c72fa68da2604e1f4c"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/portable-scene-audit.json": {
+      "bytes": 12527,
+      "sha256": "79bef8fbf7857fd47cc3a68d555a78ae25e6e8f4a9dc8b996fec65113da71832"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/rear-openings-audit.json": {
+      "bytes": 119446,
+      "sha256": "001a94da8fc0b7b6c61f9b00f8d41c191c16cf6a8fcfbd5c407abf175eb4070e"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/render-readonly-verification.json": {
+      "bytes": 304,
+      "sha256": "ec7181651f5348cc213aa9c002a9f70e6c6937e113028544b06ee930cd330a5a"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/render_usb_details.py": {
+      "bytes": 3790,
+      "sha256": "ce80cb42f973ff06256cbbb7290af9799caa65872477a2f233dda55d84606f2c"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/run_model_checks.py": {
+      "bytes": 276,
+      "sha256": "4f002b78cf79c25f0c737b0ae2253da4479e18f4d5d26ecda5c5968b1e6ed676"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/scene_snapshot.py": {
+      "bytes": 11397,
+      "sha256": "9c6576a9a05cba01736055f45d35e751edb1df57933c9b16b9c9e7faa1c8d642"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/terminal-join-audit.json": {
+      "bytes": 4721,
+      "sha256": "30b3693b9d25cd99212f14271cf31660017f540edf9e5ee3e060656670ecb617"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/usb-detail-render.json": {
+      "bytes": 662,
+      "sha256": "6031cf5e2bcf9956ae493b2d2cffa8454101d639fc01b4d314014e22b46064c6"
+    },
+    "kicad-working/visualization/blender-case-revision-21/verification/usb-neighbour-audit.json": {
+      "bytes": 2145,
+      "sha256": "d62bce144cf60a6b32b3a12fc332243a531038d0927d5c7df47430cf22641081"
+    },
+    "kicad-working/visualization/blender-case-revision-21/x0xb0x-populated-with-case.blend": {
+      "bytes": 42640661,
+      "sha256": "d9098cd3d6ed65bf9bc68caa016cdf129e870a994987d8ee7ba84d5c58e7500e"
     },
     "kicad-working/visualization/blender-case-revision-7/README.md": {
       "bytes": 4279,

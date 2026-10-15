@@ -1,0 +1,28 @@
+{
+  "revision": 18,
+  "baseline_revision": 17,
+  "model": "Revision18/usb-quality/Kobiconn1542442E_DrawingDerived_Terminals.step",
+  "model_sha256": "1c57746fc1aad51cbc7a24f905d8e2ea80a384564df79c671154ebfec0eb4584",
+  "previous_model": "Revision13/terminals/USB_TypeB-body-illustration_Terminals.step",
+  "previous_model_sha256": "bb3e336edf721107308693a43b0dbd8c709f152d9560b8ce5fc735ee1963a961",
+  "references": [
+    "USB0"
+  ],
+  "drawing": {
+    "path": "kicad-working/validation/models-review-18/usb-quality/sources/kobiconn-154-2442-e-kc301021-2006.pdf",
+    "sha256": "c7d28677fcb9a15170c090f242131ff9b8de9c45377323bede5c8865565e6ff2",
+    "url": "https://www.mouser.com/catalog/specsheets/KC-301021.pdf",
+    "title": "Kobiconn154-2442-E, KC-301021, revised2006-07-19",
+    "retrieved": "User downloaded in browser; preserved byte-for-byte from Downloads/KC-301021.pdf"
+  },
+  "change": "BOM-specific standoff/projections and insulated signal exits; illustrative gold mating strips",
+  "limitations": [
+    "Independent drawing-derived illustration, not manufacturer CAD or identification of the physically fitted connector.",
+    "Body standoff and terminal projections follow the2006 BOM part drawing; original XY axes, body envelope and mating cavity are preserved.",
+    "Signal stock0.40mm square, board-lock width2.4mm/thickness0.30mm/fork shape, shell gauge, insulating exit skirts and gold-strip dimensions remain illustrative.",
+    "Hidden internal contact routing, stamped spring features and exact mould/retention geometry are not reconstructed.",
+    "Nominal board-lock interference remains documented; no PCB hole, copper, placement or tolerance change."
+  ],
+  "native_assignment_transforms": "unchanged",
+  "physical_fit_qualified": false
+}

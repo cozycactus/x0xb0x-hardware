@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "kicad_revision": 18,
+  "blender_revision": 21,
+  "source": {
+    "path": "kicad-working/validation/models-review-18/usb-quality/sources/kobiconn-154-2442-e-kc301021-2006.pdf",
+    "sha256": "c7d28677fcb9a15170c090f242131ff9b8de9c45377323bede5c8865565e6ff2",
+    "url": "https://www.mouser.com/catalog/specsheets/KC-301021.pdf",
+    "title": "Kobiconn154-2442-E, KC-301021, revised2006-07-19",
+    "retrieved": "User downloaded in browser; preserved byte-for-byte from Downloads/KC-301021.pdf"
+  },
+  "corrected_dimensions_mm": {
+    "body_width": 12.04,
+    "body_depth": 16.0,
+    "body_height": 10.62,
+    "body_to_pcb_gap": 0.38,
+    "signal_projection_below_pcb": 2.91,
+    "board_lock_projection_below_pcb": 3.72
+  },
+  "source_interpretation": "The 0.38 dimension is the body standoff, not shell gauge. The 2006 user-supplied BOM drawing supersedes the mixed-source projection lengths in the former model.",
+  "model": "Revision18/usb-quality/Kobiconn1542442E_DrawingDerived_Terminals.step",
+  "model_sha256": "1c57746fc1aad51cbc7a24f905d8e2ea80a384564df79c671154ebfec0eb4584",
+  "geometry_changes": [
+    "Lift original body and cavity 0.38mm above PCB datum",
+    "Retain all original XY terminal axes and body XY envelope",
+    "Extend signal terminals to 2.91mm and board locks to3.72mm below PCB",
+    "Provide illustrative shell clearances and insulating exit skirts; remove old signal-pin/shell intersections",
+    "Add four illustrative gold-plated mating strips"
+  ],
+  "preserved": [
+    "All PCB copper, pads, holes, footprint placements and model transforms",
+    "Every other component model",
+    "All1681 Blender object identities, poses, cameras, animation, existing shaders and case geometry",
+    "Original Eagle and previous saved Blender scenes"
+  ],
+  "limitations": [
+    "Independent drawing-derived illustration, not manufacturer CAD or identification of the physically fitted connector.",
+    "Body standoff and terminal projections follow the2006 BOM part drawing; original XY axes, body envelope and mating cavity are preserved.",
+    "Signal stock0.40mm square, board-lock width2.4mm/thickness0.30mm/fork shape, shell gauge, insulating exit skirts and gold-strip dimensions remain illustrative.",
+    "Hidden internal contact routing, stamped spring features and exact mould/retention geometry are not reconstructed.",
+    "Nominal board-lock interference remains documented; no PCB hole, copper, placement or tolerance change."
+  ],
+  "physical_fit_qualified": false,
+  "reports": {
+    "solid_geometry": "kicad-working/validation/models-review-18/usb-quality/usb-model-audit.json",
+    "native_usb": "kicad-working/validation/models-review-18/usb-quality/native-usb-audit.json",
+    "all_terminals": "kicad-working/validation/models-review-18/native-terminal-audit.json",
+    "scene_preservation": "kicad-working/visualization/blender-case-revision-21/verification/final-saved-scene-audit.json",
+    "all_native_models": "kicad-working/visualization/blender-case-revision-21/verification/kicad-blender-models-audit.json",
+    "rear_openings": "kicad-working/visualization/blender-case-revision-21/verification/rear-openings-audit.json",
+    "neighbours": "kicad-working/visualization/blender-case-revision-21/verification/usb-neighbour-audit.json",
+    "drill_fit": "kicad-working/visualization/blender-case-revision-21/verification/drill-fit-audit.json"
+  },
+  "known_nominal_fit_findings": 11,
+  "unchanged_usb_board_lock_wall_excess_mm": 0.23921,
+  "electrical_note": "Fresh ERC0 under retained rules; existing three missing connections, DRC warnings and schematic parity warnings persist."
+}

@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "baseline": {
+    "scene_sha256": "208430509570a742c2ad5a91f9fbf9fb25e0be36109e2fcb9c267c955e476d5c",
+    "visible_mesh_instances": 982,
+    "nearby_meshes_tested": 20,
+    "contacts": [
+      {
+        "object": "IOBOARD/PCB layers/mesh",
+        "parent": "I/O board \u2014 rear mounting approximation",
+        "triangle_pairs": 32
+      },
+      {
+        "object": "IOBOARD/PCB layers/mesh.001",
+        "parent": "I/O board \u2014 rear mounting approximation",
+        "triangle_pairs": 222
+      },
+      {
+        "object": "IOBOARD/PCB layers/mesh.003 / populated PCB subset",
+        "parent": "I/O board \u2014 rear mounting approximation",
+        "triangle_pairs": 7
+      },
+      {
+        "object": "IOBOARD/PCB layers/mesh.008",
+        "parent": "I/O board \u2014 rear mounting approximation",
+        "triangle_pairs": 62
+      }
+    ]
+  },
+  "current": {
+    "scene_sha256": "d9098cd3d6ed65bf9bc68caa016cdf129e870a994987d8ee7ba84d5c58e7500e",
+    "visible_mesh_instances": 982,
+    "nearby_meshes_tested": 20,
+    "contacts": [
+      {
+        "object": "IOBOARD/PCB layers/mesh",
+        "parent": "I/O board \u2014 rear mounting approximation",
+        "triangle_pairs": 32
+      },
+      {
+        "object": "IOBOARD/PCB layers/mesh.001",
+        "parent": "I/O board \u2014 rear mounting approximation",
+        "triangle_pairs": 222
+      },
+      {
+        "object": "IOBOARD/PCB layers/mesh.003 / populated PCB subset",
+        "parent": "I/O board \u2014 rear mounting approximation",
+        "triangle_pairs": 7
+      },
+      {
+        "object": "IOBOARD/PCB layers/mesh.008",
+        "parent": "I/O board \u2014 rear mounting approximation",
+        "triangle_pairs": 62
+      }
+    ]
+  },
+  "new_contact_objects": [],
+  "frame": 1,
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "method": "Actual evaluated rendered USB instance tested against every other visible mesh within2mm of its world bounds, including same-board components and PCB, panel and case. Triangle contact includes touching; comparison introduces no new object contacts, not a volume/tolerance qualification."
+}

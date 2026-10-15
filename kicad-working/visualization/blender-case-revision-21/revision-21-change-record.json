@@ -1,0 +1,388 @@
+{
+  "passed": true,
+  "visualization_revision": 21,
+  "kicad_revision": 18,
+  "baseline_sha256": "208430509570a742c2ad5a91f9fbf9fb25e0be36109e2fcb9c267c955e476d5c",
+  "stable_scene_sha256": "d9098cd3d6ed65bf9bc68caa016cdf129e870a994987d8ee7ba84d5c58e7500e",
+  "stable_scene_bytes": 42640661,
+  "source_glb_sha256": "f119a92dcae9f4920371e75c7064b7e71cb745aa012c0ff365223c4d435f2cd1",
+  "source_plan_sha256": "e01dd39476519f85db69f549d0ba071a5da0a5db3753dd03f4375d9e13e7a874",
+  "replaced_mesh_objects": [
+    "IOBOARD/USB0/mesh"
+  ],
+  "changed_source_roots": [
+    "IOBOARD/USB0"
+  ],
+  "added_objects": [],
+  "added_materials": [
+    "USB mating contact gold \u2014 drawing revision 18"
+  ],
+  "gold_material_signature": {
+    "diffuse_color": [
+      0.6382831931114197,
+      0.4200332760810852,
+      0.03310476616024971,
+      1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4000000059604645,
+    "use_nodes": true,
+    "props": {
+      "source_basis": "Kobiconn KC-301021 specifies gold-plated contacts; shader roughness is illustrative"
+    },
+    "nodes": {
+      "Principled BSDF": {
+        "type": "ShaderNodeBsdfPrincipled",
+        "label": "",
+        "mute": false,
+        "props": {},
+        "inputs": {
+          "0:Base Color": [
+            0.6382831931114197,
+            0.4200332760810852,
+            0.03310476616024971,
+            1.0
+          ],
+          "1:Metallic": 1.0,
+          "2:Roughness": 0.3499999940395355,
+          "3:IOR": 1.5,
+          "4:Alpha": 1.0,
+          "5:Thin Wall": false,
+          "6:Normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "7:Weight": 0.0,
+          "8:Diffuse Roughness": 0.0,
+          "9:Subsurface Weight": 0.0,
+          "10:Subsurface Radius": [
+            1.0,
+            0.20000000298023224,
+            0.10000000149011612
+          ],
+          "11:Subsurface Scale": 0.004999999888241291,
+          "12:Subsurface IOR": 1.399999976158142,
+          "13:Subsurface Anisotropy": 0.0,
+          "14:Specular IOR Level": 0.5,
+          "15:Specular Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "16:Anisotropic": 0.0,
+          "17:Anisotropic Rotation": 0.0,
+          "18:Tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "19:Transmission Weight": 0.0,
+          "20:Coat Weight": 0.0,
+          "21:Coat Roughness": 0.029999999329447746,
+          "22:Coat IOR": 1.5,
+          "23:Coat Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "24:Coat Normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "25:Sheen Weight": 0.0,
+          "26:Sheen Roughness": 0.5,
+          "27:Sheen Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "28:Emission Color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "29:Emission Strength": 0.0,
+          "30:Thin Film Thickness": 0.0,
+          "31:Thin Film IOR": 1.3300000429153442
+        },
+        "distribution": "MULTI_GGX",
+        "subsurface_method": "RANDOM_WALK"
+      },
+      "Material Output": {
+        "type": "ShaderNodeOutputMaterial",
+        "label": "",
+        "mute": false,
+        "props": {},
+        "inputs": {
+          "2:Displacement": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "3:Thickness": 0.0
+        }
+      }
+    },
+    "links": [
+      [
+        "Principled BSDF",
+        "BSDF",
+        "Material Output",
+        "Surface"
+      ]
+    ],
+    "surface_render_method": "DITHERED",
+    "use_transparency_overlap": true,
+    "use_backface_culling": false,
+    "use_backface_culling_shadow": false,
+    "alpha_threshold": 0.5,
+    "displacement_method": "BUMP"
+  },
+  "old_mesh": {
+    "hash": "c181f214c6223f75022244ca5fedc7fa5186277d132fb4505ae72aa7ef260808",
+    "vertices": 360,
+    "edges": 492,
+    "polygons": 208,
+    "attributes": {
+      ".select_vert": {
+        "data_type": "BOOLEAN",
+        "domain": "POINT",
+        "hash": "4724771df27e62293b7dbd60bd69b010ca6f21fcdd2eadb29516160dfe6c7784"
+      },
+      ".corner_edge": {
+        "data_type": "INT",
+        "domain": "CORNER",
+        "hash": "a95b8b109f7cca5542f50ba66367ff260ff0634db0ac288ca50ac1e284ac36fa"
+      },
+      ".select_poly": {
+        "data_type": "BOOLEAN",
+        "domain": "FACE",
+        "hash": "7caebf3b72e4c336f1b271a9d9822f5e8df68d10b3398f93bb0b877200703078"
+      },
+      "material_index": {
+        "data_type": "INT",
+        "domain": "FACE",
+        "hash": "f98cd27f273cdee0b093b0c5ce90c1c188d47da537f371469bedc619e3924e12"
+      },
+      "sharp_face": {
+        "data_type": "BOOLEAN",
+        "domain": "FACE",
+        "hash": "7caebf3b72e4c336f1b271a9d9822f5e8df68d10b3398f93bb0b877200703078"
+      },
+      ".select_edge": {
+        "data_type": "BOOLEAN",
+        "domain": "EDGE",
+        "hash": "f2bce9ecdd9f5de0eeb8cfc59ed08bbd1a6396e74108d38b6c6eab3255d91777"
+      },
+      "custom_normal": {
+        "data_type": "INT16_2D",
+        "domain": "CORNER",
+        "hash": "6ab5a50c0578e729b0c31989872f092a0e9cd7b0dffbcf4d0f1011d59446dec4"
+      },
+      "sharp_edge": {
+        "data_type": "BOOLEAN",
+        "domain": "EDGE",
+        "hash": "de5e7c84b81d319ddd231dcecea17051bc76ff6560ca4a4fdb382a30e8a7a294"
+      }
+    },
+    "props": {},
+    "materials": [
+      "mat_16.005",
+      "mat_17.005",
+      "Terminal tin \u2014 revision 16 (native KiCad colour)"
+    ]
+  },
+  "new_mesh": {
+    "hash": "32652ce4c7342c9fc8a1599a0603850a58dc6769e0eed131c86ac6b18debf774",
+    "vertices": 864,
+    "edges": 1248,
+    "polygons": 544,
+    "attributes": {
+      ".select_vert": {
+        "data_type": "BOOLEAN",
+        "domain": "POINT",
+        "hash": "f64c57e1b891d71fc47a189b1a70a760474af15eb7d5a3b6bc6185face25cfc5"
+      },
+      ".corner_edge": {
+        "data_type": "INT",
+        "domain": "CORNER",
+        "hash": "a909071c2726f21b70392539a425b06b63c0251ade2831898820974bcf4ec099"
+      },
+      ".select_poly": {
+        "data_type": "BOOLEAN",
+        "domain": "FACE",
+        "hash": "1aa2c1585ed161e98d021dd1fceb615bf5387b84069a0c23a2242f0ef42295c5"
+      },
+      "sharp_face": {
+        "data_type": "BOOLEAN",
+        "domain": "FACE",
+        "hash": "1aa2c1585ed161e98d021dd1fceb615bf5387b84069a0c23a2242f0ef42295c5"
+      },
+      ".select_edge": {
+        "data_type": "BOOLEAN",
+        "domain": "EDGE",
+        "hash": "60ba7ab6633ceff509fff69a1b525ef13276fc9b3292cdade8b4be49ae3aedcd"
+      },
+      "material_index": {
+        "data_type": "INT",
+        "domain": "FACE",
+        "hash": "7744e6d886bbb15854ddfa8fe705197489d16ae0cde39020f5743da07f5945a8"
+      },
+      "custom_normal": {
+        "data_type": "INT16_2D",
+        "domain": "CORNER",
+        "hash": "f8e7e63d156832b33f4454987ac9592bc2b4148f2ade901fca63a787f733aac9"
+      },
+      "sharp_edge": {
+        "data_type": "BOOLEAN",
+        "domain": "EDGE",
+        "hash": "93756162a81a91f470f16f56bb04f9345837c95f033d58c61a48b36145ff3ea5"
+      }
+    },
+    "props": {},
+    "materials": [
+      "mat_16.005",
+      "mat_17.005",
+      "Terminal tin \u2014 revision 16 (native KiCad colour)",
+      "USB mating contact gold \u2014 drawing revision 18"
+    ]
+  },
+  "native_parts": [
+    {
+      "name": "DrawingDerivedTerminals",
+      "vertices": 216,
+      "polygons": 120,
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Insulator",
+      "vertices": 372,
+      "polygons": 244,
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "MatingContacts",
+      "vertices": 96,
+      "polygons": 48,
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Shell",
+      "vertices": 180,
+      "polygons": 132,
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "native_reference_count": 491,
+  "stored_object_count": 1681,
+  "all_previous_materials_retained_exactly": true,
+  "opening_guide": "00 START HERE \u2014 revision 21 assembly",
+  "opening_guide_sha256": "7d3b6661f2a9cb750e7b703358a0fb23667213dfc2f4688b47d7e20d79863e6e",
+  "physical_fit_qualified": false
+}

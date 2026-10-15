@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "purpose": "Declared exceptions for scripts/verify_drill_fit.py. Each entry records a sourced reason; none of them is corrected by moving models or editing pads.",
-  "snapshot": "KiCad working revision 16",
+  "snapshot": "KiCad working revision18 (USB BOM drawing correction)",
   "empty_by_design": [
     {
       "board": "mainboard",
@@ -102,7 +102,7 @@
     },
     {
       "board": "ioboard",
-      "model": "USB_TypeB-body-illustration_Terminals.step",
+      "model": "Kobiconn1542442E_DrawingDerived_Terminals.step",
       "references": [
         "USB0"
       ],
@@ -111,7 +111,7 @@
         "P$2"
       ],
       "max_interference_mm": 0.24,
-      "reason": "Board-lock forks are a designed press fit (FCI recommends 2.30 mm holes and its barbs are wider still); the Eagle drill is 2.2 mm. The fitted USB part is unresolved (models-review-14)."
+      "reason": "The recovered Kobiconn154-2442-E drawing recommends2.30mm mounting holes, while Eagle drills2.2mm. The retained illustrative2.4x0.30mm free-state board-lock fork shape and original axes produce the same nominal0.2392mm wall excess. The exact fitted part and elastic deformation remain unqualified (models-review-18)."
     },
     {
       "board": "mainboard",

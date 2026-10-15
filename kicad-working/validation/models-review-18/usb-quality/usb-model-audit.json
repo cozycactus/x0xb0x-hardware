@@ -1,0 +1,238 @@
+{
+  "passed": true,
+  "check_count": 31,
+  "checks": [
+    {
+      "check": "Saved STEP is valid with12 positive solids",
+      "passed": true
+    },
+    {
+      "check": "Shell retains printed body envelope at0.38mm PCB gap",
+      "passed": true,
+      "bounds_mm": [
+        -6.02,
+        0.0,
+        0.38,
+        6.02,
+        16.0,
+        11.0
+      ]
+    },
+    {
+      "check": "Outer body XY width/depth and original mating cavity are retained",
+      "passed": true
+    },
+    {
+      "check": "Signal1 printed2.91mm projection",
+      "passed": true,
+      "tip_z_mm": -2.91
+    },
+    {
+      "check": "Signal1 XY axes retained",
+      "passed": true
+    },
+    {
+      "check": "Signal1 has no conductive shell intersection",
+      "passed": true,
+      "shell_intersection_mm3": 0.0,
+      "shell_gap_mm": 0.34999999999999964
+    },
+    {
+      "check": "Signal1 exits through insulator",
+      "passed": true
+    },
+    {
+      "check": "Signal2 printed2.91mm projection",
+      "passed": true,
+      "tip_z_mm": -2.91
+    },
+    {
+      "check": "Signal2 XY axes retained",
+      "passed": true
+    },
+    {
+      "check": "Signal2 has no conductive shell intersection",
+      "passed": true,
+      "shell_intersection_mm3": 0.0,
+      "shell_gap_mm": 0.34999999999999964
+    },
+    {
+      "check": "Signal2 exits through insulator",
+      "passed": true
+    },
+    {
+      "check": "Signal3 printed2.91mm projection",
+      "passed": true,
+      "tip_z_mm": -2.91
+    },
+    {
+      "check": "Signal3 XY axes retained",
+      "passed": true
+    },
+    {
+      "check": "Signal3 has no conductive shell intersection",
+      "passed": true,
+      "shell_intersection_mm3": 0.0,
+      "shell_gap_mm": 0.34999999999999964
+    },
+    {
+      "check": "Signal3 exits through insulator",
+      "passed": true
+    },
+    {
+      "check": "Signal4 printed2.91mm projection",
+      "passed": true,
+      "tip_z_mm": -2.91
+    },
+    {
+      "check": "Signal4 XY axes retained",
+      "passed": true
+    },
+    {
+      "check": "Signal4 has no conductive shell intersection",
+      "passed": true,
+      "shell_intersection_mm3": 0.0,
+      "shell_gap_mm": 0.34999999999999964
+    },
+    {
+      "check": "Signal4 exits through insulator",
+      "passed": true
+    },
+    {
+      "check": "Regression reproduces all four old signal/shell intersections",
+      "passed": true,
+      "old_intersections_mm3": [
+        0.06080000000000005,
+        0.06080000000000005,
+        0.06080000000000005,
+        0.06080000000000005
+      ]
+    },
+    {
+      "check": "Mounting tab1 printed3.72mm projection",
+      "passed": true,
+      "tip_z_mm": -3.72
+    },
+    {
+      "check": "Mounting tab1 joins metal shell",
+      "passed": true
+    },
+    {
+      "check": "Mounting tab2 printed3.72mm projection",
+      "passed": true,
+      "tip_z_mm": -3.72
+    },
+    {
+      "check": "Mounting tab2 joins metal shell",
+      "passed": true
+    },
+    {
+      "check": "Gold mating strip1 contacts insulator and clears shield",
+      "passed": true
+    },
+    {
+      "check": "Gold mating strip2 contacts insulator and clears shield",
+      "passed": true
+    },
+    {
+      "check": "Gold mating strip3 contacts insulator and clears shield",
+      "passed": true
+    },
+    {
+      "check": "Gold mating strip4 contacts insulator and clears shield",
+      "passed": true
+    },
+    {
+      "check": "Four named assembly parts retained in STEP",
+      "passed": true
+    },
+    {
+      "check": "STEP colours retain shell/white/tin plus gold mating surfaces",
+      "passed": true
+    },
+    {
+      "check": "Source STEP, downloaded drawing and both PCBs remain byte-identical",
+      "passed": true
+    }
+  ],
+  "source": "ioboard/3dmodels/Revision13/terminals/USB_TypeB-body-illustration_Terminals.step",
+  "source_sha256": "bb3e336edf721107308693a43b0dbd8c709f152d9560b8ce5fc735ee1963a961",
+  "drawing": {
+    "path": "kicad-working/validation/models-review-18/usb-quality/sources/kobiconn-154-2442-e-kc301021-2006.pdf",
+    "sha256": "c7d28677fcb9a15170c090f242131ff9b8de9c45377323bede5c8865565e6ff2",
+    "url": "https://www.mouser.com/catalog/specsheets/KC-301021.pdf",
+    "title": "Kobiconn154-2442-E, KC-301021, revised2006-07-19",
+    "retrieved": "User downloaded in browser; preserved byte-for-byte from Downloads/KC-301021.pdf"
+  },
+  "model": "Kobiconn1542442E_DrawingDerived_Terminals.step",
+  "model_sha256": "1c57746fc1aad51cbc7a24f905d8e2ea80a384564df79c671154ebfec0eb4584",
+  "model_bytes": 221433,
+  "parts": [
+    {
+      "name": "Shell",
+      "solids": 1,
+      "bounds_mm": [
+        -6.02,
+        0.0,
+        0.38,
+        6.02,
+        16.0,
+        11.0
+      ]
+    },
+    {
+      "name": "Insulator",
+      "solids": 1,
+      "bounds_mm": [
+        -5.57,
+        1.2,
+        0.3799999999999999,
+        5.57,
+        15.6,
+        10.55
+      ]
+    },
+    {
+      "name": "DrawingDerivedTerminals",
+      "solids": 6,
+      "bounds_mm": [
+        -6.17,
+        9.08,
+        -3.72,
+        6.17,
+        15.19,
+        1.1999999999999997
+      ]
+    },
+    {
+      "name": "MatingContacts",
+      "solids": 4,
+      "bounds_mm": [
+        -1.45,
+        1.5,
+        4.49,
+        1.45,
+        6.0,
+        6.77
+      ]
+    }
+  ],
+  "body_gap_mm": 0.38,
+  "signal_projection_mm": 2.91,
+  "board_lock_projection_mm": 3.72,
+  "old_signal_shell_intersections_mm3": [
+    0.06080000000000005,
+    0.06080000000000005,
+    0.06080000000000005,
+    0.06080000000000005
+  ],
+  "source_and_PCB_read_only": true,
+  "limitations": [
+    "Independent drawing-derived illustration, not manufacturer CAD or identification of the physically fitted connector.",
+    "Body standoff and terminal projections follow the2006 BOM part drawing; original XY axes, body envelope and mating cavity are preserved.",
+    "Signal stock0.40mm square, board-lock width2.4mm/thickness0.30mm/fork shape, shell gauge, insulating exit skirts and gold-strip dimensions remain illustrative.",
+    "Hidden internal contact routing, stamped spring features and exact mould/retention geometry are not reconstructed.",
+    "Nominal board-lock interference remains documented; no PCB hole, copper, placement or tolerance change."
+  ],
+  "physical_fit_qualified": false
+}
