@@ -1,0 +1,143 @@
+{
+  "revision": 13,
+  "baseline_revision": 12,
+  "geometry_license": "CC0-1.0 original reconstruction; manufacturer drawing rights retained",
+  "models": [
+    {
+      "key": "LPTC",
+      "references": [
+        "R100A0",
+        "R100B0"
+      ],
+      "previous_model": "Revision6/misc-body-illustrations/Microohm_LPTC12T21001_ApproxBody.step",
+      "previous_model_sha256": "907fbd52f9bc38814d3986e9841976ae001ca6fd73bd8d28d4e35a586b6bb450",
+      "model": "Revision13/terminals/Microohm_LPTC12T21001_ApproxBody_Terminals.step",
+      "model_sha256": "82c88429f12447c5011f8dcbd61e9a1f88a288a87d94aba929b8b463ca96f58b",
+      "original_solids_retained": 6,
+      "terminal_solids": 2,
+      "drawing": {
+        "file": "none recovered",
+        "title": "Micro-Ohm LPTC12T21001 (no manufacturer mechanical data found)"
+      },
+      "provenance": {
+        "all": "ASSUMED: no manufacturer drawing exists in the project or online (micro-ohm.com page returns 404). Axial dia 0.5 tinned leads leave the body ends at its axis, bend (0.75 centreline radius) into the existing holes and protrude 1.5 below the board."
+      }
+    },
+    {
+      "key": "CTS290",
+      "references": [
+        "S2"
+      ],
+      "previous_model": "Revision8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate.step",
+      "previous_model_sha256": "7466fde9d58888b5b1986111f5a9556ca272d17d02c4d40b80775104eb1f0272",
+      "model": "Revision13/terminals/CTS_290VAA5F201B2_DetailedCandidate_Terminals.step",
+      "model_sha256": "145720b6e2bc7f9f1f071584b6e15fd62597128405a2cdd1069f7f33b6cff20d",
+      "original_solids_retained": 6,
+      "terminal_solids": 7,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/cts290-datasheet.pdf",
+        "title": "CTS Series 290 MC-290V (2025-10-21 rev A)"
+      },
+      "provenance": {
+        "positions": "Dimensioned: A/C/B at 2.5 pitch 7.5 from centre, switch pins 5.00 apart 7.0 from centre, mounting tabs 11.10 apart",
+        "section": "Dimensioned 0.8 +-0.1 pin width; 0.3 thickness and 0.6 x 2.2 tab section assumed from the 1.8 x 2.6 slots",
+        "length": "Dimensioned 3.5 below the mounting surface"
+      }
+    },
+    {
+      "key": "AlphaRV112",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "previous_model": "Revision9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate.step",
+      "previous_model_sha256": "15f4f15e36793c0c3e746684357c8dd8269d002d1df7509125e7b2691a253443",
+      "model": "Revision13/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step",
+      "model_sha256": "6e8088a3aeeeb6d04bdaa30e88cf02ea965e1ff313e29a9496c3387b5ba5f335",
+      "original_solids_retained": 12,
+      "terminal_solids": 8,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/potentiometer-quality/sources/alpha-insulated-rv112b-primary.pdf",
+        "title": "Alpha RV112BCF-40 11 mm dual snap-in"
+      },
+      "provenance": {
+        "positions": "Dimensioned: six pins at 2.0 pitch, 11.0 from the tab line; snap-in tabs 13.0 apart",
+        "section": "Drawn 0.8 pin width; 0.3 thickness and 0.6 x 1.9 tab section assumed from the 2.0 x 2.1 slots",
+        "length": "Dimensioned 3.5 (pins) and 3.2 (tabs) below the mounting surface"
+      }
+    },
+    {
+      "key": "PanasonicEVU",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ],
+      "previous_model": "Revision9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate.step",
+      "previous_model_sha256": "37621a5fac69b737fdee4b5f0d6a4dffa83e97dc64cc3a66021d9ff02af8b381",
+      "model": "Revision13/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "model_sha256": "836769f73057150ae894762da05a024319280c526a4f2b7c5f8d9d9d142023ee",
+      "original_solids_retained": 9,
+      "terminal_solids": 5,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/potentiometer-quality/sources/panasonic-evu-primary-mirror.pdf",
+        "title": "Panasonic EVUF2L No. 8 (2005)"
+      },
+      "provenance": {
+        "positions": "Dimensioned piercing plan: #1-#3 at 2.5 pitch 7.00 from the tab line; snap-in tabs 10.60 apart",
+        "section": "Sister-type dimension 0.8 terminal width; 0.3 thickness and 0.6 x 2.0 tab section assumed from 1.6 x 2.2 slots",
+        "length": "Dimensioned 3.7 below the mounting surface"
+      }
+    },
+    {
+      "key": "NKKB12AB",
+      "references": [
+        "S1"
+      ],
+      "previous_model": "Revision8/rotary-quality/NKK_B12AB_DetailedCandidate.step",
+      "previous_model_sha256": "d6fcc8f1de47e51094c5d8cf7874d7e273f42dccbadcc1caea180e1526c4730b",
+      "model": "Revision13/terminals/NKK_B12AB_DetailedCandidate_Terminals.step",
+      "model_sha256": "a4eacb805bab8d5454a9462bd1d65243d162fc0198dcdcb54711ffc8b9b6b66d",
+      "original_solids_retained": 4,
+      "terminal_solids": 7,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/nkk-btoggles.pdf",
+        "title": "NKK Series B B12AB straight PC with bracket"
+      },
+      "provenance": {
+        "positions": "Reference dimensions: pins 2.54 pitch 1.0 off centre; bracket legs 10.16 apart in columns 2.54 apart",
+        "section": "Dimensioned 0.6 dia pins; bracket legs 0.6 wide x 0.4 thick",
+        "length": "Reference 3.1 below the body"
+      }
+    },
+    {
+      "key": "Grayhill25L",
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "previous_model": "Revision8/rotary-quality/Grayhill_25LB22H_DetailedCandidate.step",
+      "previous_model_sha256": "2ae9410a3016bfd0deeb90c390fe4daefdb832912fa829bcb318a879e34e5caf",
+      "model": "Revision13/terminals/Grayhill_25LB22H_DetailedCandidate_Terminals.step",
+      "model_sha256": "808eb7af33f7cda61668c406f2a9ce83dbccb1549f02f320dfd62811b7c36058",
+      "original_solids_retained": 10,
+      "terminal_solids": 5,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/grayhill25l.pdf",
+        "title": "Grayhill Series 25L"
+      },
+      "provenance": {
+        "positions": "Dimensioned: 0.100 in pitch, row 0.500 in from the shaft centre",
+        "section": "Dimensioned 0.025 in (0.64) square pins",
+        "length": "Dimensioned 0.250 in (6.35) below the base",
+        "omitted": "MT1-MT4 belong to the separate 25J5155 mounting bracket; no drawing, so no legs are added"
+      }
+    }
+  ],
+  "native_assignment_transforms": "unchanged from revision 12",
+  "terminal_positions": "Drawing dimensions in each model frame; never moved to PCB pads",
+  "downloaded_CAD_geometry_incorporated": false,
+  "physical_fit_qualified": false
+}

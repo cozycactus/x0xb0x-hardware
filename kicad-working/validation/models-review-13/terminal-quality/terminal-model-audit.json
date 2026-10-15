@@ -1,0 +1,2340 @@
+{
+  "schema": 1,
+  "revision": 13,
+  "generator": "build_terminals.py",
+  "freecad": [
+    "1",
+    "0",
+    "1"
+  ],
+  "models": {
+    "NYS216": {
+      "board": "ioboard",
+      "source_step": "ioboard/3dmodels/Revision8/rear-quality/NYS216_DrawingDerived_DetailedBody.step",
+      "source_sha256": "9f397ef5f43bf615023e40b04554d182468b351faf732539918b42c040ebb390",
+      "output": "ioboard/3dmodels/Revision13/terminals/NYS216_DrawingDerived_DetailedBody_Terminals.step",
+      "output_sha256": "02af6889a2d82a29c452c142279d2fbfe0239203af81708b7cc219d9ec817fd0",
+      "output_bytes": 229666,
+      "original_solids": 5,
+      "terminal_solids": 6,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/nys-216-manufacturer.dxf",
+        "title": "REAN NYS216 3102 ST 22 01 rev C (2007)"
+      },
+      "provenance": {
+        "positions": "PCB-layout dimensions: rows 4.00 + 2 x 6.35 behind the shoulder, rows 16.50 apart (x = +-8.25)",
+        "section": "DXF drawn geometry: leg 1.30 wide (side view, semicircular tip), 0.40 thick with tear-drop waist (front view)",
+        "length": "DXF drawn geometry: tip 4.00 below the body floor",
+        "conflict": "The drawn side-view legs sit 0.875 mm behind the dimensioned holes; dimensions are used."
+      },
+      "terminals": [
+        {
+          "name": "L0",
+          "pad": "SN",
+          "kind": "nys_leg",
+          "z_tip_mm": -4.0,
+          "bounds_mm": [
+            -8.45,
+            3.35,
+            -4.0,
+            -7.962,
+            4.65,
+            0.4
+          ],
+          "volume_mm3": 2.052676
+        },
+        {
+          "name": "R0",
+          "pad": "S",
+          "kind": "nys_leg",
+          "z_tip_mm": -4.0,
+          "bounds_mm": [
+            7.962,
+            3.35,
+            -4.0,
+            8.45,
+            4.65,
+            0.4
+          ],
+          "volume_mm3": 2.052676
+        },
+        {
+          "name": "L1",
+          "pad": "RN",
+          "kind": "nys_leg",
+          "z_tip_mm": -4.0,
+          "bounds_mm": [
+            -8.45,
+            9.7,
+            -4.0,
+            -7.962,
+            11.0,
+            0.4
+          ],
+          "volume_mm3": 2.052676
+        },
+        {
+          "name": "R1",
+          "pad": "R",
+          "kind": "nys_leg",
+          "z_tip_mm": -4.0,
+          "bounds_mm": [
+            7.962,
+            9.7,
+            -4.0,
+            8.45,
+            11.0,
+            0.4
+          ],
+          "volume_mm3": 2.052676
+        },
+        {
+          "name": "L2",
+          "pad": "TN",
+          "kind": "nys_leg",
+          "z_tip_mm": -4.0,
+          "bounds_mm": [
+            -8.45,
+            16.05,
+            -4.0,
+            -7.962,
+            17.35,
+            0.4
+          ],
+          "volume_mm3": 2.052676
+        },
+        {
+          "name": "R2",
+          "pad": "T",
+          "kind": "nys_leg",
+          "z_tip_mm": -4.0,
+          "bounds_mm": [
+            7.962,
+            16.05,
+            -4.0,
+            8.45,
+            17.35,
+            0.4
+          ],
+          "volume_mm3": 2.052676
+        }
+      ]
+    },
+    "SDS50J": {
+      "board": "ioboard",
+      "source_step": "ioboard/3dmodels/Revision12/din-contact-quality/SDS50J_CorrectedContactPattern.step",
+      "source_sha256": "9a8bd2dd10aa384f377796fe8aa7234217d0bfdb9d8d8c7e16dc7f6ee3657c01",
+      "output": "ioboard/3dmodels/Revision13/terminals/SDS50J_CorrectedContactPattern_Terminals.step",
+      "output_sha256": "e318691c718321e49ee72b154bde8a65bed5b52a32b2ca20daeeadedb9e1c663",
+      "output_bytes": 167832,
+      "original_solids": 8,
+      "terminal_solids": 7,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rear-quality/source/sds50j.pdf",
+        "title": "Same Sky SDS-J page 3 (2024-09-12)"
+      },
+      "provenance": {
+        "positions": "Dimensioned PCB layout and side view: E at 2.5, pins 1-3 at 12.5, pins 4-5 at 15.0 from the front; x 2.5/5.0/7.5",
+        "section": "Drawn geometry at 1200 dpi: signal 0.70 x 1.00, earth legs 1.00 x 0.21 with pointed tips",
+        "length": "Dimensioned 3.5 below the body",
+        "omitted": "Two dia 2.2 locating pegs at (+-7.5, 7.5) are not added: the original Eagle package has no holes for them"
+      },
+      "terminals": [
+        {
+          "name": "1",
+          "pad": "1",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            7.15,
+            12.0,
+            -3.5,
+            7.85,
+            13.0,
+            0.4
+          ],
+          "volume_mm3": 2.73
+        },
+        {
+          "name": "2",
+          "pad": "2",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -0.35,
+            12.0,
+            -3.5,
+            0.35,
+            13.0,
+            0.4
+          ],
+          "volume_mm3": 2.73
+        },
+        {
+          "name": "3",
+          "pad": "3",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -7.85,
+            12.0,
+            -3.5,
+            -7.15,
+            13.0,
+            0.4
+          ],
+          "volume_mm3": 2.73
+        },
+        {
+          "name": "4",
+          "pad": "4",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            4.65,
+            14.5,
+            -3.5,
+            5.35,
+            15.5,
+            0.4
+          ],
+          "volume_mm3": 2.73
+        },
+        {
+          "name": "5",
+          "pad": "5",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -5.35,
+            14.5,
+            -3.5,
+            -4.65,
+            15.5,
+            0.4
+          ],
+          "volume_mm3": 2.73
+        },
+        {
+          "name": "E1",
+          "pad": "PE",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -3.0,
+            2.395,
+            -3.5,
+            -2.0,
+            2.605,
+            0.4
+          ],
+          "volume_mm3": 0.756
+        },
+        {
+          "name": "E2",
+          "pad": "PE@",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            2.0,
+            2.395,
+            -3.5,
+            3.0,
+            2.605,
+            0.4
+          ],
+          "volume_mm3": 0.756
+        }
+      ]
+    },
+    "MJ3536N": {
+      "board": "ioboard",
+      "source_step": "ioboard/3dmodels/Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+      "source_sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+      "output": "ioboard/3dmodels/Revision13/terminals/MJ3536N_DrawingDerived_DetailedBody_Terminals.step",
+      "output_sha256": "da564256db4dce1dbfca3c40de197eb26b4cf57c648014e35469e0d5d9a973f4",
+      "output_bytes": 98534,
+      "original_solids": 5,
+      "terminal_solids": 3,
+      "drawing": {
+        "file": "kicad-working/validation/models-review-10/rear-connector-quality/sources/mj3536n-2020.pdf",
+        "title": "CUI MJ-3536N rev 1.02 (2020; mechanics unchanged since 2005)"
+      },
+      "provenance": {
+        "positions": "Dimensioned: terminal 1 at 2.3, terminal 3 at 13.5 (5.2 off axis), terminal 2 at 16.0 from the shoulder",
+        "section": "Dimensioned widths 2.2 (terminal 1) and 2.0 (terminal 3); drawn thicknesses 0.40 / 0.20 / 0.34; terminal 2 width assumed equal to terminal 1 (hidden in the front view)",
+        "length": "Dimensioned 4.5 below the body; dia 1.0 eyelets (3 places) in the rounded ends"
+      },
+      "terminals": [
+        {
+          "name": "1",
+          "pad": "SLEEVE",
+          "kind": "blade",
+          "z_tip_mm": -4.5,
+          "bounds_mm": [
+            -1.1,
+            2.1,
+            -4.5,
+            1.1,
+            2.5,
+            0.4
+          ],
+          "volume_mm3": 3.790106
+        },
+        {
+          "name": "2",
+          "pad": "TIP",
+          "kind": "blade",
+          "z_tip_mm": -4.5,
+          "bounds_mm": [
+            -1.1,
+            15.9,
+            -4.5,
+            1.1,
+            16.1,
+            0.4
+          ],
+          "volume_mm3": 1.895053
+        },
+        {
+          "name": "3",
+          "pad": "TIPSHUNT",
+          "kind": "blade",
+          "z_tip_mm": -4.5,
+          "bounds_mm": [
+            5.03,
+            12.5,
+            -4.5,
+            5.37,
+            14.5,
+            0.4
+          ],
+          "volume_mm3": 2.919035
+        }
+      ]
+    },
+    "PJ202AH": {
+      "board": "ioboard",
+      "source_step": "ioboard/3dmodels/Revision10/rear-connector-quality/PJ202AH_DrawingDerived_DetailedBody_Corrected.step",
+      "source_sha256": "5d933e75182d55843d288f0a54383960b5f897a1db058c6c1dc1efe75817908e",
+      "output": "ioboard/3dmodels/Revision13/terminals/PJ202AH_DrawingDerived_DetailedBody_Terminals.step",
+      "output_sha256": "516f628957f5b63eb868504085d9c6eea39aa16fa6841644357bcb04a9495838",
+      "output_bytes": 81991,
+      "original_solids": 5,
+      "terminal_solids": 3,
+      "drawing": {
+        "file": "kicad-working/validation/models-review-10/rear-connector-quality/sources/pj202ah-2015.pdf",
+        "title": "CUI PJ-202AH (2015-01-08)"
+      },
+      "provenance": {
+        "positions": "Dimensioned: terminal 2 at 7.7, terminal 3 at 10.7 (4.7 off axis), terminal 1 at 13.7 behind the front face",
+        "section": "Dimensioned 3.00 width of terminals 1/2; drawn 0.40 thickness and 2.50 width of terminal 3; dia 1.50 eyelet",
+        "length": "Dimensioned 3.5 below the body"
+      },
+      "terminals": [
+        {
+          "name": "1",
+          "pad": "P$1",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -1.5,
+            -13.9,
+            -3.5,
+            1.5,
+            -13.5,
+            0.4
+          ],
+          "volume_mm3": 4.293717
+        },
+        {
+          "name": "2",
+          "pad": "P$2",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -1.5,
+            -7.9,
+            -3.5,
+            1.5,
+            -7.5,
+            0.4
+          ],
+          "volume_mm3": 4.293717
+        },
+        {
+          "name": "3",
+          "pad": "P$3",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -4.9,
+            -11.95,
+            -3.5,
+            -4.5,
+            -9.45,
+            0.4
+          ],
+          "volume_mm3": 2.924889
+        }
+      ]
+    },
+    "USB": {
+      "board": "ioboard",
+      "source_step": "ioboard/3dmodels/Revision6/rear-body-illustrations/USB_TypeB-body-illustration.step",
+      "source_sha256": "5d7b59c38b09bdaca1159baf92438a00587a3cefd0af5855a874abdc8029fb90",
+      "output": "ioboard/3dmodels/Revision13/terminals/USB_TypeB-body-illustration_Terminals.step",
+      "output_sha256": "bb3e336edf721107308693a43b0dbd8c709f152d9560b8ce5fc735ee1963a961",
+      "output_bytes": 91156,
+      "original_solids": 2,
+      "terminal_solids": 6,
+      "drawing": {
+        "file": "FCI 61729 drawing rev V (2008), via RS 61729-0011BLF product sheet",
+        "title": "FCI/Amphenol 61729 USB receptacle B type (matches footprint PN61729)"
+      },
+      "provenance": {
+        "positions": "Dimensioned: board locks 10.28 behind the mating face, signal rows 2.71 and 4.71 behind them, pitch 2.50, lock holes 12.04 apart",
+        "section": "Drawn 0.40 square signal pins; board-lock fork drawn about 2.4 wide, assumed 0.30 thick with a 0.6 slot",
+        "length": "Dimensioned 2.84 (signal) and 2.63 (board lock) below the seating plane",
+        "identity": "Original BOM names Kobiconn 154-2442-E; its drawing could not be retrieved. The footprint is PN61729."
+      },
+      "terminals": [
+        {
+          "name": "1",
+          "pad": "1",
+          "kind": "blade",
+          "z_tip_mm": -2.84,
+          "bounds_mm": [
+            1.05,
+            14.79,
+            -2.84,
+            1.45,
+            15.19,
+            0.4
+          ],
+          "volume_mm3": 0.5184
+        },
+        {
+          "name": "2",
+          "pad": "2",
+          "kind": "blade",
+          "z_tip_mm": -2.84,
+          "bounds_mm": [
+            -1.45,
+            14.79,
+            -2.84,
+            -1.05,
+            15.19,
+            0.4
+          ],
+          "volume_mm3": 0.5184
+        },
+        {
+          "name": "3",
+          "pad": "3",
+          "kind": "blade",
+          "z_tip_mm": -2.84,
+          "bounds_mm": [
+            -1.45,
+            12.79,
+            -2.84,
+            -1.05,
+            13.19,
+            0.4
+          ],
+          "volume_mm3": 0.5184
+        },
+        {
+          "name": "4",
+          "pad": "4",
+          "kind": "blade",
+          "z_tip_mm": -2.84,
+          "bounds_mm": [
+            1.05,
+            12.79,
+            -2.84,
+            1.45,
+            13.19,
+            0.4
+          ],
+          "volume_mm3": 0.5184
+        },
+        {
+          "name": "L1",
+          "pad": "M2",
+          "kind": "blade",
+          "z_tip_mm": -2.63,
+          "bounds_mm": [
+            -6.17,
+            9.08,
+            -2.63,
+            -5.87,
+            11.48,
+            0.4
+          ],
+          "volume_mm3": 1.8576
+        },
+        {
+          "name": "L2",
+          "pad": "P$2",
+          "kind": "blade",
+          "z_tip_mm": -2.63,
+          "bounds_mm": [
+            5.87,
+            9.08,
+            -2.63,
+            6.17,
+            11.48,
+            0.4
+          ],
+          "volume_mm3": 1.8576
+        }
+      ]
+    },
+    "MC78M05": {
+      "board": "ioboard",
+      "source_step": "ioboard/3dmodels/Revision10/heatsink-fit-research/MC78M05_TO220_BentBack_PhotoQualified_BodyOnly.step",
+      "source_sha256": "57572d2c7c441f7c83c0bf4c281866def4e4d5b5639d05f805596d090a09f555",
+      "output": "ioboard/3dmodels/Revision13/terminals/MC78M05_TO220_BentBack_PhotoQualified_Terminals.step",
+      "output_sha256": "d8ba9827d873933070d2751289376126ba84b375be2de7e559b2ff7b75b7727c",
+      "output_bytes": 75347,
+      "original_solids": 2,
+      "terminal_solids": 3,
+      "drawing": {
+        "file": "kicad-working/validation/models-review-10/heatsink-fit-research/sources/onsemi-mc78m00.pdf",
+        "title": "onsemi TO-220 case 221AB issue A (2010)"
+      },
+      "provenance": {
+        "section": "Nominal of printed ranges: D 0.76 wide, J 0.55 thick, L 1.335 shoulder width, G 2.54 pitch",
+        "path": "Lead plane R 2.415 above the tab back (z 3.795); leaves the lead face at y 3.0, 90 degree bend (1.0 centreline radius, assumed) above the holes at y -2.54; total length K 13.485 from the body",
+        "limits": "Bend radius, shoulder length (1.0) and formed path are illustration assumptions, like the body pose"
+      },
+      "terminals": [
+        {
+          "name": "1",
+          "pad": "IN",
+          "kind": "bent_lead",
+          "z_tip_mm": -4.579204,
+          "bounds_mm": [
+            -3.2075,
+            -2.815,
+            -4.5792,
+            -1.8725,
+            3.6,
+            4.07
+          ],
+          "volume_mm3": 6.39353
+        },
+        {
+          "name": "2",
+          "pad": "GND",
+          "kind": "bent_lead",
+          "z_tip_mm": -4.579204,
+          "bounds_mm": [
+            -0.6675,
+            -2.815,
+            -4.5792,
+            0.6675,
+            3.6,
+            4.07
+          ],
+          "volume_mm3": 6.39353
+        },
+        {
+          "name": "3",
+          "pad": "OUT",
+          "kind": "bent_lead",
+          "z_tip_mm": -4.579204,
+          "bounds_mm": [
+            1.8725,
+            -2.815,
+            -4.5792,
+            3.2075,
+            3.6,
+            4.07
+          ],
+          "volume_mm3": 6.39353
+        }
+      ]
+    },
+    "LPTC": {
+      "board": "mainboard",
+      "source_step": "mainboard/3dmodels/Revision6/misc-body-illustrations/Microohm_LPTC12T21001_ApproxBody.step",
+      "source_sha256": "907fbd52f9bc38814d3986e9841976ae001ca6fd73bd8d28d4e35a586b6bb450",
+      "output": "mainboard/3dmodels/Revision13/terminals/Microohm_LPTC12T21001_ApproxBody_Terminals.step",
+      "output_sha256": "82c88429f12447c5011f8dcbd61e9a1f88a288a87d94aba929b8b463ca96f58b",
+      "output_bytes": 46586,
+      "original_solids": 6,
+      "terminal_solids": 2,
+      "drawing": {
+        "file": "none recovered",
+        "title": "Micro-Ohm LPTC12T21001 (no manufacturer mechanical data found)"
+      },
+      "provenance": {
+        "all": "ASSUMED: no manufacturer drawing exists in the project or online (micro-ohm.com page returns 404). Axial dia 0.5 tinned leads leave the body ends at its axis, bend (0.75 centreline radius) into the existing holes and protrude 1.5 below the board."
+      },
+      "terminals": [
+        {
+          "name": "1",
+          "pad": "1",
+          "kind": "axial_lead",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            -5.33,
+            -0.25,
+            -3.1,
+            -3.5,
+            0.25,
+            1.92
+          ],
+          "volume_mm3": 1.183614
+        },
+        {
+          "name": "2",
+          "pad": "2",
+          "kind": "axial_lead",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            3.5,
+            -0.25,
+            -3.1,
+            5.33,
+            0.25,
+            1.92
+          ],
+          "volume_mm3": 1.183614
+        }
+      ]
+    },
+    "CTS290": {
+      "board": "mainboard",
+      "source_step": "mainboard/3dmodels/Revision8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate.step",
+      "source_sha256": "7466fde9d58888b5b1986111f5a9556ca272d17d02c4d40b80775104eb1f0272",
+      "output": "mainboard/3dmodels/Revision13/terminals/CTS_290VAA5F201B2_DetailedCandidate_Terminals.step",
+      "output_sha256": "145720b6e2bc7f9f1f071584b6e15fd62597128405a2cdd1069f7f33b6cff20d",
+      "output_bytes": 902602,
+      "original_solids": 6,
+      "terminal_solids": 7,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/cts290-datasheet.pdf",
+        "title": "CTS Series 290 MC-290V (2025-10-21 rev A)"
+      },
+      "provenance": {
+        "positions": "Dimensioned: A/C/B at 2.5 pitch 7.5 from centre, switch pins 5.00 apart 7.0 from centre, mounting tabs 11.10 apart",
+        "section": "Dimensioned 0.8 +-0.1 pin width; 0.3 thickness and 0.6 x 2.2 tab section assumed from the 1.8 x 2.6 slots",
+        "length": "Dimensioned 3.5 below the mounting surface"
+      },
+      "terminals": [
+        {
+          "name": "A",
+          "pad": "A",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -2.9,
+            -7.65,
+            -3.5,
+            -2.1,
+            -7.35,
+            0.4
+          ],
+          "volume_mm3": 0.936
+        },
+        {
+          "name": "C",
+          "pad": "C",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -0.4,
+            -7.65,
+            -3.5,
+            0.4,
+            -7.35,
+            0.4
+          ],
+          "volume_mm3": 0.936
+        },
+        {
+          "name": "B",
+          "pad": "B",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            2.1,
+            -7.65,
+            -3.5,
+            2.9,
+            -7.35,
+            0.4
+          ],
+          "volume_mm3": 0.936
+        },
+        {
+          "name": "S1",
+          "pad": "SW1",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -2.9,
+            6.85,
+            -3.5,
+            -2.1,
+            7.15,
+            0.4
+          ],
+          "volume_mm3": 0.936
+        },
+        {
+          "name": "S2",
+          "pad": "SW2",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            2.1,
+            6.85,
+            -3.5,
+            2.9,
+            7.15,
+            0.4
+          ],
+          "volume_mm3": 0.936
+        },
+        {
+          "name": "T1",
+          "pad": "P$2",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -5.85,
+            -1.1,
+            -3.5,
+            -5.25,
+            1.1,
+            0.4
+          ],
+          "volume_mm3": 5.148
+        },
+        {
+          "name": "T2",
+          "pad": "P$1",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            5.25,
+            -1.1,
+            -3.5,
+            5.85,
+            1.1,
+            0.4
+          ],
+          "volume_mm3": 5.148
+        }
+      ]
+    },
+    "AlphaRV112": {
+      "board": "mainboard",
+      "source_step": "mainboard/3dmodels/Revision9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate.step",
+      "source_sha256": "15f4f15e36793c0c3e746684357c8dd8269d002d1df7509125e7b2691a253443",
+      "output": "mainboard/3dmodels/Revision13/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step",
+      "output_sha256": "6e8088a3aeeeb6d04bdaa30e88cf02ea965e1ff313e29a9496c3387b5ba5f335",
+      "output_bytes": 237475,
+      "original_solids": 12,
+      "terminal_solids": 8,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/potentiometer-quality/sources/alpha-insulated-rv112b-primary.pdf",
+        "title": "Alpha RV112BCF-40 11 mm dual snap-in"
+      },
+      "provenance": {
+        "positions": "Dimensioned: six pins at 2.0 pitch, 11.0 from the tab line; snap-in tabs 13.0 apart",
+        "section": "Drawn 0.8 pin width; 0.3 thickness and 0.6 x 1.9 tab section assumed from the 2.0 x 2.1 slots",
+        "length": "Dimensioned 3.5 (pins) and 3.2 (tabs) below the mounting surface"
+      },
+      "terminals": [
+        {
+          "name": "2A",
+          "pad": "2A",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -5.4,
+            -11.15,
+            -3.5,
+            -4.6,
+            -10.85,
+            0.4
+          ],
+          "volume_mm3": 0.936
+        },
+        {
+          "name": "1A",
+          "pad": "1A",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -3.4,
+            -11.15,
+            -3.5,
+            -2.6,
+            -10.85,
+            0.4
+          ],
+          "volume_mm3": 0.936
+        },
+        {
+          "name": "1B",
+          "pad": "1B",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -1.4,
+            -11.15,
+            -3.5,
+            -0.6,
+            -10.85,
+            0.4
+          ],
+          "volume_mm3": 0.936
+        },
+        {
+          "name": "2B",
+          "pad": "2B",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            0.6,
+            -11.15,
+            -3.5,
+            1.4,
+            -10.85,
+            0.4
+          ],
+          "volume_mm3": 0.936
+        },
+        {
+          "name": "3B",
+          "pad": "3B",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            2.6,
+            -11.15,
+            -3.5,
+            3.4,
+            -10.85,
+            0.4
+          ],
+          "volume_mm3": 0.936
+        },
+        {
+          "name": "3A",
+          "pad": "3A",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            4.6,
+            -11.15,
+            -3.5,
+            5.4,
+            -10.85,
+            0.4
+          ],
+          "volume_mm3": 0.936
+        },
+        {
+          "name": "M1",
+          "pad": "M1",
+          "kind": "blade",
+          "z_tip_mm": -3.2,
+          "bounds_mm": [
+            -6.8,
+            -0.95,
+            -3.2,
+            -6.2,
+            0.95,
+            0.4
+          ],
+          "volume_mm3": 4.104
+        },
+        {
+          "name": "M2",
+          "pad": "M2",
+          "kind": "blade",
+          "z_tip_mm": -3.2,
+          "bounds_mm": [
+            6.2,
+            -0.95,
+            -3.2,
+            6.8,
+            0.95,
+            0.4
+          ],
+          "volume_mm3": 4.104
+        }
+      ]
+    },
+    "PanasonicEVU": {
+      "board": "mainboard",
+      "source_step": "mainboard/3dmodels/Revision9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate.step",
+      "source_sha256": "37621a5fac69b737fdee4b5f0d6a4dffa83e97dc64cc3a66021d9ff02af8b381",
+      "output": "mainboard/3dmodels/Revision13/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "output_sha256": "836769f73057150ae894762da05a024319280c526a4f2b7c5f8d9d9d142023ee",
+      "output_bytes": 269796,
+      "original_solids": 9,
+      "terminal_solids": 5,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/potentiometer-quality/sources/panasonic-evu-primary-mirror.pdf",
+        "title": "Panasonic EVUF2L No. 8 (2005)"
+      },
+      "provenance": {
+        "positions": "Dimensioned piercing plan: #1-#3 at 2.5 pitch 7.00 from the tab line; snap-in tabs 10.60 apart",
+        "section": "Sister-type dimension 0.8 terminal width; 0.3 thickness and 0.6 x 2.0 tab section assumed from 1.6 x 2.2 slots",
+        "length": "Dimensioned 3.7 below the mounting surface"
+      },
+      "terminals": [
+        {
+          "name": "1",
+          "pad": "1",
+          "kind": "blade",
+          "z_tip_mm": -3.7,
+          "bounds_mm": [
+            -2.9,
+            -7.15,
+            -3.7,
+            -2.1,
+            -6.85,
+            0.4
+          ],
+          "volume_mm3": 0.984
+        },
+        {
+          "name": "2",
+          "pad": "2",
+          "kind": "blade",
+          "z_tip_mm": -3.7,
+          "bounds_mm": [
+            -0.4,
+            -7.15,
+            -3.7,
+            0.4,
+            -6.85,
+            0.4
+          ],
+          "volume_mm3": 0.984
+        },
+        {
+          "name": "3",
+          "pad": "3",
+          "kind": "blade",
+          "z_tip_mm": -3.7,
+          "bounds_mm": [
+            2.1,
+            -7.15,
+            -3.7,
+            2.9,
+            -6.85,
+            0.4
+          ],
+          "volume_mm3": 0.984
+        },
+        {
+          "name": "M1",
+          "pad": "M1",
+          "kind": "blade",
+          "z_tip_mm": -3.7,
+          "bounds_mm": [
+            -5.6,
+            -1.0,
+            -3.7,
+            -5.0,
+            1.0,
+            0.4
+          ],
+          "volume_mm3": 4.92
+        },
+        {
+          "name": "M2",
+          "pad": "M2",
+          "kind": "blade",
+          "z_tip_mm": -3.7,
+          "bounds_mm": [
+            5.0,
+            -1.0,
+            -3.7,
+            5.6,
+            1.0,
+            0.4
+          ],
+          "volume_mm3": 4.92
+        }
+      ]
+    },
+    "NKKB12AB": {
+      "board": "mainboard",
+      "source_step": "mainboard/3dmodels/Revision8/rotary-quality/NKK_B12AB_DetailedCandidate.step",
+      "source_sha256": "d6fcc8f1de47e51094c5d8cf7874d7e273f42dccbadcc1caea180e1526c4730b",
+      "output": "mainboard/3dmodels/Revision13/terminals/NKK_B12AB_DetailedCandidate_Terminals.step",
+      "output_sha256": "a4eacb805bab8d5454a9462bd1d65243d162fc0198dcdcb54711ffc8b9b6b66d",
+      "output_bytes": 132614,
+      "original_solids": 4,
+      "terminal_solids": 7,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/nkk-btoggles.pdf",
+        "title": "NKK Series B B12AB straight PC with bracket"
+      },
+      "provenance": {
+        "positions": "Reference dimensions: pins 2.54 pitch 1.0 off centre; bracket legs 10.16 apart in columns 2.54 apart",
+        "section": "Dimensioned 0.6 dia pins; bracket legs 0.6 wide x 0.4 thick",
+        "length": "Reference 3.1 below the body"
+      },
+      "terminals": [
+        {
+          "name": "1",
+          "pad": "1",
+          "kind": "round",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            -1.3,
+            2.24,
+            -3.1,
+            -0.7,
+            2.84,
+            0.4
+          ],
+          "volume_mm3": 0.989602
+        },
+        {
+          "name": "2",
+          "pad": "2",
+          "kind": "round",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            -1.3,
+            -0.3,
+            -3.1,
+            -0.7,
+            0.3,
+            0.4
+          ],
+          "volume_mm3": 0.989602
+        },
+        {
+          "name": "3",
+          "pad": "3",
+          "kind": "round",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            -1.3,
+            -2.84,
+            -3.1,
+            -0.7,
+            -2.24,
+            0.4
+          ],
+          "volume_mm3": 0.989602
+        },
+        {
+          "name": "M1",
+          "pad": "M1",
+          "kind": "blade",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            -1.3,
+            -5.28,
+            -3.1,
+            -0.7,
+            -4.88,
+            0.4
+          ],
+          "volume_mm3": 0.84
+        },
+        {
+          "name": "M2",
+          "pad": "M2",
+          "kind": "blade",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            1.24,
+            -5.28,
+            -3.1,
+            1.84,
+            -4.88,
+            0.4
+          ],
+          "volume_mm3": 0.84
+        },
+        {
+          "name": "M3",
+          "pad": "M3",
+          "kind": "blade",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            1.24,
+            4.88,
+            -3.1,
+            1.84,
+            5.28,
+            0.4
+          ],
+          "volume_mm3": 0.84
+        },
+        {
+          "name": "M4",
+          "pad": "M4",
+          "kind": "blade",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            -1.3,
+            4.88,
+            -3.1,
+            -0.7,
+            5.28,
+            0.4
+          ],
+          "volume_mm3": 0.84
+        }
+      ]
+    },
+    "Grayhill25L": {
+      "board": "mainboard",
+      "source_step": "mainboard/3dmodels/Revision8/rotary-quality/Grayhill_25LB22H_DetailedCandidate.step",
+      "source_sha256": "2ae9410a3016bfd0deeb90c390fe4daefdb832912fa829bcb318a879e34e5caf",
+      "output": "mainboard/3dmodels/Revision13/terminals/Grayhill_25LB22H_DetailedCandidate_Terminals.step",
+      "output_sha256": "808eb7af33f7cda61668c406f2a9ce83dbccb1549f02f320dfd62811b7c36058",
+      "output_bytes": 203120,
+      "original_solids": 10,
+      "terminal_solids": 5,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/grayhill25l.pdf",
+        "title": "Grayhill Series 25L"
+      },
+      "provenance": {
+        "positions": "Dimensioned: 0.100 in pitch, row 0.500 in from the shaft centre",
+        "section": "Dimensioned 0.025 in (0.64) square pins",
+        "length": "Dimensioned 0.250 in (6.35) below the base",
+        "omitted": "MT1-MT4 belong to the separate 25J5155 mounting bracket; no drawing, so no legs are added"
+      },
+      "terminals": [
+        {
+          "name": "8",
+          "pad": "P$8",
+          "kind": "blade",
+          "z_tip_mm": -6.35,
+          "bounds_mm": [
+            -5.4,
+            -13.02,
+            -6.35,
+            -4.76,
+            -12.38,
+            1.14
+          ],
+          "volume_mm3": 3.067904
+        },
+        {
+          "name": "4",
+          "pad": "P$4",
+          "kind": "blade",
+          "z_tip_mm": -6.35,
+          "bounds_mm": [
+            -2.86,
+            -13.02,
+            -6.35,
+            -2.22,
+            -12.38,
+            1.14
+          ],
+          "volume_mm3": 3.067904
+        },
+        {
+          "name": "2",
+          "pad": "P$2",
+          "kind": "blade",
+          "z_tip_mm": -6.35,
+          "bounds_mm": [
+            -0.32,
+            -13.02,
+            -6.35,
+            0.32,
+            -12.38,
+            1.14
+          ],
+          "volume_mm3": 3.067904
+        },
+        {
+          "name": "1",
+          "pad": "P$1",
+          "kind": "blade",
+          "z_tip_mm": -6.35,
+          "bounds_mm": [
+            2.22,
+            -13.02,
+            -6.35,
+            2.86,
+            -12.38,
+            1.14
+          ],
+          "volume_mm3": 3.067904
+        },
+        {
+          "name": "C",
+          "pad": "C",
+          "kind": "blade",
+          "z_tip_mm": -6.35,
+          "bounds_mm": [
+            4.76,
+            -13.02,
+            -6.35,
+            5.4,
+            -12.38,
+            1.14
+          ],
+          "volume_mm3": 3.067904
+        }
+      ]
+    }
+  },
+  "passed": true,
+  "check_count": 197,
+  "checks": [
+    {
+      "check": "NYS216: source solids and colours read in order",
+      "passed": true,
+      "solids": 5
+    },
+    {
+      "check": "NYS216/L0: valid single terminal solid",
+      "passed": true,
+      "volume": 2.0526759792283413
+    },
+    {
+      "check": "NYS216/L0: tip at specified depth",
+      "passed": true,
+      "z_min": -4.0,
+      "z_tip": -4.0
+    },
+    {
+      "check": "NYS216/R0: valid single terminal solid",
+      "passed": true,
+      "volume": 2.0526759792283413
+    },
+    {
+      "check": "NYS216/R0: tip at specified depth",
+      "passed": true,
+      "z_min": -4.0,
+      "z_tip": -4.0
+    },
+    {
+      "check": "NYS216/L1: valid single terminal solid",
+      "passed": true,
+      "volume": 2.0526759792283413
+    },
+    {
+      "check": "NYS216/L1: tip at specified depth",
+      "passed": true,
+      "z_min": -4.0,
+      "z_tip": -4.0
+    },
+    {
+      "check": "NYS216/R1: valid single terminal solid",
+      "passed": true,
+      "volume": 2.0526759792283413
+    },
+    {
+      "check": "NYS216/R1: tip at specified depth",
+      "passed": true,
+      "z_min": -4.0,
+      "z_tip": -4.0
+    },
+    {
+      "check": "NYS216/L2: valid single terminal solid",
+      "passed": true,
+      "volume": 2.052675979228338
+    },
+    {
+      "check": "NYS216/L2: tip at specified depth",
+      "passed": true,
+      "z_min": -4.0,
+      "z_tip": -4.0
+    },
+    {
+      "check": "NYS216/R2: valid single terminal solid",
+      "passed": true,
+      "volume": 2.052675979228338
+    },
+    {
+      "check": "NYS216/R2: tip at specified depth",
+      "passed": true,
+      "z_min": -4.0,
+      "z_tip": -4.0
+    },
+    {
+      "check": "NYS216: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 11
+    },
+    {
+      "check": "NYS216: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 0.0
+    },
+    {
+      "check": "NYS216: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "NYS216: single-product source written as a single product",
+      "passed": true
+    },
+    {
+      "check": "SDS50J: source solids and colours read in order",
+      "passed": true,
+      "solids": 8
+    },
+    {
+      "check": "SDS50J/1: valid single terminal solid",
+      "passed": true,
+      "volume": 2.729999999999997
+    },
+    {
+      "check": "SDS50J/1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "SDS50J/2: valid single terminal solid",
+      "passed": true,
+      "volume": 2.7299999999999995
+    },
+    {
+      "check": "SDS50J/2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "SDS50J/3: valid single terminal solid",
+      "passed": true,
+      "volume": 2.729999999999997
+    },
+    {
+      "check": "SDS50J/3: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "SDS50J/4: valid single terminal solid",
+      "passed": true,
+      "volume": 2.729999999999997
+    },
+    {
+      "check": "SDS50J/4: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "SDS50J/5: valid single terminal solid",
+      "passed": true,
+      "volume": 2.729999999999997
+    },
+    {
+      "check": "SDS50J/5: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "SDS50J/E1: valid single terminal solid",
+      "passed": true,
+      "volume": 0.7559999999999983
+    },
+    {
+      "check": "SDS50J/E1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "SDS50J/E2: valid single terminal solid",
+      "passed": true,
+      "volume": 0.7559999999999983
+    },
+    {
+      "check": "SDS50J/E2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "SDS50J: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 15
+    },
+    {
+      "check": "SDS50J: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 0.0
+    },
+    {
+      "check": "SDS50J: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "SDS50J: single-product source written as a single product",
+      "passed": true
+    },
+    {
+      "check": "MJ3536N: source solids and colours read in order",
+      "passed": true,
+      "solids": 5
+    },
+    {
+      "check": "MJ3536N/1: valid single terminal solid",
+      "passed": true,
+      "volume": 3.790106156809755
+    },
+    {
+      "check": "MJ3536N/1: tip at specified depth",
+      "passed": true,
+      "z_min": -4.5,
+      "z_tip": -4.5
+    },
+    {
+      "check": "MJ3536N/2: valid single terminal solid",
+      "passed": true,
+      "volume": 1.8950530784048796
+    },
+    {
+      "check": "MJ3536N/2: tip at specified depth",
+      "passed": true,
+      "z_min": -4.5,
+      "z_tip": -4.5
+    },
+    {
+      "check": "MJ3536N/3: valid single terminal solid",
+      "passed": true,
+      "volume": 2.9190353755551284
+    },
+    {
+      "check": "MJ3536N/3: tip at specified depth",
+      "passed": true,
+      "z_min": -4.5,
+      "z_tip": -4.5
+    },
+    {
+      "check": "MJ3536N: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 8
+    },
+    {
+      "check": "MJ3536N: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 1.4842873860227053e-14
+    },
+    {
+      "check": "MJ3536N: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "MJ3536N: single-product source written as a single product",
+      "passed": true
+    },
+    {
+      "check": "PJ202AH: source solids and colours read in order",
+      "passed": true,
+      "solids": 5
+    },
+    {
+      "check": "PJ202AH/1: valid single terminal solid",
+      "passed": true,
+      "volume": 4.2937166941153775
+    },
+    {
+      "check": "PJ202AH/1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "PJ202AH/2: valid single terminal solid",
+      "passed": true,
+      "volume": 4.293716694115405
+    },
+    {
+      "check": "PJ202AH/2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "PJ202AH/3: valid single terminal solid",
+      "passed": true,
+      "volume": 2.9248893571891093
+    },
+    {
+      "check": "PJ202AH/3: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "PJ202AH: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 8
+    },
+    {
+      "check": "PJ202AH: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 0.0
+    },
+    {
+      "check": "PJ202AH: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "PJ202AH: single-product source written as a single product",
+      "passed": true
+    },
+    {
+      "check": "USB: source solids and colours read in order",
+      "passed": true,
+      "solids": 2
+    },
+    {
+      "check": "USB/1: valid single terminal solid",
+      "passed": true,
+      "volume": 0.518399999999998
+    },
+    {
+      "check": "USB/1: tip at specified depth",
+      "passed": true,
+      "z_min": -2.84,
+      "z_tip": -2.84
+    },
+    {
+      "check": "USB/2: valid single terminal solid",
+      "passed": true,
+      "volume": 0.518399999999998
+    },
+    {
+      "check": "USB/2: tip at specified depth",
+      "passed": true,
+      "z_min": -2.84,
+      "z_tip": -2.84
+    },
+    {
+      "check": "USB/3: valid single terminal solid",
+      "passed": true,
+      "volume": 0.518399999999998
+    },
+    {
+      "check": "USB/3: tip at specified depth",
+      "passed": true,
+      "z_min": -2.84,
+      "z_tip": -2.84
+    },
+    {
+      "check": "USB/4: valid single terminal solid",
+      "passed": true,
+      "volume": 0.518399999999998
+    },
+    {
+      "check": "USB/4: tip at specified depth",
+      "passed": true,
+      "z_min": -2.84,
+      "z_tip": -2.84
+    },
+    {
+      "check": "USB/L1: valid single terminal solid",
+      "passed": true,
+      "volume": 1.8576000000000017
+    },
+    {
+      "check": "USB/L1: tip at specified depth",
+      "passed": true,
+      "z_min": -2.63,
+      "z_tip": -2.63
+    },
+    {
+      "check": "USB/L2: valid single terminal solid",
+      "passed": true,
+      "volume": 1.8576000000000017
+    },
+    {
+      "check": "USB/L2: tip at specified depth",
+      "passed": true,
+      "z_min": -2.63,
+      "z_tip": -2.63
+    },
+    {
+      "check": "USB: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 8
+    },
+    {
+      "check": "USB: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 0.0
+    },
+    {
+      "check": "USB: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "USB: single-product source written as a single product",
+      "passed": true
+    },
+    {
+      "check": "MC78M05: source solids and colours read in order",
+      "passed": true,
+      "solids": 2
+    },
+    {
+      "check": "MC78M05/1: valid single terminal solid",
+      "passed": true,
+      "volume": 6.3935299999998145
+    },
+    {
+      "check": "MC78M05/1: tip at specified depth",
+      "passed": true,
+      "z_min": -4.579203673205104,
+      "z_tip": -4.579203673205104
+    },
+    {
+      "check": "MC78M05/1: formed lead volume equals analytic path volume",
+      "passed": true,
+      "volume": 6.3935299999998145,
+      "expected": 6.39353
+    },
+    {
+      "check": "MC78M05/2: valid single terminal solid",
+      "passed": true,
+      "volume": 6.3935299999998145
+    },
+    {
+      "check": "MC78M05/2: tip at specified depth",
+      "passed": true,
+      "z_min": -4.579203673205104,
+      "z_tip": -4.579203673205104
+    },
+    {
+      "check": "MC78M05/2: formed lead volume equals analytic path volume",
+      "passed": true,
+      "volume": 6.3935299999998145,
+      "expected": 6.39353
+    },
+    {
+      "check": "MC78M05/3: valid single terminal solid",
+      "passed": true,
+      "volume": 6.393529999999812
+    },
+    {
+      "check": "MC78M05/3: tip at specified depth",
+      "passed": true,
+      "z_min": -4.579203673205104,
+      "z_tip": -4.579203673205104
+    },
+    {
+      "check": "MC78M05/3: formed lead volume equals analytic path volume",
+      "passed": true,
+      "volume": 6.393529999999812,
+      "expected": 6.39353
+    },
+    {
+      "check": "MC78M05: named source parts cover the solids in order",
+      "passed": true,
+      "parts": [
+        "PlasticBody",
+        "MetalTab"
+      ]
+    },
+    {
+      "check": "MC78M05: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 5
+    },
+    {
+      "check": "MC78M05: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 0.0
+    },
+    {
+      "check": "MC78M05: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "MC78M05: assembly root and named part products retained, terminal part added",
+      "passed": true,
+      "products": [
+        "MC78M05_TO220_BentBack_PhotoQualified_BodyOnly",
+        "PlasticBody",
+        "MetalTab",
+        "DrawingDerivedTerminals"
+      ]
+    },
+    {
+      "check": "LPTC: source solids and colours read in order",
+      "passed": true,
+      "solids": 6
+    },
+    {
+      "check": "LPTC/1: valid single terminal solid",
+      "passed": true,
+      "volume": 1.183614126269938
+    },
+    {
+      "check": "LPTC/1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.0999999999999996,
+      "z_tip": -3.1
+    },
+    {
+      "check": "LPTC/1: formed lead volume equals analytic path volume",
+      "passed": true,
+      "volume": 1.183614126269938,
+      "expected": 1.1836141262699378
+    },
+    {
+      "check": "LPTC/2: valid single terminal solid",
+      "passed": true,
+      "volume": 1.1836141262699378
+    },
+    {
+      "check": "LPTC/2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.0999999999999996,
+      "z_tip": -3.1
+    },
+    {
+      "check": "LPTC/2: formed lead volume equals analytic path volume",
+      "passed": true,
+      "volume": 1.1836141262699378,
+      "expected": 1.1836141262699378
+    },
+    {
+      "check": "LPTC: named source parts cover the solids in order",
+      "passed": true,
+      "parts": [
+        "Body",
+        "Band1",
+        "Band2",
+        "Band3",
+        "Band4",
+        "Band5"
+      ]
+    },
+    {
+      "check": "LPTC: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 8
+    },
+    {
+      "check": "LPTC: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 0.0
+    },
+    {
+      "check": "LPTC: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "LPTC: assembly root and named part products retained, terminal part added",
+      "passed": true,
+      "products": [
+        "Misc_Microohm_LPTC12T21001_ApproxBody",
+        "Body",
+        "Band1",
+        "Band2",
+        "Band3",
+        "Band4",
+        "Band5",
+        "DrawingDerivedTerminals"
+      ]
+    },
+    {
+      "check": "CTS290: source solids and colours read in order",
+      "passed": true,
+      "solids": 6
+    },
+    {
+      "check": "CTS290/A: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9360000000000018
+    },
+    {
+      "check": "CTS290/A: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "CTS290/C: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9360000000000022
+    },
+    {
+      "check": "CTS290/C: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "CTS290/B: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9360000000000018
+    },
+    {
+      "check": "CTS290/B: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "CTS290/S1: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9360000000000018
+    },
+    {
+      "check": "CTS290/S1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "CTS290/S2: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9360000000000018
+    },
+    {
+      "check": "CTS290/S2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "CTS290/T1: valid single terminal solid",
+      "passed": true,
+      "volume": 5.147999999999997
+    },
+    {
+      "check": "CTS290/T1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "CTS290/T2: valid single terminal solid",
+      "passed": true,
+      "volume": 5.147999999999997
+    },
+    {
+      "check": "CTS290/T2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "CTS290: named source parts cover the solids in order",
+      "passed": true,
+      "parts": [
+        "SharedFamilyStator",
+        "SharedFamilyRearMolding",
+        "SharedFamilyMetalCan",
+        "SharedFamilyFrontHousing",
+        "ExactA_UnthreadedBushing",
+        "ExactA5_FlattedShaft"
+      ]
+    },
+    {
+      "check": "CTS290: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 13
+    },
+    {
+      "check": "CTS290: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 1.504356769802432e-14
+    },
+    {
+      "check": "CTS290: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "CTS290: assembly root and named part products retained, terminal part added",
+      "passed": true,
+      "products": [
+        "CTS_290VAA5F201B2_DetailedCandidate",
+        "SharedFamilyStator",
+        "SharedFamilyRearMolding",
+        "SharedFamilyMetalCan",
+        "SharedFamilyFrontHousing",
+        "ExactA_UnthreadedBushing",
+        "ExactA5_FlattedShaft",
+        "DrawingDerivedTerminals"
+      ]
+    },
+    {
+      "check": "AlphaRV112: source solids and colours read in order",
+      "passed": true,
+      "solids": 12
+    },
+    {
+      "check": "AlphaRV112/2A: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9360000000000029
+    },
+    {
+      "check": "AlphaRV112/2A: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "AlphaRV112/1A: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9360000000000019
+    },
+    {
+      "check": "AlphaRV112/1A: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "AlphaRV112/1B: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9360000000000022
+    },
+    {
+      "check": "AlphaRV112/1B: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "AlphaRV112/2B: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9360000000000022
+    },
+    {
+      "check": "AlphaRV112/2B: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "AlphaRV112/3B: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9360000000000019
+    },
+    {
+      "check": "AlphaRV112/3B: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "AlphaRV112/3A: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9360000000000029
+    },
+    {
+      "check": "AlphaRV112/3A: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "AlphaRV112/M1: valid single terminal solid",
+      "passed": true,
+      "volume": 4.103999999999997
+    },
+    {
+      "check": "AlphaRV112/M1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.2,
+      "z_tip": -3.2
+    },
+    {
+      "check": "AlphaRV112/M2: valid single terminal solid",
+      "passed": true,
+      "volume": 4.103999999999997
+    },
+    {
+      "check": "AlphaRV112/M2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.2,
+      "z_tip": -3.2
+    },
+    {
+      "check": "AlphaRV112: named source parts cover the solids in order",
+      "passed": true,
+      "parts": [
+        "RearWaferAndLowerCarrier",
+        "SecondGangWafer",
+        "MoldedDualGangCore",
+        "FoldedMetalCanAndCrimps",
+        "FrontPlate",
+        "FrontRivetHeads",
+        "UnthreadedSleeve",
+        "OpaqueFlattedShaft"
+      ]
+    },
+    {
+      "check": "AlphaRV112: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 20
+    },
+    {
+      "check": "AlphaRV112: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 0.0
+    },
+    {
+      "check": "AlphaRV112: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "AlphaRV112: assembly root and named part products retained, terminal part added",
+      "passed": true,
+      "products": [
+        "Alpha_RV112BCF40_25_DetailedCandidate",
+        "RearWaferAndLowerCarrier",
+        "SecondGangWafer",
+        "MoldedDualGangCore",
+        "FoldedMetalCanAndCrimps",
+        "FrontPlate",
+        "FrontRivetHeads",
+        "UnthreadedSleeve",
+        "OpaqueFlattedShaft",
+        "DrawingDerivedTerminals"
+      ]
+    },
+    {
+      "check": "PanasonicEVU: source solids and colours read in order",
+      "passed": true,
+      "solids": 9
+    },
+    {
+      "check": "PanasonicEVU/1: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9840000000000022
+    },
+    {
+      "check": "PanasonicEVU/1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.7,
+      "z_tip": -3.7
+    },
+    {
+      "check": "PanasonicEVU/2: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9840000000000025
+    },
+    {
+      "check": "PanasonicEVU/2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.7,
+      "z_tip": -3.7
+    },
+    {
+      "check": "PanasonicEVU/3: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9840000000000022
+    },
+    {
+      "check": "PanasonicEVU/3: tip at specified depth",
+      "passed": true,
+      "z_min": -3.7,
+      "z_tip": -3.7
+    },
+    {
+      "check": "PanasonicEVU/M1: valid single terminal solid",
+      "passed": true,
+      "volume": 4.919999999999998
+    },
+    {
+      "check": "PanasonicEVU/M1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.7,
+      "z_tip": -3.7
+    },
+    {
+      "check": "PanasonicEVU/M2: valid single terminal solid",
+      "passed": true,
+      "volume": 4.919999999999998
+    },
+    {
+      "check": "PanasonicEVU/M2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.7,
+      "z_tip": -3.7
+    },
+    {
+      "check": "PanasonicEVU: named source parts cover the solids in order",
+      "passed": true,
+      "parts": [
+        "BlackMoldedCase",
+        "RearWaferAndTerminalCarrier",
+        "StampedFrontFrameAndCrimps",
+        "FrontRivetHeads",
+        "UnthreadedSleeve",
+        "FL3_FlattedInsulatedShaft"
+      ]
+    },
+    {
+      "check": "PanasonicEVU: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 14
+    },
+    {
+      "check": "PanasonicEVU: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 0.0
+    },
+    {
+      "check": "PanasonicEVU: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "PanasonicEVU: assembly root and named part products retained, terminal part added",
+      "passed": true,
+      "products": [
+        "Panasonic_EVUF2LFL3_DetailedCandidate",
+        "BlackMoldedCase",
+        "RearWaferAndTerminalCarrier",
+        "StampedFrontFrameAndCrimps",
+        "FrontRivetHeads",
+        "UnthreadedSleeve",
+        "FL3_FlattedInsulatedShaft",
+        "DrawingDerivedTerminals"
+      ]
+    },
+    {
+      "check": "NKKB12AB: source solids and colours read in order",
+      "passed": true,
+      "solids": 4
+    },
+    {
+      "check": "NKKB12AB/1: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9896016858807847
+    },
+    {
+      "check": "NKKB12AB/1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.1,
+      "z_tip": -3.1
+    },
+    {
+      "check": "NKKB12AB/2: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9896016858807848
+    },
+    {
+      "check": "NKKB12AB/2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.1,
+      "z_tip": -3.1
+    },
+    {
+      "check": "NKKB12AB/3: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9896016858807848
+    },
+    {
+      "check": "NKKB12AB/3: tip at specified depth",
+      "passed": true,
+      "z_min": -3.1,
+      "z_tip": -3.1
+    },
+    {
+      "check": "NKKB12AB/M1: valid single terminal solid",
+      "passed": true,
+      "volume": 0.8400000000000007
+    },
+    {
+      "check": "NKKB12AB/M1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.1,
+      "z_tip": -3.1
+    },
+    {
+      "check": "NKKB12AB/M2: valid single terminal solid",
+      "passed": true,
+      "volume": 0.8400000000000007
+    },
+    {
+      "check": "NKKB12AB/M2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.1,
+      "z_tip": -3.1
+    },
+    {
+      "check": "NKKB12AB/M3: valid single terminal solid",
+      "passed": true,
+      "volume": 0.8400000000000007
+    },
+    {
+      "check": "NKKB12AB/M3: tip at specified depth",
+      "passed": true,
+      "z_min": -3.1,
+      "z_tip": -3.1
+    },
+    {
+      "check": "NKKB12AB/M4: valid single terminal solid",
+      "passed": true,
+      "volume": 0.8400000000000007
+    },
+    {
+      "check": "NKKB12AB/M4: tip at specified depth",
+      "passed": true,
+      "z_min": -3.1,
+      "z_tip": -3.1
+    },
+    {
+      "check": "NKKB12AB: named source parts cover the solids in order",
+      "passed": true,
+      "parts": [
+        "PolymerCase",
+        "FoldedBracketCage",
+        "UnthreadedBushing",
+        "RoundedBatLeverNeutral"
+      ]
+    },
+    {
+      "check": "NKKB12AB: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 11
+    },
+    {
+      "check": "NKKB12AB: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 0.0
+    },
+    {
+      "check": "NKKB12AB: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "NKKB12AB: assembly root and named part products retained, terminal part added",
+      "passed": true,
+      "products": [
+        "NKK_B12AB_DetailedCandidate",
+        "PolymerCase",
+        "FoldedBracketCage",
+        "UnthreadedBushing",
+        "RoundedBatLeverNeutral",
+        "DrawingDerivedTerminals"
+      ]
+    },
+    {
+      "check": "Grayhill25L: source solids and colours read in order",
+      "passed": true,
+      "solids": 10
+    },
+    {
+      "check": "Grayhill25L/8: valid single terminal solid",
+      "passed": true,
+      "volume": 3.067904000000005
+    },
+    {
+      "check": "Grayhill25L/8: tip at specified depth",
+      "passed": true,
+      "z_min": -6.35,
+      "z_tip": -6.35
+    },
+    {
+      "check": "Grayhill25L/4: valid single terminal solid",
+      "passed": true,
+      "volume": 3.0679040000000004
+    },
+    {
+      "check": "Grayhill25L/4: tip at specified depth",
+      "passed": true,
+      "z_min": -6.35,
+      "z_tip": -6.35
+    },
+    {
+      "check": "Grayhill25L/2: valid single terminal solid",
+      "passed": true,
+      "volume": 3.0679040000000026
+    },
+    {
+      "check": "Grayhill25L/2: tip at specified depth",
+      "passed": true,
+      "z_min": -6.35,
+      "z_tip": -6.35
+    },
+    {
+      "check": "Grayhill25L/1: valid single terminal solid",
+      "passed": true,
+      "volume": 3.0679040000000004
+    },
+    {
+      "check": "Grayhill25L/1: tip at specified depth",
+      "passed": true,
+      "z_min": -6.35,
+      "z_tip": -6.35
+    },
+    {
+      "check": "Grayhill25L/C: valid single terminal solid",
+      "passed": true,
+      "volume": 3.067904000000005
+    },
+    {
+      "check": "Grayhill25L/C: tip at specified depth",
+      "passed": true,
+      "z_min": -6.35,
+      "z_tip": -6.35
+    },
+    {
+      "check": "Grayhill25L: named source parts cover the solids in order",
+      "passed": true,
+      "parts": [
+        "FR4OutputBoard",
+        "BlackMoldedHousing",
+        "ThreadedDoubleDBushing",
+        "LightPolymerFlattedShaft",
+        "IntegralNonTurnTab",
+        "IllustratedTonguePlating"
+      ]
+    },
+    {
+      "check": "Grayhill25L: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 15
+    },
+    {
+      "check": "Grayhill25L: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 0.0
+    },
+    {
+      "check": "Grayhill25L: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "Grayhill25L: assembly root and named part products retained, terminal part added",
+      "passed": true,
+      "products": [
+        "Grayhill_25LB22H_DetailedCandidate",
+        "FR4OutputBoard",
+        "BlackMoldedHousing",
+        "ThreadedDoubleDBushing",
+        "LightPolymerFlattedShaft",
+        "IntegralNonTurnTab",
+        "IllustratedTonguePlating",
+        "DrawingDerivedTerminals"
+      ]
+    },
+    {
+      "check": "Source STEP files and both PCBs unchanged",
+      "passed": true
+    }
+  ],
+  "physical_fit_qualified": false,
+  "scope": "Terminals added to body illustrations; positions per drawing dimensions, not moved to pads."
+}

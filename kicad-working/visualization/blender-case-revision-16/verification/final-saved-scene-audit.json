@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "check_count": 10,
+  "failures": [],
+  "checks": [
+    {
+      "check": "Change record pins the saved scene and its revision-15 baseline",
+      "passed": true
+    },
+    {
+      "check": "All revision-15 objects retained; only the 14 declared terminal objects added; 491 roots",
+      "passed": true,
+      "before_count": 1661,
+      "after_count": 1675,
+      "native_reference_count": 491
+    },
+    {
+      "check": "No undeclared differences from revision 15",
+      "passed": true,
+      "unexpected_count": 0,
+      "first_unexpected": [],
+      "ignored_stale_hidden_object_matrix_entries": 0
+    },
+    {
+      "check": "Every declared part object received its new native mesh and nothing else changed on it",
+      "passed": true,
+      "replaced": 93
+    },
+    {
+      "check": "Collection membership changes are exactly the added terminal objects",
+      "passed": true,
+      "collections": [
+        "DISPLAY / I/O populated PCB \u2014 revision 10",
+        "SOURCE / ioboard / immutable native KiCad GLB \u2014 revision 10",
+        "SOURCE / mainboard / immutable native KiCad GLB \u2014 revision 10"
+      ]
+    },
+    {
+      "check": "Only the terminal material is added; every previous material identical",
+      "passed": true
+    },
+    {
+      "check": "Opening guide and revision properties are the only scene-level additions",
+      "passed": true
+    },
+    {
+      "check": "Terminal objects attach, link and display exactly like their sibling parts in all four views",
+      "passed": true,
+      "failures": []
+    },
+    {
+      "check": "Rear apertures pass on revision 15 and revision 16",
+      "passed": true,
+      "baseline": [
+        44,
+        974
+      ],
+      "final": [
+        44,
+        974
+      ]
+    },
+    {
+      "check": "Read-only audit left both saved scenes unchanged",
+      "passed": true
+    }
+  ],
+  "stable_scene_sha256": "6532b92a3d3c5ee85b46aa8af6d274858f607746c69a92f3d394297a03534776",
+  "baseline_sha256": "931b2f7d935551c22a63b4c1261edaf8d9883112a3b4bb0f229971df18fdc149",
+  "native_reference_count": 491,
+  "added_objects": [
+    "IOBOARD/IC20/mesh.002",
+    "MAINBOARD/R100A0/mesh.006",
+    "MAINBOARD/R100B0/mesh.006",
+    "MAINBOARD/S1/mesh.004",
+    "MAINBOARD/S2/mesh.006",
+    "MAINBOARD/S3/mesh.006",
+    "MAINBOARD/S4/mesh.006",
+    "MAINBOARD/VR2/mesh.006",
+    "MAINBOARD/VR3/mesh.006",
+    "MAINBOARD/VR4/mesh.008",
+    "MAINBOARD/VR5/mesh.006",
+    "MAINBOARD/VR6/mesh.008",
+    "MAINBOARD/VR7/mesh.006",
+    "MAINBOARD/VR8/mesh.006"
+  ],
+  "replaced_mesh_objects": 93,
+  "frames": 4,
+  "snapshot_sha256": {
+    "before-scene.json.gz": "3e9d6e1af5505b668cfb7532c2a44b4c0bf5eed7a4965ebdfbdc0f10f202abeb",
+    "after-scene.json.gz": "86cc593eb9d45659f1cdff19d0b0a12040620830c03f4d03cb3952f2ee808ff2"
+  },
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "method": "Fresh saved-file snapshots of revisions 15 and 16 compare all stored data and evaluated instance poses in four views; current 974 rear rays are replayed on both."
+}

@@ -1,0 +1,449 @@
+{
+  "passed": true,
+  "check_count": 106,
+  "repository": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware",
+  "scene": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/kicad-working/visualization/blender-case-revision-16/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "6532b92a3d3c5ee85b46aa8af6d274858f607746c69a92f3d394297a03534776",
+  "blender_version": "5.2.2 LTS",
+  "fitted_native_reference_count": 491,
+  "native_LED_count": 40,
+  "button_cap_count": 23,
+  "unpacked_external_dependency_count": 0,
+  "failures": [],
+  "checks": [
+    {
+      "check": "Loaded scene is the repository's declared Blender scene",
+      "passed": true
+    },
+    {
+      "check": "Scene bytes match the repository's declared revision",
+      "passed": true
+    },
+    {
+      "check": "Exactly 491 unique fitted native reference roots",
+      "passed": true
+    },
+    {
+      "check": "Native reference split is 409 mainboard and 82 ioboard",
+      "passed": true,
+      "counts": {
+        "ioboard": 82,
+        "mainboard": 409
+      }
+    },
+    {
+      "check": "All fitted reference roots have embedded mesh geometry",
+      "passed": true
+    },
+    {
+      "check": "Both embedded native board collections retain all fitted roots",
+      "passed": true
+    },
+    {
+      "check": "No old standalone LED lens proxies remain",
+      "passed": true,
+      "objects": []
+    },
+    {
+      "check": "Exactly LED1 through LED40 are embedded PCB assemblies",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED1",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED10",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED11",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED12",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED13",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED14",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED15",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED16",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED17",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED18",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED19",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED2",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED20",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED21",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED22",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED23",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED24",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED25",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED26",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED27",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED28",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED29",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED3",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED30",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED31",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED32",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED33",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED34",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED35",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED36",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED37",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED38",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED39",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED4",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED40",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED5",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED6",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED7",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED8",
+      "passed": true
+    },
+    {
+      "check": "Complete embedded head and full lead envelopes: LED9",
+      "passed": true
+    },
+    {
+      "check": "Exactly 23 named button caps are embedded",
+      "passed": true
+    },
+    {
+      "check": "All 23 caps are directly parented to the PCB instance",
+      "passed": true
+    },
+    {
+      "check": "Caps use one ordinary, non-instanced scene collection",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S10 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S11 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S12 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S13 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S14 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S15 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S16 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S17 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S18 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S19 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S20 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S21 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S22 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S23 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S24 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S25 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S26 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S27 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S5 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S6 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S7 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S8 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 1: S9 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S10 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S11 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S12 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S13 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S14 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S15 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S16 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S17 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S18 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S19 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S20 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S21 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S22 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S23 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S24 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S25 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S26 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S27 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S5 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S6 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S7 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S8 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "One visible cap follows PCB at frame 80: S9 / switch cap proxy",
+      "passed": true
+    },
+    {
+      "check": "Caps retain hidden inspection behavior at frame 120",
+      "passed": true
+    },
+    {
+      "check": "Caps retain hidden inspection behavior at frame 160",
+      "passed": true
+    },
+    {
+      "check": "Exploded frame actually changes the board pose",
+      "passed": true
+    },
+    {
+      "check": "Visible cap attachment error stays below tolerance",
+      "passed": true,
+      "maximum_matrix_error": 1.4901161193847656e-08
+    },
+    {
+      "check": "Scene has no unpacked external file dependencies",
+      "passed": true,
+      "paths": []
+    },
+    {
+      "check": "Scene has no linked external Blender libraries",
+      "passed": true
+    },
+    {
+      "check": "All fonts are built in or packed into the scene",
+      "passed": true
+    },
+    {
+      "check": "All file-backed images are packed with their pixel data",
+      "passed": true
+    },
+    {
+      "check": "Read-only inspection left the scene bytes unchanged",
+      "passed": true
+    }
+  ],
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "scope": "Native scene portability, embedded geometry and cap animation; no rendering, ERC, DRC or physical-fit certification."
+}

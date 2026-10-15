@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "scene_sha256": "6532b92a3d3c5ee85b46aa8af6d274858f607746c69a92f3d394297a03534776",
+  "view_count": 6,
+  "views": [
+    "assembled",
+    "rear",
+    "exploded",
+    "control-side",
+    "io-terminals-detail",
+    "terminal-models"
+  ],
+  "method": "Human-visible image inspection after native rendering (downscaled contact sheet, full-resolution crops) and a pixel comparison of the four standard views with revision 15. Hashes pin the reviewed images.",
+  "image_sha256": {
+    "assembled.png": "c8e34012cdbed2034012eeba10b3fcab187f4890933f36bb7a391cfffdb1e837",
+    "rear.png": "5fcbded941a6f1ec1ee30c651507a1d7286720ccd2638a9e7d865239a50233d3",
+    "exploded.png": "1e4a9dfc60968981e9f9c849d56fb20b93e9d7617908ca99738dfb8712b2a6f1",
+    "control-side.png": "853b0c05ee538e3e7239cdc15a551dc86b1518834f87ad87453c8c9136e74589",
+    "io-terminals-detail.png": "e9cfa9c56501f097753d4a38f4edbff09c9334bd9a2010dc38df0b4539733c84",
+    "terminal-models.png": "80fa399e2954d0454acea2045713b30159a3731d43928957e2aeaedb1767efdf"
+  },
+  "comparison_with_revision_15": {
+    "assembled": "pixel-identical within render noise (max channel difference 4 of 255)",
+    "rear": "pixel-identical within render noise (max channel difference 5 of 255)",
+    "exploded": "859 of 2,520,000 pixels differ by more than 24, in soft-shadow regions",
+    "control_side": "3,212 of 2,520,000 pixels differ by more than 24; the densest region is soft-shadow speckle around LED38/LED39, not geometry"
+  },
+  "observations": [
+    "The assembled case, front controls, LEDs, rear panel openings and legends are unchanged.",
+    "The terminal sheet shows each of the 12 models from below with its real KiCad drill rings on both board faces; leads pass through green rings, and the recorded interferences are visible as red rings (NYS216 rows offset 0.35 mm, PJ-202AH 3.0 mm blade in a 2.8 mm hole, USB shell forks, Alpha and Panasonic bracket tabs, SDS-50J pins).",
+    "Grayhill MT bracket holes show grey empty rings, as designed.",
+    "The I/O underside detail shows the rear connector leads protruding through the solder side.",
+    "Terminals are not resolvable in the four standard views at these scales."
+  ],
+  "limitations": [
+    "Image inspection supplements the geometric audits; it does not measure clearance.",
+    "Images do not qualify physical assembly fit."
+  ],
+  "physical_fit_qualified": false
+}
