@@ -1,0 +1,2040 @@
+{
+  "schema": 1,
+  "revision": 15,
+  "generator": "build_terminals.py",
+  "freecad": [
+    "1",
+    "0",
+    "1"
+  ],
+  "models": {
+    "SDS50J": {
+      "board": "ioboard",
+      "source_step": "ioboard/3dmodels/Revision12/din-contact-quality/SDS50J_CorrectedContactPattern.step",
+      "source_sha256": "9a8bd2dd10aa384f377796fe8aa7234217d0bfdb9d8d8c7e16dc7f6ee3657c01",
+      "output": "ioboard/3dmodels/Revision15/terminals/SDS50J_CorrectedContactPattern_Terminals.step",
+      "output_sha256": "3e1f792c5992818752641dc00d56083e7f31d596bc5d84f1765675dafd8fcaf5",
+      "output_bytes": 173216,
+      "original_solids": 8,
+      "terminal_solids": 7,
+      "drawing": {
+        "file": "kicad-working/validation/models-review-14/terminal-quality/sources/sds50j-cui-rev-d-2006.pdf",
+        "title": "CUI SDS-50J rev D (2006-08-22); positions also on Same Sky SDS-J page 3 (2024-09-12)",
+        "url": "https://datasheet.octopart.com/SDS-50J-CUI-datasheet-86818.pdf"
+      },
+      "provenance": {
+        "positions": "Dimensioned PCB layout and side view: E at 2.5, pins 1-3 at 12.5, pins 4-5 at 15.0 from the front; x 2.5/5.0/7.5",
+        "section": "Period drawing (2006): signal pins dimensioned 1.0 deep, drawn 0.5 wide; earth legs dimensioned 1.0 wide, drawn 0.32 thick, pointed (revision 13 used 0.70 x 1.00 and 1.00 x 0.21 drawn on the 2024 sheet)",
+        "length": "Dimensioned 3.5 below the body (both drawings)",
+        "omitted": "Locating pegs are not added: the 2006 part shows screw bosses, not pegs, and the Eagle package has no holes for them"
+      },
+      "terminals": [
+        {
+          "name": "1",
+          "pad": "1",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            7.25,
+            12.0,
+            -3.5,
+            7.75,
+            13.0,
+            0.4
+          ],
+          "volume_mm3": 1.95,
+          "formed_leg": null
+        },
+        {
+          "name": "2",
+          "pad": "2",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -0.25,
+            12.0,
+            -3.5,
+            0.25,
+            13.0,
+            0.4
+          ],
+          "volume_mm3": 1.95,
+          "formed_leg": null
+        },
+        {
+          "name": "3",
+          "pad": "3",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -7.75,
+            12.0,
+            -3.5,
+            -7.25,
+            13.0,
+            0.4
+          ],
+          "volume_mm3": 1.95,
+          "formed_leg": null
+        },
+        {
+          "name": "4",
+          "pad": "4",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            4.75,
+            13.2,
+            -3.5,
+            5.25,
+            15.5,
+            1.4
+          ],
+          "volume_mm3": 3.1,
+          "formed_leg": {
+            "axis": "y",
+            "direction": -1,
+            "gap_before_mm": 1.0,
+            "leg_height_mm": [
+              0.4,
+              1.4
+            ],
+            "leg_end_mm": 13.2,
+            "leg_length_mm": 1.8
+          }
+        },
+        {
+          "name": "5",
+          "pad": "5",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -5.25,
+            13.2,
+            -3.5,
+            -4.75,
+            15.5,
+            1.4
+          ],
+          "volume_mm3": 3.1,
+          "formed_leg": {
+            "axis": "y",
+            "direction": -1,
+            "gap_before_mm": 1.0,
+            "leg_height_mm": [
+              0.4,
+              1.4
+            ],
+            "leg_end_mm": 13.2,
+            "leg_length_mm": 1.8
+          }
+        },
+        {
+          "name": "E1",
+          "pad": "PE",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -3.0,
+            2.34,
+            -3.5,
+            -2.0,
+            2.66,
+            0.4
+          ],
+          "volume_mm3": 1.152,
+          "formed_leg": null
+        },
+        {
+          "name": "E2",
+          "pad": "PE@",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            2.0,
+            2.34,
+            -3.5,
+            3.0,
+            2.66,
+            0.4
+          ],
+          "volume_mm3": 1.152,
+          "formed_leg": null
+        }
+      ]
+    },
+    "MJ3536N": {
+      "board": "ioboard",
+      "source_step": "ioboard/3dmodels/Revision10/rear-connector-quality/MJ3536N_DrawingDerived_DetailedBody.step",
+      "source_sha256": "b967cc5356a223b0156ba4baeae3fbd83552ac661ce9e24415aa540bb1238c6c",
+      "output": "ioboard/3dmodels/Revision15/terminals/MJ3536N_DrawingDerived_DetailedBody_Terminals.step",
+      "output_sha256": "65c6ed98a589bbd345ea01bf0d00024d6ff3e228612025acf11b58950bf188fd",
+      "output_bytes": 103980,
+      "original_solids": 5,
+      "terminal_solids": 3,
+      "drawing": {
+        "file": "kicad-working/validation/models-review-10/rear-connector-quality/sources/mj3536n-2020.pdf",
+        "title": "CUI MJ-3536N rev 1.02 (2020; mechanics unchanged since 2005)"
+      },
+      "provenance": {
+        "positions": "Dimensioned: terminal 1 at 2.3, terminal 3 at 13.5 (5.2 off axis), terminal 2 at 16.0 from the shoulder",
+        "section": "Dimensioned widths 2.2 (terminal 1) and 2.0 (terminal 3); drawn thicknesses 0.40 / 0.20 / 0.34; terminal 2 width assumed equal to terminal 1 (hidden in the front view)",
+        "length": "Dimensioned 4.5 below the body; dia 1.0 eyelets (3 places) in the rounded ends"
+      },
+      "terminals": [
+        {
+          "name": "1",
+          "pad": "SLEEVE",
+          "kind": "blade",
+          "z_tip_mm": -4.5,
+          "bounds_mm": [
+            -1.1,
+            2.1,
+            -4.5,
+            1.1,
+            2.5,
+            0.4
+          ],
+          "volume_mm3": 3.790106,
+          "formed_leg": null
+        },
+        {
+          "name": "2",
+          "pad": "TIP",
+          "kind": "blade",
+          "z_tip_mm": -4.5,
+          "bounds_mm": [
+            -1.1,
+            15.5,
+            -4.5,
+            1.1,
+            16.1,
+            0.6
+          ],
+          "volume_mm3": 2.159053,
+          "formed_leg": {
+            "axis": "y",
+            "direction": -1,
+            "gap_before_mm": 0.1,
+            "leg_height_mm": [
+              0.4,
+              0.6
+            ],
+            "leg_end_mm": 15.5,
+            "leg_length_mm": 0.5
+          }
+        },
+        {
+          "name": "3",
+          "pad": "TIPSHUNT",
+          "kind": "blade",
+          "z_tip_mm": -4.5,
+          "bounds_mm": [
+            4.7,
+            12.5,
+            -4.5,
+            5.37,
+            14.5,
+            0.74
+          ],
+          "volume_mm3": 3.374635,
+          "formed_leg": {
+            "axis": "x",
+            "direction": -1,
+            "gap_before_mm": 0.03,
+            "leg_height_mm": [
+              0.4,
+              0.74
+            ],
+            "leg_end_mm": 4.7,
+            "leg_length_mm": 0.5
+          }
+        }
+      ]
+    },
+    "CTS290": {
+      "board": "mainboard",
+      "source_step": "mainboard/3dmodels/Revision8/rotary-quality/CTS_290VAA5F201B2_DetailedCandidate.step",
+      "source_sha256": "7466fde9d58888b5b1986111f5a9556ca272d17d02c4d40b80775104eb1f0272",
+      "output": "mainboard/3dmodels/Revision15/terminals/CTS_290VAA5F201B2_DetailedCandidate_Terminals.step",
+      "output_sha256": "11b9b8da6c9488f211698a71cc50d39ac7f80431145f6b5c3ff3d2dbae5a261c",
+      "output_bytes": 922844,
+      "original_solids": 6,
+      "terminal_solids": 7,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/cts290-datasheet.pdf",
+        "title": "CTS Series 290 MC-290V (2025-10-21 rev A)"
+      },
+      "provenance": {
+        "positions": "Dimensioned: A/C/B at 2.5 pitch 7.5 from centre, switch pins 5.00 apart 7.0 from centre, mounting tabs 11.10 apart",
+        "section": "Dimensioned 0.8 +-0.1 pin width; 0.3 thickness and 0.6 x 2.2 tab section assumed from the 1.8 x 2.6 slots",
+        "length": "Dimensioned 3.5 below the mounting surface"
+      },
+      "terminals": [
+        {
+          "name": "A",
+          "pad": "A",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -2.9,
+            -7.65,
+            -3.5,
+            -2.1,
+            -5.2,
+            0.88
+          ],
+          "volume_mm3": 1.5672,
+          "formed_leg": {
+            "axis": "y",
+            "direction": 1,
+            "gap_before_mm": 1.8587,
+            "leg_height_mm": [
+              0.58,
+              0.88
+            ],
+            "leg_end_mm": -5.2,
+            "leg_length_mm": 2.3
+          }
+        },
+        {
+          "name": "C",
+          "pad": "C",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -0.4,
+            -7.65,
+            -3.5,
+            0.4,
+            -5.2,
+            0.88
+          ],
+          "volume_mm3": 1.5672,
+          "formed_leg": {
+            "axis": "y",
+            "direction": 1,
+            "gap_before_mm": 1.8587,
+            "leg_height_mm": [
+              0.58,
+              0.88
+            ],
+            "leg_end_mm": -5.2,
+            "leg_length_mm": 2.3
+          }
+        },
+        {
+          "name": "B",
+          "pad": "B",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            2.1,
+            -7.65,
+            -3.5,
+            2.9,
+            -5.2,
+            0.88
+          ],
+          "volume_mm3": 1.5672,
+          "formed_leg": {
+            "axis": "y",
+            "direction": 1,
+            "gap_before_mm": 1.8587,
+            "leg_height_mm": [
+              0.58,
+              0.88
+            ],
+            "leg_end_mm": -5.2,
+            "leg_length_mm": 2.3
+          }
+        },
+        {
+          "name": "S1",
+          "pad": "SW1",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -2.9,
+            6.02,
+            -3.5,
+            -2.1,
+            7.15,
+            0.88
+          ],
+          "volume_mm3": 1.2504,
+          "formed_leg": {
+            "axis": "y",
+            "direction": -1,
+            "gap_before_mm": 0.5597,
+            "leg_height_mm": [
+              0.58,
+              0.88
+            ],
+            "leg_end_mm": 6.02,
+            "leg_length_mm": 0.98
+          }
+        },
+        {
+          "name": "S2",
+          "pad": "SW2",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            2.1,
+            6.02,
+            -3.5,
+            2.9,
+            7.15,
+            0.88
+          ],
+          "volume_mm3": 1.2504,
+          "formed_leg": {
+            "axis": "y",
+            "direction": -1,
+            "gap_before_mm": 0.5597,
+            "leg_height_mm": [
+              0.58,
+              0.88
+            ],
+            "leg_end_mm": 6.02,
+            "leg_length_mm": 0.98
+          }
+        },
+        {
+          "name": "T1",
+          "pad": "P$2",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -5.85,
+            -1.1,
+            -3.5,
+            -4.58,
+            1.1,
+            1.0
+          ],
+          "volume_mm3": 6.8244,
+          "formed_leg": {
+            "axis": "x",
+            "direction": 1,
+            "gap_before_mm": 0.37,
+            "leg_height_mm": [
+              0.4,
+              1.0
+            ],
+            "leg_end_mm": -4.58,
+            "leg_length_mm": 0.97
+          }
+        },
+        {
+          "name": "T2",
+          "pad": "P$1",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            4.58,
+            -1.1,
+            -3.5,
+            5.85,
+            1.1,
+            1.0
+          ],
+          "volume_mm3": 6.8244,
+          "formed_leg": {
+            "axis": "x",
+            "direction": -1,
+            "gap_before_mm": 0.37,
+            "leg_height_mm": [
+              0.4,
+              1.0
+            ],
+            "leg_end_mm": 4.58,
+            "leg_length_mm": 0.97
+          }
+        }
+      ]
+    },
+    "AlphaRV112": {
+      "board": "mainboard",
+      "source_step": "mainboard/3dmodels/Revision9/potentiometer-quality/Alpha_RV112BCF40_25_DetailedCandidate.step",
+      "source_sha256": "15f4f15e36793c0c3e746684357c8dd8269d002d1df7509125e7b2691a253443",
+      "output": "mainboard/3dmodels/Revision15/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step",
+      "output_sha256": "328758a08d94b9608785d29157f3a75227e4dc5eb2d33d9bebaa2c067f8d5a1e",
+      "output_bytes": 253619,
+      "original_solids": 12,
+      "terminal_solids": 8,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/potentiometer-quality/sources/alpha-insulated-rv112b-primary.pdf",
+        "title": "Alpha RV112BCF-40 11 mm dual snap-in"
+      },
+      "provenance": {
+        "positions": "Dimensioned: six pins at 2.0 pitch, 11.0 from the tab line; snap-in tab slots 2.0 wide with 13.0 across their outer edges, so tab centres at +-5.5 (revision 13 misread 13.0 as the centre spacing)",
+        "section": "Drawn 0.8 pin width; 0.3 thickness and 0.6 x 1.9 tab section assumed from the 2.0 x 2.1 slots",
+        "length": "Dimensioned 3.5 (pins) and 3.2 (tabs) below the mounting surface"
+      },
+      "terminals": [
+        {
+          "name": "2A",
+          "pad": "2A",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -5.4,
+            -11.15,
+            -3.5,
+            -4.6,
+            -8.15,
+            0.7
+          ],
+          "volume_mm3": 1.656,
+          "formed_leg": {
+            "axis": "y",
+            "direction": 1,
+            "gap_before_mm": 2.4,
+            "leg_height_mm": [
+              0.4,
+              0.7
+            ],
+            "leg_end_mm": -8.15,
+            "leg_length_mm": 2.85
+          }
+        },
+        {
+          "name": "1A",
+          "pad": "1A",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -3.4,
+            -11.15,
+            -3.5,
+            -2.6,
+            -8.15,
+            0.7
+          ],
+          "volume_mm3": 1.656,
+          "formed_leg": {
+            "axis": "y",
+            "direction": 1,
+            "gap_before_mm": 2.4,
+            "leg_height_mm": [
+              0.4,
+              0.7
+            ],
+            "leg_end_mm": -8.15,
+            "leg_length_mm": 2.85
+          }
+        },
+        {
+          "name": "1B",
+          "pad": "1B",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            -1.4,
+            -11.15,
+            -3.5,
+            -0.6,
+            -8.15,
+            0.7
+          ],
+          "volume_mm3": 1.656,
+          "formed_leg": {
+            "axis": "y",
+            "direction": 1,
+            "gap_before_mm": 2.4,
+            "leg_height_mm": [
+              0.4,
+              0.7
+            ],
+            "leg_end_mm": -8.15,
+            "leg_length_mm": 2.85
+          }
+        },
+        {
+          "name": "2B",
+          "pad": "2B",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            0.6,
+            -11.15,
+            -3.5,
+            1.4,
+            -8.15,
+            0.7
+          ],
+          "volume_mm3": 1.656,
+          "formed_leg": {
+            "axis": "y",
+            "direction": 1,
+            "gap_before_mm": 2.4,
+            "leg_height_mm": [
+              0.4,
+              0.7
+            ],
+            "leg_end_mm": -8.15,
+            "leg_length_mm": 2.85
+          }
+        },
+        {
+          "name": "3B",
+          "pad": "3B",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            2.6,
+            -11.15,
+            -3.5,
+            3.4,
+            -8.15,
+            0.7
+          ],
+          "volume_mm3": 1.656,
+          "formed_leg": {
+            "axis": "y",
+            "direction": 1,
+            "gap_before_mm": 2.4,
+            "leg_height_mm": [
+              0.4,
+              0.7
+            ],
+            "leg_end_mm": -8.15,
+            "leg_length_mm": 2.85
+          }
+        },
+        {
+          "name": "3A",
+          "pad": "3A",
+          "kind": "blade",
+          "z_tip_mm": -3.5,
+          "bounds_mm": [
+            4.6,
+            -11.15,
+            -3.5,
+            5.4,
+            -8.15,
+            0.7
+          ],
+          "volume_mm3": 1.656,
+          "formed_leg": {
+            "axis": "y",
+            "direction": 1,
+            "gap_before_mm": 2.4,
+            "leg_height_mm": [
+              0.4,
+              0.7
+            ],
+            "leg_end_mm": -8.15,
+            "leg_length_mm": 2.85
+          }
+        },
+        {
+          "name": "M1",
+          "pad": "M1",
+          "kind": "blade",
+          "z_tip_mm": -3.2,
+          "bounds_mm": [
+            -5.8,
+            -0.95,
+            -3.2,
+            -5.2,
+            0.95,
+            0.4
+          ],
+          "volume_mm3": 4.104,
+          "formed_leg": null
+        },
+        {
+          "name": "M2",
+          "pad": "M2",
+          "kind": "blade",
+          "z_tip_mm": -3.2,
+          "bounds_mm": [
+            5.2,
+            -0.95,
+            -3.2,
+            5.8,
+            0.95,
+            0.4
+          ],
+          "volume_mm3": 4.104,
+          "formed_leg": null
+        }
+      ]
+    },
+    "PanasonicEVU": {
+      "board": "mainboard",
+      "source_step": "mainboard/3dmodels/Revision9/potentiometer-quality/Panasonic_EVUF2LFL3_DetailedCandidate.step",
+      "source_sha256": "37621a5fac69b737fdee4b5f0d6a4dffa83e97dc64cc3a66021d9ff02af8b381",
+      "output": "mainboard/3dmodels/Revision15/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "output_sha256": "74d1ec6877dfa6543ec35123bc033cd361a5140623bdd52b8e7aa461e81f6b97",
+      "output_bytes": 277970,
+      "original_solids": 9,
+      "terminal_solids": 5,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/potentiometer-quality/sources/panasonic-evu-primary-mirror.pdf",
+        "title": "Panasonic EVUF2L No. 8 (2005)"
+      },
+      "provenance": {
+        "positions": "Dimensioned piercing plan: #1-#3 at 2.5 pitch 7.00 from the tab line; tab slots 1.6 wide with 10.60 across their outer edges, so tab centres at +-4.50 (revision 13 misread 10.60 as the centre spacing)",
+        "section": "Sister-type dimension 0.8 terminal width; 0.3 thickness and 0.6 x 2.0 tab section assumed from 1.6 x 2.2 slots",
+        "length": "Dimensioned 3.7 below the mounting surface"
+      },
+      "terminals": [
+        {
+          "name": "1",
+          "pad": "1",
+          "kind": "blade",
+          "z_tip_mm": -3.7,
+          "bounds_mm": [
+            -2.9,
+            -7.15,
+            -3.7,
+            -2.1,
+            -5.9,
+            0.7
+          ],
+          "volume_mm3": 1.284,
+          "formed_leg": {
+            "axis": "y",
+            "direction": 1,
+            "gap_before_mm": 0.65,
+            "leg_height_mm": [
+              0.4,
+              0.7
+            ],
+            "leg_end_mm": -5.9,
+            "leg_length_mm": 1.1
+          }
+        },
+        {
+          "name": "2",
+          "pad": "2",
+          "kind": "blade",
+          "z_tip_mm": -3.7,
+          "bounds_mm": [
+            -0.4,
+            -7.15,
+            -3.7,
+            0.4,
+            -5.9,
+            0.7
+          ],
+          "volume_mm3": 1.284,
+          "formed_leg": {
+            "axis": "y",
+            "direction": 1,
+            "gap_before_mm": 0.65,
+            "leg_height_mm": [
+              0.4,
+              0.7
+            ],
+            "leg_end_mm": -5.9,
+            "leg_length_mm": 1.1
+          }
+        },
+        {
+          "name": "3",
+          "pad": "3",
+          "kind": "blade",
+          "z_tip_mm": -3.7,
+          "bounds_mm": [
+            2.1,
+            -7.15,
+            -3.7,
+            2.9,
+            -5.9,
+            0.7
+          ],
+          "volume_mm3": 1.284,
+          "formed_leg": {
+            "axis": "y",
+            "direction": 1,
+            "gap_before_mm": 0.65,
+            "leg_height_mm": [
+              0.4,
+              0.7
+            ],
+            "leg_end_mm": -5.9,
+            "leg_length_mm": 1.1
+          }
+        },
+        {
+          "name": "M1",
+          "pad": "M1",
+          "kind": "blade",
+          "z_tip_mm": -3.7,
+          "bounds_mm": [
+            -4.8,
+            -1.0,
+            -3.7,
+            -4.2,
+            1.0,
+            0.4
+          ],
+          "volume_mm3": 4.92,
+          "formed_leg": null
+        },
+        {
+          "name": "M2",
+          "pad": "M2",
+          "kind": "blade",
+          "z_tip_mm": -3.7,
+          "bounds_mm": [
+            4.2,
+            -1.0,
+            -3.7,
+            4.8,
+            1.0,
+            0.4
+          ],
+          "volume_mm3": 4.92,
+          "formed_leg": null
+        }
+      ]
+    },
+    "NKKB12AB": {
+      "board": "mainboard",
+      "source_step": "mainboard/3dmodels/Revision8/rotary-quality/NKK_B12AB_DetailedCandidate.step",
+      "source_sha256": "d6fcc8f1de47e51094c5d8cf7874d7e273f42dccbadcc1caea180e1526c4730b",
+      "output": "mainboard/3dmodels/Revision15/terminals/NKK_B12AB_DetailedCandidate_Terminals.step",
+      "output_sha256": "1e97bf3227bab2c52f1855487e9f8474b66ea2ecbcd83becb549f0823496cfd9",
+      "output_bytes": 143472,
+      "original_solids": 4,
+      "terminal_solids": 7,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/nkk-btoggles.pdf",
+        "title": "NKK Series B B12AB straight PC with bracket"
+      },
+      "provenance": {
+        "positions": "Reference dimensions: pins 2.54 pitch 1.0 off centre; bracket legs 10.16 apart in columns 2.54 apart",
+        "section": "Dimensioned 0.6 dia pins; bracket legs 0.6 wide x 0.4 thick",
+        "length": "Reference 3.1 below the body"
+      },
+      "terminals": [
+        {
+          "name": "1",
+          "pad": "1",
+          "kind": "round",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            -1.3,
+            2.24,
+            -3.1,
+            -0.7,
+            2.84,
+            0.4
+          ],
+          "volume_mm3": 0.989602,
+          "formed_leg": null
+        },
+        {
+          "name": "2",
+          "pad": "2",
+          "kind": "round",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            -1.3,
+            -0.3,
+            -3.1,
+            -0.7,
+            0.3,
+            0.4
+          ],
+          "volume_mm3": 0.989602,
+          "formed_leg": null
+        },
+        {
+          "name": "3",
+          "pad": "3",
+          "kind": "round",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            -1.3,
+            -2.84,
+            -3.1,
+            -0.7,
+            -2.24,
+            0.4
+          ],
+          "volume_mm3": 0.989602,
+          "formed_leg": null
+        },
+        {
+          "name": "M1",
+          "pad": "M1",
+          "kind": "blade",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            -1.3,
+            -5.28,
+            -3.1,
+            -0.7,
+            -4.1,
+            0.8
+          ],
+          "volume_mm3": 1.1232,
+          "formed_leg": {
+            "axis": "y",
+            "direction": 1,
+            "gap_before_mm": 0.48,
+            "leg_height_mm": [
+              0.4,
+              0.8
+            ],
+            "leg_end_mm": -4.1,
+            "leg_length_mm": 0.98
+          }
+        },
+        {
+          "name": "M2",
+          "pad": "M2",
+          "kind": "blade",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            1.24,
+            -5.28,
+            -3.1,
+            1.84,
+            -4.1,
+            0.8
+          ],
+          "volume_mm3": 1.1232,
+          "formed_leg": {
+            "axis": "y",
+            "direction": 1,
+            "gap_before_mm": 0.48,
+            "leg_height_mm": [
+              0.4,
+              0.8
+            ],
+            "leg_end_mm": -4.1,
+            "leg_length_mm": 0.98
+          }
+        },
+        {
+          "name": "M3",
+          "pad": "M3",
+          "kind": "blade",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            1.24,
+            4.1,
+            -3.1,
+            1.84,
+            5.28,
+            0.8
+          ],
+          "volume_mm3": 1.1232,
+          "formed_leg": {
+            "axis": "y",
+            "direction": -1,
+            "gap_before_mm": 0.48,
+            "leg_height_mm": [
+              0.4,
+              0.8
+            ],
+            "leg_end_mm": 4.1,
+            "leg_length_mm": 0.98
+          }
+        },
+        {
+          "name": "M4",
+          "pad": "M4",
+          "kind": "blade",
+          "z_tip_mm": -3.1,
+          "bounds_mm": [
+            -1.3,
+            4.1,
+            -3.1,
+            -0.7,
+            5.28,
+            0.8
+          ],
+          "volume_mm3": 1.1232,
+          "formed_leg": {
+            "axis": "y",
+            "direction": -1,
+            "gap_before_mm": 0.48,
+            "leg_height_mm": [
+              0.4,
+              0.8
+            ],
+            "leg_end_mm": 4.1,
+            "leg_length_mm": 0.98
+          }
+        }
+      ]
+    }
+  },
+  "passed": true,
+  "check_count": 146,
+  "checks": [
+    {
+      "check": "SDS50J: source solids and colours read in order",
+      "passed": true,
+      "solids": 8
+    },
+    {
+      "check": "SDS50J/1: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "SDS50J/1: valid single terminal solid",
+      "passed": true,
+      "volume": 1.95
+    },
+    {
+      "check": "SDS50J/1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "SDS50J/2: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "SDS50J/2: valid single terminal solid",
+      "passed": true,
+      "volume": 1.95
+    },
+    {
+      "check": "SDS50J/2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "SDS50J/3: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "SDS50J/3: valid single terminal solid",
+      "passed": true,
+      "volume": 1.95
+    },
+    {
+      "check": "SDS50J/3: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "SDS50J/4: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": -1,
+        "gap_before_mm": 1.0,
+        "leg_height_mm": [
+          0.4,
+          1.4
+        ],
+        "leg_end_mm": 13.2,
+        "leg_length_mm": 1.8
+      }
+    },
+    {
+      "check": "SDS50J/4: valid single terminal solid",
+      "passed": true,
+      "volume": 3.1000000000000054
+    },
+    {
+      "check": "SDS50J/4: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "SDS50J/5: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": -1,
+        "gap_before_mm": 1.0,
+        "leg_height_mm": [
+          0.4,
+          1.4
+        ],
+        "leg_end_mm": 13.2,
+        "leg_length_mm": 1.8
+      }
+    },
+    {
+      "check": "SDS50J/5: valid single terminal solid",
+      "passed": true,
+      "volume": 3.099999999999998
+    },
+    {
+      "check": "SDS50J/5: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "SDS50J/E1: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "SDS50J/E1: valid single terminal solid",
+      "passed": true,
+      "volume": 1.1520000000000006
+    },
+    {
+      "check": "SDS50J/E1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "SDS50J/E2: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "SDS50J/E2: valid single terminal solid",
+      "passed": true,
+      "volume": 1.1520000000000006
+    },
+    {
+      "check": "SDS50J/E2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "SDS50J: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 15
+    },
+    {
+      "check": "SDS50J: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 0.0
+    },
+    {
+      "check": "SDS50J: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "SDS50J: single-product source written as a single product",
+      "passed": true
+    },
+    {
+      "check": "MJ3536N: source solids and colours read in order",
+      "passed": true,
+      "solids": 5
+    },
+    {
+      "check": "MJ3536N/1: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "MJ3536N/1: valid single terminal solid",
+      "passed": true,
+      "volume": 3.790106156809755
+    },
+    {
+      "check": "MJ3536N/1: tip at specified depth",
+      "passed": true,
+      "z_min": -4.5,
+      "z_tip": -4.5
+    },
+    {
+      "check": "MJ3536N/2: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": -1,
+        "gap_before_mm": 0.1,
+        "leg_height_mm": [
+          0.4,
+          0.6
+        ],
+        "leg_end_mm": 15.5,
+        "leg_length_mm": 0.5
+      }
+    },
+    {
+      "check": "MJ3536N/2: valid single terminal solid",
+      "passed": true,
+      "volume": 2.159053078404922
+    },
+    {
+      "check": "MJ3536N/2: tip at specified depth",
+      "passed": true,
+      "z_min": -4.5,
+      "z_tip": -4.5
+    },
+    {
+      "check": "MJ3536N/3: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "x",
+        "direction": -1,
+        "gap_before_mm": 0.03,
+        "leg_height_mm": [
+          0.4,
+          0.74
+        ],
+        "leg_end_mm": 4.7,
+        "leg_length_mm": 0.5
+      }
+    },
+    {
+      "check": "MJ3536N/3: valid single terminal solid",
+      "passed": true,
+      "volume": 3.374635375555147
+    },
+    {
+      "check": "MJ3536N/3: tip at specified depth",
+      "passed": true,
+      "z_min": -4.5,
+      "z_tip": -4.5
+    },
+    {
+      "check": "MJ3536N: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 8
+    },
+    {
+      "check": "MJ3536N: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 1.4842873860227053e-14
+    },
+    {
+      "check": "MJ3536N: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "MJ3536N: single-product source written as a single product",
+      "passed": true
+    },
+    {
+      "check": "CTS290: source solids and colours read in order",
+      "passed": true,
+      "solids": 6
+    },
+    {
+      "check": "CTS290/A: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": 1,
+        "gap_before_mm": 1.8587,
+        "leg_height_mm": [
+          0.58,
+          0.88
+        ],
+        "leg_end_mm": -5.2,
+        "leg_length_mm": 2.3
+      }
+    },
+    {
+      "check": "CTS290/A: valid single terminal solid",
+      "passed": true,
+      "volume": 1.5672000000000001
+    },
+    {
+      "check": "CTS290/A: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "CTS290/C: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": 1,
+        "gap_before_mm": 1.8587,
+        "leg_height_mm": [
+          0.58,
+          0.88
+        ],
+        "leg_end_mm": -5.2,
+        "leg_length_mm": 2.3
+      }
+    },
+    {
+      "check": "CTS290/C: valid single terminal solid",
+      "passed": true,
+      "volume": 1.567200000000001
+    },
+    {
+      "check": "CTS290/C: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "CTS290/B: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": 1,
+        "gap_before_mm": 1.8587,
+        "leg_height_mm": [
+          0.58,
+          0.88
+        ],
+        "leg_end_mm": -5.2,
+        "leg_length_mm": 2.3
+      }
+    },
+    {
+      "check": "CTS290/B: valid single terminal solid",
+      "passed": true,
+      "volume": 1.567200000000001
+    },
+    {
+      "check": "CTS290/B: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "CTS290/S1: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": -1,
+        "gap_before_mm": 0.5597,
+        "leg_height_mm": [
+          0.58,
+          0.88
+        ],
+        "leg_end_mm": 6.02,
+        "leg_length_mm": 0.98
+      }
+    },
+    {
+      "check": "CTS290/S1: valid single terminal solid",
+      "passed": true,
+      "volume": 1.2504000000000006
+    },
+    {
+      "check": "CTS290/S1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "CTS290/S2: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": -1,
+        "gap_before_mm": 0.5597,
+        "leg_height_mm": [
+          0.58,
+          0.88
+        ],
+        "leg_end_mm": 6.02,
+        "leg_length_mm": 0.98
+      }
+    },
+    {
+      "check": "CTS290/S2: valid single terminal solid",
+      "passed": true,
+      "volume": 1.2504000000000017
+    },
+    {
+      "check": "CTS290/S2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "CTS290/T1: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "x",
+        "direction": 1,
+        "gap_before_mm": 0.37,
+        "leg_height_mm": [
+          0.4,
+          1.0
+        ],
+        "leg_end_mm": -4.58,
+        "leg_length_mm": 0.97
+      }
+    },
+    {
+      "check": "CTS290/T1: valid single terminal solid",
+      "passed": true,
+      "volume": 6.824399999999997
+    },
+    {
+      "check": "CTS290/T1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "CTS290/T2: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "x",
+        "direction": -1,
+        "gap_before_mm": 0.37,
+        "leg_height_mm": [
+          0.4,
+          1.0
+        ],
+        "leg_end_mm": 4.58,
+        "leg_length_mm": 0.97
+      }
+    },
+    {
+      "check": "CTS290/T2: valid single terminal solid",
+      "passed": true,
+      "volume": 6.824399999999996
+    },
+    {
+      "check": "CTS290/T2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "CTS290: named source parts cover the solids in order",
+      "passed": true,
+      "parts": [
+        "SharedFamilyStator",
+        "SharedFamilyRearMolding",
+        "SharedFamilyMetalCan",
+        "SharedFamilyFrontHousing",
+        "ExactA_UnthreadedBushing",
+        "ExactA5_FlattedShaft"
+      ]
+    },
+    {
+      "check": "CTS290: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 13
+    },
+    {
+      "check": "CTS290: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 1.504356769802432e-14
+    },
+    {
+      "check": "CTS290: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "CTS290: assembly root and named part products retained, terminal part added",
+      "passed": true,
+      "products": [
+        "CTS_290VAA5F201B2_DetailedCandidate",
+        "SharedFamilyStator",
+        "SharedFamilyRearMolding",
+        "SharedFamilyMetalCan",
+        "SharedFamilyFrontHousing",
+        "ExactA_UnthreadedBushing",
+        "ExactA5_FlattedShaft",
+        "DrawingDerivedTerminals"
+      ]
+    },
+    {
+      "check": "AlphaRV112: source solids and colours read in order",
+      "passed": true,
+      "solids": 12
+    },
+    {
+      "check": "AlphaRV112/2A: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": 1,
+        "gap_before_mm": 2.4,
+        "leg_height_mm": [
+          0.4,
+          0.7
+        ],
+        "leg_end_mm": -8.15,
+        "leg_length_mm": 2.85
+      }
+    },
+    {
+      "check": "AlphaRV112/2A: valid single terminal solid",
+      "passed": true,
+      "volume": 1.6560000000000046
+    },
+    {
+      "check": "AlphaRV112/2A: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "AlphaRV112/1A: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": 1,
+        "gap_before_mm": 2.4,
+        "leg_height_mm": [
+          0.4,
+          0.7
+        ],
+        "leg_end_mm": -8.15,
+        "leg_length_mm": 2.85
+      }
+    },
+    {
+      "check": "AlphaRV112/1A: valid single terminal solid",
+      "passed": true,
+      "volume": 1.6559999999999964
+    },
+    {
+      "check": "AlphaRV112/1A: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "AlphaRV112/1B: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": 1,
+        "gap_before_mm": 2.4,
+        "leg_height_mm": [
+          0.4,
+          0.7
+        ],
+        "leg_end_mm": -8.15,
+        "leg_length_mm": 2.85
+      }
+    },
+    {
+      "check": "AlphaRV112/1B: valid single terminal solid",
+      "passed": true,
+      "volume": 1.6559999999999957
+    },
+    {
+      "check": "AlphaRV112/1B: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "AlphaRV112/2B: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": 1,
+        "gap_before_mm": 2.4,
+        "leg_height_mm": [
+          0.4,
+          0.7
+        ],
+        "leg_end_mm": -8.15,
+        "leg_length_mm": 2.85
+      }
+    },
+    {
+      "check": "AlphaRV112/2B: valid single terminal solid",
+      "passed": true,
+      "volume": 1.655999999999997
+    },
+    {
+      "check": "AlphaRV112/2B: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "AlphaRV112/3B: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": 1,
+        "gap_before_mm": 2.4,
+        "leg_height_mm": [
+          0.4,
+          0.7
+        ],
+        "leg_end_mm": -8.15,
+        "leg_length_mm": 2.85
+      }
+    },
+    {
+      "check": "AlphaRV112/3B: valid single terminal solid",
+      "passed": true,
+      "volume": 1.6559999999999968
+    },
+    {
+      "check": "AlphaRV112/3B: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "AlphaRV112/3A: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": 1,
+        "gap_before_mm": 2.4,
+        "leg_height_mm": [
+          0.4,
+          0.7
+        ],
+        "leg_end_mm": -8.15,
+        "leg_length_mm": 2.85
+      }
+    },
+    {
+      "check": "AlphaRV112/3A: valid single terminal solid",
+      "passed": true,
+      "volume": 1.6560000000000035
+    },
+    {
+      "check": "AlphaRV112/3A: tip at specified depth",
+      "passed": true,
+      "z_min": -3.5,
+      "z_tip": -3.5
+    },
+    {
+      "check": "AlphaRV112/M1: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "AlphaRV112/M1: valid single terminal solid",
+      "passed": true,
+      "volume": 4.103999999999997
+    },
+    {
+      "check": "AlphaRV112/M1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.2,
+      "z_tip": -3.2
+    },
+    {
+      "check": "AlphaRV112/M2: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "AlphaRV112/M2: valid single terminal solid",
+      "passed": true,
+      "volume": 4.103999999999997
+    },
+    {
+      "check": "AlphaRV112/M2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.2,
+      "z_tip": -3.2
+    },
+    {
+      "check": "AlphaRV112: named source parts cover the solids in order",
+      "passed": true,
+      "parts": [
+        "RearWaferAndLowerCarrier",
+        "SecondGangWafer",
+        "MoldedDualGangCore",
+        "FoldedMetalCanAndCrimps",
+        "FrontPlate",
+        "FrontRivetHeads",
+        "UnthreadedSleeve",
+        "OpaqueFlattedShaft"
+      ]
+    },
+    {
+      "check": "AlphaRV112: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 20
+    },
+    {
+      "check": "AlphaRV112: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 0.0
+    },
+    {
+      "check": "AlphaRV112: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "AlphaRV112: assembly root and named part products retained, terminal part added",
+      "passed": true,
+      "products": [
+        "Alpha_RV112BCF40_25_DetailedCandidate",
+        "RearWaferAndLowerCarrier",
+        "SecondGangWafer",
+        "MoldedDualGangCore",
+        "FoldedMetalCanAndCrimps",
+        "FrontPlate",
+        "FrontRivetHeads",
+        "UnthreadedSleeve",
+        "OpaqueFlattedShaft",
+        "DrawingDerivedTerminals"
+      ]
+    },
+    {
+      "check": "PanasonicEVU: source solids and colours read in order",
+      "passed": true,
+      "solids": 9
+    },
+    {
+      "check": "PanasonicEVU/1: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": 1,
+        "gap_before_mm": 0.65,
+        "leg_height_mm": [
+          0.4,
+          0.7
+        ],
+        "leg_end_mm": -5.9,
+        "leg_length_mm": 1.1
+      }
+    },
+    {
+      "check": "PanasonicEVU/1: valid single terminal solid",
+      "passed": true,
+      "volume": 1.2839999999999963
+    },
+    {
+      "check": "PanasonicEVU/1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.7,
+      "z_tip": -3.7
+    },
+    {
+      "check": "PanasonicEVU/2: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": 1,
+        "gap_before_mm": 0.65,
+        "leg_height_mm": [
+          0.4,
+          0.7
+        ],
+        "leg_end_mm": -5.9,
+        "leg_length_mm": 1.1
+      }
+    },
+    {
+      "check": "PanasonicEVU/2: valid single terminal solid",
+      "passed": true,
+      "volume": 1.283999999999999
+    },
+    {
+      "check": "PanasonicEVU/2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.7,
+      "z_tip": -3.7
+    },
+    {
+      "check": "PanasonicEVU/3: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": 1,
+        "gap_before_mm": 0.65,
+        "leg_height_mm": [
+          0.4,
+          0.7
+        ],
+        "leg_end_mm": -5.9,
+        "leg_length_mm": 1.1
+      }
+    },
+    {
+      "check": "PanasonicEVU/3: valid single terminal solid",
+      "passed": true,
+      "volume": 1.2839999999999971
+    },
+    {
+      "check": "PanasonicEVU/3: tip at specified depth",
+      "passed": true,
+      "z_min": -3.7,
+      "z_tip": -3.7
+    },
+    {
+      "check": "PanasonicEVU/M1: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "PanasonicEVU/M1: valid single terminal solid",
+      "passed": true,
+      "volume": 4.919999999999998
+    },
+    {
+      "check": "PanasonicEVU/M1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.7,
+      "z_tip": -3.7
+    },
+    {
+      "check": "PanasonicEVU/M2: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "PanasonicEVU/M2: valid single terminal solid",
+      "passed": true,
+      "volume": 4.919999999999998
+    },
+    {
+      "check": "PanasonicEVU/M2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.7,
+      "z_tip": -3.7
+    },
+    {
+      "check": "PanasonicEVU: named source parts cover the solids in order",
+      "passed": true,
+      "parts": [
+        "BlackMoldedCase",
+        "RearWaferAndTerminalCarrier",
+        "StampedFrontFrameAndCrimps",
+        "FrontRivetHeads",
+        "UnthreadedSleeve",
+        "FL3_FlattedInsulatedShaft"
+      ]
+    },
+    {
+      "check": "PanasonicEVU: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 14
+    },
+    {
+      "check": "PanasonicEVU: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 0.0
+    },
+    {
+      "check": "PanasonicEVU: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "PanasonicEVU: assembly root and named part products retained, terminal part added",
+      "passed": true,
+      "products": [
+        "Panasonic_EVUF2LFL3_DetailedCandidate",
+        "BlackMoldedCase",
+        "RearWaferAndTerminalCarrier",
+        "StampedFrontFrameAndCrimps",
+        "FrontRivetHeads",
+        "UnthreadedSleeve",
+        "FL3_FlattedInsulatedShaft",
+        "DrawingDerivedTerminals"
+      ]
+    },
+    {
+      "check": "NKKB12AB: source solids and colours read in order",
+      "passed": true,
+      "solids": 4
+    },
+    {
+      "check": "NKKB12AB/1: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "NKKB12AB/1: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9896016858807847
+    },
+    {
+      "check": "NKKB12AB/1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.1,
+      "z_tip": -3.1
+    },
+    {
+      "check": "NKKB12AB/2: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "NKKB12AB/2: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9896016858807848
+    },
+    {
+      "check": "NKKB12AB/2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.1,
+      "z_tip": -3.1
+    },
+    {
+      "check": "NKKB12AB/3: terminal joins its body",
+      "passed": true,
+      "formed_leg": null
+    },
+    {
+      "check": "NKKB12AB/3: valid single terminal solid",
+      "passed": true,
+      "volume": 0.9896016858807848
+    },
+    {
+      "check": "NKKB12AB/3: tip at specified depth",
+      "passed": true,
+      "z_min": -3.1,
+      "z_tip": -3.1
+    },
+    {
+      "check": "NKKB12AB/M1: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": 1,
+        "gap_before_mm": 0.48,
+        "leg_height_mm": [
+          0.4,
+          0.8
+        ],
+        "leg_end_mm": -4.1,
+        "leg_length_mm": 0.98
+      }
+    },
+    {
+      "check": "NKKB12AB/M1: valid single terminal solid",
+      "passed": true,
+      "volume": 1.1232000000000004
+    },
+    {
+      "check": "NKKB12AB/M1: tip at specified depth",
+      "passed": true,
+      "z_min": -3.1,
+      "z_tip": -3.1
+    },
+    {
+      "check": "NKKB12AB/M2: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": 1,
+        "gap_before_mm": 0.48,
+        "leg_height_mm": [
+          0.4,
+          0.8
+        ],
+        "leg_end_mm": -4.1,
+        "leg_length_mm": 0.98
+      }
+    },
+    {
+      "check": "NKKB12AB/M2: valid single terminal solid",
+      "passed": true,
+      "volume": 1.1232000000000015
+    },
+    {
+      "check": "NKKB12AB/M2: tip at specified depth",
+      "passed": true,
+      "z_min": -3.1,
+      "z_tip": -3.1
+    },
+    {
+      "check": "NKKB12AB/M3: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": -1,
+        "gap_before_mm": 0.48,
+        "leg_height_mm": [
+          0.4,
+          0.8
+        ],
+        "leg_end_mm": 4.1,
+        "leg_length_mm": 0.98
+      }
+    },
+    {
+      "check": "NKKB12AB/M3: valid single terminal solid",
+      "passed": true,
+      "volume": 1.1232000000000018
+    },
+    {
+      "check": "NKKB12AB/M3: tip at specified depth",
+      "passed": true,
+      "z_min": -3.1,
+      "z_tip": -3.1
+    },
+    {
+      "check": "NKKB12AB/M4: terminal joins its body",
+      "passed": true,
+      "formed_leg": {
+        "axis": "y",
+        "direction": -1,
+        "gap_before_mm": 0.48,
+        "leg_height_mm": [
+          0.4,
+          0.8
+        ],
+        "leg_end_mm": 4.1,
+        "leg_length_mm": 0.98
+      }
+    },
+    {
+      "check": "NKKB12AB/M4: valid single terminal solid",
+      "passed": true,
+      "volume": 1.1232000000000015
+    },
+    {
+      "check": "NKKB12AB/M4: tip at specified depth",
+      "passed": true,
+      "z_min": -3.1,
+      "z_tip": -3.1
+    },
+    {
+      "check": "NKKB12AB: named source parts cover the solids in order",
+      "passed": true,
+      "parts": [
+        "PolymerCase",
+        "FoldedBracketCage",
+        "UnthreadedBushing",
+        "RoundedBatLeverNeutral"
+      ]
+    },
+    {
+      "check": "NKKB12AB: output valid with original plus terminal solids",
+      "passed": true,
+      "solids": 11
+    },
+    {
+      "check": "NKKB12AB: original solids retained exactly and in order",
+      "passed": true,
+      "max_relative_volume_difference": 0.0
+    },
+    {
+      "check": "NKKB12AB: original colours retained and terminals tinned",
+      "passed": true
+    },
+    {
+      "check": "NKKB12AB: assembly root and named part products retained, terminal part added",
+      "passed": true,
+      "products": [
+        "NKK_B12AB_DetailedCandidate",
+        "PolymerCase",
+        "FoldedBracketCage",
+        "UnthreadedBushing",
+        "RoundedBatLeverNeutral",
+        "DrawingDerivedTerminals"
+      ]
+    },
+    {
+      "check": "Source STEP files and both PCBs unchanged",
+      "passed": true
+    }
+  ],
+  "physical_fit_qualified": false,
+  "scope": "Terminals added to body illustrations; positions per drawing dimensions, not moved to pads."
+}

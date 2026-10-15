@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "scene_sha256": "d5d831f0cfa03bc9575a82b8c99dfae1752e187da88655b6fc9cc921b938fd30",
+  "view_count": 6,
+  "views": [
+    "assembled",
+    "rear",
+    "exploded",
+    "control-side",
+    "io-terminals-detail",
+    "terminal-models"
+  ],
+  "method": "Human-visible image inspection after native rendering, isolated edge-on KiCad-export views of VR4, VR5, S1 and S2, and a pixel comparison of every view with revision 17. Hashes pin the reviewed images.",
+  "image_sha256": {
+    "assembled.png": "991c0c254b3e71a907d462a9ccdbf9cf1412a2852860ff6cc305b0f668a9f520",
+    "rear.png": "60772d01f4e0c782192214d40a2647460a08c9648736dcfe1fc3604bba16268c",
+    "exploded.png": "8336321748f472832fa3fe0069d31e9af783eb0c84972381a49ba741c8fff58a",
+    "control-side.png": "2ec76e274c6c99ddd17df66d060569dc2f514ae8031418d703c454827965fcf6",
+    "io-terminals-detail.png": "494357ebb682aec610d4e48fe86f19b3e7f2c370298208a402d9e1ed41345ffa",
+    "terminal-models.png": "82adbfae20859461f44fdc98ab2c0c1aca3c1933e917ef0d1fe6d8de58fe1dab"
+  },
+  "comparison_with_revision_17": {
+    "assembled": "byte-identical pixels",
+    "rear": "identical within render noise (max channel difference 1)",
+    "exploded": "identical within render noise (max channel difference 18, no pixel above 24)",
+    "control_side": "3,642 of 2,520,000 pixels differ by more than 24: the formed legs at the pot and switch bases and soft shadows",
+    "io_terminals_detail": "15,300 of 1,350,000 pixels differ by more than 24: the SDS-50J and MJ-3536N legs"
+  },
+  "observations": [
+    "Edge-on views from the native KiCad export show L-shaped terminals running from the Panasonic, NKK and CTS body edges into each pin; the Alpha legs join the wafer edge.",
+    "Every terminal on the terminal sheet now meets its body; drill rings are unchanged.",
+    "The assembled case, rear panel and legends are unchanged."
+  ],
+  "limitations": [
+    "Leg heights and bends are assumptions; images do not qualify physical assembly fit."
+  ],
+  "physical_fit_qualified": false
+}

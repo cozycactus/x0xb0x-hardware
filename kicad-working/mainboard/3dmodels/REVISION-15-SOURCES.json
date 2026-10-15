@@ -1,0 +1,100 @@
+{
+  "revision": 15,
+  "baseline_revision": 14,
+  "geometry_license": "CC0-1.0 original reconstruction; manufacturer drawing rights retained",
+  "models": [
+    {
+      "key": "CTS290",
+      "references": [
+        "S2"
+      ],
+      "previous_model": "Revision13/terminals/CTS_290VAA5F201B2_DetailedCandidate_Terminals.step",
+      "previous_model_sha256": "145720b6e2bc7f9f1f071584b6e15fd62597128405a2cdd1069f7f33b6cff20d",
+      "model": "Revision15/terminals/CTS_290VAA5F201B2_DetailedCandidate_Terminals.step",
+      "model_sha256": "11b9b8da6c9488f211698a71cc50d39ac7f80431145f6b5c3ff3d2dbae5a261c",
+      "original_solids_retained": 6,
+      "terminal_solids": 7,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/cts290-datasheet.pdf",
+        "title": "CTS Series 290 MC-290V (2025-10-21 rev A)"
+      },
+      "provenance": {
+        "positions": "Dimensioned: A/C/B at 2.5 pitch 7.5 from centre, switch pins 5.00 apart 7.0 from centre, mounting tabs 11.10 apart",
+        "section": "Dimensioned 0.8 +-0.1 pin width; 0.3 thickness and 0.6 x 2.2 tab section assumed from the 1.8 x 2.6 slots",
+        "length": "Dimensioned 3.5 below the mounting surface"
+      }
+    },
+    {
+      "key": "AlphaRV112",
+      "references": [
+        "VR4",
+        "VR6"
+      ],
+      "previous_model": "Revision14/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step",
+      "previous_model_sha256": "1c69cd253b292497bb99f6d3b76c82e1f853fb763233a0c39634e6440f437263",
+      "model": "Revision15/terminals/Alpha_RV112BCF40_25_DetailedCandidate_Terminals.step",
+      "model_sha256": "328758a08d94b9608785d29157f3a75227e4dc5eb2d33d9bebaa2c067f8d5a1e",
+      "original_solids_retained": 12,
+      "terminal_solids": 8,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/potentiometer-quality/sources/alpha-insulated-rv112b-primary.pdf",
+        "title": "Alpha RV112BCF-40 11 mm dual snap-in"
+      },
+      "provenance": {
+        "positions": "Dimensioned: six pins at 2.0 pitch, 11.0 from the tab line; snap-in tab slots 2.0 wide with 13.0 across their outer edges, so tab centres at +-5.5 (revision 13 misread 13.0 as the centre spacing)",
+        "section": "Drawn 0.8 pin width; 0.3 thickness and 0.6 x 1.9 tab section assumed from the 2.0 x 2.1 slots",
+        "length": "Dimensioned 3.5 (pins) and 3.2 (tabs) below the mounting surface"
+      }
+    },
+    {
+      "key": "PanasonicEVU",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8"
+      ],
+      "previous_model": "Revision14/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "previous_model_sha256": "78f2e2bf9803cd0de9b46b20d6b26b7a48c6d2b2996974cee645f8ded066690c",
+      "model": "Revision15/terminals/Panasonic_EVUF2LFL3_DetailedCandidate_Terminals.step",
+      "model_sha256": "74d1ec6877dfa6543ec35123bc033cd361a5140623bdd52b8e7aa461e81f6b97",
+      "original_solids_retained": 9,
+      "terminal_solids": 5,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/potentiometer-quality/sources/panasonic-evu-primary-mirror.pdf",
+        "title": "Panasonic EVUF2L No. 8 (2005)"
+      },
+      "provenance": {
+        "positions": "Dimensioned piercing plan: #1-#3 at 2.5 pitch 7.00 from the tab line; tab slots 1.6 wide with 10.60 across their outer edges, so tab centres at +-4.50 (revision 13 misread 10.60 as the centre spacing)",
+        "section": "Sister-type dimension 0.8 terminal width; 0.3 thickness and 0.6 x 2.0 tab section assumed from 1.6 x 2.2 slots",
+        "length": "Dimensioned 3.7 below the mounting surface"
+      }
+    },
+    {
+      "key": "NKKB12AB",
+      "references": [
+        "S1"
+      ],
+      "previous_model": "Revision13/terminals/NKK_B12AB_DetailedCandidate_Terminals.step",
+      "previous_model_sha256": "a4eacb805bab8d5454a9462bd1d65243d162fc0198dcdcb54711ffc8b9b6b66d",
+      "model": "Revision15/terminals/NKK_B12AB_DetailedCandidate_Terminals.step",
+      "model_sha256": "1e97bf3227bab2c52f1855487e9f8474b66ea2ecbcd83becb549f0823496cfd9",
+      "original_solids_retained": 4,
+      "terminal_solids": 7,
+      "drawing": {
+        "file": "kicad-working/visualization/blender-case-revision-7/quality-model-sources/rotary-quality/sources/nkk-btoggles.pdf",
+        "title": "NKK Series B B12AB straight PC with bracket"
+      },
+      "provenance": {
+        "positions": "Reference dimensions: pins 2.54 pitch 1.0 off centre; bracket legs 10.16 apart in columns 2.54 apart",
+        "section": "Dimensioned 0.6 dia pins; bracket legs 0.6 wide x 0.4 thick",
+        "length": "Reference 3.1 below the body"
+      }
+    }
+  ],
+  "native_assignment_transforms": "unchanged from revision 14",
+  "terminal_positions": "Drawing dimensions in each model frame; never moved to PCB pads",
+  "downloaded_CAD_geometry_incorporated": false,
+  "physical_fit_qualified": false
+}

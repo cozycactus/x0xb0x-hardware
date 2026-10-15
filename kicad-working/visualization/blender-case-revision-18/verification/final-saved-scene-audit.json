@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "check_count": 9,
+  "failures": [],
+  "checks": [
+    {
+      "check": "Change record pins the saved scene and its revision-17 baseline",
+      "passed": true
+    },
+    {
+      "check": "All revision-17 objects retained, none added; 491 roots",
+      "passed": true,
+      "before_count": 1675,
+      "after_count": 1675,
+      "native_reference_count": 491
+    },
+    {
+      "check": "No undeclared differences from revision 17",
+      "passed": true,
+      "unexpected_count": 0,
+      "first_unexpected": [],
+      "ignored_stale_hidden_object_matrix_entries": 0
+    },
+    {
+      "check": "Every declared part object received its new native mesh and nothing else changed on it",
+      "passed": true,
+      "replaced": 15
+    },
+    {
+      "check": "Collection memberships unchanged",
+      "passed": true
+    },
+    {
+      "check": "Materials unchanged; terminals keep the revision-16 tin material",
+      "passed": true
+    },
+    {
+      "check": "Opening guide and revision properties are the only scene-level additions",
+      "passed": true
+    },
+    {
+      "check": "Rear apertures pass on revision 17 and revision 18",
+      "passed": true,
+      "baseline": [
+        44,
+        974
+      ],
+      "final": [
+        44,
+        974
+      ]
+    },
+    {
+      "check": "Read-only audit left both saved scenes unchanged",
+      "passed": true
+    }
+  ],
+  "stable_scene_sha256": "d5d831f0cfa03bc9575a82b8c99dfae1752e187da88655b6fc9cc921b938fd30",
+  "baseline_sha256": "c9d9536418f73a93d309ee34ae543df887a8fd343e98c930482c4bc3b8f15aae",
+  "native_reference_count": 491,
+  "added_objects": [],
+  "replaced_mesh_objects": 15,
+  "frames": 4,
+  "snapshot_sha256": {
+    "before-scene.json.gz": "0c157a3cc6a1fb13ef03dc74e4a4b58f937ea5639e98caf548d0f7cdd908416b",
+    "after-scene.json.gz": "0fe42e0fe3b174931b3ae539d38f7ef03080fcd83b20f9d6c3a2c89f38c4d06e"
+  },
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "method": "Fresh saved-file snapshots of revisions 17 and 18 compare all stored data and evaluated instance poses in four views; current 974 rear rays are replayed on both."
+}

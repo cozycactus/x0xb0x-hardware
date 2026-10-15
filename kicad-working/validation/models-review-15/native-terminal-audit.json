@@ -1,0 +1,3070 @@
+{
+  "schema": 1,
+  "revision": 15,
+  "generator": "audit_native_terminals.py",
+  "blender": "5.2.2 LTS",
+  "passed": true,
+  "check_count": 32,
+  "checks": [
+    {
+      "check": "ioboard: GLB matches export record",
+      "passed": true
+    },
+    {
+      "check": "ioboard: top and bottom component roots each share one seating plane",
+      "passed": true,
+      "top": 1.595,
+      "bottom": -0.0050000000000001155,
+      "bottom_roots": [
+        -0.085
+      ]
+    },
+    {
+      "check": "ioboard: every fitted model has a lead in every drilled hole",
+      "passed": true,
+      "missing": {}
+    },
+    {
+      "check": "mainboard: GLB matches export record",
+      "passed": true
+    },
+    {
+      "check": "mainboard: top and bottom component roots each share one seating plane",
+      "passed": true,
+      "top": 1.595,
+      "bottom": -0.0050000000000001155,
+      "bottom_roots": [
+        -0.085
+      ]
+    },
+    {
+      "check": "mainboard: every fitted model has a lead in every drilled hole",
+      "passed": true,
+      "missing": {}
+    },
+    {
+      "check": "491 fitted models audited",
+      "passed": true
+    },
+    {
+      "check": "All 25 updated references audited",
+      "passed": true
+    },
+    {
+      "check": "NYS216: identical nominal fit at every placed reference",
+      "passed": true
+    },
+    {
+      "check": "NYS216: every specified terminal is found at its pad",
+      "passed": true
+    },
+    {
+      "check": "SDS50J: identical nominal fit at every placed reference",
+      "passed": true
+    },
+    {
+      "check": "SDS50J: every specified terminal is found at its pad",
+      "passed": true
+    },
+    {
+      "check": "USB: identical nominal fit at every placed reference",
+      "passed": true
+    },
+    {
+      "check": "USB: every specified terminal is found at its pad",
+      "passed": true
+    },
+    {
+      "check": "MJ3536N: identical nominal fit at every placed reference",
+      "passed": true
+    },
+    {
+      "check": "MJ3536N: every specified terminal is found at its pad",
+      "passed": true
+    },
+    {
+      "check": "MC78M05: identical nominal fit at every placed reference",
+      "passed": true
+    },
+    {
+      "check": "MC78M05: every specified terminal is found at its pad",
+      "passed": true
+    },
+    {
+      "check": "PJ202AH: identical nominal fit at every placed reference",
+      "passed": true
+    },
+    {
+      "check": "PJ202AH: every specified terminal is found at its pad",
+      "passed": true
+    },
+    {
+      "check": "LPTC: identical nominal fit at every placed reference",
+      "passed": true
+    },
+    {
+      "check": "LPTC: every specified terminal is found at its pad",
+      "passed": true
+    },
+    {
+      "check": "CTS290: identical nominal fit at every placed reference",
+      "passed": true
+    },
+    {
+      "check": "CTS290: every specified terminal is found at its pad",
+      "passed": true
+    },
+    {
+      "check": "AlphaRV112: identical nominal fit at every placed reference",
+      "passed": true
+    },
+    {
+      "check": "AlphaRV112: every specified terminal is found at its pad",
+      "passed": true
+    },
+    {
+      "check": "PanasonicEVU: identical nominal fit at every placed reference",
+      "passed": true
+    },
+    {
+      "check": "PanasonicEVU: every specified terminal is found at its pad",
+      "passed": true
+    },
+    {
+      "check": "NKKB12AB: identical nominal fit at every placed reference",
+      "passed": true
+    },
+    {
+      "check": "NKKB12AB: every specified terminal is found at its pad",
+      "passed": true
+    },
+    {
+      "check": "Grayhill25L: identical nominal fit at every placed reference",
+      "passed": true
+    },
+    {
+      "check": "Grayhill25L: every specified terminal is found at its pad",
+      "passed": true
+    }
+  ],
+  "boards": {
+    "ioboard": {
+      "board_top_mm": 1.595,
+      "board_bottom_mm": -0.0050000000000001155,
+      "fitted_models": 82,
+      "counts": {
+        "all pins": 82
+      },
+      "missing": {}
+    },
+    "mainboard": {
+      "board_top_mm": 1.595,
+      "board_bottom_mm": -0.0050000000000001155,
+      "fitted_models": 409,
+      "counts": {
+        "all pins": 409
+      },
+      "missing": {}
+    }
+  },
+  "nominal_fit_findings": [
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "R",
+      "result": "interferes",
+      "margin_mm": -0.277,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        0.1202,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "RN",
+      "result": "interferes",
+      "margin_mm": -0.244,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        -0.0202,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "S",
+      "result": "interferes",
+      "margin_mm": -0.2595,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        0.0702,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "SN",
+      "result": "interferes",
+      "margin_mm": -0.2595,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        -0.0702,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "T",
+      "result": "interferes",
+      "margin_mm": -0.2595,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        0.0702,
+        -0.35
+      ]
+    },
+    {
+      "model": "NYS216",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "pad": "TN",
+      "result": "interferes",
+      "margin_mm": -0.2595,
+      "drill_mm": [
+        1.6,
+        1.6
+      ],
+      "section_centre_offset_mm": [
+        -0.0702,
+        -0.35
+      ]
+    },
+    {
+      "model": "SDS50J",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "pad": "1",
+      "result": "interferes",
+      "margin_mm": -0.0276,
+      "drill_mm": [
+        1.3208,
+        1.3208
+      ],
+      "section_centre_offset_mm": [
+        -0.12,
+        -0.08
+      ]
+    },
+    {
+      "model": "SDS50J",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "pad": "2",
+      "result": "interferes",
+      "margin_mm": -0.0641,
+      "drill_mm": [
+        1.3208,
+        1.3208
+      ],
+      "section_centre_offset_mm": [
+        0.0,
+        -0.18
+      ]
+    },
+    {
+      "model": "USB",
+      "references": [
+        "USB0"
+      ],
+      "pad": "M2",
+      "result": "interferes",
+      "margin_mm": -0.2392,
+      "drill_mm": [
+        2.2,
+        2.2
+      ],
+      "section_centre_offset_mm": [
+        0.076,
+        0.12
+      ]
+    },
+    {
+      "model": "USB",
+      "references": [
+        "USB0"
+      ],
+      "pad": "P$2",
+      "result": "interferes",
+      "margin_mm": -0.2392,
+      "drill_mm": [
+        2.2,
+        2.2
+      ],
+      "section_centre_offset_mm": [
+        -0.076,
+        0.12
+      ]
+    },
+    {
+      "model": "PJ202AH",
+      "references": [
+        "POWER0"
+      ],
+      "pad": "P$3",
+      "result": "interferes",
+      "margin_mm": -0.0435,
+      "drill_mm": [
+        2.8,
+        2.8
+      ],
+      "section_centre_offset_mm": [
+        0.1,
+        -0.162
+      ]
+    }
+  ],
+  "models": {
+    "NYS216": {
+      "MIXOUT0": {
+        "board": "ioboard",
+        "flipped": false,
+        "pads": [
+          {
+            "pad": "R",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              99.49,
+              10.192
+            ],
+            "result": "interferes",
+            "margin_mm": -0.277,
+            "section_centre_offset_mm": [
+              0.1202,
+              -0.35
+            ]
+          },
+          {
+            "pad": "RN",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              83.29,
+              10.192
+            ],
+            "result": "interferes",
+            "margin_mm": -0.244,
+            "section_centre_offset_mm": [
+              -0.0202,
+              -0.35
+            ]
+          },
+          {
+            "pad": "S",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              99.54,
+              3.842
+            ],
+            "result": "interferes",
+            "margin_mm": -0.2595,
+            "section_centre_offset_mm": [
+              0.0702,
+              -0.35
+            ]
+          },
+          {
+            "pad": "SN",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              83.34,
+              3.842
+            ],
+            "result": "interferes",
+            "margin_mm": -0.2595,
+            "section_centre_offset_mm": [
+              -0.0702,
+              -0.35
+            ]
+          },
+          {
+            "pad": "T",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              99.54,
+              16.542
+            ],
+            "result": "interferes",
+            "margin_mm": -0.2595,
+            "section_centre_offset_mm": [
+              0.0702,
+              -0.35
+            ]
+          },
+          {
+            "pad": "TN",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              83.34,
+              16.542
+            ],
+            "result": "interferes",
+            "margin_mm": -0.2595,
+            "section_centre_offset_mm": [
+              -0.0702,
+              -0.35
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 2.4
+      },
+      "HEADPHONE0": {
+        "board": "ioboard",
+        "flipped": false,
+        "pads": [
+          {
+            "pad": "R",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              34.72,
+              10.192
+            ],
+            "result": "interferes",
+            "margin_mm": -0.277,
+            "section_centre_offset_mm": [
+              0.1202,
+              -0.35
+            ]
+          },
+          {
+            "pad": "RN",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              18.52,
+              10.192
+            ],
+            "result": "interferes",
+            "margin_mm": -0.244,
+            "section_centre_offset_mm": [
+              -0.0202,
+              -0.35
+            ]
+          },
+          {
+            "pad": "S",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              34.77,
+              3.842
+            ],
+            "result": "interferes",
+            "margin_mm": -0.2595,
+            "section_centre_offset_mm": [
+              0.0702,
+              -0.35
+            ]
+          },
+          {
+            "pad": "SN",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              18.57,
+              3.842
+            ],
+            "result": "interferes",
+            "margin_mm": -0.2595,
+            "section_centre_offset_mm": [
+              -0.0702,
+              -0.35
+            ]
+          },
+          {
+            "pad": "T",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              34.77,
+              16.542
+            ],
+            "result": "interferes",
+            "margin_mm": -0.2595,
+            "section_centre_offset_mm": [
+              0.0702,
+              -0.35
+            ]
+          },
+          {
+            "pad": "TN",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              18.57,
+              16.542
+            ],
+            "result": "interferes",
+            "margin_mm": -0.2595,
+            "section_centre_offset_mm": [
+              -0.0702,
+              -0.35
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 2.4
+      },
+      "MIXIN0": {
+        "board": "ioboard",
+        "flipped": false,
+        "pads": [
+          {
+            "pad": "R",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              186.866,
+              10.192
+            ],
+            "result": "interferes",
+            "margin_mm": -0.277,
+            "section_centre_offset_mm": [
+              0.1202,
+              -0.35
+            ]
+          },
+          {
+            "pad": "RN",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              170.666,
+              10.192
+            ],
+            "result": "interferes",
+            "margin_mm": -0.244,
+            "section_centre_offset_mm": [
+              -0.0202,
+              -0.35
+            ]
+          },
+          {
+            "pad": "S",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              186.916,
+              3.842
+            ],
+            "result": "interferes",
+            "margin_mm": -0.2595,
+            "section_centre_offset_mm": [
+              0.0702,
+              -0.35
+            ]
+          },
+          {
+            "pad": "SN",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              170.716,
+              3.842
+            ],
+            "result": "interferes",
+            "margin_mm": -0.2595,
+            "section_centre_offset_mm": [
+              -0.0702,
+              -0.35
+            ]
+          },
+          {
+            "pad": "T",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              186.916,
+              16.542
+            ],
+            "result": "interferes",
+            "margin_mm": -0.2595,
+            "section_centre_offset_mm": [
+              0.0702,
+              -0.35
+            ]
+          },
+          {
+            "pad": "TN",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              170.716,
+              16.542
+            ],
+            "result": "interferes",
+            "margin_mm": -0.2595,
+            "section_centre_offset_mm": [
+              -0.0702,
+              -0.35
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 2.4
+      }
+    },
+    "SDS50J": {
+      "DIN2": {
+        "board": "ioboard",
+        "flipped": false,
+        "pads": [
+          {
+            "pad": "1",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              142.748,
+              12.58
+            ],
+            "result": "interferes",
+            "margin_mm": -0.0276,
+            "section_centre_offset_mm": [
+              -0.12,
+              -0.08
+            ]
+          },
+          {
+            "pad": "2",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              135.128,
+              12.68
+            ],
+            "result": "interferes",
+            "margin_mm": -0.0641,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.18
+            ]
+          },
+          {
+            "pad": "3",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              127.608,
+              12.58
+            ],
+            "result": "fits",
+            "margin_mm": 0.0206,
+            "section_centre_offset_mm": [
+              0.02,
+              -0.08
+            ]
+          },
+          {
+            "pad": "4",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              140.208,
+              15.02
+            ],
+            "result": "fits",
+            "margin_mm": 0.0445,
+            "section_centre_offset_mm": [
+              -0.08,
+              -0.02
+            ]
+          },
+          {
+            "pad": "5",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              130.048,
+              15.02
+            ],
+            "result": "fits",
+            "margin_mm": 0.0445,
+            "section_centre_offset_mm": [
+              0.08,
+              -0.02
+            ]
+          },
+          {
+            "pad": "PE",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              132.588,
+              2.62
+            ],
+            "result": "fits",
+            "margin_mm": 0.0521,
+            "section_centre_offset_mm": [
+              0.04,
+              -0.12
+            ]
+          },
+          {
+            "pad": "PE@",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              137.668,
+              2.62
+            ],
+            "result": "fits",
+            "margin_mm": 0.0521,
+            "section_centre_offset_mm": [
+              -0.04,
+              -0.12
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 1.9
+      },
+      "DIN4": {
+        "board": "ioboard",
+        "flipped": false,
+        "pads": [
+          {
+            "pad": "1",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              208.534,
+              12.58
+            ],
+            "result": "interferes",
+            "margin_mm": -0.0276,
+            "section_centre_offset_mm": [
+              -0.12,
+              -0.08
+            ]
+          },
+          {
+            "pad": "2",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              200.914,
+              12.68
+            ],
+            "result": "interferes",
+            "margin_mm": -0.0641,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.18
+            ]
+          },
+          {
+            "pad": "3",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              193.394,
+              12.58
+            ],
+            "result": "fits",
+            "margin_mm": 0.0206,
+            "section_centre_offset_mm": [
+              0.02,
+              -0.08
+            ]
+          },
+          {
+            "pad": "4",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              205.994,
+              15.02
+            ],
+            "result": "fits",
+            "margin_mm": 0.0445,
+            "section_centre_offset_mm": [
+              -0.08,
+              -0.02
+            ]
+          },
+          {
+            "pad": "5",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              195.834,
+              15.02
+            ],
+            "result": "fits",
+            "margin_mm": 0.0445,
+            "section_centre_offset_mm": [
+              0.08,
+              -0.02
+            ]
+          },
+          {
+            "pad": "PE",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              198.374,
+              2.62
+            ],
+            "result": "fits",
+            "margin_mm": 0.0521,
+            "section_centre_offset_mm": [
+              0.04,
+              -0.12
+            ]
+          },
+          {
+            "pad": "PE@",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              203.454,
+              2.62
+            ],
+            "result": "fits",
+            "margin_mm": 0.0521,
+            "section_centre_offset_mm": [
+              -0.04,
+              -0.12
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 1.9
+      },
+      "DIN3": {
+        "board": "ioboard",
+        "flipped": false,
+        "pads": [
+          {
+            "pad": "1",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              164.338,
+              12.58
+            ],
+            "result": "interferes",
+            "margin_mm": -0.0276,
+            "section_centre_offset_mm": [
+              -0.12,
+              -0.08
+            ]
+          },
+          {
+            "pad": "2",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              156.718,
+              12.68
+            ],
+            "result": "interferes",
+            "margin_mm": -0.0641,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.18
+            ]
+          },
+          {
+            "pad": "3",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              149.198,
+              12.58
+            ],
+            "result": "fits",
+            "margin_mm": 0.0206,
+            "section_centre_offset_mm": [
+              0.02,
+              -0.08
+            ]
+          },
+          {
+            "pad": "4",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              161.798,
+              15.02
+            ],
+            "result": "fits",
+            "margin_mm": 0.0445,
+            "section_centre_offset_mm": [
+              -0.08,
+              -0.02
+            ]
+          },
+          {
+            "pad": "5",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              151.638,
+              15.02
+            ],
+            "result": "fits",
+            "margin_mm": 0.0445,
+            "section_centre_offset_mm": [
+              0.08,
+              -0.02
+            ]
+          },
+          {
+            "pad": "PE",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              154.178,
+              2.62
+            ],
+            "result": "fits",
+            "margin_mm": 0.0521,
+            "section_centre_offset_mm": [
+              0.04,
+              -0.12
+            ]
+          },
+          {
+            "pad": "PE@",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              159.258,
+              2.62
+            ],
+            "result": "fits",
+            "margin_mm": 0.0521,
+            "section_centre_offset_mm": [
+              -0.04,
+              -0.12
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 1.9
+      },
+      "DIN1": {
+        "board": "ioboard",
+        "flipped": false,
+        "pads": [
+          {
+            "pad": "1",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              121.158,
+              12.58
+            ],
+            "result": "interferes",
+            "margin_mm": -0.0276,
+            "section_centre_offset_mm": [
+              -0.12,
+              -0.08
+            ]
+          },
+          {
+            "pad": "2",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              113.538,
+              12.68
+            ],
+            "result": "interferes",
+            "margin_mm": -0.0641,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.18
+            ]
+          },
+          {
+            "pad": "3",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              106.018,
+              12.58
+            ],
+            "result": "fits",
+            "margin_mm": 0.0206,
+            "section_centre_offset_mm": [
+              0.02,
+              -0.08
+            ]
+          },
+          {
+            "pad": "4",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              118.618,
+              15.02
+            ],
+            "result": "fits",
+            "margin_mm": 0.0445,
+            "section_centre_offset_mm": [
+              -0.08,
+              -0.02
+            ]
+          },
+          {
+            "pad": "5",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              108.458,
+              15.02
+            ],
+            "result": "fits",
+            "margin_mm": 0.0445,
+            "section_centre_offset_mm": [
+              0.08,
+              -0.02
+            ]
+          },
+          {
+            "pad": "PE",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              110.998,
+              2.62
+            ],
+            "result": "fits",
+            "margin_mm": 0.0521,
+            "section_centre_offset_mm": [
+              0.04,
+              -0.12
+            ]
+          },
+          {
+            "pad": "PE@",
+            "drill_mm": [
+              1.3208,
+              1.3208
+            ],
+            "centre_mm": [
+              116.078,
+              2.62
+            ],
+            "result": "fits",
+            "margin_mm": 0.0521,
+            "section_centre_offset_mm": [
+              -0.04,
+              -0.12
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 1.9
+      }
+    },
+    "USB": {
+      "USB0": {
+        "board": "ioboard",
+        "flipped": false,
+        "pads": [
+          {
+            "pad": "1",
+            "drill_mm": [
+              0.95,
+              0.95
+            ],
+            "centre_mm": [
+              72.878,
+              12.076
+            ],
+            "result": "fits",
+            "margin_mm": 0.0976,
+            "section_centre_offset_mm": [
+              -0.0,
+              0.12
+            ]
+          },
+          {
+            "pad": "2",
+            "drill_mm": [
+              0.95,
+              0.95
+            ],
+            "centre_mm": [
+              70.378,
+              12.076
+            ],
+            "result": "fits",
+            "margin_mm": 0.0976,
+            "section_centre_offset_mm": [
+              -0.0,
+              0.12
+            ]
+          },
+          {
+            "pad": "3",
+            "drill_mm": [
+              0.95,
+              0.95
+            ],
+            "centre_mm": [
+              70.378,
+              10.076
+            ],
+            "result": "fits",
+            "margin_mm": 0.0976,
+            "section_centre_offset_mm": [
+              -0.0,
+              0.12
+            ]
+          },
+          {
+            "pad": "4",
+            "drill_mm": [
+              0.95,
+              0.95
+            ],
+            "centre_mm": [
+              72.878,
+              10.076
+            ],
+            "result": "fits",
+            "margin_mm": 0.0976,
+            "section_centre_offset_mm": [
+              -0.0,
+              0.12
+            ]
+          },
+          {
+            "pad": "M2",
+            "drill_mm": [
+              2.2,
+              2.2
+            ],
+            "centre_mm": [
+              65.532,
+              7.366
+            ],
+            "result": "interferes",
+            "margin_mm": -0.2392,
+            "section_centre_offset_mm": [
+              0.076,
+              0.12
+            ]
+          },
+          {
+            "pad": "P$2",
+            "drill_mm": [
+              2.2,
+              2.2
+            ],
+            "centre_mm": [
+              77.724,
+              7.366
+            ],
+            "result": "interferes",
+            "margin_mm": -0.2392,
+            "section_centre_offset_mm": [
+              -0.076,
+              0.12
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 1.24
+      }
+    },
+    "MJ3536N": {
+      "CV0": {
+        "board": "ioboard",
+        "flipped": false,
+        "pads": [
+          {
+            "pad": "TIPSHUNT",
+            "drill_mm": [
+              2.54,
+              2.54
+            ],
+            "centre_mm": [
+              62.992,
+              13.462
+            ],
+            "result": "fits",
+            "margin_mm": 0.1923,
+            "section_centre_offset_mm": [
+              0.12,
+              0.038
+            ]
+          },
+          {
+            "pad": "SLEEVE",
+            "drill_mm": [
+              2.54,
+              2.54
+            ],
+            "centre_mm": [
+              57.912,
+              2.54
+            ],
+            "result": "fits",
+            "margin_mm": 0.0853,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.24
+            ]
+          },
+          {
+            "pad": "TIP",
+            "drill_mm": [
+              2.54,
+              2.54
+            ],
+            "centre_mm": [
+              57.912,
+              15.8496
+            ],
+            "result": "fits",
+            "margin_mm": 0.1419,
+            "section_centre_offset_mm": [
+              -0.0,
+              0.1504
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 2.9
+      },
+      "GATE0": {
+        "board": "ioboard",
+        "flipped": false,
+        "pads": [
+          {
+            "pad": "TIPSHUNT",
+            "drill_mm": [
+              2.54,
+              2.54
+            ],
+            "centre_mm": [
+              50.292,
+              13.462
+            ],
+            "result": "fits",
+            "margin_mm": 0.1923,
+            "section_centre_offset_mm": [
+              0.12,
+              0.038
+            ]
+          },
+          {
+            "pad": "SLEEVE",
+            "drill_mm": [
+              2.54,
+              2.54
+            ],
+            "centre_mm": [
+              45.212,
+              2.54
+            ],
+            "result": "fits",
+            "margin_mm": 0.0853,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.24
+            ]
+          },
+          {
+            "pad": "TIP",
+            "drill_mm": [
+              2.54,
+              2.54
+            ],
+            "centre_mm": [
+              45.212,
+              15.8496
+            ],
+            "result": "fits",
+            "margin_mm": 0.1419,
+            "section_centre_offset_mm": [
+              0.0,
+              0.1504
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 2.9
+      }
+    },
+    "MC78M05": {
+      "IC20": {
+        "board": "ioboard",
+        "flipped": false,
+        "pads": [
+          {
+            "pad": "GND",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              8.763,
+              42.291
+            ],
+            "result": "fits",
+            "margin_mm": 0.0389,
+            "section_centre_offset_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "pad": "IN",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              6.223,
+              42.291
+            ],
+            "result": "fits",
+            "margin_mm": 0.0389,
+            "section_centre_offset_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "pad": "OUT",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              11.303,
+              42.291
+            ],
+            "result": "fits",
+            "margin_mm": 0.0389,
+            "section_centre_offset_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 2.9792
+      }
+    },
+    "PJ202AH": {
+      "POWER0": {
+        "board": "ioboard",
+        "flipped": false,
+        "pads": [
+          {
+            "pad": "P$3",
+            "drill_mm": [
+              2.8,
+              2.8
+            ],
+            "centre_mm": [
+              13.236,
+              8.068
+            ],
+            "result": "interferes",
+            "margin_mm": -0.0435,
+            "section_centre_offset_mm": [
+              0.1,
+              -0.162
+            ]
+          },
+          {
+            "pad": "P$2",
+            "drill_mm": [
+              2.8,
+              2.8
+            ],
+            "centre_mm": [
+              8.636,
+              4.826
+            ],
+            "result": "fits",
+            "margin_mm": 0.119,
+            "section_centre_offset_mm": [
+              -0.0,
+              0.08
+            ]
+          },
+          {
+            "pad": "P$1",
+            "drill_mm": [
+              3.2,
+              3.2
+            ],
+            "centre_mm": [
+              8.636,
+              10.922
+            ],
+            "result": "fits",
+            "margin_mm": 0.0845,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.016
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 1.9
+      }
+    },
+    "LPTC": {
+      "R100A0": {
+        "board": "mainboard",
+        "flipped": false,
+        "pads": [
+          {
+            "pad": "1",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              154.686,
+              149.352
+            ],
+            "result": "fits",
+            "margin_mm": 0.25,
+            "section_centre_offset_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "pad": "2",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              154.686,
+              139.192
+            ],
+            "result": "fits",
+            "margin_mm": 0.25,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.0
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 1.5
+      },
+      "R100B0": {
+        "board": "mainboard",
+        "flipped": false,
+        "pads": [
+          {
+            "pad": "1",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              151.384,
+              139.192
+            ],
+            "result": "fits",
+            "margin_mm": 0.25,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "2",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              151.384,
+              149.352
+            ],
+            "result": "fits",
+            "margin_mm": 0.25,
+            "section_centre_offset_mm": [
+              -0.0,
+              0.0
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 1.5
+      }
+    },
+    "CTS290": {
+      "S2": {
+        "board": "mainboard",
+        "flipped": true,
+        "pads": [
+          {
+            "pad": "A",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              216.495,
+              113.658
+            ],
+            "result": "fits",
+            "margin_mm": 0.0728,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "B",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              211.495,
+              113.658
+            ],
+            "result": "fits",
+            "margin_mm": 0.0728,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "C",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              213.995,
+              113.658
+            ],
+            "result": "fits",
+            "margin_mm": 0.0728,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "P$1",
+            "drill_mm": [
+              2.8,
+              2.8
+            ],
+            "centre_mm": [
+              208.295,
+              121.158
+            ],
+            "result": "fits",
+            "margin_mm": 0.2115,
+            "section_centre_offset_mm": [
+              0.15,
+              -0.0
+            ]
+          },
+          {
+            "pad": "P$2",
+            "drill_mm": [
+              2.8,
+              2.8
+            ],
+            "centre_mm": [
+              219.695,
+              121.158
+            ],
+            "result": "fits",
+            "margin_mm": 0.2115,
+            "section_centre_offset_mm": [
+              -0.15,
+              -0.0
+            ]
+          },
+          {
+            "pad": "SW1",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              216.495,
+              128.158
+            ],
+            "result": "fits",
+            "margin_mm": 0.0728,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "SW2",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              211.495,
+              128.158
+            ],
+            "result": "fits",
+            "margin_mm": 0.0728,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 1.82
+      }
+    },
+    "AlphaRV112": {
+      "VR4": {
+        "board": "mainboard",
+        "flipped": true,
+        "pads": [
+          {
+            "pad": "1A",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              115.745,
+              167.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0808,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "1B",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              117.745,
+              167.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0808,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "2A",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              113.745,
+              167.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0808,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "2B",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              119.745,
+              167.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0808,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "3A",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              123.745,
+              167.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0808,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "3B",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              121.745,
+              167.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0808,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M1",
+            "drill_mm": [
+              2.1844,
+              2.1844
+            ],
+            "centre_mm": [
+              113.245,
+              156.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.096,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M2",
+            "drill_mm": [
+              2.1844,
+              2.1844
+            ],
+            "centre_mm": [
+              124.245,
+              156.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.096,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 1.82
+      },
+      "VR6": {
+        "board": "mainboard",
+        "flipped": true,
+        "pads": [
+          {
+            "pad": "1A",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              54.785,
+              167.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0808,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "1B",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              56.785,
+              167.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0808,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "2A",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              52.785,
+              167.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0808,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "2B",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              58.785,
+              167.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0808,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "3A",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              62.785,
+              167.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0808,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "3B",
+            "drill_mm": [
+              1.016,
+              1.016
+            ],
+            "centre_mm": [
+              60.785,
+              167.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0808,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M1",
+            "drill_mm": [
+              2.1844,
+              2.1844
+            ],
+            "centre_mm": [
+              52.285,
+              156.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.096,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M2",
+            "drill_mm": [
+              2.1844,
+              2.1844
+            ],
+            "centre_mm": [
+              63.285,
+              156.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.096,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.0
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 1.82
+      }
+    },
+    "PanasonicEVU": {
+      "VR7": {
+        "board": "mainboard",
+        "flipped": true,
+        "pads": [
+          {
+            "pad": "1",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              24.805,
+              163.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "2",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              27.305,
+              163.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "3",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              29.805,
+              163.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M1",
+            "drill_mm": [
+              2.1844,
+              2.1844
+            ],
+            "centre_mm": [
+              22.733,
+              156.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0252,
+            "section_centre_offset_mm": [
+              0.072,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M2",
+            "drill_mm": [
+              2.1844,
+              2.1844
+            ],
+            "centre_mm": [
+              31.877,
+              156.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0252,
+            "section_centre_offset_mm": [
+              -0.072,
+              -0.0
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 2.02
+      },
+      "VR5": {
+        "board": "mainboard",
+        "flipped": true,
+        "pads": [
+          {
+            "pad": "1",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              85.765,
+              163.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "2",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              88.265,
+              163.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "3",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              90.765,
+              163.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M1",
+            "drill_mm": [
+              2.1844,
+              2.1844
+            ],
+            "centre_mm": [
+              83.693,
+              156.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0252,
+            "section_centre_offset_mm": [
+              0.072,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M2",
+            "drill_mm": [
+              2.1844,
+              2.1844
+            ],
+            "centre_mm": [
+              92.837,
+              156.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0252,
+            "section_centre_offset_mm": [
+              -0.072,
+              -0.0
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 2.02
+      },
+      "VR2": {
+        "board": "mainboard",
+        "flipped": true,
+        "pads": [
+          {
+            "pad": "1",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              177.205,
+              163.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "2",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              179.705,
+              163.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "3",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              182.205,
+              163.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M1",
+            "drill_mm": [
+              2.1844,
+              2.1844
+            ],
+            "centre_mm": [
+              175.133,
+              156.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0252,
+            "section_centre_offset_mm": [
+              0.072,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M2",
+            "drill_mm": [
+              2.1844,
+              2.1844
+            ],
+            "centre_mm": [
+              184.277,
+              156.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0252,
+            "section_centre_offset_mm": [
+              -0.072,
+              -0.0
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 2.02
+      },
+      "VR8": {
+        "board": "mainboard",
+        "flipped": true,
+        "pads": [
+          {
+            "pad": "1",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              20.995,
+              128.158
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "2",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              23.495,
+              128.158
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "3",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              25.995,
+              128.158
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M1",
+            "drill_mm": [
+              2.1844,
+              2.1844
+            ],
+            "centre_mm": [
+              18.923,
+              121.158
+            ],
+            "result": "fits",
+            "margin_mm": 0.0252,
+            "section_centre_offset_mm": [
+              0.072,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M2",
+            "drill_mm": [
+              2.1844,
+              2.1844
+            ],
+            "centre_mm": [
+              28.067,
+              121.158
+            ],
+            "result": "fits",
+            "margin_mm": 0.0252,
+            "section_centre_offset_mm": [
+              -0.072,
+              -0.0
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 2.02
+      },
+      "VR3": {
+        "board": "mainboard",
+        "flipped": true,
+        "pads": [
+          {
+            "pad": "1",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              146.725,
+              163.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "2",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              149.225,
+              163.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "3",
+            "drill_mm": [
+              1.27,
+              1.27
+            ],
+            "centre_mm": [
+              151.725,
+              163.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.2078,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M1",
+            "drill_mm": [
+              2.1844,
+              2.1844
+            ],
+            "centre_mm": [
+              144.653,
+              156.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0252,
+            "section_centre_offset_mm": [
+              0.072,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M2",
+            "drill_mm": [
+              2.1844,
+              2.1844
+            ],
+            "centre_mm": [
+              153.797,
+              156.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.0252,
+            "section_centre_offset_mm": [
+              -0.072,
+              -0.0
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 2.02
+      }
+    },
+    "NKKB12AB": {
+      "S1": {
+        "board": "mainboard",
+        "flipped": true,
+        "pads": [
+          {
+            "pad": "1",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              212.979,
+              154.3812
+            ],
+            "result": "fits",
+            "margin_mm": 0.184,
+            "section_centre_offset_mm": [
+              0.016,
+              -0.0
+            ]
+          },
+          {
+            "pad": "2",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              212.979,
+              156.9212
+            ],
+            "result": "fits",
+            "margin_mm": 0.184,
+            "section_centre_offset_mm": [
+              0.016,
+              -0.0
+            ]
+          },
+          {
+            "pad": "3",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              212.979,
+              159.4612
+            ],
+            "result": "fits",
+            "margin_mm": 0.184,
+            "section_centre_offset_mm": [
+              0.016,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M1",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              212.979,
+              162.0012
+            ],
+            "result": "fits",
+            "margin_mm": 0.126,
+            "section_centre_offset_mm": [
+              0.016,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M2",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              215.519,
+              162.0012
+            ],
+            "result": "fits",
+            "margin_mm": 0.126,
+            "section_centre_offset_mm": [
+              0.016,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M3",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              215.519,
+              151.8412
+            ],
+            "result": "fits",
+            "margin_mm": 0.126,
+            "section_centre_offset_mm": [
+              0.016,
+              -0.0
+            ]
+          },
+          {
+            "pad": "M4",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              212.979,
+              151.8412
+            ],
+            "result": "fits",
+            "margin_mm": 0.126,
+            "section_centre_offset_mm": [
+              0.016,
+              -0.0
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 1.42
+      }
+    },
+    "Grayhill25L": {
+      "S4": {
+        "board": "mainboard",
+        "flipped": true,
+        "pads": [
+          {
+            "pad": "C",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              113.665,
+              108.458
+            ],
+            "result": "fits",
+            "margin_mm": 0.0474,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "MT1",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              130.429,
+              128.016
+            ],
+            "result": "empty by design",
+            "reason": "Bracket legs not dimensioned on the Grayhill drawing; omitted"
+          },
+          {
+            "pad": "MT2",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              130.429,
+              114.3
+            ],
+            "result": "empty by design",
+            "reason": "Bracket legs not dimensioned on the Grayhill drawing; omitted"
+          },
+          {
+            "pad": "MT3",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              107.061,
+              114.3
+            ],
+            "result": "empty by design",
+            "reason": "Bracket legs not dimensioned on the Grayhill drawing; omitted"
+          },
+          {
+            "pad": "MT4",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              107.061,
+              128.016
+            ],
+            "result": "empty by design",
+            "reason": "Bracket legs not dimensioned on the Grayhill drawing; omitted"
+          },
+          {
+            "pad": "P$1",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              116.205,
+              108.458
+            ],
+            "result": "fits",
+            "margin_mm": 0.0474,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "P$2",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              118.745,
+              108.458
+            ],
+            "result": "fits",
+            "margin_mm": 0.0474,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "P$4",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              121.285,
+              108.458
+            ],
+            "result": "fits",
+            "margin_mm": 0.0474,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "P$8",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              123.825,
+              108.458
+            ],
+            "result": "fits",
+            "margin_mm": 0.0474,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 4.67
+      },
+      "S3": {
+        "board": "mainboard",
+        "flipped": true,
+        "pads": [
+          {
+            "pad": "C",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              169.545,
+              108.458
+            ],
+            "result": "fits",
+            "margin_mm": 0.0474,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "MT1",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              186.309,
+              128.016
+            ],
+            "result": "empty by design",
+            "reason": "Bracket legs not dimensioned on the Grayhill drawing; omitted"
+          },
+          {
+            "pad": "MT2",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              186.309,
+              114.3
+            ],
+            "result": "empty by design",
+            "reason": "Bracket legs not dimensioned on the Grayhill drawing; omitted"
+          },
+          {
+            "pad": "MT3",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              162.941,
+              114.3
+            ],
+            "result": "empty by design",
+            "reason": "Bracket legs not dimensioned on the Grayhill drawing; omitted"
+          },
+          {
+            "pad": "MT4",
+            "drill_mm": [
+              1.6,
+              1.6
+            ],
+            "centre_mm": [
+              162.941,
+              128.016
+            ],
+            "result": "empty by design",
+            "reason": "Bracket legs not dimensioned on the Grayhill drawing; omitted"
+          },
+          {
+            "pad": "P$1",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              172.085,
+              108.458
+            ],
+            "result": "fits",
+            "margin_mm": 0.0474,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "P$2",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              174.625,
+              108.458
+            ],
+            "result": "fits",
+            "margin_mm": 0.0474,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "P$4",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              177.165,
+              108.458
+            ],
+            "result": "fits",
+            "margin_mm": 0.0474,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          },
+          {
+            "pad": "P$8",
+            "drill_mm": [
+              1.0,
+              1.0
+            ],
+            "centre_mm": [
+              179.705,
+              108.458
+            ],
+            "result": "fits",
+            "margin_mm": 0.0474,
+            "section_centre_offset_mm": [
+              -0.0,
+              -0.0
+            ]
+          }
+        ],
+        "section_points_away_from_holes": {
+          "top_face": 0,
+          "mid": 0,
+          "bottom_face": 0
+        },
+        "lead_protrusion_beyond_far_face_mm": 4.67
+      }
+    }
+  },
+  "method": "Triangle sections of the native KiCad GLB at the board faces (0.02 mm inside) and mid-depth; margin = drill radius minus the largest distance of nearby section points from the drill axis.",
+  "physical_fit_qualified": false
+}
