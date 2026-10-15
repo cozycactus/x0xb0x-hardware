@@ -91,11 +91,21 @@ def verify():
     for reference, ref in sorted(leds.items()):
         meshes = [o for o in ref.children_recursive if o.type == "MESH"]
         boxes = []
+        spacers = [o for o in meshes if o.name == ref.name + "/STD240B spacer"]
+        has_spacer = ref.get("detailed_model_revision", 0) >= 19
+        spacer_valid = len(spacers) == (1 if has_spacer else 0)
         for mesh in meshes:
             transform = ref.matrix_world.inverted() @ mesh.matrix_world
             points = [transform @ v.co * 1000 for v in mesh.data.vertices]
             if points:
-                boxes.append(bounds(points))
+                box = bounds(points)
+                if mesh in spacers:
+                    expected = [-1.27, -2.54, 0, 3.81, 2.54, 6.096]
+                    spacer_valid = spacer_valid and all(
+                        abs(a - b) < .001
+                        for a, b in zip(box[0] + box[1], expected))
+                else:
+                    boxes.append(box)
         leads = [(lo, hi) for lo, hi in boxes if lo[2] < 0]
         heads = [(lo, hi) for lo, hi in boxes if lo[2] > 0]
         lead_axes = sorted((lo[0] + hi[0]) / 2 for lo, hi in leads)
@@ -104,7 +114,8 @@ def verify():
             and abs(hi[0] - lo[0] - .4) < .001
             and abs(hi[1] - lo[1] - .4) < .001 for lo, hi in leads)
         check("Complete embedded head and full lead envelopes: " + reference,
-              len(meshes) == 3 and full_leads and len(heads) == 1
+              len(meshes) == (4 if has_spacer else 3) and spacer_valid
+              and full_leads and len(heads) == 1
               and all(abs(a - b) < .001
                       for a, b in zip(lead_axes, [0, 2.54]))
               and abs(heads[0][0][2] - 6.096) < .001

@@ -1,0 +1,3311 @@
+{
+  "passed": true,
+  "visualization_revision": 22,
+  "kicad_revision": 19,
+  "baseline_sha256": "d9098cd3d6ed65bf9bc68caa016cdf129e870a994987d8ee7ba84d5c58e7500e",
+  "stable_scene_sha256": "9666132150c6ed12e9ee3a78113ad0b1392d5d023d0ec74fba4009433bacec58",
+  "stable_scene_bytes": 42589604,
+  "source_glb_sha256": "3d5e14a4b7217159cddc64ae59c1311555e2d22efef2f9d918400e410e61df02",
+  "source_plan_sha256": "4b2dce1b9e280d27b2b8f1dd96dc3835536e351f6be209b769c6973e232af995",
+  "added_objects": [
+    "MAINBOARD/LED1/STD240B spacer",
+    "MAINBOARD/LED2/STD240B spacer",
+    "MAINBOARD/LED3/STD240B spacer",
+    "MAINBOARD/LED4/STD240B spacer",
+    "MAINBOARD/LED5/STD240B spacer",
+    "MAINBOARD/LED6/STD240B spacer",
+    "MAINBOARD/LED7/STD240B spacer",
+    "MAINBOARD/LED8/STD240B spacer",
+    "MAINBOARD/LED9/STD240B spacer",
+    "MAINBOARD/LED10/STD240B spacer",
+    "MAINBOARD/LED11/STD240B spacer",
+    "MAINBOARD/LED12/STD240B spacer",
+    "MAINBOARD/LED13/STD240B spacer",
+    "MAINBOARD/LED14/STD240B spacer",
+    "MAINBOARD/LED15/STD240B spacer",
+    "MAINBOARD/LED16/STD240B spacer",
+    "MAINBOARD/LED17/STD240B spacer",
+    "MAINBOARD/LED18/STD240B spacer",
+    "MAINBOARD/LED19/STD240B spacer",
+    "MAINBOARD/LED20/STD240B spacer",
+    "MAINBOARD/LED21/STD240B spacer",
+    "MAINBOARD/LED22/STD240B spacer",
+    "MAINBOARD/LED23/STD240B spacer",
+    "MAINBOARD/LED24/STD240B spacer",
+    "MAINBOARD/LED25/STD240B spacer",
+    "MAINBOARD/LED26/STD240B spacer",
+    "MAINBOARD/LED27/STD240B spacer",
+    "MAINBOARD/LED28/STD240B spacer",
+    "MAINBOARD/LED29/STD240B spacer",
+    "MAINBOARD/LED30/STD240B spacer",
+    "MAINBOARD/LED31/STD240B spacer",
+    "MAINBOARD/LED32/STD240B spacer",
+    "MAINBOARD/LED33/STD240B spacer",
+    "MAINBOARD/LED34/STD240B spacer",
+    "MAINBOARD/LED35/STD240B spacer",
+    "MAINBOARD/LED36/STD240B spacer",
+    "MAINBOARD/LED37/STD240B spacer",
+    "MAINBOARD/LED38/STD240B spacer",
+    "MAINBOARD/LED39/STD240B spacer",
+    "MAINBOARD/LED40/STD240B spacer"
+  ],
+  "added_materials": [
+    "VCC STD240B black thermoplastic \u2014 revision19"
+  ],
+  "material_signature": {
+    "diffuse_color": [
+      0.001934984466060996,
+      0.002089783316478133,
+      0.0023219813592731953,
+      1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4000000059604645,
+    "use_nodes": true,
+    "props": {
+      "source_basis": "VCC STDxxxBLK_A rev001: VALOX310SEO black, UL94V0; roughness illustrative"
+    },
+    "nodes": {
+      "Principled BSDF": {
+        "type": "ShaderNodeBsdfPrincipled",
+        "label": "",
+        "mute": false,
+        "props": {},
+        "inputs": {
+          "0:Base Color": [
+            0.001934984466060996,
+            0.002089783316478133,
+            0.0023219813592731953,
+            1.0
+          ],
+          "1:Metallic": 1.0,
+          "2:Roughness": 0.41999998688697815,
+          "3:IOR": 1.5,
+          "4:Alpha": 1.0,
+          "5:Thin Wall": false,
+          "6:Normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "7:Weight": 0.0,
+          "8:Diffuse Roughness": 0.0,
+          "9:Subsurface Weight": 0.0,
+          "10:Subsurface Radius": [
+            1.0,
+            0.20000000298023224,
+            0.10000000149011612
+          ],
+          "11:Subsurface Scale": 0.004999999888241291,
+          "12:Subsurface IOR": 1.399999976158142,
+          "13:Subsurface Anisotropy": 0.0,
+          "14:Specular IOR Level": 0.5,
+          "15:Specular Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "16:Anisotropic": 0.0,
+          "17:Anisotropic Rotation": 0.0,
+          "18:Tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "19:Transmission Weight": 0.0,
+          "20:Coat Weight": 0.0,
+          "21:Coat Roughness": 0.029999999329447746,
+          "22:Coat IOR": 1.5,
+          "23:Coat Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "24:Coat Normal": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "25:Sheen Weight": 0.0,
+          "26:Sheen Roughness": 0.5,
+          "27:Sheen Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "28:Emission Color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "29:Emission Strength": 0.0,
+          "30:Thin Film Thickness": 0.0,
+          "31:Thin Film IOR": 1.3300000429153442
+        },
+        "distribution": "MULTI_GGX",
+        "subsurface_method": "RANDOM_WALK"
+      },
+      "Material Output": {
+        "type": "ShaderNodeOutputMaterial",
+        "label": "",
+        "mute": false,
+        "props": {},
+        "inputs": {
+          "2:Displacement": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "3:Thickness": 0.0
+        }
+      }
+    },
+    "links": [
+      [
+        "Principled BSDF",
+        "BSDF",
+        "Material Output",
+        "Surface"
+      ]
+    ],
+    "surface_render_method": "DITHERED",
+    "use_transparency_overlap": true,
+    "use_backface_culling": false,
+    "use_backface_culling_shadow": false,
+    "alpha_threshold": 0.5,
+    "displacement_method": "BUMP"
+  },
+  "native_parts": [
+    {
+      "reference": "LED1",
+      "object": "MAINBOARD/LED1/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.657951354400658e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED2",
+      "object": "MAINBOARD/LED2/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED3",
+      "object": "MAINBOARD/LED3/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED4",
+      "object": "MAINBOARD/LED4/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED5",
+      "object": "MAINBOARD/LED5/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED6",
+      "object": "MAINBOARD/LED6/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED7",
+      "object": "MAINBOARD/LED7/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED8",
+      "object": "MAINBOARD/LED8/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED9",
+      "object": "MAINBOARD/LED9/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED10",
+      "object": "MAINBOARD/LED10/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED11",
+      "object": "MAINBOARD/LED11/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED12",
+      "object": "MAINBOARD/LED12/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED13",
+      "object": "MAINBOARD/LED13/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED14",
+      "object": "MAINBOARD/LED14/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED15",
+      "object": "MAINBOARD/LED15/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED16",
+      "object": "MAINBOARD/LED16/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED17",
+      "object": "MAINBOARD/LED17/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.1726973458569388e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED18",
+      "object": "MAINBOARD/LED18/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          9.549551190560326e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED19",
+      "object": "MAINBOARD/LED19/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          9.549551190560326e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED20",
+      "object": "MAINBOARD/LED20/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          9.549551190560326e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED21",
+      "object": "MAINBOARD/LED21/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          9.549551190560326e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED22",
+      "object": "MAINBOARD/LED22/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          9.549551190560326e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED23",
+      "object": "MAINBOARD/LED23/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          9.549551190560326e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED24",
+      "object": "MAINBOARD/LED24/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          9.549551190560326e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED25",
+      "object": "MAINBOARD/LED25/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          9.549551190560326e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED26",
+      "object": "MAINBOARD/LED26/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          9.549551190560326e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED27",
+      "object": "MAINBOARD/LED27/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          9.549551190560326e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED28",
+      "object": "MAINBOARD/LED28/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.3456304560071526e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED29",
+      "object": "MAINBOARD/LED29/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.3456304560071526e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED30",
+      "object": "MAINBOARD/LED30/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.3456304560071526e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED31",
+      "object": "MAINBOARD/LED31/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.3456304560071526e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED32",
+      "object": "MAINBOARD/LED32/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.3456304560071526e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED33",
+      "object": "MAINBOARD/LED33/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.3456304560071526e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED34",
+      "object": "MAINBOARD/LED34/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.3456304560071526e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED35",
+      "object": "MAINBOARD/LED35/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.3456304560071526e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED36",
+      "object": "MAINBOARD/LED36/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.3456304560071526e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED37",
+      "object": "MAINBOARD/LED37/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.3456304560071526e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED38",
+      "object": "MAINBOARD/LED38/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.3456304560071526e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED39",
+      "object": "MAINBOARD/LED39/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.3456304560071526e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "reference": "LED40",
+      "object": "MAINBOARD/LED40/STD240B spacer",
+      "mesh": {
+        "hash": "c5328b8e130c628ad096b2a50ab82004673dc02bee38d7c4e6c4c74f47f367d9",
+        "vertices": 1087,
+        "edges": 2150,
+        "polygons": 1072,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8f4e6af27ed5576f2d8ffcc46b68df8f65d79fd20b8499712dcc14e36945aa0d"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "d1b1231b0ac91f8cd3c612ee021f442799cdc6bdbb9d025ab804d83c63574c61"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "d0fc8dfd56932619fce918993319d10df2ca6f94b17cdd73b42af79450d673b7"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3be76dab1ece8cabd2bc6ce1866ddb91e07a290c2fee2331b644ba614bb2117"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c9ced551c7995cacb94cefdac2ee4aadab5c179069c22ea149651be5b0525131"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "50bcc1ae03042ab0f306e8fd74f861f2b5293a87def0c91a5857910094011fa9"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9c23106d063869af4518cd73377a20f25296af153068c7d583dd12fcd0e297b4"
+          }
+        },
+        "props": {},
+        "materials": [
+          "VCC STD240B black thermoplastic \u2014 revision19"
+        ]
+      },
+      "matrix_local": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.3456304560071526e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "changed_source_roots": [
+    "MAINBOARD/LED1",
+    "MAINBOARD/LED2",
+    "MAINBOARD/LED3",
+    "MAINBOARD/LED4",
+    "MAINBOARD/LED5",
+    "MAINBOARD/LED6",
+    "MAINBOARD/LED7",
+    "MAINBOARD/LED8",
+    "MAINBOARD/LED9",
+    "MAINBOARD/LED10",
+    "MAINBOARD/LED11",
+    "MAINBOARD/LED12",
+    "MAINBOARD/LED13",
+    "MAINBOARD/LED14",
+    "MAINBOARD/LED15",
+    "MAINBOARD/LED16",
+    "MAINBOARD/LED17",
+    "MAINBOARD/LED18",
+    "MAINBOARD/LED19",
+    "MAINBOARD/LED20",
+    "MAINBOARD/LED21",
+    "MAINBOARD/LED22",
+    "MAINBOARD/LED23",
+    "MAINBOARD/LED24",
+    "MAINBOARD/LED25",
+    "MAINBOARD/LED26",
+    "MAINBOARD/LED27",
+    "MAINBOARD/LED28",
+    "MAINBOARD/LED29",
+    "MAINBOARD/LED30",
+    "MAINBOARD/LED31",
+    "MAINBOARD/LED32",
+    "MAINBOARD/LED33",
+    "MAINBOARD/LED34",
+    "MAINBOARD/LED35",
+    "MAINBOARD/LED36",
+    "MAINBOARD/LED37",
+    "MAINBOARD/LED38",
+    "MAINBOARD/LED39",
+    "MAINBOARD/LED40"
+  ],
+  "native_reference_count": 491,
+  "stored_object_count": 1721,
+  "opening_guide": "00 START HERE \u2014 revision22 assembly",
+  "opening_guide_sha256": "c634e0fbe573c1ee9596d008124fe1e951313630126172ac3f8cc6fcb0d449df",
+  "physical_fit_qualified": false
+}

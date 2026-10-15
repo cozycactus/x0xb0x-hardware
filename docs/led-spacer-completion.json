@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "kicad_revision": 19,
+  "blender_revision": 22,
+  "model_sha256": "5a2ebfe46cfef093d90161faa047dd64c79ef5ec6b2508903e0902147afbda37",
+  "scene_sha256": "9666132150c6ed12e9ee3a78113ad0b1392d5d023d0ec74fba4009433bacec58",
+  "references": [
+    "LED1",
+    "LED2",
+    "LED3",
+    "LED4",
+    "LED5",
+    "LED6",
+    "LED7",
+    "LED8",
+    "LED9",
+    "LED10",
+    "LED11",
+    "LED12",
+    "LED13",
+    "LED14",
+    "LED15",
+    "LED16",
+    "LED17",
+    "LED18",
+    "LED19",
+    "LED20",
+    "LED21",
+    "LED22",
+    "LED23",
+    "LED24",
+    "LED25",
+    "LED26",
+    "LED27",
+    "LED28",
+    "LED29",
+    "LED30",
+    "LED31",
+    "LED32",
+    "LED33",
+    "LED34",
+    "LED35",
+    "LED36",
+    "LED37",
+    "LED38",
+    "LED39",
+    "LED40"
+  ],
+  "source": {
+    "file": "sources/vcc-std-series-datasheet.pdf",
+    "sha256": "b9895ba388404976a70f28bcb4da3dcef17c766b9bbf8a4647ce124e35ee8549",
+    "drawing": "STDxxxBLK_A rev001,2010-02-25",
+    "url": "https://www.alldatasheet.com/datasheet-pdf/pdf/606962/VCC/STD240BLK.html",
+    "retrieval": "User saved STD.PDF; preserved byte-for-byte"
+  },
+  "catalog": {
+    "file": "sources/vcc-mouser-catalog-646-page178.pdf",
+    "sha256": "ba9f781a6bd2302e038b4082115fddc845404fe5039d468e591709cce412b26c",
+    "url": "https://www.mouser.com/catalog/catalogusd/646/178.pdf"
+  },
+  "datum_resolution": "VCC section A-A specifies XXX as total length to bottom of end lands. STD240=6.096mm total; no LED lift required. The older catalog arrow visually excludes feet and is superseded by the detailed drawing.",
+  "dimensions_mm": {
+    "total_length": 6.096,
+    "outside_diameter": 5.08,
+    "lead_pitch": 2.54,
+    "two_lead_hole_diameter": 0.914,
+    "four_longitudinal_hole_diameter": 1.194,
+    "four_hole_xy_offsets": [
+      1.27,
+      1.27
+    ],
+    "recess_top_diameter": 4.064,
+    "recess_bottom_diameter": 3.226,
+    "recess_depth": 1.397,
+    "end_land_height": 0.254
+  },
+  "preservation": "All three original LED solids are retained exactly. Only a fourth black spacer solid is added. Every existing Blender object, mesh, shader, camera, pose, legend and animation is retained;40 spacer objects and one material added. PCB copper, pads, drills, placements and model transforms preserved.",
+  "validation": {
+    "solid_checks": 12,
+    "native_terminal_checks": 32,
+    "native_model_references_compared_identical": 491,
+    "saved_scene_checks": 9,
+    "spacer_pose_visibility_checks": 160,
+    "portability_checks": 106,
+    "rear_opening_checks": 44,
+    "rear_opening_rays": 974,
+    "drilled_models_checked": 489,
+    "spacers_neighbour_screened": 40,
+    "nearby_mesh_tests": 113,
+    "unexpected_spacer_contacts": 0,
+    "fresh_erc_errors": {
+      "mainboard": 0,
+      "ioboard": 0
+    }
+  },
+  "known_nominal_fit_findings_unchanged": 11,
+  "existing_missing_connections_unchanged": 3,
+  "limitations": [
+    "Independent drawing-derived illustration, not manufacturer CAD or exact historical fitted part",
+    "Central third-lead bore diameter, end-land outer radii and detailed retention tabs are unsized; central bore/end lands illustrated and compliant tabs omitted",
+    "Original BOM0.24-inch versus sequencer0.22-inch conflict persists; existing selected0.24-inch datum retained",
+    "Generic LED package and fitted material/tolerances remain unqualified"
+  ],
+  "physical_fit_qualified": false,
+  "reports": {
+    "native": "kicad-working/validation/working-validation-summary-revision-19.json",
+    "scene": "kicad-working/visualization/blender-case-revision-22/verification/final-saved-scene-audit.json",
+    "geometry": "kicad-working/validation/models-review-19/led-spacer-quality/installed-spacer-audit.json"
+  }
+}

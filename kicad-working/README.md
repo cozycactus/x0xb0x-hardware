@@ -1,11 +1,11 @@
-# x0xb0x KiCad working revision 18
+# x0xb0x KiCad working revision 19
 
-This revision corrects USB0 to the recovered original-BOM Kobiconn154-2442-E drawing: body0.38mm above PCB, signal projection2.91mm, board-lock projection3.72mm, insulated signal exits and illustrative gold mating strips. Revision17's TL1100F metal leg colours are preserved. Revision 16 rebuilt the Grayhill 25L rotary switches (S3, S4) from their drawing and a product photograph. Revision 15 gave 24 terminals of six models formed legs, so every drawing-derived terminal joins its body (15 references). Revision 14 corrected four terminal models against their drawings (12 references). Revision 13 added terminals to the 12 component models that had none: 25 placed references across both boards. Revision 12's corrected SDS-50J contact pattern and revision 11's historical transistor and resonator illustrations are preserved. Both editable projects retain all 491 fitted visual models. Electrical connectivity, copper routing, footprint placement, drills, model transforms, symbol libraries and project rules are unchanged.
+This revision adds40 VCC STD240B black spacers beneath the unchanged LED bodies and leads, from the detailed manufacturer drawing. The6.096mm seat and all existing LED transforms remain unchanged. Revision18 corrects USB0 to the recovered original-BOM Kobiconn154-2442-E drawing: body0.38mm above PCB, signal projection2.91mm, board-lock projection3.72mm, insulated signal exits and illustrative gold mating strips. Revision17's TL1100F metal leg colours are preserved. Revision 16 rebuilt the Grayhill 25L rotary switches (S3, S4) from their drawing and a product photograph. Revision 15 gave 24 terminals of six models formed legs, so every drawing-derived terminal joins its body (15 references). Revision 14 corrected four terminal models against their drawings (12 references). Revision 13 added terminals to the 12 component models that had none: 25 placed references across both boards. Revision 12's corrected SDS-50J contact pattern and revision 11's historical transistor and resonator illustrations are preserved. Both editable projects retain all 491 fitted visual models. Electrical connectivity, copper routing, footprint placement, drills, model transforms, symbol libraries and project rules are unchanged.
 
 - Mainboard: `mainboard/mainboard.kicad_pro`
 - I/O: `ioboard/ioboard.kicad_pro`
-- Current complete assembly: `visualization/blender-case-revision-21/x0xb0x-populated-with-case.blend`
-- Current model plan: `validation/models-review-18/combined-model-plan.json`
+- Current complete assembly: `visualization/blender-case-revision-22/x0xb0x-populated-with-case.blend`
+- Current model plan: `validation/models-review-19/combined-model-plan.json`
 - Source and model review: `validation/models-review-18/` (USB drawing correction), `validation/models-review-17/` (TL1100F colours), `validation/models-review-16/` (Grayhill rebuild), `validation/models-review-15/` (formed legs), `validation/models-review-14/` (corrections) and `validation/models-review-13/` (terminals)
 - Current validation: `validation/working-validation-summary.json`
 
@@ -60,3 +60,5 @@ The corrected 40 PCB-mounted LEDs and 23 PCB-attached button caps are preserved.
 Blender revision21 applies the corrected USB native geometry to the one preserved USB mesh object. A gold shader is the only added material; all other objects, poses, materials and geometry are preserved.
 
 The existing three PCB connection gaps and board/parity warnings remain documented. Models do not certify physical assembly, enclosure tolerances, cap travel, vendor identity or fabrication readiness. Earlier working notes are retained at `validation/README-revision-10.md`; original Eagle sources remain unchanged.
+
+Blender revision22 adds only40 spacer meshes and one black thermoplastic shader. All1681 previous objects, optical materials, poses and animation are preserved; evidence is in `visualization/blender-case-revision-22/verification/`.

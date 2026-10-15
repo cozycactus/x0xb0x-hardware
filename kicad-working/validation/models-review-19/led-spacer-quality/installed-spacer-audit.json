@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "check_count": 12,
+  "checks": [
+    {
+      "check": "Drawing total length includes end projections",
+      "passed": true,
+      "total_mm": 6.096
+    },
+    {
+      "check": "Drawing outside diameter retained",
+      "passed": true
+    },
+    {
+      "check": "Spacer has no volume overlap with unchanged LED part1",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Spacer has no volume overlap with unchanged LED part2",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Spacer has no volume overlap with unchanged LED part3",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "check": "Saved STEP has four valid positive solids",
+      "passed": true
+    },
+    {
+      "check": "Saved original LED part1 retained exactly",
+      "passed": true,
+      "changed_volume_mm3": 0.0
+    },
+    {
+      "check": "Saved original LED part2 retained exactly",
+      "passed": true,
+      "changed_volume_mm3": 0.0
+    },
+    {
+      "check": "Saved original LED part3 retained exactly",
+      "passed": true,
+      "changed_volume_mm3": 0.0
+    },
+    {
+      "check": "Spacer touches LED underside without overlap",
+      "passed": true
+    },
+    {
+      "check": "Original LED vertical assembly bounds retained",
+      "passed": true
+    },
+    {
+      "check": "Active board and saved scene inputs unchanged",
+      "passed": true
+    }
+  ],
+  "model": "LED5mm_STD240B_WithSpacer.step",
+  "model_sha256": "5a2ebfe46cfef093d90161faa047dd64c79ef5ec6b2508903e0902147afbda37",
+  "previous_model_sha256": "2a61af0d1b2a4ef8f4e8ddda40651a13ee141cf824938d16ae99e5583483d987",
+  "source": {
+    "file": "sources/vcc-std-series-datasheet.pdf",
+    "sha256": "b9895ba388404976a70f28bcb4da3dcef17c766b9bbf8a4647ce124e35ee8549",
+    "drawing": "STDxxxBLK_A rev001,2010-02-25",
+    "url": "https://www.alldatasheet.com/datasheet-pdf/pdf/606962/VCC/STD240BLK.html",
+    "retrieval": "User saved STD.PDF; preserved byte-for-byte"
+  },
+  "catalog": {
+    "file": "sources/vcc-mouser-catalog-646-page178.pdf",
+    "sha256": "ba9f781a6bd2302e038b4082115fddc845404fe5039d468e591709cce412b26c",
+    "url": "https://www.mouser.com/catalog/catalogusd/646/178.pdf"
+  },
+  "datum_resolution": "VCC section A-A specifies XXX as total length to bottom of end lands. STD240=6.096mm total; no LED lift required. The older catalog arrow visually excludes feet and is superseded by the detailed drawing.",
+  "dimensions_mm": {
+    "total_length": 6.096,
+    "outside_diameter": 5.08,
+    "lead_pitch": 2.54,
+    "two_lead_hole_diameter": 0.914,
+    "four_longitudinal_hole_diameter": 1.194,
+    "four_hole_xy_offsets": [
+      1.27,
+      1.27
+    ],
+    "recess_top_diameter": 4.064,
+    "recess_bottom_diameter": 3.226,
+    "recess_depth": 1.397,
+    "end_land_height": 0.254
+  },
+  "limitations": [
+    "Independent drawing-derived illustration, not manufacturer CAD or exact historical fitted part",
+    "Central third-lead bore diameter, end-land outer radii and detailed retention tabs are unsized; central bore/end lands illustrated and compliant tabs omitted",
+    "Original BOM0.24-inch versus sequencer0.22-inch conflict persists; existing selected0.24-inch datum retained",
+    "Generic LED package and fitted material/tolerances remain unqualified"
+  ],
+  "physical_fit_qualified": false
+}

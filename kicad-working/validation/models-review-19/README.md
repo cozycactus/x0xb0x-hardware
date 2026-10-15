@@ -1,0 +1,9 @@
+# KiCad working revision19 — LED spacers
+
+All40 LED models now include a black VCC STD240B spacer reconstructed from the user-supplied manufacturer drawing STDxxxBLK_A rev001 (2010-02-25). The detailed section A-A includes the0.010-inch end lands in the part's XXX length. STD240 therefore remains6.096mm overall; the older catalog sketch's ambiguous arrow is superseded. The original LED height, lens, full-width leads and model transforms remain unchanged.
+
+The spacer follows the5.08mm outside diameter,2.54mm lead pitch,0.914mm two lead bores, four1.194mm longitudinal holes,4.064-to3.226mm tapered top recess and1.397mm recess depth. The central third-lead bore diameter and end-land outer radii remain illustrations; compliant retention tabs are omitted. Original BOM0.24-inch versus sequencer0.22-inch spacing remains an unresolved historical variant.
+
+`led-spacer-quality/installed-spacer-audit.json` passes12 BRep checks, including exact retention of the three original LED solids and zero spacer overlap with either lead or lens. Both downloaded PDFs are preserved byte-for-byte under `led-spacer-quality/sources/`. They lack embedded fonts; substitute Arial when rendering to read the detailed dimension callouts. The source documents retain their publisher rights; spacer reconstruction is CC0-1.0 and retained KiCad LED geometry keeps its original license.
+
+The only native file changes are40 model paths in the main PCB and one cache path. Installation evidence checks every non-model node and model transform. Fresh KiCad10.0.7 ERC reports0 errors/0 warnings under retained rules, and DRC violations/parity match revision18. The three existing missing connections persist. Native lead checks pass32 checks across491 models;11 known nominal fit findings remain. See `../working-validation-summary-revision-19.json`. Physical fit remains unqualified.

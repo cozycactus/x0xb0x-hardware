@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "kicad_version": "10.0.7",
+  "boards": {
+    "ioboard": {
+      "pcb": "ioboard/ioboard.kicad_pcb",
+      "pcb_sha256": "eb0a2bfb3728f049a483f49eae1a2e0ca147d1bf2a7679155f791745bbf38107",
+      "pcb_unchanged": true,
+      "command": [
+        "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+        "pcb",
+        "export",
+        "glb",
+        "--force",
+        "--no-board-body",
+        "--user-origin",
+        "0x0mm",
+        "-o",
+        "<kicad-working>/validation/models-review-19/native-probes/ioboard.glb",
+        "<kicad-working>/ioboard/ioboard.kicad_pcb"
+      ],
+      "glb": "native-probes/ioboard.glb",
+      "glb_sha256": "bf62987d3fb21fcae6f3390601abce54d6929c4d813a5df30d43ec1c31a6be11",
+      "glb_bytes": 2134276
+    },
+    "mainboard": {
+      "pcb": "mainboard/mainboard.kicad_pcb",
+      "pcb_sha256": "c3013242c3c69322ad8e7401ad9bb4e5b2ffeac050ff9d3a69afbb8b5fbe5fad",
+      "pcb_unchanged": true,
+      "command": [
+        "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+        "pcb",
+        "export",
+        "glb",
+        "--force",
+        "--no-board-body",
+        "--user-origin",
+        "0x0mm",
+        "-o",
+        "<kicad-working>/validation/models-review-19/native-probes/mainboard.glb",
+        "<kicad-working>/mainboard/mainboard.kicad_pcb"
+      ],
+      "glb": "native-probes/mainboard.glb",
+      "glb_sha256": "3d5e14a4b7217159cddc64ae59c1311555e2d22efef2f9d918400e410e61df02",
+      "glb_bytes": 5658388
+    }
+  },
+  "pads_sha256": "6a64c6228a95fc973908eb28bc36aa3b101b016cc5939b032ac448214b8137b1",
+  "exports_tracked": false,
+  "note": "GLB exports are regenerated from the tracked PCBs; only their hashes are recorded."
+}
