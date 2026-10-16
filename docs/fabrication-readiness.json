@@ -1,14 +1,14 @@
 {
  "schema": 1,
  "snapshot_date": "2026-10-17",
- "KiCad_revision": 25,
- "validation_summary": "kicad-working/validation/working-validation-summary-revision-25.json",
- "report": "kicad-working/validation/models-review-25/fabrication-comparison/README.md",
+ "KiCad_revision": 26,
+ "validation_summary": "kicad-working/validation/working-validation-summary-revision-26.json",
+ "report": "kicad-working/validation/models-review-26/README.md",
  "inputs": {
   "kicad_cli": "10.0.7",
   "kicad_pcb_sha256": {
-   "mainboard": "3f3078cab85c68ee183c66d91b62542f9944fccb47e64915daf233def1ccbddd",
-   "ioboard": "a59e7210311f09e44d8053e74983006412cd6c8438f29824dea6369efb394683"
+   "mainboard": "b32b1a958ee3bbd62f46ab448a08a10f2efca09b08919cd7aedafde2eadeb0d9",
+   "ioboard": "139496616118e1700db0bac75f35cde6c79e7d2c78867857a9e47ea858eac923"
   },
   "original_eagle_sha256": {
    "mainboard.brd": "7863511de317332f07139589a62596d70a95cc84ea67242f928fd178db2cba0e",
@@ -70,7 +70,7 @@
    ]
   ]
  },
- "verdict": "Drills, copper tracks and arcs, vias, all pads except 27 SIP9 pads, pour outlines and connectivity, paste and non-text silkscreen reproduce the original Eagle 4.13 boards. No difference blocks ordering; the differences listed below await the owner's decision.",
+ "verdict": "Drills, copper tracks and arcs, vias, every pad, pour outlines and connectivity, paste, all silkscreen geometry and every name label (position and printed name) reproduce the original Eagle 4.13 boards. No difference blocks ordering; the mask and tenting differences listed below await the owner's decision.",
  "layers": {
   "mainboard": {
    "drills": {
@@ -83,11 +83,9 @@
     "max_position_error_mm": 0.0006
    },
    "F_Cu pads/vias": {
-    "matched": 1182,
+    "matched": 1209,
     "expected": 1209,
-    "differences": {
-     "size": 27
-    }
+    "differences": {}
    },
    "F_Cu tracks": {
     "matched": 484,
@@ -95,11 +93,9 @@
     "differences": {}
    },
    "B_Cu pads/vias": {
-    "matched": 1182,
+    "matched": 1209,
     "expected": 1209,
-    "differences": {
-     "size": 27
-    }
+    "differences": {}
    },
    "B_Cu tracks": {
     "matched": 2768,
@@ -107,17 +103,17 @@
     "differences": {}
    },
    "F_Mask": {
-    "matched": 1176,
+    "matched": 1203,
     "expected": 1210,
     "differences": {
-     "size": 34
+     "size": 7
     }
    },
    "B_Mask": {
-    "matched": 1176,
+    "matched": 1203,
     "expected": 1210,
     "differences": {
-     "size": 34
+     "size": 7
     }
    },
    "F_Paste": {
@@ -154,9 +150,9 @@
     "strokes_outside_texts": 0,
     "texts": {
      "eagle": 345,
-     "same_anchor": 17,
-     "moved": 324,
-     "renamed": 4
+     "same_anchor": 345,
+     "moved": 0,
+     "renamed": 0
     }
    },
    "B_Silkscreen": {
@@ -175,8 +171,8 @@
     "strokes_outside_texts": 0,
     "texts": {
      "eagle": 166,
-     "same_anchor": 118,
-     "moved": 48,
+     "same_anchor": 166,
+     "moved": 0,
      "renamed": 0
     }
    }
@@ -257,9 +253,9 @@
     "strokes_outside_texts": 0,
     "texts": {
      "eagle": 87,
-     "same_anchor": 8,
-     "moved": 72,
-     "renamed": 7
+     "same_anchor": 87,
+     "moved": 0,
+     "renamed": 0
     }
    },
    "B_Silkscreen": {
@@ -278,8 +274,8 @@
     "strokes_outside_texts": 0,
     "texts": {
      "eagle": 1,
-     "same_anchor": 0,
-     "moved": 1,
+     "same_anchor": 1,
+     "moved": 0,
      "renamed": 0
     }
    }
@@ -305,9 +301,13 @@
     1.408,
     2.816
    ],
-   "kicad_mm": [
+   "kicad_mm_before": [
     1.4,
     2.032
+   ],
+   "kicad_mm": [
+    1.408,
+    2.816
    ],
    "cause": "Importer elongated the 1.016 mm library diameter instead of the restrung 1.408 mm width.",
    "locations": [
@@ -420,7 +420,8 @@
      107.4928
     ]
    ],
-   "changed": false
+   "changed": true,
+   "revision": 26
   },
   {
    "item": "NPTH stop-mask opening",
@@ -500,12 +501,18 @@
     "F_Silkscreen",
     "B_Silkscreen"
    ],
-   "moved": {
+   "restored": {
+    "mainboard": 381,
+    "ioboard": 80
+   },
+   "moved_before": {
     "mainboard": 372,
     "ioboard": 73
    },
-   "evidence": "Production I/O photograph matches the Eagle smashed positions (J3, J4, R164).",
-   "changed": false
+   "moved": 0,
+   "evidence": "Eagle smashed name records (position, rotation, layer; size doubled from the stored half size). The production I/O photograph matches (J3, J4, R164; J3 at the 1.27 mm height of its package texts).",
+   "changed": true,
+   "revision": 26
   },
   {
    "item": "Renamed references",
@@ -529,8 +536,9 @@
      "HEADPHONE"
     ]
    },
-   "kicad": "trailing 0 appended",
-   "changed": false
+   "kicad": "Reference unchanged (trailing 0 kept) and hidden; a footprint text prints the Eagle name at the smashed position.",
+   "changed": true,
+   "revision": 26
   },
   {
    "item": "Outline details",
@@ -715,14 +723,26 @@
   },
   "DRC_comparison": {
    "mainboard": {
-    "violations": true,
+    "non_silkscreen_violations_identical": true,
+    "non_silkscreen_violations": 48,
     "schematic_parity": true,
     "ignored_checks": true,
+    "silkscreen_warnings_previous": {
+     "silk_edge_clearance": 2,
+     "silk_over_copper": 199,
+     "silk_overlap": 199
+    },
+    "silkscreen_warnings_fresh": {
+     "silk_over_copper": 199,
+     "silk_overlap": 88
+    },
+    "silkscreen_types_truncated_at_report_limit": [
+     "silk_over_copper",
+     "silk_overlap"
+    ],
+    "silkscreen_pairs_new_in_complete_types": [],
     "unconnected_items_raw": false,
     "unconnected_nets_previous": [
-     [
-      "+5V"
-     ],
      [
       "GND"
      ]
@@ -734,10 +754,40 @@
     ]
    },
    "ioboard": {
-    "violations": true,
+    "non_silkscreen_violations_identical": true,
+    "non_silkscreen_violations": 7,
     "schematic_parity": true,
     "ignored_checks": true,
-    "unconnected_items_raw": false,
+    "silkscreen_warnings_previous": {
+     "silk_edge_clearance": 47,
+     "silk_over_copper": 199,
+     "silk_overlap": 95
+    },
+    "silkscreen_warnings_fresh": {
+     "silk_edge_clearance": 46,
+     "silk_over_copper": 199,
+     "silk_overlap": 17
+    },
+    "silkscreen_types_truncated_at_report_limit": [
+     "silk_over_copper"
+    ],
+    "silkscreen_pairs_new_in_complete_types": [
+     {
+      "type": "silk_overlap",
+      "items": [
+       "Arc of XTL2 on F.Silkscreen",
+       "Reference field of R12"
+      ]
+     },
+     {
+      "type": "silk_overlap",
+      "items": [
+       "Footprint text of J5 (1)",
+       "Reference field of C8"
+      ]
+     }
+    ],
+    "unconnected_items_raw": true,
     "unconnected_nets_previous": [
      [
       "GND"
@@ -752,22 +802,23 @@
   }
  },
  "unchanged": [
-  "copper",
-  "pads",
   "drills",
+  "tracks",
+  "vias",
   "nets",
   "zones",
   "footprint placement",
   "3D models",
-  "I/O project",
+  "schematics",
   "original Eagle files",
   "Blender scene"
  ],
  "limitations": [
-  "Recorded DRC warnings (silkscreen overlaps and edge clearance, dangling track stubs carried from the Eagle source) and schematic-parity warnings remain unchanged.",
+  "Silkscreen DRC warnings decrease with the restored label positions; KiCad reports at most 199 items of one type, so truncated types are compared by count only. Other recorded DRC warnings (dangling track stubs carried from the Eagle source) and schematic-parity warnings are unchanged.",
   "Two GND connection items remain by design: the original analog/digital mainboard ground split and the I/O jack-ground island, both unrouted airwires in the original Eagle boards and joined through the J3-J7 board-to-board wiring.",
   "The B3F-40XX internal strips (1-2, 3-4) follow the original Eagle symbol and the design's use of them; the Omron drawing itself was not retrieved.",
-  "Gerber differences from the original Eagle CAM semantics are recorded, not corrected: SIP9 pad length, reference-label positions and names, NPTH stop frame, SMD mask corner radius and via tenting.",
+  "The smashed name records store half the text size, as Eagle's text records do; the conversion's staging XML does not double it. Doubled sizes equal the library label sizes (C3 and C5 on the I/O board excepted) and the production I/O photograph shows J3 at the 1.27 mm of its package texts.",
+  "Gerber differences from the original Eagle CAM semantics still recorded, not corrected: NPTH stop frame, SMD mask corner radius and via tenting.",
   "Eagle polygon pours are compared by outline, settings and connectivity; Eagle 4.13 pour fill geometry (thermal spokes, isolation) was not regenerated.",
   "Nominal model checks and the Gerber comparison do not establish physical assembly; fabrication equivalence is to the original Eagle data, not to an inspected production board."
  ],

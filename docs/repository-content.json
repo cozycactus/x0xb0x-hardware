@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source_snapshot_date": "2026-10-17",
-  "scope": "Current private snapshot: KiCad working25 and Blender27. KiCad25 compares both boards' Gerbers and drills with the original Eagle 4.13 boards and declares the B3F-40XX switch strips as jumper pad groups; copper and the I/O project are unchanged. The17 ICs carry printed markings transcribed from the kit photographs; IC3 and IC2 sit in TE models of their original-BOM sockets; all212 fixed resistors carry the original kit colour bands; all39 radial electrolytics use Xicon XRL bodies. Original PCB/model transforms and all other components, LED spacers, complete enclosure and animation preserved. Immutable Blender7 through26 comparison baselines and source evidence retained. Probes, caches and redundant exports excluded.",
+  "scope": "Current private snapshot: KiCad working26 and Blender27. KiCad26 gives the 27 SIP9 pads Eagle's 1.408x2.816mm size and puts the 461 name labels at the original smashed positions, with the Eagle names for the 11 references KiCad ends in 0; KiCad25 compares both boards' Gerbers and drills with the original Eagle 4.13 boards and declares the B3F-40XX switch strips as jumper pad groups. The17 ICs carry printed markings transcribed from the kit photographs; IC3 and IC2 sit in TE models of their original-BOM sockets; all212 fixed resistors carry the original kit colour bands; all39 radial electrolytics use Xicon XRL bodies. Original PCB/model transforms and all other components, LED spacers, complete enclosure and animation preserved. Immutable Blender7 through26 comparison baselines and source evidence retained. Probes, caches and redundant exports excluded.",
   "files": {
     ".gitattributes": {
       "bytes": 190,
@@ -17,15 +17,15 @@
     },
     "PROJECT.json": {
       "bytes": 2185,
-      "sha256": "e538ce4d64999f34b56bb9223973375819f9cd76b3ea0c22087905f1f7990cd2"
+      "sha256": "5f03e623726fd8a4af51f35c8a476a6a050e3ea212985a527a5c5ec4bef98e95"
     },
     "README.md": {
-      "bytes": 27108,
-      "sha256": "f8acb5f3ab8b0500d9953ca1529ac65df8d2379aac46200a2fb12a96c0295d11"
+      "bytes": 27821,
+      "sha256": "172d67b053851d32e36b0df0d477ee42a63fd6b37fefe118dad9ce8e86d074aa"
     },
     "docs/OPENING.md": {
       "bytes": 7914,
-      "sha256": "4db10145e1cee15cc08997e829c9b8e087ae0a444515e3f456ef7a003ed31fb2"
+      "sha256": "ec126a664fd1709915843001845cd12c09be65f3280ed0e984e6f499ba82f23b"
     },
     "docs/din-contact-correction.json": {
       "bytes": 8848,
@@ -48,8 +48,8 @@
       "sha256": "c85b1ca281ddcec35b17e6a7cab5c00fe9272b72b4b6338b60ab9406aa57d8b9"
     },
     "docs/fabrication-readiness.json": {
-      "bytes": 14426,
-      "sha256": "6bce7c0b9845513151539bbbc5dadd226873300d0da0f6b87cc29bcde8f7dc76"
+      "bytes": 16321,
+      "sha256": "73f21bb45b467143b88252bb3d8dc985178a4582257491f8701614cf33b0fbf6"
     },
     "docs/fresh-clone-verification.json": {
       "bytes": 2610,
@@ -200,8 +200,8 @@
       "sha256": "282b88df6e2fed1d85d2057c10ecfbaee7be45a2e85a9614167fe06266b4cc6a"
     },
     "kicad-working/README.md": {
-      "bytes": 15346,
-      "sha256": "c105f345f0a2e87df0ffba17aa8d367aad1da7844626bed271dbf9314db65807"
+      "bytes": 15889,
+      "sha256": "779c6617ee2db677108cf06ecb28b8f0ce6066c515e404e5d3caf6910d2ff361"
     },
     "kicad-working/ioboard/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step": {
       "bytes": 140022,
@@ -772,8 +772,8 @@
       "sha256": "20ca4b7f1a0df706c927f685b10f76f7e7cd00d1488b0f2546c7ba3952980b8c"
     },
     "kicad-working/ioboard/ioboard.kicad_pcb": {
-      "bytes": 959874,
-      "sha256": "a59e7210311f09e44d8053e74983006412cd6c8438f29824dea6369efb394683"
+      "bytes": 961663,
+      "sha256": "139496616118e1700db0bac75f35cde6c79e7d2c78867857a9e47ea858eac923"
     },
     "kicad-working/ioboard/ioboard.kicad_pro": {
       "bytes": 18372,
@@ -1620,8 +1620,8 @@
       "sha256": "e85eb19162ee758aa18790f2e2cc30629aec67aac070760dccf3d321f4ed1bbf"
     },
     "kicad-working/mainboard/mainboard-import-fps.pretty/SIP9.kicad_mod": {
-      "bytes": 4106,
-      "sha256": "fd2162f50298bcac99197e429d3a041cfb040635968859e979d814b8b7f24f6c"
+      "bytes": 4115,
+      "sha256": "4fad263ce898106ba175c887f9fa0727e4047abd78a928e32dd2fb324a567bd8"
     },
     "kicad-working/mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod": {
       "bytes": 3244,
@@ -1632,8 +1632,8 @@
       "sha256": "99da721afd86004a7dc19853af8b9a52c1c66e308941fb7162e97d8d30bfc717"
     },
     "kicad-working/mainboard/mainboard.kicad_pcb": {
-      "bytes": 4858859,
-      "sha256": "3f3078cab85c68ee183c66d91b62542f9944fccb47e64915daf233def1ccbddd"
+      "bytes": 4859745,
+      "sha256": "b32b1a958ee3bbd62f46ab448a08a10f2efca09b08919cd7aedafde2eadeb0d9"
     },
     "kicad-working/mainboard/mainboard.kicad_pro": {
       "bytes": 18381,
@@ -4491,6 +4491,138 @@
       "bytes": 5463,
       "sha256": "66f2ed637d44d7f5a5491190d33b863bf5e8a280f91c5ec02396a5291146471d"
     },
+    "kicad-working/validation/models-review-26/README.md": {
+      "bytes": 4433,
+      "sha256": "9d372d783da859bda48b35967f7b64055af7ed50061d5997b16475d133ab9b88"
+    },
+    "kicad-working/validation/models-review-26/apply_name_records.py": {
+      "bytes": 4249,
+      "sha256": "a78556603435753e3cd319dccd9abacfa018ce2f59364da7aefc101b5471b9fd"
+    },
+    "kicad-working/validation/models-review-26/current-function-source-evidence.json": {
+      "bytes": 41696,
+      "sha256": "0c2d876fec8c09b1f0017611342cda357ae599ab80e5744504ee4ab3773a6b71"
+    },
+    "kicad-working/validation/models-review-26/current-function-verification.json": {
+      "bytes": 26583,
+      "sha256": "8d0cf85a01e20105d6e8c879be023400da2eada3b47806ef6f5436ef857763eb"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/compare.py": {
+      "bytes": 15414,
+      "sha256": "b741c6d62c5e7076a1fa0827f2b2e75c6163722263c0b841f54c702341c45803"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/connection-gap-review.json": {
+      "bytes": 7129,
+      "sha256": "78a17a3569f24eddf2d1cca6d16801f2885f6a229e1d5c351c16351ee5346d16"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/connection_gaps.py": {
+      "bytes": 4561,
+      "sha256": "92841469fd7a9f92ed33aac2d72abfb01fc02349df92190e38c7f02d99ac1b6a"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/drills.py": {
+      "bytes": 936,
+      "sha256": "55944d79d2bbc1b91cac66ade9eacdb5c94fd2556420009a6ce0591824b1bbfc"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/eagle_islands.py": {
+      "bytes": 3458,
+      "sha256": "cb71098de755bc3113195b21864b6713d1879faace7a068edd79f5f10b0818e9"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/eagle_model.py": {
+      "bytes": 10637,
+      "sha256": "3fd4f700bb01ee797fccdd572af1e8d67f777cbab202aac2baba409f648eac61"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/excellon.py": {
+      "bytes": 959,
+      "sha256": "2e706b5a9ba79564fb126be1abf9604a8b73ca3b713e9b24fb82b8e3b90c3554"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/gerber-comparison.json": {
+      "bytes": 34152,
+      "sha256": "23252bcdce6624aebe4bd52ffa5480cfa3427becd2d072069f2317288117ad02"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/gerber.py": {
+      "bytes": 5726,
+      "sha256": "b6c76ad46a32203ed3a499c6e57d8960a2c5d5b5a0252f3f8ed9c591758ced68"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/kicad_extract.py": {
+      "bytes": 4496,
+      "sha256": "dd018da520601328a061a0f34e5c2408975a7c221175785bf86c2bde48c00e08"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/run_comparison.py": {
+      "bytes": 4459,
+      "sha256": "a21db9926ba77774059ebf3de702499abdab677736e3e2122799c971cfff285a"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/silk.py": {
+      "bytes": 5013,
+      "sha256": "0f7844d15b116e68f3c763acdee009dab92075a64941ccd5df8b9525aabb8f70"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/source-decode-crosscheck.json": {
+      "bytes": 2808,
+      "sha256": "a429345264dd829d7ac631ac2b3ace8f7df9ea3db07639aa62057ad34f59e4c0"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/source_crosscheck.py": {
+      "bytes": 3346,
+      "sha256": "a284701fc47c873fe6f22bb8e9ac8e538f25c8541b1210a94d0d0228ce6f394f"
+    },
+    "kicad-working/validation/models-review-26/fabrication-comparison/zones.py": {
+      "bytes": 3360,
+      "sha256": "a7faa0bff5a89aad5c203254249766bd9d6f395a6a21ea5ba7f82d6abce1a4d3"
+    },
+    "kicad-working/validation/models-review-26/install_sip9_pads_and_name_labels.py": {
+      "bytes": 9437,
+      "sha256": "ccfcb740ce92e0921462b98f896618a8c412b8ec7a372da9b5b7559f014a82d4"
+    },
+    "kicad-working/validation/models-review-26/installation-audit.json": {
+      "bytes": 367459,
+      "sha256": "bc025f580ee9d2661dd59fa4f0bcf19794da70679bedec8b447809bd69053ceb"
+    },
+    "kicad-working/validation/models-review-26/ioboard-drc.json": {
+      "bytes": 234640,
+      "sha256": "2baf4aa5c6c09096515381ef07c69c3bf860a2ae6aee9d65c51f4416f023fc0d"
+    },
+    "kicad-working/validation/models-review-26/ioboard-erc.json": {
+      "bytes": 1001,
+      "sha256": "6855ad42f50e044c47c9430e3c94342bc47cd35f317476d9a53890e8ba06d9f0"
+    },
+    "kicad-working/validation/models-review-26/local-dependencies.json": {
+      "bytes": 1518,
+      "sha256": "ea2df2aeb58362e19b038f0d824f6b4dad913cd95d2826d44848bbff8f23bfcf"
+    },
+    "kicad-working/validation/models-review-26/mainboard-drc.json": {
+      "bytes": 311350,
+      "sha256": "cbd1aa82ec570b778aa63e7d2ab8f50e0933d4347d64322d027baae45f874602"
+    },
+    "kicad-working/validation/models-review-26/mainboard-erc.json": {
+      "bytes": 1003,
+      "sha256": "df0f144e1f21881fd63f60571f6d69fb5828dda1487696f0187fd1cb37b62954"
+    },
+    "kicad-working/validation/models-review-26/native-run-records.json": {
+      "bytes": 3251,
+      "sha256": "dec06a74e16c00f824eb32dde86f6879a6b174fcfb139d3306a6899ce811efb9"
+    },
+    "kicad-working/validation/models-review-26/run_native_checks.py": {
+      "bytes": 2599,
+      "sha256": "52d56c7d1f5db8fc8f3550f7894470b8c7d14e3d0eb98af842a2d1c66cfc7da1"
+    },
+    "kicad-working/validation/models-review-26/summarize_working_validation.py": {
+      "bytes": 12662,
+      "sha256": "97477a7028e9ed2b686d415493c6a0861b579df8fe76da08b7a332f47f1a9723"
+    },
+    "kicad-working/validation/models-review-26/update_function_evidence.py": {
+      "bytes": 1494,
+      "sha256": "850a3fc17831ef0b37ce4e937e40fa7ac5aa33c134f49e989d562086253428c9"
+    },
+    "kicad-working/validation/models-review-26/verify_current_functions.py": {
+      "bytes": 1008,
+      "sha256": "e7febdd76e90f604c9050cbfcc3b7f0ea2b1bafc7866a78f4958aff31dbf5be3"
+    },
+    "kicad-working/validation/models-review-26/verify_name_labels.py": {
+      "bytes": 4695,
+      "sha256": "ea535b7d9be84cd1e6c794e9fb016b59fd5fb969ea68360bc8bf904b43673b21"
+    },
+    "kicad-working/validation/models-review-26/write_fabrication_record.py": {
+      "bytes": 4548,
+      "sha256": "e3251a958f360eb50c795e46d5bb2306831f8869073b33f50549e8a9c55f5ea1"
+    },
     "kicad-working/validation/nys216-hardware-quality/README.md": {
       "bytes": 4605,
       "sha256": "9624913389c724670454900b6177f99029051f5cd249d2fe7d24f41e86e3bad5"
@@ -4719,9 +4851,13 @@
       "bytes": 78051,
       "sha256": "03e773f6dde1e42d79f27238077223a72ab89219fd18ee7b607170eb1c9931e8"
     },
+    "kicad-working/validation/working-validation-summary-revision-26.json": {
+      "bytes": 79954,
+      "sha256": "c98b087a87f90046ddf4abe88a7d9c8f62a91109e400f072b303a6cdc13876c8"
+    },
     "kicad-working/validation/working-validation-summary.json": {
-      "bytes": 78051,
-      "sha256": "03e773f6dde1e42d79f27238077223a72ab89219fd18ee7b607170eb1c9931e8"
+      "bytes": 79954,
+      "sha256": "c98b087a87f90046ddf4abe88a7d9c8f62a91109e400f072b303a6cdc13876c8"
     },
     "kicad-working/visualization/blender-case-revision-10/README.md": {
       "bytes": 3553,
@@ -10108,5 +10244,5 @@
       "sha256": "9e3b4c0ac2769c16fc1ec163b3889fc0fae7db6849794d3b28b5aa39c0247efb"
     }
   },
-  "verification_note": "KiCad25 evidence covers a Gerber/Excellon comparison with the original Eagle boards on every layer (drills, copper, pours, mask, paste, silkscreen, outline), the three recorded connection gaps against the Eagle airwires and the J3-J7 wiring, a byte-level installation audit of the jumper pad groups, and fresh ERC/DRC for both boards equal to the previous reports except the closed +5V item. Current Blender27 evidence covers complete saved-file comparison with revision26 (12 checks), 491 KiCad-vs-scene model matches, drill fit on 489 drilled models, 133 terminal pieces joined to their bodies, 974 rear rays, 106 portability checks, a contact screen with no new contact and same-camera before/after details. KiCad24 evidence, unchanged in model content, covers 60 marking-model checks, native ink checks on all17 ICs, a native lead and drill-fit audit with 11 unchanged nominal interferences, and fresh ERC/DRC for both boards equal to the previous reports. No physical-fit qualification."
+  "verification_note": "KiCad26 evidence covers a byte-level installation audit of the SIP9 pad sizes and reference-label nodes, a check of all 461 printed labels against the Eagle name records, the re-run Gerber/Excellon comparison (every pad and silkscreen text now matching the original Eagle CAM output), and fresh ERC/DRC for both boards with non-silkscreen violations identical to the previous reports and fewer silkscreen warnings. KiCad25 evidence covers a Gerber/Excellon comparison with the original Eagle boards on every layer (drills, copper, pours, mask, paste, silkscreen, outline), the three recorded connection gaps against the Eagle airwires and the J3-J7 wiring, a byte-level installation audit of the jumper pad groups, and fresh ERC/DRC for both boards equal to the previous reports except the closed +5V item. Current Blender27 evidence covers complete saved-file comparison with revision26 (12 checks), 491 KiCad-vs-scene model matches, drill fit on 489 drilled models, 133 terminal pieces joined to their bodies, 974 rear rays, 106 portability checks, a contact screen with no new contact and same-camera before/after details. KiCad24 evidence, unchanged in model content, covers 60 marking-model checks, native ink checks on all17 ICs, a native lead and drill-fit audit with 11 unchanged nominal interferences, and fresh ERC/DRC for both boards equal to the previous reports. No physical-fit qualification."
 }

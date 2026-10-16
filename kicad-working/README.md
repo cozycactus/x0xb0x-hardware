@@ -1,4 +1,6 @@
-# x0xb0x KiCad working revision 25
+# x0xb0x KiCad working revision 26
+
+Revision26 gives the 27 SIP9 pads of IC14, IC15A and IC15B Eagle's restrung and elongated 1.408x2.816mm size, and places the reference labels of the 461 parts with an Eagle smashed name record at that record's position, rotation, size and layer. The 11 references KiCad ends with 0 keep their reference, hidden, and print the Eagle name through a footprint text. Drills, tracks, vias, nets, zones, placement, models and schematics are unchanged. See `validation/models-review-26/`.
 
 Revision25 compares both boards' Gerbers and drills with the original Eagle 4.13 boards and declares the internal 1-2/3-4 strips of the 23 B3F-40XX switches as KiCad jumper pad groups. Through S19 and S22 those strips close the recorded S22 +5V gap; the two remaining GND gaps are the original's drawn ground splits, joined through the J3-J7 wiring. Copper, pads, drills, nets, zones, placement, models and the I/O project are unchanged. See `validation/models-review-25/`.
 
@@ -8,6 +10,7 @@ Revision24 prints the part markings of the17 ICs, transcribed from the kit photo
 - I/O: `ioboard/ioboard.kicad_pro`
 - Current complete assembly: `visualization/blender-case-revision-27/x0xb0x-populated-with-case.blend`
 - Current model plan: `validation/models-review-24/combined-model-plan.json`
+- SIP9 pads and name labels: `validation/models-review-26/`
 - Fabrication comparison and connection gaps: `validation/models-review-25/`
 - Source and model review: `validation/models-review-24/` (IC markings), `validation/models-review-23/` (IC sockets), `validation/models-review-22/` (resistor bands), `validation/models-review-21/` (XRL electrolytics), `validation/models-review-20/` (PTC dimensions), `validation/models-review-18/` (USB drawing correction), `validation/models-review-17/` (TL1100F colours), `validation/models-review-16/` (Grayhill rebuild), `validation/models-review-15/` (formed legs), `validation/models-review-14/` (corrections) and `validation/models-review-13/` (terminals)
 - Current validation: `validation/working-validation-summary.json`

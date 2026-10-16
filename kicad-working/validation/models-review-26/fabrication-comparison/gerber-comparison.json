@@ -1,0 +1,1955 @@
+{
+ "inputs": {
+  "kicad_cli": "10.0.7",
+  "kicad_pcb_sha256": {
+   "mainboard": "b32b1a958ee3bbd62f46ab448a08a10f2efca09b08919cd7aedafde2eadeb0d9",
+   "ioboard": "139496616118e1700db0bac75f35cde6c79e7d2c78867857a9e47ea858eac923"
+  },
+  "original_eagle_sha256": {
+   "mainboard.brd": "7863511de317332f07139589a62596d70a95cc84ea67242f928fd178db2cba0e",
+   "ioboard.brd": "76b6d3c1b71adafd8b84ae0141f78a480a07d13c3eb908694f8cd212c833270e"
+  },
+  "eagle_staging_xml_sha256": {
+   "mainboard.brd": "74a86e7a3577cd909b6cc9b10ba6e52208e9765091cb5cb98ed9696d050e86ec",
+   "ioboard.brd": "5cf8a750ca05350712c991a296348b0f06c9124a382659435675afd91980ce95"
+  },
+  "eagle_parser_record_table_sha256": "972b3474b6fbc273e042cd71b2021cc03e14dff73725eb9881efb082dd84ef9b",
+  "commands": [
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "gerbers",
+    "--board-plot-params",
+    "-o",
+    "<temporary>/gerbers/mainboard/",
+    "<kicad-working>/mainboard/mainboard.kicad_pcb"
+   ],
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "drill",
+    "--format",
+    "excellon",
+    "--excellon-separate-th",
+    "--excellon-units",
+    "mm",
+    "-o",
+    "<temporary>/gerbers/mainboard/",
+    "<kicad-working>/mainboard/mainboard.kicad_pcb"
+   ],
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "gerbers",
+    "--board-plot-params",
+    "-o",
+    "<temporary>/gerbers/ioboard/",
+    "<kicad-working>/ioboard/ioboard.kicad_pcb"
+   ],
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "drill",
+    "--format",
+    "excellon",
+    "--excellon-separate-th",
+    "--excellon-units",
+    "mm",
+    "-o",
+    "<temporary>/gerbers/ioboard/",
+    "<kicad-working>/ioboard/ioboard.kicad_pcb"
+   ]
+  ]
+ },
+ "generated_files": {
+  "mainboard": {
+   "mainboard-B_Cu.gbr": {
+    "bytes": 221824
+   },
+   "mainboard-B_Mask.gbr": {
+    "bytes": 38194
+   },
+   "mainboard-B_Paste.gbr": {
+    "bytes": 454
+   },
+   "mainboard-B_Silkscreen.gbr": {
+    "bytes": 264247
+   },
+   "mainboard-Edge_Cuts.gbr": {
+    "bytes": 620
+   },
+   "mainboard-F_Cu.gbr": {
+    "bytes": 2196977
+   },
+   "mainboard-F_Mask.gbr": {
+    "bytes": 38194
+   },
+   "mainboard-F_Paste.gbr": {
+    "bytes": 454
+   },
+   "mainboard-F_Silkscreen.gbr": {
+    "bytes": 834265
+   },
+   "mainboard-NPTH.drl": {
+    "bytes": 439
+   },
+   "mainboard-PTH.drl": {
+    "bytes": 20011
+   },
+   "mainboard-job.gbrjob": {
+    "bytes": 2709
+   }
+  },
+  "ioboard": {
+   "ioboard-B_Cu.gbr": {
+    "bytes": 40458
+   },
+   "ioboard-B_Mask.gbr": {
+    "bytes": 9519
+   },
+   "ioboard-B_Paste.gbr": {
+    "bytes": 1283
+   },
+   "ioboard-B_Silkscreen.gbr": {
+    "bytes": 2755
+   },
+   "ioboard-Edge_Cuts.gbr": {
+    "bytes": 860
+   },
+   "ioboard-F_Cu.gbr": {
+    "bytes": 426115
+   },
+   "ioboard-F_Mask.gbr": {
+    "bytes": 7779
+   },
+   "ioboard-F_Paste.gbr": {
+    "bytes": 452
+   },
+   "ioboard-F_Silkscreen.gbr": {
+    "bytes": 174121
+   },
+   "ioboard-NPTH.drl": {
+    "bytes": 264
+   },
+   "ioboard-PTH.drl": {
+    "bytes": 4420
+   },
+   "ioboard-job.gbrjob": {
+    "bytes": 2691
+   }
+  }
+ },
+ "boards": {
+  "mainboard": {
+   "drills": {
+    "eagle_plated": 1209,
+    "kicad_plated": 1209,
+    "eagle_nonplated": 7,
+    "kicad_nonplated": 7,
+    "unmatched_eagle": [],
+    "unmatched_kicad": [],
+    "size_differences": [],
+    "tool_sizes_kicad": [
+     0.6,
+     0.813,
+     0.9,
+     1.0,
+     1.016,
+     1.194,
+     1.27,
+     1.6,
+     2.184,
+     2.8,
+     3.302
+    ],
+    "tool_sizes_eagle": [
+     0.6,
+     0.8128,
+     0.9,
+     1.0,
+     1.016,
+     1.1938,
+     1.27,
+     1.6,
+     2.1844,
+     2.8,
+     3.302
+    ],
+    "max_position_error_mm": 0.0006
+   },
+   "F_Cu pads/vias": {
+    "layer": "F_Cu flashes",
+    "expected": 1209,
+    "kicad_flashes": 1209,
+    "matched": 1209,
+    "differences": []
+   },
+   "F_Cu tracks": {
+    "layer": "F_Cu draws",
+    "expected": 484,
+    "kicad_draws": 484,
+    "matched": 484,
+    "differences": []
+   },
+   "F_Cu fills": {
+    "layer": "F_Cu regions",
+    "kicad_regions": 4,
+    "eagle_polygons": [
+     {
+      "signal": "GND",
+      "vertices": 40,
+      "width": 0.127,
+      "isolate": 0.254,
+      "spacing": 0.635,
+      "orphans": "no",
+      "thermals": "yes",
+      "rank": "yes",
+      "pour": "no"
+     },
+     {
+      "signal": "GND",
+      "vertices": 30,
+      "width": 0.127,
+      "isolate": 0.254,
+      "spacing": 0.635,
+      "orphans": "no",
+      "thermals": "yes",
+      "rank": "yes",
+      "pour": "no"
+     }
+    ],
+    "polygon_vs_zone": [
+     {
+      "eagle": {
+       "signal": "GND",
+       "layer": 1,
+       "vertices": 40,
+       "arc_vertices": 0,
+       "width": 0.127,
+       "isolate": 0.254,
+       "orphans": "no",
+       "thermals": "yes",
+       "rank": "yes",
+       "pour": "no",
+       "spacing": 0.635,
+       "centreline_area_mm2": 25612.6
+      },
+      "kicad": {
+       "zone_index": 1,
+       "net": "GND",
+       "layer": "F.Cu",
+       "priority": 6,
+       "outline_points": 28,
+       "outline_area_mm2": 25660.9,
+       "clearance": 0.254,
+       "min_width": 0.0635,
+       "thermal_gap": 0.177,
+       "spoke": 0.177,
+       "island_removal": 0,
+       "fill_mode": 0,
+       "filled_area_mm2": 18328.5
+      },
+      "max_eagle_vertex_to_kicad_outline_mm": 0.0898,
+      "max_kicad_point_to_eagle_outline_mm": 0.0898
+     },
+     {
+      "eagle": {
+       "signal": "GND",
+       "layer": 1,
+       "vertices": 30,
+       "arc_vertices": 12,
+       "width": 0.127,
+       "isolate": 0.254,
+       "orphans": "no",
+       "thermals": "yes",
+       "rank": "yes",
+       "pour": "no",
+       "spacing": 0.635,
+       "centreline_area_mm2": 16639.8
+      },
+      "kicad": {
+       "zone_index": 0,
+       "net": "GND",
+       "layer": "F.Cu",
+       "priority": 5,
+       "outline_points": 187,
+       "outline_area_mm2": 16683.1,
+       "clearance": 0.254,
+       "min_width": 0.0635,
+       "thermal_gap": 0.177,
+       "spoke": 0.177,
+       "island_removal": 0,
+       "fill_mode": 0,
+       "filled_area_mm2": 12238.6
+      },
+      "max_eagle_vertex_to_kicad_outline_mm": 0.0838,
+      "max_kicad_point_to_eagle_outline_mm": 0.0898
+     }
+    ],
+    "board_min_clearance_kicad": 0.254,
+    "eagle_mdWireWire": "10mil"
+   },
+   "B_Cu pads/vias": {
+    "layer": "B_Cu flashes",
+    "expected": 1209,
+    "kicad_flashes": 1209,
+    "matched": 1209,
+    "differences": []
+   },
+   "B_Cu tracks": {
+    "layer": "B_Cu draws",
+    "expected": 2768,
+    "kicad_draws": 2768,
+    "matched": 2768,
+    "differences": []
+   },
+   "B_Cu fills": {
+    "layer": "B_Cu regions",
+    "kicad_regions": 0,
+    "eagle_polygons": []
+   },
+   "F_Mask": {
+    "layer": "F_Mask",
+    "expected": 1210,
+    "kicad_flashes": 1210,
+    "matched": 1203,
+    "differences": [
+     {
+      "type": "size",
+      "what": "hole U$2",
+      "eagle": [
+       "circle",
+       3.5052,
+       3.5052
+      ],
+      "kicad": [
+       "circle",
+       3.302,
+       3.302
+      ],
+      "gerber_xy_mm": [
+       228.0412,
+       21.2852
+      ],
+      "kicad_xy_mm": [
+       228.0412,
+       -21.2852
+      ]
+     },
+     {
+      "type": "size",
+      "what": "hole U$23",
+      "eagle": [
+       "circle",
+       3.5052,
+       3.5052
+      ],
+      "kicad": [
+       "circle",
+       3.302,
+       3.302
+      ],
+      "gerber_xy_mm": [
+       228.0412,
+       167.386
+      ],
+      "kicad_xy_mm": [
+       228.0412,
+       -167.386
+      ]
+     },
+     {
+      "type": "size",
+      "what": "hole U$24",
+      "eagle": [
+       "circle",
+       3.5052,
+       3.5052
+      ],
+      "kicad": [
+       "circle",
+       3.302,
+       3.302
+      ],
+      "gerber_xy_mm": [
+       9.4488,
+       167.386
+      ],
+      "kicad_xy_mm": [
+       9.4488,
+       -167.386
+      ]
+     },
+     {
+      "type": "size",
+      "what": "hole U$25",
+      "eagle": [
+       "circle",
+       3.5052,
+       3.5052
+      ],
+      "kicad": [
+       "circle",
+       3.302,
+       3.302
+      ],
+      "gerber_xy_mm": [
+       9.4488,
+       21.2852
+      ],
+      "kicad_xy_mm": [
+       9.4488,
+       -21.2852
+      ]
+     },
+     {
+      "type": "size",
+      "what": "hole U$27",
+      "eagle": [
+       "circle",
+       3.5052,
+       3.5052
+      ],
+      "kicad": [
+       "circle",
+       3.302,
+       3.302
+      ],
+      "gerber_xy_mm": [
+       118.745,
+       21.2852
+      ],
+      "kicad_xy_mm": [
+       118.745,
+       -21.2852
+      ]
+     },
+     {
+      "type": "size",
+      "what": "hole U$28",
+      "eagle": [
+       "circle",
+       3.5052,
+       3.5052
+      ],
+      "kicad": [
+       "circle",
+       3.302,
+       3.302
+      ],
+      "gerber_xy_mm": [
+       73.025,
+       167.386
+      ],
+      "kicad_xy_mm": [
+       73.025,
+       -167.386
+      ]
+     },
+     {
+      "type": "size",
+      "what": "hole U$29",
+      "eagle": [
+       "circle",
+       3.5052,
+       3.5052
+      ],
+      "kicad": [
+       "circle",
+       3.302,
+       3.302
+      ],
+      "gerber_xy_mm": [
+       164.465,
+       167.386
+      ],
+      "kicad_xy_mm": [
+       164.465,
+       -167.386
+      ]
+     }
+    ],
+    "kicad_draws": 0,
+    "kicad_regions": 0,
+    "eagle_stop_layer_objects": 0
+   },
+   "B_Mask": {
+    "layer": "B_Mask",
+    "expected": 1210,
+    "kicad_flashes": 1210,
+    "matched": 1203,
+    "differences": [
+     {
+      "type": "size",
+      "what": "hole U$2",
+      "eagle": [
+       "circle",
+       3.5052,
+       3.5052
+      ],
+      "kicad": [
+       "circle",
+       3.302,
+       3.302
+      ],
+      "gerber_xy_mm": [
+       228.0412,
+       21.2852
+      ],
+      "kicad_xy_mm": [
+       228.0412,
+       -21.2852
+      ]
+     },
+     {
+      "type": "size",
+      "what": "hole U$23",
+      "eagle": [
+       "circle",
+       3.5052,
+       3.5052
+      ],
+      "kicad": [
+       "circle",
+       3.302,
+       3.302
+      ],
+      "gerber_xy_mm": [
+       228.0412,
+       167.386
+      ],
+      "kicad_xy_mm": [
+       228.0412,
+       -167.386
+      ]
+     },
+     {
+      "type": "size",
+      "what": "hole U$24",
+      "eagle": [
+       "circle",
+       3.5052,
+       3.5052
+      ],
+      "kicad": [
+       "circle",
+       3.302,
+       3.302
+      ],
+      "gerber_xy_mm": [
+       9.4488,
+       167.386
+      ],
+      "kicad_xy_mm": [
+       9.4488,
+       -167.386
+      ]
+     },
+     {
+      "type": "size",
+      "what": "hole U$25",
+      "eagle": [
+       "circle",
+       3.5052,
+       3.5052
+      ],
+      "kicad": [
+       "circle",
+       3.302,
+       3.302
+      ],
+      "gerber_xy_mm": [
+       9.4488,
+       21.2852
+      ],
+      "kicad_xy_mm": [
+       9.4488,
+       -21.2852
+      ]
+     },
+     {
+      "type": "size",
+      "what": "hole U$27",
+      "eagle": [
+       "circle",
+       3.5052,
+       3.5052
+      ],
+      "kicad": [
+       "circle",
+       3.302,
+       3.302
+      ],
+      "gerber_xy_mm": [
+       118.745,
+       21.2852
+      ],
+      "kicad_xy_mm": [
+       118.745,
+       -21.2852
+      ]
+     },
+     {
+      "type": "size",
+      "what": "hole U$28",
+      "eagle": [
+       "circle",
+       3.5052,
+       3.5052
+      ],
+      "kicad": [
+       "circle",
+       3.302,
+       3.302
+      ],
+      "gerber_xy_mm": [
+       73.025,
+       167.386
+      ],
+      "kicad_xy_mm": [
+       73.025,
+       -167.386
+      ]
+     },
+     {
+      "type": "size",
+      "what": "hole U$29",
+      "eagle": [
+       "circle",
+       3.5052,
+       3.5052
+      ],
+      "kicad": [
+       "circle",
+       3.302,
+       3.302
+      ],
+      "gerber_xy_mm": [
+       164.465,
+       167.386
+      ],
+      "kicad_xy_mm": [
+       164.465,
+       -167.386
+      ]
+     }
+    ],
+    "kicad_draws": 0,
+    "kicad_regions": 0,
+    "eagle_stop_layer_objects": 0
+   },
+   "F_Paste": {
+    "layer": "F_Paste",
+    "expected": 0,
+    "kicad_flashes": 0,
+    "matched": 0,
+    "differences": []
+   },
+   "B_Paste": {
+    "layer": "B_Paste",
+    "expected": 0,
+    "kicad_flashes": 0,
+    "matched": 0,
+    "differences": []
+   },
+   "Edge_Cuts": {
+    "layer": "Edge_Cuts",
+    "expected": 6,
+    "kicad_draws": 4,
+    "matched": 3,
+    "differences": [
+     {
+      "type": "missing_in_kicad",
+      "what": "plain: L20",
+      "width": 0.254,
+      "p2": [
+       -0.0254,
+       0.0
+      ],
+      "arc": false,
+      "gerber_xy_mm": [
+       237.49,
+       0.0
+      ],
+      "kicad_xy_mm": [
+       237.49,
+       -0.0
+      ]
+     },
+     {
+      "type": "missing_in_kicad",
+      "what": "plain: L20",
+      "width": 0.254,
+      "p2": [
+       -0.0254,
+       0.0
+      ],
+      "arc": false,
+      "gerber_xy_mm": [
+       -0.2286,
+       0.0
+      ],
+      "kicad_xy_mm": [
+       -0.2286,
+       -0.0
+      ]
+     },
+     {
+      "type": "missing_in_kicad",
+      "what": "plain: L20",
+      "width": 0.254,
+      "p2": [
+       -0.0254,
+       0.1778
+      ],
+      "arc": false,
+      "gerber_xy_mm": [
+       -0.0254,
+       0.0
+      ],
+      "kicad_xy_mm": [
+       -0.0254,
+       -0.0
+      ]
+     },
+     {
+      "type": "extra_in_kicad",
+      "width": 0.254,
+      "p2": [
+       0.0,
+       0.0
+      ],
+      "net": null,
+      "arc": false,
+      "gerber_xy_mm": [
+       237.49,
+       0.0
+      ],
+      "kicad_xy_mm": [
+       237.49,
+       -0.0
+      ]
+     }
+    ],
+    "eagle_dimension_circles": []
+   },
+   "F_Silkscreen": {
+    "layer": "F_Silkscreen",
+    "lines_arcs": {
+     "eagle": 1781,
+     "matched": 1781,
+     "differences": []
+    },
+    "circles": {
+     "eagle": 227,
+     "matched": 227,
+     "missing_in_kicad": []
+    },
+    "filled_shapes": {
+     "expected": 70,
+     "matched": 70,
+     "differences": []
+    },
+    "text_strokes_in_gerber": 14232,
+    "strokes_not_inside_any_text": [],
+    "texts": {
+     "eagle": 345,
+     "kicad": 345,
+     "same_anchor": 345,
+     "moved_count": 0,
+     "moved_smashed_names": 0,
+     "moved": [],
+     "missing_in_kicad": [],
+     "extra_in_kicad": []
+    }
+   },
+   "B_Silkscreen": {
+    "layer": "B_Silkscreen",
+    "lines_arcs": {
+     "eagle": 1342,
+     "matched": 1342,
+     "differences": []
+    },
+    "circles": {
+     "eagle": 131,
+     "matched": 131,
+     "missing_in_kicad": []
+    },
+    "filled_shapes": {
+     "expected": 92,
+     "matched": 92,
+     "differences": []
+    },
+    "text_strokes_in_gerber": 3460,
+    "strokes_not_inside_any_text": [],
+    "texts": {
+     "eagle": 166,
+     "kicad": 166,
+     "same_anchor": 166,
+     "moved_count": 0,
+     "moved_smashed_names": 0,
+     "moved": [],
+     "missing_in_kicad": [],
+     "extra_in_kicad": []
+    }
+   }
+  },
+  "ioboard": {
+   "drills": {
+    "eagle_plated": 231,
+    "kicad_plated": 231,
+    "eagle_nonplated": 0,
+    "kicad_nonplated": 0,
+    "unmatched_eagle": [],
+    "unmatched_kicad": [],
+    "size_differences": [],
+    "tool_sizes_kicad": [
+     0.6,
+     0.813,
+     0.95,
+     1.0,
+     1.016,
+     1.2,
+     1.321,
+     1.6,
+     2.2,
+     2.54,
+     2.8,
+     3.2
+    ],
+    "tool_sizes_eagle": [
+     0.6,
+     0.8128,
+     0.95,
+     1.0,
+     1.016,
+     1.2,
+     1.3208,
+     1.6,
+     2.2,
+     2.54,
+     2.8,
+     3.2
+    ],
+    "max_position_error_mm": 0.0004
+   },
+   "F_Cu pads/vias": {
+    "layer": "F_Cu flashes",
+    "expected": 231,
+    "kicad_flashes": 231,
+    "matched": 231,
+    "differences": []
+   },
+   "F_Cu tracks": {
+    "layer": "F_Cu draws",
+    "expected": 48,
+    "kicad_draws": 48,
+    "matched": 48,
+    "differences": []
+   },
+   "F_Cu fills": {
+    "layer": "F_Cu regions",
+    "kicad_regions": 3,
+    "eagle_polygons": [
+     {
+      "signal": "GND",
+      "vertices": 24,
+      "width": 0.0635,
+      "isolate": 0.0,
+      "spacing": 1.27,
+      "orphans": "no",
+      "thermals": "yes",
+      "rank": "yes",
+      "pour": "no"
+     },
+     {
+      "signal": "GND",
+      "vertices": 11,
+      "width": 0.0635,
+      "isolate": 0.0,
+      "spacing": 1.27,
+      "orphans": "no",
+      "thermals": "yes",
+      "rank": "yes",
+      "pour": "no"
+     },
+     {
+      "signal": "GND",
+      "vertices": 23,
+      "width": 0.0635,
+      "isolate": 0.0,
+      "spacing": 1.27,
+      "orphans": "no",
+      "thermals": "yes",
+      "rank": "yes",
+      "pour": "no"
+     }
+    ],
+    "polygon_vs_zone": [
+     {
+      "eagle": {
+       "signal": "GND",
+       "layer": 1,
+       "vertices": 24,
+       "arc_vertices": 10,
+       "width": 0.0635,
+       "isolate": 0.0,
+       "orphans": "no",
+       "thermals": "yes",
+       "rank": "yes",
+       "pour": "no",
+       "spacing": 1.27,
+       "centreline_area_mm2": 1279.0
+      },
+      "kicad": {
+       "zone_index": 2,
+       "net": "GND",
+       "layer": "F.Cu",
+       "priority": 6,
+       "outline_points": 145,
+       "outline_area_mm2": 1288.8,
+       "clearance": 0.0,
+       "min_width": 0.0318,
+       "thermal_gap": 0.1135,
+       "spoke": 0.1135,
+       "island_removal": 0,
+       "fill_mode": 0,
+       "filled_area_mm2": 1173.0
+      },
+      "max_eagle_vertex_to_kicad_outline_mm": 0.0523,
+      "max_kicad_point_to_eagle_outline_mm": 0.0449
+     },
+     {
+      "eagle": {
+       "signal": "GND",
+       "layer": 1,
+       "vertices": 11,
+       "arc_vertices": 5,
+       "width": 0.0635,
+       "isolate": 0.0,
+       "orphans": "no",
+       "thermals": "yes",
+       "rank": "yes",
+       "pour": "no",
+       "spacing": 1.27,
+       "centreline_area_mm2": 2589.1
+      },
+      "kicad": {
+       "zone_index": 0,
+       "net": "GND",
+       "layer": "F.Cu",
+       "priority": 6,
+       "outline_points": 66,
+       "outline_area_mm2": 2595.8,
+       "clearance": 0.0,
+       "min_width": 0.0318,
+       "thermal_gap": 0.1135,
+       "spoke": 0.1135,
+       "island_removal": 0,
+       "fill_mode": 0,
+       "filled_area_mm2": 2047.2
+      },
+      "max_eagle_vertex_to_kicad_outline_mm": 0.0367,
+      "max_kicad_point_to_eagle_outline_mm": 0.0449
+     },
+     {
+      "eagle": {
+       "signal": "GND",
+       "layer": 1,
+       "vertices": 23,
+       "arc_vertices": 0,
+       "width": 0.0635,
+       "isolate": 0.0,
+       "orphans": "no",
+       "thermals": "yes",
+       "rank": "yes",
+       "pour": "no",
+       "spacing": 1.27,
+       "centreline_area_mm2": 4859.6
+      },
+      "kicad": {
+       "zone_index": 1,
+       "net": "GND",
+       "layer": "F.Cu",
+       "priority": 6,
+       "outline_points": 23,
+       "outline_area_mm2": 4879.9,
+       "clearance": 0.0,
+       "min_width": 0.0318,
+       "thermal_gap": 0.1135,
+       "spoke": 0.1135,
+       "island_removal": 0,
+       "fill_mode": 0,
+       "filled_area_mm2": 3896.9
+      },
+      "max_eagle_vertex_to_kicad_outline_mm": 0.0449,
+      "max_kicad_point_to_eagle_outline_mm": 0.0451
+     }
+    ],
+    "board_min_clearance_kicad": 0.2032,
+    "eagle_mdWireWire": "8mil"
+   },
+   "B_Cu pads/vias": {
+    "layer": "B_Cu flashes",
+    "expected": 263,
+    "kicad_flashes": 263,
+    "matched": 263,
+    "differences": []
+   },
+   "B_Cu tracks": {
+    "layer": "B_Cu draws",
+    "expected": 458,
+    "kicad_draws": 458,
+    "matched": 458,
+    "differences": []
+   },
+   "B_Cu fills": {
+    "layer": "B_Cu regions",
+    "kicad_regions": 0,
+    "eagle_polygons": []
+   },
+   "F_Mask": {
+    "layer": "F_Mask",
+    "expected": 229,
+    "kicad_flashes": 229,
+    "matched": 229,
+    "differences": [],
+    "kicad_draws": 0,
+    "kicad_regions": 0,
+    "eagle_stop_layer_objects": 0
+   },
+   "B_Mask": {
+    "layer": "B_Mask",
+    "expected": 261,
+    "kicad_flashes": 261,
+    "matched": 229,
+    "differences": [
+     {
+      "type": "shape",
+      "what": "smd IC25.1",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       180.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       78.161,
+       24.348
+      ],
+      "kicad_xy_mm": [
+       78.161,
+       -24.348
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.2",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       180.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       77.361,
+       24.348
+      ],
+      "kicad_xy_mm": [
+       77.361,
+       -24.348
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.3",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       180.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       76.561,
+       24.348
+      ],
+      "kicad_xy_mm": [
+       76.561,
+       -24.348
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.4",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       180.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       75.761,
+       24.348
+      ],
+      "kicad_xy_mm": [
+       75.761,
+       -24.348
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.5",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       180.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       74.961,
+       24.348
+      ],
+      "kicad_xy_mm": [
+       74.961,
+       -24.348
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.6",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       180.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       74.161,
+       24.348
+      ],
+      "kicad_xy_mm": [
+       74.161,
+       -24.348
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.7",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       180.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       73.361,
+       24.348
+      ],
+      "kicad_xy_mm": [
+       73.361,
+       -24.348
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.8",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       180.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       72.561,
+       24.348
+      ],
+      "kicad_xy_mm": [
+       72.561,
+       -24.348
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.9",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       90.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       71.211,
+       25.698
+      ],
+      "kicad_xy_mm": [
+       71.211,
+       -25.698
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.10",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       90.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       71.211,
+       26.498
+      ],
+      "kicad_xy_mm": [
+       71.211,
+       -26.498
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.11",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       90.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       71.211,
+       27.298
+      ],
+      "kicad_xy_mm": [
+       71.211,
+       -27.298
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.12",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       90.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       71.211,
+       28.098
+      ],
+      "kicad_xy_mm": [
+       71.211,
+       -28.098
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.13",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       90.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       71.211,
+       28.898
+      ],
+      "kicad_xy_mm": [
+       71.211,
+       -28.898
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.14",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       90.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       71.211,
+       29.698
+      ],
+      "kicad_xy_mm": [
+       71.211,
+       -29.698
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.15",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       90.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       71.211,
+       30.498
+      ],
+      "kicad_xy_mm": [
+       71.211,
+       -30.498
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.16",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       90.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       71.211,
+       31.298
+      ],
+      "kicad_xy_mm": [
+       71.211,
+       -31.298
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.17",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       0.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       72.561,
+       32.548
+      ],
+      "kicad_xy_mm": [
+       72.561,
+       -32.548
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.18",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       0.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       73.361,
+       32.548
+      ],
+      "kicad_xy_mm": [
+       73.361,
+       -32.548
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.19",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       0.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       74.161,
+       32.548
+      ],
+      "kicad_xy_mm": [
+       74.161,
+       -32.548
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.20",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       0.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       74.961,
+       32.548
+      ],
+      "kicad_xy_mm": [
+       74.961,
+       -32.548
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.21",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       0.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       75.761,
+       32.548
+      ],
+      "kicad_xy_mm": [
+       75.761,
+       -32.548
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.22",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       0.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       76.561,
+       32.548
+      ],
+      "kicad_xy_mm": [
+       76.561,
+       -32.548
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.23",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       0.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       77.361,
+       32.548
+      ],
+      "kicad_xy_mm": [
+       77.361,
+       -32.548
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.24",
+      "eagle": [
+       "rect",
+       0.6032,
+       1.8032,
+       0.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       78.161,
+       32.548
+      ],
+      "kicad_xy_mm": [
+       78.161,
+       -32.548
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.25",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       270.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       79.411,
+       31.298
+      ],
+      "kicad_xy_mm": [
+       79.411,
+       -31.298
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.26",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       270.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       79.411,
+       30.498
+      ],
+      "kicad_xy_mm": [
+       79.411,
+       -30.498
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.27",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       270.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       79.411,
+       29.698
+      ],
+      "kicad_xy_mm": [
+       79.411,
+       -29.698
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.28",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       270.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       79.411,
+       28.898
+      ],
+      "kicad_xy_mm": [
+       79.411,
+       -28.898
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.29",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       270.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       79.411,
+       28.098
+      ],
+      "kicad_xy_mm": [
+       79.411,
+       -28.098
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.30",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       270.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       79.411,
+       27.298
+      ],
+      "kicad_xy_mm": [
+       79.411,
+       -27.298
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.31",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       270.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       79.411,
+       26.498
+      ],
+      "kicad_xy_mm": [
+       79.411,
+       -26.498
+      ]
+     },
+     {
+      "type": "shape",
+      "what": "smd IC25.32",
+      "eagle": [
+       "rect",
+       1.8032,
+       0.6032,
+       270.0
+      ],
+      "kicad": [
+       "RoundRect",
+       null,
+       null,
+       "RoundRect"
+      ],
+      "gerber_xy_mm": [
+       79.411,
+       25.698
+      ],
+      "kicad_xy_mm": [
+       79.411,
+       -25.698
+      ]
+     }
+    ],
+    "kicad_draws": 0,
+    "kicad_regions": 0,
+    "eagle_stop_layer_objects": 0
+   },
+   "F_Paste": {
+    "layer": "F_Paste",
+    "expected": 0,
+    "kicad_flashes": 0,
+    "matched": 0,
+    "differences": []
+   },
+   "B_Paste": {
+    "layer": "B_Paste",
+    "expected": 32,
+    "kicad_flashes": 32,
+    "matched": 32,
+    "differences": []
+   },
+   "Edge_Cuts": {
+    "layer": "Edge_Cuts",
+    "expected": 9,
+    "kicad_draws": 8,
+    "matched": 5,
+    "differences": [
+     {
+      "type": "width_or_arc",
+      "what": "plain: L20",
+      "eagle_width": 0.0,
+      "kicad_width": 0.05,
+      "eagle_arc_centre": null,
+      "kicad_arc_centre": null,
+      "gerber_xy_mm": [
+       0.0,
+       0.0
+      ],
+      "kicad_xy_mm": [
+       0.0,
+       -0.0
+      ]
+     },
+     {
+      "type": "width_or_arc",
+      "what": "plain: L20",
+      "eagle_width": 0.0,
+      "kicad_width": 0.05,
+      "eagle_arc_centre": null,
+      "kicad_arc_centre": null,
+      "gerber_xy_mm": [
+       213.36,
+       0.0
+      ],
+      "kicad_xy_mm": [
+       213.36,
+       -0.0
+      ]
+     },
+     {
+      "type": "width_or_arc",
+      "what": "plain: L20",
+      "eagle_width": 0.0,
+      "kicad_width": 0.05,
+      "eagle_arc_centre": null,
+      "kicad_arc_centre": null,
+      "gerber_xy_mm": [
+       213.36,
+       44.45
+      ],
+      "kicad_xy_mm": [
+       213.36,
+       -44.45
+      ]
+     },
+     {
+      "type": "missing_in_kicad",
+      "what": "plain: L20",
+      "width": 0.0254,
+      "p2": [
+       220.345,
+       -2.921
+      ],
+      "arc": false,
+      "gerber_xy_mm": [
+       -3.937,
+       -2.921
+      ],
+      "kicad_xy_mm": [
+       -3.937,
+       2.921
+      ]
+     }
+    ],
+    "eagle_dimension_circles": []
+   },
+   "F_Silkscreen": {
+    "layer": "F_Silkscreen",
+    "lines_arcs": {
+     "eagle": 825,
+     "matched": 825,
+     "differences": []
+    },
+    "circles": {
+     "eagle": 42,
+     "matched": 42,
+     "missing_in_kicad": []
+    },
+    "filled_shapes": {
+     "expected": 34,
+     "matched": 34,
+     "differences": []
+    },
+    "text_strokes_in_gerber": 2610,
+    "strokes_not_inside_any_text": [],
+    "texts": {
+     "eagle": 87,
+     "kicad": 87,
+     "same_anchor": 87,
+     "moved_count": 0,
+     "moved_smashed_names": 0,
+     "moved": [],
+     "missing_in_kicad": [],
+     "extra_in_kicad": []
+    }
+   },
+   "B_Silkscreen": {
+    "layer": "B_Silkscreen",
+    "lines_arcs": {
+     "eagle": 4,
+     "matched": 4,
+     "differences": []
+    },
+    "circles": {
+     "eagle": 1,
+     "matched": 1,
+     "missing_in_kicad": []
+    },
+    "filled_shapes": {
+     "expected": 0,
+     "matched": 0,
+     "differences": []
+    },
+    "text_strokes_in_gerber": 41,
+    "strokes_not_inside_any_text": [],
+    "texts": {
+     "eagle": 1,
+     "kicad": 1,
+     "same_anchor": 1,
+     "moved_count": 0,
+     "moved_smashed_names": 0,
+     "moved": [],
+     "missing_in_kicad": [],
+     "extra_in_kicad": []
+    }
+   }
+  }
+ }
+}
