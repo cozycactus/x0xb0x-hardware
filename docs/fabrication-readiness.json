@@ -1,0 +1,775 @@
+{
+ "schema": 1,
+ "snapshot_date": "2026-10-17",
+ "KiCad_revision": 25,
+ "validation_summary": "kicad-working/validation/working-validation-summary-revision-25.json",
+ "report": "kicad-working/validation/models-review-25/fabrication-comparison/README.md",
+ "inputs": {
+  "kicad_cli": "10.0.7",
+  "kicad_pcb_sha256": {
+   "mainboard": "3f3078cab85c68ee183c66d91b62542f9944fccb47e64915daf233def1ccbddd",
+   "ioboard": "a59e7210311f09e44d8053e74983006412cd6c8438f29824dea6369efb394683"
+  },
+  "original_eagle_sha256": {
+   "mainboard.brd": "7863511de317332f07139589a62596d70a95cc84ea67242f928fd178db2cba0e",
+   "ioboard.brd": "76b6d3c1b71adafd8b84ae0141f78a480a07d13c3eb908694f8cd212c833270e"
+  },
+  "eagle_staging_xml_sha256": {
+   "mainboard.brd": "74a86e7a3577cd909b6cc9b10ba6e52208e9765091cb5cb98ed9696d050e86ec",
+   "ioboard.brd": "5cf8a750ca05350712c991a296348b0f06c9124a382659435675afd91980ce95"
+  },
+  "eagle_parser_record_table_sha256": "972b3474b6fbc273e042cd71b2021cc03e14dff73725eb9881efb082dd84ef9b",
+  "commands": [
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "gerbers",
+    "--board-plot-params",
+    "-o",
+    "<temporary>/gerbers/mainboard/",
+    "<kicad-working>/mainboard/mainboard.kicad_pcb"
+   ],
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "drill",
+    "--format",
+    "excellon",
+    "--excellon-separate-th",
+    "--excellon-units",
+    "mm",
+    "-o",
+    "<temporary>/gerbers/mainboard/",
+    "<kicad-working>/mainboard/mainboard.kicad_pcb"
+   ],
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "gerbers",
+    "--board-plot-params",
+    "-o",
+    "<temporary>/gerbers/ioboard/",
+    "<kicad-working>/ioboard/ioboard.kicad_pcb"
+   ],
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "drill",
+    "--format",
+    "excellon",
+    "--excellon-separate-th",
+    "--excellon-units",
+    "mm",
+    "-o",
+    "<temporary>/gerbers/ioboard/",
+    "<kicad-working>/ioboard/ioboard.kicad_pcb"
+   ]
+  ]
+ },
+ "verdict": "Drills, copper tracks and arcs, vias, all pads except 27 SIP9 pads, pour outlines and connectivity, paste and non-text silkscreen reproduce the original Eagle 4.13 boards. No difference blocks ordering; the differences listed below await the owner's decision.",
+ "layers": {
+  "mainboard": {
+   "drills": {
+    "eagle_plated": 1209,
+    "kicad_plated": 1209,
+    "eagle_nonplated": 7,
+    "kicad_nonplated": 7,
+    "unmatched": 0,
+    "size_differences": 0,
+    "max_position_error_mm": 0.0006
+   },
+   "F_Cu pads/vias": {
+    "matched": 1182,
+    "expected": 1209,
+    "differences": {
+     "size": 27
+    }
+   },
+   "F_Cu tracks": {
+    "matched": 484,
+    "expected": 484,
+    "differences": {}
+   },
+   "B_Cu pads/vias": {
+    "matched": 1182,
+    "expected": 1209,
+    "differences": {
+     "size": 27
+    }
+   },
+   "B_Cu tracks": {
+    "matched": 2768,
+    "expected": 2768,
+    "differences": {}
+   },
+   "F_Mask": {
+    "matched": 1176,
+    "expected": 1210,
+    "differences": {
+     "size": 34
+    }
+   },
+   "B_Mask": {
+    "matched": 1176,
+    "expected": 1210,
+    "differences": {
+     "size": 34
+    }
+   },
+   "F_Paste": {
+    "matched": 0,
+    "expected": 0,
+    "differences": {}
+   },
+   "B_Paste": {
+    "matched": 0,
+    "expected": 0,
+    "differences": {}
+   },
+   "Edge_Cuts": {
+    "matched": 3,
+    "expected": 6,
+    "differences": {
+     "missing_in_kicad": 3,
+     "extra_in_kicad": 1
+    }
+   },
+   "F_Silkscreen": {
+    "lines_arcs": [
+     1781,
+     1781
+    ],
+    "circles": [
+     227,
+     227
+    ],
+    "filled_shapes": [
+     70,
+     70
+    ],
+    "strokes_outside_texts": 0,
+    "texts": {
+     "eagle": 345,
+     "same_anchor": 17,
+     "moved": 324,
+     "renamed": 4
+    }
+   },
+   "B_Silkscreen": {
+    "lines_arcs": [
+     1342,
+     1342
+    ],
+    "circles": [
+     131,
+     131
+    ],
+    "filled_shapes": [
+     92,
+     92
+    ],
+    "strokes_outside_texts": 0,
+    "texts": {
+     "eagle": 166,
+     "same_anchor": 118,
+     "moved": 48,
+     "renamed": 0
+    }
+   }
+  },
+  "ioboard": {
+   "drills": {
+    "eagle_plated": 231,
+    "kicad_plated": 231,
+    "eagle_nonplated": 0,
+    "kicad_nonplated": 0,
+    "unmatched": 0,
+    "size_differences": 0,
+    "max_position_error_mm": 0.0004
+   },
+   "F_Cu pads/vias": {
+    "matched": 231,
+    "expected": 231,
+    "differences": {}
+   },
+   "F_Cu tracks": {
+    "matched": 48,
+    "expected": 48,
+    "differences": {}
+   },
+   "B_Cu pads/vias": {
+    "matched": 263,
+    "expected": 263,
+    "differences": {}
+   },
+   "B_Cu tracks": {
+    "matched": 458,
+    "expected": 458,
+    "differences": {}
+   },
+   "F_Mask": {
+    "matched": 229,
+    "expected": 229,
+    "differences": {}
+   },
+   "B_Mask": {
+    "matched": 229,
+    "expected": 261,
+    "differences": {
+     "shape": 32
+    }
+   },
+   "F_Paste": {
+    "matched": 0,
+    "expected": 0,
+    "differences": {}
+   },
+   "B_Paste": {
+    "matched": 32,
+    "expected": 32,
+    "differences": {}
+   },
+   "Edge_Cuts": {
+    "matched": 5,
+    "expected": 9,
+    "differences": {
+     "width_or_arc": 3,
+     "missing_in_kicad": 1
+    }
+   },
+   "F_Silkscreen": {
+    "lines_arcs": [
+     825,
+     825
+    ],
+    "circles": [
+     42,
+     42
+    ],
+    "filled_shapes": [
+     34,
+     34
+    ],
+    "strokes_outside_texts": 0,
+    "texts": {
+     "eagle": 87,
+     "same_anchor": 8,
+     "moved": 72,
+     "renamed": 7
+    }
+   },
+   "B_Silkscreen": {
+    "lines_arcs": [
+     4,
+     4
+    ],
+    "circles": [
+     1,
+     1
+    ],
+    "filled_shapes": [
+     0,
+     0
+    ],
+    "strokes_outside_texts": 0,
+    "texts": {
+     "eagle": 1,
+     "same_anchor": 0,
+     "moved": 1,
+     "renamed": 0
+    }
+   }
+  }
+ },
+ "differences": [
+  {
+   "item": "SIP9 pad length",
+   "layers": [
+    "F_Cu",
+    "B_Cu",
+    "F_Mask",
+    "B_Mask"
+   ],
+   "board": "mainboard",
+   "references": [
+    "IC14",
+    "IC15A",
+    "IC15B"
+   ],
+   "count": 27,
+   "eagle_mm": [
+    1.408,
+    2.816
+   ],
+   "kicad_mm": [
+    1.4,
+    2.032
+   ],
+   "cause": "Importer elongated the 1.016 mm library diameter instead of the restrung 1.408 mm width.",
+   "locations": [
+    [
+     3.3528,
+     148.1582
+    ],
+    [
+     5.8928,
+     148.1582
+    ],
+    [
+     8.4328,
+     148.1582
+    ],
+    [
+     10.9728,
+     148.1582
+    ],
+    [
+     13.5128,
+     148.1582
+    ],
+    [
+     16.0528,
+     148.1582
+    ],
+    [
+     18.5928,
+     148.1582
+    ],
+    [
+     21.1328,
+     148.1582
+    ],
+    [
+     23.6728,
+     148.1582
+    ],
+    [
+     39.878,
+     127.762
+    ],
+    [
+     39.878,
+     125.222
+    ],
+    [
+     39.878,
+     122.682
+    ],
+    [
+     39.878,
+     120.142
+    ],
+    [
+     39.878,
+     117.602
+    ],
+    [
+     39.878,
+     115.062
+    ],
+    [
+     39.878,
+     112.522
+    ],
+    [
+     39.878,
+     109.982
+    ],
+    [
+     39.878,
+     107.442
+    ],
+    [
+     34.6456,
+     127.8128
+    ],
+    [
+     34.6456,
+     125.2728
+    ],
+    [
+     34.6456,
+     122.7328
+    ],
+    [
+     34.6456,
+     120.1928
+    ],
+    [
+     34.6456,
+     117.6528
+    ],
+    [
+     34.6456,
+     115.1128
+    ],
+    [
+     34.6456,
+     112.5728
+    ],
+    [
+     34.6456,
+     110.0328
+    ],
+    [
+     34.6456,
+     107.4928
+    ]
+   ],
+   "changed": false
+  },
+  {
+   "item": "NPTH stop-mask opening",
+   "layers": [
+    "F_Mask",
+    "B_Mask"
+   ],
+   "board": "mainboard",
+   "eagle_mm": 3.5052,
+   "kicad_mm": 3.302,
+   "locations": [
+    [
+     228.0412,
+     21.2852
+    ],
+    [
+     228.0412,
+     167.386
+    ],
+    [
+     9.4488,
+     167.386
+    ],
+    [
+     9.4488,
+     21.2852
+    ],
+    [
+     118.745,
+     21.2852
+    ],
+    [
+     73.025,
+     167.386
+    ],
+    [
+     164.465,
+     167.386
+    ]
+   ],
+   "changed": false
+  },
+  {
+   "item": "SMD mask corner radius",
+   "layers": [
+    "B_Mask"
+   ],
+   "board": "ioboard",
+   "references": [
+    "IC25"
+   ],
+   "count": 32,
+   "size_mm": [
+    0.6032,
+    1.8032
+   ],
+   "kicad_corner_radius_mm": 0.1016,
+   "changed": false
+  },
+  {
+   "item": "Via tenting",
+   "boards": [
+    "mainboard",
+    "ioboard"
+   ],
+   "vias": {
+    "mainboard": 6,
+    "ioboard": 2
+   },
+   "kicad": "tented",
+   "eagle": "exposed unless the undecoded design-rule Limit was at least 0.6 mm",
+   "changed": false
+  },
+  {
+   "item": "Name label positions",
+   "layers": [
+    "F_Silkscreen",
+    "B_Silkscreen"
+   ],
+   "moved": {
+    "mainboard": 372,
+    "ioboard": 73
+   },
+   "evidence": "Production I/O photograph matches the Eagle smashed positions (J3, J4, R164).",
+   "changed": false
+  },
+  {
+   "item": "Renamed references",
+   "layers": [
+    "F_Silkscreen"
+   ],
+   "renamed": {
+    "mainboard": [
+     "IC15A",
+     "R100A",
+     "R100B",
+     "IC15B"
+    ],
+    "ioboard": [
+     "CV",
+     "GATE",
+     "POWER",
+     "USB",
+     "MIXOUT",
+     "MIXIN",
+     "HEADPHONE"
+    ]
+   },
+   "kicad": "trailing 0 appended",
+   "changed": false
+  },
+  {
+   "item": "Outline details",
+   "board_notes": {
+    "mainboard": "Eagle spurs of up to 0.23 mm at (0, 0) closed by the conversion outline repair.",
+    "ioboard": "Detached rear-plate datum strip at y -2.921 kept on Dwgs.User, not Edge.Cuts."
+   },
+   "changed": false
+  }
+ ],
+ "connection_gaps": {
+  "eagle_stored_airwires": {
+   "mainboard": [
+    {
+     "signal": "GND",
+     "from_gerber_xy_mm": [
+      159.131,
+      108.204
+     ],
+     "to_gerber_xy_mm": [
+      158.3944,
+      110.3376
+     ],
+     "length_mm": 2.2572
+    },
+    {
+     "signal": "+5V",
+     "from_gerber_xy_mm": [
+      96.52,
+      39.624
+     ],
+     "to_gerber_xy_mm": [
+      104.7242,
+      31.8516
+     ],
+     "length_mm": 11.3013
+    }
+   ],
+   "ioboard": [
+    {
+     "signal": "GND",
+     "from_gerber_xy_mm": [
+      99.54,
+      3.842
+     ],
+     "to_gerber_xy_mm": [
+      99.54,
+      1.143
+     ],
+     "length_mm": 2.699
+    }
+   ]
+  },
+  "plus5v": {
+   "gap": "mainboard S22 pad 1 [+5V]",
+   "finding": "Closed inside S19 and S22: B3F-40XX pins 1-2 form one strip in the original symbol; the only path from the J3.3/J3.4 supply entry to the 74HC595 VCC pins.",
+   "evidence": {
+    "eagle_track_only_island_sizes": [
+     206,
+     59
+    ],
+    "supply_entry": [
+     {
+      "pad": "J3.3",
+      "island": 1
+     },
+     {
+      "pad": "J3.4",
+      "island": 1
+     }
+    ],
+    "shift_register_vcc": [
+     {
+      "pad": "IC4.16",
+      "island": 0
+     },
+     {
+      "pad": "IC5.16",
+      "island": 0
+     },
+     {
+      "pad": "IC6.16",
+      "island": 0
+     },
+     {
+      "pad": "IC7.16",
+      "island": 0
+     },
+     {
+      "pad": "IC8.16",
+      "island": 0
+     }
+    ],
+    "switches_using_pads_1_and_2": [
+     {
+      "switch": "S19",
+      "pad1_island": 1,
+      "pad2_island": 0
+     },
+     {
+      "switch": "S22",
+      "pad1_island": 1,
+      "pad2_island": 0
+     },
+     {
+      "switch": "S23",
+      "pad1_island": 0,
+      "pad2_island": 0
+     }
+    ],
+    "kicad_islands_with_jumper_groups": [
+     265
+    ]
+   },
+   "fix": "KiCad jumper pad groups (\"1\" \"2\") (\"3\" \"4\") on 23 B3F-40XX placements and the library footprint."
+  },
+  "ground": {
+   "gaps": [
+    "mainboard IC9 pad 8 [GND] vs B.Cu GND track",
+    "ioboard MIXOUT sleeve [GND] (F.Cu arc) vs B.Cu GND track"
+   ],
+   "finding": "Original drawn ground splits: analog/digital pours on the mainboard, a jack-ground pour on the I/O board. The J3-J7 wiring joins the four islands into one ground without loops; routing either airwire would add a loop.",
+   "system_ground": {
+    "components": 1,
+    "loops": 0,
+    "conductors": [
+     {
+      "between": [
+       "mainboard#0",
+       "ioboard#0"
+      ],
+      "conductor": "J3.7"
+     },
+     {
+      "between": [
+       "mainboard#0",
+       "ioboard#0"
+      ],
+      "conductor": "J3.8"
+     },
+     {
+      "between": [
+       "mainboard#1",
+       "ioboard#0"
+      ],
+      "conductor": "J4.2"
+     },
+     {
+      "between": [
+       "mainboard#1",
+       "ioboard#0"
+      ],
+      "conductor": "J5.2"
+     },
+     {
+      "between": [
+       "mainboard#1",
+       "ioboard#0"
+      ],
+      "conductor": "J6.2"
+     },
+     {
+      "between": [
+       "mainboard#1",
+       "ioboard#1"
+      ],
+      "conductor": "J7.2"
+     }
+    ]
+   },
+   "fix": "None; copper unchanged."
+  }
+ },
+ "fresh_checks": {
+  "ERC_errors": {
+   "mainboard": 0,
+   "ioboard": 0
+  },
+  "ERC_warnings": {
+   "mainboard": 0,
+   "ioboard": 0
+  },
+  "DRC_comparison": {
+   "mainboard": {
+    "violations": true,
+    "schematic_parity": true,
+    "ignored_checks": true,
+    "unconnected_items_raw": false,
+    "unconnected_nets_previous": [
+     [
+      "+5V"
+     ],
+     [
+      "GND"
+     ]
+    ],
+    "unconnected_nets_fresh": [
+     [
+      "GND"
+     ]
+    ]
+   },
+   "ioboard": {
+    "violations": true,
+    "schematic_parity": true,
+    "ignored_checks": true,
+    "unconnected_items_raw": false,
+    "unconnected_nets_previous": [
+     [
+      "GND"
+     ]
+    ],
+    "unconnected_nets_fresh": [
+     [
+      "GND"
+     ]
+    ]
+   }
+  }
+ },
+ "unchanged": [
+  "copper",
+  "pads",
+  "drills",
+  "nets",
+  "zones",
+  "footprint placement",
+  "3D models",
+  "I/O project",
+  "original Eagle files",
+  "Blender scene"
+ ],
+ "limitations": [
+  "Recorded DRC warnings (silkscreen overlaps and edge clearance, dangling track stubs carried from the Eagle source) and schematic-parity warnings remain unchanged.",
+  "Two GND connection items remain by design: the original analog/digital mainboard ground split and the I/O jack-ground island, both unrouted airwires in the original Eagle boards and joined through the J3-J7 board-to-board wiring.",
+  "The B3F-40XX internal strips (1-2, 3-4) follow the original Eagle symbol and the design's use of them; the Omron drawing itself was not retrieved.",
+  "Gerber differences from the original Eagle CAM semantics are recorded, not corrected: SIP9 pad length, reference-label positions and names, NPTH stop frame, SMD mask corner radius and via tenting.",
+  "Eagle polygon pours are compared by outline, settings and connectivity; Eagle 4.13 pour fill geometry (thermal spokes, isolation) was not regenerated.",
+  "Nominal model checks and the Gerber comparison do not establish physical assembly; fabrication equivalence is to the original Eagle data, not to an inspected production board."
+ ],
+ "physical_fit_qualified": false
+}

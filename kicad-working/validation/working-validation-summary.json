@@ -1,6 +1,6 @@
 {
-  "revision": "Working revision24: printed part markings on the 17 ICs from the kit photographs",
-  "created_utc": "2026-10-15T23:41:54.703118+00:00",
+  "revision": "Working revision25: fabrication comparison with the original Eagle boards; B3F switch strips declared",
+  "created_utc": "2026-10-16T22:46:44.128488+00:00",
   "native_kicad_version": "10.0.7",
   "projects": {
     "mainboard": {
@@ -8,56 +8,7 @@
       "erc_warnings": 0,
       "drc_violation_errors": 0,
       "drc_violation_warnings": 448,
-      "separate_unconnected_errors": 2,
       "separate_schematic_parity_warnings": 120,
-      "remaining_connections": [
-        {
-          "description": "Missing connection between items",
-          "items": [
-            {
-              "description": "PTH pad 8 [GND] of IC9",
-              "pos": {
-                "x": 158.3944,
-                "y": -110.3376
-              },
-              "uuid": "651d28fa-8333-4604-9ae3-ea635ae2bc15"
-            },
-            {
-              "description": "Track [GND] on B.Cu, length 30.0990 mm",
-              "pos": {
-                "x": 129.032,
-                "y": -108.204
-              },
-              "uuid": "279a155e-4995-4b23-80ff-01a1e6b1c40b"
-            }
-          ],
-          "severity": "error",
-          "type": "unconnected_items"
-        },
-        {
-          "description": "Missing connection between items",
-          "items": [
-            {
-              "description": "PTH pad 1 [+5V] of S22",
-              "pos": {
-                "x": 104.7242,
-                "y": -31.8516
-              },
-              "uuid": "f28f01e2-da6a-4a39-95a9-b8e48f2793b0"
-            },
-            {
-              "description": "Track [+5V] on B.Cu, length 19.5580 mm",
-              "pos": {
-                "x": 116.078,
-                "y": -39.624
-              },
-              "uuid": "7861271c-efe0-4b82-ae88-e92be4e03ec7"
-            }
-          ],
-          "severity": "error",
-          "type": "unconnected_items"
-        }
-      ],
       "erc_ignored_checks": [
         "footprint_filter",
         "four_way_junction",
@@ -74,43 +25,43 @@
       "erc_exclusions": [],
       "drc_exclusions": [],
       "model_instances": 409,
-      "electrical_inputs_and_rules_preserved": true,
-      "fresh_native_ERC_DRC_this_revision": true,
-      "electrical_evidence_basis": "Fresh KiCad10.0.7 reports for this revision; DRC violations, schematic parity and ignored checks exactly equal the previous fresh report; same unconnected gaps. ERC0 under retained project rules.",
-      "unconnected_track_end_note": "S22 pad 1 [+5V] gap unchanged; KiCad names varying representative pads or tracks of the same two islands as its ends between runs. Copper is byte-identical apart from model paths."
-    },
-    "ioboard": {
-      "erc_errors": 0,
-      "erc_warnings": 0,
-      "drc_violation_errors": 0,
-      "drc_violation_warnings": 348,
       "separate_unconnected_errors": 1,
-      "separate_schematic_parity_warnings": 45,
       "remaining_connections": [
         {
           "description": "Missing connection between items",
           "items": [
             {
-              "description": "Track (arc) [GND] on F.Cu, length 3.3411 mm",
+              "description": "PTH pad 8 [GND] of IC9",
               "pos": {
-                "x": 101.667,
-                "y": -3.842
+                "x": 158.3944,
+                "y": -110.3376
               },
-              "uuid": "213a7286-c228-48cf-8b59-b6bfff39663b"
+              "uuid": "651d28fa-8333-4604-9ae3-ea635ae2bc15"
             },
             {
-              "description": "Track [GND] on B.Cu, length 4.4730 mm",
+              "description": "Track [GND] on B.Cu, length 5.3882 mm",
               "pos": {
-                "x": 104.013,
-                "y": -1.143
+                "x": 159.131,
+                "y": -108.204
               },
-              "uuid": "67df69d5-7681-42dc-9765-bf24cf3485bc"
+              "uuid": "e14ad63c-d290-4cb6-920f-664cc609ad61"
             }
           ],
           "severity": "error",
           "type": "unconnected_items"
         }
       ],
+      "electrical_inputs_and_rules_preserved": true,
+      "fresh_native_ERC_DRC_this_revision": true,
+      "electrical_evidence_basis": "Fresh KiCad10.0.7 reports for this revision; DRC violations, schematic parity and ignored checks exactly equal the previous fresh report. ERC0 under retained project rules.",
+      "unconnected_track_end_note": "The +5V pair (S22 pad 1) is closed by the B3F-40XX jumper pad groups: the original switch strips 1-2 bridge S19 and S22, as the original Eagle symbol draws them. The remaining GND pair is the original analog/digital ground split (IC9 pad 8 side vs the digital B.Cu track), an unrouted airwire in the original Eagle board, joined through the J3-J7 board-to-board wiring. KiCad names varying representative pads or tracks of the same two islands between runs. Copper is unchanged."
+    },
+    "ioboard": {
+      "erc_errors": 0,
+      "erc_warnings": 0,
+      "drc_violation_errors": 0,
+      "drc_violation_warnings": 348,
+      "separate_schematic_parity_warnings": 45,
       "erc_ignored_checks": [
         "footprint_filter",
         "four_way_junction",
@@ -127,9 +78,36 @@
       "erc_exclusions": [],
       "drc_exclusions": [],
       "model_instances": 82,
+      "separate_unconnected_errors": 1,
+      "remaining_connections": [
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "PTH pad S [GND] of MIXOUT0",
+              "pos": {
+                "x": 99.54,
+                "y": -3.842
+              },
+              "uuid": "5ce3eba1-b809-418c-92f5-642bf92fe6b9"
+            },
+            {
+              "description": "Track [GND] on B.Cu, length 4.4730 mm",
+              "pos": {
+                "x": 104.013,
+                "y": -1.143
+              },
+              "uuid": "67df69d5-7681-42dc-9765-bf24cf3485bc"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        }
+      ],
       "electrical_inputs_and_rules_preserved": true,
       "fresh_native_ERC_DRC_this_revision": true,
-      "electrical_evidence_basis": "Fresh KiCad10.0.7 reports for this revision; DRC violations, schematic parity and ignored checks exactly equal the previous fresh report; same unconnected gaps. ERC0 under retained project rules."
+      "electrical_evidence_basis": "Fresh KiCad10.0.7 reports for this revision; DRC violations, schematic parity and ignored checks exactly equal the previous fresh report. ERC0 under retained project rules.",
+      "unconnected_track_end_note": "The GND pair (MIXOUT0 sleeve island vs the main ground track) is the original jack-ground island, an unrouted airwire in the original Eagle board, returned through J7 pin 2 to the mainboard analog ground. KiCad names varying representative pads or tracks of the same two islands between runs."
     }
   },
   "outputs": {
@@ -458,7 +436,7 @@
     "mainboard/mainboard-import-fps.pretty/2SK30.kicad_mod": "f6e2dd456b0f53a138cc1034730995c7712b6f13a3817a4f9e1288ebb722648e",
     "mainboard/mainboard-import-fps.pretty/306.kicad_mod": "171d5ea1ea0767d03ef80f39fd862b96846740e792d89e28ce5f30c7fa0bdacd",
     "mainboard/mainboard-import-fps.pretty/ALPHADUAL.kicad_mod": "842fc2f95f5ceb21bea3ee94bee20b99bf1f80bb52f3f7c0d6f1d93c85c5ae26",
-    "mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod": "c16e18a085fc4915d653d6892072cae4b1eadbf5edf5233fc6e2503e0ab18ab9",
+    "mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod": "7e268244d24ff7eb9a439b9c1b75b55ab0194311630a1e8f1060cf4ce074751a",
     "mainboard/mainboard-import-fps.pretty/C050-024X044.kicad_mod": "5d29ffb09193934d6bfddc7b15c2af64cb394c898bfcbdcfe5942154f9665510",
     "mainboard/mainboard-import-fps.pretty/C050-025X075.kicad_mod": "4d6d1c8babbebb05ab68e279d085685f4fad9bfb4d6c8a42469483f21a997d28",
     "mainboard/mainboard-import-fps.pretty/C050-030X075.kicad_mod": "883275e808b6330a2977d0b2980165e7b765986173f188012d3a54c5a0a42e0c",
@@ -490,71 +468,79 @@
     "mainboard/mainboard-import-fps.pretty/SIP9.kicad_mod": "fd2162f50298bcac99197e429d3a041cfb040635968859e979d814b8b7f24f6c",
     "mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod": "04c416963cb00adb9fcc994e45f410e4e98879390fdac0d3ed0579db6d9e15c5",
     "mainboard/mainboard-import-fps.pretty/TO92.kicad_mod": "99da721afd86004a7dc19853af8b9a52c1c66e308941fb7162e97d8d30bfc717",
-    "mainboard/mainboard.kicad_pcb": "535c5752aabc573c6b1229045b69b235644aa4f73bb5e20f871acf6b3a5c17ec",
+    "mainboard/mainboard.kicad_pcb": "3f3078cab85c68ee183c66d91b62542f9944fccb47e64915daf233def1ccbddd",
     "mainboard/mainboard.kicad_pro": "87aeeeb92fe20492ff1aa73b261114cafb57b0553370ec2d9eafded5886ae873",
     "mainboard/mainboard.kicad_sch": "048af535f76cfa6b3acc6b1bd9a9c603b213b7dd0de759cf7f848d8f7856e190",
     "mainboard/sym-lib-table": "ab580635180f3beb7cc7aa3941e515c3e1461bef4ee63ec6679fad3c76336702"
   },
   "model_references": 491,
-  "updated_model_references": [
-    "ioboard:IC23",
-    "ioboard:IC24",
-    "ioboard:IC25",
-    "mainboard:IC1",
-    "mainboard:IC11",
-    "mainboard:IC12",
-    "mainboard:IC16",
-    "mainboard:IC17",
-    "mainboard:IC18",
-    "mainboard:IC2",
-    "mainboard:IC3",
-    "mainboard:IC4",
-    "mainboard:IC5",
-    "mainboard:IC6",
-    "mainboard:IC7",
-    "mainboard:IC8",
-    "mainboard:IC9"
+  "updated_model_references": [],
+  "updated_footprint_references": [
+    "mainboard:S5",
+    "mainboard:S6",
+    "mainboard:S7",
+    "mainboard:S8",
+    "mainboard:S9",
+    "mainboard:S10",
+    "mainboard:S11",
+    "mainboard:S12",
+    "mainboard:S13",
+    "mainboard:S14",
+    "mainboard:S15",
+    "mainboard:S16",
+    "mainboard:S17",
+    "mainboard:S18",
+    "mainboard:S19",
+    "mainboard:S20",
+    "mainboard:S21",
+    "mainboard:S22",
+    "mainboard:S23",
+    "mainboard:S24",
+    "mainboard:S25",
+    "mainboard:S26",
+    "mainboard:S27"
   ],
-  "previous_core_files": 348,
+  "previous_core_files": 361,
   "changed_previous_core_files": [
-    "ioboard/ioboard-import-fps.pretty/DIL06.kicad_mod",
-    "ioboard/ioboard-import-fps.pretty/DIL08.kicad_mod",
-    "ioboard/ioboard-import-fps.pretty/SQFP-S-7X7-32.kicad_mod",
-    "ioboard/ioboard.kicad_pcb",
-    "mainboard/mainboard-import-fps.pretty/DIL08.kicad_mod",
-    "mainboard/mainboard-import-fps.pretty/DIL08_AT25.kicad_mod",
-    "mainboard/mainboard-import-fps.pretty/DIL40.kicad_mod",
+    "mainboard/mainboard-import-fps.pretty/B3F-40XX.kicad_mod",
     "mainboard/mainboard.kicad_pcb"
   ],
-  "new_core_files": [
-    "mainboard/3dmodels/Revision24/marking-quality/DIP-16_W7.62mm_Marked_74HC595.step",
-    "mainboard/3dmodels/Revision24/marking-quality/DIP-16_W7.62mm_Marked_74AC174.step",
-    "mainboard/3dmodels/Revision24/marking-quality/DIP-16_W7.62mm_Marked_74HC165.step",
-    "mainboard/3dmodels/Revision24/marking-quality/DIP-14_W7.62mm_Marked_74HC126.step",
-    "mainboard/3dmodels/Revision24/marking-quality/DIP-14_W7.62mm_Marked_4066.step",
-    "ioboard/3dmodels/Revision24/marking-quality/DIP-8_W7.62mm_Marked_AN6562.step",
-    "mainboard/3dmodels/Revision24/marking-quality/DIP-8_W7.62mm_Marked_AN6562.step",
-    "mainboard/3dmodels/Revision24/marking-quality/DIP-40_W15.24mm_in_1-390262-5_Socket_KiCadFrame_Marked_ATmega162.step",
-    "mainboard/3dmodels/Revision24/marking-quality/DIP-8_W7.62mm_in_1-390261-2_Socket_KiCadFrame_Marked_EEPROM.step",
-    "ioboard/3dmodels/Revision24/marking-quality/DIP-6_W7.62mm_Marked_4N37.step",
-    "ioboard/3dmodels/Revision24/marking-quality/LQFP-32_7x7mm_P0.8mm_Marked_FT232BM.step",
-    "mainboard/3dmodels/REVISION-24-SOURCES.json",
-    "ioboard/3dmodels/REVISION-24-SOURCES.json"
-  ],
+  "new_core_files": [],
   "fresh_DRC_comparison_to_previous": {
     "mainboard": {
       "violations": true,
       "schematic_parity": true,
       "ignored_checks": true,
       "unconnected_items_raw": false,
-      "unconnected_count_and_nets": true
+      "unconnected_nets_previous": [
+        [
+          "+5V"
+        ],
+        [
+          "GND"
+        ]
+      ],
+      "unconnected_nets_fresh": [
+        [
+          "GND"
+        ]
+      ]
     },
     "ioboard": {
       "violations": true,
       "schematic_parity": true,
       "ignored_checks": true,
       "unconnected_items_raw": false,
-      "unconnected_count_and_nets": true
+      "unconnected_nets_previous": [
+        [
+          "GND"
+        ]
+      ],
+      "unconnected_nets_fresh": [
+        [
+          "GND"
+        ]
+      ]
     }
   },
   "fresh_ERC_errors": {
@@ -792,26 +778,344 @@
       ]
     }
   ],
-  "reports": {
-    "installation-audit.json": "9d6ac7c2c2ece56d37256e7ef575f56302b8d1354b6681b6de4ec114dfa2ec33",
-    "combined-model-plan.json": "5e47e9c663435d15f7c16cf7958d32a22c43ec6f994ed5b19e42abb40d02fc65",
-    "marking-quality/marking-model-audit.json": "f540fc3c9fc16a43c2285991cd4c0c4deab83cf49d5ffb77634c3cc8f5999167",
-    "marking-quality/marking-native-check.json": "06acde23d57aa582c1d032713eae6578dca2fea6c591b3fda4112266d10d394d",
-    "marking-quality/sources/marking-evidence.json": "9eb459b87cd1dc7466c16b9f160fd8f8911bb1a2867722c46da7863dba89c46c",
-    "native-export-record.json": "eee665dba44de577734c1ab1254720b430fb51a0b69fb2cf8a051836887aebb6",
-    "native-terminal-audit.json": "f1c114384fc2fe96ef1b0fe1cf973a586572e531acc540a967473a473e441a75",
-    "native-run-records.json": "a73b0f314738e33aed5ccf3458d724c61e84f4553414b0b493403dc1b1cfdef5",
-    "current-function-source-evidence.json": "750921312707fec649bb62f6df918dccefd6d1ac18987a8dd4d2e447f898b338",
-    "current-function-verification.json": "e0e1b9ccafd7eb65ea4a886fcd812c9b228738fd528e3230d09367e1bec771c2",
-    "local-dependencies.json": "ea2df2aeb58362e19b038f0d824f6b4dad913cd95d2826d44848bbff8f23bfcf",
-    "mainboard-drc.json": "6733d0e2e8c6569bebcb507c0e44c8744dad0a3fd494e8a9d652a3d797f73496",
-    "mainboard-erc.json": "e0eac03f2786a24ea84b095924543167bf3213ba70c6fd59964b16208ae3d1ab",
-    "ioboard-drc.json": "dcb3155ac76b7fcfa952f3b2107b3f606a92a34b46435a9065f24fa2ebf1ea21",
-    "ioboard-erc.json": "abb980bd9a3825f73bc08c3eaea4c9c1ea92af8481175f7a0e23130637eb0e3b"
+  "model_evidence_basis": "No model path, model transform or footprint placement changed; the revision-24 native lead audit and nominal-fit findings apply unchanged.",
+  "fabrication_comparison": {
+    "method": "KiCad 10.0.7 Gerber/Excellon output compared object by object with the original Eagle 4.13 board geometry, read from the staging XML of the binary files and evaluated with Eagle 4.13 CAM rules (restring, elongation, stop frame); the XML was cross-checked against an independent read of original-eagle/.",
+    "boards": {
+      "mainboard": {
+        "drills": {
+          "eagle_plated": 1209,
+          "kicad_plated": 1209,
+          "eagle_nonplated": 7,
+          "kicad_nonplated": 7,
+          "unmatched": 0,
+          "size_differences": 0,
+          "max_position_error_mm": 0.0006
+        },
+        "F_Cu pads/vias": {
+          "matched": 1182,
+          "expected": 1209,
+          "differences": {
+            "size": 27
+          }
+        },
+        "F_Cu tracks": {
+          "matched": 484,
+          "expected": 484,
+          "differences": {}
+        },
+        "B_Cu pads/vias": {
+          "matched": 1182,
+          "expected": 1209,
+          "differences": {
+            "size": 27
+          }
+        },
+        "B_Cu tracks": {
+          "matched": 2768,
+          "expected": 2768,
+          "differences": {}
+        },
+        "F_Mask": {
+          "matched": 1176,
+          "expected": 1210,
+          "differences": {
+            "size": 34
+          }
+        },
+        "B_Mask": {
+          "matched": 1176,
+          "expected": 1210,
+          "differences": {
+            "size": 34
+          }
+        },
+        "F_Paste": {
+          "matched": 0,
+          "expected": 0,
+          "differences": {}
+        },
+        "B_Paste": {
+          "matched": 0,
+          "expected": 0,
+          "differences": {}
+        },
+        "Edge_Cuts": {
+          "matched": 3,
+          "expected": 6,
+          "differences": {
+            "missing_in_kicad": 3,
+            "extra_in_kicad": 1
+          }
+        },
+        "F_Silkscreen": {
+          "lines_arcs": [
+            1781,
+            1781
+          ],
+          "circles": [
+            227,
+            227
+          ],
+          "filled_shapes": [
+            70,
+            70
+          ],
+          "strokes_outside_texts": 0,
+          "texts": {
+            "eagle": 345,
+            "same_anchor": 17,
+            "moved": 324,
+            "renamed": 4
+          }
+        },
+        "B_Silkscreen": {
+          "lines_arcs": [
+            1342,
+            1342
+          ],
+          "circles": [
+            131,
+            131
+          ],
+          "filled_shapes": [
+            92,
+            92
+          ],
+          "strokes_outside_texts": 0,
+          "texts": {
+            "eagle": 166,
+            "same_anchor": 118,
+            "moved": 48,
+            "renamed": 0
+          }
+        }
+      },
+      "ioboard": {
+        "drills": {
+          "eagle_plated": 231,
+          "kicad_plated": 231,
+          "eagle_nonplated": 0,
+          "kicad_nonplated": 0,
+          "unmatched": 0,
+          "size_differences": 0,
+          "max_position_error_mm": 0.0004
+        },
+        "F_Cu pads/vias": {
+          "matched": 231,
+          "expected": 231,
+          "differences": {}
+        },
+        "F_Cu tracks": {
+          "matched": 48,
+          "expected": 48,
+          "differences": {}
+        },
+        "B_Cu pads/vias": {
+          "matched": 263,
+          "expected": 263,
+          "differences": {}
+        },
+        "B_Cu tracks": {
+          "matched": 458,
+          "expected": 458,
+          "differences": {}
+        },
+        "F_Mask": {
+          "matched": 229,
+          "expected": 229,
+          "differences": {}
+        },
+        "B_Mask": {
+          "matched": 229,
+          "expected": 261,
+          "differences": {
+            "shape": 32
+          }
+        },
+        "F_Paste": {
+          "matched": 0,
+          "expected": 0,
+          "differences": {}
+        },
+        "B_Paste": {
+          "matched": 32,
+          "expected": 32,
+          "differences": {}
+        },
+        "Edge_Cuts": {
+          "matched": 5,
+          "expected": 9,
+          "differences": {
+            "width_or_arc": 3,
+            "missing_in_kicad": 1
+          }
+        },
+        "F_Silkscreen": {
+          "lines_arcs": [
+            825,
+            825
+          ],
+          "circles": [
+            42,
+            42
+          ],
+          "filled_shapes": [
+            34,
+            34
+          ],
+          "strokes_outside_texts": 0,
+          "texts": {
+            "eagle": 87,
+            "same_anchor": 8,
+            "moved": 72,
+            "renamed": 7
+          }
+        },
+        "B_Silkscreen": {
+          "lines_arcs": [
+            4,
+            4
+          ],
+          "circles": [
+            1,
+            1
+          ],
+          "filled_shapes": [
+            0,
+            0
+          ],
+          "strokes_outside_texts": 0,
+          "texts": {
+            "eagle": 1,
+            "same_anchor": 0,
+            "moved": 1,
+            "renamed": 0
+          }
+        }
+      }
+    },
+    "connection_gaps": {
+      "eagle_airwires": {
+        "mainboard": [
+          {
+            "signal": "GND",
+            "from_gerber_xy_mm": [
+              159.131,
+              108.204
+            ],
+            "to_gerber_xy_mm": [
+              158.3944,
+              110.3376
+            ],
+            "length_mm": 2.2572
+          },
+          {
+            "signal": "+5V",
+            "from_gerber_xy_mm": [
+              96.52,
+              39.624
+            ],
+            "to_gerber_xy_mm": [
+              104.7242,
+              31.8516
+            ],
+            "length_mm": 11.3013
+          }
+        ],
+        "ioboard": [
+          {
+            "signal": "GND",
+            "from_gerber_xy_mm": [
+              99.54,
+              3.842
+            ],
+            "to_gerber_xy_mm": [
+              99.54,
+              1.143
+            ],
+            "length_mm": 2.699
+          }
+        ]
+      },
+      "system_ground_components": 1,
+      "system_ground_loops": 0,
+      "mainboard_plus5v": {
+        "eagle_track_only_island_sizes": [
+          206,
+          59
+        ],
+        "supply_entry": [
+          {
+            "pad": "J3.3",
+            "island": 1
+          },
+          {
+            "pad": "J3.4",
+            "island": 1
+          }
+        ],
+        "shift_register_vcc": [
+          {
+            "pad": "IC4.16",
+            "island": 0
+          },
+          {
+            "pad": "IC5.16",
+            "island": 0
+          },
+          {
+            "pad": "IC6.16",
+            "island": 0
+          },
+          {
+            "pad": "IC7.16",
+            "island": 0
+          },
+          {
+            "pad": "IC8.16",
+            "island": 0
+          }
+        ],
+        "switches_using_pads_1_and_2": [
+          {
+            "switch": "S19",
+            "pad1_island": 1,
+            "pad2_island": 0
+          },
+          {
+            "switch": "S22",
+            "pad1_island": 1,
+            "pad2_island": 0
+          },
+          {
+            "switch": "S23",
+            "pad1_island": 0,
+            "pad2_island": 0
+          }
+        ],
+        "kicad_islands_with_jumper_groups": [
+          265
+        ]
+      }
+    }
   },
-  "baseline_summary": "validation/working-validation-summary-revision-23.json",
-  "baseline_summary_sha256": "9639906fa4ccd20a542fc18f76fb502b7f05417d143483ee7631948e6136579e",
-  "scope": "17 IC model paths and six matching single-placement footprint-cache paths only. Each IC keeps its chip (and socket) geometry and colours with raised marking text transcribed from the kit photographs. Original Eagle, copper, pads, drills, nets, footprint poses, PCB value fields and model transforms preserved.",
+  "reports": {
+    "installation-audit.json": "aa117a6762a45e3660c1809a174b530ab27193f2878fd09c7d2bd8376224c546",
+    "native-run-records.json": "a88504c49baef54a0b5e30670c11a76ce96f28e6abea7bda4c96fac13a50b26b",
+    "local-dependencies.json": "ea2df2aeb58362e19b038f0d824f6b4dad913cd95d2826d44848bbff8f23bfcf",
+    "current-function-verification.json": "d081c54ed0e599ec40b5303219208c28ab405ba3589904afa02691823eb71ea0",
+    "mainboard-drc.json": "8a93fb01327901b2847e0a0c576e479d55869d53277be09d11b61ece2fcff8a9",
+    "mainboard-erc.json": "aff31e4d21d84e01971537f278ea753df97d8f31ab6e5ce5ea7e5d41a4a3033c",
+    "ioboard-drc.json": "101e2011966b2be86c4138ad80f37e3c0a978b8adeb73d12c1a1f3f6132c3a70",
+    "ioboard-erc.json": "c9382f2345abef175de3a6138c3c3516e55e8e3450d8c3f01500e3f7ec46de1c",
+    "fabrication-comparison/gerber-comparison.json": "a83670e4fda18d6d3cc16a6e9a9d7fe9124e5b603f93718ecccc5cf66692214a",
+    "fabrication-comparison/connection-gap-review.json": "b5d9f51132bf5bb22abd87321052aaa4877b70fdb25f6f829d38b26536421750",
+    "fabrication-comparison/source-decode-crosscheck.json": "9a24a63f84963c250bf558cfeb4e981a7824608d9e447d3b351b68f041c86abe"
+  },
+  "baseline_summary": "validation/working-validation-summary-revision-24.json",
+  "baseline_summary_sha256": "11156ae51a7d957653eb6f81c279009cedd73fa02c67590d8abea18c6c9d81e4",
+  "scope": "Jumper pad groups (\"1\" \"2\") and (\"3\" \"4\") on the 23 B3F-40XX switch placements and the project library footprint; footprint metadata only. Copper, pads, drills, nets, zones, footprint poses, models and the I/O project are unchanged. Adds the Gerber/drill comparison with the original Eagle boards and the review of the three recorded connection gaps.",
   "limitations": [
     "Marking text is transcribed from one set of kit photographs; date and lot codes varied between kits.",
     "Logos are omitted; Source Code Pro approximates the vendors' marking fonts; ink colour is illustrative.",
@@ -840,8 +1144,12 @@
     "Nominal-fit findings record drawing/footprint disagreements; neither source was altered.",
     "USB pin stock, board-lock shape, insulation skirts and gold-strip dimensions remain illustrative; hidden contact routing is omitted.",
     "Grayhill optional bracket holes and SDS-50J locating details remain as documented.",
-    "Existing three PCB connection gaps and recorded DRC/parity warnings remain.",
-    "Nominal model checks do not establish physical assembly or fabrication readiness."
+    "Recorded DRC warnings (silkscreen overlaps and edge clearance, dangling track stubs carried from the Eagle source) and schematic-parity warnings remain unchanged.",
+    "Two GND connection items remain by design: the original analog/digital mainboard ground split and the I/O jack-ground island, both unrouted airwires in the original Eagle boards and joined through the J3-J7 board-to-board wiring.",
+    "The B3F-40XX internal strips (1-2, 3-4) follow the original Eagle symbol and the design's use of them; the Omron drawing itself was not retrieved.",
+    "Gerber differences from the original Eagle CAM semantics are recorded, not corrected: SIP9 pad length, reference-label positions and names, NPTH stop frame, SMD mask corner radius and via tenting.",
+    "Eagle polygon pours are compared by outline, settings and connectivity; Eagle 4.13 pour fill geometry (thermal spokes, isolation) was not regenerated.",
+    "Nominal model checks and the Gerber comparison do not establish physical assembly; fabrication equivalence is to the original Eagle data, not to an inspected production board."
   ],
   "physical_fit_qualified": false
 }
