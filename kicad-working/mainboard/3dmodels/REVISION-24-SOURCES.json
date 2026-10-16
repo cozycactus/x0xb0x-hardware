@@ -1,0 +1,78 @@
+{
+  "revision": 24,
+  "baseline_revision": 23,
+  "models": {
+    "DIP-16_W7.62mm_Marked_74HC595.step": {
+      "local_model": "Revision24/marking-quality/DIP-16_W7.62mm_Marked_74HC595.step",
+      "sha256": "74a5ca777041aae0ec5952602256a4298d5cdda71e4c47d030c16f32f35370a4"
+    },
+    "DIP-16_W7.62mm_Marked_74AC174.step": {
+      "local_model": "Revision24/marking-quality/DIP-16_W7.62mm_Marked_74AC174.step",
+      "sha256": "21b25339ff19e0772f5ca6429a0b3f346766637cdeb2f8bf6f11d36b6c01ca76"
+    },
+    "DIP-16_W7.62mm_Marked_74HC165.step": {
+      "local_model": "Revision24/marking-quality/DIP-16_W7.62mm_Marked_74HC165.step",
+      "sha256": "75a296e3b2dc8ef67f9e98258df5617f5e71677dcdd69e7e220466e59111248a"
+    },
+    "DIP-14_W7.62mm_Marked_74HC126.step": {
+      "local_model": "Revision24/marking-quality/DIP-14_W7.62mm_Marked_74HC126.step",
+      "sha256": "75e1670e5dee145b887491cecbf4e07dc04e8c75c058bd88ef5c1f91f28e325b"
+    },
+    "DIP-14_W7.62mm_Marked_4066.step": {
+      "local_model": "Revision24/marking-quality/DIP-14_W7.62mm_Marked_4066.step",
+      "sha256": "ec49db51d0ad8b86c92afb5147886471fa5e895e913a5953979c9c5be106a13d"
+    },
+    "DIP-8_W7.62mm_Marked_AN6562.step": {
+      "local_model": "Revision24/marking-quality/DIP-8_W7.62mm_Marked_AN6562.step",
+      "sha256": "ab0b26ee23ff6ea865b71c56a71fefa912ad6c67d0bf95df3ae383c1a879ac8a"
+    },
+    "DIP-40_W15.24mm_in_1-390262-5_Socket_KiCadFrame_Marked_ATmega162.step": {
+      "local_model": "Revision24/marking-quality/DIP-40_W15.24mm_in_1-390262-5_Socket_KiCadFrame_Marked_ATmega162.step",
+      "sha256": "e5caf5334acf83481cd7f2f30d40c3bf3f1780794e45a306120d9ec3db4ce61c"
+    },
+    "DIP-8_W7.62mm_in_1-390261-2_Socket_KiCadFrame_Marked_EEPROM.step": {
+      "local_model": "Revision24/marking-quality/DIP-8_W7.62mm_in_1-390261-2_Socket_KiCadFrame_Marked_EEPROM.step",
+      "sha256": "ca70721d41cc7a4aa5bc57724315e55ef6cb3d8556919a4f7f98a9735604b97a"
+    }
+  },
+  "references": {
+    "74HC595": [
+      "IC4",
+      "IC5",
+      "IC6",
+      "IC7",
+      "IC8"
+    ],
+    "74AC174": [
+      "IC9"
+    ],
+    "74HC165": [
+      "IC16",
+      "IC17",
+      "IC18"
+    ],
+    "74HC126": [
+      "IC1"
+    ],
+    "4066": [
+      "IC12"
+    ],
+    "AN6562": [
+      "IC11"
+    ],
+    "ATmega162": [
+      "IC3"
+    ],
+    "EEPROM": [
+      "IC2"
+    ]
+  },
+  "evidence": "validation/models-review-24/marking-quality/sources/marking-evidence.json",
+  "limitations": [
+    "Marking text is transcribed from one set of kit photographs; date and lot codes varied between kits.",
+    "Logos are omitted; Source Code Pro approximates the vendors' marking fonts; ink colour is illustrative.",
+    "The 74HC165 has no photograph and carries its part number only.",
+    "Chip and socket geometry, colours and transforms are unchanged; physical fit is unqualified."
+  ],
+  "physical_fit_qualified": false
+}

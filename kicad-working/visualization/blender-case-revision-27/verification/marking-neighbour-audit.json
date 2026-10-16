@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "frame": 1,
+  "declared": [],
+  "new_contacts": [],
+  "retained_contacts": [],
+  "removed_contacts": [],
+  "headroom_above_chip_mm": {
+    "before": {
+      "MAINBOARD/IC2": 7.78,
+      "MAINBOARD/IC11": 46.02,
+      "MAINBOARD/IC4": 27.61,
+      "MAINBOARD/IC16": 11.68,
+      "MAINBOARD/IC18": 11.69,
+      "MAINBOARD/IC5": 27.26,
+      "MAINBOARD/IC8": 29.13,
+      "MAINBOARD/IC9": 39.71,
+      "MAINBOARD/IC17": 11.69,
+      "MAINBOARD/IC6": 26.46,
+      "MAINBOARD/IC7": 30.84,
+      "MAINBOARD/IC12": 36.04,
+      "MAINBOARD/IC1": 11.23,
+      "MAINBOARD/IC3": 7.81,
+      "IOBOARD/IC24": 42.73,
+      "IOBOARD/IC23": 49.13,
+      "IOBOARD/IC25": 6.93
+    },
+    "after": {
+      "MAINBOARD/IC2": 8.25,
+      "MAINBOARD/IC11": 46.7,
+      "MAINBOARD/IC4": 28.85,
+      "MAINBOARD/IC16": 13.17,
+      "MAINBOARD/IC18": 13.17,
+      "MAINBOARD/IC5": 28.5,
+      "MAINBOARD/IC8": 30.37,
+      "MAINBOARD/IC9": 40.07,
+      "MAINBOARD/IC17": 13.17,
+      "MAINBOARD/IC6": 26.83,
+      "MAINBOARD/IC7": 31.74,
+      "MAINBOARD/IC12": 50.29,
+      "MAINBOARD/IC1": 12.45,
+      "MAINBOARD/IC3": 8.4,
+      "IOBOARD/IC24": 55.47,
+      "IOBOARD/IC23": 53.8,
+      "IOBOARD/IC25": 6.9
+    }
+  },
+  "baseline": {
+    "scene_sha256": "121021a77f6b4b9b7865df46c6b227403ba38d0594113b985042e6102aa47ada",
+    "nearby_meshes_tested": 91
+  },
+  "current": {
+    "scene_sha256": "529ac312c446f426bcc46b566702e7043f038ee7be0599d7971508ec693d8e69",
+    "nearby_meshes_tested": 91
+  },
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "method": "Rendered marked IC meshes versus other component, panel and enclosure meshes within a 2 mm bbox at frame 1; own geometry and PCB layers excluded. Depth = deepest reach of the other mesh inside the reference bounding box. Headroom = free distance along the board normal from the 60 highest vertices to any other visible mesh."
+}

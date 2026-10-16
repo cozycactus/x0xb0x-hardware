@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "retrieved": "2026-10-16",
+  "photos": {
+    "source": "Original parts page photographs, archived at https://github.com/x0xb0x/x0xb0x.github.io (assets/images/parts/)",
+    "retained": false,
+    "note": "Third-party photographs; hashes and transcriptions only. Logos are not reproduced.",
+    "files": {
+      "74hc595.jpg": "4cbb30a5d5e4b62cd01efe05e55f9f7bfea403e4bfa2a0ac1fb4c2ba6cbd493d",
+      "74ac174.jpg": "7b3875541abcc77e526c5aae15c63b07c270ebbd3055f00611671d03d6076abe",
+      "74hc126.jpg": "80423ffdf4115a1c97de353dcc23c62cb732408f2b40fe8b940584f8373d8e4b",
+      "4066.jpg": "57e7186979f575560bd18f455c2a4779bbfd3a248158e1071d52ab4dbb14f373",
+      "an6562.jpg": "b69250a61e90dac77c9b920896814db3b9e6e8c603c265f107569f5e5192a218",
+      "atmega.jpg": "fd49c399f623cf3479abd1ef15c7874d0ff932acca7c475aba692f14b7e28b29",
+      "eeprom.jpg": "ca548e867fa6e11e1bcafd1a55d3738faed986717e65d917d85662ca050376af",
+      "4N37.jpg": "42ef98b1802c7918ee46f6fb9c4c468f9711bb733d64bc56e9db72e2842d5e77",
+      "ft232.jpg": "98b14c005bf736be77610ab5f56b3302f114f5eac6a07903fb7da18b3319fef6"
+    }
+  },
+  "markings": {
+    "74HC595": {"refs": ["mainboard:IC4", "mainboard:IC5", "mainboard:IC6", "mainboard:IC7", "mainboard:IC8"], "photo": "74hc595.jpg",
+                "lines": ["P0418SB", "MM74HC595N"], "omitted": "Fairchild logo; a third line MC74HC595N"},
+    "74AC174": {"refs": ["mainboard:IC9"], "photo": "74ac174.jpg", "lines": ["P0436SB", "74AC174PC"], "omitted": "Fairchild logo"},
+    "74HC126": {"refs": ["mainboard:IC1"], "photo": "74hc126.jpg", "lines": ["P0412SB", "MM74HC126N"], "omitted": "Fairchild logo; a third line MC74HC126N"},
+    "4066": {"refs": ["mainboard:IC12"], "photo": "4066.jpg", "lines": ["MC14066BCP", "FFGY9338"], "omitted": "Motorola logo"},
+    "AN6562": {"refs": ["mainboard:IC11", "ioboard:IC23"], "photo": "an6562.jpg", "lines": ["6562", "4 91"], "omitted": "none"},
+    "ATmega162": {"refs": ["mainboard:IC3"], "photo": "atmega.jpg", "lines": ["ATMEGA162", "16PI", "0437F"], "orientation": "across the body, as photographed",
+                  "omitted": "Atmel logo, mould ejector marks, pin-1 triangle"},
+    "EEPROM": {"refs": ["mainboard:IC2"], "photo": "eeprom.jpg", "lines": ["25C33P", "0220A"], "omitted": "CSI logo"},
+    "74HC165": {"refs": ["mainboard:IC16", "mainboard:IC17", "mainboard:IC18"], "photo": null, "lines": ["74HC165N"],
+                "note": "Parts page has no photograph (image soon); part number only, from the parts page row (74AC165 or 74HC165)"},
+    "4N37": {"refs": ["ioboard:IC24"], "photo": "4N37.jpg", "lines": ["L0434", "4N37"], "omitted": "pin-1 dot and code letter Y",
+             "body": "Black in the photograph; the parts page note that it might be white does not apply to this kit"},
+    "FT232BM": {"refs": ["ioboard:IC25"], "photo": "ft232.jpg", "lines": ["FT232BM", "425-1"], "omitted": "FTDI logo"}
+  },
+  "pcb_value_differences": {
+    "IC9": "PCB value 4174P; photographed part 74AC174PC",
+    "IC1": "PCB value 74126N; photographed part MM74HC126N",
+    "IC2": "PCB value AT25P; photographed part 25C33P",
+    "IC14": "Not marked (SIP LA4140 illustration unchanged)"
+  },
+  "font": {"file": "/Applications/FreeCAD.app/Contents/Resources/fonts/SourceCodePro-Medium.ttf",
+           "sha256": "6a1564c7b5469d310744770558657fe8c22187d4cab802a8696274772046b6ae",
+           "licence": "SIL Open Font License (Source Code Pro, bundled with FreeCAD 1.0.1)",
+           "note": "Approximates the vendors' marking fonts; not their typefaces"},
+  "pcb_values_changed": false
+}

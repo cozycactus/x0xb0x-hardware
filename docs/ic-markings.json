@@ -1,0 +1,301 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-16",
+  "Blender_revision": 27,
+  "KiCad_revision": 24,
+  "scene": "kicad-working/visualization/blender-case-revision-27/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "529ac312c446f426bcc46b566702e7043f038ee7be0599d7971508ec693d8e69",
+  "scene_bytes": 47838427,
+  "baseline_scene_sha256": "121021a77f6b4b9b7865df46c6b227403ba38d0594113b985042e6102aa47ada",
+  "correction": "The 17 ICs carry printed part markings transcribed from the original kit photographs (part number and code lines, logos omitted), raised 0.03 mm in light-grey ink on the unchanged chip tops; the 74HC165s carry their part number only. The ATmega162 text runs across the body as photographed; the underside FT232BM reads from below.",
+  "markings": {
+    "74HC595": {
+      "lines": [
+        "P0418SB",
+        "MM74HC595N"
+      ],
+      "references": [
+        "mainboard:IC4",
+        "mainboard:IC5",
+        "mainboard:IC6",
+        "mainboard:IC7",
+        "mainboard:IC8"
+      ],
+      "cap_height_mm": 1.0
+    },
+    "74AC174": {
+      "lines": [
+        "P0436SB",
+        "74AC174PC"
+      ],
+      "references": [
+        "mainboard:IC9"
+      ],
+      "cap_height_mm": 1.0
+    },
+    "74HC165": {
+      "lines": [
+        "74HC165N"
+      ],
+      "references": [
+        "mainboard:IC16",
+        "mainboard:IC17",
+        "mainboard:IC18"
+      ],
+      "cap_height_mm": 1.0
+    },
+    "74HC126": {
+      "lines": [
+        "P0412SB",
+        "MM74HC126N"
+      ],
+      "references": [
+        "mainboard:IC1"
+      ],
+      "cap_height_mm": 1.0
+    },
+    "4066": {
+      "lines": [
+        "MC14066BCP",
+        "FFGY9338"
+      ],
+      "references": [
+        "mainboard:IC12"
+      ],
+      "cap_height_mm": 1.0
+    },
+    "AN6562": {
+      "lines": [
+        "6562",
+        "4 91"
+      ],
+      "references": [
+        "mainboard:IC11",
+        "ioboard:IC23"
+      ],
+      "cap_height_mm": 0.9
+    },
+    "ATmega162": {
+      "lines": [
+        "ATMEGA162",
+        "16PI",
+        "0437F"
+      ],
+      "references": [
+        "mainboard:IC3"
+      ],
+      "cap_height_mm": 1.0
+    },
+    "EEPROM": {
+      "lines": [
+        "25C33P",
+        "0220A"
+      ],
+      "references": [
+        "mainboard:IC2"
+      ],
+      "cap_height_mm": 0.9
+    },
+    "4N37": {
+      "lines": [
+        "L0434",
+        "4N37"
+      ],
+      "references": [
+        "ioboard:IC24"
+      ],
+      "cap_height_mm": 0.896
+    },
+    "FT232BM": {
+      "lines": [
+        "FT232BM",
+        "425-1"
+      ],
+      "references": [
+        "ioboard:IC25"
+      ],
+      "cap_height_mm": 0.683
+    }
+  },
+  "photos": {
+    "source": "Original parts page photographs, archived at https://github.com/x0xb0x/x0xb0x.github.io (assets/images/parts/)",
+    "retained": false,
+    "note": "Third-party photographs; hashes and transcriptions only. Logos are not reproduced.",
+    "files": {
+      "74hc595.jpg": "4cbb30a5d5e4b62cd01efe05e55f9f7bfea403e4bfa2a0ac1fb4c2ba6cbd493d",
+      "74ac174.jpg": "7b3875541abcc77e526c5aae15c63b07c270ebbd3055f00611671d03d6076abe",
+      "74hc126.jpg": "80423ffdf4115a1c97de353dcc23c62cb732408f2b40fe8b940584f8373d8e4b",
+      "4066.jpg": "57e7186979f575560bd18f455c2a4779bbfd3a248158e1071d52ab4dbb14f373",
+      "an6562.jpg": "b69250a61e90dac77c9b920896814db3b9e6e8c603c265f107569f5e5192a218",
+      "atmega.jpg": "fd49c399f623cf3479abd1ef15c7874d0ff932acca7c475aba692f14b7e28b29",
+      "eeprom.jpg": "ca548e867fa6e11e1bcafd1a55d3738faed986717e65d917d85662ca050376af",
+      "4N37.jpg": "42ef98b1802c7918ee46f6fb9c4c468f9711bb733d64bc56e9db72e2842d5e77",
+      "ft232.jpg": "98b14c005bf736be77610ab5f56b3302f114f5eac6a07903fb7da18b3319fef6"
+    }
+  },
+  "font": {
+    "file": "/Applications/FreeCAD.app/Contents/Resources/fonts/SourceCodePro-Medium.ttf",
+    "sha256": "6a1564c7b5469d310744770558657fe8c22187d4cab802a8696274772046b6ae",
+    "licence": "SIL Open Font License (Source Code Pro, bundled with FreeCAD 1.0.1)",
+    "note": "Approximates the vendors' marking fonts; not their typefaces"
+  },
+  "pcb_value_differences": {
+    "IC9": "PCB value 4174P; photographed part 74AC174PC",
+    "IC1": "PCB value 74126N; photographed part MM74HC126N",
+    "IC2": "PCB value AT25P; photographed part 25C33P",
+    "IC14": "Not marked (SIP LA4140 illustration unchanged)"
+  },
+  "neighbour_contacts": {
+    "new": []
+  },
+  "blender": {
+    "changed_meshes": 17,
+    "added_materials": [
+      "IC marking ink \u2014 revision 27 (native KiCad colour)"
+    ],
+    "retired_materials": []
+  },
+  "kicad": {
+    "changed_files": [
+      "ioboard/ioboard-import-fps.pretty/DIL06.kicad_mod",
+      "ioboard/ioboard-import-fps.pretty/DIL08.kicad_mod",
+      "ioboard/ioboard-import-fps.pretty/SQFP-S-7X7-32.kicad_mod",
+      "ioboard/ioboard.kicad_pcb",
+      "mainboard/mainboard-import-fps.pretty/DIL08.kicad_mod",
+      "mainboard/mainboard-import-fps.pretty/DIL08_AT25.kicad_mod",
+      "mainboard/mainboard-import-fps.pretty/DIL40.kicad_mod",
+      "mainboard/mainboard.kicad_pcb"
+    ],
+    "new_files": 13,
+    "core_files": 361,
+    "fresh_ERC_errors": {
+      "mainboard": 0,
+      "ioboard": 0
+    },
+    "fresh_DRC_comparison_to_previous": {
+      "mainboard": {
+        "violations": true,
+        "schematic_parity": true,
+        "ignored_checks": true,
+        "unconnected_items_raw": false,
+        "unconnected_count_and_nets": true
+      },
+      "ioboard": {
+        "violations": true,
+        "schematic_parity": true,
+        "ignored_checks": true,
+        "unconnected_items_raw": false,
+        "unconnected_count_and_nets": true
+      }
+    }
+  },
+  "verification": {
+    "marking_models": {
+      "report": "kicad-working/validation/models-review-24/marking-quality/marking-model-audit.json",
+      "sha256": "f540fc3c9fc16a43c2285991cd4c0c4deab83cf49d5ffb77634c3cc8f5999167",
+      "passed": true,
+      "check_count": 60
+    },
+    "native_marking_check": {
+      "report": "kicad-working/validation/models-review-24/marking-quality/marking-native-check.json",
+      "sha256": "06acde23d57aa582c1d032713eae6578dca2fea6c591b3fda4112266d10d394d",
+      "passed": true,
+      "check_count": 17
+    },
+    "kicad_installation": {
+      "report": "kicad-working/validation/models-review-24/installation-audit.json",
+      "sha256": "9d6ac7c2c2ece56d37256e7ef575f56302b8d1354b6681b6de4ec114dfa2ec33",
+      "passed": true
+    },
+    "native_lead_and_fit_audit": {
+      "report": "kicad-working/validation/models-review-24/native-terminal-audit.json",
+      "sha256": "f1c114384fc2fe96ef1b0fe1cf973a586572e531acc540a967473a473e441a75",
+      "passed": true,
+      "check_count": 42
+    },
+    "kicad_validation_summary": {
+      "report": "kicad-working/validation/working-validation-summary-revision-24.json",
+      "sha256": "11156ae51a7d957653eb6f81c279009cedd73fa02c67590d8abea18c6c9d81e4",
+      "passed": true
+    },
+    "midi_function_replay": {
+      "report": "kicad-working/validation/models-review-24/current-function-verification.json",
+      "sha256": "e0e1b9ccafd7eb65ea4a886fcd812c9b228738fd528e3230d09367e1bec771c2",
+      "passed": true
+    },
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-27/verification/final-saved-scene-audit.json",
+      "sha256": "c067223b951c5129f8b6f1010ddf5f3b9d9bb0e1d9a77898effa90626aadc0c2",
+      "passed": true,
+      "check_count": 12
+    },
+    "kicad_blender_models": {
+      "report": "kicad-working/visualization/blender-case-revision-27/verification/kicad-blender-models-audit.json",
+      "sha256": "45ac1926112e3da6035eaf1ed2d2904d952b7905512d64396a133f31795dea07",
+      "passed": true,
+      "check_count": 7
+    },
+    "drill_fit": {
+      "report": "kicad-working/visualization/blender-case-revision-27/verification/drill-fit-audit.json",
+      "sha256": "11301774a002b6deb7b90bc96ddfdf135b35ec41b6141e73b937b1e8f23fd1a4",
+      "passed": true,
+      "check_count": 6
+    },
+    "terminal_joins": {
+      "report": "kicad-working/visualization/blender-case-revision-27/verification/terminal-join-audit.json",
+      "sha256": "dd842137cc4ef800d5df1500dd10deed227524cfc0e6d00c9a323c22002687a7",
+      "passed": true,
+      "check_count": 4
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-27/verification/rear-openings-audit.json",
+      "sha256": "6a6ad4ea995100ede253c5248109e84174bc5e8cb76703a78fa3961c5ba9cee3",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-27/verification/portable-scene-audit.json",
+      "sha256": "a4e4c31e5ad72d64e6fa7feb5d77114e20b7f1117d9ed3cf2e93949829214d86",
+      "passed": true,
+      "check_count": 106
+    },
+    "marking_neighbours": {
+      "report": "kicad-working/visualization/blender-case-revision-27/verification/marking-neighbour-audit.json",
+      "sha256": "3be38ee58c00bbf2e20eeb26cbb9b618ae733c13bc6c4870dc084264b68cfbd0",
+      "passed": true
+    },
+    "detail_renders": {
+      "report": "kicad-working/visualization/blender-case-revision-27/verification/marking-detail-render.json",
+      "sha256": "6842358795d86e2a0eaabdbb985a40141a8a73476e1ab83b32f9f6ee8f3c94f0",
+      "passed": true
+    },
+    "render_readonly": {
+      "report": "kicad-working/visualization/blender-case-revision-27/verification/render-readonly-verification.json",
+      "sha256": "80ffd9a285811b7138ee9f5d0c9f3e62775ad6b189f8a32a63788606cf7d814b",
+      "passed": true
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-27/verification/final-render-review.json",
+      "sha256": "54c7a4987dc48a2745f37ac137e2e7c69d38bc64e589c749392d61e3521bd670",
+      "passed": true
+    }
+  },
+  "unchanged": [
+    "Original Eagle files",
+    "KiCad copper, pads, drills, nets, footprint poses, PCB value fields, model transforms and rules",
+    "Every other model reference",
+    "All Blender objects, poses, case, LEDs, spacers, caps, hardware, wiring study, previous materials, cameras and animation"
+  ],
+  "limitations": [
+    "Marking text is transcribed from one set of kit photographs; date and lot codes varied between kits.",
+    "Logos are omitted; Source Code Pro approximates the vendors' marking fonts; ink colour is illustrative.",
+    "The 74HC165 has no photograph and carries its part number only.",
+    "Chip and socket geometry, colours and transforms are unchanged; physical fit is unqualified."
+  ],
+  "physical_fit_qualified": false,
+  "validation_summary": {
+    "report": "kicad-working/visualization/blender-case-revision-27/verification/independent-validation-summary.json",
+    "sha256": "36c8e0bb894c4913ef61b838d1ea26e330e38732244caf55f55994b89b13ae30"
+  }
+}

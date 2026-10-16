@@ -1,0 +1,2975 @@
+{
+  "passed": true,
+  "visualization_revision": 27,
+  "kicad_revision": 24,
+  "baseline_sha256": "121021a77f6b4b9b7865df46c6b227403ba38d0594113b985042e6102aa47ada",
+  "stable_scene_sha256": "529ac312c446f426bcc46b566702e7043f038ee7be0599d7971508ec693d8e69",
+  "stable_scene_bytes": 47838427,
+  "source_glb_sha256": {
+    "ioboard": "fe54e3394bb37dcaca738991f4b21d3d0d104178116dc324ac687b86829f91ad",
+    "mainboard": "a320dfb87b78343d1830252cabb71b09d58dac000347da837e0887c51c884168"
+  },
+  "source_plan_sha256": "5e47e9c663435d15f7c16cf7958d32a22c43ec6f994ed5b19e42abb40d02fc65",
+  "changes": {
+    "MAINBOARD/IC1/mesh": {
+      "reference": "IC1",
+      "board": "mainboard",
+      "model": "Revision24/marking-quality/DIP-14_W7.62mm_Marked_74HC126.step",
+      "old_mesh": {
+        "hash": "93fc5dc60de0cfe9432ff6f33d9260c82e859a29fdfa5f686b2a881d81f50d0b",
+        "vertices": 1960,
+        "edges": 3170,
+        "polygons": 1460,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8444f24d3d03b893a14e2583373e8b459f6a56573d8a9fa90d704ad609c0caba"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "ae230bcd2c2a8b6860f3d87384ea48601135532a0f16a3006b033a7b84b34ddd"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "028afb2f6e4cef442b0f299c03a254cccd9eb2b65febb1b6a8cd4d28e2b07908"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c1f3eb2ef66a72cfb16ef8eda394b547152c73378b78256c83ae0a812ae597af"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "4ef9cca5185ed64f700a54d4ff34ce4e7c655b56c6c11f8ac50f37a7ba5738f3"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "0599653dceb3960b3db6f87fcc7f323be730c5652c31d29a4f55618513b05e9b"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "cc9f478c8e7099bc94a18272f464c84c540ce5317939fd8aad784164f9836fa7"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "92fff747aaa5f9fc0fd81ca5531703638185559da065aa361be9265b9ca83755",
+        "vertices": 5635,
+        "edges": 9598,
+        "polygons": 4586,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "372468c4133e1138c4e278dd0e0520406610a63ca87b4d0a38efab9dcd9d38e8"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "1ce74bf1e30c46e0f3eb4a4d23e2a67e61aa845bca579aa101f3937bc0ef3572"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "6a8ade67dbccc51cdc7977770f63a55d1d4b64820ed66a44e0bd306ea58c0336"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "925396d5918c3e8ad68ceca40f4c4f2b399a297fc3a52c074d981300c0b9d10e"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a029d6d8ba0fbafab05f862e1cd35d949c44396675ef0dbc7523e7d5eea3d5df"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "fe2830a56f667c7b27fb67c44877a5f3afbbd015ea9c191dd1653f82002495a6"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "975bb2dabf565b7ca1226778fb39f032dc7bd8bf19915693542ec1885655cc72"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c64f6af0ed74b711609f72e8f75dbfab220924a55baacae1a91f1520e4c1f4af"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        },
+        {
+          "slot": 2,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "MAINBOARD/IC11/mesh": {
+      "reference": "IC11",
+      "board": "mainboard",
+      "model": "Revision24/marking-quality/DIP-8_W7.62mm_Marked_AN6562.step",
+      "old_mesh": {
+        "hash": "cedbd3d71a4c28083a8f2230855c8526ae0cac711232fa582c2e86503d61593e",
+        "vertices": 1156,
+        "edges": 1868,
+        "polygons": 860,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "b06ab6e2f336371d2c9c54f3101b32cdbcdc2dd91f14a614956c560510104cfa"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "ccc7cc1cbaeacacfd99859db960ddc6868c2df48e7946d4f7da10cf99a71c3c0"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "fef1f8f3340ea88e3316eeca9bf7ad5c66560e0ef7b06cfe845d1598d600aaa2"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "ee0f4d4f1ea5cc40037ce2832a28acb61f0fb113586d841195d28bc94bfe44d4"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "3c8c0aa3e6c506ad904ea102a965850f807c999117334aff84e89d6a09ca8bf5"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "644aaa0fb176ffd344a724e7c89afcc1e7c1c3772075b69a334efa2bf624afa7"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "dc8f4b5d700d64f6e0dae9d8c06fdc6094d239ea32352f97f5396d81379ffe9e"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "e706f6181b5e0b9cb1271d29d320514708a9eb8c9d95c9502698d24bebd43c48",
+        "vertices": 3268,
+        "edges": 5699,
+        "polygons": 2752,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "a4b622632cd9bb43ae61a7f1f89e1ba47dc5d2b316a10e9c1f3e5d9963fb8da8"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "942ea49371950edabeb30c93bf57432cbabd8c20da61311c581167245d0a0bfe"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "3b9f99d0604f244633549a8acba097cc400b804457cbf4099d38a398378c25ed"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "e89fcfeae6aa61f28476083c0e1b7eee8e5b7a9cba820597c27bdc182bc8e6ca"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "ae9870a1400bb816388eaf20e701cd9e4a50a293dc9432622c1b231ac64a7a5c"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "eaf87f1ff622810b4b83cec38dd14f49cc33d5cc31745ab6da1f1c6812ddaaad"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "9513069c14d9da58f10793a23ece2a41b3a988dcf5a8bcdb32f687d0ed92c6da"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "42b724ca84ccfc0a87139f91f700e2530db676c57325127cfb4e6d8b03e95cda"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        },
+        {
+          "slot": 2,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "MAINBOARD/IC12/mesh": {
+      "reference": "IC12",
+      "board": "mainboard",
+      "model": "Revision24/marking-quality/DIP-14_W7.62mm_Marked_4066.step",
+      "old_mesh": {
+        "hash": "93fc5dc60de0cfe9432ff6f33d9260c82e859a29fdfa5f686b2a881d81f50d0b",
+        "vertices": 1960,
+        "edges": 3170,
+        "polygons": 1460,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "8444f24d3d03b893a14e2583373e8b459f6a56573d8a9fa90d704ad609c0caba"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "ae230bcd2c2a8b6860f3d87384ea48601135532a0f16a3006b033a7b84b34ddd"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "028afb2f6e4cef442b0f299c03a254cccd9eb2b65febb1b6a8cd4d28e2b07908"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c1f3eb2ef66a72cfb16ef8eda394b547152c73378b78256c83ae0a812ae597af"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "4ef9cca5185ed64f700a54d4ff34ce4e7c655b56c6c11f8ac50f37a7ba5738f3"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "0599653dceb3960b3db6f87fcc7f323be730c5652c31d29a4f55618513b05e9b"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "cc9f478c8e7099bc94a18272f464c84c540ce5317939fd8aad784164f9836fa7"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "87d3d0f050ae5791e8cde3c96c1ee9fe62a168c9b5b594fa5e2511bc5c6a38f2",
+        "vertices": 7360,
+        "edges": 12962,
+        "polygons": 6288,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "d5c1a4858122ead577fedc93a241cec5a3749595eb7d4e1f7f089d3553ada092"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "b2d7a6c900aae00acbc4cef6ae7547d2e03fede3d1061c0b3b27fb5ea2bc5a5a"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "f50e320ecdeb2e41cd473daa6db98bf90a1b17b7343ab1f00dbf035230d59d78"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "196ea9a9ce03ed7ac8f415ab7ecc7541acfaff96463d7ecaa9e030eb6977243e"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "ed511579a482d2d9663b7ccb6fb453968f75e84286e1f51dc435a35f1083eee5"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "228f4bf29749f2c363a2110780a0672832fd15420299b59928e7d3c939f449f2"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "4bdbc4edbccb5f1bd36be798e8790a2749ec3e57d94b9fa8dbc2c65732831953"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "77ca1549ce33f7da50ef67a2e1e0a796bd5f33e685a4479500bfbf93079a8f85"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.2583055425684506e-09
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -2.075612748342337e-08
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.1641532182693481e-10
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        },
+        {
+          "slot": 2,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "MAINBOARD/IC16/mesh": {
+      "reference": "IC16",
+      "board": "mainboard",
+      "model": "Revision24/marking-quality/DIP-16_W7.62mm_Marked_74HC165.step",
+      "old_mesh": {
+        "hash": "53885450cea0363aea3229db26474ad78b14ef5d81a32f6363c5eeb885852a24",
+        "vertices": 2228,
+        "edges": 3604,
+        "polygons": 1660,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "cb248864c6e0801d9afdc550422da3a848796422ca0da228cc3e7f8a2c461226"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "068741fb2147a68dab6654c6e84965e4ded1928059f5717165e70358f4a8530a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "046758f22b58a4e47e5cabad7c53e0f774c522835d0e3d391e0e298e7d6f58ae"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "4e10ed8d107afe31a15cf57e167d7810b95f015316e22cde742bff7bbdac57ff"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c0b79abc6c0a460be3a5bb95e1a24b4621aafa0014e41daac7f45fd9dcacbd32"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "53c697d3c5460c231302b2013a081b159cf1e184742815f0d7988659e2459299"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "fc7791a7c9e566bda6db92c8cbf06c7021b458418b83af178334e5e32f1822a0"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "96601ff1e09d71fec20d8e6703ba1e7c4505cfc95bf5ea3603b737fbc4f50736",
+        "vertices": 3725,
+        "edges": 6204,
+        "polygons": 2922,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "5ac820e58aa40bac17a3c98771a4383656801c34b8a8288801093648d16dae31"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "4fd720f5a98f87e152c397942f93ff99467f44eddbd6571cfdd9528b66ff1a03"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "4d1be23e71ea89762ff8e8089e23ce1e2541d93882b43f8dfc426ee6919b0be3"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "cd55de10a4a1c5c8b48df0caad2149415ded635979851d81bb39ef4a37fc9e09"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "7f8852208e5c7d2d907248f9c27addeae89b59259a59c6c681f7f6f65f1960cf"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "4ae6419cdb67e32202823758780ee738d4290475865136eece1498045d44e5a8"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "1d5b25954aa37f93b355a0daec9e3206f8d44bd2e41d239832e1c6bf82c53a40"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c28043493f7aa17134b947ea6d15d320041855fc8656c6671d24928edb7ce4d6"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        },
+        {
+          "slot": 2,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "MAINBOARD/IC17/mesh": {
+      "reference": "IC17",
+      "board": "mainboard",
+      "model": "Revision24/marking-quality/DIP-16_W7.62mm_Marked_74HC165.step",
+      "old_mesh": {
+        "hash": "53885450cea0363aea3229db26474ad78b14ef5d81a32f6363c5eeb885852a24",
+        "vertices": 2228,
+        "edges": 3604,
+        "polygons": 1660,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "cb248864c6e0801d9afdc550422da3a848796422ca0da228cc3e7f8a2c461226"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "068741fb2147a68dab6654c6e84965e4ded1928059f5717165e70358f4a8530a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "046758f22b58a4e47e5cabad7c53e0f774c522835d0e3d391e0e298e7d6f58ae"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "4e10ed8d107afe31a15cf57e167d7810b95f015316e22cde742bff7bbdac57ff"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c0b79abc6c0a460be3a5bb95e1a24b4621aafa0014e41daac7f45fd9dcacbd32"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "53c697d3c5460c231302b2013a081b159cf1e184742815f0d7988659e2459299"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "fc7791a7c9e566bda6db92c8cbf06c7021b458418b83af178334e5e32f1822a0"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "96601ff1e09d71fec20d8e6703ba1e7c4505cfc95bf5ea3603b737fbc4f50736",
+        "vertices": 3725,
+        "edges": 6204,
+        "polygons": 2922,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "5ac820e58aa40bac17a3c98771a4383656801c34b8a8288801093648d16dae31"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "4fd720f5a98f87e152c397942f93ff99467f44eddbd6571cfdd9528b66ff1a03"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "4d1be23e71ea89762ff8e8089e23ce1e2541d93882b43f8dfc426ee6919b0be3"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "cd55de10a4a1c5c8b48df0caad2149415ded635979851d81bb39ef4a37fc9e09"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "7f8852208e5c7d2d907248f9c27addeae89b59259a59c6c681f7f6f65f1960cf"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "4ae6419cdb67e32202823758780ee738d4290475865136eece1498045d44e5a8"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "1d5b25954aa37f93b355a0daec9e3206f8d44bd2e41d239832e1c6bf82c53a40"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c28043493f7aa17134b947ea6d15d320041855fc8656c6671d24928edb7ce4d6"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        },
+        {
+          "slot": 2,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "MAINBOARD/IC18/mesh": {
+      "reference": "IC18",
+      "board": "mainboard",
+      "model": "Revision24/marking-quality/DIP-16_W7.62mm_Marked_74HC165.step",
+      "old_mesh": {
+        "hash": "53885450cea0363aea3229db26474ad78b14ef5d81a32f6363c5eeb885852a24",
+        "vertices": 2228,
+        "edges": 3604,
+        "polygons": 1660,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "cb248864c6e0801d9afdc550422da3a848796422ca0da228cc3e7f8a2c461226"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "068741fb2147a68dab6654c6e84965e4ded1928059f5717165e70358f4a8530a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "046758f22b58a4e47e5cabad7c53e0f774c522835d0e3d391e0e298e7d6f58ae"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "4e10ed8d107afe31a15cf57e167d7810b95f015316e22cde742bff7bbdac57ff"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c0b79abc6c0a460be3a5bb95e1a24b4621aafa0014e41daac7f45fd9dcacbd32"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "53c697d3c5460c231302b2013a081b159cf1e184742815f0d7988659e2459299"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "fc7791a7c9e566bda6db92c8cbf06c7021b458418b83af178334e5e32f1822a0"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "96601ff1e09d71fec20d8e6703ba1e7c4505cfc95bf5ea3603b737fbc4f50736",
+        "vertices": 3725,
+        "edges": 6204,
+        "polygons": 2922,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "5ac820e58aa40bac17a3c98771a4383656801c34b8a8288801093648d16dae31"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "4fd720f5a98f87e152c397942f93ff99467f44eddbd6571cfdd9528b66ff1a03"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "4d1be23e71ea89762ff8e8089e23ce1e2541d93882b43f8dfc426ee6919b0be3"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "cd55de10a4a1c5c8b48df0caad2149415ded635979851d81bb39ef4a37fc9e09"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "7f8852208e5c7d2d907248f9c27addeae89b59259a59c6c681f7f6f65f1960cf"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "4ae6419cdb67e32202823758780ee738d4290475865136eece1498045d44e5a8"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "1d5b25954aa37f93b355a0daec9e3206f8d44bd2e41d239832e1c6bf82c53a40"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c28043493f7aa17134b947ea6d15d320041855fc8656c6671d24928edb7ce4d6"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        },
+        {
+          "slot": 2,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "MAINBOARD/IC2/mesh": {
+      "reference": "IC2",
+      "board": "mainboard",
+      "model": "Revision24/marking-quality/DIP-8_W7.62mm_in_1-390261-2_Socket_KiCadFrame_Marked_EEPROM.step",
+      "old_mesh": {
+        "hash": "48cf5d7ccc1046033843d0f6ed27257b12c33c704cec2f29e1468af0eda92d01",
+        "vertices": 3636,
+        "edges": 6074,
+        "polygons": 2856,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "1bfa73b0d045e21878271cdf8b312962aaf29151c3c566cf55a3557d6349f393"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "946da7f90a09876cfa651303741bf3617d3a7fe035a7f3f0ca572c071e455a82"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "b32b20e62e045b307a544f2f88ecb45c7c876764f250dd6e0e241b0ddae4df81"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "7646ea6f8492fd15704ea27cdb1f0c048fbafc27f4eb4a236a09969708f5e114"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c5f975c334650a0e60f89088b29bac5b10d958ea93e7477e7fbc65ef158482c1"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "be408c881eea27cd2f2887c60eb6600875caf3a163eb590fd01f04085444074b"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "f6db30f744ea5f46efd61f2edfb519baf7acf9ab5e3076a9edffd643e827becd"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "be38a32bf25edf386bc8e2a28a0228b8744e605a9422ffb85f9d6fedb5ef8be7"
+          }
+        },
+        "props": {},
+        "materials": [
+          "TE DIP socket housing \u2014 revision 26 (native KiCad colour)",
+          "TE DIP socket contacts \u2014 revision 26 (native KiCad colour)",
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "dd1c0b2c61f62e94e2fb255f2a31f38fca3acc0fc4f3736864826c5d1d949ad5",
+        "vertices": 7030,
+        "edges": 12250,
+        "polygons": 5908,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "05531d35f6aed19733c3003a94dfdaee2e3b328fde9cb6c66052a67e7595ce18"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "92bda7e44e9ff04bfe75503909894b55a41c98b58f09e18d9487acf1155c67ad"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c18cd08cb30bb52101cb56876d4c0d4631445bc3a937cb9252481d2720fe5345"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "c7ff4bc8a75466dbe8c62cd90dc1f095728b74015469396740077c178b26707f"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "5b2ce24d2f9c5632ae15152f8533a5424348d4d13a99be431a6b868f15dde0a1"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "9dbc907c01b0964bba43cfb2691dbabcc1e68f6e1040b45d372f9662ca4a04d2"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "7e9d2250ddf5029757ba4d2a9ecca0c734f5a1cacd25475380192a19a10e191e"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "e409957a9bf079cb402a47074d65d749c7c20e3aa0c9c255f05933ecb6fdac9b"
+          }
+        },
+        "props": {},
+        "materials": [
+          "TE DIP socket housing \u2014 revision 26 (native KiCad colour)",
+          "TE DIP socket contacts \u2014 revision 26 (native KiCad colour)",
+          "mat_6.004",
+          "mat_3.004",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.005981059744954109,
+            0.005981059744954109,
+            0.007194409146904945,
+            1.0
+          ],
+          "scene_material": "TE DIP socket housing \u2014 revision 26 (native KiCad colour)"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6038273572921753,
+            0.6038273572921753,
+            0.5704815983772278,
+            1.0
+          ],
+          "scene_material": "TE DIP socket contacts \u2014 revision 26 (native KiCad colour)"
+        },
+        {
+          "slot": 2,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 3,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        },
+        {
+          "slot": 4,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "MAINBOARD/IC3/mesh": {
+      "reference": "IC3",
+      "board": "mainboard",
+      "model": "Revision24/marking-quality/DIP-40_W15.24mm_in_1-390262-5_Socket_KiCadFrame_Marked_ATmega162.step",
+      "old_mesh": {
+        "hash": "ccaca829331104adba68d19efaf38f1ee2f9c7d31068c405ad9248ee155ba14f",
+        "vertices": 15862,
+        "edges": 26203,
+        "polygons": 12200,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "709b8a30e98b186a173cfefb9c7fd03d9959d260abdaa653221e6e35f0fbdb4b"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "de0cb164295cf750a1599fac56bf491139153d569f60e060ab1ed610f56a8194"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "2fdb0ca1e672dc5db2373233991f3799cd934f301b2c0557463c960a8165fc6e"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "4d1b9b233d40392ae622de320ac0c5366e76cabb51544622ffe2746e72ce4958"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "eb3c154cb8fd30eaadc1fc58f6af238633b3a8c100d7625f378a61b69b79eb9f"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "c331d40315ddcba49f33eb756c2b3f8d6c7346f2bc12d83e95cad36e809bdf15"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "0462f3d1a720c21e538e5ade7bae8ac515e5378983ee15b23b5b18fe0cec731c"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "057c509aa61aeca3dc9637f89d0f465dc43405b5d00f0b1870f1f3c42d1de98b"
+          }
+        },
+        "props": {},
+        "materials": [
+          "TE DIP socket housing \u2014 revision 26 (native KiCad colour)",
+          "TE DIP socket contacts \u2014 revision 26 (native KiCad colour)",
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "24752dfb6ace78c9c515e05dfc0f6e963fe684ed1396898d0f26ad19592e1517",
+        "vertices": 19428,
+        "edges": 32442,
+        "polygons": 15232,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "be146f05126c5d9c130a98930c2b6992dff347cc95f100e3cc2f5412088dd6c3"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "f8cdc3a3759d1c3d937d298660d33dcda10b0bb714081d6c0928ab05a6cc54f1"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "6bbeb59444b658ec9241b2b9c9fbf8e8375038a28db9ad97af9c39d8832e7f22"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "26da7b9f792c23f9d5a05eb3fc68e0f4d896e7c4d77a2c746986b0e3865c5511"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "1c168a2f00a1ce835f05bef01de79896a4a1d7e770823ccc9e83155f28167715"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "a7740dcab8f381f8067b0fe86d892e7119ea1ea424fd27bc0bb1ae30e33e5007"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "a2c3c836276a20184121c6588acede156a111a05f525b7caf7966b0052cc2ed3"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "f3c2c99d2a04f01242799957849bff5d188a5e472d4957aa1376d570485f2d80"
+          }
+        },
+        "props": {},
+        "materials": [
+          "TE DIP socket housing \u2014 revision 26 (native KiCad colour)",
+          "TE DIP socket contacts \u2014 revision 26 (native KiCad colour)",
+          "mat_6.004",
+          "mat_3.004",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.3901537698757238e-09
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.625600809518346e-08
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.1641532182693481e-10
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.005981059744954109,
+            0.005981059744954109,
+            0.007194409146904945,
+            1.0
+          ],
+          "scene_material": "TE DIP socket housing \u2014 revision 26 (native KiCad colour)"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6038273572921753,
+            0.6038273572921753,
+            0.5704815983772278,
+            1.0
+          ],
+          "scene_material": "TE DIP socket contacts \u2014 revision 26 (native KiCad colour)"
+        },
+        {
+          "slot": 2,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 3,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        },
+        {
+          "slot": 4,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "MAINBOARD/IC4/mesh": {
+      "reference": "IC4",
+      "board": "mainboard",
+      "model": "Revision24/marking-quality/DIP-16_W7.62mm_Marked_74HC595.step",
+      "old_mesh": {
+        "hash": "53885450cea0363aea3229db26474ad78b14ef5d81a32f6363c5eeb885852a24",
+        "vertices": 2228,
+        "edges": 3604,
+        "polygons": 1660,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "cb248864c6e0801d9afdc550422da3a848796422ca0da228cc3e7f8a2c461226"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "068741fb2147a68dab6654c6e84965e4ded1928059f5717165e70358f4a8530a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "046758f22b58a4e47e5cabad7c53e0f774c522835d0e3d391e0e298e7d6f58ae"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "4e10ed8d107afe31a15cf57e167d7810b95f015316e22cde742bff7bbdac57ff"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c0b79abc6c0a460be3a5bb95e1a24b4621aafa0014e41daac7f45fd9dcacbd32"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "53c697d3c5460c231302b2013a081b159cf1e184742815f0d7988659e2459299"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "fc7791a7c9e566bda6db92c8cbf06c7021b458418b83af178334e5e32f1822a0"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "6138ac3c1115e9739d2f980b05dd812fab84022cffe4d19a8a1566c035ce3fd2",
+        "vertices": 6527,
+        "edges": 11224,
+        "polygons": 5386,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "311c933843a22613de954265602ae24cd16ba2863a12a01599dfd965b84644d9"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "3b426e0b2c7043362a0429f28036bdebacfde9645fe48cfdbd066237440589d0"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "cafe5150a222eceb1c9818c97a0bdd0052450e2eb2aebcdf4ea502bec2d99a2a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "48068e7a0cfeaf676d232f574ca88e279a237b7930e2e9b5b3f1d27ce118324d"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c22ab3c5c60030493fcd2f723259a6fa3e67727544da95960e98920c4645f7d5"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "92146ff826d3a691b02ebd3b2554d492db007b8347cb97538a2fecec631b094e"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "a0b19e91517f63371b3ac4332bd8cc4a5981f3417c9d881f61f07bd3b32bf3fc"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "02dd0a845674d972c17549dd21bf13891bae2274187b35f2538cba0bd610ce2a"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.7755575615628914e-17
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.163336342344337e-17
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        },
+        {
+          "slot": 2,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "MAINBOARD/IC5/mesh": {
+      "reference": "IC5",
+      "board": "mainboard",
+      "model": "Revision24/marking-quality/DIP-16_W7.62mm_Marked_74HC595.step",
+      "old_mesh": {
+        "hash": "53885450cea0363aea3229db26474ad78b14ef5d81a32f6363c5eeb885852a24",
+        "vertices": 2228,
+        "edges": 3604,
+        "polygons": 1660,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "cb248864c6e0801d9afdc550422da3a848796422ca0da228cc3e7f8a2c461226"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "068741fb2147a68dab6654c6e84965e4ded1928059f5717165e70358f4a8530a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "046758f22b58a4e47e5cabad7c53e0f774c522835d0e3d391e0e298e7d6f58ae"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "4e10ed8d107afe31a15cf57e167d7810b95f015316e22cde742bff7bbdac57ff"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c0b79abc6c0a460be3a5bb95e1a24b4621aafa0014e41daac7f45fd9dcacbd32"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "53c697d3c5460c231302b2013a081b159cf1e184742815f0d7988659e2459299"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "fc7791a7c9e566bda6db92c8cbf06c7021b458418b83af178334e5e32f1822a0"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "6138ac3c1115e9739d2f980b05dd812fab84022cffe4d19a8a1566c035ce3fd2",
+        "vertices": 6527,
+        "edges": 11224,
+        "polygons": 5386,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "311c933843a22613de954265602ae24cd16ba2863a12a01599dfd965b84644d9"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "3b426e0b2c7043362a0429f28036bdebacfde9645fe48cfdbd066237440589d0"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "cafe5150a222eceb1c9818c97a0bdd0052450e2eb2aebcdf4ea502bec2d99a2a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "48068e7a0cfeaf676d232f574ca88e279a237b7930e2e9b5b3f1d27ce118324d"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c22ab3c5c60030493fcd2f723259a6fa3e67727544da95960e98920c4645f7d5"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "92146ff826d3a691b02ebd3b2554d492db007b8347cb97538a2fecec631b094e"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "a0b19e91517f63371b3ac4332bd8cc4a5981f3417c9d881f61f07bd3b32bf3fc"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "02dd0a845674d972c17549dd21bf13891bae2274187b35f2538cba0bd610ce2a"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.7755575615628914e-17
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -2.7755575615628914e-17
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        },
+        {
+          "slot": 2,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "MAINBOARD/IC6/mesh": {
+      "reference": "IC6",
+      "board": "mainboard",
+      "model": "Revision24/marking-quality/DIP-16_W7.62mm_Marked_74HC595.step",
+      "old_mesh": {
+        "hash": "53885450cea0363aea3229db26474ad78b14ef5d81a32f6363c5eeb885852a24",
+        "vertices": 2228,
+        "edges": 3604,
+        "polygons": 1660,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "cb248864c6e0801d9afdc550422da3a848796422ca0da228cc3e7f8a2c461226"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "068741fb2147a68dab6654c6e84965e4ded1928059f5717165e70358f4a8530a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "046758f22b58a4e47e5cabad7c53e0f774c522835d0e3d391e0e298e7d6f58ae"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "4e10ed8d107afe31a15cf57e167d7810b95f015316e22cde742bff7bbdac57ff"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c0b79abc6c0a460be3a5bb95e1a24b4621aafa0014e41daac7f45fd9dcacbd32"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "53c697d3c5460c231302b2013a081b159cf1e184742815f0d7988659e2459299"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "fc7791a7c9e566bda6db92c8cbf06c7021b458418b83af178334e5e32f1822a0"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "6138ac3c1115e9739d2f980b05dd812fab84022cffe4d19a8a1566c035ce3fd2",
+        "vertices": 6527,
+        "edges": 11224,
+        "polygons": 5386,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "311c933843a22613de954265602ae24cd16ba2863a12a01599dfd965b84644d9"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "3b426e0b2c7043362a0429f28036bdebacfde9645fe48cfdbd066237440589d0"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "cafe5150a222eceb1c9818c97a0bdd0052450e2eb2aebcdf4ea502bec2d99a2a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "48068e7a0cfeaf676d232f574ca88e279a237b7930e2e9b5b3f1d27ce118324d"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c22ab3c5c60030493fcd2f723259a6fa3e67727544da95960e98920c4645f7d5"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "92146ff826d3a691b02ebd3b2554d492db007b8347cb97538a2fecec631b094e"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "a0b19e91517f63371b3ac4332bd8cc4a5981f3417c9d881f61f07bd3b32bf3fc"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "02dd0a845674d972c17549dd21bf13891bae2274187b35f2538cba0bd610ce2a"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.5521601781642858e-09
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -7.331077966910016e-10
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.1641532182693481e-10
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        },
+        {
+          "slot": 2,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "MAINBOARD/IC7/mesh": {
+      "reference": "IC7",
+      "board": "mainboard",
+      "model": "Revision24/marking-quality/DIP-16_W7.62mm_Marked_74HC595.step",
+      "old_mesh": {
+        "hash": "53885450cea0363aea3229db26474ad78b14ef5d81a32f6363c5eeb885852a24",
+        "vertices": 2228,
+        "edges": 3604,
+        "polygons": 1660,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "cb248864c6e0801d9afdc550422da3a848796422ca0da228cc3e7f8a2c461226"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "068741fb2147a68dab6654c6e84965e4ded1928059f5717165e70358f4a8530a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "046758f22b58a4e47e5cabad7c53e0f774c522835d0e3d391e0e298e7d6f58ae"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "4e10ed8d107afe31a15cf57e167d7810b95f015316e22cde742bff7bbdac57ff"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c0b79abc6c0a460be3a5bb95e1a24b4621aafa0014e41daac7f45fd9dcacbd32"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "53c697d3c5460c231302b2013a081b159cf1e184742815f0d7988659e2459299"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "fc7791a7c9e566bda6db92c8cbf06c7021b458418b83af178334e5e32f1822a0"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "6138ac3c1115e9739d2f980b05dd812fab84022cffe4d19a8a1566c035ce3fd2",
+        "vertices": 6527,
+        "edges": 11224,
+        "polygons": 5386,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "311c933843a22613de954265602ae24cd16ba2863a12a01599dfd965b84644d9"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "3b426e0b2c7043362a0429f28036bdebacfde9645fe48cfdbd066237440589d0"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "cafe5150a222eceb1c9818c97a0bdd0052450e2eb2aebcdf4ea502bec2d99a2a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "48068e7a0cfeaf676d232f574ca88e279a237b7930e2e9b5b3f1d27ce118324d"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c22ab3c5c60030493fcd2f723259a6fa3e67727544da95960e98920c4645f7d5"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "92146ff826d3a691b02ebd3b2554d492db007b8347cb97538a2fecec631b094e"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "a0b19e91517f63371b3ac4332bd8cc4a5981f3417c9d881f61f07bd3b32bf3fc"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "02dd0a845674d972c17549dd21bf13891bae2274187b35f2538cba0bd610ce2a"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.726058572794955e-09
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0949864126530429e-08
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.1641532182693481e-10
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        },
+        {
+          "slot": 2,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "MAINBOARD/IC8/mesh": {
+      "reference": "IC8",
+      "board": "mainboard",
+      "model": "Revision24/marking-quality/DIP-16_W7.62mm_Marked_74HC595.step",
+      "old_mesh": {
+        "hash": "53885450cea0363aea3229db26474ad78b14ef5d81a32f6363c5eeb885852a24",
+        "vertices": 2228,
+        "edges": 3604,
+        "polygons": 1660,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "cb248864c6e0801d9afdc550422da3a848796422ca0da228cc3e7f8a2c461226"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "068741fb2147a68dab6654c6e84965e4ded1928059f5717165e70358f4a8530a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "046758f22b58a4e47e5cabad7c53e0f774c522835d0e3d391e0e298e7d6f58ae"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "4e10ed8d107afe31a15cf57e167d7810b95f015316e22cde742bff7bbdac57ff"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c0b79abc6c0a460be3a5bb95e1a24b4621aafa0014e41daac7f45fd9dcacbd32"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "53c697d3c5460c231302b2013a081b159cf1e184742815f0d7988659e2459299"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "fc7791a7c9e566bda6db92c8cbf06c7021b458418b83af178334e5e32f1822a0"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "6138ac3c1115e9739d2f980b05dd812fab84022cffe4d19a8a1566c035ce3fd2",
+        "vertices": 6527,
+        "edges": 11224,
+        "polygons": 5386,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "311c933843a22613de954265602ae24cd16ba2863a12a01599dfd965b84644d9"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "3b426e0b2c7043362a0429f28036bdebacfde9645fe48cfdbd066237440589d0"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "cafe5150a222eceb1c9818c97a0bdd0052450e2eb2aebcdf4ea502bec2d99a2a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "48068e7a0cfeaf676d232f574ca88e279a237b7930e2e9b5b3f1d27ce118324d"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c22ab3c5c60030493fcd2f723259a6fa3e67727544da95960e98920c4645f7d5"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "92146ff826d3a691b02ebd3b2554d492db007b8347cb97538a2fecec631b094e"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "a0b19e91517f63371b3ac4332bd8cc4a5981f3417c9d881f61f07bd3b32bf3fc"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "02dd0a845674d972c17549dd21bf13891bae2274187b35f2538cba0bd610ce2a"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.734723475976807e-17
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        },
+        {
+          "slot": 2,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "MAINBOARD/IC9/mesh": {
+      "reference": "IC9",
+      "board": "mainboard",
+      "model": "Revision24/marking-quality/DIP-16_W7.62mm_Marked_74AC174.step",
+      "old_mesh": {
+        "hash": "53885450cea0363aea3229db26474ad78b14ef5d81a32f6363c5eeb885852a24",
+        "vertices": 2228,
+        "edges": 3604,
+        "polygons": 1660,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "cb248864c6e0801d9afdc550422da3a848796422ca0da228cc3e7f8a2c461226"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "068741fb2147a68dab6654c6e84965e4ded1928059f5717165e70358f4a8530a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "046758f22b58a4e47e5cabad7c53e0f774c522835d0e3d391e0e298e7d6f58ae"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "4e10ed8d107afe31a15cf57e167d7810b95f015316e22cde742bff7bbdac57ff"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "c0b79abc6c0a460be3a5bb95e1a24b4621aafa0014e41daac7f45fd9dcacbd32"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "53c697d3c5460c231302b2013a081b159cf1e184742815f0d7988659e2459299"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "fc7791a7c9e566bda6db92c8cbf06c7021b458418b83af178334e5e32f1822a0"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004"
+        ]
+      },
+      "new_mesh": {
+        "hash": "7a095905cf52ae82be72801fe70f57c47c46e47b753d3f078376e89db8c39101",
+        "vertices": 6130,
+        "edges": 10582,
+        "polygons": 5084,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "d09a441d32f177b1e7b705c26e7d448a0b8b50ca47ece12c4f547181fa7ae515"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "a25661feb28f9b1451ef04fbaa78c5c3e05067f3da5586924ed56144a61d7cd4"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "e7fcd5c5d7077906efebc637fdb1ce790594207b0039434c9a17b1da77777c43"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "b4c9b4bf2a8c62b386a390f4f6e8852fa2fa14b85c10121c40bf20da91e9fd16"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "de9219240ec557eb9654497398aa29ece3ec052dcab9fe7f08fe35541c8f0bd8"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "0c5809b18f505c4a11207a69e9b232291b2945079f8adb5c563dc72935c69bff"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "5745a55cd2123fe1a6f681739d314a97db0a2ead81ba59a57f2d7fd6149b2366"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "ded736d0eaee2c6f76161ebaf77928ac99b5056f2333919570180200d6d397c6"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_6.004",
+          "mat_3.004",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          3.4589557884601163e-09
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          7.633094156744846e-11
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.1641532182693481e-10
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478473648428917,
+            0.018478473648428917,
+            1.0
+          ],
+          "scene_material": "mat_6.004"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_3.004"
+        },
+        {
+          "slot": 2,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "IOBOARD/IC23/mesh": {
+      "reference": "IC23",
+      "board": "ioboard",
+      "model": "Revision24/marking-quality/DIP-8_W7.62mm_Marked_AN6562.step",
+      "old_mesh": {
+        "hash": "69f3d3565574e0ac90a5eb01078587a881d86999b5005e980534da6f5d734a84",
+        "vertices": 1156,
+        "edges": 1868,
+        "polygons": 860,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "b06ab6e2f336371d2c9c54f3101b32cdbcdc2dd91f14a614956c560510104cfa"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "ccc7cc1cbaeacacfd99859db960ddc6868c2df48e7946d4f7da10cf99a71c3c0"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "fef1f8f3340ea88e3316eeca9bf7ad5c66560e0ef7b06cfe845d1598d600aaa2"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "ee0f4d4f1ea5cc40037ce2832a28acb61f0fb113586d841195d28bc94bfe44d4"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "3c8c0aa3e6c506ad904ea102a965850f807c999117334aff84e89d6a09ca8bf5"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "c433ea0370501496580b52a83b04e59451e90ba8d17bf94a6524e426c42d4d7d"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "fa351dff09397cf55f34c2dcd78fc4eb0dc36e8249cc549f6a63a42d961c82a5"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_15.005",
+          "mat_5.005"
+        ]
+      },
+      "new_mesh": {
+        "hash": "afb5290be7b2463524ade7b424861bb13c6a6e3e049b6037f1d59037611d299b",
+        "vertices": 3269,
+        "edges": 5702,
+        "polygons": 2754,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "682aff926e6c0662b655fecce9b48a1782ae4dc7ac4916b445486b57a38c5cea"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "fd0a12a53c3c08282cbbb68357c15e5c5fad0c60c6a940ab9433f5d76ff51e71"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "2716b2de416e524cf89e9e635b24609c05b785741d84b43d0abc12e92af7f803"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "168a3cceb29e281b8c7a532a10e5f25986cffc098dc4e32caf00a00c9a5e8169"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "3a87f70e7902481072b7412ad9de072a554489d024e72debb48a0ce6cdc44334"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "6a813557c7c2a25db2d9d50c471d290a4250aab970c87c0af3df34269d442036"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "25df78acb529f3b7b4544fd144ed4dd2c2e6c88803d983355798825b33072475"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "f42b0346a95758ccf50542b365186751805fedd7386cf5259347a28e43640220"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_15.005",
+          "mat_5.005",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.938893903907228e-18
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.3877787807814457e-17
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478471785783768,
+            0.018478471785783768,
+            1.0
+          ],
+          "scene_material": "mat_15.005"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_5.005"
+        },
+        {
+          "slot": 2,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "IOBOARD/IC24/mesh": {
+      "reference": "IC24",
+      "board": "ioboard",
+      "model": "Revision24/marking-quality/DIP-6_W7.62mm_Marked_4N37.step",
+      "old_mesh": {
+        "hash": "88042f16a3b1fd6046517552b8d4ec98ebb9ab2a417876246ab7a040c357080b",
+        "vertices": 888,
+        "edges": 1434,
+        "polygons": 660,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "477ce6e278d45dee8a23327c39039a7858601a2a926c5c4a5244e59cac4e759d"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "44e20213a6c058f64465f4113979bd9a20a75ea7a1ac0ebd04a1ab1e7d453cd3"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "4268712b9c9b7d51ba5cd05cf96aa5508c74de61e5a543a59771fa33e64d7a49"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "a3feb633d4fab5445872a2a9120697894405f7ee706998e1333e83740559f210"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "96c67511ed4cd4f081e35ab635552398f70f0a71ebb2bb1c323a3af73abbcda0"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "4e533d8f3d1e48c397d1b5cdacba12438f85bbf20e21b026e676041ca9f987ed"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "727da1f030ccd1fd91fe81ed2360d66441dc82286954bb48f1a53796813db649"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_15.005",
+          "mat_5.005"
+        ]
+      },
+      "new_mesh": {
+        "hash": "2a518d96f2fa96133859b119085a367eb2ddac51050323c53d66ee44f853bebf",
+        "vertices": 2813,
+        "edges": 4815,
+        "polygons": 2306,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "213904f77e106fdae6615fa881360af4099ec8a393e91cd8bbf8227ce58d5e5b"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "4d7752aa49ee56401907adfbfce473baecf643d4fe38faf6573e77370a5b6fc0"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "e52ed48d45bdb687b87849175cf36b455cfff7fe89419872ec541cdf86d28a8e"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "bdc72d2db7010acab14237990ffe61c68661a73320cd0bd0d265be9c7707920b"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "1f8d3702ed6df71f5627529983cfef3ce020442ad5740b7d59bdc5eef8d9a826"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "8790a800cad04f22fdb733d08345994f0077c19d431cd5a43ecab7f063529399"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "f7edf4db22f672767261c7982ddbba5cb7b891b1e988b18ef8b9831f6d776252"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "8afbc9781cad118b2f7cc99373651879534b9a668b1f03913b05ee6b441b69ca"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_15.005",
+          "mat_5.005",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -3.122502256758253e-17
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478471785783768,
+            0.018478471785783768,
+            1.0
+          ],
+          "scene_material": "mat_15.005"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_5.005"
+        },
+        {
+          "slot": 2,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    },
+    "IOBOARD/IC25/mesh": {
+      "reference": "IC25",
+      "board": "ioboard",
+      "model": "Revision24/marking-quality/LQFP-32_7x7mm_P0.8mm_Marked_FT232BM.step",
+      "old_mesh": {
+        "hash": "0616456b42e96080ac73c4fa22f9ee6d7f47a30b96e8986998df33d962d6704b",
+        "vertices": 5360,
+        "edges": 9202,
+        "polygons": 4348,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "23dafb312a8eb44ce3a20081ec67194700d546db0e0bcd458f39fd9b82d0fc49"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "1cd40afff2a235b340ea142abb32ba6836db6911e843a4bbb60941a4bfdd9b7a"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "9718e5167af684e99f6e9687a37c063aa48075e9c6520ad16fbde915188dff29"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "ddd7970d682a34a204b115eb79a2b84358b3efad3d9320e54d7232ac9581c1d3"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "0e3238b54e313dfb86873a98100cdf914883d6c6579d3f6c22c724cc51fef56e"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "e4d2853c32729d0acd30cc78d6fdf474af0f578ed5be3d759914776dc4590a6f"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "4f77172ed032bdbb3dda36a77dd9bde4b2c789c4a6c8d02e859a3827b55c50fb"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_31.005",
+          "mat_32.005",
+          "mat_33.005"
+        ]
+      },
+      "new_mesh": {
+        "hash": "018296c7e6f90f5588fde893203f4eaa98911aa39384c06a36fc0cbb86fa4d20",
+        "vertices": 7627,
+        "edges": 13127,
+        "polygons": 6250,
+        "attributes": {
+          ".select_vert": {
+            "data_type": "BOOLEAN",
+            "domain": "POINT",
+            "hash": "09e01995f2c8a55bd4f78c9e6df094d8fa437490205ff6863c579b9a347c6706"
+          },
+          ".corner_edge": {
+            "data_type": "INT",
+            "domain": "CORNER",
+            "hash": "3c27df7015f763298a7e44425f3f3f88006e9cf9d64a80f35ca318e4a5e5123b"
+          },
+          ".select_poly": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "1d5516a2b08f6d4b02138499c32898095fe9259be98ca44c808d3067ee12cf17"
+          },
+          "material_index": {
+            "data_type": "INT",
+            "domain": "FACE",
+            "hash": "fd53d414c9a8ed96c1457e37cc7343e458df00d1d708e73230eac12da1c4f33b"
+          },
+          "sharp_face": {
+            "data_type": "BOOLEAN",
+            "domain": "FACE",
+            "hash": "372df31bf6b758c9b699371af6f2d624eddc1a82b9fbce2da5805c368cf32ba0"
+          },
+          ".select_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "07bac2a5d90f7d51b932e61ab72e499cae43f61dce641c6e2bbc0f6e97f41e72"
+          },
+          "custom_normal": {
+            "data_type": "INT16_2D",
+            "domain": "CORNER",
+            "hash": "3712906f2847932d34a2d08a94bcf18feaa0bcbb5e29755f372d403f6f852f8e"
+          },
+          "sharp_edge": {
+            "data_type": "BOOLEAN",
+            "domain": "EDGE",
+            "hash": "4cfbd060dbfdebffeb67b6d35f504785c6834488f4f4a2e0cebaa6c67c0bbb8a"
+          }
+        },
+        "props": {},
+        "materials": [
+          "mat_31.005",
+          "mat_32.005",
+          "mat_33.005",
+          "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        ]
+      },
+      "canonical_transform": [
+        [
+          1.0,
+          -1.4210854715202004e-14,
+          0.0,
+          -1.0504566105851154e-09
+        ],
+        [
+          -1.4210854715202004e-14,
+          1.0,
+          0.0,
+          3.828957595430893e-09
+        ],
+        [
+          -2.2186712959340957e-30,
+          -1.5777218104420236e-30,
+          1.0,
+          7.275961083630378e-12
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_mapping": [
+        {
+          "slot": 0,
+          "role": "existing",
+          "native_colour": [
+            0.01915069669485092,
+            0.018478471785783768,
+            0.018478471785783768,
+            1.0
+          ],
+          "scene_material": "mat_31.005"
+        },
+        {
+          "slot": 1,
+          "role": "existing",
+          "native_colour": [
+            0.6453084945678711,
+            0.6382831931114197,
+            0.5721226930618286,
+            1.0
+          ],
+          "scene_material": "mat_32.005"
+        },
+        {
+          "slot": 2,
+          "role": "existing",
+          "native_colour": [
+            0.4352785646915436,
+            0.39842212200164795,
+            0.3162173628807068,
+            1.0
+          ],
+          "scene_material": "mat_33.005"
+        },
+        {
+          "slot": 3,
+          "role": "marking ink",
+          "native_colour": [
+            0.5225215554237366,
+            0.5225215554237366,
+            0.47699978947639465,
+            1.0
+          ],
+          "scene_material": "IC marking ink \u2014 revision 27 (native KiCad colour)"
+        }
+      ]
+    }
+  },
+  "changed_source_roots": [
+    "IOBOARD/IC23",
+    "IOBOARD/IC24",
+    "IOBOARD/IC25",
+    "MAINBOARD/IC1",
+    "MAINBOARD/IC11",
+    "MAINBOARD/IC12",
+    "MAINBOARD/IC16",
+    "MAINBOARD/IC17",
+    "MAINBOARD/IC18",
+    "MAINBOARD/IC2",
+    "MAINBOARD/IC3",
+    "MAINBOARD/IC4",
+    "MAINBOARD/IC5",
+    "MAINBOARD/IC6",
+    "MAINBOARD/IC7",
+    "MAINBOARD/IC8",
+    "MAINBOARD/IC9"
+  ],
+  "added_objects": [],
+  "added_materials": [
+    "IC marking ink \u2014 revision 27 (native KiCad colour)"
+  ],
+  "retired_materials": [],
+  "native_reference_count": 491,
+  "stored_object_count": 1721,
+  "opening_guide": "00 START HERE \u2014 revision27 assembly",
+  "opening_guide_sha256": "65163ce7d9b30b2d108b2d89414200ccbf8122b0ff4cdeb3c5db1cd7e449a7cc",
+  "physical_fit_qualified": false
+}

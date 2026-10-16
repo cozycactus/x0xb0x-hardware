@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "review": "Visual inspection of all nine current PNGs",
+  "scene_sha256": "529ac312c446f426bcc46b566702e7043f038ee7be0599d7971508ec693d8e69",
+  "images": {
+    "assembled": {
+      "path": "assembled.png",
+      "sha256": "dd22c65aae5bee8d8e517e703220fdb21ddbd52531887ab1c23a16f6a6840acf"
+    },
+    "exploded": {
+      "path": "exploded.png",
+      "sha256": "b42098715508f8fd2fceed144ffc180e850b9da797bdb4e8331a56a71c552b62"
+    },
+    "control-side": {
+      "path": "control-side.png",
+      "sha256": "d1a3cb4a725050520a274d6d8de776ffe070c4c224c78a8e9883c16453899c1c"
+    },
+    "markings-mainboard-before": {
+      "path": "markings-mainboard-before.png",
+      "sha256": "ec3d04d9ea574375cd974e0c7d00437b12ede5edc5983e9b12036f3a9ecf9549"
+    },
+    "markings-ioboard-before": {
+      "path": "markings-ioboard-before.png",
+      "sha256": "c6be197336c3c072a2f93cc5ca03431e206922e015b8128e1a3c37f3ff9fe790"
+    },
+    "markings-ic25-underside-before": {
+      "path": "markings-ic25-underside-before.png",
+      "sha256": "9d2bdbda6dfda83a3c011a2be3d1c1d85ccbcc03e8f176b3f6b33b011fe393c8"
+    },
+    "markings-mainboard-after": {
+      "path": "markings-mainboard-after.png",
+      "sha256": "d74e52737bdce4c5f78fb9eabcc5a2615192c95edaffa2081b1a57a09cc4ab64"
+    },
+    "markings-ioboard-after": {
+      "path": "markings-ioboard-after.png",
+      "sha256": "b1634ade3248d235629c3d23815446a8ef7123786218b216edf62066e630242f"
+    },
+    "markings-ic25-underside-after": {
+      "path": "markings-ic25-underside-after.png",
+      "sha256": "e9960b9e775ca3d77ae5bf57aeb5c65b3cb0363fbfe882cf3b248859ffd4b1e3"
+    }
+  },
+  "observations": [
+    "Same-camera details show P0418SB / MM74HC595N on the 74HC595s, L0434 / 4N37 on IC24 and FT232BM / 425-1 on the underside IC25, all in light-grey ink and readable (IC25 is a proper rotation, not mirrored)",
+    "Assembled, exploded and control-side views preserved; nothing else changes"
+  ],
+  "physical_fit_qualified": false
+}

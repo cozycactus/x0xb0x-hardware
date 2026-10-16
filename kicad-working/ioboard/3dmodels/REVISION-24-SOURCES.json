@@ -1,0 +1,37 @@
+{
+  "revision": 24,
+  "baseline_revision": 23,
+  "models": {
+    "DIP-8_W7.62mm_Marked_AN6562.step": {
+      "local_model": "Revision24/marking-quality/DIP-8_W7.62mm_Marked_AN6562.step",
+      "sha256": "ab0b26ee23ff6ea865b71c56a71fefa912ad6c67d0bf95df3ae383c1a879ac8a"
+    },
+    "DIP-6_W7.62mm_Marked_4N37.step": {
+      "local_model": "Revision24/marking-quality/DIP-6_W7.62mm_Marked_4N37.step",
+      "sha256": "e6c241df5e27a09145e032f4d839f4e83034e2a44a6c0c5a7352dd8b19136b7d"
+    },
+    "LQFP-32_7x7mm_P0.8mm_Marked_FT232BM.step": {
+      "local_model": "Revision24/marking-quality/LQFP-32_7x7mm_P0.8mm_Marked_FT232BM.step",
+      "sha256": "761f171f995153a4f7e8c7cba7028f4a111816b69eb940883244033d9fd28d7e"
+    }
+  },
+  "references": {
+    "AN6562": [
+      "IC23"
+    ],
+    "4N37": [
+      "IC24"
+    ],
+    "FT232BM": [
+      "IC25"
+    ]
+  },
+  "evidence": "validation/models-review-24/marking-quality/sources/marking-evidence.json",
+  "limitations": [
+    "Marking text is transcribed from one set of kit photographs; date and lot codes varied between kits.",
+    "Logos are omitted; Source Code Pro approximates the vendors' marking fonts; ink colour is illustrative.",
+    "The 74HC165 has no photograph and carries its part number only.",
+    "Chip and socket geometry, colours and transforms are unchanged; physical fit is unqualified."
+  ],
+  "physical_fit_qualified": false
+}

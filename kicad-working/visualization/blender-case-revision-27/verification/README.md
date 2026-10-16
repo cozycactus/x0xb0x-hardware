@@ -1,0 +1,3 @@
+# Revision 27 verification
+
+The saved-file audit compares revisions 26 and 27, accepting only the 17 IC mesh changes, one added ink material, the roots' source fields and the new guide. Every existing object, pose, camera, legend and animation remains. The other scripts replay the current native-model, drill-fit, portability and terminal-join checks; source hashes are pinned in their reports. The contact screen tests the evaluated IC instances against every other visible mesh at frame 1 and finds no new contact. Before/after detail images use identical cameras; the underside view clips the case floor from the camera and places its temporary light near the chip; nothing is saved.

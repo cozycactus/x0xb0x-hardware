@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "check_count": 12,
+  "checks": [
+    {
+      "check": "Both frozen files match recorded hashes",
+      "passed": true
+    },
+    {
+      "check": "All 1721 object identities retained with none added",
+      "passed": true
+    },
+    {
+      "check": "Only declared IC mesh data, the ink material and source/guide metadata change",
+      "passed": true,
+      "unexpected": []
+    },
+    {
+      "check": "All 17 IC meshes match recorded old and new exact native geometry",
+      "passed": true
+    },
+    {
+      "check": "Every previous material is retained exactly, except those used only by the replaced meshes",
+      "passed": true,
+      "retired": [],
+      "retired_users": {}
+    },
+    {
+      "check": "Exactly one marking-ink material added",
+      "passed": true
+    },
+    {
+      "check": "Replaced meshes use only the ink material or their own previous materials",
+      "passed": true
+    },
+    {
+      "check": "491 references, 40 LEDs, 40 spacers and 23 caps retained",
+      "passed": true
+    },
+    {
+      "check": "Every displayed instance pose and legend glyph retained in four frames",
+      "passed": true
+    },
+    {
+      "check": "Only one current opening guide added",
+      "passed": true
+    },
+    {
+      "check": "All rear passages remain clear",
+      "passed": true
+    },
+    {
+      "check": "Frozen scene files remain byte-identical after audit",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "stable_scene_sha256": "529ac312c446f426bcc46b566702e7043f038ee7be0599d7971508ec693d8e69",
+  "baseline_sha256": "121021a77f6b4b9b7865df46c6b227403ba38d0594113b985042e6102aa47ada",
+  "frames": 4,
+  "native_reference_count": 491,
+  "stored_object_count": 1721,
+  "changed_geometry_objects": [
+    "IOBOARD/IC23/mesh",
+    "IOBOARD/IC24/mesh",
+    "IOBOARD/IC25/mesh",
+    "MAINBOARD/IC1/mesh",
+    "MAINBOARD/IC11/mesh",
+    "MAINBOARD/IC12/mesh",
+    "MAINBOARD/IC16/mesh",
+    "MAINBOARD/IC17/mesh",
+    "MAINBOARD/IC18/mesh",
+    "MAINBOARD/IC2/mesh",
+    "MAINBOARD/IC3/mesh",
+    "MAINBOARD/IC4/mesh",
+    "MAINBOARD/IC5/mesh",
+    "MAINBOARD/IC6/mesh",
+    "MAINBOARD/IC7/mesh",
+    "MAINBOARD/IC8/mesh",
+    "MAINBOARD/IC9/mesh"
+  ],
+  "added_materials": [
+    "IC marking ink \u2014 revision 27 (native KiCad colour)"
+  ],
+  "retired_materials": [],
+  "read_only": true,
+  "physical_fit_qualified": false
+}
