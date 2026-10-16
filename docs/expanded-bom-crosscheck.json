@@ -1,0 +1,244 @@
+{
+  "schema": 1,
+  "generator": "crosscheck_expanded_bom.py",
+  "passed": true,
+  "check_count": 22,
+  "checks": [
+    {
+      "check": "Page is the expanded BOM, last modified 2016-01-28",
+      "passed": true
+    },
+    {
+      "check": "Every electrolytic row lists as many references as its quantity",
+      "passed": true,
+      "rows": {
+        "1uF": 13,
+        "2.2uF": 1,
+        "10uF": 13,
+        "47uF": 4,
+        "100uF 10V": 3,
+        "100uF 25V": 2,
+        "1000uF": 1,
+        "2200uF": 2
+      }
+    },
+    {
+      "check": "140-xrl50v1.0: search-engine extract confirmed by the page",
+      "passed": true
+    },
+    {
+      "check": "140-xrl50v2.2: search-engine extract confirmed by the page",
+      "passed": true
+    },
+    {
+      "check": "140-xrl16v10: search-engine extract confirmed by the page",
+      "passed": true
+    },
+    {
+      "check": "140-xrl16v47: search-engine extract confirmed by the page",
+      "passed": true
+    },
+    {
+      "check": "140-xrl10v1000: search-engine extract confirmed by the page",
+      "passed": true
+    },
+    {
+      "check": "140-xrl16v2200: search-engine extract confirmed by the page",
+      "passed": true
+    },
+    {
+      "check": "100uF 10V row: C48, C49, C102 with Mouser 140-xrl25v100",
+      "passed": true
+    },
+    {
+      "check": "100uF 25V row: C7, C8 with Mouser 140-xrl10v100",
+      "passed": true
+    },
+    {
+      "check": "The electrolytic rows name exactly the 39 electrolytics modelled in revision 21",
+      "passed": true,
+      "modelled": 39
+    },
+    {
+      "check": "Revision 21 sizes follow the descriptions: 5 mm cans at C48/C49/C102, 6.3 mm at C7/C8",
+      "passed": true
+    },
+    {
+      "check": "C7/C8 hang off the rail stacked on the rectified input by C5 (above 10 V), so the 25 V description is right",
+      "passed": true,
+      "rails": {
+        "rectified_input": "N$17",
+        "stacked": "N$16",
+        "C7": "N$6",
+        "C8": "N$3"
+      }
+    },
+    {
+      "check": "C48/C49/C102 sit on low-voltage nets (+6V, +5V, LA4140), so the 10 V description is right",
+      "passed": true
+    },
+    {
+      "check": "Every resistor the page lists is one of the 212 banded resistors",
+      "passed": true,
+      "listed": 209
+    },
+    {
+      "check": "Listed values and tolerances match the band assignments except R16",
+      "passed": true,
+      "differences": {
+        "R16": {
+          "bands": [
+            150.0,
+            "5%"
+          ],
+          "expanded_bom": [
+            100.0,
+            "5%"
+          ]
+        }
+      }
+    },
+    {
+      "check": "R106 is 24K 1% on the page, as banded (PCB value 27K)",
+      "passed": true
+    },
+    {
+      "check": "The three unlisted resistors are 10K and fill the 10K row quantity (94 stated, 91 listed)",
+      "passed": true,
+      "unlisted": [
+        "R157",
+        "R158",
+        "R160"
+      ]
+    },
+    {
+      "check": "The 40 LED resistors appear in the 10K row (R201-R234, R237-R270)",
+      "passed": true
+    },
+    {
+      "check": "Socket Mouser numbers 571-3902625 / 571-3902612 are AMP 390262-5 / 390261-2",
+      "passed": true
+    },
+    {
+      "check": "EEPROM row is cat25c33p (Catalyst, the CSI marking photographed)",
+      "passed": true
+    },
+    {
+      "check": "4N37 row is Mouser 512-4n37 and FT232 row is FT232BM",
+      "passed": true
+    }
+  ],
+  "source": {
+    "page": "https://www.ladyada.net/wiki/x0x/billofmaterials",
+    "last_modified": "2016-01-28",
+    "file": "kicad-working/validation/expanded-bom-review/sources/x0x-billofmaterials-adawiki-user-print.pdf",
+    "sha256": "11f260bfddb9e09d31fe245b343de8639d4655accddb0757afc8d4cf67a89545",
+    "retrieval": "Printed to PDF in a browser by the repository owner on 2026-10-16; the page blocks automated fetches."
+  },
+  "electrolytic_rows": [
+    {
+      "description": "1uF",
+      "quantity": 13,
+      "part": "140-xrl50v1.0",
+      "references": [
+        "C11",
+        "C13",
+        "C14",
+        "C15",
+        "C17",
+        "C22",
+        "C23",
+        "C29",
+        "C38",
+        "C56",
+        "C58",
+        "C59",
+        "C105"
+      ]
+    },
+    {
+      "description": "2.2uF",
+      "quantity": 1,
+      "part": "140-xrl50v2.2",
+      "references": [
+        "C51"
+      ]
+    },
+    {
+      "description": "10uF",
+      "quantity": 13,
+      "part": "140-xrl16v10",
+      "references": [
+        "C16",
+        "C30",
+        "C31",
+        "C32",
+        "C37",
+        "C40",
+        "C50",
+        "C52",
+        "C60",
+        "C61",
+        "C72",
+        "C203",
+        "C205"
+      ]
+    },
+    {
+      "description": "47uF",
+      "quantity": 4,
+      "part": "140-xrl16v47",
+      "references": [
+        "C28",
+        "C44",
+        "C53",
+        "C55"
+      ]
+    },
+    {
+      "description": "100uF 10V",
+      "quantity": 3,
+      "part": "140-xrl25v100",
+      "references": [
+        "C48",
+        "C49",
+        "C102"
+      ]
+    },
+    {
+      "description": "100uF 25V",
+      "quantity": 2,
+      "part": "140-xrl10v100",
+      "references": [
+        "C7",
+        "C8"
+      ]
+    },
+    {
+      "description": "1000uF",
+      "quantity": 1,
+      "part": "140-xrl10v1000",
+      "references": [
+        "C43"
+      ]
+    },
+    {
+      "description": "2200uF",
+      "quantity": 2,
+      "part": "140-xrl16v2200",
+      "references": [
+        "C3",
+        "C5"
+      ]
+    }
+  ],
+  "findings": {
+    "electrolytics": "All seven XRL part numbers are confirmed. The two 100uF Mouser numbers are transposed relative to their descriptions; the descriptions, references, parts page, kit photographs and circuit agree, so C48/C49/C102 are 10 V (5 x 11 mm) and C7/C8 are 25 V (6.3 x 11 mm). Revision-21 models unchanged.",
+    "resistors": "208 of the 209 listed resistors match the revision-22 bands, including R106 at 24K 1%. R157, R158 and R160 are unlisted but are 10K (parts page and PCB) and fill the 10K row quantity. R16 is 100 ohm on this page and on the PCB; the parts page gives 100 ohm for older kits and 150 ohm for newer kits, and revision 22 shows the newer 150 ohm.",
+    "sockets_and_ics": "Socket, EEPROM, 4N37 and FT232BM rows agree with revisions 23 and 24. The page lists IC16-IC18 as 74AC165 (the parts page allows 74AC165 or 74HC165; the revision-24 marking shows 74HC165N) and the microcontroller as Atmega162-40PI (the photographed part reads ATMEGA162 16PI)."
+  },
+  "corrections_to_earlier_records": [
+    "Revision 22 recorded R16 as a PCB/parts-page value difference; the parts page actually lists R16 as 100 ohm in older kits and 150 ohm in newer kits."
+  ],
+  "models_changed": false
+}
