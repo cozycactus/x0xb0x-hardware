@@ -1,14 +1,15 @@
 {
  "schema": 1,
  "snapshot_date": "2026-10-17",
- "KiCad_revision": 26,
- "validation_summary": "kicad-working/validation/working-validation-summary-revision-26.json",
- "report": "kicad-working/validation/models-review-26/README.md",
+ "KiCad_revision": 27,
+ "validation_summary": "kicad-working/validation/working-validation-summary-revision-27.json",
+ "report": "kicad-working/validation/models-review-27/README.md",
+ "packages": "kicad-working/fabrication/revision-27/README.md",
  "inputs": {
   "kicad_cli": "10.0.7",
   "kicad_pcb_sha256": {
-   "mainboard": "b32b1a958ee3bbd62f46ab448a08a10f2efca09b08919cd7aedafde2eadeb0d9",
-   "ioboard": "139496616118e1700db0bac75f35cde6c79e7d2c78867857a9e47ea858eac923"
+   "mainboard": "a7495f69c2037f1c5d88627487d499900f123ae4bc7bb5cdc98e24137ebc6f83",
+   "ioboard": "faa825d14705cc26408563b589d7d72334691d066b86b521bf123b737dce38e4"
   },
   "original_eagle_sha256": {
    "mainboard.brd": "7863511de317332f07139589a62596d70a95cc84ea67242f928fd178db2cba0e",
@@ -70,7 +71,7 @@
    ]
   ]
  },
- "verdict": "Drills, copper tracks and arcs, vias, every pad, pour outlines and connectivity, paste, all silkscreen geometry and every name label (position and printed name) reproduce the original Eagle 4.13 boards. No difference blocks ordering; the mask and tenting differences listed below await the owner's decision.",
+ "verdict": "Drills, copper tracks and arcs, vias, every pad, pour outlines and connectivity, paste, all silkscreen geometry and every name label reproduce the original Eagle 4.13 boards; the copper as saved and plotted passes DRC and each board has a single outline. No difference blocks ordering; the mask and tenting differences listed below are fab-note choices for the owner.",
  "layers": {
   "mainboard": {
    "drills": {
@@ -230,11 +231,11 @@
     "differences": {}
    },
    "Edge_Cuts": {
-    "matched": 5,
+    "matched": 1,
     "expected": 9,
     "differences": {
      "width_or_arc": 3,
-     "missing_in_kicad": 1
+     "missing_in_kicad": 5
     }
    },
    "F_Silkscreen": {
@@ -424,6 +425,126 @@
    "revision": 26
   },
   {
+   "item": "Saved pour fill",
+   "layers": [
+    "F_Cu",
+    "F_Mask"
+   ],
+   "board": "mainboard",
+   "zones": [
+    {
+     "priority": 5,
+     "uuid": "903fc0c2-ae4e-43ab-a06d-df9cbc16425d"
+    },
+    {
+     "priority": 6,
+     "uuid": "bb01c102-305d-4721-8aba-21533c464b24"
+    }
+   ],
+   "saved_copper_DRC_before": {
+    "clearance": 23,
+    "solder_mask_bridge": 23
+   },
+   "saved_copper_DRC_after": {},
+   "locations": [
+    [
+     3.3528,
+     148.1582
+    ],
+    [
+     5.8928,
+     148.1582
+    ],
+    [
+     8.4328,
+     148.1582
+    ],
+    [
+     10.9728,
+     148.1582
+    ],
+    [
+     16.0528,
+     148.1582
+    ],
+    [
+     18.5928,
+     148.1582
+    ],
+    [
+     21.1328,
+     148.1582
+    ],
+    [
+     23.6728,
+     148.1582
+    ],
+    [
+     39.878,
+     127.762
+    ],
+    [
+     39.878,
+     125.222
+    ],
+    [
+     39.878,
+     122.682
+    ],
+    [
+     39.878,
+     120.142
+    ],
+    [
+     39.878,
+     115.062
+    ],
+    [
+     39.878,
+     112.522
+    ],
+    [
+     39.878,
+     109.982
+    ],
+    [
+     39.878,
+     107.442
+    ],
+    [
+     34.6456,
+     127.8128
+    ],
+    [
+     34.6456,
+     125.2728
+    ],
+    [
+     34.6456,
+     120.1928
+    ],
+    [
+     34.6456,
+     115.1128
+    ],
+    [
+     34.6456,
+     112.5728
+    ],
+    [
+     34.6456,
+     110.0328
+    ],
+    [
+     34.6456,
+     107.4928
+    ]
+   ],
+   "cause": "Revision 26 lengthened the SIP9 pads without refilling the pours; its DRC refilled the zones before checking, the plotter uses the saved fill.",
+   "changed": true,
+   "revision": 27
+  },
+  {
    "item": "NPTH stop-mask opening",
    "layers": [
     "F_Mask",
@@ -544,9 +665,10 @@
    "item": "Outline details",
    "board_notes": {
     "mainboard": "Eagle spurs of up to 0.23 mm at (0, 0) closed by the conversion outline repair.",
-    "ioboard": "Detached rear-plate datum strip at y -2.921 kept on Dwgs.User, not Edge.Cuts."
+    "ioboard": "The rear-plate datum (four Eagle Dimension lines forming a 222.25 x 1.651 mm rectangle 0.508 mm behind the rear edge, and the detached line at y -2.921) is on Dwgs.User; Edge.Cuts holds the single 213.36 x 44.45 mm board outline. Until revision 26 the four lines were on Edge.Cuts as a second closed outline."
    },
-   "changed": false
+   "changed": true,
+   "revision": 27
   }
  ],
  "connection_gaps": {
@@ -721,6 +843,7 @@
    "mainboard": 0,
    "ioboard": 0
   },
+  "DRC_without_zone_refill": true,
   "DRC_comparison": {
    "mainboard": {
     "non_silkscreen_violations_identical": true,
@@ -728,20 +851,18 @@
     "schematic_parity": true,
     "ignored_checks": true,
     "silkscreen_warnings_previous": {
-     "silk_edge_clearance": 2,
      "silk_over_copper": 199,
-     "silk_overlap": 199
+     "silk_overlap": 88
     },
     "silkscreen_warnings_fresh": {
      "silk_over_copper": 199,
      "silk_overlap": 88
     },
     "silkscreen_types_truncated_at_report_limit": [
-     "silk_over_copper",
-     "silk_overlap"
+     "silk_over_copper"
     ],
     "silkscreen_pairs_new_in_complete_types": [],
-    "unconnected_items_raw": false,
+    "unconnected_items_raw": true,
     "unconnected_nets_previous": [
      [
       "GND"
@@ -759,34 +880,19 @@
     "schematic_parity": true,
     "ignored_checks": true,
     "silkscreen_warnings_previous": {
-     "silk_edge_clearance": 47,
+     "silk_edge_clearance": 46,
      "silk_over_copper": 199,
-     "silk_overlap": 95
+     "silk_overlap": 17
     },
     "silkscreen_warnings_fresh": {
-     "silk_edge_clearance": 46,
+     "silk_edge_clearance": 31,
      "silk_over_copper": 199,
      "silk_overlap": 17
     },
     "silkscreen_types_truncated_at_report_limit": [
      "silk_over_copper"
     ],
-    "silkscreen_pairs_new_in_complete_types": [
-     {
-      "type": "silk_overlap",
-      "items": [
-       "Arc of XTL2 on F.Silkscreen",
-       "Reference field of R12"
-      ]
-     },
-     {
-      "type": "silk_overlap",
-      "items": [
-       "Footprint text of J5 (1)",
-       "Reference field of C8"
-      ]
-     }
-    ],
+    "silkscreen_pairs_new_in_complete_types": [],
     "unconnected_items_raw": true,
     "unconnected_nets_previous": [
      [
@@ -805,8 +911,9 @@
   "drills",
   "tracks",
   "vias",
+  "pads",
   "nets",
-  "zones",
+  "zone outlines and settings",
   "footprint placement",
   "3D models",
   "schematics",
@@ -814,11 +921,12 @@
   "Blender scene"
  ],
  "limitations": [
-  "Silkscreen DRC warnings decrease with the restored label positions; KiCad reports at most 199 items of one type, so truncated types are compared by count only. Other recorded DRC warnings (dangling track stubs carried from the Eagle source) and schematic-parity warnings are unchanged.",
+  "DRC now checks the copper as saved and plotted (revisions 11-26 refilled the zones first). KiCad reports at most 199 items of one type, so truncated silkscreen types are compared by count only. Other recorded DRC warnings (dangling track stubs carried from the Eagle source) and schematic-parity warnings are unchanged.",
   "Two GND connection items remain by design: the original analog/digital mainboard ground split and the I/O jack-ground island, both unrouted airwires in the original Eagle boards and joined through the J3-J7 board-to-board wiring.",
   "The B3F-40XX internal strips (1-2, 3-4) follow the original Eagle symbol and the design's use of them; the Omron drawing itself was not retrieved.",
   "The smashed name records store half the text size, as Eagle's text records do; the conversion's staging XML does not double it. Doubled sizes equal the library label sizes (C3 and C5 on the I/O board excepted) and the production I/O photograph shows J3 at the 1.27 mm of its package texts.",
   "Gerber differences from the original Eagle CAM semantics still recorded, not corrected: NPTH stop frame, SMD mask corner radius and via tenting.",
+  "The I/O saved pour fill differs slightly from a fresh refill (about 1.9 mm2 in two places) and passes DRC; it was left as saved. The rear-plate datum lines stay in the board on Dwgs.User for the Blender datum.",
   "Eagle polygon pours are compared by outline, settings and connectivity; Eagle 4.13 pour fill geometry (thermal spokes, isolation) was not regenerated.",
   "Nominal model checks and the Gerber comparison do not establish physical assembly; fabrication equivalence is to the original Eagle data, not to an inspected production board."
  ],

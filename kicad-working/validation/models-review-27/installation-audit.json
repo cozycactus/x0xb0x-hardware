@@ -1,0 +1,1039 @@
+{
+ "passed": true,
+ "files": [
+  {
+   "file": "mainboard/mainboard.kicad_pcb",
+   "before_sha256": "b32b1a958ee3bbd62f46ab448a08a10f2efca09b08919cd7aedafde2eadeb0d9",
+   "after_sha256": "a7495f69c2037f1c5d88627487d499900f123ae4bc7bb5cdc98e24137ebc6f83",
+   "zones": [
+    {
+     "uuid": "903fc0c2-ae4e-43ab-a06d-df9cbc16425d",
+     "priority": 5,
+     "filled_polygons_before": 1,
+     "filled_polygons_after": 1,
+     "fill_bytes_before": 1305735,
+     "fill_bytes_after": 1300150,
+     "fill_sha256_before": "d134135274008e1ddd3d46d7d3dfc67c6fed4c278333814c0d49e410ad6aed5f",
+     "fill_sha256_after": "fceff506f8a314bcc73255879db8f2f8919616458f17702a3079ec29cf76eb01"
+    },
+    {
+     "uuid": "bb01c102-305d-4721-8aba-21533c464b24",
+     "priority": 6,
+     "filled_polygons_before": 3,
+     "filled_polygons_after": 3,
+     "fill_bytes_before": 1090363,
+     "fill_bytes_after": 1089446,
+     "fill_sha256_before": "413899f3027011e1d397fb32045d2e81919e56a886bc63671359513106f40cf0",
+     "fill_sha256_after": "f3f6a54406c6eeb1a1bad6a555032cc4297981be02917b9177bc21482e2e78df"
+    }
+   ]
+  },
+  {
+   "file": "ioboard/ioboard.kicad_pcb",
+   "before_sha256": "139496616118e1700db0bac75f35cde6c79e7d2c78867857a9e47ea858eac923",
+   "after_sha256": "faa825d14705cc26408563b589d7d72334691d066b86b521bf123b737dce38e4",
+   "lines_moved": [
+    {
+     "uuid": "17bb7a95-868c-435d-a637-3f311729a2a1",
+     "start": [
+      -4.064,
+      0.508
+     ],
+     "end": [
+      218.186,
+      0.508
+     ],
+     "width_mm": 0.0254,
+     "before": "Edge.Cuts",
+     "after": "Dwgs.User"
+    },
+    {
+     "uuid": "a9f41b20-420d-4a7b-87e5-d6962381e8ef",
+     "start": [
+      -4.064,
+      2.159
+     ],
+     "end": [
+      -4.064,
+      0.508
+     ],
+     "width_mm": 0.0254,
+     "before": "Edge.Cuts",
+     "after": "Dwgs.User"
+    },
+    {
+     "uuid": "ba5bb9d7-e510-4da8-a52d-f49f18435b21",
+     "start": [
+      218.186,
+      0.508
+     ],
+     "end": [
+      218.186,
+      2.159
+     ],
+     "width_mm": 0.0254,
+     "before": "Edge.Cuts",
+     "after": "Dwgs.User"
+    },
+    {
+     "uuid": "cecb0a24-35d8-45d2-8a23-0ab4fd509f3c",
+     "start": [
+      218.186,
+      2.159
+     ],
+     "end": [
+      -4.064,
+      2.159
+     ],
+     "width_mm": 0.0254,
+     "before": "Edge.Cuts",
+     "after": "Dwgs.User"
+    }
+   ]
+  }
+ ],
+ "checks": {
+  "mainboard_saved_copper_violations_before": {
+   "clearance": 23,
+   "solder_mask_bridge": 23
+  },
+  "mainboard_saved_copper_violations_after": {},
+  "ioboard_saved_copper_violations_after": {},
+  "ioboard_silk_edge_clearance_after": 31,
+  "mainboard_refill_of_installed_fill_identical": true,
+  "ioboard_edge_cuts_contours": 1,
+  "ioboard_board_outline_mm": [
+   213.36,
+   44.45
+  ]
+ },
+ "mainboard_saved_copper_violations_before": [
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 1 [N$9] of IC14",
+     [
+      3.3528,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 2 [N$1] of IC14",
+     [
+      5.8928,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 3 [N$3] of IC14",
+     [
+      8.4328,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 4 [N$8] of IC14",
+     [
+      10.9728,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 6 [N$11] of IC14",
+     [
+      16.0528,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 7 [+6V] of IC14",
+     [
+      18.5928,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 8 [N$13] of IC14",
+     [
+      21.1328,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 9 [C48] of IC14",
+     [
+      23.6728,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 1 [N$69] of IC15A0",
+     [
+      39.878,
+      127.762
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 2 [N$24] of IC15A0",
+     [
+      39.878,
+      125.222
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 3 [N$623] of IC15A0",
+     [
+      39.878,
+      122.682
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 4 [+12V] of IC15A0",
+     [
+      39.878,
+      120.142
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 6 [N$28] of IC15A0",
+     [
+      39.878,
+      115.062
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 7 [N$28] of IC15A0",
+     [
+      39.878,
+      112.522
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 8 [N$48] of IC15A0",
+     [
+      39.878,
+      109.982
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 9 [+12V] of IC15A0",
+     [
+      39.878,
+      107.442
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 1 [N$623] of IC15B0",
+     [
+      34.6456,
+      127.8128
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 2 [N$24] of IC15B0",
+     [
+      34.6456,
+      125.2728
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 4 [N$29] of IC15B0",
+     [
+      34.6456,
+      120.1928
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 6 [N$28] of IC15B0",
+     [
+      34.6456,
+      115.1128
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 7 [N$28] of IC15B0",
+     [
+      34.6456,
+      112.5728
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 8 [N$48] of IC15B0",
+     [
+      34.6456,
+      110.0328
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "clearance",
+   "description": "Clearance violation (zone clearance 0.2540 mm; actual 0.0000 mm)",
+   "items": [
+    [
+     "PTH pad 9 [+12V] of IC15B0",
+     [
+      34.6456,
+      107.4928
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 1 [N$69] of IC15A0",
+     [
+      39.878,
+      127.762
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 1 [N$9] of IC14",
+     [
+      3.3528,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 2 [N$1] of IC14",
+     [
+      5.8928,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 3 [N$3] of IC14",
+     [
+      8.4328,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 4 [N$8] of IC14",
+     [
+      10.9728,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 6 [N$11] of IC14",
+     [
+      16.0528,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 2 [N$24] of IC15A0",
+     [
+      39.878,
+      125.222
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 7 [+6V] of IC14",
+     [
+      18.5928,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 3 [N$623] of IC15A0",
+     [
+      39.878,
+      122.682
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 8 [N$13] of IC14",
+     [
+      21.1328,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 4 [+12V] of IC15A0",
+     [
+      39.878,
+      120.142
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 9 [C48] of IC14",
+     [
+      23.6728,
+      148.1582
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 6 [N$28] of IC15A0",
+     [
+      39.878,
+      115.062
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 7 [N$28] of IC15A0",
+     [
+      39.878,
+      112.522
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 8 [N$48] of IC15A0",
+     [
+      39.878,
+      109.982
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 9 [+12V] of IC15A0",
+     [
+      39.878,
+      107.442
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 1 [N$623] of IC15B0",
+     [
+      34.6456,
+      127.8128
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 2 [N$24] of IC15B0",
+     [
+      34.6456,
+      125.2728
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 4 [N$29] of IC15B0",
+     [
+      34.6456,
+      120.1928
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 6 [N$28] of IC15B0",
+     [
+      34.6456,
+      115.1128
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 7 [N$28] of IC15B0",
+     [
+      34.6456,
+      112.5728
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 8 [N$48] of IC15B0",
+     [
+      34.6456,
+      110.0328
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  },
+  {
+   "type": "solder_mask_bridge",
+   "description": "Front solder mask aperture bridges items with different nets",
+   "items": [
+    [
+     "PTH pad 9 [+12V] of IC15B0",
+     [
+      34.6456,
+      107.4928
+     ]
+    ],
+    [
+     "Zone [GND] on F.Cu, priority 5",
+     [
+      237.5535,
+      112.4585
+     ]
+    ]
+   ]
+  }
+ ],
+ "previous_core_file_count": 361,
+ "changed_previous_core_files": [
+  "ioboard/ioboard.kicad_pcb",
+  "mainboard/mainboard.kicad_pcb"
+ ],
+ "new_core_files": [],
+ "scope": "Mainboard: the filled_polygon nodes of the two F.Cu GND zones, replaced by KiCad 10.0.7's refill. I/O board: the layer node of four rear-plate datum lines, Edge.Cuts to Dwgs.User. Zone outlines and settings, nets, tracks, vias, pads, drills, footprint poses, models and the schematics are unchanged."
+}

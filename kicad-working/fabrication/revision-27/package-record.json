@@ -1,0 +1,745 @@
+{
+ "schema": 1,
+ "KiCad_revision": 27,
+ "kicad_cli": "10.0.7",
+ "inputs": {
+  "mainboard": {
+   "mainboard.kicad_pcb": "a7495f69c2037f1c5d88627487d499900f123ae4bc7bb5cdc98e24137ebc6f83",
+   "mainboard.kicad_sch": "048af535f76cfa6b3acc6b1bd9a9c603b213b7dd0de759cf7f848d8f7856e190",
+   "mainboard.kicad_pro": "87aeeeb92fe20492ff1aa73b261114cafb57b0553370ec2d9eafded5886ae873"
+  },
+  "ioboard": {
+   "ioboard.kicad_pcb": "faa825d14705cc26408563b589d7d72334691d066b86b521bf123b737dce38e4",
+   "ioboard.kicad_sch": "c4dc4a4032fe068738e498adc2683d8d34d5bfca9320a3b016926c462a98d81d",
+   "ioboard.kicad_pro": "4d79e6a44b983c4dfbf1aebbea329beef15dfba20c0df313a9aa4d0393d5971e"
+  }
+ },
+ "boards": {
+  "mainboard": {
+   "files": {
+    "gerbers/mainboard-B_Cu.gbr": {
+     "bytes": 221824,
+     "sha256": "a77e5e0ada887a13b2f6a64e138af90de824bc9ad5516338f6b6149f6e599428"
+    },
+    "gerbers/mainboard-B_Mask.gbr": {
+     "bytes": 38194,
+     "sha256": "ee1ab6a60c8370b6ab5ac8941bbf86fa2de5f9f71a9970f2b5a9bde297f09b9a"
+    },
+    "gerbers/mainboard-B_Paste.gbr": {
+     "bytes": 454,
+     "sha256": "dd52a7db38aea816fbc12594bfdd6b73fbabacb9085491677110e33faf27caf6"
+    },
+    "gerbers/mainboard-B_Silkscreen.gbr": {
+     "bytes": 264247,
+     "sha256": "3b9b5f0c1264709adbd2fc4977819f9f4138db6b1c05337336f4343cea8d4fe5"
+    },
+    "gerbers/mainboard-Edge_Cuts.gbr": {
+     "bytes": 620,
+     "sha256": "0f3816001afeec5cfc2226beb5f01c4ebba2907258225089311f46230c513750"
+    },
+    "gerbers/mainboard-F_Cu.gbr": {
+     "bytes": 2191362,
+     "sha256": "0b2349c10f5f9f4ba7648ccbbf6ae431ffe73a3b25999fd39b5a0309beaec83b"
+    },
+    "gerbers/mainboard-F_Mask.gbr": {
+     "bytes": 38194,
+     "sha256": "6c071e9b5f39d23acb7be538c89627232a995b8b82283006a90c9d885b92e12f"
+    },
+    "gerbers/mainboard-F_Paste.gbr": {
+     "bytes": 454,
+     "sha256": "48ca33fe33cd2275734c329d223358453af44df263dfb8731487073dda8eac9f"
+    },
+    "gerbers/mainboard-F_Silkscreen.gbr": {
+     "bytes": 834265,
+     "sha256": "fac923678c59c8a3539f06b6ef1e31cbd61ffee8d63ff05261e7e762ba695459"
+    },
+    "gerbers/mainboard-NPTH-drl_map.pdf": {
+     "bytes": 11878,
+     "sha256": "06c6d735fa821ecc99cad7d554ec718222067ab4bc40e49eebedd47473e8bd1c"
+    },
+    "gerbers/mainboard-NPTH.drl": {
+     "bytes": 439,
+     "sha256": "e60b1697ef0049d22f76acfe1eb8e335d94ba84eb4162786dc6f7afda0b958ec"
+    },
+    "gerbers/mainboard-PTH-drl_map.pdf": {
+     "bytes": 61091,
+     "sha256": "55cee281c156499b06ef680f07c4b29173dd2d2567244f263804671835dc251f"
+    },
+    "gerbers/mainboard-PTH.drl": {
+     "bytes": 20011,
+     "sha256": "379fa6347af87cbdca8397116b8cbd60b27a6ce26338a2d953ae2623f2dab030"
+    },
+    "gerbers/mainboard-drill-report.txt": {
+     "bytes": 997,
+     "sha256": "e3ea3e536974b99749968886377b26646367fef86a0ebd22ee75e65811692644"
+    },
+    "gerbers/mainboard-job.gbrjob": {
+     "bytes": 2709,
+     "sha256": "2d3b1b34a1f70922639c2f6bfe72210804c3154dddf650b1d3fd41869de631ab"
+    },
+    "assembly/mainboard-bom.csv": {
+     "bytes": 23139,
+     "sha256": "c51a720f63bde572532c660f9ebc15d151cd4ac9b3498d67ddbba077292aae0a"
+    },
+    "assembly/mainboard-positions.csv": {
+     "bytes": 24554,
+     "sha256": "17c693e052020f4b467ab7c7d6a26042830b079ff06cf2f570fe01dc3f58a1b4"
+    }
+   },
+   "zip": {
+    "file": "x0xb0x-mainboard-rev27-fabrication.zip",
+    "bytes": 850950,
+    "sha256": "4f540fa7c9d5cb37137bcae8488cc68f897eecdf95845eb7df6276f7989a752a",
+    "members": [
+     "mainboard-B_Cu.gbr",
+     "mainboard-B_Mask.gbr",
+     "mainboard-B_Paste.gbr",
+     "mainboard-B_Silkscreen.gbr",
+     "mainboard-Edge_Cuts.gbr",
+     "mainboard-F_Cu.gbr",
+     "mainboard-F_Mask.gbr",
+     "mainboard-F_Paste.gbr",
+     "mainboard-F_Silkscreen.gbr",
+     "mainboard-NPTH-drl_map.pdf",
+     "mainboard-NPTH.drl",
+     "mainboard-PTH-drl_map.pdf",
+     "mainboard-PTH.drl",
+     "mainboard-drill-report.txt",
+     "mainboard-job.gbrjob"
+    ]
+   },
+   "kicad_cli_stats": {
+    "metadata": {
+     "date": "2026-10-17T04:33:13",
+     "generator": "KiCad 10.0.7",
+     "project": "mainboard",
+     "board_name": "mainboard"
+    },
+    "board": {
+     "has_outline": true,
+     "width": "237.4900 mm",
+     "height": "180.3400 mm",
+     "area": "42828.947 mm\u00b2",
+     "front_component_density": "12.38",
+     "back_component_density": "12.38",
+     "front_copper_area": "37435.677 mm\u00b2",
+     "back_copper_area": "13548.777 mm\u00b2",
+     "min_track_clearance": "0.3810 mm",
+     "min_track_width": "0.4064 mm",
+     "min_drill_diameter": "0.6000 mm",
+     "board_thickness": "1.6000 mm",
+     "front_footprint_area": "5302.035 mm\u00b2",
+     "back_footprint_area": "5300.628 mm\u00b2",
+     "front_footprint_density": "12.38",
+     "back_footprint_density": "12.38"
+    },
+    "pads": {
+     "through_hole": 1203,
+     "smd": 0,
+     "connector": 0,
+     "npth": 7,
+     "castellated": 0,
+     "press_fit": 0
+    },
+    "vias": {
+     "through": 6,
+     "blind": 0,
+     "buried": 0,
+     "micro": 0
+    },
+    "components": {
+     "tht": {
+      "front": 0,
+      "back": 0,
+      "total": 0
+     },
+     "smd": {
+      "front": 0,
+      "back": 0,
+      "total": 0
+     },
+     "unspecified": {
+      "front": 343,
+      "back": 74,
+      "total": 417
+     },
+     "total": {
+      "front": 343,
+      "back": 74,
+      "total": 417
+     }
+    },
+    "drill_holes": [
+     {
+      "count": 781,
+      "shape": "Round",
+      "x_size": "1.0000 mm",
+      "y_size": "1.0000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 228,
+      "shape": "Round",
+      "x_size": "0.8128 mm",
+      "y_size": "0.8128 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 92,
+      "shape": "Round",
+      "x_size": "1.1938 mm",
+      "y_size": "1.1938 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 36,
+      "shape": "Round",
+      "x_size": "1.0160 mm",
+      "y_size": "1.0160 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 27,
+      "shape": "Round",
+      "x_size": "0.9000 mm",
+      "y_size": "0.9000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 15,
+      "shape": "Round",
+      "x_size": "1.2700 mm",
+      "y_size": "1.2700 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 14,
+      "shape": "Round",
+      "x_size": "2.1844 mm",
+      "y_size": "2.1844 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 8,
+      "shape": "Round",
+      "x_size": "1.6000 mm",
+      "y_size": "1.6000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 7,
+      "shape": "Round",
+      "x_size": "3.3020 mm",
+      "y_size": "3.3020 mm",
+      "plated": false,
+      "source": "Pad",
+      "start_layer": "N/A",
+      "stop_layer": "N/A"
+     },
+     {
+      "count": 6,
+      "shape": "Round",
+      "x_size": "0.6000 mm",
+      "y_size": "0.6000 mm",
+      "plated": true,
+      "source": "Via",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 2,
+      "shape": "Round",
+      "x_size": "2.8000 mm",
+      "y_size": "2.8000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     }
+    ]
+   },
+   "bom": {
+    "rows": 417,
+    "schematic_only": [],
+    "pcb_only": [
+     "U$2",
+     "U$23",
+     "U$24",
+     "U$25",
+     "U$27",
+     "U$28",
+     "U$29"
+    ]
+   }
+  },
+  "ioboard": {
+   "files": {
+    "gerbers/ioboard-B_Cu.gbr": {
+     "bytes": 40458,
+     "sha256": "99dd8fed55002b224116afbf17b554ade3e4f07dc04ea2f5f428ef9f03dd3799"
+    },
+    "gerbers/ioboard-B_Mask.gbr": {
+     "bytes": 9519,
+     "sha256": "e249afc37d794451961615ac449e0589659a278e55555132fc4582c4f28159d9"
+    },
+    "gerbers/ioboard-B_Paste.gbr": {
+     "bytes": 1283,
+     "sha256": "7bf023ed9515e7209f352865b6358e157911ee4a45dbe021ae46e297483e3d27"
+    },
+    "gerbers/ioboard-B_Silkscreen.gbr": {
+     "bytes": 2755,
+     "sha256": "97d1bb56791be644698f0b23b251c8c5fa99e4294890283b3b4c9e2a1ddc0931"
+    },
+    "gerbers/ioboard-Edge_Cuts.gbr": {
+     "bytes": 671,
+     "sha256": "43c8567e2357f791ab1f432109a9a0906e851e048b8af6596cda7aff3809c6e1"
+    },
+    "gerbers/ioboard-F_Cu.gbr": {
+     "bytes": 426115,
+     "sha256": "c93c1a0d9dcf988c1d6a2b9be23b72b1c9bfc5ad709a36a43ad843fa61cbceca"
+    },
+    "gerbers/ioboard-F_Mask.gbr": {
+     "bytes": 7779,
+     "sha256": "9bb630625e86f7cd82fc9dd38909691cd61d1467b912d17d51438a2ead3ed457"
+    },
+    "gerbers/ioboard-F_Paste.gbr": {
+     "bytes": 452,
+     "sha256": "4797542a2078f0f84053b85e37420e4f04e05a911b6310a9f7b3725b000fbe8c"
+    },
+    "gerbers/ioboard-F_Silkscreen.gbr": {
+     "bytes": 174121,
+     "sha256": "15cb514fc7ccd6c632c18c6c170092efa827639d603218a609add4848c32f960"
+    },
+    "gerbers/ioboard-NPTH-drl_map.pdf": {
+     "bytes": 6104,
+     "sha256": "261ea86cb37de0154f0219a7e6e8878ac30d8df70d11fa026d312d2d08e2669f"
+    },
+    "gerbers/ioboard-NPTH.drl": {
+     "bytes": 264,
+     "sha256": "c8250e150d51bbb3511535a4499039c234306713fc4853020d1ee9b02838471f"
+    },
+    "gerbers/ioboard-PTH-drl_map.pdf": {
+     "bytes": 23633,
+     "sha256": "89a2569255d33bbe1dbbe0c6d4707cfa6c0f65a7dcaf6b79236fac7996116561"
+    },
+    "gerbers/ioboard-PTH.drl": {
+     "bytes": 4420,
+     "sha256": "a302260844d004ceb5aedb0e411f8b110c181daf6e44194d441068d552e2afe3"
+    },
+    "gerbers/ioboard-drill-report.txt": {
+     "bytes": 1024,
+     "sha256": "5c055ac6102b735f59c5084b827f5fc2d61208d6837cab8959350a4b86b55314"
+    },
+    "gerbers/ioboard-job.gbrjob": {
+     "bytes": 2686,
+     "sha256": "391cdf1ff6c4c74fd2f214889eec919ec8b4cae248fd8956dd95b301bb1fd378"
+    },
+    "assembly/ioboard-bom.csv": {
+     "bytes": 4469,
+     "sha256": "86a36b871366e1961a3172409724d5a1afe9c6cd0785a6794118901a0e1cac2e"
+    },
+    "assembly/ioboard-positions.csv": {
+     "bytes": 4815,
+     "sha256": "196a46450a15ee21f80c2d67e48b0d06b99d17314691552806a75691dcf83c64"
+    }
+   },
+   "zip": {
+    "file": "x0xb0x-ioboard-rev27-fabrication.zip",
+    "bytes": 170733,
+    "sha256": "752f658598a27685a9e19a03215cbab3a7579225ac4824451f8127861c3750f3",
+    "members": [
+     "ioboard-B_Cu.gbr",
+     "ioboard-B_Mask.gbr",
+     "ioboard-B_Paste.gbr",
+     "ioboard-B_Silkscreen.gbr",
+     "ioboard-Edge_Cuts.gbr",
+     "ioboard-F_Cu.gbr",
+     "ioboard-F_Mask.gbr",
+     "ioboard-F_Paste.gbr",
+     "ioboard-F_Silkscreen.gbr",
+     "ioboard-NPTH-drl_map.pdf",
+     "ioboard-NPTH.drl",
+     "ioboard-PTH-drl_map.pdf",
+     "ioboard-PTH.drl",
+     "ioboard-drill-report.txt",
+     "ioboard-job.gbrjob"
+    ]
+   },
+   "kicad_cli_stats": {
+    "metadata": {
+     "date": "2026-10-17T04:33:17",
+     "generator": "KiCad 10.0.7",
+     "project": "ioboard",
+     "board_name": "ioboard"
+    },
+    "board": {
+     "has_outline": true,
+     "width": "213.3600 mm",
+     "height": "44.4500 mm",
+     "area": "9483.852 mm\u00b2",
+     "front_component_density": "11.75",
+     "back_component_density": "12.97",
+     "front_copper_area": "8674.285 mm\u00b2",
+     "back_copper_area": "2609.025 mm\u00b2",
+     "min_track_clearance": "0.3880 mm",
+     "min_track_width": "0.3810 mm",
+     "min_drill_diameter": "0.6000 mm",
+     "board_thickness": "1.6000 mm",
+     "front_footprint_area": "1113.963 mm\u00b2",
+     "back_footprint_area": "1230.387 mm\u00b2",
+     "front_footprint_density": "11.75",
+     "back_footprint_density": "12.97"
+    },
+    "pads": {
+     "through_hole": 229,
+     "smd": 32,
+     "connector": 0,
+     "npth": 0,
+     "castellated": 0,
+     "press_fit": 0
+    },
+    "vias": {
+     "through": 2,
+     "blind": 0,
+     "buried": 0,
+     "micro": 0
+    },
+    "components": {
+     "tht": {
+      "front": 0,
+      "back": 0,
+      "total": 0
+     },
+     "smd": {
+      "front": 0,
+      "back": 0,
+      "total": 0
+     },
+     "unspecified": {
+      "front": 81,
+      "back": 1,
+      "total": 82
+     },
+     "total": {
+      "front": 81,
+      "back": 1,
+      "total": 82
+     }
+    },
+    "drill_holes": [
+     {
+      "count": 116,
+      "shape": "Round",
+      "x_size": "1.0000 mm",
+      "y_size": "1.0000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 28,
+      "shape": "Round",
+      "x_size": "1.3208 mm",
+      "y_size": "1.3208 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 27,
+      "shape": "Round",
+      "x_size": "1.0160 mm",
+      "y_size": "1.0160 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 18,
+      "shape": "Round",
+      "x_size": "1.6000 mm",
+      "y_size": "1.6000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 17,
+      "shape": "Round",
+      "x_size": "0.8128 mm",
+      "y_size": "0.8128 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 8,
+      "shape": "Round",
+      "x_size": "1.2000 mm",
+      "y_size": "1.2000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 6,
+      "shape": "Round",
+      "x_size": "2.5400 mm",
+      "y_size": "2.5400 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 4,
+      "shape": "Round",
+      "x_size": "0.9500 mm",
+      "y_size": "0.9500 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 2,
+      "shape": "Round",
+      "x_size": "2.2000 mm",
+      "y_size": "2.2000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 2,
+      "shape": "Round",
+      "x_size": "2.8000 mm",
+      "y_size": "2.8000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 2,
+      "shape": "Round",
+      "x_size": "0.6000 mm",
+      "y_size": "0.6000 mm",
+      "plated": true,
+      "source": "Via",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     },
+     {
+      "count": 1,
+      "shape": "Round",
+      "x_size": "3.2000 mm",
+      "y_size": "3.2000 mm",
+      "plated": true,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+     }
+    ]
+   },
+   "bom": {
+    "rows": 82,
+    "schematic_only": [],
+    "pcb_only": []
+   }
+  }
+ },
+ "commands": [
+  [
+   "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+   "pcb",
+   "export",
+   "gerbers",
+   "--board-plot-params",
+   "-o",
+   "kicad-working/fabrication/revision-27/mainboard/gerbers/",
+   "kicad-working/mainboard/mainboard.kicad_pcb"
+  ],
+  [
+   "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+   "pcb",
+   "export",
+   "drill",
+   "--format",
+   "excellon",
+   "--excellon-separate-th",
+   "--excellon-units",
+   "mm",
+   "--generate-map",
+   "--map-format",
+   "pdf",
+   "--generate-report",
+   "--report-path",
+   "kicad-working/fabrication/revision-27/mainboard/gerbers/mainboard-drill-report.txt",
+   "-o",
+   "kicad-working/fabrication/revision-27/mainboard/gerbers/",
+   "kicad-working/mainboard/mainboard.kicad_pcb"
+  ],
+  [
+   "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+   "pcb",
+   "export",
+   "pos",
+   "--side",
+   "both",
+   "--format",
+   "csv",
+   "--units",
+   "mm",
+   "-o",
+   "kicad-working/fabrication/revision-27/mainboard/assembly/mainboard-positions.csv",
+   "kicad-working/mainboard/mainboard.kicad_pcb"
+  ],
+  [
+   "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+   "pcb",
+   "export",
+   "stats",
+   "--format",
+   "json",
+   "--units",
+   "mm",
+   "-o",
+   "<temporary>/mainboard-stats.json",
+   "kicad-working/mainboard/mainboard.kicad_pcb"
+  ],
+  [
+   "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+   "sch",
+   "export",
+   "bom",
+   "--fields",
+   "Reference,Value,Footprint,${DNP}",
+   "--labels",
+   "Refs,Value,Footprint,DNP",
+   "--ref-range-delimiter",
+   "",
+   "-o",
+   "<temporary>/mainboard-sch-bom.csv",
+   "kicad-working/mainboard/mainboard.kicad_sch"
+  ],
+  [
+   "/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python3",
+   "-I",
+   "kicad-working/fabrication/revision-27/extract_board.py",
+   "kicad-working/mainboard/mainboard.kicad_pcb",
+   "<temporary>/mainboard-extract.json"
+  ],
+  [
+   "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+   "pcb",
+   "export",
+   "gerbers",
+   "--board-plot-params",
+   "-o",
+   "kicad-working/fabrication/revision-27/ioboard/gerbers/",
+   "kicad-working/ioboard/ioboard.kicad_pcb"
+  ],
+  [
+   "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+   "pcb",
+   "export",
+   "drill",
+   "--format",
+   "excellon",
+   "--excellon-separate-th",
+   "--excellon-units",
+   "mm",
+   "--generate-map",
+   "--map-format",
+   "pdf",
+   "--generate-report",
+   "--report-path",
+   "kicad-working/fabrication/revision-27/ioboard/gerbers/ioboard-drill-report.txt",
+   "-o",
+   "kicad-working/fabrication/revision-27/ioboard/gerbers/",
+   "kicad-working/ioboard/ioboard.kicad_pcb"
+  ],
+  [
+   "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+   "pcb",
+   "export",
+   "pos",
+   "--side",
+   "both",
+   "--format",
+   "csv",
+   "--units",
+   "mm",
+   "-o",
+   "kicad-working/fabrication/revision-27/ioboard/assembly/ioboard-positions.csv",
+   "kicad-working/ioboard/ioboard.kicad_pcb"
+  ],
+  [
+   "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+   "pcb",
+   "export",
+   "stats",
+   "--format",
+   "json",
+   "--units",
+   "mm",
+   "-o",
+   "<temporary>/ioboard-stats.json",
+   "kicad-working/ioboard/ioboard.kicad_pcb"
+  ],
+  [
+   "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+   "sch",
+   "export",
+   "bom",
+   "--fields",
+   "Reference,Value,Footprint,${DNP}",
+   "--labels",
+   "Refs,Value,Footprint,DNP",
+   "--ref-range-delimiter",
+   "",
+   "-o",
+   "<temporary>/ioboard-sch-bom.csv",
+   "kicad-working/ioboard/ioboard.kicad_sch"
+  ],
+  [
+   "/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python3",
+   "-I",
+   "kicad-working/fabrication/revision-27/extract_board.py",
+   "kicad-working/ioboard/ioboard.kicad_pcb",
+   "<temporary>/ioboard-extract.json"
+  ]
+ ]
+}
