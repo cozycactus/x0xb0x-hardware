@@ -50,7 +50,7 @@ def find(node, name):
     return [c for c in node if isinstance(c, list) and c and c[0] == name]
 
 
-def read_schematic():
+def read_parts(wanted):
     cli = os.environ.get('KICAD_CLI') or shutil.which('kicad-cli') or '/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli'
     with tempfile.TemporaryDirectory() as d:
         net = Path(d) / 'mainboard.net'
@@ -66,10 +66,13 @@ def read_schematic():
             func = find(item, 'pinfunction')[0][1] if find(item, 'pinfunction') else pin
             if ref in comps:
                 comps[ref]['pins'][pin] = dict(net=name, func=func)
-    wanted = sorted(set(vcfdeck.ALL_PARTS) | set(VCF_BOM))
     missing = [r for r in wanted if r not in comps]
     assert not missing, missing
     return {r: dict(value=comps[r]['value'], pins=dict(sorted(comps[r]['pins'].items()))) for r in wanted}
+
+
+def read_schematic():
+    return read_parts(sorted(set(vcfdeck.ALL_PARTS) | set(VCF_BOM)))
 
 
 def check():

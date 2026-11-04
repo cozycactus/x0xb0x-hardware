@@ -63,7 +63,7 @@ def node(name):
         return 'vref'
     if name == '+12V':
         return 'vcc'
-    if name in ('GATE', 'ACCENT'):
+    if name in ('GATE', 'ACCENT', 'SLIDE'):
         return 'n' + name.lower()
     return 'n' + re.sub(r'[^0-9A-Za-z]', '', name.replace('N$', '')).lower()
 

@@ -2,7 +2,7 @@
   "schema": 1,
   "generator": "verify_report.py",
   "passed": true,
-  "check_count": 35,
+  "check_count": 45,
   "scope": "ngspice model of the VCF built from the KiCad netlist, compared with published analysis and published claims about the TB-303. Nothing is measured on hardware.",
   "measured_on_hardware": false,
   "report": "kicad-working/validation/vcf-simulation/README.md",
@@ -247,6 +247,75 @@
         "demo-saw.wav",
         "demo-square.wav"
       ]
+    },
+    {
+      "check": "The DAC gives the kit voltages for the three C notes",
+      "passed": true,
+      "cv_v": [
+        1.99985506,
+        2.99978254,
+        3.99971002
+      ]
+    },
+    {
+      "check": "The trimmed VCO tracks 1 V per octave",
+      "passed": true,
+      "hz": [
+        65.41606541606542,
+        130.8418857586785,
+        261.64519326065414
+      ]
+    },
+    {
+      "check": "The transistor-level saw is near the kit figures of 5.5 Vpp on 8.5 V",
+      "passed": true,
+      "vpp": 5.37382512,
+      "mean_v": 8.323305197423215
+    },
+    {
+      "check": "The transistor-level square is near the kit figures of about 4 Vpp on 7 V",
+      "passed": true,
+      "vpp": 3.5554869,
+      "mean_v": 6.885629577031785
+    },
+    {
+      "check": "The envelope gate and strike pulse reach about 12 V, as on the kit page",
+      "passed": true,
+      "gate_v": 11.9877798,
+      "pulse_v": 11.8833603
+    },
+    {
+      "check": "The VCA closes in about the 16 ms the Devil Fish manual gives",
+      "passed": true,
+      "gone_ms": 13.916667000000022
+    },
+    {
+      "check": "The VCA opens within 7 ms of the gate; the manual gives 1 to 5 ms",
+      "passed": true,
+      "half_level_ms": 5.633833300000002
+    },
+    {
+      "check": "The slide time constant is the 22 ms that the DAC resistance and C35 predict",
+      "passed": true,
+      "tau_ms": 21.999999999999908
+    },
+    {
+      "check": "The whole-chain renders stay inside the mixer output range",
+      "passed": true,
+      "peak_v": [
+        1.8607885201072423,
+        1.121611550616292,
+        2.8465673905592337
+      ]
+    },
+    {
+      "check": "Three whole-chain WAVs, mono 48 kHz, 4.4 s",
+      "passed": true,
+      "files": [
+        "demo-full-saw.wav",
+        "demo-full-square.wav",
+        "demo-full-saw-open.wav"
+      ]
     }
   ],
   "findings": {
@@ -282,7 +351,8 @@
     "The taper of VR3 is unknown; only the knob-to-Hz map depends on it.",
     "The sub-audio loop crossing near 6 to 8 Hz is a model-only prediction, unconfirmed by any report found.",
     "The transistor models are substitutes; IS, VAF and the capacitance split are generic values.",
-    "The VCO is an ideal saw, and the VCA and output stage are not simulated."
+    "In the filter study the VCO is an ideal saw. In the whole-chain run it is transistor level, with Q27 fitted so the core reaches the top note.",
+    "IC15 (BA6110) is a generic OTA and IC11 (AN6562) a generic op-amp, because no usable datasheet was found. The headphone amp is not simulated."
   ],
   "sources": [
     "https://www.timstinchcombe.co.uk/synth/Moog_ladder_tf.pdf",

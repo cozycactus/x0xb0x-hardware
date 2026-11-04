@@ -217,11 +217,10 @@ In the tolerance run, 46 % of units go slightly above 0 dB at Cutoff 100 % and R
 - **2SA733 data is not from a datasheet in the repo.** The hFE of 300 assumes the P rank.
 - **Pot tapers are assumed**, and no pot tolerance is included.
 - **Noise and thermal drift between the halves of a pair are not simulated.** A pair's halves share one temperature here. A 1 °C difference is roughly a 2 mV Vbe offset.
-- **The VCO is an ideal linear saw** at kit-documented levels (5.5 Vpp on 8.5 V). The real VCO, including its reset shape, is not simulated. The square shaper is simulated from the netlist.
-- **The VCA (IC15) and output stage are not simulated.** The stop point is the VCA's input network. C36 and R119 load the accent, but D27's path is left out.
+- **In all the filter results above, the VCO is an ideal linear saw** at kit-documented levels (5.5 Vpp on 8.5 V), and the stop point is the VCA's input network. C36 and R119 load the accent, but D27's path is left out. [The whole analog section](#the-whole-analog-section) simulates these parts, and is covered separately.
 - **The sources describe the TB-303, not the x0xb0x.** At least one value differs: Whittle gives a 100k accent pot, and this board has 50K. I did not compare the two schematics part by part.
 - **Open303 differs.** Robin Schmidt's digital model uses a 150 Hz high-pass in the feedback, plus 44 and 24 Hz high-passes and a notch near 7.5 Hz. The circuit has no single corner at 150 Hz, and I cannot say how the two relate.
-- **The audio files** come straight from the transient simulation up to the VCA input. The gain envelope applied after that is my approximation of the VCA, based on timing in the Devil Fish manual. Treat them as an illustration of the filter.
+- **The four audio files in the next section** come from the transient simulation up to the VCA input. The gain envelope applied after that is my approximation of the VCA, based on timing in the Devil Fish manual. Treat them as an illustration of the filter. The `demo-full-*` files need no such envelope.
 
 ## Audio
 
@@ -233,6 +232,37 @@ These are the same 4 s pattern, written for this test and rendered from the circ
 | `demo-square.wav` | The same with the square wave |
 | `demo-saw-res-low.wav` | The same saw with Resonance 15 % |
 | `demo-saw-no-accent-sweep.wav` | The same saw with R72 removed, so accents don't move the filter |
+
+## The whole analog section
+
+`fullchain.py` puts the rest of the analog board into one deck: the 6-bit CV DAC and buffer, slide, the transistor-level VCO and square shaper, the filter, both envelopes, accent, the VCA and the mixer. The gate, slide, accent and note lines follow the stock firmware's `note_on` and `note_off`. The output is taken at N$7, the MIX OUT jack, so the WAVs below have no gain envelope added afterwards. The levels are not fitted to the kit's figures, only TM3, TM4 and TM5 are trimmed, as on a real unit.
+
+| Check | Source says | Model gives |
+|---|---|---|
+| CV for the three C notes | 2, 3, 4 V (kit page) | 2.000, 3.000, 4.000 V |
+| Pitch after trimming TM4 and TM5 | 65.4, 130.8, 261.6 Hz | 65.42, 130.84, 261.65 Hz |
+| Saw | 5.5 Vpp on 8.5 V (kit page) | 5.4 Vpp on 8.3 V |
+| Square | About 4 Vpp on 7 V (kit page) | 3.6 Vpp on 6.9 V |
+| Gate and strike pulse | 12 V (kit page) | 12.0 and 11.9 V |
+| VCA opening after the gate | 1 to 5 ms, typically 4 (Devil Fish) | 5.6 ms to half level |
+| VCA closing after the gate | About 16 ms (Devil Fish) | 14 ms |
+| Slide time constant | 22 ms (R-2R and C35, calculated here) | 22.0 ms |
+
+Line output comes out at about 2 V peak-to-peak with these settings, and up to 3 V on the brightest one. I found no published figure to compare that with.
+
+| File | Settings |
+|---|---|
+| `results/demo-full-saw.wav` | Saw, Cutoff 35 %, Resonance 85 %, Env Mod 60 %, Decay 35 %, Accent 80 % |
+| `results/demo-full-square.wav` | The same with the square wave |
+| `results/demo-full-saw-open.wav` | Saw, Cutoff 60 %, Resonance 60 %, Env Mod 85 %, Decay 50 %, Accent 100 % |
+
+**What in this deck is a stand-in:**
+
+- **IC15 (BA6110):** a plain bipolar OTA with a unity buffer, its output current Iabc·tanh(Vd/2VT). I could not get a usable datasheet, so its gain law, input resistance and any linearising diode are assumed, and its polarity is unknown. This sets the level and the distortion at the VCA.
+- **IC11 (AN6562):** a generic op-amp, 100 dB gain, 3 MHz, output limited 0.7 V from ground and 1 V from the supply.
+- **Q27:** given hFE 150 and a reverse gain of 1, below the 2SA733P rank. The VCO core is a latch made of Q25 and Q27, and it only lets go when Q27 runs out of drive in saturation. With the generic PNP model it stuck at the top of the ramp above about 3 V of CV. No datasheet gives this behaviour, so these values are fitted so that it reaches the top note.
+- **Ideal:** the rails, IC9 and the CPU lines. R100A and R100B are 1 kΩ at 25 °C, with no temperature change.
+- **Left out:** the headphone amp (IC14), the power supply, noise and hum. Rests are therefore quieter than on a real unit.
 
 ## Sources
 
@@ -257,7 +287,12 @@ python3 pairs.py
 python3 nonlinear.py
 python3 extras.py
 python3 plots.py
+python3 fullchain.py tune
+python3 fullchain.py check
+python3 fullchain.py render
 ```
+
+`python3 fullchain.py parts` rewrites `fullchain-parts.json` from the schematic. The three renders take under a minute together.
 
 `python3 verify_report.py` runs no simulation. It checks the stored results against the sources above and writes [`docs/vcf-simulation.json`](../../../docs/vcf-simulation.json). It needs `kicad-cli` to compare `vcf-parts.json` with the schematic; `extract_vcf.py --check` does that comparison alone, and `extract_vcf.py` rewrites the file.
 

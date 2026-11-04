@@ -132,12 +132,33 @@ for path in HERE.rglob('*'):
         if '/Users' + '/' in text or '/opt/' + 'homebrew' in text:
             offenders.append(path.name)
 check('No machine-specific paths in the study', not offenders, offenders=offenders)
-waves = sorted(RES.glob('*.wav'))
+waves = sorted(p for p in RES.glob('*.wav') if not p.name.startswith('demo-full'))
 fine = []
 for path in waves:
     with wave.open(str(path)) as w:
         fine.append(w.getnchannels() == 1 and w.getframerate() == 48000 and abs(w.getnframes() / 48000 - 4.35) < 0.01)
 check('Four demonstration WAVs, mono 48 kHz, 4.35 s', len(waves) == 4 and all(fine), files=[p.name for p in waves])
+
+# ---- The whole analog section (fullchain.py) ----
+full = load('fullchain_check.json')
+chain = full['chain']
+tuned = {k: full[k] for k in ('C1 at 2 V', 'C2 at 3 V', 'C3 at 4 V')}
+check('The DAC gives the kit voltages for the three C notes', all(abs(tuned[k]['cv'] - v) < 0.002 for k, v in (('C1 at 2 V', 2), ('C2 at 3 V', 3), ('C3 at 4 V', 4))), cv_v=[v['cv'] for v in tuned.values()])
+check('The trimmed VCO tracks 1 V per octave', all(abs(tuned[k]['hz'] / f - 1) < 0.002 for k, f in (('C1 at 2 V', 65.41), ('C2 at 3 V', 130.81), ('C3 at 4 V', 261.63))), hz=[v['hz'] for v in tuned.values()])
+low = full['C1 at 2 V']
+check('The transistor-level saw is near the kit figures of 5.5 Vpp on 8.5 V', 5 < low['saw'][1] - low['saw'][0] < 6 and 8 < low['saw'][2] < 9, vpp=low['saw'][1] - low['saw'][0], mean_v=low['saw'][2])
+check('The transistor-level square is near the kit figures of about 4 Vpp on 7 V', 3 < low['square'][1] - low['square'][0] < 5 and 6 < low['square'][2] < 8, vpp=low['square'][1] - low['square'][0], mean_v=low['square'][2])
+check('The envelope gate and strike pulse reach about 12 V, as on the kit page', chain['n39_max'] > 11.5 and chain['n45_max'] > 11.5, gate_v=chain['n39_max'], pulse_v=chain['n45_max'])
+check('The VCA closes in about the 16 ms the Devil Fish manual gives', 10 < chain['vca_gone_ms'] < 20, gone_ms=chain['vca_gone_ms'])
+check('The VCA opens within 7 ms of the gate; the manual gives 1 to 5 ms', 1 < chain['vca_half_on_ms'] < 7, half_level_ms=chain['vca_half_on_ms'])
+check('The slide time constant is the 22 ms that the DAC resistance and C35 predict', abs(chain['slide_tau_ms'] - 22) < 1.5, tau_ms=chain['slide_tau_ms'])
+renders = load('fullchain_render.json')
+check('The whole-chain renders stay inside the mixer output range', all(r['line_out_peak_v'] < 4 for r in renders), peak_v=[r['line_out_peak_v'] for r in renders])
+fine = []
+for r in renders:
+    with wave.open(str(RES / r['file'])) as w:
+        fine.append(w.getnchannels() == 1 and w.getframerate() == 48000 and abs(w.getnframes() / 48000 - 4.4) < 0.01)
+check('Three whole-chain WAVs, mono 48 kHz, 4.4 s', len(renders) == 3 and all(fine), files=[r['file'] for r in renders])
 
 record = dict(
     schema=1,
@@ -160,7 +181,8 @@ record = dict(
         'The taper of VR3 is unknown; only the knob-to-Hz map depends on it.',
         'The sub-audio loop crossing near 6 to 8 Hz is a model-only prediction, unconfirmed by any report found.',
         'The transistor models are substitutes; IS, VAF and the capacitance split are generic values.',
-        'The VCO is an ideal saw, and the VCA and output stage are not simulated.',
+        'In the filter study the VCO is an ideal saw. In the whole-chain run it is transistor level, with Q27 fitted so the core reaches the top note.',
+        'IC15 (BA6110) is a generic OTA and IC11 (AN6562) a generic op-amp, because no usable datasheet was found. The headphone amp is not simulated.',
     ],
     sources=[
         'https://www.timstinchcombe.co.uk/synth/Moog_ladder_tf.pdf',
