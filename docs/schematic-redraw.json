@@ -1,0 +1,117 @@
+{
+ "scope": "Both KiCad schematics redrawn on sheets by hand from the original Eagle sheets. Files and nets only: nothing here was built or measured.",
+ "kicad_working_revision": 28,
+ "measured_on_hardware": false,
+ "board_copper_changed": false,
+ "checks": [
+  {
+   "check": "mainboard: the generator reproduces the installed sheets and symbol library",
+   "passed": true,
+   "files": 11,
+   "differing": []
+  },
+  {
+   "check": "mainboard: every pin on the same net as the board copper and the Eagle schematic, with the same names",
+   "passed": true,
+   "pins": 1160,
+   "nets": 324,
+   "against_copper": {
+    "missing": 0,
+    "extra": 0,
+    "names": 0,
+    "groups": 0
+   },
+   "against_eagle": {
+    "missing": 0,
+    "extra": 0,
+    "names": 0,
+    "groups": 0
+   },
+   "open_pads_joined": 0,
+   "netted_pads_open": 0
+  },
+  {
+   "check": "mainboard: ERC finds nothing under the project rules",
+   "passed": true,
+   "messages": 0
+  },
+  {
+   "check": "mainboard: DRC and schematic parity report what they reported at revision 27",
+   "passed": true,
+   "found": [
+    335,
+    1,
+    120
+   ],
+   "parity_types": {
+    "footprint_symbol_mismatch": 70,
+    "net_conflict": 43,
+    "extra_footprint": 7
+   }
+  },
+  {
+   "check": "mainboard: the board file differs from revision 27 only in its links to the symbols",
+   "passed": true
+  },
+  {
+   "check": "mainboard: leaving one wire out of each sheet makes the net comparison fail",
+   "passed": true,
+   "sheets_tried": 9,
+   "not_noticed": []
+  },
+  {
+   "check": "ioboard: the generator reproduces the installed sheets and symbol library",
+   "passed": true,
+   "files": 5,
+   "differing": []
+  },
+  {
+   "check": "ioboard: every pin on the same net as the board copper and the Eagle schematic, with the same names",
+   "passed": true,
+   "pins": 222,
+   "nets": 59,
+   "against_copper": {
+    "missing": 0,
+    "extra": 0,
+    "names": 0,
+    "groups": 0
+   },
+   "against_eagle": {
+    "missing": 0,
+    "extra": 0,
+    "names": 0,
+    "groups": 0
+   },
+   "open_pads_joined": 0,
+   "netted_pads_open": 0
+  },
+  {
+   "check": "ioboard: ERC finds nothing under the project rules",
+   "passed": true,
+   "messages": 0
+  },
+  {
+   "check": "ioboard: DRC and schematic parity report what they reported at revision 27",
+   "passed": true,
+   "found": [
+    254,
+    1,
+    45
+   ],
+   "parity_types": {
+    "net_conflict": 38,
+    "footprint_symbol_mismatch": 7
+   }
+  },
+  {
+   "check": "ioboard: the board file differs from revision 27 only in its links to the symbols",
+   "passed": true
+  },
+  {
+   "check": "ioboard: leaving one wire out of each sheet makes the net comparison fail",
+   "passed": true,
+   "sheets_tried": 3,
+   "not_noticed": []
+  }
+ ]
+}

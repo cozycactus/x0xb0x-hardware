@@ -4,8 +4,9 @@ Private working repository for the x0xb0x Eagle-to-KiCad conversion and reconstr
 
 ## Open the current projects
 
-- [Mainboard — KiCad working revision 27](kicad-working/mainboard/mainboard.kicad_pro)
-- [I/O board — KiCad working revision 27](kicad-working/ioboard/ioboard.kicad_pro)
+- [Mainboard — KiCad working revision 28](kicad-working/mainboard/mainboard.kicad_pro)
+- [I/O board — KiCad working revision 28](kicad-working/ioboard/ioboard.kicad_pro)
+- [Schematics as PDF: mainboard](kicad-working/schematic-redraw/mainboard-schematic.pdf) and [I/O board](kicad-working/schematic-redraw/ioboard-schematic.pdf)
 - [Fabrication packages — revision 27](kicad-working/fabrication/revision-27/README.md)
 - [Complete assembly — Blender revision 27](kicad-working/visualization/blender-case-revision-27/x0xb0x-populated-with-case.blend)
 - [KiCad notes](kicad-working/README.md) and [Blender views and limitations](kicad-working/visualization/blender-case-revision-27/README.md)
@@ -34,6 +35,8 @@ See [opening and verification instructions](docs/OPENING.md) for a fresh downloa
 Blender views: **frame 1** assembled, **frame 80** exploded, **frame 120** control-side inspection, **frame 160** wiring study. The caps are intentionally hidden in the two inspection views.
 
 ## Validation and known limits
+
+KiCad28 redraws both schematics by hand, block by block, on A3 sheets. Every pin is on the same net as on the board copper and in the original Eagle schematic, and the board files change only in the links from footprints to symbols, so the revision 27 fabrication packages still apply. See the [redraw notes](kicad-working/schematic-redraw/README.md).
 
 KiCad27 makes both boards orderable. The first fabrication export, re-imported against the board files, found two defects. The mainboard's saved ground pour still cleared the SIP9 pads as they were before KiCad26 lengthened them, and touched 23 of them; KiCad26's DRC had refilled the zones before checking. The I/O board's Edge.Cuts also carried the original rear-plate datum as a second closed outline. The pours are refilled, with only their fill nodes copied in, and the four datum lines move to Dwgs.User. DRC of the copper as saved is clean, every other DRC item equals KiCad26, and the Eagle comparison is unchanged apart from the datum lines. The [order packages](kicad-working/fabrication/revision-27/README.md) (Gerbers, drills, drill maps, BOM, placement, fab notes with the owner's choices) pass a re-import against the board files and a gerbv re-export. See the [revision-27 notes](kicad-working/validation/models-review-27/README.md).
 
@@ -91,18 +94,19 @@ KiCad revision 11 updates 24 historical 2SC536F transistor illustrations and bot
 
 The LED height uses the BOM's named STD240B 0.24-inch spacer. An older assembly table says 0.22 inch; the discrepancy is documented. Exact spacer molding, button retention/travel, historical vendor variations, assumed terminal sections, the remaining omitted locators, reconstructed enclosure tolerances and the wiring study remain qualified. These files do not establish physical assembly readiness.
 
-Eleven reusable checks are included:
+Twelve reusable checks are included:
 
-- `python3 scripts/verify_project.py` checks file hashes, the 291 current KiCad project files, original Eagle sources and saved Blender scene.
+- `python3 scripts/verify_project.py` checks file hashes, the 375 current KiCad project files, original Eagle sources and saved Blender scene.
 - `python3 scripts/verify_kicad_dependencies.py` checks that symbols, footprints and all 491 placed models resolve inside the checkout, without global KiCad libraries. Both Python checks accept `--root PATH` and require Python 3.9 or later.
 - `scripts/verify_blender_scene.py` runs inside native Blender and checks embedded components, complete LED assemblies, cap attachment across views and external file dependencies. See the opening instructions for the command, including the required failure exit-code option.
 - `scripts/verify_rear_openings.py` runs inside native Blender and checks the actual rear mating passages for scene geometry that covers them. It accounts for intentional contacts and recessed inserts.
 - `scripts/verify_kicad_blender_models.py` runs inside native Blender, exports both KiCad PCBs to a temporary folder with `kicad-cli`, and checks that every placed KiCad model matches the scene's embedded native mesh: footprint frame, bounds, centroid, surface area and triangle count. Blender-only enclosure and presentation parts are outside its scope. It needs KiCad installed; set `KICAD_CLI` to override the macOS path.
 - `scripts/verify_drill_fit.py` runs inside native Blender, exports both KiCad PCBs to a temporary folder and cuts every placed model at both board faces and mid-depth against the drills read from the PCB files. It requires a lead in every drilled hole and fails on any interference or board crossing not declared, with its source reason, in [docs/drill-fit-allowances.json](docs/drill-fit-allowances.json). Currently it measures 489 models and finds only the declared exceptions: the TL1100F free-state retention kinks, the NYS216 row offset, the USB press-fit board locks, two SDS-50J pins, PJ-202AH terminal 3 and the empty Grayhill bracket holes.
 - `scripts/verify_terminal_joins.py` runs inside native Blender, exports both KiCad PCBs to a temporary folder and checks that every terminal of the drawing-derived terminal models (`*_Terminals.step`) touches or enters its body. It currently checks 133 terminal pieces at 25 references.
-- `python3 kicad-working/validation/models-review-27/verify_current_functions.py` replays 214 original-source and current-PCB MIDI function checks. It does not modify the project.
+- `python3 kicad-working/schematic-redraw/verify_current_functions.py` replays 214 original-source and current-PCB MIDI function checks. It does not modify the project.
 - `python3 kicad-working/fabrication/revision-27/verify_packages.py` re-imports the fabrication packages and checks every pad, via, track, zone fill, mask and paste opening, drill and outline segment against the board files, re-exports every file with gerbv, and runs KiCad's DRC on the copper as saved. It needs KiCad and gerbv.
 - `python3 kicad-working/validation/vcf-simulation/verify_report.py` checks the stored VCF and analog-section simulation results against the published statements they are compared with, and that the simulated parts still match the schematic. It needs numpy and `kicad-cli`, and says nothing about real hardware.
+- `python3 kicad-working/schematic-redraw/verify_redraw.py` regenerates the schematics and compares them with the installed files, compares every pin with the board copper and the original Eagle nets, and reruns ERC and DRC. `--mutation` also leaves one wire out of each sheet to show that the comparison fails. It needs `kicad-cli`.
 - `python3 -I kicad-working/adapters/ssip5-dual/make_package.py --check` reruns ERC and DRC on the adapter boards, checks that every mainboard pad reaches the expected chip pin, reads the exported Gerbers and drills back, and compares them with their recorded hashes. It needs `kicad-cli`, and says nothing about a built adapter.
 
 The initial revision-10 fresh download passed native KiCad ERC, model exports and 106 Blender portability checks; [historical fresh-download verification](docs/fresh-clone-verification.json) pins that source commit and scene hash. Current model integration and electrical evidence are recorded in [working validation](kicad-working/validation/working-validation-summary-revision-27.json). Fresh ERC on both boards reports zero errors and warnings under the recorded rules; DRC now checks the copper as saved, without a zone refill. Both boards' non-silkscreen DRC violations, parity and ignored-check lists exactly equal the previous fresh reports, and I/O silkscreen-to-edge warnings decrease with the datum outline removed; the remaining unconnected items are the two original GND splits. The saved Blender27 audit passes12 saved-scene comparison checks against revision26, 106 portability checks and 44 rear-opening checks using 974 rays, and all 491 placed KiCad models match the scene's native meshes. The Blender13 contact-correction, Blender14 plate-datum, Blender15 height-datum, Blender16 terminal, Blender17 terminal-correction, Blender18 terminal-join and Blender19 Grayhill evidence, including the four circuit-function checks, is retained.

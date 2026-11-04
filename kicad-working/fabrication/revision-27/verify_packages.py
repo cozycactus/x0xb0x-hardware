@@ -364,7 +364,10 @@ def comparison_sizes(b):
                      note='no fabrication comparison recorded for this revision')
     rec = json.loads((COMPARISON / 'gerber-comparison.json').read_text())
     sizes = rec['generated_files'][b]
-    same_pcb = rec['inputs']['kicad_pcb_sha256'][b] == sha(WORK / b / f'{b}.kicad_pcb')
+    now = sha(WORK / b / f'{b}.kicad_pcb')
+    # Revision 28 only relinked footprints to the redrawn symbols: schematic-redraw/pcb-relink-record.json.
+    relink = json.loads((WORK / 'schematic-redraw' / 'pcb-relink-record.json').read_text())['boards'][b]
+    same_pcb = rec['inputs']['kicad_pcb_sha256'][b] == now or (rec['inputs']['kicad_pcb_sha256'][b] == relink['before_sha256'] and now == relink['after_sha256'])
     diff = {n: (v['bytes'], (HERE / b / 'gerbers' / n).stat().st_size if (HERE / b / 'gerbers' / n).is_file() else None)
             for n, v in sizes.items()
             if not (HERE / b / 'gerbers' / n).is_file() or (HERE / b / 'gerbers' / n).stat().st_size != v['bytes']}

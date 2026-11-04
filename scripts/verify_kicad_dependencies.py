@@ -159,26 +159,33 @@ def main():
                         local_path(model[1], project, relative(path))
                         cached_models += 1
 
-            schematic_path = project / (name + ".kicad_sch")
-            schematic = read_tree(schematic_path, "kicad_sch")
-            symbols = children(schematic, "symbol")
-            embedded = {s[1] for s in children(one(schematic, "lib_symbols") or [],
-                                              "symbol")}
-            schematic_footprints = set()
-            for symbol in symbols:
-                owner = f"{relative(schematic_path)}:{prop(symbol, 'Reference')}"
-                identifier = field(symbol, "lib_id")
-                nickname, colon, symbol_name = identifier.partition(":")
-                if not colon or symbol_name not in symbol_names.get(nickname, set()):
-                    fail(owner, "Symbol missing from project-local library", symbol=identifier)
-                if identifier not in embedded:
-                    fail(owner, "Symbol missing from embedded schematic cache", symbol=identifier)
-                footprint = prop(symbol, "Footprint")
-                if footprint:
-                    footprint_path(footprint, fp_libs, owner)
-                    schematic_footprints.add(footprint)
-            if children(schematic, "sheet"):
-                fail(relative(schematic_path), "Unexpected hierarchical sheets; dependency scope changed")
+            root_path = project / (name + ".kicad_sch")
+            root_sheet = read_tree(root_path, "kicad_sch")
+            sheet_paths = [root_path]
+            for sheet in children(root_sheet, "sheet"):
+                sheet_path = project / prop(sheet, "Sheetfile")
+                if sheet_path.is_file():
+                    sheet_paths.append(sheet_path)
+                else:
+                    fail(relative(root_path), "Sheet file missing", sheet=prop(sheet, "Sheetfile"))
+            symbols, schematic_footprints = [], set()
+            for schematic_path in sheet_paths:
+                schematic = read_tree(schematic_path, "kicad_sch")
+                embedded = {s[1] for s in children(one(schematic, "lib_symbols") or [],
+                                                  "symbol")}
+                for symbol in children(schematic, "symbol"):
+                    symbols.append(symbol)
+                    owner = f"{relative(schematic_path)}:{prop(symbol, 'Reference')}"
+                    identifier = field(symbol, "lib_id")
+                    nickname, colon, symbol_name = identifier.partition(":")
+                    if not colon or symbol_name not in symbol_names.get(nickname, set()):
+                        fail(owner, "Symbol missing from project-local library", symbol=identifier)
+                    if identifier not in embedded:
+                        fail(owner, "Symbol missing from embedded schematic cache", symbol=identifier)
+                    footprint = prop(symbol, "Footprint")
+                    if footprint:
+                        footprint_path(footprint, fp_libs, owner)
+                        schematic_footprints.add(footprint)
 
             pcb_path = project / (name + ".kicad_pcb")
             pcb = read_tree(pcb_path, "kicad_pcb")
