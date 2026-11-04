@@ -55,7 +55,7 @@ def components(project, board):
         c = text[a:b]
         ref = re.search(r'\(ref "([^"]+)"\)', c)[1]
         names = re.search(r'\(sheetpath\s+\(names "([^"]*)"\)\s+\(tstamps "([^"]*)"\)', c)
-        ids = re.search(r'\(tstamps "([^"]+)"', re.sub(r'\(sheetpath\s+\(names "[^"]*"\)\s+\(tstamps "[^"]*"\)\)', '', c))[1]
+        ids = re.search(r'\(tstamps "([^"]+)"', re.sub(r'\(sheetpath\s+\(names "[^"]*"\)\s+\(tstamps "[^"]*"\)\s*\)', '', c))[1]
         file = re.search(r'\(property\s+\(name "Sheetfile"\)\s+\(value "([^"]*)"\)', c)
         out[ref] = dict(path=names[2] + ids, sheetname=names[1], sheetfile=file[1] if file else '')
     return out

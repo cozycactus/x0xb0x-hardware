@@ -4,10 +4,13 @@
 
 Usage: verify_redraw.py [--mutation]
 
-Checks that the generator reproduces the installed files, that every pin is on the same net as on the board copper and in
-the original Eagle schematic, that ERC is clean, that DRC and schematic parity report what they reported before the redraw,
-and that the board files differ from revision 27 only in their links to the symbols. --mutation also leaves one wire out of
-each sheet in turn and confirms that the net comparison then fails, which shows it can. Says nothing about real hardware.
+Checks that the generator reproduces the installed files, that they are in the format this KiCad writes, that sheet instances
+name the project's top-level sheet with pages in order, that every pin is on the same net as on the board copper and in the
+original Eagle schematic, that every footprint links to its own symbol, that ERC is clean, that DRC and schematic parity report
+what they reported before the redraw, and that the board files differ from revision 27 only in their links to the symbols.
+The format, instance and link checks cover what the KiCad editor reads and kicad-cli's other commands don't report. --mutation
+also leaves one wire out of each sheet in turn and confirms that the net comparison then fails, which shows it can. Says nothing
+about real hardware.
 """
 import collections
 import hashlib
@@ -114,6 +117,59 @@ def mutation(board):
     return tried, survivors
 
 
+def old_formats(project, work):
+    """Files in an older format than this KiCad writes. The editor warns about these and kicad-cli's other commands do not."""
+    old = []
+    for path in sorted(project.glob('*.kicad_sch')):
+        copy = work / path.name
+        copy.write_bytes(path.read_bytes())
+        result = run(CLI, 'sch', 'upgrade', copy)
+        if 'not updated' not in result.stdout + result.stderr:
+            old.append(path.name)
+    out = work / 'upgraded.kicad_sym'
+    run(CLI, 'sym', 'upgrade', '-o', out, project / f'{X.LIB}.kicad_sym')
+    if out.exists():
+        old.append(f'{X.LIB}.kicad_sym')
+    return old
+
+
+def instance_problems(board, project):
+    """Sheet instance data the editor would throw away and rebuild, which it reports as an error fixed on loading."""
+    top = json.load(open(project / f'{board}.kicad_pro'))['schematic']['top_level_sheets'][0]['uuid']
+    problems = []
+    for path in sorted(project.glob('p[0-9][0-9]_*.kicad_sch')):
+        roots = set(re.findall(r'\(path "/([^/"]+)/[^"]*" \(reference', path.read_text()))
+        if roots != {top}:
+            problems.append(f'{path.name}: symbol instances under {sorted(roots)}, project top-level sheet {top}')
+    root_text = (project / f'{board}.kicad_sch').read_text()
+    pages = re.findall(r'\(path "/([^/"]+)" \(page "(\d+)"\)', root_text)
+    if [r for r, _ in pages] != [top] * len(pages):
+        problems.append('sub-sheet instances are not under the project top-level sheet')
+    if [int(n) for _, n in pages] != list(range(2, len(pages) + 2)):
+        problems.append(f'pages out of order: {[n for _, n in pages]}')
+    return problems
+
+
+def link_problems(board, project, net_file):
+    """Footprints whose path is not their own symbol's. KiCad's parity check matches by reference, so it cannot see these."""
+    text = Path(net_file).read_text()
+    want = {}
+    for m in re.finditer(r'\(comp\s+\(ref "([^"]+)"\)(.*?)(?=\(comp\s+\(ref|\Z)', text, re.S):
+        sheet = re.search(r'\(sheetpath\s+\(names "[^"]*"\)\s+\(tstamps "([^"]*)"\)\s*\)', m[2])
+        ids = re.search(r'\)\s*\(tstamps ((?:"[^"]+"\s*)+)\)', m[2][sheet.end() - 1:])
+        want[m[1]] = {sheet[1] + u for u in re.findall(r'"([^"]+)"', ids[1])}
+    pcb = (project / f'{board}.kicad_pcb').read_text()
+    have = collections.defaultdict(list)
+    for chunk in pcb.split('\n\t(footprint ')[1:]:
+        ref = re.search(r'\(property "Reference" "([^"]*)"', chunk)
+        path = re.search(r'\n\t\t\(path "([^"]*)"\)', chunk)
+        if ref and path:
+            have[path[1]].append(ref[1])
+    found = {r: p for p, refs in have.items() for r in refs}
+    return dict(footprints=sum(map(len, have.values())), symbols=len(want), shared_paths=sum(len(r) > 1 for r in have.values()),
+                wrong=sorted(r for r, p in found.items() if r in want and p not in want[r])[:12], without_link=sorted(set(want) - {r for refs in have.values() for r in refs})[:12])
+
+
 def main():
     record = json.load(open(HERE / 'pcb-relink-record.json'))['boards']
     for board in ('mainboard', 'ioboard'):
@@ -124,8 +180,16 @@ def main():
             names = sorted(p.name for p in d.iterdir())
             same = [n for n in names if (project / n).read_bytes() == (d / n).read_bytes()]
             check(f'{board}: the generator reproduces the installed sheets and symbol library', same == names, files=len(names), differing=sorted(set(names) - set(same)))
+            work = d / 'formats'
+            work.mkdir()
+            old = old_formats(project, work)
+            check(f'{board}: the sheets and the symbol library are in the format this KiCad writes', not old, older=old)
+            problems = instance_problems(board, project)
+            check(f'{board}: sheet instances name the project top-level sheet, with pages in sheet order', not problems, problems=problems)
             state = net_state(board, netlist(project / f'{board}.kicad_sch', d / 'n.net'))
             check(f'{board}: every pin on the same net as the board copper and the Eagle schematic, with the same names', clean(state), **state)
+            links = link_problems(board, project, d / 'n.net')
+            check(f'{board}: every footprint links to its own symbol', not links['shared_paths'] and not links['wrong'] and not links['without_link'], **links)
             run(CLI, 'sch', 'erc', '--severity-all', '-o', d / 'erc.rpt', project / f'{board}.kicad_sch')
             summary = re.search(r'ERC messages: (\d+)\s+Errors (\d+)\s+Warnings (\d+)', (d / 'erc.rpt').read_text())
             check(f'{board}: ERC finds nothing under the project rules', summary and summary[1] == '0', messages=summary and int(summary[1]))
@@ -146,7 +210,8 @@ def main():
     if '--mutation' in sys.argv:
         (ROOT / 'docs' / 'schematic-redraw.json').write_text(json.dumps(dict(
             scope='Both KiCad schematics redrawn on sheets by hand from the original Eagle sheets. Files and nets only: nothing here was built or measured.',
-            kicad_working_revision=28, measured_on_hardware=False, board_copper_changed=False, checks=results), indent=1) + '\n')
+            kicad_working_revision=28, measured_on_hardware=False, board_copper_changed=False, checks=results,
+            opened_in_kicad_editor='By hand in KiCad 10.0.7, not by this script; what was seen is in kicad-working/schematic-redraw/README.md.'), indent=1) + '\n')
     raise SystemExit(0 if passed == len(results) else 1)
 
 

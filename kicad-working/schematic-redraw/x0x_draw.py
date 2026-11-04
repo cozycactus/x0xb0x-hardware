@@ -18,6 +18,9 @@ import oldlib
 HERE = Path(__file__).resolve().parent
 LIB = 'x0x'
 NS = uuid.UUID('6f1f1b0e-58f5-4f55-9a53-3a3b7f1f0c11')
+SCH_FORMAT, LIB_FORMAT = 20260306, 20251024  # What KiCad 10.0.7 writes. An older number makes the editor warn on opening
+# Each project file's top-level sheet. Instance paths start here: with any other id the editor rebuilds them and reports an error.
+TOP_LEVEL_SHEET = {'mainboard': '7f5f96c8-b7f4-4dd0-b468-89b5c943dd10', 'ioboard': '525a5368-a8f5-40c5-afd5-32cbf9441891'}
 DEVICE_NAMES = {'LED5MM', 'J12MM', 'J15MM'}  # Kept as the part's value, but they say nothing on the sheet
 RAILS = {'GND': 'GND', '+5.333V': 'RING', '+5V': 'RING', '+12V': 'TRI', '+6V': 'TRI'}
 FONT = '(effects (font (size 1.27 1.27)))'
@@ -518,27 +521,28 @@ def write_project(project, out, root_title, root_lines, rev):
     out = Path(out)
     out.mkdir(parents=True, exist_ok=True)
     root = uid(name, 'root')
+    top = TOP_LEVEL_SHEET[name]
     boxes = []
     sheet_ids = {}
     for i, s in enumerate(project.sheets):
         su = uid(name, 'sheet', s.file)
         sheet_ids[s.file] = su
-        path = f'/{root}/{su}'
+        path = f'/{top}/{su}'
         body = '\n'.join(s.items)
         body = re.sub(r'@INST:([^|@]+)\|(\d+)@', lambda m: f'(instances (project "{name}" (path "{path}" (reference "{m[1]}") (unit {m[2]}))))', body)
         blocks = '\n'.join(project.lib[k].replace(f'(symbol "{k}"', f'(symbol "{LIB}:{k}"', 1) for k in sorted(s.used))
         (out / f'{s.file}.kicad_sch').write_text(
-            f'(kicad_sch (version 20250114) (generator "x0x_redraw") (generator_version "10.0") (uuid "{su}") (paper "{s.paper}")\n'
+            f'(kicad_sch (version {SCH_FORMAT}) (generator "x0x_redraw") (generator_version "10.0") (uuid "{su}") (paper "{s.paper}")\n'
             f'(title_block (title "{s.title}") (rev "{rev}") (company "x0xb0x {project.title_note}") (comment 1 "Drawn from the original Eagle schematic; nets checked against the board copper.") '
             f'(comment 2 "Copyright (c) 2005, Limor Fried. See http://www.ladyada.net/make/x0xb0x/"))\n'
             f'(lib_symbols {blocks})\n{body}\n(embedded_fonts no))\n')
         x, y = 25 + 62 * (i % 4), 75 + 45 * (i // 4)
         boxes.append(f'(sheet (at {x} {y}) (size 55 30) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type default)) (fill (color 0 0 0 0)) (uuid "{su}") '
                      f'(property "Sheetname" "{s.title}" (at {x} {y - 1} 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "{s.file}.kicad_sch" (at {x} {y + 31} 0) (effects (font (size 1.27 1.27)) (justify left top))) '
-                     f'(instances (project "{name}" (path "/{root}" (page "{i + 2}")))))')
+                     f'(instances (project "{name}" (path "/{top}" (page "{i + 2}")))))')
     lines = '\n'.join(f'(text "{t}" (exclude_from_sim no) (at 25 {35 + j * 8} 0) (effects (font (size 3 3)) (justify left)) (uuid "{uid(name, "rt", j)}"))' for j, t in enumerate(root_lines))
     (out / f'{name}.kicad_sch').write_text(
-        f'(kicad_sch (version 20250114) (generator "x0x_redraw") (generator_version "10.0") (uuid "{root}") (paper "A3")\n'
+        f'(kicad_sch (version {SCH_FORMAT}) (generator "x0x_redraw") (generator_version "10.0") (uuid "{root}") (paper "A3")\n'
         f'(title_block (title "{root_title}") (rev "{rev}") (company "x0xb0x {project.title_note}"))\n(lib_symbols)\n{lines}\n' + '\n'.join(boxes) + '\n(sheet_instances (path "/" (page "1")))\n(embedded_fonts no))\n')
-    (out / f'{LIB}.kicad_sym').write_text('(kicad_symbol_lib (version 20241209) (generator "x0x_redraw") (generator_version "10.0")\n' + '\n'.join(project.lib[k] for k in sorted(project.lib)) + '\n)\n')
+    (out / f'{LIB}.kicad_sym').write_text(f'(kicad_symbol_lib (version {LIB_FORMAT}) (generator "x0x_redraw") (generator_version "10.0")\n' + '\n'.join(project.lib[k] for k in sorted(project.lib)) + '\n)\n')
     return sheet_ids

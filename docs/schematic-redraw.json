@@ -11,6 +11,16 @@
    "differing": []
   },
   {
+   "check": "mainboard: the sheets and the symbol library are in the format this KiCad writes",
+   "passed": true,
+   "older": []
+  },
+  {
+   "check": "mainboard: sheet instances name the project top-level sheet, with pages in sheet order",
+   "passed": true,
+   "problems": []
+  },
+  {
    "check": "mainboard: every pin on the same net as the board copper and the Eagle schematic, with the same names",
    "passed": true,
    "pins": 1160,
@@ -29,6 +39,15 @@
    },
    "open_pads_joined": 0,
    "netted_pads_open": 0
+  },
+  {
+   "check": "mainboard: every footprint links to its own symbol",
+   "passed": true,
+   "footprints": 410,
+   "symbols": 410,
+   "shared_paths": 0,
+   "wrong": [],
+   "without_link": []
   },
   {
    "check": "mainboard: ERC finds nothing under the project rules",
@@ -66,6 +85,16 @@
    "differing": []
   },
   {
+   "check": "ioboard: the sheets and the symbol library are in the format this KiCad writes",
+   "passed": true,
+   "older": []
+  },
+  {
+   "check": "ioboard: sheet instances name the project top-level sheet, with pages in sheet order",
+   "passed": true,
+   "problems": []
+  },
+  {
    "check": "ioboard: every pin on the same net as the board copper and the Eagle schematic, with the same names",
    "passed": true,
    "pins": 222,
@@ -84,6 +113,15 @@
    },
    "open_pads_joined": 0,
    "netted_pads_open": 0
+  },
+  {
+   "check": "ioboard: every footprint links to its own symbol",
+   "passed": true,
+   "footprints": 82,
+   "symbols": 82,
+   "shared_paths": 0,
+   "wrong": [],
+   "without_link": []
   },
   {
    "check": "ioboard: ERC finds nothing under the project rules",
@@ -113,5 +151,6 @@
    "sheets_tried": 3,
    "not_noticed": []
   }
- ]
+ ],
+ "opened_in_kicad_editor": "By hand in KiCad 10.0.7, not by this script; what was seen is in kicad-working/schematic-redraw/README.md."
 }

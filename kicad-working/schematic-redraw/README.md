@@ -29,7 +29,18 @@ From the last run of `verify_redraw.py --mutation`, recorded in [docs/schematic-
 | ERC under the project rules | 0 violations | 0 violations |
 | DRC with parity | 335 violations, 1 unconnected, 120 parity: the same as revision 27 | 254, 1, 45: the same as revision 27 |
 | Board file against revision 27 | Only 410 `path` lines differ | Only 82 `path` lines differ |
+| Each footprint's link | 410, each to its own symbol | 82, each to its own symbol |
+| File format and sheet instances | As KiCad 10.0.7 writes them, with pages in sheet order | The same |
 | One wire left out of each sheet in turn | The comparison failed on all 9 sheets | The comparison failed on all 3 sheets |
+
+Opened by hand in the KiCad 10.0.7 editor, once, on the installed files:
+
+- **Loading:** both projects open with no error message and no format warning, and stay unmodified. Every sheet shows real symbols, and pages run 2 to 10 and 2 to 4.
+- **ERC in the editor:** 0 violations on both, with the same four ignored tests as revision 27.
+- **Net-name labels:** on the I/O board's MIDI sheet, a click on the spot of the 0.05 mm label `N$22` selects the pin under it, with no extra menu, and a click on the wire shows `N$22` as its connection name. Other labels weren't tried.
+- **Update PCB from Schematic, dialog read and closed, nothing applied:** no footprint needs a new link. Compared with revision 27, the only other change in its list is the new sheet names. The rest was already there at revision 27: on the mainboard, 70 value changes, 43 pads on `unconnected-` nets, 23 jumper pad groups and 7 footprints to remove; on the I/O board, 7 value changes, 38 pads on `unconnected-` nets and a warning about `IC24` pad 3. It doesn't change any other pad's net.
+
+An earlier state of this revision, commit `ad65ff0`, opened with an error message. Its sheet instances named a top-level sheet other than the project's, its format numbers were older than KiCad writes, and `relink_board.py` gave every footprint on a sheet the same path. Only the editor showed these. `kicad-cli` netlists, ERC and DRC passed, and parity matches by reference. `verify_redraw.py` now checks all three.
 
 Also checked, once, on the installed files:
 
@@ -56,11 +67,10 @@ No net differs. These are differences of presentation:
 
 ## Limits
 
-- The sheets were generated and checked with `kicad-cli` 10.0.7. They have not been opened in the KiCad schematic editor, so how the editor shows or handles the 0.05 mm labels is not checked.
+- **Don't apply "Update PCB from Schematic" with its default options.** "Delete footprints with no symbols" would remove the mainboard's seven 3.3 mm mounting holes, `U$2`, `U$23`, `U$24`, `U$25`, `U$27`, `U$28` and `U$29`, which have no symbols, as at revision 27. Applying it hasn't been tried.
 - **Parts on the same two nets look identical to the net checks.** R74 and R75, for example, could trade places unnoticed. Their names rest on the original sheet.
 - A net with one pin on the sheets can't show a wrong group, only a wrong name.
 - The Eagle nets in `data/<board>_eagle_nets.json` were read from `original-eagle/` by the parser used for the first import, not transcribed by a person.
-- A later "Update PCB from Schematic" must keep the board's nets: the schematic names match them, but this revision hasn't run that command.
 
 ## Rerun
 

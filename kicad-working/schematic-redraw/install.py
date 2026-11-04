@@ -32,10 +32,10 @@ def main():
         table.write_text(text)
     pro = project / f'{board}.kicad_pro'
     text = pro.read_text()
-    root = X.uid(board, 'root')
+    root = X.TOP_LEVEL_SHEET[board]
     sheets = re.findall(r'\(uuid "([^"]+)"\) \(paper', ''.join((project / p.name).read_text()[:400] for p in sorted(project.glob('p[0-9][0-9]_*.kicad_sch'))))
     titles = [re.search(r'\(title "([^"]*)"', (project / p.name).read_text()[:800])[1] for p in sorted(project.glob('p[0-9][0-9]_*.kicad_sch'))]
-    rows = [f'    [\n      "{root}",\n      "Root"\n    ]'] + [f'    [\n      "{u}",\n      "{t}"\n    ]' for u, t in zip(sheets, titles)]
+    rows = [f'    [\n      "{root}",\n      "{board}_1"\n    ]'] + [f'    [\n      "{u}",\n      "{t}"\n    ]' for u, t in zip(sheets, titles)]
     text, count = re.subn(r'"sheets": \[.*?\n  \]', '"sheets": [\n' + ',\n'.join(rows) + '\n  ]', text, count=1, flags=re.S)
     assert count == 1
     pro.write_text(text)
