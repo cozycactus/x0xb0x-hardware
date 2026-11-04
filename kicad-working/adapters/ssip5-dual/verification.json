@@ -1,0 +1,203 @@
+{
+ "kicad_cli": "10.0.7",
+ "checks": [
+  {
+   "name": "Mainboard board and schematic are the recorded revision 27 files",
+   "passed": true
+  },
+  {
+   "name": "ce: ERC has no finding",
+   "passed": true
+  },
+  {
+   "name": "ce: DRC has no violation, no unconnected item, no schematic mismatch",
+   "passed": true
+  },
+  {
+   "name": "ce: BCM847BS at Q12: every row pin reaches the chip pin the mainboard expects",
+   "passed": true,
+   "roles": "BCECB"
+  },
+  {
+   "name": "ce: BCM847BS at Q21: every row pin reaches the chip pin the mainboard expects",
+   "passed": true,
+   "roles": "BCECB"
+  },
+  {
+   "name": "ce: BCM847BS at Q26: every row pin reaches the chip pin the mainboard expects",
+   "passed": true,
+   "roles": "BCECB"
+  },
+  {
+   "name": "ce: BC847CDW1 at Q12: every row pin reaches the chip pin the mainboard expects",
+   "passed": true,
+   "roles": "BCECB"
+  },
+  {
+   "name": "ce: BC847CDW1 at Q21: every row pin reaches the chip pin the mainboard expects",
+   "passed": true,
+   "roles": "BCECB"
+  },
+  {
+   "name": "ce: BC847CDW1 at Q26: every row pin reaches the chip pin the mainboard expects",
+   "passed": true,
+   "roles": "BCECB"
+  },
+  {
+   "name": "ce: drill file has 5 row holes of 0.8 mm and 2 vias of 0.3 mm",
+   "passed": true
+  },
+  {
+   "name": "ce: row holes read back at 2.286 mm on one line",
+   "passed": true,
+   "spacing": [
+    2.286,
+    2.286,
+    2.286,
+    2.286
+   ]
+  },
+  {
+   "name": "ce: row spacing equals the mainboard holes at Q12",
+   "passed": true,
+   "worst_mm": 0.0
+  },
+  {
+   "name": "ce: row spacing equals the mainboard holes at Q21",
+   "passed": true,
+   "worst_mm": 0.0
+  },
+  {
+   "name": "ce: row spacing equals the mainboard holes at Q26",
+   "passed": true,
+   "worst_mm": 0.0
+  },
+  {
+   "name": "ce: 5 oval pads of 1.5 x 3.2 mm are plotted",
+   "passed": true,
+   "found": [
+    "O,1.500000X3.200000",
+    "O,1.500000X3.200000"
+   ]
+  },
+  {
+   "name": "ce: pads stop 0.35 mm from the bottom edge, with the hook hole near their top",
+   "passed": true,
+   "pad_low_above_edge": 0.35,
+   "hole_above_edge": 2.75
+  },
+  {
+   "name": "ce: outline is 11.4 x 7.8 mm",
+   "passed": true,
+   "size": [
+    11.4,
+    7.8
+   ]
+  },
+  {
+   "name": "cb: ERC has no finding",
+   "passed": true
+  },
+  {
+   "name": "cb: DRC has no violation, no unconnected item, no schematic mismatch",
+   "passed": true
+  },
+  {
+   "name": "cb: BCM847BS at Q22: every row pin reaches the chip pin the mainboard expects",
+   "passed": true,
+   "roles": "ECBCE"
+  },
+  {
+   "name": "cb: BC847CDW1 at Q22: every row pin reaches the chip pin the mainboard expects",
+   "passed": true,
+   "roles": "ECBCE"
+  },
+  {
+   "name": "cb: drill file has 5 row holes of 0.8 mm and 2 vias of 0.3 mm",
+   "passed": true
+  },
+  {
+   "name": "cb: row holes read back at 2.286 mm on one line",
+   "passed": true,
+   "spacing": [
+    2.286,
+    2.286,
+    2.286,
+    2.286
+   ]
+  },
+  {
+   "name": "cb: row spacing equals the mainboard holes at Q22",
+   "passed": true,
+   "worst_mm": 0.0
+  },
+  {
+   "name": "cb: 5 oval pads of 1.5 x 3.2 mm are plotted",
+   "passed": true,
+   "found": [
+    "O,1.500000X3.200000",
+    "O,1.500000X3.200000"
+   ]
+  },
+  {
+   "name": "cb: pads stop 0.35 mm from the bottom edge, with the hook hole near their top",
+   "passed": true,
+   "pad_low_above_edge": 0.35,
+   "hole_above_edge": 2.75
+  },
+  {
+   "name": "cb: outline is 11.4 x 7.8 mm",
+   "passed": true,
+   "size": [
+    11.4,
+    7.8
+   ]
+  },
+  {
+   "name": "Fit check found at least 0.3 mm at every site",
+   "passed": true,
+   "smallest": {
+    "Q12": 1.15,
+    "Q21": 0.57,
+    "Q22": 0.75,
+    "Q26": 0.81
+   }
+  }
+ ],
+ "inputs": {
+  "cb/ssip5-cb.kicad_pcb": "baf5dc58011f7357c489b64489b83460e2216654ef0c05c0adc2b58d67ecf2ed",
+  "cb/ssip5-cb.kicad_pro": "d67378684911b651486d5e53cf14e1988b31405a5570c0d04ef4dbd64af67052",
+  "cb/ssip5-cb.kicad_sch": "fc5f6945d3cf304e2b5baa596ae8526c658c4aed7e5679c305100f9c1fac2d75",
+  "ce/ssip5-ce.kicad_pcb": "eb3fe45a793c85d35338229ec368f953a79705bbe46d2821c5397d1b14b9de1d",
+  "ce/ssip5-ce.kicad_pro": "1399f2d6456c9242ed6d39a591f93ecb013e65a19485f6208b5192344c032545",
+  "ce/ssip5-ce.kicad_sch": "93052f943c74a9bc5f52e87c3d18d86405b054c812caae548836fc9b45793c2e",
+  "x0xb0x-adapter.pretty/SOT-363_Hand.kicad_mod": "bfa3d38c68f8ec77b6cc06c1d09251f74a869d13db7d292bee17caead524a27f",
+  "x0xb0x-adapter.pretty/SSIP5_LapRow.kicad_mod": "671a6c6dcd4920c6f8e66a2601bf0dd7bc03b42bec72f3d3d207d6c3e3aed6a6"
+ },
+ "files": {
+  "fabrication/cb/gerbers/ssip5-cb-B_Cu.gbr": "962bcf108e12c3158963feb4229be24ee73ec2e062af92ca70a560089e457e94",
+  "fabrication/cb/gerbers/ssip5-cb-B_Mask.gbr": "0b1b1ef19ad2ce07cb5e5ea129da623fa17815e108fdac8168c66f92cf1871cb",
+  "fabrication/cb/gerbers/ssip5-cb-B_Silkscreen.gbr": "16bd80569a9edefec5e46ceaeadeb890c64ef8b417b024e4adc8733ea8beb19e",
+  "fabrication/cb/gerbers/ssip5-cb-Edge_Cuts.gbr": "4a6e920e5ab362f6495cefa87d0f19d67fdfd22da2af4631328cd31d989bda59",
+  "fabrication/cb/gerbers/ssip5-cb-F_Cu.gbr": "e919ce69438eaa5744998c40dab40aaa52a587d4b94f6fe18739c05cc9751926",
+  "fabrication/cb/gerbers/ssip5-cb-F_Mask.gbr": "2cf18d5c44f06b2a090a4999c371b7be2ef88831f80a3234734be10464b5b477",
+  "fabrication/cb/gerbers/ssip5-cb-F_Silkscreen.gbr": "579f072c0614f753392e9c78a6fc7a4075bebe69a9ddad7542cc155b54fcd799",
+  "fabrication/cb/gerbers/ssip5-cb-NPTH.drl": "efccafa1ee941844f830c0960d66a2906e4362056c00176dd16076661275efaa",
+  "fabrication/cb/gerbers/ssip5-cb-PTH.drl": "3d772fcdcaab6a19c32371f8c0e6ce65e2ac67526df1aeddb10d8235fd23cdd8",
+  "fabrication/cb/gerbers/ssip5-cb-drill-report.txt": "cb9a379f151d7aaa1eab861d5ba15b8fe4b55ead1006022b18ca1c8fe2fa1d1b",
+  "fabrication/cb/gerbers/ssip5-cb-job.gbrjob": "f0a493b661b1057336d472516b3131db8518a49dcaa9858692fbdc933d4eb149",
+  "fabrication/ce/gerbers/ssip5-ce-B_Cu.gbr": "0a9ae4a333b5bcd830c28e7305220ae95ce04dcf1524ef6f0fa06715f53650d7",
+  "fabrication/ce/gerbers/ssip5-ce-B_Mask.gbr": "dc7a520ab077d3b31a54e9caa0059a7486f13d02b29dbec95d0cdc75f3aeea25",
+  "fabrication/ce/gerbers/ssip5-ce-B_Silkscreen.gbr": "6c46fe068be1bb6bc8e9468fbc9f18563d76ebf2e8a0c6ac2ab599dd9d41e0db",
+  "fabrication/ce/gerbers/ssip5-ce-Edge_Cuts.gbr": "ff591ddcc4ed7bcf917baa2b78163ef8a60984e6614f806c77f3f2cd9aa71ffe",
+  "fabrication/ce/gerbers/ssip5-ce-F_Cu.gbr": "1b9844f916b362bcad6bff7e37f2727efa241a4efdfc3e3aa638b5a6e8eed28c",
+  "fabrication/ce/gerbers/ssip5-ce-F_Mask.gbr": "b9bb557af5389504b94ba34ebacf5cea7753ed6a0d7eee5e7773bc5c2702f90b",
+  "fabrication/ce/gerbers/ssip5-ce-F_Silkscreen.gbr": "0cf6947590e58adb3cbdbc26646899e09bc79ee522f07b29744322f67f16e742",
+  "fabrication/ce/gerbers/ssip5-ce-NPTH.drl": "75e4d840725d20a60d4787d06527a5d747a53a5de131bf326d8ab273599a2477",
+  "fabrication/ce/gerbers/ssip5-ce-PTH.drl": "22c1d902e3d467fc87c6bc7a6bb3c321482f92a734b4394ad6610b80b8d7c8f3",
+  "fabrication/ce/gerbers/ssip5-ce-drill-report.txt": "9cf96b2e246ba66a5b528a0183c2f20a12e08c41dd777a9f806d0099474d96a6",
+  "fabrication/ce/gerbers/ssip5-ce-job.gbrjob": "12d431fcfb7d5cc5ab982725d9dcb3f030884c7fba7f94ec5ad59d3e1ea03c80"
+ },
+ "passed": true,
+ "scope": "Design checks only: nothing has been built or measured."
+}

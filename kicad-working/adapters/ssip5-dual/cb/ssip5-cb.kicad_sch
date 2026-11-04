@@ -1,0 +1,559 @@
+(kicad_sch
+	(version 20260306)
+	(generator "x0xb0x-build-adapter")
+	(generator_version "10.0")
+	(uuid "0c51a308-366f-5fd8-97b2-3fd4567a97e0")
+	(paper "A5")
+	(title_block (title "SSIP5 common-base adapter") (comment 1 "Replaces 2SC2291 at Q22. Mainboard unchanged."))
+	(lib_symbols
+(symbol "Transistor_BJT:Q_Dual_NPN_NPN_E1B1C2E2B2C1"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at 5.08 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NPN_NPN_E1B1C2E2B2C1"
+			(at 5.08 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN transistor, 6 pin package"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "BJT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Q_Dual_NPN_NPN_E1B1C2E2B2C1_0_1"
+			(polyline
+				(pts
+					(xy 0.635 1.905) (xy 0.635 -1.905)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 0.635) (xy 2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -0.635) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.27 0)
+				(radius 2.8194)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "Q_Dual_NPN_NPN_E1B1C2E2B2C1_1_1"
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "E1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Q_Dual_NPN_NPN_E1B1C2E2B2C1_2_1"
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Connector_Generic:Conn_01x05"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x05_1_1"
+			(rectangle
+				(start -1.27 6.35)
+				(end 1.27 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	)
+	(label "E1" (at 55.88 55.88 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27) (thickness 0.15))) (uuid "c03dafbb-4faa-5795-b59b-4e2c9142d638"))
+	(label "C1" (at 55.88 58.42 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27) (thickness 0.15))) (uuid "630fe8c4-af4c-51e4-9ba5-3f3da83ca2ef"))
+	(label "B" (at 55.88 60.96 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27) (thickness 0.15))) (uuid "9fafcc95-16b3-5745-b50b-532db60fd09f"))
+	(label "C2" (at 55.88 63.5 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27) (thickness 0.15))) (uuid "a40398f1-80c5-517b-a523-1db0d48214e1"))
+	(label "E2" (at 55.88 66.04 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27) (thickness 0.15))) (uuid "20022680-bd47-5027-80e1-a38ff5c60dc6"))
+	(label "E1" (at 104.14 55.88 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27) (thickness 0.15))) (uuid "07552c36-3f0c-5e85-bce0-87e0f610feb8"))
+	(label "B" (at 96.52 50.8 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27) (thickness 0.15))) (uuid "1c210c4f-6232-5f73-bae2-dacbadcd8017"))
+	(label "C1" (at 104.14 45.72 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27) (thickness 0.15))) (uuid "458df55b-66b7-5184-8109-f5247e4a573f"))
+	(label "C2" (at 104.14 66.04 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27) (thickness 0.15))) (uuid "0431157e-7897-5923-bd68-6e0cd8693dea"))
+	(label "E2" (at 104.14 76.2 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27) (thickness 0.15))) (uuid "7832e051-afcb-5e75-9e28-2066f8acba9f"))
+	(label "B" (at 96.52 71.12 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27) (thickness 0.15))) (uuid "c04dc1da-ec8c-5441-9798-f5f1a51d70ad"))
+	(symbol (lib_id "Connector_Generic:Conn_01x05") (at 60.96 60.96 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "d33486dc-cbd0-58c8-93c3-b4661063b28c")
+		(property "Reference" "J1" (at 63.5 54.96 0) (effects (font (size 1.27 1.27) (thickness 0.15))))
+		(property "Value" "SSIP5 row" (at 63.5 57.46 0) (effects (font (size 1.27 1.27) (thickness 0.15))))
+		(property "Footprint" "x0xb0x-adapter:SSIP5_LapRow" (at 60.96 60.96 0) (hide yes) (effects (font (size 1.27 1.27) (thickness 0.15))))
+		(property "Datasheet" "" (at 60.96 60.96 0) (hide yes) (effects (font (size 1.27 1.27) (thickness 0.15))))
+		(instances (project "ssip5-cb" (path "/0c51a308-366f-5fd8-97b2-3fd4567a97e0" (reference "J1") (unit 1)))))
+	(symbol (lib_id "Transistor_BJT:Q_Dual_NPN_NPN_E1B1C2E2B2C1") (at 101.6 50.8 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "2f9cf9c6-c9e3-5e4f-bf08-ab8625607c82")
+		(property "Reference" "Q1" (at 104.14 44.8 0) (effects (font (size 1.27 1.27) (thickness 0.15))))
+		(property "Value" "BCM847BS" (at 104.14 47.3 0) (effects (font (size 1.27 1.27) (thickness 0.15))))
+		(property "Footprint" "x0xb0x-adapter:SOT-363_Hand" (at 101.6 50.8 0) (hide yes) (effects (font (size 1.27 1.27) (thickness 0.15))))
+		(property "Datasheet" "" (at 101.6 50.8 0) (hide yes) (effects (font (size 1.27 1.27) (thickness 0.15))))
+		(instances (project "ssip5-cb" (path "/0c51a308-366f-5fd8-97b2-3fd4567a97e0" (reference "Q1") (unit 1)))))
+	(symbol (lib_id "Transistor_BJT:Q_Dual_NPN_NPN_E1B1C2E2B2C1") (at 101.6 71.12 0) (unit 2) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "c03a60d5-039a-5119-8dba-e403f4551072")
+		(property "Reference" "Q1" (at 104.14 65.12 0) (effects (font (size 1.27 1.27) (thickness 0.15))))
+		(property "Value" "BCM847BS" (at 104.14 67.62 0) (effects (font (size 1.27 1.27) (thickness 0.15))))
+		(property "Footprint" "x0xb0x-adapter:SOT-363_Hand" (at 101.6 71.12 0) (hide yes) (effects (font (size 1.27 1.27) (thickness 0.15))))
+		(property "Datasheet" "" (at 101.6 71.12 0) (hide yes) (effects (font (size 1.27 1.27) (thickness 0.15))))
+		(instances (project "ssip5-cb" (path "/0c51a308-366f-5fd8-97b2-3fd4567a97e0" (reference "Q1") (unit 2)))))
+	(text "Row pins seen on the mainboard: E1 C1 B C2 E2, pin 1 to 5. Rotating the adapter 180 degrees only swaps the two halves." (exclude_from_sim yes) (at 40 90 0) (effects (font (size 1.27 1.27) (thickness 0.15))) (uuid "10d1f4e7-abc3-5345-995f-dd888ba698a3"))
+	(sheet_instances (path "/" (page "1")))
+)

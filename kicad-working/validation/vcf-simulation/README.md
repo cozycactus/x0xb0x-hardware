@@ -186,6 +186,7 @@ C18 at .018 µF instead of .033 µF raises the peak 0.25 octave and adds 0.8 to 
   - For DMMT3904W I only confirmed a minimum of 100 at 10 mA ([Diodes](https://www.diodes.com/part/view/DMMT3904W)), which would risk much weaker resonance.
   - Measure candidates at about 0.26 mA, where Q21 actually runs. In the model hFE 300 costs about 20 % of Q against hFE 400, and hFE 150 about half. I don't know which rank Roland or the kits used, so hFE 400 is only my baseline.
 - **Matching within a pair:** the two halves of Q21 are worth matching for hFE. Q12 only needs its Vbe within about 10 mV, which a factory dual already meets by its datasheet. Q22 needs nothing. Q26 is in the VCO, so none of this applies to it.
+- **Replacement duals:** `substitutes.py` runs BCM847, BC847C and SSM2212 stand-ins through this model, at Q26 too. The results and the adapter board they led to are in [the adapter's README](../../adapters/ssip5-dual/README.md).
 - **Expected DC voltages (model, Cutoff 50 %):**
 
 | Node | Where | Volts |
@@ -290,6 +291,8 @@ python3 plots.py
 python3 fullchain.py tune
 python3 fullchain.py check
 python3 fullchain.py render
+python3 substitutes.py vcf
+python3 substitutes.py vco
 ```
 
 `python3 fullchain.py parts` rewrites `fullchain-parts.json` from the schematic. The three renders take under a minute together.

@@ -1,0 +1,311 @@
+{
+ "assumptions": {
+  "adapter_mm": [
+   11.4,
+   7.8,
+   1.6
+  ],
+  "standoff_mm": 2.0,
+  "wire_mm": 0.6,
+  "note": "Neighbour boxes from the placed illustrative models; sizes are nominal. Not a physical fit qualification."
+ },
+ "sites": {
+  "Q12": {
+   "row_axis_toward_pin1": [
+    1.0,
+    0.0
+   ],
+   "options": {
+    "+1": {
+     "smallest_gap_mm": 1.15,
+     "nearest": [
+      {
+       "ref": "C18",
+       "gap_mm": 1.15,
+       "to": "board",
+       "top_mm": 13.5
+      },
+      {
+       "ref": "Q11",
+       "gap_mm": 1.23,
+       "to": "wire5",
+       "top_mm": 7.49
+      },
+      {
+       "ref": "Q15",
+       "gap_mm": 1.45,
+       "to": "board",
+       "top_mm": 7.49
+      },
+      {
+       "ref": "R70",
+       "gap_mm": 2.09,
+       "to": "chip",
+       "top_mm": 9.49
+      }
+     ]
+    },
+    "-1": {
+     "smallest_gap_mm": 0.0,
+     "nearest": [
+      {
+       "ref": "Q11",
+       "gap_mm": 0.0,
+       "to": "board",
+       "top_mm": 7.49
+      },
+      {
+       "ref": "R70",
+       "gap_mm": 0.89,
+       "to": "board",
+       "top_mm": 9.49
+      },
+      {
+       "ref": "Q16",
+       "gap_mm": 2.3,
+       "to": "board",
+       "top_mm": 7.49
+      },
+      {
+       "ref": "R73",
+       "gap_mm": 2.31,
+       "to": "board",
+       "top_mm": 9.49
+      }
+     ]
+    }
+   },
+   "best_direction": "+1",
+   "board_body_leans_toward": [
+    "C18",
+    "Q15"
+   ],
+   "smallest_gap_mm": 1.15,
+   "tallest_neighbour_mm": 13.5,
+   "adapter_top_mm": 9.8
+  },
+  "Q21": {
+   "row_axis_toward_pin1": [
+    1.0,
+    0.0
+   ],
+   "options": {
+    "+1": {
+     "smallest_gap_mm": 0.57,
+     "nearest": [
+      {
+       "ref": "R113",
+       "gap_mm": 0.57,
+       "to": "board",
+       "top_mm": 9.49
+      },
+      {
+       "ref": "Q19",
+       "gap_mm": 1.04,
+       "to": "wire5",
+       "top_mm": 8.2
+      },
+      {
+       "ref": "R112",
+       "gap_mm": 1.47,
+       "to": "board",
+       "top_mm": 9.49
+      },
+      {
+       "ref": "R110",
+       "gap_mm": 1.5,
+       "to": "board",
+       "top_mm": 9.49
+      }
+     ]
+    },
+    "-1": {
+     "smallest_gap_mm": 0.0,
+     "nearest": [
+      {
+       "ref": "Q19",
+       "gap_mm": 0.0,
+       "to": "board",
+       "top_mm": 8.2
+      },
+      {
+       "ref": "R113",
+       "gap_mm": 0.69,
+       "to": "board",
+       "top_mm": 9.49
+      },
+      {
+       "ref": "R109",
+       "gap_mm": 1.09,
+       "to": "board",
+       "top_mm": 9.49
+      },
+      {
+       "ref": "Q20",
+       "gap_mm": 1.24,
+       "to": "board",
+       "top_mm": 7.49
+      }
+     ]
+    }
+   },
+   "best_direction": "+1",
+   "board_body_leans_toward": [
+    "R110",
+    "R111"
+   ],
+   "smallest_gap_mm": 0.57,
+   "tallest_neighbour_mm": 13.0,
+   "adapter_top_mm": 9.8
+  },
+  "Q22": {
+   "row_axis_toward_pin1": [
+    1.0,
+    0.0
+   ],
+   "options": {
+    "+1": {
+     "smallest_gap_mm": 0.75,
+     "nearest": [
+      {
+       "ref": "C24",
+       "gap_mm": 0.75,
+       "to": "board",
+       "top_mm": 10.49
+      },
+      {
+       "ref": "C26",
+       "gap_mm": 0.83,
+       "to": "chip",
+       "top_mm": 10.99
+      },
+      {
+       "ref": "Q23",
+       "gap_mm": 1.22,
+       "to": "board",
+       "top_mm": 8.2
+      },
+      {
+       "ref": "R115",
+       "gap_mm": 1.36,
+       "to": "board",
+       "top_mm": 9.49
+      }
+     ]
+    },
+    "-1": {
+     "smallest_gap_mm": 0.0,
+     "nearest": [
+      {
+       "ref": "C26",
+       "gap_mm": 0.0,
+       "to": "board",
+       "top_mm": 10.99
+      },
+      {
+       "ref": "R115",
+       "gap_mm": 1.36,
+       "to": "board",
+       "top_mm": 9.49
+      },
+      {
+       "ref": "C27",
+       "gap_mm": 1.72,
+       "to": "board",
+       "top_mm": 13.0
+      },
+      {
+       "ref": "C25",
+       "gap_mm": 1.9,
+       "to": "board",
+       "top_mm": 13.0
+      }
+     ]
+    }
+   },
+   "best_direction": "+1",
+   "board_body_leans_toward": [
+    "C24",
+    "Q23"
+   ],
+   "smallest_gap_mm": 0.75,
+   "tallest_neighbour_mm": 13.0,
+   "adapter_top_mm": 9.8
+  },
+  "Q26": {
+   "row_axis_toward_pin1": [
+    0.0,
+    1.0
+   ],
+   "options": {
+    "+1": {
+     "smallest_gap_mm": 0.81,
+     "nearest": [
+      {
+       "ref": "R103",
+       "gap_mm": 0.81,
+       "to": "board",
+       "top_mm": 9.49
+      },
+      {
+       "ref": "Q28",
+       "gap_mm": 1.03,
+       "to": "wire1",
+       "top_mm": 7.3
+      },
+      {
+       "ref": "R100A0",
+       "gap_mm": 1.04,
+       "to": "board",
+       "top_mm": 2.3
+      },
+      {
+       "ref": "R118",
+       "gap_mm": 1.42,
+       "to": "board",
+       "top_mm": 9.49
+      }
+     ]
+    },
+    "-1": {
+     "smallest_gap_mm": 0.0,
+     "nearest": [
+      {
+       "ref": "Q28",
+       "gap_mm": 0.0,
+       "to": "board",
+       "top_mm": 7.3
+      },
+      {
+       "ref": "R104",
+       "gap_mm": 0.58,
+       "to": "board",
+       "top_mm": 9.49
+      },
+      {
+       "ref": "R106",
+       "gap_mm": 0.77,
+       "to": "board",
+       "top_mm": 9.49
+      },
+      {
+       "ref": "R103",
+       "gap_mm": 1.21,
+       "to": "board",
+       "top_mm": 9.49
+      }
+     ]
+    }
+   },
+   "best_direction": "+1",
+   "board_body_leans_toward": [
+    "R100A0",
+    "R100B0"
+   ],
+   "smallest_gap_mm": 0.81,
+   "tallest_neighbour_mm": 9.49,
+   "adapter_top_mm": 9.8
+  }
+ },
+ "passed": true
+}
