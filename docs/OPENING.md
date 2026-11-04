@@ -6,10 +6,10 @@ The editable projects were verified with KiCad 10.0.7 and Blender 5.2.2 LTS on m
 
 1. Sign into the GitHub account that has access to this private repository. Download and extract the complete repository, or clone it using Git.
 2. For the main PCB, open `kicad-working/mainboard/mainboard.kicad_pro` in KiCad. For the I/O PCB, open `kicad-working/ioboard/ioboard.kicad_pro`. Each project includes its schematic, PCB, symbols, footprints and models; keep its folder contents together.
-3. To inspect the complete enclosure, open `kicad-working/visualization/blender-case-revision-27/x0xb0x-populated-with-case.blend` in Blender. The board geometry is embedded. The omitted board GLB exports are not needed to view it.
+3. To inspect the complete enclosure, open `kicad-working/visualization/blender-case-revision-28/x0xb0x-populated-with-case.blend` in Blender. The board geometry is embedded. The omitted board GLB exports are not needed to view it.
 4. Select frame 1 for the assembled case, frame 80 for the exploded assembly, frame 120 for control-side inspection, or frame 160 for the wiring study. Button caps are intentionally hidden in the two inspection views.
 
-All 40 LED lenses belong to PCB-mounted LED assemblies. All 23 button caps stay attached to the PCB switches when the case is exploded. The external spacer mold, cap sockets and switch travel remain unmodeled; alignment in the scene does not certify physical fit.
+The mainboard shows the four SOT-363 chips Q112, Q121, Q122 and Q126. The SIP pairs Q12, Q21, Q22 and Q26 are marked do-not-place in KiCad and left out, so their holes stand empty; revision 27 still shows them. All 40 LED lenses belong to PCB-mounted LED assemblies. All 23 button caps stay attached to the PCB switches when the case is exploded. The external spacer mold, cap sockets and switch travel remain unmodeled; alignment in the scene does not certify physical fit.
 
 ## Optional verification
 
@@ -26,7 +26,7 @@ All three commands print JSON with a `passed` result and return a nonzero exit s
 To inspect the saved scene with native Blender, run:
 
 ```sh
-blender --background kicad-working/visualization/blender-case-revision-27/x0xb0x-populated-with-case.blend \
+blender --background kicad-working/visualization/blender-case-revision-28/x0xb0x-populated-with-case.blend \
   --python-exit-code 1 --python scripts/verify_blender_scene.py
 ```
 
@@ -34,7 +34,7 @@ On the verified macOS installation, replace `blender` with `/Applications/Blende
 
 To check the rear connector passages, use the same command with `--python scripts/verify_rear_openings.py`. This additional checker casts rays through the evaluated assembled scene and distinguishes open passages from expected recessed contacts, the power pin and USB tongue. It detects the old revision-8 obstruction and the old DIN outer-center error, and checks the current geometry without saving the scene.
 
-To confirm that the scene embeds exactly the current KiCad 3D models, use the same command with `--python scripts/verify_kicad_blender_models.py`. It exports both PCBs with KiCad's `kicad-cli` into a temporary folder, using a private KiCad configuration, and compares every placed model's footprint frame and geometry with the scene's native mesh of the same designator. It also checks that both PCB files are unchanged. KiCad 10.0.7 is expected at `/Applications/KiCad/KiCad.app`; set `KICAD_CLI` to point elsewhere. Revision27 matches all491 models exactly. The check compares geometry, not colours; revision 18 differs at exactly S3 and S4, the Grayhill switches rebuilt in KiCad revision 16.
+To confirm that the scene embeds exactly the current KiCad 3D models, use the same command with `--python scripts/verify_kicad_blender_models.py`. It exports both PCBs with KiCad's `kicad-cli` into a temporary folder, using a private KiCad configuration, and compares every placed model's footprint frame and geometry with the scene's native mesh of the same designator. It also checks that both PCB files are unchanged. KiCad 10.0.7 is expected at `/Applications/KiCad/KiCad.app`; set `KICAD_CLI` to point elsewhere. Footprints marked do-not-place are left out of the export. Revision 28 matches all 491 fitted models exactly. The check compares geometry, not colours; revision 18 differs at exactly S3 and S4, the Grayhill switches rebuilt in KiCad revision 16.
 
 To check every placed model's leads against the real drills, run `blender --background --factory-startup --python-exit-code 1 --python scripts/verify_drill_fit.py` (no scene is needed). It exports both PCBs with `kicad-cli` into a temporary folder, reads the drilled pads from the PCB files, and requires a lead in every drilled hole. Any interference or board crossing beyond the sourced exceptions in [drill-fit-allowances.json](drill-fit-allowances.json) fails; allowances no longer needed are listed. Set `KICAD_CLI` as above.
 

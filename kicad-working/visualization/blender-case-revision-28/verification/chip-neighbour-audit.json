@@ -1,0 +1,219 @@
+{
+  "passed": true,
+  "frame": 1,
+  "declared": [],
+  "fit_check_touching_the_chip_box": [
+    "MAINBOARD/Q126 | MAINBOARD/R100A0"
+  ],
+  "q126_r100a0_mesh_gap_mm": 0.07,
+  "q126_r100a0_triangle_pairs": 0,
+  "fit_check_difference": "fit_check.py measures to the box around the chip, leads included. R100A0 enters that box by 0.09 mm, just above the chip top, where the chip body has no material. Mesh to mesh the two models do not overlap.",
+  "chip_contacts": [],
+  "removed_with_the_sip_pairs": [],
+  "smallest_gap_per_chip": {
+    "MAINBOARD/Q112": {
+      "other": "MAINBOARD/C18",
+      "gap_mm": 0.427
+    },
+    "MAINBOARD/Q121": {
+      "other": "MAINBOARD/R110",
+      "gap_mm": 0.722
+    },
+    "MAINBOARD/Q122": {
+      "other": "MAINBOARD/Q23",
+      "gap_mm": 0.785
+    },
+    "MAINBOARD/Q126": {
+      "other": "MAINBOARD/R100A0",
+      "gap_mm": 0.07
+    }
+  },
+  "neighbours": [
+    {
+      "target": "MAINBOARD/Q112",
+      "other": "MAINBOARD/C19",
+      "mesh": "MAINBOARD/C19/mesh",
+      "gap_mm": 4.672,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q112",
+      "other": "MAINBOARD/C18",
+      "mesh": "MAINBOARD/C18/mesh",
+      "gap_mm": 0.427,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q112",
+      "other": "MAINBOARD/Q15",
+      "mesh": "MAINBOARD/Q15/mesh.003",
+      "gap_mm": 2.321,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q112",
+      "other": "mainpanel \u2014 exact DXF profile",
+      "mesh": "mainpanel \u2014 exact DXF profile",
+      "gap_mm": 13.501,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q112",
+      "other": "PacTec PT-10 upper cover",
+      "mesh": "PacTec PT-10 upper cover",
+      "gap_mm": 60.813,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q121",
+      "other": "MAINBOARD/C27",
+      "mesh": "MAINBOARD/C27/mesh",
+      "gap_mm": 2.876,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q121",
+      "other": "MAINBOARD/R111",
+      "mesh": "MAINBOARD/R111/mesh",
+      "gap_mm": 1.139,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q121",
+      "other": "MAINBOARD/R110",
+      "mesh": "MAINBOARD/R110/mesh",
+      "gap_mm": 0.722,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q121",
+      "other": "mainpanel \u2014 exact DXF profile",
+      "mesh": "mainpanel \u2014 exact DXF profile",
+      "gap_mm": 13.501,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q121",
+      "other": "PacTec PT-10 upper cover",
+      "mesh": "PacTec PT-10 upper cover",
+      "gap_mm": 53.991,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q122",
+      "other": "MAINBOARD/Q23",
+      "mesh": "MAINBOARD/Q23/mesh.001",
+      "gap_mm": 1.914,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q122",
+      "other": "MAINBOARD/Q23",
+      "mesh": "MAINBOARD/Q23/mesh.002",
+      "gap_mm": 0.785,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q122",
+      "other": "MAINBOARD/Q23",
+      "mesh": "MAINBOARD/Q23/mesh.003",
+      "gap_mm": 1.393,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q122",
+      "other": "MAINBOARD/Q23",
+      "mesh": "MAINBOARD/Q23/mesh.004",
+      "gap_mm": 2.1,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q122",
+      "other": "mainpanel \u2014 exact DXF profile",
+      "mesh": "mainpanel \u2014 exact DXF profile",
+      "gap_mm": 13.501,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q122",
+      "other": "PacTec PT-10 upper cover",
+      "mesh": "PacTec PT-10 upper cover",
+      "gap_mm": 59.1,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q126",
+      "other": "MAINBOARD/R100A0",
+      "mesh": "MAINBOARD/R100A0/mesh",
+      "gap_mm": 0.07,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q126",
+      "other": "MAINBOARD/R100A0",
+      "mesh": "MAINBOARD/R100A0/mesh.001",
+      "gap_mm": 0.07,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q126",
+      "other": "MAINBOARD/R100A0",
+      "mesh": "MAINBOARD/R100A0/mesh.002",
+      "gap_mm": 0.073,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q126",
+      "other": "MAINBOARD/R100A0",
+      "mesh": "MAINBOARD/R100A0/mesh.003",
+      "gap_mm": 0.411,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q126",
+      "other": "MAINBOARD/R100A0",
+      "mesh": "MAINBOARD/R100A0/mesh.004",
+      "gap_mm": 0.784,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q126",
+      "other": "MAINBOARD/R100A0",
+      "mesh": "MAINBOARD/R100A0/mesh.005",
+      "gap_mm": 0.07,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q126",
+      "other": "MAINBOARD/R100A0",
+      "mesh": "MAINBOARD/R100A0/mesh.006",
+      "gap_mm": 0.993,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q126",
+      "other": "mainpanel \u2014 exact DXF profile",
+      "mesh": "mainpanel \u2014 exact DXF profile",
+      "gap_mm": 13.501,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q126",
+      "other": "PacTec PT-10 upper cover",
+      "mesh": "PacTec PT-10 upper cover",
+      "gap_mm": 31.781,
+      "triangle_pairs": 0
+    }
+  ],
+  "headroom_above_chip_mm": {
+    "MAINBOARD/Q112": 0.46,
+    "MAINBOARD/Q121": 44.82,
+    "MAINBOARD/Q122": 2.1,
+    "MAINBOARD/Q126": 51.14
+  },
+  "baseline_scene_sha256": "529ac312c446f426bcc46b566702e7043f038ee7be0599d7971508ec693d8e69",
+  "current_scene_sha256": "654bc65b846f42b2b9003bf42155ac853ed69aa58484dc7b0496a2bab17dfb1c",
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "method": "Rendered chip meshes versus other component, panel and enclosure meshes within a 2 mm box at frame 1; own geometry and PCB layers excluded. Contact = triangle overlap, or a nearest-surface gap under 0.005 mm. Headroom = free distance along the board normal from the 60 highest vertices to any other visible mesh."
+}

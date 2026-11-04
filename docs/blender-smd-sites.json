@@ -1,0 +1,322 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-11-04",
+  "Blender_revision": 28,
+  "KiCad_revision": 29,
+  "scene": "kicad-working/visualization/blender-case-revision-28/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "654bc65b846f42b2b9003bf42155ac853ed69aa58484dc7b0496a2bab17dfb1c",
+  "scene_bytes": 47945900,
+  "baseline_scene_sha256": "529ac312c446f426bcc46b566702e7043f038ee7be0599d7971508ec693d8e69",
+  "correction": "The mainboard shows the board as built with its SMD sites: the four SOT-363 chips stand at their KiCad footprints, the do-not-place SIP pairs they replace are out of the scene, and the eight mainboard layer meshes are a fresh KiCad 29 export.",
+  "do_not_place": {
+    "kicad_cli": "kicad-cli pcb export glb keeps do-not-place footprints unless given --no-dnp: 413 mainboard models without it, 409 with it, the chips in and the SIP pairs out.",
+    "decision": "The owner chose to take the pairs out of the scene, which holds fitted references. Fit a chip or its pair, never both, as IC15A0 and IC15B0.",
+    "verifier_change": "scripts/verify_kicad_blender_models.py now exports with --no-dnp. verify_blender_scene.py still expects 491 = 409 + 82, unchanged.",
+    "unaffected": "verify_drill_fit.py and verify_terminal_joins.py read KiCad, not the scene, and still export the pairs, so the pairs' leads stay checked against their holes. verify_kicad_dependencies.py still resolves all 495 model files.",
+    "fallback": "The holes and pads stay, and an original pair or an adapter can still go in. Blender 27 still shows the pairs."
+  },
+  "chips": {
+    "Q112": {
+      "part": "BCM847BS",
+      "replaces": "Q12",
+      "footprint": {
+        "x_mm": 85.24,
+        "y_mm": -114.7,
+        "rotation_deg": 0.0
+      }
+    },
+    "Q121": {
+      "part": "BC847CDW1T1G",
+      "replaces": "Q21",
+      "footprint": {
+        "x_mm": 61.6,
+        "y_mm": -121.7,
+        "rotation_deg": 0.0
+      }
+    },
+    "Q122": {
+      "part": "BCM847BS",
+      "replaces": "Q22",
+      "footprint": {
+        "x_mm": 62.2,
+        "y_mm": -104.9,
+        "rotation_deg": 0.0
+      }
+    },
+    "Q126": {
+      "part": "BCM847BS",
+      "replaces": "Q26",
+      "footprint": {
+        "x_mm": 156.55,
+        "y_mm": -144.9,
+        "rotation_deg": 90.0
+      }
+    }
+  },
+  "chip_positions": {
+    "Q112": {
+      "kicad_mm": [
+        85.24,
+        -114.7,
+        0.0
+      ],
+      "scene_mm": [
+        85.23999899625778,
+        114.69999700784683,
+        1.5950000379234552
+      ],
+      "offset_mm": 2.9921531705667803e-06,
+      "rotation_error": 0.0
+    },
+    "Q121": {
+      "kicad_mm": [
+        61.6,
+        -121.7,
+        0.0
+      ],
+      "scene_mm": [
+        61.59999966621399,
+        121.6999962925911,
+        1.5950000379234552
+      ],
+      "offset_mm": 3.707408907871468e-06,
+      "rotation_error": 0.0
+    },
+    "Q122": {
+      "kicad_mm": [
+        62.2,
+        -104.9,
+        0.0
+      ],
+      "scene_mm": [
+        62.199998646974564,
+        104.90000247955322,
+        1.5950000379234552
+      ],
+      "offset_mm": 2.479553216971908e-06,
+      "rotation_error": 0.0
+    },
+    "Q126": {
+      "kicad_mm": [
+        156.55,
+        -144.9,
+        90.0
+      ],
+      "scene_mm": [
+        156.55000507831573,
+        144.89999413490295,
+        1.5950000379234552
+      ],
+      "offset_mm": 5.865097051582779e-06,
+      "rotation_error": 1.3435885654628297e-07
+    }
+  },
+  "contacts": {
+    "chip_contacts": [],
+    "removed_with_the_sip_pairs": [],
+    "smallest_gap_per_chip": {
+      "MAINBOARD/Q112": {
+        "other": "MAINBOARD/C18",
+        "gap_mm": 0.427
+      },
+      "MAINBOARD/Q121": {
+        "other": "MAINBOARD/R110",
+        "gap_mm": 0.722
+      },
+      "MAINBOARD/Q122": {
+        "other": "MAINBOARD/Q23",
+        "gap_mm": 0.785
+      },
+      "MAINBOARD/Q126": {
+        "other": "MAINBOARD/R100A0",
+        "gap_mm": 0.07
+      }
+    },
+    "headroom_above_chip_mm": {
+      "MAINBOARD/Q112": 0.46,
+      "MAINBOARD/Q121": 44.82,
+      "MAINBOARD/Q122": 2.1,
+      "MAINBOARD/Q126": 51.14
+    },
+    "q126_r100a0_mesh_gap_mm": 0.07,
+    "fit_check_touching_the_chip_box": [
+      "Q126-R100A0"
+    ],
+    "fit_check_difference": "fit_check.py measures to the box around the chip, leads included. R100A0 enters that box by 0.09 mm, just above the chip top, where the chip body has no material. Mesh to mesh the two models do not overlap.",
+    "fit_check": "kicad-working/smd-sites/fit-check.json"
+  },
+  "blender": {
+    "added_objects": 8,
+    "removed_objects": 8,
+    "stored_objects": 1721,
+    "replaced_layer_meshes": [
+      "MAINBOARD/PCB layers/mesh",
+      "MAINBOARD/PCB layers/mesh.001",
+      "MAINBOARD/PCB layers/mesh.002",
+      "MAINBOARD/PCB layers/mesh.003",
+      "MAINBOARD/PCB layers/mesh.004",
+      "MAINBOARD/PCB layers/mesh.005",
+      "MAINBOARD/PCB layers/mesh.006",
+      "MAINBOARD/PCB layers/mesh.007"
+    ],
+    "layer_vertex_counts": {
+      "MAINBOARD/PCB layers/mesh": {
+        "old": 341251,
+        "new": 346777
+      },
+      "MAINBOARD/PCB layers/mesh.001": {
+        "old": 721608,
+        "new": 725064
+      },
+      "MAINBOARD/PCB layers/mesh.002": {
+        "old": 1176,
+        "new": 2548
+      },
+      "MAINBOARD/PCB layers/mesh.003": {
+        "old": 98440,
+        "new": 103783
+      },
+      "MAINBOARD/PCB layers/mesh.004": {
+        "old": 37003,
+        "new": 37134
+      },
+      "MAINBOARD/PCB layers/mesh.005": {
+        "old": 30176,
+        "new": 30989
+      },
+      "MAINBOARD/PCB layers/mesh.006": {
+        "old": 30176,
+        "new": 30221
+      },
+      "MAINBOARD/PCB layers/mesh.007": {
+        "old": 118604,
+        "new": 118604
+      }
+    },
+    "added_materials": [
+      "SOT-363 body \u2014 revision 28 (native KiCad colour)",
+      "SOT-363 leads \u2014 revision 28 (native KiCad colour)",
+      "SOT-363 pin-1 mark \u2014 revision 28 (native KiCad colour)"
+    ],
+    "retired_materials": [
+      "mat_27.002",
+      "mat_28.002"
+    ]
+  },
+  "kicad": {
+    "pcb_sha256": "8abfebab2acffe21d690fa84c66ef286e174812e223d24f5b5b6375a6e471d3d",
+    "pcb_changed": false,
+    "kicad_version": "10.0.7",
+    "exports": {
+      "components": {
+        "options": [
+          "--force",
+          "--no-board-body",
+          "--user-origin",
+          "0x0mm",
+          "--no-dnp"
+        ],
+        "glb_sha256": "3f73ca9927014b3818e57d4406040d9b1c9f08b4cade4d5b373f3f069fdc7b76",
+        "glb_bytes": 12159564
+      },
+      "layers": {
+        "options": [
+          "--force",
+          "--include-tracks",
+          "--include-pads",
+          "--include-zones",
+          "--include-inner-copper",
+          "--include-silkscreen",
+          "--include-soldermask",
+          "--no-components",
+          "--user-origin",
+          "0x0mm"
+        ],
+        "glb_sha256": "463e1bd9836fa4ec1b30a5fce01df298008cf57e27ca295e22f130bd203636f5",
+        "glb_bytes": 60514204
+      }
+    }
+  },
+  "verification": {
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-28/verification/final-saved-scene-audit.json",
+      "sha256": "2a5239098ee9c0686135db8ab53f47a8ef311e00ccb91fd093f8144de25449a2",
+      "passed": true,
+      "check_count": 16
+    },
+    "kicad_blender_models": {
+      "report": "kicad-working/visualization/blender-case-revision-28/verification/kicad-blender-models-audit.json",
+      "sha256": "59df327886a0333b74a40c9f3242eeb97e7f38046f21ab5b921cc227464029e2",
+      "passed": true,
+      "check_count": 7
+    },
+    "board_layers": {
+      "report": "kicad-working/visualization/blender-case-revision-28/verification/board-layer-audit.json",
+      "sha256": "650c1072d04723c348ead7597cf8c548df95b5c68e89a072d3c3ea6fa9bdedcd",
+      "passed": true,
+      "check_count": 5
+    },
+    "drill_fit": {
+      "report": "kicad-working/visualization/blender-case-revision-28/verification/drill-fit-audit.json",
+      "sha256": "41fd162c8b630599981cb82b7a707220892565557f2c69c86178163b2f0d8e28",
+      "passed": true,
+      "check_count": 6
+    },
+    "terminal_joins": {
+      "report": "kicad-working/visualization/blender-case-revision-28/verification/terminal-join-audit.json",
+      "sha256": "02180f4c5cf8266517d280953f104a2b28808a5677d9f1baa160302d29121bce",
+      "passed": true,
+      "check_count": 4
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-28/verification/rear-openings-audit.json",
+      "sha256": "f27ba6a676fe6642c6af539f981e6d42bfc069fc8a39cd76cdeb32438d56a68f",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-28/verification/portable-scene-audit.json",
+      "sha256": "ba64834c23aeb0c3e27d6404959cc488f840c840814b7d0954beae907aa4fb66",
+      "passed": true,
+      "check_count": 106
+    },
+    "chip_neighbours": {
+      "report": "kicad-working/visualization/blender-case-revision-28/verification/chip-neighbour-audit.json",
+      "sha256": "136184e68c88817dc6f947ba9e267edf33d7c41606fb157b44eda30040896429",
+      "passed": true
+    },
+    "detail_renders": {
+      "report": "kicad-working/visualization/blender-case-revision-28/verification/chip-detail-render.json",
+      "sha256": "e18d217f4cd8ab3bd36487d4eabe2c37a2c0f066f4f7d3827f7e08f30b83b3dd",
+      "passed": true
+    },
+    "render_readonly": {
+      "report": "kicad-working/visualization/blender-case-revision-28/verification/render-readonly-verification.json",
+      "sha256": "6e9bc445097588ba9ae73a452e98e205aff55192c3d40d0a65dcd4bb88d63108",
+      "passed": true
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-28/verification/final-render-review.json",
+      "sha256": "4252974dc636734ce12a0281a2f8d152ae33de671307a8bac9eb1b27c98bc152",
+      "passed": true
+    }
+  },
+  "unchanged": [
+    "Original Eagle files",
+    "Both KiCad projects, boards and libraries",
+    "The 487 other model references",
+    "I/O board layers, all poses, case, LEDs, spacers, caps, hardware, wiring study, previous materials, cameras and animation"
+  ],
+  "limitations": [
+    "The chip model is KiCad's stock SOT-363_SC-70-6: nominal sizes, no part marking, no solder, not CAD of the part to be bought.",
+    "Layer meshes keep the scene's own materials, so pads stay grey although the export colours them gold.",
+    "The I/O board layers were not refreshed. A fresh export has the same copper, pads, vias and main board body, but differs in both silkscreens and both masks and no longer has the detached datum strip.",
+    "Nothing has been built or measured. These checks do not qualify physical fit or circuit operation."
+  ],
+  "physical_fit_qualified": false,
+  "validation_summary": {
+    "report": "kicad-working/visualization/blender-case-revision-28/verification/independent-validation-summary.json",
+    "sha256": "d43627283be6d99c44741142dc5f6061fb34519c9314d0a4ae241e051bd16992"
+  }
+}

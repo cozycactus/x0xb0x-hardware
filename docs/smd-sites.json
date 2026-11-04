@@ -154,10 +154,10 @@
   "note": "Read in the KiCad 10.0.7 editor and not applied. The chips get only the sheet name, sheet file and unit lines that all 421 footprints get."
  },
  "limits": [
-  "Blender revision 27 has no chips",
+  "Blender revision 28 has the chips and leaves the do-not-place SIP pairs out; see docs/blender-smd-sites.json",
   "the analog model has no copper in it",
   "original silkscreen runs under Q121 and Q122 pads",
-  "the model of thermistor R100A0 touches Q126 at the chip's top corner",
+  "the model of thermistor R100A0 enters the box around Q126 at the chip's top corner, 0.07 mm from the chip's mesh",
   "nothing has been built or measured"
  ],
  "routing": {

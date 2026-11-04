@@ -1,6 +1,6 @@
 # x0xb0x KiCad working revision 29
 
-Revision29 puts four SOT-363 chips on the mainboard, Q112, Q121, Q122 and Q126, next to the rare SIP pairs Q12, Q21, Q22 and Q26, which are now marked do-not-place. The holes stay. Every original pad, track, via and drill still matches the Eagle board. Nothing has been built or measured, and the Blender scene doesn't have the chips yet. See `smd-sites/README.md`.
+Revision29 puts four SOT-363 chips on the mainboard, Q112, Q121, Q122 and Q126, next to the rare SIP pairs Q12, Q21, Q22 and Q26, which are now marked do-not-place. The holes stay. Every original pad, track, via and drill still matches the Eagle board. Nothing has been built or measured. Blender revision 28 has the chips and leaves those pairs out. See `smd-sites/README.md`.
 
 Revision28 redraws both schematics by hand as sets of A3 sheets, one per block: nine for the mainboard and three for the I/O board. Every pin is on the same net as on the board copper and in the original Eagle schematic, with the same names. The board files change only in the `path` lines that link footprints to symbols; copper, nets, placement, models and Gerbers are unchanged. See `schematic-redraw/README.md`.
 
@@ -15,7 +15,7 @@ Revision24 prints the part markings of the17 ICs, transcribed from the kit photo
 - Schematic PDFs: `schematic-redraw/mainboard-schematic.pdf`, `schematic-redraw/ioboard-schematic.pdf`
 - Mainboard: `mainboard/mainboard.kicad_pro`
 - I/O: `ioboard/ioboard.kicad_pro`
-- Current complete assembly: `visualization/blender-case-revision-27/x0xb0x-populated-with-case.blend`
+- Current complete assembly: `visualization/blender-case-revision-28/x0xb0x-populated-with-case.blend`
 - Current model plan: `validation/models-review-24/combined-model-plan.json`
 - SIP9 pads and name labels: `validation/models-review-26/`
 - Fabrication packages (order-ready): `fabrication/revision-29/`
@@ -88,3 +88,5 @@ Blender revision25 replaces only the212 resistor part meshes (outlines unchanged
 Blender revision26 replaces only the IC3 and IC2 part meshes and adds two socket materials. Socket sources and checks are in `validation/models-review-23/`; saved-scene preservation and the neighbour screen are in `visualization/blender-case-revision-26/verification/`.
 
 Blender revision27 replaces only the17 IC part meshes and adds one ink material. Marking sources and checks are in `validation/models-review-24/`; saved-scene preservation is in `visualization/blender-case-revision-27/verification/`.
+
+Blender revision28 adds the four KiCad29 chips, removes the do-not-place SIP pairs Q12, Q21, Q22 and Q26, replaces the eight mainboard layer meshes with a fresh export, and adds three chip materials. All other objects, the I/O board layers and every pose are preserved. Saved-scene preservation, the layer audit and the neighbour screen are in `visualization/blender-case-revision-28/verification/`.

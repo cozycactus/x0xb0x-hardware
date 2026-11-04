@@ -1,0 +1,263 @@
+{
+  "passed": true,
+  "check_count": 16,
+  "checks": [
+    {
+      "check": "Both frozen files match recorded hashes",
+      "passed": true
+    },
+    {
+      "check": "Exactly the 8 chip objects are added and the 8 SIP pair objects removed; 1721 objects stored",
+      "passed": true
+    },
+    {
+      "check": "The mainboard source collection lists exactly those changes",
+      "passed": true
+    },
+    {
+      "check": "Only declared objects, the layer meshes, materials and metadata change",
+      "passed": true,
+      "unexpected": []
+    },
+    {
+      "check": "All 4 chips stand at their KiCad positions and rotations",
+      "passed": true,
+      "positions": {
+        "Q112": {
+          "kicad_mm": [
+            85.24,
+            -114.7,
+            0.0
+          ],
+          "scene_mm": [
+            85.23999899625778,
+            114.69999700784683,
+            1.5950000379234552
+          ],
+          "offset_mm": 2.9921531705667803e-06,
+          "rotation_error": 0.0
+        },
+        "Q121": {
+          "kicad_mm": [
+            61.6,
+            -121.7,
+            0.0
+          ],
+          "scene_mm": [
+            61.59999966621399,
+            121.6999962925911,
+            1.5950000379234552
+          ],
+          "offset_mm": 3.707408907871468e-06,
+          "rotation_error": 0.0
+        },
+        "Q122": {
+          "kicad_mm": [
+            62.2,
+            -104.9,
+            0.0
+          ],
+          "scene_mm": [
+            62.199998646974564,
+            104.90000247955322,
+            1.5950000379234552
+          ],
+          "offset_mm": 2.479553216971908e-06,
+          "rotation_error": 0.0
+        },
+        "Q126": {
+          "kicad_mm": [
+            156.55,
+            -144.9,
+            90.0
+          ],
+          "scene_mm": [
+            156.55000507831573,
+            144.89999413490295,
+            1.5950000379234552
+          ],
+          "offset_mm": 5.865097051582779e-06,
+          "rotation_error": 1.3435885654628297e-07
+        }
+      }
+    },
+    {
+      "check": "All 4 chip meshes and all 4 removed pairs match the recorded native geometry",
+      "passed": true
+    },
+    {
+      "check": "All 8 mainboard layer meshes match the recorded old and new geometry and keep their scene material",
+      "passed": true
+    },
+    {
+      "check": "Every I/O board layer mesh is unchanged",
+      "passed": true,
+      "count": 16
+    },
+    {
+      "check": "Every previous material is retained exactly, except those used only by the removed pairs",
+      "passed": true,
+      "retired": [
+        "mat_27.002",
+        "mat_28.002"
+      ],
+      "retired_users": {
+        "mat_27.002": [
+          "MAINBOARD/Q22/mesh"
+        ],
+        "mat_28.002": [
+          "MAINBOARD/Q22/mesh"
+        ]
+      }
+    },
+    {
+      "check": "Exactly 3 materials are added, used only by the chip meshes",
+      "passed": true
+    },
+    {
+      "check": "491 references (409 + 82) with the chips and without the pairs; 40 LEDs, 40 spacers and 23 caps retained",
+      "passed": true
+    },
+    {
+      "check": "Every other displayed instance pose and legend glyph retained in four frames",
+      "passed": true
+    },
+    {
+      "check": "The chips follow the mainboard, shown exactly when an unchanged neighbour is, in all four frames",
+      "passed": true,
+      "follow": {
+        "1/Q112": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 5.567779640114345e-09
+        },
+        "1/Q121": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 6.086063340793313e-09
+        },
+        "1/Q122": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 3.4566273593439334e-09
+        },
+        "1/Q126": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 5.02308772354354e-09
+        },
+        "80/Q112": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 4.827165292486946e-09
+        },
+        "80/Q121": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 5.268375763423094e-09
+        },
+        "80/Q122": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 5.823620197187296e-09
+        },
+        "80/Q126": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 1.1659515075645999e-08
+        },
+        "120/Q112": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 7.986349886968114e-09
+        },
+        "120/Q121": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 8.166939041709398e-09
+        },
+        "120/Q122": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 5.137688996459389e-09
+        },
+        "120/Q126": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 9.14424205800124e-09
+        },
+        "160/Q112": {
+          "instances": 0,
+          "neighbour_instances": 0,
+          "error": 0.0
+        },
+        "160/Q121": {
+          "instances": 0,
+          "neighbour_instances": 0,
+          "error": 0.0
+        },
+        "160/Q122": {
+          "instances": 0,
+          "neighbour_instances": 0,
+          "error": 0.0
+        },
+        "160/Q126": {
+          "instances": 0,
+          "neighbour_instances": 0,
+          "error": 0.0
+        }
+      }
+    },
+    {
+      "check": "Only one current opening guide added",
+      "passed": true
+    },
+    {
+      "check": "All rear passages remain clear",
+      "passed": true
+    },
+    {
+      "check": "Frozen scene files and the PCB remain byte-identical after audit",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "stable_scene_sha256": "654bc65b846f42b2b9003bf42155ac853ed69aa58484dc7b0496a2bab17dfb1c",
+  "baseline_sha256": "529ac312c446f426bcc46b566702e7043f038ee7be0599d7971508ec693d8e69",
+  "frames": 4,
+  "native_reference_count": 491,
+  "stored_object_count": 1721,
+  "added_references": [
+    "MAINBOARD/Q112",
+    "MAINBOARD/Q121",
+    "MAINBOARD/Q122",
+    "MAINBOARD/Q126"
+  ],
+  "removed_do_not_place_references": [
+    "MAINBOARD/Q12",
+    "MAINBOARD/Q21",
+    "MAINBOARD/Q22",
+    "MAINBOARD/Q26"
+  ],
+  "changed_layer_meshes": [
+    "MAINBOARD/PCB layers/mesh",
+    "MAINBOARD/PCB layers/mesh.001",
+    "MAINBOARD/PCB layers/mesh.002",
+    "MAINBOARD/PCB layers/mesh.003",
+    "MAINBOARD/PCB layers/mesh.004",
+    "MAINBOARD/PCB layers/mesh.005",
+    "MAINBOARD/PCB layers/mesh.006",
+    "MAINBOARD/PCB layers/mesh.007"
+  ],
+  "added_materials": [
+    "SOT-363 body \u2014 revision 28 (native KiCad colour)",
+    "SOT-363 leads \u2014 revision 28 (native KiCad colour)",
+    "SOT-363 pin-1 mark \u2014 revision 28 (native KiCad colour)"
+  ],
+  "retired_materials": [
+    "mat_27.002",
+    "mat_28.002"
+  ],
+  "read_only": true,
+  "physical_fit_qualified": false
+}

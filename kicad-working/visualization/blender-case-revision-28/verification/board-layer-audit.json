@@ -1,0 +1,393 @@
+{
+  "passed": true,
+  "check_count": 5,
+  "checks": [
+    {
+      "check": "All 24 chip lands have pad geometry in the saved mesh",
+      "passed": true,
+      "lands": {
+        "Q121.1": 144,
+        "Q121.2": 144,
+        "Q121.3": 144,
+        "Q121.4": 144,
+        "Q121.5": 144,
+        "Q121.6": 144,
+        "Q122.1": 144,
+        "Q122.2": 144,
+        "Q122.3": 160,
+        "Q122.4": 144,
+        "Q122.5": 144,
+        "Q122.6": 144,
+        "Q126.1": 144,
+        "Q126.2": 144,
+        "Q126.3": 152,
+        "Q126.4": 144,
+        "Q126.5": 144,
+        "Q126.6": 144,
+        "Q112.1": 144,
+        "Q112.2": 144,
+        "Q112.3": 144,
+        "Q112.4": 144,
+        "Q112.5": 144,
+        "Q112.6": 144
+      }
+    },
+    {
+      "check": "All 20 holes of the do-not-place SIP pairs keep their pads",
+      "passed": true,
+      "pads": {
+        "Q21.1": 588,
+        "Q21.2": 588,
+        "Q21.3": 588,
+        "Q21.4": 588,
+        "Q21.5": 588,
+        "Q12.1": 588,
+        "Q12.2": 588,
+        "Q12.3": 588,
+        "Q12.4": 588,
+        "Q12.5": 588,
+        "Q26.1": 588,
+        "Q26.2": 588,
+        "Q26.3": 588,
+        "Q26.4": 588,
+        "Q26.5": 588,
+        "Q22.1": 588,
+        "Q22.2": 588,
+        "Q22.3": 588,
+        "Q22.4": 588,
+        "Q22.5": 588
+      }
+    },
+    {
+      "check": "A via stands at every via position in the PCB file",
+      "passed": true,
+      "vias": 13,
+      "positions": {
+        "155.300,146.000": 196,
+        "83.058,3.810": 196,
+        "59.436,3.810": 196,
+        "105.156,3.810": 196,
+        "75.692,74.422": 196,
+        "73.076,72.822": 196,
+        "61.600,120.200": 196,
+        "59.500,104.600": 196,
+        "62.500,122.900": 196,
+        "199.898,175.895": 196,
+        "157.100,142.600": 196,
+        "84.800,113.500": 196,
+        "86.300,115.900": 196
+      }
+    },
+    {
+      "check": "All 8 saved mainboard layer meshes match a fresh KiCad export",
+      "passed": true,
+      "max_differences": {
+        "bounds_mm": 0.0,
+        "area_relative": 0.0
+      },
+      "fresh_glb_sha256": "1c7a4ffbcb99b597e2b8a4e7392eca2208fb4a5c40755d2dc8d3e54eefc44b5e",
+      "recorded_glb_sha256": "463e1bd9836fa4ec1b30a5fce01df298008cf57e27ca295e22f130bd203636f5"
+    },
+    {
+      "check": "The audit left the scene and the PCB unchanged",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "layers": {
+    "MAINBOARD/PCB layers/mesh": {
+      "kicad_mesh": "mainboard_copper",
+      "saved": {
+        "vertices": 346777,
+        "triangles": 308743,
+        "area_mm2": 85007.64578258285,
+        "lo": [
+          0.5005000275559723,
+          0.5005000275559723,
+          -0.035000000934815034
+        ],
+        "hi": [
+          236.98949813842773,
+          179.83950674533844,
+          1.5450000064447522
+        ]
+      },
+      "fresh": {
+        "vertices": 346777,
+        "triangles": 308743,
+        "area_mm2": 85007.64578258285,
+        "lo": [
+          0.5005000275559723,
+          0.5005000275559723,
+          -0.035000000934815034
+        ],
+        "hi": [
+          236.98949813842773,
+          179.83950674533844,
+          1.5450000064447522
+        ]
+      },
+      "bounds_max_diff_mm": 0.0,
+      "area_relative_diff": 0.0,
+      "identical": true
+    },
+    "MAINBOARD/PCB layers/mesh.001": {
+      "kicad_mesh": "mainboard_pad",
+      "saved": {
+        "vertices": 725064,
+        "triangles": 705696,
+        "area_mm2": 23587.19224138564,
+        "lo": [
+          0.8381999796256423,
+          2.5455555878579617,
+          -0.03999999898951501
+        ],
+        "hi": [
+          235.66119372844696,
+          175.46319961547852,
+          1.550000044517219
+        ]
+      },
+      "fresh": {
+        "vertices": 725064,
+        "triangles": 705696,
+        "area_mm2": 23587.19224138564,
+        "lo": [
+          0.8381999796256423,
+          2.5455555878579617,
+          -0.03999999898951501
+        ],
+        "hi": [
+          235.66119372844696,
+          175.46319961547852,
+          1.550000044517219
+        ]
+      },
+      "bounds_max_diff_mm": 0.0,
+      "area_relative_diff": 0.0,
+      "identical": true
+    },
+    "MAINBOARD/PCB layers/mesh.002": {
+      "kicad_mesh": "mainboard_via",
+      "saved": {
+        "vertices": 2548,
+        "triangles": 2496,
+        "area_mm2": 60.37665012323708,
+        "lo": [
+          59.13599953055382,
+          3.5099999513477087,
+          -0.035000000934815034
+        ],
+        "hi": [
+          200.1979947090149,
+          176.19499564170837,
+          1.5450000064447522
+        ]
+      },
+      "fresh": {
+        "vertices": 2548,
+        "triangles": 2496,
+        "area_mm2": 60.37665012323708,
+        "lo": [
+          59.13599953055382,
+          3.5099999513477087,
+          -0.035000000934815034
+        ],
+        "hi": [
+          200.1979947090149,
+          176.19499564170837,
+          1.5450000064447522
+        ]
+      },
+      "bounds_max_diff_mm": 0.0,
+      "area_relative_diff": 0.0,
+      "identical": true
+    },
+    "MAINBOARD/PCB layers/mesh.003": {
+      "kicad_mesh": "mainboard_silkscreen",
+      "saved": {
+        "vertices": 103783,
+        "triangles": 101759,
+        "area_mm2": 1515.8633614034848,
+        "lo": [
+          0.4057794576510787,
+          1.2259850045666099,
+          1.5849999617785215
+        ],
+        "hi": [
+          236.15649342536926,
+          177.37850546836853,
+          1.5849999617785215
+        ]
+      },
+      "fresh": {
+        "vertices": 103783,
+        "triangles": 101759,
+        "area_mm2": 1515.8633614034848,
+        "lo": [
+          0.4057794576510787,
+          1.2259850045666099,
+          1.5849999617785215
+        ],
+        "hi": [
+          236.15649342536926,
+          177.37850546836853,
+          1.5849999617785215
+        ]
+      },
+      "bounds_max_diff_mm": 0.0,
+      "area_relative_diff": 0.0,
+      "identical": true
+    },
+    "MAINBOARD/PCB layers/mesh.004": {
+      "kicad_mesh": "mainboard_silkscreen",
+      "saved": {
+        "vertices": 37134,
+        "triangles": 36912,
+        "area_mm2": 836.5133357024906,
+        "lo": [
+          6.801879964768887,
+          28.76761369407177,
+          -0.07500000356230885
+        ],
+        "hi": [
+          228.80320250988007,
+          167.71669685840607,
+          -0.07500000356230885
+        ]
+      },
+      "fresh": {
+        "vertices": 37134,
+        "triangles": 36912,
+        "area_mm2": 836.5133357024906,
+        "lo": [
+          6.801879964768887,
+          28.76761369407177,
+          -0.07500000356230885
+        ],
+        "hi": [
+          228.80320250988007,
+          167.71669685840607,
+          -0.07500000356230885
+        ]
+      },
+      "bounds_max_diff_mm": 0.0,
+      "area_relative_diff": 0.0,
+      "identical": true
+    },
+    "MAINBOARD/PCB layers/mesh.005": {
+      "kicad_mesh": "mainboard_soldermask",
+      "saved": {
+        "vertices": 30989,
+        "triangles": 33455,
+        "area_mm2": 38388.9446733828,
+        "lo": [
+          0.0,
+          0.0,
+          1.560000004246831
+        ],
+        "hi": [
+          237.4899983406067,
+          180.3400069475174,
+          1.560000004246831
+        ]
+      },
+      "fresh": {
+        "vertices": 30989,
+        "triangles": 33455,
+        "area_mm2": 38388.9446733828,
+        "lo": [
+          0.0,
+          0.0,
+          1.560000004246831
+        ],
+        "hi": [
+          237.4899983406067,
+          180.3400069475174,
+          1.560000004246831
+        ]
+      },
+      "bounds_max_diff_mm": 0.0,
+      "area_relative_diff": 0.0,
+      "identical": true
+    },
+    "MAINBOARD/PCB layers/mesh.006": {
+      "kicad_mesh": "mainboard_soldermask",
+      "saved": {
+        "vertices": 30221,
+        "triangles": 32639,
+        "area_mm2": 38399.03882018202,
+        "lo": [
+          0.0,
+          0.0,
+          -0.04999999873689376
+        ],
+        "hi": [
+          237.4899983406067,
+          180.3400069475174,
+          -0.04999999873689376
+        ]
+      },
+      "fresh": {
+        "vertices": 30221,
+        "triangles": 32639,
+        "area_mm2": 38399.03882018202,
+        "lo": [
+          0.0,
+          0.0,
+          -0.04999999873689376
+        ],
+        "hi": [
+          237.4899983406067,
+          180.3400069475174,
+          -0.04999999873689376
+        ]
+      },
+      "bounds_max_diff_mm": 0.0,
+      "area_relative_diff": 0.0,
+      "identical": true
+    },
+    "MAINBOARD/PCB layers/mesh.007": {
+      "kicad_mesh": "mainboard_PCB",
+      "saved": {
+        "vertices": 118604,
+        "triangles": 121012,
+        "area_mm2": 90671.31399865674,
+        "lo": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hi": [
+          237.4899983406067,
+          180.3400069475174,
+          1.509999972768128
+        ]
+      },
+      "fresh": {
+        "vertices": 118604,
+        "triangles": 121012,
+        "area_mm2": 90671.31399865674,
+        "lo": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "hi": [
+          237.4899983406067,
+          180.3400069475174,
+          1.509999972768128
+        ]
+      },
+      "bounds_max_diff_mm": 0.0,
+      "area_relative_diff": 0.0,
+      "identical": true
+    }
+  },
+  "stable_scene_sha256": "654bc65b846f42b2b9003bf42155ac853ed69aa58484dc7b0496a2bab17dfb1c",
+  "pcb_sha256": "8abfebab2acffe21d690fa84c66ef286e174812e223d24f5b5b6375a6e471d3d",
+  "via_count": 13,
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "scope": "Mainboard layer meshes versus a fresh KiCad export and the PCB file. Visualisation only: copper was not checked electrically here."
+}

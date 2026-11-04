@@ -8,7 +8,9 @@ Run with Blender (verified with 5.2.2) and KiCad's command-line tool:
 
 Both KiCad PCBs are exported to glTF in a temporary directory with a private
 KiCad configuration, using the same options as the earlier native exports
-(`--no-board-body --user-origin 0x0mm`). Every placed model is then compared
+(`--no-board-body --user-origin 0x0mm`) plus `--no-dnp`: the scene shows the
+boards as built, so footprints marked do-not-place have no model in it. Every
+placed model is then compared
 with the scene's native reference root of the same board and designator:
 footprint frame relative to the board root, and model geometry in that frame
 (bounds, centroid, surface area, vertex and triangle counts). Set KICAD_CLI to
@@ -129,7 +131,7 @@ def verify():
             pcb = root / "kicad-working" / board / f"{board}.kicad_pcb"
             before = sha256(pcb)
             glb = work / f"{board}.glb"
-            run = subprocess.run([kicad_cli, "pcb", "export", "glb", "--force", "--no-board-body",
+            run = subprocess.run([kicad_cli, "pcb", "export", "glb", "--force", "--no-board-body", "--no-dnp",
                                   "--user-origin", "0x0mm", "-o", str(glb), str(pcb)],
                                  capture_output=True, text=True, env=environment, timeout=1800)
             exports[board] = {"pcb": str(pcb.relative_to(root)), "pcb_sha256": before,
@@ -185,7 +187,8 @@ def verify():
             "exports": exports, "failures": failures, "checks": checks, "differences": differences,
             "read_only": True, "physical_fit_qualified": False,
             "scope": "Placed KiCad component models versus the scene's embedded native meshes; "
-                     "board substrate and Blender-only presentation geometry are not compared."}
+                     "do-not-place footprints, board substrate and Blender-only presentation "
+                     "geometry are not compared."}
 
 
 try:

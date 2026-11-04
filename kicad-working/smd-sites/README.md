@@ -19,7 +19,7 @@ The reasons and the simulated figures are in the [adapter README](../adapters/ss
 
 - **Solder the chips first,** before any neighbour. Pin 1 is at the silkscreen dot, and the pitch is 0.65 mm: use flux and check for bridges under magnification. The land pads are lengthened outward for an iron.
 - **Tight places, in the nominal sizes of the illustrative models.** `fit-check.json` has all four sites.
-  - **Q126 touches thermistor R100A0's model.** The model's side reaches 0.09 mm over the chip's top corner, just above the chip's 1.1 mm height. Fit R100A0 after the chip and keep it from pressing on it. The chip stays here on purpose (see below).
+  - **Q126 is tightest against thermistor R100A0's model.** The model's side reaches 0.09 mm over the chip's outline, just above the chip's 1.1 mm height. `fit_check.py` lists this as touching because it measures to the box around the chip, leads included. The [Blender revision 28 screen](../visualization/blender-case-revision-28/verification/chip-neighbour-audit.json), mesh to mesh, finds no overlap and a smallest gap of 0.07 mm at the chip's top edge. Real parts vary by more than that. Fit R100A0 after the chip and keep it from pressing on it. The chip stays here on purpose (see below).
   - **Lands:** Q121's pin 4 land ends 0.07 mm from standing resistor R110, and Q126's lands 0.07 mm from R100A0.
   - **Overhangs:** C18's model reaches 0.31 mm over Q112's edge, 0.41 mm above the chip. Q23's reaches 0.5 mm over Q122's edge, 2.09 mm above it. Neither touches.
 - **Measure the pair before relying on it.** BCM847's matching is stated only at 2 mA, and the ladder runs at 3 to 27 µA. BC847C has no matching figure at all. The adapter README lists what to measure at each site; on the board that means testing a chip off the board first, or at the holes of its site once it's fitted.
@@ -58,7 +58,7 @@ Compared with revision 28, from `compare_board.py` and `compare_gerbers.py`:
 
 - **Silkscreen:** R111's and Q21's printed text and outlines run under Q121's pads, and Q22's under Q122's. The fab clips silkscreen at pads, so some of that text will be cut. Q112's own label crosses Q15's outline. Revision 29 doesn't move the original text.
 - **The pour:** the ground pour has a pocket at each site, sized in the table above. KiCad finds all the same connections as before, and one known gap remains, as at revision 27. The effect on the filter's noise or hum hasn't been simulated, and the analog model has no copper in it.
-- **Blender:** the Blender scene is still revision 27, without these four chips, so `scripts/verify_kicad_blender_models.py` no longer matches.
+- **Blender:** [revision 28](../visualization/blender-case-revision-28/README.md) has the four chips and these copper changes, and leaves the do-not-place SIP pairs out. Revision 27 still shows the pairs.
 - **Availability:** checked on 2026-11-04. Mouser: BC847CDW1T1G 14,336; BCM847BS from Diotec 7,100, Nexperia 1,508 + 2,018, Diodes 238. Digi-Key: BC847CDW1T1G 48,000; BCM847BS from Diotec 12,587, Nexperia and Diodes none. Check on the day.
 
 ## Rerun

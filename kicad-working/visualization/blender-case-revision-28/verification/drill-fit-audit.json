@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "check_count": 6,
+  "repository": "/Users/ruslanmigirov/Downloads/hardware/x0xb0x-hardware/.claude/worktrees/nifty-swartz-a22951",
+  "kicad_version": "10.0.7",
+  "blender_version": "5.2.2 LTS",
+  "measured_models": 489,
+  "declared_interference_pads": 121,
+  "declared_empty_holes": 8,
+  "allowances_no_longer_needed": [],
+  "exports": {
+    "mainboard": {
+      "pcb": "kicad-working/mainboard/mainboard.kicad_pcb",
+      "pcb_sha256": "8abfebab2acffe21d690fa84c66ef286e174812e223d24f5b5b6375a6e471d3d",
+      "glb_sha256": "2ffffe811a4951508827ac9cc077512c3b8b89a96172a478fe77bd720d608172"
+    },
+    "ioboard": {
+      "pcb": "kicad-working/ioboard/ioboard.kicad_pcb",
+      "pcb_sha256": "ea9c726cf1f5ed60a5e4a91c12b001293151212898ae0af53c91a47ca4f4129b",
+      "glb_sha256": "946317b257b012f481abd8499e1cb1dd9bc5d373e93cf2b3f528c88f9a9033de"
+    }
+  },
+  "failures": [],
+  "checks": [
+    {
+      "check": "mainboard: top-side models share one seating plane",
+      "passed": true,
+      "planes_mm": [
+        1.595
+      ]
+    },
+    {
+      "check": "mainboard: KiCad export and pad read left the PCB bytes unchanged",
+      "passed": true
+    },
+    {
+      "check": "ioboard: top-side models share one seating plane",
+      "passed": true,
+      "planes_mm": [
+        1.595
+      ]
+    },
+    {
+      "check": "ioboard: KiCad export and pad read left the PCB bytes unchanged",
+      "passed": true
+    },
+    {
+      "check": "Every fitted model with drilled holes was measured",
+      "passed": true,
+      "models": 489
+    },
+    {
+      "check": "No lead, interference or crossing outside the declared allowances",
+      "passed": true,
+      "findings": [],
+      "finding_count": 0
+    }
+  ],
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "scope": "Nominal native-model sections against nominal drills; tolerances, elastic leads, solder and assembly are not modelled."
+}

@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "review": "Visual inspection of all eleven current PNGs",
+  "scene_sha256": "654bc65b846f42b2b9003bf42155ac853ed69aa58484dc7b0496a2bab17dfb1c",
+  "images": {
+    "assembled": {
+      "path": "assembled.png",
+      "sha256": "58da648a7f964e67e618287e73281703534734b28e6577664f75d0e39840e054"
+    },
+    "exploded": {
+      "path": "exploded.png",
+      "sha256": "0d97e5247979dec53866b5fa4c6fe9e4315601ee7a33529ff0bd25efc13fc271"
+    },
+    "control-side": {
+      "path": "control-side.png",
+      "sha256": "dce504cf26ef6e0691be3343e91ecf7ed2f8fd5485b1f4c6cc46c582e4938a01"
+    },
+    "smd-q112-after": {
+      "path": "smd-q112-after.png",
+      "sha256": "36f6009334fb1986af96416de746f9b4cdf57f094d882b566974ac8a9198e7f0"
+    },
+    "smd-q112-before": {
+      "path": "smd-q112-before.png",
+      "sha256": "b9e1fd09dbf2cd2d4306a0973bb26d6fad559a4b6f3fd4c5c350b017af11f521"
+    },
+    "smd-q121-after": {
+      "path": "smd-q121-after.png",
+      "sha256": "772da0ab05f8d63febcbe2a0d82989c0161ce244919214b91c57498647be98df"
+    },
+    "smd-q121-before": {
+      "path": "smd-q121-before.png",
+      "sha256": "6e55b4f0ee42c110d04856c8bb8f14859a1c6f28cc771dedc7f82f01976ff398"
+    },
+    "smd-q122-after": {
+      "path": "smd-q122-after.png",
+      "sha256": "bb01be576af089ed016022610f604ea89d8e5afb4f289c1bbd1be3d595e1c8d2"
+    },
+    "smd-q122-before": {
+      "path": "smd-q122-before.png",
+      "sha256": "1ef76fabce19910f0459088da69dfd78ea75559a0e8cf70e7edf05c44c921656"
+    },
+    "smd-q126-after": {
+      "path": "smd-q126-after.png",
+      "sha256": "400b884f1e5f632ec45edf9d13fee79f89e5b536004875dc4b0c0bd26fac982f"
+    },
+    "smd-q126-before": {
+      "path": "smd-q126-before.png",
+      "sha256": "443f8386469d8f1dead39ed8c461a18b73a16aaffcb3320196dc0dfa0e74f48e"
+    }
+  },
+  "observations": [
+    "Same-camera details show each chip on its lands with its pin-1 mark, the new tracks and vias, the do-not-place SIP holes empty, and the pour pocket around each site",
+    "The before images show the SIP pair's leads or body at the same places, with the earlier silkscreen and no lands",
+    "Q126 stands beside thermistor R100A0, with no overlap visible; straight-down views of Q112, Q121 and Q122 clip the taller parts, which show open and still cast shadows",
+    "Assembled view shows no visible change; the exploded and control-side views show the fresh mainboard copper, silkscreen and mask, and no other change was seen"
+  ],
+  "physical_fit_qualified": false
+}
