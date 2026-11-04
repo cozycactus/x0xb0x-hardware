@@ -16,12 +16,12 @@
       "sha256": "73cc95f62a104053a2602ccc733fc88336b0f3f6329ac3e9bbab827aa26af6f6"
     },
     "PROJECT.json": {
-      "bytes": 2262,
-      "sha256": "94e638d595ccf00d31b852e87cfedb4254f3ad736cdd3d46559d925f02ed1888"
+      "bytes": 2317,
+      "sha256": "c2c6b21983147c8bafc993bdee61c2fec6db7da669af5ead72b2f66f7e760616"
     },
     "README.md": {
-      "bytes": 29331,
-      "sha256": "b591def104e1784d38cee5d3802316cb43aba91d4870a249f62e7c7c335ed349"
+      "bytes": 29916,
+      "sha256": "13c22b6aa1c71c2d5ff7836f4bdff340b0824ee3cfa8ddd290583392898923d1"
     },
     "docs/OPENING.md": {
       "bytes": 7914,
@@ -122,6 +122,10 @@
     "docs/usb-kobiconn-correction.json": {
       "bytes": 3655,
       "sha256": "c9e0de81101f81a687d7a36bc353344c6f5432465d7ba6d142598f854e5f580b"
+    },
+    "docs/vcf-simulation.json": {
+      "bytes": 8542,
+      "sha256": "c136c2445d32673fc190dbf77ca53a2210f961e553795f63362550c53863b4e8"
     },
     "docs/verification/fresh-clone-blender.json": {
       "bytes": 12492,
@@ -5098,6 +5102,162 @@
     "kicad-working/validation/terminal-isolation-review/terminal-pair-audit.json": {
       "bytes": 37948,
       "sha256": "15f7ee04dd1ae7da44ee8207b7f51d2c806585f436db6ff6906faf9119705952"
+    },
+    "kicad-working/validation/vcf-simulation/README.md": {
+      "bytes": 19767,
+      "sha256": "1c222d4a76f7b766b3a34c8ef06cdad74bb0a5df5ff1290376282808122059a5"
+    },
+    "kicad-working/validation/vcf-simulation/calibrate.py": {
+      "bytes": 1905,
+      "sha256": "5cc66da8c7c27fb6f03a12be908c2ba7b4098f0cdec32abe34512f87f374bfee"
+    },
+    "kicad-working/validation/vcf-simulation/calibration.json": {
+      "bytes": 2312,
+      "sha256": "eb63adc39a8d7007e94e04eac21aba3fee3a231838c763ff90dd066937373a66"
+    },
+    "kicad-working/validation/vcf-simulation/extract_vcf.py": {
+      "bytes": 3711,
+      "sha256": "675a8bdde2a784d11ab544905b4dd137ab5e01b6e7cf79a19d16f6316ccfb51c"
+    },
+    "kicad-working/validation/vcf-simulation/extras.py": {
+      "bytes": 7179,
+      "sha256": "2c761bca74affc107d31e1b242320afc8be1ac62aa43e4e7487a4b18b4613627"
+    },
+    "kicad-working/validation/vcf-simulation/nonlinear.py": {
+      "bytes": 10316,
+      "sha256": "e776d6025f3632bef40f5f8c9694e2faa5f6a2ae4b4dcf2a567b30731611929c"
+    },
+    "kicad-working/validation/vcf-simulation/pairs.py": {
+      "bytes": 4916,
+      "sha256": "9c969b98da660ab12465ea094cae6bda33b5afcbab96183fd6f01267fad9c79c"
+    },
+    "kicad-working/validation/vcf-simulation/plots.py": {
+      "bytes": 12381,
+      "sha256": "46c091fbb68a1e94a77b348f37f906fcb66d8344b9416b44d2c36232a69e0b38"
+    },
+    "kicad-working/validation/vcf-simulation/plots/01-validation.png": {
+      "bytes": 129838,
+      "sha256": "1713e3dcd4aacfffa95214d282188d80c222050b9f587d0945f02442834200f1"
+    },
+    "kicad-working/validation/vcf-simulation/plots/02-knob-responses.png": {
+      "bytes": 157888,
+      "sha256": "6afc222acbc7ef424d4fcf5c1c66a31612e41dc9fc847dc281c444bac0cab7ca"
+    },
+    "kicad-working/validation/vcf-simulation/plots/03-self-oscillation-margin.png": {
+      "bytes": 91740,
+      "sha256": "c5bc0b6db5d3779f2a3d8a7da82bebaaa517186a369a004655c1bae00a6dd130"
+    },
+    "kicad-working/validation/vcf-simulation/plots/04-influence-ranking.png": {
+      "bytes": 144101,
+      "sha256": "1892107009ea211ff08784e97d5e66e0364e601b1a8fe6531b43b71fd6f5492b"
+    },
+    "kicad-working/validation/vcf-simulation/plots/05-waveforms.png": {
+      "bytes": 138001,
+      "sha256": "d1f8699b5df5f6aac3c5bf6e80c38a72e75231bb001a41103d5c20423cc1b092"
+    },
+    "kicad-working/validation/vcf-simulation/plots/06-accent-sweep.png": {
+      "bytes": 152438,
+      "sha256": "810d4ccfe50b5859d289e8b2b4a2a820c4d9b2b43ba3fd9a5e413d1f808870c4"
+    },
+    "kicad-working/validation/vcf-simulation/plots/07-drive.png": {
+      "bytes": 71974,
+      "sha256": "d19c864e37d5e0d8c9c30bfd99ea29c3f7ff79960a1dd40444e32f3c76196314"
+    },
+    "kicad-working/validation/vcf-simulation/plots/08-tolerance.png": {
+      "bytes": 57873,
+      "sha256": "f4a9714103a38edcea37f38f0886fdbb47fc0d503cbbf321ecae0ac6d4cd5d0c"
+    },
+    "kicad-working/validation/vcf-simulation/results/demo-saw-no-accent-sweep.wav": {
+      "bytes": 417644,
+      "sha256": "0ac0fd8cc26d5aef7c6d02a534f3a82304f062f76267dc9a666be8489c53d4ed"
+    },
+    "kicad-working/validation/vcf-simulation/results/demo-saw-res-low.wav": {
+      "bytes": 417644,
+      "sha256": "efa00ab01e78ba7150931fa07d22c2ef682ccf3d339032dd4a780dd2c897e3e3"
+    },
+    "kicad-working/validation/vcf-simulation/results/demo-saw.wav": {
+      "bytes": 417644,
+      "sha256": "2ed3aa00d226636f9753620b4ecf68f91610719c2a6a05bb9ab13ec734086ac2"
+    },
+    "kicad-working/validation/vcf-simulation/results/demo-square.wav": {
+      "bytes": 417644,
+      "sha256": "9637a17d74bda6a1eeaff21ac58b9833ea55606ed074671846c19f5a49c8bf43"
+    },
+    "kicad-working/validation/vcf-simulation/results/drive.json": {
+      "bytes": 75333,
+      "sha256": "b05f92e14226bfd482f34b02378518db89706348a0c7dd44b209b6325e01cc42"
+    },
+    "kicad-working/validation/vcf-simulation/results/envelope_leak.json": {
+      "bytes": 1934,
+      "sha256": "6806a4be1925852317a1e2c164d68f9a8135ecfc7e5e5e0f4744abafae4250c3"
+    },
+    "kicad-working/validation/vcf-simulation/results/envelopes_summary.json": {
+      "bytes": 7412,
+      "sha256": "6802d777dbdaee937ae457dffff9e6957191f72c3d2345c7cad4ad85e3049578"
+    },
+    "kicad-working/validation/vcf-simulation/results/extras.json": {
+      "bytes": 15773,
+      "sha256": "e1a311a0b22338bdaf066bc03ed53a6590439db747cd5565c0f6e82e6c1048bf"
+    },
+    "kicad-working/validation/vcf-simulation/results/kicks.json": {
+      "bytes": 2790,
+      "sha256": "7c9f362c455310486f8637c5ca55a4d8acd9414861dc68aa474aa78af7f6b7ca"
+    },
+    "kicad-working/validation/vcf-simulation/results/ladder_check.json": {
+      "bytes": 100839,
+      "sha256": "96d67e66f416c804053e68d12b52adaec1863f7bd2fef44f315fc40ad85db79a"
+    },
+    "kicad-working/validation/vcf-simulation/results/margins.json": {
+      "bytes": 13414,
+      "sha256": "402bcbd4db9ac725e85717fd230b358e09754cf4f1df68776eaee1809dcc6ddf"
+    },
+    "kicad-working/validation/vcf-simulation/results/monte_carlo.json": {
+      "bytes": 141396,
+      "sha256": "33be9555adf5b1c50137491a730ac63466825e309d915745a83f89a76c040678"
+    },
+    "kicad-working/validation/vcf-simulation/results/one_at_a_time.json": {
+      "bytes": 43895,
+      "sha256": "53aa0d10f89d3f59a9c96dc832a707507228cd02bb9f07d779ce900bc7d89f87"
+    },
+    "kicad-working/validation/vcf-simulation/results/pair_matching.json": {
+      "bytes": 21916,
+      "sha256": "570f8aa2024fa4233bcf9a8474e73241854cd20466d0e366b667c77a55972876"
+    },
+    "kicad-working/validation/vcf-simulation/results/responses.json": {
+      "bytes": 1127954,
+      "sha256": "3eafc17797fba15351670982fd6d3edb6100698fdb742f8b25f6a783adf2569b"
+    },
+    "kicad-working/validation/vcf-simulation/results/slow_growth.json": {
+      "bytes": 2209,
+      "sha256": "687974eeb1058712d63eef05e67c252a9d304fd1e31362554794650353993e8f"
+    },
+    "kicad-working/validation/vcf-simulation/results/tap.json": {
+      "bytes": 305036,
+      "sha256": "8d14b7880ae67665423bb75e6dff803db70a70f47232b96d95757b6b5e2235e1"
+    },
+    "kicad-working/validation/vcf-simulation/results/waveforms_summary.json": {
+      "bytes": 2724,
+      "sha256": "1d2c1319d4f2fe4c39f072ba8f523c2ee89c15bd5faf6cbd921b17278001b90e"
+    },
+    "kicad-working/validation/vcf-simulation/sweeps.py": {
+      "bytes": 13773,
+      "sha256": "1c1f0ab6cf938439736a0f280c3d2aae3ed980a361a4ca235d09d44262205ca5"
+    },
+    "kicad-working/validation/vcf-simulation/timedomain.py": {
+      "bytes": 11203,
+      "sha256": "c7833398fb412d2eb50ffa183a449a5eb1ce8eec5eb39d9277ead036dfc4ddef"
+    },
+    "kicad-working/validation/vcf-simulation/vcf-parts.json": {
+      "bytes": 23010,
+      "sha256": "7c59cb506c308b8c2166d944c72b55297559caaee768257a935f048fcb689bf5"
+    },
+    "kicad-working/validation/vcf-simulation/vcfdeck.py": {
+      "bytes": 16371,
+      "sha256": "eb87ac4029eebcb4285f30aea204c19468d42da34b249d7ebe1ad30b470a8c52"
+    },
+    "kicad-working/validation/vcf-simulation/verify_report.py": {
+      "bytes": 12202,
+      "sha256": "cf6dd0b9d449fa1bfea9ace2bb5db45d264ac58ec1b30de8e3a1d9be3bf2bdba"
     },
     "kicad-working/validation/working-validation-summary-revision-10.json": {
       "bytes": 69266,

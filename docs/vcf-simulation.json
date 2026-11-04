@@ -1,0 +1,295 @@
+{
+  "schema": 1,
+  "generator": "verify_report.py",
+  "passed": true,
+  "check_count": 35,
+  "scope": "ngspice model of the VCF built from the KiCad netlist, compared with published analysis and published claims about the TB-303. Nothing is measured on hardware.",
+  "measured_on_hardware": false,
+  "report": "kicad-working/validation/vcf-simulation/README.md",
+  "checks": [
+    {
+      "check": "vcf-parts.json matches the current KiCad schematic",
+      "passed": true
+    },
+    {
+      "check": "Every reference on the expanded BOM's VCF list is in the deck",
+      "passed": true,
+      "references": 69,
+      "missing": []
+    },
+    {
+      "check": "Ladder denominator with equal caps is x^4+7x^3+15x^2+10x+1",
+      "passed": true
+    },
+    {
+      "check": "Ladder denominator with the bottom cap halved is 0.5x^4+4x^3+10x^2+8x+1",
+      "passed": true
+    },
+    {
+      "check": "Feedback gain needed to oscillate with equal caps is about 18.4",
+      "passed": true,
+      "k": 18.387755102040817
+    },
+    {
+      "check": "SPICE ladder is within 0.1 dB of the analytic response at 1 kHz",
+      "passed": true,
+      "max_error_db": 0.08576207732858288,
+      "cases": 6
+    },
+    {
+      "check": "SPICE and analytic -3 dB corners coincide",
+      "passed": true
+    },
+    {
+      "check": "Roll-off steepens to 24 dB/oct, passing 18 dB/oct on the way",
+      "passed": true,
+      "slopes_db_per_octave": [
+        -6.1,
+        -8.5,
+        -12.4,
+        -17.3,
+        -21.3,
+        -23.3,
+        -23.9,
+        -24.0
+      ]
+    },
+    {
+      "check": "1N4148s at the ladder top add gain, and forcing N to 1 removes it",
+      "passed": true,
+      "gains_db": {
+        "stock": -0.11155310869270432,
+        "top 1N4148, N=1.752": 4.663069280820749,
+        "top diode, N forced to 1": -0.11941790532534019,
+        "ladder 1N4148, top transistor": -0.2140854173377691
+      }
+    },
+    {
+      "check": "TM3 can reach the kit tuning band, 400 to 600 Hz",
+      "passed": true,
+      "tm3_fraction": {
+        "tm3": 0.318084716796875,
+        "tm3_400": 0.458,
+        "tm3_600": 0.225
+      }
+    },
+    {
+      "check": "TM3 reaches 500 Hz in every tolerance sample",
+      "passed": true,
+      "samples": 200
+    },
+    {
+      "check": "Simulated square is near the kit figures of about 4 Vpp on 7 V",
+      "passed": true,
+      "vpp": 3.5258168299999992,
+      "mean_v": 6.870668106069376
+    },
+    {
+      "check": "With both knobs down the note is almost sinusoidal",
+      "passed": true,
+      "second_harmonic_db": -16.55789540630426
+    },
+    {
+      "check": "Stock filter does not sustain oscillation at any cutoff tested",
+      "passed": true,
+      "cases": 3
+    },
+    {
+      "check": "With feedback doubled it sustains at mid and high cutoff and not at the lowest",
+      "passed": true,
+      "tail_vpp": {
+        "0.0": 5.000000058430487e-08,
+        "0.5": 0.39603940000000026,
+        "1.0": 0.6340865000000004
+      }
+    },
+    {
+      "check": "Heavy input quenches the resonance and leaves the fundamental",
+      "passed": true,
+      "stock_db": -0.9314694250748906,
+      "x8_db": -13.247315459425309
+    },
+    {
+      "check": "Accent is a direct pulse with Resonance low and a lag with it high",
+      "passed": true,
+      "low_ms": 1.1999999999999789,
+      "high_ms": 20.399999999999974
+    },
+    {
+      "check": "Repeated accents stack at full Resonance",
+      "passed": true,
+      "first_ua": 30.0063772727272,
+      "settled_ua": 41.37753636363635
+    },
+    {
+      "check": "Env Mod cannot reach zero: at 0 % the note still sweeps",
+      "passed": true,
+      "rest_ua": 7.238758635351283,
+      "peak_ua": 13.321249999999973
+    },
+    {
+      "check": "More Env Mod lowers the resting cutoff",
+      "passed": true,
+      "rest_ua": [
+        7.238758635351283,
+        5.993287659445233,
+        2.588903118040088
+      ]
+    },
+    {
+      "check": "Bass is down by the same order as the manual, and C20/C21 cause it",
+      "passed": true,
+      "db_32hz_vs_65hz": {
+        "cut50": -4.289524794250319,
+        "cut100": -6.9553830294321415,
+        "large_caps": 0.054422111483518165
+      }
+    },
+    {
+      "check": "Resonance Q rises with cutoff",
+      "passed": true,
+      "q": {
+        "low": 2.4642328826887256,
+        "mid": 5.85670824210838,
+        "high": 26.068129801200396
+      }
+    },
+    {
+      "check": "Margin is below 0 dB as built, and flat just above 0 dB with the two losses removed",
+      "passed": true,
+      "as_built_db": [
+        -6.509190708987094,
+        -0.6351416414904405
+      ],
+      "lossless_db": [
+        0.14140945257853077,
+        0.3614718789219902
+      ]
+    },
+    {
+      "check": "Q rises with Q21's hFE at every cutoff",
+      "passed": true,
+      "hfe": [
+        100,
+        150,
+        200,
+        300,
+        400,
+        600,
+        800
+      ]
+    },
+    {
+      "check": "Q12 hFE across the datasheet range barely changes the loop margin",
+      "passed": true,
+      "largest_change_db": 0.014815696038349313
+    },
+    {
+      "check": "Q22 hFE across the datasheet range barely changes the loop margin",
+      "passed": true,
+      "largest_change_db": 0.00026990376296487373
+    },
+    {
+      "check": "Envelope leakage grows with Q12 offset, and stays well below the notes up to 3 mV",
+      "passed": true,
+      "leak_mvpp": [
+        0.02164999999987316,
+        0.02396999999998428,
+        0.03437999999977848,
+        0.10257000000013505
+      ],
+      "notes_mvpp": 14.06988000000009
+    },
+    {
+      "check": "Q22, Q21 and ladder offsets of 10 mV leave the envelope leakage unchanged",
+      "passed": true
+    },
+    {
+      "check": "Q22 needs no matching: no difference between its halves moves the margin",
+      "passed": true,
+      "cases": 8,
+      "largest_change_db": 0.0005446063134646462
+    },
+    {
+      "check": "A difference in hFE between Q12's halves does not move the margin",
+      "passed": true,
+      "cases": 3
+    },
+    {
+      "check": "Q12 tolerates a 10 mV Vbe offset, and 30 mV costs real Q",
+      "passed": true
+    },
+    {
+      "check": "Q21's hFE match matters: hFE 800 and 250 cut its Q at the top of the range by more than half",
+      "passed": true,
+      "q": 9.890044589388145
+    },
+    {
+      "check": "Across the tolerance run, self-oscillation appears only at the top of the range",
+      "passed": true,
+      "fraction": {
+        "low": 0.0,
+        "mid": 0.0,
+        "high": 0.115
+      }
+    },
+    {
+      "check": "No machine-specific paths in the study",
+      "passed": true,
+      "offenders": []
+    },
+    {
+      "check": "Four demonstration WAVs, mono 48 kHz, 4.35 s",
+      "passed": true,
+      "files": [
+        "demo-saw-no-accent-sweep.wav",
+        "demo-saw-res-low.wav",
+        "demo-saw.wav",
+        "demo-square.wav"
+      ]
+    }
+  ],
+  "findings": {
+    "q_at_full_resonance": {
+      "low": 2.4642328826887256,
+      "mid": 5.85670824210838,
+      "high": 26.068129801200396
+    },
+    "peak_hz_per_microamp": {
+      "low": 67.77544251990682,
+      "mid": 66.9641539637039,
+      "high": 65.92865726965903
+    },
+    "analytic_critical_gain_actual_caps": 17.019260051853983,
+    "margin_db_as_built": {
+      "low": -6.509190708987094,
+      "mid": -2.837821213044614,
+      "high": -0.6351416414904405
+    },
+    "top_of_cutoff_range_depends_on_unknown_pot_taper": {
+      "0.1": 2576.3598398907798,
+      "0.15": 2107.361992677776,
+      "0.2": 1779.7494287978652,
+      "0.25": 1536.6882815539852
+    },
+    "tolerance_self_oscillation_fraction": {
+      "low": 0.0,
+      "mid": 0.0,
+      "high": 0.115
+    }
+  },
+  "open_items": [
+    "The taper of VR3 is unknown; only the knob-to-Hz map depends on it.",
+    "The sub-audio loop crossing near 6 to 8 Hz is a model-only prediction, unconfirmed by any report found.",
+    "The transistor models are substitutes; IS, VAF and the capacitance split are generic values.",
+    "The VCO is an ideal saw, and the VCA and output stage are not simulated."
+  ],
+  "sources": [
+    "https://www.timstinchcombe.co.uk/synth/Moog_ladder_tf.pdf",
+    "https://www.firstpr.com.au/rwi/dfish/303-unique.html",
+    "https://www.firstpr.com.au/rwi/dfish/Devil-Fish-Manual.pdf",
+    "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/HEAD/pages/ladyada.net/make/x0xb0x/fab/vcf/index.html",
+    "https://raw.githubusercontent.com/x0xb0x/x0xb0x.github.io/HEAD/pages/ladyada.net/make/x0xb0x/fab/vco.html"
+  ],
+  "models_changed": false
+}
