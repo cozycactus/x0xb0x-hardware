@@ -6,8 +6,8 @@ Usage: verify_redraw.py [--mutation]
 
 Checks that the generator reproduces the installed files, that they are in the format this KiCad writes, that sheet instances
 name the project's top-level sheet with pages in order, that every pin is on the same net as on the board copper and in the
-original Eagle schematic, that every footprint links to its own symbol, that ERC is clean, that DRC and schematic parity report
-what they reported before the redraw, and that the board files differ from revision 27 only in their links to the symbols.
+original Eagle schematic, that every footprint has a symbol and links to its own, that ERC is clean, that DRC and schematic parity
+report what they reported before the redraw apart from the mounting holes, and that the board files differ from revision 27 only in their links to the symbols.
 The format, instance and link checks cover what the KiCad editor reads and kicad-cli's other commands don't report. --mutation
 also leaves one wire out of each sheet in turn and confirms that the net comparison then fails, which shows it can. Says nothing
 about real hardware.
@@ -32,7 +32,8 @@ import x0x_draw as X  # noqa: E402
 WORK = HERE.parent
 ROOT = WORK.parent
 CLI = os.environ.get('KICAD_CLI', '/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli')
-BEFORE = {'mainboard': dict(violations=335, unconnected=1, parity=120, parity_types={'footprint_symbol_mismatch': 70, 'net_conflict': 43, 'extra_footprint': 7}),
+# As at revision 27, except the mainboard's seven mounting holes: their 7 extra_footprint warnings became 14 mismatches, 2 per hole, on value and BOM flag.
+BEFORE = {'mainboard': dict(violations=335, unconnected=1, parity=127, parity_types={'footprint_symbol_mismatch': 84, 'net_conflict': 43, 'extra_footprint': 0}),
           'ioboard': dict(violations=254, unconnected=1, parity=45, parity_types={'net_conflict': 38, 'footprint_symbol_mismatch': 7})}
 results = []
 
@@ -151,7 +152,8 @@ def instance_problems(board, project):
 
 
 def link_problems(board, project, net_file):
-    """Footprints whose path is not their own symbol's. KiCad's parity check matches by reference, so it cannot see these."""
+    """Footprints whose path is not their own symbol's, which KiCad's parity check can't see because it matches by reference,
+    and footprints with no symbol, which Update PCB would delete."""
     text = Path(net_file).read_text()
     want = {}
     for m in re.finditer(r'\(comp\s+\(ref "([^"]+)"\)(.*?)(?=\(comp\s+\(ref|\Z)', text, re.S):
@@ -160,14 +162,16 @@ def link_problems(board, project, net_file):
         want[m[1]] = {sheet[1] + u for u in re.findall(r'"([^"]+)"', ids[1])}
     pcb = (project / f'{board}.kicad_pcb').read_text()
     have = collections.defaultdict(list)
+    refs = set()
     for chunk in pcb.split('\n\t(footprint ')[1:]:
         ref = re.search(r'\(property "Reference" "([^"]*)"', chunk)
         path = re.search(r'\n\t\t\(path "([^"]*)"\)', chunk)
-        if ref and path:
+        refs.add(ref[1])
+        if path:
             have[path[1]].append(ref[1])
     found = {r: p for p, refs in have.items() for r in refs}
     return dict(footprints=sum(map(len, have.values())), symbols=len(want), shared_paths=sum(len(r) > 1 for r in have.values()),
-                wrong=sorted(r for r, p in found.items() if r in want and p not in want[r])[:12], without_link=sorted(set(want) - {r for refs in have.values() for r in refs})[:12])
+                wrong=sorted(r for r, p in found.items() if r in want and p not in want[r])[:12], without_link=sorted(set(want) - set(found))[:12], without_symbol=sorted(refs - set(want)))
 
 
 def main():
@@ -189,7 +193,7 @@ def main():
             state = net_state(board, netlist(project / f'{board}.kicad_sch', d / 'n.net'))
             check(f'{board}: every pin on the same net as the board copper and the Eagle schematic, with the same names', clean(state), **state)
             links = link_problems(board, project, d / 'n.net')
-            check(f'{board}: every footprint links to its own symbol', not links['shared_paths'] and not links['wrong'] and not links['without_link'], **links)
+            check(f'{board}: every footprint has a symbol and links to its own', not links['shared_paths'] and not links['wrong'] and not links['without_link'] and not links['without_symbol'], **links)
             run(CLI, 'sch', 'erc', '--severity-all', '-o', d / 'erc.rpt', project / f'{board}.kicad_sch')
             summary = re.search(r'ERC messages: (\d+)\s+Errors (\d+)\s+Warnings (\d+)', (d / 'erc.rpt').read_text())
             check(f'{board}: ERC finds nothing under the project rules', summary and summary[1] == '0', messages=summary and int(summary[1]))
@@ -197,10 +201,10 @@ def main():
             found = [int(x) for x in re.findall(r'Found (\d+) ', r.stdout)]
             kinds = collections.Counter(re.findall(r'^\[(\w+)\]', (d / 'drc.rpt').read_text(), re.M))
             b = BEFORE[board]
-            check(f'{board}: DRC and schematic parity report what they reported at revision 27', found == [b['violations'], b['unconnected'], b['parity']] and all(kinds[k] == v for k, v in b['parity_types'].items()),
+            check(f'{board}: DRC and schematic parity report what they reported at revision 27, apart from the mounting holes', found == [b['violations'], b['unconnected'], b['parity']] and all(kinds[k] == v for k, v in b['parity_types'].items()),
                   found=found, parity_types={k: kinds[k] for k in b['parity_types']})
         pcb = (project / f'{board}.kicad_pcb').read_bytes()
-        stripped = re.sub(rb'^\s*\((path|sheetname|sheetfile) "[^"]*"\)\s*\n', b'', pcb, flags=re.M)
+        stripped = re.sub(rb'^\t\t\((path|sheetname|sheetfile) "[^"]*"\)\n', b'', pcb, flags=re.M)  # Footprint level only: a zone has a sheetname too
         check(f'{board}: the board file differs from revision 27 only in its links to the symbols', hashlib.sha256(stripped).hexdigest() == record[board]['without_link_fields_sha256'] and hashlib.sha256(pcb).hexdigest() == record[board]['after_sha256'])
         if '--mutation' in sys.argv:
             tried, survivors = mutation(board)

@@ -15,7 +15,7 @@ The PDFs are [mainboard-schematic.pdf](mainboard-schematic.pdf) and [ioboard-sch
 - **Symbols.** Transistors, dual transistors, pots, resistors, capacitors and diodes use new symbols in the style of the original sheet. Chips, connectors, switches and jacks keep their original symbol graphics, with line and text sizes matched. Everything is in each project's `x0x.kicad_sym`.
 - **Net names are kept.** The board, the fabrication packages and the simulation use the Eagle names, such as `N$124`. A net that stays on one sheet carries its name on one pin, as a global label at 0.05 mm, because KiCad ignores "hide" on labels and a local label would add the sheet's path to the name. Each net has one such label, so a label can't join anything by itself. A net that crosses sheets has a visible label on each sheet, with its name typed by hand.
 - **Values and pin names are kept** from the single-sheet schematic in `data/<board>_parts.json`, so the BOM and the simulation read the same data. Device names with nothing to say on a sheet, such as `LED5MM` or `MA03-''`, stay as the part's value but are hidden.
-- **The board files changed only in their links.** KiCad finds a footprint's symbol by its path, and the path changes when a symbol moves onto a sub-sheet. `relink_board.py` rewrites those `path` lines, 410 on the mainboard and 82 on the I/O board, which is what KiCad's "Re-link footprints" does. Copper, nets, placement and text are untouched; `pcb-relink-record.json` holds the hashes.
+- **The board files changed only in their links.** KiCad finds a footprint's symbol by its path, and the path changes when a symbol moves onto a sub-sheet. `relink_board.py` rewrites those `path` lines, 410 on the mainboard and 82 on the I/O board, which is what KiCad's "Re-link footprints" does, and adds one to each of the mainboard's seven mounting holes. Copper, nets, placement and text are untouched; `pcb-relink-record.json` holds the hashes.
 
 ## Results
 
@@ -27,9 +27,9 @@ From the last run of `verify_redraw.py --mutation`, recorded in [docs/schematic-
 | Pins compared with the original Eagle schematic | 1160 on 324 nets: none differs | 222 on 59 nets: none differs |
 | Pads open on the board | All open on the sheet too | All open on the sheet too |
 | ERC under the project rules | 0 violations | 0 violations |
-| DRC with parity | 335 violations, 1 unconnected, 120 parity: the same as revision 27 | 254, 1, 45: the same as revision 27 |
-| Board file against revision 27 | Only 410 `path` lines differ | Only 82 `path` lines differ |
-| Each footprint's link | 410, each to its own symbol | 82, each to its own symbol |
+| DRC with parity | 335 violations, 1 unconnected, 127 parity. As at revision 27, except that the holes' 7 "extra footprint" warnings became 14 mismatches, on value and BOM flag | 254, 1, 45: the same as revision 27 |
+| Board file against revision 27 | 410 `path` lines differ and 7 are added, nothing else | Only 82 `path` lines differ |
+| Each footprint's symbol and link | 417, each with a symbol and linked to its own | 82, each with a symbol and linked to its own |
 | File format and sheet instances | As KiCad 10.0.7 writes them, with pages in sheet order | The same |
 | One wire left out of each sheet in turn | The comparison failed on all 9 sheets | The comparison failed on all 3 sheets |
 
@@ -38,7 +38,7 @@ Opened by hand in the KiCad 10.0.7 editor, once, on the installed files:
 - **Loading:** both projects open with no error message and no format warning, and stay unmodified. Every sheet shows real symbols, and pages run 2 to 10 and 2 to 4.
 - **ERC in the editor:** 0 violations on both, with the same four ignored tests as revision 27.
 - **Net-name labels:** on the I/O board's MIDI sheet, a click on the spot of the 0.05 mm label `N$22` selects the pin under it, with no extra menu, and a click on the wire shows `N$22` as its connection name. Other labels weren't tried.
-- **Update PCB from Schematic, dialog read and closed, nothing applied:** no footprint needs a new link. Compared with revision 27, the only other change in its list is the new sheet names. The rest was already there at revision 27: on the mainboard, 70 value changes, 43 pads on `unconnected-` nets, 23 jumper pad groups and 7 footprints to remove; on the I/O board, 7 value changes, 38 pads on `unconnected-` nets and a warning about `IC24` pad 3. It doesn't change any other pad's net.
+- **Update PCB from Schematic, dialog read and closed, nothing applied:** it removes nothing, and it changes no pad's net except for moving open pads to `unconnected-` nets. New since revision 27: the new sheet names, and for each mounting hole a value of `~`, a BOM flag and its sheet name. `IC1` moves to another of its own units, because KiCad's choice of unit depends on the order of items on the sheet. The rest was already there at revision 27: on the mainboard, 70 value changes, 43 pads on `unconnected-` nets and 23 jumper pad groups; on the I/O board, 7 value changes, 38 pads on `unconnected-` nets and a warning about `IC24` pad 3.
 
 An earlier state of this revision, commit `ad65ff0`, opened with an error message. Its sheet instances named a top-level sheet other than the project's, its format numbers were older than KiCad writes, and `relink_board.py` gave every footprint on a sheet the same path. Only the editor showed these. `kicad-cli` netlists, ERC and DRC passed, and parity matches by reference. `verify_redraw.py` now checks all three.
 
@@ -64,10 +64,11 @@ No net differs. These are differences of presentation:
 | Envelope | VR6's section A drawn with the other pots | Marked as unused, with all its pins on ground as on the board |
 | All | Pots at the edge of the sheet | Beside the circuit they control, with their panel names kept |
 | All | No PWR_FLAG | Flags where a rail arrives through a connector, a diode or a resistor, for ERC |
+| CPU | Mounting holes `U$2`, `U$23`, `U$24`, `U$25`, `U$27`, `U$28` and `U$29` aren't on the sheet; they are only on the board | A frame with a pin-less symbol for each, out of the BOM, so that Update PCB doesn't delete them |
 
 ## Limits
 
-- **Don't apply "Update PCB from Schematic" with its default options.** "Delete footprints with no symbols" would remove the mainboard's seven 3.3 mm mounting holes, `U$2`, `U$23`, `U$24`, `U$25`, `U$27`, `U$28` and `U$29`, which have no symbols, as at revision 27. Applying it hasn't been tried.
+- **"Update PCB from Schematic" has been read but never applied.** At revision 27, with no symbols for them, it would have deleted the seven mounting holes.
 - **Parts on the same two nets look identical to the net checks.** R74 and R75, for example, could trade places unnoticed. Their names rest on the original sheet.
 - A net with one pin on the sheets can't show a wrong group, only a wrong name.
 - The Eagle nets in `data/<board>_eagle_nets.json` were read from `original-eagle/` by the parser used for the first import, not transcribed by a person.

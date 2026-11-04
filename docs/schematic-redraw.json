@@ -41,13 +41,14 @@
    "netted_pads_open": 0
   },
   {
-   "check": "mainboard: every footprint links to its own symbol",
+   "check": "mainboard: every footprint has a symbol and links to its own",
    "passed": true,
-   "footprints": 410,
-   "symbols": 410,
+   "footprints": 417,
+   "symbols": 417,
    "shared_paths": 0,
    "wrong": [],
-   "without_link": []
+   "without_link": [],
+   "without_symbol": []
   },
   {
    "check": "mainboard: ERC finds nothing under the project rules",
@@ -55,17 +56,17 @@
    "messages": 0
   },
   {
-   "check": "mainboard: DRC and schematic parity report what they reported at revision 27",
+   "check": "mainboard: DRC and schematic parity report what they reported at revision 27, apart from the mounting holes",
    "passed": true,
    "found": [
     335,
     1,
-    120
+    127
    ],
    "parity_types": {
-    "footprint_symbol_mismatch": 70,
+    "footprint_symbol_mismatch": 84,
     "net_conflict": 43,
-    "extra_footprint": 7
+    "extra_footprint": 0
    }
   },
   {
@@ -115,13 +116,14 @@
    "netted_pads_open": 0
   },
   {
-   "check": "ioboard: every footprint links to its own symbol",
+   "check": "ioboard: every footprint has a symbol and links to its own",
    "passed": true,
    "footprints": 82,
    "symbols": 82,
    "shared_paths": 0,
    "wrong": [],
-   "without_link": []
+   "without_link": [],
+   "without_symbol": []
   },
   {
    "check": "ioboard: ERC finds nothing under the project rules",
@@ -129,7 +131,7 @@
    "messages": 0
   },
   {
-   "check": "ioboard: DRC and schematic parity report what they reported at revision 27",
+   "check": "ioboard: DRC and schematic parity report what they reported at revision 27, apart from the mounting holes",
    "passed": true,
    "found": [
     254,

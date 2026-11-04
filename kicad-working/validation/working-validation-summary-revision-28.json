@@ -1,12 +1,12 @@
 {
-  "revision": "Working revision28: both schematics redrawn on sheets by block, footprints relinked; copper, nets, placement and models unchanged",
-  "created_utc": "2026-11-04T17:55:25.789590+00:00",
+  "revision": "Working revision28: both schematics redrawn on sheets by block, footprints relinked, the mounting holes given symbols; copper, nets, placement and models unchanged",
+  "created_utc": "2026-11-04T18:17:46.219942+00:00",
   "native_kicad_version": "10.0.7",
   "projects": {
     "mainboard": {
       "erc_errors": 0,
       "erc_warnings": 0,
-      "separate_schematic_parity_warnings": 120,
+      "separate_schematic_parity_warnings": 127,
       "erc_ignored_checks": [
         "footprint_filter",
         "four_way_junction",
@@ -472,10 +472,10 @@
     "mainboard/mainboard-import-fps.pretty/SIP9.kicad_mod": "4fad263ce898106ba175c887f9fa0727e4047abd78a928e32dd2fb324a567bd8",
     "mainboard/mainboard-import-fps.pretty/SSIP5.kicad_mod": "04c416963cb00adb9fcc994e45f410e4e98879390fdac0d3ed0579db6d9e15c5",
     "mainboard/mainboard-import-fps.pretty/TO92.kicad_mod": "99da721afd86004a7dc19853af8b9a52c1c66e308941fb7162e97d8d30bfc717",
-    "mainboard/mainboard.kicad_pcb": "f6ca3c40fcc166073d4930c891155ede962c0ad3bb8a9ff1ea4c4796c9f0a9be",
+    "mainboard/mainboard.kicad_pcb": "199b1f7169d77a1795845b61ff1de4d04c8a6cfde55ac8528df575a3faaecfea",
     "mainboard/mainboard.kicad_pro": "6a691ea0bfbe0cb7132b6377911c08d16d5809b232ff8bbbdfe35185eda4275d",
     "mainboard/mainboard.kicad_sch": "0a13de8d835d2ea3d7f93836cc823c64c6709b899e6dbfa73b7625d9dca3616a",
-    "mainboard/p02_cpu.kicad_sch": "e0f7d2c8865f44f753576dedcde69e8bb356d5fa3f412cc4249dbb0d6b6b6b3d",
+    "mainboard/p02_cpu.kicad_sch": "b705e3576e8de9b99bcbd77d16d31e52b505b6e5965ea3ea43f5c37eb4de8d8a",
     "mainboard/p03_encoders.kicad_sch": "48bffba66227dbb550f02d2db66540b196e5d4cd726d04ac99cb29c554089172",
     "mainboard/p04_switches.kicad_sch": "6645424cc8b127265563ecdfcd48b6dce6e4a0781948be21d6aac672fdfedc47",
     "mainboard/p05_leds.kicad_sch": "07a1e9f2b83c1c83d2c65b586becca280f39e00f43d7051fab83408b11cdc11e",
@@ -485,7 +485,7 @@
     "mainboard/p09_env.kicad_sch": "0e1118e42664ca991ae24e1aba713669ff0997654d423ff4ad268139e9d0e154",
     "mainboard/p10_mixer.kicad_sch": "107540429dab995f7e6b9b0006d3aabe1645c155db2bd7a3691f17eb821f04aa",
     "mainboard/sym-lib-table": "06d5aac26696ae7d9a45a8a0152620b85c18cc80074286cca32e8fe149e1c08e",
-    "mainboard/x0x.kicad_sym": "3d567b9f793debc889b35b558d08ea3ee7eeeacb3b6ea32322828583796afc1f"
+    "mainboard/x0x.kicad_sym": "7add02167fc4ef9032472aa8c0d4e981f98e5f751bc203c81fc5e5b880866ffc"
   },
   "model_references": 491,
   "previous_core_files": 361,
@@ -848,7 +848,7 @@
   ],
   "baseline_summary": "validation/working-validation-summary-revision-27.json",
   "baseline_summary_sha256": "efeb574f389634e306bd211acd29a1281ceb9e05febb026b99aa575b86236747",
-  "scope": "Schematic presentation only. Board files differ from revision 27 only in footprint-to-symbol path lines; DRC, parity and Gerbers are unchanged. Model, drill-fit and fabrication evidence stay those of revision 27.",
+  "scope": "Schematic presentation only. Board files differ from revision 27 only in footprint-to-symbol path lines; DRC and Gerbers are unchanged, and schematic parity changes only for the seven mounting holes. Model, drill-fit and fabrication evidence stay those of revision 27.",
   "limitations": [
     "Marking text is transcribed from one set of kit photographs; date and lot codes varied between kits.",
     "Logos are omitted; Source Code Pro approximates the vendors' marking fonts; ink colour is illustrative.",
@@ -884,7 +884,8 @@
     "Gerber differences from the original Eagle CAM semantics still recorded, not corrected: NPTH stop frame, SMD mask corner radius and via tenting.",
     "The I/O saved pour fill differs slightly from a fresh refill (about 1.9 mm2 in two places) and passes DRC; it was left as saved. The rear-plate datum lines stay in the board on Dwgs.User for the Blender datum.",
     "Eagle polygon pours are compared by outline, settings and connectivity; Eagle 4.13 pour fill geometry (thermal spokes, isolation) was not regenerated.",
-    "Nominal model checks and the Gerber comparison do not establish physical assembly; fabrication equivalence is to the original Eagle data, not to an inspected production board."
+    "Nominal model checks and the Gerber comparison do not establish physical assembly; fabrication equivalence is to the original Eagle data, not to an inspected production board.",
+    "Revision 28 gives the seven mainboard mounting holes symbols, so Update PCB no longer deletes them. Their 7 extra-footprint parity warnings became 14 mismatches, on value and BOM flag: 127 on the mainboard, against 120 at revision 27."
   ],
   "physical_fit_qualified": false
 }

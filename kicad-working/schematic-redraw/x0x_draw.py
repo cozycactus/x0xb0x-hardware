@@ -73,8 +73,8 @@ def pin(x, y, side, number, name='', sx=1, kind='passive', length=2.54):
     return f'(pin {kind} line (at {fmt(x * sx)} {fmt(-y)} {ang}) (length {length}) (name "{name}" {FONT}) (number "{number}" {FONT}))'
 
 
-def head(name, letter, power=False):
-    return (f'(symbol "{name}" {"(power global) " if power else ""}(pin_numbers (hide yes)) (pin_names (offset 0) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes) '
+def head(name, letter, power=False, in_bom=True):
+    return (f'(symbol "{name}" {"(power global) " if power else ""}(pin_numbers (hide yes)) (pin_names (offset 0) (hide yes)) (exclude_from_sim no) (in_bom {"yes" if in_bom else "no"}) (on_board yes) '
             f'(property "Reference" "{letter}" (at 0 2.54 0) {FONT}) (property "Value" "{name}" (at 0 -2.54 0) {FONT}) '
             f'(property "Footprint" "" (at 0 0 0) {HIDDEN}) (property "Datasheet" "" (at 0 0 0) {HIDDEN}) (property "Description" "" (at 0 0 0) {HIDDEN}) ')
 
@@ -119,6 +119,7 @@ TRIM = [line((-5.08, 0), (-2.54, 0)), line(*ZIG), line((2.54, 0), (5.08, 0)), li
 LED = DIODE + [line((-0.508, -1.778), (0.762, -3.048)), line((0.508, -1.778), (1.778, -3.048))]
 # A tact switch standing upright: pins 1 and 2 are one strip at the top, pins 3 and 4 one strip at the bottom.
 TACT = [line((-1.27, -2.54), (1.27, -2.54)), line((-1.27, 2.54), (1.27, 2.54)), line((0, 2.54), (2.032, -1.27))]
+HOLE = [('ring', (0, 0), 1.651), line((-2.54, 0), (2.54, 0)), line((0, -2.54), (0, 2.54))]
 
 
 def library():
@@ -213,7 +214,7 @@ class Sheet:
     def _at(self, pt):
         return self.pins[pt] if isinstance(pt, str) else self._xy(*pt)
 
-    def _symbol(self, ref, sym, x, y, rot, fields, angle=0, unit=1, just=None, pins=None, value=None, hide_value=False):
+    def _symbol(self, ref, sym, x, y, rot, fields, angle=0, unit=1, just=None, pins=None, value=None, hide_value=False, in_bom=True):
         x, y = self._xy(x, y)
         p = self.real[ref]
         self.used.add(sym)
@@ -223,7 +224,7 @@ class Sheet:
         val = p['value']
         shown = HIDDEN if (hide_value or not val or val in DEVICE_NAMES or "''" in val) else effects
         self.items.append(
-            f'(symbol (lib_id "{LIB}:{sym}") (at {x} {y} {rot}) (unit {unit}) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "{uid(self.file, "sym", ref, unit)}") '
+            f'(symbol (lib_id "{LIB}:{sym}") (at {x} {y} {rot}) (unit {unit}) (exclude_from_sim no) (in_bom {"yes" if in_bom else "no"}) (on_board yes) (dnp no) (uuid "{uid(self.file, "sym", ref, unit)}") '
             f'(property "Reference" "{ref}" (at {rx} {ry} {angle}) {effects}) (property "Value" "{val}" (at {vx} {vy} {angle}) {shown}) '
             f'(property "Footprint" "{p["fp"]}" (at {x} {y} 0) {HIDDEN}) (property "Datasheet" "" (at {x} {y} 0) {HIDDEN}) (property "Description" "" (at {x} {y} 0) {HIDDEN}) '
             + ' '.join(f'(pin "{n}" (uuid "{uid(self.file, "pin", ref, n)}"))' for n in numbers) + f' @INST:{ref}|{unit}@)')
@@ -363,6 +364,11 @@ class Sheet:
         for num, _name, px, py, *_ in pins:
             qx, qy = px * c - py * s, px * s + py * c
             self._pin(ref, num, x + qx, y - qy)
+
+    def hole(self, ref, x, y):
+        """A mounting hole: a footprint with no pins and no net. It has a symbol so that Update PCB doesn't delete it, and stays out of the BOM."""
+        self.project.lib.setdefault('HOLE', head('HOLE', 'H', in_bom=False) + f'(symbol "HOLE_0_1" {art(HOLE)}))')
+        self._symbol(ref, 'HOLE', x, y, 0, ((x, y - 3.81), (x, y + 3.81)), pins=[], in_bom=False)
 
     # ---- Wires and marks
     def route(self, *points):

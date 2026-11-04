@@ -106,6 +106,12 @@ def draw_cpu(d):
     d.route('J3.4', (299.72, 165.1), (299.72, 167.64), 'J3.3')
     d.rail('+5V', (299.72, 167.64), 'R')
 
+    # On the board but not on the original sheet. With no symbol, Update PCB would delete them.
+    d.block('Mounting holes', 143.51, 190.5, 261.62, 220.98)
+    for i, ref in enumerate(('U$2', 'U$23', 'U$24', 'U$25', 'U$27', 'U$28', 'U$29')):
+        d.hole(ref, 152.4 + 15.24 * i, 205.74)
+    d.note('3.3 mm holes: on the board only, not on the original sheet', 146.05, 215.9)
+
 
 def draw_encoders(d):
     d.dx, d.dy = 25.4, 25.4

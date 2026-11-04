@@ -6,8 +6,8 @@ Usage: relink_board.py <project folder> <board>
 
 KiCad ties a footprint to its symbol by the symbol's path, and the path changes when a sheet moves into a hierarchy. This is
 what KiCad's "Re-link footprints to schematic symbols" does: it rewrites each footprint's path (and sheetname and sheetfile,
-where a footprint has them), found by reference, and leaves copper, nets, placement and text alone. Footprints with no symbol
-keep their fields.
+where a footprint has them), found by reference, and leaves copper, nets, placement and text alone. A footprint with no path
+yet, such as a mounting hole, gets one where KiCad writes it. Footprints with no symbol keep their fields.
 """
 import re
 import subprocess
@@ -79,7 +79,9 @@ def main():
         c = comps[ref]
         n = f
         for field, value in (('path', c['path']), ('sheetname', c['sheetname']), ('sheetfile', c['sheetfile'])):
-            n, count = re.subn(rf'\({field} "[^"]*"\)', f'({field} "{value}")', n, count=1)
+            n, count = re.subn(rf'(\n\t\t)\({field} "[^"]*"\)', rf'\1({field} "{value}")', n, count=1)  # Not the sheetname of a zone inside the footprint
+            if field == 'path' and not count:
+                n, count = re.subn(r'(\n\t\t)\(duplicate_pad_numbers_are_jumpers', rf'\1(path "{value}")\1(duplicate_pad_numbers_are_jumpers', n, count=1)
             assert count == 1 or field != 'path', (ref, field)
         changed += 1
         parts.append(n)
