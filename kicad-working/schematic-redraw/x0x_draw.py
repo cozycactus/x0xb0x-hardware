@@ -111,6 +111,10 @@ PAIR_CB = CAPSULE + [
     line((-5.08, -0.635), (-7.62, -2.54), (-7.62, -5.08)), line((-5.08, 0.635), (-7.62, 2.54), (-7.62, 5.08)), solid((-7.62, 2.54), (-6.35, 2.413), (-6.985, 1.397), (-7.62, 2.54)),
     line((5.08, -0.635), (7.62, -2.54), (7.62, -5.08)), line((5.08, 0.635), (7.62, 2.54), (7.62, 5.08)), solid((7.62, 2.54), (6.35, 2.413), (6.985, 1.397), (7.62, 2.54))]
 PAIR_CB_PINS = [(-7.62, 7.62, 'B', '1', 'E1'), (-7.62, -7.62, 'T', '2', 'C1'), (0, 7.62, 'B', '3', 'B'), (7.62, -7.62, 'T', '4', 'C'), (7.62, 7.62, 'B', '5', 'E')]
+# The same pairs as SOT-363 chips: 1 E1, 2 B1, 3 C2, 4 E2, 5 B2, 6 C1. Each transistor keeps its place in the SIP symbol, and pads on one net are stacked.
+SOT_CE_PINS = [(-15.24, 0, 'L', '5', 'B'), (-7.62, -7.62, 'T', '3', 'C'), (0, 7.62, 'B', '1', 'E'), (0, 7.62, 'B', '4', 'E1'), (7.62, -7.62, 'T', '6', 'C1'), (15.24, 0, 'R', '2', 'B1')]
+SOT_CB_PINS = [(-7.62, 7.62, 'B', '4', 'E1'), (-7.62, -7.62, 'T', '3', 'C1'), (0, 7.62, 'B', '2', 'B'), (0, 7.62, 'B', '5', 'B1'), (7.62, -7.62, 'T', '6', 'C'), (7.62, 7.62, 'B', '1', 'E')]
+DNP = {'Q12', 'Q21', 'Q22', 'Q26'}  # The SIP pairs: the SMD chips beside them are the parts to fit, and the holes stay for the originals
 # A pot standing upright: pin 3 at the top, pin 1 at the bottom, the wiper to the right, the metal case to the left.
 ZIG_V = [(y, x) for x, y in ZIG]
 POT = [line(*ZIG_V), line((5.08, 0), (2.032, 0)), solid((1.016, 0), (2.286, -0.635), (2.286, 0.635), (1.016, 0)), line((0, -5.08), (0, -2.54)), line((0, 2.54), (0, 5.08))]
@@ -136,6 +140,8 @@ def library():
         'PAIR_CE': symbol('PAIR_CE', 'Q', PAIR_CE, PAIR_CE_PINS),
         'PAIR_CE_F': symbol('PAIR_CE_F', 'Q', PAIR_CE, PAIR_CE_PINS, -1),
         'PAIR_CB': symbol('PAIR_CB', 'Q', PAIR_CB, PAIR_CB_PINS),
+        'SOT_CE': symbol('SOT_CE', 'Q', PAIR_CE, SOT_CE_PINS),
+        'SOT_CB': symbol('SOT_CB', 'Q', PAIR_CB, SOT_CB_PINS),
         'TRIM': symbol('TRIM', 'TM', TRIM, [(-7.62, 0, 'L', '3', 'E'), (7.62, 0, 'R', '1', 'A'), (0, 7.62, 'B', '2', 'S')]),
     }
     reso = [line((0, -5.08), (0, -1.905)), line((0, 1.905), (0, 5.08)), line((-1.778, -1.905), (1.778, -1.905)), line((-1.778, 1.905), (1.778, 1.905)), line((-1.27, -1.016), (1.27, -1.016), (1.27, 1.016), (-1.27, 1.016), (-1.27, -1.016)), line((-5.08, 0), (-1.27, 0))]
@@ -206,6 +212,7 @@ class Sheet:
         self.used, self.touched, self.labelled = set(), set(), set()
         self.n = 0
         self.order = []  # pins in the order placed
+        self.alternates = set()  # pins of parts drawn apart from the circuit, joined to it by visible labels
 
     # ---- Basics
     def _xy(self, x, y):
@@ -224,7 +231,7 @@ class Sheet:
         val = p['value']
         shown = HIDDEN if (hide_value or not val or val in DEVICE_NAMES or "''" in val) else effects
         self.items.append(
-            f'(symbol (lib_id "{LIB}:{sym}") (at {x} {y} {rot}) (unit {unit}) (exclude_from_sim no) (in_bom {"yes" if in_bom else "no"}) (on_board yes) (dnp no) (uuid "{uid(self.file, "sym", ref, unit)}") '
+            f'(symbol (lib_id "{LIB}:{sym}") (at {x} {y} {rot}) (unit {unit}) (exclude_from_sim no) (in_bom {"yes" if in_bom else "no"}) (on_board yes) (dnp {"yes" if ref in DNP else "no"}) (uuid "{uid(self.file, "sym", ref, unit)}") '
             f'(property "Reference" "{ref}" (at {rx} {ry} {angle}) {effects}) (property "Value" "{val}" (at {vx} {vy} {angle}) {shown}) '
             f'(property "Footprint" "{p["fp"]}" (at {x} {y} 0) {HIDDEN}) (property "Datasheet" "" (at {x} {y} 0) {HIDDEN}) (property "Description" "" (at {x} {y} 0) {HIDDEN}) '
             + ' '.join(f'(pin "{n}" (uuid "{uid(self.file, "pin", ref, n)}"))' for n in numbers) + f' @INST:{ref}|{unit}@)')
@@ -309,6 +316,27 @@ class Sheet:
         self._symbol(ref, f'PAIR_{shape}' + ('_F' if flip else ''), x, y, 0, fields, just=just)
         for px, py, _, num, _name in pins:
             self._pin(ref, num, x + px * sx, y + py)
+
+    def sot(self, ref, x, y, shape='CE'):
+        """A SOT-363 pair standing in for a SIP pair, drawn apart from the circuit. Give each of its pins alt_out or rail."""
+        pins = SOT_CE_PINS if shape == 'CE' else SOT_CB_PINS
+        fields, just = (((x, y - 3.302), (x, y - 0.889)), None) if shape == 'CE' else (((x + 13.97, y - 1.27), (x + 13.97, y + 1.27)), 'left')
+        self._symbol(ref, f'SOT_{shape}', x, y, 0, fields, just=just, pins=[q[3] for q in pins])
+        seen = {}
+        for px, py, _, num, _name in pins:
+            if (px, py) in seen:
+                self._stack(ref, num, seen[(px, py)])
+            else:
+                seen[(px, py)] = num
+                self._pin(ref, num, x + px, y + py)
+            self.alternates.add(f'{ref}.{num}')
+
+    def alt_out(self, pin_name, net, side, length=2.54):
+        """A stub and a visible label from an alternate's pin. The net keeps its own name on the circuit it belongs to."""
+        had = net in self.labelled
+        self.out(pin_name, net, side, length)
+        if not had:
+            self.labelled.discard(net)
 
     def pot(self, ref, x, y, wiper_left=False):
         sx = -1 if wiper_left else 1
@@ -510,7 +538,8 @@ def name_nets(project):
     for s in project.sheets:
         first = {}
         for pin_name in s.order:
-            first.setdefault(pad_net[pin_name], s.pins[pin_name])
+            if pin_name not in s.alternates:
+                first.setdefault(pad_net[pin_name], s.pins[pin_name])
         for net, pt in first.items():
             if net is None or net in RAILS or net in s.labelled:
                 continue
@@ -542,7 +571,7 @@ def write_project(project, out, root_title, root_lines, rev):
             f'(title_block (title "{s.title}") (rev "{rev}") (company "x0xb0x {project.title_note}") (comment 1 "Drawn from the original Eagle schematic; nets checked against the board copper.") '
             f'(comment 2 "Copyright (c) 2005, Limor Fried. See http://www.ladyada.net/make/x0xb0x/"))\n'
             f'(lib_symbols {blocks})\n{body}\n(embedded_fonts no))\n')
-        x, y = 25 + 62 * (i % 4), 75 + 45 * (i // 4)
+        x, y = 25 + 40 * i, 75 + 45 * (i % 3)  # KiCad plots sheets in order of x, then y, so x must rise with the page number
         boxes.append(f'(sheet (at {x} {y}) (size 55 30) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type default)) (fill (color 0 0 0 0)) (uuid "{su}") '
                      f'(property "Sheetname" "{s.title}" (at {x} {y - 1} 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "{s.file}.kicad_sch" (at {x} {y + 31} 0) (effects (font (size 1.27 1.27)) (justify left top))) '
                      f'(instances (project "{name}" (path "/{top}" (page "{i + 2}")))))')

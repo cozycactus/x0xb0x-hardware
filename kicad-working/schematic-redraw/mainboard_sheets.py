@@ -571,6 +571,16 @@ def draw_cv_vco(d):
     d.out('J6.3', 'N$622', 'L', 2.54)
     d.note('CV and gate to the I/O board', 250.0, 12.7)
 
+    # Q26 as a SOT-363 chip, in the free corner of the sheet. The original's holes stay on the board.
+    d.block('SMD pair for Q26', 297.18, 182.88, 396.24, 233.68)
+    d.sot('Q126', 347.98, 208.28)
+    d.alt_out('Q126.5', 'N$99', 'L')
+    d.alt_out('Q126.3', 'N$113', 'T')
+    d.alt_out('Q126.1', 'N$101', 'B')
+    d.alt_out('Q126.6', 'N$98', 'T')
+    d.rail('+5.333V', 'Q126.2', 'R')
+    d.note('Fit Q126 or Q26, never both', 299.72, 229.87)
+
 
 def draw_vcf(d):
     d.dx, d.dy = 38.1, 15.24
@@ -802,6 +812,28 @@ def draw_vcf(d):
     d.route('D24.A', (284.48, 190.5))
     d.label('N$35', (284.48, 190.5))
     d.note('accent line, from R119 and VR7', 263.08, 196.85)
+
+    # Q22, Q12 and Q21 as SOT-363 chips. The originals' holes stay on the board.
+    d.block('SMD pairs', 304.8, 5.08, 370.84, 147.32)
+    d.sot('Q122', 337.82, 35.56, shape='CB')
+    d.alt_out('Q122.3', 'N$122', 'T')
+    d.alt_out('Q122.6', 'N$122', 'T')
+    d.alt_out('Q122.4', 'N$143', 'B')
+    d.alt_out('Q122.2', 'N$115', 'B')
+    d.alt_out('Q122.1', 'N$120', 'B')
+    d.sot('Q112', 337.82, 81.28)
+    d.alt_out('Q112.5', 'N$124', 'L')
+    d.alt_out('Q112.3', 'N$118', 'T')
+    d.alt_out('Q112.1', 'N$127', 'B')
+    d.alt_out('Q112.6', 'N$121', 'T')
+    d.alt_out('Q112.2', 'N$60', 'R')
+    d.sot('Q121', 337.82, 124.46)
+    d.alt_out('Q121.5', 'N$138', 'L')
+    d.alt_out('Q121.3', 'N$140', 'T')
+    d.alt_out('Q121.1', 'N$139', 'B')
+    d.alt_out('Q121.6', 'N$148', 'T')
+    d.alt_out('Q121.2', 'N$141', 'R')
+    d.note('Fit each chip or the SIP part it replaces, never both', 307.34, 143.51)
 
 
 def draw_vca(d):

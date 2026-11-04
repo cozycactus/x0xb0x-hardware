@@ -1,4 +1,4 @@
-"""Carry the revision-27 DIN function evidence forward with the revision-28 I/O file hashes.
+"""Carry the revision-27 DIN function evidence forward with the current I/O file hashes.
 
 Run:  python3 -I kicad-working/schematic-redraw/update_function_evidence.py
 """

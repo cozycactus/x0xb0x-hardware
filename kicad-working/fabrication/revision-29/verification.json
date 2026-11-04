@@ -1,0 +1,1532 @@
+{
+ "schema": 1,
+ "kicad_cli": "10.0.7",
+ "gerbv": "gerbv version v4.0",
+ "boards": {
+  "mainboard": {
+   "pcb_sha256": "8abfebab2acffe21d690fa84c66ef286e174812e223d24f5b5b6375a6e471d3d",
+   "passed": true,
+   "blocking_failures": [],
+   "checks": [
+    {
+     "check": "Every Gerber parses with only known commands",
+     "passed": true,
+     "unknown": {}
+    },
+    {
+     "check": "F_Cu: every pad flashed at its position with its reference, pad number and net",
+     "passed": true,
+     "expected": 1227,
+     "found": 1227,
+     "missing": [],
+     "extra": [],
+     "net_mismatch": []
+    },
+    {
+     "check": "F_Cu: pad aperture sizes equal the PCB pad sizes",
+     "passed": true,
+     "compared": 1203,
+     "macro_apertures_not_sized": 24,
+     "differences": []
+    },
+    {
+     "check": "F_Cu: via pads",
+     "passed": true,
+     "expected": 13,
+     "found": 13,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "F_Cu: every track and arc (ends, width, net)",
+     "passed": true,
+     "expected": 549,
+     "found": 549,
+     "non_conductor_draws": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "F_Cu: zone fill area per net equals the saved fill (0.2 %)",
+     "passed": true,
+     "gerber_mm2": {
+      "GND": 30455.0
+     },
+     "pcb_mm2": {
+      "GND": 30455.0
+     },
+     "differences": {}
+    },
+    {
+     "check": "B_Cu: every pad flashed at its position with its reference, pad number and net",
+     "passed": true,
+     "expected": 1203,
+     "found": 1203,
+     "missing": [],
+     "extra": [],
+     "net_mismatch": []
+    },
+    {
+     "check": "B_Cu: pad aperture sizes equal the PCB pad sizes",
+     "passed": true,
+     "compared": 1203,
+     "macro_apertures_not_sized": 0,
+     "differences": []
+    },
+    {
+     "check": "B_Cu: via pads",
+     "passed": true,
+     "expected": 13,
+     "found": 13,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "B_Cu: every track and arc (ends, width, net)",
+     "passed": true,
+     "expected": 2785,
+     "found": 2785,
+     "non_conductor_draws": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "B_Cu: zone fill area per net equals the saved fill (0.2 %)",
+     "passed": true,
+     "gerber_mm2": {},
+     "pcb_mm2": {},
+     "differences": {}
+    },
+    {
+     "check": "F_Mask: one opening per pad on the layer, none for the tented vias",
+     "passed": true,
+     "expected": 1234,
+     "found": 1234,
+     "draws": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "B_Mask: one opening per pad on the layer, none for the tented vias",
+     "passed": true,
+     "expected": 1210,
+     "found": 1210,
+     "draws": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "F_Paste: one opening per pad on the layer, none for the tented vias",
+     "passed": true,
+     "expected": 24,
+     "found": 24,
+     "draws": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "B_Paste: one opening per pad on the layer, none for the tented vias",
+     "passed": true,
+     "expected": 0,
+     "found": 0,
+     "draws": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "All vias tented on both sides (board setting)",
+     "passed": true,
+     "vias": 13,
+     "tenting": {
+      "front": true,
+      "back": true
+     }
+    },
+    {
+     "check": "mainboard-PTH.drl: every PTH hole at its position and size",
+     "passed": true,
+     "expected": 1216,
+     "found": 1216,
+     "slots": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "mainboard-NPTH.drl: every NPTH hole at its position and size",
+     "passed": true,
+     "expected": 7,
+     "found": 7,
+     "slots": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "Edge_Cuts draws equal the PCB Edge.Cuts segments and form closed contours",
+     "passed": true,
+     "draws": 4,
+     "pcb_segments": 4,
+     "contours": [
+      {
+       "closed": true,
+       "segments": 4,
+       "bbox": [
+        0.0,
+        0.0,
+        237.49,
+        180.34
+       ],
+       "size": [
+        237.49,
+        180.34
+       ]
+      }
+     ]
+    },
+    {
+     "check": "Edge_Cuts holds exactly one contour (the board)",
+     "passed": true,
+     "contours": 1,
+     "note": "a second contour would be routed by the fab as a separate shape"
+    },
+    {
+     "check": "Gerber job file: 2 copper layers, 1.6 mm, PCB edge size, every listed file present",
+     "passed": true,
+     "job_size": {
+      "X": 237.744,
+      "Y": 180.594
+     },
+     "pcb_edge_bbox_including_stroke": [
+      237.744,
+      180.594
+     ],
+     "job_layers": 2,
+     "job_thickness": 1.6,
+     "files": [
+      "mainboard-F_Cu.gbr",
+      "mainboard-B_Cu.gbr",
+      "mainboard-F_Paste.gbr",
+      "mainboard-B_Paste.gbr",
+      "mainboard-F_Silkscreen.gbr",
+      "mainboard-B_Silkscreen.gbr",
+      "mainboard-F_Mask.gbr",
+      "mainboard-B_Mask.gbr",
+      "mainboard-Edge_Cuts.gbr"
+     ],
+     "design_rules": [
+      {
+       "Layers": "Outer",
+       "PadToPad": 0.254,
+       "PadToTrack": 0.254,
+       "TrackToTrack": 0.254,
+       "MinLineWidth": 0.25,
+       "TrackToRegion": 0.254,
+       "RegionToRegion": 0.254
+      }
+     ]
+    },
+    {
+     "check": "gerbv re-export F_Cu: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      1240,
+      1240
+     ],
+     "draws": [
+      549,
+      549
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      4,
+      4
+     ],
+     "region_area_mm2": [
+      30455.03,
+      30454.99
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export B_Cu: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      1216,
+      1216
+     ],
+     "draws": [
+      2785,
+      2785
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      0,
+      0
+     ],
+     "region_area_mm2": [
+      0,
+      0
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export F_Mask: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      1234,
+      1234
+     ],
+     "draws": [
+      0,
+      0
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      0,
+      0
+     ],
+     "region_area_mm2": [
+      0,
+      0
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export B_Mask: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      1210,
+      1210
+     ],
+     "draws": [
+      0,
+      0
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      0,
+      0
+     ],
+     "region_area_mm2": [
+      0,
+      0
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export F_Paste: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      24,
+      24
+     ],
+     "draws": [
+      0,
+      0
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      0,
+      0
+     ],
+     "region_area_mm2": [
+      0,
+      0
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export B_Paste: empty layer, nothing to compare",
+     "passed": true,
+     "objects": 0
+    },
+    {
+     "check": "gerbv re-export F_Silkscreen: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      0,
+      0
+     ],
+     "draws": [
+      16668,
+      16668
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      70,
+      70
+     ],
+     "region_area_mm2": [
+      101.05,
+      101.05
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export B_Silkscreen: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      0,
+      0
+     ],
+     "draws": [
+      5064,
+      5064
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      92,
+      92
+     ],
+     "region_area_mm2": [
+      100.9,
+      100.9
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export Edge_Cuts: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      0,
+      0
+     ],
+     "draws": [
+      4,
+      4
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      0,
+      0
+     ],
+     "region_area_mm2": [
+      0,
+      0
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export PTH drill: same hits and tool sizes",
+     "passed": true,
+     "hits": [
+      1216,
+      1216
+     ],
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "gerbv re-export NPTH drill: same hits and tool sizes",
+     "passed": true,
+     "hits": [
+      7,
+      7
+     ],
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "Files have the byte sizes of the revision-29 Eagle comparison export (same PCB hash)",
+     "passed": true,
+     "files_compared": 12,
+     "differences": {},
+     "same_pcb_hash": true
+    },
+    {
+     "check": "Copper identical after kicad-cli --check-zones (saved zone fill is current)",
+     "passed": true,
+     "advisory": true,
+     "layers": {
+      "F_Cu": true,
+      "B_Cu": true
+     },
+     "regions": {}
+    },
+    {
+     "check": "DRC of the saved copper as plotted (no zone refill): no clearance or other copper violation",
+     "passed": true,
+     "violations": 0,
+     "types": {},
+     "first": [],
+     "violations_after_refill": 0,
+     "ignored_types": [
+      "silk_over_copper",
+      "silk_overlap",
+      "silk_edge_clearance",
+      "track_dangling",
+      "lib_footprint_issues"
+     ]
+    }
+   ],
+   "info": {
+    "file_functions": {
+     "F_Cu": "Copper,L1,Top",
+     "B_Cu": "Copper,L2,Bot",
+     "F_Mask": "Soldermask,Top",
+     "B_Mask": "Soldermask,Bot",
+     "F_Paste": "Paste,Top",
+     "B_Paste": "Paste,Bot",
+     "F_Silkscreen": "Legend,Top",
+     "B_Silkscreen": "Legend,Bot",
+     "Edge_Cuts": "Profile,NP"
+    },
+    "PTH_tools": {
+     "0.39": 7,
+     "0.6": 6,
+     "0.813": 228,
+     "0.9": 27,
+     "1.0": 781,
+     "1.016": 36,
+     "1.194": 92,
+     "1.27": 15,
+     "1.6": 8,
+     "2.184": 14,
+     "2.8": 2
+    },
+    "NPTH_tools": {
+     "3.302": 7
+    },
+    "board_size_mm": [
+     237.49,
+     180.34
+    ],
+    "F_Silkscreen": {
+     "draws": 16668,
+     "flashes": 0,
+     "regions": 70,
+     "line_widths_mm": [
+      0.1016,
+      0.12,
+      0.127,
+      0.1524,
+      0.1778,
+      0.18,
+      0.2032,
+      0.254,
+      0.3048,
+      0.4064,
+      0.6096
+     ],
+     "min_nonzero_width_mm": 0.1016,
+     "zero_width_draws": 0,
+     "draws_past_board_outline": 0,
+     "first_past_outline": []
+    },
+    "B_Silkscreen": {
+     "draws": 5064,
+     "flashes": 0,
+     "regions": 92,
+     "line_widths_mm": [
+      0.0508,
+      0.1016,
+      0.127,
+      0.1524,
+      0.2032,
+      0.254
+     ],
+     "min_nonzero_width_mm": 0.0508,
+     "zero_width_draws": 0,
+     "draws_past_board_outline": 0,
+     "first_past_outline": []
+    }
+   },
+   "measured": {
+    "board_size_mm": [
+     237.49,
+     180.34
+    ],
+    "copper_layers": 2,
+    "thickness_mm": 1.6,
+    "min_track_width_mm": 0.25,
+    "min_track_width_count": 81,
+    "min_drill_mm": 0.39,
+    "min_pad_drill_mm": 0.8128,
+    "max_drill_mm": 3.302,
+    "min_pad_annular_ring_mm": {
+     "value": 0.254,
+     "at": "IC14.1",
+     "pad": [
+      2.816,
+      1.408
+     ],
+     "drill": [
+      0.9,
+      0.9
+     ]
+    },
+    "min_via_annular_ring_mm": 0.2032,
+    "holes": {
+     "PTH_pads": 1203,
+     "vias": 13,
+     "PTH_total": 1216,
+     "NPTH": 7,
+     "slots": 0
+    },
+    "smd_pads": 24,
+    "footprints": {
+     "total": 421,
+     "top": 347,
+     "bottom": 74
+    },
+    "drc_measured_minimums": {
+     "clearance": {
+      "board_rule_mm": 0.254,
+      "runs": [
+       [
+        0.504,
+        499
+       ],
+       [
+        0.379,
+        499
+       ],
+       [
+        0.3165,
+        499
+       ],
+       [
+        0.2853,
+        499
+       ],
+       [
+        0.2696,
+        499
+       ],
+       [
+        0.2618,
+        499
+       ],
+       [
+        0.2579,
+        499
+       ],
+       [
+        0.256,
+        499
+       ],
+       [
+        0.255,
+        499
+       ],
+       [
+        0.2545,
+        0
+       ],
+       [
+        0.2547,
+        1
+       ]
+      ],
+      "min_mm": 0.254,
+      "rule_tested_mm": 0.2547,
+      "violations_at_that_rule": 1,
+      "items": [
+       [
+        "PTH pad 2 [N$243] of R77",
+        [
+         140.208,
+         121.6406
+        ]
+       ],
+       [
+        "Track [N$91] on B.Cu, length 2.9464 mm",
+        [
+         137.5156,
+         120.2436
+        ]
+       ]
+      ]
+     },
+     "hole_clearance": {
+      "board_rule_mm": 0.25,
+      "runs": [
+       [
+        0.5,
+        13
+       ]
+      ],
+      "min_mm": 0.4577,
+      "rule_tested_mm": 0.5,
+      "violations_at_that_rule": 13,
+      "items": [
+       [
+        "Via [LED_LATCH] on F.Cu - B.Cu",
+        [
+         73.0758,
+         72.8218
+        ]
+       ],
+       [
+        "Zone [GND] on F.Cu, priority 6",
+        [
+         217.7415,
+         131.471302
+        ]
+       ]
+      ]
+     },
+     "hole_to_hole": {
+      "board_rule_mm": 0.25,
+      "runs": [
+       [
+        0.5,
+        0
+       ],
+       [
+        1.0,
+        19
+       ]
+      ],
+      "min_mm": 0.8811,
+      "rule_tested_mm": 1.0,
+      "violations_at_that_rule": 19,
+      "items": [
+       [
+        "PTH pad 3 [N$127] of Q12",
+        [
+         85.2424,
+         117.0686
+        ]
+       ],
+       [
+        "Via [N$121] on F.Cu - B.Cu",
+        [
+         86.3,
+         115.9
+        ]
+       ]
+      ]
+     },
+     "copper_edge_clearance": {
+      "board_rule_mm": 0.5,
+      "runs": [
+       [
+        0.75,
+        2
+       ]
+      ],
+      "min_mm": 0.5005,
+      "rule_tested_mm": 0.75,
+      "violations_at_that_rule": 2,
+      "items": [
+       [
+        "Segment on Edge.Cuts",
+        [
+         0.0,
+         180.34
+        ]
+       ],
+       [
+        "Zone [GND] on F.Cu, priority 5",
+        [
+         237.5535,
+         112.4585
+        ]
+       ]
+      ]
+     }
+    }
+   },
+   "previews": {
+    "top": "mainboard-preview-top.png",
+    "bottom": "mainboard-preview-bottom.png"
+   }
+  },
+  "ioboard": {
+   "pcb_sha256": "ea9c726cf1f5ed60a5e4a91c12b001293151212898ae0af53c91a47ca4f4129b",
+   "passed": false,
+   "blocking_failures": [],
+   "checks": [
+    {
+     "check": "Every Gerber parses with only known commands",
+     "passed": true,
+     "unknown": {}
+    },
+    {
+     "check": "F_Cu: every pad flashed at its position with its reference, pad number and net",
+     "passed": true,
+     "expected": 229,
+     "found": 229,
+     "missing": [],
+     "extra": [],
+     "net_mismatch": []
+    },
+    {
+     "check": "F_Cu: pad aperture sizes equal the PCB pad sizes",
+     "passed": true,
+     "compared": 229,
+     "macro_apertures_not_sized": 0,
+     "differences": []
+    },
+    {
+     "check": "F_Cu: via pads",
+     "passed": true,
+     "expected": 2,
+     "found": 2,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "F_Cu: every track and arc (ends, width, net)",
+     "passed": true,
+     "expected": 48,
+     "found": 48,
+     "non_conductor_draws": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "F_Cu: zone fill area per net equals the saved fill (0.2 %)",
+     "passed": true,
+     "gerber_mm2": {
+      "GND": 7117.1
+     },
+     "pcb_mm2": {
+      "GND": 7117.1
+     },
+     "differences": {}
+    },
+    {
+     "check": "B_Cu: every pad flashed at its position with its reference, pad number and net",
+     "passed": true,
+     "expected": 261,
+     "found": 261,
+     "missing": [],
+     "extra": [],
+     "net_mismatch": []
+    },
+    {
+     "check": "B_Cu: pad aperture sizes equal the PCB pad sizes",
+     "passed": true,
+     "compared": 261,
+     "macro_apertures_not_sized": 0,
+     "differences": []
+    },
+    {
+     "check": "B_Cu: via pads",
+     "passed": true,
+     "expected": 2,
+     "found": 2,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "B_Cu: every track and arc (ends, width, net)",
+     "passed": true,
+     "expected": 458,
+     "found": 458,
+     "non_conductor_draws": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "B_Cu: zone fill area per net equals the saved fill (0.2 %)",
+     "passed": true,
+     "gerber_mm2": {},
+     "pcb_mm2": {},
+     "differences": {}
+    },
+    {
+     "check": "F_Mask: one opening per pad on the layer, none for the tented vias",
+     "passed": true,
+     "expected": 229,
+     "found": 229,
+     "draws": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "B_Mask: one opening per pad on the layer, none for the tented vias",
+     "passed": true,
+     "expected": 261,
+     "found": 261,
+     "draws": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "F_Paste: one opening per pad on the layer, none for the tented vias",
+     "passed": true,
+     "expected": 0,
+     "found": 0,
+     "draws": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "B_Paste: one opening per pad on the layer, none for the tented vias",
+     "passed": true,
+     "expected": 32,
+     "found": 32,
+     "draws": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "All vias tented on both sides (board setting)",
+     "passed": true,
+     "vias": 2,
+     "tenting": {
+      "front": true,
+      "back": true
+     }
+    },
+    {
+     "check": "ioboard-PTH.drl: every PTH hole at its position and size",
+     "passed": true,
+     "expected": 231,
+     "found": 231,
+     "slots": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "ioboard-NPTH.drl: every NPTH hole at its position and size",
+     "passed": true,
+     "expected": 0,
+     "found": 0,
+     "slots": 0,
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "Edge_Cuts draws equal the PCB Edge.Cuts segments and form closed contours",
+     "passed": true,
+     "draws": 4,
+     "pcb_segments": 4,
+     "contours": [
+      {
+       "closed": true,
+       "segments": 4,
+       "bbox": [
+        0.0,
+        0.0,
+        213.36,
+        44.45
+       ],
+       "size": [
+        213.36,
+        44.45
+       ]
+      }
+     ]
+    },
+    {
+     "check": "Edge_Cuts holds exactly one contour (the board)",
+     "passed": true,
+     "contours": 1,
+     "note": "a second contour would be routed by the fab as a separate shape"
+    },
+    {
+     "check": "Gerber job file: 2 copper layers, 1.6 mm, PCB edge size, every listed file present",
+     "passed": true,
+     "job_size": {
+      "X": 213.41,
+      "Y": 44.5
+     },
+     "pcb_edge_bbox_including_stroke": [
+      213.41,
+      44.5
+     ],
+     "job_layers": 2,
+     "job_thickness": 1.6,
+     "files": [
+      "ioboard-F_Cu.gbr",
+      "ioboard-B_Cu.gbr",
+      "ioboard-F_Paste.gbr",
+      "ioboard-B_Paste.gbr",
+      "ioboard-F_Silkscreen.gbr",
+      "ioboard-B_Silkscreen.gbr",
+      "ioboard-F_Mask.gbr",
+      "ioboard-B_Mask.gbr",
+      "ioboard-Edge_Cuts.gbr"
+     ],
+     "design_rules": [
+      {
+       "Layers": "Outer",
+       "PadToPad": 0.2,
+       "PadToTrack": 0.2,
+       "TrackToTrack": 0.2,
+       "MinLineWidth": 0.381,
+       "TrackToRegion": 0.2032,
+       "RegionToRegion": 0.2032
+      }
+     ]
+    },
+    {
+     "check": "gerbv re-export F_Cu: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      231,
+      231
+     ],
+     "draws": [
+      48,
+      48
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      3,
+      3
+     ],
+     "region_area_mm2": [
+      7117.07,
+      7117.06
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export B_Cu: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      263,
+      263
+     ],
+     "draws": [
+      458,
+      458
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      0,
+      0
+     ],
+     "region_area_mm2": [
+      0,
+      0
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export F_Mask: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      229,
+      229
+     ],
+     "draws": [
+      0,
+      0
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      0,
+      0
+     ],
+     "region_area_mm2": [
+      0,
+      0
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export B_Mask: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      261,
+      261
+     ],
+     "draws": [
+      0,
+      0
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      0,
+      0
+     ],
+     "region_area_mm2": [
+      0,
+      0
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export F_Paste: empty layer, nothing to compare",
+     "passed": true,
+     "objects": 0
+    },
+    {
+     "check": "gerbv re-export B_Paste: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      32,
+      32
+     ],
+     "draws": [
+      0,
+      0
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      0,
+      0
+     ],
+     "region_area_mm2": [
+      0,
+      0
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export F_Silkscreen: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      0,
+      0
+     ],
+     "draws": [
+      3519,
+      3519
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      34,
+      34
+     ],
+     "region_area_mm2": [
+      44.26,
+      44.26
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export B_Silkscreen: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      0,
+      0
+     ],
+     "draws": [
+      47,
+      47
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      0,
+      0
+     ],
+     "region_area_mm2": [
+      0,
+      0
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export Edge_Cuts: same flashes, draws and regions",
+     "passed": true,
+     "flashes": [
+      0,
+      0
+     ],
+     "draws": [
+      4,
+      4
+     ],
+     "draw_ends_unmatched": 0,
+     "regions": [
+      0,
+      0
+     ],
+     "region_area_mm2": [
+      0,
+      0
+     ],
+     "flash_missing": [],
+     "flash_extra": [],
+     "stderr": ""
+    },
+    {
+     "check": "gerbv re-export PTH drill: same hits and tool sizes",
+     "passed": true,
+     "hits": [
+      231,
+      231
+     ],
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "gerbv re-export NPTH drill: same hits and tool sizes",
+     "passed": true,
+     "hits": [
+      0,
+      0
+     ],
+     "missing": [],
+     "extra": []
+    },
+    {
+     "check": "Files have the byte sizes of the revision-29 Eagle comparison export (same PCB hash)",
+     "passed": true,
+     "files_compared": 12,
+     "differences": {},
+     "same_pcb_hash": true
+    },
+    {
+     "check": "Copper identical after kicad-cli --check-zones (saved zone fill is current)",
+     "passed": false,
+     "advisory": true,
+     "layers": {
+      "F_Cu": false,
+      "B_Cu": true
+     },
+     "regions": {
+      "F_Cu": [
+       {
+        "net": "GND",
+        "saved_mm2": 2047.21,
+        "refilled_mm2": 2048.35,
+        "vertices_changed": 37,
+        "changed_near_5mm_grid": [
+         [
+          50,
+          20,
+          20
+         ],
+         [
+          50,
+          15,
+          13
+         ]
+        ]
+       },
+       {
+        "net": "GND",
+        "saved_mm2": 3896.88,
+        "refilled_mm2": 3897.69,
+        "vertices_changed": 36,
+        "changed_near_5mm_grid": [
+         [
+          85,
+          35,
+          35
+         ]
+        ]
+       },
+       {
+        "net": "GND",
+        "saved_mm2": 1172.98,
+        "refilled_mm2": 1172.98,
+        "vertices_changed": 0,
+        "changed_near_5mm_grid": []
+       }
+      ]
+     }
+    },
+    {
+     "check": "DRC of the saved copper as plotted (no zone refill): no clearance or other copper violation",
+     "passed": true,
+     "violations": 0,
+     "types": {},
+     "first": [],
+     "violations_after_refill": 0,
+     "ignored_types": [
+      "silk_over_copper",
+      "silk_overlap",
+      "silk_edge_clearance",
+      "track_dangling",
+      "lib_footprint_issues"
+     ]
+    }
+   ],
+   "info": {
+    "file_functions": {
+     "F_Cu": "Copper,L1,Top",
+     "B_Cu": "Copper,L2,Bot",
+     "F_Mask": "Soldermask,Top",
+     "B_Mask": "Soldermask,Bot",
+     "F_Paste": "Paste,Top",
+     "B_Paste": "Paste,Bot",
+     "F_Silkscreen": "Legend,Top",
+     "B_Silkscreen": "Legend,Bot",
+     "Edge_Cuts": "Profile,NP"
+    },
+    "PTH_tools": {
+     "0.6": 2,
+     "0.813": 17,
+     "0.95": 4,
+     "1.0": 116,
+     "1.016": 27,
+     "1.2": 8,
+     "1.321": 28,
+     "1.6": 18,
+     "2.2": 2,
+     "2.54": 6,
+     "2.8": 2,
+     "3.2": 1
+    },
+    "NPTH_tools": {},
+    "board_size_mm": [
+     213.36,
+     44.45
+    ],
+    "F_Silkscreen": {
+     "draws": 3519,
+     "flashes": 0,
+     "regions": 34,
+     "line_widths_mm": [
+      0.1016,
+      0.127,
+      0.1341,
+      0.1524,
+      0.1778,
+      0.254,
+      0.3048,
+      0.6096
+     ],
+     "min_nonzero_width_mm": 0.1016,
+     "zero_width_draws": 0,
+     "draws_past_board_outline": 80,
+     "first_past_outline": [
+      [
+       0.997,
+       46.457
+      ],
+      [
+       0.997,
+       47.11
+      ],
+      [
+       -0.146,
+       47.11
+      ],
+      [
+       0.997,
+       47.6
+      ],
+      [
+       0.997,
+       48.253
+      ],
+      [
+       -0.146,
+       48.253
+      ],
+      [
+       0.997,
+       49.341
+      ],
+      [
+       0.997,
+       49.015
+      ]
+     ]
+    },
+    "B_Silkscreen": {
+     "draws": 47,
+     "flashes": 0,
+     "regions": 0,
+     "line_widths_mm": [
+      0.1016,
+      0.2032,
+      0.254
+     ],
+     "min_nonzero_width_mm": 0.1016,
+     "zero_width_draws": 0,
+     "draws_past_board_outline": 0,
+     "first_past_outline": []
+    }
+   },
+   "measured": {
+    "board_size_mm": [
+     213.36,
+     44.45
+    ],
+    "copper_layers": 2,
+    "thickness_mm": 1.6,
+    "min_track_width_mm": 0.381,
+    "min_track_width_count": 75,
+    "min_drill_mm": 0.6,
+    "min_pad_drill_mm": 0.8128,
+    "max_drill_mm": 3.2,
+    "min_pad_annular_ring_mm": {
+     "value": 0.254,
+     "at": "USB0.1",
+     "pad": [
+      1.458,
+      1.458
+     ],
+     "drill": [
+      0.95,
+      0.95
+     ]
+    },
+    "min_via_annular_ring_mm": 0.2032,
+    "holes": {
+     "PTH_pads": 229,
+     "vias": 2,
+     "PTH_total": 231,
+     "NPTH": 0,
+     "slots": 0
+    },
+    "smd_pads": 32,
+    "footprints": {
+     "total": 82,
+     "top": 81,
+     "bottom": 1
+    },
+    "drc_measured_minimums": {
+     "clearance": {
+      "board_rule_mm": 0.2032,
+      "runs": [
+       [
+        0.4532,
+        256
+       ],
+       [
+        0.3282,
+        194
+       ]
+      ],
+      "min_mm": 0.2037,
+      "rule_tested_mm": 0.3282,
+      "violations_at_that_rule": 194,
+      "items": [
+       [
+        "Track [N$17] on F.Cu, length 5.3340 mm",
+        [
+         13.208,
+         13.335
+        ]
+       ],
+       [
+        "Zone [GND] on F.Cu, priority 6",
+        [
+         65.035514,
+         41.73872
+        ]
+       ]
+      ]
+     },
+     "hole_clearance": {
+      "board_rule_mm": 0.25,
+      "runs": [
+       [
+        0.5,
+        38
+       ]
+      ],
+      "min_mm": 0.4069,
+      "rule_tested_mm": 0.5,
+      "violations_at_that_rule": 38,
+      "items": [
+       [
+        "Via [USB_RX] on F.Cu - B.Cu",
+        [
+         78.232,
+         41.148
+        ]
+       ],
+       [
+        "Zone [GND] on F.Cu, priority 6",
+        [
+         213.39175,
+         -0.03175
+        ]
+       ]
+      ]
+     },
+     "hole_to_hole": {
+      "board_rule_mm": 0.25,
+      "runs": [
+       [
+        0.5,
+        0
+       ],
+       [
+        1.0,
+        0
+       ],
+       [
+        1.5,
+        9
+       ]
+      ],
+      "min_mm": 1.05,
+      "rule_tested_mm": 1.5,
+      "violations_at_that_rule": 9,
+      "items": [
+       [
+        "PTH pad 4 [GND] of USB0",
+        [
+         72.878,
+         10.076
+        ]
+       ],
+       [
+        "PTH pad 1 [N$14] of USB0",
+        [
+         72.878,
+         12.076
+        ]
+       ]
+      ]
+     },
+     "copper_edge_clearance": {
+      "board_rule_mm": 0.5,
+      "runs": [
+       [
+        0.75,
+        39
+       ]
+      ],
+      "min_mm": 0.5005,
+      "rule_tested_mm": 0.75,
+      "violations_at_that_rule": 39,
+      "items": [
+       [
+        "Segment on Edge.Cuts",
+        [
+         0.0,
+         44.45
+        ]
+       ],
+       [
+        "Zone [GND] on F.Cu, priority 6",
+        [
+         65.035514,
+         41.73872
+        ]
+       ]
+      ]
+     }
+    }
+   },
+   "previews": {
+    "top": "ioboard-preview-top.png",
+    "bottom": "ioboard-preview-bottom.png"
+   }
+  }
+ }
+}

@@ -2,9 +2,9 @@
 
 These are the order packages for both x0xb0x boards: Gerbers, drills, drill maps, BOM and placement files. They were exported with KiCad 10.0.7 from `../../mainboard/mainboard.kicad_pcb` and `../../ioboard/ioboard.kicad_pcb` (revision 27, unchanged by this step). No fab house is chosen and nothing is ordered.
 
-These packages still apply at revision 28. That revision redrew the schematics and rewrote only the `path` lines that link footprints to symbols: all 18 Gerbers re-export identically apart from their creation dates, and the schematic gives the same BOM values (`../../schematic-redraw/README.md`). `verify_packages.py` accepts the relinked board files through `../../schematic-redraw/pcb-relink-record.json`.
+**Superseded by [revision 29](../revision-29/README.md).** Revision 29 changed the mainboard copper, so this mainboard package no longer matches the board file and its `verify_packages.py` now fails on the mainboard. It stays as the record of the revision that matches the original Eagle boards with nothing added.
 
-**Status: both packages are ready to order**, once the owner has made the choices in [mainboard/FAB-NOTES.md](mainboard/FAB-NOTES.md) and [ioboard/FAB-NOTES.md](ioboard/FAB-NOTES.md). The recommendations are 1.6 mm FR-4, 1 oz copper, lead-free HASL, green mask with white silkscreen, vias tented as exported, the fab's own electrical test, and no panelisation. A first export from revision 26 found two board defects; revision 27 corrects them (`../../validation/models-review-27/`):
+**Status at revision 27: both packages were ready to order**, once the owner has made the choices in [mainboard/FAB-NOTES.md](mainboard/FAB-NOTES.md) and [ioboard/FAB-NOTES.md](ioboard/FAB-NOTES.md). The recommendations are 1.6 mm FR-4, 1 oz copper, lead-free HASL, green mask with white silkscreen, vias tented as exported, the fab's own electrical test, and no panelisation. A first export from revision 26 found two board defects; revision 27 corrects them (`../../validation/models-review-27/`):
 
 - **Mainboard:** the saved ground pours predated revision 26's longer SIP9 pads and touched 23 of them. They are now refilled.
 - **I/O board:** the rear-plate datum was a second outline on Edge.Cuts. It is now on Dwgs.User.

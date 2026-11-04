@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "source_snapshot_date": "2026-10-17",
-  "scope": "Current private snapshot: KiCad working28 and Blender27, with order-ready fabrication packages for both boards. KiCad28 redraws both schematics on sheets by block and relinks footprints, leaving copper and nets unchanged. KiCad27 refills the mainboard ground pours, whose saved fill touched 23 of the lengthened SIP9 pads, and moves the I/O rear-plate datum from Edge.Cuts to Dwgs.User. KiCad26 gives the 27 SIP9 pads Eagle's 1.408x2.816mm size and puts the 461 name labels at the original smashed positions, with the Eagle names for the 11 references KiCad ends in 0; KiCad25 compares both boards' Gerbers and drills with the original Eagle 4.13 boards and declares the B3F-40XX switch strips as jumper pad groups. The17 ICs carry printed markings transcribed from the kit photographs; IC3 and IC2 sit in TE models of their original-BOM sockets; all212 fixed resistors carry the original kit colour bands; all39 radial electrolytics use Xicon XRL bodies. Original PCB/model transforms and all other components, LED spacers, complete enclosure and animation preserved. Immutable Blender7 through26 comparison baselines and source evidence retained. Probes, caches and redundant exports excluded.",
+  "source_snapshot_date": "2026-11-04",
+  "scope": "Current private snapshot: KiCad working29 and Blender27, with order-ready fabrication packages for both boards. KiCad29 adds four SOT-363 chips and their copper to the mainboard beside the rare SIP pairs, whose holes stay; every original pad, track, via and drill still matches the Eagle board, and Blender27 does not have the chips. KiCad28 redraws both schematics on sheets by block and relinks footprints, leaving copper and nets unchanged. KiCad27 refills the mainboard ground pours, whose saved fill touched 23 of the lengthened SIP9 pads, and moves the I/O rear-plate datum from Edge.Cuts to Dwgs.User. KiCad26 gives the 27 SIP9 pads Eagle's 1.408x2.816mm size and puts the 461 name labels at the original smashed positions, with the Eagle names for the 11 references KiCad ends in 0; KiCad25 compares both boards' Gerbers and drills with the original Eagle 4.13 boards and declares the B3F-40XX switch strips as jumper pad groups. The17 ICs carry printed markings transcribed from the kit photographs; IC3 and IC2 sit in TE models of their original-BOM sockets; all212 fixed resistors carry the original kit colour bands; all39 radial electrolytics use Xicon XRL bodies. Original PCB/model transforms and all other components, LED spacers, complete enclosure and animation preserved. Immutable Blender7 through26 comparison baselines and source evidence retained. Probes, caches and redundant exports excluded.",
   "files": {
     ".gitattributes": {
       "bytes": 190,
@@ -16,12 +16,12 @@
       "sha256": "73cc95f62a104053a2602ccc733fc88336b0f3f6329ac3e9bbab827aa26af6f6"
     },
     "PROJECT.json": {
-      "bytes": 2457,
-      "sha256": "6f763c0498d5ea038fbd9e5051700307ae2ab3c6c76dd9e8ed3b25f841d83457"
+      "bytes": 2502,
+      "sha256": "bf15654409c3906b044f143c44d7a029c8fb7048420f364e510aaf3b535a6ec9"
     },
     "README.md": {
-      "bytes": 31602,
-      "sha256": "a7b67555b40cc700107195586cddeb95596231179f6e3182ccfb916cac2bb877"
+      "bytes": 32037,
+      "sha256": "b9a710f6318dce8bef3eedf30e138273cf7d563bf564be38998e06b550d03d6c"
     },
     "docs/OPENING.md": {
       "bytes": 7914,
@@ -48,8 +48,8 @@
       "sha256": "c85b1ca281ddcec35b17e6a7cab5c00fe9272b72b4b6338b60ab9406aa57d8b9"
     },
     "docs/fabrication-readiness.json": {
-      "bytes": 18238,
-      "sha256": "a119b76af1d67e6eda09bdf4e7c90e8881a8a8016ce1d5d5464da6f83a04bbfb"
+      "bytes": 18632,
+      "sha256": "18980500caca2bb772c435d1adf2f7e1cc334e0736edca15655952bb2e621d82"
     },
     "docs/fresh-clone-verification.json": {
       "bytes": 2610,
@@ -100,8 +100,12 @@
       "sha256": "dbe266d7f3ac1445ba19608b4f01fbc8103e29b9ac0dbed561d441f541e78847"
     },
     "docs/schematic-redraw.json": {
-      "bytes": 3944,
-      "sha256": "39b0fcf3e93be321c88fb52d641d39498d142333bed73f834efd8352abffa5ca"
+      "bytes": 3948,
+      "sha256": "8d44ab336abb6963943c917c98b43766ebf1687d222662404cb2c742212827fb"
+    },
+    "docs/smd-sites.json": {
+      "bytes": 4445,
+      "sha256": "bddb7c7fee5b2177581159def5a98a7592d9d13cfd17a884549f794413bf86a0"
     },
     "docs/terminal-completion.json": {
       "bytes": 28183,
@@ -208,12 +212,12 @@
       "sha256": "282b88df6e2fed1d85d2057c10ecfbaee7be45a2e85a9614167fe06266b4cc6a"
     },
     "kicad-working/README.md": {
-      "bytes": 17138,
-      "sha256": "2e51191c50e05fbbb5ae3edf3ca3c41763d7c5c7a5672495fde8c64823e1ecb3"
+      "bytes": 17505,
+      "sha256": "cf5c444fa3f167cd06907de186fb7cd669d853fc36eae7aa8ff0bb0f2b76e7d9"
     },
     "kicad-working/adapters/ssip5-dual/README.md": {
-      "bytes": 13352,
-      "sha256": "ab9744cb16f9a819af683c926f41473953db406e05f78b7276e85bb66fe0deba"
+      "bytes": 13588,
+      "sha256": "87142d4fcb24a5368cae3a40183c5be1ba25732a6a0e99d393b4a852b1a4f0a8"
     },
     "kicad-working/adapters/ssip5-dual/build_adapter.py": {
       "bytes": 16063,
@@ -365,7 +369,7 @@
     },
     "kicad-working/adapters/ssip5-dual/make_package.py": {
       "bytes": 10398,
-      "sha256": "9f131ea600922dd29aec73b138a23e59eae108a90e1c63e4b7dac61b3d03c306"
+      "sha256": "18b14969aa54a2a9d69b0f990754af5044cde7c134f2f691edc0eafb868ea370"
     },
     "kicad-working/adapters/ssip5-dual/previews/cb-back.png": {
       "bytes": 15630,
@@ -385,7 +389,7 @@
     },
     "kicad-working/adapters/ssip5-dual/verification.json": {
       "bytes": 7141,
-      "sha256": "9a333a9191a136b403827eca6cdac9ccd77c3ed70ec8c7d3c46bf3c918491bee"
+      "sha256": "5ab855004a0f0fe9c62a968d07641c54e32f1da171741eb3ff986570050d5d9f"
     },
     "kicad-working/adapters/ssip5-dual/x0xb0x-adapter.pretty/SOT-363_Hand.kicad_mod": {
       "bytes": 2019,
@@ -396,8 +400,8 @@
       "sha256": "671a6c6dcd4920c6f8e66a2601bf0dd7bc03b42bec72f3d3d207d6c3e3aed6a6"
     },
     "kicad-working/fabrication/revision-27/README.md": {
-      "bytes": 6201,
-      "sha256": "9e3a30160a0dbba10962c7d389e34af18a3864c76880e8ff4896fc2bde7331c6"
+      "bytes": 6123,
+      "sha256": "074cce99df1466af03fb16c6a3b7ecb37c5a31c56fdca232da640fa3d3ad2e23"
     },
     "kicad-working/fabrication/revision-27/extract_board.py": {
       "bytes": 4249,
@@ -578,6 +582,190 @@
     "kicad-working/fabrication/revision-27/verify_packages.py": {
       "bytes": 30202,
       "sha256": "568010357c122987b2513295389d74fd893c15f557468bebced385832ec116ba"
+    },
+    "kicad-working/fabrication/revision-29/README.md": {
+      "bytes": 6465,
+      "sha256": "5e2c8fcbb68c56a5633293f8ba084e0f97cccbc72ebebd90be70dfef05c5c63d"
+    },
+    "kicad-working/fabrication/revision-29/extract_board.py": {
+      "bytes": 4249,
+      "sha256": "17187d35b7a22de17a05fe31595055a21f53b28a0a3025f0dc64e9abcbbdacbb"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/FAB-NOTES.md": {
+      "bytes": 5322,
+      "sha256": "339ac4fe9311d91f992d4281e49ee710e677ea56f39d8b9df81f8c5b09beec9a"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/assembly/ioboard-bom.csv": {
+      "bytes": 4469,
+      "sha256": "86a36b871366e1961a3172409724d5a1afe9c6cd0785a6794118901a0e1cac2e"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/assembly/ioboard-positions.csv": {
+      "bytes": 4815,
+      "sha256": "196a46450a15ee21f80c2d67e48b0d06b99d17314691552806a75691dcf83c64"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-B_Cu.gbr": {
+      "bytes": 40458,
+      "sha256": "20455db8649811557427789e9979002fdb55a0b90a38e7cea6d6d4590bf97d4c"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-B_Mask.gbr": {
+      "bytes": 9519,
+      "sha256": "70e5956d29c95b6b199f0d4d6ec355e58590fd9edfeb84859b141f8c76052bbe"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-B_Paste.gbr": {
+      "bytes": 1283,
+      "sha256": "6d67e64a0aa822702164922e3c0363dc765079727a52bef293eba7934722c376"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-B_Silkscreen.gbr": {
+      "bytes": 2755,
+      "sha256": "404aca2b1f5ce1186f57e40baf6ab6f6c8ff98763395ac59dee60b4e26eff255"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-Edge_Cuts.gbr": {
+      "bytes": 671,
+      "sha256": "0aa0b1f6ebb312a63b0f680d58236a14f42abf26b2b809ee6731c4b2b5b9fb6c"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-F_Cu.gbr": {
+      "bytes": 426115,
+      "sha256": "7cfa88509adb062d8eb89f56caecfa48f26c5f2533d7c8ab3a656ecb80f16ea8"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-F_Mask.gbr": {
+      "bytes": 7779,
+      "sha256": "074104e0ede03a3a9a23e60abd63b004a6417f8c1b50a29f5935379299b420bf"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-F_Paste.gbr": {
+      "bytes": 452,
+      "sha256": "5a31a7912a29efe505f470c3f558481e281665694718d3b4e354609a54b4fd1f"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-F_Silkscreen.gbr": {
+      "bytes": 174121,
+      "sha256": "c6934c41f686cea612c14875c4f4ebefed5396e8c2fa8fc97cd932e852692fc9"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-NPTH-drl_map.pdf": {
+      "bytes": 6104,
+      "sha256": "7b4603c6802b4900883b306c64f742623b064ac56532250111d206a74bc4c7dd"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-NPTH.drl": {
+      "bytes": 264,
+      "sha256": "aad2c0f10fa5444c691326946c41d451efe71b75c3c15ac9fe9dabe74bb4fbda"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-PTH-drl_map.pdf": {
+      "bytes": 23633,
+      "sha256": "d13747a16ba49acebaa78287400a2caca53af4b4974c1c88e03355f003e6879d"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-PTH.drl": {
+      "bytes": 4420,
+      "sha256": "a528941c74e7994d1805ff870448f8e8bd248e9b24c1f677a6c0e1ed927fae94"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-drill-report.txt": {
+      "bytes": 1024,
+      "sha256": "ee0ed4a0270c9be9fa22a4546f2ddb6a041db4a09a31a2c2c601280882999414"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/gerbers/ioboard-job.gbrjob": {
+      "bytes": 2686,
+      "sha256": "28aa3ffccb6863f219055ac1df7cc127d1a0b3bb618e6b515fee3b451b824900"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/ioboard-preview-bottom.png": {
+      "bytes": 59686,
+      "sha256": "242c7658efe119ff02ebdfd479d81f8538f2ae389bf2c01afdf94c616562a882"
+    },
+    "kicad-working/fabrication/revision-29/ioboard/ioboard-preview-top.png": {
+      "bytes": 94827,
+      "sha256": "b55a6288b95f0325773146da567c5532593b881780599410a6c5e11fca4c66b4"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/FAB-NOTES.md": {
+      "bytes": 6864,
+      "sha256": "2403b1eb34ceb357d48a27bc6f32dffa724abf48a426c3f1a808132c3fadb44a"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/assembly/mainboard-bom.csv": {
+      "bytes": 23355,
+      "sha256": "b7ad2b87fef71082b0da58769d54122e9f31390337ae5b1d0bac86105e0f21ee"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/assembly/mainboard-positions.csv": {
+      "bytes": 24828,
+      "sha256": "3ce0aa87eaff40fe73af162b2e95ecad7c81f8be257124f867e4eef4de69e95c"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-B_Cu.gbr": {
+      "bytes": 223162,
+      "sha256": "5f29a047450cba2827180b0c5a370f9c349c5c6fe02f4529a47a3c12a36c6e61"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-B_Mask.gbr": {
+      "bytes": 38194,
+      "sha256": "34df7ede9b424d94d47e5ad13c25db5b9af3e2e796db29e7852d5fda103beb26"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-B_Paste.gbr": {
+      "bytes": 454,
+      "sha256": "9b379aad9ae775f8a49f48f3f5909a4652f09e497df670a350cb7123d786b825"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-B_Silkscreen.gbr": {
+      "bytes": 264247,
+      "sha256": "1c1de22d839121417e0a5b8c5bcbc3deb993de5dd983f39e7bb8159af36c0278"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-Edge_Cuts.gbr": {
+      "bytes": 620,
+      "sha256": "acfe308390b14a80da8efe93fc827538d384f1b04fbfbe24a095f5332c463ee8"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-F_Cu.gbr": {
+      "bytes": 2194053,
+      "sha256": "c4637fa09a8626a0927ca64155f31544afcb9449e52ad48b7dca57f15ec2092e"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-F_Mask.gbr": {
+      "bytes": 39642,
+      "sha256": "74c2d39c0a1f47d60f81782bee453ead1d6a950098c2d7de24c2b1823869bce8"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-F_Paste.gbr": {
+      "bytes": 1882,
+      "sha256": "c0e78a44a804f93b1385748f5808f7b2ff637b5da6f2c770b7af5b12f5408a2c"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-F_Silkscreen.gbr": {
+      "bytes": 844398,
+      "sha256": "ac95889cd976a45a0722956e6368174b5196c2e0c30247e89b37380c3728f32d"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-NPTH-drl_map.pdf": {
+      "bytes": 11878,
+      "sha256": "cbd9a98ce5b6950ae8052b406a00bf9a6227865fc424de313e01a253289b5fcc"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-NPTH.drl": {
+      "bytes": 439,
+      "sha256": "332ef096558744ac04661d916209c4a64131e06b6f17030f896c461f58dbfe47"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-PTH-drl_map.pdf": {
+      "bytes": 60044,
+      "sha256": "65e76f456947898459bad92b64bba0609b0596d2d160a2a8e00efa03b95b36ad"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-PTH.drl": {
+      "bytes": 20153,
+      "sha256": "acfaaca069cbbf8a1c22598dd473a7dfbbee93255aae284b7726097b1476064f"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-drill-report.txt": {
+      "bytes": 1035,
+      "sha256": "530dbf91cce36c1b947fad95b27cfcce46dce662962b39c049cf3bebb82bdf84"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/gerbers/mainboard-job.gbrjob": {
+      "bytes": 2713,
+      "sha256": "7c0eff7b27b19ec6566a51505ade051d274abe02a9c32a677d5e306e00c63a5c"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/mainboard-preview-bottom.png": {
+      "bytes": 396482,
+      "sha256": "ae25c196f43cca5588ecce00fd5ef236981ec2c224cdb65ba78c5590781cdcd5"
+    },
+    "kicad-working/fabrication/revision-29/mainboard/mainboard-preview-top.png": {
+      "bytes": 431355,
+      "sha256": "a9ddf0edf87f0eb106b1b675e6d5c9690cf5dbca9f7c184537c00b1b62a9a21a"
+    },
+    "kicad-working/fabrication/revision-29/make_packages.py": {
+      "bytes": 7552,
+      "sha256": "29dcbfc1c1dbf651dcb020474cb60f9333b0d2d2547d5c7fefb5c49d4c89f8ca"
+    },
+    "kicad-working/fabrication/revision-29/package-record.json": {
+      "bytes": 19243,
+      "sha256": "d4e2b18f946f7ae0220a763a4eefad321ef5d7e09e64d90e3b46f86108f922d8"
+    },
+    "kicad-working/fabrication/revision-29/verification.json": {
+      "bytes": 29159,
+      "sha256": "05228696be120c83b2a468bc8c53dfe4edabb1e3e8a2fa32a9370e788da86f7b"
+    },
+    "kicad-working/fabrication/revision-29/verify_packages.py": {
+      "bytes": 29886,
+      "sha256": "9641026a199a4176d894e9cf54071ce1d2887e1cc8414ed593a14e86e1f8778c"
     },
     "kicad-working/ioboard/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.step": {
       "bytes": 140022,
@@ -1156,28 +1344,28 @@
       "sha256": "cdddaae967f0c730ae0059ff1e8132a43a7ad775ed1279c3412e780a0ce75045"
     },
     "kicad-working/ioboard/ioboard.kicad_sch": {
-      "bytes": 2430,
-      "sha256": "87746367e4731c9ae71c955f8ee5ee673052d0d452f151e8ebabb4a45545feff"
+      "bytes": 2434,
+      "sha256": "c199db0fd2e417ffe9d131372afdfb0b7db68063f68123b2a82c963e8de3ec3a"
     },
     "kicad-working/ioboard/p02_power.kicad_sch": {
       "bytes": 109223,
-      "sha256": "16a1a87df6779358e80f335c6d985a0609a9a199d88738684886de23225656f4"
+      "sha256": "02ff62b059d2a6c2433706ad3986225718eb8335069d1b48ac40837e8080fa6c"
     },
     "kicad-working/ioboard/p03_usb.kicad_sch": {
       "bytes": 70113,
-      "sha256": "d34345f0ad2e1e25a49bdf4885b68557061eba07f6fdaead56a2cb3b788986df"
+      "sha256": "453188fc03945a1a8a8772b51194c7ec6cd9291289de0c361edb96fe37d47ea2"
     },
     "kicad-working/ioboard/p04_midi_jacks.kicad_sch": {
       "bytes": 131344,
-      "sha256": "36dae3e649081faaa1d116baba87ea1d38fce94ca4fe6ddee12bd161feb0050b"
+      "sha256": "3a374a74630cceeaa2b4edb6a65090e5c3fd435c217e148507a39815c89d1e5e"
     },
     "kicad-working/ioboard/sym-lib-table": {
       "bytes": 280,
       "sha256": "3c06d0522392f8da11ee509594fa54b4a64e2a9863bb29e8187543879d324044"
     },
     "kicad-working/ioboard/x0x.kicad_sym": {
-      "bytes": 119891,
-      "sha256": "f28b422f8b2b577161404e304fe9de1492cee31804409c71e9792551c7edb780"
+      "bytes": 126176,
+      "sha256": "84a98f1ad6342f85e277dd7dcf7ed8459505d6fcc8dd4bec1635ef5bbea29f3f"
     },
     "kicad-working/mainboard/3dmodels/KiCad/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.step": {
       "bytes": 141407,
@@ -1206,6 +1394,10 @@
     "kicad-working/mainboard/3dmodels/KiCad/Package_DIP.3dshapes/DIP-8_W7.62mm.step": {
       "bytes": 277577,
       "sha256": "4a377a56a8d9e9c0b86c095ef9ecc1869ac19e7f5069a3247b294250bf4f235d"
+    },
+    "kicad-working/mainboard/3dmodels/KiCad/Package_TO_SOT_SMD.3dshapes/SOT-363_SC-70-6.step": {
+      "bytes": 101545,
+      "sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4"
     },
     "kicad-working/mainboard/3dmodels/KiCad/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step": {
       "bytes": 41814,
@@ -1836,8 +2028,8 @@
       "sha256": "37621a5fac69b737fdee4b5f0d6a4dffa83e97dc64cc3a66021d9ff02af8b381"
     },
     "kicad-working/mainboard/fp-lib-table": {
-      "bytes": 173,
-      "sha256": "0a926c3ab7fae92f4863f15c182220cc20905a2bb4f7e9eea21c90cf6ae8fee0"
+      "bytes": 315,
+      "sha256": "02aeb92e2f466355d886c6dc2a6b4a7c83916b160d18b27db07acddce7165a63"
     },
     "kicad-working/mainboard/mainboard-eagle-import.kicad_sym": {
       "bytes": 1098563,
@@ -2024,68 +2216,72 @@
       "sha256": "99da721afd86004a7dc19853af8b9a52c1c66e308941fb7162e97d8d30bfc717"
     },
     "kicad-working/mainboard/mainboard.kicad_pcb": {
-      "bytes": 4869015,
-      "sha256": "199b1f7169d77a1795845b61ff1de4d04c8a6cfde55ac8528df575a3faaecfea"
+      "bytes": 4904168,
+      "sha256": "8abfebab2acffe21d690fa84c66ef286e174812e223d24f5b5b6375a6e471d3d"
     },
     "kicad-working/mainboard/mainboard.kicad_pro": {
-      "bytes": 19071,
-      "sha256": "6a691ea0bfbe0cb7132b6377911c08d16d5809b232ff8bbbdfe35185eda4275d"
+      "bytes": 19075,
+      "sha256": "31673ac7b59f0c3b8159a75d5bba2179610cf8f19e9dfa81ec89c7f022c49786"
     },
     "kicad-working/mainboard/mainboard.kicad_sch": {
-      "bytes": 5633,
-      "sha256": "0a13de8d835d2ea3d7f93836cc823c64c6709b899e6dbfa73b7625d9dca3616a"
+      "bytes": 5644,
+      "sha256": "84e756025448f91e82b271bdfe5bccf1633f96612b6cb3b1e05d241a10fda9d7"
     },
     "kicad-working/mainboard/p02_cpu.kicad_sch": {
       "bytes": 109300,
-      "sha256": "b705e3576e8de9b99bcbd77d16d31e52b505b6e5965ea3ea43f5c37eb4de8d8a"
+      "sha256": "8dc7626899be419d673ef718bf68f9e25c09748784bfc6152d1668b089274950"
     },
     "kicad-working/mainboard/p03_encoders.kicad_sch": {
       "bytes": 65509,
-      "sha256": "48bffba66227dbb550f02d2db66540b196e5d4cd726d04ac99cb29c554089172"
+      "sha256": "32ec0d11c263e42624ce72fee99f7cf432b8ed8c873fb9d3d2bee5a70fdaad37"
     },
     "kicad-working/mainboard/p04_switches.kicad_sch": {
       "bytes": 148224,
-      "sha256": "6645424cc8b127265563ecdfcd48b6dce6e4a0781948be21d6aac672fdfedc47"
+      "sha256": "adf8d096ef5b397f4adbca92b7c5d0149b19e68bfef0336c3fb002667d679518"
     },
     "kicad-working/mainboard/p05_leds.kicad_sch": {
       "bytes": 188647,
-      "sha256": "07a1e9f2b83c1c83d2c65b586becca280f39e00f43d7051fab83408b11cdc11e"
+      "sha256": "0915871c2bb0334b41d1cfbef62314735305512d8a5dcddc5a0e633fa564cf0e"
     },
     "kicad-working/mainboard/p06_cv_vco.kicad_sch": {
-      "bytes": 190115,
-      "sha256": "d55785a099c0a8ea3fa868804c829e018346b020f4607f1a7b3cb2c3126db671"
+      "bytes": 197519,
+      "sha256": "b4923d3154959261ba9759a3f7cd8dd65a8c466cd79f4ce782f9cd987291a6cc"
     },
     "kicad-working/mainboard/p07_vcf.kicad_sch": {
-      "bytes": 150402,
-      "sha256": "1bd3dd6603fae1e0a8ada383ba538f503e9776a9b2e7a37d839603f609510b35"
+      "bytes": 166920,
+      "sha256": "e87483d83f9360a53e87d8aacc967a380ff2731c09f60f58bb439a6fd27c009d"
     },
     "kicad-working/mainboard/p08_vca.kicad_sch": {
       "bytes": 92761,
-      "sha256": "93edd48a6f255c96401de24b80b96c4896d89b275b3d4a003fae6d714e15d9d6"
+      "sha256": "16c68868a4b845e548b29ed5e16c2da43b2d7c838590c738855c7bd924930951"
     },
     "kicad-working/mainboard/p09_env.kicad_sch": {
       "bytes": 103368,
-      "sha256": "0e1118e42664ca991ae24e1aba713669ff0997654d423ff4ad268139e9d0e154"
+      "sha256": "77de6be3a323f1fe6959773e03769b5b3ba9a0399a64ff138cca44f2ac1fef11"
     },
     "kicad-working/mainboard/p10_mixer.kicad_sch": {
       "bytes": 87884,
-      "sha256": "107540429dab995f7e6b9b0006d3aabe1645c155db2bd7a3691f17eb821f04aa"
+      "sha256": "2931e04f3a3ca1641e388d7ab4f1a833f0707ed904634c98d5ae63b68f125992"
     },
     "kicad-working/mainboard/sym-lib-table": {
       "bytes": 284,
       "sha256": "06d5aac26696ae7d9a45a8a0152620b85c18cc80074286cca32e8fe149e1c08e"
     },
+    "kicad-working/mainboard/x0x-smd.pretty/SOT-363_Hand.kicad_mod": {
+      "bytes": 2105,
+      "sha256": "ac8cc59bffceacf417f43436ed5c5be8ee0a1d62a790308f11bf464ef4f0a8de"
+    },
     "kicad-working/mainboard/x0x.kicad_sym": {
-      "bytes": 141138,
-      "sha256": "7add02167fc4ef9032472aa8c0d4e981f98e5f751bc203c81fc5e5b880866ffc"
+      "bytes": 147423,
+      "sha256": "317fb301816c813b89b0d9c4ba0b2b5b7c4920aaa61a15aff1734afb0fc51cf9"
     },
     "kicad-working/schematic-redraw/README.md": {
-      "bytes": 9253,
-      "sha256": "a3003d41dc1b3a52143936a0495a82da418faee2d2a4c5bf1ed6b2478dac5c9d"
+      "bytes": 10248,
+      "sha256": "c287d78e9dd8c81de92667847549b8e07058b9e5c6ec4326285e10d1711f4649"
     },
     "kicad-working/schematic-redraw/build.py": {
       "bytes": 2013,
-      "sha256": "8ac24fd5377bea4d514c081a8552a97a2032b83d85da8e9b987062ace0a95211"
+      "sha256": "e47119d3ac1daba95cd578ffa790fa68c920fde2ece40bfd2965ce909aae92ed"
     },
     "kicad-working/schematic-redraw/check_nets.py": {
       "bytes": 3783,
@@ -2093,7 +2289,7 @@
     },
     "kicad-working/schematic-redraw/current-function-source-evidence.json": {
       "bytes": 41703,
-      "sha256": "166feb77b3082fb28f02155babd3adc0edeedbf6009dcc1cb1df239ed3b219c8"
+      "sha256": "16a8c1ed1be51f2f59fd463623e42c21f4148de35a2b2f7096b5d39b38464c95"
     },
     "kicad-working/schematic-redraw/data/ioboard_eagle_nets.json": {
       "bytes": 5656,
@@ -2108,8 +2304,8 @@
       "sha256": "be86c3e558391f4a37d833cf91fb8780416e1793e05076fe11af83bc7da3412c"
     },
     "kicad-working/schematic-redraw/data/mainboard_parts.json": {
-      "bytes": 138629,
-      "sha256": "01cff6effc8b4ab2644d9666b8eb1ecdd71fd0bf460f1ae700038b70da33e007"
+      "bytes": 140160,
+      "sha256": "625b3a2d701234309d92b3ebfbea775b802205e3b615eed5203bafe3a86c7c3e"
     },
     "kicad-working/schematic-redraw/extract_parts.py": {
       "bytes": 2882,
@@ -2120,20 +2316,20 @@
       "sha256": "2bf3dfe398903170893836ae703e9ae8eadb8fbb4ad59ff7926e9f0a4e34e1fd"
     },
     "kicad-working/schematic-redraw/ioboard-schematic.pdf": {
-      "bytes": 278310,
-      "sha256": "86cf2bd16b6db9dd66f76801ca40419a22fc5bf0013cf2a8618c0aff431b6391"
+      "bytes": 278319,
+      "sha256": "53dd97464927687f13f87aa2eeb9c7791349797e92d818f9bce163f69d825306"
     },
     "kicad-working/schematic-redraw/ioboard_sheets.py": {
       "bytes": 15516,
       "sha256": "01cfe5dc033e199679a737cf7d0dc4f58331e3c9b66eab555c3322f8d58518a1"
     },
     "kicad-working/schematic-redraw/mainboard-schematic.pdf": {
-      "bytes": 930485,
-      "sha256": "a260548e0efb089c7083e9110284e6a57419d35802756dbfc2dc5a4671274554"
+      "bytes": 948884,
+      "sha256": "d117a399ce97f20bd563ea7424d93c7ada4e3d52e4bdb2668dacca4848e83410"
     },
     "kicad-working/schematic-redraw/mainboard_sheets.py": {
-      "bytes": 52969,
-      "sha256": "a09067af88d2494c69e6f7d666469ce70de3d5454f8413df3d1cf89d463e6bb4"
+      "bytes": 54316,
+      "sha256": "4bc4e7ba937dcc8ce523a61cac1ba29c0f47d81af98664b4e2eaf0c90b1af996"
     },
     "kicad-working/schematic-redraw/oldlib.py": {
       "bytes": 2277,
@@ -2152,20 +2348,56 @@
       "sha256": "affbb538373babf32f5adebeae28aecfdc529bf0851a548e2de7f50f067e3d10"
     },
     "kicad-working/schematic-redraw/update_function_evidence.py": {
-      "bytes": 1356,
-      "sha256": "ab071353b28050e76ba79938c3906e88b050da8ef0b2aa668c29f620771d5209"
+      "bytes": 1352,
+      "sha256": "a22750d7350c5f7b4deb2b45dd1dae816543a3f8bfb5c79d7d322dd3060e2a5c"
     },
     "kicad-working/schematic-redraw/verify_current_functions.py": {
-      "bytes": 1003,
-      "sha256": "86f4ebe5f0e35f95982fe49b16234bd2baa827168bc8f9b4e53046205c47b541"
+      "bytes": 1021,
+      "sha256": "28878963c074a7c5d05ba6743174cf1367380245fbbf79d3b718bf4c6a742bce"
     },
     "kicad-working/schematic-redraw/verify_redraw.py": {
-      "bytes": 12328,
-      "sha256": "e8739f869a1173193fd74df4b81d6c81cdfc05d63aef4e1ed71c62699031ff60"
+      "bytes": 12791,
+      "sha256": "01688b2fc72a35095b8d717f070b6ca48a8c00c8207e0deb27abec587ec573b2"
     },
     "kicad-working/schematic-redraw/x0x_draw.py": {
-      "bytes": 33293,
-      "sha256": "a64d080ff7702eb45911f1552bf533e18d69588aed0bbdcf2f457dca4bdce2c2"
+      "bytes": 35444,
+      "sha256": "c67518f85b3d4c36d5322e050a9e413d5ecbdac45bf99fb0a48f65e8c898d580"
+    },
+    "kicad-working/smd-sites/README.md": {
+      "bytes": 6674,
+      "sha256": "ccfb2e7631d51f8dd78a3615e67e35da35bc5d17c7a9e3775d038b8439a866bf"
+    },
+    "kicad-working/smd-sites/board-record.json": {
+      "bytes": 576,
+      "sha256": "42b1a3c09cc66900a07b39e1704584f2b6d4541a98ff0a0ab2303faae9a24087"
+    },
+    "kicad-working/smd-sites/compare_board.py": {
+      "bytes": 5013,
+      "sha256": "c66c5da6203f92cbc78fbee8d58810ca7a9fb0ce1933aedb1c557b19f26415d2"
+    },
+    "kicad-working/smd-sites/compare_gerbers.py": {
+      "bytes": 4118,
+      "sha256": "6e6bbd01c07da93163d0115ed6c4d0a6f98755dadff9adb654a4c4b2b4d0ba3a"
+    },
+    "kicad-working/smd-sites/finish_board.py": {
+      "bytes": 2359,
+      "sha256": "cc72b7c231b1b3f3a425eb2a35e271e740ee41c38fd2c60fdc00579f3dddc50a"
+    },
+    "kicad-working/smd-sites/fit-check.json": {
+      "bytes": 2188,
+      "sha256": "2e56a7ab3a5b93df201f22b89af826c2fdccf096ef30121c6ee2e8f85450bdf1"
+    },
+    "kicad-working/smd-sites/fit_check.py": {
+      "bytes": 7578,
+      "sha256": "27c9424e2fc2de75982e477f4f60be08d5b64da497ce79ba529fb360a6ba58a4"
+    },
+    "kicad-working/smd-sites/place_chips.py": {
+      "bytes": 6595,
+      "sha256": "f0f89bec93cf07fd82fb12b2143addeeb6cc5a70b48b5bc6611bde6bb81be07d"
+    },
+    "kicad-working/smd-sites/rework_sites.py": {
+      "bytes": 4583,
+      "sha256": "4380b8bd5da901679b6851dbbbd84b6f68a5a2e83ca9e74a08474ccc3372a807"
     },
     "kicad-working/validation/2sc1583-review/README.md": {
       "bytes": 1479,
@@ -5271,6 +5503,94 @@
       "bytes": 4214,
       "sha256": "b9cd7600224d608ee96d5144f1c61b847771ef523ca644ada72a5d62bffce0e8"
     },
+    "kicad-working/validation/models-review-29/README.md": {
+      "bytes": 2204,
+      "sha256": "473bf0d83cfc072658c85372ba3a2ea6aabebbb665c435e15dfda32f3ac00e70"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/compare.py": {
+      "bytes": 15414,
+      "sha256": "b741c6d62c5e7076a1fa0827f2b2e75c6163722263c0b841f54c702341c45803"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/connection-gap-review.json": {
+      "bytes": 7146,
+      "sha256": "abfdaa114b2e7dca81b2f96e12c3ee6f5fbcbd739beb67b86be3896a40e9eb93"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/connection_gaps.py": {
+      "bytes": 4561,
+      "sha256": "92841469fd7a9f92ed33aac2d72abfb01fc02349df92190e38c7f02d99ac1b6a"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/drills.py": {
+      "bytes": 936,
+      "sha256": "55944d79d2bbc1b91cac66ade9eacdb5c94fd2556420009a6ce0591824b1bbfc"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/eagle_islands.py": {
+      "bytes": 3458,
+      "sha256": "cb71098de755bc3113195b21864b6713d1879faace7a068edd79f5f10b0818e9"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/eagle_model.py": {
+      "bytes": 10637,
+      "sha256": "3fd4f700bb01ee797fccdd572af1e8d67f777cbab202aac2baba409f648eac61"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/excellon.py": {
+      "bytes": 959,
+      "sha256": "2e706b5a9ba79564fb126be1abf9604a8b73ca3b713e9b24fb82b8e3b90c3554"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/gerber-comparison.json": {
+      "bytes": 84383,
+      "sha256": "065d599e6bec63cd3c94f6d065c42aab529d881c5838f495d3297f9c47a40d54"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/gerber.py": {
+      "bytes": 5726,
+      "sha256": "b6c76ad46a32203ed3a499c6e57d8960a2c5d5b5a0252f3f8ed9c591758ced68"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/kicad_extract.py": {
+      "bytes": 4496,
+      "sha256": "dd018da520601328a061a0f34e5c2408975a7c221175785bf86c2bde48c00e08"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/run_comparison.py": {
+      "bytes": 4459,
+      "sha256": "d6b91781d8d4b5a2f4961675ec7e89bc8ee9fcd3a421d05fcd2308611ff57329"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/silk.py": {
+      "bytes": 5013,
+      "sha256": "0f7844d15b116e68f3c763acdee009dab92075a64941ccd5df8b9525aabb8f70"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/source-decode-crosscheck.json": {
+      "bytes": 2808,
+      "sha256": "fcc55b089fa86235b00a9b15d26461e7a2db9f4730407d376a1967e3fd5bef99"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/source_crosscheck.py": {
+      "bytes": 3346,
+      "sha256": "a284701fc47c873fe6f22bb8e9ac8e538f25c8541b1210a94d0d0228ce6f394f"
+    },
+    "kicad-working/validation/models-review-29/fabrication-comparison/zones.py": {
+      "bytes": 3360,
+      "sha256": "a7faa0bff5a89aad5c203254249766bd9d6f395a6a21ea5ba7f82d6abce1a4d3"
+    },
+    "kicad-working/validation/models-review-29/ioboard-drc.json": {
+      "bytes": 222794,
+      "sha256": "8da366b4c24397379becbae43c3e7e3da2ccb6ab7d62748bc945d4612873cf27"
+    },
+    "kicad-working/validation/models-review-29/ioboard-erc.json": {
+      "bytes": 1570,
+      "sha256": "9c5d32b863754dd75064ee309d1923df44d29df02eca1411178505b48bd306e4"
+    },
+    "kicad-working/validation/models-review-29/mainboard-drc.json": {
+      "bytes": 320214,
+      "sha256": "ece633d724a1f26f93eca389a2b58b88c82a1f408c3b1c51a9c6f2898580db6f"
+    },
+    "kicad-working/validation/models-review-29/mainboard-erc.json": {
+      "bytes": 2692,
+      "sha256": "80d587124858b9fd9e36681ba23408a9703449fbb17ce5c3fbd3e69ec64a7b01"
+    },
+    "kicad-working/validation/models-review-29/native-run-records.json": {
+      "bytes": 3203,
+      "sha256": "e26032aa9a88eeba817fb2c0cbe62c564b5eb4d631019c385c8b3afd9695bee6"
+    },
+    "kicad-working/validation/models-review-29/run_native_checks.py": {
+      "bytes": 2757,
+      "sha256": "001aab76ad8ae543f39bc80500ab95929c550ef8e0f2877b44c4a709d45db35e"
+    },
     "kicad-working/validation/nys216-hardware-quality/README.md": {
       "bytes": 4605,
       "sha256": "9624913389c724670454900b6177f99029051f5cd249d2fe7d24f41e86e3bad5"
@@ -5710,6 +6030,10 @@
     "kicad-working/validation/working-validation-summary-revision-28.json": {
       "bytes": 75015,
       "sha256": "26c1922742a36c140dbc548afa6daf5a69f1c665ab179c12559fac4d6d45badb"
+    },
+    "kicad-working/validation/working-validation-summary-revision-29.json": {
+      "bytes": 76228,
+      "sha256": "f6c0397dabaedf55c18192bd679b51873fd07f7844dc0415cadab6b11aebdf2f"
     },
     "kicad-working/validation/working-validation-summary.json": {
       "bytes": 80346,
@@ -11085,7 +11409,7 @@
     },
     "scripts/verify_kicad_dependencies.py": {
       "bytes": 12563,
-      "sha256": "661f4eb5737299f1b9e21ef79e006df5b4c5b3d4f8a977f4a30d8d1cbcd614a3"
+      "sha256": "08e1beb5342e4981f01ddf88197af47b79663d884d5409a4af59c30a5044357b"
     },
     "scripts/verify_project.py": {
       "bytes": 2589,

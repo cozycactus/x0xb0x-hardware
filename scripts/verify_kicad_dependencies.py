@@ -11,7 +11,7 @@ import sys
 
 EXPECTED = {
     "mainboard": {
-        "models": 409,
+        "models": 413,
         "mechanical": {"U$2", "U$23", "U$24", "U$25", "U$27", "U$28", "U$29"},
         "optional": {"IC15A0"},
     },
@@ -244,7 +244,7 @@ def main():
 
     print(json.dumps({
         "passed": not failures, "repository_root": str(root), "boards": boards,
-        "fitted_model_references_expected": 491, "failures": failures,
+        "fitted_model_references_expected": 495, "failures": failures,
         "scope": "Read-only library and model resolution within this checkout. "
                  "No global KiCad libraries or original workspace required. "
                  "Does not validate ERC, DRC, model geometry or physical fit. "

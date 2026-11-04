@@ -4,6 +4,8 @@ Small boards that replace the 2SC1583 at Q12, Q21 and Q26 and the 2SC2291 at Q22
 
 **Status: designed and checked in KiCad and in simulation. Nothing has been ordered, built or measured.** Every electrical figure below is a model value.
 
+**Since revision 29 the mainboard carries the same chips directly: see [the SMD sites](../../smd-sites/README.md).** These adapters remain a fallback for a site whose chip can't be used. Fit an adapter only where the chip is left off.
+
 | Site | Board | Chip | Why this chip |
 |---|---|---|---|
 | Q12 | CE | BCM847BS | Vbe matching is what counts here; the datasheet promises 2 mV at 2 mA |

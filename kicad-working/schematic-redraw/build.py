@@ -27,7 +27,7 @@ def build(board, out):
     problems = X.name_nets(p)
     for s in p.sheets:
         s.finish()
-    X.write_project(p, out, root_title, root_lines, 'K28')
+    X.write_project(p, out, root_title, root_lines, 'K29')
     print(f'{board}: {len(p.sheets)} sheets; nets with no label where one is needed: {len(problems)}')
     for t in problems[:40]:
         print('  ', t)

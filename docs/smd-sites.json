@@ -1,0 +1,191 @@
+{
+ "scope": "Four SOT-363 dual transistors added to the mainboard next to the SIP pairs they replace. Files and KiCad checks only: nothing was built or measured.",
+ "kicad_working_revision": 29,
+ "measured_on_hardware": false,
+ "previous_board": "8d172d1:kicad-working/mainboard/mainboard.kicad_pcb",
+ "chips": {
+  "Q112": {
+   "replaces": "Q12",
+   "part": "BCM847BS"
+  },
+  "Q121": {
+   "replaces": "Q21",
+   "part": "BC847CDW1T1G"
+  },
+  "Q122": {
+   "replaces": "Q22",
+   "part": "BCM847BS"
+  },
+  "Q126": {
+   "replaces": "Q26",
+   "part": "BCM847BS"
+  }
+ },
+ "added": {
+  "footprints": 4,
+  "track_segments": 81,
+  "vias": 7,
+  "track_width_mm": 0.25,
+  "via_mm": [
+   0.8,
+   0.39
+  ]
+ },
+ "board_comparison": {
+  "original_tracks_arcs_vias": "all kept; one segment, on N$148, split where a new track joins it",
+  "existing_footprints_changed": [],
+  "result": "only the new sites changed"
+ },
+ "gerber_comparison": {
+  "B_Cu": {
+   "differing_mm2": 7.859,
+   "near_chips_mm2": 7.859,
+   "away_mm2": 0.0,
+   "largest_away_region_pixels": 0,
+   "pixel_um": 25.4
+  },
+  "B_Mask": {
+   "differing_mm2": 0.0,
+   "near_chips_mm2": 0.0,
+   "away_mm2": 0.0,
+   "largest_away_region_pixels": 0,
+   "pixel_um": 25.4
+  },
+  "B_Paste": {
+   "differing_mm2": 0.0,
+   "near_chips_mm2": 0.0,
+   "away_mm2": 0.0,
+   "largest_away_region_pixels": 0,
+   "pixel_um": 25.4
+  },
+  "B_Silkscreen": {
+   "differing_mm2": 0.0,
+   "near_chips_mm2": 0.0,
+   "away_mm2": 0.0,
+   "largest_away_region_pixels": 0,
+   "pixel_um": 25.4
+  },
+  "Edge_Cuts": {
+   "differing_mm2": 0.0,
+   "near_chips_mm2": 0.0,
+   "away_mm2": 0.0,
+   "largest_away_region_pixels": 0,
+   "pixel_um": 25.4
+  },
+  "F_Cu": {
+   "differing_mm2": 51.177,
+   "near_chips_mm2": 51.097,
+   "away_mm2": 0.0806,
+   "largest_away_region_pixels": 3,
+   "pixel_um": 25.4,
+   "pour_lost_within_8mm_of_chip_mm2": {
+    "Q112": 9.96,
+    "Q121": 17.08,
+    "Q122": 14.65,
+    "Q126": 8.5
+   }
+  },
+  "F_Mask": {
+   "differing_mm2": 10.467,
+   "near_chips_mm2": 10.467,
+   "away_mm2": 0.0,
+   "largest_away_region_pixels": 0,
+   "pixel_um": 25.4
+  },
+  "F_Paste": {
+   "differing_mm2": 10.467,
+   "near_chips_mm2": 10.467,
+   "away_mm2": 0.0,
+   "largest_away_region_pixels": 0,
+   "pixel_um": 25.4
+  },
+  "F_Silkscreen": {
+   "differing_mm2": 5.221,
+   "near_chips_mm2": 5.221,
+   "away_mm2": 0.0,
+   "largest_away_region_pixels": 0,
+   "pixel_um": 25.4
+  }
+ },
+ "fit_check": {
+  "note": "Nominal sizes from illustrative models. kicad-working/smd-sites/fit-check.json has every neighbour.",
+  "touching_in_the_models": [
+   "Q126-R100A0"
+  ],
+  "smallest_body_gap_mm": {
+   "Q112": 1.44,
+   "Q121": 0.41,
+   "Q122": 0.78,
+   "Q126": 0.0
+  },
+  "smallest_land_gap_mm": {
+   "Q112": 1.59,
+   "Q121": 0.07,
+   "Q122": 0.94,
+   "Q126": 0.07
+  },
+  "overhanging": {
+   "Q112": [
+    {
+     "ref": "C18",
+     "lowest_above_chip_top_mm": 0.41,
+     "reach_into_outline_mm": 0.31
+    }
+   ],
+   "Q122": [
+    {
+     "ref": "Q23",
+     "lowest_above_chip_top_mm": 2.09,
+     "reach_into_outline_mm": 0.5
+    }
+   ],
+   "Q126": [
+    {
+     "ref": "R100A0",
+     "lowest_above_chip_top_mm": 0.0,
+     "reach_into_outline_mm": 0.09
+    }
+   ]
+  }
+ },
+ "update_pcb_read_not_applied": {
+  "footprints_removed": 0,
+  "report_same_as_before_the_second_routing": true,
+  "note": "Read in the KiCad 10.0.7 editor and not applied. The chips get only the sheet name, sheet file and unit lines that all 421 footprints get."
+ },
+ "limits": [
+  "Blender revision 27 has no chips",
+  "the analog model has no copper in it",
+  "original silkscreen runs under Q121 and Q122 pads",
+  "the model of thermistor R100A0 touches Q126 at the chip's top corner",
+  "nothing has been built or measured"
+ ],
+ "routing": {
+  "routed_by_hand_in_the_kicad_pcb_editor": true,
+  "q112_and_q126_routed_twice": "The first routing passed the rules but gave Q112 base tracks of 8.7 and 4.43 mm and cut a wider pocket in the pour. rework_sites.py cleared those two, moved the chips and shortened all four chips lands.",
+  "base_track_mm": {
+   "Q112": {
+    "N$60": 4.5,
+    "N$124": 4.51
+   },
+   "Q121": {
+    "N$141": 6.0,
+    "N$138": 5.99
+   },
+   "Q126": {
+    "+5.333V": 5.26,
+    "N$99": 3.68
+   },
+   "Q122": {
+    "N$115": 5.2
+   }
+  },
+  "q122_note": "Both bases of Q122 are on N$115, so the figure is that one net.",
+  "f_cu_pour_lost_first_routing_mm2": {
+   "Q112": 19.57,
+   "Q121": 16.86,
+   "Q122": 14.19,
+   "Q126": 9.99
+  }
+ }
+}

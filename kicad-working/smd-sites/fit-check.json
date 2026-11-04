@@ -1,0 +1,131 @@
+{
+ "note": "Clearance to the placed illustrative models, nominal sizes. Not a physical fit qualification. The SIP pair at each site is left out because the chip replaces it.",
+ "chip_mm": {
+  "top": 1.1,
+  "body_half": [
+   1.05,
+   1.0
+  ],
+  "land_half": [
+   1.6,
+   0.845
+  ]
+ },
+ "chips": {
+  "Q112": {
+   "at": [
+    85.24,
+    -114.7
+   ],
+   "rotation": 0.0,
+   "smallest_body_gap_mm": 1.44,
+   "smallest_land_gap_mm": 1.59,
+   "nearest": [
+    {
+     "ref": "C18",
+     "body_gap_mm": 1.44,
+     "land_gap_mm": 1.59
+    },
+    {
+     "ref": "Q15",
+     "body_gap_mm": 2.17,
+     "land_gap_mm": 1.87
+    }
+   ],
+   "overhanging": [
+    {
+     "ref": "C18",
+     "lowest_above_chip_top_mm": 0.41,
+     "reach_into_outline_mm": 0.31
+    }
+   ]
+  },
+  "Q121": {
+   "at": [
+    61.6,
+    -121.7
+   ],
+   "rotation": 0.0,
+   "smallest_body_gap_mm": 0.41,
+   "smallest_land_gap_mm": 0.07,
+   "nearest": [
+    {
+     "ref": "R110",
+     "body_gap_mm": 0.41,
+     "land_gap_mm": 0.07
+    },
+    {
+     "ref": "R111",
+     "body_gap_mm": 0.93,
+     "land_gap_mm": 0.92
+    }
+   ],
+   "overhanging": []
+  },
+  "Q122": {
+   "at": [
+    62.2,
+    -104.9
+   ],
+   "rotation": 0.0,
+   "smallest_body_gap_mm": 0.78,
+   "smallest_land_gap_mm": 0.94,
+   "nearest": [
+    {
+     "ref": "Q23",
+     "body_gap_mm": 0.78,
+     "land_gap_mm": 0.94
+    }
+   ],
+   "overhanging": [
+    {
+     "ref": "Q23",
+     "lowest_above_chip_top_mm": 2.09,
+     "reach_into_outline_mm": 0.5
+    }
+   ]
+  },
+  "Q126": {
+   "at": [
+    156.55,
+    -144.9
+   ],
+   "rotation": 90.0,
+   "smallest_body_gap_mm": 0.0,
+   "smallest_land_gap_mm": 0.07,
+   "nearest": [
+    {
+     "ref": "R100A0",
+     "body_gap_mm": 0.0,
+     "land_gap_mm": 0.07
+    },
+    {
+     "ref": "R100B0",
+     "body_gap_mm": 3.25,
+     "land_gap_mm": 3.37
+    },
+    {
+     "ref": "R104",
+     "body_gap_mm": 3.95,
+     "land_gap_mm": 3.76
+    },
+    {
+     "ref": "R106",
+     "body_gap_mm": 3.92,
+     "land_gap_mm": 3.93
+    }
+   ],
+   "overhanging": [
+    {
+     "ref": "R100A0",
+     "lowest_above_chip_top_mm": 0.0,
+     "reach_into_outline_mm": 0.09
+    }
+   ]
+  }
+ },
+ "touching_in_the_models": [
+  "Q126-R100A0"
+ ],
+ "over_a_land": []
+}

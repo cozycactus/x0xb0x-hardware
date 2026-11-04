@@ -1,8 +1,8 @@
 {
  "scope": "Both KiCad schematics redrawn on sheets by hand from the original Eagle sheets. Files and nets only: nothing here was built or measured.",
- "kicad_working_revision": 28,
+ "kicad_working_revision": 29,
  "measured_on_hardware": false,
- "board_copper_changed": false,
+ "board_copper_changed": "Only at revision 29, around the four SOT-363 chips: docs/smd-sites.json",
  "checks": [
   {
    "check": "mainboard: the generator reproduces the installed sheets and symbol library",
@@ -23,7 +23,7 @@
   {
    "check": "mainboard: every pin on the same net as the board copper and the Eagle schematic, with the same names",
    "passed": true,
-   "pins": 1160,
+   "pins": 1184,
    "nets": 324,
    "against_copper": {
     "missing": 0,
@@ -43,8 +43,8 @@
   {
    "check": "mainboard: every footprint has a symbol and links to its own",
    "passed": true,
-   "footprints": 417,
-   "symbols": 417,
+   "footprints": 421,
+   "symbols": 421,
    "shared_paths": 0,
    "wrong": [],
    "without_link": [],
@@ -56,10 +56,10 @@
    "messages": 0
   },
   {
-   "check": "mainboard: DRC and schematic parity report what they reported at revision 27, apart from the mounting holes",
+   "check": "mainboard: DRC and schematic parity report what is expected at this revision",
    "passed": true,
    "found": [
-    335,
+    341,
     1,
     127
    ],
@@ -70,7 +70,7 @@
    }
   },
   {
-   "check": "mainboard: the board file differs from revision 27 only in its links to the symbols",
+   "check": "mainboard: the board file is the recorded one, apart from its links to the symbols",
    "passed": true
   },
   {
@@ -131,7 +131,7 @@
    "messages": 0
   },
   {
-   "check": "ioboard: DRC and schematic parity report what they reported at revision 27, apart from the mounting holes",
+   "check": "ioboard: DRC and schematic parity report what is expected at this revision",
    "passed": true,
    "found": [
     254,
@@ -144,7 +144,7 @@
    }
   },
   {
-   "check": "ioboard: the board file differs from revision 27 only in its links to the symbols",
+   "check": "ioboard: the board file is the recorded one, apart from its links to the symbols",
    "passed": true
   },
   {
