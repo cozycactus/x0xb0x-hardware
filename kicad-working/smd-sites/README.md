@@ -71,7 +71,7 @@ The 2SK30A was the last rare transistor with no answer on this board. Its replac
 |---|---|---|---|
 | Q128 gate to C33, N$113 | F.Cu, 0.25 mm | 4.71 mm | The VCO's timing node. A straight 45 degree line, which passes under the chip's corner, in the pour |
 | Q128 source to R105, N$108 | F.Cu, 0.25 mm | 1.73 mm | |
-| Q128 drain to Q28's drain hole, +12V | F.Cu, 0.25 mm | 5.96 mm | About 2 mA, so about 12 mV lost |
+| Q128 drain to Q28's drain hole, +12V | F.Cu, 0.25 mm | 5.96 mm | About 12 milliohm. Under 1 mA runs through R105, so about 0.01 mV is lost |
 | Q139 drain to Q39's drain hole, N$53 | F.Cu, 0.25 mm | 1.82 mm | Gate and source join the ground pour, as Q39's do |
 
 That is 9 track segments and no vias. Within 8 mm of the chips the F.Cu pour loses 6.20 mm² at Q128 and 2.17 mm² at Q139, far less than at the SOT-363 sites.
