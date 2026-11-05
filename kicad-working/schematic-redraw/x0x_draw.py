@@ -27,6 +27,10 @@ FONT = '(effects (font (size 1.27 1.27)))'
 HIDDEN = '(effects (font (size 1.27 1.27)) (hide yes))'
 BODY = '(stroke (width 0.254) (type default)) (fill (type none))'
 SOLID = '(stroke (width 0.254) (type default)) (fill (type outline))'
+# Character widths of KiCad's stroke font at 1.27 mm, measured from its own plot, for the characters in the net names. Others count as WIDE.
+WIDE = 1.33
+GLYPHS = {**dict.fromkeys('$0123456789SXZ', 1.21), **dict.fromkeys('BCDGKPR', 1.27), **dict.fromkeys('AVY', 1.09), 'E': 1.15, 'I': 0.6, 'L': 1.03, 'M': 1.45, 'W': 1.45, 'T': 0.97, 'J': 0.97, '_': 0.97}
+LABEL_END = 1.64  # From a label's anchor to its sheet numbers, beyond the text itself: the box's margins and the gap after it
 
 
 def uid(*key):
@@ -459,15 +463,17 @@ class Sheet:
                           f'(property "Datasheet" "" (at {x} {y} 0) {HIDDEN}) (property "Description" "" (at {x} {y} 0) {HIDDEN}) (pin "1" (uuid "{uid(self.file, "flp", self.n)}")) @INST:{ref}|1@)')
 
     def label(self, net, pt, side='R'):
-        """A global label with its name typed by hand, pointing away from the wire: R, L, T or B."""
+        """A global label with its name typed by hand, pointing away from the wire: R, L, T or B. The sheet numbers follow its text."""
         x, y = self._at(pt)
         self.ends.append((x, y))
         self.touched.add((x, y))
         self.labelled.add(net)
         self.n += 1
         ang, just = {'R': (0, 'left'), 'L': (180, 'right'), 'T': (90, 'left'), 'B': (270, 'right')}[side]
+        run = round(sum(GLYPHS.get(c, WIDE) for c in net) + LABEL_END, 2)
+        fx, fy = {'R': (x + run, y), 'L': (x - run, y), 'T': (x, y - run), 'B': (x, y + run)}[side]
         self.items.append(f'(global_label "{net}" (shape passive) (at {x} {y} {ang}) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify {just})) (uuid "{uid(self.file, "lab", self.n)}") '
-                          f'(property "Intersheetrefs" "${{INTERSHEET_REFS}}" (at {x} {y} 0) {HIDDEN}))')
+                          f'(property "Intersheetrefs" "@REFS:{net}@" (at {fmt(fx)} {fmt(fy)} {90 if side in "TB" else 0}) (effects (font (size 1.27 1.27)) (justify {just}))))')
 
     def out(self, pin_name, net, side='R', length=2.54):
         """A short stub from a pin to a global label."""
@@ -497,7 +503,7 @@ class Sheet:
         x, y = pt
         self.n += 1
         self.items.append(f'(global_label "{net}" (shape passive) (at {x} {y} 0) (effects (font (size 0.05 0.05)) (justify left)) (uuid "{uid(self.file, "nm", self.n)}") '
-                          f'(property "Intersheetrefs" "${{INTERSHEET_REFS}}" (at {x} {y} 0) (effects (font (size 0.05 0.05)) (hide yes))))')
+                          f'(property "Intersheetrefs" "@REFS:{net}@" (at {x} {y} 0) (effects (font (size 0.05 0.05)) (hide yes))))')
 
     def note(self, s, x, y, just='left'):
         x, y = self._xy(x, y)
@@ -568,12 +574,15 @@ def write_project(project, out, root_title, root_lines, rev):
     top = TOP_LEVEL_SHEET[name]
     boxes = []
     sheet_ids = {}
+    # A net that stays on one sheet has no other sheet to name, and KiCad prints "[]" for it, so those labels leave the field empty.
+    on_sheets = collections.Counter(net for s in project.sheets for net in set(re.findall(r'\(global_label "([^"]+)"', '\n'.join(s.items))))
     for i, s in enumerate(project.sheets):
         su = uid(name, 'sheet', s.file)
         sheet_ids[s.file] = su
         path = f'/{top}/{su}'
         body = '\n'.join(s.items)
         body = re.sub(r'@INST:([^|@]+)\|(\d+)@', lambda m: f'(instances (project "{name}" (path "{path}" (reference "{m[1]}") (unit {m[2]}))))', body)
+        body = re.sub(r'@REFS:([^@]+)@', lambda m: '${INTERSHEET_REFS}' if on_sheets[m[1]] > 1 else '', body)
         blocks = '\n'.join(project.lib[k].replace(f'(symbol "{k}"', f'(symbol "{LIB}:{k}"', 1) for k in sorted(s.used))
         (out / f'{s.file}.kicad_sch').write_text(
             f'(kicad_sch (version {SCH_FORMAT}) (generator "x0x_redraw") (generator_version "10.0") (uuid "{su}") (paper "{s.paper}")\n'

@@ -800,7 +800,7 @@ def draw_vcf(d):
     d.ground((180.34, 172.72))
     d.route('VR5.3', (177.8, 162.56))
     d.label('N$53', (177.8, 162.56))
-    d.note('from MEG', 188.5, 162.56)
+    d.note('from MEG', 189.77, 162.56)
     d.caption('ENV. MOD', 153.67, 186.69)
     d.across('R47', 165.1, 198.12, '2')
     d.route((139.7, 190.5), (139.7, 198.12), 'R47.2')
@@ -887,7 +887,7 @@ def draw_vca(d):
     d.route((254, 50.8), (254, 124.46), 'IC15A0.8')
     d.across('C38', 266.7, 50.8, '+')
     d.out('C38.-', 'N$32', 'R', 2.54)
-    d.note('to VOLUME', 285.0, 50.8)
+    d.note('to VOLUME', 287.54, 50.8)
 
     # The feedback that sets the output's DC level.
     d.across('R128', 228.6, 73.66, '2')
@@ -1045,7 +1045,7 @@ def draw_env(d):
     d.down('C62', 170.18, 114.3, '+')
     d.route('R152.1', (170.18, 106.68), 'C62.+')
     d.ground('C62.-')
-    d.down('R138', 170.18, 96.52, '1', left_text=True)
+    d.down('R138', 170.18, 96.52, '1')
     d.route('R138.2', (170.18, 106.68))
     d.transistor('Q40', 180.34, 106.68, 'NPN')
     d.route((170.18, 106.68), 'Q40.1')

@@ -55,9 +55,9 @@ def components(project, board):
         c = text[a:b]
         ref = re.search(r'\(ref "([^"]+)"\)', c)[1]
         names = re.search(r'\(sheetpath\s+\(names "([^"]*)"\)\s+\(tstamps "([^"]*)"\)', c)
-        ids = re.search(r'\(tstamps "([^"]+)"', re.sub(r'\(sheetpath\s+\(names "[^"]*"\)\s+\(tstamps "[^"]*"\)\s*\)', '', c))[1]
+        ids = re.findall(r'"([^"]+)"', re.search(r'\(tstamps ((?:"[^"]+"\s*)+)\)', re.sub(r'\(sheetpath\s+\(names "[^"]*"\)\s+\(tstamps "[^"]*"\)\s*\)', '', c))[1])
         file = re.search(r'\(property\s+\(name "Sheetfile"\)\s+\(value "([^"]*)"\)', c)
-        out[ref] = dict(path=names[2] + ids, sheetname=names[1], sheetfile=file[1] if file else '')
+        out[ref] = dict(path=names[2] + ids[0], units={names[2] + u for u in ids}, sheetname=names[1], sheetfile=file[1] if file else '')
     return out
 
 
@@ -78,7 +78,9 @@ def main():
             continue
         c = comps[ref]
         n = f
-        for field, value in (('path', c['path']), ('sheetname', c['sheetname']), ('sheetfile', c['sheetfile'])):
+        # A part with several units may link to any of them, and KiCad's first unit depends on the order of items on the sheet. A link that is already right stays.
+        linked = re.search(r'\n\t\t\(path "([^"]*)"\)', f)
+        for field, value in (('path', linked[1] if linked and linked[1] in c['units'] else c['path']), ('sheetname', c['sheetname']), ('sheetfile', c['sheetfile'])):
             n, count = re.subn(rf'(\n\t\t)\({field} "[^"]*"\)', rf'\1({field} "{value}")', n, count=1)  # Not the sheetname of a zone inside the footprint
             if field == 'path' and not count:
                 n, count = re.subn(r'(\n\t\t)\(duplicate_pad_numbers_are_jumpers', rf'\1(path "{value}")\1(duplicate_pad_numbers_are_jumpers', n, count=1)

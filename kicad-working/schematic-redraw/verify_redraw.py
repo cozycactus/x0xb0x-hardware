@@ -27,6 +27,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import build  # noqa: E402
 import check_nets as C  # noqa: E402
+import export_pdfs  # noqa: E402
 import x0x_draw as X  # noqa: E402
 
 WORK = HERE.parent
@@ -178,6 +179,27 @@ def link_problems(board, project, net_file):
                 wrong=sorted(r for r, p in found.items() if r in want and p not in want[r])[:12], without_link=sorted(set(want) - set(found))[:12], without_symbol=sorted(refs - set(want)))
 
 
+def pdf_problems(board, project, work):
+    """The PDF in this folder against a fresh export, apart from its date, and its reference links against the sheets' labels."""
+    pdf = (HERE / f'{board}-schematic.pdf').read_bytes()
+    fresh = work / 'fresh.pdf'
+    export_pdfs.export(board, fresh)
+    undated = lambda data: re.sub(rb'/CreationDate \([^)]*\)', b'', data)
+    problems = [] if undated(pdf) == undated(fresh.read_bytes()) else ['differs from a fresh export apart from its date']
+    root = (project / f'{board}.kicad_sch').read_text()
+    pages = {f: int(n) for f, n in re.findall(r'"Sheetfile" "([^"]+)".*?\(page "(\d+)"\)', root)}
+    labels = [(pages[f], net, field) for f in pages for net, field in re.findall(r'\(global_label "([^"]+)".*?"Intersheetrefs" "([^"]*)"', (project / f).read_text())]
+    on = collections.defaultdict(set)
+    for page, net, _ in labels:
+        on[net].add(page)
+    want = collections.Counter((page, other) for page, net, field in labels if field for other in on[net] - {page})
+    if export_pdfs.reference_links(pdf) != want:
+        problems.append(f'reference links differ from the sheets: {sum(export_pdfs.reference_links(pdf).values())} against {sum(want.values())}')
+    if b'Show Page' in pdf or re.search(rb'ShM\\\(\[\s*\]', pdf):
+        problems.append('still has a page menu')
+    return problems
+
+
 def main():
     record = json.load(open(HERE.parent / 'smd-sites' / 'board-record.json'))['boards']
     for board in ('mainboard', 'ioboard'):
@@ -194,6 +216,10 @@ def main():
             check(f'{board}: the sheets and the symbol library are in the format this KiCad writes', not old, older=old)
             problems = instance_problems(board, project)
             check(f'{board}: sheet instances name the project top-level sheet, with pages in sheet order', not problems, problems=problems)
+            drawing = json.load(open(project / f'{board}.kicad_pro'))['schematic']['drawing']
+            check(f'{board}: global labels show the other sheets their net is on', drawing['intersheets_ref_show'] and not drawing['intersheets_ref_own_page'])
+            problems = pdf_problems(board, project, d)
+            check(f'{board}: the schematic PDF is a fresh export whose sheet references are all plain links', not problems, problems=problems)
             state = net_state(board, netlist(project / f'{board}.kicad_sch', d / 'n.net'))
             check(f'{board}: every pin on the same net as the board copper and the Eagle schematic, with the same names', clean(state), **state)
             links = link_problems(board, project, d / 'n.net')

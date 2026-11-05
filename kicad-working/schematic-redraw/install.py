@@ -5,7 +5,8 @@
 Usage: install.py <mainboard|ioboard>
 
 Replaces <board>.kicad_sch, adds the pNN sheets and x0x.kicad_sym, adds the library to sym-lib-table, lists the sheets in
-the project file and runs relink_board.py. Close the project in KiCad first: edits made there would be lost.
+the project file, turns on inter-sheet references there and runs relink_board.py. Close the project in KiCad first: edits made
+there would be lost.
 """
 import re
 import subprocess
@@ -38,6 +39,8 @@ def main():
     rows = [f'    [\n      "{root}",\n      "{board}_1"\n    ]'] + [f'    [\n      "{u}",\n      "{t}"\n    ]' for u, t in zip(sheets, titles)]
     text, count = re.subn(r'"sheets": \[.*?\n  \]', '"sheets": [\n' + ',\n'.join(rows) + '\n  ]', text, count=1, flags=re.S)
     assert count == 1
+    # Each global label shows the other sheets its net is on, so a net on one sheet shows nothing.
+    text = text.replace('"intersheets_ref_show": false', '"intersheets_ref_show": true').replace('"intersheets_ref_own_page": true', '"intersheets_ref_own_page": false')
     pro.write_text(text)
     subprocess.run([sys.executable, '-I', str(HERE / 'relink_board.py'), str(project), board], check=True)
 

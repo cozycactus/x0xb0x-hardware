@@ -19,7 +19,33 @@ The PDFs are [mainboard-schematic.pdf](mainboard-schematic.pdf) and [ioboard-sch
 
 ## Revision 30
 
-The CV and VCO sheet and the Envelope sheet gain SC-59 chips, Q128 and Q139, in frames of their own, drawn the same way as revision 29's chips. Q28 and Q39 are marked do-not-place. `build.py` writes revision letter K30. No other drawing on the sheets moved. The new frames were looked at in rendered crops, and the sheets were opened in the editor only to read Update PCB.
+The CV and VCO sheet and the Envelope sheet gain SC-59 chips, Q128 and Q139, in frames of their own, drawn the same way as revision 29's chips. Q28 and Q39 are marked do-not-place. `build.py` writes revision letter K30. The new frames were looked at in rendered crops, and the sheets were opened in the editor only to read Update PCB.
+
+### Sheet references
+
+A global label on a net that reaches other sheets now shows their page numbers after its text, as in `N$53 [9]`: 76 labels on the mainboard and 4 on the I/O board. Both project files have `intersheets_ref_show` on and `intersheets_ref_own_page` off, written by `install.py`. Nets are followed within one board only, so a signal that leaves through a connector such as J3 shows no number.
+
+- **Placement.** KiCad's autoplace doesn't run on generated files, so `label()` places the field itself: past the label's box, on the side the label points. `GLYPHS` holds the stroke font's character widths, measured from a KiCad plot.
+- **Nets on one sheet.** KiCad prints `[]` for these, on 51 visible labels and on every 0.05 mm name label, so the generator leaves those fields empty.
+- **Moved to make room, nothing else:** the text of R138 goes to the right of the part, and the notes `to VOLUME` and `from MEG` move right.
+- **Checked** on the final sheets: every sheet rendered at 200 dpi and each reference at 300 dpi and looked at, and each reference's box compared with a render without references, which finds nothing within 0.3 mm.
+- **`relink_board.py`** now leaves a link alone if it already names one of the part's units. With the new sheets KiCad listed DIN4's and USB0's units in another order, which moved those two links and changed the I/O board file for nothing. Both board files stay byte for byte as they were.
+- **Fabrication:** the two settings are in the same project files that `fabrication/revision-30/package-record.json` lists, so its two `.kicad_pro` hashes are those of the files the packages were exported from. The packages weren't re-exported: all 22 Gerber, job and drill files re-exported from the new project files differ from the old ones only in their dates.
+
+**PDF links.** KiCad writes each reference as a JavaScript menu (`ShM([["Show Page 9", "#8"]])`), which did nothing when clicked in Chromium's viewer, and each sheet box on page 1 as a plain link. `export_pdfs.py` makes the two PDFs with every reference as a plain link, and a reference to two sheets as two links side by side, one per number. All 14 pages render the same as KiCad's own export at 150 dpi. Symbol property menus stay, and none of them overlaps a reference. `verify_redraw.py` compares the PDFs with a fresh export, and their links with the sheets' labels.
+
+Clicked with the real mouse, on copies of the final files:
+
+| Where | Tried | Result |
+|---|---|---|
+| KiCad 10.0.7 editor, mainboard | `N$53 [9]`, `SPI_CLK [4,5]`, `SPI_CLK [2,4]` | A menu opens, not a jump: `Go to Page 9 (Envelope)` and `Back to Previous Selected Sheet`, with both pages on the two-sheet references. Each item chosen went where it says, showing the whole sheet with nothing highlighted |
+| KiCad 10.0.7 editor, I/O board | `USB_TX [4]` | The same menu; `Go to Page 4` opened the MIDI sheet |
+| KiCad 10.0.7 editor, mainboard | Beside `USB_TX`, a label with no reference | Nothing happens |
+| KiCad 10.0.7 editor, mainboard | `N$35 [7,8]`, right after a jump | The click selected the reference and opened no menu. Not seen on the other references |
+| macOS Preview, mainboard | `N$53 [9]`, both numbers of `N$35 [8,9]`, the vertical `ROTARY8 [2]`, `N$32 [10]`, the VCF sheet box | Jumps straight to the page. Go > Back returns, a little scrolled |
+| macOS Preview, I/O board | `USB_TX [4]`, `USB_RX [3]`, the USB sheet box | Jumps straight to the page |
+
+The targets are small: at Preview's fit-to-page zoom, a click on `USB_RX [3]` did nothing, and at a higher zoom the same link jumped. In the editor both projects stayed unmodified, and the copies' files stayed byte for byte the same. In Chromium's viewer, in a narrow pane, `ROTARY1 [3]` jumped, and two clicks on `[4,5]`, whose two links were each about 3 pixels wide there, did nothing, so the two-number links aren't confirmed in that viewer. Nothing has been clicked in Acrobat.
 
 ## Revision 29
 
@@ -91,6 +117,7 @@ Close the projects in KiCad first: `install.py` overwrites the sheets.
 cd kicad-working/schematic-redraw
 python3 install.py mainboard
 python3 install.py ioboard
+python3 export_pdfs.py
 python3 verify_redraw.py --mutation
 ```
 

@@ -21,6 +21,15 @@
    "problems": []
   },
   {
+   "check": "mainboard: global labels show the other sheets their net is on",
+   "passed": true
+  },
+  {
+   "check": "mainboard: the schematic PDF is a fresh export whose sheet references are all plain links",
+   "passed": true,
+   "problems": []
+  },
+  {
    "check": "mainboard: every pin on the same net as the board copper and the Eagle schematic, with the same names",
    "passed": true,
    "pins": 1190,
@@ -92,6 +101,15 @@
   },
   {
    "check": "ioboard: sheet instances name the project top-level sheet, with pages in sheet order",
+   "passed": true,
+   "problems": []
+  },
+  {
+   "check": "ioboard: global labels show the other sheets their net is on",
+   "passed": true
+  },
+  {
+   "check": "ioboard: the schematic PDF is a fresh export whose sheet references are all plain links",
    "passed": true,
    "problems": []
   },
