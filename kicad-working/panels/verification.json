@@ -1,0 +1,474 @@
+{
+  "kicad_cli": "10.0.7",
+  "status": "Nothing ordered, made or fitted. Margins come from drawings and published tolerances.",
+  "jlcpcb_limits_read": "2026-11-05",
+  "panels": {
+    "mainpanel": {
+      "pcb_sha256": "5e88064d2aed0b38c72d040d3c5366de3dcc2350e71b9de2a592966ac4ea69b4",
+      "changed_holes": {
+        "5.08->5.4": [
+          "LED1",
+          "LED10",
+          "LED11",
+          "LED12",
+          "LED13",
+          "LED14",
+          "LED15",
+          "LED16",
+          "LED17",
+          "LED18",
+          "LED19",
+          "LED2",
+          "LED20",
+          "LED21",
+          "LED22",
+          "LED23",
+          "LED24",
+          "LED25",
+          "LED26",
+          "LED27",
+          "LED28",
+          "LED29",
+          "LED3",
+          "LED30",
+          "LED31",
+          "LED32",
+          "LED33",
+          "LED34",
+          "LED35",
+          "LED36",
+          "LED37",
+          "LED38",
+          "LED39",
+          "LED4",
+          "LED40",
+          "LED5",
+          "LED6",
+          "LED7",
+          "LED8",
+          "LED9"
+        ],
+        "6.35->6.6": [
+          "S1"
+        ]
+      },
+      "copper_mm2_each_side": 50.6,
+      "zip_sha256": "9085a8c5ec3a9a791cc3ddf912948b72f290aadce7fe4c6010ccc62761271ec0"
+    },
+    "iopanel": {
+      "pcb_sha256": "42975e2952c0def70fd3725f864bf86d13b0d9134c58bb642e23f6e15af156a1",
+      "changed_holes": {
+        "6.35->6.8": [
+          "CV0",
+          "GATE0"
+        ]
+      },
+      "copper_mm2_each_side": 61.7,
+      "zip_sha256": "0f538f868ecb4761492930b7b2d5c4860d73c0d2746a4aff6835c917df65a9a2"
+    }
+  },
+  "round_fits": [
+    {
+      "part": "WP7113ID lens",
+      "references": [
+        "LED1",
+        "LED2",
+        "LED3",
+        "LED4",
+        "LED5",
+        "LED6",
+        "LED7",
+        "LED8",
+        "LED9",
+        "LED10",
+        "LED11",
+        "LED12",
+        "LED13",
+        "LED14",
+        "LED15",
+        "LED16",
+        "LED17",
+        "LED18",
+        "LED19",
+        "LED20",
+        "LED21",
+        "LED22",
+        "LED23",
+        "LED24",
+        "LED25",
+        "LED26",
+        "LED27",
+        "LED28",
+        "LED29",
+        "LED30",
+        "LED31",
+        "LED32",
+        "LED33",
+        "LED34",
+        "LED35",
+        "LED36",
+        "LED37",
+        "LED38",
+        "LED39",
+        "LED40"
+      ],
+      "hole_mm": 5.4,
+      "part_mm": 5.25,
+      "axis_offset_mm": 0.0,
+      "nominal_margin_mm": 0.075,
+      "worst_margin_mm": 0.035,
+      "source": "Kingbright drawing: 5 mm, +/-0.25"
+    },
+    {
+      "part": "B12AB bushing",
+      "references": [
+        "S1"
+      ],
+      "hole_mm": 6.6,
+      "part_mm": 6.2,
+      "axis_offset_mm": 0.0,
+      "nominal_margin_mm": 0.2,
+      "worst_margin_mm": 0.1,
+      "source": "NKK 6 mm in the model record; RS lists a 6.2 mm cutout"
+    },
+    {
+      "part": "290VAA5F201B2 bushing",
+      "references": [
+        "S2"
+      ],
+      "hole_mm": 7.493,
+      "part_mm": 7.0,
+      "axis_offset_mm": 0.0,
+      "nominal_margin_mm": 0.247,
+      "worst_margin_mm": 0.147,
+      "source": "CTS drawing, model record"
+    },
+    {
+      "part": "25LB22-H bushing",
+      "references": [
+        "S3",
+        "S4"
+      ],
+      "hole_mm": 10.084,
+      "part_mm": 9.525,
+      "axis_offset_mm": 0.0,
+      "nominal_margin_mm": 0.279,
+      "worst_margin_mm": 0.179,
+      "source": "Grayhill drawing: 3/8-32"
+    },
+    {
+      "part": "pot sleeve",
+      "references": [
+        "VR2",
+        "VR3",
+        "VR5",
+        "VR7",
+        "VR8",
+        "VR4",
+        "VR6"
+      ],
+      "hole_mm": 9.347,
+      "part_mm": 9.0,
+      "axis_offset_mm": 0.0,
+      "nominal_margin_mm": 0.174,
+      "worst_margin_mm": 0.074,
+      "source": "model record, largest sleeve of the pots"
+    },
+    {
+      "part": "4-40 screw",
+      "references": [
+        "U$2",
+        "U$27",
+        "U$28",
+        "U$24",
+        "U$23",
+        "U$25",
+        "U$29"
+      ],
+      "hole_mm": 3.454,
+      "part_mm": 2.845,
+      "axis_offset_mm": 0.2455,
+      "nominal_margin_mm": 0.059,
+      "worst_margin_mm": 0.019,
+      "source": "ASME thread size; offset from the board alignment record"
+    },
+    {
+      "part": "NYS216 nose",
+      "references": [
+        "HEADPHONE0",
+        "MIXIN0",
+        "MIXOUT0"
+      ],
+      "hole_mm": 11.811,
+      "part_mm": 11.0,
+      "axis_offset_mm": 0.082,
+      "nominal_margin_mm": 0.323,
+      "worst_margin_mm": 0.224,
+      "source": "REAN drawing: M11; offset from the rear datum record"
+    },
+    {
+      "part": "MJ-3536N bushing",
+      "references": [
+        "CV0",
+        "GATE0"
+      ],
+      "hole_mm": 6.8,
+      "part_mm": 6.0,
+      "axis_offset_mm": 0.166,
+      "nominal_margin_mm": 0.234,
+      "worst_margin_mm": 0.134,
+      "source": "CUI drawing, model record; offset from the rear datum record"
+    },
+    {
+      "part": "SDS-50J shell",
+      "references": [
+        "DIN1",
+        "DIN2",
+        "DIN3",
+        "DIN4"
+      ],
+      "hole_mm": 17.145,
+      "part_mm": 14.2,
+      "axis_offset_mm": 0.018,
+      "nominal_margin_mm": 1.455,
+      "worst_margin_mm": 1.355,
+      "source": "CUI drawing, rear seating record"
+    }
+  ],
+  "cut_fits": {
+    "buttons": {
+      "reference": "S5",
+      "part": "PE cap, 12.1 x 5.9 mm",
+      "worst_short_side_mm": 0.133,
+      "worst_long_side_mm": 0.208
+    },
+    "jacks": [
+      {
+        "reference": "USB0",
+        "part": "jack body, rear datum record",
+        "worst_side_mm": 0.43,
+        "worst_bottom_mm": 0.2,
+        "worst_top_mm": 1.164
+      },
+      {
+        "reference": "POWER0",
+        "part": "jack body, rear datum record",
+        "worst_side_mm": 0.426,
+        "worst_bottom_mm": 0.2,
+        "worst_top_mm": 0.784
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "mainpanel: DRC has no violation and no unconnected item",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "mainpanel: outline is the DXF outline",
+      "passed": true,
+      "outline_mm": [
+        232.41,
+        163.271
+      ]
+    },
+    {
+      "name": "mainpanel: no plated holes",
+      "passed": true
+    },
+    {
+      "name": "mainpanel: every round hole of the DXF is exported at its centre",
+      "passed": true,
+      "holes": 58,
+      "largest_offset_mm": 0.0005,
+      "drilled": 47,
+      "routed": 11
+    },
+    {
+      "name": "mainpanel: every rectangular cut of the DXF is exported, with rounded corners",
+      "passed": true,
+      "cuts": 23,
+      "growth_left_right_bottom_top_mm": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "mainpanel: silkscreen stays 0.3 mm from every hole, cut and edge",
+      "passed": true,
+      "smallest_mm": 0.413,
+      "at": [
+        140.95,
+        68.48
+      ]
+    },
+    {
+      "name": "mainpanel: silkscreen lines are at least 0.15 mm",
+      "passed": true,
+      "thinnest_mm": 0.17
+    },
+    {
+      "name": "mainpanel: the credit on the back stays clear too",
+      "passed": true,
+      "smallest_mm": 0.953,
+      "at": [
+        134.63,
+        86.74
+      ]
+    },
+    {
+      "name": "mainpanel: the smallest text is at least 1.0 mm high",
+      "passed": true,
+      "height_mm": 1.5
+    },
+    {
+      "name": "mainpanel: every word on the panel comes from the label map, once for each place",
+      "passed": true,
+      "words": 100
+    },
+    {
+      "name": "mainpanel: F_Cu holds only the rings",
+      "passed": true,
+      "rings": 7,
+      "area_mm2": 50.6
+    },
+    {
+      "name": "mainpanel: B_Cu holds only the rings",
+      "passed": true,
+      "rings": 7,
+      "area_mm2": 50.6
+    },
+    {
+      "name": "mainpanel: ZIP holds all seven layers",
+      "passed": true,
+      "files": 11
+    },
+    {
+      "name": "iopanel: DRC has no violation and no unconnected item",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "iopanel: outline is the DXF outline",
+      "passed": true,
+      "outline_mm": [
+        217.932,
+        52.578
+      ]
+    },
+    {
+      "name": "iopanel: no plated holes",
+      "passed": true
+    },
+    {
+      "name": "iopanel: every round hole of the DXF is exported at its centre",
+      "passed": true,
+      "holes": 9,
+      "largest_offset_mm": 0.0,
+      "drilled": 0,
+      "routed": 9
+    },
+    {
+      "name": "iopanel: every rectangular cut of the DXF is exported, with rounded corners",
+      "passed": true,
+      "cuts": 2,
+      "growth_left_right_bottom_top_mm": [
+        [
+          0.3,
+          0.3,
+          0.4,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "iopanel: silkscreen stays 0.3 mm from every hole, cut and edge",
+      "passed": true,
+      "smallest_mm": 2.582,
+      "at": [
+        203.01,
+        27.59
+      ]
+    },
+    {
+      "name": "iopanel: silkscreen lines are at least 0.15 mm",
+      "passed": true,
+      "thinnest_mm": 0.2
+    },
+    {
+      "name": "iopanel: the credit on the back stays clear too",
+      "passed": true,
+      "smallest_mm": 8.607,
+      "at": [
+        104.11,
+        43.89
+      ]
+    },
+    {
+      "name": "iopanel: every word on the panel comes from the label map, once for each place",
+      "passed": true,
+      "words": 11
+    },
+    {
+      "name": "iopanel: F_Cu holds only the rings",
+      "passed": true,
+      "rings": 3,
+      "area_mm2": 61.7
+    },
+    {
+      "name": "iopanel: B_Cu holds only the rings",
+      "passed": true,
+      "rings": 3,
+      "area_mm2": 61.7
+    },
+    {
+      "name": "iopanel: ZIP holds all seven layers",
+      "passed": true,
+      "files": 11
+    },
+    {
+      "name": "mainboard: controls, LEDs and mounts stand where the panel alignment record has them",
+      "passed": true,
+      "moved": []
+    },
+    {
+      "name": "main panel: LEDs and controls are on their holes, mounts within 0.246 mm as in the original",
+      "passed": true,
+      "residual_mm": {
+        "mount": 0.2455,
+        "LED": 0.0,
+        "control": 0.0
+      }
+    },
+    {
+      "name": "rear panel: jacks line up with their holes across the board",
+      "passed": true,
+      "largest_mm": 0.0
+    },
+    {
+      "name": "every part clears its hole at the worst factory tolerance",
+      "passed": true,
+      "smallest_mm": 0.019,
+      "at": [
+        "4-40 screw"
+      ]
+    },
+    {
+      "name": "every part clears its cut at the worst factory tolerance",
+      "passed": true,
+      "smallest_mm": 0.133
+    },
+    {
+      "name": "the LED flange cannot pass the hole",
+      "passed": true,
+      "largest_hole_mm": 5.53,
+      "smallest_flange_mm": 5.65
+    }
+  ],
+  "passed": true
+}

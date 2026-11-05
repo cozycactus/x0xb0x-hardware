@@ -22,6 +22,7 @@ Revision24 prints the part markings of the17 ICs, transcribed from the kit photo
 - SIP9 pads and name labels: `validation/models-review-26/`
 - Fabrication packages (order-ready): `fabrication/revision-30/`
 - Adapters for the rare dual transistors at Q12, Q21, Q22 and Q26: `adapters/ssip5-dual/` (not yet built)
+- FR-4 main and rear panels: `panels/` (not yet made)
 - Pour refill and I/O outline: `validation/models-review-27/`
 - Fabrication comparison and connection gaps: `validation/models-review-25/`
 - Source and model review: `validation/models-review-24/` (IC markings), `validation/models-review-23/` (IC sockets), `validation/models-review-22/` (resistor bands), `validation/models-review-21/` (XRL electrolytics), `validation/models-review-20/` (PTC dimensions), `validation/models-review-18/` (USB drawing correction), `validation/models-review-17/` (TL1100F colours), `validation/models-review-16/` (Grayhill rebuild), `validation/models-review-15/` (formed legs), `validation/models-review-14/` (corrections) and `validation/models-review-13/` (terminals)
