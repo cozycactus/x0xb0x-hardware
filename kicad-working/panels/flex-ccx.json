@@ -1,0 +1,109 @@
+{
+ "method": "Cross-check flex_check.py with other software: Gmsh meshes the real outlines, CalculiX solves with shells.",
+ "element_mm": 2.0,
+ "firm_press_N": 10.0,
+ "cases": [
+  {
+   "support": "corners only",
+   "panel": "FR-4 1.6 mm",
+   "press": "button S21",
+   "calculix_mm": 1.4427,
+   "flex_check_mm": 1.4517,
+   "difference_percent": -0.6
+  },
+  {
+   "support": "corners only",
+   "panel": "FR-4 1.6 mm",
+   "press": "control VR4",
+   "calculix_mm": 1.5468,
+   "flex_check_mm": 1.578,
+   "difference_percent": -2.0
+  },
+  {
+   "support": "corners only",
+   "panel": "FR-4 1.6 mm",
+   "press": "panel at [115.0, 155.0]",
+   "calculix_mm": 1.8001,
+   "flex_check_mm": 1.8177,
+   "difference_percent": -1.0
+  },
+  {
+   "support": "corners only",
+   "panel": "aluminium 1.575 mm",
+   "press": "button S9",
+   "calculix_mm": 0.9436,
+   "flex_check_mm": 0.9496,
+   "difference_percent": -0.6
+  },
+  {
+   "support": "corners only",
+   "panel": "aluminium 1.575 mm",
+   "press": "control S4",
+   "calculix_mm": 0.9626,
+   "flex_check_mm": 0.9714,
+   "difference_percent": -0.9
+  },
+  {
+   "support": "corners only",
+   "panel": "aluminium 1.575 mm",
+   "press": "panel at [115.0, 155.0]",
+   "calculix_mm": 0.86,
+   "flex_check_mm": 0.8733,
+   "difference_percent": -1.5
+  },
+  {
+   "support": "corners and ledge",
+   "panel": "FR-4 1.6 mm",
+   "press": "button S5",
+   "calculix_mm": 0.7504,
+   "flex_check_mm": 0.7617,
+   "difference_percent": -1.5
+  },
+  {
+   "support": "corners and ledge",
+   "panel": "FR-4 1.6 mm",
+   "press": "control S5",
+   "calculix_mm": 0.7504,
+   "flex_check_mm": 0.7617,
+   "difference_percent": -1.5
+  },
+  {
+   "support": "corners and ledge",
+   "panel": "FR-4 1.6 mm",
+   "press": "panel at [115.0, 75.0]",
+   "calculix_mm": 0.6741,
+   "flex_check_mm": 0.6777,
+   "difference_percent": -0.5
+  },
+  {
+   "support": "corners and ledge",
+   "panel": "aluminium 1.575 mm",
+   "press": "button S5",
+   "calculix_mm": 0.7501,
+   "flex_check_mm": 0.7614,
+   "difference_percent": -1.5
+  },
+  {
+   "support": "corners and ledge",
+   "panel": "aluminium 1.575 mm",
+   "press": "control S5",
+   "calculix_mm": 0.7501,
+   "flex_check_mm": 0.7614,
+   "difference_percent": -1.5
+  },
+  {
+   "support": "corners and ledge",
+   "panel": "aluminium 1.575 mm",
+   "press": "panel at [115.0, 75.0]",
+   "calculix_mm": 0.1968,
+   "flex_check_mm": 0.1986,
+   "difference_percent": -0.9
+  }
+ ],
+ "elements": {
+  "panel_quads": 26368,
+  "panel_triangles": 0,
+  "board_quads": 10952,
+  "board_triangles": 0
+ }
+}

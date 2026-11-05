@@ -82,10 +82,41 @@ The panels carry almost no copper, for two reasons:
 - The signal-integrity study (`../../../x0xb0x-si-emc/REPORT.md`, section 12) puts metal panels about 10 dB worse near 100 MHz than no panels. That is a model, not a measurement.
 - A forum post from about 2020 reports JLCPCB refusing a panel because it had no copper layer, and says that a copper area fixed it. So each face has a few unconnected rings, under the mask: 50.6 mm² per face on the main panel, under the seven screw heads, and 61.7 mm² on the rear panel, under the nuts of the three 1/4 in jacks. Their effect wasn't modelled, and they are small beside a whole panel.
 
+## Flex
+
+The mainboard hangs from the main panel on seven standoffs. The original assembly page puts the four short ones in the corners, through the case flanges. The other three, one at the bottom middle and two at the top, tie board and panel together. So a press on a button or knob bends the board, and through those three standoffs the panel too.
+
+`flex_check.py` models panel and board as thin plates with 1 mm elements: the panel with its holes and cuts from the exported files, the board as a plain plate. Each button and knob is pressed in turn, and so is the panel itself at points between its holes. PacTec's drawing doesn't settle whether the panel edge bears on the case ledge, so both cases are computed.
+
+Results at a firm 10 N press, in mm. The TL1100F160Q switch itself operates at 1.57 N (160 gf); scale by 0.157 for that. Distributors give 0.3 mm switch travel.
+
+| Panel | Corners only: worst button | Corners only: worst control | Corners only: panel pressed | On the ledge: worst button | On the ledge: panel pressed |
+|---|---|---|---|---|---|
+| FR-4 1.6 mm | 1.45 (S21) | 1.58 (VR4) | 1.82 | 0.76 (S5) | 0.68 |
+| FR-4 1.44 mm, the thinnest allowed | 1.61 | 1.76 | 2.14 | 0.76 | 0.93 |
+| FR-4 2.0 mm | 1.14 (S9) | 1.18 (VR4) | 1.22 | 0.76 | 0.35 |
+| Aluminium 1.575 mm, as designed | 0.95 (S9) | 0.97 (S4) | 0.87 | 0.76 | 0.20 |
+
+"Panel pressed" is the worst point: on the top edge between the two top standoffs with the corners only, and the middle on the ledge.
+
+- **The board alone gives 0.76 mm** at S5, on the left edge between two corner standoffs: 0.12 mm at the switch's own force. That is the same with any panel, and so with the original.
+- **If the panel bears on the ledge,** FR-4 changes nothing under the buttons and knobs. Pressed directly, it sinks 0.68 mm against 0.20 mm for aluminium.
+- **If only the corners hold it,** the buttons sink 1.45 mm against 0.95 mm, which is 0.23 against 0.15 mm at the switch's own force.
+- **When the case arrives, look at whether the panel edge lies on the ledge.** If it doesn't, a thin shim on the ledge makes the second case true.
+
+**Cross-check:** `flex_ccx.py` meshes the real outlines with Gmsh and solves with CalculiX, both as installed with FreeCAD, on 2 mm second-order shell elements. It repeats the worst button, worst control and panel press for FR-4 1.6 mm and aluminium, in both cases: 12 results. All agree with `flex_check.py` within 0.5-2.0 %. In CalculiX the ledge holds the edge both ways; in `flex_check.py` the edge may lift. Results: `flex-check.json`, `flex-ccx.json`.
+
+**Assumptions,** none of them measured:
+- FR-4 at 20 GPa, where laminates are about 18-24 GPa; aluminium at 69 GPa.
+- The standoffs carry only push and pull, not bending, which overstates the flex.
+- The board's parts are left out, which overstates the flex; its holes are left out, which understates it a little.
+- The presses are point loads.
+- Everything is linear.
+
 ## Limits
 
 - **Thickness:** JLCPCB gives 1.6 mm +/-10%, so 1.44 to 1.76 mm against 1.575 mm for the original aluminium. PacTec's drawing doesn't dimension the rear panel's groove. It looks wider than the plate on the drawing, but that isn't a dimension. If a panel binds, sand its edge, wet and with a mask: FR-4 dust is harmful.
-- **Stiffness:** FR-4 is about a third as stiff as aluminium at the same thickness. The mainboard hangs from the panel on seven standoffs, and I haven't calculated how much it flexes under button presses.
+- **Stiffness:** FR-4 is about a third as stiff as aluminium at the same thickness. See "Flex" above.
 - **Pot and nut hardware:** fits above cover what passes through the panel. How far each part stands above the panel comes from earlier work on the 1.575 mm plate. FR-4 adds 0.03 mm nominally and at most 0.19 mm, taken off what stands above it: an LED lens goes from 1.30 mm to no less than 1.11 mm.
 - **Appearance:** FR-4 edges and cut walls show as pale fibreglass against the black mask. Mask colour over bare FR-4 can differ slightly from mask over copper, which is another reason the rings hide under hardware.
 - **The Blender scene still shows the aluminium DXF panels.** It wasn't changed.
@@ -100,6 +131,16 @@ python3 -I kicad-working/panels/make_panels.py
 
 ```bash
 ../x0xb0x-si-emc/.venv/bin/python -I kicad-working/panels/make_package.py
+```
+
+The flex model, then its cross-check (about 5 and 7 minutes; the second needs FreeCAD and the first one's results):
+
+```bash
+../x0xb0x-si-emc/.venv/bin/python -I kicad-working/panels/flex_check.py
+```
+
+```bash
+../x0xb0x-si-emc/.venv/bin/python -I kicad-working/panels/flex_ccx.py
 ```
 
 Each export stamps its date into the Gerbers, so a fresh run changes the hashes without changing the geometry. The run on 2026-11-05 passed all 31 checks with KiCad 10.0.7: DRC, outline and every hole and cut against the DXF, read from the exported files; silkscreen at least 0.3 mm clear of edges; every word against the label map; copper limited to the rings; LEDs, controls, mounts and jacks against the KiCad 30 boards; all parts clear at worst tolerance.
