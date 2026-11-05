@@ -17,9 +17,13 @@ The PDFs are [mainboard-schematic.pdf](mainboard-schematic.pdf) and [ioboard-sch
 - **Values and pin names are kept** from the single-sheet schematic in `data/<board>_parts.json`, so the BOM and the simulation read the same data. Device names with nothing to say on a sheet, such as `LED5MM` or `MA03-''`, stay as the part's value but are hidden.
 - **The board files changed only in their links.** KiCad finds a footprint's symbol by its path, and the path changes when a symbol moves onto a sub-sheet. `relink_board.py` rewrites those `path` lines, 410 on the mainboard and 82 on the I/O board, which is what KiCad's "Re-link footprints" does, and adds one to each of the mainboard's seven mounting holes. Copper, nets, placement and text are untouched; `pcb-relink-record.json` holds the hashes.
 
+## Revision 30
+
+The CV and VCO sheet and the Envelope sheet gain SC-59 chips, Q128 and Q139, in frames of their own, drawn the same way as revision 29's chips. Q28 and Q39 are marked do-not-place. `build.py` writes revision letter K30. No other drawing on the sheets moved. The new frames were looked at in rendered crops, and the sheets were opened in the editor only to read Update PCB.
+
 ## Revision 29
 
-The VCF and CV and VCO sheets gain [SOT-363 chips](../smd-sites/README.md) in frames of their own. They stand apart from the circuit and join it by visible labels, so the circuit reads as the original does. On those nets the name now appears twice: the 0.05 mm label on the circuit and the visible one on the chip. The SIP pairs they replace are marked do-not-place. `build.py` writes revision letter K29.
+The VCF and CV and VCO sheets gain [SOT-363 chips](../smd-sites/README.md) in frames of their own. They stand apart from the circuit and join it by visible labels, so the circuit reads as the original does. On those nets the name now appears twice: the 0.05 mm label on the circuit and the visible one on the chip. The SIP pairs they replace are marked do-not-place. `build.py` wrote revision letter K29.
 
 The root sheet's boxes now step to the right, because `kicad-cli` plots sheets in order of x, then y, and the schematic PDFs came out of page order. The page numbers in the files were right.
 
@@ -29,12 +33,12 @@ From the last run of `verify_redraw.py --mutation`, recorded in [docs/schematic-
 
 | Check | Mainboard | I/O board |
 |---|---|---|
-| Pins compared with the board copper | 1184 on 324 nets, with the 24 of revision 29's chips: none differs in group or name | 222 on 59 nets: none differs in group or name |
+| Pins compared with the board copper | 1190 on 324 nets, with the 30 of the chips: none differs in group or name | 222 on 59 nets: none differs in group or name |
 | Pins compared with the original Eagle schematic | 1160 on 324 nets: none differs | 222 on 59 nets: none differs |
 | Pads open on the board | All open on the sheet too | All open on the sheet too |
 | ERC under the project rules | 0 violations | 0 violations |
 | DRC with parity | 341 violations, 1 unconnected, 127 parity. As at revision 27, except that the holes' 7 "extra footprint" warnings became 14 mismatches, on value and BOM flag, and that the chips add 6 silkscreen warnings | 254, 1, 45: the same as revision 27 |
-| Board file | The recorded revision 29 file, apart from its links; [compared with revision 28](../smd-sites/README.md) | Against revision 27, only 82 `path` lines differ |
+| Board file | The recorded revision 30 file, apart from its links; [compared with revision 29](../smd-sites/README.md) | Against revision 27, only 82 `path` lines differ |
 | Each footprint's symbol and link | 421, each with a symbol and linked to its own | 82, each with a symbol and linked to its own |
 | File format and sheet instances | As KiCad 10.0.7 writes them, with pages in sheet order | The same |
 | One wire left out of each sheet in turn | The comparison failed on all 9 sheets | The comparison failed on all 3 sheets |
@@ -51,7 +55,7 @@ An earlier state of this revision, commit `ad65ff0`, opened with an error messag
 Also checked, once, on the installed files:
 
 - **Copper at revision 28:** track segments and vias are identical: 2649 and 6 on the mainboard, 418 and 2 on the I/O board. All 9 Gerbers of each board re-export identically apart from their creation dates, so the revision-27 fabrication packages still apply.
-- **BOM at revision 28:** `kicad-cli sch export bom` gives the same value and DNP for every part as the revision-27 BOM files. Revision 29 adds the four chips and marks Q12, Q21, Q22 and Q26 do-not-place.
+- **BOM at revision 28:** `kicad-cli sch export bom` gives the same value and DNP for every part as the revision-27 BOM files. Revision 29 adds the four chips and marks Q12, Q21, Q22 and Q26 do-not-place. Revision 30 adds two more and marks Q28 and Q39.
 - **Simulation:** `extract_vcf.py --check` still matches, and `verify_report.py` still passes 45 of 45.
 - **Overlaps:** the Amber `lint_sch.py` tool, run with the 0.05 mm labels left out, reports text inside a symbol's own outline (for example, the part name inside a dual transistor's capsule) and wires inside an imported symbol's outline (IC15's link between pins 6 and 7, S1's and S2's mounting pins). I looked at those on the renders and none touches anything. It is not a zero-finding result.
 - **Rendering:** every sheet was rendered and looked at, with zoomed crops of the switch and LED sheets.

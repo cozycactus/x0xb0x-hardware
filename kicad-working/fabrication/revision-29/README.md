@@ -4,7 +4,9 @@ These are the order packages for both x0xb0x boards: Gerbers, drills, drill maps
 
 Revision 29 adds four SOT-363 chips to the mainboard. Every original pad, track, via and drill is still there, and the new copper lies around the chips. The I/O board's Gerbers are the same as at revision 27 apart from their creation dates. See [the SMD sites](../../smd-sites/README.md).
 
-**Status: both packages are ready to order**, once the owner has made the choices in [mainboard/FAB-NOTES.md](mainboard/FAB-NOTES.md) and [ioboard/FAB-NOTES.md](ioboard/FAB-NOTES.md). The recommendations are 1.6 mm FR-4, 1 oz copper, lead-free HASL, green mask with white silkscreen, vias tented as exported, the fab's own electrical test, and no panelisation. A first export from revision 26 found two board defects; revision 27 corrects them (`../../validation/models-review-27/`):
+**Superseded by [revision 30](../revision-30/README.md).** Revision 30 changed the mainboard copper, so this mainboard package no longer matches the board file. It stays as the record of that export. Order from revision 30.
+
+**Status at revision 29: both packages were ready to order**, once the owner has made the choices in [mainboard/FAB-NOTES.md](mainboard/FAB-NOTES.md) and [ioboard/FAB-NOTES.md](ioboard/FAB-NOTES.md). The recommendations are 1.6 mm FR-4, 1 oz copper, lead-free HASL, green mask with white silkscreen, vias tented as exported, the fab's own electrical test, and no panelisation. A first export from revision 26 found two board defects; revision 27 corrects them (`../../validation/models-review-27/`):
 
 - **Mainboard:** the saved ground pours predated revision 26's longer SIP9 pads and touched 23 of them. They are now refilled.
 - **I/O board:** the rear-plate datum was a second outline on Edge.Cuts. It is now on Dwgs.User.

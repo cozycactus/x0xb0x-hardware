@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "snapshot_date": "2026-11-04",
- "KiCad_revision": 29,
- "validation_summary": "kicad-working/validation/working-validation-summary-revision-29.json",
- "report": "kicad-working/validation/models-review-29/README.md",
- "packages": "kicad-working/fabrication/revision-29/README.md",
+ "snapshot_date": "2026-11-05",
+ "KiCad_revision": 30,
+ "validation_summary": "kicad-working/validation/working-validation-summary-revision-30.json",
+ "report": "kicad-working/validation/models-review-30/README.md",
+ "packages": "kicad-working/fabrication/revision-30/README.md",
  "inputs": {
   "kicad_cli": "10.0.7",
   "kicad_pcb_sha256": {
-   "mainboard": "8abfebab2acffe21d690fa84c66ef286e174812e223d24f5b5b6375a6e471d3d",
+   "mainboard": "bf9771ff84d806f45b6c3ef0b314c958b570bc19c4ba77fc2c3f858490cabdce",
    "ioboard": "ea9c726cf1f5ed60a5e4a91c12b001293151212898ae0af53c91a47ca4f4129b"
   },
   "original_eagle_sha256": {
@@ -71,7 +71,7 @@
    ]
   ]
  },
- "verdict": "Every original drill, track, arc, via and pad still reproduces the Eagle 4.13 boards, and the copper as saved and plotted passes DRC. Revision 29 adds four SOT-363 chips with their tracks and vias on the mainboard, which are not in the original. No difference blocks ordering; the mask and tenting differences listed below are fab-note choices for the owner.",
+ "verdict": "Every original drill, track, arc, via and pad still reproduces the Eagle 4.13 boards, and the copper as saved and plotted passes DRC. Revisions 29 and 30 add four SOT-363 and two SC-59 chips with their tracks and vias on the mainboard, which are not in the original. No difference blocks ordering; the mask and tenting differences listed below are fab-note choices for the owner.",
  "layers": {
   "mainboard": {
    "drills": {
@@ -298,11 +298,13 @@
     "Q112",
     "Q121",
     "Q122",
-    "Q126"
+    "Q126",
+    "Q128",
+    "Q139"
    ],
    "added": {
-    "smd_pads": 24,
-    "tracks": 81,
+    "smd_pads": 30,
+    "tracks": 90,
     "vias": 7
    },
    "split_original_tracks": [
@@ -879,11 +881,11 @@
     "ignored_checks": true,
     "silkscreen_warnings_previous": {
      "silk_over_copper": 199,
-     "silk_overlap": 88
+     "silk_overlap": 94
     },
     "silkscreen_warnings_fresh": {
      "silk_over_copper": 199,
-     "silk_overlap": 88
+     "silk_overlap": 94
     },
     "silkscreen_types_truncated_at_report_limit": [
      "silk_over_copper"

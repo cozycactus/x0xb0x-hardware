@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: CC0-1.0
-"""Do the chips clear what stands around them? Exports the placed 3D models around the four chips with kicad-cli, into a temporary
+"""Do the chips clear what stands around them? Exports the placed 3D models around the chips with kicad-cli, into a temporary
 folder, samples each neighbour's surfaces every 0.02 mm and measures three things. Writes fit-check.json. Needs numpy.
 
 - body gap: from the chip, leads included, to whatever of the neighbour is no higher than the chip. 0 means they touch in the model.
@@ -24,11 +24,14 @@ sys.path.insert(0, str(HERE.parent / 'adapters' / 'ssip5-dual'))
 sys.dont_write_bytecode = True
 import fit_check as F  # noqa: E402
 
-CHIPS = ('Q112', 'Q121', 'Q122', 'Q126')
-SIP = {'Q112': 'Q12', 'Q121': 'Q21', 'Q122': 'Q22', 'Q126': 'Q26'}
-TOP = 1.1             # SOT-363 height, mm
-BODY = 1.05, 1.0      # half size along the leads, with the leads, and along the pin rows
-LAND = 1.6, 0.845     # half size of the land pads
+CHIPS = ('Q112', 'Q121', 'Q122', 'Q126', 'Q128', 'Q139')
+SIP = {'Q112': 'Q12', 'Q121': 'Q21', 'Q122': 'Q22', 'Q126': 'Q26', 'Q128': 'Q28', 'Q139': 'Q39'}
+# Height, then boxes in the footprint's frame: (centre x, centre y, half x, half y), for the chip with its leads and for the lands, in mm.
+SOT363 = dict(top=1.1, body=[(0, 0, 1.05, 1.0)], land=[(0, 0, 1.6, 0.845)])
+# The Toshiba S-Mini drawing's largest sizes: plastic 3.1 x 1.75, leads 0.5 wide and 3.0 across. Three leads, so not one box.
+SC59 = dict(top=1.3, body=[(0, 0, 0.875, 1.55), (-1.19, -0.95, 0.31, 0.25), (-1.19, 0.95, 0.31, 0.25), (1.19, 0, 0.31, 0.25)],
+            land=[(-1.35, -0.95, 0.6, 0.35), (-1.35, 0.95, 0.6, 0.35), (1.35, 0, 0.6, 0.35)])
+SIZE = {'Q112': SOT363, 'Q121': SOT363, 'Q122': SOT363, 'Q126': SOT363, 'Q128': SC59, 'Q139': SC59}
 IRON = 0.3            # room above the chip for an iron tip's approach
 PITCH = 0.02          # surface sample spacing, mm
 REACH = 5.0           # neighbours' triangles further than this in plan are skipped
@@ -90,10 +93,23 @@ def surface_points(tris, x, y):
     return np.vstack(pts) if pts else np.empty((0, 3))
 
 
-def gap_to_box(p, x, y, half):
-    dx = np.maximum(np.abs(p[:, 0] - x) - half[0], 0)
-    dy = np.maximum(np.abs(p[:, 1] - y) - half[1], 0)
-    return np.hypot(dx, dy)
+def placed(boxes, x, y, rot):
+    """Boxes from a footprint's frame to the board, for a footprint turned by a multiple of 90 degrees."""
+    out = []
+    for cx, cy, hx, hy in boxes:
+        qx, qy, turned = {0: (cx, cy, False), 90: (cy, -cx, True), 180: (-cx, -cy, False), 270: (-cy, cx, True)}[round(rot) % 360]
+        out.append((x + qx, y + qy, hy, hx) if turned else (x + qx, y + qy, hx, hy))
+    return out
+
+
+def gap_to_boxes(p, boxes):
+    """Distance in plan from each point to the nearest box, and how far inside that box the point lies."""
+    gaps, depths = [], []
+    for x, y, hx, hy in boxes:
+        ex, ey = np.abs(p[:, 0] - x) - hx, np.abs(p[:, 1] - y) - hy
+        gaps.append(np.hypot(np.maximum(ex, 0), np.maximum(ey, 0)))
+        depths.append(np.minimum(-ex, -ey))
+    return np.min(gaps, axis=0), np.max(depths, axis=0)
 
 
 def main():
@@ -107,11 +123,11 @@ def main():
         glb = Path(tmp) / 'near.glb'
         subprocess.run([F.CLI, 'pcb', 'export', 'glb', '--force', '--no-board-body', '--user-origin', '0x0mm', '--component-filter', ','.join(sorted(near)), '-o', str(glb), str(F.PCB)], check=True, capture_output=True)
         models = triangles(glb)
-    report = dict(note='Clearance to the placed illustrative models, nominal sizes. Not a physical fit qualification. The SIP pair at each site is left out because the chip replaces it.', chip_mm=dict(top=TOP, body_half=BODY, land_half=LAND), chips={})
+    report = dict(note='Clearance to the placed illustrative models, nominal sizes. Not a physical fit qualification. The SIP pair at each site is left out because the chip replaces it.', chip_mm=dict(SOT363=SOT363, SC59=SC59), chips={})
     for chip in CHIPS:
         f = fps[chip]
-        turned = bool(f['rot'])
-        body, land = (BODY[::-1], LAND[::-1]) if turned else (BODY, LAND)
+        top = SIZE[chip]['top']
+        body, land = placed(SIZE[chip]['body'], f['x'], f['y'], f['rot']), placed(SIZE[chip]['land'], f['x'], f['y'], f['rot'])
         rows, over = [], []
         for ref, tris in models.items():
             if ref in (chip, SIP[chip]):
@@ -120,19 +136,18 @@ def main():
             p = p[p[:, 2] > 0.05]
             if not len(p):
                 continue
-            low = p[p[:, 2] <= TOP]
-            room = p[p[:, 2] <= TOP + IRON]
+            low = p[p[:, 2] <= top]
+            room = p[p[:, 2] <= top + IRON]
             row = dict(ref=ref)
             if len(low):
-                row['body_gap_mm'] = round(float(gap_to_box(low, f['x'], f['y'], body).min()), 2)
+                row['body_gap_mm'] = round(float(gap_to_boxes(low, body)[0].min()), 2)
             if len(room):
-                row['land_gap_mm'] = round(float(gap_to_box(room, f['x'], f['y'], land).min()), 2)
+                row['land_gap_mm'] = round(float(gap_to_boxes(room, land)[0].min()), 2)
             if len(row) > 1:
                 rows.append(row)
-            above = p[(p[:, 2] > TOP) & (gap_to_box(p, f['x'], f['y'], body) == 0)]
+            above = p[(p[:, 2] > top) & (gap_to_boxes(p, body)[0] == 0)]
             if len(above):
-                depth = np.minimum(body[0] - np.abs(above[:, 0] - f['x']), body[1] - np.abs(above[:, 1] - f['y']))
-                over.append(dict(ref=ref, lowest_above_chip_top_mm=round(float(above[:, 2].min()) - TOP, 2), reach_into_outline_mm=round(float(depth.max()), 2)))
+                over.append(dict(ref=ref, lowest_above_chip_top_mm=round(float(above[:, 2].min()) - top, 2), reach_into_outline_mm=round(float(gap_to_boxes(above, body)[1].max()), 2)))
         rows.sort(key=lambda r: min(r.get('body_gap_mm', 99), r.get('land_gap_mm', 99)))
         over.sort(key=lambda r: r['lowest_above_chip_top_mm'])
         report['chips'][chip] = dict(at=[f['x'], f['y']], rotation=f['rot'], smallest_body_gap_mm=min(r.get('body_gap_mm', 99) for r in rows), smallest_land_gap_mm=min(r.get('land_gap_mm', 99) for r in rows), nearest=rows[:5], overhanging=over)

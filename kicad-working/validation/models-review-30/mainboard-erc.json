@@ -1,0 +1,82 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-05T02:32:23",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/4cb33db0-329d-524c-97b9-8942398abfa3",
+            "violations": []
+        },
+        {
+            "path": "/CPU/",
+            "uuid_path": "/4cb33db0-329d-524c-97b9-8942398abfa3/edcd6246-5670-5863-9b9c-e9a759e068c0",
+            "violations": []
+        },
+        {
+            "path": "/Rotary encoders/",
+            "uuid_path": "/4cb33db0-329d-524c-97b9-8942398abfa3/1fae9c0c-0459-5dbc-9c15-93a87a08e451",
+            "violations": []
+        },
+        {
+            "path": "/Tact switches/",
+            "uuid_path": "/4cb33db0-329d-524c-97b9-8942398abfa3/01456583-94b2-514f-9694-71dcdf9783c0",
+            "violations": []
+        },
+        {
+            "path": "/LEDs/",
+            "uuid_path": "/4cb33db0-329d-524c-97b9-8942398abfa3/d52efce0-5034-5b85-8f00-481043f93ccc",
+            "violations": []
+        },
+        {
+            "path": "/CV and VCO/",
+            "uuid_path": "/4cb33db0-329d-524c-97b9-8942398abfa3/5c0130aa-5338-5469-8d1c-b4ef8b7f803c",
+            "violations": []
+        },
+        {
+            "path": "/VCF/",
+            "uuid_path": "/4cb33db0-329d-524c-97b9-8942398abfa3/902c5930-afdc-5c6a-abb7-d34009a1451f",
+            "violations": []
+        },
+        {
+            "path": "/VCA/",
+            "uuid_path": "/4cb33db0-329d-524c-97b9-8942398abfa3/7e145d48-d056-587d-bbd3-e26761cd8c2e",
+            "violations": []
+        },
+        {
+            "path": "/Envelope/",
+            "uuid_path": "/4cb33db0-329d-524c-97b9-8942398abfa3/f9c29023-304d-5fdf-8dee-74519057a36f",
+            "violations": []
+        },
+        {
+            "path": "/Mixer and headphone/",
+            "uuid_path": "/4cb33db0-329d-524c-97b9-8942398abfa3/e6e9de29-023f-5dce-be1f-7dd346748544",
+            "violations": []
+        }
+    ],
+    "source": "mainboard.kicad_sch"
+}

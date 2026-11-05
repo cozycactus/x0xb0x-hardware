@@ -20,7 +20,7 @@ from scipy import ndimage
 Image.MAX_IMAGE_PIXELS = None
 CLI = os.environ.get('KICAD_CLI', '/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli')
 GERBV = os.environ.get('GERBV', '/opt/homebrew/bin/gerbv')
-SITES = {'Q112': (85.24, -114.7), 'Q121': (61.6, -121.7), 'Q122': (62.2, -104.9), 'Q126': (156.55, -144.9)}
+SITES = {'Q112': (85.24, -114.7), 'Q121': (61.6, -121.7), 'Q122': (62.2, -104.9), 'Q126': (156.55, -144.9), 'Q128': (161.4, -157.1), 'Q139': (208.1, -156.0)}
 LAYERS = 'F.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,F.Paste,B.Paste,Edge.Cuts'
 DPI, OX, OY, WI, HI, NEAR, POCKET = 1000, -0.05, -0.05, 9.6, 7.5, 14.0, 8.0
 MM2 = (25.4 / DPI) ** 2

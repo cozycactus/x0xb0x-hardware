@@ -33,7 +33,7 @@ WORK = HERE.parent
 ROOT = WORK.parent
 CLI = os.environ.get('KICAD_CLI', '/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli')
 # Mainboard: revision 27's report, except that the seven mounting holes' 7 extra_footprint warnings became 14 mismatches, on value and BOM flag,
-# and the four chips of revision 29 add 5 silkscreen warnings. They add no parity issue. I/O board: as at revision 27.
+# and the four chips of revision 29 add 5 silkscreen warnings. They add no parity issue, and revision 30's two chips add nothing. I/O board: as at revision 27.
 BEFORE = {'mainboard': dict(violations=341, unconnected=1, parity=127, parity_types={'footprint_symbol_mismatch': 84, 'net_conflict': 43, 'extra_footprint': 0}),
           'ioboard': dict(violations=254, unconnected=1, parity=45, parity_types={'net_conflict': 38, 'footprint_symbol_mismatch': 7})}
 results = []
@@ -209,7 +209,7 @@ def main():
                   found=found, parity_types={k: kinds[k] for k in b['parity_types']})
         pcb = (project / f'{board}.kicad_pcb').read_bytes()
         stripped = re.sub(rb'^\t\t\((path|sheetname|sheetfile) "[^"]*"\)\n', b'', pcb, flags=re.M)  # Footprint level only: a zone has a sheetname too
-        # compare_board.py and compare_gerbers.py compared revision 29's mainboard with revision 28's; this pins the file they compared.
+        # compare_board.py and compare_gerbers.py compared revision 30's mainboard with revision 29's; this pins the file they compared.
         check(f'{board}: the board file is the recorded one, apart from its links to the symbols', hashlib.sha256(stripped).hexdigest() == record[board]['without_link_fields_sha256'])
         if '--mutation' in sys.argv:
             tried, survivors = mutation(board)
@@ -219,7 +219,7 @@ def main():
     if '--mutation' in sys.argv:
         (ROOT / 'docs' / 'schematic-redraw.json').write_text(json.dumps(dict(
             scope='Both KiCad schematics redrawn on sheets by hand from the original Eagle sheets. Files and nets only: nothing here was built or measured.',
-            kicad_working_revision=29, measured_on_hardware=False, board_copper_changed='Only at revision 29, around the four SOT-363 chips: docs/smd-sites.json', checks=results,
+            kicad_working_revision=30, measured_on_hardware=False, board_copper_changed='Only at revisions 29 and 30, around the SOT-363 and SC-59 chips: docs/smd-sites.json', checks=results,
             opened_in_kicad_editor='By hand in KiCad 10.0.7, not by this script; what was seen is in kicad-working/schematic-redraw/README.md.'), indent=1) + '\n')
     raise SystemExit(0 if passed == len(results) else 1)
 

@@ -1,6 +1,6 @@
 {
- "scope": "Four SOT-363 dual transistors added to the mainboard next to the SIP pairs they replace. Files and KiCad checks only: nothing was built or measured.",
- "kicad_working_revision": 29,
+ "scope": "SMD transistors added to the mainboard next to the parts they replace: four SOT-363 duals at revision 29, two SC-59 JFETs at revision 30. Files and KiCad checks only: nothing was built or measured.",
+ "kicad_working_revision": 30,
  "measured_on_hardware": false,
  "previous_board": "8d172d1:kicad-working/mainboard/mainboard.kicad_pcb",
  "chips": {
@@ -19,6 +19,14 @@
   "Q126": {
    "replaces": "Q26",
    "part": "BCM847BS"
+  },
+  "Q128": {
+   "replaces": "Q28",
+   "part": "2SK208-O"
+  },
+  "Q139": {
+   "replaces": "Q39",
+   "part": "2SK208-Y"
   }
  },
  "added": {
@@ -116,13 +124,17 @@
    "Q112": 1.44,
    "Q121": 0.41,
    "Q122": 0.78,
-   "Q126": 0.0
+   "Q126": 0.0,
+   "Q128": 0.26,
+   "Q139": 1.32
   },
   "smallest_land_gap_mm": {
    "Q112": 1.59,
    "Q121": 0.07,
    "Q122": 0.94,
-   "Q126": 0.07
+   "Q126": 0.07,
+   "Q128": 0.08,
+   "Q139": 0.94
   },
   "overhanging": {
    "Q112": [
@@ -187,5 +199,114 @@
    "Q122": 14.19,
    "Q126": 9.99
   }
+ },
+ "revision_30": {
+  "scope": "Two SC-59 sites for the 2SK208, next to Q28 and Q39, whose holes stay.",
+  "previous_board": "1ba31be:kicad-working/mainboard/mainboard.kicad_pcb",
+  "added": {
+   "footprints": 2,
+   "track_segments": 9,
+   "vias": 0,
+   "track_width_mm": 0.25,
+   "smd_pads": 6
+  },
+  "routing": {
+   "routed_with_the_mouse": false,
+   "how": "The screen was locked. Each path was drawn by hand on a map of the copper, checked for clearance and written by kicad-working/smd-sites/finish_jfets.py. KiCad's DRC then checked them.",
+   "track_mm": {
+    "Q128 gate to C33 N$113": 4.71,
+    "Q128 source to R105 N$108": 1.73,
+    "Q128 drain to Q28 +12V": 5.96,
+    "Q139 drain to Q39 N$53": 1.82
+   }
+  },
+  "part_basis": "Toshiba 2SK208 sheet and Tiger Electronic's copy of the 2SK30A sheet give the same ratings and characteristics. Not measured.",
+  "board_comparison": {
+   "original_tracks_arcs_vias": "all kept, none split",
+   "existing_footprints_changed": [],
+   "result": "only the new sites changed"
+  },
+  "gerber_comparison": {
+   "B_Cu": {
+    "differing_mm2": 0.0,
+    "near_chips_mm2": 0.0,
+    "away_mm2": 0.0,
+    "largest_away_region_pixels": 0,
+    "pixel_um": 25.4
+   },
+   "B_Mask": {
+    "differing_mm2": 0.0,
+    "near_chips_mm2": 0.0,
+    "away_mm2": 0.0,
+    "largest_away_region_pixels": 0,
+    "pixel_um": 25.4
+   },
+   "B_Paste": {
+    "differing_mm2": 0.0,
+    "near_chips_mm2": 0.0,
+    "away_mm2": 0.0,
+    "largest_away_region_pixels": 0,
+    "pixel_um": 25.4
+   },
+   "B_Silkscreen": {
+    "differing_mm2": 0.0,
+    "near_chips_mm2": 0.0,
+    "away_mm2": 0.0,
+    "largest_away_region_pixels": 0,
+    "pixel_um": 25.4
+   },
+   "Edge_Cuts": {
+    "differing_mm2": 0.0,
+    "near_chips_mm2": 0.0,
+    "away_mm2": 0.0,
+    "largest_away_region_pixels": 0,
+    "pixel_um": 25.4
+   },
+   "F_Cu": {
+    "differing_mm2": 8.744,
+    "near_chips_mm2": 8.721,
+    "away_mm2": 0.0226,
+    "largest_away_region_pixels": 7,
+    "pixel_um": 25.4,
+    "pour_lost_within_8mm_of_chip_mm2": {
+     "Q112": 0.0,
+     "Q121": 0.0,
+     "Q122": 0.0,
+     "Q126": 0.0,
+     "Q128": 6.2,
+     "Q139": 2.17
+    }
+   },
+   "F_Mask": {
+    "differing_mm2": 4.923,
+    "near_chips_mm2": 4.923,
+    "away_mm2": 0.0,
+    "largest_away_region_pixels": 0,
+    "pixel_um": 25.4
+   },
+   "F_Paste": {
+    "differing_mm2": 4.924,
+    "near_chips_mm2": 4.924,
+    "away_mm2": 0.0,
+    "largest_away_region_pixels": 0,
+    "pixel_um": 25.4
+   },
+   "F_Silkscreen": {
+    "differing_mm2": 3.134,
+    "near_chips_mm2": 3.134,
+    "away_mm2": 0.0,
+    "largest_away_region_pixels": 0,
+    "pixel_um": 25.4
+   }
+  },
+  "update_pcb_read_not_applied": {
+   "footprints_removed": 0,
+   "note": "Read in the KiCad 10.0.7 editor and not applied. Same as revision 29's report but for the sheet name, sheet file and unit lines of the two chips."
+  },
+  "limits": [
+   "Q28's printed label runs under Q128's body and across its drain land; the fab clips silkscreen at pads, and the original text was not moved.",
+   "Blender revision 28 has neither chip and still shows Q28 and Q39, so scripts/verify_kicad_blender_models.py no longer matches.",
+   "The signal-integrity study in ../x0xb0x-si-emc covers revision 29, not these two sites."
+  ]
  }
 }

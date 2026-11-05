@@ -581,6 +581,14 @@ def draw_cv_vco(d):
     d.rail('+5.333V', 'Q126.2', 'R')
     d.note('Fit Q126 or Q26, never both', 299.72, 229.87)
 
+    # Q28 as an SC-59 chip, beside that frame. The original's holes stay on the board.
+    d.block('SMD JFET for Q28', 238.76, 182.88, 292.1, 233.68)
+    d.sc59('Q128', 261.62, 208.28)
+    d.alt_out('Q128.3', 'N$113', 'L')
+    d.rail('+12V', 'Q128.2')
+    d.alt_out('Q128.1', 'N$108', 'B')
+    d.note('Fit Q128 or Q28, never both', 241.3, 229.87)
+
 
 def draw_vcf(d):
     d.dx, d.dy = 38.1, 15.24
@@ -1107,6 +1115,14 @@ def draw_env(d):
     d.chip('IC12', '4066N', 5, 287.02, 88.9, ref_at=(290.83, 88.9), hide_value=True, just='left')
     d.rail('+12V', 'IC12.14')
     d.ground('IC12.7')
+
+    # Q39 as an SC-59 chip, below the frame. The original's holes stay on the board.
+    d.block('SMD JFET for Q39', 198.12, 187.96, 264.16, 233.68)
+    d.sc59('Q139', 228.6, 208.28)
+    d.alt_out('Q139.2', 'N$53', 'T')
+    d.route('Q139.3', (223.52, 213.36), 'Q139.1')
+    d.ground('Q139.1')
+    d.note('Fit Q139 or Q39, never both', 200.66, 229.87)
 
 
 def draw_mixer(d):

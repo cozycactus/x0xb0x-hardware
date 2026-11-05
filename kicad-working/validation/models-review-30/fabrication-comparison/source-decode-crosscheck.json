@@ -1,0 +1,110 @@
+{
+ "inputs": {
+  "kicad_cli": "10.0.7",
+  "kicad_pcb_sha256": {
+   "mainboard": "bf9771ff84d806f45b6c3ef0b314c958b570bc19c4ba77fc2c3f858490cabdce",
+   "ioboard": "ea9c726cf1f5ed60a5e4a91c12b001293151212898ae0af53c91a47ca4f4129b"
+  },
+  "original_eagle_sha256": {
+   "mainboard.brd": "7863511de317332f07139589a62596d70a95cc84ea67242f928fd178db2cba0e",
+   "ioboard.brd": "76b6d3c1b71adafd8b84ae0141f78a480a07d13c3eb908694f8cd212c833270e"
+  },
+  "eagle_staging_xml_sha256": {
+   "mainboard.brd": "74a86e7a3577cd909b6cc9b10ba6e52208e9765091cb5cb98ed9696d050e86ec",
+   "ioboard.brd": "5cf8a750ca05350712c991a296348b0f06c9124a382659435675afd91980ce95"
+  },
+  "eagle_parser_record_table_sha256": "972b3474b6fbc273e042cd71b2021cc03e14dff73725eb9881efb082dd84ef9b",
+  "commands": [
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "gerbers",
+    "--board-plot-params",
+    "-o",
+    "<temporary>/gerbers/mainboard/",
+    "<kicad-working>/mainboard/mainboard.kicad_pcb"
+   ],
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "drill",
+    "--format",
+    "excellon",
+    "--excellon-separate-th",
+    "--excellon-units",
+    "mm",
+    "-o",
+    "<temporary>/gerbers/mainboard/",
+    "<kicad-working>/mainboard/mainboard.kicad_pcb"
+   ],
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "gerbers",
+    "--board-plot-params",
+    "-o",
+    "<temporary>/gerbers/ioboard/",
+    "<kicad-working>/ioboard/ioboard.kicad_pcb"
+   ],
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "drill",
+    "--format",
+    "excellon",
+    "--excellon-separate-th",
+    "--excellon-units",
+    "mm",
+    "-o",
+    "<temporary>/gerbers/ioboard/",
+    "<kicad-working>/ioboard/ioboard.kicad_pcb"
+   ]
+  ]
+ },
+ "boards": {
+  "mainboard": {
+   "binary_wire_like_records": 3974,
+   "xml_wires": 3891,
+   "polygon_vertex_records": 83,
+   "wires_are_binary_records": true,
+   "wire_coordinates_equal_binary_fields": true,
+   "vias_equal": true,
+   "package_pads_equal": true,
+   "smds_equal": true,
+   "holes_equal": true,
+   "element_positions_equal": true,
+   "counts": {
+    "vias": 6,
+    "package_pads": 249,
+    "smds": 0,
+    "holes": 1,
+    "elements": 417
+   },
+   "passed": true
+  },
+  "ioboard": {
+   "binary_wire_like_records": 915,
+   "xml_wires": 857,
+   "polygon_vertex_records": 58,
+   "wires_are_binary_records": true,
+   "wire_coordinates_equal_binary_fields": true,
+   "vias_equal": true,
+   "package_pads_equal": true,
+   "smds_equal": true,
+   "holes_equal": true,
+   "element_positions_equal": true,
+   "counts": {
+    "vias": 2,
+    "package_pads": 80,
+    "smds": 32,
+    "holes": 0,
+    "elements": 82
+   },
+   "passed": true
+  }
+ }
+}

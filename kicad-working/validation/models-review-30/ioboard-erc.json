@@ -1,0 +1,52 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-05T02:32:23",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/c0844c85-5c36-5497-ab4f-1a0337ee42a7",
+            "violations": []
+        },
+        {
+            "path": "/Power/",
+            "uuid_path": "/c0844c85-5c36-5497-ab4f-1a0337ee42a7/ed4b70e1-b293-527e-bd09-b6b8589defcd",
+            "violations": []
+        },
+        {
+            "path": "/USB/",
+            "uuid_path": "/c0844c85-5c36-5497-ab4f-1a0337ee42a7/a682a000-14cf-55c0-8698-308f6ffaf3ea",
+            "violations": []
+        },
+        {
+            "path": "/MIDI, DIN sync and jacks/",
+            "uuid_path": "/c0844c85-5c36-5497-ab4f-1a0337ee42a7/a60ebf03-0924-5041-abd8-c621332a9244",
+            "violations": []
+        }
+    ],
+    "source": "ioboard.kicad_sch"
+}

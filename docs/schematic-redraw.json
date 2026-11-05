@@ -1,8 +1,8 @@
 {
  "scope": "Both KiCad schematics redrawn on sheets by hand from the original Eagle sheets. Files and nets only: nothing here was built or measured.",
- "kicad_working_revision": 29,
+ "kicad_working_revision": 30,
  "measured_on_hardware": false,
- "board_copper_changed": "Only at revision 29, around the four SOT-363 chips: docs/smd-sites.json",
+ "board_copper_changed": "Only at revisions 29 and 30, around the SOT-363 and SC-59 chips: docs/smd-sites.json",
  "checks": [
   {
    "check": "mainboard: the generator reproduces the installed sheets and symbol library",
@@ -23,7 +23,7 @@
   {
    "check": "mainboard: every pin on the same net as the board copper and the Eagle schematic, with the same names",
    "passed": true,
-   "pins": 1184,
+   "pins": 1190,
    "nets": 324,
    "against_copper": {
     "missing": 0,
@@ -43,8 +43,8 @@
   {
    "check": "mainboard: every footprint has a symbol and links to its own",
    "passed": true,
-   "footprints": 421,
-   "symbols": 421,
+   "footprints": 423,
+   "symbols": 423,
    "shared_paths": 0,
    "wrong": [],
    "without_link": [],

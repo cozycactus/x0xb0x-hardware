@@ -1,15 +1,74 @@
 {
  "note": "Clearance to the placed illustrative models, nominal sizes. Not a physical fit qualification. The SIP pair at each site is left out because the chip replaces it.",
  "chip_mm": {
-  "top": 1.1,
-  "body_half": [
-   1.05,
-   1.0
-  ],
-  "land_half": [
-   1.6,
-   0.845
-  ]
+  "SOT363": {
+   "top": 1.1,
+   "body": [
+    [
+     0,
+     0,
+     1.05,
+     1.0
+    ]
+   ],
+   "land": [
+    [
+     0,
+     0,
+     1.6,
+     0.845
+    ]
+   ]
+  },
+  "SC59": {
+   "top": 1.3,
+   "body": [
+    [
+     0,
+     0,
+     0.875,
+     1.55
+    ],
+    [
+     -1.19,
+     -0.95,
+     0.31,
+     0.25
+    ],
+    [
+     -1.19,
+     0.95,
+     0.31,
+     0.25
+    ],
+    [
+     1.19,
+     0,
+     0.31,
+     0.25
+    ]
+   ],
+   "land": [
+    [
+     -1.35,
+     -0.95,
+     0.6,
+     0.35
+    ],
+    [
+     -1.35,
+     0.95,
+     0.6,
+     0.35
+    ],
+    [
+     1.35,
+     0,
+     0.6,
+     0.35
+    ]
+   ]
+  }
  },
  "chips": {
   "Q112": {
@@ -122,6 +181,71 @@
      "reach_into_outline_mm": 0.09
     }
    ]
+  },
+  "Q128": {
+   "at": [
+    161.4,
+    -157.1
+   ],
+   "rotation": 90.0,
+   "smallest_body_gap_mm": 0.26,
+   "smallest_land_gap_mm": 0.08,
+   "nearest": [
+    {
+     "ref": "R105",
+     "body_gap_mm": 0.26,
+     "land_gap_mm": 0.08
+    },
+    {
+     "ref": "C33",
+     "body_gap_mm": 1.63,
+     "land_gap_mm": 0.28
+    },
+    {
+     "ref": "R118",
+     "body_gap_mm": 1.21,
+     "land_gap_mm": 1.41
+    }
+   ],
+   "overhanging": [
+    {
+     "ref": "C33",
+     "lowest_above_chip_top_mm": 0.32,
+     "reach_into_outline_mm": 0.11
+    },
+    {
+     "ref": "R105",
+     "lowest_above_chip_top_mm": 7.61,
+     "reach_into_outline_mm": 0.22
+    }
+   ]
+  },
+  "Q139": {
+   "at": [
+    208.1,
+    -156.0
+   ],
+   "rotation": -90.0,
+   "smallest_body_gap_mm": 1.32,
+   "smallest_land_gap_mm": 0.94,
+   "nearest": [
+    {
+     "ref": "IC12",
+     "body_gap_mm": 1.32,
+     "land_gap_mm": 0.94
+    },
+    {
+     "ref": "Q41",
+     "body_gap_mm": 3.06,
+     "land_gap_mm": 2.6
+    },
+    {
+     "ref": "S1",
+     "body_gap_mm": 3.05,
+     "land_gap_mm": 3.29
+    }
+   ],
+   "overhanging": []
   }
  },
  "touching_in_the_models": [

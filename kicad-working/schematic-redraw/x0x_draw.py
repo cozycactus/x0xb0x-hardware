@@ -98,7 +98,8 @@ PNP = [line((-2.54, 0), (-0.635, 0)), line((-0.635, -1.905), (-0.635, 1.905)), l
 JFET = [line((-2.54, 0), (-0.635, 0)), line((-0.635, -2.032), (-0.635, 2.032)), line((-0.635, -1.27), (2.54, -1.27), (2.54, -2.54)), line((-0.635, 1.27), (2.54, 1.27), (2.54, 2.54)), solid((-0.635, 0), (-1.778, -0.508), (-1.778, 0.508), (-0.635, 0))]
 TRANSISTOR = {'NPN': (NPN, [(-5.08, 0, 'L', '1', 'B'), (2.54, -5.08, 'T', '2', 'C'), (2.54, 5.08, 'B', '3', 'E')]),
               'PNP': (PNP, [(-5.08, 0, 'L', '1', 'B'), (2.54, 5.08, 'B', '2', 'C'), (2.54, -5.08, 'T', '3', 'E')]),
-              'JFET': (JFET, [(-5.08, 0, 'L', '2', 'G'), (2.54, -5.08, 'T', '1', 'D'), (2.54, 5.08, 'B', '3', 'S')])}
+              'JFET': (JFET, [(-5.08, 0, 'L', '2', 'G'), (2.54, -5.08, 'T', '1', 'D'), (2.54, 5.08, 'B', '3', 'S')]),
+              'JFET_SC59': (JFET, [(-5.08, 0, 'L', '3', 'G'), (2.54, -5.08, 'T', '2', 'D'), (2.54, 5.08, 'B', '1', 'S')])}
 CAPSULE = [line((-7.62, -5.08), (7.62, -5.08)), line((-7.62, 5.08), (7.62, 5.08)), arc((-7.62, -5.08), (-12.7, 0), (-7.62, 5.08)), arc((7.62, -5.08), (12.7, 0), (7.62, 5.08))]
 PAIR_CE = CAPSULE + [
     line((-12.7, 0), (-10.16, 0)), line((-10.16, -1.905), (-10.16, 1.905)), line((-10.16, -0.635), (-7.62, -2.54), (-7.62, -5.08)), line((-10.16, 0.635), (-7.62, 2.54)),
@@ -114,7 +115,7 @@ PAIR_CB_PINS = [(-7.62, 7.62, 'B', '1', 'E1'), (-7.62, -7.62, 'T', '2', 'C1'), (
 # The same pairs as SOT-363 chips: 1 E1, 2 B1, 3 C2, 4 E2, 5 B2, 6 C1. Each transistor keeps its place in the SIP symbol, and pads on one net are stacked.
 SOT_CE_PINS = [(-15.24, 0, 'L', '5', 'B'), (-7.62, -7.62, 'T', '3', 'C'), (0, 7.62, 'B', '1', 'E'), (0, 7.62, 'B', '4', 'E1'), (7.62, -7.62, 'T', '6', 'C1'), (15.24, 0, 'R', '2', 'B1')]
 SOT_CB_PINS = [(-7.62, 7.62, 'B', '4', 'E1'), (-7.62, -7.62, 'T', '3', 'C1'), (0, 7.62, 'B', '2', 'B'), (0, 7.62, 'B', '5', 'B1'), (7.62, -7.62, 'T', '6', 'C'), (7.62, 7.62, 'B', '1', 'E')]
-DNP = {'Q12', 'Q21', 'Q22', 'Q26'}  # The SIP pairs: the SMD chips beside them are the parts to fit, and the holes stay for the originals
+DNP = {'Q12', 'Q21', 'Q22', 'Q26', 'Q28', 'Q39'}  # The SIP pairs and TO-92 JFETs: the SMD chips beside them are the parts to fit, and the holes stay for the originals
 # A pot standing upright: pin 3 at the top, pin 1 at the bottom, the wiper to the right, the metal case to the left.
 ZIG_V = [(y, x) for x, y in ZIG]
 POT = [line(*ZIG_V), line((5.08, 0), (2.032, 0)), solid((1.016, 0), (2.286, -0.635), (2.286, 0.635), (1.016, 0)), line((0, -5.08), (0, -2.54)), line((0, 2.54), (0, 5.08))]
@@ -329,6 +330,14 @@ class Sheet:
             else:
                 seen[(px, py)] = num
                 self._pin(ref, num, x + px, y + py)
+            self.alternates.add(f'{ref}.{num}')
+
+    def sc59(self, ref, x, y):
+        """An SC-59 JFET standing in for a TO-92 one, drawn apart from the circuit. Give each of its pins alt_out, rail or ground."""
+        pins = TRANSISTOR['JFET_SC59'][1]
+        self._symbol(ref, 'JFET_SC59', x, y, 0, ((x + 5.08, y - 1.27), (x + 5.08, y + 1.27)), just='left', pins=[q[3] for q in pins])
+        for px, py, _, num, _name in pins:
+            self._pin(ref, num, x + px, y + py)
             self.alternates.add(f'{ref}.{num}')
 
     def alt_out(self, pin_name, net, side, length=2.54):

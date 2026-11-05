@@ -153,8 +153,8 @@ def read_back(v, out, main_text):
 def main():
     only_check = '--check' in sys.argv
     main_text = (WORK / 'mainboard/mainboard.kicad_pcb').read_text()
-    summary = json.loads((WORK / 'validation/working-validation-summary-revision-29.json').read_text())
-    check('Mainboard board and schematic are the recorded revision 29 files', all(sha(WORK / n) == summary['outputs'][n] for n in ('mainboard/mainboard.kicad_pcb', 'mainboard/mainboard.kicad_sch')))
+    summary = json.loads((WORK / 'validation/working-validation-summary-revision-30.json').read_text())
+    check('Mainboard board and schematic are the recorded revision 30 files', all(sha(WORK / n) == summary['outputs'][n] for n in ('mainboard/mainboard.kicad_pcb', 'mainboard/mainboard.kicad_sch')))
     record = dict(kicad_cli=run('--version').stdout.strip(), checks=checks, inputs={}, files={})
     with tempfile.TemporaryDirectory() as t:
         tmp = Path(t)

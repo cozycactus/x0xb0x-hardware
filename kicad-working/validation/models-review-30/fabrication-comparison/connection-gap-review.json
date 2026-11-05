@@ -1,0 +1,483 @@
+{
+ "inputs": {
+  "kicad_cli": "10.0.7",
+  "kicad_pcb_sha256": {
+   "mainboard": "bf9771ff84d806f45b6c3ef0b314c958b570bc19c4ba77fc2c3f858490cabdce",
+   "ioboard": "ea9c726cf1f5ed60a5e4a91c12b001293151212898ae0af53c91a47ca4f4129b"
+  },
+  "original_eagle_sha256": {
+   "mainboard.brd": "7863511de317332f07139589a62596d70a95cc84ea67242f928fd178db2cba0e",
+   "ioboard.brd": "76b6d3c1b71adafd8b84ae0141f78a480a07d13c3eb908694f8cd212c833270e"
+  },
+  "eagle_staging_xml_sha256": {
+   "mainboard.brd": "74a86e7a3577cd909b6cc9b10ba6e52208e9765091cb5cb98ed9696d050e86ec",
+   "ioboard.brd": "5cf8a750ca05350712c991a296348b0f06c9124a382659435675afd91980ce95"
+  },
+  "eagle_parser_record_table_sha256": "972b3474b6fbc273e042cd71b2021cc03e14dff73725eb9881efb082dd84ef9b",
+  "commands": [
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "gerbers",
+    "--board-plot-params",
+    "-o",
+    "<temporary>/gerbers/mainboard/",
+    "<kicad-working>/mainboard/mainboard.kicad_pcb"
+   ],
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "drill",
+    "--format",
+    "excellon",
+    "--excellon-separate-th",
+    "--excellon-units",
+    "mm",
+    "-o",
+    "<temporary>/gerbers/mainboard/",
+    "<kicad-working>/mainboard/mainboard.kicad_pcb"
+   ],
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "gerbers",
+    "--board-plot-params",
+    "-o",
+    "<temporary>/gerbers/ioboard/",
+    "<kicad-working>/ioboard/ioboard.kicad_pcb"
+   ],
+   [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "export",
+    "drill",
+    "--format",
+    "excellon",
+    "--excellon-separate-th",
+    "--excellon-units",
+    "mm",
+    "-o",
+    "<temporary>/gerbers/ioboard/",
+    "<kicad-working>/ioboard/ioboard.kicad_pcb"
+   ]
+  ]
+ },
+ "mainboard": {
+  "eagle_stored_airwires": [
+   {
+    "signal": "GND",
+    "from_gerber_xy_mm": [
+     159.131,
+     108.204
+    ],
+    "to_gerber_xy_mm": [
+     158.3944,
+     110.3376
+    ],
+    "length_mm": 2.2572
+   },
+   {
+    "signal": "+5V",
+    "from_gerber_xy_mm": [
+     96.52,
+     39.624
+    ],
+    "to_gerber_xy_mm": [
+     104.7242,
+     31.8516
+    ],
+    "length_mm": 11.3013
+   }
+  ],
+  "eagle_track_only_islands": {
+   "GND": [
+    482,
+    100,
+    25,
+    18,
+    18,
+    12,
+    11,
+    10,
+    8,
+    7,
+    6,
+    5,
+    5,
+    4,
+    4,
+    4,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "+5V": [
+    206,
+    59
+   ]
+  },
+  "eagle_islands_with_stored_airwires": {
+   "GND": [
+    508,
+    100,
+    18,
+    18,
+    12,
+    11,
+    10,
+    8,
+    7,
+    6,
+    5,
+    5,
+    4,
+    4,
+    4,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "+5V": [
+    266
+   ]
+  },
+  "kicad_islands": {
+   "GND": [
+    {
+     "items": 504,
+     "zones": [
+      "zone:F.Cu:priority6"
+     ],
+     "pad_count": 112,
+     "connector_pads": [
+      "J3.7",
+      "J3.8"
+     ]
+    },
+    {
+     "items": 255,
+     "zones": [
+      "zone:F.Cu:priority5"
+     ],
+     "pad_count": 94,
+     "connector_pads": [
+      "J4.2",
+      "J5.2",
+      "J6.2",
+      "J7.2"
+     ]
+    }
+   ],
+   "+5V": [
+    {
+     "items": 265,
+     "zones": [],
+     "pad_count": 61,
+     "connector_pads": [
+      "J3.3",
+      "J3.4"
+     ]
+    }
+   ]
+  },
+  "kicad_drc_unconnected": [
+   [
+    "PTH pad 8 [GND] of IC9",
+    "Track [GND] on B.Cu, length 30.0990 mm"
+   ]
+  ]
+ },
+ "ioboard": {
+  "eagle_stored_airwires": [
+   {
+    "signal": "GND",
+    "from_gerber_xy_mm": [
+     99.54,
+     3.842
+    ],
+    "to_gerber_xy_mm": [
+     99.54,
+     1.143
+    ],
+    "length_mm": 2.699
+   }
+  ],
+  "eagle_track_only_islands": {
+   "GND": [
+    112,
+    61,
+    19,
+    15,
+    11,
+    8,
+    6,
+    1
+   ]
+  },
+  "eagle_islands_with_stored_airwires": {
+   "GND": [
+    112,
+    81,
+    15,
+    11,
+    8,
+    6,
+    1
+   ]
+  },
+  "kicad_islands": {
+   "GND": [
+    {
+     "items": 218,
+     "zones": [
+      "zone:F.Cu:priority6",
+      "zone:F.Cu:priority6"
+     ],
+     "pad_count": 52,
+     "connector_pads": [
+      "J3.7",
+      "J3.8",
+      "J4.2",
+      "J5.2",
+      "J6.2"
+     ]
+    },
+    {
+     "items": 20,
+     "zones": [
+      "zone:F.Cu:priority6"
+     ],
+     "pad_count": 4,
+     "connector_pads": [
+      "J7.2"
+     ]
+    }
+   ]
+  },
+  "kicad_drc_unconnected": [
+   [
+    "PTH pad S [GND] of MIXOUT0",
+    "Track [GND] on B.Cu, length 4.4730 mm"
+   ]
+  ]
+ },
+ "system_ground": {
+  "nodes": {
+   "mainboard#0": {
+    "items": 504,
+    "connector_pads": [
+     "J3.7",
+     "J3.8"
+    ],
+    "zones": [
+     "zone:F.Cu:priority6"
+    ]
+   },
+   "mainboard#1": {
+    "items": 255,
+    "connector_pads": [
+     "J4.2",
+     "J5.2",
+     "J6.2",
+     "J7.2"
+    ],
+    "zones": [
+     "zone:F.Cu:priority5"
+    ]
+   },
+   "ioboard#0": {
+    "items": 218,
+    "connector_pads": [
+     "J3.7",
+     "J3.8",
+     "J4.2",
+     "J5.2",
+     "J6.2"
+    ],
+    "zones": [
+     "zone:F.Cu:priority6",
+     "zone:F.Cu:priority6"
+    ]
+   },
+   "ioboard#1": {
+    "items": 20,
+    "connector_pads": [
+     "J7.2"
+    ],
+    "zones": [
+     "zone:F.Cu:priority6"
+    ]
+   }
+  },
+  "cable_conductors": [
+   {
+    "between": [
+     "mainboard#0",
+     "ioboard#0"
+    ],
+    "conductor": "J3.7"
+   },
+   {
+    "between": [
+     "mainboard#0",
+     "ioboard#0"
+    ],
+    "conductor": "J3.8"
+   },
+   {
+    "between": [
+     "mainboard#1",
+     "ioboard#0"
+    ],
+    "conductor": "J4.2"
+   },
+   {
+    "between": [
+     "mainboard#1",
+     "ioboard#0"
+    ],
+    "conductor": "J5.2"
+   },
+   {
+    "between": [
+     "mainboard#1",
+     "ioboard#0"
+    ],
+    "conductor": "J6.2"
+   },
+   {
+    "between": [
+     "mainboard#1",
+     "ioboard#1"
+    ],
+    "conductor": "J7.2"
+   }
+  ],
+  "connected_components": 1,
+  "independent_loops_between_islands": 0,
+  "note": "Loops count distinct island pairs only; parallel conductors of one cable between the same two islands are not counted as loops."
+ },
+ "mainboard_plus5v": {
+  "eagle_track_only_island_sizes": [
+   206,
+   59
+  ],
+  "supply_entry": [
+   {
+    "pad": "J3.3",
+    "island": 1
+   },
+   {
+    "pad": "J3.4",
+    "island": 1
+   }
+  ],
+  "shift_register_vcc": [
+   {
+    "pad": "IC4.16",
+    "island": 0
+   },
+   {
+    "pad": "IC5.16",
+    "island": 0
+   },
+   {
+    "pad": "IC6.16",
+    "island": 0
+   },
+   {
+    "pad": "IC7.16",
+    "island": 0
+   },
+   {
+    "pad": "IC8.16",
+    "island": 0
+   }
+  ],
+  "switches_using_pads_1_and_2": [
+   {
+    "switch": "S19",
+    "pad1_island": 1,
+    "pad2_island": 0
+   },
+   {
+    "switch": "S22",
+    "pad1_island": 1,
+    "pad2_island": 0
+   },
+   {
+    "switch": "S23",
+    "pad1_island": 0,
+    "pad2_island": 0
+   }
+  ],
+  "kicad_islands_with_jumper_groups": [
+   265
+  ]
+ }
+}

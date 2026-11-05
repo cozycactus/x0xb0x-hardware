@@ -4,10 +4,11 @@
 
 Usage: compare_board.py <old board> <new board>
 For revision 29:  git show 8d172d1:kicad-working/mainboard/mainboard.kicad_pcb > /tmp/old.kicad_pcb
+For revision 30:  git show 1ba31be:kicad-working/mainboard/mainboard.kicad_pcb > /tmp/old.kicad_pcb
 
 Compares footprints, tracks, arcs and vias item by item, ignoring uuids, formatting and the order of items. New copper must lie
-near the four chips. An old track may only have been split where a new one joins it. Existing footprints may differ only in their
-links to symbols, the do-not-place mark on the four SIP pairs, and KiCad's trimming of unused layers from keepouts. Exits nonzero
+near the chips. An old track may only have been split where a new one joins it. Existing footprints may differ only in their
+links to symbols, the do-not-place mark on the parts the chips replace, and KiCad's trimming of unused layers from keepouts. Exits nonzero
 otherwise. Pour fills are compared by compare_gerbers.py, since a refill moves points without moving copper.
 """
 import math
@@ -16,8 +17,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-SITES = {'Q112': (85.24, -114.7), 'Q121': (61.6, -121.7), 'Q122': (62.2, -104.9), 'Q126': (156.55, -144.9)}
-SIP = ('Q12', 'Q21', 'Q22', 'Q26')
+SITES = {'Q112': (85.24, -114.7), 'Q121': (61.6, -121.7), 'Q122': (62.2, -104.9), 'Q126': (156.55, -144.9), 'Q128': (161.4, -157.1), 'Q139': (208.1, -156.0)}
+SIP = ('Q12', 'Q21', 'Q22', 'Q26', 'Q28', 'Q39')
 NEAR = 14.0  # mm from a chip
 
 
@@ -105,7 +106,7 @@ def main():
         link = r'\n\t\t\((?:path|sheetname|sheetfile) "[^"]*"\)'
         x, y = re.sub(link, '', a[ref]), re.sub(link, '', b[ref])
         if ref in SIP:
-            y = y.replace('\n\t\t(attr dnp)', '', 1)
+            x, y = x.replace('\n\t\t(attr dnp)', '', 1), y.replace('\n\t\t(attr dnp)', '', 1)
         if clean(x) != clean(y):
             changed.append(ref)
     print('existing footprints that differ apart from links:', changed)

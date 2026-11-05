@@ -1,4 +1,6 @@
-# x0xb0x KiCad working revision 29
+# x0xb0x KiCad working revision 30
+
+Revision30 puts two SC-59 chips on the mainboard, Q128 and Q139, next to the rare JFETs Q28 and Q39, which are now marked do-not-place. The holes stay. Every original pad, track, via and drill still matches the Eagle board. Nothing has been built or measured. Blender revision 28 doesn't have these two chips yet. See `smd-sites/README.md`.
 
 Revision29 puts four SOT-363 chips on the mainboard, Q112, Q121, Q122 and Q126, next to the rare SIP pairs Q12, Q21, Q22 and Q26, which are now marked do-not-place. The holes stay. Every original pad, track, via and drill still matches the Eagle board. Nothing has been built or measured. Blender revision 28 has the chips and leaves those pairs out. See `smd-sites/README.md`.
 
@@ -18,7 +20,7 @@ Revision24 prints the part markings of the17 ICs, transcribed from the kit photo
 - Current complete assembly: `visualization/blender-case-revision-28/x0xb0x-populated-with-case.blend`
 - Current model plan: `validation/models-review-24/combined-model-plan.json`
 - SIP9 pads and name labels: `validation/models-review-26/`
-- Fabrication packages (order-ready): `fabrication/revision-29/`
+- Fabrication packages (order-ready): `fabrication/revision-30/`
 - Adapters for the rare dual transistors at Q12, Q21, Q22 and Q26: `adapters/ssip5-dual/` (not yet built)
 - Pour refill and I/O outline: `validation/models-review-27/`
 - Fabrication comparison and connection gaps: `validation/models-review-25/`
