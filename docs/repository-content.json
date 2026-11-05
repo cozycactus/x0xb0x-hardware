@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source_snapshot_date": "2026-11-05",
-  "scope": "Current private snapshot: KiCad working30 and Blender28, with order-ready fabrication packages for both boards. KiCad30 adds two SC-59 chips and their tracks to the mainboard beside the rare JFETs Q28 and Q39, whose holes stay; Blender28 is level with KiCad29 and does not have them. Blender28 brings the scene level with KiCad29 on the mainboard: the four chips at their footprints, the do-not-place SIP pairs left out, and the eight mainboard layer meshes from a fresh export. KiCad29 adds four SOT-363 chips and their copper to the mainboard beside the rare SIP pairs, whose holes stay; every original pad, track, via and drill still matches the Eagle board. KiCad28 redraws both schematics on sheets by block and relinks footprints, leaving copper and nets unchanged. KiCad27 refills the mainboard ground pours, whose saved fill touched 23 of the lengthened SIP9 pads, and moves the I/O rear-plate datum from Edge.Cuts to Dwgs.User. KiCad26 gives the 27 SIP9 pads Eagle's 1.408x2.816mm size and puts the 461 name labels at the original smashed positions, with the Eagle names for the 11 references KiCad ends in 0; KiCad25 compares both boards' Gerbers and drills with the original Eagle 4.13 boards and declares the B3F-40XX switch strips as jumper pad groups. The17 ICs carry printed markings transcribed from the kit photographs; IC3 and IC2 sit in TE models of their original-BOM sockets; all212 fixed resistors carry the original kit colour bands; all39 radial electrolytics use Xicon XRL bodies. Original PCB/model transforms and all other components, LED spacers, complete enclosure and animation preserved. Immutable Blender7 through27 comparison baselines and source evidence retained. Probes, caches and redundant exports excluded.",
+  "scope": "Current private snapshot: KiCad working30 and Blender29, with order-ready fabrication packages for both boards. Blender29 brings the scene level with KiCad30 on the mainboard: the two SC-59 chips at their footprints, the do-not-place JFETs Q28 and Q39 left out, and the eight mainboard layer meshes from a fresh export. KiCad30 adds two SC-59 chips and their tracks to the mainboard beside the rare JFETs Q28 and Q39, whose holes stay. Blender28 brought the scene level with KiCad29 on the mainboard: the four chips at their footprints, the do-not-place SIP pairs left out, and the eight mainboard layer meshes from a fresh export. KiCad29 adds four SOT-363 chips and their copper to the mainboard beside the rare SIP pairs, whose holes stay; every original pad, track, via and drill still matches the Eagle board. KiCad28 redraws both schematics on sheets by block and relinks footprints, leaving copper and nets unchanged. KiCad27 refills the mainboard ground pours, whose saved fill touched 23 of the lengthened SIP9 pads, and moves the I/O rear-plate datum from Edge.Cuts to Dwgs.User. KiCad26 gives the 27 SIP9 pads Eagle's 1.408x2.816mm size and puts the 461 name labels at the original smashed positions, with the Eagle names for the 11 references KiCad ends in 0; KiCad25 compares both boards' Gerbers and drills with the original Eagle 4.13 boards and declares the B3F-40XX switch strips as jumper pad groups. The17 ICs carry printed markings transcribed from the kit photographs; IC3 and IC2 sit in TE models of their original-BOM sockets; all212 fixed resistors carry the original kit colour bands; all39 radial electrolytics use Xicon XRL bodies. Original PCB/model transforms and all other components, LED spacers, complete enclosure and animation preserved. Immutable Blender7 through28 comparison baselines and source evidence retained. Probes, caches and redundant exports excluded.",
   "files": {
     ".gitattributes": {
       "bytes": 190,
@@ -16,16 +16,20 @@
       "sha256": "73cc95f62a104053a2602ccc733fc88336b0f3f6329ac3e9bbab827aa26af6f6"
     },
     "PROJECT.json": {
-      "bytes": 2563,
-      "sha256": "2bb3b2ff1205ea3e5b5c2d2f359cba54d4e087459edc9f6906248a025c83b5f2"
+      "bytes": 2626,
+      "sha256": "023c82559961b8399d4340a0cbb55c0e88d7fa4446f418657ddf8e62bc12e53e"
     },
     "README.md": {
-      "bytes": 33425,
-      "sha256": "a6ec5076ad58d6efd7b00168e818183f4d5a659227fb9f659350b620f03097bd"
+      "bytes": 34073,
+      "sha256": "3c08a3cfcaee7487d697bd243a74dbb1ebdb108701913c66655b03eb62b950d9"
     },
     "docs/OPENING.md": {
-      "bytes": 8193,
-      "sha256": "4179302e1dfd31620585912acd47d687ecd67e9bd67c80d9831cd41c420dd30c"
+      "bytes": 8288,
+      "sha256": "5df84c6662b49eb60fc1d21a8af67d591308817029092ec2c3d05f45dba7fe58"
+    },
+    "docs/blender-jfet-sites.json": {
+      "bytes": 10235,
+      "sha256": "bb6a26d6a3702402b5aa06bc77a5c8a8c4575712fe519440a69173f1cf637195"
     },
     "docs/blender-smd-sites.json": {
       "bytes": 11022,
@@ -108,8 +112,8 @@
       "sha256": "263131d35e5a6eb190ef483ed6e93cadeb8ab8743956fdba8b80cd1fa26bc544"
     },
     "docs/smd-sites.json": {
-      "bytes": 8049,
-      "sha256": "e724822eea6a04ca90652e86d17cf34a7c32f5fba02150c677af7eb092450f57"
+      "bytes": 8018,
+      "sha256": "6f797a1c41390c206b3a26c1ade30497a1c17a64d2884c9d236428196d179364"
     },
     "docs/terminal-completion.json": {
       "bytes": 28183,
@@ -216,8 +220,8 @@
       "sha256": "282b88df6e2fed1d85d2057c10ecfbaee7be45a2e85a9614167fe06266b4cc6a"
     },
     "kicad-working/README.md": {
-      "bytes": 18260,
-      "sha256": "420b349c3917fb904d0c3d44b5c722b77708fba8f928c2308613c58eaacf03b2"
+      "bytes": 18654,
+      "sha256": "e88c96cf63aadf131fefa6f48bdfbb904d70a630fc97e24fda1338bf24596d98"
     },
     "kicad-working/adapters/ssip5-dual/README.md": {
       "bytes": 13588,
@@ -2564,8 +2568,8 @@
       "sha256": "020686b090ec43531985756790e1d90d310e0c524d25621b13cacbe132b8b5c3"
     },
     "kicad-working/smd-sites/README.md": {
-      "bytes": 11507,
-      "sha256": "ddc671b6517ca6135677cfaedf209e40ee97cca35e9df6f9ca102d1848727977"
+      "bytes": 11768,
+      "sha256": "c82c462c619b3bd2a053e0d53ea3334eb837b6f8660161f41078205dedded445"
     },
     "kicad-working/smd-sites/board-record.json": {
       "bytes": 576,
@@ -8919,6 +8923,166 @@
       "bytes": 47945900,
       "sha256": "654bc65b846f42b2b9003bf42155ac853ed69aa58484dc7b0496a2bab17dfb1c"
     },
+    "kicad-working/visualization/blender-case-revision-29/README.md": {
+      "bytes": 3921,
+      "sha256": "e776dce31efd789d801cf89103dcb56e1dfe5d917d0457676baddac77c8cd5e7"
+    },
+    "kicad-working/visualization/blender-case-revision-29/assembled.png": {
+      "bytes": 2579304,
+      "sha256": "aaa25b306f64e7bfbdddb9c32ea76dc4e8929965ecab329d5b1fdbef53957903"
+    },
+    "kicad-working/visualization/blender-case-revision-29/control-side.png": {
+      "bytes": 3739974,
+      "sha256": "f702ffb1470f399733d205ef042f721d620ce209743c600a47978e5935306d5a"
+    },
+    "kicad-working/visualization/blender-case-revision-29/exploded.png": {
+      "bytes": 2965729,
+      "sha256": "f2d72d10398ef3b53f6ce3a2493ef0acb1acdd12146c59970f1dc040fea31ef4"
+    },
+    "kicad-working/visualization/blender-case-revision-29/jfet-q128-after.png": {
+      "bytes": 1528508,
+      "sha256": "236b981b0f8e9d27686f4a7110132cd59f4bdac22785143bbd4c96b02172dfe5"
+    },
+    "kicad-working/visualization/blender-case-revision-29/jfet-q128-before.png": {
+      "bytes": 1533071,
+      "sha256": "56bf39e6235e9147501896c82ea5968f8b2948e2d12db9ffd2ec481ba40204a8"
+    },
+    "kicad-working/visualization/blender-case-revision-29/jfet-q139-after.png": {
+      "bytes": 1134113,
+      "sha256": "7b293a0e7bd1f4a3e0542aab1ba9a6b195ffca2154beb284492fd17afd5bcc45"
+    },
+    "kicad-working/visualization/blender-case-revision-29/jfet-q139-before.png": {
+      "bytes": 1157257,
+      "sha256": "203644e771d811db72b79d0c970802c4fecdabb792ad7a4a310f2b567119abf1"
+    },
+    "kicad-working/visualization/blender-case-revision-29/render-records.json": {
+      "bytes": 1280,
+      "sha256": "5a35c8ae32a4ccd82cabdb521247da2363cfd670449e0727997618e28ef87609"
+    },
+    "kicad-working/visualization/blender-case-revision-29/render_scene.py": {
+      "bytes": 6508,
+      "sha256": "98b22b30824e0906bf118af66dda439b77c6dd8306cfc8c44eb8261417857869"
+    },
+    "kicad-working/visualization/blender-case-revision-29/revision-29-change-record.json": {
+      "bytes": 50207,
+      "sha256": "fac5bfb51af883ce1b30c38b8fb8265b3de46ca9d3f3092f08fcd99f1c176b96"
+    },
+    "kicad-working/visualization/blender-case-revision-29/update_jfet_sites.py": {
+      "bytes": 16152,
+      "sha256": "e60782ad7a4d9e5130f2798deba612cbb7c91487f67a6ce6011ac5494eae9f07"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/README.md": {
+      "bytes": 953,
+      "sha256": "9d3fefac6177366a4e44eba221de90ea1dfcc9761a823a07bab3580b410f2233"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/after-scene.json.gz": {
+      "bytes": 999647,
+      "sha256": "30243ec30d544f8d3c802fc936fe3ac126b0eadc04fe7fc7bcfeaae46292d48b"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/audit_board_layers.py": {
+      "bytes": 7168,
+      "sha256": "10d8dccebdccda6a6d4bfe554bc2fed86bd21943e762f3555f79f2a892d01c87"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/audit_chip_neighbours.py": {
+      "bytes": 13245,
+      "sha256": "31511f0633bf21288a557159833deab939f0565c83acec98bc51c58ba463c291"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/audit_drill_fit.py": {
+      "bytes": 367,
+      "sha256": "e1e36b2023a5b9213991b1b5ec665e32a483862e572beda9ac0637eb5944566d"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/audit_kicad_models.py": {
+      "bytes": 490,
+      "sha256": "9e86e0cf1ccd83e2e25a11e4641d7c198d4391bc7cd9e27d6871a95a4275a401"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/audit_portability.py": {
+      "bytes": 427,
+      "sha256": "1c67479336884a383d144a8359680c86672c7a721b0ffa9f0806ab43060446f3"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/audit_saved_scene.py": {
+      "bytes": 11350,
+      "sha256": "0a3aafd1184e9fdbd94c28c776ca7d2c4518fe154f5e5b947a32ef4ac024180b"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/audit_terminal_joins.py": {
+      "bytes": 474,
+      "sha256": "36b7690b5674a98071bf700c6d414e74995f863163459a8706cac84d58809a97"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/before-scene.json.gz": {
+      "bytes": 998984,
+      "sha256": "e7e20ce4f9660972058ea87d48e5ae4d45201d89cd9718af8dbad7a8ba5cde76"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/board-layer-audit.json": {
+      "bytes": 8901,
+      "sha256": "b90ca4571f046bc6990cf4cf30a58b2ebc3be90cf1cfa1911d6755555fa5d1cc"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/chip-detail-render.json": {
+      "bytes": 2746,
+      "sha256": "aba2ec16caa7e2406c501a5b465cb249ef8ca4ec33677ddf95b203bb8fa3d931"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/chip-neighbour-audit.json": {
+      "bytes": 4852,
+      "sha256": "3698090bba5aa6c8d31790567bfb379fb4e8eea2874e5179b1e18c26e3d1d066"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/drill-fit-audit.json": {
+      "bytes": 1928,
+      "sha256": "cec43ed87c98de0961de529625835de769a124899f85139db5ff908fd67bc3da"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/final-render-review.json": {
+      "bytes": 1974,
+      "sha256": "a93570fa3089652341e6f62aae6d5100975a0a1c57048d72f0f3e770b8e8141a"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/final-saved-scene-audit.json": {
+      "bytes": 4935,
+      "sha256": "365979f04842eea8953ad610f59a2b5cbd55799df873790dbf93716bf4a230fe"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/independent-validation-summary.json": {
+      "bytes": 10004,
+      "sha256": "29d4c091133573ded0dd330a2971b7db6b6ca9822e2d35f31c92806b6112462c"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/kicad-blender-models-audit.json": {
+      "bytes": 2935,
+      "sha256": "6098a396a1f8c7eb19701f8578a3dc99e891c0d126de5032cf03455ded98e57a"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/portable-scene-audit.json": {
+      "bytes": 12615,
+      "sha256": "b57876f4a6eac041503cd138092e3b27b42f31846e798e0886ac90471fc67d12"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/rear-openings-audit.json": {
+      "bytes": 119490,
+      "sha256": "18f6416b7bcf78f608aadbc49254ec4d9661ff663d69a4c2790b55e2447c1445"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/render-observations.json": {
+      "bytes": 690,
+      "sha256": "3ba28114681588931e793b0e93942ca9b198feab46a187f0a118ec348f427728"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/render-readonly-verification.json": {
+      "bytes": 236,
+      "sha256": "0a0bca077215a20f13f30ae50308dc187f28f4292ddedc743e104a272bd15596"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/render_chip_details.py": {
+      "bytes": 5301,
+      "sha256": "87384e1fb0422072100c557c47e63788fd00c77f73630eb9c4831994e4efc3c4"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/run_model_checks.py": {
+      "bytes": 276,
+      "sha256": "4f002b78cf79c25f0c737b0ae2253da4479e18f4d5d26ecda5c5968b1e6ed676"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/scene_snapshot.py": {
+      "bytes": 11397,
+      "sha256": "9c6576a9a05cba01736055f45d35e751edb1df57933c9b16b9c9e7faa1c8d642"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/summarize_revision.py": {
+      "bytes": 8545,
+      "sha256": "5fc7f97d7d2ef71aca101bf92d80039346bc8ee6c22d6d614622ca26f270844d"
+    },
+    "kicad-working/visualization/blender-case-revision-29/verification/terminal-join-audit.json": {
+      "bytes": 4767,
+      "sha256": "25a7514ac89f81d14e6fb2f095c1cfa209bf04a1f25cf5c4ad4c86706debb744"
+    },
+    "kicad-working/visualization/blender-case-revision-29/x0xb0x-populated-with-case.blend": {
+      "bytes": 47999109,
+      "sha256": "35a4d9d6c5a7d926076420a7b0b384c26d2e2933dea00f48b2a7b193ec11ad1d"
+    },
     "kicad-working/visualization/blender-case-revision-7/README.md": {
       "bytes": 4279,
       "sha256": "3973e1c997e89475f7d773f1e69b44d6ac1d3756ac04dabda25052baef5ade6c"
@@ -11900,5 +12064,5 @@
       "sha256": "9e3b4c0ac2769c16fc1ec163b3889fc0fae7db6849794d3b28b5aa39c0247efb"
     }
   },
-  "verification_note": "KiCad27 evidence covers a byte-level installation audit (only the two zones' filled polygons and four line layers change; a second refill reproduces the fill), DRC of the copper as saved with every non-silkscreen item equal to KiCad26, ERC 0/0, the re-run Gerber comparison with the original Eagle boards, and the fabrication packages re-imported against the board files and re-exported by gerbv. KiCad26 evidence covers a byte-level installation audit of the SIP9 pad sizes and reference-label nodes, a check of all 461 printed labels against the Eagle name records, the re-run Gerber/Excellon comparison (every pad and silkscreen text now matching the original Eagle CAM output), and fresh ERC/DRC for both boards with non-silkscreen violations identical to the previous reports and fewer silkscreen warnings. KiCad25 evidence covers a Gerber/Excellon comparison with the original Eagle boards on every layer (drills, copper, pours, mask, paste, silkscreen, outline), the three recorded connection gaps against the Eagle airwires and the J3-J7 wiring, a byte-level installation audit of the jumper pad groups, and fresh ERC/DRC for both boards equal to the previous reports except the closed +5V item. Current Blender28 evidence covers complete saved-file comparison with revision27 (16 checks), 491 KiCad-vs-scene model matches with do-not-place footprints left out, all 8 mainboard layer meshes against a fresh export, drill fit on 489 drilled models, 133 terminal pieces joined to their bodies, 974 rear rays, 106 portability checks, a chip contact screen that finds no mesh overlap and same-camera before/after details. KiCad24 evidence, unchanged in model content, covers 60 marking-model checks, native ink checks on all17 ICs, a native lead and drill-fit audit with 11 unchanged nominal interferences, and fresh ERC/DRC for both boards equal to the previous reports. No physical-fit qualification."
+  "verification_note": "KiCad27 evidence covers a byte-level installation audit (only the two zones' filled polygons and four line layers change; a second refill reproduces the fill), DRC of the copper as saved with every non-silkscreen item equal to KiCad26, ERC 0/0, the re-run Gerber comparison with the original Eagle boards, and the fabrication packages re-imported against the board files and re-exported by gerbv. KiCad26 evidence covers a byte-level installation audit of the SIP9 pad sizes and reference-label nodes, a check of all 461 printed labels against the Eagle name records, the re-run Gerber/Excellon comparison (every pad and silkscreen text now matching the original Eagle CAM output), and fresh ERC/DRC for both boards with non-silkscreen violations identical to the previous reports and fewer silkscreen warnings. KiCad25 evidence covers a Gerber/Excellon comparison with the original Eagle boards on every layer (drills, copper, pours, mask, paste, silkscreen, outline), the three recorded connection gaps against the Eagle airwires and the J3-J7 wiring, a byte-level installation audit of the jumper pad groups, and fresh ERC/DRC for both boards equal to the previous reports except the closed +5V item. Current Blender29 evidence covers complete saved-file comparison with revision28 (16 checks), 491 KiCad-vs-scene model matches with do-not-place footprints left out, all 8 mainboard layer meshes against a fresh export, drill fit on 489 drilled models, 133 terminal pieces joined to their bodies, 974 rear rays, 106 portability checks, a chip contact screen that finds no mesh overlap and same-camera before/after details. KiCad24 evidence, unchanged in model content, covers 60 marking-model checks, native ink checks on all17 ICs, a native lead and drill-fit audit with 11 unchanged nominal interferences, and fresh ERC/DRC for both boards equal to the previous reports. No physical-fit qualification."
 }

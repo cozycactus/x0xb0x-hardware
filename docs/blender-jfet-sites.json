@@ -1,0 +1,279 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-11-05",
+  "Blender_revision": 29,
+  "KiCad_revision": 30,
+  "scene": "kicad-working/visualization/blender-case-revision-29/x0xb0x-populated-with-case.blend",
+  "scene_sha256": "35a4d9d6c5a7d926076420a7b0b384c26d2e2933dea00f48b2a7b193ec11ad1d",
+  "scene_bytes": 47999109,
+  "baseline_scene_sha256": "654bc65b846f42b2b9003bf42155ac853ed69aa58484dc7b0496a2bab17dfb1c",
+  "correction": "The mainboard shows the board as built with its JFET sites: the two SC-59 chips stand at their KiCad footprints, the do-not-place TO-92 JFETs they replace are out of the scene, and the eight mainboard layer meshes are a fresh KiCad 30 export.",
+  "do_not_place": {
+    "kicad_cli": "kicad-cli pcb export glb keeps do-not-place footprints unless given --no-dnp: with it the mainboard exports 409 models, the chips in and the JFETs out.",
+    "decision": "As at Blender 28, the scene holds fitted references. Fit a chip or the JFET it replaces, never both.",
+    "verifier_change": "None. verify_kicad_blender_models.py already exports with --no-dnp, and verify_blender_scene.py still expects 491 = 409 + 82.",
+    "unaffected": "verify_drill_fit.py and verify_terminal_joins.py read KiCad, not the scene, and still export the JFETs, so their leads stay checked against their holes.",
+    "fallback": "The holes and pads stay, and an original JFET can still go in. Blender 28 still shows Q28 and Q39."
+  },
+  "chips": {
+    "Q128": {
+      "part": "2SK208-O",
+      "replaces": "Q28",
+      "footprint": {
+        "x_mm": 161.4,
+        "y_mm": -157.1,
+        "rotation_deg": 90.0
+      }
+    },
+    "Q139": {
+      "part": "2SK208-Y",
+      "replaces": "Q39",
+      "footprint": {
+        "x_mm": 208.1,
+        "y_mm": -156.0,
+        "rotation_deg": -90.0
+      }
+    }
+  },
+  "chip_positions": {
+    "Q128": {
+      "kicad_mm": [
+        161.4,
+        -157.1,
+        90.0
+      ],
+      "scene_mm": [
+        161.40000522136688,
+        157.10000693798065,
+        1.5950000379234552
+      ],
+      "offset_mm": 6.937980657539811e-06,
+      "rotation_error": 1.3435885654628297e-07
+    },
+    "Q139": {
+      "kicad_mm": [
+        208.1,
+        -156.0,
+        -90.0
+      ],
+      "scene_mm": [
+        208.10000598430634,
+        156.00000321865082,
+        1.5950000379234552
+      ],
+      "offset_mm": 5.984306341133561e-06,
+      "rotation_error": 1.3435885654628297e-07
+    }
+  },
+  "contacts": {
+    "chip_contacts": [],
+    "removed_with_the_jfets": [],
+    "smallest_gap_per_chip": {
+      "MAINBOARD/Q128": {
+        "other": "MAINBOARD/C33",
+        "gap_mm": 0.348
+      },
+      "MAINBOARD/Q139": {
+        "other": "MAINBOARD/IC12",
+        "gap_mm": 1.53
+      }
+    },
+    "smallest_land_gap_per_chip": {
+      "MAINBOARD/Q128": {
+        "land": "3",
+        "other": "MAINBOARD/R105",
+        "plan_gap_mm": 0.081
+      },
+      "MAINBOARD/Q139": {
+        "land": "3",
+        "other": "MAINBOARD/IC12",
+        "plan_gap_mm": 0.946
+      }
+    },
+    "headroom_above_chip_mm": {
+      "MAINBOARD/Q128": 7.71,
+      "MAINBOARD/Q139": 35.97
+    },
+    "q128_r105": {
+      "chip_mesh_gap_mm": 0.421,
+      "triangle_pairs": 0,
+      "nearest_land_plan_gap_mm": 0.081,
+      "nearest_land": "3",
+      "fit_check_body_gap_mm": 0.26,
+      "fit_check_land_gap_mm": 0.08
+    },
+    "fit_check_difference": "fit_check.py measures from a neighbour to boxes built from the largest sizes in the Toshiba S-Mini drawing. The chip-mesh gap here is to the stock KiCad SC-59 model, whose body is a little smaller, so it can read wider.",
+    "fit_check": "kicad-working/smd-sites/fit-check.json"
+  },
+  "blender": {
+    "added_objects": 4,
+    "removed_objects": 4,
+    "stored_objects": 1721,
+    "replaced_layer_meshes": [
+      "MAINBOARD/PCB layers/mesh",
+      "MAINBOARD/PCB layers/mesh.001",
+      "MAINBOARD/PCB layers/mesh.002",
+      "MAINBOARD/PCB layers/mesh.003",
+      "MAINBOARD/PCB layers/mesh.004",
+      "MAINBOARD/PCB layers/mesh.005",
+      "MAINBOARD/PCB layers/mesh.006",
+      "MAINBOARD/PCB layers/mesh.007"
+    ],
+    "layer_vertex_counts": {
+      "MAINBOARD/PCB layers/mesh": {
+        "old": 346777,
+        "new": 348207
+      },
+      "MAINBOARD/PCB layers/mesh.001": {
+        "old": 725064,
+        "new": 725928
+      },
+      "MAINBOARD/PCB layers/mesh.002": {
+        "old": 2548,
+        "new": 2548
+      },
+      "MAINBOARD/PCB layers/mesh.003": {
+        "old": 103783,
+        "new": 104518
+      },
+      "MAINBOARD/PCB layers/mesh.004": {
+        "old": 37134,
+        "new": 37134
+      },
+      "MAINBOARD/PCB layers/mesh.005": {
+        "old": 30989,
+        "new": 31177
+      },
+      "MAINBOARD/PCB layers/mesh.006": {
+        "old": 30221,
+        "new": 30221
+      },
+      "MAINBOARD/PCB layers/mesh.007": {
+        "old": 118604,
+        "new": 118604
+      }
+    },
+    "added_materials": [
+      "SC-59 body \u2014 revision 29 (native KiCad colour)",
+      "SC-59 leads \u2014 revision 29 (native KiCad colour)",
+      "SC-59 pin-1 mark \u2014 revision 29 (native KiCad colour)"
+    ],
+    "retired_materials": []
+  },
+  "kicad": {
+    "pcb_sha256": "bf9771ff84d806f45b6c3ef0b314c958b570bc19c4ba77fc2c3f858490cabdce",
+    "pcb_changed": false,
+    "kicad_version": "10.0.7",
+    "exports": {
+      "components": {
+        "options": [
+          "--force",
+          "--no-board-body",
+          "--user-origin",
+          "0x0mm",
+          "--no-dnp"
+        ],
+        "glb_sha256": "c23ce167f0fc788a9ecab8190b72f100aba96bd0942ae50c04d43230cd3526ca",
+        "glb_bytes": 12212320
+      },
+      "layers": {
+        "options": [
+          "--force",
+          "--include-tracks",
+          "--include-pads",
+          "--include-zones",
+          "--include-inner-copper",
+          "--include-silkscreen",
+          "--include-soldermask",
+          "--no-components",
+          "--user-origin",
+          "0x0mm"
+        ],
+        "glb_sha256": "761a3ef6137827500fa890503de04138636c65a84dfeb914797e8aa135c50de0",
+        "glb_bytes": 60721444
+      }
+    }
+  },
+  "verification": {
+    "saved_scene_preservation": {
+      "report": "kicad-working/visualization/blender-case-revision-29/verification/final-saved-scene-audit.json",
+      "sha256": "365979f04842eea8953ad610f59a2b5cbd55799df873790dbf93716bf4a230fe",
+      "passed": true,
+      "check_count": 16
+    },
+    "kicad_blender_models": {
+      "report": "kicad-working/visualization/blender-case-revision-29/verification/kicad-blender-models-audit.json",
+      "sha256": "6098a396a1f8c7eb19701f8578a3dc99e891c0d126de5032cf03455ded98e57a",
+      "passed": true,
+      "check_count": 7
+    },
+    "board_layers": {
+      "report": "kicad-working/visualization/blender-case-revision-29/verification/board-layer-audit.json",
+      "sha256": "b90ca4571f046bc6990cf4cf30a58b2ebc3be90cf1cfa1911d6755555fa5d1cc",
+      "passed": true,
+      "check_count": 5
+    },
+    "drill_fit": {
+      "report": "kicad-working/visualization/blender-case-revision-29/verification/drill-fit-audit.json",
+      "sha256": "cec43ed87c98de0961de529625835de769a124899f85139db5ff908fd67bc3da",
+      "passed": true,
+      "check_count": 6
+    },
+    "terminal_joins": {
+      "report": "kicad-working/visualization/blender-case-revision-29/verification/terminal-join-audit.json",
+      "sha256": "25a7514ac89f81d14e6fb2f095c1cfa209bf04a1f25cf5c4ad4c86706debb744",
+      "passed": true,
+      "check_count": 4
+    },
+    "rear_openings": {
+      "report": "kicad-working/visualization/blender-case-revision-29/verification/rear-openings-audit.json",
+      "sha256": "18f6416b7bcf78f608aadbc49254ec4d9661ff663d69a4c2790b55e2447c1445",
+      "passed": true,
+      "check_count": 44,
+      "ray_count": 974
+    },
+    "scene_portability": {
+      "report": "kicad-working/visualization/blender-case-revision-29/verification/portable-scene-audit.json",
+      "sha256": "b57876f4a6eac041503cd138092e3b27b42f31846e798e0886ac90471fc67d12",
+      "passed": true,
+      "check_count": 106
+    },
+    "chip_neighbours": {
+      "report": "kicad-working/visualization/blender-case-revision-29/verification/chip-neighbour-audit.json",
+      "sha256": "3698090bba5aa6c8d31790567bfb379fb4e8eea2874e5179b1e18c26e3d1d066",
+      "passed": true
+    },
+    "detail_renders": {
+      "report": "kicad-working/visualization/blender-case-revision-29/verification/chip-detail-render.json",
+      "sha256": "aba2ec16caa7e2406c501a5b465cb249ef8ca4ec33677ddf95b203bb8fa3d931",
+      "passed": true
+    },
+    "render_readonly": {
+      "report": "kicad-working/visualization/blender-case-revision-29/verification/render-readonly-verification.json",
+      "sha256": "0a0bca077215a20f13f30ae50308dc187f28f4292ddedc743e104a272bd15596",
+      "passed": true
+    },
+    "render_review": {
+      "report": "kicad-working/visualization/blender-case-revision-29/verification/final-render-review.json",
+      "sha256": "a93570fa3089652341e6f62aae6d5100975a0a1c57048d72f0f3e770b8e8141a",
+      "passed": true
+    }
+  },
+  "unchanged": [
+    "Original Eagle files",
+    "Both KiCad projects, boards and libraries",
+    "The 489 other model references",
+    "I/O board layers, all poses, case, LEDs, spacers, caps, hardware, wiring study, previous materials, cameras and animation"
+  ],
+  "limitations": [
+    "The chip model is KiCad's stock SC-59: nominal sizes, no part marking, no solder, not CAD of the 2SK208 to be bought. Its plastic is 3.0 x 1.6 mm; the Toshiba drawing allows up to 3.1 x 1.75 mm, which is why fit-check.json reads tighter.",
+    "Layer meshes keep the scene's own materials, so pads stay grey although the export colours them gold.",
+    "The I/O board layers were not refreshed. A fresh export has the same copper, pads, vias and main board body, but differs in both silkscreens and both masks and no longer has the detached datum strip.",
+    "Nothing has been built or measured. These checks do not qualify physical fit or circuit operation."
+  ],
+  "physical_fit_qualified": false,
+  "validation_summary": {
+    "report": "kicad-working/visualization/blender-case-revision-29/verification/independent-validation-summary.json",
+    "sha256": "29d4c091133573ded0dd330a2971b7db6b6ca9822e2d35f31c92806b6112462c"
+  }
+}

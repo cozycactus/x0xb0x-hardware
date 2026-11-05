@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "review": "Visual inspection of all seven current PNGs",
+  "scene_sha256": "35a4d9d6c5a7d926076420a7b0b384c26d2e2933dea00f48b2a7b193ec11ad1d",
+  "images": {
+    "assembled": {
+      "path": "assembled.png",
+      "sha256": "aaa25b306f64e7bfbdddb9c32ea76dc4e8929965ecab329d5b1fdbef53957903"
+    },
+    "exploded": {
+      "path": "exploded.png",
+      "sha256": "f2d72d10398ef3b53f6ce3a2493ef0acb1acdd12146c59970f1dc040fea31ef4"
+    },
+    "control-side": {
+      "path": "control-side.png",
+      "sha256": "f702ffb1470f399733d205ef042f721d620ce209743c600a47978e5935306d5a"
+    },
+    "jfet-q128-after": {
+      "path": "jfet-q128-after.png",
+      "sha256": "236b981b0f8e9d27686f4a7110132cd59f4bdac22785143bbd4c96b02172dfe5"
+    },
+    "jfet-q128-before": {
+      "path": "jfet-q128-before.png",
+      "sha256": "56bf39e6235e9147501896c82ea5968f8b2948e2d12db9ffd2ec481ba40204a8"
+    },
+    "jfet-q139-after": {
+      "path": "jfet-q139-after.png",
+      "sha256": "7b293a0e7bd1f4a3e0542aab1ba9a6b195ffca2154beb284492fd17afd5bcc45"
+    },
+    "jfet-q139-before": {
+      "path": "jfet-q139-before.png",
+      "sha256": "203644e771d811db72b79d0c970802c4fecdabb792ad7a4a310f2b567119abf1"
+    }
+  },
+  "observations": [
+    "Same-camera details show each chip on its lands, the do-not-place TO-92 holes empty with their pads, and the chip's neighbours; Q139's pin-1 mark shows, and a resistor lead crosses in front of Q128's pin-1 end in its view",
+    "The before images show the TO-92 JFET standing in those holes, with the earlier silkscreen and no lands beside it",
+    "Q128 stands between the standing resistors and C33, with no overlap visible; Q139 stands on open board beside IC12",
+    "At a 2% tolerance the assembled view has no changed pixel, the control-side view 245, at the holes of Q28 and Q39, and the exploded view 1339, mostly where the JFETs are gone, with scattered edge pixels on the board"
+  ],
+  "physical_fit_qualified": false
+}

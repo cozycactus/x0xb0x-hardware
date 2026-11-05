@@ -1,0 +1,178 @@
+{
+  "passed": true,
+  "check_count": 16,
+  "checks": [
+    {
+      "check": "Both frozen files match recorded hashes",
+      "passed": true
+    },
+    {
+      "check": "Exactly the 4 chip objects are added and the 4 JFET objects removed; 1721 objects stored",
+      "passed": true
+    },
+    {
+      "check": "The mainboard source collection lists exactly those changes",
+      "passed": true
+    },
+    {
+      "check": "Only declared objects, the layer meshes, materials and metadata change",
+      "passed": true,
+      "unexpected": []
+    },
+    {
+      "check": "All 2 chips stand at their KiCad positions and rotations",
+      "passed": true,
+      "positions": {
+        "Q128": {
+          "kicad_mm": [
+            161.4,
+            -157.1,
+            90.0
+          ],
+          "scene_mm": [
+            161.40000522136688,
+            157.10000693798065,
+            1.5950000379234552
+          ],
+          "offset_mm": 6.937980657539811e-06,
+          "rotation_error": 1.3435885654628297e-07
+        },
+        "Q139": {
+          "kicad_mm": [
+            208.1,
+            -156.0,
+            -90.0
+          ],
+          "scene_mm": [
+            208.10000598430634,
+            156.00000321865082,
+            1.5950000379234552
+          ],
+          "offset_mm": 5.984306341133561e-06,
+          "rotation_error": 1.3435885654628297e-07
+        }
+      }
+    },
+    {
+      "check": "All 2 chip meshes and both removed JFETs match the recorded native geometry",
+      "passed": true
+    },
+    {
+      "check": "All 8 mainboard layer meshes match the recorded old and new geometry and keep their scene material",
+      "passed": true
+    },
+    {
+      "check": "Every I/O board layer mesh is unchanged",
+      "passed": true,
+      "count": 16
+    },
+    {
+      "check": "Every previous material is retained exactly, except those used only by the removed JFETs",
+      "passed": true,
+      "retired": [],
+      "retired_users": {}
+    },
+    {
+      "check": "Exactly 3 materials are added, used only by the chip meshes",
+      "passed": true
+    },
+    {
+      "check": "491 references (409 + 82) with the chips and without the JFETs; 40 LEDs, 40 spacers and 23 caps retained",
+      "passed": true
+    },
+    {
+      "check": "Every other displayed instance pose and legend glyph retained in four frames",
+      "passed": true
+    },
+    {
+      "check": "The chips follow the mainboard, shown exactly when an unchanged neighbour is, in all four frames",
+      "passed": true,
+      "follow": {
+        "1/Q128": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 4.061966762947122e-09
+        },
+        "1/Q139": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 6.7015681892712564e-09
+        },
+        "80/Q128": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 8.118381633615002e-09
+        },
+        "80/Q139": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 1.1737049998572502e-08
+        },
+        "120/Q128": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 4.06197386837448e-09
+        },
+        "120/Q139": {
+          "instances": 1,
+          "neighbour_instances": 1,
+          "error": 7.439860671976106e-09
+        },
+        "160/Q128": {
+          "instances": 0,
+          "neighbour_instances": 0,
+          "error": 0.0
+        },
+        "160/Q139": {
+          "instances": 0,
+          "neighbour_instances": 0,
+          "error": 0.0
+        }
+      }
+    },
+    {
+      "check": "Only one current opening guide added",
+      "passed": true
+    },
+    {
+      "check": "All rear passages remain clear",
+      "passed": true
+    },
+    {
+      "check": "Frozen scene files and the PCB remain byte-identical after audit",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "stable_scene_sha256": "35a4d9d6c5a7d926076420a7b0b384c26d2e2933dea00f48b2a7b193ec11ad1d",
+  "baseline_sha256": "654bc65b846f42b2b9003bf42155ac853ed69aa58484dc7b0496a2bab17dfb1c",
+  "frames": 4,
+  "native_reference_count": 491,
+  "stored_object_count": 1721,
+  "added_references": [
+    "MAINBOARD/Q128",
+    "MAINBOARD/Q139"
+  ],
+  "removed_do_not_place_references": [
+    "MAINBOARD/Q28",
+    "MAINBOARD/Q39"
+  ],
+  "changed_layer_meshes": [
+    "MAINBOARD/PCB layers/mesh",
+    "MAINBOARD/PCB layers/mesh.001",
+    "MAINBOARD/PCB layers/mesh.002",
+    "MAINBOARD/PCB layers/mesh.003",
+    "MAINBOARD/PCB layers/mesh.004",
+    "MAINBOARD/PCB layers/mesh.005",
+    "MAINBOARD/PCB layers/mesh.006",
+    "MAINBOARD/PCB layers/mesh.007"
+  ],
+  "added_materials": [
+    "SC-59 body \u2014 revision 29 (native KiCad colour)",
+    "SC-59 leads \u2014 revision 29 (native KiCad colour)",
+    "SC-59 pin-1 mark \u2014 revision 29 (native KiCad colour)"
+  ],
+  "retired_materials": [],
+  "read_only": true,
+  "physical_fit_qualified": false
+}

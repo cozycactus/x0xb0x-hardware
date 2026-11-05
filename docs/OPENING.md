@@ -6,10 +6,10 @@ The editable projects were verified with KiCad 10.0.7 and Blender 5.2.2 LTS on m
 
 1. Sign into the GitHub account that has access to this private repository. Download and extract the complete repository, or clone it using Git.
 2. For the main PCB, open `kicad-working/mainboard/mainboard.kicad_pro` in KiCad. For the I/O PCB, open `kicad-working/ioboard/ioboard.kicad_pro`. Each project includes its schematic, PCB, symbols, footprints and models; keep its folder contents together.
-3. To inspect the complete enclosure, open `kicad-working/visualization/blender-case-revision-28/x0xb0x-populated-with-case.blend` in Blender. The board geometry is embedded. The omitted board GLB exports are not needed to view it.
+3. To inspect the complete enclosure, open `kicad-working/visualization/blender-case-revision-29/x0xb0x-populated-with-case.blend` in Blender. The board geometry is embedded. The omitted board GLB exports are not needed to view it.
 4. Select frame 1 for the assembled case, frame 80 for the exploded assembly, frame 120 for control-side inspection, or frame 160 for the wiring study. Button caps are intentionally hidden in the two inspection views.
 
-The mainboard shows the four SOT-363 chips Q112, Q121, Q122 and Q126. The SIP pairs Q12, Q21, Q22 and Q26 are marked do-not-place in KiCad and left out, so their holes stand empty; revision 27 still shows them. All 40 LED lenses belong to PCB-mounted LED assemblies. All 23 button caps stay attached to the PCB switches when the case is exploded. The external spacer mold, cap sockets and switch travel remain unmodeled; alignment in the scene does not certify physical fit.
+The mainboard shows the four SOT-363 chips Q112, Q121, Q122 and Q126 and the two SC-59 chips Q128 and Q139. The SIP pairs Q12, Q21, Q22 and Q26 and the JFETs Q28 and Q39 are marked do-not-place in KiCad and left out, so their holes stand empty; revision 27 still shows the pairs and revision 28 the JFETs. All 40 LED lenses belong to PCB-mounted LED assemblies. All 23 button caps stay attached to the PCB switches when the case is exploded. The external spacer mold, cap sockets and switch travel remain unmodeled; alignment in the scene does not certify physical fit.
 
 ## Optional verification
 
@@ -26,7 +26,7 @@ All three commands print JSON with a `passed` result and return a nonzero exit s
 To inspect the saved scene with native Blender, run:
 
 ```sh
-blender --background kicad-working/visualization/blender-case-revision-28/x0xb0x-populated-with-case.blend \
+blender --background kicad-working/visualization/blender-case-revision-29/x0xb0x-populated-with-case.blend \
   --python-exit-code 1 --python scripts/verify_blender_scene.py
 ```
 

@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "frame": 1,
+  "declared": [],
+  "q128_r105": {
+    "chip_mesh_gap_mm": 0.421,
+    "triangle_pairs": 0,
+    "nearest_land_plan_gap_mm": 0.081,
+    "nearest_land": "3",
+    "fit_check_body_gap_mm": 0.26,
+    "fit_check_land_gap_mm": 0.08
+  },
+  "fit_check_touching_the_chip_box": [
+    "Q126-R100A0"
+  ],
+  "fit_check_difference": "fit_check.py measures from a neighbour to boxes built from the largest sizes in the Toshiba S-Mini drawing. The chip-mesh gap here is to the stock KiCad SC-59 model, whose body is a little smaller, so it can read wider.",
+  "chip_contacts": [],
+  "removed_with_the_jfets": [],
+  "smallest_gap_per_chip": {
+    "MAINBOARD/Q128": {
+      "other": "MAINBOARD/C33",
+      "gap_mm": 0.348
+    },
+    "MAINBOARD/Q139": {
+      "other": "MAINBOARD/IC12",
+      "gap_mm": 1.53
+    }
+  },
+  "smallest_land_gap_per_chip": {
+    "MAINBOARD/Q128": {
+      "land": "3",
+      "other": "MAINBOARD/R105",
+      "plan_gap_mm": 0.081
+    },
+    "MAINBOARD/Q139": {
+      "land": "3",
+      "other": "MAINBOARD/IC12",
+      "plan_gap_mm": 0.946
+    }
+  },
+  "neighbours": [
+    {
+      "target": "MAINBOARD/Q128",
+      "other": "MAINBOARD/C33",
+      "mesh": "MAINBOARD/C33/mesh",
+      "gap_mm": 0.348,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q128",
+      "other": "MAINBOARD/R118",
+      "mesh": "MAINBOARD/R118/mesh",
+      "gap_mm": 1.31,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q128",
+      "other": "MAINBOARD/R105",
+      "mesh": "MAINBOARD/R105/mesh",
+      "gap_mm": 0.421,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q128",
+      "other": "mainpanel \u2014 exact DXF profile",
+      "mesh": "mainpanel \u2014 exact DXF profile",
+      "gap_mm": 13.501,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q128",
+      "other": "PacTec PT-10 upper cover",
+      "mesh": "PacTec PT-10 upper cover",
+      "gap_mm": 20.895,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q139",
+      "other": "MAINBOARD/IC12",
+      "mesh": "MAINBOARD/IC12/mesh",
+      "gap_mm": 1.53,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q139",
+      "other": "MAINBOARD/S1",
+      "mesh": "MAINBOARD/S1/mesh",
+      "gap_mm": 1.838,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q139",
+      "other": "MAINBOARD/S1",
+      "mesh": "MAINBOARD/S1/mesh.001",
+      "gap_mm": 2.465,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q139",
+      "other": "mainpanel \u2014 exact DXF profile",
+      "mesh": "mainpanel \u2014 exact DXF profile",
+      "gap_mm": 13.501,
+      "triangle_pairs": 0
+    },
+    {
+      "target": "MAINBOARD/Q139",
+      "other": "PacTec PT-10 upper cover",
+      "mesh": "PacTec PT-10 upper cover",
+      "gap_mm": 21.778,
+      "triangle_pairs": 0
+    }
+  ],
+  "land_gaps": [
+    {
+      "chip": "MAINBOARD/Q128",
+      "land": "3",
+      "other": "MAINBOARD/R105",
+      "mesh": "MAINBOARD/R105/mesh",
+      "plan_gap_mm": 0.081
+    },
+    {
+      "chip": "MAINBOARD/Q128",
+      "land": "2",
+      "other": "MAINBOARD/C33",
+      "mesh": "MAINBOARD/C33/mesh",
+      "plan_gap_mm": 0.282
+    },
+    {
+      "chip": "MAINBOARD/Q128",
+      "land": "1",
+      "other": "MAINBOARD/R105",
+      "mesh": "MAINBOARD/R105/mesh",
+      "plan_gap_mm": 0.611
+    },
+    {
+      "chip": "MAINBOARD/Q139",
+      "land": "3",
+      "other": "MAINBOARD/IC12",
+      "mesh": "MAINBOARD/IC12/mesh",
+      "plan_gap_mm": 0.946
+    },
+    {
+      "chip": "MAINBOARD/Q128",
+      "land": "3",
+      "other": "MAINBOARD/C33",
+      "mesh": "MAINBOARD/C33/mesh",
+      "plan_gap_mm": 1.232
+    },
+    {
+      "chip": "MAINBOARD/Q128",
+      "land": "1",
+      "other": "MAINBOARD/R118",
+      "mesh": "MAINBOARD/R118/mesh",
+      "plan_gap_mm": 1.41
+    }
+  ],
+  "headroom_above_chip_mm": {
+    "MAINBOARD/Q128": 7.71,
+    "MAINBOARD/Q139": 35.97
+  },
+  "part_above_chip": {
+    "MAINBOARD/Q128": "MAINBOARD/R105",
+    "MAINBOARD/Q139": "IOBOARD/R22"
+  },
+  "baseline_scene_sha256": "654bc65b846f42b2b9003bf42155ac853ed69aa58484dc7b0496a2bab17dfb1c",
+  "current_scene_sha256": "35a4d9d6c5a7d926076420a7b0b384c26d2e2933dea00f48b2a7b193ec11ad1d",
+  "read_only": true,
+  "physical_fit_qualified": false,
+  "method": "Rendered chip meshes versus other component, panel and enclosure meshes within a 2 mm box at frame 1; own geometry and PCB layers excluded. Contact = triangle overlap, or a nearest-surface gap under 0.005 mm, from the vertices and from surface points 0.02 mm apart, both ways. Headroom = free distance along the board normal from the 60 highest vertices to any other visible mesh. Land gap = plan distance from the PCB file's pad rectangle, corners not rounded, to the neighbour's surface up to the chip's height plus 0.3 mm, as in fit_check.py."
+}

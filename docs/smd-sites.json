@@ -305,7 +305,7 @@
   },
   "limits": [
    "Q28's printed label runs under Q128's body and across its drain land; the fab clips silkscreen at pads, and the original text was not moved.",
-   "Blender revision 28 has neither chip and still shows Q28 and Q39, so scripts/verify_kicad_blender_models.py no longer matches.",
+   "Blender revision 29 has both chips and leaves Q28 and Q39 out; see docs/blender-jfet-sites.json",
    "The signal-integrity study in ../x0xb0x-si-emc covers revision 29, not these two sites."
   ]
  }
